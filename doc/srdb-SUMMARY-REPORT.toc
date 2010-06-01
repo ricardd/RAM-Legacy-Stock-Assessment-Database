@@ -1,0 +1,82 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Contacts}{3}
+\contentsline {chapter}{\numberline {2}Summary plots}{4}
+\contentsline {section}{\numberline {2.1}Beryciformes}{5}
+\contentsline {subsection}{\numberline {2.1.1}Trachichthyidae}{5}
+\contentsline {subsubsection}{Hoplostethus atlanticus - Orange roughy}{5}
+\contentsline {section}{\numberline {2.2}Clupeiformes}{6}
+\contentsline {subsection}{\numberline {2.2.1}Clupeidae}{6}
+\contentsline {subsubsection}{Clupea harengus - Herring}{6}
+\contentsline {subsubsection}{Clupea harengus - Herring}{7}
+\contentsline {subsubsection}{Clupea harengus - Herring}{8}
+\contentsline {subsubsection}{Clupea harengus - Herring}{9}
+\contentsline {subsubsection}{Clupea harengus - Herring}{10}
+\contentsline {subsubsection}{Clupea harengus - Herring}{11}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{12}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{13}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{14}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{15}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{16}
+\contentsline {subsubsection}{Sardina pilchardus - European pilchard}{17}
+\contentsline {subsubsection}{Sprattus sprattus - Sprat}{18}
+\contentsline {subsection}{\numberline {2.2.2}Engraulidae}{19}
+\contentsline {subsubsection}{Engraulis anchoita - Argentine anchoita}{19}
+\contentsline {subsubsection}{Engraulis anchoita - Argentine anchoita}{20}
+\contentsline {subsubsection}{Engraulis encrasicolus - Anchovy}{21}
+\contentsline {section}{\numberline {2.3}Decapoda}{22}
+\contentsline {subsection}{\numberline {2.3.1}Nephropidae}{22}
+\contentsline {subsubsection}{Homarus americanus - American lobster}{22}
+\contentsline {section}{\numberline {2.4}Gadiformes}{23}
+\contentsline {subsection}{\numberline {2.4.1}Gadidae}{23}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{23}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{24}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{25}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{26}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{27}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{28}
+\contentsline {subsubsection}{Merlangius merlangus - Whiting}{29}
+\contentsline {subsubsection}{Micromesistius australis - Southern blue whiting}{30}
+\contentsline {subsubsection}{Micromesistius poutassou - Blue whiting}{31}
+\contentsline {subsection}{\numberline {2.4.2}Merlucciidae}{32}
+\contentsline {subsubsection}{Macruronus magellanicus - Patagonian grenadier}{32}
+\contentsline {subsubsection}{Merluccius hubbsi - Argentine hake}{33}
+\contentsline {subsubsection}{Merluccius hubbsi - Argentine hake}{34}
+\contentsline {subsubsection}{Merluccius merluccius - Hake}{35}
+\contentsline {subsubsection}{Merluccius merluccius - Hake}{36}
+\contentsline {section}{\numberline {2.5}Perciformes}{37}
+\contentsline {subsection}{\numberline {2.5.1}Gempylidae}{37}
+\contentsline {subsubsection}{Rexea solandri - common gemfish}{37}
+\contentsline {subsection}{\numberline {2.5.2}Labridae}{38}
+\contentsline {subsubsection}{Tautoga onitis - Tautog}{38}
+\contentsline {subsection}{\numberline {2.5.3}Scombridae}{39}
+\contentsline {subsubsection}{Scomber scombrus - Mackerel}{39}
+\contentsline {section}{\numberline {2.6}Pleuronectiformes}{40}
+\contentsline {subsection}{\numberline {2.6.1}Pleuronectidae}{40}
+\contentsline {subsubsection}{Hippoglossus stenolepis - Pacific halibut}{40}
+\contentsline {subsubsection}{Lepidopsetta bilineata - Rock sole}{41}
+\contentsline {subsubsection}{Parophrys vetulus - English sole}{42}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{43}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{44}
+\contentsline {subsubsection}{Pseudopleuronectes americanus - Winter flounder}{45}
+\contentsline {subsubsection}{Reinhardtius hippoglossoides - Greenland halibut}{46}
+\contentsline {subsubsection}{Reinhardtius stomias - Arrowtooth flounder}{47}
+\contentsline {subsection}{\numberline {2.6.2}Scophthalmidae}{48}
+\contentsline {subsubsection}{Lepidorhombus boscii - Fourspotted megrim}{48}
+\contentsline {subsubsection}{Lepidorhombus whiffiagonis - Megrim}{49}
+\contentsline {subsection}{\numberline {2.6.3}Soleidae}{50}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{50}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{51}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{52}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{53}
+\contentsline {section}{\numberline {2.7}Scorpaeniformes}{54}
+\contentsline {subsection}{\numberline {2.7.1}Scorpaenidae}{54}
+\contentsline {subsubsection}{Sebastes crameri - Darkblotched rockfish}{54}
+\contentsline {subsubsection}{Sebastes melanops - Black rockfish}{55}
+\contentsline {subsubsection}{Sebastes melanops - Black rockfish}{56}
+\contentsline {chapter}{\numberline {3}Summary tables}{57}
+\contentsline {section}{\numberline {3.1}Contributors}{57}
+\contentsline {section}{\numberline {3.2}Number of assessments per family}{57}
+\contentsline {section}{\numberline {3.3}Number of assessments per species}{57}
+\contentsline {section}{\numberline {3.4}Number of assessments per jurisdiction}{57}
+\contentsline {section}{\numberline {3.5}Reference material for each assessment}{57}
+\contentsline {Chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . }{57}

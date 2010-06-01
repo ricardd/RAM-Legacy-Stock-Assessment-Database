@@ -1,0 +1,228 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}Contacts}{5}
+\contentsline {chapter}{\numberline {2}Stock-recruitment database summary tables}{6}
+\contentsline {section}{\numberline {2.1}Number of assessments per species}{6}
+\contentsline {section}{\numberline {2.2}Number of assessments per stock}{8}
+\contentsline {chapter}{\numberline {3}Summary plots}{12}
+\contentsline {section}{\numberline {3.1}Template plots with descriptions}{12}
+\contentsline {section}{\numberline {3.2}Carcharhiniformes}{14}
+\contentsline {subsection}{\numberline {3.2.1}Carcharhinidae}{14}
+\contentsline {subsubsection}{Carcharhinus acronotus - Blacknose shark}{14}
+\contentsline {subsubsection}{Carcharhinus limbatus - Blacktip shark}{15}
+\contentsline {subsubsection}{Carcharhinus plumbeus - Sandbar shark}{16}
+\contentsline {subsubsection}{Rhizoprionodon terraenovae - Atlantic sharpnose shark}{17}
+\contentsline {subsection}{\numberline {3.2.2}Sphyrnidae}{18}
+\contentsline {subsubsection}{Sphyrna tiburo - Bonnethead shark}{18}
+\contentsline {section}{\numberline {3.3}Clupeiformes}{19}
+\contentsline {subsection}{\numberline {3.3.1}Clupeidae}{19}
+\contentsline {subsubsection}{Clupea harengus - Herring}{19}
+\contentsline {subsubsection}{Clupea harengus - Herring}{20}
+\contentsline {subsubsection}{Clupea harengus - Herring}{21}
+\contentsline {subsubsection}{Clupea harengus - Herring}{22}
+\contentsline {subsubsection}{Clupea harengus - Herring}{23}
+\contentsline {subsubsection}{Clupea harengus - Herring}{24}
+\contentsline {subsubsection}{Clupea harengus - Herring}{25}
+\contentsline {subsubsection}{Clupea harengus - Herring}{26}
+\contentsline {subsubsection}{Clupea harengus - Herring}{27}
+\contentsline {subsubsection}{Clupea harengus - Herring}{28}
+\contentsline {subsubsection}{Clupea harengus - Herring}{29}
+\contentsline {subsubsection}{Clupea harengus - Herring}{30}
+\contentsline {subsubsection}{Clupea harengus - Herring}{31}
+\contentsline {subsubsection}{Clupea harengus - Herring}{32}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{33}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{34}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{35}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{36}
+\contentsline {subsubsection}{Clupea pallasii - Pacific herring}{37}
+\contentsline {subsubsection}{Sprattus sprattus - Sprat}{38}
+\contentsline {section}{\numberline {3.4}Decapoda}{39}
+\contentsline {subsection}{\numberline {3.4.1}Lithodidae}{39}
+\contentsline {subsection}{\numberline {3.4.2}Nephropidae}{39}
+\contentsline {subsubsection}{Homarus americanus - American lobster}{39}
+\contentsline {subsection}{\numberline {3.4.3}Oregoniidae}{40}
+\contentsline {subsubsection}{Chionoecetes opilio - Snow crab}{40}
+\contentsline {section}{\numberline {3.5}Gadiformes}{41}
+\contentsline {subsection}{\numberline {3.5.1}Gadidae}{41}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{41}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{42}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{43}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{44}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{45}
+\contentsline {subsubsection}{Gadus macrocephalus - Pacific cod}{46}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{47}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{48}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{49}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{50}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{51}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{52}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{53}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{54}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{55}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{56}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{57}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{58}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{59}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{60}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{61}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{62}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{63}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{64}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{65}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{66}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{67}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{68}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{69}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{70}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{71}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{72}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{73}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{74}
+\contentsline {subsubsection}{Gadus morhua - Atlantic cod}{75}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{76}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{77}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{78}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{79}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{80}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{81}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{82}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{83}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{84}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{85}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{86}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{87}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{88}
+\contentsline {subsubsection}{Melanogrammus aeglefinus - Haddock}{89}
+\contentsline {subsubsection}{Merlangius merlangus - Whiting}{90}
+\contentsline {subsubsection}{Merlangius merlangus - Whiting}{91}
+\contentsline {subsubsection}{Merlangius merlangus - Whiting}{92}
+\contentsline {subsubsection}{Merlangius merlangus - Whiting}{93}
+\contentsline {subsubsection}{Pollachius virens - Pollock}{94}
+\contentsline {subsubsection}{Pollachius virens - Pollock}{95}
+\contentsline {subsubsection}{Pollachius virens - Pollock}{96}
+\contentsline {subsubsection}{Pollachius virens - Pollock}{97}
+\contentsline {subsubsection}{Pollachius virens - Pollock}{98}
+\contentsline {subsubsection}{Theragra chalcogramma - Walleye pollock}{99}
+\contentsline {subsubsection}{Trisopterus esmarkii - Norway Pout}{100}
+\contentsline {subsubsection}{Trisopterus esmarkii - Norway Pout}{101}
+\contentsline {subsection}{\numberline {3.5.2}Merlucciidae}{102}
+\contentsline {subsubsection}{Macruronus novaezelandiae - Hoki}{102}
+\contentsline {subsubsection}{Macruronus novaezelandiae - Hoki}{103}
+\contentsline {subsubsection}{Merluccius productus - Pacific hake}{104}
+\contentsline {subsubsection}{Merluccius productus - Pacific hake}{105}
+\contentsline {section}{\numberline {3.6}Lophiiformes}{106}
+\contentsline {subsection}{\numberline {3.6.1}Lophiidae}{106}
+\contentsline {subsubsection}{Lophius americanus - Monkfish}{106}
+\contentsline {subsubsection}{Lophius americanus - Monkfish}{107}
+\contentsline {section}{\numberline {3.7}Ophidiiformes}{108}
+\contentsline {subsection}{\numberline {3.7.1}Ophidiidae}{108}
+\contentsline {subsubsection}{Genypterus blacodes - Australian rockling}{108}
+\contentsline {subsubsection}{Genypterus blacodes - Australian rockling}{109}
+\contentsline {section}{\numberline {3.8}Osmeriformes}{110}
+\contentsline {subsection}{\numberline {3.8.1}Osmeridae}{110}
+\contentsline {subsubsection}{Mallotus villosus - Capelin}{110}
+\contentsline {subsubsection}{Mallotus villosus - Capelin}{111}
+\contentsline {subsubsection}{Mallotus villosus - Capelin}{112}
+\contentsline {section}{\numberline {3.9}Ostreoida}{113}
+\contentsline {subsection}{\numberline {3.9.1}Pectinidae}{113}
+\contentsline {subsubsection}{Placopecten magellanicus - Sea scallop}{113}
+\contentsline {section}{\numberline {3.10}Perciformes}{114}
+\contentsline {subsection}{\numberline {3.10.1}Ammodytidae}{114}
+\contentsline {subsubsection}{Ammodytes marinus - Sand eel}{114}
+\contentsline {subsection}{\numberline {3.10.2}Centrolophidae}{115}
+\contentsline {subsubsection}{Seriolella punctata - Silverfish}{115}
+\contentsline {subsection}{\numberline {3.10.3}Cheilodactylidae}{116}
+\contentsline {subsubsection}{Nemadactylus macropterus - Hawaiian morwong}{116}
+\contentsline {subsection}{\numberline {3.10.4}Gempylidae}{117}
+\contentsline {subsubsection}{Rexea solandri - common gemfish}{117}
+\contentsline {subsection}{\numberline {3.10.5}Labridae}{118}
+\contentsline {subsubsection}{Tautoga onitis - Tautog}{118}
+\contentsline {subsection}{\numberline {3.10.6}Lutjanidae}{119}
+\contentsline {subsubsection}{Lutjanus campechanus - Red snapper}{119}
+\contentsline {subsubsection}{Lutjanus campechanus - Red snapper}{120}
+\contentsline {subsubsection}{Rhomboplites aurorubens - Vermilion snapper}{121}
+\contentsline {subsection}{\numberline {3.10.7}Moronidae}{122}
+\contentsline {subsubsection}{Morone saxatilis - Striped bass}{122}
+\contentsline {subsection}{\numberline {3.10.8}Pomatomidae}{123}
+\contentsline {subsection}{\numberline {3.10.9}Scombridae}{123}
+\contentsline {subsubsection}{Scomberomorus cavalla - King Mackerel}{123}
+\contentsline {subsubsection}{Scomberomorus cavalla - King Mackerel}{124}
+\contentsline {subsubsection}{Scomberomorus maculatus - Spanish mackerel}{125}
+\contentsline {subsubsection}{Scomberomorus maculatus - Spanish mackerel}{126}
+\contentsline {subsubsection}{Scomber scombrus - Mackerel}{127}
+\contentsline {subsubsection}{Thunnus alalunga - Albacore tuna}{128}
+\contentsline {subsubsection}{Thunnus albacares - Yellowfin tuna}{129}
+\contentsline {subsection}{\numberline {3.10.10}Sillaginidae}{130}
+\contentsline {subsubsection}{Sillago flindersi - School whiting}{130}
+\contentsline {subsection}{\numberline {3.10.11}Stromateidae}{131}
+\contentsline {subsubsection}{Peprilus triacanthus - Atlantic butterfish}{131}
+\contentsline {section}{\numberline {3.11}Pleuronectiformes}{132}
+\contentsline {subsection}{\numberline {3.11.1}Paralichthyidae}{132}
+\contentsline {subsubsection}{Paralichthys dentatus - Summer flounder}{132}
+\contentsline {subsection}{\numberline {3.11.2}Pleuronectidae}{133}
+\contentsline {subsubsection}{Glyptocephalus cynoglossus - Witch flounder}{133}
+\contentsline {subsubsection}{Glyptocephalus zachirus - Rex sole}{134}
+\contentsline {subsubsection}{Hippoglossoides elassodon - Flathead sole}{135}
+\contentsline {subsubsection}{Hippoglossoides platessoides - American plaice}{136}
+\contentsline {subsubsection}{Hippoglossoides platessoides - American plaice}{137}
+\contentsline {subsubsection}{Hippoglossoides platessoides - American plaice}{138}
+\contentsline {subsubsection}{Hippoglossoides platessoides - American plaice}{139}
+\contentsline {subsubsection}{Hippoglossoides platessoides - American plaice}{140}
+\contentsline {subsubsection}{Lepidopsetta polyxystra - Northern rock sole}{141}
+\contentsline {subsubsection}{Limanda ferruginea - Yellowtail flounder}{142}
+\contentsline {subsubsection}{Limanda ferruginea - Yellowtail flounder}{143}
+\contentsline {subsubsection}{Limanda ferruginea - Yellowtail flounder}{144}
+\contentsline {subsubsection}{Limanda ferruginea - Yellowtail flounder}{145}
+\contentsline {subsubsection}{Microstomus pacificus - Dover sole}{146}
+\contentsline {subsubsection}{Parophrys vetulus - English sole}{147}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{148}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{149}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{150}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{151}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{152}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{153}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{154}
+\contentsline {subsubsection}{Pleuronectes platessa - European Plaice}{155}
+\contentsline {subsubsection}{Pseudopleuronectes americanus - Winter flounder}{156}
+\contentsline {subsubsection}{Pseudopleuronectes americanus - Winter flounder}{157}
+\contentsline {subsubsection}{Pseudopleuronectes americanus - Winter flounder}{158}
+\contentsline {subsubsection}{Reinhardtius hippoglossoides - Greenland halibut}{159}
+\contentsline {subsubsection}{Reinhardtius hippoglossoides - Greenland halibut}{160}
+\contentsline {subsubsection}{Reinhardtius hippoglossoides - Greenland halibut}{161}
+\contentsline {subsubsection}{Reinhardtius stomias - Arrowtooth flounder}{162}
+\contentsline {subsubsection}{Reinhardtius stomias - Arrowtooth flounder}{163}
+\contentsline {subsection}{\numberline {3.11.3}Soleidae}{164}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{164}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{165}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{166}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{167}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{168}
+\contentsline {subsubsection}{Solea vulgaris - common European sole}{169}
+\contentsline {section}{\numberline {3.12}Rajiformes}{170}
+\contentsline {subsection}{\numberline {3.12.1}Rajidae}{170}
+\contentsline {subsubsection}{Raja rhina - Longnose skate}{170}
+\contentsline {section}{\numberline {3.13}Scorpaeniformes}{171}
+\contentsline {subsection}{\numberline {3.13.1}Anoplopomatidae}{171}
+\contentsline {subsubsection}{Anoplopoma fimbria - Sablefish}{171}
+\contentsline {subsection}{\numberline {3.13.2}Platycephalidae}{172}
+\contentsline {subsubsection}{Neoplatycephalus richardsoni - Tiger flathead}{172}
+\contentsline {subsection}{\numberline {3.13.3}Scorpaenidae}{173}
+\contentsline {subsubsection}{Sebastes aleutianus - Rougheye rockfish}{173}
+\contentsline {subsubsection}{Sebastes alutus - Pacific ocean perch}{174}
+\contentsline {subsubsection}{Sebastes ciliatus - Dusky rockfish}{175}
+\contentsline {subsubsection}{Sebastes crameri - Darkblotched rockfish}{176}
+\contentsline {subsubsection}{Sebastes entomelas - Widow rockfish}{177}
+\contentsline {subsubsection}{Sebastes fasciatus - Acadian redfish}{178}
+\contentsline {subsubsection}{Sebastes goodei - Chilipepper rockfish}{179}
+\contentsline {subsubsection}{Sebastes levis - Cowcod}{180}
+\contentsline {subsubsection}{Sebastes melanops - Black rockfish}{181}
+\contentsline {subsubsection}{Sebastes mentella - Deepwater redfish}{182}
+\contentsline {subsubsection}{Sebastes mystinus - Blue rockfish}{183}
+\contentsline {subsubsection}{Sebastes norvegicus - Golden Redfish}{184}
+\contentsline {subsubsection}{Sebastes paucispinis - Bocaccio}{185}
+\contentsline {subsubsection}{Sebastes pinniger - Canary rockfish}{186}
+\contentsline {subsubsection}{Sebastes polyspinis - Northern rockfish}{187}
+\contentsline {subsubsection}{Sebastes ruberrimus - Yelloweye rockfish}{188}
+\contentsline {section}{\numberline {3.14}Tetraodontiformes}{189}
+\contentsline {subsection}{\numberline {3.14.1}Balistidae}{189}
+\contentsline {subsubsection}{Balistes capriscus - Gray triggerfish}{189}
+\contentsline {Chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . }{190}

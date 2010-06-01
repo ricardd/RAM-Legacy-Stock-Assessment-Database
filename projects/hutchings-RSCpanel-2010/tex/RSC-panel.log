@@ -1,0 +1,1377 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.19)  26 MAR 2010 15:08
+entering extended mode
+ %&-line parsing enabled.
+**RSC-panel
+(./RSC-panel.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk10.clo
+File: bk10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count88
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count89
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2006/08/12 v0.4a Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count95
+\calc@Bcount=\count96
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count97
+\calc@Cskip=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/everyshi/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2006/08/12 v0.4a Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@toc@title=\toks18
+\c@AM@survey=\count98
+)
+\@indexfile=\write3
+\openout3 = `RSC-panel.idx'.
+
+
+Writing index file RSC-panel.idx
+(./RSC-panel.aux (./RSC-DFOstocks.aux))
+\openout1 = `RSC-panel.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 19.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./RSC-panel.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `RSC-panel.toc'.
+
+ [1
+
+]
+Chapter 1.
+[2
+
+]
+Chapter 2.
+[3
+
+]
+\openout2 = `RSC-DFOstocks.aux'.
+
+ (./RSC-DFOstocks.tex
+<../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, id=25, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 1> [4
+
+ <../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, id=40, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf, page 2> [5 <../..
+/../tex/DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, id=53, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 1> [6 <../..
+/../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, id=65, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf, page 2> [7 <../..
+/../tex/DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, id=78, page=1, 597.508
+29pt x 845.0471pt>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 1> [8 <../../
+../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, id=89, page=2, 597.508
+29pt x 845.0471pt>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf, page 2> [9 <../../
+../tex/DFO-SG-HERR4TFA-1978-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, id=101, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 1> [10 <../..
+/../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, id=112, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf, page 2> [11 <../..
+/../tex/DFO-SG-HERR4TSP-1978-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, id=124, page=1, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 1> [12 <../../..
+/tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf>]
+<../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, id=136, page=2, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf, page 2> [13 <../../..
+/tex/DFO-HERR4VWX-1965-2006-PREFONTAINE.pdf>]
+<../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, id=149, page=1, 597.50829pt 
+x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+ <use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 1> [14 <../../../te
+x/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, id=160, page=2, 597.50829pt 
+x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+ <use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf, page 2> [15 <../../../te
+x/DFO-PAC-HERRCC-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, id=173, page=1, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 1> [16 <../../../t
+ex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, id=184, page=2, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf, page 2> [17 <../../../t
+ex/DFO-PAC-HERRPRD-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, id=197, page=1, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 1> [18 <../../../t
+ex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, id=209, page=2, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf, page 2> [19 <../../../t
+ex/DFO-PAC-HERRQCI-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, id=222, page=1, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 1> [20 <../../../t
+ex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, id=233, page=2, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf, page 2> [21 <../../../t
+ex/DFO-PAC-HERRSOG-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, id=246, page=1, 597.5082
+9pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 1> [22 <../../.
+./tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, id=257, page=2, 597.5082
+9pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf, page 2> [23 <../../.
+./tex/DFO-PAC-HERRWCVANI-1951-2007-COLLIE.pdf>]
+<../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, id=270, page=1, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 1>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 1>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 1>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 1>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 1> [24 <../.
+./../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf>]
+<../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, id=282, page=2, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 2>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 2>
+File: ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf, page 2> [25 <../.
+./../tex/DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON.pdf>]
+<../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, id=294, page=1, 597.50829pt 
+x 845.0471pt>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+ <use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 1> [26 <../../../te
+x/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf>]
+<../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, id=320, page=2, 597.50829pt 
+x 845.0471pt>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+ <use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf Graphic file (type pdf)
+
+<use ../../../tex/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf, page 2> [27 <../../../te
+x/DFO-PAC-PCODHS-1956-2005-COLLIE.pdf>]
+<../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, id=332, page=1, 597.5082
+9pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 1> [28 <../../.
+./tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf>]
+<../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, id=352, page=2, 597.5082
+9pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf Graphic file (type p
+df)
+
+<use ../../../tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf, page 2> [29 <../../.
+./tex/DFO-PAC-PCODWCVANI-1956-2002-COLLIE.pdf>]
+<../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, id=364, page=1, 59
+7.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 1>
+[30 <../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, id=376, page=2, 59
+7.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf Graphic file (
+type pdf)
+
+<use ../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf, page 2>
+[31 <../../../tex/DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, id=389, page=1, 597.
+50829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 1> [32 <../
+../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, id=400, page=2, 597.
+50829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf Graphic file (ty
+pe pdf)
+
+<use ../../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf, page 2> [33 <../
+../../tex/DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, id=413, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 1> [34 <../..
+/../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, id=424, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf, page 2> [35 <../..
+/../tex/DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, id=437, page=1, 597.508
+29pt x 845.0471pt>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 1> [36 <../../
+../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, id=449, page=2, 597.508
+29pt x 845.0471pt>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf Graphic file (type 
+pdf)
+
+<use ../../../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf, page 2> [37 <../../
+../tex/DFO-SG-COD4TVn-1965-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, id=462, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 1> [38 <../..
+/../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf>]
+<../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, id=473, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf, page 2> [39 <../..
+/../tex/DFO-MAR-COD4VsW-1958-2002-PREFONTAINE.pdf>]
+<../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, id=485, page=1, 597.50829p
+t x 845.0471pt>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 1> [40 <../../../
+tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, id=496, page=2, 597.50829p
+t x 845.0471pt>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf, page 2> [41 <../../../
+tex/DFO-COD5Zjm-1978-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, id=509, page=1, 597.50829p
+t x 845.0471pt>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 1> [42 <../../../
+tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, id=521, page=2, 597.50829p
+t x 845.0471pt>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf Graphic file (type pdf
+)
+
+<use ../../../tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf, page 2> [43 <../../../
+tex/DFO-HAD4X5Y-1960-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, id=534, page=1, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 1> [44 <../../..
+/tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, id=545, page=2, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf, page 2> [45 <../../..
+/tex/DFO-HAD5Zejm-1969-2003-PREFONTAINE.pdf>]
+<../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, id=558, page=1, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 1> [46 <../..
+/../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, id=569, page=2, 597.50
+829pt x 845.0471pt>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf Graphic file (type
+ pdf)
+
+<use ../../../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf, page 2> [47 <../..
+/../tex/DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE.pdf>]
+<../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, id=582, page=1, 597
+.50829pt x 845.0471pt>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 1>
+[48 <../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf>]
+<../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, id=594, page=2, 597
+.50829pt x 845.0471pt>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf Graphic file (t
+ype pdf)
+
+<use ../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf, page 2>
+[49 <../../../tex/DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, id=606, page=1,
+ 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 1>
+[50 <../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, id=617, page=2,
+ 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf, page 2>
+[51 <../../../tex/DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, id=629, page=1, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 1> [52 <../.
+./../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, id=640, page=2, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf, page 2> [53 <../.
+./../tex/DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, id=653, page=1, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 1> [54 <../.
+./../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, id=665, page=2, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf, page 2> [55 <../.
+./../tex/DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE.pdf>]
+<../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, id=677, page=1, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 1> [56 <../../..
+/tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf>]
+<../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, id=688, page=2, 597.50829
+pt x 845.0471pt>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf Graphic file (type pd
+f)
+
+<use ../../../tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf, page 2> [57 <../../..
+/tex/DFO-PAC-RSOLEHSTR-1945-2001-COLLIE.pdf>]
+<../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, id=701, page=1, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 1>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 1> [58 <../../../t
+ex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf>]
+<../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, id=712, page=2, 597.50829pt
+ x 845.0471pt>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+ <use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 2>
+File: ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf Graphic file (type pdf)
+
+
+<use ../../../tex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf, page 2> [59 <../../../t
+ex/DFO-PAC-ESOLEHS-1944-2001-COLLIE.pdf>]
+<../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, id=724, page=1, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 1> [60 <../.
+./../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, id=736, page=2, 597.5
+0829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf Graphic file (typ
+e pdf)
+
+<use ../../../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf, page 2> [61 <../.
+./../tex/DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, id=748, page=1,
+ 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 1>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 1>
+[62 <../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf>]
+<../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, id=759, page=2,
+ 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 2>
+File: ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf Graphic fil
+e (type pdf)
+
+<use ../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf, page 2>
+[63 <../../../tex/DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, id=771, pa
+ge=1, 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 1
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 1
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 1
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 1
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 1
+> [64 <../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf>]
+<../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, id=782, pa
+ge=2, 597.50829pt x 845.0471pt>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 2
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 2
+>
+File: ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf Graphi
+c file (type pdf)
+
+<use ../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf, page 2
+> [65 <../../../tex/DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE.pdf>])
+(./RSC-panel.ind
+Overfull \hbox (5.5003pt too wide) in paragraph at lines 71--72
+[]| \OT1/cmr/m/n/10 Hip-poglos-soides plates-soides, 52, 54 
+ []
+
+[66
+
+
+]) (./RSC-panel.aux (./RSC-DFOstocks.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2095 strings out of 95086
+ 39803 string characters out of 1183254
+ 80374 words of memory out of 1500000
+ 5193 multiletter control sequences out of 10000+50000
+ 9107 words of font info for 32 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 36i,16n,39p,240b,387s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/typ
+e1/bluesky/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx1
+2.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/t
+exmf-texlive/fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/t
+ype1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr1
+2.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/te
+xmf-texlive/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/typ
+e1/bluesky/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr8.pf
+b></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/bookman/ubkl8a.pfb></usr/share/texmf-texlive/fonts/type1
+/urw/bookman/ubkli8a.pfb>
+Output written on RSC-panel.pdf (67 pages, 682345 bytes).
+PDF statistics:
+ 828 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 776 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,46 @@
+# makefile for Fish and Fisheries manuscript
+# last modified Time-stamp: <2010-05-20 22:34:03 (srdbadmin)>
+#
+#
+
+fishandfisheries-v2.pdf: fishandfisheries-v2.tex abstract-dynamic.tex results-dynamic.tex Figures.tex  Table-S1.tex #  Tables.tex
+	pdflatex fishandfisheries-v2.tex 
+	pdflatex fishandfisheries-v2.tex 
+
+#fishandfisheries-v2.tex: fishandfisheries-v2.bbl
+#	bibtex fishandfisheries-v2
+
+abstract-dynamic.tex: fishandfisheries-abstract-dynamic.tex
+	../perl/abstract-dynamic.pl # generate the dynamic abstract
+
+results-dynamic.tex: fishandfisheries-results-dynamic.tex ../SQL/queries-for-results.log ../R/srdb-by-assessment.pdf ../R/orca_plot_v2.pdf ../R/friedegg-single.pdf ../R/TL-quadrant-srdb.pdf 
+	../perl/results-dynamic.pl # generate the dynamic results
+
+../SQL/queries-for-results.log: ../SQL/queries-for-results.sql  lastDBupdate-timestamp.txt
+	psql srdb -f ../SQL/queries-for-results.sql 1> ../SQL/queries-for-results.log
+	psql srdb -t -f ../../../srdb/scripts/grants.sql  | psql srdb
+
+# Tables.tex: 
+
+Figures.tex: ../GMT/stocks-byLME.pdf ../R/srdb-by-assessment.pdf ../R/three_panel_phylo.pdf ../R/orca_plot_v2.pdf ../R/friedegg-single.pdf ../R/friedegg-by-mgmt.pdf ../R/TL-quadrant-srdb.pdf
+
+Table-S1.tex: ../R/friedegg-single.pdf 
+
+../GMT/stocks-byLME.pdf: lastDBupdate-timestamp.txt ../GMT/stocks-by-LME.bash
+	../GMT/stocks-by-LME.bash # generate Fig.1, the LME map
+
+../R/srdb-by-assessment.pdf: lastDBupdate-timestamp.txt ../R/taxonomic-dendrogram.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/taxonomic-dendrogram.R
+
+../R/orca_plot_v2.pdf: lastDBupdate-timestamp.txt ../R/orca_plot.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/orca_plot.R # generate Fig.4, the orca plot
+
+../R/friedegg-single.pdf: lastDBupdate-timestamp.txt ../R/fried-egg-plots.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/fried-egg-plots.R # generate Fig.5 and 6, the fried egg plots
+
+../R/TL-quadrant-srdb.pdf: lastDBupdate-timestamp.txt ../R/trophic-level-plot.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/trophic-level-plot.R # generate Fig.7, the trophic level beanplot
+
+
+
+

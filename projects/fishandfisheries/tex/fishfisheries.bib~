@@ -1,0 +1,718 @@
+% papers for Fish and Fisheries manuscript
+%
+% Daniel Ricard
+% Started: 2009-12-23 from exasperation at working with Word
+%
+% Modification history:
+%
+% Last modified: Time-stamp: <2010-04-26 14:35:51 (srdbadmin)> 
+
+@string{cjfas = "Canadian Journal of Fisheries and Aquatic Sciences"}
+@string{meps = "Marine Ecology Progress Series"}
+@string{jfishb = "Journal of Fish Biology"}
+@string{ices = "ICES Journal of Marine Science"}
+@string{science = "Science (Washington)"}
+@string{nature = "Nature (London)"}
+@string{procnatacadsci = "Proceedings of the National Academy of Science"}
+@string{marpol = "Marine Policy"}
+@string{fandf = "Fish and Fisheries"}
+@string{currentbiol = "Current Biology"}
+@string{arees = "Annual Review of Ecology, Evolution, and Systematics"}
+@string{pnas = "Proceedings of the National Academy of Sciences"}
+@string{fishbull = "Fishery Bulletin"}
+@string{najfm = "North American Journal of Fisheries Management"}
+@string{biosci = "BioScience"}
+
+
+
+@Article{Costello:etal:2008:science,
+  author = 	 {Costello, Chris and Gaines, Steven D. and Lynham, John},
+  title = 	 {Can catch shares prevent fisheries collapse?},
+  journal = 	 science,
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {321},
+  number = 	 {5896},
+  pages = 	 {1678--1681},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Halpern:etal:2008:science,
+  author = 	 {Halpern, B.S. and Walbridge, S. and Selkoe, K.A. and Kappel, Carrie V. and Micheli, Fiorenza and D'Agrosa, Caterina and Bruno, John F. and Casey, Kenneth S. and Ebert, Colin and Fox, Helen E. and Fujita, Rod and Heinemann, Dennis and Lenihan, Hunter S. and Madin, Elizabeth M. P. and Perry, Matthew T. and Selig, Elizabeth R. and Spalding, Mark and Steneck, Robert and Watson, Reg},
+  title = 	 {A global map of human impact on marine ecosystems},
+  journal = 	 science,
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {319},
+  number = 	 {5865},
+  pages = 	 {948--952},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Worm:etal:2009:science,
+  author = 	 {Worm, Boris and Hilborn, Ray and Baum, Julia K. and Branch, Trevor A. and Collie, Jeremy S. and Costello, Christopher and Fogarty, Michael J. and Fulton, Elizabeth A. and Hutchings,Jeffrey A. and Jennings, Simon and Jensen,Olaf P. and  Lotze,Heike K. and Mace,Pamela M. and  McClanahan,Tim R. and Minto, C{\'o}il{\'i}n and Palumbi,Stephen R. and Parma,Ana M. and Ricard,Daniel  and Rosenberg,Andrew A. and Watson,Reg and Zeller, Dirk },
+  title = 	 {Rebuilding global fisheries},
+  journal = 	 science,
+  year = 	 {2009},
+  OPTkey = 	 {},
+  volume = 	 {325},
+  OPTnumber = 	 {},
+  pages = 	 {578--585},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Garvey:etal:2009:cjfas,
+  author = 	 {Garvey, J.E. and Wright, R.A. and E.A. Marschall},
+  title = 	 {Searching for threshold shifts in spawner-recruit data},
+  journal = 	 cjfas,
+  year = 	 {2009},
+  OPTkey = 	 {},
+  volume = 	 {66},
+  OPTnumber = 	 {},
+  pages = 	 {312--320},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {},
+  doi = {10.1139/F08-212}
+}
+
+@Article{Frank:etal:2005:science,
+  author = 	 {Frank, K.T. and Petrie, B. and Choi, J.S. and Leggett, W.C.},
+  title = 	 {Trophic cascades in a formerly cod-dominated ecosystem},
+  journal = 	 science,
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {308},
+  number = 	 {5728},
+  pages = 	 {1621--1623},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@article{Myers:etal:2007:science,
+  title={{Cascading Effects of the Loss of Apex Predatory Sharks from a Coastal Ocean}},
+  author={Myers, R.A. and Baum, J.K. and Shepherd, T.D. and Powers, S.P. and Peterson, C.H.},
+  journal={Science},
+  volume={315},
+  number={5820},
+  pages={1846--1850},
+  year={2007},
+  publisher={AAAS}
+}
+
+@Article{Essington:etal:2006:procnatacadsci,
+  author = 	 {Essington, Timothy E. and Beaudreau, Anne H. and Wiedenmann, John},
+  title = 	 {Fishing through marine food webs},
+  journal = 	 procnatacadsci,
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {103},
+  number = 	 {9},
+  pages = 	 {3171--3175},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Worm:etal:2006:science,
+  author = 	 {Worm, Boris and Barbier, E.B. and Beaumont, N. and Duffy, J.E. and Folke, C. and Halpern, B.S. and Jackson, J.B.C. and Lotze, H.K. and Micheli F. and Palumbi, S.R. and Sala E. and Selkoe, K.A. and Stachowicz, J.J. and Watson R.},
+  title = 	 {Impacts of Biodiversity Loss on Ocean Ecosystem Services},
+  journal = 	 science,
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {314},
+  OPTnumber = 	 {},
+  pages = 	 {787--790},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Pauly:etal:1998,
+  author = 	 {Pauly, Daniel and Christensen, Villy and Dalsgaard, Johanne and Froese, Rainer and Torres, Jr., Francisco},
+  title = 	 {Fishing Down Marine Food Webs.},
+  journal = 	 science,
+  year = 	 {1998},
+  OPTkey = 	 {},
+  volume = 	 {279},
+  number = 	 {5352},
+  pages = 	 {860--863},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{branch:2008:marpol,
+  author = 	 {Branch, T.A.},
+  title = 	 {Not all fisheries will be collapsed in 2048.},
+  journal = 	 marpol,
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {32},
+  OPTnumber = 	 {},
+  pages = 	 {38--39},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Mace:1994:cjfas,
+  author = 	 {Mace,Pamela M.},
+  title = 	 {Relationships between Common Biological Reference Points Used as Thresholds and Targets of Fisheries Management Strategies},
+  journal = 	 cjfas,
+  year = 	 {1994},
+  OPTkey = 	 {},
+  volume = 	 {51},
+  number = 	 {1},
+  pages = 	 {110--122},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {},
+  doi = {10.1139/f94-013}
+}
+
+@Misc{Froese:Pauly:2009:fishbase,
+  author = 	 {Froese, Rainer and Pauly, Daniel},
+  title = 	 {FishBase www.fishbase.org, version (10/2009)},
+  howpublished = {World Wide Web electronic publication},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Misc{FAO:fishstat,
+  author = 	 {FAO},
+  title = 	 {FISHSTAT-PC: Data retrieval, graphical and analytical software for microcomputers},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Book{Hilborn:Walters:1992,
+  author = 	 {Hilborn, R. and Walters, Carl J.},
+  ALTeditor = 	 {},
+  title = 	 {Quantitative Fisheries Stock Assessment: Choice, Dynamics and Uncertainty},
+  publisher = 	 {Kluwer Academic Publishers},
+  year = 	 {1992},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  OPTaddress = 	 {101 Philip Drive, Assinippi Park, Norwell, Massachusetts 02061},
+  OPTedition = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Misc{postgresql:2009,
+  OPTkey = 	 {},
+  author = 	 {{PostgreSQL Global Development Group}},
+  title = 	 {PostgreSQL, version 8.3.8. http://www.postgresql.org},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Minto:etal:2008:nature,
+  author = 	 {Minto, C{\'o}il{\'i}n and Myers, Ransom A. and Blanchard, Wade},
+  title = 	 {Survival variability and population density in fish populations},
+  journal = 	 nature,
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {452},
+  OPTnumber = 	 {},
+  pages = 	 {344-347},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Myers:2001:ices,
+  author =       "R. A. Myers",
+  year =         "2001",
+  title =        "Stock and recruitment: Generalizations about maximum reproductive rate,
+                 density dependence and variability using meta-analytic
+                 approaches",
+  journal =      ices,
+  volume =       "58",
+  pages =        "937-951",
+}
+
+@Article{Myers:etal:1995:summary,
+  author =       "Myers, Ransom A. and Bridson, J. and Barrowman N.J.",
+  year =         "1995",
+  title =        "Summary of Worldwide Spawner and Recruitment Data",
+  journal =      "Canadian Technical Report of Fisheries and Aquatic
+                 Sciences, No. 2020",
+  volume =       "",
+  pages =        "327",
+}
+
+
+@Article{Myers:Barrowman:1996:fishbull,
+  author = 	 {Myers, R.A. and N.J. Barrowman},
+  title = 	 {Is fish recruitment related to spawner abundance?},
+  journal = 	 fishbull,
+  year = 	 {1996},
+  OPTkey = 	 {},
+  volume = 	 {94},
+  OPTnumber = 	 {},
+  pages = 	 {707--724},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Misc{NZMF:2009,
+  OPTkey = 	 {},
+  author = 	 {{New Zealand Ministry of Fisheries}},
+  title = 	 {Stock Status http://fs.fish.govt.nz/Page.aspx?pk=16},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Watson:etal:2004:fandf,
+  author = 	 {Watson, Reg and Kitchingman, Adrian and Gelchu, Ahmed and Pauly, Daniel},
+  title = 	 {Mapping global fisheries: sharpening our focus},
+  journal = 	 fandf,
+  year = 	 {2004},
+  OPTkey = 	 {},
+  volume = 	 {5},
+  OPTnumber = 	 {},
+  pages = 	 {168--177},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Newton:etal:2007:currentbiol,
+  author = 	 {Newton, K. and C{\^o}t{\'e}, I and Pilling, G. and Jennings, S. and Dulvy, N.},
+  title = 	 {Current and Future Sustainability of Island Coral Reef Fisheries},
+  journal = 	 currentbiol,
+  year = 	 {2007},
+  OPTkey = 	 {},
+  volume = 	 {17},
+  number = 	 {7},
+  pages = 	 {655--658},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Johannes:2002:arees,
+  author = 	 {Johannes, R.E.},
+  title = 	 {The renaissance of community-based marine resource management in Oceania},
+  journal = 	 arees,
+  year = 	 {2002},
+  OPTkey = 	 {},
+  volume = 	 {33},
+  OPTnumber = 	 {},
+  pages = 	 {317--340},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@TechReport{NMFS:2008:status,
+  author = 	 {{National Marine Fisheries Service}},
+  title = 	 {Status of US Fisheries 2007},
+  institution =  {NMFS},
+  year = 	 {2008},
+  OPTkey = 	 {},
+  OPTtype = 	 {},
+  OPTnumber = 	 {},
+  OPTaddress = 	 {},
+  OPTmonth = 	 {},
+  note = 	 {http://www.nmfs.noaa.gov/sfa/statusoffisheries/SOSmain.htm},
+  OPTannote = 	 {}
+}
+
+
+@Book{Wilson:etal:2009:status,
+  ALTauthor = 	 {},
+  editor = 	 {Wilson, D. and Curtotti, R. and Begg, G. and Phillips, K.},
+  title = 	 {Fishery status reports 2008: status of fish stocks and fisheries managed by the Australian Government},
+  publisher = 	 {Bureau of Rural Sciences and Australian Bureau of Agricultural and Resource Economics, Canberra},
+  year = 	 {2009},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  OPTaddress = 	 {},
+  OPTedition = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{deMutsert:etal:2008:pnas,
+  author = 	 {de Mutsert, Kim and Cowan, Jr., James H. and Essington, Timothy E.  and Hilborn, Ray},
+  title = 	 {Reanalyses of Gulf of Mexico fisheries data: Landings can be misleading in assessments of fisheries and fisheries ecosystems},
+  journal = 	 pnas,
+  year = 	 {2008},
+  OPTkey = 	 {},
+  volume = 	 {105},
+  number = 	 {7},
+  pages = 	 {2740--2744},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {},
+  doi = {10.1073/pnas.0704354105 }
+}
+
+@Misc{eea:2009:status,
+  OPTkey = 	 {},
+  author = 	 {{European Environment Agency}},
+  OPTtitle = 	 {},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Polacheck:2006:marpol,
+  author = 	 {Polacheck, Tom},
+  title = 	 {Tuna longline catch rates in the Indian Ocean: Did industrial fishing result in a 90\% rapid decline in the abundance of large predatory species},
+  journal = 	 marpol,
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {30},
+  OPTnumber = 	 {},
+  pages = 	 {470--482},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Walters:2003:cjfas,
+  author = 	 {Walters, Carl },
+  title = 	 {Folly and fantasy in the analysis of spatial catch rate data.},
+  journal = 	 cjfas,
+  year = 	 {2003},
+  OPTkey = 	 {},
+  volume = 	 {60},
+  number = 	 {12},
+  pages = 	 {1433--1436},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@Article{Hutchings:Myers:1994:cjfas,
+  author = 	 {Hutchings, J.A. and Myers, R.A.},
+  title = 	 {What can be learned from the collapse of a renewable resource? Atlantic cod, Gadus morhua, of Newfoundland and Labrador},
+  journal = 	 cjfas,
+  year = 	 {1994},
+  OPTkey = 	 {},
+  volume = 	 {51},
+  OPTnumber = 	 {},
+  pages = 	 {2126--2146},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Harley:etal:2001:cjfas,
+  author = 	 {Harley, S.J. and Myers, R.A. and Dunn, A.},
+  title = 	 {Is catch-per-unit-effort proportional to abundance?},
+  journal = 	 cjfas,
+  year = 	 {2001},
+  OPTkey = 	 {},
+  volume = 	 {58},
+  OPTnumber = 	 {},
+  pages = 	 {1705--1772},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Sibert:etal:2006:science,
+  author = 	 {Sibert, John and Hampton, John and Kleiber, Pierre and Maunder, Mark },
+  title = 	 {Biomass, Size, and Trophic Status of Top Predators in the Pacific Ocean.},
+  journal = 	 science,
+  year = 	 {2006},
+  OPTkey = 	 {},
+  volume = 	 {314},
+  number = 	 {5806},
+  pages = 	 {1773--1776},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {},
+  doi = {10.1126/science.1135347}
+}
+
+@Article{Myers:etal:1995:science,
+  author = 	 {Myers, R.A. and Barrowman, N.J. and Hutchings, J.A. and Rosenberg, A.A.},
+  title = 	 {Population dynamics of exploited fish stocks at low population levels},
+  journal = 	 science,
+  year = 	 {1995},
+  OPTkey = 	 {},
+  volume = 	 {269},
+  OPTnumber = 	 {},
+  pages = 	 {1106--1108},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Liermann:Hilborn:1997:cjfas,
+  author = 	 {Liermann, M. and Hilborn, R.},
+  title = 	 {Depensation in fish stocks: a hierarchic Bayesian meta-analysis},
+  journal = 	 cjfas,
+  year = 	 {1997},
+  OPTkey = 	 {},
+  volume = 	 {54},
+  OPTnumber = 	 {},
+  pages = 	 {1976--1984},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@Article{Myers:etal:1999:cjfas,
+  author = 	 {Myers, R.A. and Bowen, K.G. and Barrowman, N.J.},
+  title = 	 {Maximum reproductive rate of fish at low population sizes},
+  journal = 	 cjfas,
+  year = 	 {1999},
+  OPTkey = 	 {},
+  volume = 	 {56},
+  OPTnumber = 	 {},
+  pages = 	 {2404--2419},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Myers:etal:2002:najfm,
+  author = 	 {Myers, R.A. and  Barrowman, N.J. and Hilborn, R. and Kehler, D.G.},
+  title = 	 {Inferring bayesian priors with limited direct data: applications to risk analysis.},
+  journal = 	 najfm,
+  year = 	 {2002},
+  OPTkey = 	 {},
+  volume = 	 {22},
+  OPTnumber = 	 {},
+  pages = 	 {351--364},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Dorn:2002:najfm,
+  author = 	 {Dorn, M.W.},
+  title = 	 {Advice on West Coast rockfish harvest rates from Bayesian meta-analysis of stock-recruit relationships.},
+  journal = 	 najfm,
+  year = 	 {2002},
+  OPTkey = 	 {},
+  volume = 	 {22},
+  OPTnumber = 	 {},
+  pages = 	 {280--300},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Hutchings:2000:nature,
+  author = 	 {Hutchings, J.A.},
+  title = 	 {Collapse and recovery of marine fishes.},
+  journal = 	 nature,
+  year = 	 {2000},
+  OPTkey = 	 {},
+  volume = 	 {406},
+  OPTnumber = 	 {},
+  pages = 	 {882--885},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Hutchings:2001:jfishb,
+  author = 	 {Hutchings, J.A.},
+  title = 	 {Influence of population decline, fishing, and spawner variability on the recovery of marine fishes},
+  journal = 	 jfishb,
+  year = 	 {2001},
+  OPTkey = 	 {},
+  volume = 	 {Suppl. A},
+  OPTnumber = 	 {},
+  pages = 	 {306--322},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Hutchings:Reynolds:2004:biosci,
+  author = 	 {Hutchings, J.A. and Reynolds, J.D.},
+  title = 	 {Marine fish population collapses: Consequences for recovery and extinction risk.},
+  journal = 	 biosci,
+  year = 	 {2004},
+  OPTkey = 	 {},
+  volume = 	 {54},
+  OPTnumber = 	 {},
+  pages = 	 {297--309},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Rice:etal:2003:icescm,
+Author = {Rice, J.C. and Shelton, P.A. and Rivard, D. and Chouinard, G.A. and Fr\'echet, A.},
+Title = {Recovering Canadian Atlantic cod stocks: the shape of things to come},
+Journal = {ICES CM},
+Volume = {2003/U 06},
+Pages = {23pp},
+Year = {2003} 
+}
+
+@Article{Murawski:Methot:Tromble:2007:science,
+Author = {Murawski, S. and Methot, R. and Tromble, G.},
+Title = {Letter to the editors of Science},
+Journal = science,
+Volume = {316},
+Pages = {1281},
+Year = {2007} 
+}
+
+@Article{Hilborn:2007:science,
+  title={{Biodiversity loss in the ocean: how bad is it?}},
+  author={Hilborn, R.W.},
+  journal=science,
+  volume={316},
+  number={5829},
+  pages={1281},
+  year={2007}
+}
+
+@Book{Hilborn:1997:csiro,
+Editor = {Hilborn, R.},
+Title = {The frequency and severity of fish stock declines and increases},
+Publisher = {CSIRO Publishing},
+Address = {Victoria, Australia},
+Series = {Developing and sustaining world fisheries resources. Proceedings
+of the 2nd World Fisheries Congress},
+Year = {1997} 
+}
+
+
+@Article{Wilberg:Miller:2007:science,
+Author = {Wilberg, M.J. and Miller, T.J.},
+Title = {Comment on "Impacts of biodiversity loss on ocean ecosystem services"},
+Journal = science,
+Volume = {316},
+Pages = {1285b},
+Year = {2007} 
+}
+
+@Article{Barbrook:Howe:Blake:Robinson:1998:nature,
+Author = {Barbrook, A.C. and Howe, C.J. and Blake, N. and Robinson, P.},
+Title = {The phylogeny of the Canterbury Tales},
+Journal = nature,
+Volume = {394},
+Number = {6696},
+Pages = {839},
+Year = {1998} 
+}
+
+@article{Pauly:etal:2002:nature,
+  title={{Towards sustainability in world fisheries}},
+  author={Pauly, D. and Christensen, V. and Gu{\'e}nette, S. and Pitcher, T.J. and Sumaila, U.R. and Walters, C.J. and Watson, R. and Zeller, D.},
+  journal=nature,
+  volume={418},
+  number={6898},
+  pages={689--695},
+  year={2002}
+}
+
+@article{Pitcher:etal:2002:fnf,
+  title={{Estimating illegal and unreported catches from marine ecosystems: a basis for change}},
+  author={Pitcher, T.J. and Watson, R. and Forrest, R. and Valtysson, H.P. and Guenette, S.},
+  journal={Fish and Fisheries},
+  volume={3},
+  number={4},
+  pages={317--339},
+  year={2002}
+}
+@article{Walters:Maguire:1996:reviews,
+  title={{Lessons for stock assessment from the northern cod collapse}},
+  author={Walters, C. and Maguire, J.J.},
+  journal={Reviews in Fish Biology and Fisheries},
+  volume={6},
+  number={2},
+  pages={125--137},
+  year={1996},
+  publisher={Springer}
+}
+
+@article{Ricard:etal:2009:ices,
+  title={{Extracting groundfish survey indices from the Ocean Biogeographic Information System (OBIS): an example from Fisheries and Oceans Canada}},
+  author={Ricard, D. and Branton, R.M. and Clark, D.W. and Hurley, P.},
+  journal=ices,
+  volume={doi:10.1093/icesjms/fsp275},
+  year={2009}
+}
+
+
+@TechReport{NOAA:LME64:1998,
+  author = 	 {{NOAA}},
+  title = 	 {Large Marine Ecosystems},
+  institution =  {National Oceanic and Atmospheric Administration},
+  year = 	 {1998},
+  OPTkey = 	 {},
+  OPTtype = 	 {},
+  OPTnumber = 	 {},
+  OPTaddress = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {http://www.lme.noaa.gov/},
+  OPTannote = 	 {}
+}
+
+
+@Article{Froese:Proelss:2010:fandf,
+  author = 	 {Froese, R. and Proel\ss, A.},
+  title = 	 {Rebuilding fish stocks no later than 2015: will Europe meet the deadline?},
+  journal = 	 fandf,
+  year = 	 {2010},
+  OPTkey = 	 {},
+  volume = 	 {(in press)},
+  OPTnumber = 	 {},
+  OPTpages = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@book{Quinn:Deriso:1999,
+        title = {Quantitative Fish Dynamics (Biological Resource Management)},
+        author = {Terrance J. Quinn and Richard B. Deriso},
+        publisher = {Oxford Univ Pr},
+        year = 1999,
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Caveats and limitations</TITLE>
+<META NAME="description" CONTENT="Caveats and limitations">
+<META NAME="keywords" CONTENT="fishandfisheries-v2">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="fishandfisheries-v2.css">
+
+<LINK REL="next" HREF="node23.html">
+<LINK REL="previous" HREF="node19.html">
+<LINK REL="up" HREF="node18.html">
+<LINK REL="next" HREF="node23.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html298"
+  HREF="node23.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html296"
+  HREF="node18.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html290"
+  HREF="node21.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html299"
+  HREF="node23.html">Using a Relational Database</A>
+<B> Up:</B> <A NAME="tex2html297"
+  HREF="node18.html">Discussion</A>
+<B> Previous:</B> <A NAME="tex2html291"
+  HREF="node21.html">Taxonomic bias</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00052000000000000000">
+Caveats and limitations</A>
+</H2>
+Assessment outputs e.g. biomass timeseries, are estimates, not raw
+data. The uncertainty associated with these estimates should be
+carried forth in subsequent analyses. The RAM Legacy database
+structure allows for estimates of uncertainty (standard errors, 95%
+credible/confidence intervals), however these estimates are only
+occassionally provided because they aren't produced by the assessment
+model (e.g. non-bootstrapped VPA assessments) or the focus of the
+assessment document was on central tendency (e.g. mean biomass), not
+the associated uncertainty. Note that this view is changing with the
+advent of MCMC aproaches to Bayesian inference for assessments,
+bootstrap methods, statistical catch-at-age models and a focus on
+uncertainty (<A
+ HREF="node27.html#Walters:Maguire:1996:reviews">Walters &amp; Maguire, 1996</A>). As with any
+analysis, clearer inference on the strength of a signal is available
+when all uncertainty in the data is carried forth. This represents a
+difficulty for large-scale analyses of fisheries data in that in an
+ideal world one would access the raw data per sub-unit (e.g. stock)
+and carry forth the uncertainty at all levels of the analysis. In the
+case of assessments, the raw data is typically catch-at-age matrices
+and potentially survey indices. To understand the fleet
+characteristics and survey stratification schema for each stock in a
+potentially global meta-analysis would be extremely time consuming and
+error-prone. So, the expert opinion of those researchers most familiar
+with the data, stock assessment authors, is used but without
+accompanying uncertainty estimates the strength of conclusions drawn
+may be weakened.
+
+<P>
+The original database developed by Dr. Myers was used to address a
+variety of ecological question derived from stock-recruit
+relationships. This was possible because of the timeseries of stock
+and recruitment generated in assessment using VPA-type models. With
+the increasing use of statistical catch-at-age/length models, an
+underlying stock-recruit relationship is assumed to exist. Estimating
+the parameters of a stock-recruit relationship using timeseries from
+such models does not constitute a valid statistical procedure. 
+
+<P>
+Point data are stored in the database with an associated unit, value
+and year. We expect to also include age-varying and length-varying
+data such as maturity ogive and age-disaggregated natural mortality in
+subsequent releases of the RAM Legacy database. In addition to the
+initial aim of providing reliable access to timeseries information
+about stocks, we hope to also stimulate research in the relationships
+of life-history characteristics and their relation to exploitation.
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html298"
+  HREF="node23.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html296"
+  HREF="node18.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html290"
+  HREF="node21.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html299"
+  HREF="node23.html">Using a Relational Database</A>
+<B> Up:</B> <A NAME="tex2html297"
+  HREF="node18.html">Discussion</A>
+<B> Previous:</B> <A NAME="tex2html291"
+  HREF="node21.html">Taxonomic bias</A></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Stock-recruitment database administrator
+2010-04-15
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,196 @@
+##-----------------------------------------------------------------------------
+## plot a taxonomy tree for all species in FishBase
+## DR, CM
+## date: Fri Dec  9 15:47:22 AST 2009
+## Last modified Time-stamp: <2009-12-10 13:10:07 (srdbadmin)>
+##-----------------------------------------------------------------------------
+
+require(RODBC); require(ape); require(gsubfn); require(IDPmisc)
+## load csv file from Rainer Froese
+taxo.dat.fishbase <- read.table("fishbase-DendroRAM-FROMRAINER.csv", sep=",", header=TRUE)
+taxo.dat.fishbase$scientificname <- as.factor(paste(taxo.dat.fishbase$Genus, taxo.dat.fishbase$Species, sep=" "))
+
+taxo.dat.fishbase <- taxo.dat.fishbase[order(taxo.dat.fishbase$scientificname),]
+## expand out the species row entries to be equal to the value of LME column
+expanded.taxo.dat.fishbase<-taxo.dat.fishbase[rep(1:nrow(taxo.dat.fishbase), times=taxo.dat.fishbase$LME), ]
+## regular tree
+taxo.phylo.fishbase<-as.phylo(~Class/Order/Family/Genus/scientificname, data=expanded.taxo.dat.fishbase)
+## take a look at the contents using taxo.phylo[]
+## edge width/length inclusion
+taxo.2.phylo.fishbase<-my.as.phylo.formula(~Class/Order/Family/Genus/scientificname, data=expanded.taxo.dat.fishbase)
+
+
+##-------------
+## tip labels
+##-------------
+## in case this was changed previously
+taxo.phylo.fishbase$tip.label<-taxo.2.phylo.fishbase$tip.label
+## at the order level
+
+Family.tips<-sapply(seq(1, length(taxo.phylo.fishbase$tip.label)), function(x){
+  print(x)
+  taxo.dat.fishbase$Family[taxo.dat.fishbase$scientificname==taxo.phylo.fishbase$tip.label[x]]})
+
+## cut off - lower bound at which the family names is plotted
+cut.off<-quantile(c(table(family.tips)), p=0.75)
+
+prelim.tip.labels<-rep("", length(family.tips))
+## check this one
+prelim.tip.labels[1]<-as.character(family.tips[1])
+
+for(i in 2:length(prelim.tip.labels)){
+  print(i)
+  if(family.tips[i]!=family.tips[i-1]&length(family.tips[family.tips==family.tips[i]])>=cut.off){
+    prelim.tip.labels[i]<-as.character(family.tips[i])
+  }
+}
+
+taxo.phylo.fishbase$tip.label<-prelim.tip.labels
+
+## need to include major branch labels, numbers per group etc.
+##---------------------------
+## branch width calculations
+##---------------------------
+## sqrt for plotting branch widths
+taxo.2.phylo.fishbase$sqrt.edge.length<-sqrt(taxo.2.phylo.fishbase$edge.length)
+## logarithm with various bases
+my.log.base<-function(x,base){return(log(x)/log(base))}
+## e.g. using R's built-in log base 10
+##log10(6)
+##my.log.base(x=6, base=10)
+taxo.2.phylo.fishbase$log.edge.length<-log10(taxo.2.phylo.fishbase$edge.length+1)
+taxo.2.phylo.fishbase$pow.edge.length<-taxo.2.phylo.fishbase$edge.length^(0.1)
+## try a boxcox transformation
+##require(MASS)
+##edge.boxcox<-boxcox(taxo.2.phylo.fishbase$edge.length~1, lambda=seq(-40,10, 1/10))
+##lambda.bar<-edge.boxcox$x[which.max(edge.boxcox$y)]
+## divisor
+taxo.2.phylo.fishbase$div.edge.length<-taxo.2.phylo.fishbase$edge.length/(range(taxo.2.phylo.fishbase$edge.length)[2]/20)
+
+## assign the edge lengths for a trial plot
+
+taxo.phylo.fishbase$edge.length<-taxo.2.phylo.fishbase$div.edge.length
+
+pdf("./taxonomic_coverage_fishbase.pdf", width=10, height=10)
+my.opaque.grey<-"#80808099"
+##plot(taxo.phylo.fishbase, type="r", edge.width=taxo.2.phylo.fishbase$div.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.fishbase$sqrt.edge.length-2))))
+##plot(taxo.phylo.fishbase, type="c", edge.width=taxo.2.phylo.fishbase$div.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.fishbase$sqrt.edge.length-2))))
+##plot(taxo.phylo.fishbase, type="r", edge.width=taxo.2.phylo.fishbase$div.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.fishbase$sqrt.edge.length-2))), use.edge.length = TRUE)
+plot(taxo.phylo.fishbase)
+points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+my.cex=0.75
+dev.off()
+
+system("xpdf ./taxonomic_coverage_fishbase.pdf")
+
+##--------------------------
+## only to the family level
+##--------------------------
+taxo.phylo.2.fishbase<-as.phylo(~Class/Order/Family, data=expanded.taxo.dat.fishbase)
+## take a look at the contents using taxo.phylo[]
+## edge width/length inclusion
+taxo.2.phylo.2.fishbase<-my.as.phylo.formula(~Class/Order/Family, data=expanded.taxo.dat.fishbase)
+
+
+##-------------
+## tip labels
+##-------------
+## in case this was changed previously
+taxo.phylo.2.fishbase$tip.label<-taxo.2.phylo.2.fishbase$tip.label
+## at the order level
+
+family.tips<-sapply(seq(1, length(taxo.phylo.2.fishbase$tip.label)), function(x){
+  print(x)
+  unique(taxo.dat.fishbase$Family[taxo.dat.fishbase$Family==taxo.phylo.2.fishbase$tip.label[x]])})
+
+## cut off - lower bound at which the family names is plotted
+cut.off<-quantile(c(table(family.tips)), p=0.75)
+
+prelim.tip.labels<-rep("", length(family.tips))
+## check this one
+prelim.tip.labels[1]<-as.character(family.tips[1])
+
+for(i in 2:length(prelim.tip.labels)){
+  print(i)
+  if(family.tips[i]!=family.tips[i-1]&length(family.tips[family.tips==family.tips[i]])>=cut.off){
+    prelim.tip.labels[i]<-as.character(family.tips[i])
+  }
+}
+
+taxo.phylo.2.fishbase$tip.label<-prelim.tip.labels
+
+## need to include major branch labels, numbers per group etc.
+##---------------------------
+## branch width calculations
+##---------------------------
+## sqrt for plotting branch widths
+taxo.2.phylo.2.fishbase$sqrt.edge.length<-sqrt(taxo.2.phylo.2.fishbase$edge.length)
+## logarithm with various bases
+my.log.base<-function(x,base){return(log(x)/log(base))}
+## e.g. using R's built-in log base 10
+##log10(6)
+##my.log.base(x=6, base=10)
+taxo.2.phylo.2.fishbase$log.edge.length<-log10(taxo.2.phylo.2.fishbase$edge.length+1)
+taxo.2.phylo.2.fishbase$pow.edge.length<-taxo.2.phylo.2.fishbase$edge.length^(0.1)
+## try a boxcox transformation
+##require(MASS)
+##edge.boxcox<-boxcox(taxo.2.phylo.2.fishbase$edge.length~1, lambda=seq(-40,10, 1/10))
+##lambda.bar<-edge.boxcox$x[which.max(edge.boxcox$y)]
+## divisor
+taxo.2.phylo.2.fishbase$div.edge.length<-taxo.2.phylo.2.fishbase$edge.length/(range(taxo.2.phylo.2.fishbase$edge.length)[2]/20)
+
+pdf("./taxonomic_coverage_2_fishbase.pdf", width=10, height=10)
+my.opaque.grey<-"#80808099"
+plot(taxo.phylo.2.fishbase, type="r", edge.width=taxo.2.phylo.2.fishbase$div.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.2.fishbase$sqrt.edge.length-2))))
+points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+my.cex=0.75
+dev.off()
+
+system("xpdf ./taxonomic_coverage_2_fishbase.pdf")
+
+## doesn't look so good -try with the perciforme split
+
+##---------
+## SANDBOX
+##---------
+
+## subsample fishbase
+
+n.sample.A<-10
+index.A<-sample(seq(1,length(taxo.dat.fishbase[,1])),size=n.sample.A)
+A.dat<-taxo.dat.fishbase[index.A,]
+
+
+## how to do this ->
+string3<-"((((1:1,22:1,33:1):3,2:1,3:1,5:1,((7:1,45:1):2,16:1,27:1):4,(8:1,17:1,50:1):3,18:1,23:1,(24:1,44:1):2,28:1,32:1,35:1,37:1,41:1,(42:1,43:1):2,47:1,48:1):26,(4:1,25:1,26:1):3,6:1,((9:1,11:1):2,(10:1,40:1):2,21:1):5,(12:1,14:1,31:1):3,13:1,15:1,(19:1,38:1,49:1):3,(29:1,46:1):2,30:1,34:1,(36:1,39:1):2):49,20:1)blah:50;"
+## see how the nodes are assigned so go into the function and grab the unique grouping that contains all of those numbers
+
+taxo.phylo.A<-as.phylo(~Class/Order/Family/scientificname, data=A.dat)
+library(geiger)
+library(phylobase)
+
+## create a s4 class with data
+t1 <- as(taxo.phylo.A, "phylo4")
+
+row.names(A.dat)<-A.dat$scientificname
+t2 <- phylo4d(t1, A.dat)
+
+subset(g2, tips.include = node.leaves(taxo.phylo.A, node=13)) 
+
+t1.df<-as(t1, "data.frame")
+is.species<-function(x){x%in%A.dat$scientificname}
+get.genus<-function(x){as.character(unique(A.dat$Genus[A.dat$scientificname==x]))}
+get.family<-function(x){as.character(unique(A.dat$Family[A.dat$scientificname==x]))}
+
+for(i in 1:length(t1.df[,1])){
+  print(c(i, is.species(t1.df$label[i])))
+  if(is.species(t1.df$label[i])){
+    labels(t1, type="all")[t1.df$ancestor[i]]<-get.family(t1.df$label[i])
+  }
+}
+
+plot(t1, show.node.label=TRUE, type="fan")
+
+
+nodeLabels(t1) <- paste("N", nodeId(t1, "internal"), sep = "") 
+

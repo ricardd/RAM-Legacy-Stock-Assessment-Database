@@ -1,0 +1,2285 @@
+\begin{thebibliography}{324}
+\providecommand{\natexlab}[1]{#1}
+{\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
+|immediate|write|@auxout{\expandafter\ifx\csname
+  natexlab\endcsname\relax\gdef\natexlab#1{#1}\fi}}
+
+\harvarditem{SEF}{2004{\natexlab{a}}}{SEFSC-KMACKGM-1992-2001-JENSEN}
+ \harvardyearleft 2004{\natexlab{a}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock JENSEN\_KMACKGMSATLC\_2004.pdf.
+
+\harvarditem{SEF}{2004{\natexlab{b}}}{SEFSC-SNOWGROUPSATLC-1961-2002-STANTON}
+ \harvardyearleft 2004{\natexlab{b}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock JENSEN\_SPANMACKSATLC\_2008.pdf.
+
+\harvarditem{SEF}{2006}{SEFSC-RGROUPGM-1986-2005-JENSEN}
+ \harvardyearleft 2006\harvardyearright{}.
+\newblock Tech. rep.
+\newblock JENSEN\_RPORGYSATLC\_2006.pdf.
+
+\harvarditem{SEF}{2007}{SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET}
+ \harvardyearleft 2007\harvardyearright{}.
+\newblock Tech. rep.
+\newblock JENSEN\_GAGGM\_2007.pdf.
+
+\harvarditem{WGS}{2007}{WGSSDS-WHITVIIek-1982-2007-JENNINGS}
+ \harvardyearleft 2007\harvardyearright{}.
+\newblock Tech. rep.
+
+\harvarditem{AFW}{2007}{AFWG-REDDEEPI-II-1985-2006-MINTO}
+ \harvardyearleft 2007\harvardyearright{}.
+\newblock Atlantic Croaker 2003 Stock Assessment Report.
+\newblock Tech. rep.
+\newblock 2004\_ASMFC\_AtlCroak.pdf.
+
+\harvarditem{ICC}{2007{\natexlab{a}}}{ICCAT-SWORDMED-1968-2006-JENSEN}
+ \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock REPORT OF THE 2006 ATLANTIC SWORDFISH STOCK ASSESSMENT SESSION.
+\newblock Tech. rep.
+\newblock JENSEN\_SWORDSATL-2007.pdf.
+
+\harvarditem{ICC}{2007{\natexlab{b}}}{ICCAT-SWORDNATL-1978-2007-JENSEN}
+ \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock REPORT OF THE 2006 ATLANTIC SWORDFISH STOCK ASSESSMENT SESSION.
+\newblock Tech. rep.
+\newblock JENSEN\_SWORDSATL-2007.pdf.
+
+\harvarditem{ICC}{2007{\natexlab{c}}}{ICCAT-SWORDSATL-1950-2005-JENSEN}
+ \harvardyearleft 2007{\natexlab{c}}\harvardyearright{}.
+\newblock REPORT OF THE 2008 ICCAT YELLOWFIN AND SKIPJACK STOCK ASSESSMENTS
+  MEETING.
+\newblock Tech. rep.
+\newblock JENSEN-YFINATL-2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{a}}}{AFSC-BKINGCRABPI-1960-2008-JENSEN}
+ \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{b}}}{AFSC-GKINGCRABAIES-1990-2007-JENSEN}
+ \harvardyearleft 2008{\natexlab{b}}\harvardyearright{}.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{c}}}{AFSC-REYEROCKGA-1974-2007-MELNYCHUK}
+ \harvardyearleft 2008{\natexlab{c}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{d}}}{AFSC-RKCRABBB-1960-2008-JENSEN}
+ \harvardyearleft 2008{\natexlab{d}}\harvardyearright{}.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{e}}}{AFSC-RKCRABNS-1976-2008-JENSEN}
+ \harvardyearleft 2008{\natexlab{e}}\harvardyearright{}.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2008{\natexlab{f}}}{AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK}
+ \harvardyearleft 2008{\natexlab{f}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{ICC}{2008{\natexlab{a}}}{ICCAT-BIGEYEATL-1950-2005-JENSEN}
+ \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+\newblock REPORT OF THE 2008 ICCAT YELLOWFIN AND SKIPJACK STOCK ASSESSMENTS
+  MEETING.
+\newblock Tech. rep.
+\newblock JENSEN\_YFINATL-2008.pdf.
+
+\harvarditem{ICC}{2008{\natexlab{b}}}{ICCAT-SKJEATL-1950-2006-JENSEN}
+ \harvardyearleft 2008{\natexlab{b}}\harvardyearright{}.
+\newblock REPORT OF THE 2008 ICCAT YELLOWFIN AND SKIPJACK STOCK ASSESSMENTS
+  MEETING.
+\newblock Tech. rep.
+\newblock JENSEN\_YFINATL-2008.pdf.
+
+\harvarditem{INI}{2008}{INIDEP-SBWHITARGS-1985-2007-Parma}
+ \harvardyearleft 2008\harvardyearright{}.
+\newblock Report of the tenth session of the scientific committee.
+\newblock Tech. rep.
+\newblock JENSEN\_BIGEYEIO-2007.pdf.
+
+\harvarditem{AFS}{2009{\natexlab{a}}}{AFSC-ATKABSAI-1976-2009-STANTON}
+ \harvardyearleft 2009{\natexlab{a}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2009{\natexlab{b}}}{AFSC-GHALBSAI-1960-2009-STANTON}
+ \harvardyearleft 2009{\natexlab{b}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{AFS}{2009{\natexlab{c}}}{AFSC-SRAKEROCKBSAI-1977-2008-STANTON}
+ \harvardyearleft 2009{\natexlab{c}}\harvardyearright{}.
+\newblock Tech. rep.
+\newblock CRABSAFE2008.pdf.
+
+\harvarditem{ICC}{NULL}{ICCAT-ATBTUNAWATL-1969-2007-WORM}
+ \harvardyearleft NULL\harvardyearright{}.
+\newblock REPORT OF THE 2007 ICCAT BIGEYE TUNA STOCK ASSESSMENT SESSION.
+\newblock Tech. rep.
+\newblock JENSEN-BIGEYEATL-2008.pdf.
+
+\harvarditem[Alpoim \emph{et~al.}]{Alpoim, {\`A}vila~de Melo \harvardand{}
+  Saborido-Rey}{2008}{NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM}
+Alpoim, R., {\`A}vila~de Melo, A.M. \harvardand{} Saborido-Rey, F.
+  \harvardyearleft 2008\harvardyearright{}.
+\newblock An XSA Based Assessment of Beaked Redfish (S. mentella and S.
+  fasciatus) in NAFO Division 3M.
+\newblock Tech. rep., Lisboa, Portugal.
+\newblock NAFO-RED3M-2007.pdf.
+
+\harvarditem{Anon.}{????}{ICCAT-ATBTUNAEATL-1969-2007-WORM}
+Anon. \harvardyearleft ????\harvardyearright{}.
+\newblock REPORT OF THE 2008 ATLANTIC BLUEFIN TUNA STOCK ASSESSMENT SESSION.
+\newblock Tech. rep., Madrid, Spain.
+\newblock 2008-BFT-STOCK-ASSESS-REP.pdf.
+
+\harvarditem{Anon}{2005}{NWFSC-YTROCKNPCOAST-1967-2005-STANTON}
+Anon \harvardyearleft 2005\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon.}{2007{\natexlab{a}}}{IATTC-YFINEPAC-1975-2007-JENSEN}
+Anon. \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock REPORT OF THE 2007 ICCAT ALBACORE STOCK ASSESSMENT SESSION.
+\newblock Tech. rep., Madrid, Spain.
+\newblock 2007-ALB-STOCK-ASSESS-REP.pdf.
+
+\harvarditem{Anon.}{2007{\natexlab{b}}}{ICCAT-ALBANATL-1929-2005-WORM}
+Anon. \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock REPORT OF THE 2008 ATLANTIC BLUEFIN TUNA STOCK ASSESSMENT SESSION.
+\newblock Tech. rep., Madrid, Spain.
+\newblock 2008-BFT-STOCK-ASSESS-REP.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{a}}}{AFWG-CAPENOR-1965-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{b}}}{AFWG-CODCOASTNOR-1982-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock AFWG-NEAR-Gadusmorhua-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{c}}}{AFWG-GHALNEAR-1959-2007-JENNINGS}
+Anon \harvardyearleft 2007{\natexlab{c}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{d}}}{AFWG-GOLDREDNEAR-1986-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{d}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{e}}}{AFWG-HADNEAR-1947-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{e}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{f}}}{AFWG-POLLNEAR-1957-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{f}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{g}}}{WGBFAS-CODBA2532-1964-2007-JENNINGS}
+Anon \harvardyearleft 2007{\natexlab{g}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group (WGBFAS).
+\newblock Tech. rep.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{h}}}{HAWG-HERRNIRS-1960-2006-JENNINGS}
+Anon \harvardyearleft 2007{\natexlab{h}}\harvardyearright{}.
+\newblock Report of the Herring Assessment Working Group South of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{i}}}{HAWG-HERRNS-1960-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{i}}\harvardyearright{}.
+\newblock Report of the Herring Assessment Working Group South of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{j}}}{HAWG-HERRVIa-1957-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{j}}\harvardyearright{}.
+\newblock Report of the Herring Assessment Working Group South of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{k}}}{HAWG-HERRVIaVIIbc-1969-2000-MINTO}
+Anon \harvardyearleft 2007{\natexlab{k}}\harvardyearright{}.
+\newblock Report of the Herring Assessment Working Group South of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{l}}}{NWWG-CAPEICE-1977-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{l}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{m}}}{NWWG-CODFAPL-1959-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{m}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{n}}}{NWWG-CODICE-1952-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{n}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{o}}}{NWWG-HADFAPL-1955-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{o}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{p}}}{NWWG-HADICE-1977-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{p}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{q}}}{WGNSSK-CODNS-1962-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{q}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{r}}}{WGNSSK-HADROCK-1990-2007-JENNINGS}
+Anon \harvardyearleft 2007{\natexlab{r}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{s}}}{WGNSSK-NPOUTNS-1983-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{s}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{t}}}{WGNSSK-PLAIC7d-1979-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{t}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{u}}}{WGNSSK-PLAICIIIa-1976-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{u}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{v}}}{WGNSSK-PLAICNS-1956-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{v}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{w}}}{WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{w}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{x}}}{WGNSSK-SEELNS-1983-2007-MINTO}
+Anon \harvardyearleft 2007{\natexlab{x}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{y}}}{WGNSSK-SOLENS-1956-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{y}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{z}}}{WGNSSK-SOLEVIId-1981-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{z}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{{}}}{WGNPBW-BWHITNEA-1980-2007-JENNINGS}
+Anon \harvardyearleft 2007{\natexlab{{}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{|}}}{WGNSDS-CODIS-1968-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{|}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{}}}}{WGNSDS-CODVIa-1977-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{}}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007{\natexlab{~}}}{WGNSDS-HADIS-1972-2006-MINTO}
+Anon \harvardyearleft 2007{\natexlab{~}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007}{WGNSDS-HADVIa-1977-2006-MINTO}
+Anon \harvardyearleft 2007\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007}{WGNSDS-PLAICIS-1962-2006-MINTO}
+Anon \harvardyearleft 2007\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2007}{WGNSDS-SOLEIS-1968-2006-MINTO}
+Anon \harvardyearleft 2007\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Northern Shelf
+  Demersal Stocks (WGNSDS).
+\newblock Tech. rep.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Anon}{2008{\natexlab{a}}}{AFSC-YSOLEBSAI-1959-2008-MELNYCHUK}
+Anon \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{Anon}{2008{\natexlab{b}}}{DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON}
+Anon \harvardyearleft 2008{\natexlab{b}}\harvardyearright{}.
+\newblock Report of the Herring Assessment Working Group South of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon \harvardand{} NULL}{2004}{VNIRO-WPOLLWBS-1994-2004-JENSEN}
+Anon \harvardand{} NULL \harvardyearleft 2004\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{a}}}{WGBFAS-CODBA2224-1969-2007-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{b}}}{WGBFAS-HERRIsum-1983-2007-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{c}}}{HAWG-HERR2224IIIa-1991-2006-MINTO}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{c}}\harvardyearright{}.
+\newblock Report of the herring assessment Working Group south of
+  62{\textdegree}N (HAWG).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-HAWG-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{d}}}{WGBFAS-HERR31-1979-2006-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{d}}\harvardyearright{}.
+\newblock Report of the North-Western Working Group (NWWG).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-NWWG-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{e}}}{WGNSDS-WHITVIa-1984-2007-MINTO}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{e}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Demersal Stocks in
+  the North Sea and Skagerrak (WGNSSK).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGNSSK-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{f}}}{WGHMM-SOLEVIII-1982-2006-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{f}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of mackerel, horse
+  mackerel, sardine and anchovy (WGMHSA).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGMHSA007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{g}}}{WGMHSA-ANCHOBAYB-1986-2007-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{g}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of mackerel, horse
+  mackerel, sardine and anchovy (WGMHSA).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGMHSA07.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{h}}}{WGMHSA-MACKNEICES-1972-2007-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{h}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of mackerel, horse
+  mackerel, sardine and anchovy (WGMHSA).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGMHSA07.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{i}}}{WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{i}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{j}}}{WGSSDS-HADVIIb-k-1993-2006-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{j}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{k}}}{WGSSDS-PLAICECHW-1975-2006-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{k}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{l}}}{WGSSDS-SOLEVIIe-1968-2006-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{l}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{m}}}{WGBFAS-SPRAT22-32-1973-2007-JENNINGS}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{m}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Stocks of Hake, Monk and Megrim.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGHMM-2007.pdf.
+
+\harvarditem{Anon \harvardand{}
+  NULL}{2007{\natexlab{n}}}{WGNSSK-HADNS-IIIa-1963-2006-MINTO}
+Anon \harvardand{} NULL \harvardyearleft 2007{\natexlab{n}}\harvardyearright{}.
+\newblock Working Group on the Assessment of Northern Shelf Demersal Stocks.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGNSDS-2007.pdf.
+
+\harvarditem{Avila~de Melo \harvardand{}
+  Alpoim}{2007}{NAFO-SC-AMPL3LNO-1955-2007-BAUM}
+Avila~de Melo, A.M. \harvardand{} Alpoim, R. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock An Assessment of American Plaice (Hippoglossoides platessoides) in
+  NAFO Division 3M.
+\newblock Tech. rep.
+\newblock NAFO-AMPL3M-2008.pdf.
+
+\harvarditem[Bourdages \emph{et~al.}]{Bourdages, Morin, Bernier, Camirand
+  \harvardand{} Bernier}{2004}{DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE}
+Bourdages, H., Morin, B., Bernier, B., Camirand, R. \harvardand{} Bernier, D.
+  \harvardyearleft 2004\harvardyearright{}.
+\newblock The status of the redfish stock in unit 1 (Gulf of St. Lawrence) in
+  2000.
+\newblock Tech. rep., Mont-Joli, Qu{\'e}bec, Canada.
+\newblock NAFO-RED3Pn4RSTVn.pdf.
+
+\harvarditem[Bourque \emph{et~al.}]{Bourque, LeBlanc, Poirier, MacDougall
+  \harvardand{} Roy}{2007}{DFO-SG-COD4TVn-1965-2007-PREFONTAINE}
+Bourque, C., LeBlanc, C.H., Poirier, G.A., MacDougall, C. \harvardand{} Roy, J.
+  \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of the NAFO Division 4T southern Gulf of St. Lawrence
+  herring stocks in 2006.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HERR4TFA-2007.pdf.
+
+\harvarditem{Brandao}{????{\natexlab{a}}}{MARAM-KINGKLIPSA-1932-2008-DEDECKER}
+Brandao, A. \harvardyearleft ????{\natexlab{a}}\harvardyearright{}.
+\newblock 2007 Assessment of the Toothfish(Dissostichus eleginoides) resource
+  in the Price Edward Island vicinity.
+\newblock Tech. rep.
+\newblock Branch-SA-Toothfish-2007.pdf.
+
+\harvarditem{Brandao}{????{\natexlab{b}}}{MARAM-DEEPCHAKESA-1917-2008-DEDECKER}
+Brandao, A. \harvardyearleft ????{\natexlab{b}}\harvardyearright{}.
+\newblock Updated assessment of the South African kingklip resource including
+  an initial attempt at including catch-at-length data.
+\newblock Tech. rep.
+\newblock Branch-SA-Kingklip-2008.pdf.
+
+\harvarditem[Brattey \emph{et~al.}]{Brattey, Healey, Murphy \harvardand{}
+  Lilly}{2005}{DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE}
+Brattey, J., Healey, B.P., Murphy, E.F. \harvardand{} Lilly, G.R.
+  \harvardyearleft 2005\harvardyearright{}.
+\newblock An assessment of the cod (Gadus morhua) stock in NAFO Divisions 2J3KL
+  in April 2006.
+\newblock Tech. rep., Canada.
+\newblock DFO-COD2J3KLIS-2006.pdf.
+
+\harvarditem[Brattey \emph{et~al.}]{Brattey, Morgan \harvardand{}
+  Murphy}{2008}{NAFO-SC-COD3M-1959-2008-BAUM}
+Brattey, J., Morgan, M.J. \harvardand{} Murphy, E.F. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock An assessment of the cod stock in NAFO Divisions 3NO.
+\newblock Tech. rep.
+\newblock NAFO-3NO-COD-2007.pdf.
+
+\harvarditem{Butterworth \harvardand{}
+  Rademeyer}{????}{MARAM-CTRACSA-1950-2007-Johnston}
+Butterworth, D.S. \harvardand{} Rademeyer, R.A. \harvardyearleft
+  ????\harvardyearright{}.
+\newblock Development of a new Baseline Assessment for the South African Hake
+  resource, Incorporating catch-at-length information.
+\newblock Tech. rep.
+\newblock SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf.
+
+\harvarditem{Canales \harvardand{} Serra}{2008}{ICCAT-YFINATL-1970-2006-JENSEN}
+Canales, C. \harvardand{} Serra, R. \harvardyearleft 2008\harvardyearright{}.
+\newblock Updated Status of the Chilean Jack Mackerel Stock.
+\newblock Tech. rep.
+\newblock JENSEN-JACKMACKCH-2008.pdf.
+
+\harvarditem[Castro \emph{et~al.}]{Castro, Hueter, Romine, Musick, Kohler
+  \harvardand{} Carlson}{2007}{SEFSC-BNOSESHARATL-1950-2005-FAUCONNET}
+Castro, J., Hueter, R., Romine, J., Musick, J., Kohler, N. \harvardand{}
+  Carlson, J. \harvardyearleft 2007\harvardyearright{}.
+\newblock Stock Assessment Report - Large Coastal Shark Complex, Blacktip and
+  Sandbar Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock LargeCoastalAtl2006-SEFSC.pdf.
+
+\harvarditem[Castro \emph{et~al.}]{Castro, Romine, Musick, Kohler, Hueter
+  \harvardand{} Carlson}{2005}{SEFSC-RSNAPWGM-1880-2003-STANTON}
+Castro, J., Romine, J., Musick, J., Kohler, N., Hueter, R. \harvardand{}
+  Carlson, J. \harvardyearleft 2005\harvardyearright{}.
+\newblock Stock Assessment Report - Large Coastal Shark Complex, Blacktip and
+  Sandbar Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock LargeCoastalAtl2006-SEFSC.pdf.
+
+\harvarditem{Center}{2004}{NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ}
+Center, N.F.S. \harvardyearleft 2004\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-GB-Gadusmorhua-2008.pdf.
+
+\harvarditem{Center}{2005{\natexlab{a}}}{NEFSC-SHAKEGOMNGB-1955-2005-COL}
+Center, N.F.S. \harvardyearleft 2005{\natexlab{a}}\harvardyearright{}.
+\newblock 42nd Northeast Regional Stock Assessment Workshop (42nd SAW) Stock
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock SilverHake-2005-NEFSC-Assessment.pdf.
+
+\harvarditem{Center}{2005{\natexlab{b}}}{NEFSC-SHAKESGBMATL-1955-2005-COL}
+Center, N.F.S. \harvardyearleft 2005{\natexlab{b}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2005{\natexlab{c}}}{NEFSC-TILEMATLC-1973-2008-NITSCHKE}
+Center, N.F.S. \harvardyearleft 2005{\natexlab{c}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2006{\natexlab{a}}}{NEFSC-ILLEXNWATLC-1967-2005-HENDRICKS%
+ON}
+Center, N.F.S. \harvardyearleft 2006{\natexlab{a}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2006{\natexlab{b}}}{NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE}
+Center, N.F.S. \harvardyearleft 2006{\natexlab{b}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2006{\natexlab{c}}}{NEFSC-MACKGOMCHATT-1960-2005-OVERHOLT%
+Z}
+Center, N.F.S. \harvardyearleft 2006{\natexlab{c}}\harvardyearright{}.
+\newblock Monkfish Assessment Report for 2007.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Crd0721.pdf.
+
+\harvarditem{Center}{2007{\natexlab{a}}}{NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock 42nd Northeast Regional Stock Assessment Workshop (42nd SAW) Stock
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock AtlanticMackerel2005.pdf.
+
+\harvarditem{Center}{2007{\natexlab{b}}}{NEFSC-RSKATMATLC-1967-2005-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock 45th Northeast Regional Stock Assessment Workshop (45th SAW) 45th SAW
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock SeaScallop2007.pdf.
+
+\harvarditem{Center}{2007{\natexlab{c}}}{NEFSC-SCALLGB-1964-2006-HART}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{c}}\harvardyearright{}.
+\newblock 45th Northeast Regional Stock Assessment Workshop (45th SAW) 45th SAW
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock SeaScallop2007.pdf.
+
+\harvarditem{Center}{2007{\natexlab{d}}}{NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{d}}\harvardyearright{}.
+\newblock 46th Northeast Regional Stock Assessment Workshop (46th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock 07AssessmentReport.pdf.
+
+\harvarditem{Center}{2007{\natexlab{e}}}{NEFSC-CSKATMATLC-1975-2005-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{e}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-GOM-Melanogrammusaeglefinus-2008.pdf.
+
+\harvarditem{Center}{2007{\natexlab{f}}}{NEFSC-MONKSGBMATL-1964-2006-RICHARDS}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{f}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock .pdf.
+
+\harvarditem{Center}{2007{\natexlab{g}}}{NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{g}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-CCGOM-Limandaferruginea-2008.pdf.
+
+\harvarditem{Center}{2007{\natexlab{h}}}{NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{h}}\harvardyearright{}.
+\newblock B. Atlantic Butterfish.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Butterfish-assessment-2004.pdf.
+
+\harvarditem{Center}{2007{\natexlab{i}}}{NEFSC-MONKGOMNGB-1964-2006-RICHARDS}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{i}}\harvardyearright{}.
+\newblock Monkfish Assessment Report for 2007.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Monkfish2007NEFSCAssessment.pdf.
+
+\harvarditem{Center}{2007{\natexlab{j}}}{NEFSC-SCALLMATLC-1964-2006-HART}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{j}}\harvardyearright{}.
+\newblock The Northeast Data Poor Stocks Working Group Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Crd0902.pdf.
+
+\harvarditem{Center}{2007{\natexlab{k}}}{NEFSC-SURFMATLC-1965-2008-JACOBSON}
+Center, N.F.S. \harvardyearleft 2007{\natexlab{k}}\harvardyearright{}.
+\newblock Northeast Regional Stock Assessment Workshop (41st SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Tilefish2005.pdf.
+
+\harvarditem{Center}{2008{\natexlab{a}}}{NEFSC-SFLOUNMATLC-1940-2007-BAUM}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+\newblock 42nd Northeast Regional Stock Assessment Workshop (42nd SAW) Stock
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock SilverHake-2005-NEFSC-Assessment.pdf.
+
+\harvarditem{Center}{2008{\natexlab{b}}}{NEFSC-CODGOM-1893-2008-BAUM}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{b}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2008{\natexlab{c}}}{NEFSC-WITFLOUN5Y-1982-2008-WIGLEY}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{c}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2008{\natexlab{d}}}{NEFSC-STRIPEDBASSGOMCHATT-1982-2006-S%
+HEPHERD}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{d}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW) 44th SAW
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Surfclam2007.pdf.
+
+\harvarditem{Center}{2008{\natexlab{e}}}{NEFSC-POLL5YZ-1963-2007-MAYO}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{e}}\harvardyearright{}.
+\newblock 48th Northeast Regional Stock Assessment Workshop (48th SAW) 48th SAW
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Quahog.pdf.
+
+\harvarditem{Center}{2008{\natexlab{f}}}{NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{f}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-SNEMATL-Pseudopleuronectesamercianus-2008.pdf.
+
+\harvarditem{Center}{2008{\natexlab{g}}}{NAFO-SC-YELL3LNO-1960-2009-BAUM}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{g}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock AcadianRedfish2008.pdf.
+
+\harvarditem{Center}{2008{\natexlab{h}}}{NEFSC-ACADREDGOMGB-1913-2007-MILLER}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{h}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock .pdf.
+
+\harvarditem{Center}{2008{\natexlab{i}}}{NEFSC-AMPL5YZ-1960-2008-OBRIEN}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{i}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock AtlanticHalibut5YZ2008.pdf .pdf.
+
+\harvarditem{Center}{2008{\natexlab{j}}}{NEFSC-CODGB-1960-2008-BAUM}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{j}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-GOM-Gadusmorhua-2008.pdf.
+
+\harvarditem{Center}{2008{\natexlab{k}}}{NEFSC-OPOUTNWATLC-1962-2008-WIGLEY}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{k}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf.
+
+\harvarditem{Center}{2008{\natexlab{l}}}{NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{l}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Garm3p.pdf.
+
+\harvarditem{Center}{2008{\natexlab{m}}}{NEFSC-WINDOWGOMGB-1975-2007-HENDRICKS%
+ON}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{m}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf.
+
+\harvarditem{Center}{2008{\natexlab{n}}}{NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSO%
+N}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{n}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf.
+
+\harvarditem{Center}{2008{\natexlab{o}}}{NEFSC-WINFLOUNSNEMATL-1940-2007-TERCE%
+IRO}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{o}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+
+\harvarditem{Center}{2008{\natexlab{p}}}{NEFSC-YELLCCODGOM-1935-2008-LEGAULT}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{p}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-GB-Limandaferruginea-2008.pdf.
+
+\harvarditem{Center}{2008{\natexlab{q}}}{NEFSC-YELLGB-1935-2008-BAUM}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{q}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-SNEMATL-Limandaferruginea-2008.pdf.
+
+\harvarditem{Center}{2008{\natexlab{r}}}{NEFSC-ATHAL5YZ-1800-2007-COL}
+Center, N.F.S. \harvardyearleft 2008{\natexlab{r}}\harvardyearright{}.
+\newblock NE Regional Stock Assessment Workshop (41st SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Final-2005-SAW-41-assessment.pdf.
+
+\harvarditem{Center}{2009{\natexlab{a}}}{NEFSC-QUAHATLC-1978-2008-CHUTE}
+Center, N.F.S. \harvardyearleft 2009{\natexlab{a}}\harvardyearright{}.
+\newblock 43rd Northeast Regional Stock Assessment Workshop (43rd SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock RedCrab2006.pdf.
+
+\harvarditem{Center}{2009{\natexlab{b}}}{NEFSC-SCUPNWATLC-1960-2007-TERCEIRO}
+Center, N.F.S. \harvardyearleft 2009{\natexlab{b}}\harvardyearright{}.
+\newblock 43rd Northeast Regional Stock Assessment Workshop (43rd SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Spinydogfish2006.pdf.
+
+\harvarditem{Center}{2009{\natexlab{c}}}{NEFSC-BSBASSMATLC-1968-2007-SHEPHERD}
+Center, N.F.S. \harvardyearleft 2009{\natexlab{c}}\harvardyearright{}.
+\newblock 44th Northeast Regional Stock Assessment Workshop (44th SAW).
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Skates2007.pdf.
+
+\harvarditem{Center}{2009{\natexlab{d}}}{NEFSC-WEAKFISHATLC-1980-2008-STANTON}
+Center, N.F.S. \harvardyearleft 2009{\natexlab{d}}\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock WhiteHake2008.pdf.
+
+\harvarditem{Center \harvardand{} NULL}{2008}{NEFSC-HAD5Y-1956-2008-BAUM}
+Center, N.F.S. \harvardand{} NULL \harvardyearleft 2008\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-5Z-Melanogrammusaeglefinus-2008.pdf.
+
+\harvarditem{Chang \harvardand{} Liu}{2008}{IFOP-CHTRACCH-1975-2007-JENSEN}
+Chang, J.H. \harvardand{} Liu, K.M. \harvardyearleft 2008\harvardyearright{}.
+\newblock Stock assessment of the shortfin mako shark (Isurus oxyrinchus) in
+  the Northwest Pacific Ocean using per recruit and virtual population
+  analyses.
+\newblock Tech. rep., Amsterdam.
+\newblock Chang-Liu-2009-Shortfin-mako-NWPAC.pdf.
+
+\harvarditem{CL \harvardand{} DS}{????}{MARAM-SAABALONESA-1951-2008-PLAGANYI}
+CL, C. \harvardand{} DS, B. \harvardyearleft ????\harvardyearright{}.
+\newblock Base Case Assessment of the South African Sardine Resource.
+\newblock Tech. rep.
+\newblock DeMoorSASardineAssessment-Sep07.pdf.
+
+\harvarditem[Collier \emph{et~al.}]{Collier, Way, Spingle
+  \emph{et~al.}}{2006}{DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE}
+Collier, F., Way, M., Spingle, J. \emph{et~al.} \harvardyearleft
+  2006\harvardyearright{}.
+\newblock The status of cod in the Northern Gulf of St. Lawrence (3Pn, 4RS) in
+  2006.
+\newblock Tech. rep., Canada.
+\newblock DFO-COD3Pn4Rs-2007.pdf.
+
+\harvarditem{Commission}{????}{ASMFC-LOBSTERSNE-1981-2007-STANTON}
+Commission, A.S.M.F. \harvardyearleft ????\harvardyearright{}.
+\newblock ASSESSMENT REPORT FOR GULF OF MAINE NORTHERN SHRIMP {\^a}?? 2008.
+\newblock Tech. rep., Washington, DC 20005.
+\newblock 2008ShrimpAssessment.pdf.
+
+\harvarditem{Committee}{2008}{NEFSC-HADGB-1930-2008-BAUM}
+Committee, T.R.A. \harvardyearleft 2008\harvardyearright{}.
+\newblock Gulf of Maine-Georges Bank Herring Stock Complex.
+\newblock Tech. rep.
+\newblock Herring2006.pdf.
+
+\harvarditem{Cope \harvardand{} Alec}{2007}{NWFSC-ESOLEPCOAST-1876-2007-BRANCH}
+Cope, J. \harvardand{} Alec, M. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status of Kelp Greenling (Hexagrammos decagrammus) in Oregon and
+  California Waters as Assessed in 2005.
+\newblock Tech. rep., City, State (or country).
+\newblock KelpGreenling\_2005.pdf.
+
+\harvarditem[Cort{\'e}s \emph{et~al.}]{Cort{\'e}s, Siegfried, Nesslage, Ingram,
+  Carlson \harvardand{} Brooks}{2006}{SEFSC-SBARSHARATL-1975-2004-FAUCONNET}
+Cort{\'e}s, E., Siegfried, K., Nesslage, G., Ingram, W., Carlson, J.
+  \harvardand{} Brooks, L. \harvardyearleft 2006\harvardyearright{}.
+\newblock Stock Assessment Report - Small Coastal Shark Complex, Atlantic
+  Sharpnose, Blacknose, Bonnethead and Finetooth Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock SmallcoastalAtl2007-SEFSC.pdf.
+
+\harvarditem[Currie \emph{et~al.}]{Currie, Daigle, Hurlbut, Savoie, Poirier,
+  Chouinard \harvardand{}
+  Swain}{2001}{DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE}
+Currie, L.G., Daigle, D., Hurlbut, T., Savoie, L., Poirier, G.A., Chouinard,
+  G.A. \harvardand{} Swain, D.P. \harvardyearleft 2001\harvardyearright{}.
+\newblock Assessment of the southern Gulf of St. Lawrence cod stock, March
+  2007.
+\newblock Tech. rep., Canada.
+\newblock NAFO-COD4TVn-2007.pdf.
+
+\harvarditem{DG \harvardand{} TK}{2008}{AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK}
+DG, N. \harvardand{} TK, W. \harvardyearleft 2008\harvardyearright{}.
+\newblock Chapter 6: arrowtooth flounder.
+\newblock Tech. rep.
+\newblock AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BSAI.pdf.
+
+\harvarditem{Dichmont \harvardand{}
+  NULL}{2007{\natexlab{a}}}{CSIRO-BIGHTREDSE-1958-2007-FULTON}
+Dichmont, C. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{a}}\harvardyearright{}.
+\newblock Assessment of Tiger Prawns.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Dichmont \harvardand{}
+  NULL}{2007{\natexlab{b}}}{CSIRO-GEMFISHSE-1966-2007-FULTON}
+Dichmont, C. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{b}}\harvardyearright{}.
+\newblock Assessment of Tiger Prawns.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Dick~EJ \harvardand{} JC}{2007}{SWFSC-SARDPCOAST-1981-2007-PINSKY}
+Dick~EJ, M.A. \harvardand{} JC, F. \harvardyearleft 2007\harvardyearright{}.
+\newblock Stock assessment model for the shortbelly rockfish, Sebastes jordani,
+  in the California Current.
+\newblock Tech. rep., Santa Cruz, CA.
+\newblock SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfish.pdf.
+
+\harvarditem[Dorn \emph{et~al.}]{Dorn, Aydin \harvardand{}
+  M.}{2008}{AFSC-WPOLLEBS-1963-2008-MELNYCHUK}
+Dorn, M., Aydin, K.B.S.G.M.M.B.S.K. \harvardand{} M., W. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 1. Gulf of Alaska Walleye Pollock.
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-WPOLLGA-2008-Walleye pollock GA.pdf.
+
+\harvarditem{DS \harvardand{} CL}{2009}{IPHC-PHALNPAC-1988-2009-Parma}
+DS, B. \harvardand{} CL, C. \harvardyearleft 2009\harvardyearright{}.
+\newblock Tech. rep.
+\newblock .pdf.
+
+\harvarditem{DS \harvardand{}
+  SJ}{????{\natexlab{a}}}{MARAM-CHAKESA-1917-2008-DEDECKER}
+DS, B. \harvardand{} SJ, J. \harvardyearleft
+  ????{\natexlab{a}}\harvardyearright{}.
+\newblock MARAM/OLRAC averaged Final area-disaggregated Assessment results for
+  west coast rock lobster.
+\newblock Tech. rep.
+\newblock Johnston-SAWestRockLobster-2007.pdf.
+
+\harvarditem{DS \harvardand{}
+  SJ}{????{\natexlab{b}}}{MARAM-CRLOBSTERSA34-1910-2008-Johnston}
+DS, B. \harvardand{} SJ, J. \harvardyearleft
+  ????{\natexlab{b}}\harvardyearright{}.
+\newblock MARAM/OLRAC averaged Final area-disaggregated Assessment results for
+  west coast rock lobster.
+\newblock Tech. rep.
+\newblock Johnston-SAWestRockLobster-2007.pdf.
+
+\harvarditem{DS \harvardand{}
+  SJ}{????{\natexlab{c}}}{MARAM-CRLOBSTERSA7-1910-2008-Johnston}
+DS, B. \harvardand{} SJ, J. \harvardyearleft
+  ????{\natexlab{c}}\harvardyearright{}.
+\newblock MARAM/OLRAC averaged Final area-disaggregated Assessment results for
+  west coast rock lobster.
+\newblock Tech. rep.
+\newblock Johnston-SAWestRockLobster-2007.pdf.
+
+\harvarditem{DS \harvardand{}
+  SJ}{????{\natexlab{d}}}{MARAM-SARDSA-1984-2006-deMoor}
+DS, B. \harvardand{} SJ, J. \harvardyearleft
+  ????{\natexlab{d}}\harvardyearright{}.
+\newblock Near final specifications for the sex- and area-specific Operating
+  Models for testing OMPs for the South Coast rock lobster resource.
+\newblock Tech. rep.
+\newblock Johnston-SASouthRockLobster-2008.pdf.
+
+\harvarditem{DS \harvardand{}
+  SJ}{????{\natexlab{e}}}{MARAM-CRLOBSTERSA8-1910-2008-Johnston}
+DS, B. \harvardand{} SJ, J. \harvardyearleft
+  ????{\natexlab{e}}\harvardyearright{}.
+\newblock The South African horse mackerel assessment for 2007 using an
+  age-structured production model, with future biomass projections.
+\newblock Tech. rep.
+\newblock Johnston-SAHorseMackerel-2007.pdf.
+
+\harvarditem[Duarte \emph{et~al.}]{Duarte, Alpoim, Power \harvardand{}
+  {\`A}vila~de Melo}{2007}{NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE}
+Duarte, R., Alpoim, R., Power, D. \harvardand{} {\`A}vila~de Melo, A.M.
+  \harvardyearleft 2007\harvardyearright{}.
+\newblock A Revised ASPIC Based Assessment of Redfish in NAFO Divisions 3LN.
+\newblock Tech. rep.
+\newblock NAFO-3LN-Redfishspp-2008.pdf.
+
+\harvarditem[Dwyer \emph{et~al.}]{Dwyer, Healey, Maddock~Parsons, Brodie
+  \harvardand{} Morgan}{????}{MARAM-SSLOBSTERSASC-1973-2008-Johnston}
+Dwyer, K.S., Healey, B.P., Maddock~Parsons, D., Brodie, W.B. \harvardand{}
+  Morgan, M.J. \harvardyearleft ????\harvardyearright{}.
+\newblock An assessment of American plaice in NAFO Div. 3LNO.
+\newblock Tech. rep.
+\newblock NAFO-GrandBanks-AmPlaice-2007.pdf.
+
+\harvarditem{EE}{2007}{MARAM-PTOOTHFISHPEI-1960-2008-DEDECKER}
+EE, P. \harvardyearleft 2007\harvardyearright{}.
+\newblock Reference-case 2008 assessment model for abalone in Zones A, B, C and
+  D.
+\newblock Tech. rep.
+\newblock Plaganyi-SA-abalone-2008 NOV SWG-AB 21.pdf.
+
+\harvarditem{EJ \harvardand{}
+  Ralston~S}{2007}{NWFSC-CHILISPCOAST-1892-2007-BRANCH}
+EJ, D. \harvardand{} Ralston~S, P.D. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status of cowcod, Sebastes levis, in the Southern California Bight.
+\newblock Tech. rep.
+\newblock NWFSC-COWCODSCAL-2007-Cowcod CA.pdf.
+
+\harvarditem{Fargo}{2001}{DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE}
+Fargo, J. \harvardyearleft 2001\harvardyearright{}.
+\newblock Flatfish stock assessments for the west coast of Canada and
+  recommended yield options for 2000.
+\newblock Tech. rep.
+\newblock Flat99.pdf.
+
+\harvarditem{Fargo}{2002}{DFO-PAC-PCODWCVANI-1956-2002-COLLIE}
+Fargo, J. \harvardyearleft 2002\harvardyearright{}.
+\newblock Flatfish stock assessments for the west coast of Canada and
+  recommended yield options for 2000.
+\newblock Flat99.pdf.
+
+\harvarditem{Fay}{2008}{NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH}
+Fay, G. \harvardyearleft 2008\harvardyearright{}.
+\newblock Stock Assessment and Status of Longspine Thornyhead (Sebastolobus
+  altivelis) off California, Oregon and Washington in 2005.
+\newblock Tech. rep.
+\newblock 2005-SAFE-Longspine.pdf.
+
+\harvarditem[Fernandez \emph{et~al.}]{Fernandez, Vazquez, Cervino \harvardand{}
+  Saborido-Rey}{2008}{NAFO-SC-AMPL3M-1960-2007-BAUM}
+Fernandez, C., Vazquez, A., Cervino, S. \harvardand{} Saborido-Rey, F.
+  \harvardyearleft 2008\harvardyearright{}.
+\newblock Assessment of the cod stock in NAFO Division 3M.
+\newblock Tech. rep.
+\newblock NAFO-3M-COD-2008.pdf.
+
+\harvarditem{Francis}{2007}{NWWG-POLLFAPL-1958-2006-MINTO}
+Francis, R.I.C.C. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of hoki (Macruronus novaezelandiae) in 2007.
+\newblock Tech. rep., Wellington, New Zealand.
+\newblock FAR0804hok07.pdf.
+
+\harvarditem{Francis}{2008}{NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS}
+Francis, R.I.C.C. \harvardyearleft 2008\harvardyearright{}.
+\newblock Assessment of hoki (Macruronus novaezelandiae) in 2007.
+\newblock FAR0804hok07.pdf.
+
+\harvarditem[Frank \emph{et~al.}]{Frank, Kulka \harvardand{}
+  Simon}{2006}{DFO-HERR4VWX-1965-2006-PREFONTAINE}
+Frank, K.T., Kulka, D.W. \harvardand{} Simon, J.E. \harvardyearleft
+  2006\harvardyearright{}.
+\newblock Distribution and abundance of barndoor skate Dupturius laevis in the
+  Canadian Atlantic based upon research vessel surveys and industry/science
+  surveys.
+\newblock Tech. rep., Canada.
+\newblock NAFO-BARNSK-2002.pdf.
+
+\harvarditem{G \harvardand{}
+  Ianelli~J}{2009}{AFSC-NRSOLEEBSAI-1971-2008-STANTON}
+G, T. \harvardand{} Ianelli~J, L.R.G.S.A.K. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock 2: Assessment of the Pacific Cod Stock in the Eastern Bering Sea and
+  Aleutian Islands Area.
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-PCODBSAI-2008-Pacific cod BSAI.pdf.
+
+\harvarditem{G \harvardand{}
+  Ianelli~J}{2008}{AFSC-PCODBSAI-1964-2008-MELNYCHUK}
+G, T. \harvardand{} Ianelli~J, W.M. \harvardyearleft 2008\harvardyearright{}.
+\newblock 2: Assessment of the Pacific Cod Stock in the Gulf of Alaska.
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-PCODGA-2008-Pacific cod GA.pdf.
+
+\harvarditem{Gibson}{2005}{PFMC-LINGCODSPCOAST-1956-2005-STANTON}
+Gibson, M. \harvardyearleft 2005\harvardyearright{}.
+\newblock Assessment of American lobster in Rhode Island inshore waters.
+\newblock Tech. rep.
+
+\harvarditem{Gibson}{2008{\natexlab{a}}}{RIDEM-LOBSTERRI-1959-2007-COLLIE}
+Gibson, M. \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+\newblock Assessment of Tautog in Rhode Island inshore waters.
+\newblock Tech. rep.
+
+\harvarditem{Gibson}{2008{\natexlab{b}}}{RIDEM-TAUTOGRI-1959-2007-COLLIE}
+Gibson, M.R.I.D.o.E.M.m.g.r.g. \harvardyearleft
+  2008{\natexlab{b}}\harvardyearright{}.
+\newblock Assessment of Winter flounder in Rhode Island inshore waters.
+\newblock Tech. rep.
+
+\harvarditem{GR}{2007}{NWFSC-WROCKPCOAST-1955-2006-BRANCH}
+GR, W. \harvardyearleft 2007\harvardyearright{}.
+\newblock Update to the status of yelloweye rockfish (Sebastes ruberrimus) off
+  the U.S. west coast in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf.
+
+\harvarditem[Gregoire \emph{et~al.}]{Gregoire, Lefebvre \harvardand{}
+  Lavers}{2003}{DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE}
+Gregoire, F., Lefebvre, L. \harvardand{} Lavers, J. \harvardyearleft
+  2003\harvardyearright{}.
+\newblock Analytical assessment and risk analyses for the herring (Clupea
+  harengus harengus L.) stocks of the west coast of Newfoundland (NAFO Division
+  4R) in 2002.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HERR4RFA-2004.pdf.
+
+\harvarditem{Group}{2006}{NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD}
+Group, N.D.P.W. \harvardyearleft 2006\harvardyearright{}.
+\newblock The Northeast Data Poor Stocks Working group report. December 8-12,
+  2008 meeting Part A.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock DataPoorReviewPanelReportFinal-1-20-09.pdf.
+
+\harvarditem[Haddon \emph{et~al.}]{Haddon, NULL, Gardner \harvardand{}
+  Ziegler}{2005}{SWFSC-STFLOUNSPCOAST-1970-2005-STANTON}
+Haddon, M., NULL, Gardner, C. \harvardand{} Ziegler, P. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock Tasmanian giant crab fishery - 2006/07.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_TASGIANTCRAB\_2008.pdf.
+
+\harvarditem{Haltuch~Melissa \harvardand{}
+  Lai}{2005}{NWFSC-PSOLENPCOAST-1910-2005-STANTON}
+Haltuch~Melissa, P.A.C.J. \harvardand{} Lai, H.L. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock Stock Assessment of Petrale Sole: 2004.
+\newblock Tech. rep.
+\newblock 2004-SAFE-WCpetralesole.pdf.
+
+\harvarditem{Haltuch~Melissa \harvardand{}
+  Lai}{2007}{NWFSC-POPERCHPCOAST-1953-2007-BRANCH}
+Haltuch~Melissa, P.A.C.J. \harvardand{} Lai, H.L. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Stock Assessment of Petrale Sole: 2004.
+\newblock Tech. rep.
+\newblock 2004\_SAFE\_WCpetralesole.pdf.
+
+\harvarditem{Hampton \harvardand{}
+  Langley}{2008}{SPC-BIGEYEWPO-1952-2006-JENSEN}
+Hampton, J. \harvardand{} Langley, A. \harvardyearleft 2008\harvardyearright{}.
+\newblock Stock assessment of skipjack tuna in the western and central Pacific
+  Ocean.
+\newblock Tech. rep.
+\newblock SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf.
+
+\harvarditem[Hanchet \emph{et~al.}]{Hanchet, Dunn, Klaer \harvardand{}
+  NULL}{2008}{ASMFC-PANDALGOM-1960-2009-IDOINE}
+Hanchet, S.M., Dunn, A., Klaer, N. \harvardand{} NULL \harvardyearleft
+  2008\harvardyearright{}.
+\newblock Assessment models for Antarctic toothfish (Dissostichus mawsoni) in
+  the Ross Sea including data from the 2006/07 season.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Hanselman \harvardand{}
+  Shotwell}{2009}{AFSC-PERCHEBSAI-1974-2009-STANTON}
+Hanselman, D. \harvardand{} Shotwell, S.K.H.J.F.J.T.I.J.N. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock Chapter 9: Assessment of Pacific ocean perch in the Gulf of Alaska
+  (Executive Summary).
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-POPERCHGA-2008-Pacific ocean perch GA.pdf.
+
+\harvarditem{Hanselman \harvardand{}
+  Heifetz}{2009}{AFSC-NROCKBSAI-1974-2009-STANTON}
+Hanselman, D.S.S.K.I.J. \harvardand{} Heifetz, J. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock Chapter 10: Assessment of Northern Rockfish in the Gulf of Alaska
+  (Executive Summary).
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-NROCKGA-2008-Northern rockfish GA.pdf.
+
+\harvarditem[Hansen \emph{et~al.}]{Hansen, Garciarena \harvardand{}
+  Buratti}{2008}{INIDEP-ARGANCHONARG-1989-2007-Parma}
+Hansen, J., Garciarena, D. \harvardand{} Buratti, C. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock MODELO DE PRODUCCI{\'O}N ESTRUCTURADO POR EDADES Y CAPTURAS
+  BIOL{\'O}GICAMENTE ACEPTABLES DE ANCHO{\'I}TA (Engraulis anchoita) AL SUR DE
+  41{\textordmasculine}S ESTIMADAS PARA EL A{\~N}O 2008.
+\newblock Tech. rep., Mar del Plata, Argentina.
+\newblock Hansen-ANCHOVY-S-2007.pdf.
+
+\harvarditem[Hansen \emph{et~al.}]{Hansen, Garciarena \harvardand{}
+  Buratti}{2009}{IMARM-SFMAKONWPAC-1990-2003-FAUCONNET}
+Hansen, J., Garciarena, D. \harvardand{} Buratti, C. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock AN{\'A}LISIS ESTACIONAL DE COHORTES 1990 - 2007 DE LA POBLACI{\'O}N
+  DE ANCHO{\'I}TA (Engraulis anchoita) AL NORTE DE 41{\textordmasculine}S, Y
+  ESTIMACI{\'O}N DE UNA CAPTURA BIOL{\'O}GICAMENTE ACEPTABLE DURANTE EL A{\~N}O
+  2008. Volume 98, issues 1-3.
+\newblock Hansen-ANCHOVY-N-2007.pdf.
+
+\harvarditem{Hare \harvardand{} Clark}{2007}{IOTC-BIGEYEIO-1957-2006-JENSEN}
+Hare, S. \harvardand{} Clark, W. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of the Pacific halibut stock at the end of 2008.
+\newblock Tech. rep., Seattle, WA.
+\newblock Hare-clark08.pdf.
+
+\harvarditem{Healey \harvardand{}
+  Mah{\'e}}{2007}{NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE}
+Healey, B.P. \harvardand{} Mah{\'e}, J.C. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock An Assessment of Greenland Halibut (Reinhardtius hippoglossoides) in
+  NAFO Subarea 2 and Divisions 3KLMNO.
+\newblock Tech. rep., St. John's, Newfoundland, Canada.
+\newblock NAFO-GHAL23KLMNO-2007.pdf.
+
+\harvarditem[H{\'e}bert \emph{et~al.}]{H{\'e}bert, Moriyasu, B{\'e}langer,
+  DeGr{\^a}ce \harvardand{} Wade}{2007}{DFO-SG-HERR4TSP-1978-2007-PREFONTAINE}
+H{\'e}bert, M., Moriyasu, M., B{\'e}langer, P., DeGr{\^a}ce, P. \harvardand{}
+  Wade, E. \harvardyearleft 2007\harvardyearright{}.
+\newblock The 2007 assessment of snow crab, Chionoecetes opilio, stocks in the
+  southern Gulf of St. Lawrence (Areas 12, 19, E and F).
+\newblock Tech. rep., Moncton, New Brunswick.
+\newblock 2008\_040\_b.pdf.
+
+\harvarditem{Helser \harvardand{}
+  Kaplan}{2007}{NMFS-SARDNPAC-1981-2008-STANTON}
+Helser, T.E. \harvardand{} Kaplan, I.C. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Stock assessment of the arrowtooth flounder (Atheresthes stomias)
+  population off the West Coast of the United States in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder.pdf.
+
+\harvarditem{Hendrickson}{2008}{NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON}
+Hendrickson, L. \harvardyearleft 2008\harvardyearright{}.
+\newblock Assessment of 19 Northeast Groundfish Stocks through 2007: Report of
+  the 3rd Groundfish Assessment Review Meeting (GARM III),.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock Garm3k.pdf.
+
+\harvarditem{Hesler}{2007}{NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH}
+Hesler, T. \harvardyearleft 2007\harvardyearright{}.
+\newblock Stock Assessment of the Blackgill Rockfish (Sebastes melanostomus)
+  Population off the West Coast of the United States in 2005.
+\newblock Tech. rep.
+\newblock 2005-SAFE-Wcblackgill.pdf.
+
+\harvarditem{Hill}{2006}{NMFS-MENATLAN-1940-2005-STANTON}
+Hill, K. \harvardyearleft 2006\harvardyearright{}.
+\newblock ASSESSMENT OF THE PACIFIC SARDINE RESOURCE IN 2007 FOR U.S.
+  MANAGEMENT IN 2008.
+\newblock Tech. rep., City, State (or country).
+\newblock 2008 pac sardine.pdf.
+
+\harvarditem[Hill \emph{et~al.}]{Hill, McDaniel, Lo \harvardand{}
+  Dorval}{2005}{SWFSC-CALSCORPSCAL-1990-2005-STANTON}
+Hill, K.T., McDaniel, J.D., Lo, N.C.H. \harvardand{} Dorval, E.
+  \harvardyearleft 2005\harvardyearright{}.
+\newblock Pacific mackerel (Scomber japonicus) stock assessment for U.S.
+  management in the 2008-2009 fishing season.
+\newblock Tech. rep., Portland, OR.
+\newblock PFMC\_2008\_CPS\_SAFE\_App2\_PMackerel.pdf.
+
+\harvarditem{Horbowy \harvardand{}
+  Janusz}{2003}{SEFSC-YTSNAPSATLCGM-1962-2001-STANTON}
+Horbowy, J. \harvardand{} Janusz, J. \harvardyearleft 2003\harvardyearright{}.
+\newblock The state of the walleye pollock in the northern part of the Okhotsk
+  Sea, North Pacific.
+\newblock Tech. rep.
+\newblock WPOLLNSO-1997-JENSEN.pdf.
+
+\harvarditem[Hoyle \emph{et~al.}]{Hoyle, Langley, Hampton \harvardand{}
+  Kleiber}{2008}{SPC-ALBASPAC-1959-2006-JENSEN}
+Hoyle, S., Langley, A., Hampton, J. \harvardand{} Kleiber, P. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock Stock assessment of bigeye tuna in the Western and Central Pacific
+  Ocean, including an analysis of management options.
+\newblock Tech. rep.
+\newblock SC4-SA-WP1-rev1-bigeye-tuna.pdf.
+
+\harvarditem[Hueter \emph{et~al.}]{Hueter, Castro, Romine, Musick, Kohler
+  \harvardand{} Carlson}{2006}{SEFSC-BTIPSHARATL-1981-2004-FAUCONNET}
+Hueter, R., Castro, J., Romine, J., Musick, J., Kohler, N. \harvardand{}
+  Carlson, J. \harvardyearleft 2006\harvardyearright{}.
+\newblock Stock Assessment Report - Large Coastal Shark Complex, Blacktip and
+  Sandbar Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock LargeCoastalAtl2006-SEFSC.pdf.
+
+\harvarditem[Hurley \emph{et~al.}]{Hurley, Black, Mohn, Simon \harvardand{}
+  Comeau}{2003}{DFO-COD5Zjm-1978-2003-PREFONTAINE}
+Hurley, P.C.F., Black, G.A.P., Mohn, R.K., Simon, G.E. \harvardand{} Comeau,
+  P.A. \harvardyearleft 2003\harvardyearright{}.
+\newblock Assessment of the status of NAFO division 4X/5Y haddock in 2003.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HAD4X5Y-2003.pdf.
+
+\harvarditem{Ianelli \harvardand{}
+  Lowe}{2008}{AFSC-ARFLOUNDGA-1958-2010-STANTON}
+Ianelli, J..W.M..A.K..L.R..S.I. \harvardand{} Lowe, S. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 15. Stock Assessment of Bering Sea/Aleutian Islands Atka Mackerel.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_BSAIatka.pdf.
+
+\harvarditem{Ianelli \harvardand{}
+  Barbeaux}{2008}{AFSC-TANNERCRABBSAI-1965-2008-JENSEN}
+Ianelli, J.G.S.W.M. \harvardand{} Barbeaux, S. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 1A Stock Assessment of Aleutian Islands Region Pollock.
+\newblock AFSC-WPOLLAI-2008-Walleye pollock AI.pdf.
+
+\harvarditem{Ianelli \harvardand{}
+  Wilderbuer}{2008}{AFSC-FLSOLEGA-1978-2008-STANTON}
+Ianelli, J.N. \harvardand{} Wilderbuer, T..N.D. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 5. Assessment of Greenland Turbot in the Eastern Bering Sea and
+  Aleutian Islands.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_BSAIturbot.pdf.
+
+\harvarditem[Ingram \emph{et~al.}]{Ingram, Siegfried, Nesslage, Cort{\'e}s,
+  Carlson \harvardand{} Brooks}{2007}{SEFSC-BHEADSHARATL-1950-2005-FAUCONNET}
+Ingram, W., Siegfried, K., Nesslage, G., Cort{\'e}s, E., Carlson, J.
+  \harvardand{} Brooks, L. \harvardyearleft 2007\harvardyearright{}.
+\newblock Stock Assessment Report - Small Coastal Shark Complex, Atlantic
+  Sharpnose, Blacknose, Bonnethead and Finetooth Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock SmallcoastalAtl2007-SEFSC.pdf.
+
+\harvarditem{Irusta \harvardand{}
+  Renzi}{2007}{INIDEP-ARGHAKENARG-1985-2007-Parma}
+Irusta, G. \harvardand{} Renzi, M. \harvardyearleft 2007\harvardyearright{}.
+\newblock Tech. rep., Mar del Plata, Argentina.
+\newblock Renzi-hake-S-2009.pdf.
+
+\harvarditem{JG \harvardand{} NULL}{2008}{NWFSC-BOCACCSPCOAST-1951-2006-BRANCH}
+JG, F. \harvardand{} NULL \harvardyearleft 2008\harvardyearright{}.
+\newblock Status of the chilipepper rockfish, Sebastes goodei, in 2007.
+\newblock Tech. rep., NULL.
+\newblock NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf.
+
+\harvarditem{JN \harvardand{}
+  Barbeaux~S}{2008}{AFSC-WPOLLAI-1976-2008-MELNYCHUK}
+JN, I. \harvardand{} Barbeaux~S, H.T.K.S.A.K.W.N. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 1. Assessment of the Walleye Pollock stock in the Eastern Bering Sea.
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf.
+
+\harvarditem{J{\o}rgensen}{2007}{NAFO-SC-COD3NO-1953-2007-BAUM}
+J{\o}rgensen, O.A. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of the Greenland Halibut Stock Component in NAFO Subarea 0
+  + Division 1A Offshore + Divisions 1B-1F.
+\newblock Tech. rep., Charlottenlund, Denmark.
+\newblock NAFO-GHAL01ABCDEF-2007.pdf.
+
+\harvarditem{Key \harvardand{}
+  MacCall}{2007}{NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH}
+Key, M. \harvardand{} MacCall, A.F.J.A.N.D.L.K. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock The 2007 assessment of blue rockfish (Sebastes mystinus) in
+  California.
+\newblock Tech. rep.
+\newblock NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf.
+
+\harvarditem{Klaer \harvardand{}
+  NULL}{2007{\natexlab{a}}}{CSIRO-BTSHRIMPNAUST-1970-2006-FULTON}
+Klaer, N. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{a}}\harvardyearright{}.
+\newblock Assessment of Deepwater Flathead.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Klaer \harvardand{}
+  NULL}{2007{\natexlab{b}}}{CSIRO-SWHITSE-1945-2007-FULTON}
+Klaer, N. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{b}}\harvardyearright{}.
+\newblock Assessment of Tiger Flathead.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem[Langley \emph{et~al.}]{Langley, Hampton \harvardand{}
+  Hoyle}{1997}{SFI-WPOLLNSO-1985-1994-JENSEN}
+Langley, A., Hampton, J. \harvardand{} Hoyle, S. \harvardyearleft
+  1997\harvardyearright{}.
+\newblock Stock assessment of albacore tuna in the South Pacific Ocean 30.
+\newblock JENSEN\_ALBWPO\_2008.pdf.
+
+\harvarditem[Langley \emph{et~al.}]{Langley, Kleibert, Hampton \harvardand{}
+  Hoyle}{2008}{SPC-SKJCWPAC-1972-2006-JENSEN}
+Langley, A., Kleibert, P., Hampton, J. \harvardand{} Hoyle, S. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock Stock assessment of yellowfin tuna in the western and central Pacific
+  Ocean, including an analysis of management options.
+\newblock Tech. rep.
+\newblock WCPFC-SC3-SA-SWG-WP-01.pdf.
+
+\harvarditem{Lastname \harvardand{}
+  Hamel}{2007}{NWFSC-SABLEFPCOAST-1900-2007-BRANCH}
+Lastname, F. \harvardand{} Hamel, O. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status and Future Prospects for the Shortspine Thornyhead Resource in
+  Waters off Washington, Oregon, and California as Assessed in 2005.
+\newblock Tech. rep.
+\newblock 2005-SST-assessment.pdf.
+
+\harvarditem{Lastname \harvardand{}
+  Sampson}{2008}{SWFSC-CMACKPCOAST-1929-2008-PINSKY}
+Lastname, F. \harvardand{} Sampson, D. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock The Status of Dover Sole off the U.S. West Coast in 2005.
+\newblock Tech. rep.
+\newblock 2005-SAFE-WCdover.pdf.
+
+\harvarditem[Lavers \emph{et~al.}]{Lavers, Gregoire \harvardand{}
+  Lefebvre}{2004}{DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE}
+Lavers, J., Gregoire, F. \harvardand{} Lefebvre, L. \harvardyearleft
+  2004\harvardyearright{}.
+\newblock Analytical assessment and risk analyses for the spring spawning
+  herring (Clupea harengus harengus L.) stock of the west coast of Newfoundland
+  (NAFO Division 4R) in 2003.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HERR4RSP-2004.pdf.
+
+\harvarditem{Lunsford \harvardand{}
+  Shotwell}{2008}{AFSC-DSOLEGA-1978-2010-STANTON}
+Lunsford, C.R. \harvardand{} Shotwell, S.K.H.D.H.C.D.M. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock Chapter 13: Assessment of Pelagic Shelf Rockfish in the Gulf of
+  Alaska (Executive Summary).
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-DUSROCKGA-2008-Dusky rockfish GA.pdf.
+
+\harvarditem{Lunsford~CR \harvardand{} D}{2008}{AFSC-RKCRABPI-1981-2009-JENSEN}
+Lunsford~CR, F.J.R.C. \harvardand{} D, H. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 3. Assessment of the Sablefish stock in Alaska.
+\newblock AFSC-SABLEFEBSAIGA-2008-Sablefish EBS AI GA.pdf.
+
+\harvarditem{MacCall~Alec \harvardand{}
+  Key}{2005}{SWFSC-DSOLEPCOAST-1910-2005-STANTON}
+MacCall~Alec, B.T.L.B. \harvardand{} Key, M. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock STOCK ASSESSMENT of the GOPHER ROCKFISH (Sebastes carnatus).
+\newblock Tech. rep.
+\newblock 2005-SAFE-Wcgopher.pdf.
+
+\harvarditem[MacDougall \emph{et~al.}]{MacDougall, Roy, Bourque, Poirier
+  \harvardand{} LeBlanc}{2007}{DFO-SG-HERR4TFA-1978-2007-PREFONTAINE}
+MacDougall, C., Roy, J., Bourque, C., Poirier, G.A. \harvardand{} LeBlanc, C.H.
+  \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of the NAFO Division 4T southern Gulf of St. Lawrence
+  herring stocks in 2006.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HERR4T-2007.pdf.
+
+\harvarditem{Matta \harvardand{}
+  Stockhausen}{2008}{AFSC-POPERCHGA-1959-2008-MELNYCHUK}
+Matta, B.T.B.W.M.E.M.M.H. \harvardand{} Stockhausen, W.T. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock 6. Goulf of Alaska Rex Sole Stock Assessment.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_GOArex.pdf.
+
+\harvarditem{Maunder \harvardand{}
+  Aseltine-Nielson}{2007}{SPC-YFINCWPAC-1952-2005-JENSEN}
+Maunder, M. \harvardand{} Aseltine-Nielson, D. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock The Status of California Scorpionfish (Scorpaena guttata) off
+  Southern California in 2004.
+\newblock Tech. rep., City, State (or country).
+\newblock Scorpionfish\_assessment\_report\_2005.pdf.
+
+\harvarditem{Maunder \harvardand{}
+  NULL}{2007}{IATTC-BIGEYEEPAC-1975-2007-JENSEN}
+Maunder, M. \harvardand{} NULL \harvardyearleft 2007\harvardyearright{}.
+\newblock STATUS OF YELLOWFIN TUNA IN THE EASTERN PACIFIC OCEAN IN 2006 AND
+  OUTLOOK.
+\newblock Tech. rep., La Jolla, CA.
+\newblock SAR8-YFT-ENG.pdf.
+
+\harvarditem{McKown}{????{\natexlab{a}}}{ASMFC-LOBSTERGB-1981-2007-STANTON}
+McKown, K. \harvardyearleft ????{\natexlab{a}}\harvardyearright{}.
+\newblock American Lobster Stock Assessment Report for Peer Review.
+\newblock Tech. rep.
+\newblock 2009-ASMFC-Am-Lob.pdf.
+
+\harvarditem{McKown}{????{\natexlab{b}}}{ASMFC-LOBSTERGOM-1981-2007-STANTON}
+McKown, K. \harvardyearleft ????{\natexlab{b}}\harvardyearright{}.
+\newblock American Lobster Stock Assessment Report for Peer Review.
+\newblock Tech. rep.
+\newblock 2009-ASMFC-Am-Lob.pdf.
+
+\harvarditem{McKown}{2004}{ASMFC-ATLCROAKMATLC-1973-2002-STANTON}
+McKown, K. \harvardyearleft 2004\harvardyearright{}.
+\newblock American Lobster Stock Assessment Report for Peer Review.
+\newblock Tech. rep.
+\newblock 2009-ASMFC-Am-Lob.pdf.
+
+\harvarditem{Miri \harvardand{}
+  Kulka}{2004}{DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE}
+Miri, C.M. \harvardand{} Kulka, D.W. \harvardyearleft 2004\harvardyearright{}.
+\newblock The status of monkfish (Lophius americanus) in NAFO divisions 2J, 3K,
+  3L, 3N, 3O and subdivision 3Ps.
+\newblock Tech. rep., St. John's, Newfoundland, Canada.
+\newblock NAFO-MONK2J3KLNOPs-2001.pdf.
+
+\harvarditem{MJ}{2005}{NWFSC-PSOLESPCOAST-1874-2005-STANTON}
+MJ, S. \harvardyearleft 2005\harvardyearright{}.
+\newblock Status of the sablefish resource off the continental U.S. Pacific
+  coast in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-SABLEFPCOAST-2007-Sablefish.pdf.
+
+\harvarditem[Mohn \emph{et~al.}]{Mohn, MacEachern \harvardand{}
+  Fanning}{2002}{DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE}
+Mohn, R.K., MacEachern, W.J. \harvardand{} Fanning, L.P. \harvardyearleft
+  2002\harvardyearright{}.
+\newblock Assessment of 4VsW cod to 2002.
+\newblock Tech. rep., Canada.
+\newblock NAFO-COD4VsW-2003.pdf.
+
+\harvarditem[Morgan \emph{et~al.}]{Morgan, Brodie, Power \harvardand{}
+  Parsons}{2007}{NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE}
+Morgan, M.J., Brodie, W.B., Power, D. \harvardand{} Parsons, D.M.
+  \harvardyearleft 2007\harvardyearright{}.
+\newblock The 2008 Assessment of the Grand Bank Yellowtail Flounder Stock, NAFO
+  Divisions 3LNO.
+\newblock Tech. rep., St. John's, Newfoundland, Canada.
+\newblock NAFO-YELL3LNO-2008.pdf.
+
+\harvarditem[Morgan \emph{et~al.}]{Morgan, Brodie \harvardand{}
+  Shelton}{2003}{DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE}
+Morgan, M.J., Brodie, W.B. \harvardand{} Shelton, P.A. \harvardyearleft
+  2003\harvardyearright{}.
+\newblock An assessment of American plaice in NAFO subdivision 3Ps.
+\newblock Tech. rep., St. John's, Newfoundland, Canada.
+\newblock NAFO-AMPL3Ps-2005.pdf.
+
+\harvarditem[Morgan \emph{et~al.}]{Morgan, Dwyer \harvardand{}
+  Brodie}{2005}{DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE}
+Morgan, M.J., Dwyer, K.S. \harvardand{} Brodie, W.B. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock An assessment of the American plaice stock in NAFO subarea 2 and
+  division 3K.
+\newblock Tech. rep., Canada.
+\newblock NAFO-AMPL23K-2003.pdf.
+
+\harvarditem{Morin \harvardand{}
+  Bernier}{2007}{DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE}
+Morin, B. \harvardand{} Bernier, B. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Greenland halibut (Reinhardtius hippoglossoides) in the
+  Gulf of St. Lawrence (4RST) in 2002.
+\newblock Tech. rep., Mont-Joli, Quebec, Canada.
+\newblock NAFO-GHAL4RST-2003.pdf.
+
+\harvarditem{Muller \harvardand{}
+  Murphy}{2008}{SEFSC-VSNAPSATLC-1946-2008-STANTON}
+Muller, R. \harvardand{} Murphy, M.D.S.J.B.L. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock A stock assessment of yellowtail snapper, Ocyurus chrysurus, in the
+  Southeast United States.
+\newblock Tech. rep.
+\newblock 2003\_SEDAR\_Yellowtailsnapper.pdf.
+
+\harvarditem{NA}{2008}{NEFSC-YELLSNEMATL-1935-2008-BAUM}
+NA \harvardyearleft 2008\harvardyearright{}.
+\newblock 2006 Stock Assessment Report for Atlantic Menhaden.
+\newblock Tech. rep.
+\newblock Atl.Menhaden-ASMFC-2006.pdf.
+
+\harvarditem[Nesslage \emph{et~al.}]{Nesslage, Brooks, Siegfried, Carlson,
+  Cort{\'e}s \harvardand{} Ingram}{2006}{SEFSC-BTIPSHARGM-1981-2004-FAUCONNET}
+Nesslage, G., Brooks, L., Siegfried, K., Carlson, J., Cort{\'e}s, E.
+  \harvardand{} Ingram, W. \harvardyearleft 2006\harvardyearright{}.
+\newblock Stock Assessment Report - Small Coastal Shark Complex, Atlantic
+  Sharpnose, Blacknose, Bonnethead and Finetooth Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock SmallcoastalAtl2007-SEFSC.pdf.
+
+\harvarditem{NULL}{????{\natexlab{a}}}{NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-20%
+07-JENSEN}
+NULL \harvardyearleft ????{\natexlab{a}}\harvardyearright{}.
+
+\harvarditem{NULL}{????{\natexlab{b}}}{NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-200%
+7-JENSEN}
+NULL \harvardyearleft ????{\natexlab{b}}\harvardyearright{}.
+
+\harvarditem{NULL}{????{\natexlab{c}}}{NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-20%
+08-JENSEN}
+NULL \harvardyearleft ????{\natexlab{c}}\harvardyearright{}.
+
+\harvarditem{NULL}{????{\natexlab{d}}}{NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-200%
+7-JENSEN}
+NULL \harvardyearleft ????{\natexlab{d}}\harvardyearright{}.
+\newblock 07-09-FAR.pdf.
+
+\harvarditem{NULL}{2004}{SEFSC-TILESATLC-1961-2002-STANTON}
+NULL \harvardyearleft 2004\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_VSNAPGM\_2006.pdf.
+
+\harvarditem{NULL}{2005}{SEFSC-RSNAPEGM-1872-2003-STANTON}
+NULL \harvardyearleft 2005\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_RSNAPSATLC\_2008.pdf.
+
+\harvarditem{NULL}{2006{\natexlab{a}}}{SEFSC-GAGSATLC-1962-2005-JENSEN}
+NULL \harvardyearleft 2006{\natexlab{a}}\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_GRAMBERGM\_2006.pdf.
+
+\harvarditem{NULL}{2006{\natexlab{b}}}{SEFSC-GRAMBERGM-1986-2004-JENSEN}
+NULL \harvardyearleft 2006{\natexlab{b}}\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_GRAMBERSATLC\_2008.pdf.
+
+\harvarditem{NULL}{2006{\natexlab{c}}}{SEFSC-GTRIGGM-1981-2004-JENSEN}
+NULL \harvardyearleft 2006{\natexlab{c}}\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_KMACKGMSATLC\_2004.pdf.
+
+\harvarditem{NULL}{2007}{SEFSC-GAGGM-1963-2004-JENSEN}
+NULL \harvardyearleft 2007\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_GAGSATLC\_2006.pdf.
+
+\harvarditem{NULL}{2008{\natexlab{a}}}{NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS}
+NULL \harvardyearleft 2008{\natexlab{a}}\harvardyearright{}.
+
+\harvarditem{NULL}{2008{\natexlab{b}}}{ICCAT-SKJWATL-1952-2006-JENSEN}
+NULL \harvardyearleft 2008{\natexlab{b}}\harvardyearright{}.
+\newblock 2007 Mediterranean swordfish stock assessment session.
+\newblock Tech. rep., NULL.
+\newblock ICCAT-Mediterranean-Xiphiasgladius-2007.pdf.
+
+\harvarditem{NULL}{2008{\natexlab{c}}}{SEFSC-GRAMBERSATLC-1946-2006-JENSEN}
+NULL \harvardyearleft 2008{\natexlab{c}}\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_GTRIGGM\_2006.pdf.
+
+\harvarditem{NULL}{2008{\natexlab{d}}}{SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN}
+NULL \harvardyearleft 2008{\natexlab{d}}\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_RGROUPGM-2006.pdf.
+
+\harvarditem{NULL \harvardand{} AD}{2008}{NWFSC-BLUEROCKCAL-1916-2007-BRANCH}
+NULL \harvardand{} AD, M. \harvardyearleft 2008\harvardyearright{}.
+\newblock Status of bocaccio off California in 2007.
+\newblock Tech. rep., NULL.
+\newblock NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf.
+
+\harvarditem[NULL \emph{et~al.}]{NULL, Aires-da Silva \harvardand{}
+  Maunder}{2007}{HAWG-SPRATNS-1995-2007-MINTO}
+NULL, Aires-da Silva, A. \harvardand{} Maunder, M. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Status of bigeye tuna in the eastern Pacific Ocean in 2006 and
+  outlook.
+\newblock Tech. rep., NULL.
+\newblock JENSEN\_BETEPAC\_2008.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{a}}}{AFWG-CODNEAR-1943-2006-MINTO}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{a}}\harvardyearright{}.
+\newblock Report of the Arctic Fisheries Working Group (AFWG).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-AFWG-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{b}}}{WGBFAS-CODKAT-1970-2006-MINTO}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{b}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{c}}}{WGBFAS-HERR2532-1973-2006-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{c}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{d}}}{WGBFAS-HERR30-1972-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{d}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{e}}}{WGBFAS-HERRRIGA-1976-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{e}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{f}}}{WGBFAS-SOLEIIIa-1982-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{f}}\harvardyearright{}.
+\newblock Report of the Baltic Fisheries Assessment Working Group.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGBFAS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{g}}}{WGMHSA-SARDPVIIIc-IXa-1978-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{g}}\harvardyearright{}.
+\newblock Report of the Working Group on northern pelagic and blue whiting
+  fisheries (WGNPBW).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGNPBW-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{h}}}{WGSSDS-PLAICCELT-1976-2006-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{h}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{i}}}{WGSSDS-SOLECS-1970-2006-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{i}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Demersal Stocks (WGSSDS).
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGSSDS-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{j}}}{WGHMM-FMEG8c9a-1986-2006-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{j}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Stocks of Hake, Monk and Megrim.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGHMM-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{k}}}{WGHMM-HAKENRTN-1977-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{k}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Stocks of Hake, Monk and Megrim.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGHMM-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{l}}}{WGHMM-HAKESOTH-1982-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{l}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Stocks of Hake, Monk and Megrim.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGHMM-2007.pdf.
+
+\harvarditem{NULL \harvardand{}
+  Anon}{2007{\natexlab{m}}}{WGHMM-MEG8c9a-1985-2007-JENNINGS}
+NULL \harvardand{} Anon \harvardyearleft 2007{\natexlab{m}}\harvardyearright{}.
+\newblock Report of the Working Group on the Assessment of Southern Shelf
+  Stocks of Hake, Monk and Megrim.
+\newblock Tech. rep., Copenhagen.
+\newblock ICES-WGHMM-2007.pdf.
+
+\harvarditem{NULL \harvardand{} Center}{2006}{NEFSC-SDOGATLC-1962-2006-SOSEBEE}
+NULL \harvardand{} Center, N.F.S. \harvardyearleft 2006\harvardyearright{}.
+\newblock 47th Northeast Regional Stock Assessment Workshop (47th SAW)
+  Assessment Report.
+\newblock Tech. rep., Woods Hole, Massachusetts.
+\newblock NMFS-MATLC-Paralichthysdentatus-2008.pdf.
+
+\harvarditem{NULL \harvardand{} Day}{2007}{CSIRO-SILVERFISHSE-1978-2006-FULTON}
+NULL \harvardand{} Day, J. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of School Whiting.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{NULL \harvardand{}
+  Little}{2007}{CSIRO-DEEPFLATHEADSE-1978-2007-FULTON}
+NULL \harvardand{} Little, R. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Eastern Gemfish.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{NULL \harvardand{} Punt}{2007}{CSIRO-WAREHOUESE-1984-2006-FULTON}
+NULL \harvardand{} Punt, A. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Blue Warehou.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{NULL \harvardand{}
+  Stewart}{2007}{NWFSC-COWCODSCAL-1900-2007-BRANCH}
+NULL \harvardand{} Stewart, I.J. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status of the U.S. canary rockfish resource in 2007.
+\newblock Tech. rep., NULL.
+\newblock NWFSC-CROCKPCOAST-2007-Canary.pdf.
+
+\harvarditem{NULL \harvardand{} Taylor}{2007}{CSIRO-MORWONGSE-1913-2007-FULTON}
+NULL \harvardand{} Taylor, B. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Eastern Pink Ling.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{NULL \harvardand{} Tuck}{2007}{CSIRO-OROUGHYSE-1978-2007-FULTON}
+NULL \harvardand{} Tuck, G. \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Silver Warehou.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem[O'Brien \emph{et~al.}]{O'Brien, Hatt \harvardand{}
+  Hunt}{2007}{CSIRO-WAREHOUWSE-1984-2006-FULTON}
+O'Brien, L., Hatt, B. \harvardand{} Hunt, J.J. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Population status of Eastern Georges Bank cod (unit areas 5Zj,m) for
+  1978-2004.
+\newblock Tech. rep., Canada.
+\newblock NAFO-COD5Zjm-2003.pdf.
+
+\harvarditem{OS}{2007}{NWFSC-CROCKPCOAST-1916-2007-BRANCH}
+OS, H. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status and future prospects for the darkblotched rockfish resource in
+  waters off Washington, Oregon, and California as assessed in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish.pdf.
+
+\harvarditem{OS}{2008}{NWFSC-PHAKEPCOAST-1966-2008-BRANCH}
+OS, H. \harvardyearleft 2008\harvardyearright{}.
+\newblock Status and future prospects for the Pacific ocean perch resource in
+  waters off Washington and Oregon as assessed in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf.
+
+\harvarditem{Panel}{2006}{SEFSC-VSNAPGM-1981-2004-JENSEN}
+Panel, S..S.A. \harvardyearleft 2006\harvardyearright{}.
+\newblock South Atlantic Vermilion Snapper.
+\newblock Tech. rep.
+\newblock 2008\_SEDAR\_VermillionSnapper\_Satl.pdf.
+
+\harvarditem{Panel}{2007}{SEFSC-SNOSESHARATL-1950-2005-FAUCONNET}
+Panel, S..S.A. \harvardyearleft 2007\harvardyearright{}.
+\newblock Section III. A. Assesssment of Snowy Grouper (Epinephelus niveatus)
+  in the South Atlantic Fisheries Management Council Management Area.
+\newblock Tech. rep.
+\newblock 2004-SEDAR-deepwatersnappergrouper.pdf.
+
+\harvarditem{Panel}{2008}{SEFSC-SPANMACKSATLC-1950-2008-JENSEN}
+Panel, S..S.A. \harvardyearleft 2008\harvardyearright{}.
+\newblock
+  Assessment?of?Tilefish,?Lopholatilus?chamaeleonticeps,?in?the?South?Atlantic%
+?Fishery?Management?Council?Management?Area?
+\newblock Tech. rep.
+\newblock 2004-SEDAR-deepwatersnappergrouper.pdf.
+
+\harvarditem{PD \harvardand{} RF}{2008}{AFSC-SNOWCRABBS-1979-2008-JENSEN}
+PD, S. \harvardand{} RF, R. \harvardyearleft 2008\harvardyearright{}.
+\newblock Chapter 13A Shortraker Rockfish.
+\newblock 2008\_SAFE\_BSAIshortraker.pdf.
+
+\harvarditem{Pearson~DE \harvardand{}
+  X}{2006}{NWFSC-SSTHORNHPCOAST-1901-2005-STANTON}
+Pearson~DE, D.E.F.J.R.S.M.A. \harvardand{} X, H. \harvardyearleft
+  2006\harvardyearright{}.
+\newblock Status of the widow rockfish resource in 2007: an update.
+\newblock Tech. rep.
+\newblock NWFSC-WROCKPCOAST-2007-widow.pdf.
+
+\harvarditem{Power}{2001}{DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE}
+Power, D. \harvardyearleft 2001\harvardyearright{}.
+\newblock The status of redfish in SA2+Div.3K.
+\newblock Tech. rep., St. John's, Newfoundland, Canada.
+\newblock NAFO-RED23K-2001.pdf.
+
+\harvarditem[Power \emph{et~al.}]{Power, {\`A}vila~de Melo, Duarte
+  \harvardand{} Alpoim}{2005}{NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE}
+Power, D., {\`A}vila~de Melo, A.M., Duarte, R. \harvardand{} Alpoim, R.
+  \harvardyearleft 2005\harvardyearright{}.
+\newblock An ASPIC Based Assessment of Redfish in NAFO Divisions 3LN.
+\newblock Tech. rep., Lisboa, Portugal.
+\newblock NAFO-RED3LN-2007.pdf.
+
+\harvarditem{Punt \harvardand{} Cope}{2005}{AFSC-CABEZNCAL-1916-2005-STANTON}
+Punt, A. \harvardand{} Cope, J. \harvardyearleft 2005\harvardyearright{}.
+\newblock Status of Cabezon (Scorpaenichthys marmoratus) in California Waters
+  as Assessed in 2005.
+\newblock Tech. rep., City, State (or country).
+\newblock 2005\_SAFE\_Wccabezon.pdf.
+
+\harvarditem{Punt \harvardand{} Cope}{2008}{AFSC-BKINGCRABSMI-1960-2008-JENSEN}
+Punt, A. \harvardand{} Cope, J. \harvardyearleft 2008\harvardyearright{}.
+\newblock Status of Cabezon (Scorpaenichthys marmoratus) in California Waters
+  as Assessed in 2005.
+\newblock 2005-SAFE-WCcabezon.pdf.
+
+\harvarditem{Punt \harvardand{} NULL}{2007}{CSIRO-TIGERFLATSE-1913-2006-FULTON}
+Punt, A. \harvardand{} NULL \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Blue Warehou.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Rademeyer}{????}{MARAM-ANCHOSA-1984-2006-deMoor}
+Rademeyer, R.A. \harvardyearleft ????\harvardyearright{}.
+\newblock Development of a new Baseline Assessment for the South African Hake
+  resource, Incorporating catch-at-length information.
+\newblock Tech. rep.
+\newblock SA-Mcapensis-2008\_IWS\_DEC08\_H\_5.pdf.
+
+\harvarditem{Ralston}{2005}{SWFSC-STFLOUNNPCOAST-1970-2005-STANTON}
+Ralston, S. \harvardyearleft 2005\harvardyearright{}.
+\newblock An Assessment of Starry Flounder off California, Oregon, and
+  Washington.
+\newblock Tech. rep.
+\newblock 2005-SAFE-WCstarryflounder.pdf.
+
+\harvarditem{Ralston}{2007}{SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH}
+Ralston, S. \harvardyearleft 2007\harvardyearright{}.
+\newblock An Assessment of Starry Flounder off California, Oregon, and
+  Washington.
+\newblock Tech. rep.
+\newblock 2005-SAFE-WCstarryflounder.pdf.
+
+\harvarditem{Renzi \harvardand{}
+  Irusta}{2008}{INIDEP-ARGANCHOSARG-1992-2007-Parma}
+Renzi, M. \harvardand{} Irusta, G. \harvardyearleft 2008\harvardyearright{}.
+\newblock Tech. rep., Mar del Plata, Argentina.
+\newblock Irusta-hake-N-2007.pdf.
+
+\harvarditem{RR \harvardand{} PD}{2008}{AFSC-REXSOLEGA-1979-2008-STANTON}
+RR, R. \harvardand{} PD, S. \harvardyearleft 2008\harvardyearright{}.
+\newblock Chapter 13B Blackspotted and rougheye rockfish.
+\newblock Tech. rep.
+\newblock 2008 SAFE BSAIrougheye.pdf.
+
+\harvarditem{Sampson}{2008}{NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH}
+Sampson, D.B. \harvardyearleft 2008\harvardyearright{}.
+\newblock The status of black rockfish off Oregon and California in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf.
+
+\harvarditem{Schweigert}{1999}{DFO-PAC-ESOLEHS-1944-2001-COLLIE}
+Schweigert, J. \harvardyearleft 1999\harvardyearright{}.
+\newblock NULL.
+\newblock Tech. rep.
+
+\harvarditem{Schweigert}{NULL{\natexlab{a}}}{DFO-PAC-HERRCC-1951-2007-COLLIE}
+Schweigert, J. \harvardyearleft NULL{\natexlab{a}}\harvardyearright{}.
+\newblock NULL.
+
+\harvarditem{Schweigert}{NULL{\natexlab{b}}}{DFO-PAC-HERRPRD-1951-2007-COLLIE}
+Schweigert, J. \harvardyearleft NULL{\natexlab{b}}\harvardyearright{}.
+\newblock NULL.
+
+\harvarditem{Schweigert}{NULL{\natexlab{c}}}{DFO-PAC-HERRQCI-1951-2007-COLLIE}
+Schweigert, J. \harvardyearleft NULL{\natexlab{c}}\harvardyearright{}.
+\newblock NULL.
+
+\harvarditem{Schweigert}{NULL{\natexlab{d}}}{DFO-PAC-HERRSOG-1951-2007-COLLIE}
+Schweigert, J. \harvardyearleft NULL{\natexlab{d}}\harvardyearright{}.
+\newblock NULL.
+
+\harvarditem{SEDAR}{2006}{SEFSC-RPORGYSATLC-1972-2004-JENSEN}
+SEDAR \harvardyearleft 2006\harvardyearright{}.
+\newblock Gulf of Mexico Red Snapper Stock Assessment Report.
+\newblock Tech. rep.
+\newblock RedSnapper-SEDAR-2008.pdf.
+
+\harvarditem{SEDAR}{2008}{SEFSC-RSNAPSATLC-1945-2006-JENSEN}
+SEDAR \harvardyearleft 2008\harvardyearright{}.
+\newblock Gulf of Mexico Red Snapper Stock Assessment Report.
+\newblock Tech. rep.
+\newblock RedSnapper-SEDAR-2008.pdf.
+
+\harvarditem[Shelton \emph{et~al.}]{Shelton, Brattey, Cadigan, Healey, Lilly,
+  Murphy \harvardand{}
+  Mah{\'e}}{2006}{DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE}
+Shelton, P.F., Brattey, J., Cadigan, N.G., Healey, B.P., Lilly, G.R., Murphy,
+  E.F. \harvardand{} Mah{\'e}, J.C. \harvardyearleft 2006\harvardyearright{}.
+\newblock Assessment of the cod (Gadus morhua) stock in NAFO Subdivision 3Ps in
+  October 2004.
+\newblock Tech. rep., Canada.
+\newblock DFO-COD3Ps-2004.pdf.
+
+\harvarditem{Shotwell \harvardand{}
+  Hanselman}{2009}{AFSC-REYEROCKBSAI-1974-2009-STANTON}
+Shotwell, S.K. \harvardand{} Hanselman, D.C.D.M. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock Chapter 11: Assessment of Rougheye and Blackspotted Rockfish in the
+  Gulf of Alaska (Executive Summary).
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-RYEROCKGA-2008-Rougheye rockfish GA.pdf.
+
+\harvarditem[Show \emph{et~al.}]{Show, Felix-Uraga, Macewicz, Lo, Dorval
+  \harvardand{} Hill}{2005}{SWFSC-GOPHERSPCOAST-1965-2005-STANTON}
+Show, C., Felix-Uraga, R., Macewicz, B.J., Lo, N.C.H., Dorval, E. \harvardand{}
+  Hill, K.T. \harvardyearleft 2005\harvardyearright{}.
+\newblock Assessment of the Pacific Sardine resource in 2007 for U.S.
+  management in 2008.
+\newblock Tech. rep., La Jolla, CA.
+\newblock NOAA-TM-NMFS-SWFSC-413.pdf.
+
+\harvarditem{Showell}{2006}{NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ}
+Showell, H.a. \harvardyearleft 2006\harvardyearright{}.
+\newblock Assessment of Northern Shortfin Squid (Illex illecebrosus) in
+  Subareas 3+4 for 2005.
+\newblock Tech. rep., Halifax, NS.
+\newblock Scr06-46.pdf.
+
+\harvarditem[Siegfried \emph{et~al.}]{Siegfried, Nesslage, Brooks, Carlson,
+  Cort{\'e}s \harvardand{} Ingram}{2008}{RIDEM-WINFLOUNDRI-1959-2007-COLLIE}
+Siegfried, K., Nesslage, G., Brooks, L., Carlson, J., Cort{\'e}s, E.
+  \harvardand{} Ingram, W. \harvardyearleft 2008\harvardyearright{}.
+\newblock Stock Assessment Report - Small Coastal Shark Complex, Atlantic
+  Sharpnose, Blacknose, Bonnethead and Finetooth Shark.
+\newblock Tech. rep., Silver Spring, Maryland.
+\newblock SmallcoastalAtl2007-SEFSC.pdf.
+
+\harvarditem{Simon \harvardand{}
+  Bundy}{2003}{DFO-MAR-COD4VsW-1958-2002-PREFONTAINE}
+Simon, J. \harvardand{} Bundy, A. \harvardyearleft 2003\harvardyearright{}.
+\newblock Assessment of White Hake (Urophycis tenuis) in NAFO Divisions 4VWX
+  and 5.
+\newblock Tech. rep., Canada.
+\newblock NAFO-WHAKE4VWX5-2005.pdf.
+
+\harvarditem{Sinclair}{2005}{DFO-PAC-PCODHS-1956-2005-COLLIE}
+Sinclair, A.F. \harvardyearleft 2005\harvardyearright{}.
+\newblock West Coast Vancouver Island Pacific Cod Assessment: 2002.
+
+\harvarditem{Sinclair}{NULL}{DFO-PAC-HERRWCVANI-1951-2007-COLLIE}
+Sinclair, A.F. \harvardyearleft NULL\harvardyearright{}.
+\newblock Assessment of Pacific Cod in Hecate Strait (5CD) and Queen Charlotte
+  Sound (5AB), January, 2005.
+
+\harvarditem{SJ \harvardand{}
+  DS}{????{\natexlab{a}}}{MARAM-CRLOBSTERSA12-1910-2008-Johnston}
+SJ, J. \harvardand{} DS, B. \harvardyearleft
+  ????{\natexlab{a}}\harvardyearright{}.
+\newblock MARAM/OLRAC averaged Final area-disaggregated Assessment results for
+  west coast rock lobster.
+\newblock Tech. rep.
+\newblock Johnston-SAWestRockLobster-2007.pdf.
+
+\harvarditem{SJ \harvardand{}
+  DS}{????{\natexlab{b}}}{MARAM-CRLOBSTERSA56-1910-2008-Johnston}
+SJ, J. \harvardand{} DS, B. \harvardyearleft
+  ????{\natexlab{b}}\harvardyearright{}.
+\newblock MARAM/OLRAC averaged Final area-disaggregated Assessment results for
+  west coast rock lobster.
+\newblock Tech. rep.
+\newblock Johnston-SAWestRockLobster-2007.pdf.
+
+\harvarditem[Smith \emph{et~al.}]{Smith, Vaughan \harvardand{}
+  Shertzer}{2004}{SEFSC-KMACKSATLC-1981-2001-JENSEN}
+Smith, J., Vaughan, D. \harvardand{} Shertzer, K. \harvardyearleft
+  2004\harvardyearright{}.
+\newblock Gulf menhaden (Brevoortia patronus) in the U.S. Gulf of Mexico:
+  Fishery characteristics and biological reference points for management.
+\newblock Tech. rep.
+\newblock GILROY-MENHADENGM-2007.pdf.
+
+\harvarditem{Spencer \harvardand{}
+  Ianelli}{2008{\natexlab{a}}}{AFSC-PCODGA-1964-2008-MELNYCHUK}
+Spencer, P.D. \harvardand{} Ianelli, J.N. \harvardyearleft
+  2008{\natexlab{a}}\harvardyearright{}.
+\newblock Chapter 11. Pacific Ocean Perch.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_BSAIpop.pdf.
+
+\harvarditem{Spencer \harvardand{}
+  Ianelli}{2008{\natexlab{b}}}{AFSC-GKINGCRABAIWS-1989-2007-JENSEN}
+Spencer, P.D. \harvardand{} Ianelli, J.N. \harvardyearleft
+  2008{\natexlab{b}}\harvardyearright{}.
+\newblock Chapter 12. Northern Rockfish.
+\newblock 2008\_SAFE\_BSAInorthern.pdf.
+
+\harvarditem{Spencer~PD \harvardand{}
+  WT}{2008}{AFSC-DUSROCKGA-1973-2008-MELNYCHUK}
+Spencer~PD, N.D. \harvardand{} WT, S. \harvardyearleft 2008\harvardyearright{}.
+\newblock Chapter 8: flathead sole.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_BSAIflathead.pdf.
+
+\harvarditem[Stephenson \emph{et~al.}]{Stephenson, Annis, Melvin, Knox, Fife,
+  Clark \harvardand{} Power}{2003}{DFO-HAD5Zejm-1969-2003-PREFONTAINE}
+Stephenson, R.L., Annis, L.M., Melvin, G.D., Knox, D., Fife, F.J., Clark, K.J.
+  \harvardand{} Power, M.J. \harvardyearleft 2003\harvardyearright{}.
+\newblock 2006 Evaluation of 4VWX Herring.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HERR4VWX-2006.pdf.
+
+\harvarditem{Stewart}{2008}{NWFSC-DKROCKPCOAST-1928-2007-BRANCH}
+Stewart, I.J. \harvardyearleft 2008\harvardyearright{}.
+\newblock Updated U.S. English sole stock assessment: status of the resource in
+  2007.
+\newblock Tech. rep.
+\newblock NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf.
+
+\harvarditem[Stewart \emph{et~al.}]{Stewart, Helser \harvardand{}
+  Hamel}{2005}{NWFSC-LSTHORNHPCOAST-1962-2005-STANTON}
+Stewart, I.J., Helser, T.E. \harvardand{} Hamel, O.S. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock Stock assessment of Pacific hake, Merluccius productus, (a.k.a.
+  whiting) in U.S. and Canadian waters in 2008.
+\newblock Tech. rep.
+\newblock NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf.
+
+\harvarditem{Stockhausen \harvardand{}
+  Turnock}{2005}{AFSC-CABEZSCAL-1932-2005-STANTON}
+Stockhausen, W.T. \harvardand{} Turnock, B.J..W.M.E..M.M.H. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock 5. Gulf of Alaska Deepwater Flatfish.
+\newblock Tech. rep.
+\newblock 2007\_SAFE\_GOAdeepflat.pdf.
+
+\harvarditem{Stockhausen \harvardand{}
+  Wilkins}{2009}{AFSC-FLSOLEBSAI-1977-2008-STANTON}
+Stockhausen, W.T. \harvardand{} Wilkins, M.E..M.M.H. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock 8. Gulf of Alaska Flathead Sole Stock Assessment.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_GOAflathead.pdf.
+
+\harvarditem[Stone \emph{et~al.}]{Stone, Perley \harvardand{}
+  Clark}{1999}{DFO-PAC-RSOLEHSTR-1945-2001-COLLIE}
+Stone, H., Perley, P. \harvardand{} Clark, D. \harvardyearleft
+  1999\harvardyearright{}.
+\newblock 2006 Assessment of pollock in 4VWX and 5Zc.
+\newblock Tech. rep., Canada.
+\newblock NAFO-POLL4VWX5Zc-2006.pdf.
+
+\harvarditem[Stransky \emph{et~al.}]{Stransky, Siegstad \harvardand{}
+  R{\"a}tz}{2007}{NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE}
+Stransky, C., Siegstad, H. \harvardand{} R{\"a}tz, H.J. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Assessment of Demersal Redfish in NAFO Subarea 1.
+\newblock Tech. rep., Greenland.
+\newblock NAFO-RED1-2005.pdf.
+
+\harvarditem{T \harvardand{} Nichol~DG}{2008}{AFSC-WPOLLGA-1964-2008-MELNYCHUK}
+T, W. \harvardand{} Nichol~DG, I.J. \harvardyearleft 2008\harvardyearright{}.
+\newblock 4. Yellowfin sole.
+\newblock Tech. rep., Anchorage, AK.
+\newblock AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf.
+
+\harvarditem[T-S \emph{et~al.}]{T-S, Tsou \harvardand{}
+  F.R.}{2005}{NWFSC-BGROCKPCOAST-1950-2005-STANTON}
+T-S, C.Y.W., Tsou \harvardand{} F.R., W. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock Status of the black rockfish resource north of Cape Falcon, Oregon to
+  the U.S.-Canada border in 2006.
+\newblock Tech. rep.
+\newblock NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf.
+
+\harvarditem{Taylor \harvardand{} NULL}{2007}{CSIRO-NZLINGESE-1968-2007-FULTON}
+Taylor, B. \harvardand{} NULL \harvardyearleft 2007\harvardyearright{}.
+\newblock Assessment of Western Pink Ling.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem[Van~Eeckhaute \emph{et~al.}]{Van~Eeckhaute, Gavaris \harvardand{}
+  Brodziak}{2003}{DFO-HAD4X5Y-1960-2003-PREFONTAINE}
+Van~Eeckhaute, L., Gavaris, S. \harvardand{} Brodziak, J. \harvardyearleft
+  2003\harvardyearright{}.
+\newblock Assessment of haddock on eastern Georges Bank.
+\newblock Tech. rep., Canada.
+\newblock NAFO-HAD5Zejm-2003.pdf.
+
+\harvarditem{Vasilyev}{2008}{TAFI-TASGIANTCRABTAS-1990-2007-JENSEN}
+Vasilyev, D.A. \harvardyearleft 2008\harvardyearright{}.
+\newblock PRELIMINARY NAVARIN WALLEYE POLLOCK (THERAGRA CHALCOGRAMMA) STOCK
+  ASSESMENT.
+\newblock Tech. rep.
+\newblock WPOLLWBS-2004-JENSEN.pdf.
+
+\harvarditem{VV \harvardand{}
+  MJ}{2005}{NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON}
+VV, G. \harvardand{} MJ, S. \harvardyearleft 2005\harvardyearright{}.
+\newblock Status of the longnose skate (Raja rhina) off the continental US
+  Pacific Coast in 2007.
+\newblock Tech. rep.
+\newblock NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf.
+
+\harvarditem{Wallace \harvardand{}
+  Jagielo}{????}{NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN}
+Wallace, F. \harvardand{} Jagielo, T. \harvardyearleft ????\harvardyearright{}.
+\newblock Assessment of Lingcod (Ophiodon elongatus) for the Pacific Fishery
+  Management Council in 2005.
+\newblock 2005-SAFE-WClingcod.pdf.
+
+\harvarditem{Wallace \harvardand{}
+  Jagielo}{2005}{PFMC-LINGCODNPCOAST-1956-2005-STANTON}
+Wallace, F. \harvardand{} Jagielo, T. \harvardyearleft 2005\harvardyearright{}.
+\newblock Assessment of Lingcod (Ophiodon elongatus) for the Pacific Fishery
+  Management Council in 2005.
+\newblock Tech. rep.
+\newblock 2005\_SAFE\_Wclingcod.pdf.
+
+\harvarditem{Wallace \harvardand{}
+  Lai}{2007}{NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH}
+Wallace, J. \harvardand{} Lai, H.L. \harvardyearleft 2007\harvardyearright{}.
+\newblock Status of the Yellowtail Rockfish in 2004.
+\newblock Tech. rep.
+\newblock 2005\_SAFE\_yellowtail.pdf.
+
+\harvarditem{Wayte}{2006}{CSIRO-OROUGHYCASCADE-1987-2006-FULTON}
+Wayte, S. \harvardyearleft 2006\harvardyearright{}.
+\newblock Assessment of Eastern Orange Roughy.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Wayte \harvardand{}
+  NULL}{2007{\natexlab{a}}}{CSIRO-NZLINGWSE-1968-2007-FULTON}
+Wayte, S. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{a}}\harvardyearright{}.
+\newblock Assessment of Cascades Orange Roughy.
+\newblock Tech. rep., Hobart, Australia.
+\newblock CSIRO-Cascade-Plateau-Stock-Assessment-2006.pdf.
+
+\harvarditem{Wayte \harvardand{}
+  NULL}{2007{\natexlab{b}}}{CSIRO-GTPRAWNNAUST-1970-2006-FULTON}
+Wayte, S. \harvardand{} NULL \harvardyearleft
+  2007{\natexlab{b}}\harvardyearright{}.
+\newblock Assessment of Jackass Morwong.
+\newblock Tech. rep., Hobart, Australia.
+
+\harvarditem{Wilderbuer \harvardand{}
+  Turnock}{2009}{AFSC-ARFLOUNDBSAI-1970-2008-STANTON}
+Wilderbuer, T.K. \harvardand{} Turnock, B.J. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock 7. Gulf of Alaska Arrowtooth Flounder Stock Assessment.
+\newblock Tech. rep., City, State (or country).
+\newblock 2008\_SAFE\_GOAatf.pdf.
+
+\harvarditem{Wliderbuer \harvardand{}
+  Nichol}{2008}{AFSC-NROCKGA-1959-2008-MELNYCHUK}
+Wliderbuer, T.K. \harvardand{} Nichol, D.G. \harvardyearleft
+  2008\harvardyearright{}.
+\newblock Chapter 7 Northern Rock Sole.
+\newblock Tech. rep.
+\newblock 2008\_SAFE\_BSAIrocksole.pdf.
+
+\harvarditem{W{\"o}hler \harvardand{}
+  Giussi}{2007}{INIDEP-PATGRENADIERSARG-1983-2006-Parma}
+W{\"o}hler, O. \harvardand{} Giussi, A. \harvardyearleft
+  2007\harvardyearright{}.
+\newblock Evaluaci{\'o}n de la abundancia de polaca (Micromesistius australis)
+  en el Atl{\'a}ntico Sudoccidental. Per{\'i}odo 1987-2007.
+\newblock Tech. rep., Mar del Plata, Argentina.
+\newblock Giussi-polaca-2007.pdf.
+
+\harvarditem{W{\"o}hler \harvardand{}
+  Giussi}{2009}{INIDEP-ARGHAKESARG-1985-2008-Parma}
+W{\"o}hler, O. \harvardand{} Giussi, A. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock Evaluaci{\'o}n de la abundancia de merluza de cola (Macruronus
+  magellanicus) en el Atl{\'a}ntico Sudoccidental. Per{\'i}odo 1985-2006.
+\newblock Tech. rep., Mar del Plata, Argentina.
+\newblock Giussi-hoki-2007.pdf.
+
+\harvarditem{Workshop}{2007}{NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE}
+Workshop, N.R.S.A. \harvardyearleft 2007\harvardyearright{}.
+\newblock 48th Northeast Regional Stock Assessment Workshop (48th SAW) -
+  Assessment Summary Report.
+\newblock Tech. rep.
+\newblock NEFSC-Weakfish-2009.pdf.
+
+\end{thebibliography}

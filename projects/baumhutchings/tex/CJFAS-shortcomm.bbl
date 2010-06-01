@@ -1,0 +1,44 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Hutchings(2000)}]{Hutchings:2000:nature}
+Hutchings, J. 2000.
+\newblock Collapse and recovery of marine fishes.
+\newblock \emph{Nature (London)} \textbf{406}(6798): 882--885
+
+\bibitem[{Hutchings and Baum(2005)}]{Hutchings:Baum:2005:philtransB}
+Hutchings, J. and Baum, J. 2005.
+\newblock Measuring marine fish biodiversity: temporal changes in abundance,
+  life history and demography.
+\newblock \emph{Philosophical Transactions of the Royal Society B}
+  \textbf{360}: 315--338
+
+\bibitem[{Myers and Worm(2005)}]{Myers:Worm:2005:philtransB}
+Myers, R. and Worm, B. 2005.
+\newblock Extinction, survival, or recovery of large predatory marine fishes.
+\newblock \emph{Philosophical Transactions of the Royal Society B}
+  \textbf{360}: 13--20
+
+\bibitem[{{World Wildlife Fund for Nature}(2008)}]{WWF:2008}
+{World Wildlife Fund for Nature}. 2008.
+\newblock Living planet report for 2008.
+\newblock Tech. rep., {World Wildlife Fund for Nature}, Gland, Switzerland
+
+\bibitem[{Worm et~al.(2009)Worm, Hilborn, Baum, Branch, Collie, Costello,
+  Fogarty, Fulton, Hutchings, Jennings, Jensen, Lotze, Mace, McClanahan, Minto,
+  Palumbi, Parma, Ricard, Rosenberg, Watson and
+  Zeller}]{Worm:etal:2009:science}
+Worm, B., Hilborn, R., Baum, J.~K., Branch, T.~A., Collie, J.~S., Costello, C.,
+  Fogarty, M.~J., Fulton, E.~A., Hutchings, J.~A., Jennings, S., Jensen, O.~P.,
+  Lotze, H.~K., Mace, P.~M., McClanahan, T.~R., Minto, C., Palumbi, S.~R.,
+  Parma, A.~M., Ricard, D., Rosenberg, A.~A., Watson, R. and Zeller, D. 2009.
+\newblock Rebuilding global fisheries.
+\newblock \emph{Science (Washington)} \textbf{325}: 578--585
+
+\end{thebibliography}

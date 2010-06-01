@@ -1,0 +1,175 @@
+## R code to produce phase-plane plots for all the assessments where SSBmsy and Fmsy are defined
+## Started 2010-02-12 DR
+## Time-stamp: <Last modified: 2 MARCH   (srdbadmin)>
+
+require(RODBC)
+require(gplots)
+
+chan<-odbcConnect(dsn='srdbcalo')
+
+qu <- paste("
+select * from srdb.phaseplane
+", sep="")
+
+my.dat <- sqlQuery(chan,qu)
+
+a <- unique(my.dat$assessid)
+
+
+pdf("phase-plane.pdf", width=8.5, height=11)
+for (i in 1:length(a)) {
+temp<-subset(my.dat, assessid==a[i])
+
+## layout
+## 
+# look at function/package "ts" for handling lags
+
+par( oma=c(2,1,1,0))
+layout.mat<-matrix(c(1,2,3,4), 2, 2, byrow = TRUE)
+#layout.mat <- matrix(c(1,2,3,3), 2, 2, byrow = TRUE)
+#layout.show(layout.mat)
+
+layout(layout.mat)
+par(mar=c(3,3,3,1))
+
+ll <- length(temp$frelativetofmsy)
+plot.colors <- rich.colors(ll)
+
+plot(temp$tsyear, temp$ssbrelativetossbmsy,type='b', lwd=2, lty=1, pch=19, col=plot.colors,xlab="",ylab="",ylim=c(0,5))
+abline(h=1)
+title(a[i])
+mtext(side=1,text="Year", line=2, cex=1.1)
+mtext(side=2,text="SSB/SSBmsy", line=2, cex=1.1)
+points(temp$tsyear, temp$frelativetofmsy, type='b', lty=2, pch=17, col=plot.colors)
+axis(side=4)
+legend("topleft",c("SSB","F"),lty=c(1,2),pch=c(19,17),lwd=c(2,1))
+
+ll <- length(temp$frelativetofmsy)
+plot.colors <- rich.colors(ll)
+#par(mfrow=c(3,1))
+
+
+plot(temp$ssbrelativetossbmsy, temp$frelativetofmsy, col=plot.colors, xlim=c(0,5), ylim=c(0,5), type='b', pch=19, ylab="",xlab="")
+
+mtext(side=1,"SSB/SSBmsy",line=2)
+mtext(side=2,"F/Fmsy",line=1.5)
+
+text(temp$ssbrelativetossbmsy[1], temp$frelativetofmsy[1]+0.1, temp$tsyear[1])
+text(temp$ssbrelativetossbmsy[11], temp$frelativetofmsy[11]+0.1, temp$tsyear[11])
+text(temp$ssbrelativetossbmsy[ll], temp$frelativetofmsy[ll]+0.1, temp$tsyear[ll])
+
+abline(h=1)
+abline(v=1)
+
+## direction and magnitude of the vector linking each subsequent years
+minyr <- min(temp$tsyear) + 1
+maxyr <- max(temp$tsyear)
+n.pts <-maxyr-minyr+1
+  
+delta.ssb.f <- data.frame(tsyear=rep(-99,n.pts), delta.ssb=rep(-99,n.pts), delta.f=rep(-99,n.pts), delta.dir=rep(-99,n.pts), delta.mag=rep(-99,n.pts))
+
+for (y in minyr:maxyr) {
+  ii<-y-minyr+1 # index for R object "temp"
+print(paste("y=",y," ii=",ii))  
+  #ind<-ii-1 # index for data frame delta.ssb.f 
+  delta.ssb.f$tsyear[ii] <- y
+  delta.ssb.f$delta.ssb[ii] <- temp$ssbrelativetossbmsy[ii+1] - temp$ssbrelativetossbmsy[ii]
+  delta.ssb.f$delta.f[ii] <- temp$frelativetofmsy[ii+1] - temp$frelativetofmsy[ii]
+  delta.ssb.f$delta.mag[ii] <- sqrt(((delta.ssb.f$delta.ssb[ii])^2)+((delta.ssb.f$delta.f[ii])^2))
+  delta.ssb.f$delta.dir[ii] <- ifelse(delta.ssb.f$delta.f[ii]>=0,atan2(delta.ssb.f$delta.f[ii],delta.ssb.f$delta.ssb[ii]),(2*pi)+atan2(delta.ssb.f$delta.f[ii],delta.ssb.f$delta.ssb[ii]))
+
+  ## FROM WADE
+  ## x<-c(0,1,1,1,0,-1,-1,-1,0)
+  ## y<-c(1,1,0,-1,-1,-1,0,1,1)
+  ## angle<- ifelse(y>=0,atan2(y,x),2*pi+atan2(y,x))
+  ## cbind(x,y,angle)
+  }
+
+## now compute deviations of vector direction
+minyr <- min(temp$tsyear) + 2
+maxyr <- max(temp$tsyear)
+n.pts <-maxyr-minyr+1
+
+dir.delta <- data.frame(tsyear=rep(-99,n.pts), delta=rep(-99,n.pts))
+for (y in minyr:maxyr) {
+  ii<-y-minyr+1
+  dir.delta$tsyear[ii] <- y
+  dir.delta$delta[ii] <- delta.ssb.f$delta.dir[ii+1] - delta.ssb.f$delta.dir[ii]
+}
+
+
+
+
+plot(delta.ssb.f$tsyear, delta.ssb.f$delta.mag, type='b', lty=1, lwd=2, pch=19, col=plot.colors, xlab="", ylab="", mar=c(0,2,0,0), oma=c(1,1,0,0))
+mtext(side=1,"Year", line=2)
+mtext(side=2,"magnitude", line=2)
+
+
+plot(delta.ssb.f$tsyear, delta.ssb.f$delta.dir, type='b', lty=1, lwd=2, pch=19, col=plot.colors, xlab="", ylab="", mar=c(2,2,0,0), oma=c(1,1,0,0), ylim=c(-2.35*pi,2*pi))
+mtext(side=1,"Year", line=2)
+mtext(side=2,"direction (radian)", line=2)
+
+lines(dir.delta$tsyear, dir.delta$delta, col="red", type='b', lwd=1, lty=2, pch=4)
+axis(side=4)
+abline(h=0, lty=2, lwd=0.5)
+abline(h=pi/2, lty=2, lwd=0.25)
+abline(h=pi, lty=2, lwd=0.5)
+abline(h=3*pi/2, lty=2, lwd=0.25)
+abline(h=2*pi, lty=2, lwd=0.5)
+abline(h=-pi, lty=2, lwd=0.5)
+abline(h=-2*pi, lty=2, lwd=0.5)
+legend("bottomright",c("direction","change in direction"),pch=c(19,4), lty=c(1,2),col=c("black","red"))
+
+print(i)
+}
+dev.off()
+
+odbcClose(chan)
+
+## transition probability matrix at a given lag
+
+
+
+## ### sandbox
+## direction and magnitude of the vector linking each subsequent years
+## 
+for (i in 1:length(a)) {
+temp<-subset(my.dat, assessid==a[i])
+
+# time window to calculate direction and magnitude 
+minyr <- min(temp$tsyear) + 1
+maxyr <- max(temp$tsyear)
+n.pts <-maxyr-minyr
+  
+delta.ssb.f <- data.frame(tsyear=rep(-99,n.pts), delta.ssb=rep(-99,n.pts), delta.f=rep(-99,n.pts), delta.dir=rep(-99,n.pts), delta.mag=rep(-99,n.pts))
+
+# direction in radians for 0 to 2pi
+# magnitude 
+
+for (y in minyr:maxyr) {
+  
+  ii<-y-minyr+1 # index for R object "temp"
+  ind<-ii-1 # index for data frame delta.ssb.f 
+  print (paste(y,ii,ind))
+delta.ssb.f$tsyear[ind]=y
+delta.ssb.f$delta.ssb[ind] <- temp$ssbrelativetossbmsy[ii-1] - temp$ssbrelativetossbmsy[ii]
+delta.ssb.f$delta.f[ind] <- temp$frelativetofmsy[ii-1] - temp$frelativetofmsy[ii]
+delta.ssb.f$delta.mag[ind] <- sqrt((delta.ssb.f$delta.ssb[ind])^2+(delta.ssb.f$delta.f[ind])^2)
+delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
+##print(delta.ssb.f[ind])
+## atan(delta.ssb.f$delta.f[ind]/delta.ssb.f$delta.ssb[ind]) ## THIS DOESN'T WORK
+}
+
+par(mfrow=c(2,1))
+plot(delta.ssb.f$tsyear, delta.ssb.f$delta.mag, type='b', lty=1, lwd=3, pch=1, col='red')
+plot(delta.ssb.f$tsyear, delta.ssb.f$delta.dir, lty=1, lwd=3, pch=1, col='red')
+
+
+}
+
+##  delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
+  ## transform the direction to [0,2pi[
+##  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
+##  delta.ssb.f$delta.dir.2pi[ind] <- delta.ssb.f$delta.dir.2pi[ind] - (pi/2)
+##  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
+

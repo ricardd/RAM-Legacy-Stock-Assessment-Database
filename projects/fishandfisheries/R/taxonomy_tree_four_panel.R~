@@ -1,0 +1,89 @@
+##---------------------------------------------------------
+## taxonomy dendograms for fishbase, saup, srdb
+## DR, CM
+## date: Tue Dec 15 14:07:12 AST 2009
+## Time-stamp: <2009-12-15 16:11:18 (srdbadmin)>
+##---------------------------------------------------------
+require(RODBC); require(ape); require(gsubfn); require(IDPmisc)
+
+## FishBase data
+## load csv file from Rainer Froese
+taxo.dat.fishbase <- read.table("fishbase-DendroRAM-FROMRAINER.csv", sep=",", header=TRUE)
+taxo.dat.fishbase$scientificname <- as.factor(paste(taxo.dat.fishbase$Genus, taxo.dat.fishbase$Species, sep=" "))
+taxo.dat.fishbase<-taxo.dat.fishbase[rep(seq(1, length(taxo.dat.fishbase[,1])), times=taxo.dat.fishbase$LME),]
+
+
+## SAUP data
+## note subsample of fishbase for now
+n.sample<-floor(0.3*length(taxo.dat.fishbase[,1]))
+index<-sample(seq(1,length(taxo.dat.fishbase[,1])),size=n.sample)
+taxo.dat.saup<-taxo.dat.fishbase[index,]
+
+## srdb data
+mychan<-odbcConnect(dsn="srdbusercalo") # note how the DSN is used here
+
+##taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock where stockid in (select stockid from srdb.assessment where assessid not like '%MYERS%')) as bb where aa.tsn=bb.tsn;")
+taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock where stockid in (select stockid from srdb.assessment where assessid not like '%MYERS%')) as bb where aa.tsn=bb.tsn;")
+
+taxo.dat.srdb<-sqlQuery(mychan, taxo.qu)
+taxo.dat.srdb<-taxo.dat.srdb[order(taxo.dat.srdb$scientificname),]
+
+##-------------------------------
+## small sample testing
+##-------------------------------
+pdf("./taxo_test.pdf", width=6, height=10)
+par(mfrow=c(2,1), mar=c(0,0,0,0))
+n.sample<-50
+index<-sample(seq(1,length(taxo.dat.fishbase[,1])),size=n.sample)
+test.dat<-taxo.dat.fishbase[index,]
+
+## dendogram for test
+test.phylo<-as.phylo(~Class/Order/Family/Genus/scientificname, data=test.dat)
+test.2.phylo<-my.as.phylo.formula(~Class/Order/Family/Genus/scientificname, data=test.dat)
+## sqrt for plotting
+test.2.phylo$sqrt.edge.length<-sqrt(test.2.phylo$edge.length+0.1)
+##test.2.phylo$log.edge.length<-log(test.2.phylo$edge.length+0.1)
+
+prelim.tip.labels<-rep("", length(test.phylo$tip.label))
+
+for(i in 2:length(prelim.tip.labels)){
+  print(i)
+  if(test.phylo$tip.label[i]!=test.phylo$tip.label[i-1]){
+    prelim.tip.labels[i]<-test.phylo$tip.label[i]
+  }
+}
+
+test.phylo$tip.label<-prelim.tip.labels
+
+plot(test.phylo, type="r", edge.width=test.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(test.2.phylo$sqrt.edge.length-2))))
+
+## subsample of test.dat
+n.sample<-floor(0.3*length(test.dat[,1]))
+index<-sample(seq(1,length(test.dat[,1])),size=n.sample)
+test.sub.dat<-test.dat[index,]
+
+test.sub.phylo<-as.phylo(~Class/Order/Family/Genus/scientificname, data=test.sub.dat)
+test.sub.2.phylo<-my.as.phylo.formula(~Class/Order/Family/Genus/scientificname, data=test.sub.dat)
+## sqrt for plotting
+test.sub.2.phylo$sqrt.edge.length<-sqrt(test.sub.2.phylo$edge.length+0.1)
+##test.sub.2.phylo$log.edge.length<-log(test.sub.2.phylo$edge.length+0.1)
+
+prelim.tip.labels<-rep("", length(test.sub.phylo$tip.label))
+
+for(i in 2:length(prelim.tip.labels)){
+  print(i)
+  if(test.sub.phylo$tip.label[i]!=test.sub.phylo$tip.label[i-1]){
+    prelim.tip.labels[i]<-test.sub.phylo$tip.label[i]
+  }
+}
+
+test.sub.phylo$tip.label<-prelim.tip.labels
+
+plot(test.sub.phylo, type="r", edge.width=test.sub.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(test.sub.2.phylo$sqrt.edge.length-2))))
+
+dev.off()
+
+system("xpdf ./taxo_test.pdf")
+
+data1<-test.dat
+data2<-test.sub.dat

@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {chapter}{\numberline {2}Summary plots}{3}
+\contentsline {section}{Order Clupeiformes}{4}
+\contentsline {subsection}{\hspace {0.2cm}Family Clupeidae}{4}
+\contentsline {section}{Order Decapoda}{24}
+\contentsline {subsection}{\hspace {0.2cm}Family Oregoniidae}{24}
+\contentsline {section}{Order Gadiformes}{26}
+\contentsline {subsection}{\hspace {0.2cm}Family Gadidae}{26}
+\contentsline {section}{Order Lophiiformes}{50}
+\contentsline {subsection}{\hspace {0.2cm}Family Lophiidae}{50}
+\contentsline {section}{Order Pleuronectiformes}{52}
+\contentsline {subsection}{\hspace {0.2cm}Family Pleuronectidae}{52}
+\contentsline {section}{Order Rajiformes}{62}
+\contentsline {section}{Order Scorpaeniformes}{62}
+\contentsline {subsection}{\hspace {0.2cm}Family Scorpaenidae}{62}
+\contentsline {chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . }{66}

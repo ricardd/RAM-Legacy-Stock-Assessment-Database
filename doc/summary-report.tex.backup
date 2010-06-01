@@ -1,0 +1,60 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{natbib}
+
+%opening
+\title{An updated summary of worldwide spawner and recruitment data}
+\author{Daniel Ricard \and Coil\'{i}n Minto \and Julia K. Baum \and Jeffrey Hutchings}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Introduction}
+
+
+
+\section{Data}
+
+Fisheries stock assessments published by a variety of fisheries agencies are the main source of data. 
+
+The data present in each assessment is collated in a spreadsheet file.
+
+A PostgreSQL relational database is built to store the assessment results.
+
+
+
+\section{Statistical analysis of spawner-recruitment}
+
+\begin{equation}\label{eq:power}
+ R = \alpha S^{\beta}
+\end{equation} 
+
+\begin{equation}\label{eq:ricker}
+ R = \alpha S e^{-\beta S}
+\end{equation} 
+
+\begin{equation}\label{eq:BH}
+ R = \frac{\alpha S}{1 + \left(S / K \right)}
+\end{equation} 
+
+\begin{equation}\label{eq:shepherd}
+ R = \frac{\alpha S}{1 + \left(S / K \right)^{\gamma}}
+\end{equation} 
+
+\subsection{Normalising the data}
+\subsection{The lognormal distribution}
+\subsection{The Gamma distribution}
+% \subsection{}
+
+\section{Description of figures}
+
+\bibliographystyle{plain}
+\bibliography{/home/ricardd/linux_sync_folder/papers_references/main,local}
+
+
+\end{document}

@@ -1,0 +1,1 @@
+select 'INSERT INTO srdb.referencedoc VALUES(''' || assessid || ''',''ZZID'',''' || assessid || ''');' from (select distinct assessid from srdb.referencedoc) as a; 

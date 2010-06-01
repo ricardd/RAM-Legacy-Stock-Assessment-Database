@@ -1,0 +1,17 @@
+\contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
+\contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
+\contentsline {subsubsection}{ADFG-HERRPWS-1980-2006-COLLIE}{3}{section*.4}
+\contentsline {subsubsection}{ADFG-HERRSITKA-1978-2007-COLLIE}{5}{section*.5}
+\contentsline {subsubsection}{DFO-PAC-ESOLEHS-1944-2001-COLLIE}{7}{section*.6}
+\contentsline {subsubsection}{DFO-PAC-HERRCC-1951-2007-COLLIE}{9}{section*.7}
+\contentsline {subsubsection}{DFO-PAC-HERRPRD-1951-2007-COLLIE}{11}{section*.8}
+\contentsline {subsubsection}{DFO-PAC-HERRQCI-1951-2007-COLLIE}{13}{section*.9}
+\contentsline {subsubsection}{DFO-PAC-HERRSOG-1951-2007-COLLIE}{15}{section*.10}
+\contentsline {subsubsection}{DFO-PAC-HERRWCVANI-1951-2007-COLLIE}{17}{section*.11}
+\contentsline {subsubsection}{DFO-PAC-PCODHS-1956-2005-COLLIE}{19}{section*.12}
+\contentsline {subsubsection}{DFO-PAC-PCODWCVANI-1956-2002-COLLIE}{21}{section*.13}
+\contentsline {subsubsection}{DFO-PAC-RSOLEHSTR-1945-2001-COLLIE}{23}{section*.14}
+\contentsline {subsubsection}{RIDEM-LOBSTERRI-1959-2007-COLLIE}{25}{section*.15}
+\contentsline {subsubsection}{RIDEM-TAUTOGRI-1959-2007-COLLIE}{27}{section*.16}
+\contentsline {subsubsection}{RIDEM-WINFLOUNDRI-1959-2007-COLLIE}{29}{section*.17}
+\contentsline {subsubsection}{LME map}{31}{section*.18}

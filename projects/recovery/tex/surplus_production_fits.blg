@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: surplus_production_fits.aux
+The style file: ./coilin.bst.bst
+Database file #1: /home/srdbadmin/SQLpg/srDB/doc/srdb.bib.bib
+You've used 3 entries,
+            2986 wiz_defined-function locations,
+            629 strings with 5601 characters,
+and the built_in function-call counts, 1754 in all, are:
+= -- 142
+> -- 51
+< -- 6
++ -- 18
+- -- 15
+* -- 115
+:= -- 261
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 19
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 136
+empty$ -- 145
+format.name$ -- 33
+if$ -- 346
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 30
+newline$ -- 24
+num.names$ -- 15
+pop$ -- 59
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 83
+swap$ -- 64
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 0
+while$ -- 13
+width$ -- 0
+write$ -- 46

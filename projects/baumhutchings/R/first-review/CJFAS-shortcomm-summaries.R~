@@ -1,0 +1,39 @@
+## write the data and results for the CJFAS Short Comm. paper to a file
+## Last modified Time-stamp: <2010-05-25 15:11:44 (srdbadmin)>
+##
+
+dim(par.estimates.1010)
+table(par.estimates.1010$geo)
+dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0,])
+dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0,])
+dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff<0,])
+table(par.estimates.1010$geo, par.estimates.1010$mcont.pre.positive)
+
+dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
+dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0,])
+dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff<0,])
+
+dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
+temp.pre.negative <- par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,]
+table(temp.pre.negative$fromassessment.x)
+table(temp.pre.negative$geo, temp.pre.negative$colour1992)
+table(temp.pre.negative$geo, temp.pre.negative$colourcurrent)
+table(temp.pre.negative$geo, temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x)
+table(temp.pre.negative$geo, temp.pre.negative$colourcurrent, temp.pre.negative$fromassessment.x)
+
+write.csv(dat.1010,"CBD-dat-1010.csv")
+write.csv(par.estimates.1010,"CBD-parestimates-1010.csv")
+write.csv(par.estimates.1010.brp.both,"CBD-parestimates-BRP-1010.csv")
+write.csv(stocklist.1010, "CBD-stocklist-1010.csv")
+
+supp.table.dat <- merge(stocklist.1010, par.estimates.1010.brp.both, by="stockid", all.x=TRUE)
+supp.table.dat$typesymbol <- ifelse(supp.table.dat$type.x=="salt","*"," ")
+supp.table.dat$taxotable <- ifelse(supp.table.dat$taxocategory=="Pelagic","Pelagic","Demersal")
+
+  supp.table <- data.frame(stockid = supp.table.dat$stockid, area=supp.table.dat$areaname, commonname=supp.table.dat$commonname, scientificname=supp.table.dat$scientificname, category=supp.table.dat$taxotable, type=supp.table.dat$typesymbol, mcontpre=round(supp.table.dat$mcont.slope.before,4), mcontpost=round(supp.table.dat$mcont.slope.after,4), mpre=round(supp.table.dat$m.slope.before,4), mpost=round(supp.table.dat$m.slope.after,4), msspre=round(supp.table.dat$mss.slope.before,4), msspost=round(supp.table.dat$mss.slope.after,4), ratio1992=round(supp.table.dat$bratio1992,2), ratiocurrent=round(supp.table.dat$bratiocurrent,2))
+
+write.csv(supp.table, "CBD-TableS1.csv")
+
+## last minute thing, compute the correlation between Schaefer-derived B1992/Bmsy and assessment-derived SSB1992/SSBmsy
+## and, compute the correlation between Schaefer-derived Bcurrent/Bmsy and assessment-derived SSBcurrent/SSBmsy
+

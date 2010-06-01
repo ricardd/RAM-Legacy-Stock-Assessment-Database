@@ -1,0 +1,10 @@
+-- table to handle the FishBase and SAUP species codes
+DROP TABLE;
+CREATE TABLE AS
+(
+TaxonKey INT,
+SpeCode INT,
+TaxonNom_TaxonName VARCHAR(100),
+CommonName VARCHAR(100),
+scientificname REFERENCES srb.taxonomy
+);

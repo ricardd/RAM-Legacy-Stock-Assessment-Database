@@ -1,0 +1,369 @@
+stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
+"COD1",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-1","Atlantic cod West Greenland (NAFO 1)",1,"COD1"
+"COD2J3KL",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-2J3KL","Atlantic cod NAFO 2J3KL",1,"COD2J3KL"
+"COD2J3KLIS",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-2J3KL","Atlantic cod NAFO 2J3KL inshore",0,NULL
+"COD3M",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-3M","Atlantic cod NAFO 3M",1,"COD3M"
+"COD3NO",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-3NO","Atlantic cod NAFO 3NO",1,"COD3NO"
+"COD3Ps",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-3Ps","Atlantic cod NAFO 3Ps",1,"COD3Ps"
+"COD3Pn4RS",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-3Pn4RS","Atlantic cod NAFO 3Pn4RS",1,"COD3Pn4RS"
+"COD4T",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-4T","Atlantic cod NAFO 4T",1,"COD4T"
+"COD4VsW",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-4VsW","Atlantic cod NAFO 4VsW",1,"COD4VsW"
+"COD4TVn",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-4T","Atlantic cod NAFO 4TVn",1,"COD4TVn"
+"COD4X",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-4X","Atlantic cod NAFO 4X",1,"COD4X"
+"COD5Y",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-5Y","Atlantic cod NAFO 5Y",1,"COD5Y"
+"COD5Z",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-5Z","Atlantic cod NAFO 5Z",1,"COD5Z"
+"COD5Zjm",164712,"Gadus morhua","Atlantic cod","multinational-NAFO-5Zjm","Atlantic cod NAFO 5Zjm",0,NULL
+"CODNEAR",164712,"Gadus morhua","Atlantic cod","multinational-ICES-I-II","Atlantic cod Northeast Arctic",1,"CODNEAR"
+"CODBA2224",164712,"Gadus morhua","Atlantic cod","multinational-ICES-22-24","Atlantic cod Baltic Areas 22 and 24",1,"CODBA2224"
+"CODBA2532",164712,"Gadus morhua","Atlantic cod","multinational-ICES-25-32","Atlantic cod Baltic Areas 25-32",1,"CODBA2532"
+"CODVIa",164712,"Gadus morhua","Atlantic cod","multinational-ICES-VIa","Atlantic cod West of Scotland",1,"CODVIa"
+"CODIS",164712,"Gadus morhua","Atlantic cod","multinational-ICES-VIIa","Atlantic cod Irish Sea",1,"CODIS"
+"CODICE",164712,"Gadus morhua","Atlantic cod","multinational-ICES-Va","Atlantic cod Iceland",1,"CODICE"
+"CODNS",164712,"Gadus morhua","Atlantic cod","multinational-ICES-IV","Atlantic cod North Sea",1,"CODNS"
+"CODKAT",164712,"Gadus morhua","Atlantic cod","multinational-ICES-IIIa","Atlantic cod Kattegat",1,"CODKAT"
+"CODVIId",164712,"Gadus morhua","Atlantic cod","multinational-ICES-VIId","Atlantic cod ICES VIId",1,"CODVIId"
+"PCODGA",164711,"Gadus macrocephalus","Pacific cod","USA-NMFS-GA","Pacific cod Gulf of Alaska",1,"PCODGA"
+"PCODHS",164711,"Gadus macrocephalus","Pacific cod","Canada-DFO-HS","Pacific cod Hecate Strait",1,"PCODHS"
+"PCODWCVANI",164711,"Gadus macrocephalus","Pacific cod","Canada-DFO-WCVANI","Pacific cod West Coast of Vancouver Island",1,"PCOWCVANI"
+"CHUMMIN",161976,"Oncorhynchus keta","Chum salmon","USA-NMFS-MIN","Chum salmon Minter Creek, Washington",1,"CHUMMIN"
+"COHOMIN",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-MIN","Coho salmon Minter Creek, Washington",1,"COHOMIN"
+"COHOSHAL",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-SHAL","Coho salmon Shale Creek, Washington",1,"COHOSHAL"
+"COHOSKY",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-SKY","Coho salmon South Fork Skykomish River, Washington",1,"COHOSKY"
+"COHOSNAH",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-SNAH","Coho salmon Snahapish Creek, Washington",1,"COHOSNAH"
+"COHOSNOW",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-SNOW","Coho salmon Snow Creek, Washington",1,"COHOSNOW"
+"COHOSPRI",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-SPRI","Coho salmon Spring Creek, Oregon",1,"COHOSPRI"
+"COHOTAYU",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-TAYU","Coho salmon Little Tayuha Creek, Washington",1,"COHOTAYU"
+"COHOWILD",161977,"Oncorhynchus kisutch","Coho salmon","USA-NMFS-WILD","Coho salmon Wildcat Creek, Washington",1,"COHOWILD"
+"REXSOLEGA",172978,"Glyptocephalus zachirus","Rex sole","USA-NMFS-GA","Rex sole Gulf of Alaska",0,NULL
+"ARFLOUNDGA",616029,"Atheresthes stomias","Arrowtooth flounder","USA-NMFS-GA","Arrowtooth flounder Gulf of Alaska",0,NULL
+"ARFLOUNDEBS",616029,"Atheresthes stomias","Arrowtooth flounder","USA-NMFS-EBS","Arrowtooth flounder Eastern Bering Sea",0,NULL
+"FLSOLEGA",172875,"Hippoglossoides elassodon","Flathead sole","USA-NMFS-GA","Flathead sole Gulf of Alaska",0,NULL
+"FLSOLEEBS",172875,"Hippoglossoides elassodon","Flathead sole","USA-NMFS-EBS","Flathead sole Eastern Bering Sea",0,NULL
+"NRSOLEEBSAI",616392,"Lepidopsetta polyxystra","Northern rock sole","USA-NMFS-EBSAI","Northern rock sole Eastern Bering Sea and Aleutian Islands",0,NULL
+"PERCHGA",166707,"Sebastes alutus","Pacific Ocean perch","USA-NMFS-GA","Pacific Ocean perch Gulf of Alaska",1,"PERCHGA"
+"PERCHEBSAI",166707,"Sebastes alutus","Pacific Ocean perch","USA-NMFS-EBSAI","Pacific Ocean perch Eastern Bering Sea and Aleutian Islands",1,"PERCHALI"
+"ALPLAEBS",172901,"Pleuronectes quadrituberculatus","Alaska plaice","USA-NMFS-EBS","Alaska plaice Eastern Bering Sea",0,NULL
+"NROCKGA",166735,"Sebastes polyspinis","Northern rockfish","USA-NMFS-GA","Northern rockfish Gulf of Alaska",0,NULL
+"NROCKEBSAI",166735,"Sebastes polyspinis","Northern rockfish","USA-NMFS-EBSAI","Northern rockfish Eastern Bering Sea and Aleutian Islands",0,NULL
+"REYEROCKGA",166706,"Sebastes aleutianus","Rougheye rockfish","USA-NMFS-GA","Rougheye rockfish Gulf of Alaska",0,NULL
+"ATKAGA",167120,"Pleurogrammus monopterygius","Atka mackerel","USA-NMFS-GA","Atka mackerel Gulf of Alaska",0,NULL
+"ATKAAI",167120,"Pleurogrammus monopterygius","Atka mackerel","USA-NMFS-AI","Atka mackerel Aleutian Islands",1,"ATKAALI"
+"AMPL5YZ",172877,"Hippoglossoides platessoides","American Plaice","multinational-NAFO-5YZ","American Plaice NAFO-5YZ",1,"AMPL5YZ"
+"AMPL23K",172877,"Hippoglossoides platessoides","American Plaice","multinational-NAFO-23K","American Plaice NAFO-23K",0,NULL
+"AMPL3LNO",172877,"Hippoglossoides platessoides","American Plaice","multinational-NAFO-3LNO","American Plaice NAFO-3LNO",1,"AMPL3LNO"
+"AMPL3M",172877,"Hippoglossoides platessoides","American Plaice","multinational-NAFO-3M","American Plaice NAFO-3M",1,"AMPL3M"
+"AMPL3Ps",172877,"Hippoglossoides platessoides","American Plaice","multinational-NAFO-3Ps","American Plaice NAFO-3Ps",1,"AMPL3Ps"
+"HAD4X",164744,"Melanogrammus aeglefinus","Haddock","multinational-NAFO-4X","Haddock NAFO-4X",1,"HAD4X"
+"HAD4X5Y",164744,"Melanogrammus aeglefinus","Haddock","multinational-NAFO-4X5Y","Haddock NAFO-4X5Y",0,NULL
+"HAD5Y",164744,"Melanogrammus aeglefinus","Haddock","multinational-NAFO-5Y","Haddock NAFO-5Y",1,"HAD5Y"
+"HAD5Z",164744,"Melanogrammus aeglefinus","Haddock","multinational-NAFO-5Z","Haddock NAFO-5Z",1,"HAD5Z"
+"HAD5Zejm",164744,"Melanogrammus aeglefinus","Haddock","multinational-NAFO-5Zejm","Haddock NAFO-5Zejm",0,NULL
+"HADICE",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-Va","Haddock Iceland",1,"HADICE"
+"YELL5Z",172909,"Limanda ferruginea","Yellowtail Flounder","multinational-NAFO-5Z","Yellowtail Flounder NAFO-5Z",1,"YELL5Z"
+"YELL3LNO",172909,"Limanda ferruginea","Yellowtail Flounder","multinational-NAFO-3LNO","Yellowtail Flounder NAFO 3LNO",1,"YELL3LNO"
+"YELLSNEMATL",172909,"Limanda ferruginea","Yellowtail Flounder","USA-NMFS-SNEMATL","Yellowtail Flounder Southern New England-Mid Atlantic",1,"YELLSNE"
+"POLL5YZ",164727,"Pollachius virens","Pollock","multinational-NAFO-5YZ","Pollock NAFO-5YZ",0,NULL
+"POLL4VWX5Zc",164727,"Pollachius virens","Pollock","multinational-NAFO-4VWX5Zc","Pollock NAFO-4VWX5Zc",0,NULL
+"POLL4VWX5",164727,"Pollachius virens","Pollock","multinational-NAFO-4VWX5","Pollock NAFO-4VWX5",1,"POLL4VWX5"
+"WITFLOUN5Y",172873,"Glyptocephalus cynoglossus","Witch Flounder","multinational-NAFO-5Y","Witch Flounder NAFO-5Y",0,NULL
+"WINFLOUND5Y",172905,"Pseudopleuronectes americanus","Winter Flounder","multinational-NAFO-5Y","Winter Flounder NAFO-5Y",0,NULL
+"WINFLOUNSNEMATL",172905,"Pseudopleuronectes americanus","Winter Flounder","USA-NMFS-SNEMATL","Winter Flounder Southern New England-Mid Atlantic",0,NULL
+"WINFLOUN5Z",172905,"Pseudopleuronectes americanus","Winter Flounder","multinational-NAFO-5Z","Winter Flounder NAFO-5Z",0,NULL
+"WHAKE5YZ",164732,"Urophycis tenuis","White Hake","multinational-NAFO-5YZ","White Hake NAFO-5YZ",0,NULL
+"WINDOW5YZ",172746,"Scophthalmus aquosus","Windowpane","multinational-NAFO-5YZ","Windowpane NAFO-5YZ",0,NULL
+"WINDOWSNEMATL",172746,"Scophthalmus aquosus","Windowpane","USA-NMFS-SNEMATL","Windowpane Southern New England-Mid Atlantic",0,NULL
+"ACADRED5YZ",166774,"Sebastes fasciatus","Acadian Redfish","multinational-NAFO-5YZ","Acadian Redfish NAFO-5YZ",0,NULL
+"ATHAL5YZ",172933,"Hippoglossus hippoglossus","Atlantic Halibut","multinational-NAFO-5YZ","Atlantic Halibut NAFO-5YZ",0,NULL
+"CAPENOR",162035,"Mallotus villosus","Capelin","multinational-ICES-I","Capelin Barents Sea",1,NULL
+"CAPEICE",162035,"Mallotus villosus","Capelin","multinational-ICES-Va","Capelin Iceland",1,CAPEICE
+"CODFAPL",164712,"Gadus morhua","Atlantic cod","multinational-ICES-Vb1","Atlantic cod Faroe Plateau",1,NULL
+"CODCOASTNOR",164712,"Gadus morhua","Atlantic cod","multinational-ICES-I-II","Atlantic cod coastal Norway",1,NULL
+"GHALNEAR",172930,"Reinhardtius hippoglossoides","Greenland halibut","multinational-ICES-I-II","Greenland halibut Northeast Arctic",1,"GHALNEAR"
+"POLLNEAR",164727,"Pollachius virens","Pollock","multinational-ICES-I-II","Pollock Northeast Arctic",1,"POLLNEAR"
+"POLLFAPL",164727,"Pollachius virens","Pollock","multinational-ICES-Vb1","Pollock Faroe Plateau",1,"POLLFA"
+"POLLNS-VI-IIIa",164727,"Pollachius virens","Pollock","multinational-ICES-IIIa-IV-VI","Haddock ICES IIIa, VI and North Sea",0,NULL
+"HADNEAR",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-I-II","Haddock Northeast Arctic",1,"HADNEAR"
+"REDDEEPI_II",166756,"Sebastes mentella","Deepwater Redfish","multinational-ICES-I-II","Deepwater Redfish Northeast Arctic",1,"REDI\_II"
+"HADFAPL",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-Vb1","Haddock Faroe Plateau",1,"HADFAPL"
+"HADNS-IIIa",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-IIIa-IV","Haddock ICES IIIa and North Sea",0,NULL
+"HADVIa",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-VIa","Haddock West of Scotland",1,"HADVIa"
+"HADVIIb-k",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-VIIb-k","Haddock ICES VIIb-k",0,NULL
+"HADROCK",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-VIb","Haddock Rockall Bank",1,"HADROCK"
+"HADIS",164744,"Melanogrammus aeglefinus","Haddock","multinational-ICES-VIIa","Haddock Irish Sea",1,"HADIS"
+"GOLDREDNEAR",166781,"Sebastes norvegicus","Golden Redfish","multinational-ICES-I-II","Golden Redfish Northeast Arctic",0,NULL
+"LOBSTERRI",97314,"Homarus americanus","American lobster","USA-US State-RI","American lobster Rhode Island",0,NULL
+"TAUTOGRI",170479,"Tautoga onitis","Tautog","USA-US State-RI","Tautog Rhode Island",0,NULL
+"WINFLOUNDRI",172905,"Pseudopleuronectes americanus","Winter flounder","USA-US State-RI","Winter flounder Rhode Island",0,NULL
+"SEELNS",171677,"Ammodytes marinus","Sand lance","multinational-ICES-IV","Sandeel North Sea",0,NULL
+"SEELNNS",171677,"Ammodytes marinus","Sand lance","multinational-ICES-IVa","Sandeel Northern North Sea",0,NULL
+"SEELSNS",171677,"Ammodytes marinus","Sand lance","multinational-ICES-IVc","Sandeel Southern North Sea",0,NULL
+"NPOUTNS",164756,"Trisopterus esmarkii","Norway pout","multinational-ICES-IV","Norway pout North Sea",1,"NPOUTNS"
+"HERRIsum",161722,"Clupea harengus","Herring","multinational-ICES-Va","Herring Iceland (Summer spawners)",1,"HERRIsum"
+"HERRNS",161722,"Clupea harengus","Herring","multinational-ICES-IV","Herring North Sea",1,"HERRNS"
+"HERRVIa",161722,"Clupea harengus","Herring","multinational-ICES-VIa","Herring ICES VIa",1,"HERRVIa"
+"HERRVIaVIIbc",161722,"Clupea harengus","Herring","multinational-ICES-VIa-VIIb-VIIc","Herring ICES VIa-VIIb-VIIc",1,"HERRVIaVIIbc"
+"HERR2224IIIa",161722,"Clupea harengus","Herring","multinational-ICES-22-24-IIIa","Herring ICES 22-24-IIIa",0,NULL
+"HERR2532",161722,"Clupea harengus","Herring","multinational-ICES-25-32","Herring ICES 25-32",0,NULL
+"HERR30",161722,"Clupea harengus","Herring","multinational-ICES-30","Herring ICES 30",0,NULL
+"HERR31",161722,"Clupea harengus","Herring","multinational-ICES-31","Herring ICES 31",0,NULL
+"HERRRIGA",161722,"Clupea harengus","Herring","multinational-ICES-28","Herring ICES 28",0,NULL
+"HERRNIRS",161722,"Clupea harengus","Herring","multinational-ICES-VIIa","Herring Northern Irish Sea",1,"HERRNIRS"
+"PLAIC7d",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-VIId","European Plaice ICES VIId",1,"PLAIC7d"
+"PLAICIIIa",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-IIIa","European Plaice ICES IIIa",1,"PLAICIIIa"
+"PLAICNS",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-IV","European Plaice North Sea",1,"PLAICNS"
+"PLAICIS",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-VIIa","European Plaice Irish Sea",1,"PLAICIS"
+"PLAICCELT",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-VIIe-k","European Plaice ICES VIIe-k",0,NULL
+"PLAICECHW",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-VIIe","European Plaice ICES VIIe",0,NULL
+"SOLENS",173001,"Solea vulgaris","common European sole","multinational-ICES-IV","common European sole North Sea",1,"SOLENS"
+"SOLEVIId",173001,"Solea vulgaris","common European sole","multinational-ICES-VIId","common European sole ICES VIId",1,"SOLEVIId"
+"SOLEIS",173001,"Solea vulgaris","common European sole","multinational-ICES-VIIa","common European sole Irish Sea",1,"SOLEIS"
+"SOLEIIIa",173001,"Solea vulgaris","common European sole","multinational-ICES-IIIa","common European sole ICES Kattegat and Skagerrak",1,"SOLEIIIa"
+"SOLEVIIe",173001,"Solea vulgaris","common European sole","multinational-ICES-VIIe","common European sole Western English Channel",1,"SOLEVIIe"
+"SOLECS",173001,"Solea vulgaris","common European sole","multinational-ICES-VIIf-g","common European sole Celtic Sea",1,"SOLECS"
+"SOLEVIII",173001,"Solea vulgaris","common European sole","multinational-ICES-VIII","common European sole Bay of Biscay",1,"SOLEVIII"
+"WHITNS-VIId-IIIa",164758,"Merlangius merlangus","Whiting","multinational-ICES-IIIa-IV-VIId","Whiting ICES IIIa, VIId and North Sea",0,NULL
+"WHITVIa",164758,"Merlangius merlangus","Whiting","multinational-ICES-VIa","Whiting ICES VIa",1,"WHITVIa"
+"WHITVIIek",164758,"Merlangius merlangus","Whiting","multinational-ICES-VIIe-k","Whiting ICES VIIe-k",0,NULL
+"SPRATNS",161789,"Sprattus sprattus","Sprat","multinational-ICES-IV","Sprat North Sea",0,NULL
+"SPRAT22-32",161789,"Sprattus sprattus","Sprat","multinational-ICES-22-32","Sprat ICES Baltic Areas 22-32",1,"SPRAT22-32"
+"GEMFISHSESSF",550883,"Rexea solandri","common gemfish","Australia-AFMA-SESSF","common gemfish Southeast Australia",0,NULL
+"NZLINGESE",165000,"Genypterus blacodes","Ling","Australia-AFMA-SE","New Zealand ling Eastern half of Southeast Australia",0,NULL
+"NZLINGWSE",165000,"Genypterus blacodes","Ling","Australia-AFMA-WSE","New Zealand ling Western half of Southeast Australia",0,NULL
+"MORWONGSESSF",170262,"Nemadactylus macropterus","Jackass morwong","Australia-AFMA-SESSF","Jackass morwong Southeast Australia",0,NULL
+"SILVERFISHSESSF",172534,"Seriolella punctata","Silverfish","Australia-AFMA-SESSF","Silverfish Southeast Australia",0,NULL
+"TIGERFLATSESSF",644187,"Neoplatycephalus richardsoni","Tiger flathead","Australia-AFMA-SESSF","Tiger flathead Southeast Australia",0,NULL
+"SWHITSESSF",646043,"Sillago flindersi","School whiting","Australia-AFMA-SESSF","School whiting Southeast Australia",0,NULL
+"ALBANPAC",172419,"Thunnus alalunga","Albacore tuna","USA-NMFS-NPAC","Albacore tuna North Pacific",0,NULL
+"ALBANATL",172419,"Thunnus alalunga","Albacore tuna","multinational-ICCAT-NATL","Albacore tuna North Atlantic",0,NULL
+"ALBASPAC",172419,"Thunnus alalunga","Albacore tuna","multinational-WCPFC-SPAC","Albacore tuna South Pacific Ocean",1,"ALBASPAC"
+"CROCKPCOAST",166734,"Sebastes pinniger","Canary rockfish","USA-NMFS-PCOAST","Canary rockfish Pacific Coast",0,NULL
+"ESOLEPCOAST",172921,"Parophrys vetulus","English sole","USA-NMFS-PCOAST","English sole Pacific Coast",0,NULL
+"ARFLOUNDPCOAST",616029,"Reinhardtius stomias","Arrowtooth flounder","USA-NMFS-PCOAST","Arrowtooth flounder Pacific Coast",0,NULL
+"BLACKROCKNPCOAST",166727,"Sebastes melanops","Black rockfish","USA-NMFS-NPCOAST","Black rockfish Northern Pacific Coast",0,NULL
+"BLUEROCKCAL",166730,"Sebastes mystinus","Blue rockfish","USA-NMFS-CAL","Blue rockfish California",0,NULL
+"CHILISPCOAST",166722,"Sebastes goodei","Chilipepper","USA-NMFS-SPCOAST","Chilipepper Southern Pacific Coast",1,"CHILIPEPPER"
+"COWCODSCAL",166754,"Sebastes levis","Cowcod","USA-NMFS-SCAL","Cowcod Southern California",0,NULL
+"LNOSESKAPCOAST",160851,"Raja rhina","Longnose skate","USA-NMFS-PCOAST","Longnose skate Pacific Coast",0,NULL
+"SABLEFPCOAST",167123,"Anoplopoma fimbria","Sablefish","USA-NMFS-PCOAST","Sablefish Pacific Coast",1,"SABLEFUSA"
+"YEYEROCKPCOAST",166740,"Sebastes ruberrimus","Yelloweye rockfish","USA-NMFS-PCOAST","Yelloweye rockfish Pacific Coast",0,NULL
+"DKROCKPCOAST",166715,"Sebastes crameri","Darkblotched rockfish","USA-NMFS-PCOAST","Darkblotched rockfish Pacific Coast",0,NULL
+"BLACKROCKSPCOAST",166727,"Sebastes melanops","Black rockfish","USA-NMFS-SPCOAST","Black rockfish Southern Pacific Coast",0,NULL
+"BOCACCSPCOAST",166733,"Sebastes paucispinis","Bocaccio","USA-NMFS-SPCOAST","Bocaccio Southern Pacific Coast",1,"BOCAEURCON"
+"WROCKPCOAST",166719,"Sebastes entomelas","Widow rockfish","USA-NMFS-PCOAST","Widow rockfish Pacific Coast",0,NULL
+"POPERCHPCOAST",166707,"Sebastes alutus","Pacific ocean perch","USA-NMFS-PCOAST","Pacific ocean perch Pacific Coast",1,"PERCHWUS"
+"SBELLYROCKPCOAST",166725,"Sebastes jordani","Shortbelly rockfish","USA-NMFS-PCOAST","Shortbelly rockfish Pacific Coast",0,NULL
+"PHAKEPCOAST",164792,"Merluccius productus","Pacific hake","USA-NMFS-PCOAST","Pacific hake Pacific Coast",1,"PHAKEVANCON"
+"CODGB",164712,"Gadus morhua","Atlantic cod","USA-NMFS-GB","Atlantic cod Georges Bank",1,"COD5Z"
+"HADGB",164744,"Melanogrammus aeglefinus","Haddock","USA-NMFS-GB","Haddock Georges Bank",1,"HAD5Z"
+"YELLGB",172909,"Limanda ferruginea","Yellowtail flounder","USA-NMFS-GB","Yellowtail flounder Georges Bank",1,"YELL5Z"
+"YELLCCODGOM",172909,"Limanda ferruginea","Yellowtail flounder","USA-NMFS-CCODGOM","Yellowtail flounder Cape Cod / Gulf of Maine",0,NULL
+"CODGOM",164712,"Gadus morhua","Atlantic cod","USA-NMFS-GOM","Atlantic cod Gulf of Maine",0,NULL
+"WITFLOUNNWATLC",172873,"Glyptocephalus cynoglossus","Witch flounder","USA-NMFS-NWATLC","Witch flounder Northwestern Atlantic Coast",0,NULL
+"AMPLGOMGB",172877,"Hippoglossoides platessoides","American plaice","USA-NMFS-GOMGB","American plaice Gulf of Maine / Georges Bank",1,"AMPL5YZ"
+"WINFLOUNGOM",172905,"Pseudopleuronectes americanus","Winter flounder","USA-NMFS-GOM","Winter flounder Gulf of Maine",0,NULL
+"WHAKEGBGOM",164732,"Urophycis tenuis","White hake","USA-NMFS-GBGOM","White hake Georges Bank / Gulf of Maine",0,NULL
+"POLLGBGOM",164727,"Pollachius virens","Pollock","USA-NMFS-GBGOM","Pollock Georges Bank / Gulf of Maine",0,NULL
+"ACADREDGOMGB",166774,"Sebastes fasciatus","Acadian redfish","USA-NMFS-GOMGB","Acadian redfish Gulf of Maine / Georges Bank",0,NULL
+"OPOUTNWATLC",630979,"Zoarces americanus","Ocean pout","USA-NMFS-NWATLC","Ocean pout Northwestern Atlantic Coast",0,NULL
+"WINDOWGOMGB",172746,"Scophthalmus aquosus","Windowpane","USA-NMFS-GOMGB","Windowpane flounder - Gulf of Maine / Georges Bank",0,NULL
+"WINDOWSNEMATLB",172746,"Scophthalmus aquosus","Windowpane","USA-NMFS-SNEMATLB","Windowpane flounder Southern New England / Mid-Atlantic Bight",0,NULL
+"HADGOM",164744,"Melanogrammus aeglefinus","Haddock","USA-NMFS-GOM","Haddock Gulf of Maine",0,NULL
+"ATHALNWATLC",172933,"Hippoglossus hippoglossus","Atlantic Halibut","USA-NMFS-NWATLC","Atlantic halibut Northwestern Atlantic Coast",0,NULL
+"SFLOUNMATLC",172735,"Paralichthys dentatus","Summer flounder","USA-NMFS-MATLC","Summer flounder Mid-Atlantic Coast",1,"SFLOUNDMAB"
+"MONKGOMNGB",164499,"Lophius americanus","Monkfish","USA-NMFS-GOMNGB","Monkfish Gulf of Maine / Northern Georges Bank",0,NULL
+"MONKSGBMATL",164499,"Lophius americanus","Monkfish","USA-NMFS-SGBMATL", "Monkfish Southern Georges Bank / Mid-Atlantic",0,NULL
+"MONK2J3KLNOPs",164499,"Lophius americanus","Monkfish","multinational-NAFO-2J3KLNOPs","Monkfish Labrador Shelf - Grand Banks - St. Pierre Bank",0,NULL
+"STRIPEDBASSGOMCHATT",167680,"Morone saxatilis","Striped bass","USA-NMFS-GOMCHATT","Striped bass Gulf of Maine / Cape Hatteras", 1,"STRIPEDBASSUSA"
+"PANDALNWATLC",96967,"Pandalus borealis","Northern shrimp","USA-NMFS-NWATLC","Northern shrimp Northwestern Atlantic Coast",0,NULL
+"PANDALGOM",96967,"Pandalus borealis","Northern shrimp","USA-NMFS-5Y","Northern shrimp Gulf of Maine",0,NULL
+"SCALLMATLC",79718,"Placopecten magellanicus","Sea scallop","USA-NMFS-MATLC","Sea scallop Mid-Atlantic Coast",0,NULL
+"SCALLGB",79718,"Placopecten magellanicus","Sea scallop","USA-NMFS-5Z","Sea scallop Georges Bank",0,NULL
+"QUAHATLC",81343,"Arctica islandica","Ocean quahog","USA-NMFS-ATLC","Ocean quahog Atlantic Coast",0,NULL
+"SURFMATLC",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-MATLC","Atlantic surfclam Mid-Atlantic Coast",0,NULL
+"SDOGATLC",160617,"Squalus acanthias","Spiny dogfish","USA-NMFS-ATLC","Spiny dogfish Atlantic Coast",1,"SDOGNWATL"
+"BSBASSMATLC",167687,"Centropristis striata","Black sea bass","USA-NMFS-MATLC","Black sea bass Mid-Atlantic Coast",0,NULL
+"RDEEPCRABNWATL",620992,"Chaceon quinquedens","Red deepsea crab","USA-NMFS-NWATL","Red deepsea crab Northwestern Atlantic",0,NULL
+"SHAKEGOMNGB",164791,"Merluccius bilinearis","Silver Hake","USA-NMFS-GOMNGB","Silver hake Gulf of Maine / Northern Georges Bank",0,NULL
+"SHAKESGBMATL",164791,"Merluccius bilinearis","Silver Hake","USA-NMFS-SGBMATL","Silver hake Southern Georges Bank / Mid-Atlantic",1,"SHAKEMAB"
+"MACKGOMCHATT",172414,"Scomber scombrus","Mackerel","USA-NMFS-GOMCHATT","Atlantic mackerel Gulf of Maine / Cape Hatteras",1,"MACK2-6"
+"ILLEXNWATLC",82521,"Illex illecebrosus","Northern shortfin squid","USA-NMFS-NWATLC","Northern shortfin squid Northwestern Atlantic Coast",0,NULL
+"BLUEFISHATLC",168559,"Pomatomus saltatrix","Bluefish","USA-NMFS-ATLC","Bluefish Atlantic Coast",0,NULL
+"TILEMATLC",168546,"Lopholatilus chamaeleonticeps","Tilefish","USA-NMFS-MATLC","Tilefish Mid-Atlantic Coast",0,NULL
+"BUTTERGOMCHATT",172567,"Peprilus triacanthus","Atlantic butterfish","USA-NMFS-GOMCHATT","Atlantic butterfish Gulf of Maine / Cape Hatteras",1,"BUTTER56"
+"SCUPNWATLC",169182,"Stenotomus chrysops","Scup","USA-NMFS-NWATLC","Scup Atlantic Coast",1,"SCUP"
+"WINFLOUNGB",172905,"Pseudopleuronectes americanus","Winter flounder","USA-NMFS-GB","Winter flounder Georges Bank",0,NULL
+"HERRNWATLC",161722,"Clupea harengus","Herring","USA-NMFS-NWATLC","Atlantic herring Northwestern Atlantic Coast",0,NULL
+"RSNAPEGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-EGM","Red snapper Eastern Gulf of Mexico",0,NULL
+"RSNAPWGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-WGM","Red snapper Western Gulf of Mexico",0,NULL
+"BRNROCKSHRIMPSATLC",96028,"Sicyonia brevirostris","Brown rock shrimp","USA-NMFS-SATLC","Brown rock shrimp Southern Atlantic Coast",0,NULL
+"SABLEFEBSAIGA",167123,"Anoplopoma fimbria","Sablefish","USA-NMFS-EBSAIGA","Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska",0,NULL
+"PCODBSAI",164711,"Gadus macrocephalus","Pacific cod","USA-NMFS-BSAI","Pacific cod Bering Sea and Aleutian Islands",0,NULL
+"YSOLEBSAI",172907,"Limanda aspera","Yellowfin sole","USA-NMFS-BSAI","Yellowfin sole Bering Sea and Aleutian Islands",0,NULL
+"NRSOLEBSAI",616392,"Lepidopsetta polyxystra","Northern rock sole","USA-NMFS-BSAI","Northern rock sole Bering Sea and Aleutian Islands",0,NULL
+"ARFLOUNDBSAI",616029,"Reinhardtius stomias","Arrowtooth flounder","USA-NMFS-BSAI","Arrowtooth flounder Bering Sea and Aleutian Islands",0,NULL
+"ALPLAICBSAI",172901,"Pleuronectes quadrituberculatus","Alaska plaice","USA-NMFS-BSAI","Alaska plaice Bering Sea and Aleutian Islands",0,NULL
+"NROCKBSAI",166735,"Sebastes polyspinis","Northern rockfish","USA-NMFS-BSAI","Northern rockfish Bering Sea and Aleutian Islands",0,NULL
+"POPERCHBSAI",166707,"Sebastes alutus","Pacific ocean perch","USA-NMFS-BSAI","Pacific ocean perch Bering Sea and Aleutian Islands",0,NULL
+"REYEROCKBSAI",166706,"Sebastes aleutianus","Rougheye rockfish","USA-NMFS-BSAI","Rougheye rockfish Bering Sea and Aleutian Islands",0,NULL
+"ATKABSAI",167120,"Pleurogrammus monopterygius","Atka mackerel","USA-NMFS-BSAI","Atka mackerel Bering Sea and Aleutian Islands",0,NULL
+"FLSOLEBSAI",172875,"Hippoglossoides elassodon","Flathead sole","USA-NMFS-BSAI","Flathead sole Bering Sea and Aleutian Islands",0,NULL
+"WPOLLAI",164722,"Theragra chalcogramma","Walleye pollock","USA-NMFS-AI","Walleye pollock Aleutian Islands",0,NULL
+"WPOLLEBS",164722,"Theragra chalcogramma","Walleye pollock","USA-NMFS-EBS","Walleye pollock Eastern Bering Sea",1,"WPOLLEBS"
+"GHALBSAI",172930,"Reinhardtius hippoglossoides","Greenland halibut","USA-NMFS-BSAI","Greenland turbot Bering Sea and Aleutian Islands",1,"GHALEBS"
+"BKINGCRABSMI",97936,"Paralithodes platypus","Blue king crab","USA-NMFS-SMI","Blue king crab Saint Matthews Island",0,NULL
+"BKINGCRABPI",97936,"Paralithodes platypus","Blue king crab","USA-NMFS-PI","Blue king crab Pribilof Islands",0,NULL
+"RKCRABBB",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-BB","Red king crab Bristol Bay",1,"RKCRABBRIS"
+"SNOWCRABBS",98428,"Chionoecetes opilio","Snow crab","USA-NMFS-BS","Snow crab Bering Sea",0,NULL
+"POPERCHGA",166707,"Sebastes alutus","Pacific ocean perch","USA-NMFS-GA","Pacific ocean perch Gulf of Alaska",1,"PERCHGA"
+"DUSKYROCKGA",166714,"Sebastes ciliatus","Dusky rockfish","USA-NMFS-GA","Dusky rockfish Gulf of Alaska",0,NULL
+"DSOLEGA",172887,"Microstomus pacificus","Dover sole","USA-NMFS-GA","Dover sole Gulf of Alaska",0,NULL
+"DSOLEPCOAST",172887,"Microstomus pacificus","Dover sole","USA-NMFS-PCOAST","Dover sole Pacific Coast",0,NULL
+"WPOLLGA",164722,"Theragra chalcogramma","Walleye pollock","USA-NMFS-GA","Walleye pollock Gulf of Alaska",1,"WPOLLGA"
+"SPANMACKSATLC",172436,"Scomberomorus maculatus","Spanish mackerel","USA-NMFS-SATLC","Spanish mackerel Southern Atlantic Coast",0,NULL
+"SPANMACKGM",172436,"Scomberomorus maculatus","Spanish mackerel","USA-NMFS-GM","Spanish mackerel Gulf of Mexico",0,NULL
+"KMACKSATLC",172435,"Scomberomorus cavalla","King Mackerel","USA-NMFS-SATLC","King mackerel Southern Atlantic Coast",0,NULL
+"KMACKGM",172435,"Scomberomorus cavalla","King Mackerel","USA-NMFS-GM","King mackerel Gulf of Mexico",0,NULL
+"RGROUPGM",167702,"Epinephelus morio","Red grouper","USA-NMFS-GM","Red grouper Gulf of Mexico",0,NULL
+"GAGGM",167759,"Mycteroperca microlepis","Gag","USA-NMFS-GM","Gag Gulf of Mexico",0,NULL
+"GTRIGGM",173138,"Balistes capriscus","Gray triggerfish","USA-NMFS-GM","Gray triggerfish Gulf of Mexico",0,NULL
+"VSNAPGM",168909,"Rhomboplites aurorubens","Vermilion snapper","USA-NMFS-GM","Vermilion snapper Gulf of Mexico",0,NULL
+"GRAMBERGM",168689,"Seriola dumerili","Greater amberjack","USA-NMFS-GM","Greater amberjack Gulf of Mexico",0,NULL
+"BRNSHRIMPGM",551570,"Farfantepenaeus aztecus","Brown shrimp","USA-NMFS-GM","Brown shrimp Gulf of Mexico",0,NULL
+"WSHRIMPGM",551680,"Litopenaeus setiferus","White shrimp","USA-NMFS-GM","White shrimp Gulf of Mexico",0,NULL
+"PINKSHRIMPGM",551574,"Farfantepenaeus duorarum","Pink shrimp","USA-NMFS-GM","Pink shrimp Gulf of Mexico",0,NULL
+"ROYALRSHRIMPGM",95966,"Pleoticus robustus","Royal red shrimp","USA-NMFS-GM","Royal red shrimp Gulf of Mexico",0,NULL
+"SNOSESHARATL",160200,"Rhizoprionodon terraenovae","Atlantic sharpnose shark","USA-NMFS-ATL","Atlantic sharpnose shark Atlantic",0,NULL
+"BNOSESHARATL",160304,"Carcharhinus acronotus","Blacknose shark","USA-NMFS-ATL","Blacknose shark Atlantic",0,NULL
+"BHEADSHARATL",160502,"Sphyrna tiburo","Bonnethead shark","USA-NMFS-ATL","Bonnethead shark Atlantic",0,NULL
+"FTOOTHSHARATL",160409,"Carcharhinus isodon","Finetooth shark","USA-NMFS-ATL","Finetooth shark Atlantic",0,NULL
+"SBARSHARATL",160289,"Carcharhinus plumbeus","Sandbar shark","USA-NMFS-ATL","Sandbar shark Atlantic",0,NULL
+"BRNSHRIMPSATLC",551570,"Farfantepenaeus aztecus","Brown shrimp","USA-NMFS-SATLC","Brown shrimp Southern Atlantic Coast",0,NULL
+"WSHRIMPSATLC",551680,"Litopenaeus setiferus","White shrimp","USA-NMFS-SATLC","White shrimp Southern Atlantic Coast",0,NULL
+"PINKSHRIMPSATLC",551574,"Farfantepenaeus duorarum","Pink shrimp","USA-NMFS-SATLC","Pink shrimp Southern Atlantic Coast",0,NULL
+"RPORGYSATLC",169207,"Pagrus pagrus","Red porgy","USA-NMFS-SATLC","Red porgy Southern Atlantic coast",0,NULL
+"VSNAPSATLC",168909,"Rhomboplites aurorubens","Vermilion snapper","USA-NMFS-SATLC","Vermilion snapper Southern Atlantic coast",0,NULL
+"SNOWGROUPSATLC",167705,"Epinephelus niveatus","Snowy grouper","USA-NMFS-SATLC","Snowy grouper Southern Atlantic coast",0,NULL
+"TILESATLC",168546,"Lopholatilus chamaeleonticeps","Tilefish","USA-NMFS-SATLC","Tilefish Southern Atlantic coast",0,NULL
+"GAGSATLC",167759,"Mycteroperca microlepis","Gag","USA-NMFS-SATLC","Gag Southern Atlantic coast",0,NULL
+"RSNAPSATLC",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-SATLC","Red snapper Southern Atlantic coast",0,NULL
+"GRAMBERSATLC",168689,"Seriola dumerili","Greater amberjack","USA-NMFS-SATLC","Greater amberjack Southern Atlantic coast",0,NULL
+"YFINATL",172423,"Thunnus albacares","Yellowfin tuna","USA-NMFS-ATL","Yellowfin tuna Atlantic",0,NULL
+"BTIPSHARATL",160318,"Carcharhinus limbatus","Blacktip shark","USA-NMFS-ATL","Blacktip shark Atlantic",0,NULL
+"DUSKYSHARATL",160268,"Carcharhinus obscurus","Dusky shark","USA-NMFS-ATL","Dusky shark Atlantic",0,NULL
+"BIGEYEATL",172428,"Thunnus obesus","Bigeye tuna","USA-NMFS-ATL","Bigeye tuna Atlantic",1,"BIGEYEATLANTIC"
+"BIGEYEEPAC",172428,"Thunnus obesus","Bigeye tuna","multinational-IATTC-EPAC","Bigeye tuna Eastern Pacific",1,"BIGEYEEPACIFIC"
+"BIGEYEWPO",172428,"Thunnus obesus","Bigeye tuna","multinational-SPC-WPO","Bigeye tuna Western Pacific Ocean",0,NULL
+"CMACKPCOAST",172412,"Scomber japonicus","Pacific chub mackerel","USA-NMFS-PCOAST","Pacific chub mackerel Pacific Coast",0,NULL
+"CMACKNPAC",172412,"Scomber japonicus","Pacific chub mackerel","USA-NMFS-NPAC","Pacific chub mackerel North Pacific",0,NULL
+"BTIPSHARSATL",160318,"Carcharhinus limbatus","Blacktip shark","USA-NMFS-SATL","Blacktip shark South Atlantic",0,NULL
+"SWORDNATL",172482,"Xiphias gladius","Swordfish","multinational-ICCAT-NATL","Swordfish North Atlantic",1,"SWORDNA"
+"SWORDSATL",172482,"Xiphias gladius","Swordfish","multinational-ICCAT-SATL","Swordfish South Atlantic",1,"SWORDSA"
+"SWORDMED",172482,"Xiphias gladius","Swordfish","multinational-ICCAT-MED","Swordfish Mediterranean Sea",0,NULL
+"ATBTUNAWATL",172421,"Thunnus thynnus","Atlantic bluefin tuna","USA-NMFS-WATL","Bluefin tuna Western Atlantic",1,"BTUNAWA"
+"SARDPCOAST",161729,"Sardinops sagax","Pacific sardine","USA-NMFS-PCOAST","Pacific sardine Pacific Coast",0,NULL
+"SARDNPAC",161729,"Sardinops sagax","Pacific sardine","USA-NMFS-NPAC","Pacific sardine North Pacific",0,NULL
+"SRAKEROCKBSAI",166712,"Sebastes borealis","Shortraker rockfish","USA-NMFS-BSAI","Shortraker rockfish Bering Sea and Aleutian Islands",0,NULL
+"YFINCWPAC",172423,"Thunnus albacares","Yellowfin tuna","USA-NMFS-CWPAC","Yellowfin tuna Central Western Pacific",0,NULL
+"YFINEPAC",172423,"Thunnus albacares","Yellowfin tuna","multinational-IATTC-NEPAC","Yellowfin tuna Eastern Pacific",1,"YFINNEPAC"
+"BSBASSSATLC",167687,"Centropristis striata","Black seabass","USA-NMFS-SATLC","Black seabass Southern Atlantic coast",0,NULL
+"HERRWCVANI",551209,"Clupea pallasii","Pacific herring","Canada-DFO-WCVANI","Pacific herring West Coast of Vancouver Island",0,NULL
+"HERRQCI",551209,"Clupea pallasii","Pacific herring","Canada-DFO-QCI","Pacific herring Queen Charlotte Islands",0,NULL
+"HERRCC",551209,"Clupea pallasii","Pacific herring","Canada-DFO-CC","Pacific herring Central Coast",0,NULL
+"HERRPRD",551209,"Clupea pallasii","Pacific herring","Canada-DFO-CC","Pacific herring Prince Rupert District",0,NULL
+"HERRSOG",551209,"Clupea pallasii","Pacific herring","Canada-DFO-SOG","Pacific herring Straight of Georgia",0,NULL
+"HERR4VWX",161722,"Clupea harengus","Herring","multinational-NAFO-4VWX","Herring Scotian Shelf and Bay of Fundy",0,NULL
+"HERR4RFA",161722,"Clupea harengus","Herring","multinational-NAFO-4R","Herring NAFO 4R fall spawners",0,NULL
+"HERR4RSP",161722,"Clupea harengus","Herring","multinational-NAFO-4R","Herring NAFO 4R spring spawners",0,NULL
+"GHAL01ABCDEF",172930,"Reinhardtius hippoglossoides","Greenland halibut","multinational-NAFO-01ABCDEF","Greenland halibut NAFO 01ABCDEF",0,NULL
+"GHAL23KLMNO",172930,"Reinhardtius hippoglossoides","Greenland halibut","multinational-NAFO-23KLMNO","Greenland halibut NAFO 23KLMNO",1,"GHALNAFO23"
+"GHAL4RST",172930,"Reinhardtius hippoglossoides","Greenland halibut","Canada-DFO-4RTS","Greenland halibut NAFO 4RTS",0,NULL
+"HOKIENZ",623193,"Macruronus novaezelandiae","Hoki","New Zealand-MFish-ENZ","Hoki Eastern New Zealand",0,NULL
+"HOKIWNZ",623193,"Macruronus novaezelandiae","Hoki","New Zealand-MFish-WNZ","Hoki Western New Zealand",0,NULL
+"BTROHUNT",162003,"Salvelinus fontinalis","Freshwater brook trout","USA-NMFS-HUNT","Freshwater brook trout Hunt Creek Michigan",1,"BTROHUNT"
+"WHITBLACKW",164758,"Merlangius merlangus","Whiting","multinational-GFCMED-BLACKW","Whiting Western Black Sea",1,"WHITBLACKW"
+"YPERKAB",168469,"Perca flavescens","Yellow perch","USA-NMFS-KAB","Yellow perch Kabegogama Lake, Minnesota",1,"YPERKAB"
+"SKJCWPAC",172401,"Katsuwonus pelamis","Skipjack tuna","USA-NMFS-CWPAC","Skipjack tuna Central Western Pacific",0,NULL
+"SKJEATL",172401,"Katsuwonus pelamis","Skipjack tuna","multinational-ICCAT-EATL","Skipjack tuna Eastern Atlantic",0,NULL
+"SKJWATL",172401,"Katsuwonus pelamis","Skipjack tuna","multinational-ICCAT-WATL","Skipjack tuna Western Atlantic",0,NULL
+"HAKENRTN",164795,"Merluccius merluccius","Hake","multinational-ICES-II-IIIa-IV-VI-VII-VIIIabc","Hake Northeast Atlantic North",0,NULL
+"HAKESOTH",164795,"Merluccius merluccius","Hake","multinational-ICES-VIIIc-IXa","Hake Northeast Atlantic South",0,NULL
+"ANCHOBAYB",161831,"Engraulis encrasicolus","Anchovy","multinational-ICES-VIII","Anchovy ICES VIII",1,"ANCHOBAYB"
+"MACKNEICES",172414,"Scomber scombrus","Mackerel","multinational-ICES-IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa","Mackerel ICES Northeast Atlantic",1,"MACKNEICES"
+"FMEG8c9a",172834,"Lepidorhombus boscii","Fourspotted megrim","multinational-ICES-VIIIc-IXa","Fourspotted megrim ICES VIIIc-IXa",1,"MEG8c9a"
+"MEG8c9a",172835,"Lepidorhombus whiffiagonis","Megrim","multinational-ICES-VIIIc-IXa","Megrim ICES VIIIc-IXa",1,"MEG8c9a"
+"SARDPVIIIc-IXa",161813,"Sardina pilchardus","European pilchard","multinational-ICES-VIIIc-IXa","European pilchard ICES VIIIc-IXa",1,"SARDVIIIc-IXa"
+"BTSHRIMPNAUST",95625,"Penaeus esculentus","Brown tiger shrimp","Australia-AFMA-NAUST","Northern Australia brown tiger shrimp",0,NULL
+"GTPRAWNNAUST",95625,"Penaeus semisulcatus","Grooved Tiger Prawn","Australia-AFMA-NAUST","Northern Australia grooved Tiger Prawn",0,NULL
+"OROUGHYCASCADE",166139,"Hoplostethus atlanticus","Orange roughy","Australia-AFMA-CASCADE","Orange roughy Cascade Plateau",0,NULL
+"OROUGHYSESSF",166139,"Hoplostethus atlanticus","Orange roughy","Australia-AFMA-SESSF","Orange roughy Southeast Australia",0,NULL
+"WAREHOUESE",172531,"Seriolella brama","Blue Warehou","Australia-AFMA-ESE","Blue Warehou Eastern half of Southeast Australia",0,NULL
+"WAREHOUWSE",172531,"Seriolella brama","Blue Warehou","Australia-AFMA-WSE","Blue Warehou Western half of Southeast Australia",0,NULL
+"DEEPFLATHEADSESSF",644351,"Platycephalus conatus","Deepwater flathead","Australia-AFMA-SESSF","Deepwater flathead Southeast Australia",0,NULL
+"BIGHTREDSESSF",622143,"Centroberyx gerrardi","Bight redfish","Australia-AFMA-SESSF","Bight redfish Southeast Australia",0,NULL
+"BWHITNEA",164774,"Micromesistius poutassou","Blue whiting","multinational-ICES-I-II-III-IV-V-VI-VII-VIII-IX-XII-XIV","Whiting Northeast Atlantic",0,NULL
+"ARGHAKESARG",164800,"Merluccius hubbsi","Argentine hake","Argentina-INIDEP-ARG-S","Argentine hake Southern Argentina",0,NULL
+"ARGHAKENARG",164800,"Merluccius hubbsi","Argentine hake","Argentina-INIDEP-ARG-N","Argentine hake Northern Argentina",0,NULL
+"ARGANCHONARG",551338,"Engraulis anchoita","Argentine anchoita","Argentina-INIDEP-ARG-N","Argentine anchoita Northern Argentina",0,NULL
+"TASGIANTCRABTAS",-999,"Pseudocarcinus gigas","Tasmanian giant crab","Australia-AFMA-TAS",0,NULL
+"RSOLEHSTR",172917,"Lepidopsetta bilineata","Rock sole","Canada-DFO-HS","Rock sole Hecate Strait",0,NULL
+"MUTSNAPSATLCGM",168849,"Lutjanus analis","Mutton snapper","USA-NMFS-SATLCGM","Mutton snapper Southern Atlantic coast and Gulf of Mexico",0,NULL
+"MENATGM",161734,"Brevoortia patronus","Gulf menhaden","USA-NMFS-GM","Gulf menhaden Gulf of Mexico",1,"MENGULF"
+"ESOLEHS",172921,"Parophrys vetulus","English sole","Canada-DFO-HS","English sole Hecate Strait",0,NULL
+"SBWHITARGS",164775,"Micromesistius australis","Southern blue whiting", "Argentina-INIDEP-ARG-S", "Southern blue whiting Southern Argentina",0,NULL
+"ANCHOSA",161831,"Engraulis encrasicolus","Anchovy","South Africa-DETMCM-SA","Anchovy South Africa",1,"SAANCH"
+"DEEPCHAKESA",164796,"Merluccius paradoxus","Deep-water cape hake","South Africa-DETMCM-SA","Deep-water cape hake South Africa",0,NULL
+"CHAKESA",164798,"Merluccius capensis","Shallow-water cape hake","South Africa-DETMCM-SA","Shallow-water cape hake South Africa",0,NULL
+"SARDSA",161729,"Sardinops sagax","Sardine","South Africa-DETMCM-SA","Sardine South Africa",1,"SAPILCH"
+"SSLOBSTERSASC",552965,"Palinurus gilchristi","Southern spiny lobster","South Africa-DETMCM-SASC","Southern spiny lobster South Africa South coast",0,NULL
+"CTRACSA",168598,"Trachurus capensis","Cape horse mackerel","South Africa-DETMCM-SASC","Cape horse mackerel South Africa South coast",1,"SAHMACK"
+"PATGRENADIERSARG",550662,"Macruronus magellanicus","Patagonian grenadier","Argentina-INIDEP-ARG-S","Patagonian grenadier Southern Argentina",0,NULL
+"BSKATCANATL",564139,"Dipturus laevis","Barndoor skate","Canada-DFO-ATL","Barndoor skate Canadian Atlantic Ocean",0,NULL
+"REDFISHSPP1",-998,"Redfish species","Redfish species","multinational-NAFO-1","Redfish species NAFO 1",0,NULL
+"REDFISHSPP3M",-998,"Redfish species","Redfish species","multinational-NAFO-3M","Redfish species NAFO 3M",0,NULL
+"REDFISHSPP3LN",-998,"Redfish species","Redfish species","multinational-NAFO-3LN","Redfish species NAFO 3LN",0,NULL
+"OROUGHYNZMEC",166139,"Hoplostethus atlanticus","Orange roughy","New Zealand-MFish-NZMEC","Orange roughy New Zealand Mid East Coast",0,NULL
+"BIGEYEIO",172428,"Thunnus obesus","Bigeye tuna","multinational-IOTC-IO","Bigeye tuna Indian Ocean",0,NULL
+"ATLCROAKMATLC",169283,"Micropogonias undulatus","Atlantic croaker","USA-NMFS-MATLC","Atlantic croaker Mid-Atlantic Coast",0,NULL
+"CALSCORPSCAL",166827,"Scorpaena guttata","California scorpionfish","USA-NMFS-SCAL","California scorpionfish Southern California",0,NULL
+"HERRPWS",551209,"Clupea pallasii","Pacific herring","USA-US State-PWS","Pacific herring Prince William Sound",0,NULL
+"HERRSITKA",551209,"Clupea pallasii","Pacific herring","USA-US State-SITKA","Pacific herring Sitka",0,NULL
+"KINGKLIPSA",165001,"Genypterus capensis","Kingklip","South Africa-DETMCM-SA","Kingklip South Africa",0,NULL
+"PTOOTHFISHPEI",642807,"Dissostichus eleginoides","Patagonian toothfish","South Africa-DETMCM-PEI","Patagonian toothfish South Africa Subantarctic Prince Edward Islands",0,NULL
+"CHTRACCH",168597,"Trachurus murphyi","Chilean jack mackerel","multinational-SPRFMO-CH","Chilean jack mackerel Chilean EEZ and offshore",0,NULL
+"SSTHORNHPCOAST",166783,"Sebastolobus alascanus","Shortspine thornyhead","USA-NMFS-PCOAST","Shortspine thornyhead Pacific Coast",0,NULL
+"LSTHORNHPCOAST",166784,"Sebastolobus altivelis","Longspine thornyhead","USA-NMFS-PCOAST","Longspine thornyhead Pacific Coast",0,NULL
+"YTSNAPSATLCGM",168907,"Ocyurus chrysurus","Yellowtail snapper","USA-NMFS-SATLCGM","Yellowtail snapper Southern Atlantic Coast and Gulf of Mexico",0,NULL
+"YTROCKNPCOAST",166720,"Sebastes flavidus","Yellowtail rockfish","USA-NMFS-NPCOAST","Yellowtail rockfish Northern Pacific Coast",0,NULL
+"LINGCODNPCOAST",167116,"Ophiodon elongatus","Lingcod","USA-NMFS-NPCOAST","Lingcod Northern Pacific Coast",0,NULL
+"LINGCODSPCOAST",167116,"Ophiodon elongatus","Lingcod","USA-NMFS-SPCOAST","Lingcod Southern Pacific Coast",0,NULL
+"BGROCKPCOAST",166728,"Sebastes melanostomus","Blackgill rockfish","USA-NMFS-PCOAST","Blackgill rockfish Pacific Coast",0,NULL
+"GOPHERSPCOAST",166767,"Sebastes carnatus","Gopher rockfish","USA-NMFS-SPCOAST","Gopher rockfish Southern Pacific Coast",0,NULL
+"PSOLENPCOAST",172868,"Eopsetta jordani","Petrale sole","USA-NMFS-NPCOAST","Petrale sole Northern Pacific Coast",0,NULL
+"PSOLESPCOAST",172868,"Eopsetta jordani","Petrale sole","USA-NMFS-SPCOAST","Petrale sole Southern Pacific Coast",0,NULL
+"STFLOUNNPCOAST",172893,"Platichthys stellatus","Starry flounder","USA-NMFS-NPCOAST","Starry flounder Northern Pacific Coast",0,NULL
+"STFLOUNSPCOAST",172893,"Platichthys stellatus","Starry flounder","USA-NMFS-SPCOAST","Starry flounder Southern Pacific Coast",0,NULL
+"WPOLLNSO",164722,"Theragra chalcogramma","Walleye pollock","Russia-RFFA-NSO","Walleye pollock Northern Sea of Okhotsk",0,NULL
+"WPOLLWBS",164722,"Theragra chalcogramma","Walleye pollock","Russia-RFFA-WBS","Walleye pollock Western Bering Sea",0,NULL
+"LOBSTERGB",97314,"Homarus americanus","American lobster","USA-NMFS-5Z","American lobster Georges Bank",0,NULL
+"LOBSTERGOM",97314,"Homarus americanus","American lobster","USA-NMFS-5Y","American lobster Gulf of Maine",0,NULL
+"LOBSTERSNE",97314,"Homarus americanus","American lobster","USA-NMFS-SNE","American lobster Southern New England",0,NULL
+"SAABALONESA",-995,"Haliotis midae","South African abalone","South Africa-DETMCM-SA","South African abalone South Africa",0,NULL
+"SNOWCRABSGSL",98428,"Chionoecetes opilio","Snow crab","Canada-DFO-4T","Snow crab Southern Gulf of St. Lawrence",0,NULL
+"BSKAT5YZSNE",564139,"Dipturus laevis","Barndoor skate","USA-NMFS-5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England",0,NULL
+"CSKATMATLC",160855,"Raja eglanteria","Clearnose skate","USA-NMFS-MATLC","Clearnose skate Mid-Atlantic Coast",0,NULL
+"LSKAT5YCHATT",564130,"Leucoraja erinacea","Little skate","USA-NMFS-5YCHATT","Little skate Gulf of Maine / Cape Hatteras",0,NULL
+"RSKATMATLC",564136,"Leucoraja garmani","Rosette skate","USA-NMFS-MATLC","Rosette skate Mid-Atlantic Coast",0,NULL
+"SSKAT5YZSNE",564151,"Malacoraja senta","Smooth skate","USA-NMFS-5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England",0,NULL
+"TSKAT5YZSNE",564149,"Amblyraja radiata","Thorny skate","USA-NMFS-5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England",0,NULL
+"WSKAT5YCHATT",564145,"Leucoraja ocellata","Winter skate","USA-NMFS-5YCHATT","Winter skate Gulf of Maine / Cape Hatteras",0,NULL
+"AUSSALMONNZ",168827,"Arripis trutta","Australian salmon","New Zealand-MFish-NZ","Australian salmon New Zealand",0,NULL
+"BTIPSHARGM",160318,"Carcharhinus limbatus","Blacktip shark","USA-NMFS-GM","Blacktip shark Gulf of Mexico",0,NULL
+"KELPGREENLINGORECOAST",167110,"Hexagrammos decagrammus","Kelp greenling","USA-NMFS-ORECOAST","Kelp greenling Oregon Coast",0,NULL
+"CABEZNCAL",692068,"Scorpaenichthys marmoratus","Cabezon","USA-NMFS-NCAL","Cabezon Northern California",0,NULL
+"CABEZSCAL",692068,"Scorpaenichthys marmoratus","Cabezon","USA-NMFS-SCAL","Cabezon Southern California",0,NULL
+"ATOOTHFISHRS",642808,"Dissostichus mawsoni","Antarctic toothfish","multinational-CCAMLR-RS","Antarctic toothfish Ross Sea",0,NULL
+"SMOOTHOREOWECR",625280,"Pseudocyttus maculatus","Smooth oreo","New Zealand-MFish-WECR","Smooth oreo West end of Chatham Rise",0,NULL
+"SMOOTHOREOCR",625280,"Pseudocyttus maculatus","Smooth oreo","New Zealand-MFish-CR","Smooth oreo Chatham Rise",0,NULL
+"SFMAKONWPAC",159924,"Isurus oxyrinchus","Shortfin mako","multinational-UNKNOWN-NWPAC","Shortfin mako Nothwest Pacific Ocean",0,NULL
+"WEAKFISHATLC",169241,"Cynoscion regalis","Weakfish","USA-NMFS-ATLC","Weakfish Atlantic Coast",0,NULL
+"RKCRABNS",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-NS","Red king crab Norton Sound",0,NULL

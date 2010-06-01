@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: CJFAS-shortcomm.aux
+The style file: cjfas.bst
+Database file #1: ./CJFAS-shortcomm.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 5 entries,
+            3020 wiz_defined-function locations,
+            644 strings with 5770 characters,
+and the built_in function-call counts, 5541 in all, are:
+= -- 595
+> -- 226
+< -- 4
++ -- 108
+- -- 81
+* -- 326
+:= -- 673
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 48
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 523
+empty$ -- 282
+format.name$ -- 96
+if$ -- 1072
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 66
+newline$ -- 34
+num.names$ -- 20
+pop$ -- 242
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 255
+stack$ -- 0
+substring$ -- 232
+swap$ -- 433
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 45
+warning$ -- 0
+while$ -- 26
+width$ -- 0
+write$ -- 74

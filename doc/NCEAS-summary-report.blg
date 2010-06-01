@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: NCEAS-summary-report.aux
+A level-1 auxiliary file: NCEAStable1.aux
+A level-1 auxiliary file: NCEASallgraphs.aux
+The style file: authordate1.bst
+Database file #1: /home/ricardd/linux_sync_folder/papers_references/main.bib
+You've used 1 entry,
+            2441 wiz_defined-function locations,
+            597 strings with 4910 characters,
+and the built_in function-call counts, 375 in all, are:
+= -- 36
+> -- 17
+< -- 4
++ -- 5
+- -- 5
+* -- 29
+:= -- 71
+add.period$ -- 5
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 13
+empty$ -- 23
+format.name$ -- 5
+if$ -- 73
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 3
+pop$ -- 5
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 11
+swap$ -- 3
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 15

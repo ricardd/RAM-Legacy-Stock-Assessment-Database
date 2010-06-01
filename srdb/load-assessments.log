@@ -1,0 +1,1506 @@
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-PCODGA_2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:51 
+ ../spreadsheets/BAUM-PCODGA_2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/HUTCHINGS-COD4T-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:51 
+ ../spreadsheets/HUTCHINGS-COD4T-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODNEAR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:51 
+ ../spreadsheets/MINTO-CODNEAR-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CAPENOR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:52 
+ ../spreadsheets/MINTO-CAPENOR-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODFAPL-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:52 
+ ../spreadsheets/MINTO-CODFAPL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODNORCOAST-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:53 
+ ../spreadsheets/MINTO-CODNORCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-GHALNEAR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:53 
+ ../spreadsheets/MINTO-GHALNEAR-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-GOLDREDNEAR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:53 
+ ../spreadsheets/MINTO-GOLDREDNEAR-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADFAPL-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:54 
+ ../spreadsheets/MINTO-HADFAPL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADNEAR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:54 
+ ../spreadsheets/MINTO-HADNEAR-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-POLLNEAR-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:55 
+ ../spreadsheets/MINTO-POLLNEAR-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-REDDEEPI_II-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:55 
+ ../spreadsheets/MINTO-REDDEEPI_II-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CAPEICE-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:56 
+ ../spreadsheets/MINTO-CAPEICE-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODICE-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:56 
+ ../spreadsheets/MINTO-CODICE-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODNS-2007-example-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:50:56 
+ ../spreadsheets/MINTO-CODNS-2007-example-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADICE-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:57 
+ ../spreadsheets/MINTO-HADICE-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERRIsum-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:57 
+ ../spreadsheets/MINTO-HERRIsum-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-NPOUTNS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:57 
+ ../spreadsheets/MINTO-NPOUTNS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-PLAIC7d-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:58 
+ ../spreadsheets/MINTO-PLAIC7d-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-PLAICIIIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:50:58 
+ ../spreadsheets/MINTO-PLAICIIIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-POLLFAPL-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:00 
+ ../spreadsheets/MINTO-POLLFAPL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-SEELNS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:00 
+ ../spreadsheets/MINTO-SEELNS-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODVIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:01 
+ ../spreadsheets/MINTO-CODVIa-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODIS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:01 
+ ../spreadsheets/MINTO-CODIS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADNS-IIIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:01 
+ ../spreadsheets/MINTO-HADNS-IIIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADVIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:02 
+ ../spreadsheets/MINTO-HADVIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-PLAICNS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:02 
+ ../spreadsheets/MINTO-PLAICNS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-POLLNS-VI-IIIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:03 
+ ../spreadsheets/MINTO-POLLNS-VI-IIIa-2007-editedDR.xls 
+END
+
+
+
+Wide character in print at ../perl/srDB-load-xls-forv3-BATCH.pl line 94.
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-SOLENS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:03 
+ ../spreadsheets/MINTO-SOLENS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-SOLEVIId-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:03 
+ ../spreadsheets/MINTO-SOLEVIId-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-WHITNS-VIId-IIIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:04 
+ ../spreadsheets/MINTO-WHITNS-VIId-IIIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-WHITVIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:04 
+ ../spreadsheets/MINTO-WHITVIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-CODKAT-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:04 
+ ../spreadsheets/MINTO-CODKAT-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HADIS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:05 
+ ../spreadsheets/MINTO-HADIS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERRNS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:05 
+ ../spreadsheets/MINTO-HERRNS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERRVIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:05 
+ ../spreadsheets/MINTO-HERRVIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERRVIaVIIbc-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:06 
+ ../spreadsheets/MINTO-HERRVIaVIIbc-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERR2224IIIa-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:06 
+ ../spreadsheets/MINTO-HERR2224IIIa-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-HERRNIRS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:06 
+ ../spreadsheets/MINTO-HERRNIRS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-PLAICIS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:07 
+ ../spreadsheets/MINTO-PLAICIS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-SOLEIS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:08 
+ ../spreadsheets/MINTO-SOLEIS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/MINTO-SPRATNS-2007-editedDR.xls 
+
+Biometrics written to SQL file.
+Time-series written to SQL file.
+
+Datetime stamp for database input: 2008-12-02 14:51:08 
+ ../spreadsheets/MINTO-SPRATNS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-AMPL3M-2006-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:09 
+ ../spreadsheets/BAUM-AMPL3M-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:09 
+ ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-COD3NO-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:09 
+ ../spreadsheets/BAUM-COD3NO-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-COD5Z_2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:10 
+ ../spreadsheets/BAUM-COD5Z_2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-SFLOUNMATLC-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:10 
+ ../spreadsheets/BAUM-SFLOUNMATLC-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-YELLGB-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:11 
+ ../spreadsheets/BAUM-YELLGB-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-CODGOM-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:11 
+ ../spreadsheets/BAUM-CODGOM-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BAUM-YELLSNEMATL-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:12 
+ ../spreadsheets/BAUM-YELLSNEMATL-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:12 
+ ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-PCODHS-2005-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:13 
+ ../spreadsheets/COLLIE-PCODHS-2005-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:13 
+ ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-TORIDEM-2008-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:13 
+ ../spreadsheets/COLLIE-TORIDEM-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-WFRIDEM-2008-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:14 
+ ../spreadsheets/COLLIE-WFRIDEM-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-HERRCC-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:14 
+ ../spreadsheets/COLLIE-HERRCC-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-HERRPRD-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:15 
+ ../spreadsheets/COLLIE-HERRPRD-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-HERRQCI-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:15 
+ ../spreadsheets/COLLIE-HERRQCI-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-HERRSOG-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:15 
+ ../spreadsheets/COLLIE-HERRSOG-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/COLLIE-HERRWCVI-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:16 
+ ../spreadsheets/COLLIE-HERRWCVI-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-east-gemfish-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:16 
+ ../spreadsheets/Fulton-east-gemfish-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-east-ling-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:17 
+ ../spreadsheets/Fulton-east-ling-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-morwong-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:17 
+ ../spreadsheets/Fulton-morwong-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-silver_warehou-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:18 
+ ../spreadsheets/Fulton-silver_warehou-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-tiger_flathead-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:18 
+ ../spreadsheets/Fulton-tiger_flathead-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-west-ling-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:19 
+ ../spreadsheets/Fulton-west-ling-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/Fulton-whiting-australia-2007-editedDR.xls 
+
+Biometrics loaded successfully.
+Time-series loaded successfully.
+
+Datetime stamp for database input: 2008-12-02 14:51:19 
+ ../spreadsheets/Fulton-whiting-australia-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-COD3NO-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:19 
+ ../spreadsheets/PREFONTAINE-COD3NO-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:20 
+ ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:20 
+ ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:21 
+ ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-HAD5Zejm-2003-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:21 
+ ../spreadsheets/PREFONTAINE-HAD5Zejm-2003-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-HERR4RFA-2004-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:22 
+ ../spreadsheets/PREFONTAINE-HERR4RFA-2004-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-HERR4RSP-2004-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:22 
+ ../spreadsheets/PREFONTAINE-HERR4RSP-2004-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:22 
+ ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:23 
+ ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:23 
+ ../spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-AMPL3M-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:24 
+ ../spreadsheets/PREFONTAINE-AMPL3M-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:24 
+ ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:24 
+ ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls 
+END
+
+
+
+Can't call method "Value" on an undefined value at ../perl/srDB-load-xls-forv4.2-BATCH.pl line 114.
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007-editedDR.xls 
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-AMPL3LNO-2005-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:25 
+ ../spreadsheets/PREFONTAINE-AMPL3LNO-2005-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:26 
+ ../spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-YFINEPAC-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:26 
+ ../spreadsheets/JENSEN-YFINEPAC-2006-editedDR.xls 
+END
+
+
+
+Can't call method "Value" on an undefined value at ../perl/srDB-load-xls-forv4.2-BATCH.pl line 113.
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-ALBWPO-2008-editedDR.xls 
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-YFINCWPAC-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:27 
+ ../spreadsheets/JENSEN-YFINCWPAC-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:27 
+ ../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-BETWPO-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:27 
+ ../spreadsheets/JENSEN-BETWPO-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-GRAMBERGM-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:28 
+ ../spreadsheets/JENSEN-GRAMBERGM-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-VSNAPGM-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:28 
+ ../spreadsheets/JENSEN-VSNAPGM-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-GAGGM-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:29 
+ ../spreadsheets/JENSEN-GAGGM-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-GAGSATLC-2006-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:29 
+ ../spreadsheets/JENSEN-GAGSATLC-2006-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENSEN-SKJCWPAC-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:29 
+ ../spreadsheets/JENSEN-SKJCWPAC-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/FRANCIS-HOK1W-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:30 
+ ../spreadsheets/FRANCIS-HOK1W-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/FRANCIS-HOK1E-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:30 
+ ../spreadsheets/FRANCIS-HOK1E-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:31 
+ ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:31 
+ ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:32 
+ ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:32 
+ ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:33 
+ ../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:33 
+ ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:34 
+ ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:35 
+ ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:35 
+ ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:36 
+ ../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:36 
+ ../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:37 
+ ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-SABLEFPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:38 
+ ../spreadsheets/BRANCH-SABLEFPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:38 
+ ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:39 
+ ../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/WORM-ATBTUNAWATL_2008-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:39 
+ ../spreadsheets/WORM-ATBTUNAWATL_2008-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/WORM-ALBANATL-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:40 
+ ../spreadsheets/WORM-ALBANATL-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-COD2224-1970-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:40 
+ ../spreadsheets/JENNINGS-ICES-COD2224-1970-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-COD2532-1966-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:40 
+ ../spreadsheets/JENNINGS-ICES-COD2532-1966-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HADROCK-1991-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:41 
+ ../spreadsheets/JENNINGS-ICES-HADROCK-1991-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HER2532-1974-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:41 
+ ../spreadsheets/JENNINGS-ICES-HER2532-1974-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HER30-1973-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:41 
+ ../spreadsheets/JENNINGS-ICES-HER30-1973-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HER31-1973-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:42 
+ ../spreadsheets/JENNINGS-ICES-HER31-1973-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HERRIGA-1977-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:42 
+ ../spreadsheets/JENNINGS-ICES-HERRIGA-1977-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HKENRTN-1978-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:43 
+ ../spreadsheets/JENNINGS-ICES-HKENRTN-1978-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HKESOTH-1982-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:43 
+ ../spreadsheets/JENNINGS-ICES-HKESOTH-1982-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SPR2232-1974-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:43 
+ ../spreadsheets/JENNINGS-ICES-SPR2232-1974-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-ANEBISC-1987-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:44 
+ ../spreadsheets/JENNINGS-ICES-ANEBISC-1987-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HAD7BK-1993-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:44 
+ ../spreadsheets/JENNINGS-ICES-HAD7BK-1993-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HERVASU-1986-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:44 
+ ../spreadsheets/JENNINGS-ICES-HERVASU-1986-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-MACNEA-1972-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:45 
+ ../spreadsheets/JENNINGS-ICES-MACNEA-1972-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-MGB8C9A-1986-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:45 
+ ../spreadsheets/JENNINGS-ICES-MGB8C9A-1986-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-MGW8C9A-1986-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:45 
+ ../spreadsheets/JENNINGS-ICES-MGW8C9A-1986-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-PLECELT-1977-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:46 
+ ../spreadsheets/JENNINGS-ICES-PLECELT-1977-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-PLEECHW-1976-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:46 
+ ../spreadsheets/JENNINGS-ICES-PLEECHW-1976-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SARSOTH-1978-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:46 
+ ../spreadsheets/JENNINGS-ICES-SARSOTH-1978-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SOLBISC-1984-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:47 
+ ../spreadsheets/JENNINGS-ICES-SOLBISC-1984-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SOLCELT-1971-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:47 
+ ../spreadsheets/JENNINGS-ICES-SOLCELT-1971-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-GHLARCT-1969-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:47 
+ ../spreadsheets/JENNINGS-ICES-GHLARCT-1969-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-HERIRLN-1961-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:48 
+ ../spreadsheets/JENNINGS-ICES-HERIRLN-1961-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SOLECHW-1969-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:48 
+ ../spreadsheets/JENNINGS-ICES-SOLECHW-1969-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-WHBCOMB-1972-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:49 
+ ../spreadsheets/JENNINGS-ICES-WHBCOMB-1972-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-SOLKASK-1984-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:49 
+ ../spreadsheets/JENNINGS-ICES-SOLKASK-1984-2007-editedDR.xls 
+END
+
+
+
+BEGIN
+Processing the following Excel file: ../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR.xls 
+
+
+Datetime stamp for database input: 2008-12-02 14:51:49 
+ ../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR.xls 
+END
+
+
+

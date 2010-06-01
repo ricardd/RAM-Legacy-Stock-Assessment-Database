@@ -1,0 +1,98 @@
+\section*{Figures}
+\subsection*{Figure legends}
+
+\noindent Figure 1. Global map of Large Marine Ecosystems (LMEs) showing the
+number of stock assessments present in the database for each LME or High Seas area. \\ 
+
+\noindent Figure 2. Taxonomic coverage of assessed marine species present in the
+RAM Legacy database. The circle located near the middle of the circular
+dendrogram represents kingdom Animalia and each subsequent branching
+represents a different taxonomic group (Kingdom to Phylum to Class to
+Order to Family to Genus to Species). The width of each line is
+proportional to the square root of the number of assessments in the
+database. The outermost lines represent species and the number of
+lines is the number of assessments for each species. The names of
+multi-assessment species are not repeated on the outermost portion of
+the dendrogram but continue counter-clockwise from the first entry.
+Note that branch lengths are chosen for graphical purposes and do not
+convey phylogenetic distance.
+
+\noindent Figure 3. Comparison of the taxonomic diversity of marine
+species as provided by FishBase (top panel), the coverage of catch
+data as provided by the Sea Around Us Project (SAUP) database (middle
+panel) and the RAM Legacy database (bottom panel). To facilitate the
+identification of the taxonomic groups that are not presented in the catch
+and assessment data, the FishBase branching pattern of the spoked dendrogram is
+maintained to generate other two dendrograms.
+
+
+\noindent Figure 4. Temporal coverage of (A) catch/landings, (B) spawning stock
+biomass and (C) recruitment. The temporal coverage for individual
+assessments is represented by thin alternating black and grey
+horizontal lines in the main panels. Thick horizontal lines at the
+base of each main panel represent the time periods which are present
+in 90\% (black) and 50\% (grey) of all series for that data type.
+Subfigure histograms contain the frequency of occurrence of the
+various timespans without reference to time period. Solid and
+long-dash vertical lines within the subfigures represent the median,
+2.5\% and 97.5\% quantiles, respectively.\\ 
+
+
+\noindent Figure 5. Current exploitation rate versus biomass for XXX
+individual stocks. Exploitation is scaled relative to that which
+should allow maximum sustainable yield (uMSY); biomass is scaled
+relative to BMSY. Colors indicate probability of occurrence as
+revealed by a kernel density smooth function. Solid circles indicate
+BMSY and uMSY that were obtained directly from assessments; open circles
+indicate that they were estimated from surplus production models.
+
+\noindent Figure 6. Current exploitation rate versus biomass for
+individual stocks grouped by management unit. Plot details as in
+Figure 5.
+
+
+\newpage
+\subsection*{Figures}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/GMT/stocks-byLME.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:lmes}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-assessment.pdf} %taxonomic_coverage_byLME.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:taxo:srdb}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=12cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_phylo.pdf} % fishbase_saup_two_panel_phylo.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:taxo:twopanel}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/orca_plot_v2.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:orca}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-single.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:friedegg}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-by-mgmt.pdf}
+\end{center}
+\caption{ }
+\end{figure}\label{fig:friedeggmgmt}

@@ -1,0 +1,10 @@
+#!/bin/bash
+# bash script to delete a single assessment
+# Time-stamp: <2010-04-13 10:16:44 (srdbadmin)>
+
+psql srdb -c "DELETE FROM srdb.referencedoc where assessid = '$1'"
+psql srdb -c "DELETE FROM srdb.qaqc where assessid = '$1'"
+psql srdb -c "DELETE FROM srdb.bioparams where assessid = '$1'"
+psql srdb -c "DELETE FROM srdb.timeseries where assessid = '$1'"
+psql srdb -c "DELETE FROM srdb.brptots where assessid = '$1'"
+psql srdb -c "DELETE FROM srdb.assessment where assessid = '$1'"

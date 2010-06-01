@@ -1,0 +1,34 @@
+assessid,stocklong,scientificname,commonname1
+MARAM-SARDSA-1984-2006-deMoor,Sardine South Africa,Sardinops sagax,Sardine
+ICCAT-SWORDMED-1968-2006-JENSEN,Swordfish Mediterranean Sea,Xiphias gladius,Swordfish
+ICCAT-ATBTUNAEATL-1979-2007-WORM,Bluefin tuna Eastern Atlantic,Thunnus thynnus,Atlantic bluefin tuna
+ICCAT-ATBTUNAWATL-1969-2007-WORM,Bluefin tuna Western Atlantic,Thunnus thynnus,Atlantic bluefin tuna
+SEFSC-RSNAPGM-1986-2005-JENSEN,Red grouper Gulf of Mexico,Epinephelus morio,Red grouper
+SEFSC-RSNAPSATLC-1945-2006-JENSEN,Red snapper Southern Atlantic coast,Lutjanus campechanus,Red snapper
+INIDEP-ARGHAKESARG-1985-2007-Parma,Argentine hake Southern Argentina,Merluccius hubbsi,Argentine hake
+SEFSC-KMACKGM-1992-2001-JENSEN,King mackerel Gulf of Mexico,Scomberomorus cavalla,King Mackerel
+INIDEP-ARGHAKENARG-1985-2007-Parma,Argentine hake Northern Argentina,Merluccius hubbsi,Argentine hake
+INIDEP-SBWHITARGS-1985-2007-Parma, Southern blue whiting Southern Argentina,Micromesistius australis,Southern blue whiting
+INIDEP-ARGANCHOSARG-1992-2007-Parma,Argentine anchoita Southern Argentina,Engraulis anchoita,Argentine anchoita
+SEFSC-KMACKSATLC-1981-2001-JENSEN,King mackerel Southern Atlantic Coast,Scomberomorus cavalla,King Mackerel
+INIDEP-ARGANCHONARG-1989-2007-Parma,Argentine anchoita Northern Argentina,Engraulis anchoita,Argentine anchoita
+INIDEP-PATGRENADIERSARG-1983-2006-Parma,Patagonian grenadier Southern Argentina,Macruronus magellanicus,Patagonian grenadier
+CSIRO-NZLINGW-1968-2007-FULTON,New Zealand ling West Australian,Genypterus blacodes,New Zealand ling
+CSIRO-NZLINGSE-1968-2007-FULTON,New Zealand ling Southeast Australia,Genypterus blacodes,New Zealand ling
+NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN,New Zealand ling New Zealand Areas LIN 3 and 4,Genypterus blacodes,New Zealand ling
+NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN,New Zealand ling New Zealand Area LIN 6b,Genypterus blacodes,New Zealand ling
+ICCAT-SWORDSATL-1950-2005-JENSEN,Swordfish South Atlantic,Xiphias gladius,Swordfish
+ICCAT-SWORDNATL-1978-2007-JENSEN,Swordfish North Atlantic,Xiphias gladius,Swordfish
+SWFSC-CMACKPCOAST-1929-2008-PINSKY,Pacific chub mackerel Pacific Coast,Scomber japonicus,Chub mackerel
+NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN,New Zealand ling New Zealand Area LIN 7WC - WCSI,Genypterus blacodes,New Zealand ling
+SWFSC-SARDPCOAST-1981-2007-PINSKY,Pacific sardine Pacific Coast,Sardinops sagax,Sardine
+MARAM-PTOOTHFISHPEI-1960-2008-DE DECKER,Patagonian toothfish South Africa Subantarctic Prince Edward Islands,Dissostichus eleginoides,Patagonian toothfish
+NMFS-CMACKNPAC-1929-2005-STANTON,Pacific chub mackerel North Pacific,Scomber japonicus,Chub mackerel
+NMFS-SARDNPAC-1981-2008-STANTON,Pacific sardine North Pacific,Sardinops sagax,Sardine
+NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN,Southern blue whiting Campbell Island Rise,Micromesistius australis,Southern blue whiting
+IFOP-CHTRACCH-1975-2007-JENSEN,Chilean jack mackerel Chilean EEZ and offshore,Trachurus murphyi,Chilean jack mackerel
+NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN,Southern hake Chatham Rise,Merluccius australis,Southern hake
+NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN,Southern hake Sub-Antarctic,Merluccius australis,Southern hake
+NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN,New Zealand ling New Zealand Areas LIN 5 and 6,Genypterus blacodes,New Zealand ling
+NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN,New Zealand ling New Zealand Area LIN 72,Genypterus blacodes,New Zealand ling
+(32 rows)

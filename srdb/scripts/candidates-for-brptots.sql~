@@ -1,0 +1,25 @@
+SELECT
+bp.assessid,
+b.biounique,
+max(t.tsunique)
+FROM
+srdb.bioparams bp,
+srdb.biometrics b,
+srdb.timeseries ts,
+srdb.tsmetrics t
+WHERE
+bp.assessid =ts.assessid AND
+b.biounitsshort = t.tsunitsshort AND
+bp.assessid = ts.assessid AND
+b.biounique=bp.bioid AND
+t.tsunique=ts.tsid AND
+b.subcategory like '%REFERENCE%' AND
+b.biounique like '%SB%' AND
+t.tsunique like '%SB%'
+GROUP BY
+bp.assessid,
+b.biounique
+ORDER BY
+bp.assessid,
+b.biounique
+;

@@ -1,0 +1,718 @@
+# DR, 2008-02-12, adding as much of this as possible to srdb.stock
+
+ ALEWMICH , Freshwater alewife , Lake Michigan 
+ ANCHOBAYB , Anchovy , Bay of Biscay 
+ ANCHOYELLOW , Japanese anchovy , Yellow Sea 
+ AYUBIWA , Ayu ," Lake Biwa, Japan "
+ BDUCK , Bombay duck , Northwest coast of India 
+ BMONK , Black anglerfish ," ICES VIIb-k and VIIIa,b. "
+ BWHIT , Blue whiting , ICES 
+
+ CHUMMIN , Chum salmon ," Minter Creek, Washington "  # added to srdb.stock
+
+ COD1 , Cod , West Greenland (NAFO 1)  # added to srdb.stock
+ COD2J3KL , Cod , NAFO 2J3KL  # added to srdb.stock
+ COD3M , Cod , NAFO 3M  # added to srdb.stock
+ COD3MVPA , Cod , NAFO 3M  # added to srdb.stock
+ COD3Pn4RS , Cod , NAFO 3Pn4RS  # added to srdb.stock
+ COD4X , Cod , NAFO 4X  # added to srdb.stock
+ COD5Y , Cod , NAFO 5Y  # added to srdb.stock
+ COD5Z , Cod , NAFO 5Z  # added to srdb.stock
+ CODBA2532 , Cod , Baltic Areas 25-32  # added to srdb.stock
+
+ CODCS , Cod , Celtic Sea
+ CODICE , Cod , Iceland
+ CODICE2 , Cod , Iceland	
+ CODIS , Cod , Irish Sea 
+ CODNEAR2 , Cod , North East Arctic 
+ CODNEARwCan , Cod , North East Arctic 
+ CODNS , Cod , North Sea 
+ CODVIa , Cod , ICES VIa  # added to srdb.stock
+
+
+ COHOMIN , Coho salmon ," Minter Creek, Washington "  # added to srdb.stock
+ COHOSHAL , Coho salmon ," Shale Creek, Washington "  # added to srdb.stock
+ COHOSKY , Coho salmon ," South Fork Skykomish River, Washington "  # added to srdb.stock
+ COHOSNAH , Coho salmon ," Snahapish Creek, Washington "  # added to srdb.stock
+ COHOSNOW , Coho salmon ," Snow Creek, Washington "  # added to srdb.stock
+ COHOSPRI , Coho salmon ," Spring Creek, Oregon "  # added to srdb.stock
+ COHOTAYU , Coho salmon ," Little Tayuha Creek, Washington "  # added to srdb.stock
+ COHOWILD , Coho salmon ," Wildcat Creek, Washington "  # added to srdb.stock
+
+ CRAPPIEATKINS , Crappie ," Atkins Reservoir, Arkansas "
+ CRAPPIENIMROD , Crappie ," Nimrod Reservoir, Arkansas "
+ CRAPPIEOKA , Crappie ," Okatibbee Reservoir, Mississippi "
+ CRAPPIEROSS , Crappie ," Ross Barnett Reservoir, Mississippi "
+
+ CROCKCOL , Canary rockfish , W. U.S.(Columbia region) 
+
+ DABBELT , Common dab , Belt Sea 
+
+ DACEEDEN , Dace ," River Eden, southeast England "
+ DACERFRO , Dace ," River Frome, Dorset, England "
+
+ DRUMERIEW , Freshwater drum , Western Lake Erie 
+
+ EPERCHIJS , Eurasian perch ," Lake Ijssel, the Netherlands "
+ EPERCHKYRON , Eurasian perch , River Kyronjoki 
+ EPERCHLCON , Eurasian perch , Lake Constance 
+ EPERCHWIND , Eurasian perch , Windermere 
+
+ ESOLEHSTR , English sole , Hecate Strait 
+
+ FLATHFLOKAM , Flathead flounder , West Kamchatka Shelf 
+
+ FLOUNDERBALTIC , Flounder , Baltic Areas 24 and 25 
+
+ FOURSPOTMEG , Four Spot Megrim , ICES VIIIc and IXa 
+
+ FSCADSEN , False scad , N.W. Africa (CECAF 34.1.3-34.3.1) 
+
+ GHALEBS , Greenland halibut , E. Bering Sea and Aleutian Islands 
+ GHALNAFO23 , Greenland halibut ," Northwest Atlantiac, NAFO 2 and 3LMNOM "
+ GHALNEAR , Greenland halibut , North East Arctic 
+ GHALNWATL , Greenland halibut , Northwest Atlantic 
+ GHALV\_XIV , Greenland halibut , ICES V and XIV 
+
+ GMULTAI , Grey mullet , Taiwan 
+
+ GOBISGEORGIA , Gobionotothen gibberifrons ," South Georgia, Antarctic Ocean "
+
+ GOLDANCH , Gold-spotted grenadier anchovy , Northwest coast of India 
+
+ GSHIGEO , Golden shiner ," Lake St. George, Ontario "
+
+ GSTURGDANUBE , Great sturgeon , Danube river 
+
+ GUDGRFRO , Gudgeon ," River Frome, Dorset, England "
+
+ HAD3NO1 , Haddock , NAFO 3NO1 (First part of HAD3NO) 
+ HAD3NO2 , Haddock , NAFO 3NO2 (Second part of HAD3NO) 
+ HAD3Ps1 , Haddock , NAFO 3Ps1 (First part of HAD3Ps) 
+ HAD3Ps2 , Haddock , NAFO 3Ps2 (Second part of HAD3Ps) 
+
+ HAD4TVW , Haddock , NAFO 4TVW 
+ HAD4X , Haddock , NAFO 4X 
+ HAD4X2 , Haddock , NAFO 4X 
+ HAD5Y , Haddock , NAFO 5Y 
+ HAD5Z , Haddock , NAFO 5Z 
+ HADCS , Haddock , Celtic Sea 
+ HADFAPL , Haddock , Faroe Plateau 
+ HADICE , Haddock , Iceland 
+ HADICE2 , Haddock , Iceland 
+ HADIS , Haddock , Irish Sea 
+ HADNEAR , Haddock , North East Arctic 
+ HADNS , Haddock , North Sea 
+ HADNS2 , Haddock , North Sea 
+ HADROCK , Haddock , Rockall Bank 
+ HADVIa , Haddock , ICES VIa 
+ HADVIa2 , Haddock , ICES VIa 
+
+ HAKEFCHILE , Peruvian hake , Chile- Northern zone 
+
+ HAKEJAB , Hake ," Jabuka Pit, Adriatic Sea "
+ HAKENOR , Hake ," ICES VIIIa,b, d, VIIb-k "
+
+ HAKEPERU , Peruvian hake , Peru 
+ HAKESCCHILE , Peruvian hake , Chile - South Central zone 
+
+ HAKESOU , Hake , ICES VIIIc and IXa 
+ HAKESWATL , Hake , Southwest Atlantic Ocean 
+
+ HERR2224 , Herring , Baltic areas 22 and 24 
+ HERR25-27 , Herring , Baltic areas 25-27 
+ HERR25-2932GOR2 , Herring ," Baltic areas 25-29, 32 plus Gulf of Riga "
+ HERR282932 , Herring , Baltic areas 282932 
+ HERR2829s , Herring , Baltic areas 28 and 29S 
+ HERR30 , Herring , Baltic area 30 
+ HERR302 , Herring , Baltic area 30 
+ HERR4-5 , Herring , NAFO 4-5 
+ HERR4Rfa , Herring , NAFO 4R (Fall spawners) 
+ HERR4Rsp , Herring , NAFO 4R (Spring spawners) 
+ HERR4Tfa , Herring , NAFO 4T (Fall spawners) 
+ HERR4Tsp , Herring , NAFO 4T (Spring spawners) 
+ HERR4WX , Herring , NAFO 4WX 
+ HERRAB , Herring , Newfoundland(AB) 
+ HERRARBO , Herring , Archipelago and Bothnian Seas 
+ HERRBOTB , Herring , Bothnian Bay 
+ HERRBOTB2 , Herring , Bothnian Bay 
+ HERRCC , Herring , Central Coast B.C. 
+ HERRCD , Herring , Newfoundland(CD) 
+ HERRCRAIG , Herring ," Craig, Alaska "
+ HERRCS , Herring , Celtic Sea and VIIj 
+ HERRDOWN , Herring , Downs stock 
+ HERRDVI , Herring ," Gulf of Dvina, White Sea "
+ HERREBER , Herring , Eastern Bering Sea 
+ HERREF , Herring , Newfoundland(EF) 
+ HERRGB , Herring , Georges Bank 
+ HERRGB2 , Herring , Georges Bank 
+ HERRGFIN , Herring , Gulf of Finland 
+ HERRGH , Herring , Newfoundland(GH) 
+ HERRGM , Herring , Gulf of Maine 
+ HERRGOR , Herring , Gulf of Riga 
+ HERRGOR2 , Herring , Gulf of Riga 
+ HERRHOK , Herring , Hokkaido 
+ HERRHOKA , Herring , Hokkaido 
+ HERRHOKB , Herring , Hokkaido 
+ HERRHOKC , Herring , Hokkaido 
+ HERRHOKD , Herring , Hokkaido 
+ HERRI , Herring , Newfoundland(I) 
+ HERRIspr , Herring , Iceland (Spring spawners) 
+ HERRIsum , Herring , Iceland (Summer spawners) 
+ HERRKAN , Herring ," Gulf of Kandalaksha, White Sea "
+ HERRNIRS , Herring , Northern Irish Sea 
+ HERRNOR , Herring , Norway (Spring spawners) 
+ HERRNS , Herring , North Sea 
+ HERRNS2 , Herring , North Sea 
+ HERRNSG , Herring , North Strait of Georgia 
+ HERRNWCVI , Herring , North West Coast Vancouver Island 
+ HERRONE , Herring ," Gulf of Onega, White Sea "
+ HERRPRD , Herring , Prince Rupert District 
+ HERRQCI , Herring , Queen Charlotte Islands 
+ HERRREVC , Herring ," Revilla Channel (Kah Shakes), Alaska "
+ HERRSCB , Herring , Southern Central Baltic 
+ HERRSD30 , Herring , Bothnian Sea (ICES SD30) 
+ HERRSD31 , Herring , Bothnian Bay (ICES SD31) 
+ HERRSEALA , Herring , S.E. Alaska 
+ HERRSEYC , Herring ," Seymour Canal, Alaska "
+ HERRSIT , Herring ," Sitka, Alaska "
+ HERRSSG , Herring , Southern Strait of Georgia 
+ HERRSWCVI , Herring , South West Coast Vancouver Island 
+ HERRVIa2 , Herring , ICES VIa (north) 
+ HERRYS , Herring , Yellow Sea or Huanghai Sea 
+
+
+ HRTAILECHINA , Hairtail , East China Sea 
+
+ JONAHCRAB4X , Jonah Crab , NAFO 4X 
+ JONAHCRAB5Y , Jonah Crab , NAFO 4Y 
+ JONAHCRAB5Z , Jonah Crab , NAFO 5Z 
+
+ KMACKMEX , King mackerel , W. Gulf of Mexico 
+
+ KPRAWNPB , Korai prawn , Po-hai Bay 
+
+ LEPIKERGUELEN , Lepidonotothen ," Kerguelen Islands, Antarctic Ocean "
+ LEPILENABANK , Lepidonotothen ," Lena Bank, Antarctic Ocean "
+ LEPIOBBANK , Lepidonotothen ," Ob Bank, Antarctic Ocean "
+ LIZECHINA , Greater lizardfish , East China Sea 
+
+ LMOUTHBASSBULL , Largemouth bass ," Bull Shoals Reservoir, Arkansas "
+ LMOUTHBASSEUFAULA , Largemouth bass ," Lake Eufaula, Oklahoma "
+ LMOUTHBASSEUFAULA2 , Largemouth bass ," Lake Eufaula, Oklahoma "
+ LMOUTHBASSKERR , Largemouth bass ," Kerr Reservoir, Virginia "
+ LMOUTHBASSSMITH , Largemouth bass ," Smith Mountain Lake, Virginia "
+
+ LONGHDABKAM , Longhead dab , West Kamchatka Shelf 
+
+ LTROLSUP , Lake trout ," Gull Island, Lake Superior "
+ LTROOPEO , Lake trout ," Lake Opeongo, Ontario "
+
+ LWHFSHGEORGIANBAY , Lake Whitefish ," South Georgian Bay, Lake Huron "
+ LWHFSHHUR , Lake Whitefish , Lake Huron 
+ LWHFSHTB , Lake Whitefish ," Thunder Bay, Lake Superior "
+ LWHFSHWB , Lake Whitefish ," Whitefish Bay, Lake Superior "
+
+ MACK2-6 , Mackerel , NAFO 2 to 6 
+ MACKBLACK , Mackerel , Black Sea 
+ MACKHBLACK , Mediterranean horse mackerel , Black Sea 
+
+ MACKHSICES , Horse mackerel , Southern ICES 
+ MACKHWS , Horse mackerel , Western ICES 
+ MACKNEICES , Mackerel , North East ICES 
+ MACKSEN , Horse mackerel , N.W. Africa (CECAF 34.1.3-34.3.1) 
+ MACKSPO , S. pacific horse mackerel , South Pacific Ocean 
+ MACKVIIIcIXa , Horse mackerel , Southern ICES 
+ MACKWS , Mackerel , Western ICES 
+
+ MASKINOGIES , Maskinonge ," Nogies Creek Sanctuary, Ontario "
+
+ MEG7-8 , Megrim , ICES VII and VIII 
+ MEG7-8ab , Megrim ," ICES VII and VIIIa,b "
+ MEG78 , Megrim , ICES VII and VIII 
+ MEG8c9a , Megrim , ICES VIIIc and IXa 
+
+ MENATLAN , Atlantic Menhaden , U.S. Atlantic 
+ MENGULF , Gulf Menhaden , Gulf of Mexico 
+
+ MONK78 , Monkfish ," ICES VIIb-k and VIIIa,b. "
+ MONK78ab , Monkfish ," ICES VII and VIIIa,b. "
+
+ NOTOKERGUELEN , Notothenia rossii ," Kerguelen Islands, Antarctic Ocean "
+ NOTOSGEORGIA , Notothenia rossii ," South Georgia, Antarctic Ocean "
+ NOTOSORKNEY , Notothenia rossii ," South Orkney Islands, Antarctic Ocean "
+
+ NPOUTNS , Norway pout , North Sea 
+
+ NSTONECRAB4X , Northern Stone Crab , NAFO 4X 
+ NSTONECRAB5Y , Northern Stone Crab , NAFO 5Y 
+ NSTONECRAB5Z , Northern Stone Crab , NAFO 5Z 
+
+ NZSNAPAREA8 , New Zealand snapper ," New Zeeland, SNA 8 "
+ NZSNAPPLENTY , New Zealand snapper , Hauraki Gulf/Bay of Plenty 
+
+ PAHEADHAN , Pelagic armourhead ," Southeast Hancock Seamount, Hawaii "
+
+ PANCHNCS , Peruvian anchoveta , Northern/Central Stock Peru 
+ PANCHNCS2 , Peruvian anchoveta , Peru 
+
+ PANDAL0A , Northern shrimp , Baffin Bay (Div. 0A + subarea 1) 
+ PANDAL0B , Northern shrimp , Davis Strait (Div. 0B) 
+ PANDAL2G , Northern shrimp , Northern Labrador (Div. 2G) 
+ PANDAL3M , Northern shrimp , Flemish Cap 
+ PANDAL3M2 , Northern shrimp , Flemish Cap 
+ PANDALBS , Northern shrimp , Svalbard and Barents Sea 
+ PANDALESS , Northern shrimp , Eastern Scotian Shelf 
+ PANDALFC , Northern shrimp , Flemish Cap 
+ PANDALH3K , Northern shrimp , Hawke Channel + Division 3K 
+ PANDALHC , Northern shrimp , Hopedale and Cartwright Channels (SFA 5) 
+ PANDALICE , Northern shrimp , Iceland 
+ PANDALNGSTL , Northern shrimp , Northern Gulf of St. Lawrence 
+ PANDALNSEA , Northern shrimp , Skagerrak 
+ PATAGOSGEORGIA , Patagonotothen guntheri ," South Georgia, Antarctic Ocean "
+
+
+ PCODEBS , Pacific cod , Eastern Bering Sea 
+ PCODGA , Pacific cod , Gulf of Alaska # added to srdb.stock
+ PCODHS , Pacific cod , Hecate Strait 
+
+ PCODWCVANI , Pacific cod , West Vancouver Island 
+ PERCHALI , Pacific ocean perch , Aleutian Is. 
+ PERCHBC , Pacific ocean perch , British Colombia 
+ PERCHEBS , Pacific ocean perch , Eastern Berring Sea 
+ PERCHGA , Pacific ocean perch , Gulf of Alaska 
+ PERCHGOOSE , Pacific ocean perch ," Goose Island Gully, B.C. "
+ PERCHWUS , Pacific ocean perch , US West Coast 
+
+ PHAKEBAJA , Pacific hake ," Soledad Basin, Baja California "
+ PHAKEGCAL , Pacific hake , Gulf of California 
+ PHAKEVANCON , Pacific hake , W. US. + Canada 
+ PHAKEVANCON2 , Pacific hake , W. US. + Canada 
+
+ PHALCANUS , Pacific halibut , North Pacific 
+
+ PIKEKAB , Pike ," Lake Kabetogama, Minnesota "
+ PIKEQUINTE , Pike ," Bay of Quinte, Ontario "
+ PIKERAIN , Pike ," Rainy Lake, Minnesota "
+ PIKERFRO , Pike ," River Frome, Dorset, England "
+ PIKEWINN , Pike ," North Basin, Windermere Lake "
+ PIKEWINS , Pike ," South Basin, Windermere Lake "
+ PIKEWOOD , Pike ," Lake of the Woods, Minnesota "
+
+ PINKAK , Pink salmon ," Sashin Creek, Alaska "
+ PINKAKPW , Pink salmon ," Prince William Sound, Alaska "
+ PINKAUKE , Pink salmon ," Auke Creek, Alaska "
+ PINKAUKE2 , Pink salmon ," Auke Creek, Alaska "
+ PINKBAK1 , Pink salmon ," Bakhura River, Sakhalin Is. "
+ PINKBAK2 , Pink salmon ," Bakhura River, Sakhalin Is. "
+ PINKBAK3 , Pink salmon ," Bakhura River, Sakhalin Is. "
+ PINKBC1 , Pink salmon ," N. Queen Charlotte Is., B.C. "
+ PINKBC10 , Pink salmon ," North Coast Area 5, B.C. "
+ PINKBC11 , Pink salmon ," Gardner, B.C. "
+ PINKBC12 , Pink salmon ," Kitimat, B.C. "
+ PINKBC13 , Pink salmon ," Douglas, B.C. "
+ PINKBC14 , Pink salmon ," Laredo Sound, B.C. "
+ PINKBC15 , Pink salmon ," Fraser-Graham, B.C. "
+ PINKBC16 , Pink salmon ," Aristazabal Is., B.C. "
+ PINKBC17 , Pink salmon ," Laredo-Campania, B.C. "
+ PINKBC18 , Pink salmon ," Central Coast Area 7, B.C. "
+ PINKBC19 , Pink salmon ," Dean Channel, B.C. "
+ PINKBC2 , Pink salmon ," W. Queen Charlotte Is., B.C. "
+ PINKBC20 , Pink salmon ," Dean Channel, B.C. "
+ PINKBC21 , Pink salmon ," Fisher-Fitzhugh, B.C. "
+ PINKBC22 , Pink salmon ," Bentinck, B.C. "
+ PINKBC23 , Pink salmon ," Burke, B.C. "
+ PINKBC24 , Pink salmon ," Central Coast Area 9, B.C. "
+ PINKBC25 , Pink salmon ," Central Coast Area 10, B.C. "
+ PINKBC3 , Pink salmon ," E. Queen Charlotte Is., B.C. "
+ PINKBC4 , Pink salmon ," Iknouk/Ishkeenickh, B.C. "
+ PINKBC5 , Pink salmon ," Kwinamass/Khinamass, B.C. "
+ PINKBC6 , Pink salmon ," North Coast Area 3, B.C. "
+ PINKBC7 , Pink salmon ," Upper Skeena, B.C. "
+ PINKBC8 , Pink salmon ," Lower Skeena, B.C. "
+ PINKBC9 , Pink salmon ," North Coast Area 4, B.C. "
+ PINKBRIS , Pink salmon ," Bristol Bay, Alaska "
+ PINKBROP , Pink salmon ," Brown's Peak Creek, Cook Inlet, Alaska "
+ PINKBRU , Pink salmon ," Bruin Bay, Cook Inlet, Alaska "
+ PINKCAK , Pink salmon , Central Alaska 
+ PINKCBC , Pink salmon , Central B.C. (Areas 6-8) 
+ PINKDAG1 , Pink salmon ," Dagi River, Sakhalin Is. "
+ PINKDES , Pink salmon ," Desire Lake, Cook Inlet, Alaska "
+ PINKFR , Pink salmon ," Fraser River, B.C. "
+ PINKHOOK , Pink salmon ," Hooknose Creek, B.C., Canada "
+ PINKHUMP , Pink salmon ," Humpy Creek, Cook Inlet, Alaska "
+ PINKISLC , Pink salmon ," Island Creek, Cook Inlet, Alaska "
+ PINKJAML , Pink salmon ," James Lagoon, Cook Inlet, Alaska "
+ PINKKA , Pink salmon ," Kodiak Area, Alaska "
+ PINKKOD1 , Pink salmon ," Kodiak Archipelago, Alaska "
+ PINKKOD2 , Pink salmon ," Kodiak Archipelago, Alaska "
+ PINKLESN , Pink salmon ," Lesnaya River, Sakhalin Is. "
+ PINKLSE1 , Pink salmon ," Lakelse River, B.C. "
+ PINKLSE2 , Pink salmon ," Lakelse River, B.C. "
+ PINKLSE3 , Pink salmon ," Lakelse River, B.C. "
+ PINKLUT1 , Pink salmon ," Lutoga River, Sakhalin Is. "
+ PINKLUT2 , Pink salmon ," Lutoga River, Sakhalin Is. "
+ PINKLUT3 , Pink salmon ," Lutoga River, Sakhalin Is. "
+ PINKNSA , Pink salmon ," Northern Panhandle, Alaska "
+ PINKPCHA , Pink salmon ," Port Chatham, Cook Inlet, Alaska "
+ PINKPDIC , Pink salmon ," Port Dick, Cook Inlet, Alaska "
+ PINKPGRA , Pink salmon ," Port Graham, Cook Inlet, Alaska "
+ PINKPOK1 , Pink salmon ," Pokosnaya River, Sakhalin Is. "
+ PINKPOK2 , Pink salmon ," Pokosnaya River, Sakhalin Is. "
+ PINKPOK3 , Pink salmon ," Pokosnaya River, Sakhalin Is. "
+ PINKPORO , Pink salmon ," Poronal River, Sakhalin Is. "
+ PINKROCK , Pink salmon ," Rocky River, Cook Inlet, Alaska "
+ PINKSEL , Pink salmon ," Seldovia, Cook Inlet, Alaska "
+ PINKSSA , Pink salmon ," Southern Panhandle, Alaska "
+ PINKSUND , Pink salmon ," Sunday Creek, Cook Inlet, Alaska "
+ PINKUTK1 , Pink salmon ," Utka River, Kamchatka "
+ PINKUTK2 , Pink salmon ," Utka River, Kamchatka "
+ PINKUTK3 , Pink salmon ," Utka River, Kamchatka "
+ PINKWINL , Pink salmon ," Windy Left, Cook Inlet, Alaska "
+ PINKWINR , Pink salmon ," Windy Right, Cook Inlet, Alaska "
+
+ PLAIC7b , Plaice ," W. of Ireland, ICES VIIb,c "
+ PLAIC7d , Plaice , ICES VIId 
+ PLAIC7e , Plaice , ICES VIIe 
+ PLAIC7h , Plaice ," Southwest of Ireland, ICES VIIh-k "
+ PLAICCS , Plaice , Celtic Sea 
+ PLAICIIIa , Plaice , ICES IIIa 
+ PLAICIS , Plaice , Irish Sea 
+ PLAICKAT , Plaice , Kattegat 
+ PLAICNS , Plaice , North Sea 
+ PLAICSKAG , Plaice , Skagerrak 
+
+ POLL4VWX5 , Pollock or saithe , NAFO 4VWX5 
+ POLLFA , Pollock or saithe , Faroe 
+ POLLICE , Pollock or saithe , Iceland 
+ POLLNEAR , Pollock or saithe , North East Arctic 
+ POLLNS , Pollock or saithe , North Sea 
+ POLLVI , Pollock or saithe , ICES VI 
+
+ PPERCHIJS , Pikeperch ," Lake Ijssel, the Netherlands "
+ PPERCHTJE , Pikeperch ," Lake Tjeukemeer, the Netherlands "
+
+ PSAURYBAJA , Pacific Saury ," Soledad Basin, Baja California "
+ PSAURYCAL , Pacific Saury , California 
+
+ PSEUDOCSGEORGIA , Pseudochaenichthys ," South Georgia, Antarctic Ocean "
+
+ PSOLEBC , Petrale sole ," Southern B.C., Canada "
+
+ RBSMELTERIEW , Rainbow smelt , Western Lake Erie 
+
+ REDDRUMFLATL , Red drum ," Florida Atlantic Coast, USA "
+ REDDRUMFLGULF , Red drum ," Florida Gulf Coast, USA "
+
+ RHAKE5YZ , Red hake ," NAFO Gulf of Maine, N. Georges Bank "
+ RHAKESNE , Red hake , NAFO S. New England 
+
+ RKCRABBRIS , Red King Crab ," Bristol Bay, Alaska "
+
+ ROACKLIR , Roach , Klicava Reservoir 
+ ROACRFRO , Roach ," River Frome, Dorset, England "
+ ROACRSTO , Roach ," River Stour, Dorset, England "
+
+ RPORGYNC , Red porgy , Atlantic Ocean off North Carolina 
+
+ RSNAPGULFM , Red Snapper , U.S. Gulf of Mexico 
+
+ RSOLEBC , Rock sole ," Hecate Strait, B.C. "
+
+ RSTURGDANUBE , Russian sturgeon , Danube river 
+
+ SAANCH , S.A. Anchovy , South Africa 
+ SAANCH2 , S.A. Anchovy , South Africa 
+
+ SABLEFPCAN , Sablefish , W. Canada 
+ SABLEFUSA , Sablefish , West Coast USA 
+ SABLEFUSAMODEL2 , Sablefish , West Coast USA (alternative model) 
+
+ SAHAKE , S.A. Hake , South Africa 1.6 
+ SAHAKESC , S.A. Hake , South Africa South Coast 
+
+ SAHERR , Round herring , South Africa 1.6 
+
+ SAHMACK , Cape horse mackerel , South Africa 1.3-1.5 
+
+ SAKFLOKAM , Sakalin flounder , West Kamchatka Shelf 
+
+ SAKINGKLIP , Kingklip , South Africa 1.3-1.4 
+
+ SAPILCH , Sardine , South Africa 
+ SAPILCHN , Sardine , South Africa 
+ SARDBAJA , Sardine ," Soledad Basin, Baja California "
+ SARDBRAZ , Brazilian sardine , South Eastern Brazil 
+ SARDCAL , Sardine , California 
+ SARDCAL2 , Sardine , California 
+ SARDCAL3 , Sardine , California 
+ SARDCAL4 , Sardine , California 
+ SARDGCAL , Sardine , Gulf of California 
+ SARDGCAL2 , Sardine , Gulf of California 
+ SARDJAP , Sardine , Japan-E. 
+ SARDNCHILE , Sardine , Chile- Northern zone 
+ SARDSJAP , Sardine , Sea of Japan 
+
+ SARDVIIIc-IXa , Spanish sardine , West Iberian (ICES VIIIc-IXa) 
+
+ SAUGKAB , Sauger ," Lake Kabetogama, Minnesota "
+ SAUGPEPIN , Sauger ," Lake Pepin, Minnesota "
+ SAUGRAIN , Sauger ," Rainy Lake, Minnesota "
+ SAUGWOOD , Sauger ," Lake of the Woods, Minnesota "
+
+ SBASSENGCHANNEL , Sea bass , English Channel 
+ SBASSHPSUK , Sea bass ," Hinkley Point, Somerset UK "
+ SBASSSEUK , Sea bass , Severn Estuary UK 
+ SBASSSIUK , Sea bass , Southern Irish UK 
+ SBASSSWUK , Sea bass , South-western UK 
+
+ SBREAMYS , Sea bream , Yellow Sea 
+
+ SBTUNA , Southern bluefin tuna , Southern Pacific 
+ SBTUNA2 , Southern bluefin tuna , Southern Pacific 
+
+ SBWHITNZ , Southern blue whiting ," Campbell Island, NZ "
+
+ SCALL5Ze , Sea scallop , NAFO 5Ze 
+ SCALLGB , Sea scallop , Georges Bank 
+
+ SCRABHIUN , Swimming crab ," Hiuchi Nada, Seto Island Sea "
+ SCUP , Scup , Cape Cod - Cape Hatteras USA 
+
+ SDOGBLACK , Spiny dogfish , Black Sea 
+ SDOGNWATL , Spiny dogfish , Northwest Atlantic 
+ SDOGNWATL2 , Spiny dogfish , Northwest Atlantic 
+ SDOGNWATL3 , Spiny dogfish , Northwest Atlantic 
+
+ SEELNNS , Sandeel , Northern North Sea 
+ SEELSHET , Sandeel , Shetland 
+ SEELSHET2 , Sandeel , Shetland 
+ SEELSNS , Sandeel , Southern North Sea 
+ SEELVI , Sandeel , ICES VIa 
+
+ SFLOUNDMAB , Summer flounder , Middle Atlantic Bight 
+
+ SHADBLACK , Black Sea shad , Black Sea 
+
+ SHAKE4VWX , Silver hake , NAFO 4VWX 
+ SHAKE5Ze , Silver hake , NAFO 5Ze 
+ SHAKEMAB , Silver hake , Mid Atlantic Bight 
+
+ SMOUTHBASSCOURTOIS , Smallmouth bass ," Courtois Creek, Missouri "
+ SMOUTHBASSHURON , Smallmouth bass ," Baie du Dore, Lake Huron, "
+ SMOUTHBASSSBAY , Smallmouth bass ," South Bay, Manitoulin Island, Canada "
+
+ SNAPPSWCUBA , Silk Snapper , Zone B - Cuba 
+
+ SOCKADAM , Sockeye salmon ," Adams Complex, B.C. "
+ SOCKADAM2 , Sockeye salmon ," Adams Complex, B.C. "
+ SOCKBAB , Sockeye salmon ," Babine Lake, B.C. "
+ SOCKBAB2 , Sockeye salmon ," Babine Lake, B.C. "
+ SOCKBAB3 , Sockeye salmon ," Babine Lake, B.C. "
+ SOCKBIRK , Sockeye salmon ," Birkenhead River, B.C. "
+ SOCKBIRK2 , Sockeye salmon ," Birkenhead River, B.C. "
+ SOCKBLA , Sockeye salmon ," Black Lake, Alaska "
+ SOCKBRA , Sockeye salmon ," Branch River, Alaska "
+ SOCKBRIS , Sockeye salmon ," Bristol Bay, Alaska "
+ SOCKCHI , Sockeye salmon ," Chignik Lake, Alaska "
+ SOCKCHIK , Sockeye salmon ," Chilko River, B.C. "
+ SOCKCHIL2 , Sockeye salmon ," Chilko River, B.C. "
+ SOCKCHL1 , Sockeye salmon ," Chilko Lake, B.C. "
+ SOCKCHL2 , Sockeye salmon ," Chilko River, B.C. "
+ SOCKCHL3 , Sockeye salmon ," Chilko Lake, B.C. "
+ SOCKCOL , Sockeye salmon , Columbia River 
+ SOCKDALN , Sockeye salmon ," Lake Dalnee, Kamchatka "
+ SOCKECHL , Sockeye salmon ," Chilko South End, B.C. "
+ SOCKEG1 , Sockeye salmon ," Egegik River, Alaska "
+ SOCKEG2 , Sockeye salmon ," Egegik River, Alaska "
+ SOCKEG3 , Sockeye salmon ," Egegik River, Alaska "
+ SOCKEG4 , Sockeye salmon ," Egegik River, Alaska "
+ SOCKFRASER , Sockeye salmon ," Fraser River, B.C. "
+ SOCKFRAZ , Sockeye salmon ," Frazer Lake, Alaska "
+ SOCKFUC1 , Sockeye salmon ," Fulton River, Channel 1, B.C. "
+ SOCKFUC2 , Sockeye salmon ," Fulton River, Channel 2, B.C. "
+ SOCKFULT , Sockeye salmon ," Fulton River, B.C. "
+ SOCKGATE , Sockeye salmon ," Gates Creek, B.C. "
+ SOCKHFLY , Sockeye salmon ," Horsefly River, B.C. "
+ SOCKHFLY2 , Sockeye salmon ," Horsefly River, B.C. "
+ SOCKIGU , Sockeye salmon ," Igushik River, Alaska "
+ SOCKIGU2 , Sockeye salmon ," Igushik River, Alaska "
+ SOCKKAR , Sockeye salmon ," Karluk River, Alaska "
+ SOCKKARY , Sockeye salmon ," Karymaisky Spring, Kamchatka "
+ SOCKKAS , Sockeye salmon ," Kasilof River, Alaska "
+ SOCKKEN , Sockeye salmon ," Kenai River, Alaska "
+ SOCKKVC2 , Sockeye salmon ," Kvichak River, Alaska "
+ SOCKKVIC , Sockeye salmon ," Kvichak River, Alaska "
+ SOCKLKIT , Sockeye salmon ," Little Kitoi Lake, Afognak Is., Alaska "
+ SOCKLLSE , Sockeye salmon ," Lakelse Lake, B.C. "
+ SOCKLNAD , Sockeye salmon ," Late Nadina River, B.C. "
+ SOCKLPNK , Sockeye salmon ," Pinkut Creek, B.C. "
+ SOCKLSTU , Sockeye salmon ," Late Stuart Complex, B.C. "
+ SOCKLSTU2 , Sockeye salmon ," Late Stuart Complex, B.C. "
+ SOCKNAK1 , Sockeye salmon ," Naknek-Kvichak Rivers, Alaska "
+ SOCKNAK2 , Sockeye salmon ," Naknek River, Alaska "
+ SOCKNAK3 , Sockeye salmon ," Naknek, Alaska "
+ SOCKNUSH , Sockeye salmon ," Nushagak River, Alaska "
+ SOCKNUY , Sockeye salmon ," Nuyakuk River, Alaska "
+ SOCKPJOH , Sockeye salmon ," Port John Lake, B.C. "
+ SOCKPNKC , Sockeye salmon ," Pinkut Channel, B.C. "
+ SOCKQUES2 , Sockeye salmon ," Quesnel Lake, Fraser River, B.C. "
+ SOCKREDR , Sockeye salmon ," Red River, Alaska "
+ SOCKRINL , Sockeye salmon ," Rivers Inlet, B.C. "
+ SOCKSHUS , Sockeye salmon ," Shuswap Lake, Fraser River, B.C. "
+ SOCKSK2 , Sockeye salmon ," Skeena River, B.C. "
+ SOCKSKEE , Sockeye salmon ," Skeena River, B.C. "
+ SOCKSMIN , Sockeye salmon ," Smith Inlet, B.C. "
+ SOCKSTEL , Sockeye salmon ," Stellako River, B.C. "
+ SOCKSTEL2 , Sockeye salmon ," Stellako River, B.C. "
+ SOCKSTUA , Sockeye salmon ," Early Stuart Complex, B.C. "
+ SOCKSTUA2 , Sockeye salmon ," Early Stuart Complex, B.C. "
+ SOCKTAHL1 , Sockeye salmon ," Tahltan Lake, B.C. "
+ SOCKTAHL2 , Sockeye salmon ," Tahltan Lake, B.C. "
+ SOCKTAHL3 , Sockeye salmon ," Tahltan Lake, B.C. "
+ SOCKTALL , Sockeye salmon ," Tally Creek, B.C. "
+ SOCKTOG , Sockeye salmon ," Togiak River, Alaska "
+ SOCKTOG2 , Sockeye salmon ," Togiak River, Alaska "
+ SOCKUG1 , Sockeye salmon ," Ugashik River, Alaska "
+ SOCKUG2 , Sockeye salmon ," Ugashik River, Alaska "
+ SOCKUG3 , Sockeye salmon ," Ugashik River, Alaska "
+ SOCKUG4 , Sockeye salmon ," Ugashik River, Alaska "
+ SOCKUPNK , Sockeye salmon ," Upper Pinkut Creek, B.C. "
+ SOCKUPST , Sockeye salmon ," Ayakulik, Kodiak Island, Alaska "
+ SOCKWEAV , Sockeye salmon ," Weaver Creek, B.C. "
+ SOCKWEAV2 , Sockeye salmon ," Weaver Creek, B.C. "
+ SOCKWEV , Sockeye salmon ," Weaver Creek, B.C. "
+ SOCKWOOD , Sockeye salmon ," Wood River, Alaska "
+ SOCKWOOD2 , Sockeye salmon ," Wood River, Alaska "
+
+ SOLECS , Sole , Celtic Sea 
+ SOLEIIIa , Sole , ICES IIIa 
+ SOLEIS , Sole , Irish Sea 
+ SOLEVIII , Sole , Bay of Biscay (VIII) 
+ SOLEVIId , Sole , ICES VIId 
+ SOLEVIIe , Sole , ICES VIIe 
+
+ SPRAT22-32 , Sprat , Baltic Areas 22-32 
+ SPRAT2628 , Sprat , Baltic Areas 26 and 28 
+ SPRATBLACK , Sprat , Black Sea 
+
+ SSTURGDANUBE , Starred sturgeon , Danube river 
+
+ STRIPEDBASSCHOPTANK , Striped bass ," Choptank River, Chesapeake Bay "
+ STRIPEDBASSHEADCHES , Striped bass , Head of Chesapeake Bay 
+ STRIPEDBASSNANICOKE , Striped bass ," Nanticoke River, Chesapeake Bay "
+ STRIPEDBASSPOTOMAC , Striped bass ," Potomac River, Chesapeake Bay "
+ STRIPEDBASSUSA , Striped bass ," East Coast, USA "
+ STRIPEDBASSUSA2 , Striped bass ," East Coast, USA "
+
+ STROKEOADU , Steelhead trout ," Keogh River, B.C. "
+ STROKEOFRY , Steelhead trout ," Keogh River, B.C. "
+ STROKEOSMO , Steelhead trout ," Keogh River, B.C. "
+
+ SWORDNA , Swordfish , North Atlantic 
+
+ THORNYGA , Shortspine thornyhead , Gulf of Alaska 
+
+ TIGPEXM , Tiger prawn ," Exmouth Gulf, Western Australia "
+
+ TREVALLY , False trevally , Gulf of Thailand 
+
+ TURBOTBLACK , Black Sea turbot , Black Sea 
+
+ VENDACEPY , Vendace ," Lake Pyhajarvi, Finland "
+
+ WALLBALSAM , Walleye , Balsam Lake 
+ WALLBUCKHORN , Walleye , Buckhorn Lake 
+ WALLCASS , Walleye ," Cass Lake, Minnesota "
+ WALLERIE , Walleye ," Lake Erie, New York "
+ WALLERIE1 , Walleye ," Lake Erie, Michigan "
+ WALLERIE2 , Walleye , Lake Erie 
+ WALLERIE3 , Walleye , Erie Lake 
+ WALLERIEW , Walleye , Western Lake Erie 
+ WALLESCL , Walleye ," Escanaba Lake, Wisconsin "
+ WALLEVER , Walleye ," Lake Vermilion East, Minnesota "
+ WALLKAB , Walleye ," Lake Kabetogama, Minnesota "
+ WALLLEECH , Walleye ," Leech Lake, Minnesota "
+ WALLMILL , Walleye ," Mille Lacs Lake, Minnesota "
+ WALLNAMA , Walleye , Namakan River 
+ WALLNIPI , Walleye , Nipissing Lake 
+ WALLPEPIN , Walleye ," Lake Pepin, Minnesota "
+ WALLRAIN , Walleye ," Rainy Lake, Minnesota "
+ WALLRAIN2 , Walleye ," Rainy Lake, Minnesota "
+ WALLRAINY , Walleye , Rainy Lake 
+ WALLREDL , Walleye ," Red Lakes, Minnesota "
+ WALLRICE , Walleye , Rice Lake 
+ WALLSAVAN , Walleye , Savanne Lake 
+ WALLSAVL , Walleye ," Savanne Lake, Ontario "
+ WALLSCUG , Walleye , Scugog Lake 
+ WALLURED , Walleye ," Upper Red Lake, Minnesota "
+ WALLWINN , Walleye ," Lake Winnibigoshish, Minnesota "
+ WALLWOOD , Walleye ," Lake of the Woods, Minnesota "
+ WALLWOODS , Walleye , Woods Lake 
+ WALLWVER , Walleye ," Lake Vermilion West, Minnesota "
+
+ WBASSERIEW , White bass , Western Lake Erie 
+
+ WCROAECS , White croaker , East China Sea 
+
+ WEAKFISH , Weakfish ," East Coast, USA "
+
+ WHAKE4T , White hake , NAFO 4T 
+
+ WHFSHLCNS , Whitefish ," Lake Constance, Europe "
+
+ WHITBLACKE , Black Sea whiting , Eastern Black Sea 
+ WHITBLACKW , Black Sea whiting , Western Black Sea 
+
+ WHITCS , Whiting , Celtic Sea 
+ WHITIS , Whiting , Irish Sea 
+ WHITIS2 , Whiting , Irish Sea 
+ WHITNS , Whiting , North Sea 
+ WHITNS2 , Whiting , North Sea 
+ WHITVIId , Whiting , ICES VIId 
+ WHITVIa , Whiting , ICES VIa 
+ WHITVIa2 , Whiting , ICES VIa 
+
+ WOLFGREEN , Atlantic wolffish , West Greenland 
+
+ WPERERIEW , White perch , Western Lake Erie 
+
+ WPOLLEBS , Walleye pollock , E. Bering Sea 
+ WPOLLGA , Walleye pollock ," Gulf of Alaska, Alaska "
+ WPOLLJAP , Walleye pollock , Japan-Pacific coast of Hokkaido 
+ WPOLLKAM , Walleye pollock , East Kamchatka 
+ WPOLLWBS , Walleye pollock , West Bering Sea 
+
+ WROCKVANCON , Widow rockfish , W. U.S. + Canada 
+
+ YCROAECS , Yellow croaker , East China Sea 
+
+ YELL3LNO , Yellowtail flounder , NAFO 3LNO 
+ YELL5Z , Yellowtail flounder , NAFO 5Z 
+ YELLSNE , Yellowtail flounder , Southern New England 
+
+ YFINEPAC , Yellowfin tuna , Eastern Pacific Ocean 
+ YFININDO , Yellowfin tuna , Indian Ocean 
+
+ YPERERIEW , Yellow perch , Western Erie Lake 
+ YPERGBAY , Yellow perch ," Green Bay, Lake Michigan "
+ YPERKAB , Yellow perch ," Kabegogama Lake, Minnesota "
+ YPERLEECH , Yellow perch ," Leech Lake, Minnesota "
+ YPERONEI , Yellow perch ," Oneida Lake, New York "
+ YPERRAIN , Yellow perch ," Rainy Lake, Minnesota "
+ YPERREDL , Yellow perch ," Red Lakes, Minnesota "
+ YPERSAVL , Yellow perch ," Savanne Lake, Ontario "
+ YPERSBAY , Yellow perch ," South Bay, Lake Huron "
+ YPERWLERIE , Yellow perch , Western Lake Erie 
+
+ YROCKCOL , Yellowtail rockfish , Columbia 
+ YROCKVAN , Yellowtail rockfish , Vancouver 
+
+ YSBREAMCEC , Yellow sea bream , Central East China Sea 
+ YSBREAMCH , Yellow sea bream , East China Sea 
+ YSBREAMJC , Yellow sea bream , Japan Coast 
+ YSBREAMSE1 , Yellow sea bream , South East China Sea 
+ YSBREAMSE2 , Yellow sea bream , South East China Sea 
+
+ YSOLEEBS , Yellowfin sole , E. Bering Sea 
+ YSOLEKAM , Yellowfin sole , West Kamchatka Shelf 

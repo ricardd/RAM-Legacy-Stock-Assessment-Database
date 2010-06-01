@@ -1,0 +1,77 @@
+Last-modified Time-stamp: <2010-05-05 23:03:23 (srdbadmin)>
+
+"HighSeas.shp" is shapefile from Olaf defining the polygons for the high seas regions
+
+- first, create SQL-equivalent and set srdi to 4326
+shp2pgsql -s 4326 HighSeas public.highseas > HighSeas.sql                                                                                 
+- second, load the table into srdb
+psql srdb -f HighSeas.sql
+
+- third, identify which polygons are for which Ocean
+id|gid|Ocean
+0|1|Pacific Ocean
+1|2|Southern Ocean
+2|3|Southern Ocean
+3|4|Pacific Ocean
+4|5|Indian Ocean
+5|6|Atlantic Ocean
+6|7|Atlantic Ocean
+
+- fourth, create the appropriate format for inclusion in the the main "public.lmes" table
+i.e., table "public.lmes" is as follows
+srdb=# \d lmes
+                                   Table "public.lmes"
+   Column   |         Type          |                     Modifiers
+------------+-----------------------+----------------------------------------------------
+ gid        | integer               | not null default nextval('lmes_gid_seq'::regclass)
+ objectid   | integer               |
+ area       | double precision      |
+ perimeter  | double precision      |
+ lme_2002_  | integer               |
+ lme_2002_i | integer               |
+ lme_number | numeric               |
+ lme_name   | character varying(70) |
+ sq_km      | numeric               |
+ website    | character varying(75) |
+ shape_leng | numeric               |
+ shape_area | numeric               |
+ the_geom   | geometry              |
+Indexes:
+    "lmes_pkey" PRIMARY KEY, btree (gid)
+Check constraints:
+    "enforce_dims_the_geom" CHECK (ndims(the_geom) = 2)
+    "enforce_geotype_the_geom" CHECK (geometrytype(the_geom) = 'MULTIPOLYGON'::text OR the_geom IS NULL)
+    "enforce_srid_the_geom" CHECK (srid(the_geom) = 4326)
+
+
+whereas public.highseas is as follows:
+  Column   |          Type          |                       Modifiers
+-----------+------------------------+--------------------------------------------------------
+ gid       | integer                | not null default nextval('highseas_gid_seq'::regclass)
+ id        | integer                |
+ area_name | character varying(254) |
+ the_geom  | geometry               |
+Indexes:
+    "highseas_pkey" PRIMARY KEY, btree (gid)
+Check constraints:
+    "enforce_dims_the_geom" CHECK (ndims(the_geom) = 2)
+    "enforce_geotype_the_geom" CHECK (geometrytype(the_geom) = 'MULTIPOLYGON'::text OR the_geom IS NULL)
+    "enforce_srid_the_geom" CHECK (srid(the_geom) = 4326)
+
+
+************************************
+DROP TABLE highseasformatted;
+CREATE TABLE highseasformatted AS
+(
+select -99 as gid, -99 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -99 as lme_number, 'Pacific High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (1,4)
+UNION
+select -98 as gid, -98 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -98 as lme_number, 'Atlantic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (6,7)
+UNION
+select -97 as gid, -97 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -97 as lme_number, 'Indian High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (5)
+UNION
+select -96 as gid, -96 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -96 as lme_number, 'Subantarctic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (2,3)
+);
+
+
+INSERT INTO lmes (SELECT * FROM highseasformatted);
+

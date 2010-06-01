@@ -1,0 +1,6 @@
+Click button2up on a completion to select it.
+Type M-v or prior to move to this buffer, for keyboard selection.
+
+Possible completions are:
+FOGARTY-SIS_TimeSeriesData-1-editedDR-temp.xls		      FOGARTY-SIS_TimeSeriesData-1.xls
+FOGARTY-SIS_TimeSeriesData-1-editedDR.xls		      FOGARTY-U.S.Refernce Points.xls

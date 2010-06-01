@@ -1,0 +1,492 @@
+ specid |                sci_name                 |               com_name                
+--------+-----------------------------------------+---------------------------------------
+      3 | BALISTES CAPRISCUS                      | GRAY TRIGGERFISH
+      5 | MONACANTHUS CILIATUS                    | FRINGED FILEFISH
+      6 | STEPHANOLEPIS HISPIDUS                  | PLANEHEAD FILEFISH
+      8 | BOTHUS SP.                              | BOTHUS SP.
+     10 | GADUS MORHUA                            | COD(ATLANTIC)
+     11 | MELANOGRAMMUS AEGLEFINUS                | HADDOCK
+     12 | UROPHYCIS TENUIS                        | WHITE HAKE
+     13 | UROPHYCIS CHUSS                         | SQUIRREL OR RED HAKE
+     14 | MERLUCCIUS BILINEARIS                   | SILVER HAKE
+     15 | BROSME BROSME                           | CUSK
+     16 | POLLACHIUS VIRENS                       | POLLOCK
+     17 | MICROGADUS TOMCOD                       | TOMCOD(ATLANTIC)
+     18 | GADIFORMES                              | HAKE (NS)
+     19 | MERLUCCIUS ALBIDUS                      | OFF-SHORE HAKE
+     23 | SEBASTES SP.                            | REDFISH UNSEPARATED
+     25 | LOPHOLATILUS CHAMAELEONTICEPS           | TILE FISH
+     28 | NEALOTUS TRIPES                         | NEALOTUS TRIPES
+     30 | HIPPOGLOSSUS HIPPOGLOSSUS               | HALIBUT(ATLANTIC)
+     31 | REINHARDTIUS HIPPOGLOSSOIDES            | TURBOT,GREENLAND HALIBUT
+     39 | CHIASMODON NIGER                        | BLACK SWALLOWER
+     40 | HIPPOGLOSSOIDES PLATESSOIDES            | AMERICAN PLAICE
+     41 | GLYPTOCEPHALUS CYNOGLOSSUS              | WITCH FLOUNDER
+     42 | LIMANDA FERRUGINEA                      | YELLOWTAIL FLOUNDER
+     43 | PSEUDOPLEURONECTES AMERICANUS           | WINTER FLOUNDER
+     44 | CITHARICHTHYS ARCTIFRONS                | GULF STREAM FLOUNDER
+     49 | PLEURONECTIDAE F.                       | FLOUNDER UNIDENTIFIED
+     50 | ANARHICHAS LUPUS                        | STRIPED ATLANTIC WOLFFISH
+     51 | ANARHICHAS MINOR                        | SPOTTED WOLFFISH
+     52 | ANARHICHAS DENTICULATUS                 | NORTHERN WOLFFISH
+     60 | CLUPEA HARENGUS                         | HERRING(ATLANTIC)
+     61 | ALOSA SAPIDISSIMA                       | SHAD AMERICAN
+     62 | ALOSA PSEUDOHARENGUS                    | ALEWIFE
+     63 | OSMERUS MORDAX                          | RAINBOW SMELT
+     64 | MALLOTUS VILLOSUS                       | CAPELIN
+     65 | SALMO SALAR                             | SALMON(ATLANTIC)
+     70 | SCOMBER SCOMBRUS                        | MACKEREL(ATLANTIC)
+     72 | XIPHIAS GLADIUS                         | SWORDFISH
+     83 | REMORA BRACHYPTERA                      | SPEARFISH REMORA
+     88 | NAUCRATES DUCTOR                        | PILOTFISH
+     90 | UNID. FISH (LARVAE,JUVENILE AND ADULTS) | UNID. FISH
+     92 | SERIOLA DUMERILI                        | GREATER AMBERJACK
+     94 | VOMER SETAPINNIS                        | ATLANTIC MOONFISH
+    100 | FINFISHES (NS)                          | FINFISHES (NS)
+    102 | STENOTOMUS CHRYSOPS                     | SCUP
+    111 | UROPHYCIS REGIA                         | SPOTTED HAKE
+    112 | UROPHYCIS CHESTERI                      | LONGFIN HAKE
+    113 | ANTIMORA ROSTRATA                       | BLUE ANTIMORA/HAKE
+    114 | ENCHELYOPUS CIMBRIUS                    | FOURBEARD ROCKLING
+    115 | GAIDROPSARUS ENSIS                      | THREEBEARD ROCKLING
+    117 | MICROMESISTIUS POUTASSOU                | BLUE WHITING
+    118 | GADUS OGAC                              | GREENLAND COD
+    119 | GAIDROPSARUS SP.                        | ROCKLING UNIDENTIFIED
+    122 | TAUTOGOLABRUS ADSPERSUS                 | CUNNER
+    123 | HELICOLENUS DACTYLOPTERUS               | ROSEFISH(BLACK BELLY)
+    141 | PARALICHTHYS DENTATUS                   | SUMMER FLOUNDER
+    142 | HIPPOGLOSSINA OBLONGA                   | FOURSPOT FLOUNDER
+    143 | SCOPHTHALMUS AQUOSUS                    | BRILL/WINDOWPANE
+    146 | LAMPANYCTUS MACDONALDI                  | LAMPANYCTUS MACDONALDI
+    147 | LAMPANYCTUS PUSILLUS                    | LAMPANYCTUS PUSILLUS
+    148 | BATHYPTEROIS DUBIUS                     | NOTCH FEELERFISH
+    149 | PARASUDIS TRUCULENTA                    | LONGNOSE GREENEYE
+    150 | MYCTOPHIDAE                             | LANTERNFISH (NS)
+    151 | STOMIIDAE                               | STOMIATOID UNIDENTIFIED
+    152 | DIAPHUS DUMERILI                        | LANTERNFISH
+    155 | GONOSTOMA ELONGATUM                     | LONGTOOTH ANGLEMOUTH
+    156 | CHLOROPHTHALMUS AGASSIZI                | SHORT-NOSE GREENEYE
+    158 | MAUROLICUS MUELLERI                     | MULLER PEARLSIDES
+    159 | STOMIAS BOA                             | BOA DRAGONFISH
+    160 | ARGENTINA SILUS                         | ARGENTINE(ATLANTIC)
+    161 | ARGENTINA STRIATA                       | STRIATED ARGENTINE
+    163 | CERATOSCOPELUS MADERENSIS               | LANTERNFISH,HORNED
+    164 | BREVOORTIA TYRANNUS                     | MENHADEN(ATLANTIC)
+    165 | ALOSA AESTIVALIS                        | BLUEBACK HERRING
+    169 | CHAULIODUS SLOANI                       | VIPERFISH
+    176 | BATHYLAGUS EURYOPS                      | GOITRE BLACKSMELT
+    177 | MALACOSTEUS NIGER                       | LOOSEJAW
+    180 | MYCTOPHUM PUNCTATUM                     | SPOTTED LANTERNFISH
+    182 | NOTOSCOPELUS ELONGATUS KROYERI          | LANTERNFISH KROYER
+    193 | UROPHYCIS SP.                           | HAKE (NS)
+    196 | BOTHIDAE F.                             | LEFTEYE FLOUNDER
+    200 | DIPTURUS LAEVIS                         | BARNDOOR SKATE
+    201 | AMBLYRAJA RADIATA                       | THORNY SKATE
+    202 | MALACORAJA SENTA                        | SMOOTH SKATE
+    203 | LEUCORAJA ERINACEA                      | LITTLE SKATE
+    204 | LEUCORAJA OCELLATA                      | WINTER SKATE
+    205 | BATHYRAJA SPINICAUDA                    | SPINYTAIL SKATE
+    206 | RAJA EGLANTERIA                         | BRIER SKATE
+    207 | RAJELLA FYLLAE                          | ROUND SKATE
+    211 | RAJIDAE F.                              | SKATES (NS)
+    215 | CARCHARIAS TAURUS                       | SHARK, SAND
+    216 | TORPEDO NOBILIANA                       | ATLANTIC TORPEDO
+    219 | RAJIFORMES                              | SKATES AND RAYS (NS)
+    220 | SQUALUS ACANTHIAS                       | SPINY DOGFISH
+    221 | CENTROSCYLLIUM FABRICII                 | BLACK DOGFISH
+    224 | ETMOPTERUS PRINCEPS                     | ROUGH SAGRE
+    230 | LAMNA NASUS                             | PORBEAGLE,MACKEREL SHARK
+    233 | CETORHINUS MAXIMUS                      | BASKING SHARK
+    239 | APRISTURUS PROFUNDORUM                  | DEEPSEA CAT SHARK
+    240 | PETROMYZON MARINUS                      | SEA LAMPREY
+    241 | MYXINE GLUTINOSA                        | NORTHERN HAGFISH
+    243 | ACIPENSER OXYRHYNCHUS                   | AMERICAN ATLANT STURGEON
+    247 | HARRIOTTA RALEIGHANA                    | LONGNOSE CHIMERA
+    248 | RHINOCHIMAERA ATLANTICA                 | KNIFENOSE CHIMERA
+    286 | BENTHOSEMA SP.                          | BENTHOSEMA SP.
+    288 | ARGENTINIDAE F.                         | ARGENTINES (NS)
+    290 | CLUPEIDAE/OSMERIDAE F.                  | HERRING/CAPELIN LIKE
+    300 | MYOXOCEPHALUS OCTODECEMSPINOSUS         | LONGHORN SCULPIN
+    301 | MYOXOCEPHALUS SCORPIUS                  | SHORTHORN SCULPIN
+    302 | GYMNOCANTHUS TRICUSPIS                  | ARCTIC STAGHORN SCULPIN
+    303 | MYOXOCEPHALUS AENAEUS                   | GRUBBY OR LITTLE SCULPIN
+    304 | TRIGLOPS MURRAYI                        | MAILED SCULPIN
+    306 | ARTEDIELLUS UNCINATUS                   | ARCTIC HOOKEAR SCULPIN
+    307 | COTTUNCULUS MICROPS                     | POLAR SCULPIN
+    308 | COTTUNCULUS THOMPSONI                   | PALLID SCULPIN
+    311 | COTTIDAE F. UNID.                       | SCULPIN UNIDENTIFIED
+    312 | COTTIDAE F.                             | SCULPINS
+    313 | ICELUS BICORNIS                         | TWOHORN SCULPIN
+    314 | ICELUS SPATULA                          | SPATULATE SCULPIN
+    316 | MYOXOCEPHALUS SCORPIOIDES               | ARCTIC SCULPIN
+    319 | LAEMONEMA BARBATULUM                    | LAEMONEMA BARBATULUM
+    320 | HEMITRIPTERUS AMERICANUS                | SEA RAVEN
+    323 | ARTEDIELLUS SP.                         | HOOKEAR SCULPIN (NS)
+    329 | TRIGLIDAE F.                            | SEAROBINS
+    330 | PRIONOTUS CAROLINUS                     | NORTHERN,COMMON  SEAROBIN
+    331 | PERISTEDION MINIATUM                    | ARMORED SEA ROBIN
+    337 | OSMERIDAE F.                            | SMELTS,CAPELIN (NS)
+    340 | ASPIDOPHOROIDES MONOPTERYGIUS           | ALLIGATORFISH
+    341 | ASPIDOPHOROIDES OLRIKI                  | ARCTIC ALLIGATORFISH
+    346 | PLEURONECTIFORMES O.                    | FLATFISH
+    350 | LEPTAGONUS DECAGONUS                    | ATLANTIC SEA POACHER
+    351 | AGONIDAE F.                             | ALLIGATOR FISH (NS)
+    360 | GASTEROSTEIDAE F.                       | STICKLEBACK UNIDENTIFIED
+    361 | GASTEROSTEUS ACULEATUS                  | THREESPINE STICKLEBACK
+    370 | MYCTOPHUM SP.                           | MYCTOPHUM SP.
+    385 | MONOLENE SESSILICAUDA                   | DEEPWATER FLOUNDER
+    400 | LOPHIUS AMERICANUS                      | MONKFISH,GOOSEFISH,ANGLER
+    401 | CERATIAS HOLBOELLI                      | DEEPSEA ANGLER
+    409 | MALACOCEPHALUS OCCIDENTALIS             | AMERICAN STRAPTAIL GRENADIER
+    410 | NEZUMIA BAIRDII                         | MARLIN-SPIKE GRENADIER
+    411 | MACROURUS BERGLAX                       | ROUGHHEAD GRENADIER
+    412 | TRACHYRINCUS MURRAYI                    | ROUGHNOSE GRENADIER
+    413 | CAELORINCHUS CAELORINCHUS               | LONGNOSE GRENADIER
+    414 | CORYPHAENOIDES RUPESTRIS                | ROCK GRENADIER(ROUNDNOSE)
+    416 | MACROURIDAE F.                          | GRENADIERS (NS)
+    431 | CONGER SP.                              | CONGER SP.
+    455 | SYNAPHOBRANCHIDAE F.                    | EELS, CUTTHROAT (NS)
+    498 | ANTHIAS NICHOLSI                        | YELLOWFIN BASS
+    500 | LIPARIS SP.                             | SEASNAIL UNIDENTIFIED
+    501 | CYCLOPTERUS LUMPUS                      | LUMPFISH
+    502 | EUMICROTREMUS SPINOSUS                  | ATLANTIC SPINY LUMPSUCKER
+    503 | LIPARIS ATLANTICUS                      | ATLANTIC SEASNAIL
+    504 | LIPARIS LIPARIS                         | STRIPED SEASNAIL
+    505 | LIPARIS FABRICII                        | SEASNAIL,GELATINOUS
+    506 | LIPARIS TUNICATUS                       | GREENLAND SEASNAIL
+    507 | CAREPROCTUS LONGIPINNIS                 | LONGFIN SEASNAIL
+    508 | LIPARIS INQUILINUS                      | INQUILINE SEASNAIL
+    511 | PARALIPARIS COPEI                       | BLACKSNOUT SEASNAIL
+    512 | LIPARIS GIBBUS                          | SEASNAIL,DUSKY
+    513 | LIPARIS COHENI                          | GULF SEA SNAIL
+    514 | CYCLOPTERIDAE F.                        | LUMPFISHES,SEASNAILS (NS)
+    515 | CAREPROCTUS  SP.                        | SEA TADPOLE(NS)
+    520 | CAREPROCTUS REINHARDTI                  | SEA TADPOLE
+    530 | CHAUNAX SP.                             | GAPPER
+    586 | PARABLENNIUS MARMOREUS                  | SEAWEED BLENNY
+    590 | AMMODYTIDAE F.                          | SAND LANCES (NS)
+    592 | SHARK (NS)                              | SHARK (NS)
+    593 | CHLOROPHTHALMIDAE                       | GREENEYES (NS)
+    595 | CYTTOPSIS ROSEA                         | RED DORY
+    598 | ZOARCIDAE F.                            | EELPOUTS (NS)
+    600 | ANGUILLA ROSTRATA                       | AMERICAN EEL
+    601 | SIMENCHELYS PARASITICA                  | SNUBNOSE EEL, SLIME EEL
+    602 | SYNAPHOBRANCHUS KAUPI                   | GRAY CUTTHROAT EEL
+    603 | LYCENCHELYS VERRILLI                    | WOLF EELPOUT
+    604 | NEMICHTHYS SCOLOPACEUS                  | SNIPE EEL
+    607 | NESSORHAMPHUS INGOLFIANUS               | DUCKBILL OCEANIC EEL
+    608 | CONGER OCEANICUS                        | CONGER EEL
+    609 | OPHICHTHUS CRUENTIFER                   | SNAKE EEL
+    610 | AMMODYTES DUBIUS                        | NORTHERN SAND LANCE
+    611 | AMMODYTES SP.                           | SAND LANCE (NS)
+    613 | SERRIVOMER BEANI                        | STOUT SAWPALATE
+    616 | GYMNELIS VIRIDIS                        | FISH DOCTOR
+    617 | LYCENCHELYS PAXILLUS                    | COMMON WOLF EEL
+    619 | LYCODES TERRAENOVA                      | EELPOUT,NEWFOUNDLAND
+    620 | LYCODES LAVALAEI                        | LAVAL EELPOUT
+    621 | PHOLIS GUNNELLUS                        | ROCK GUNNEL(EEL)
+    622 | LUMPENUS LUMPRETAEFORMIS                | SNAKE BLENNY
+    623 | LUMPENUS MACULATUS                      | DAUBED SHANNY
+    624 | STICHAEUS PUNCTATUS                     | ARCTIC SHANNY
+    625 | ULVARIA SUBBIFURCATA                    | RADIATED SHANNY
+    626 | EUMESOGRAMMUS PRAECISUS                 | 4-LINE SNAKE BLENNY
+    627 | LYCODES PALLIDUS                        | PALE EELPOUT
+    628 | LYCODES POLARIS                         | POLAR EELPOUT
+    630 | CRYPTACANTHODES MACULATUS               | WRYMOUTH
+    631 | LUMPENUS FABRICII                       | SLENDER EELBLENNY
+    633 | PHOLIS FASCIATA                         | BANDED GUNNEL
+    635 | CALLIONYMIDAE F.                        | DRAGONETS
+    637 | FOETOREPUS AGASSIZI                     | SPOTFIN DRAGONET
+    639 | STICHAEIDAE F.                          | PRICKLEBACKS
+    640 | MACROZOARCES AMERICANUS                 | OCEAN POUT(COMMON)
+    641 | LYCODES RETICULATUS                     | ARCTIC EELPOUT
+    642 | LYCODES SP.                             | EELPOUTS(NS)
+    643 | LYCODES ESMARKI                         | VACHON EELPOUT
+    644 | BLENNIOIDEI S.O.                        | BLENNIES,SHANNIES,GUNNELS
+    645 | STICHAEIDAE F.                          | SHANNY-UNIDENTIFIED
+    646 | MELANOSTIGMA ATLANTICUM                 | ATLANTIC SOFT POUT
+    647 | LYCODES VAHLII                          | SHORTTAILED EELPOUT(VAHL)
+    648 | ANGUILLIDAE F.                          | EEL-UNIDENTIFIED
+    649 | OPHIDIIDAE                              | CUSK-EELS INCLUDES BROTULIDAE F.
+    650 | LEPOPHIDIUM PROFUNDORUM                 | FAWN CUSK EEL
+    652 | PERCOIDEI S.O.                          | PERCOIDEI F.
+    656 | SERRIVOMER SP.                          | SERRIVOMER SP.
+    657 | CALLIONYMUS SP.                         | CALLIONYMUS SP.
+    660 | OPHIDIOIDEI S.O.                        | CUSK EELS (NS)
+    662 | NOTACANTHIDAE F.                        | SPINY EELS (NS)
+    664 | MYCTEROPERCA SP.                        | SEA BASSES
+    677 | EPIGONUS DENTICULATUS                   | EPIGONUS DENTICULATUS
+    689 | TRICHIURIDAE F.                         | CUTLASSFISHES (NS)
+    694 | OGCOCEPHALIDAE F.                       | BATFISHES
+    697 | APOGONIDAE F.                           | CARDINAL FISHES
+    700 | ARGYROPELECUS ACULEATUS                 | ATLANTIC SILVER HATCHFISH
+    701 | PEPRILUS TRIACANTHUS                    | BUTTERFISH
+    702 | SYNGNATHUS FUSCUS                       | NORTHERN PIPEFISH
+    704 | ZENOPSIS OCELLATA                       | AMERICAN JOHN DORY
+    708 | POLYIPNUS ASTEROIDES                    | POLYIPNUS ASTEROIDES
+    709 | STERNOPTYX DIAPHANA                     | TRANSPARENT HATCHETFISH
+    711 | PARALEPIS ATLANTICA                     | SHORT BARRACUDINA
+    712 | NOTOLEPIS RISSOI                        | WHITE BARRACUDINA
+    713 | PARALEPIDIDAE F.                        | BARRACUDINA,UNIDENTIFIED
+    714 | BENTHODESMUS SIMONYI                    | SIMONYI FROSTFISH
+    717 | GRAMMATOSTOMIAS DENTATUS                | TORPEDO DRAGONFISH
+    720 | SCOMBERESOX SAURUS                      | ATLANTIC SAURY,NEEDLEFISH
+    727 | NOTOLEPIS RISSOI                        | WHITE BARRACUDINA
+    729 | OMOSUDIS LOWEI                          | OMOSUDIS LOWEI
+    732 | ANOTOPTERUS PHARAO                      | DAGGERTOOTH
+    739 | POLYACANTHONOTUS RISSOANUS              | SHORTSPINE TAPIRFISH
+    740 | NOTACANTHUS CHEMNITZII                  | SPINY EEL
+    741 | STERNOPTYCHIDAE F.                      | HATCHETFISH
+    742 | DIBRANCHUS ATLANTICUS                   | ATLANTIC BATFISH
+    743 | HYPEROGLYPHE PERCIFORMIS                | AMERICAN BARRELFISH
+    744 | POLYMIXIA NOBILIS                       | STOUT BEARD FISH
+    746 | SPHOEROIDES MACULATUS                   | NORTHERN PUFFER
+    756 | STOMIAS SP.                             | DRAGONFISH UNIDENTIFIED
+    757 | PHYSICULUS FULVUS                       | LITTLE MORID
+    759 | SYNGNATHUS SP.                          | PIPEFISH UNIDEN.
+    770 | MENIDIA MENIDIA                         | ATLANTIC SILVERSIDE
+    771 | POLYMIXIA LOWEI                         | BEARDFISH
+    774 | ANOPLOGASTER CORNUTA                    | OGREFISH
+    777 | GRAMMICOLEPIS BRACHIUSCULUS             | THORNY TINSELFISH
+    802 | BERYCIFORMES O.                         | BERYCOID FISH
+    805 | SYMPHURUS SP.                           | TONGUEFISH
+    811 | MYCTOPHIFORMES O.                       | MYCTOPHIFORMES
+    816 | SYMPHURUS DIOMEDEANUS                   | TONGUE FISH
+    819 | MALACOSTEIDAE F.                        | LOOSEJAWS (NS)
+    820 | CUBICEPS PAUCIRADIATUS                  | CUBICEPS PAUCIRADIATUS
+    824 | BENTHODESMUS TENUIS                     | BENTHODESMUS TENUIS
+    827 | SPHOEROIDES SP.                         | PUFFER
+    844 | HALIEUTICHTHYS ACULEATUS                | BATFISH,SPINY
+    845 | LYCODES EUDIPLEUROSTICTUS               | EELPOUT (NS)
+    868 | PARALIPARIS CALIDUS                     | SEASNAIL
+    869 | PARALIPARIS GARMANI                     | SEASNAIL
+    880 | ARTEDIELLUS ATLANTICUS                  | HOOKEAR SCULPIN,ATL.
+    883 | GONOSTOMA BATHYPHILUM                   | GONOSTOMA BATHYPHILUM
+    891 | LAMPRIFORMES                            | LAMPRIFORMES
+    900 | PHOCIDAE F.                             | SEALS (NS)
+    901 | ECTREPOSEBASTES IMUS                    | ECTREPOSEBASTES IMUS
+    924 | CAREPROCTUS RANULA                      | SEA TADPOLE
+    928 | ARGYROPELECUS SP.                       | ARGYROPELECUS SP.
+    946 | LUMPENUS  SP.                           | BLENNIES (NS)
+    949 | BOROSTOMIAS  SP.                        | DRAGONFISH,BIGHEAD (NS)
+   1025 | VENEFICA PROCERA                        | VENEFICA PROCERA
+   1056 | STEREOMASTIS SCULPTA                    | STEREOMASTIS SCULPTA
+   1091 |                                         | UNIDENTIFIED SPECIES
+   1092 |                                         | UNIDENTIFIED SPECIES
+   1093 |                                         | UNIDENTIFIED SPECIES
+   1094 |                                         | UNIDENTIFIED SPECIES
+   1095 |                                         | UNIDENTIFIED SPECIES
+   1200 | FISH EGGS-UNIDENTIFIED                  | FISH EGGS-UNIDENTIFIED
+   1224 | RAJA EGGS                               | SKATE UNID. EGGS
+   1510 | BUCCINIDAE EGGS                         | WHELK EGGS (NS)
+   1701 | MARINE INVERTEBRATA (NS)                | MARINE INVERTEBRATES (NS)
+   1810 | TUNICATA S.P.                           | TUNICATA S.P.
+   1821 | ASCIDIA SP.                             | SEA SQUIRTS
+   1823 | BOLTENIA SP.                            | SEA POTATO
+   1827 | HALOCYNTHIA PYRIFORMIS                  | SEA PEACH
+   1930 | BRYOZOANS BRACHIOPODA P.                | LAMPSHELLS
+   1932 | TEREBRATULINA SP.                       | TEREBRATULINA SP.
+   2000 | CRUSTACEA C.                            | CRUSTACEA C.
+   2100 | DECAPODA O.                             | SHRIMPS
+   2200 | PANDALIDAE F.                           | PANDALIDAE F.
+   2210 | PANDALUS SP.                            | PANDALUS SP.
+   2211 | PANDALUS BOREALIS                       | PANDALUS BOREALIS
+   2212 | PANDALUS MONTAGUI                       | PANDALUS MONTAGUI
+   2213 | ATLANTOPANDALUS PROPINQVUS              | WAS PANDALUS PROPINQUUS
+   2219 | PASIPHAEIDAE F.                         | PASIPHAEIDAE F.
+   2220 | PASIPHAEA TARDA                         | SHRIMP
+   2221 | PASIPHAEA MULTIDENTATA                  | PASIPHAEA MULTIDENTATA
+   2223 | SERGESTES ARCTICUS                      | SERGESTES ARCTICUS
+   2310 | SPIRONTOCARIS SP.                       | SPIRONTOCARIS
+   2312 | LEBBEUS POLARIS                         | LEBBEUS POLARIS
+   2313 | SPIRONTOCARIS LILJEBORGII               | SPIRONTOCARIS LILJEBORGII
+   2316 | SPIRONTOCARIS SPINUS                    | SPIRONTOCARIS SPINUS
+   2319 | LEBBEUS GROENLANDICUS                   | LEBBEUS GROENLANDICUS
+   2320 | LEBBEUS SP.                             | LEBBEUS SP.
+   2400 | CRANGONIDAE F.                          | CRANGONIDAE   F.
+   2411 | ARGIS DENTATA                           | ARGIS DENTATA
+   2414 | SCLEROCRANGON BOREAS                    | SCLEROCRANGON BOREAS
+   2415 | PONTOPHILUS NORVEGICUS                  | PONTOPHILUS NORVEGICUS
+   2416 | CRANGON SP.                             | CRANGON SP.
+   2417 | CRANGON SEPTEMSPINOSA                   | CRANGON SEPTEMSPINOSA
+   2419 | SABINEA SARSI                           | SABINEA SARSI
+   2420 | SABINEA SP.                             | SABINEA SP.
+   2509 | CANCRIDAE F.                            | CANCER CRAB (NS)
+   2510 | BRACHYURA S.                            | BRACHIURAN CRABS
+   2511 | CANCER BOREALIS                         | JONAH CRAB
+   2512 | CALLINECTES SAPIDUS                     | BLUE CRAB
+   2513 | CANCER IRRORATUS                        | ATLANTIC ROCK CRAB
+   2515 | PORTUNIDAE F.                           | PORTUNIDAE F.
+   2519 | MAJIDAE F.                              | SPIDER CRAB (NS)
+   2520 | HYAS SP.                                | TOAD CRAB,UNIDENT.
+   2521 | HYAS COARCTATUS                         | HYAS COARCTATUS
+   2522 | CHIONOECETES SP. (OBSOLETE)             | SPIDER/(QUEEN,SNOW)UNID
+   2523 | LITHODES MAJA                           | NORTHERN STONE CRAB
+   2524 | CANCER SP.                              | CANCER SP.
+   2525 | LITHODES/NEOLITHODES                    | SPINY CRAB
+   2526 | CHIONOECETES OPILIO                     | SNOW CRAB (QUEEN)
+   2527 | HYAS ARANEUS                            | TOAD CRAB
+   2528 | NEOLITHODES GRIMALDII                   | PORCUPINE CRAB
+   2532 | CHACEON QUINQUEDENS                     | RED DEEPSEA CRAB
+   2540 | AXIIDAE F.                              | AXIIDAE F.
+   2541 | AXIUS SERRATUS                          | AXIUS SERRATUS
+   2550 | HOMARUS AMERICANUS                      | AMERICAN LOBSTER
+   2555 | MUNIDA IRIS                             | MUNIDA IRIS
+   2556 | MUNIDA VALIDA                           | MUNIDA VALIDA
+   2558 | PAGURUS POLITUS                         | PAGURUS POLITUS
+   2559 | PAGURIDAE F.                            | HERMIT CRABS
+   2560 | PAGUROIDEA S.F.                         | PAGUROIDEA S.F.
+   2561 | PAGURUS SP.                             | PAGURUS SP.
+   2566 | MUNIDOPSIS CURVIROSTRA                  | MUNIDOPSIS CURVIROSTRA
+   2600 | EUPHAUSIACEA O.                         | KRILL SHRIMP
+   2610 | EUPHAUSIIDAE F.                         | EUPHAUSIIDAE F.
+   2611 | MEGANYCTIPHANES NORVEGICA               | MEGANYCTIPHANES NORVEGICA
+   2612 | EUPHAUSIA SP.                           | EUPHAUSIA SP.
+   2700 | MYSIDACEA O.                            | MYSID SHRIMP
+   2800 | AMPHIPODA O.                            | AMPHIPODA O.
+   2833 | ANONYX SP.                              | ANONYX SP.
+   2893 | NYMPHON SP.                             | NYMPHON SP.
+   2980 | ISOPODA O.                              | ISOPODA O.
+   2981 | AEGA PSORA                              | AEGA PSORA
+   2990 | CIRRIPEDIA S.C.                         | BARNACLES
+   2996 | IDOTEA SP.                              | IDOTEA SP.
+   2999 | CALATHURA BRANCHIATA                    | ISOPOD
+   3000 | ANNELIDA P.                             | SEGMENTED WORMS
+   3099 | HYALINOECIA CF TUBICOLA                 | HYALINOECIA CF TUBICOLA
+   3100 | POLYCHAETA C.                           | BRISTLE WORMS
+   3102 | POLYCHAETA C.,SMALL                     | SMALL POLYCHAETE )3MM DIA
+   3194 | OWENIIDAE F.                            | OWENIIDAE F.
+   3200 | APHRODITA HASTATA                       | SEA MOUSE
+   3211 | APHRODITA ACULEATA (OBSOLETE)           | APHRODITA ACULEATA
+   3212 | APHRODITA SP.                           | APHRODITA SP.
+   3221 | CHONE SP.                               | CHONE SP.
+   3240 | CARIDEA SO.                             | CARIDEA SO.
+   3500 | POLYNOIDAE F.                           | POLYNOIDAE F.
+   3501 | LEPIDONOTUS SQUAMATUS                   | LEPIDONOTUS SQUAMATUS
+   3600 | HETEROPODA                              | SEA SNAILS,SEA BUTTERFLIES, PTEROPODA
+   4000 | MOLLUSCA P.                             | MOLLUSCA P.
+   4200 | GASTROPODA O.                           | SNAILS AND SLUGS
+   4210 | BUCCINUM SP.                            | WHELKS
+   4211 | BUCCINUM UNDATUM                        | WAVE WHELK,COMMON EDIBLE
+   4221 | EUSPIRA HEROS                           | NORTHERN MOONSNAIL
+   4300 | BIVALVIA C.                             | BIVALVIA C.
+   4304 | ARCTICA ISLANDICA                       | OCEAN QUAHAUG
+   4307 | ASTARTE UNDATA                          | ASTARTE UNDATA
+   4310 | PROTOBRANCHIA, HETERODONTA              | CLAMS (NS)
+   4311 | VENUS MERCENARIA (OBSOLETE)             | QUAHAUG
+   4312 | CYRTODARIA SILIQUA                      | BANK CLAM
+   4316 | ASTARTE SP.                             | ASTARTE SP.
+   4317 | SPISULA SOLIDISSIMA                     | BAR,SURF CLAM
+   4318 | MYA ARENARIA                            | SOFT SHELL CLAM
+   4319 | HIATELLA ARCTICA                        | SOFT SHELL OR LONG NECK CLAM
+   4320 | PECTINIDAE F.                           | SCALLOPS
+   4321 | PLACOPECTEN MAGELLANICUS                | SEA SCALLOP
+   4322 | CHLAMYS ISLANDICA                       | ICELAND SCALLOP
+   4330 | MYTILIDAE F.                            | MUSSELS (NS)
+   4331 | MYTILUS EDULIS                          | COMMON MUSSELS
+   4332 | MODIOLUS MODIOLUS                       | HORSE MUSSELS
+   4340 | CARDIIDAE F.                            | COCKLES
+   4343 | SERRIPES GROENLANDICUS                  | GREENLAND COCKLE
+   4344 | VENERICARDIA BOREALIS                   | HEART SHELL
+   4355 | MACTROMERIS POLYNYMA                    | STIMPSON SURF CLAM, ARCTIC SURF CLAM
+   4400 | NUDIBRANCHIA O.                         | SEA SLUGS
+   4500 | CEPHALOPODA C.                          | CEPHALOPODA C.
+   4510 | OMMASTREPHIDAE F.                       | OMMASTREPHIDAE F.
+   4511 | ILLEX ILLECEBROSUS                      | SHORT-FIN SQUID
+   4512 | LOLIGO PEALEII                          | LONGFIN SQUID, LONGFIN INSHORE SQUID
+   4513 | OMMASTREPHES SP.                        | OMMASTREPHES SP.
+   4514 | LOLIGINIDAE,OMMASTREPHIDAE F.           | SQUID (NS)
+   4515 | ILLEX SP.                               | ILLEX SP.
+   4521 | OCTOPODA O.                             | OCTOPUS
+   4522 | SEMIROSSIA TENERA                       | SEMIROSSIA TENERA
+   4529 | OCTOPODIDAE F.                          | OCTOPODIDAE F.
+   4536 | SEPIOLODAE F.                           | SEPIOLIDAE F.
+   4541 | LOLIGO SP.                              | LOLIGO SP.
+   4560 | PYROTEUTHIS SP.                         | PYROTEUTHIS SP.
+   4562 | OCTOPOTEUTHIS SP.                       | OCTOPOTEUTHIS SP.
+   4700 | POLYPLACOPHORA C.                       | CHITONS
+   5100 | PYCNOGONIDA S.P.                        | SEA SPIDER
+   6000 | ECHINODERMATA P.                        | SPINY SKINNED ANIMALS
+   6100 | ASTEROIDEA S.C.                         | ASTEROIDEA S.C.
+   6101 | CEREMASTER GRANULARIS                   | CEREMASTER GRANULARIS
+   6110 | ASTERIAS SP.                            | ASTERIAS SP.
+   6111 | ASTERIAS VULGARIS                       | PURPLE STARFISH
+   6113 | LEPTASTERIAS POLARIS                    | LEPTASTERIAS POLARIS
+   6115 | CTENODISCUS CRISPATUS                   | MUD STAR
+   6117 | HIPPASTERIA PHRYGIANA                   | HIPPASTERIA PHRYGIANA
+   6119 | HENRICIA SANGUINOLENTA                  | BLOOD STAR
+   6120 | HENRICA SP.                             | HENRICA SP
+   6121 | SOLASTER ENDECA                         | PURPLE SUNSTAR
+   6123 | SOLASTER PAPPOSUS                       | SUN STAR
+   6125 | PTERASTER MILITARIS                     | PTERASTER MILITARIS
+   6200 | OPHIUROIDEA S.C.                        | BRITTLE STAR
+   6201 | OPHIACANTHA ABYSSICOLA                  | OPHIACANTHA ABYSSICOLA
+   6211 | OPHIOPHOLIS ACULEATA                    | DAISY
+   6212 | OPHIURA SP.                             | OPHIURA SP.
+   6213 | OPHIURA SARSI                           | OPHIURA SARSI
+   6300 | GORGONOCEPHALIDAE,ASTERONYCHIDAE F.     | BASKET STARS
+   6310 | GORGONOCEPHALUS SP.                     | GORGONOCEPHALUS SP.
+   6400 | STRONGYLOCENTROTUS SP.                  | SEA URCHINS
+   6411 | STRONGYLOCENTROTUS DROEBACHIENSIS       | STRONGYLOCENTROTUS DROEBACHIENSIS
+   6413 | BRISASTER FRAGILIS                      | HEART URCHIN
+   6421 | ARBACIA PUNCTULATA                      | PURPLE-SPINED SEA URCHIN
+   6500 | CLYPEASTEROIDA O.                       | SAND DOLLARS
+   6511 | ECHINARACHNIUS PARMA                    | ECHINARACHNIUS PARMA
+   6600 | HOLOTHUROIDEA C.                        | SEA CUCUMBERS
+   6713 | PSOLUS FABRICII                         | SCARLETT PSOLUS
+   8208 | ACTINIARIA C.                           | ANTHOZOA SEA ANEMONES
+   8300 | ANTHOZOA C.                             | SEA ANEMONE
+   8318 | PENNATULACEA                            | SEA PEN
+   8322 | PRIMNOA RESEDAEFORMIS                   | SEA CORN
+   8323 | PARAGORGIA ARBOREA                      | BUBBLE GUM CORAL
+   8324 | EUNEPHTHYA RUBIFORMIS                   | SEA CAULIFLOWER, STRAWBERRIES
+   8325 | KERATOISIS ORNATA                       | GOLD-BANDED/BAMBOO CORAL
+   8326 | ACANTHOGORGIA ARMATA                    | ACANTHOGORGIA ARMATA
+   8327 | SOFT CORAL UNIDENTIFIED                 | SOFT CORAL UNIDENTIFIED
+   8328 | ANTHOMASTUS GRANDIFLORUS                | ANTHOMASTUS GRANDIFLORUS
+   8329 | ACANELLA ARBUSCULA                      | ACANELLA ARBUSCULA
+   8330 | RADICIPES GRACILIS                      | RADICIPES GRACILIS
+   8331 | LOPHELIA PERTUSA                        | SPIDER HAZARDS CORAL
+   8332 | ANTHOZOA                                | CORAL (NS)
+   8335 | FLABELLUM SP                            | CUP CORAL
+   8339 | Clavularia spp.                         | Clavularia spp
+   8340 | ECHINUS SP.                             | ECHINUS SP.
+   8344 | HETROPODIDAE                            | STAGHORN BRYOZOA
+   8345 | THYONELLA AFF. PERVICAX                 | SEA CUCUMBER
+   8346 | PSEUDARCHASTER PARELII                  | PSEUDARCHASTER PARELII
+   8347 | PSILASTER ANDROMEDA                     | PSILASTER ANDROMEDA
+   8348 | LEPTYCHASTER ARCTICUS                   | LEPTYCHASTER ARCTICUS
+   8349 | LOPHASTER FURCIFER                      | LOPHASTER FURCIFER
+   8352 | SYSCENUS INFELIX                        | SYSCENUS INFELIX
+   8353 | ACANTHEPHYRA PELAGICA                   | ACANTHEPHYRA PELAGICA
+   8354 | SERGIA SP.                              | SERGIA SP.
+   8355 | OCTOPODA, CIRRATA                       | DEEP SEA FINNED OCTOPUS
+   8356 | RHIZAXINELLA SP.                        | SPONGE
+   8357 | GORGONOCEPHALUS LAMARCKI                | GORGONOCEPHALUS LAMARCKI
+   8358 | EUSIRUS CUSPIDATUS                      | EUSIRUS CUSPIDATUS
+   8359 | FUNICULINA QUADRANGULARIS               | FUNICULINA QUADRANGULARIS
+   8360 | PENNATULA BOREALIS                      | PENNATULA BOREALIS
+   8361 | ANTHOPTILUM GRANDIFLORUM                | ANTHOPTILUM GRANDIFLORUM
+   8362 | FLABELLUM ALABASTRUM                    | FLABELLUM ALABASTRUM
+   8363 | HALIPTERUS (BALTICINA) SP.              | HALIPTERUS (BALTICINA) SP.
+   8405 | SERTULARIA SP.                          | GARLAND HYDROIDS
+   8500 | SCYPHOZOA C.                            | JELLYFISHES
+   8511 | CYANEA CAPILLATA                        | PINK JELLYFISH
+   8520 | PELAGIA NOCTILUCA                       | JELLYFISH
+   8530 | SEA CORALS (NS)                         | SEA CORALS (NS)
+   8600 | PORIFERA P.                             | SPONGES
+   8601 | VAZELLA POURTALESI                      | RUSSIAN HATS
+   8610 | POLYMASTIA SP.                          | POLYMASTIA SP.
+   9000 | UNID REMAINS,DIGESTED                   | UNID REMAINS,DIGESTED
+   9001 | UNID FISH AND INVERTEBRATES             | UNID FISH AND INVERTEBRATES
+   9200 | STONES AND ROCKS                        | STONES AND ROCKS
+   9400 | FOREIGN ARTICLES,GARBAGE                | FOREIGN ARTICLES,GARBAGE
+   9991 | UNIDENTIFIED                            | FIRST UNIDENTIFIED PER SET
+   9993 | UNIDENTIFIED                            | THIRD UNIDENTIFIED PER SET
+   9994 | UNIDENTIFIED                            | FOURTH UNIDENTIFIED PER SET
+   9996 | UNIDENTIFIED                            | SIXTH UNIDENTIFIED PER SET
+   9997 | UNIDENTIFIED                            | SEVENTH UNIDENTIFIED PER SET
+   9998 | UNIDENTIFIED                            | EIGHTH UNIDENTIFIED PER SET
+   9999 | UNIDENTIFIED                            | NINTH UNIDENTIFIED PER SET
+(488 rows)
+

@@ -1,0 +1,35 @@
+srdb=# select a.recorder, a.stockid, st.areaid, st.stocklong, ltrim(a.xlsfilename,'../spreadsheets/') as xlsfile from srdb.assessment a, srdb.stock st where a.recorder='PREFONTAINE' and a.stockid=st.stockid;
+  recorder   |       stockid       |           areaid            |                        stocklong                        |                   xlsfile                   
+-------------+---------------------+-----------------------------+---------------------------------------------------------+---------------------------------------------
+ PREFONTAINE | COD2J3KLIS          | Canada-DFO-2J3KL            | Atlantic cod NAFO 2J3KL inshore                         | PREFONTAINE-COD2J3KLIS-2006-editedDR.xls
+ PREFONTAINE | COD3NO              | multinational-NAFO-3NO      | Atlantic cod NAFO 3NO                                   | PREFONTAINE-COD3NO-2007-editedDR.xls
+ PREFONTAINE | COD3Ps              | Canada-DFO-3Ps              | Atlantic cod NAFO 3Ps                                   | PREFONTAINE-COD3Ps-2004-editedDR.xls
+ PREFONTAINE | COD3Pn4RS           | Canada-DFO-3Pn4RS           | Atlantic cod NAFO 3Pn4RS                                | PREFONTAINE-COD3Pn4RS-2007-editedDR.xls
+ PREFONTAINE | COD4VsW             | Canada-DFO-4VsW             | Atlantic cod NAFO 4VsW                                  | PREFONTAINE-COD4VsW-2003-editedDR.xls
+ PREFONTAINE | COD4TVn             | Canada-DFO-4T               | Atlantic cod NAFO 4TVn                                  | PREFONTAINE-COD4TVn-2007-editedDR.xls
+ PREFONTAINE | COD5Zjm             | Canada-DFO-5Zjm             | Atlantic cod NAFO 5Zjm                                  | PREFONTAINE-COD5Zjm-2003-editedDR.xls
+ PREFONTAINE | AMPL23K             | multinational-NAFO-23K      | American Plaice NAFO-23K                                | PREFONTAINE-AMPL23K-2003-editedDR.xls
+ PREFONTAINE | AMPL3LNO            | multinational-NAFO-3LNO     | American Plaice NAFO-3LNO                               | PREFONTAINE-AMPL3LNO-2005-editedDR.xls
+ PREFONTAINE | AMPL3M              | multinational-NAFO-3M       | American Plaice NAFO-3M                                 | PREFONTAINE-AMPL3M-2006-editedDR.xls
+ PREFONTAINE | AMPL3Ps             | Canada-DFO-3Ps              | American Plaice NAFO-3Ps                                | PREFONTAINE-AMPL3Ps-2005-editedDR.xls
+ PREFONTAINE | HAD4X5Y             | Canada-DFO-4X5Y             | Haddock NAFO-4X5Y                                       | PREFONTAINE-HAD4X5Y-2003-editedDR.xls
+ PREFONTAINE | HAD5Zejm            | Canada-DFO-5Zejm            | Haddock NAFO-5Zejm                                      | PREFONTAINE-HAD5Zejm-2003-editedDR.xls
+ PREFONTAINE | YELL3LNO            | multinational-NAFO-3LNO     | Yellowtail Flounder NAFO 3LNO                           | PREFONTAINE-YELL3LNO-2006-editedDR.xls
+ PREFONTAINE | POLL4VWX5Zc         | Canada-DFO-4VWX5Zc          | Pollock NAFO-4VWX5Zc                                    | PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls
+ PREFONTAINE | MONK2J3KLNOPs       | Canada-DFO-2J3KLNOPs        | Monkfish Labrador Shelf - Grand Banks - St. Pierre Bank | PREFONTAINE-MONK2J3KLNOPs-2001-editedDR.xls
+ PREFONTAINE | HERR4VWX            | Canada-DFO-4VWX             | Herring Scotian Shelf and Bay of Fundy                  | PREFONTAINE-HERR4VWX-2006-editedDR.xls
+ PREFONTAINE | HERR4RFA            | Canada-DFO-4R               | Herring NAFO 4R fall spawners                           | PREFONTAINE-HERR4RFA-2004-editedDR.xls
+ PREFONTAINE | HERR4RSP            | Canada-DFO-4R               | Herring NAFO 4R spring spawners                         | PREFONTAINE-HERR4RSP-2004-editedDR.xls
+ PREFONTAINE | HERR4TFA            | Canada-DFO-4T               | Herring NAFO 4T fall spawners                           | PREFONTAINE-HERR4TFA-2007-editedDR.xls
+ PREFONTAINE | HERR4TSP            | Canada-DFO-4T               | Herring NAFO 4T spring spawners                         | PREFONTAINE-HERR4TSP-2007-editedDR.xls
+ PREFONTAINE | GHAL01ABCDEF        | multinational-NAFO-01ABCDEF | Greenland halibut NAFO 01ABCDEF                         | PREFONTAINE-GHAL01ABCDEF-2007-editedDR.xls
+ PREFONTAINE | GHAL23KLMNO         | multinational-NAFO-23KLMNO  | Greenland halibut NAFO 23KLMNO                          | PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls
+ PREFONTAINE | GHAL4RST            | Canada-DFO-4RST             | Greenland halibut NAFO 4RST                             | PREFONTAINE-GHAL4RST-2003-editedDR.xls
+ PREFONTAINE | BSKATCANATL         | Canada-DFO-ATL              | Barndoor skate Canadian Atlantic Ocean                  | PREFONTAINE-BARNSK-2002-editedDR.xls
+ PREFONTAINE | REDFISHSPP1         | multinational-NAFO-1        | Redfsih species NAFO 1                                  | PREFONTAINE-RED1-2005-editedDR.xls
+ PREFONTAINE | REDFISHSPP3M        | multinational-NAFO-3M       | Redfish species NAFO 3M                                 | PREFONTAINE-RED3M-2007-editedDR.xls
+ PREFONTAINE | REDFISHSPP3LN       | multinational-NAFO-3LN      | Redfish species NAFO 3LN                                | PREFONTAINE-RED3LN-2007-editedDR.xls
+ PREFONTAINE | REDFISHSPP3Pn4RSTVn | Canada-DFO-3Pn4RSTVn        | Redfish species NAFO 3Pn4RSTVn                          | PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.xls
+ PREFONTAINE | REDFISHSPP23K       | Canada-DFO-23K              | Redfish species NAFO 23K                                | PREFONTAINE-RED23K-2001-editedDR.xls
+ PREFONTAINE | WHAKE4VWX5          | Canada-DFO-4VWX5            | White hake Scotian Shelf, Bay of Fundy and Georges Bank | PREFONTAINE-WHAKE4VWX5-2005-editedDR.xls
+(31 rows)

@@ -1,0 +1,3 @@
+-- query to generate an RIS-like file of srdb.referencedoc
+select (CASE WHEN r.risfield = 'ZZID' THEN 'ID' ELSE (CASE WHEN r.risfield = 'ID' THEN 'N1' ELSE r.risfield END) END) || '  - ' || r.risentry as riscolumn from (select assessid, risfield || ' -  ' || assessid as id from srdb.referencedoc where risfield='ID' order by assessid) as l, (select * from srdb.referencedoc where risfield is not null) r where l.assessid=r.assessid order by l.id, r.risfield;
+--  risfield!='ID' and

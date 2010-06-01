@@ -1,0 +1,83 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Contacts}{3}
+\contentsline {chapter}{\numberline {2}Summary plots}{4}
+\contentsline {section}{Order Archaeogastropoda}{5}
+\contentsline {subsection}{\hspace {0.2cm}Family Haliotididae}{5}
+\contentsline {section}{Order Beryciformes}{15}
+\contentsline {subsection}{\hspace {0.2cm}Family Berycidae}{15}
+\contentsline {subsection}{\hspace {0.2cm}Family Trachichthyidae}{17}
+\contentsline {section}{Order Carcharhiniformes}{23}
+\contentsline {subsection}{\hspace {0.2cm}Family Carcharhinidae}{23}
+\contentsline {subsection}{\hspace {0.2cm}Family Sphyrnidae}{35}
+\contentsline {section}{Order Clupeiformes}{37}
+\contentsline {subsection}{\hspace {0.2cm}Family Clupeidae}{37}
+\contentsline {subsection}{\hspace {0.2cm}Family Engraulidae}{99}
+\contentsline {section}{Order Decapoda}{109}
+\contentsline {subsection}{\hspace {0.2cm}Family Geryonidae}{109}
+\contentsline {subsection}{\hspace {0.2cm}Family Lithodidae}{111}
+\contentsline {subsection}{\hspace {0.2cm}Family Menippidae}{125}
+\contentsline {subsection}{\hspace {0.2cm}Family Nephropidae}{127}
+\contentsline {subsection}{\hspace {0.2cm}Family Oregoniidae}{135}
+\contentsline {subsection}{\hspace {0.2cm}Family Palinuridae}{141}
+\contentsline {subsection}{\hspace {0.2cm}Family Pandalidae}{167}
+\contentsline {subsection}{\hspace {0.2cm}Family Penaeidae}{169}
+\contentsline {section}{Order Gadiformes}{173}
+\contentsline {subsection}{\hspace {0.2cm}Family Gadidae}{173}
+\contentsline {subsection}{\hspace {0.2cm}Family Merlucciidae}{283}
+\contentsline {subsection}{\hspace {0.2cm}Family Merlucciinae}{307}
+\contentsline {section}{Order Lamniformes}{311}
+\contentsline {subsection}{\hspace {0.2cm}Family Lamnidae}{311}
+\contentsline {section}{Order Lophiiformes}{313}
+\contentsline {subsection}{\hspace {0.2cm}Family Lophiidae}{313}
+\contentsline {section}{Order Ophidiiformes}{319}
+\contentsline {subsection}{\hspace {0.2cm}Family Ophidiidae}{319}
+\contentsline {section}{Order Osmeriformes}{333}
+\contentsline {subsection}{\hspace {0.2cm}Family Osmeridae}{333}
+\contentsline {section}{Order Ostreoida}{337}
+\contentsline {subsection}{\hspace {0.2cm}Family Pectinidae}{337}
+\contentsline {section}{Order Perciformes}{341}
+\contentsline {subsection}{\hspace {0.2cm}Family Ammodytidae}{341}
+\contentsline {subsection}{\hspace {0.2cm}Family Arripidae}{343}
+\contentsline {subsection}{\hspace {0.2cm}Family Carangidae}{345}
+\contentsline {subsection}{\hspace {0.2cm}Family Centrolophidae}{355}
+\contentsline {subsection}{\hspace {0.2cm}Family Cheilodactylidae}{361}
+\contentsline {subsection}{\hspace {0.2cm}Family Gempylidae}{363}
+\contentsline {subsection}{\hspace {0.2cm}Family Labridae}{367}
+\contentsline {subsection}{\hspace {0.2cm}Family Lutjanidae}{369}
+\contentsline {subsection}{\hspace {0.2cm}Family Malacanthidae}{383}
+\contentsline {subsection}{\hspace {0.2cm}Family Moronidae}{387}
+\contentsline {subsection}{\hspace {0.2cm}Family Nototheniidae}{389}
+\contentsline {subsection}{\hspace {0.2cm}Family Pomatomidae}{393}
+\contentsline {subsection}{\hspace {0.2cm}Family Sciaenidae}{395}
+\contentsline {subsection}{\hspace {0.2cm}Family Scombridae}{399}
+\contentsline {subsection}{\hspace {0.2cm}Family Serranidae}{439}
+\contentsline {subsection}{\hspace {0.2cm}Family Sillaginidae}{449}
+\contentsline {subsection}{\hspace {0.2cm}Family Sparidae}{451}
+\contentsline {subsection}{\hspace {0.2cm}Family Stromateidae}{457}
+\contentsline {subsection}{\hspace {0.2cm}Family Xiphiidae}{459}
+\contentsline {subsection}{\hspace {0.2cm}Family Zoarcidae}{465}
+\contentsline {section}{Order Pleuronectiformes}{467}
+\contentsline {subsection}{\hspace {0.2cm}Family Paralichthyidae}{467}
+\contentsline {subsection}{\hspace {0.2cm}Family Pleuronectidae}{469}
+\contentsline {subsection}{\hspace {0.2cm}Family Scophthalmidae}{559}
+\contentsline {subsection}{\hspace {0.2cm}Family Soleidae}{567}
+\contentsline {section}{Order Rajiformes}{581}
+\contentsline {subsection}{\hspace {0.2cm}Family Rajidae}{581}
+\contentsline {section}{Order Scorpaeniformes}{599}
+\contentsline {subsection}{\hspace {0.2cm}Family Anoplopomatidae}{599}
+\contentsline {subsection}{\hspace {0.2cm}Family Cottidae}{603}
+\contentsline {subsection}{\hspace {0.2cm}Family Hexagrammidae}{607}
+\contentsline {subsection}{\hspace {0.2cm}Family Platycephalidae}{615}
+\contentsline {subsection}{\hspace {0.2cm}Family Scorpaenidae}{619}
+\contentsline {section}{Order Squaliformes}{689}
+\contentsline {subsection}{\hspace {0.2cm}Family Squalidae}{689}
+\contentsline {section}{Order Tetraodontiformes}{691}
+\contentsline {subsection}{\hspace {0.2cm}Family Balistidae}{691}
+\contentsline {section}{Order Teuthida}{693}
+\contentsline {subsection}{\hspace {0.2cm}Family Ommastrephidae}{693}
+\contentsline {section}{Order Veneroida}{695}
+\contentsline {subsection}{\hspace {0.2cm}Family Arcticidae}{695}
+\contentsline {subsection}{\hspace {0.2cm}Family Mactridae}{697}
+\contentsline {section}{Order Zeiformes}{699}
+\contentsline {subsection}{\hspace {0.2cm}Family Oreosomatidae}{699}
+\contentsline {chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . }{705}

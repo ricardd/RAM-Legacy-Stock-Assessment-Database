@@ -1,0 +1,218 @@
+% latex table generated in R 2.9.1 by xtable 1.5-6 package
+% Mon May 31 13:31:26 2010
+\begin{longtable}{p{2.8cm}p{2cm}p{1.7cm}p{1.7cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}}
+  \hline
+StockID & Area & Commonname & Scientificname & Category & type & ratio1992 & ratiocurrent & mcontpre & mcontpost & mpre & mpost & msspre & msspost \\ 
+  \hline
+ACADREDGOMGB & Gulf of Maine / Georges Bank & Acadian redfish & 	extit\{Sebastes fasciatus\} & Demersal &   & 0.37 & 8.66 & -0.06 & 0.17 & -0.06 & 0.23 & -0.05 & 0.21 \\ 
+  ALBANATL & Northern Atlantic & Albacore tuna & 	extit\{Thunnus alalunga\} & Pelagic &   & 0.93 & 0.81 & -0.02 & -0.01 & -0.02 & -0.02 & -0.02 & -0.01 \\ 
+  ALBASPAC & South Pacific Ocean & Albacore tuna & 	extit\{Thunnus alalunga\} & Pelagic &   & 4.01 & 2.46 & -0.03 & -0.00 & -0.04 & -0.03 & -0.03 & -0.03 \\ 
+  ALPLAICBSAI & Bering Sea and Aleutian Islands & Alaska plaice & 	extit\{Pleuronectes quadrituberculatus\} & Demersal &   & 2.71 & 2.46 & 0.02 & -0.03 & 0.05 & -0.01 & 0.03 & -0.01 \\ 
+  AMPL23K & Labrador - NE Newfoundland & American plaice & 	extit\{Hippoglossoides platessoides\} & Demersal &  &  &  & -0.17 & -0.15 & -0.06 & -0.05 & -0.11 & -0.15 \\ 
+  AMPL3LNO & Grand Banks & American plaice & 	extit\{Hippoglossoides platessoides\} & Demersal & * & 0.14 & 0.08 & -0.06 & -0.07 & -0.02 & 0.06 & -0.05 & 0.02 \\ 
+  AMPL5YZ & Gulf of Maine / Georges Bank & American plaice & 	extit\{Hippoglossoides platessoides\} & Demersal &   & 0.52 & 0.70 & -0.10 & 0.03 & -0.14 & 0.01 & -0.08 & 0.02 \\ 
+  ARFLOUNDBSAI & Bering Sea and Aleutian Islands & Arrowtooth flounder & 	extit\{Reinhardtius stomias\} & Demersal &   & 1.31 & 2.70 & 0.06 & 0.05 & 0.05 & 0.04 & 0.06 & 0.05 \\ 
+  ARFLOUNDGA & Gulf of Alaska & Arrowtooth flounder & 	extit\{Reinhardtius stomias\} & Demersal &   & 1.93 & 3.02 & 0.05 & 0.03 & 0.05 & 0.02 & 0.05 & 0.02 \\ 
+  ARFLOUNDPCOAST & Pacific Coast & Arrowtooth flounder & 	extit\{Reinhardtius stomias\} & Demersal &   & 3.11 & 3.81 & -0.01 & 0.01 & -0.01 & 0.00 & -0.01 & 0.01 \\ 
+  ATBTUNAEATL & Eastern Atlantic & Atlantic bluefin tuna & 	extit\{Thunnus thynnus\} & Pelagic &   & 0.62 & 0.34 & -0.01 & -0.04 & -0.02 & -0.06 & -0.02 & -0.06 \\ 
+  ATBTUNAWATL & Western Atlantic & Atlantic bluefin tuna & 	extit\{Thunnus thynnus\} & Pelagic &   & 0.43 & 0.57 & -0.10 & 0.03 & -0.11 & 0.01 & -0.09 & 0.02 \\ 
+  ATKABSAI & Bering Sea and Aleutian Islands & Atka mackerel & 	extit\{Pleurogrammus monopterygius\} & Demersal &   & 2.23 & 1.55 & 0.03 & 0.00 & 0.02 & -0.00 & 0.06 & -0.02 \\ 
+  ATLCROAKMATLC & Mid-Atlantic Coast & Atlantic croaker & 	extit\{Micropogonias undulatus\} & Demersal &   & 1.30 & 1.42 & 0.08 & 0.03 & 0.07 & 0.00 & 0.10 & 0.01 \\ 
+  AUSSALMONNZ & New Zealand & Australian salmon & 	extit\{Arripis trutta\} & Pelagic &   & 1.84 & 1.64 & -0.05 & -0.00 & -0.05 & -0.01 & -0.04 & -0.01 \\ 
+  BGROCKPCOAST & Pacific Coast & Blackgill rockfish & 	extit\{Sebastes melanostomus\} & Demersal &   & 1.43 & 1.31 & -0.01 & -0.03 & -0.01 & -0.00 & -0.01 & -0.01 \\ 
+  BIGEYEATL & Atlantic & Bigeye tuna & 	extit\{Thunnus obesus\} & Pelagic & * & 1.41 & 0.90 & -0.01 & -0.06 & 0.00 & -0.04 & -0.00 & -0.03 \\ 
+  BIGEYEEPAC & Eastern Pacific & Bigeye tuna & 	extit\{Thunnus obesus\} & Pelagic &   & 1.74 & 0.90 & -0.01 & -0.05 & -0.00 & -0.04 & -0.01 & -0.04 \\ 
+  BIGEYEIO & Indian Ocean & Bigeye tuna & 	extit\{Thunnus obesus\} & Pelagic &   & 2.29 & 1.23 & -0.01 & -0.06 & -0.00 & -0.06 & -0.01 & -0.05 \\ 
+  BIGEYEWPO & Western Pacific Ocean & Bigeye tuna & 	extit\{Thunnus obesus\} & Pelagic &   & 1.87 & 1.06 & -0.03 & -0.02 & -0.04 & -0.04 & -0.03 & -0.04 \\ 
+  BIGHTREDSE & Southeast Australia & Bight redfish & 	extit\{Centroberyx gerrardi\} & Demersal &   & 1.34 & 0.95 & 0.01 & -0.02 & 0.00 & -0.02 & 0.00 & -0.02 \\ 
+  BLACKOREOWECR & West end of Chatham Rise & Black oreo & 	extit\{Allocyttus niger\} & Demersal &   & 1.25 & 0.99 & -0.06 & -0.02 & -0.06 & -0.02 & -0.05 & -0.02 \\ 
+  BLACKROCKNPCOAST & Northern Pacific Coast & Black rockfish & 	extit\{Sebastes melanops\} & Demersal & * & 0.98 & 1.37 & -0.01 & -0.02 & -0.01 & 0.06 & -0.02 & 0.05 \\ 
+  BLACKROCKSPCOAST & Southern Pacific Coast & Black rockfish & 	extit\{Sebastes melanops\} & Demersal &   & 1.21 & 2.23 & -0.01 & -0.00 & -0.01 & 0.05 &  &  \\ 
+  BLUEFISHATLC & Atlantic Coast & Bluefish & 	extit\{Pomatomus saltatrix\} & Demersal & * & 0.56 & 0.81 & -0.15 & 0.03 & -0.14 & 0.03 & -0.13 & 0.02 \\ 
+  BLUEROCKCAL & California & Blue rockfish & 	extit\{Sebastes mystinus\} & Demersal &   & 0.33 & 0.75 & -0.03 & -0.02 & -0.02 & 0.08 & -0.03 & 0.05 \\ 
+  BOCACCSPCOAST & Southern Pacific Coast & Bocaccio & 	extit\{Sebastes paucispinis\} & Demersal &   & 0.18 & 0.32 & -0.03 & -0.04 & -0.01 & 0.04 & -0.03 & 0.04 \\ 
+  BSBASSMATLC & Mid-Atlantic Coast & Black sea bass & 	extit\{Centropristis striata\} & Demersal &   & 0.56 & 0.92 & -0.01 & 0.04 & -0.00 & 0.05 & 0.01 & 0.03 \\ 
+  BUTTERGOMCHATT & Gulf of Maine / Cape Hatteras & Atlantic butterfish & 	extit\{Peprilus triacanthus\} & Demersal &  &  &  & -0.02 & -0.04 & -0.01 & -0.01 & -0.06 & -0.00 \\ 
+  BWHITNEA & Northeast Atlantic & Blue whiting & 	extit\{Micromesistius poutassou\} & Demersal & * & 0.34 & 0.67 & -0.01 & 0.09 & -0.04 & 0.08 & 0.01 & 0.04 \\ 
+  CABEZNCAL & Northern California & Cabezon & 	extit\{Scorpaenichthys marmoratus\} & Demersal &   & 0.77 & 1.04 & -0.01 & -0.02 & -0.01 & 0.03 & -0.02 & 0.02 \\ 
+  CABEZSCAL & Southern California & Cabezon & 	extit\{Scorpaenichthys marmoratus\} & Demersal &   & 0.35 & 0.74 & -0.04 & -0.05 & -0.03 & 0.02 & -0.03 & 0.06 \\ 
+  CAPEICE & Iceland Grounds & Capelin & 	extit\{Mallotus villosus\} & Pelagic & * & 0.85 & 0.49 & 0.03 & 0.01 & 0.01 & -0.01 & 0.04 & 0.01 \\ 
+  CAPENOR & Barents Sea & Capelin & 	extit\{Mallotus villosus\} & Pelagic & * & 1.03 & 0.17 & 0.06 & 0.03 & 0.06 & 0.01 &  &  \\ 
+  CHAKESA & South Africa & Shallow-water cape hake & 	extit\{Merluccius capensis\} & Demersal &   & 3.04 & 2.30 & -0.01 & 0.00 & -0.01 & -0.03 &  &  \\ 
+  CHILISPCOAST & Southern Pacific Coast & Chilipepper rockfish & 	extit\{Sebastes goodei\} & Demersal & * & 0.89 & 1.43 & -0.01 & -0.01 & -0.01 & 0.06 & -0.01 & 0.05 \\ 
+  CHTRACCH & Chilean EEZ and offshore & Chilean jack mackerel & 	extit\{Trachurus murphyi\} & Pelagic & * & 1.12 & 0.52 & 0.11 & -0.10 & 0.17 & -0.04 & 0.13 & -0.07 \\ 
+  CMACKPCOAST & Pacific Coast & Chub mackerel & 	extit\{Scomber japonicus\} & Pelagic &   & 1.04 & 0.68 & -0.01 & -0.06 & -0.01 & -0.08 & -0.03 & -0.03 \\ 
+  COD3NO & Southern Grand Banks & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.05 & 0.02 & -0.04 & -0.11 & -0.02 & 0.00 & -0.05 & -0.04 \\ 
+  COD3Pn4RS & Northern Gulf of St. Lawrence & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.12 & 0.09 & -0.14 & -0.03 & -0.06 & 0.05 & -0.10 & 0.02 \\ 
+  COD3Ps & St. Pierre Bank & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.29 & 0.49 & -0.03 & 0.07 & 0.01 & 0.12 & 0.00 & 0.09 \\ 
+  COD4TVn & Southern Gulf of St. Lawrence & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.31 & 0.17 & 0.00 & -0.09 & 0.04 & -0.03 & -0.03 & -0.03 \\ 
+  COD4VsW & Eastern Scotian Shelf & Atlantic cod & 	extit\{Gadus morhua\} & Demersal &  &  &  & 0.01 & -0.25 & 0.04 & -0.14 & -0.01 & -0.17 \\ 
+  COD5Zjm & Georges Bank & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.61 & 0.34 & -0.04 & -0.06 & 0.00 & -0.00 & -0.02 & -0.05 \\ 
+  CODBA2224 & Western Baltic & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.37 & 0.36 & -0.04 & -0.00 & -0.04 & -0.00 & -0.07 & 0.05 \\ 
+  CODBA2532 & Eastern Baltic & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.13 & 0.16 & -0.00 & -0.12 & 0.02 & -0.05 & -0.04 & -0.01 \\ 
+  CODFAPL & Faroe Plateau & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.36 & 0.26 & -0.01 & -0.04 & -0.01 & -0.03 & -0.02 & -0.01 \\ 
+  CODGB & Georges Bank & Atlantic cod & 	extit\{Gadus morhua\} & Demersal &   & 0.25 & 0.12 & -0.08 & -0.08 & -0.03 & -0.05 & -0.06 & -0.05 \\ 
+  CODGOM & Gulf of Maine & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.65 & 1.46 & -0.06 & 0.02 & 0.01 & 0.05 & -0.05 & 0.07 \\ 
+  CODICE & Iceland Grounds & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.37 & 0.46 & -0.04 & 0.03 & -0.04 & 0.02 & -0.04 & 0.01 \\ 
+  CODIS & Irish Sea & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.52 & 0.15 & -0.02 & -0.09 & -0.01 & -0.06 & -0.02 & -0.07 \\ 
+  CODKAT & Kattegat and Skagerrak & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.26 & 0.19 & -0.08 & -0.04 & -0.10 & -0.08 & -0.08 & -0.03 \\ 
+  CODNEAR & North-East Arctic & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.73 & 0.56 & -0.01 & 0.08 & -0.02 & -0.02 & -0.01 & -0.03 \\ 
+  CODNS & North Sea & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.51 & 0.19 & -0.03 & -0.08 & -0.04 & -0.08 & -0.03 & -0.04 \\ 
+  CODVIa & West of Scotland & Atlantic cod & 	extit\{Gadus morhua\} & Demersal & * & 0.35 & 0.12 & -0.05 & -0.10 & -0.05 & -0.10 & -0.06 & -0.09 \\ 
+  COWCODSCAL & Southern California & Cowcod & 	extit\{Sebastes levis\} & Demersal &   & 0.05 & 0.09 & -0.03 & -0.13 & -0.03 & 0.04 & -0.04 & 0.04 \\ 
+  CROCKPCOAST & Pacific Coast & Canary rockfish & 	extit\{Sebastes pinniger\} & Demersal &   & 0.40 & 0.85 & -0.02 & -0.01 & -0.02 & 0.07 & -0.03 & 0.05 \\ 
+  CTRACSA & South Africa South coast & Cape horse mackerel & 	extit\{Trachurus capensis\} & Pelagic & * & 1.30 & 1.47 & -0.00 & 0.01 & -0.00 & 0.00 & -0.01 & 0.01 \\ 
+  DEEPCHAKESA & South Africa & Deep-water cape hake & 	extit\{Merluccius paradoxus\} & Demersal &   & 0.81 & 0.83 & -0.04 & 0.02 & -0.04 & -0.01 & -0.03 & 0.00 \\ 
+  DEEPFLATHEADSE & Southeast Australia & Deepwater flathead & 	extit\{Platycephalus conatus\} & Demersal &   & 2.07 & 1.51 & -0.03 & -0.03 & -0.02 & -0.03 & -0.02 & -0.02 \\ 
+  DKROCKPCOAST & Pacific Coast & Darkblotched rockfish & 	extit\{Sebastes crameri\} & Demersal &   & 0.71 & 0.73 & -0.02 & -0.08 & -0.02 & -0.01 & -0.02 & 0.00 \\ 
+  DSOLEPCOAST & Pacific Coast & Dover sole & 	extit\{Microstomus pacificus\} & Demersal &   & 1.06 & 1.61 & -0.01 & 0.01 & -0.01 & 0.04 & -0.01 & 0.03 \\ 
+  DUSROCKGA & Gulf of Alaska & Dusky rockfish & 	extit\{Sebastes variabilis\} & Demersal &   & 0.89 & 1.54 & 0.05 & 0.04 & 0.05 & 0.04 & 0.04 & 0.04 \\ 
+  ESOLEPCOAST & Pacific Coast & English sole & 	extit\{Parophrys vetulus\} & Demersal &   & 1.24 & 6.42 & -0.01 & 0.10 & -0.01 & 0.13 & -0.01 & 0.11 \\ 
+  FLSOLEBSAI & Bering Sea and Aleutian Islands & Flathead sole & 	extit\{Hippoglossoides elassodon\} & Demersal &   & 1.83 & 1.83 & 0.20 & -0.01 & 0.21 & -0.01 & 0.18 & -0.00 \\ 
+  GAGGM & Gulf of Mexico & Gag & 	extit\{Mycteroperca microlepis\} & Demersal &   & 0.44 & 1.00 & -0.05 & 0.09 & -0.05 & 0.08 & -0.05 & 0.07 \\ 
+  GAGSATLC & Southern Atlantic coast & Gag & 	extit\{Mycteroperca microlepis\} & Demersal &   & 0.60 & 0.94 & -0.04 & 0.03 & -0.05 & 0.02 & -0.04 & 0.03 \\ 
+  GEMFISHNZ & New Zealand & common gemfish & 	extit\{Rexea solandri\} & Demersal &   & 4.78 & 1.64 & -0.01 & -0.08 & -0.01 & -0.09 & -0.01 & -0.08 \\ 
+  GEMFISHSE & Southeast Australia & common gemfish & 	extit\{Rexea solandri\} & Demersal &   & 0.38 & 0.25 & -0.07 & -0.09 & -0.05 & -0.05 & -0.07 & -0.03 \\ 
+  GHAL23KLMNO & Labrador Shelf - Grand Banks & Greenland halibut & 	extit\{Reinhardtius hippoglossoides\} & Demersal & * & 0.99 & 0.39 & 0.05 & -0.16 & 0.06 & -0.15 & 0.07 & -0.17 \\ 
+  GHALBSAI & Bering Sea and Aleutian Islands & Greenland halibut & 	extit\{Reinhardtius hippoglossoides\} & Demersal &   & 5.18 & 1.48 & 0.02 & -0.12 & 0.03 & -0.08 & 0.01 & -0.07 \\ 
+  GHALNEAR & North-East Arctic & Greenland halibut & 	extit\{Reinhardtius hippoglossoides\} & Demersal & * & 0.14 & 0.36 & -0.07 & 0.05 & -0.06 & 0.09 & -0.05 & 0.06 \\ 
+  GOPHERSPCOAST & Southern Pacific Coast & Gopher rockfish & 	extit\{Sebastes carnatus\} & Demersal &   & 1.87 & 2.38 & -0.01 & 0.07 & -0.02 & 0.04 & -0.01 & 0.02 \\ 
+  GRAMBERSATLC & Southern Atlantic coast & Greater amberjack & 	extit\{Seriola dumerili\} & Demersal &   & 1.24 & 1.10 & -0.02 & -0.03 & -0.02 & 0.01 & -0.02 & -0.01 \\ 
+  GTRIGGM & Gulf of Mexico & Gray triggerfish & 	extit\{Balistes capriscus\} & Demersal &   & 2.13 & 1.12 & 0.00 & -0.05 & 0.02 & -0.04 & 0.01 & -0.05 \\ 
+  HAD4X5Y & Western Scotian Shelf, Bay of Fundy and Gulf of Maine & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.41 & 0.85 & -0.03 & 0.05 & -0.02 & 0.07 & -0.02 & 0.07 \\ 
+  HAD5Y & Gulf of Maine & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal &   & 0.15 & 0.99 & -0.21 & 0.20 & -0.27 & 0.15 & -0.19 & 0.13 \\ 
+  HAD5Zejm & Georges Bank & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.25 & 1.00 & -0.02 & 0.10 & 0.00 & 0.17 & -0.03 & 0.16 \\ 
+  HADFAPL & Faroe Plateau & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.31 & 0.85 & -0.01 & 0.04 & 0.01 & 0.10 & -0.02 & 0.07 \\ 
+  HADGB & Georges Bank & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal &   & 0.10 & 1.99 & -0.03 & 0.14 & -0.02 & 0.19 & -0.03 & 0.20 \\ 
+  HADICE & Iceland Grounds & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.35 & 0.98 & -0.05 & 0.06 & -0.04 & 0.07 & -0.05 & 0.06 \\ 
+  HADNEAR & North-East Arctic & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.61 & 1.10 & -0.01 & 0.07 & -0.01 & 0.03 & 0.01 & 0.04 \\ 
+  HADNS-IIIa & IIIa and North Sea & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.80 & 0.62 & -0.05 & 0.05 & -0.05 & 0.05 & -0.05 & 0.04 \\ 
+  HADVIa & West of Scotland & Haddock & 	extit\{Melanogrammus aeglefinus\} & Demersal & * & 0.82 & 0.58 & -0.04 & 0.03 & -0.05 & 0.02 & -0.05 & 0.03 \\ 
+  HAKENRTN & IIIa-IV-VI-VII-VIIIabd & Hake & 	extit\{Merluccius merluccius\} & Demersal & * & 0.71 & 1.04 & -0.09 & 0.01 & -0.06 & 0.03 & -0.07 & 0.03 \\ 
+  HAKESOTH & VIIIc-IXa & Hake & 	extit\{Merluccius merluccius\} & Demersal &  &  &  & -0.12 & -0.03 & -0.11 & -0.02 & -0.09 & -0.03 \\ 
+  HERR2532 & Eastern Baltic & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 0.69 & 0.69 & -0.05 & -0.03 & -0.04 & -0.01 & -0.04 & 0.00 \\ 
+  HERR30 & Bothnian Sea & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 1.47 & 1.19 & 0.06 & 0.00 & 0.05 & -0.01 & 0.05 & -0.01 \\ 
+  HERR31 & Bothnian Bay & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 0.65 & 0.29 & -0.05 & -0.06 & -0.00 & -0.04 & -0.01 & -0.06 \\ 
+  HERR4RFA & NAFO 4R & Herring & 	extit\{Clupea harengus\} & Pelagic &  &  &  & 0.01 & -0.03 & 0.01 & -0.03 & -0.01 & -0.03 \\ 
+  HERR4RSP & NAFO 4R & Herring & 	extit\{Clupea harengus\} & Pelagic &  &  &  & -0.00 & -0.06 & 0.02 & 0.02 & 0.00 & -0.01 \\ 
+  HERR4VWX & Scotian Shelf and Bay of Fundy & Herring & 	extit\{Clupea harengus\} & Pelagic &  &  &  & -0.01 & -0.14 & 0.00 & -0.10 & -0.01 & -0.13 \\ 
+  HERRCC & Central Coast & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic & * & 1.25 & 0.30 & 0.02 & -0.05 & 0.02 & -0.06 & 0.01 & -0.06 \\ 
+  HERRNIRS & Irish Sea & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 0.24 & 0.72 & 0.01 & -0.07 & 0.02 & -0.02 & 0.03 & 0.03 \\ 
+  HERRNS & North Sea & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 0.69 & 0.65 & -0.02 & 0.12 & -0.02 & 0.10 & -0.03 & 0.04 \\ 
+  HERRNWATLC & Northwestern Atlantic Coast & Herring & 	extit\{Clupea harengus\} & Pelagic &  &  &  & -0.03 & 0.16 & -0.07 & 0.04 & -0.03 & 0.04 \\ 
+  HERRPRD & Prince Rupert District & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic & * & 0.39 & 0.16 & 0.00 & -0.01 & 0.00 & -0.02 & 0.01 & -0.03 \\ 
+  HERRPWS & Prince William Sound & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic &  &  &  & -0.02 & -0.13 & 0.06 & -0.08 & 0.04 & -0.15 \\ 
+  HERRQCI & Queen Charlotte Islands & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic & * & 0.36 & 0.20 & 0.04 & -0.11 & 0.05 & -0.05 & 0.02 & -0.04 \\ 
+  HERRRIGA & Gulf of Riga East of Gotland & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 1.37 & 1.21 & 0.06 & -0.01 & 0.04 & -0.02 & 0.05 & -0.01 \\ 
+  HERRSITKA & Sitka & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic &  &  &  & 0.04 & 0.05 & 0.07 & 0.07 & 0.07 & 0.03 \\ 
+  HERRSOG & Straight of Georgia & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic & * & 1.17 & 0.91 & 0.03 & 0.02 & 0.02 & -0.00 & 0.02 & -0.02 \\ 
+  HERRVIa & West of Scotland & Herring & 	extit\{Clupea harengus\} & Pelagic & * & 0.37 & 0.18 & -0.04 & 0.00 & -0.04 & 0.00 & -0.02 & -0.03 \\ 
+  HERRWCVANI & West Coast of Vancouver Island & Pacific herring & 	extit\{Clupea pallasii\} & Pelagic & * & 0.69 & 0.03 & 0.03 & -0.17 & 0.03 & -0.16 & 0.01 & -0.18 \\ 
+  HOKIENZ & Eastern New Zealand & Hoki & 	extit\{Macruronus novaezelandiae\} & Demersal & * & 1.64 & 1.11 & -0.00 & -0.07 & -0.00 & -0.07 & -0.00 & -0.05 \\ 
+  HOKIWNZ & Western New Zealand & Hoki & 	extit\{Macruronus novaezelandiae\} & Demersal & * & 1.06 & 0.51 & -0.01 & -0.11 & -0.01 & -0.11 & -0.03 & -0.08 \\ 
+  KELPGREENLINGORECOAST & Oregon Coast & Kelp greenling & 	extit\{Hexagrammos decagrammus\} & Demersal &   & 2.94 & 1.28 & 0.03 & -0.05 & 0.01 & -0.06 & 0.03 & -0.06 \\ 
+  KINGKLIPSA & South Africa & Anchovy & 	extit\{Engraulis encrasicolus\} & Pelagic &   & 1.10 & 1.20 & -0.01 & -0.01 & -0.01 & 0.00 & -0.01 & 0.01 \\ 
+  LINGCODNPCOAST & Northern Pacific Coast & Lingcod & 	extit\{Ophiodon elongatus\} & Demersal &  &  &  & -0.06 & 0.06 & -0.04 & 0.16 & -0.06 & 0.14 \\ 
+  LINGCODSPCOAST & Southern Pacific Coast & Lingcod & 	extit\{Ophiodon elongatus\} & Demersal &  &  &  & -0.06 & -0.02 & -0.05 & 0.05 & -0.06 & 0.04 \\ 
+  LNOSESKAPCOAST & Pacific Coast & Longnose skate & 	extit\{Raja rhina\} & Demersal & * & 1.64 & 1.56 & -0.00 & -0.01 & -0.00 & -0.01 & -0.00 & -0.01 \\ 
+  LSTHORNHPCOAST & Pacific Coast & Longspine thornyhead & 	extit\{Sebastolobus altivelis\} & Demersal &   & 3.32 & 2.65 & -0.00 & -0.03 & -0.00 & -0.02 & -0.00 & -0.02 \\ 
+  MACKGOMCHATT & Gulf of Maine / Cape Hatteras & Mackerel & 	extit\{Scomber scombrus\} & Pelagic &   & 1.97 & 3.61 & 0.03 & 0.04 & 0.03 & 0.07 & 0.05 & 0.05 \\ 
+  MACKNEICES & IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa & Mackerel & 	extit\{Scomber scombrus\} & Pelagic & * & 1.16 & 0.98 & -0.02 & -0.00 & -0.03 & -0.02 & -0.02 & -0.01 \\ 
+  MENATGM & Gulf of Mexico & Gulf menhaden & 	extit\{Brevoortia patronus\} & Pelagic & * & 1.26 & 1.08 & 0.04 & 0.02 & 0.04 & 0.02 & 0.04 & -0.01 \\ 
+  MORWONGSE & Southeast Australia & Hawaiian morwong & 	extit\{Nemadactylus macropterus\} & Demersal &   & 0.67 & 0.31 & -0.01 & -0.12 & -0.01 & -0.06 & -0.01 & -0.05 \\ 
+  MUTSNAPSATLCGM & Southern Atlantic coast and Gulf of Mexico & Mutton snapper & 	extit\{Lutjanus analis\} & Demersal &   & 0.52 & 1.13 & -0.07 & 0.06 & -0.05 & 0.06 & -0.05 & 0.06 \\ 
+  NROCKBSAI & Bering Sea and Aleutian Islands & Northern rockfish & 	extit\{Sebastes polyspinis\} & Demersal &   & 1.14 & 1.41 & 0.04 & 0.01 & 0.04 & 0.01 & 0.04 & 0.01 \\ 
+  NROCKGA & Gulf of Alaska & Northern rockfish & 	extit\{Sebastes polyspinis\} & Demersal &   & 2.19 & 1.50 & -0.01 & 0.01 & -0.02 & -0.02 & -0.02 & -0.02 \\ 
+  NRSOLEEBSAI & Eastern Bering Sea and Aleutian Islands & Northern rock sole & 	extit\{Lepidopsetta polyxystra\} & Demersal &   & 1.74 & 3.02 & 0.13 & 0.05 & 0.11 & 0.03 & 0.12 & 0.04 \\ 
+  NZLINGESE & Southeast Australia & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 1.40 & 0.59 & -0.02 & -0.05 & -0.01 & -0.05 & -0.02 & -0.06 \\ 
+  NZLINGLIN3-4 & New Zealand Areas LIN 3 and 4 & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 4.14 & 3.07 & -0.00 & -0.03 & 0.01 & -0.02 & -0.01 & -0.02 \\ 
+  NZLINGLIN5-6 & New Zealand Areas LIN 5 and 6 & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 5.13 & 3.96 & -0.00 & -0.02 & -0.00 & -0.01 & -0.00 & -0.02 \\ 
+  NZLINGLIN6b & New Zealand Areas LIN 6b & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 3.78 & 2.19 & -0.01 & -0.04 & 0.00 & -0.03 & -0.01 & -0.04 \\ 
+  NZLINGLIN72 & New Zealand Areas LIN 72 & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 3.05 & 2.49 & -0.02 & -0.01 & -0.02 & -0.00 & -0.02 & -0.01 \\ 
+  NZLINGLIN7WC & New Zealand Areas LIN 7WC-WCSI & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 2.06 & 2.21 & -0.02 & -0.01 & -0.01 & -0.00 & -0.02 & 0.00 \\ 
+  NZLINGWSE & Western half of Southeast Australia & New Zealand ling & 	extit\{Genypterus blacodes\} & Demersal &   & 1.66 & 1.08 & -0.00 & -0.02 & -0.00 & -0.02 & -0.01 & -0.03 \\ 
+  NZSNAPNZ8 & New Zealand Area 8 (Auckland and Central West) & New Zealand snapper & 	extit\{Chrysophrys auratus\} & Demersal &   & 0.51 & 0.35 & -0.05 & -0.03 & -0.04 & -0.02 & -0.04 & -0.03 \\ 
+  OROUGHYNZMEC & New Zealand Mid East Coast & Orange roughy & 	extit\{Hoplostethus atlanticus\} & Demersal &   & 1.34 & 1.20 & -0.15 & -0.02 & -0.11 & 0.00 & -0.13 & -0.01 \\ 
+  OROUGHYSE & Southeast Australia & Orange roughy & 	extit\{Hoplostethus atlanticus\} & Demersal &   & 2.33 & 0.52 & -0.11 & -0.14 & -0.01 & -0.08 & -0.06 & -0.10 \\ 
+  PCODBSAI & Bering Sea and Aleutian Islands & Pacific cod & 	extit\{Gadus macrocephalus\} & Demersal &   & 1.32 & 1.00 & 0.03 & -0.03 & 0.08 & -0.00 & 0.04 & -0.02 \\ 
+  PCODGA & Gulf of Alaska & Pacific cod & 	extit\{Gadus macrocephalus\} & Demersal &   & 1.25 & 0.91 & 0.07 & -0.04 & 0.10 & -0.02 & 0.06 & -0.02 \\ 
+  PERCHEBSAI & Eastern Bering Sea and Aleutian Islands & Pacific ocean perch & 	extit\{Sebastes alutus\} & Demersal &   & 0.74 & 1.23 & 0.10 & 0.04 & 0.08 & 0.03 & 0.08 & 0.03 \\ 
+  PHAKEPCOAST & Pacific Coast & Pacific hake & 	extit\{Merluccius productus\} & Demersal &   & 4.38 & 1.61 & -0.00 & -0.09 & 0.02 & -0.03 & 0.00 & -0.06 \\ 
+  PLAIC7d & Eastern English Channel & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal &  &  &  & 0.04 & -0.07 & 0.08 & -0.05 & 0.03 & -0.04 \\ 
+  PLAICCELT & Celtic Sea & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal & * & 0.98 & 0.65 & 0.05 & -0.10 & 0.08 & -0.07 & 0.07 & -0.06 \\ 
+  PLAICECHW & Western English Channel & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal & * & 0.72 & 0.51 & 0.04 & -0.05 & 0.08 & -0.02 & 0.05 & -0.04 \\ 
+  PLAICIIIa & Kattegat and Skagerrak & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal &  &  &  & -0.01 & -0.04 & -0.03 & -0.06 & -0.01 & -0.03 \\ 
+  PLAICIS & Irish Sea & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal & * & 0.57 & 1.07 & -0.03 & 0.03 & -0.02 & 0.05 & -0.03 & 0.05 \\ 
+  PLAICNS & North Sea & European Plaice & 	extit\{Pleuronectes platessa\} & Demersal &  &  &  & -0.00 & -0.04 & 0.00 & -0.01 & -0.00 & -0.03 \\ 
+  POLL4VWX5Zc & Scotian Shelf, Bay of Fundy and Georges Bank & Pollock & 	extit\{Pollachius virens\} & Demersal & * & 0.62 & 0.56 & -0.12 & -0.02 & -0.05 & 0.01 & -0.06 & 0.00 \\ 
+  POLLFAPL & Faroe Plateau & Pollock & 	extit\{Pollachius virens\} & Demersal & * & 0.52 & 0.99 & -0.01 & 0.01 & -0.01 & 0.04 & -0.01 & 0.04 \\ 
+  POLLNEAR & North-East Arctic & Pollock & 	extit\{Pollachius virens\} & Demersal & * & 0.72 & 1.70 & -0.04 & 0.15 & -0.05 & 0.11 & -0.03 & 0.13 \\ 
+  POLLNS-VI-IIIa & IIIa, VI and North Sea & Pollock & 	extit\{Pollachius virens\} & Demersal & * & 0.27 & 0.57 & -0.05 & 0.07 & -0.05 & 0.08 & -0.03 & 0.08 \\ 
+  POPERCHGA & Gulf of Alaska & Pacific ocean perch & 	extit\{Sebastes alutus\} & Demersal &   & 0.30 & 1.16 & -0.07 & 0.14 & -0.09 & 0.07 & -0.07 & 0.09 \\ 
+  POPERCHPCOAST & Pacific Coast & Pacific ocean perch & 	extit\{Sebastes alutus\} & Demersal &   & 0.53 & 0.69 & -0.04 & 0.01 & -0.04 & 0.02 & -0.04 & 0.02 \\ 
+  PSOLENPCOAST & Northern Pacific Coast & Petrale sole & 	extit\{Eopsetta jordani\} & Demersal &   & 0.48 & 1.87 & -0.03 & 0.03 & -0.03 & 0.11 & -0.03 & 0.10 \\ 
+  PSOLESPCOAST & Southern Pacific Coast & Petrale sole & 	extit\{Eopsetta jordani\} & Demersal &   & 0.27 & 1.13 & -0.02 & -0.01 & -0.02 & 0.09 & -0.02 & 0.11 \\ 
+  PTOOTHFISHPEI & South Africa Subantarctic Prince Edward Islands & Patagonian toothfish & 	extit\{Dissostichus eleginoides\} & Demersal &   & 4.88 & 1.81 & 0.00 & -0.07 & -0.00 & -0.08 & -0.00 & -0.06 \\ 
+  REXSOLEGA & Gulf of Alaska & Rex sole & 	extit\{Glyptocephalus zachirus\} & Demersal &   & 2.22 & 2.60 & 0.01 & 0.00 & 0.01 & 0.00 & 0.02 & 0.01 \\ 
+  REYEROCKBSAI & Bering Sea and Aleutian Islands & Rougheye rockfish & 	extit\{Sebastes aleutianus\} & Demersal &   & 1.11 & 1.15 & 0.01 & 0.00 & 0.01 & 0.01 & 0.00 & 0.00 \\ 
+  REYEROCKGA & Gulf of Alaska & Rougheye rockfish & 	extit\{Sebastes aleutianus\} & Demersal &   & 1.47 & 1.64 & -0.02 & 0.01 & -0.02 & 0.01 & -0.02 & 0.01 \\ 
+  RPORGYSATLC & Southern Atlantic coast & Common seabream & 	extit\{Pagrus pagrus\} & Demersal &   & 0.32 & 0.61 & -0.12 & 0.02 & -0.10 & 0.06 & -0.10 & 0.06 \\ 
+  RSNAPEGM & Eastern Gulf of Mexico & Red snapper & 	extit\{Lutjanus campechanus\} & Demersal &  &  &  & -0.12 & 0.04 & -0.11 & 0.09 & -0.10 & 0.06 \\ 
+  RSNAPSATLC & Southern Atlantic coast & Red snapper & 	extit\{Lutjanus campechanus\} & Demersal &   & 0.02 & 0.02 & -0.12 & 0.07 & -0.13 & 0.03 & -0.09 & 0.01 \\ 
+  SABLEFEBSAIGA & Eastern Bering Sea / Aleutian Islands / Gulf of Alaska & Sablefish & 	extit\{Anoplopoma fimbria\} & Demersal &   & 1.28 & 1.05 & -0.01 & -0.02 & -0.01 & -0.01 & -0.01 & -0.01 \\ 
+  SABLEFPCOAST & Pacific Coast & Sablefish & 	extit\{Anoplopoma fimbria\} & Demersal & * & 0.93 & 0.84 & -0.01 & -0.05 & -0.01 & -0.01 & -0.01 & -0.01 \\ 
+  SARDNPAC & North Pacific & Sardine & 	extit\{Sardinops sagax\} & Pelagic & * & 0.31 & 1.73 & 0.50 & 0.09 & 0.47 & 0.08 & 0.42 & 0.09 \\ 
+  SARDPCOAST & Pacific Coast & Sardine & 	extit\{Sardinops sagax\} & Pelagic & * &  & 1.36 & 0.55 & 0.09 & 0.51 & 0.07 & 0.46 & 0.07 \\ 
+  SARDPVIIIc-IXa & VIIIc-IXa & European pilchard & 	extit\{Sardina pilchardus\} & Pelagic &  &  &  & -0.00 & -0.01 & 0.00 & -0.00 & 0.02 & 0.01 \\ 
+  SBELLYROCKPCOAST & Pacific Coast & Shortbelly rockfish & 	extit\{Sebastes jordani\} & Demersal &  &  &  & -0.02 & -0.02 & -0.02 & -0.08 & -0.02 & -0.06 \\ 
+  SBWHITACIR & New Zealand - Campbell Island Rise & Southern blue whiting & 	extit\{Micromesistius australis\} & Demersal &   & 0.56 & 1.15 & -0.01 & 0.04 & -0.05 & 0.02 & -0.06 & 0.05 \\ 
+  SFLOUNMATLC & Mid-Atlantic Coast & Summer flounder & 	extit\{Paralichthys dentatus\} & Demersal &   & 0.18 & 0.72 & -0.07 & 0.11 & -0.14 & 0.09 & -0.09 & 0.09 \\ 
+  SILVERFISHSE & Southeast Australia & Silverfish & 	extit\{Seriolella punctata\} & Demersal &   & 1.17 & 1.03 & -0.04 & -0.02 & -0.03 & -0.01 & -0.04 & -0.01 \\ 
+  SKJCWPAC & Central Western Pacific & Skipjack tuna & 	extit\{Katsuwonus pelamis\} & Pelagic &   & 4.00 & 4.38 & 0.02 & -0.00 & 0.03 & 0.01 & 0.01 & 0.01 \\ 
+  SMOOTHOREOCR & Chatham Rise & Smooth oreo & 	extit\{Pseudocyttus maculatus\} & Demersal &   & 2.99 & 2.25 & -0.02 & -0.02 & -0.02 & -0.02 & -0.02 & -0.02 \\ 
+  SMOOTHOREOWECR & West end of Chatham Rise & Smooth oreo & 	extit\{Pseudocyttus maculatus\} & Demersal &   & 1.59 & 1.25 & -0.05 & -0.04 & -0.04 & -0.02 & -0.05 & -0.02 \\ 
+  SNOWGROUPSATLC & Southern Atlantic coast & Snowy grouper & 	extit\{Epinephelus niveatus\} & Demersal &   & 0.41 & 0.19 & -0.08 & -0.08 & -0.08 & -0.04 & -0.07 & -0.06 \\ 
+  SOLECS & Celtic Sea & common European sole & 	extit\{Solea vulgaris\} & Demersal & * & 0.86 & 0.90 & -0.06 & 0.03 & -0.05 & 0.03 & -0.05 & 0.01 \\ 
+  SOLEIS & Irish Sea & common European sole & 	extit\{Solea vulgaris\} & Demersal & * & 0.67 & 0.36 & -0.02 & -0.03 & -0.01 & -0.02 & -0.03 & -0.04 \\ 
+  SOLENS & North Sea & common European sole & 	extit\{Solea vulgaris\} & Demersal &  &  &  & -0.01 & -0.02 & -0.02 & -0.06 & 0.01 & -0.07 \\ 
+  SOLEVIId & Eastern English Channel & common European sole & 	extit\{Solea vulgaris\} & Demersal &  &  &  & 0.02 & -0.00 & 0.01 & -0.01 & 0.02 & 0.00 \\ 
+  SOLEVIIe & Western English Channel & common European sole & 	extit\{Solea vulgaris\} & Demersal & * & 0.61 & 0.51 & -0.00 & -0.03 & 0.01 & -0.01 & -0.00 & -0.01 \\ 
+  SOUTHHAKECR & Chatham Rise & Southern hake & 	extit\{Merluccius australis\} & Demersal &   & 5.18 & 1.77 & 0.01 & -0.07 & 0.01 & -0.06 & 0.00 & -0.08 \\ 
+  SOUTHHAKESA & Sub-Antarctic & Southern hake & 	extit\{Merluccius australis\} & Demersal &   & 5.47 & 2.91 & 0.01 & -0.05 & 0.03 & -0.04 & 0.01 & -0.04 \\ 
+  SPANMACKSATLC & Southern Atlantic coast & Spanish mackerel & 	extit\{Scomberomorus maculatus\} & Pelagic &   & 0.25 & 0.38 & -0.04 & 0.06 & -0.04 & 0.03 & -0.04 & 0.03 \\ 
+  SPRAT22-32 & Baltic Areas 22-32 & Sprat & 	extit\{Sprattus sprattus\} & Pelagic & * & 1.15 & 1.13 & 0.03 & 0.04 & -0.02 & -0.01 & 0.01 & 0.01 \\ 
+  SSTHORNHPCOAST & Pacific Coast & Shortspine thornyhead & 	extit\{Sebastolobus alascanus\} & Demersal &   & 1.73 & 1.57 & -0.00 & -0.03 & -0.00 & -0.01 & -0.00 & -0.01 \\ 
+  STFLOUNNPCOAST & Northern Pacific Coast & Starry flounder & 	extit\{Platichthys stellatus\} & Demersal &   & 4.16 & 1.10 & 0.05 & -0.03 & 0.03 & -0.08 & 0.04 & -0.10 \\ 
+  STFLOUNSPCOAST & Southern Pacific Coast & Starry flounder & 	extit\{Platichthys stellatus\} & Demersal &   & 1.79 & 1.55 & 0.02 & -0.01 & 0.03 & 0.02 & 0.01 & -0.01 \\ 
+  STRIPEDBASSGOMCHATT & Gulf of Maine / Cape Hatteras & Striped bass & 	extit\{Morone saxatilis\} & Demersal &  &  &  & 0.24 & 0.09 & 0.18 & 0.07 & 0.21 & 0.07 \\ 
+  SWHITSE & Southeast Australia & School whiting & 	extit\{Sillago flindersi\} & Demersal &   & 0.99 & 0.66 & -0.01 & -0.05 & -0.01 & -0.04 & -0.02 & -0.03 \\ 
+  SWORDNATL & Northern Atlantic & Swordfish & 	extit\{Xiphias gladius\} & Pelagic & * & 0.91 & 1.03 & -0.07 & -0.00 & -0.06 & 0.00 & -0.05 & 0.01 \\ 
+  TIGERFLATSE & Southeast Australia & Tiger flathead & 	extit\{Neoplatycephalus richardsoni\} & Demersal &   & 2.24 & 1.99 & -0.01 & 0.11 & -0.02 & -0.00 & -0.01 & -0.01 \\ 
+  TILESATLC & Southern Atlantic coast & Tilefish & 	extit\{Lopholatilus chamaeleonticeps\} & Demersal &   & 1.08 & 0.90 & -0.04 & -0.02 & -0.04 & 0.00 & -0.03 & -0.01 \\ 
+  TREVALLYTRE7 & New Zealand Areas TRE 7 & Trevally & 	extit\{Pseudocaranx dentex\} & Demersal &   & 1.85 & 1.44 & -0.02 & -0.01 & -0.02 & -0.02 & -0.01 & -0.02 \\ 
+  VSNAPGM & Gulf of Mexico & Vermilion snapper & 	extit\{Rhomboplites aurorubens\} & Demersal &  &  &  & -0.02 & -0.04 & 0.02 & -0.02 & -0.01 & -0.04 \\ 
+  VSNAPSATLC & Southern Atlantic coast & Vermilion snapper & 	extit\{Rhomboplites aurorubens\} & Demersal &   & 1.12 & 0.86 & -0.02 & -0.02 & -0.02 & -0.02 & -0.02 & -0.02 \\ 
+  WEAKFISHATLC & Atlantic Coast & Weakfish & 	extit\{Cynoscion regalis\} & Demersal &   & 7.07 & 0.79 & -0.04 & -0.14 & -0.06 & -0.15 & -0.06 & -0.14 \\ 
+  WHAKEGBGOM & Gulf of Maine / Georges Bank & White hake & 	extit\{Urophycis tenuis\} & Demersal &   & 0.56 & 0.35 & 0.00 & -0.08 & 0.02 & -0.03 & 0.01 & -0.03 \\ 
+  WHITNS-VIId-IIIa & IIIa, VIId and North Sea & Whiting & 	extit\{Merlangius merlangus\} & Demersal & * & 0.89 & 0.33 & -0.04 & -0.05 & -0.05 & -0.06 & -0.06 & -0.07 \\ 
+  WHITVIIek & Celtic Sea & Whiting & 	extit\{Merlangius merlangus\} & Demersal & * & 0.79 & 0.44 & 0.13 & -0.03 & 0.07 & -0.05 & 0.07 & -0.02 \\ 
+  WINFLOUN5Z & Georges Bank & Winter flounder & 	extit\{Pseudopleuronectes americanus\} & Demersal &   & 0.33 & 0.28 & -0.10 & 0.03 & -0.10 & 0.03 & -0.11 & -0.01 \\ 
+  WINFLOUNSNEMATL & Southern New England /Mid Atlantic & Winter flounder & 	extit\{Pseudopleuronectes americanus\} & Demersal &   & 0.09 & 0.09 & -0.14 & -0.01 & -0.13 & -0.01 & -0.13 & -0.00 \\ 
+  WITFLOUN5Y & Gulf of Maine & Witch flounder & 	extit\{Glyptocephalus cynoglossus\} & Demersal &   & 0.62 & 0.30 & -0.10 & -0.01 & -0.10 & -0.01 & -0.07 & -0.05 \\ 
+  WPOLLAI & Aleutian Islands & Walleye pollock & 	extit\{Theragra chalcogramma\} & Demersal &   & 2.23 & 0.86 & -0.06 & -0.09 & 0.02 & -0.05 & -0.02 & -0.06 \\ 
+  WPOLLEBS & Eastern Bering Sea & Walleye pollock & 	extit\{Theragra chalcogramma\} & Demersal &   & 1.11 & 0.66 & 0.06 & -0.03 & 0.06 & -0.03 & 0.05 & -0.03 \\ 
+  WPOLLGA & Gulf of Alaska & Walleye pollock & 	extit\{Theragra chalcogramma\} & Demersal &   & 1.45 & 0.77 & -0.04 & -0.07 & -0.03 & -0.06 & -0.04 & -0.04 \\ 
+  WROCKPCOAST & Pacific Coast & Widow rockfish & 	extit\{Sebastes entomelas\} & Demersal & * & 0.96 & 0.91 & -0.02 & -0.04 & -0.02 & -0.02 & -0.02 & -0.01 \\ 
+  YELLGB & Georges Bank & Yellowtail flounder & 	extit\{Limanda ferruginea\} & Demersal &   & 0.10 & 0.22 & -0.07 & 0.07 & -0.09 & 0.05 & -0.07 & 0.05 \\ 
+  YELLSNEMATL & Southern New England /Mid Atlantic & Yellowtail flounder & 	extit\{Limanda ferruginea\} & Demersal &   & 0.06 & 0.13 & -0.10 & -0.04 & -0.05 & 0.03 & -0.10 & 0.05 \\ 
+  YEYEROCKPCOAST & Pacific Coast & Yelloweye rockfish & 	extit\{Sebastes ruberrimus\} & Demersal & * & 0.66 & 0.38 & -0.02 & -0.11 & -0.01 & -0.03 & -0.02 & -0.03 \\ 
+  YFINATL & Atlantic & Yellowfin tuna & 	extit\{Thunnus albacares\} & Pelagic &   & 1.79 & 1.07 & -0.01 & -0.04 & -0.01 & -0.04 & -0.02 & -0.04 \\ 
+  YFINCWPAC & Central Western Pacific & Yellowfin tuna & 	extit\{Thunnus albacares\} & Pelagic &   & 2.38 & 1.22 & -0.01 & -0.05 & -0.01 & -0.06 & -0.01 & -0.05 \\ 
+  YFINEPAC & Northeast Pacific & Yellowfin tuna & 	extit\{Thunnus albacares\} & Pelagic &  &  &  & 0.04 & -0.01 & 0.03 & -0.02 & -0.01 & -0.02 \\ 
+  YSOLEBSAI & Bering Sea and Aleutian Islands & Yellowfin sole & 	extit\{Limanda aspera\} & Demersal &   & 2.50 & 1.94 & 0.10 & -0.04 & 0.11 & -0.02 & 0.08 & -0.02 \\ 
+  YTROCKNPCOAST & Northern Pacific Coast & Yellowtail rockfish & 	extit\{Sebastes flavidus\} & Demersal &   & 1.45 & 1.36 & -0.02 & 0.01 & -0.02 & 0.00 & -0.02 & -0.00 \\ 
+   \hline
+\hline
+\caption{}
+\label{tab:S1}
+\end{longtable}

@@ -1,0 +1,184 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.19)  19 JAN 2010 16:19
+entering extended mode
+ %&-line parsing enabled.
+**CJFAS-shortcomm
+(./CJFAS-shortcomm.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count89
+\output=\toks15
+\linenoprevgraf=\count90
+\linenumbersep=\dimen105
+\linenumberwidth=\dimen106
+\c@linenumber=\count91
+\c@pagewiselinenumber=\count92
+\c@LN@truepage=\count93
+\c@internallinenumber=\count94
+\c@internallinenumbers=\count95
+\quotelinenumbersep=\dimen107
+\bframerule=\dimen108
+\bframesep=\dimen109
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texmf-texlive/tex/latex/paralist/paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip45
+\plpartopsep=\skip46
+\plitemsep=\skip47
+\plparsep=\skip48
+\pl@lab=\toks16
+)
+(/usr/share/texmf-texlive/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+) (./CJFAS-shortcomm.aux)
+\openout1 = `CJFAS-shortcomm.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (./CJFAS-s
+hortcomm.bbl)
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+</home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/CJFAS-shortcomm-fig1
+.pdf, id=31, 505.89pt x 505.89pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/CJFAS-shortcomm
+-fig1.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/CJFAS-shortcomm-
+fig1.pdf>
+Overfull \hbox (93.69684pt too wide) in paragraph at lines 261--262
+ [] 
+ []
+
+
+</home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/Fig2_mixed_effects_a
+lternative.pdf, id=32, 433.62pt x 578.16pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/Fig2_mixed_effe
+cts_alternative.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/Fig2_mixed_effec
+ts_alternative.pdf> [7] [8 </home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutch
+ings/R/CJFAS-shortcomm-fig1.pdf>] [9 </home/srdbadmin/SQLpg/srdb/trunk/projects
+/baumhutchings/R/Fig2_mixed_effects_alternative.pdf>] (./CJFAS-shortcomm.aux) )
+ 
+Here is how much of TeX's memory you used:
+ 1362 strings out of 95086
+ 18065 string characters out of 1183254
+ 69238 words of memory out of 1500000
+ 4555 multiletter control sequences out of 10000+50000
+ 9324 words of font info for 33 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 30i,11n,32p,746b,294s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/
+bluesky/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr10.pfb
+></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf-t
+exlive/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy10.pfb>
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf-te
+xlive/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmtt12.pfb>
+Output written on CJFAS-shortcomm.pdf (9 pages, 141683 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

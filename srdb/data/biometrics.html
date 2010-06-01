@@ -1,0 +1,1300 @@
+<table border="1">
+  <tr>
+    <th align="center">bioshort</th>
+    <th align="center">category</th>
+    <th align="center">subcategory</th>
+    <th align="center">biolong</th>
+    <th align="center">biounitsshort</th>
+    <th align="center">biounitslong</th>
+  </tr>
+  <tr valign="top">
+    <td align="left">F-AGE</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">FISHING MORTALITY</td>
+    <td align="left">Ages used to compute fishing mortality</td>
+    <td align="left">yr-yr</td>
+    <td align="left">range of years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F-CALC</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">FISHING MORTALITY</td>
+    <td align="left">Fishing mortality calculation: 0=weighted by weights-at-age; 1=weighted by numbers-at-age; 2=unweighted</td>
+    <td align="left">0-1-2</td>
+    <td align="left">0=weighted by weights-at-age; 1=weighted by numbers-at-age; 2=unweighted</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F-SEX</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">FISHING MORTALITY</td>
+    <td align="left">Sex used for F calculation: 0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+    <td align="left">sex</td>
+    <td align="left">0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">REC-AGE</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">RECRUITS</td>
+    <td align="left">Age of recruits (note: offset in the time series by their age as in Myers SR database)</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">REC-ESTIMATED</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">RECRUITS</td>
+    <td align="left">Enter the year range for which R was estimated from the data (rather than being dominantly driven by the assumed underlying S-R relationship)</td>
+    <td align="left">yr-yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB-AGE</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">SPAWNERS</td>
+    <td align="left">Age of spawners (e.g. 3+)</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB-SEX</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">SPAWNERS</td>
+    <td align="left">Sex of spawners: 0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+    <td align="left">sex</td>
+    <td align="left">0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">TB-AGE</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">TOTAL BIOMASS</td>
+    <td align="left">age used in the calculation of total recruited biomass (e.g. age 3+ biomass)</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">TB-TYPE</td>
+    <td align="left">TIME SERIES DATA DESCRIPTORS</td>
+    <td align="left">TOTAL BIOMASS</td>
+    <td align="left">0=total biomass, 1=total exploitable biomass</td>
+    <td align="left">0-1</td>
+    <td align="left">0=total biomass, 1=total exploitable biomass</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Age at 50% maturity</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50-1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Age at 50% maturity</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50-2</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Age at 50% maturity</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50max</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum age at 50% maturity (choose the age (in years or half years) closest to 50%)</td>
+    <td align="left">0.5yr</td>
+    <td align="left">half-year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50max</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum age at 50% maturity (choose the age (in years or half years) closest to 50%)</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50min</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Minimum age at 50% maturity (choose the age (in years or half years) closest to 50%)</td>
+    <td align="left">0.5yr</td>
+    <td align="left">half-year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">A50min</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Minimum age at 50% maturity (choose the age (in years or half years) closest to 50%)</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fecundity</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Fecundity</td>
+    <td align="left">N</td>
+    <td align="left">number of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fecundity-rel</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Relative fecundity</td>
+    <td align="left">eggs/g</td>
+    <td align="left">Total egg production per gram of ssb</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Habitat</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Habitat, (pelagic marine; demersal marine; diadromous; wholly freshwater)</td>
+    <td align="left">Habitat</td>
+    <td align="left">habitat type</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity</td>
+    <td align="left">mm</td>
+    <td align="left">millimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50-1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50-2</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50max</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50min</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Minimum length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50min-1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Minimum length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">L50min-2</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Minimum length at 50% maturity</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LEN-REF</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity reference</td>
+    <td align="left">doctype</td>
+    <td align="left">Reference document for length at 50% maturity</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LEN-SEX</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Length at 50% maturity sex: 0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+    <td align="left">sex</td>
+    <td align="left">0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-a</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Coefficient in length-weight relationship</td>
+    <td align="left">kg/mm</td>
+    <td align="left">kilograms per millimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-a</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Coefficient in length-weight relationship</td>
+    <td align="left">kg/cm</td>
+    <td align="left">kilograms per centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-a</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Coefficient in length-weight relationship</td>
+    <td align="left">MT/cm</td>
+    <td align="left">tonnes per centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-a</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Coefficient in length-weight relationship</td>
+    <td align="left">g/mm</td>
+    <td align="left">grams per millimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-a</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Coefficient in length-weight relationship</td>
+    <td align="left">g/cm</td>
+    <td align="left">grams per centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-b</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Power in length-weight relationship</td>
+    <td align="left">dimensionless</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">LW-b</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Power in length-weight relationship</td>
+    <td align="left">dimless</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Linf</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Asymptotic length in von Bertalanffy growth model</td>
+    <td align="left">mm</td>
+    <td align="left">millimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Linf</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Asymptotic length in von Bertalanffy growth model</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">M</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Natural mortality</td>
+    <td align="left">1/month</td>
+    <td align="left">per month</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">M</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Natural mortality</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">M</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Natural mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-CALC</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maturity 50% calculation: 0=by cohort,1=by age</td>
+    <td align="left">0-1</td>
+    <td align="left">0=by cohor or 1=by age</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-MODEL</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maturity model option</td>
+    <td align="left">option</td>
+    <td align="left">option</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-REF</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Age at 50% maturity reference</td>
+    <td align="left">doctype</td>
+    <td align="left">Reference document for age at 50% maturity</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-SEX</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maturity sex: 0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+    <td align="left">sex</td>
+    <td align="left">0=both sexes,1=females only,2=males only,NA=sex unknown</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-SLOPE</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Slope of maturity function</td>
+    <td align="left">dimless</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAT-SLOPE</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Slope of maturity function</td>
+    <td align="left">dimensionless</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAX-AGE</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum age</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAX-LEN</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum length</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MAX-WGT</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Maximum weight</td>
+    <td align="left">g</td>
+    <td align="left">grams</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Trophiclevel</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">should be entered from FishBase, and the HIGHEST value should be entered</td>
+    <td align="left">value</td>
+    <td align="left">float value</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-A</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">age of last age class for von Bertalanffy growth function</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-L1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">length in first age class for von Bertalanffy growth function</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-LA</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">length in max age class for von Bertalanffy growth function</td>
+    <td align="left">cm</td>
+    <td align="left">centimeters</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-k</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">k parameter in Von Bertalanffy growth function</td>
+    <td align="left">cm/yr</td>
+    <td align="left">centimeters per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-k</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">k parameter in Von Bertalanffy growth function</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-k</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">k parameter in Von Bertalanffy growth function</td>
+    <td align="left">cm/T</td>
+    <td align="left">centimeters per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-k</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">k parameter in Von Bertalanffy growth function</td>
+    <td align="left">mm/T</td>
+    <td align="left">millimeters per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-k</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">k parameter in Von Bertalanffy growth function</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">VB-t0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">t0 parameter in Von Bertalanffy growth function</td>
+    <td align="left">yr</td>
+    <td align="left">years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Winf</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Asymptotic weight in von Bertalanffy growth model</td>
+    <td align="left">g</td>
+    <td align="left">grams</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Z-AGE</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">LIFE HISTORY</td>
+    <td align="left">Ages used to compute total mortality</td>
+    <td align="left">yr-yr</td>
+    <td align="left">range of years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">B0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation total biomass</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">BF40%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Total biomass at F40%</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">BH-h</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Beverton-Holt steepness</td>
+    <td align="left">R units per SSB units</td>
+    <td align="left">recruitment units per spawner units (dimensionless if recruits and spawners are in the same units)</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">BH-h</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Beverton-Holt steepness</td>
+    <td align="left">dimless</td>
+    <td align="left">recruitment units per spawner units (dimensionless if recruits and spawners are in the same units)</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">BH-h</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Beverton-Holt steepness</td>
+    <td align="left">dimensionless</td>
+    <td align="left">recruitment units per spawner units (dimensionless if recruits and spawners are in the same units)</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bbuf</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">spawning stock biomass that produced the last abundant year-class</td>
+    <td align="left">MT</td>
+    <td align="left">Metric tonnes</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bcrp</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Conservation reference point: stock level below which productivity is sufficiently impaired to cause serious harm to the resource.</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">E03eggs</td>
+    <td align="left">thousand of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">E00eggs</td>
+    <td align="left">eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">E09eggs</td>
+    <td align="left">trillions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">FemaleGonadMT</td>
+    <td align="left">Female Gonad Weight in metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">lowest observed spawning stock biomass in previous assessments</td>
+    <td align="left">relative</td>
+    <td align="left">relative</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Blrp</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Limit reference point: stock level below which productivity is sufficiently impaired to cause serious harm because the probability of poor recruitment is high</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Total biomass at maximum sustainable yield</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Total biomass at maximum sustainable yield</td>
+    <td align="left">E03MT</td>
+    <td align="left">thousands of metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Total biomass at maximum sustainable yield</td>
+    <td align="left">relative</td>
+    <td align="left">relative</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bpa</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Precautionary approach biomass</td>
+    <td align="left">relative</td>
+    <td align="left">relative</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Bpa</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Precautionary approach biomass</td>
+    <td align="left">MT</td>
+    <td align="left">Metric tonnes</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Brebuild</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Rebuild target for biomass</td>
+    <td align="left">MT</td>
+    <td align="left">Metric tonnes</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Busr</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Upper stock reference: stock level below which the removal rate is reduced</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">ERcurrent</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Best available point estimate of exploitation ratio used to determine the rate of fishing</td>
+    <td align="left">ratio</td>
+    <td align="left">ratio</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">ERtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Average exploitation ratio target</td>
+    <td align="left">ratio</td>
+    <td align="left">ratio</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F0.1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the fishing mortality rate at which the increase in yield per recruit in weight for an increase in a unit of effort is only 10 percent of the yield per recruit produced by the first unit of effort on the unexploited stock</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F0.1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the fishing mortality rate at which the increase in yield per recruit in weight for an increase in a unit of effort is only 10 percent of the yield per recruit produced by the first unit of effort on the unexploited stock</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F30%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that reduces spawner biomass per recruit to 30% of the level obtained without fishing mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F35%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that reduces spawner biomass per recruit to 35% of the level obtained without fishing mortality</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F35%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that reduces spawner biomass per recruit to 35% of the level obtained without fishing mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F40%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that reduces spawner biomass per recruit to 40% of the level obtained without fishing mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">F40%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that reduces spawner biomass per recruit to 40% of the level obtained without fishing mortality</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fcurrent</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fcurrent</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fext</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the rate of fishing mortality where equilibrium biomass=0</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Flim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the fishing mortality threshold, above which fishing has typically lead to stock decline</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Flim</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the fishing mortality threshold, above which fishing has typically lead to stock decline</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fmax</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the rate of fishing mortality for a given exploitation pattern rate of growth and natural mortality, that results in the maximum level of yield per recruit</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fmax</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">the rate of fishing mortality for a given exploitation pattern rate of growth and natural mortality, that results in the maximum level of yield per recruit</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">fishing mortality corresponding to maximum sustainable yield</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">fishing mortality corresponding to maximum sustainable yield</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">fishing mortality corresponding to maximum sustainable yield</td>
+    <td align="left">relative</td>
+    <td align="left">relative</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fpa</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Precautionary approach fishing mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fpa</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Precautionary approach fishing mortality</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Frebuild</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing mortality that allows stock to rebuild</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Fref</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Reference fishing mortality</td>
+    <td align="left">1/T</td>
+    <td align="left">per unit time</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Ftarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Average fishing mortality target</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">K</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Carrying capacity</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MORATOR</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Fishing moratorium (years): e.g. 1992-1996</td>
+    <td align="left">yr-yr</td>
+    <td align="left">range of years</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MSY</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Maximum Sustainable Yield</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MSY</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Maximum Sustainable Yield</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">MSY</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Maximum Sustainable Yield</td>
+    <td align="left">E03MT</td>
+    <td align="left">thousands of metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">N0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation abundance</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">NATMORT</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Natural mortality</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Nmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Total abundance at maximum sustainable yield</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">R0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Recruitment in unexploited population</td>
+    <td align="left">E06</td>
+    <td align="left">number in millions</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">R0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Recruitment in unexploited population</td>
+    <td align="left">E09</td>
+    <td align="left">number in tens of millions</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">R0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Recruitment in unexploited population</td>
+    <td align="left">E03</td>
+    <td align="left">number in thousands</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">R0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Recruitment in unexploited population</td>
+    <td align="left">E00</td>
+    <td align="left">numbers</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">RY</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Replacement yield</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SPRF0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawners per recruit when F=0</td>
+    <td align="left">E01</td>
+    <td align="left">numbers</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SPRmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawners per recruit at MSY</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SPRtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning potential ratio (fraction of pre-exploitation SPR)</td>
+    <td align="left">ratio</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">E08eggs</td>
+    <td align="left">hundreds of millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">E06eggs</td>
+    <td align="left">millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">E09eggs</td>
+    <td align="left">trillions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">E06larvae</td>
+    <td align="left">millions of larvae</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB0</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Pre-exploitation spawning biomass</td>
+    <td align="left">E03eggs</td>
+    <td align="left">thousands of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSB50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">SSB that produces 50% of the max recruitment as estimated from the stock-recruitment curve</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBF40%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning biomass at F40%</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBbh50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The SSB corresponding to the recruitment at 50% of the asymptotic value of a Beverton-Holt curve</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBexceptional</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The Exceptional Circumstances threshold below which quotas are sharply reduced</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBlimit20%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Limit spawning biomass level (SSB20%), Spawning Biomass at which harvest rate is set to 0</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBlimit30%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Limit spawning biomass level (SSB30%), Spawning Biomass below which target fishing mortality declines linearly to reach 0 at SSB20</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmin</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Minimum acceptable spawning biomass (fraction of SSB0)</td>
+    <td align="left">ratio</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E09eggs</td>
+    <td align="left">trillions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">relative</td>
+    <td align="left">relative</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E06eggs</td>
+    <td align="left">millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E08eggs</td>
+    <td align="left">hundreds of millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E06larvae</td>
+    <td align="left">millions of larvae</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E03eggs</td>
+    <td align="left">thousands of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Biomass at MSY</td>
+    <td align="left">E00eggs</td>
+    <td align="left">number of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBnp50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The SSB corresponding to 50% of the maximum recruitment predicted by a non-parametric S-R curve</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBrecovery</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The lowest spawner biomass for which a secure recovery has occurred</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBrecovery-1</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The lowest spawner biomass for which a secure recovery has occurred</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBrecovery-2</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The lowest spawner biomass for which a secure recovery has occurred</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBrk50</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The SSB (left-hand limb) corresponding to 50% of the maximum value of a Ricker curve</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBsb50/90</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">The intersection of the 50th percentile of the recruitment and the replacement line above 90% of the S-R points</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">MT</td>
+    <td align="left">metric tons</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">E06eggs</td>
+    <td align="left">millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">E09eggs</td>
+    <td align="left">trillions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">E03eggs</td>
+    <td align="left">thousands of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">E08eggs</td>
+    <td align="left">hundreds of millions of eggs</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSBtarget</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Target spawning biomass level (SSB40%)</td>
+    <td align="left">E06larvae</td>
+    <td align="left">millions of larvae</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">SSFmsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Spawning Stock Fecundity at MSY</td>
+    <td align="left">E00</td>
+    <td align="left">Individuals</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">U40%</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">harvest rate that reduces B to B40%</td>
+    <td align="left">ratio</td>
+    <td align="left">ratio</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Umsy</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">harvest rate corresponding to maximum sustainable yield</td>
+    <td align="left">ratio</td>
+    <td align="left">dimensionless</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">Upa</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">harvest rate for precautionary approach</td>
+    <td align="left">ratio</td>
+    <td align="left">ratio</td>
+  </tr>
+  <tr valign="top">
+    <td align="left">r</td>
+    <td align="left">OTHER BIOMETRICS</td>
+    <td align="left">REFERENCE POINTS ETC.</td>
+    <td align="left">Intrinsic rate of increase</td>
+    <td align="left">1/yr</td>
+    <td align="left">per year</td>
+  </tr>
+</table>
+<p>(161 rows)<br />
+</p>

@@ -1,0 +1,30 @@
+\section*{Supporting Information}
+
+\subsection*{Entity relationship diagram}
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/doc/srdb-ERD.pdf}
+\end{center}
+\caption{Entity relationship diagram of the RAM legacy database.}
+\end{figure}
+
+
+\begin{table}
+\caption{Summary of the assessments used in this analysis and the timespan of their different results. }
+\begin{tabular}{| p{5cm} | p{3cm} | c | r  c  l | c | }\label{tab:timespan}
+\textit{Fisheries stock} & \textit{Scientific name} & \textit{Timespan} & & \textit{Num. years available} & & \textit{Source} \\
+ & & & Catch & SSB & R & \\
+\hline \hline
+blah & blah & 1970-2000 & 30 & 29 & 30 & (blah) \\
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{Summary of the assessments used in this analysis and their estimated ratios of current biomass to the biomass at maximum sustainable yield and current harvest rate to the harvest rate that results is maximum sustainable yield. The estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production model fits. When both an SSBmsy and Bmsy reference points are available, the SSB is chosen preferentially. }
+\begin{tabular}{| p{5cm} | p{3cm} | c | c | c | c | c |}\label{tab:crosshair}
+\textit{Fisheries stock} & \textit{Scientific name} & \textit{Current year} & \textit{B/Bmsy} & \textit{u/umsy} & \textit{From assessment?} & \textit{Source} \\
+\hline \hline
+blah & blah & 2000 & 1.0 & 1.0 & yes &  (blah) \\
+\end{tabular}
+\end{table}

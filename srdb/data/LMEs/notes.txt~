@@ -1,0 +1,15 @@
+spatially enable srdb:
+
+psql srdb -f /usr/share/postgresql-8.2-postgis/lwpostgis.sql
+psql srdb -f /usr/share/postgresql-8.2-postgis/spatial_ref_sys.sql
+
+
+LME shapefile obtained from http://www.lme.noaa.gov
+
+unzip the archive lmes_64.zip
+
+produce SQL from shapefile:
+shp2pgsql LMEs_64 -s 4326 lmes > lmes.sql
+
+load into srdb:
+psql srdb -f lmes.sql

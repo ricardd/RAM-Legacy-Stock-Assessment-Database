@@ -1,0 +1,70 @@
+\documentclass[a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[top=2cm, bottom=2cm, right=2cm, left=2cm]{geometry}
+\usepackage{lscape}
+\usepackage{times}
+\title{Hinge model}
+\date{}
+\begin{document}
+\maketitle
+\noindent To investigate the hinge model, we'll look at the deterministic part, given by
+\begin{eqnarray}
+\ln(SSB_{t})=\begin{cases}
+\alpha_1+\beta_1 t & \text{if $t \le C$ },\\
+\alpha_2+\beta_2 t& \text{if $t > C$}.
+\end{cases}
+\label{eqn:hinge1}
+\end{eqnarray}
+For $\ln(SSB_{C})$ to be continuous requires that 
+\begin{eqnarray}
+\alpha_1+\beta_1 C &= &\alpha_2+\beta_2 C\\
+\alpha_2&=&\alpha_1+\beta_1 C-\beta_2 C\\
+&=&\alpha_1+ C(\beta_1-\beta_2 )
+\end{eqnarray}
+Substituting back into Equation~(\ref{eqn:hinge1})
+\begin{eqnarray}
+\ln(SSB_{t})=\begin{cases}
+\alpha_1+\beta_1 t & \text{if $t \le C$ },\\
+\alpha_1+ C(\beta_1-\beta_2 )+\beta_2 t &\text{if $t > C$}.
+\end{cases}
+\label{eqn:hinge2}
+\end{eqnarray}
+Define
+\begin{eqnarray}
+\beta_2&=&\beta_1+\delta_{\beta}\\
+\delta_{\beta}&=&\beta_2-\beta_1
+\end{eqnarray}
+Substitute in Equation~(\ref{eqn:hinge2})
+\begin{eqnarray}
+\ln(SSB_{t})&=&\begin{cases}
+\alpha_1+\beta_1 t & \text{if $t \le C$ },\\
+\alpha_1+ C(-\delta_{\beta})+(\beta_1+\delta_{\beta}) t &\text{if $t > C$}.
+\end{cases}\\
+&=&\begin{cases}
+\alpha_1+\beta_1 t & \text{if $t \le C$ },\\
+\alpha_1 +\beta_1 t +\delta_{\beta}(t-C)&\text{if $t > C$}.
+\end{cases}
+\label{eqn:hinge3}
+\end{eqnarray}
+Define
+\begin{eqnarray}
+\eta_{t}=\begin{cases}
+0 & \text{if $t \le C$ },\\
+1 &\text{if $t > C$}.
+\end{cases}
+\end{eqnarray}
+\begin{equation}
+\ln(SSB_{t})=\alpha_1+\beta_1 t + \eta_{t}\delta_{\beta}(t-C).
+\end{equation}
+\end{document}
+
+
+
+
+
+

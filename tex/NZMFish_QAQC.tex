@@ -1,0 +1,84 @@
+\documentclass [a4paper, 10pt] {article}
+\usepackage[top=0.9in, bottom=0.9in, nohead, nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage{epsfig}
+%\usepackage{url}
+\usepackage{hyperref}
+\usepackage{bookman}
+%\usepackage{comment}
+\usepackage{color}
+\usepackage{pdfpages}
+\pagestyle{empty}
+\setcounter{secnumdepth}{-1}
+\begin{document}
+
+\noindent Dear Colleague,\\
+
+\noindent Thank you sincerely for submitting assessments to the Myers II database. We have entered 27 of your assessments, and now wish to quality assure/quality control (QA/QC) these data for a release version of the database. Please follow the steps below to ensure that your assessments have been dutifully represented:
+\subsubsection{QA/QC steps}
+For each assessment:
+\begin{enumerate}
+\item Ensure that the General assessment details are correct.
+\item Ensure that the units for all Biometrics and Time Series shown are correct. To aid in this, we have included the minimum, maximum, first year, and last year of the spawning stock biomass, recruitment, fishing mortality, total biomass, and  catch  (where provided). 
+\item If there are blank values in the Biometrics table, please include these in your response (see below), where they are available.
+Please note that in the Biometrics table, the following abbreviations are used:
+\begin{itemize}
+\item SSB-AGE-yr  = Ages for which the spawning stock biomass is defined
+\item REC-AGE     = Age at recruitment
+\item F-AGE-yr    = Ages for which the fishing mortality is defined 
+\item TB-AGE-yr   = Ages for which the total biomass is defined
+\item M      = Natural mortality
+\item A50-yr      = The age at 50\% maturity
+\item L50-cm      = The length at 50\% maturity
+\item MORATOR-yr-yr = Moratorium years
+\item LME = Large Marine Ecosystem\\
+\end{itemize}
+\item To ensure that the recruitment time series has been offset by the age at recruitment so that yearclass matches up with spawner biomass, please make sure that the difference between the last year of the recruitment and last year of the SSB time series is equal to the age at recruitment supplied (unless there is another reason, e.g. estimates unavailable). 
+\item Provide Large Marine Ecosystem (LME) designation(s) for your stock (unless it is a high seas stock). Please enter a primary, secondary and tertiary LME (if they exist) in the issue you submit (see below). A map of the LMEs is provided on the last page of this document. 
+\end{enumerate}
+\vspace{-.25in}
+%#--------------------------------------------
+\subsubsection{QA/QC submission process}
+%#--------------------------------------------
+If you (or someone else) submitted the assessments via the RAM legacy site, please log into :
+%\textcolor{blue}{\url{http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting}}\\
+\href{http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting}{\textcolor{blue}{http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting}}\\
+and locate the issue(s) associated with your spreadsheet submission(s). Once you locate your assessment, open the associated issue and choose ``Add response". At the top of this response write:\\
+\textit{QAQC: Assessment ID} (this ID is located at the top of each assessment in the current document)\\
+
+\noindent If you did not submit via the RAM Legacy site, please go to the url above and click ``Submit a new issue" with the title:
+\textit{QAQC: Assessment ID} (located at the top of each assessment in this pdf).\\
+
+\noindent If you found no issues with the QA/QC document, please type:\\
+``QA/QC correct". If you have found issues, please update the assessment spreadsheet accordingly or write the details of corrections to be made in the dialogue box. Once we have received and processed your response, the assessment will be flagged as quality controlled and the data it contains will be used for analyses.
+\pagebreak
+\tableofcontents
+
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN,NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN,NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN,NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS,NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS,NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN,NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN,NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN,NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN,NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN,NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN,NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN,NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN,NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN,NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN,NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN,NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN,NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN,NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN,NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN,NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN.pdf}
+\includepdf[pagecommand={\thispagestyle{plain}}, addtotoc={1,subsubsection,1,NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN,NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN}, pages={1,2}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN.pdf}
+\includepdf[angle=90, addtotoc={1,subsubsection,1,LME map,lmemap}]{/home/srdbadmin/SQLpg/srdb/trunk/tex/lme_map.pdf}\end{document}

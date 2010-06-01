@@ -1,0 +1,256 @@
+% latex table generated in R 2.9.2 by xtable 1.5-4 package
+% Fri May  7 14:45:20 2010
+\begin{longtable}{p{3cm}ccccc}
+  \hline
+stock & scientificname & timespan & nyrscatch & nyrsssb & nyrsr \\
+  \hline
+Pacific herring Prince William Sound & Clupea pallasii & 1980-2006 &  26 &  26 &  23 \\
+  Pacific herring Sitka & Clupea pallasii & 1978-2007 &  29 &  29 &  26 \\
+  Alaska plaice Bering Sea and Aleutian Islands & Pleuronectes quadrituberculatus & 1972-2008 &  32 &  33 &  33 \\
+  Arrowtooth flounder Bering Sea and Aleutian Islands & Reinhardtius stomias & 1970-2008 &  38 &  32 &  30 \\
+  Arrowtooth flounder Gulf of Alaska & Reinhardtius stomias & 1958-2010 &  44 &  49 &  46 \\
+  Atka mackerel Bering Sea and Aleutian Islands & Pleurogrammus monopterygius & 1976-2009 &  31 &  32 &  30 \\
+  Cabezon Northern California & Scorpaenichthys marmoratus & 1916-2005 &  88 &  89 &  88 \\
+  Cabezon Southern California & Scorpaenichthys marmoratus & 1932-2005 &  72 &  73 &  72 \\
+  Dover sole Gulf of Alaska & Microstomus pacificus & 1978-2010 &  30 &  23 &  23 \\
+  Dusky rockfish Gulf of Alaska & Sebastes variabilis & 1973-2008 &  31 &  30 &  30 \\
+  Flathead sole Bering Sea and Aleutian Islands & Hippoglossoides elassodon & 1977-2008 &  31 &  31 &  28 \\
+  Flathead sole Gulf of Alaska & Hippoglossoides elassodon & 1978-2008 &  30 &  23 &  23 \\
+  Northern rockfish Bering Sea and Aleutian Islands & Sebastes polyspinis & 1974-2009 &  31 &  32 &  24 \\
+  Northern rockfish Gulf of Alaska & Sebastes polyspinis & 1959-2008 &  46 &  47 &  46 \\
+  Northern rock sole Eastern Bering Sea and Aleutian Islands & Lepidopsetta polyxystra & 1971-2008 &  31 &  32 &  32 \\
+  Pacific cod Bering Sea and Aleutian Islands & Gadus macrocephalus & 1964-2008 &  43 &  31 &  30 \\
+  Pacific cod Gulf of Alaska & Gadus macrocephalus & 1964-2008 &  43 &  31 &  29 \\
+  Pacific Ocean perch Eastern Bering Sea and Aleutian Islands & Sebastes alutus & 1974-2009 &  31 &  32 &  24 \\
+  Pacific ocean perch Gulf of Alaska & Sebastes alutus & 1959-2008 &  46 &  47 &  46 \\
+  Rex sole Gulf of Alaska & Glyptocephalus zachirus & 1979-2008 &  26 &  25 &  25 \\
+  Rougheye rockfish Bering Sea and Aleutian Islands & Sebastes aleutianus & 1974-2009 &  31 &  32 &  31 \\
+  Rougheye rockfish Gulf of Alaska & Sebastes aleutianus & 1974-2007 &  30 &  30 &  30 \\
+  Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska & Anoplopoma fimbria & 1956-2008 &  52 &  48 &  48 \\
+  Walleye pollock Aleutian Islands & Theragra chalcogramma & 1976-2008 &  30 &  30 &  31 \\
+  Walleye pollock Eastern Bering Sea & Theragra chalcogramma & 1963-2008 &  44 &  44 &  44 \\
+  Walleye pollock Gulf of Alaska & Theragra chalcogramma & 1964-2008 &  43 &  31 &  31 \\
+  Yellowfin sole Bering Sea and Aleutian Islands & Limanda aspera & 1959-2008 &  30 &  44 &  44 \\
+  Capelin Barents Sea & Mallotus villosus & 1965-2007 &  41 &  34 &  33 \\
+  Atlantic cod coastal Norway & Gadus morhua & 1982-2006 &  22 &  22 &  22 \\
+  Atlantic cod Northeast Arctic & Gadus morhua & 1943-2006 &  60 &  60 &  60 \\
+  Greenland halibut Northeast Arctic & Reinhardtius hippoglossoides & 1959-2007 &  42 &  42 &  42 \\
+  Golden Redfish Northeast Arctic & Sebastes norvegicus & 1986-2006 &  20 &  16 &  16 \\
+  Haddock Northeast Arctic & Melanogrammus aeglefinus & 1947-2006 &  56 &  56 &  56 \\
+  Pollock Northeast Arctic & Pollachius virens & 1957-2006 &  46 &  46 &  46 \\
+  Atlantic croaker Mid-Atlantic Coast & Micropogonias undulatus & 1973-2002 &  29 &  29 &  29 \\
+  American lobster Georges Bank & Homarus americanus & 1981-2007 &  26 &  25 &  25 \\
+  American lobster Gulf of Maine & Homarus americanus & 1981-2007 &  26 &  25 &  25 \\
+  American lobster Southern New England & Homarus americanus & 1981-2007 &  26 &  25 &  23 \\
+  Antarctic toothfish Ross Sea & Dissostichus mawsoni & 1995-2007 &  12 &  12 &  11 \\
+  Bight redfish Southeast Australia & Centroberyx gerrardi & 1958-2007 &  48 &  49 &  49 \\
+  Northern Australia brown tiger shrimp & Penaeus esculentus & 1970-2006 &  36 &  36 &  36 \\
+  Deepwater flathead Southeast Australia & Platycephalus conatus & 1978-2007 &  28 &  29 &  29 \\
+  common gemfish Southeast Australia & Rexea solandri & 1966-2007 &  41 &  41 &  41 \\
+  Northern Australia grooved Tiger Prawn & Penaeus esculentus & 1970-2006 &  36 &  36 &  36 \\
+  Jackass morwong Southeast Australia & Nemadactylus macropterus & 1913-2007 &  94 &  94 &  94 \\
+  New Zealand ling Eastern half of Southeast Australia & Genypterus blacodes & 1968-2007 &  39 &  39 &  39 \\
+  New Zealand ling Western half of Southeast Australia & Genypterus blacodes & 1968-2007 &  39 &  39 &  39 \\
+  Orange roughy Cascade Plateau & Hoplostethus atlanticus & 1987-2006 &  19 &  19 &  19 \\
+  Orange roughy Southeast Australia & Hoplostethus atlanticus & 1978-2007 &  28 &  29 &  29 \\
+  Silverfish Southeast Australia & Seriolella punctata & 1978-2006 &  28 &  28 &  28 \\
+  School whiting Southeast Australia & Sillago flindersi & 1945-2007 &  62 &  62 &  62 \\
+  Tiger flathead Southeast Australia & Neoplatycephalus richardsoni & 1913-2006 &  93 &  93 &  93 \\
+  Blue Warehou Eastern half of Southeast Australia & Seriolella brama & 1984-2006 &  22 &  22 &  22 \\
+  Blue Warehou Western half of Southeast Australia & Seriolella brama & 1984-2006 &  22 &  22 &  22 \\
+  Atlantic cod NAFO 5Zjm & Gadus morhua & 1978-2003 &  24 &  25 &  25 \\
+  Haddock NAFO-4X5Y & Melanogrammus aeglefinus & 1960-2003 &  43 &  33 &  33 \\
+  Haddock NAFO-5Zejm & Melanogrammus aeglefinus & 1969-2003 &  33 &  34 &  34 \\
+  Atlantic cod NAFO 2J3KL inshore & Gadus morhua & 1959-2006 &  43 &  11 &  11 \\
+  Atlantic cod NAFO 3Ps & Gadus morhua & 1959-2004 &  45 &  27 &  27 \\
+  Pacific herring Central Coast & Clupea pallasii & 1951-2007 &  56 &  56 &  53 \\
+  Pacific herring Prince Rupert District & Clupea pallasii & 1951-2007 &  56 &  56 &  53 \\
+  Pacific herring Queen Charlotte Islands & Clupea pallasii & 1951-2007 &  56 &  56 &  53 \\
+  Pacific herring Straight of Georgia & Clupea pallasii & 1951-2007 &  56 &  56 &  53 \\
+  Pacific herring West Coast of Vancouver Island & Clupea pallasii & 1951-2007 &  56 &  56 &  53 \\
+  Rock sole Hecate Strait & Lepidopsetta bilineata & 1945-2001 &  56 &  56 &  52 \\
+  Pollock NAFO-4VWX5Zc & Pollachius virens & 1974-2007 &  24 &  24 &  25 \\
+  Atlantic cod NAFO 3Pn4RS & Gadus morhua & 1964-2007 &  42 &  33 &  33 \\
+  Herring NAFO 4R fall spawners & Clupea harengus & 1973-2003 &  29 &  30 &  30 \\
+  Herring NAFO 4R spring spawners & Clupea harengus & 1965-2004 &  38 &  39 &  39 \\
+  Atlantic cod NAFO 4TVn & Gadus morhua & 1965-2007 &  41 &  36 &  36 \\
+  Herring ICES 22-24-IIIa & Clupea harengus & 1991-2006 &  15 &  15 &  15 \\
+  Herring Northern Irish Sea & Clupea harengus & 1960-2006 &  45 &  45 &  45 \\
+  Herring North Sea & Clupea harengus & 1960-2007 &  46 &  46 &  47 \\
+  Herring ICES VIa & Clupea harengus & 1957-2006 &  48 &  48 &  48 \\
+  Herring ICES VIa-VIIb-VIIc & Clupea harengus & 1969-2000 &  30 &  30 &  30 \\
+  Albacore tuna North Atlantic & Thunnus alalunga & 1929-2005 &  75 &  75 &  75 \\
+  Bluefin tuna Eastern Atlantic & Thunnus thynnus & 1969-2007 &  37 &  37 &  38 \\
+  Bluefin tuna Western Atlantic & Thunnus thynnus & 1969-2007 &  37 &  37 &  37 \\
+  Bigeye tuna Atlantic & Thunnus obesus & 1950-2005 &  55 &  30 &  30 \\
+  Swordfish North Atlantic & Xiphias gladius & 1978-2007 &  24 &  27 &  26 \\
+  Yellowfin tuna Atlantic & Thunnus albacares & 1970-2006 &  36 &  36 &  36 \\
+  Argentine anchoita Northern Argentina & Engraulis anchoita & 1989-2007 &  17 &  17 &  17 \\
+  Argentine anchoita Southern Argentina & Engraulis anchoita & 1992-2007 &  14 &  14 &  14 \\
+  Argentine hake Northern Argentina & Merluccius hubbsi & 1985-2007 &  21 &  21 &  21 \\
+  Argentine hake Southern Argentina & Merluccius hubbsi & 1985-2008 &  22 &  22 &  22 \\
+  Patagonian grenadier Southern Argentina & Macruronus magellanicus & 1983-2006 &  21 &  21 &  21 \\
+   Southern blue whiting Southern Argentina & Micromesistius australis & 1985-2007 &  20 &  20 &  20 \\
+  Pacific halibut North Pacific & Hippoglossus stenolepis & 1988-2009 &  12 &  13 &  13 \\
+  Anchovy South Africa & Engraulis encrasicolus & 1984-2006 &  22 &  22 &  21 \\
+  Shallow-water cape hake South Africa & Merluccius capensis & 1917-2008 &  91 &  91 &  91 \\
+  South African west coast rock lobster South Africa Areas 1-2 & Jasus lalandii & 1910-2008 &  97 &  98 &  98 \\
+  South African west coast rock lobster South Africa Areas 3-4 & Jasus lalandii & 1910-2008 &  97 &  98 &  98 \\
+  South African west coast rock lobster South Africa Areas 5-6 & Jasus lalandii & 1910-2008 &  97 &  98 &  98 \\
+  South African west coast rock lobster South Africa Area 7 & Jasus lalandii & 1910-2008 &  97 &  98 &  98 \\
+  South African west coast rock lobster South Africa Area 8 & Jasus lalandii & 1910-2008 &  97 &  98 &  98 \\
+  Cape horse mackerel South Africa South coast & Trachurus capensis & 1950-2007 &  57 &  57 &  57 \\
+  Deep-water cape hake South Africa & Merluccius paradoxus & 1917-2008 &  91 &  91 &  91 \\
+  Kingklip South Africa & Engraulis encrasicolus & 1932-2008 &  76 &  76 &  76 \\
+  Patagonian toothfish South Africa Subantarctic Prince Edward Islands & Dissostichus eleginoides & 1960-2008 &  47 &  48 &  47 \\
+  South African abalone South Africa & Haliotis midae & 1951-2008 &  57 &  57 &  57 \\
+  Sardine South Africa & Sardinops sagax & 1984-2006 &  22 &  22 &  21 \\
+  Southern spiny lobster South Africa South coast & Palinurus gilchristi & 1973-2008 &  35 &  35 &  35 \\
+  American Plaice NAFO-3LNO & Hippoglossoides platessoides & 1955-2007 &  46 &  47 &  47 \\
+  American Plaice NAFO-3M & Hippoglossoides platessoides & 1960-2007 &  47 &  19 &  19 \\
+  Atlantic cod NAFO 3M & Gadus morhua & 1959-2008 &  48 &  20 &  19 \\
+  Atlantic cod NAFO 3NO & Gadus morhua & 1953-2007 &  53 &  48 &  48 \\
+  Greenland halibut NAFO 23KLMNO & Reinhardtius hippoglossoides & 1960-2006 &  46 &  31 &  31 \\
+  Redfish species NAFO 3M & Redfish species & 1989-2006 &  17 &  17 &  17 \\
+  Acadian redfish Gulf of Maine / Georges Bank & Sebastes fasciatus & 1913-2007 &  94 &  94 &  94 \\
+  American Plaice NAFO-5YZ & Hippoglossoides platessoides & 1960-2008 &  27 &  27 &  28 \\
+  Bluefish Atlantic Coast & Pomatomus saltatrix & 1981-2007 &  26 &  25 &  25 \\
+  Black sea bass Mid-Atlantic Coast & Centropristis striata & 1968-2007 &  39 &  39 &  38 \\
+  Atlantic butterfish Gulf of Maine / Cape Hatteras & Peprilus triacanthus & 1965-2005 &  40 &  34 &  34 \\
+  Atlantic cod Georges Bank & Gadus morhua & 1960-2008 &  47 &  29 &  30 \\
+  Atlantic cod Gulf of Maine & Gadus morhua & 1893-2008 & 114 &  25 &  25 \\
+  Haddock NAFO-5Y & Melanogrammus aeglefinus & 1956-2008 &  51 &  30 &  31 \\
+  Haddock Georges Bank & Melanogrammus aeglefinus & 1930-2008 &  76 &  76 &  77 \\
+  Atlantic herring Northwestern Atlantic Coast & Clupea harengus & 1960-2005 &  45 &  38 &  36 \\
+  Atlantic mackerel Gulf of Maine / Cape Hatteras & Scomber scombrus & 1960-2005 &  45 &  42 &  41 \\
+  Scup Atlantic Coast & Stenotomus chrysops & 1960-2007 &  47 &  23 &  23 \\
+  Spiny dogfish Atlantic Coast & Squalus acanthias & 1962-2006 &  24 &  15 &  38 \\
+  Summer flounder Mid-Atlantic Coast & Paralichthys dentatus & 1940-2007 &  25 &  25 &  25 \\
+  Striped bass Gulf of Maine / Cape Hatteras & Morone saxatilis & 1982-2006 &  24 &  24 &  23 \\
+  White hake Georges Bank / Gulf of Maine & Urophycis tenuis & 1963-2007 &  44 &  44 &  44 \\
+  Winter Flounder NAFO-5Z & Pseudopleuronectes americanus & 1982-2007 &  25 &  24 &  24 \\
+  Winter Flounder Southern New England-Mid Atlantic & Pseudopleuronectes americanus & 1940-2007 &  26 &  26 &  26 \\
+  Witch Flounder NAFO-5Y & Glyptocephalus cynoglossus & 1982-2008 &  25 &  25 &  26 \\
+  Yellowtail flounder Cape Cod / Gulf of Maine & Limanda ferruginea & 1935-2008 &  72 &  22 &  22 \\
+  Yellowtail flounder Georges Bank & Limanda ferruginea & 1935-2008 &  72 &  34 &  35 \\
+  Yellowtail Flounder Southern New England-Mid Atlantic & Limanda ferruginea & 1935-2008 &  72 &  34 &  34 \\
+  Australian salmon New Zealand & Arripis trutta & 1975-2006 &  31 &  31 &  30 \\
+  Pacific sardine North Pacific & Sardinops sagax & 1981-2008 &  25 &  27 &  27 \\
+  Arrowtooth flounder Pacific Coast & Reinhardtius stomias & 1916-2007 &  91 &  91 &  91 \\
+  Blackgill rockfish  Pacific Coast & Sebastes melanostomus & 1950-2005 &  26 &  55 &  55 \\
+  Black rockfish Northern Pacific Coast & Sebastes melanops & 1914-2006 &  91 &  91 &  91 \\
+  Black rockfish Southern Pacific Coast & Sebastes melanops & 1915-2007 &  91 &  92 &  92 \\
+  Blue rockfish California & Sebastes mystinus & 1916-2007 &  91 &  91 &  91 \\
+  Bocaccio Southern Pacific Coast & Sebastes paucispinis & 1951-2006 &  55 &  55 &  54 \\
+  Chilipepper Southern Pacific Coast & Sebastes goodei & 1892-2007 & 114 & 115 & 115 \\
+  Cowcod Southern California & Sebastes levis & 1900-2007 & 107 & 107 & 107 \\
+  Canary rockfish Pacific Coast & Sebastes pinniger & 1916-2007 &  90 &  91 &  91 \\
+  Darkblotched rockfish Pacific Coast & Sebastes crameri & 1928-2007 &  78 &  79 &  79 \\
+  English sole Pacific Coast & Parophrys vetulus & 1876-2007 & 130 & 131 & 131 \\
+  Kelp greenling Oregon Coast & Hexagrammos decagrammus & 1979-2005 &  24 &  26 &  26 \\
+  Longnose skate Pacific Coast & Raja rhina & 1915-2007 &  92 &  92 &  92 \\
+  Longspine thornyhead Pacific Coast & Sebastolobus altivelis & 1962-2005 &  40 &  41 &  41 \\
+  Pacific hake Pacific Coast & Merluccius productus & 1966-2008 &  41 &  42 &  42 \\
+  Pacific ocean perch Pacific Coast & Sebastes alutus & 1953-2007 &  50 &  51 &  50 \\
+  Petrale sole Northern Pacific Coast & Eopsetta jordani & 1910-2005 &  94 &  95 &  95 \\
+  Petrale sole Southern Pacific Coast & Eopsetta jordani & 1874-2005 & 128 & 131 & 131 \\
+  Sablefish Pacific Coast & Anoplopoma fimbria & 1900-2007 & 107 & 107 & 107 \\
+  Shortspine thornyhead Pacific Coast & Sebastolobus alascanus & 1901-2005 &  42 & 104 & 104 \\
+  Widow rockfish Pacific Coast & Sebastes entomelas & 1955-2006 &  48 &  48 &  48 \\
+  Yelloweye rockfish Pacific Coast & Sebastes ruberrimus & 1923-2006 &  83 &  83 &  83 \\
+  Yellowtail rockfish Northern Pacific Coast & Sebastes flavidus & 1967-2005 &  38 &  38 &  38 \\
+  Capelin Iceland & Mallotus villosus & 1977-2007 &  29 &  28 &  28 \\
+  Atlantic cod Faroe Plateau & Gadus morhua & 1959-2006 &  45 &  45 &  45 \\
+  Atlantic cod Iceland & Gadus morhua & 1952-2006 &  51 &  51 &  51 \\
+  Haddock Faroe Plateau & Melanogrammus aeglefinus & 1955-2006 &  49 &  49 &  49 \\
+  Haddock Iceland & Melanogrammus aeglefinus & 1977-2007 &  28 &  28 &  28 \\
+  Pollock Faroe Plateau & Pollachius virens & 1958-2006 &  45 &  45 &  45 \\
+  Black oreo West end of Chatham Rise & Allocyttus niger & 1973-2007 &  34 &  34 &  33 \\
+  Smooth oreo Chatham Rise & Pseudocyttus maculatus & 1979-2006 &  27 &  27 &  22 \\
+  Smooth oreo West end of Chatham Rise & Pseudocyttus maculatus & 1973-2004 &  31 &  31 &  26 \\
+  Hoki Eastern New Zealand & Macruronus novaezelandiae & 1972-2007 &  35 &  35 &  35 \\
+  Hoki Western New Zealand & Macruronus novaezelandiae & 1972-2007 &  35 &  35 &  35 \\
+  New Zealand snapper New Zealand Area 8 & Chrysophrys auratus & 1931-2005 &  74 &  74 &  29 \\
+  Trevally New Zealand Areas TRE 7 & Pseudocaranx dentex & 1944-2005 &  61 &  61 &  60 \\
+  common gemfish New Zealand & Rexea solandri & 1952-2007 &  54 &  54 &  53 \\
+  New Zealand ling New Zealand Areas LIN 3 and 4 & Genypterus blacodes & 1972-2007 &  35 &  35 &  31 \\
+  New Zealand ling New Zealand Areas LIN 5 and 6 & Genypterus blacodes & 1972-2007 &  35 &  35 &  32 \\
+  New Zealand ling New Zealand Area LIN 6b & Genypterus blacodes & 1980-2006 &  26 &  26 &  22 \\
+  New Zealand ling New Zealand Area LIN 72 & Genypterus blacodes & 1972-2007 &  35 &  35 &  32 \\
+  New Zealand ling New Zealand Area LIN 7WC - WCSI & Genypterus blacodes & 1972-2008 &  36 &  36 &  33 \\
+  Southern blue whiting Campbell Island Rise & Micromesistius australis & 1979-2006 &  27 &  27 &  25 \\
+  Southern hake Chatham Rise & Merluccius australis & 1975-2006 &  31 &  31 &  30 \\
+  Southern hake Sub-Antarctic & Merluccius australis & 1975-2007 &  32 &  32 &  31 \\
+  Lingcod Northern Pacific Coast & Ophiodon elongatus & 1956-2005 &  48 &  49 &  49 \\
+  Lingcod Southern Pacific Coast & Ophiodon elongatus & 1956-2005 &  48 &  49 &  49 \\
+  Gag Gulf of Mexico & Mycteroperca microlepis & 1963-2004 &  41 &  41 &  40 \\
+  King mackerel Gulf of Mexico & Scomberomorus cavalla & 1992-2001 &   9 &   9 &   9 \\
+  King mackerel Southern Atlantic Coast & Scomberomorus cavalla & 1981-2001 &  20 &   9 &   9 \\
+  Gulf menhaden Gulf of Mexico & Brevoortia patronus & 1964-2004 &  40 &  40 &  40 \\
+  Red porgy Southern Atlantic coast & Pagrus pagrus & 1972-2004 &  32 &  32 &  32 \\
+  Snowy grouper Southern Atlantic coast & Epinephelus niveatus & 1961-2002 &  40 &  41 &  41 \\
+  Spanish mackerel Southern Atlantic Coast & Scomberomorus maculatus & 1950-2008 &  57 &  57 &  58 \\
+  Tilefish Southern Atlantic coast & Lopholatilus chamaeleonticeps & 1961-2002 &  40 &  41 &  41 \\
+  Vermilion snapper Gulf of Mexico & Rhomboplites aurorubens & 1981-2004 &  23 &  23 &  22 \\
+  Vermilion snapper Southern Atlantic coast & Rhomboplites aurorubens & 1946-2008 &  49 &  61 &  62 \\
+  Yellowtail snapper Southern Atlantic Coast and Gulf of Mexico & Ocyurus chrysurus & 1962-2001 &  39 &  20 &  20 \\
+  Albacore tuna South Pacific Ocean & Thunnus alalunga & 1959-2006 &  47 &  47 &  47 \\
+  Bigeye tuna Western Pacific Ocean & Thunnus obesus & 1952-2006 &  54 &  54 &  51 \\
+  Skipjack tuna Central Western Pacific & Katsuwonus pelamis & 1972-2006 &  34 &  34 &  34 \\
+  Yellowfin tuna Central Western Pacific & Thunnus albacares & 1952-2005 &  53 &  53 &  52 \\
+  Pacific chub mackerel Pacific Coast & Scomber japonicus & 1929-2008 &  79 &  79 &  78 \\
+  Dover sole Pacific Coast & Microstomus pacificus & 1910-2005 &  94 &  95 &  95 \\
+  Gopher rockfish Southern Pacific Coast & Sebastes carnatus & 1965-2005 &  14 &  40 &  15 \\
+  Pacific sardine Pacific Coast & Sardinops sagax & 1981-2007 &   9 &  26 &  26 \\
+  Shortbelly rockfish Pacific Coast & Sebastes jordani & 1950-2005 &  55 &  55 &  55 \\
+  Starry flounder Northern Pacific Coast & Platichthys stellatus & 1970-2005 &  34 &  35 &  35 \\
+  Starry flounder Southern Pacific Coast & Platichthys stellatus & 1970-2005 &  34 &  35 &  35 \\
+  Tasmanian giant crab Tasmania & Pseudocarcinus gigas & 1990-2007 &  17 &  17 &  17 \\
+  Atlantic cod Baltic Areas 22 and 24 & Gadus morhua & 1969-2007 &  36 &  37 &  37 \\
+  Atlantic cod Baltic Areas 25-32 & Gadus morhua & 1964-2007 &  41 &  40 &  41 \\
+  Atlantic cod Kattegat & Gadus morhua & 1970-2006 &  35 &  35 &  35 \\
+  Herring ICES 25-32 & Clupea harengus & 1973-2006 &  32 &  32 &  32 \\
+  Herring ICES 30 & Clupea harengus & 1972-2007 &  33 &  33 &  34 \\
+  Herring ICES 31 & Clupea harengus & 1979-2006 &  26 &  26 &  26 \\
+  Herring Iceland (Summer spawners) & Clupea harengus & 1983-2007 &  20 &  21 &  21 \\
+  Herring ICES 28 & Clupea harengus & 1976-2007 &  29 &  30 &  30 \\
+  common European sole ICES Kattegat and Skagerrak & Solea vulgaris & 1982-2007 &  22 &  23 &  23 \\
+  Sprat ICES Baltic Areas 22-32 & Sprattus sprattus & 1973-2007 &  32 &  33 &  33 \\
+  Fourspotted megrim ICES VIIIc-IXa & Lepidorhombus boscii & 1986-2006 &  20 &  20 &  20 \\
+  Hake Northeast Atlantic North & Merluccius merluccius & 1977-2007 &  27 &  28 &  28 \\
+  Hake Northeast Atlantic South & Merluccius merluccius & 1982-2007 &  25 &  25 &  25 \\
+  Megrim ICES VIIIc-IXa & Lepidorhombus whiffiagonis & 1985-2007 &  20 &  20 &  20 \\
+  common European sole Bay of Biscay & Solea vulgaris & 1982-2006 &  22 &  22 &  22 \\
+  Anchovy ICES VIII & Engraulis encrasicolus & 1986-2007 &  19 &  20 &  20 \\
+  Mackerel ICES Northeast Atlantic & Scomber scombrus & 1972-2007 &  34 &  34 &  34 \\
+  European pilchard ICES VIIIc-IXa & Sardina pilchardus & 1978-2007 &  28 &  29 &  29 \\
+  Whiting Northeast Atlantic & Micromesistius poutassou & 1980-2007 &  25 &  26 &  26 \\
+  Atlantic cod Irish Sea & Gadus morhua & 1968-2006 &  38 &  38 &  38 \\
+  Atlantic cod West of Scotland & Gadus morhua & 1977-2006 &  28 &  28 &  28 \\
+  Haddock Irish Sea & Melanogrammus aeglefinus & 1972-2006 &  34 &  14 &  15 \\
+  Haddock West of Scotland & Melanogrammus aeglefinus & 1977-2006 &  28 &  28 &  28 \\
+  European Plaice Irish Sea & Pleuronectes platessa & 1962-2006 &  42 &  42 &  42 \\
+  common European sole Irish Sea & Solea vulgaris & 1968-2006 &  36 &  36 &  36 \\
+  Atlantic cod North Sea & Gadus morhua & 1962-2007 &  43 &  44 &  43 \\
+  Haddock ICES IIIa and North Sea & Melanogrammus aeglefinus & 1963-2006 &  43 &  43 &  43 \\
+  Haddock Rockall Bank & Melanogrammus aeglefinus & 1990-2007 &  15 &  16 &  16 \\
+  Norway pout North Sea & Trisopterus esmarkii & 1983-2007 &  23 &  24 &  24 \\
+  European Plaice ICES VIId & Pleuronectes platessa & 1979-2006 &  26 &  26 &  26 \\
+  European Plaice ICES IIIa & Pleuronectes platessa & 1976-2006 &  28 &  28 &  28 \\
+  European Plaice North Sea & Pleuronectes platessa & 1956-2006 &  49 &  49 &  49 \\
+  Pollock ICES IIIa, VI and North Sea & Pollachius virens & 1964-2006 &  39 &  39 &  39 \\
+  Sandeel North Sea & Ammodytes marinus & 1983-2007 &  24 &  24 &  23 \\
+  common European sole North Sea & Solea vulgaris & 1956-2006 &  49 &  49 &  49 \\
+  common European sole ICES VIId & Solea vulgaris & 1981-2006 &  24 &  24 &  24 \\
+  Whiting ICES IIIa, VIId and North Sea & Merlangius merlangus & 1979-2006 &  26 &  26 &  26 \\
+  Haddock ICES VIIb-k & Melanogrammus aeglefinus & 1993-2006 &  13 &  13 &  13 \\
+  European Plaice ICES VIIf-g & Pleuronectes platessa & 1976-2006 &  29 &  29 &  29 \\
+  European Plaice ICES VIIe & Pleuronectes platessa & 1975-2006 &  30 &  30 &  30 \\
+  common European sole Celtic Sea & Solea vulgaris & 1970-2006 &  35 &  35 &  35 \\
+  common European sole Western English Channel & Solea vulgaris & 1968-2006 &  37 &  37 &  37 \\
+  Whiting ICES VIIe-k & Merlangius merlangus & 1982-2007 &  24 &  24 &  24 \\
+   \hline
+\hline
+\caption{Summary of the assessments used in this analysis and the timespan of their different results.}
+\label{tab:orca}
+\end{longtable}

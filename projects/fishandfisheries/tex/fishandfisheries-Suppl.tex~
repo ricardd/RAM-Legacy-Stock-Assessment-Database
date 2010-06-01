@@ -1,0 +1,42 @@
+%% Last modified: Time-stamp: <2010-05-31 19:45:21 (srdbadmin)>
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage[authoryear]{natbib}
+\usepackage{url}
+\usepackage{graphicx}
+%\usepackage{lineno}
+\usepackage{paralist}
+\usepackage{comment}
+\usepackage{color}
+\usepackage[left=3cm,top=3cm,right=3cm, bottom=3cm,nohead]{geometry}
+%\linenumbers
+
+\title{Supplementary materials for Fish and Fisheries manuscript}
+
+\begin{document}
+\maketitle{}
+
+
+%\appendix
+\section*{Supporting Information}
+
+\subsection*{Entity relationship diagram}
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/doc/srdb-ERD.pdf}
+\end{center}
+\caption{Entity relationship diagram of the RAM legacy database.}\label{fig:ERD}
+\end{figure}
+
+%%\include{Table-S1}
+\begin{landscape}
+\include{Table-S1}
+\end{landscape}
+
+\bibliographystyle{unsrt}
+\bibliography{./srdb-references}
+
+%%\include{Supporting}
+\end{document}

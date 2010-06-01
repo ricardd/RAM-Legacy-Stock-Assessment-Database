@@ -1,0 +1,49 @@
+\documentclass[12pt]{refletter}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{url}
+\pagestyle{plain}
+\usepackage[top=1in, nohead, nofoot]{geometry}
+\address{
+%\vspace{-1in}
+Dalhousie University,\\
+Department of Biology,\\
+1355 Oxford Street,\\
+Halifax, NS B3H 4J1, Canada}
+\signature{\vspace{-.7in} Daniel Ricard, Coil\'in Minto and Julia K. Baum}
+
+\begin{document}
+\begin{letter}{
+Department of Ecology and Evolutionary Biology,\\
+University of Toronto,\\
+Toronto, Ontario M5S 3G5, Canada\\
+Email: don.jackson@utoronto.ca\\
+\vspace{.25cm}
+{ \bf Article title: A New Global Stock Recruitment Database}
+}
+
+\opening{Dear Dr. Jackson,}
+
+We are writing to enquire about submitting an article to CJFAS based on a new global database of population dynamics and fisheries data for marine fishes. 
+
+The RAM II Stock Recruit Database is a newly developed data repository inspired by the original Myers Stock Recruitment Database built by Ransom Myers, Nick Barrowman, and Jessica Bridson in the mid-1990s \citep{Myersetal1995a}. The original database led to important advances in fisheries science and ecology, including 15 publications in the Canadian Journal of Fisheries and Aquatic Sciences by Dr. Myers and colleagues (see http://chase.mathstat.dal.ca/$\sim$myers/welcome.html). The relevance of analyses based on these data is, however, increasingly limited because most time series data have not been updated in the past decade and there have been significant changes in population sizes and management during this time.
+
+The RAM II Stock Recruit Database aims to meet the needs of fisheries scientists and marine ecologists interested in conducting broad-scale analyses of marine fish populations. It will include new spawner biomass, recruitment, catch, reference point, and life history data from all available marine fish stock assessments in the world. We are developing the database in consultation with leading fisheries scientists and ecologists from: Canada (Jeffrey A. Hutchings, Boris Worm), the U.S. (Ray Hilborn, Jeremy Collie, Mike Fogarty, Olaf Jensen), New Zealand (Pamela Mace), Australia (Beth Fulton), and Europe (Simon Jennings). This collaboration is facilitated by the National Centre for Ecological Analysis and Synthesis (NCEAS) working group, ``Finding Common Ground in Marine Conservation and Management''. 
+
+The database is implemented in the modern relational database postgreSQL. To date, RAM II includes over 100 stock assessments and it is growing steadily (see \url{http://www.marinebiodiversity.ca/RAMlegacy/srdb} for details). 
+
+In the proposed paper we will introduce the database to the scientific community by describing its purpose, documenting its structure, and briefly summarizing its contents to date. As part of the content summary we would include a single Supplementary Material file with a one-page summary for each stock showing the biomass and fishing mortality reference points, and plots of (i) temporal trends in spawning stock biomass and fishing mortality, (ii) the stock-recruitment relationship with fitted Ricker, Beverton-Holt, and hockey-stick models (iii) a spawning stock biomass vs. fishing mortality phase diagram, and (iv) the temporal exploitation history of the stock using total catch data. 
+
+Publications describing new databases are becoming common in ecology because of the growing interest in conducting broad-scale comparative analyses. We believe that it would be particularly appropriate to publish an introduction to this database in CJFAS both because of the history of CJFAS publications based on the original Myers database, and because we anticipate that there will be great interest in it by CJFAS readers. Indeed, we are already receiving enquiries from fisheries scientists and ecologists about it, and would like to provide a publication documenting it, which future users can cite. We expect that we could have a manuscript ready for submission by February 2009. 
+
+Thank you for your consideration of this proposal. We look forward to hearing from you at your earliest convenience. 
+
+\closing{Sincerely,}
+
+%\newpage
+\bibliography{Ricardetal_CJFASproposal}
+\bibliographystyle{coilin}
+
+\end{letter}
+\end{document}

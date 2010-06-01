@@ -1,0 +1,2 @@
+srDB-views.sql creates column-wise views
+srDB-problematic-assessments.sql provides assessment ids that have multiple entries for the same timeseries or biometric id, these don't enter the view

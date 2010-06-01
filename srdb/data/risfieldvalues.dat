@@ -1,0 +1,13 @@
+risfield, allowedvalueshort, allowedvaluelong
+"TY","CHAP","Book chapter"
+"TY","COMP","Computer program"
+"TY","CONF","Conference proceeding"
+"TY","DATA","Data file"
+"TY","ELEC","Electronic Citation"
+"TY","JFULL","Journal (full)"
+"TY","JOUR","Journal"
+"TY","PCOMM","Personal communication"
+"TY","RPRT","Report"
+"TY","SER","Serial (Book, Monograph)"
+"TY","THES","Thesis/Dissertation"
+"TY","UNPB","Unpublished work"

@@ -1,0 +1,17 @@
+-- load data that links reference points to timeseries 
+
+DROP TABLE srdb.brptots;
+
+CREATE TABLE srdb.brptots (
+assessid VARCHAR(200) REFERENCES srdb.assessment,
+bioid VARCHAR(70) REFERENCES srdb.biometrics(biounique),
+tsid VARCHAR(40) REFERENCES srdb.tsmetrics(tsunique)
+);
+
+
+
+COPY srdb.brptots
+FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/reference-points-to-timeseries.dat'
+CSV HEADER 
+;
+

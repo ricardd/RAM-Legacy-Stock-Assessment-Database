@@ -1,0 +1,31 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+{\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
+|immediate|write|@auxout{\expandafter\ifx\csname
+  natexlab\endcsname\relax\gdef\natexlab#1{#1}\fi}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\harvarditem{Hilborn}{2001}{Hilborn2001}
+Hilborn, R. \harvardyearleft 2001\harvardyearright{}.
+\newblock {Calculation of biomass trend, exploitation rate, and surplus
+  production from survey and catch data}.
+\newblock Canadian Journal of Fisheries and Aquatic Sciences,
+  \textbf{58}(3):579--584.
+
+\harvarditem{Walters \harvardand{} Hilborn}{1976}{WaltersHilborn1976}
+Walters, C. \harvardand{} Hilborn, R. \harvardyearleft 1976\harvardyearright{}.
+\newblock {Adaptive control of fishing system}.
+\newblock Journal of the Fisheries Research Board of Canada,
+  \textbf{33}:145--159.
+
+\harvarditem{Walters \harvardand{} Hilborn}{1991}{WaltersHilborn1991}
+Walters, C.~J. \harvardand{} Hilborn, R. \harvardyearleft
+  1991\harvardyearright{}.
+\newblock {Quantitative Fisheries Stock Assessment: Choice, Dynamics, and
+  Uncertainty}.
+\newblock Kluwer Academic Pub.
+
+\end{thebibliography}

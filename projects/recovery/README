@@ -1,0 +1,39 @@
+Recovery analysis
+Thu Oct 30 13:36:08 ADT 2008
+OJ, JB, CM, DR
+sql code is in R files for extracting data and analysing them there
+
+Each time you log on to start working on these files:
+1. First need to ascertain if anyone else has the files open and is currently working on the file you want to work on. 
+   To do this, 
+	TERMINAL COMMAND:	EXPLANATION:
+	who     		lists other users currently on calopterx2.biology.dal.ca
+	whodo
+2. If no one is working on the file, you can work on it. Lock the file so no one else can work on it while you are:
+   	lockfile filename.lockfile
+	e.g. lockfile basic_sql_queries.sql.lockfile
+3. When you are finished working a file, save it, and unlock:
+	rm -f filename.lockfile  			
+	e.g. rm -f basic_sql_queries.sql.lockfie
+Done!
+
+## 
+CM
+'queries' folder contains the queries used to create user2 views for srdb
+'R' contains the R code to load the data into the workspace and run the analysis
+
+##### 
+JB -Database Descriptions:
+
+timeseries table:  tt
+	assessid- the unique identifier for a given stock and assessment. References srdb.assessment (assessid)
+	tsid 	- are the precise types (e.g. SSB-1-MT, SSB-2-MT) of each tscategory (e.g. SSB)
+               		references srdb.tsmetrics(tsunique)
+	tsyear	- the years for which there are time series data
+	tsvalue -	 
+tsmetrics table:   tm
+	tscategory - time, SSB or CPUE, R, F, catch or landings, TB, other
+	tslong -
+	tsunitshort -
+	tsunislong -
+	tsunique - 

@@ -1,0 +1,22 @@
+srdb=# select * from srdb.bioparams where biovalue like '%,%';
+                  assessid                   |      bioid      |                            biovalue                            | bioyear 
+---------------------------------------------+-----------------+----------------------------------------------------------------+---------
+ CSIRO-SILVERFISHSESSF-1978-2006-FULTON      | Fecundity-N     | 1,600,000                                                      | 2001
+ CSIRO-TIGERFLATSESSF-1913-2006-FULTON       | Fecundity-N     | 1,500,000                                                      | 2001
+ CSIRO-SWHITSESSF-1945-2007-FULTON           | Fecundity-N     | 30,000                                                         | NULL
+ CSIRO-OROUGHYCASCADE-1987-2006-FULTON       | Fecundity-N     | 10,000                                                         | 2003
+ CSIRO-WAREHOUGABSESSF-1984-2006-FULTON      | Fecundity-N     | 1,600,000                                                      | 2003
+ CSIRO-OROUGHYSESSF-1978-2007-FULTON         | Fecundity-N     | 10,000                                                         | 2003
+ CSIRO-WAREHOUSESSF-1984-2006-FULTON         | Fecundity-N     | 1,600,000                                                      | 2003
+ NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE | LEN-REF-doctype | Power, D., 2001. NAFO SCR Doc. 01/62, Serial No. N4440, 22 pp. | 2007
+ ICCAT-SWORDMED-1968-2006-JENSEN             | MSY-MT          | 12,140                                                         | NULL
+ SEFSC-GRAMBERGM-1986-2004-JENSEN            | MSY-MT          | 2,286                                                          | NULL
+ SEFSC-GAGGM-1963-2004-JENSEN                | MSY-MT          | 2,242                                                          | NULL
+ SEFSC-GAGGM-1963-2004-JENSEN                | SSBmsy-MT       |   12,383                                                       | NULL
+ SEFSC-RSNAPGM-1986-2005-JENSEN              | MSY-MT          | 3,502                                                          | NULL
+ SEFSC-GRAMBERSATLC-1946-2006-JENSEN         | MSY-MT          | 2,005                                                          | NULL
+ SEFSC-KMACKGM-1992-2001-JENSEN              | MSY-MT          | 5,179                                                          | NULL
+
+ NIWA-HOKIWNZ-1972-2007-FRANCIS              | VB-t0-yr        | -0.5, -0.6                                                     | 
+ NIWA-HOKIENZ-1972-2007-FRANCIS              | VB-t0-yr        | -1.23, -2.18                                                   | 
+(18 rows)

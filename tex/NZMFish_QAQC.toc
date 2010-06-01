@@ -1,0 +1,30 @@
+\contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
+\contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
+\contentsline {subsubsection}{NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN}{3}{section*.4}
+\contentsline {subsubsection}{NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN}{5}{section*.5}
+\contentsline {subsubsection}{NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN}{7}{section*.6}
+\contentsline {subsubsection}{NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS}{9}{section*.7}
+\contentsline {subsubsection}{NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS}{11}{section*.8}
+\contentsline {subsubsection}{NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN}{13}{section*.9}
+\contentsline {subsubsection}{NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN}{15}{section*.10}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN}{17}{section*.11}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN}{19}{section*.12}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN}{21}{section*.13}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN}{23}{section*.14}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN}{25}{section*.15}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN}{27}{section*.16}
+\contentsline {subsubsection}{NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN}{29}{section*.17}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN}{31}{section*.18}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN}{33}{section*.19}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN}{35}{section*.20}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN}{37}{section*.21}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN}{39}{section*.22}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN}{41}{section*.23}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN}{43}{section*.24}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN}{45}{section*.25}
+\contentsline {subsubsection}{NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN}{47}{section*.26}
+\contentsline {subsubsection}{NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN}{49}{section*.27}
+\contentsline {subsubsection}{NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN}{51}{section*.28}
+\contentsline {subsubsection}{NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN}{53}{section*.29}
+\contentsline {subsubsection}{NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN}{55}{section*.30}
+\contentsline {subsubsection}{LME map}{57}{section*.31}

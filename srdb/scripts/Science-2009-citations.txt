@@ -1,0 +1,117 @@
+assessid,citation
+WGBFAS-CODBA2224-1969-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-CODBA2532-1964-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-HERR2532-1973-2006-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-HERR30-1972-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-HERR31-1979-2006-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-HERRRIGA-1976-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGBFAS-SPRAT22-32-1973-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+AFWG-CODNEAR-1943-2006-MINTO,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+AFWG-CAPENOR-1964-2006-MINTO,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+AFWG-GHALNEAR-1959-2007-JENNINGS,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+AFWG-HADNEAR-1947-2006-MINTO,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+AFWG-POLLNEAR-1957-2006-MINTO,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH,Helser, T.E. (2007) Stock assessment of the arrowtooth flounder (Atheresthes stomias) population off the West Coast of the United States in 2007
+NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH,Cheng Y.W. and Tsou T-S (2008) Status of the black rockfish resource north of Cape Falcon, Oregon to the U.S.-Canada border in 2006
+NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH, (2007) The status of black rockfish off Oregon and California in 2007
+NWFSC-BLUEROCKCAL-1916-2007-BRANCH,Key, M (2008) The 2007 assessment of blue rockfish (Sebastes mystinus) in California
+NWFSC-BOCACCSPCOAST-1951-2006-BRANCH,MacCall AD (2008) Status of bocaccio off California in 2007
+NWFSC-CROCKPCOAST-1916-2007-BRANCH,NULL (2007) Status of the U.S. canary rockfish resource in 2007
+NWFSC-CHILISPCOAST-1892-2007-BRANCH,Field JG (2007) Status of the chilipepper rockfish, Sebastes goodei, in 2007
+NWFSC-COWCODSCAL-1900-2007-BRANCH,Dick EJ (2007) Status of cowcod, Sebastes levis, in the Southern California Bight
+NWFSC-DKROCKPCOAST-1928-2007-BRANCH, (2008) Status and future prospects for the darkblotched rockfish resource in waters off Washington, Oregon, and California as assessed in 2007
+NWFSC-ESOLEPCOAST-1876-2007-BRANCH,NULL (2007) Updated U.S. English sole stock assessment: status of the resource in 2007
+NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH,Gertseva VV (2008) Status of the longnose skate (Raja rhina) off the continental US Pacific Coast in 2007
+NWFSC-PHAKEPCOAST-1966-2008-BRANCH,Helser TE (2008) Stock assessment of Pacific hake, Merluccius productus, (a.k.a. whiting) in U.S. and Canadian waters in 2008
+NWFSC-POPERCHPCOAST-1953-2007-BRANCH, (2007) Status and future prospects for the Pacific ocean perch resource in waters off Washington and Oregon as assessed in 2007
+NWFSC-SABLEFPCOAST-1900-2007-BRANCH, (2007) Status of the sablefish resource off the continental U.S. Pacific coast in 2007
+NWFSC-WROCKPCOAST-1955-2006-BRANCH,He X (2007) Status of the widow rockfish resource in 2007: an update
+NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH, (2007) Update to the status of yelloweye rockfish (Sebastes ruberrimus) off the U.S. west coast in 2007
+WGNSDS-CODIS-1968-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Northern Shelf Demersal Stocks (WGNSDS)
+WGNSDS-CODVIa-1977-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Northern Shelf Demersal Stocks (WGNSDS)
+WGHMM-SOLEVIII-1982-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Stocks of Hake, Monk and Megrim
+WGNSDS-SOLEIS-1968-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Northern Shelf Demersal Stocks (WGNSDS)
+WGNSSK-SOLEVIId-1981-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+WGSSDS-SOLECS-1970-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks (WGSSDS)
+WGSSDS-SOLEVIIe-1968-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks (WGSSDS)
+WGNSDS-PLAICIS-1962-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Northern Shelf Demersal Stocks (WGNSDS)
+WGSSDS-PLAICCELT-1976-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks (WGSSDS)
+WGSSDS-PLAICECHW-1975-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks (WGSSDS)
+WGNSDS-HADVIa-1977-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Northern Shelf Demersal Stocks (WGNSDS)
+HAWG-HERRNIRS-1960-2006-JENNINGS,Anon (2007) Report of the herring assessment Working Group south of 62°N (HAWG)
+HAWG-HERRVIa-1957-2006-MINTO,Anon (2007) Report of the Herring Assessment Working Group South of 62°N (HAWG)
+HAWG-HERRVIaVIIbc-1969-2000-MINTO,Anon (2007) Report of the Herring Assessment Working Group South of 62°N (HAWG)
+WGSSDS-WHITVIIek-1982-2007-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks (WGSSDS)
+NWWG-CODFAPL-1959-2006-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+NWWG-HADFAPL-1955-2007-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+NWWG-POLLFAPL-1958-2006-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+DFO-PAC-PCODHS-1956-2005-COLLIE,Sinclair, A.F. (2005) Assessment of Pacific Cod in Hecate Strait (5CD) and Queen Charlotte Sound (5AB), January, 2005
+DFO-PAC-PCODWCVANI-1956-2002-COLLIE,Sinclair, A.F. (2002) West Coast Vancouver Island Pacific Cod Assessment: 2002
+DFO-PAC-HERRCC-1951-2007-COLLIE,NULL (NULL) NULL
+DFO-PAC-HERRPRD-1951-2007-COLLIE,NULL (NULL) NULL
+DFO-PAC-HERRQCI-1951-2007-COLLIE,NULL (NULL) NULL
+DFO-PAC-HERRSOG-1951-2007-COLLIE,NULL (NULL) NULL
+DFO-PAC-HERRWCVANI-1951-2007-COLLIE,NULL (NULL) NULL
+DFO-PAC-RSOLEHSTR-1945-2001-COLLIE,Fargo, Jeff (1999) Flatfish stock assessments for the west coast of Canada and recommended yield options for 2000
+SEFSC-GAGGM-1963-2004-JENSEN,NULL (2007) NULL
+SEFSC-MENATGM-1964-2004-GILROY,Shertzer, Kyle (2007) Gulf menhaden (Brevoortia patronus) in the U.S. Gulf of Mexico: Fishery characteristics and biological reference points for management 
+WGHMM-FMEG8c9a-1986-2006-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Stocks of Hake, Monk and Megrim
+WGHMM-MEG8c9a-1985-2007-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of Southern Shelf Stocks of Hake, Monk and Megrim
+NWWG-CODICE-1952-2006-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+NWWG-CAPEICE-1977-2007-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+NWWG-HADICE-1977-2007-MINTO,Anon (2007) Report of the North-Western Working Group (NWWG)
+WGBFAS-HERRIsum-1983-2007-JENNINGS,Anon (2007) Report of the North-Western Working Group (NWWG)
+ICCAT-SWORDMED-1968-2006-JENSEN,NULL (2007) 2007 Mediterranean swordfish stock assessment session
+NIWA-PINKLINGLIN3-4-1972-2007-JENSEN,NULL (NULL) NULL
+NIWA-HOKIENZ-1972-2007-FRANCIS, (2008) Assessment of hoki (Macruronus novaezelandiae) in 2007
+NIWA-HOKIWNZ-1972-2007-FRANCIS, (2008) Assessment of hoki (Macruronus novaezelandiae) in 2007
+DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE,Brodie, W.B. (2003) An assessment of the American plaice stock in NAFO subarea 2 and division 3K.
+DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE,Brattey, J. (2004) Assessment of the cod (Gadus morhua) stock in NAFO Subdivision 3Ps in October 2004.
+DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE,Bourdages, Hugo (2007) The status of cod in the Northern Gulf of St. Lawrence (3Pn, 4RS) in 2006.
+NAFO-SC-COD3NO-1953-2007-PREFONTAINE,Brattey, J. (2007) An Assessment of the Cod Stock in NAFO Divisions 3NO
+NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE,Healey, B.P. (2007) An Assessment of Greenland Halibut (Reinhardtius hippoglossoides) in NAFO Subarea 2 and Divisions 3KLMNO
+NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE,Alpoim, R. (2007) An ASPIC Based Assessment of Redfish in NAFO Divisions 3LN
+WGBFAS-CODKAT-1970-2006-MINTO,Anon (2007) Report of the Baltic Fisheries Assessment Working Group (WGBFAS)
+WGNSSK-CODNS-1962-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+WGBFAS-SOLEIIIa-1982-2007-JENNINGS,Anon (2007) Report of the Baltic Fisheries Assessment Working Group
+WGNSSK-HADNS-IIIa-1963-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+HAWG-HERRNS-1960-2007-MINTO,Anon (2007) Report of the Herring Assessment Working Group South of 62°N (HAWG)
+WGNSSK-NPOUTNS-1983-2007-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+WGNSSK-SEELNS-1983-2007-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO,Anon (2007) Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)
+RIDEM-LOBSTERRI-1959-2007-COLLIE,Gibson, Mark (2008) Assessment of American lobster in Rhode Island inshore waters
+NEFSC-AMPL5YZ-1960-2008-OBRIEN,Northeast Fisheries Science Center (2008) Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
+DFO-COD5Zjm-1978-2003-PREFONTAINE,Hatt, B. (2003) Population status of Eastern Georges Bank cod (unit areas 5Zj,m) for 1978-2004.
+NEFSC-CODGB-1960-2008-BAUM,Northeast Fisheries Science Center (2008) Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
+NEFSC-CODGOM-1893-2008-BAUM,Northeast Fisheries Science Center (2008) Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
+DFO-HAD4X5Y-1960-2003-PREFONTAINE,Black, G.A.P. (2003) Assessment of the status of NAFO division 4X/5Y haddock in 2003.
+DFO-HAD5Zejm-1969-2003-PREFONTAINE,Brodziak, Jon (2003) Assessment of haddock on eastern Georges Bank.
+NEFSC-HAD5Y-1956-2008-BAUM,Northeast Fisheries Science Center (2008) Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
+DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE,Clark, Donald (2006) 2006 Assessment of pollock in 4VWX and 5Zc.
+RIDEM-TAUTOGRI-1959-2007-COLLIE,Gibson, Mark (2008) Assessment of Tautog in Rhode Island inshore waters
+NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO,Northeast Fisheries Science Center (2008) Assessment of 19 Northeast Groundfish Stocks through 2007
+RIDEM-WINFLOUNDRI-1959-2007-COLLIE,Gibson, Mark, Rhode Island Department of Environmental Management, <mark.gibson@dem.ri.gov> (2008) Assessment of Winter flounder in Rhode Island inshore waters
+NEFSC-YELLGB-1935-2008-BAUM, (2008) Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
+AFWG-CODCOASTNOR-1982-2006-MINTO,Anon (2007) Report of the Arctic Fisheries Working Group (AFWG)
+WGMHSA-MACKNEICES-1972-2007-JENNINGS,Anon (2007) Report of the Working Group on the Assessment of mackerel, horse mackerel, sardine and anchovy (WGMHSA)
+SPC-ALBASPAC-1959-2007-JENSEN,Adam Langley (2008) Stock assessment of albacore tuna in the South Pacific Ocean
+SPC-BIGEYEWPO-1952-2007-JENSEN,Adam Langley (2008) Stock assessment of bigeye tuna in the Western and Central Pacific Ocean, including an analysis of management options
+SPC-SKJCWPAC-1972-2007-JENSEN,NULL (NULL) NULL
+SPC-YFINCWPAC-1952-2006-JENSEN,NULL (NULL) NULL
+INIDEP-PATGRENADIERSARG-1983-2006-Parma,Giussi, Analia (2007) Evaluación de la abundancia de merluza de cola (Macruronus magellanicus) en el Atlántico Sudoccidental. Período 1985-2006.
+INIDEP-SBWHITARGS-1985-2007-Parma,Giussi, Analia (2008) Evaluación de la abundancia de polaca (Micromesistius australis) en el Atlántico Sudoccidental. Período 1987-2007
+DFO-SG-COD4T-1950-2007-HUTCHINGS,Chouinard, C.A. (2007) Assessment of the southern Gulf of St. Lawrence cod stock, March 2007
+DFO-SG-COD4TVn-1965-2007-PREFONTAINE,Chouinard, G.A. (2007) Assessment of the southern Gulf of St. Lawrence cod stock, March 2007.
+CSIRO-PINKLINGGABSESSF-1968-2007-FULTON,NULL (2007) Assessment of Western Pink Ling
+CSIRO-PINKLINGSESSF-1968-2007-FULTON,NULL (2007) Assessment of Eastern Pink Ling
+CSIRO-WAREHOUGABSESSF-1984-2006-FULTON,NULL (2007) Assessment of Blue Warehou 
+CSIRO-WAREHOUSESSF-1984-2006-FULTON,NULL (2007) Assessment of Blue Warehou 
+CSIRO-GEMFISHSESSF-1966-2007-FULTON,Little, Rich (2007) Assessment of Eastern Gemfish
+CSIRO-DEEPFLATHEADSESSF-1978-2007-FULTON,Klaer, Neil (2007) Assessment of Deepwater Flathead
+CSIRO-MORWONGSESSF-1913-2007-FULTON,NULL (2007) Assessment of Jackass Morwong
+CSIRO-OROUGHYSESSF-1978-2007-FULTON,NULL (2007) Assessment of Eastern Orange Roughy
+CSIRO-SWHITSESSF-1945-2007-FULTON,Day, Jemery (2007) Assessment of School Whiting
+CSIRO-SILVERFISHSESSF-1978-2006-FULTON,NULL (2007) Assessment of Silver Warehou
+CSIRO-TIGERFLATSESSF-1913-2006-FULTON,Klaer, Neil (2007) Assessment of Tiger Flathead
+(115 rows)

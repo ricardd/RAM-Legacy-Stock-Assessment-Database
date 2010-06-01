@@ -1,0 +1,19 @@
+ BAUM        | Julia Baum        | juliakbaum@gmail.com
+ BRANCH      | Trevor Branch     | tbranch@gmail.com
+ COLLIE      | Jeremy Collie     | jcollie@gso.uri.edu
+ de Moor     | Carryn de Moor    | c.l.demoor@telkomsa.net
+ FRANCIS     | Chris Francis     | NULL
+ FULTON      | Beth Fulton       | Beth.Fulton@csiro.au
+ GILROY      | David Gilroy      | 6ilroy@gmail.com
+ HUTCHINGS   | Jeff Hutchings    | jhutch@mathstat.dal.ca
+ JENNINGS    | Simon Jennings    | simon.jennings@cefas.co.uk
+ JENSEN      | Olaf Jensen       | ojensen@u.washington.edu
+ Johnston    | Susan Johnston    | susan.holloway@uct.ac.za
+ LEGAULT     | Chris Legault     | chris.legault@noaa.gov
+ MINTO       | Coilin Minto      | mintoc@mathstat.dal.ca
+ MYERS       | Ransom Myers      | NULL
+ Parma       | Ana Parma         | parma@cenpat.edu.ar
+ PREFONTAINE | Renee Prefontaine | RN968668@dal.ca
+ TERCEIRO    | Mark Terceiro     | mtercer@mercury.wh.whoi.edu
+ WIGLEY      | Susan Wigley      | susan.wigley@noaa.gov
+ WORM        | Boris Worm        | bworm@dal.ca

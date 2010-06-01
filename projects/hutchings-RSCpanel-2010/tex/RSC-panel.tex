@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt,oneside]{book}
+
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx} 
+\usepackage{pdfpages} 
+
+\pagestyle{plain}
+\makeindex
+
+\author{Jeffrey Hutchings  \thanks{Dalhousie University, Halifax, NS, Canada} \and Daniel Ricard }
+
+\title{DFO stock assessments (for the Royal Society of Canada - Expert Panel on Oceans Health and Biodiversity)}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+
+This document is a compilation of the marine stocks assessed by the Department of Fisheries and Oceans and is meant to guide discussion for the Royal Society of Canada's Expert Panel on Oceans Health and Biodiversity.
+
+\chapter{Summary plots}
+%\section{Template plots with descriptions}
+
+\include{RSC-DFOstocks}
+
+\addcontentsline{toc}{chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } 
+\printindex
+
+\end{document}

@@ -1,0 +1,50 @@
+# makefile for Fish and Fisheries manuscript
+# last modified Time-stamp: <2010-06-01 11:00:11 (srdbadmin)>
+#
+#
+
+fishandfisheries-v2.pdf: fishandfisheries-v2.tex abstract-dynamic.tex results-dynamic.tex Table1-formatted.tex Figures.tex  fishandfisheries-Suppl.pdf Table-S1-formatted.tex
+	pdflatex fishandfisheries-v2.tex 
+	pdflatex fishandfisheries-v2.tex 
+
+
+fishandfisheries-Suppl.pdf: fishandfisheries-Suppl.tex  Table-S1-formatted.tex srdb-references.bib
+	pdflatex fishandfisheries-Suppl
+	pdflatex fishandfisheries-Suppl
+
+abstract-dynamic.tex: fishandfisheries-abstract-dynamic.tex  ../SQL/queries-for-results.log
+	../perl/abstract-dynamic.pl # generate the dynamic abstract
+
+results-dynamic.tex: fishandfisheries-results-dynamic.tex ../SQL/queries-for-results.log ../R/srdb-by-assessment.pdf ../R/orca_plot_v2.pdf ../R/friedegg-single.pdf ../R/TL-quadrant-srdb.pdf 
+	../perl/results-dynamic.pl # generate the dynamic results
+
+../SQL/queries-for-results.log: ../SQL/queries-for-results.sql  lastDBupdate-timestamp.txt
+	psql srdb -f ../SQL/queries-for-results.sql 1> ../SQL/queries-for-results.log
+	psql srdb -t -f ../../../srdb/scripts/grants.sql  | psql srdb
+
+Table1-formatted.tex: ../R/generate-Table1.R
+	R CMD BATCH generate-Table1.R
+	sed '/begin{tabular/ r mytable1.txt' Table1.tex | sed 9,11d > Table1-formatted.tex
+
+Table-S1-formatted.tex: ../R/friedegg-single.pdf 
+	R CMD BATCH ../R/fried-egg-plots.R 
+	sed '/begin/ r mytable.txt' Table-S1.tex | sed 6,8d > Table-S1-formatted.tex
+
+../GMT/stocks-byLME.pdf: lastDBupdate-timestamp.txt ../GMT/stocks-by-LME.bash
+	../GMT/stocks-by-LME.bash # generate Fig.1, the LME map
+
+../R/srdb-by-assessment.pdf: lastDBupdate-timestamp.txt ../R/taxonomic-dendrogram.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/taxonomic-dendrogram.R
+
+../R/orca_plot_v2.pdf: lastDBupdate-timestamp.txt ../R/orca_plot.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/orca_plot.R # generate Fig.4, the orca plot
+
+../R/friedegg-single.pdf: lastDBupdate-timestamp.txt ../R/fried-egg-plots.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/fried-egg-plots.R # generate Fig.5 and 6, the fried egg plots
+
+../R/TL-quadrant-srdb.pdf: lastDBupdate-timestamp.txt ../R/trophic-level-plot.R  #../SQL/queries-for-results.log
+	R CMD BATCH ../R/trophic-level-plot.R # generate Fig.7, the trophic level beanplot
+
+srdb-references.bib: ../SQL/srdb-references.bib
+	../SQL/generateBIBfile.bash
+	bibtex fishandfisheries-Suppl

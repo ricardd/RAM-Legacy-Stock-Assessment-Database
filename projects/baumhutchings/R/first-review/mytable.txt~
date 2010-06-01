@@ -1,0 +1,4 @@
+  \bottomrule \\ Continued on next page \endfoot
+ \toprule  & & & & & &  \multicolumn{2}{c}{Continuous} & \multicolumn{2}{c}{Discontinuous} & \multicolumn{2}{c}{Drift} & & \\ 
+\cmidrule{7-12}
+ Stock ID & Area & Common name & Scientific name & Category & type & pre-1992 & post-1992 & pre-1992 & post-1992 & pre-1992 & post1992 & ratio 1992 & ratio current \\ \midrule \endhead

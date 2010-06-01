@@ -1,0 +1,15 @@
+BEGIN;
+ INSERT INTO srdb.assessment VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'DFO-MAR', 'BSKATCANATL', 'PREFONTAINE', '2008-07-09', '2009-03-17 21:09:32', '1970-1987', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'Estimates of abundance of barndoor skate in areas 4XVW can be found in Figure 9 and Figure 18. There are four different figures for catch rates, Figure 30 is the catch per tow of area 4X5Y from the monkfish Industry/Science Surveys, Figure 33 is also the catch per tow but of area 4X only from the ITQ Industry/Science Survey, Figure 38 is also the catch per tow of area 4VsW from the longline Sentinel Survey and Figure 42 is the catch per set of area 3NOP4VWX from the Halibut Industry Science Survey.', '', 0, 0, 'Survey indices', 'no comments', '../spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.xls') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'ID', 'NAFO-BARNSK-2002') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'TY', 'RPRT') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'A1', 'Simon, James E.') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'A1', 'Frank, Kenneth T.') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'A1', 'Kulka, David W.') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'T1', 'Distribution and abundance of barndoor skate Dupturius laevis in the Canadian Atlantic based upon research vessel surveys and industry/science surveys') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'VL', '2002/070') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'Y1', '2002') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'PB', 'DFO') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE', 'CY', 'Canada') ; 
+ INSERT INTO srdb.bioparams VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE','L50-1-cm','116', '2002') ; 
+ INSERT INTO srdb.bioparams VALUES('DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE','L50-2-cm','112', '2002') ; 
+COMMIT;

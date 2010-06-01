@@ -1,0 +1,208 @@
+"","StockID","Area","Commonname","Scientificname","Category","type","ratio1992","ratiocurrent","mcontpre","mcontpost","mpre","mpost","msspre","msspost"
+"1","ACADREDGOMGB","Gulf of Maine / Georges Bank","Acadian redfish","Sebastes fasciatus","Demersal"," ",0.37,8.66,-0.0582,0.1702,-0.0556,0.2303,-0.0535,0.2109
+"2","ALBANATL","Northern Atlantic","Albacore tuna","Thunnus alalunga","Pelagic"," ",0.93,0.81,-0.0177,-0.0097,-0.0185,-0.0244,-0.0156,-0.0144
+"3","ALBASPAC","South Pacific Ocean","Albacore tuna","Thunnus alalunga","Pelagic"," ",4.01,2.46,-0.0307,-7e-04,-0.0373,-0.0295,-0.0337,-0.0349
+"4","ALPLAICBSAI","Bering Sea and Aleutian Islands","Alaska plaice","Pleuronectes quadrituberculatus","Demersal"," ",2.71,2.46,0.0233,-0.0322,0.0458,-0.0123,0.0324,-0.006
+"5","AMPL23K","Labrador - NE Newfoundland","American plaice","Hippoglossoides platessoides","Demersal",NA,NA,NA,-0.1657,-0.1548,-0.0588,-0.0479,-0.1073,-0.147
+"6","AMPL3LNO","Grand Banks","American plaice","Hippoglossoides platessoides","Demersal","*",0.14,0.08,-0.0587,-0.0688,-0.0222,0.064,-0.0524,0.0187
+"7","AMPL5YZ","Gulf of Maine / Georges Bank","American plaice","Hippoglossoides platessoides","Demersal"," ",0.52,0.7,-0.0993,0.0283,-0.1398,0.0087,-0.0809,0.0202
+"8","ARFLOUNDBSAI","Bering Sea and Aleutian Islands","Arrowtooth flounder","Reinhardtius stomias","Demersal"," ",1.31,2.7,0.0628,0.0463,0.0524,0.0381,0.0592,0.0451
+"9","ARFLOUNDGA","Gulf of Alaska","Arrowtooth flounder","Reinhardtius stomias","Demersal"," ",1.93,3.02,0.0521,0.0257,0.0508,0.0225,0.0467,0.0249
+"10","ARFLOUNDPCOAST","Pacific Coast","Arrowtooth flounder","Reinhardtius stomias","Demersal"," ",3.11,3.81,-0.009,0.0129,-0.0095,0.0027,-0.0059,0.0136
+"11","ATBTUNAEATL","Eastern Atlantic","Atlantic bluefin tuna","Thunnus thynnus","Pelagic"," ",0.62,0.34,-0.0135,-0.0403,-0.0221,-0.055,-0.0173,-0.0621
+"12","ATBTUNAWATL","Western Atlantic","Atlantic bluefin tuna","Thunnus thynnus","Pelagic"," ",0.43,0.57,-0.0961,0.0318,-0.1085,0.0106,-0.0918,0.0193
+"13","ATKABSAI","Bering Sea and Aleutian Islands","Atka mackerel","Pleurogrammus monopterygius","Demersal"," ",2.23,1.55,0.0272,0.0026,0.0189,-0.0025,0.0648,-0.0215
+"14","ATLCROAKMATLC","Mid-Atlantic Coast","Atlantic croaker","Micropogonias undulatus","Demersal"," ",1.3,1.42,0.0782,0.0306,0.0677,0.0034,0.0952,0.0092
+"15","AUSSALMONNZ","New Zealand","Australian salmon","Arripis trutta","Pelagic"," ",1.84,1.64,-0.0475,-7e-04,-0.0541,-0.0082,-0.044,-0.008
+"16","BGROCKPCOAST","Pacific Coast","Blackgill rockfish","Sebastes melanostomus","Demersal"," ",1.43,1.31,-0.0124,-0.0287,-0.0093,-0.0034,-0.0136,-0.007
+"17","BIGEYEATL","Atlantic","Bigeye tuna","Thunnus obesus","Pelagic","*",1.41,0.9,-0.015,-0.0576,0.0018,-0.0358,-0.0049,-0.0274
+"18","BIGEYEEPAC","Eastern Pacific","Bigeye tuna","Thunnus obesus","Pelagic"," ",1.74,0.9,-0.0086,-0.0494,-0.001,-0.0419,-0.0074,-0.0439
+"19","BIGEYEIO","Indian Ocean","Bigeye tuna","Thunnus obesus","Pelagic"," ",2.29,1.23,-0.0062,-0.0626,-0.0049,-0.0558,-0.0114,-0.0518
+"20","BIGEYEWPO","Western Pacific Ocean","Bigeye tuna","Thunnus obesus","Pelagic"," ",1.87,1.06,-0.0326,-0.0212,-0.0352,-0.0384,-0.0287,-0.0407
+"21","BIGHTREDSE","Southeast Australia","Bight redfish","Centroberyx gerrardi","Demersal"," ",1.34,0.95,0.0056,-0.017,0.0038,-0.0242,0.0047,-0.0234
+"22","BLACKOREOWECR","West end of Chatham Rise","Black oreo","Allocyttus niger","Demersal"," ",1.25,0.99,-0.0588,-0.0164,-0.0581,-0.0156,-0.0513,-0.0158
+"23","BLACKROCKNPCOAST","Northern Pacific Coast","Black rockfish","Sebastes melanops","Demersal","*",0.98,1.37,-0.0126,-0.0158,-0.0095,0.0586,-0.0167,0.0458
+"24","BLACKROCKSPCOAST","Southern Pacific Coast","Black rockfish","Sebastes melanops","Demersal"," ",1.21,2.23,-0.0103,-0.0019,-0.0078,0.0528,NA,NA
+"25","BLUEFISHATLC","Atlantic Coast","Bluefish","Pomatomus saltatrix","Demersal","*",0.56,0.81,-0.1517,0.0269,-0.1415,0.0303,-0.1314,0.0212
+"26","BLUEROCKCAL","California","Blue rockfish","Sebastes mystinus","Demersal"," ",0.33,0.75,-0.025,-0.0164,-0.0204,0.0802,-0.027,0.0544
+"27","BOCACCSPCOAST","Southern Pacific Coast","Bocaccio","Sebastes paucispinis","Demersal"," ",0.18,0.32,-0.027,-0.0448,-0.0143,0.0425,-0.0328,0.0421
+"28","BSBASSMATLC","Mid-Atlantic Coast","Black sea bass","Centropristis striata","Demersal"," ",0.56,0.92,-0.0119,0.0354,-0.0045,0.0505,0.0051,0.0331
+"29","BUTTERGOMCHATT","Gulf of Maine / Cape Hatteras","Atlantic butterfish","Peprilus triacanthus","Demersal",NA,NA,NA,-0.0154,-0.043,-0.0087,-0.0149,-0.0578,-0.0034
+"30","BWHITNEA","Northeast Atlantic","Blue whiting","Micromesistius poutassou","Demersal","*",0.34,0.67,-0.0141,0.0858,-0.0363,0.0768,0.0073,0.0351
+"31","CABEZNCAL","Northern California","Cabezon","Scorpaenichthys marmoratus","Demersal"," ",0.77,1.04,-0.0122,-0.024,-0.0103,0.0283,-0.0162,0.0231
+"32","CABEZSCAL","Southern California","Cabezon","Scorpaenichthys marmoratus","Demersal"," ",0.35,0.74,-0.0374,-0.0473,-0.0335,0.0178,-0.034,0.0573
+"33","CAPEICE","Iceland Grounds","Capelin","Mallotus villosus","Pelagic","*",0.85,0.49,0.0341,0.0094,0.0099,-0.0089,0.0367,0.0081
+"34","CAPENOR","Barents Sea","Capelin","Mallotus villosus","Pelagic","*",1.03,0.17,0.0585,0.0301,0.0571,0.0089,NA,NA
+"35","CHAKESA","South Africa","Shallow-water cape hake","Merluccius capensis","Demersal"," ",3.04,2.3,-0.0068,0.0034,-0.0085,-0.028,NA,NA
+"36","CHILISPCOAST","Southern Pacific Coast","Chilipepper rockfish","Sebastes goodei","Demersal","*",0.89,1.43,-0.009,-0.0062,-0.0072,0.0624,-0.0109,0.05
+"37","CHTRACCH","Chilean EEZ and offshore","Chilean jack mackerel","Trachurus murphyi","Pelagic","*",1.12,0.52,0.1135,-0.0963,0.1703,-0.0395,0.1276,-0.0674
+"38","CMACKPCOAST","Pacific Coast","Chub mackerel","Scomber japonicus","Pelagic"," ",1.04,0.68,-0.0071,-0.0568,-0.0088,-0.0786,-0.0332,-0.0265
+"39","COD3NO","Southern Grand Banks","Atlantic cod","Gadus morhua","Demersal","*",0.05,0.02,-0.0446,-0.1081,-0.0161,0.0024,-0.0495,-0.0386
+"40","COD3Pn4RS","Northern Gulf of St. Lawrence","Atlantic cod","Gadus morhua","Demersal","*",0.12,0.09,-0.1353,-0.029,-0.0611,0.0545,-0.101,0.0176
+"41","COD3Ps","St. Pierre Bank","Atlantic cod","Gadus morhua","Demersal","*",0.29,0.49,-0.0269,0.0717,0.0145,0.1195,0.0037,0.0853
+"42","COD4TVn","Southern Gulf of St. Lawrence","Atlantic cod","Gadus morhua","Demersal","*",0.31,0.17,0.0022,-0.0857,0.0392,-0.0286,-0.0253,-0.0335
+"43","COD4VsW","Eastern Scotian Shelf","Atlantic cod","Gadus morhua","Demersal",NA,NA,NA,0.005,-0.2548,0.0379,-0.1399,-0.0148,-0.1734
+"44","COD5Zjm","Georges Bank","Atlantic cod","Gadus morhua","Demersal","*",0.61,0.34,-0.0428,-0.0574,0.0036,-0.0032,-0.0202,-0.0521
+"45","CODBA2224","Western Baltic","Atlantic cod","Gadus morhua","Demersal","*",0.37,0.36,-0.0362,-9e-04,-0.0365,-0.0014,-0.0706,0.0535
+"46","CODBA2532","Eastern Baltic","Atlantic cod","Gadus morhua","Demersal","*",0.13,0.16,-5e-04,-0.1159,0.0221,-0.0546,-0.0362,-0.0093
+"47","CODFAPL","Faroe Plateau","Atlantic cod","Gadus morhua","Demersal","*",0.36,0.26,-0.0094,-0.0397,-0.0076,-0.0325,-0.0248,-0.0101
+"48","CODGB","Georges Bank","Atlantic cod","Gadus morhua","Demersal"," ",0.25,0.12,-0.0753,-0.0776,-0.0326,-0.049,-0.0632,-0.0503
+"49","CODGOM","Gulf of Maine","Atlantic cod","Gadus morhua","Demersal","*",0.65,1.46,-0.0628,0.0218,0.0095,0.0458,-0.054,0.0693
+"50","CODICE","Iceland Grounds","Atlantic cod","Gadus morhua","Demersal","*",0.37,0.46,-0.0412,0.034,-0.0432,0.0231,-0.0406,0.0144
+"51","CODIS","Irish Sea","Atlantic cod","Gadus morhua","Demersal","*",0.52,0.15,-0.0249,-0.0905,-0.0114,-0.0595,-0.0231,-0.0737
+"52","CODKAT","Kattegat and Skagerrak","Atlantic cod","Gadus morhua","Demersal","*",0.26,0.19,-0.0752,-0.0378,-0.0973,-0.0765,-0.0781,-0.0329
+"53","CODNEAR","North-East Arctic","Atlantic cod","Gadus morhua","Demersal","*",0.73,0.56,-0.0129,0.079,-0.0244,-0.0203,-0.006,-0.0291
+"54","CODNS","North Sea","Atlantic cod","Gadus morhua","Demersal","*",0.51,0.19,-0.0348,-0.0752,-0.0352,-0.0762,-0.0281,-0.0442
+"55","CODVIa","West of Scotland","Atlantic cod","Gadus morhua","Demersal","*",0.35,0.12,-0.0464,-0.097,-0.0541,-0.1028,-0.0632,-0.091
+"56","COWCODSCAL","Southern California","Cowcod","Sebastes levis","Demersal"," ",0.05,0.09,-0.0313,-0.1297,-0.0257,0.0448,-0.043,0.042
+"57","CROCKPCOAST","Pacific Coast","Canary rockfish","Sebastes pinniger","Demersal"," ",0.4,0.85,-0.0222,-0.0076,-0.0187,0.0663,-0.0251,0.0506
+"58","CTRACSA","South Africa South coast","Cape horse mackerel","Trachurus capensis","Pelagic","*",1.3,1.47,-3e-04,0.0127,-0.0016,0.0047,-0.0127,0.0091
+"59","DEEPCHAKESA","South Africa","Deep-water cape hake","Merluccius paradoxus","Demersal"," ",0.81,0.83,-0.0369,0.0222,-0.0388,-0.0135,-0.0263,0.0013
+"60","DEEPFLATHEADSE","Southeast Australia","Deepwater flathead","Platycephalus conatus","Demersal"," ",2.07,1.51,-0.0261,-0.0344,-0.0194,-0.0299,-0.0201,-0.0212
+"61","DKROCKPCOAST","Pacific Coast","Darkblotched rockfish","Sebastes crameri","Demersal"," ",0.71,0.73,-0.0222,-0.0815,-0.0171,-0.0062,-0.0243,0.0021
+"62","DSOLEPCOAST","Pacific Coast","Dover sole","Microstomus pacificus","Demersal"," ",1.06,1.61,-0.0112,0.0074,-0.0103,0.0357,-0.0108,0.032
+"63","DUSROCKGA","Gulf of Alaska","Dusky rockfish","Sebastes variabilis","Demersal"," ",0.89,1.54,0.0484,0.04,0.0461,0.0383,0.0429,0.0364
+"64","ESOLEPCOAST","Pacific Coast","English sole","Parophrys vetulus","Demersal"," ",1.24,6.42,-0.0139,0.1017,-0.0132,0.1333,-0.013,0.1095
+"65","FLSOLEBSAI","Bering Sea and Aleutian Islands","Flathead sole","Hippoglossoides elassodon","Demersal"," ",1.83,1.83,0.202,-0.0112,0.2068,-0.0079,0.1779,0
+"66","GAGGM","Gulf of Mexico","Gag","Mycteroperca microlepis","Demersal"," ",0.44,1,-0.0481,0.0883,-0.0494,0.0825,-0.0518,0.0687
+"67","GAGSATLC","Southern Atlantic coast","Gag","Mycteroperca microlepis","Demersal"," ",0.6,0.94,-0.0429,0.0347,-0.0455,0.0239,-0.0382,0.0349
+"68","GEMFISHNZ","New Zealand","common gemfish","Rexea solandri","Demersal"," ",4.78,1.64,-0.0108,-0.083,-0.0124,-0.0936,-0.0072,-0.0766
+"69","GEMFISHSE","Southeast Australia","common gemfish","Rexea solandri","Demersal"," ",0.38,0.25,-0.0721,-0.0929,-0.0529,-0.0471,-0.0678,-0.0288
+"70","GHAL23KLMNO","Labrador Shelf - Grand Banks","Greenland halibut","Reinhardtius hippoglossoides","Demersal","*",0.99,0.39,0.0512,-0.1551,0.0582,-0.1472,0.0707,-0.1674
+"71","GHALBSAI","Bering Sea and Aleutian Islands","Greenland halibut","Reinhardtius hippoglossoides","Demersal"," ",5.18,1.48,0.0177,-0.1247,0.0319,-0.0835,0.0142,-0.0739
+"72","GHALNEAR","North-East Arctic","Greenland halibut","Reinhardtius hippoglossoides","Demersal","*",0.14,0.36,-0.0681,0.0467,-0.0558,0.0854,-0.0537,0.0564
+"73","GOPHERSPCOAST","Southern Pacific Coast","Gopher rockfish","Sebastes carnatus","Demersal"," ",1.87,2.38,-0.011,0.0669,-0.0194,0.0388,-0.0084,0.0186
+"74","GRAMBERSATLC","Southern Atlantic coast","Greater amberjack","Seriola dumerili","Demersal"," ",1.24,1.1,-0.0193,-0.0275,-0.0153,0.0067,-0.0214,-0.0086
+"75","GTRIGGM","Gulf of Mexico","Gray triggerfish","Balistes capriscus","Demersal"," ",2.13,1.12,0.0033,-0.0501,0.0184,-0.0411,0.0141,-0.054
+"76","HAD4X5Y","Western Scotian Shelf, Bay of Fundy and Gulf of Maine","Haddock","Melanogrammus aeglefinus","Demersal","*",0.41,0.85,-0.0294,0.0524,-0.0223,0.0733,-0.0164,0.0684
+"77","HAD5Y","Gulf of Maine","Haddock","Melanogrammus aeglefinus","Demersal"," ",0.15,0.99,-0.2069,0.1973,-0.2653,0.1522,-0.1924,0.1251
+"78","HAD5Zejm","Georges Bank","Haddock","Melanogrammus aeglefinus","Demersal","*",0.25,1,-0.0168,0.1031,0.0029,0.167,-0.0293,0.1599
+"79","HADFAPL","Faroe Plateau","Haddock","Melanogrammus aeglefinus","Demersal","*",0.31,0.85,-0.0054,0.0431,0.0068,0.1035,-0.0184,0.0685
+"80","HADGB","Georges Bank","Haddock","Melanogrammus aeglefinus","Demersal"," ",0.1,1.99,-0.0275,0.1379,-0.0234,0.1929,-0.0286,0.1966
+"81","HADICE","Iceland Grounds","Haddock","Melanogrammus aeglefinus","Demersal","*",0.35,0.98,-0.054,0.0587,-0.0387,0.0674,-0.0467,0.0589
+"82","HADNEAR","North-East Arctic","Haddock","Melanogrammus aeglefinus","Demersal","*",0.61,1.1,-0.0078,0.0717,-0.0135,0.0311,0.0061,0.0421
+"83","HADNS-IIIa","IIIa and North Sea","Haddock","Melanogrammus aeglefinus","Demersal","*",0.8,0.62,-0.0453,0.0537,-0.0461,0.0513,-0.051,0.0368
+"84","HADVIa","West of Scotland","Haddock","Melanogrammus aeglefinus","Demersal","*",0.82,0.58,-0.0433,0.0253,-0.0453,0.0239,-0.0452,0.0262
+"85","HAKENRTN","IIIa-IV-VI-VII-VIIIabd","Hake","Merluccius merluccius","Demersal","*",0.71,1.04,-0.086,0.0113,-0.0589,0.0268,-0.0679,0.0292
+"86","HAKESOTH","VIIIc-IXa","Hake","Merluccius merluccius","Demersal",NA,NA,NA,-0.1155,-0.0256,-0.1067,-0.0227,-0.0949,-0.025
+"87","HERR2532","Eastern Baltic","Herring","Clupea harengus","Pelagic","*",0.69,0.69,-0.0499,-0.0275,-0.0393,-0.014,-0.0372,0.0032
+"88","HERR30","Bothnian Sea","Herring","Clupea harengus","Pelagic","*",1.47,1.19,0.0589,0.0028,0.0469,-0.0144,0.054,-0.0142
+"89","HERR31","Bothnian Bay","Herring","Clupea harengus","Pelagic","*",0.65,0.29,-0.0497,-0.0629,-0.001,-0.0362,-0.0097,-0.0615
+"90","HERR4RFA","NAFO 4R","Herring","Clupea harengus","Pelagic",NA,NA,NA,0.008,-0.0273,0.0064,-0.0308,-0.0107,-0.0263
+"91","HERR4RSP","NAFO 4R","Herring","Clupea harengus","Pelagic",NA,NA,NA,-0.0036,-0.0566,0.0153,0.0162,0.0039,-0.0101
+"92","HERR4VWX","Scotian Shelf and Bay of Fundy","Herring","Clupea harengus","Pelagic",NA,NA,NA,-0.0095,-0.1375,0.0045,-0.0965,-0.0139,-0.129
+"93","HERRCC","Central Coast","Pacific herring","Clupea pallasii","Pelagic","*",1.25,0.3,0.022,-0.0456,0.0197,-0.0598,0.0125,-0.059
+"94","HERRNIRS","Irish Sea","Herring","Clupea harengus","Pelagic","*",0.24,0.72,0.0102,-0.0734,0.0229,-0.0242,0.0292,0.0252
+"95","HERRNS","North Sea","Herring","Clupea harengus","Pelagic","*",0.69,0.65,-0.0182,0.1215,-0.0234,0.0999,-0.0275,0.0384
+"96","HERRNWATLC","Northwestern Atlantic Coast","Herring","Clupea harengus","Pelagic",NA,NA,NA,-0.0274,0.1555,-0.0683,0.0386,-0.0282,0.0387
+"97","HERRPRD","Prince Rupert District","Pacific herring","Clupea pallasii","Pelagic","*",0.39,0.16,0.0037,-0.0118,0.0025,-0.0195,0.0077,-0.0349
+"98","HERRPWS","Prince William Sound","Pacific herring","Clupea pallasii","Pelagic",NA,NA,NA,-0.0234,-0.1256,0.0597,-0.0799,0.041,-0.1524
+"99","HERRQCI","Queen Charlotte Islands","Pacific herring","Clupea pallasii","Pelagic","*",0.36,0.2,0.0358,-0.1062,0.0457,-0.0468,0.0183,-0.0361
+"100","HERRRIGA","Gulf of Riga East of Gotland","Herring","Clupea harengus","Pelagic","*",1.37,1.21,0.0587,-0.006,0.039,-0.0212,0.0536,-0.0108
+"101","HERRSITKA","Sitka","Pacific herring","Clupea pallasii","Pelagic",NA,NA,NA,0.0401,0.0495,0.0672,0.0677,0.0712,0.0273
+"102","HERRSOG","Straight of Georgia","Pacific herring","Clupea pallasii","Pelagic","*",1.17,0.91,0.0258,0.0165,0.023,-8e-04,0.0162,-0.0154
+"103","HERRVIa","West of Scotland","Herring","Clupea harengus","Pelagic","*",0.37,0.18,-0.0376,9e-04,-0.0377,3e-04,-0.0222,-0.0251
+"104","HERRWCVANI","West Coast of Vancouver Island","Pacific herring","Clupea pallasii","Pelagic","*",0.69,0.03,0.0266,-0.1686,0.0287,-0.1562,0.014,-0.1783
+"105","HOKIENZ","Eastern New Zealand","Hoki","Macruronus novaezelandiae","Demersal","*",1.64,1.11,-9e-04,-0.0689,-3e-04,-0.068,-2e-04,-0.0529
+"106","HOKIWNZ","Western New Zealand","Hoki","Macruronus novaezelandiae","Demersal","*",1.06,0.51,-0.0089,-0.11,-0.0102,-0.1117,-0.031,-0.0812
+"107","KELPGREENLINGORECOAST","Oregon Coast","Kelp greenling","Hexagrammos decagrammus","Demersal"," ",2.94,1.28,0.0279,-0.05,0.0132,-0.0609,0.0256,-0.0643
+"108","KINGKLIPSA","South Africa","Anchovy","Engraulis encrasicolus","Pelagic"," ",1.1,1.2,-0.012,-0.006,-0.0113,0.0019,-0.0124,0.0057
+"109","LINGCODNPCOAST","Northern Pacific Coast","Lingcod","Ophiodon elongatus","Demersal",NA,NA,NA,-0.0587,0.0605,-0.0425,0.1575,-0.0589,0.1395
+"110","LINGCODSPCOAST","Southern Pacific Coast","Lingcod","Ophiodon elongatus","Demersal",NA,NA,NA,-0.0624,-0.0156,-0.0511,0.0525,-0.0591,0.0404
+"111","LNOSESKAPCOAST","Pacific Coast","Longnose skate","Raja rhina","Demersal","*",1.64,1.56,-0.0044,-0.0083,-0.0045,-0.01,-0.0043,-0.0059
+"112","LSTHORNHPCOAST","Pacific Coast","Longspine thornyhead","Sebastolobus altivelis","Demersal"," ",3.32,2.65,-0.004,-0.0251,-0.0019,-0.0174,-0.0041,-0.0174
+"113","MACKGOMCHATT","Gulf of Maine / Cape Hatteras","Mackerel","Scomber scombrus","Pelagic"," ",1.97,3.61,0.0276,0.038,0.0336,0.0668,0.0495,0.0504
+"114","MACKNEICES","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa","Mackerel","Scomber scombrus","Pelagic","*",1.16,0.98,-0.0217,-0.0049,-0.0286,-0.0158,-0.0241,-0.0088
+"115","MENATGM","Gulf of Mexico","Gulf menhaden","Brevoortia patronus","Pelagic","*",1.26,1.08,0.0445,0.0224,0.043,0.016,0.0449,-0.0081
+"116","MORWONGSE","Southeast Australia","Hawaiian morwong","Nemadactylus macropterus","Demersal"," ",0.67,0.31,-0.0102,-0.1173,-0.0078,-0.0644,-0.0146,-0.0503
+"117","MUTSNAPSATLCGM","Southern Atlantic coast and Gulf of Mexico","Mutton snapper","Lutjanus analis","Demersal"," ",0.52,1.13,-0.0669,0.0568,-0.0523,0.0635,-0.0462,0.0555
+"118","NROCKBSAI","Bering Sea and Aleutian Islands","Northern rockfish","Sebastes polyspinis","Demersal"," ",1.14,1.41,0.0386,0.0131,0.0388,0.0132,0.0375,0.0127
+"119","NROCKGA","Gulf of Alaska","Northern rockfish","Sebastes polyspinis","Demersal"," ",2.19,1.5,-0.0124,0.0107,-0.0232,-0.022,-0.0197,-0.0239
+"120","NRSOLEEBSAI","Eastern Bering Sea and Aleutian Islands","Northern rock sole","Lepidopsetta polyxystra","Demersal"," ",1.74,3.02,0.1331,0.0546,0.1081,0.0296,0.1151,0.0365
+"121","NZLINGESE","Southeast Australia","New Zealand ling","Genypterus blacodes","Demersal"," ",1.4,0.59,-0.0165,-0.0526,-0.015,-0.0494,-0.0173,-0.0576
+"122","NZLINGLIN3-4","New Zealand Areas LIN 3 and 4","New Zealand ling","Genypterus blacodes","Demersal"," ",4.14,3.07,-0.002,-0.0338,0.0074,-0.0207,-0.0082,-0.02
+"123","NZLINGLIN5-6","New Zealand Areas LIN 5 and 6","New Zealand ling","Genypterus blacodes","Demersal"," ",5.13,3.96,-0.0044,-0.019,-0.0014,-0.0149,-0.0021,-0.0173
+"124","NZLINGLIN6b","New Zealand Areas LIN 6b","New Zealand ling","Genypterus blacodes","Demersal"," ",3.78,2.19,-0.005,-0.0358,0.0014,-0.0324,-0.0074,-0.039
+"125","NZLINGLIN72","New Zealand Areas LIN 72","New Zealand ling","Genypterus blacodes","Demersal"," ",3.05,2.49,-0.0231,-0.0113,-0.0156,-8e-04,-0.022,-0.0136
+"126","NZLINGLIN7WC","New Zealand Areas LIN 7WC-WCSI","New Zealand ling","Genypterus blacodes","Demersal"," ",2.06,2.21,-0.0184,-0.0104,-0.012,-0.0024,-0.018,0.0045
+"127","NZLINGWSE","Western half of Southeast Australia","New Zealand ling","Genypterus blacodes","Demersal"," ",1.66,1.08,-0.0041,-0.0172,-0.0043,-0.0176,-0.01,-0.0283
+"128","NZSNAPNZ8","New Zealand Area 8 (Auckland and Central West)","New Zealand snapper","Chrysophrys auratus","Demersal"," ",0.51,0.35,-0.0454,-0.0335,-0.0443,-0.0154,-0.0368,-0.0285
+"129","OROUGHYNZMEC","New Zealand Mid East Coast","Orange roughy","Hoplostethus atlanticus","Demersal"," ",1.34,1.2,-0.1496,-0.0199,-0.1119,0.0029,-0.1274,-0.0088
+"130","OROUGHYSE","Southeast Australia","Orange roughy","Hoplostethus atlanticus","Demersal"," ",2.33,0.52,-0.1073,-0.145,-0.0096,-0.0797,-0.0587,-0.1002
+"131","PCODBSAI","Bering Sea and Aleutian Islands","Pacific cod","Gadus macrocephalus","Demersal"," ",1.32,1,0.0338,-0.0298,0.0767,-3e-04,0.0422,-0.0174
+"132","PCODGA","Gulf of Alaska","Pacific cod","Gadus macrocephalus","Demersal"," ",1.25,0.91,0.0684,-0.0399,0.096,-0.0209,0.0622,-0.0198
+"133","PERCHEBSAI","Eastern Bering Sea and Aleutian Islands","Pacific ocean perch","Sebastes alutus","Demersal"," ",0.74,1.23,0.1033,0.0404,0.0822,0.0275,0.0816,0.0304
+"134","PHAKEPCOAST","Pacific Coast","Pacific hake","Merluccius productus","Demersal"," ",4.38,1.61,-0.0018,-0.0904,0.0249,-0.0336,0.002,-0.0624
+"135","PLAIC7d","Eastern English Channel","European Plaice","Pleuronectes platessa","Demersal",NA,NA,NA,0.0415,-0.0674,0.0809,-0.0457,0.0276,-0.0376
+"136","PLAICCELT","Celtic Sea","European Plaice","Pleuronectes platessa","Demersal","*",0.98,0.65,0.0517,-0.096,0.0843,-0.0674,0.066,-0.0592
+"137","PLAICECHW","Western English Channel","European Plaice","Pleuronectes platessa","Demersal","*",0.72,0.51,0.0403,-0.0536,0.0785,-0.0153,0.0505,-0.0392
+"138","PLAICIIIa","Kattegat and Skagerrak","European Plaice","Pleuronectes platessa","Demersal",NA,NA,NA,-0.0115,-0.0443,-0.0265,-0.0557,-0.0137,-0.032
+"139","PLAICIS","Irish Sea","European Plaice","Pleuronectes platessa","Demersal","*",0.57,1.07,-0.0266,0.0331,-0.0198,0.0545,-0.0256,0.0482
+"140","PLAICNS","North Sea","European Plaice","Pleuronectes platessa","Demersal",NA,NA,NA,-0.0033,-0.0366,0.0021,-0.0096,-9e-04,-0.025
+"141","POLL4VWX5Zc","Scotian Shelf, Bay of Fundy and Georges Bank","Pollock","Pollachius virens","Demersal","*",0.62,0.56,-0.1202,-0.0183,-0.0543,0.0064,-0.0561,4e-04
+"142","POLLFAPL","Faroe Plateau","Pollock","Pollachius virens","Demersal","*",0.52,0.99,-0.0148,0.0068,-0.0056,0.0423,-0.0119,0.0355
+"143","POLLNEAR","North-East Arctic","Pollock","Pollachius virens","Demersal","*",0.72,1.7,-0.0447,0.1547,-0.0546,0.1137,-0.0275,0.1339
+"144","POLLNS-VI-IIIa","IIIa, VI and North Sea","Pollock","Pollachius virens","Demersal","*",0.27,0.57,-0.0517,0.07,-0.0483,0.0784,-0.0313,0.0781
+"145","POPERCHGA","Gulf of Alaska","Pacific ocean perch","Sebastes alutus","Demersal"," ",0.3,1.16,-0.0686,0.14,-0.0901,0.0747,-0.0698,0.0853
+"146","POPERCHPCOAST","Pacific Coast","Pacific ocean perch","Sebastes alutus","Demersal"," ",0.53,0.69,-0.0429,0.0053,-0.0399,0.0194,-0.0398,0.0174
+"147","PSOLENPCOAST","Northern Pacific Coast","Petrale sole","Eopsetta jordani","Demersal"," ",0.48,1.87,-0.0293,0.0324,-0.0268,0.1124,-0.03,0.105
+"148","PSOLESPCOAST","Southern Pacific Coast","Petrale sole","Eopsetta jordani","Demersal"," ",0.27,1.13,-0.022,-0.0063,-0.0206,0.0872,-0.0226,0.1089
+"149","PTOOTHFISHPEI","South Africa Subantarctic Prince Edward Islands","Patagonian toothfish","Dissostichus eleginoides","Demersal"," ",4.88,1.81,0.0033,-0.0656,-4e-04,-0.0775,-5e-04,-0.0619
+"150","REXSOLEGA","Gulf of Alaska","Rex sole","Glyptocephalus zachirus","Demersal"," ",2.22,2.6,0.0142,5e-04,0.0147,6e-04,0.0235,0.0103
+"151","REYEROCKBSAI","Bering Sea and Aleutian Islands","Rougheye rockfish","Sebastes aleutianus","Demersal"," ",1.11,1.15,0.0088,0.002,0.014,0.0052,0,0.0021
+"152","REYEROCKGA","Gulf of Alaska","Rougheye rockfish","Sebastes aleutianus","Demersal"," ",1.47,1.64,-0.0209,0.0068,-0.0199,0.0075,-0.0207,0.0071
+"153","RPORGYSATLC","Southern Atlantic coast","Common seabream","Pagrus pagrus","Demersal"," ",0.32,0.61,-0.1179,0.0182,-0.0982,0.0594,-0.102,0.055
+"154","RSNAPEGM","Eastern Gulf of Mexico","Red snapper","Lutjanus campechanus","Demersal",NA,NA,NA,-0.1176,0.0441,-0.1101,0.0922,-0.0999,0.0612
+"155","RSNAPSATLC","Southern Atlantic coast","Red snapper","Lutjanus campechanus","Demersal"," ",0.02,0.02,-0.1215,0.0697,-0.1256,0.0321,-0.0947,0.0098
+"156","SABLEFEBSAIGA","Eastern Bering Sea / Aleutian Islands / Gulf of Alaska","Sablefish","Anoplopoma fimbria","Demersal"," ",1.28,1.05,-0.015,-0.0163,-0.0126,-0.0085,-0.0051,-0.0123
+"157","SABLEFPCOAST","Pacific Coast","Sablefish","Anoplopoma fimbria","Demersal","*",0.93,0.84,-0.0068,-0.0542,-0.0055,-0.015,-0.0089,-0.0099
+"158","SARDNPAC","North Pacific","Sardine","Sardinops sagax","Pelagic","*",0.31,1.73,0.4959,0.0867,0.4736,0.0787,0.4155,0.087
+"159","SARDPCOAST","Pacific Coast","Sardine","Sardinops sagax","Pelagic","*",NA,1.36,0.5457,0.0878,0.5053,0.0715,0.46,0.0714
+"160","SARDPVIIIc-IXa","VIIIc-IXa","European pilchard","Sardina pilchardus","Pelagic",NA,NA,NA,-0.0033,-0.0094,0.0041,-0.0044,0.0233,0.0071
+"161","SBELLYROCKPCOAST","Pacific Coast","Shortbelly rockfish","Sebastes jordani","Demersal",NA,NA,NA,-0.0181,-0.0222,-0.0249,-0.0774,-0.0245,-0.0589
+"162","SBWHITACIR","New Zealand - Campbell Island Rise","Southern blue whiting","Micromesistius australis","Demersal"," ",0.56,1.15,-0.0131,0.0447,-0.0508,0.0202,-0.0646,0.0514
+"163","SFLOUNMATLC","Mid-Atlantic Coast","Summer flounder","Paralichthys dentatus","Demersal"," ",0.18,0.72,-0.072,0.1143,-0.1371,0.0928,-0.0944,0.0943
+"164","SILVERFISHSE","Southeast Australia","Silverfish","Seriolella punctata","Demersal"," ",1.17,1.03,-0.0384,-0.0214,-0.0285,-0.0139,-0.0442,-0.0093
+"165","SKJCWPAC","Central Western Pacific","Skipjack tuna","Katsuwonus pelamis","Pelagic"," ",4,4.38,0.0184,-0.0036,0.0269,0.0099,0.0098,0.0065
+"166","SMOOTHOREOCR","Chatham Rise","Smooth oreo","Pseudocyttus maculatus","Demersal"," ",2.99,2.25,-0.0243,-0.0226,-0.0213,-0.0206,-0.0222,-0.0203
+"167","SMOOTHOREOWECR","West end of Chatham Rise","Smooth oreo","Pseudocyttus maculatus","Demersal"," ",1.59,1.25,-0.05,-0.0404,-0.0401,-0.0217,-0.0481,-0.0203
+"168","SNOWGROUPSATLC","Southern Atlantic coast","Snowy grouper","Epinephelus niveatus","Demersal"," ",0.41,0.19,-0.0824,-0.0755,-0.0779,-0.0437,-0.0707,-0.0589
+"169","SOLECS","Celtic Sea","common European sole","Solea vulgaris","Demersal","*",0.86,0.9,-0.0555,0.0275,-0.0538,0.0304,-0.048,0.0052
+"170","SOLEIS","Irish Sea","common European sole","Solea vulgaris","Demersal","*",0.67,0.36,-0.0193,-0.0333,-0.0125,-0.0201,-0.0313,-0.0399
+"171","SOLENS","North Sea","common European sole","Solea vulgaris","Demersal",NA,NA,NA,-0.0126,-0.0198,-0.0199,-0.0558,0.0058,-0.0674
+"172","SOLEVIId","Eastern English Channel","common European sole","Solea vulgaris","Demersal",NA,NA,NA,0.0207,-0.0034,0.0057,-0.009,0.0223,0.0025
+"173","SOLEVIIe","Western English Channel","common European sole","Solea vulgaris","Demersal","*",0.61,0.51,-5e-04,-0.0292,0.0082,-0.0108,-0.0034,-0.0149
+"174","SOUTHHAKECR","Chatham Rise","Southern hake","Merluccius australis","Demersal"," ",5.18,1.77,0.0102,-0.069,0.0139,-0.0648,0.0044,-0.0768
+"175","SOUTHHAKESA","Sub-Antarctic","Southern hake","Merluccius australis","Demersal"," ",5.47,2.91,0.013,-0.0495,0.0267,-0.0358,0.0103,-0.0421
+"176","SPANMACKSATLC","Southern Atlantic coast","Spanish mackerel","Scomberomorus maculatus","Pelagic"," ",0.25,0.38,-0.0388,0.0566,-0.043,0.03,-0.0373,0.0282
+"177","SPRAT22-32","Baltic Areas 22-32","Sprat","Sprattus sprattus","Pelagic","*",1.15,1.13,0.029,0.044,-0.0229,-0.0144,0.014,0.0097
+"178","SSTHORNHPCOAST","Pacific Coast","Shortspine thornyhead","Sebastolobus alascanus","Demersal"," ",1.73,1.57,-0.003,-0.0286,-0.0025,-0.0064,-0.0041,-0.0074
+"179","STFLOUNNPCOAST","Northern Pacific Coast","Starry flounder","Platichthys stellatus","Demersal"," ",4.16,1.1,0.0498,-0.0333,0.0279,-0.0815,0.0448,-0.1024
+"180","STFLOUNSPCOAST","Southern Pacific Coast","Starry flounder","Platichthys stellatus","Demersal"," ",1.79,1.55,0.019,-0.0069,0.0334,0.0246,0.0055,-0.0114
+"181","STRIPEDBASSGOMCHATT","Gulf of Maine / Cape Hatteras","Striped bass","Morone saxatilis","Demersal",NA,NA,NA,0.2426,0.0892,0.1807,0.066,0.206,0.0651
+"182","SWHITSE","Southeast Australia","School whiting","Sillago flindersi","Demersal"," ",0.99,0.66,-0.0138,-0.0461,-0.0136,-0.0446,-0.0162,-0.0265
+"183","SWORDNATL","Northern Atlantic","Swordfish","Xiphias gladius","Pelagic","*",0.91,1.03,-0.0685,-0.0018,-0.0622,0.0036,-0.0479,0.0115
+"184","TIGERFLATSE","Southeast Australia","Tiger flathead","Neoplatycephalus richardsoni","Demersal"," ",2.24,1.99,-0.0138,0.106,-0.018,-0.0038,-0.0094,-0.0086
+"185","TILESATLC","Southern Atlantic coast","Tilefish","Lopholatilus chamaeleonticeps","Demersal"," ",1.08,0.9,-0.0401,-0.0226,-0.0367,0.0017,-0.0349,-0.0075
+"186","TREVALLYTRE7","New Zealand Areas TRE 7","Trevally","Pseudocaranx dentex","Demersal"," ",1.85,1.44,-0.0211,-0.0096,-0.0223,-0.023,-0.0144,-0.0193
+"187","VSNAPGM","Gulf of Mexico","Vermilion snapper","Rhomboplites aurorubens","Demersal",NA,NA,NA,-0.0192,-0.0432,0.0152,-0.0224,-0.0077,-0.0363
+"188","VSNAPSATLC","Southern Atlantic coast","Vermilion snapper","Rhomboplites aurorubens","Demersal"," ",1.12,0.86,-0.0242,-0.0199,-0.0243,-0.0209,-0.0239,-0.0197
+"189","WEAKFISHATLC","Atlantic Coast","Weakfish","Cynoscion regalis","Demersal"," ",7.07,0.79,-0.0379,-0.1393,-0.0597,-0.1488,-0.0611,-0.1373
+"190","WHAKEGBGOM","Gulf of Maine / Georges Bank","White hake","Urophycis tenuis","Demersal"," ",0.56,0.35,0.0018,-0.0776,0.0189,-0.0266,0.0131,-0.0306
+"191","WHITNS-VIId-IIIa","IIIa, VIId and North Sea","Whiting","Merlangius merlangus","Demersal","*",0.89,0.33,-0.0428,-0.0543,-0.0464,-0.0563,-0.0557,-0.0718
+"192","WHITVIIek","Celtic Sea","Whiting","Merlangius merlangus","Demersal","*",0.79,0.44,0.1253,-0.0294,0.0679,-0.0509,0.0713,-0.0221
+"193","WINFLOUN5Z","Georges Bank","Winter flounder","Pseudopleuronectes americanus","Demersal"," ",0.33,0.28,-0.0969,0.032,-0.1025,0.0299,-0.1103,-0.0116
+"194","WINFLOUNSNEMATL","Southern New England /Mid Atlantic","Winter flounder","Pseudopleuronectes americanus","Demersal"," ",0.09,0.09,-0.1354,-0.0099,-0.1311,-0.0081,-0.1305,-0.0029
+"195","WITFLOUN5Y","Gulf of Maine","Witch flounder","Glyptocephalus cynoglossus","Demersal"," ",0.62,0.3,-0.0984,-0.0125,-0.0985,-0.0125,-0.0716,-0.048
+"196","WPOLLAI","Aleutian Islands","Walleye pollock","Theragra chalcogramma","Demersal"," ",2.23,0.86,-0.0554,-0.0938,0.0239,-0.0466,-0.0171,-0.0596
+"197","WPOLLEBS","Eastern Bering Sea","Walleye pollock","Theragra chalcogramma","Demersal"," ",1.11,0.66,0.0627,-0.033,0.0636,-0.0307,0.0491,-0.0324
+"198","WPOLLGA","Gulf of Alaska","Walleye pollock","Theragra chalcogramma","Demersal"," ",1.45,0.77,-0.0414,-0.0662,-0.0308,-0.0589,-0.0422,-0.0393
+"199","WROCKPCOAST","Pacific Coast","Widow rockfish","Sebastes entomelas","Demersal","*",0.96,0.91,-0.0248,-0.0416,-0.0202,-0.0198,-0.0217,-0.0144
+"200","YELLGB","Georges Bank","Yellowtail flounder","Limanda ferruginea","Demersal"," ",0.1,0.22,-0.0742,0.072,-0.0947,0.0462,-0.0664,0.0504
+"201","YELLSNEMATL","Southern New England /Mid Atlantic","Yellowtail flounder","Limanda ferruginea","Demersal"," ",0.06,0.13,-0.1046,-0.0357,-0.0497,0.0334,-0.1027,0.0476
+"202","YEYEROCKPCOAST","Pacific Coast","Yelloweye rockfish","Sebastes ruberrimus","Demersal","*",0.66,0.38,-0.018,-0.1088,-0.0138,-0.0268,-0.021,-0.0297
+"203","YFINATL","Atlantic","Yellowfin tuna","Thunnus albacares","Pelagic"," ",1.79,1.07,-0.0065,-0.0358,-0.0077,-0.0382,-0.0178,-0.037
+"204","YFINCWPAC","Central Western Pacific","Yellowfin tuna","Thunnus albacares","Pelagic"," ",2.38,1.22,-0.0125,-0.0549,-0.0136,-0.0628,-0.0094,-0.0513
+"205","YFINEPAC","Northeast Pacific","Yellowfin tuna","Thunnus albacares","Pelagic",NA,NA,NA,0.0389,-0.0084,0.0307,-0.0166,-0.0067,-0.0204
+"206","YSOLEBSAI","Bering Sea and Aleutian Islands","Yellowfin sole","Limanda aspera","Demersal"," ",2.5,1.94,0.099,-0.0365,0.1065,-0.018,0.0789,-0.016
+"207","YTROCKNPCOAST","Northern Pacific Coast","Yellowtail rockfish","Sebastes flavidus","Demersal"," ",1.45,1.36,-0.0224,0.0053,-0.0229,0.004,-0.0176,-0.0049

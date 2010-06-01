@@ -1,0 +1,32 @@
+require(RODBC)
+require(xtable)
+
+chan<- odbcConnect(dsn="srdbcalo")
+
+qu <- paste("
+SELECT
+m.country,
+m.managementauthority,
+m.mgmt,
+count(*) as nassess
+FROM
+srdb.management m,
+srdb.assessor aa,
+srdb.assessment a
+WHERE
+a.assessorid = aa.assessorid AND
+m.mgmt = aa.mgmt AND
+a.recorder != 'MYERS' AND
+a.assess=1
+GROUP BY 
+m.country,
+m.managementauthority,
+m.mgmt
+ORDER BY 
+m.country
+",sep="")
+
+table1.data <- sqlQuery(chan,qu)
+
+
+odbcClose(chan)

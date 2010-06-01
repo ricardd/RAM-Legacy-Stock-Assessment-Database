@@ -1,0 +1,105 @@
+\section*{Tables}
+
+%\noindent Number of assessments included in the RAM Legacy database by
+%country and ocean basin, with associated national management bodies
+%and regional fisheries management organizations (RFMOs).\\
+
+\begin{table}
+\caption{Number of assessments included in the RAM Legacy database by
+country and ocean basin, with associated national management bodies
+and regional fisheries management organizations (RFMOs).}
+\begin{tabular}{| l | p{7cm} | l | r |}\label{tab:mgmt}
+\textit{Country/Ocean} & \textit{Management Body} & \textit{Acronym} & \textit{No. stocks} \\
+\hline \hline
+Argentina & Consejo Federal Pesquero & CFP & 6 \\ \hline
+Australia & Australian Fisheries Management Authority & AFMA & 16 \\ \hline
+Canada & Department of Fisheries and Oceans & DFO & 22 \\ \hline
+Europe & International Council for the Exploration of the Sea & ICES & 63 \\ \hline
+New Zealand & Ministry of Fisheries & MFish & 29 \\ \hline
+Russia & Russian Federal Fisheries Agency & RFFA & 2 \\ \hline
+South Africa & Department of Environment and Tourism, Marine and Coastal Management & DETMCM & 14 \\ \hline
+USA & National Marine Fisheries Service & NMFS & 137 \\ \hline
+USA & US state-level management & US State & 3 \\ \hline
+Atlantic Ocean & International Commission for the Conservation of Atlantic Tunas & ICCAT & 10 \\ \hline
+ & Northwest Atlantic Fisheries Organization & NAFO & 8 \\ \hline
+Indian Ocean & Indian Ocean Tuna Commission & IOTC & 1 \\ \hline
+Pacific Ocean & Inter-American Tropical Tuna Commission & IATTC & 2 \\ \hline
+ & International Pacific Halibut Commission & IPHC & 1 \\ \hline
+ & South Pacific Regional Fisheries Management Organization & SPRFMO & 1 \\ \hline
+ & Western and Central Pacific Fisheries Commission & WCPFC & 4 \\ \hline
+Antarctic & Commission for the Conservation of Antarctic Marine Living Resources & CCAMLR & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+%\noindent The world's forty largest wild-caught fisheries (comprising
+%less than 41\% of total global catches, based on average catches
+%1995-2004 in SAUP database), and the thirty largest fisheries of
+%individual stocks (i.e. fisheries identified to the species level;
+%comprising more than 32\% of total global catches), including their
+%LME, whether or not stock assessments for them are included in the RAM
+%Legacy database, and the reason if not included (e.g. 1= no known
+%assessment, 2=assessment is not based on a population dynamics model,
+%3=assessment inaccessible).
+
+%\begin{table}
+\begin{longtable}{p{2cm} | p{2cm} | p{5cm} | l | p{2cm} | p{2cm}}
+\textit{Stock Rank} & \textit{Stock Number} & \textit{Species (Common name, Latin name) or higher taxonomic unit} & \textit{LME} & \textit{In Database?} & \textit{Reason if not included} \endhead
+\hline
+1 & 1& Peruvian anchoveta, \textit{Engraulis ringens} & Humboldt Current & N & 3\\
+ & 2& Marine fishes not identified & South China Sea & N & 1\\
+ & 3& Marine fishes not identified & Bay of Bengal & N & 1\\ \hline
+2 & 4& Alaska pollock, \textit{Theragra chalcogramma} & Okhotsk Sea & Y & \\ \hline
+3 & 5& \textit{Ammodytes} & North Sea & Y & \\ \hline
+4 & 6& Atlantic herring, \textit{Clupea harengus} & Norwegian Sea & Y & \\ \hline
+5 & 7& Alaska pollock, \textit{Theragra chalcogramma} & East Bering Sea & Y & \\ \hline
+6 & 8& Capelin, \textit{Mallotus villosus} & Iceland Shelf/Sea & Y & \\ \hline
+7 & 9& European pilchard, \textit{Sardina pilchardus} & Canary Current & Y & \\ \hline
+8 & 10& Japanese anchovy, \textit{Engraulis japonicus} & East China Sea & N & 3\\ \hline
+9 & 11& Inca scad, \textit{Trachurus murphyi} & Humboldt Current & Y & \\ \hline
+ & 12& Marine fishes not identified & East China Sea & N & 1\\ \hline
+10 & 13& Gulf menhaden, \textit{Brevoortia patronus} & Gulf of Mexico & Y & \\ 
+ & 14& Marine fishes not identified & Yellow Sea & N & 1\\
+ & 15& Marine fishes not identified & Indonesian Sea & N & 1\\ \hline
+11 & 16& Alaska pollock, \textit{Theragra chalcogramma} & Gulf ofAlaska & Y & \\ \hline
+12 & 17& Argentinean short-finned squid, \textit{Illex argentinus} & Patagonian Shself & N & 1\\ \hline
+13 & 18& Argentine hake, \textit{Merluccius hubbsi} & Patagonian Shelf & Y & \\ \hline
+14 & 19& Japanese anchovy, \textit{Engraulis japonicus} & South China Sea & N & 1\\ \hline
+15 & 20& Araucanian herring, \textit{Strangomera bentincki} & Humboldt Current & & \\ \hline
+16 & 21& Atlantic cod, \textit{Gadus morhua} & Barents Sea & Y & \\ \hline
+17 & 22& European sprat, \textit{Sprattus sprattus} & Baltic Sea & Y & \\ \hline
+18 & 23& Atlantic herring, \textit{Clupea harengus} & North Sea & Y & \\ \hline
+19 & 24& Alaska pollock, \textit{Theragra chalcogramma} & Arctic Ocean & & \\ \hline
+ & 25& Marine fishes not identified & Gulf of Thailand & & \\
+20 & 26& Atlantic herring, \textit{Clupea harengus} & Baltic Sea & Y & \\ \hline
+21 & 27& Cape horse mackerel, \textit{Trachurus capensis} & Benguela Current & Y & \\ \hline
+22 & 28& Largehead hairtail, \textit{Trichiurus lepturus} & East China Sea & & \\ \hline
+23 & 29& Japanese anchovy, \textit{Engraulis japonicus} & Yellow Sea & & \\ \hline
+24 & 30& European anchovy, \textit{Engraulis encrasicolus} & Black Sea & & \\ \hline
+25 & 31& Chub mackerel, \textit{Scomber japonicus} & East China Sea & & \\ \hline
+26 & 32& Indian oil sardine, \textit{Sardinella longiceps} & Arabian Sea & N & 1\\ \hline
+ & 33& \textit{Decapterus} & South China Sea & & \\
+ & 34& \textit{Sciaenidae} & Arabian Sea & & \\
+27 & 35& Atlantic mackerel, \textit{Scomber scombrus} & North Sea & & \\ \hline
+28 & 36& Largehead hairtail, \textit{Trichiurus lepturus} & Yellow Sea & & \\ \hline
+ & 37& \textit{Merluccius} & Benguela Current & & \\
+ & 38& Marine fishes not identified & Kuroshio Current & & \\
+29 & 39& Alaska pollock, \textit{Theragra chalcogramma} & Sea of Japan & & \\ \hline
+30 & 40& Round sardinella, \textit{Sardinella aurita} & Canary Current & & \\ \hline
+\caption{The world's forty largest wild-caught fisheries (comprising
+  less than 41\% of total global catches, based on average catches
+  1995-2004 in SAUP database), and the thirty largest fisheries of
+  individual stocks (i.e. fisheries identified to the species level;
+  comprising more than 32\% of total global catches), including their
+  LME, whether or not stock assessments for them are included in the
+  RAM Legacy database, and the reason if not included (e.g. 1= no
+  known assessment, 2=assessment is not based on a population dynamics
+  model, 3=assessment inaccessible).}
+\label{tab:worldfisheries}
+\end{longtable}
+%\end{tabular}
+%\end{table}
+
+
+
+
+

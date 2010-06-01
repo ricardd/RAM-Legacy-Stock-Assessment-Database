@@ -1,0 +1,1 @@
+../spreadsheets/Fulton-east-ling-australia-2007_v2-editedDR.log:psql:../spreadsheets/Fulton-east-ling-australia-2007_v2-editedDR.sql:2: ERROR:  insert or update on table "assessment" violates foreign key constraint "assessment_stockid_fkey"

@@ -1,0 +1,142 @@
+tsn,sciname,kingdom,phylum,class,order,family,genus,species,myersname,commonname1,commonname2
+550561,Anarhichas denticulatus,Animalia,Chordata,Actinopterygii,Perciformes,Anarhichadidae,Anarhichas,denticulatus,NWOLF,Northern wolffish,
+171342,Anarhichas minor,Animalia,Chordata,Actinopterygii,Perciformes,Anarhichadidae,Anarhichas,minor,SPWOLF,Spotted wolffish,
+171341,Anarhichas lupus,Animalia,Chordata,Actinopterygii,Perciformes,Anarhichadidae,Anarhichas,lupus,STRWOLF,Striped wolffish,
+167123,Anoplopoma fimbria,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Anoplopoma,fimbria,SABLEF,Sablefish,
+172750,Scophthalmus maeoticus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus,maeoticus,TURBOT,Black Sea turbot,
+168598,Trachurus capensis,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,capensis,CTRAC,Cape horse mackerel,
+168590,Trachurus mediterraneus,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,mediterraneus,MTRAC,Mediterranean horse mackerel,
+168586,Trachurus symmetricus,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,symmetricus,STRAC,Pacific jack mackerel,South Pacific horse mackerel
+168588,Trachurus trachurus,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Trachurus,trachurus,TRAC,Horse mackerel,Atlantic horse mackerel
+642743,Champsocephalus gunnari,Animalia,Chordata,Actinopterygii,Perciformes,Channichthyidae,Champsocephalus,gunnari,CGUN,Mackerel icefish,
+642960,Pseudochaenichthys georgianus,Animalia,Chordata,Actinopterygii,Perciformes,Channichthyidae,Pseudochaenichthys,georgianus,PSGEOR,South Georgia icefish,
+161703,Alosa aestivalis,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,aestivalis,ALOSA,Blueback shad,Blueback herring
+551288,Alosa kessleri,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,kessleri,ALOSK,Caspian anadromous shad,Black sea shad
+161732,Brevoortia tyrannus,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Brevoortia,tyrannus,MENAT,Atlantic menhaden,
+161734,Brevoortia patronus,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Brevoortia,patronus,MENGF,Gulf menhaden,
+161722,Clupea harengus,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,harengus,HERR,Herring
+551209,Clupea pallasii,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea,pallasii,PHERR,Pacific herring
+161813,Sardina pilchardus,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardina,pilchardus,SARDP,European pilchard,Spanish sardine,,,
+572698,Sardinella janeiro,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardinella,janeiro,SARDJ,Brazilian sardinella,Brazilian sardine,,,
+161729,Sardinops sagax,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardinops,sagax,SARD,Sardine
+161789,Sprattus sprattus,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sprattus,sprattus,SPRAT,Sprat
+692068,Scorpaenichthys marmoratus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Scorpaenichthys,marmoratus,CABEZ,Cabezon
+551435,Coilia dussumieri,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Coilia,dussumieri,GANCHO,Goldspotted grenadier anchovy
+161831,Engraulis encrasicolus,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,encrasicolus,ANCHO,Anchovy,European anchovy,,,
+161828,Engraulis mordax,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,mordax,NANCHO,Northern anchovy,Californian anchovy,,,
+551340,Engraulis ringens,Animalia,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,ringens,PEANCHO,Peruvian anchoveta,Anchoveta,,,
+164712,Gadus morhua,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Gadus,morhua,COD,Atlantic cod
+164711,Gadus macrocephalus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Gadus,macrocephalus,PCOD,Pacific cod
+164744,Melanogrammus aeglefinus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Melanogrammus,aeglefinus,HAD,Haddock
+164758,Merlangius merlangus,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Merlangius,merlangus,WHIT,Whiting
+164774,Micromesistius poutassou,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Micromesistius,poutassou,BWHIT,Blue whiting
+164775,Micromesistius australis,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Micromesistius,australis,SBWHIT,Southern blue whiting,
+164727,Pollachius virens,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Pollachius,virens,POLL,Pollock,Saithe
+164722,Theragra chalcogramma,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Theragra,chalcogramma,WPOLL,Walleye pollock,
+164756,Trisopterus esmarkii,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Trisopterus,esmarkii,NPOUT,Norway Pout,
+167120,Pleurogrammus monopterygius,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Pleurogrammus,monopterygius,ATKA,Atka mackerel,
+159911,Lamna nasus,Animalia,Chordata,Chondrichthyes,Lamniformes,Lamnidae,Lamna,nasus,PORB,Porbeagle,
+164499,Lophius americanus,Animalia,Chordata,Actinopterygii,Lophiiformes,Lophiidae,Lophius,americanus,LOPHA,Monkfish,Goosefish
+164502,Lophius budegassa,Animalia,Chordata,Actinopterygii,Lophiiformes,Lophiidae,Lophius,budegassa,LOPHB,Black anglerfish,Black-bellied angler
+164501,Lophius piscatorius,Animalia,Chordata,Actinopterygii,Lophiiformes,Lophiidae,Lophius,piscatorius,LOPHP,Angler,Monkfish
+164740,Brosme brosme,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Brosme,brosme,CUSK,Cusk,Torsk
+164761,Molva dypterygia,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Molva,dypterygia,BLING,Blue ling,
+164760,Molva molva,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Molva,molva,LING,Ling,
+168860,Lutjanus synagris,Animalia,Chordata,Actinopterygii,Perciformes,Lutjanidae,Lutjanus,synagris,LSNAP,Lane snapper,Silk snapper
+168853,Lutjanus campechanus,Animalia,Chordata,Actinopterygii,Perciformes,Lutjanidae,Lutjanus,campechanus,RSNAP,Red snapper,
+165421,Macrourus berglax,Animalia,Chordata,Actinopterygii,Gadiformes,Macrouridae,Macrourus,berglax,RGHGRN,Roughhead grenadier,
+164798,Merluccius capensis,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,capensis,CHAKE,Shallow-water cape hake,South African hake
+164795,Merluccius merluccius,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,merluccius,HAKE,Hake,European hake
+164799,Merluccius gayi,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,gayi,PEHAKE,Peruvian hake,
+164792,Merluccius productus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,productus,PHAKE,Pacific hake,North Pacific hake
+164791,Merluccius bilinearis,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,bilinearis,SHAKE,Silver Hake,
+642916,Patagonotothen guntheri,Animalia,Chordata,Actinopterygii,Perciformes,Nototheniidae,Patagonotothen,guntheri,PATAG,Yellowfin notothen,
+642852,Gobionotothen gibberifrons,Animalia,Chordata,Actinopterygii,Perciformes,Nototheniidae,Gobionotothen,gibberifrons,GOBIO,Humped rockcod ,
+642886,Lepidonotothen squamifrons,Animalia,Chordata,Actinopterygii,Perciformes,Nototheniidae,Lepidonotothen,squamifrons,LEPSQ,Grey rockcod,
+171105,Notothenia rossii,Animalia,Chordata,Actinopterygii,Perciformes,Nototheniidae,Notothenia,rossii,NOTOR,Marbled rockcod,
+162035,Mallotus villosus,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Mallotus,villosus,CAPE,Capelin,
+172735,Paralichthys dentatus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,dentatus,SFLOUN,Summer flounder,
+645441,Pseudopentaceros wheeleri,Animalia,Chordata,Actinopterygii,Perciformes,Pentacerotidae,Pseudopentaceros,wheeleri,PAHEAD,Pelagic armorhead,
+164730,Urophycis chuss,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Urophycis,chuss,RHAKE,Red hake,
+164732,Urophycis tenuis,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Urophycis,tenuis,WHAKE,White hake,
+172868,Eopsetta jordani,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Eopsetta,jordani,PSOLE,Petrale sole,
+172873,Glyptocephalus cynoglossus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Glyptocephalus,cynoglossus,WITFLOUN,Witch flounder,
+172877,Hippoglossoides platessoides,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Hippoglossoides,platessoides,AMPL,American plaice,
+616041,Hippoglossoides dubius,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Hippoglossoides,dubius,FLFLOUN,Flathead flounder,
+172932,Hippoglossus stenolepis,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Hippoglossus,stenolepis,PHAL,Pacific halibut,
+172917,Lepidopsetta bilineata,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Lepidopsetta,bilineata,RSOLE,Rock sole,
+172881,Limanda limanda,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Limanda,limanda,DAB,Common dab,
+172911,Limanda proboscidea,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Limanda,proboscidea,LHDAB,Longhead dab,
+616064,Limanda sakhalinensis,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Limanda,sakhalinensis,SAKFLOUN,Sakalin flounder,
+172909,Limanda ferruginea,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Limanda,ferruginea,YELL,Yellowtail flounder,
+172907,Limanda aspera,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Limanda,aspera,YSOLE,Yellowfin sole,
+172921,Parophrys vetulus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Parophrys,vetulus,ESOLE,English sole,
+172894,Platichthys flesus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Platichthys,flesus,FLOUN,Flounder,
+172893,Platichthys stellatus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Platichthys,stellatus,STFLOUN,Starry flounder,
+172901,Pleuronectes quadrituberculatus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronectes,quadrituberculatus,ALPLAIC,Alaska plaice,
+172902,Pleuronectes platessa,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pleuronectes,platessa,PLAIC,Plaice,
+172905,Pseudopleuronectes americanus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Pseudopleuronectes,americanus,WINFLOUN,Winter flounder,
+172930,Reinhardtius hippoglossoides,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Reinhardtius,hippoglossoides,GHAL,Greenland halibut ,
+168559,Pomatomus saltatrix,Animalia,Chordata,Actinopterygii,Perciformes,Pomatomidae,Pomatomus,saltatrix,BLUEFISH,Bluefish,
+564149,Amblyraja radiata,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Amblyraja,radiata,THSKAT,Thorny skate,,,
+564139,Dipturus laevis,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Dipturus,laevis,BSKAT,Barndoor skate,,,
+564130,Leucoraja erinacea,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Leucoraja,erinacea,LSKAT,Little skate,,,
+564136,Leucoraja garmani,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Leucoraja,garmani,RSKAT,Rosette skate,Freckled skate,,
+564145,Leucoraja ocellata,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Leucoraja,ocellata,WSKAT,Winter skate,,,
+564151,Malacoraja senta,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Malacoraja,senta,SSKAT,Smooth skate,,,
+160855,Raja eglanteria,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Raja,eglanteria,CSKAT,Clearnose skate,,,
+172412,Scomber japonicus,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomber,japonicus,CMACK,Chub mackerel,,,
+172414,Scomber scombrus,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomber,scombrus,MACK,Mackerel,Atlantic mackerel,,
+172435,Scomberomorus cavalla,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomberomorus,cavalla,KMACK,King Mackerel,,,
+172419,Thunnus alalunga,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus,alalunga,ALBA,Albacore tuna,,,
+172421,Thunnus thynnus,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus,thynnus,ATBTUNA,Atlantic bluefin tuna,Northern bluefin tuna,,
+172428,Thunnus obesus,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus,obesus,BIGEYE,Bigeye tuna,,,
+172431,Thunnus maccoyii,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus,maccoyii,SBTUNA,Southern bluefin tuna,,,
+172423,Thunnus albacares,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus,albacares,YFIN,Yellowfin tuna,,,
+172834,Lepidorhombus boscii,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Lepidorhombus,boscii,FMEG,Fourspotted megrim,,,
+172835,Lepidorhombus whiffiagonis,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Lepidorhombus,whiffiagonis,MEG,Megrim,,,
+172746,Scophthalmus aquosus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Scophthalmidae,Scophthalmus,aquosus,WINDOW,Windowpane,,,
+166827,Scorpaena guttata,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,guttata,CALSCORP,California scorpionfish,,,
+166783,Sebastolobus alascanus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastolobus,alascanus,THORNH,Shortspine thornyhead,,,
+166774,Sebastes fasciatus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,fasciatus,ACADRED,Acadian redfish,Redfish,,
+166733,Sebastes paucispinis,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,paucispinis,BOCACC,Bocaccio,,,
+166722,Sebastes goodei,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,goodei,CHILI,Chilipepper rockfish,Chilipepper,,
+166754,Sebastes levis,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,levis,COWCOD,Cowcod,,,
+166715,Sebastes crameri,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,crameri,DKROCK,Darkblotched rockfish,,,
+166767,Sebastes carnatus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,carnatus,GOPHER,Gopher rockfish,,,
+166707,Sebastes alutus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,alutus,POPERCH,Pacific ocean perch,,,
+167862,Serranus scriba,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Serranus,scriba,REDMAR,Ocean perch,Redfish,,
+166756,Sebastes mentella,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,mentella,REDMEN,Deepwater redfish,Redfish,,
+166729,Sebastes miniatus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,miniatus,VERMIL,Vermilion rockfish,,,
+166719,Sebastes entomelas,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,entomelas,WROCK,Widow rockfish,,,
+173002,Solea solea,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Soleidae,Solea,solea,SOLE,Sole,Common sole,,
+647939,Dentex tumifrons,Animalia,Chordata,Actinopterygii,Perciformes,Sparidae,Dentex,tumifrons,YSBREAM,Yellowback seabream,Yellow sea bream
+169231,Chrysophrys auratus,Animalia,Chordata,Actinopterygii,Perciformes,Sparidae,Chrysophrys,auratus,NZSNAP,New Zealand snapper,Snapper
+169207,Pagrus pagrus,Animalia,Chordata,Actinopterygii,Perciformes,Sparidae,Pagrus,pagrus,RPORGY,Common seabream,Red porgy
+647892,Pagrus major,Animalia,Chordata,Actinopterygii,Perciformes,Sparidae,Pagrus,major,SBREAM,Red seabream,Sea bream
+169182,Stenotomus chrysops,Animalia,Chordata,Actinopterygii,Perciformes,Sparidae,Stenotomus,chrysops,SCUP,Scup,
+172482,Xiphias gladius,Animalia,Chordata,Actinopterygii,Perciformes,Xiphiidae,Xiphias,gladius,SWO,Swordfish,
+630979,Zoarces americanus,Animalia,Chordata,Actinopterygii,Perciformes,Zoarcidae,Zoarces,americanus,OPOUT,Ocean pout,
+162064,Argentina silus,Animalia,Chordata,Actinopterygii,Osmeriformes,Argentinidae,Argentina,silus,ARGEN,Atlantic argentine,
+162144,Esox masquinongy,Animalia,Chordata,Actinopterygii,Esociformes,Esocidae,Esox,masquinongy,MASKINOGIES,Maskinonge,
+162139,Esox lucius,Animalia,Chordata,Actinopterygii,Esociformes,Esocidae,Esox,lucius,PIKE,Pike,
+162041,Osmerus mordax,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Osmerus,mordax,RBSMELT,Rainbow smelt,
+162027,Plecoglossus altivelis,Animalia,Chordata,Actinopterygii,Osmeriformes,Osmeridae,Plecoglossus,altivelis,AYU,Ayu,
+161996,Salmo salar,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salmo,salar,ASAL,Atlantic salmon,
+623394,Coregonus hoyi,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Coregonus,hoyi,BLO,Bloater,
+161997,Salmo trutta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salmo,trutta,BRNTRO,Brown Trout,
+162003,Salvelinus fontinalis,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salvelinus,fontinalis,BTRO,Freshwater brook trout,
+161980,Oncorhynchus tshawytscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,tshawytscha,CHNK,Chinook salmon,,,
+161976,Oncorhynchus keta,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,keta,CHUM,Chum salmon,,RED,Redfish
+161977,Oncorhynchus kisutch,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,kisutch,COHO,Coho salmon,,,
+162002,Salvelinus namaycush,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salvelinus,namaycush,LTRO,Lake trout,,,
+161941,Coregonus clupeaformis,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Coregonus,clupeaformis,LWHFSH,Lake Whitefish,,,
+161975,Oncorhynchus gorbuscha,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,gorbuscha,PINK,Pink salmon,,,
+161979,Oncorhynchus nerka,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,nerka,SOCK,Sockeye salmon,,,
+161989,Oncorhynchus mykiss,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,mykiss,STRO,Steelhead trout,,,
+161963,Coregonus albula,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Coregonus,albula,VENDACE,Vendace,,,
+161950,Coregonus lavaretus,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Coregonus,lavaretus,WHFSH,Whitefish,,,
+,
+,
+,
+,

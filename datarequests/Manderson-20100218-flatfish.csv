@@ -1,0 +1,47 @@
+mgmt,stockid,stocklong,assessorfull,assessid
+DFO,AMPL23K,American Plaice NAFO-23K,Department of Fisheries and Oceans - Newfoundland Region,DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE
+DFO,AMPL3Ps,American Plaice NAFO-3Ps,Department of Fisheries and Oceans - Newfoundland Region,DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE
+DFO,ESOLEHS,English sole Hecate Strait,Department of Fisheries and Oceans - Pacific Region,DFO-PAC-ESOLEHS-1944-2001-COLLIE
+DFO,RSOLEHSTR,Rock sole Hecate Strait,Department of Fisheries and Oceans - Pacific Region,DFO-PAC-RSOLEHSTR-1945-2001-COLLIE
+DFO,GHAL4RST,Greenland halibut NAFO 4RST,Department of Fisheries and Oceans - Quebec Region,DFO-QUE-GHAL4RST-1970-2002-PREFONTAINE
+ICES,GHALNEAR,Greenland halibut Northeast Arctic,Arctic Fisheries Working Group,AFWG-GHALNEAR-1959-2007-JENNINGS
+ICES,PLAICIS,European Plaice Irish Sea,Working Group on the Assessment of Northern Shelf Demersal Stocks,WGNSDS-PLAICIS-1962-2006-MINTO
+ICES,PLAICNS,European Plaice North Sea,Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak,WGNSSK-PLAICNS-1956-2006-MINTO
+ICES,PLAIC7d,European Plaice ICES VIId,Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak,WGNSSK-PLAIC7d-1979-2006-MINTO
+ICES,PLAICIIIa,European Plaice ICES IIIa,Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak,WGNSSK-PLAICIIIa-1976-2006-MINTO
+ICES,PLAICECHW,European Plaice ICES VIIe,Working Group on the Assessment of Southern Shelf Demersal Stocks,WGSSDS-PLAICECHW-1975-2006-JENNINGS
+ICES,PLAICCELT,European Plaice ICES VIIf-g,Working Group on the Assessment of Southern Shelf Demersal Stocks,WGSSDS-PLAICCELT-1976-2006-JENNINGS
+IPHC,PHALNPAC,Pacific halibut North Pacific,International Pacific Halibut Commission,IPHC-PHALNPAC-1988-2009-Parma
+NAFO,GHAL01ABCDEF,Greenland halibut NAFO 01ABCDEF,NAFO Scientific Council,NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE
+NAFO,GHAL23KLMNO,Greenland halibut NAFO 23KLMNO,NAFO Scientific Council,NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE
+NAFO,YELL3LNO,Yellowtail Flounder NAFO 3LNO,NAFO Scientific Council,NAFO-SC-YELL3LNO-1960-2009-BAUM
+NAFO,AMPL3M,American Plaice NAFO-3M,NAFO Scientific Council,NAFO-SC-AMPL3M-1960-2007-BAUM
+NAFO,AMPL3LNO,American Plaice NAFO-3LNO,NAFO Scientific Council,NAFO-SC-AMPL3LNO-1955-2007-BAUM
+NMFS,NRSOLEEBSAI,Northern rock sole Eastern Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-NRSOLEEBSAI-1971-2008-STANTON
+NMFS,ARFLOUNDBSAI,Arrowtooth flounder Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-ARFLOUNDBSAI-1970-2008-STANTON
+NMFS,ALPLAICBSAI,Alaska plaice Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK
+NMFS,YSOLEBSAI,Yellowfin sole Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-YSOLEBSAI-1959-2008-MELNYCHUK
+NMFS,FLSOLEBSAI,Flathead sole Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-FLSOLEBSAI-1977-2008-STANTON
+NMFS,GHALBSAI,Greenland turbot Bering Sea and Aleutian Islands,Alaska Fisheries Science Center,AFSC-GHALBSAI-1960-2009-STANTON
+NMFS,ARFLOUNDGA,Arrowtooth flounder Gulf of Alaska,Alaska Fisheries Science Center,AFSC-ARFLOUNDGA-1958-2010-STANTON
+NMFS,FLSOLEGA,Flathead sole Gulf of Alaska,Alaska Fisheries Science Center,AFSC-FLSOLEGA-1978-2008-STANTON
+NMFS,REXSOLEGA,Rex sole Gulf of Alaska,Alaska Fisheries Science Center,AFSC-REXSOLEGA-1979-2008-STANTON
+NMFS,DSOLEGA,Dover sole Gulf of Alaska,Alaska Fisheries Science Center,AFSC-DSOLEGA-1978-2010-STANTON
+NMFS,WINFLOUND5Y,Winter Flounder NAFO-5Y,Northeast Fisheries Science Center,NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE
+NMFS,WINFLOUN5Z,Winter Flounder NAFO-5Z,Northeast Fisheries Science Center,NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON
+NMFS,ATHAL5YZ,Atlantic Halibut NAFO-5YZ,Northeast Fisheries Science Center,NEFSC-ATHAL5YZ-1800-2007-COL
+NMFS,YELLCCODGOM,Yellowtail flounder Cape Cod / Gulf of Maine,Northeast Fisheries Science Center,NEFSC-YELLCCODGOM-1935-2008-LEGAULT
+NMFS,AMPL5YZ,American Plaice NAFO-5YZ,Northeast Fisheries Science Center,NEFSC-AMPL5YZ-1960-2008-OBRIEN
+NMFS,YELLGB,Yellowtail flounder Georges Bank,Northeast Fisheries Science Center,NEFSC-YELLGB-1935-2008-BAUM
+NMFS,WITFLOUN5Y,Witch Flounder NAFO-5Y,Northeast Fisheries Science Center,NEFSC-WITFLOUN5Y-1982-2008-WIGLEY
+NMFS,WINFLOUNSNEMATL,Winter Flounder Southern New England-Mid Atlantic,Northeast Fisheries Science Center,NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO
+NMFS,YELLSNEMATL,Yellowtail Flounder Southern New England-Mid Atlantic,Northeast Fisheries Science Center,NEFSC-YELLSNEMATL-1935-2008-BAUM
+NMFS,PSOLENPCOAST,Petrale sole Northern Pacific Coast, Northwest Fisheries Science Center,NWFSC-PSOLENPCOAST-1910-2005-STANTON
+NMFS,ESOLEPCOAST,English sole Pacific Coast, Northwest Fisheries Science Center,NWFSC-ESOLEPCOAST-1876-2007-BRANCH
+NMFS,PSOLESPCOAST,Petrale sole Southern Pacific Coast, Northwest Fisheries Science Center,NWFSC-PSOLESPCOAST-1874-2005-STANTON
+NMFS,ARFLOUNDPCOAST,Arrowtooth flounder Pacific Coast, Northwest Fisheries Science Center,NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH
+NMFS,STFLOUNSPCOAST,Starry flounder Southern Pacific Coast, Southwest Fisheries Science Center,SWFSC-STFLOUNSPCOAST-1970-2005-STANTON
+NMFS,DSOLEPCOAST,Dover sole Pacific Coast, Southwest Fisheries Science Center,SWFSC-DSOLEPCOAST-1910-2005-STANTON
+NMFS,STFLOUNNPCOAST,Starry flounder Northern Pacific Coast, Southwest Fisheries Science Center,SWFSC-STFLOUNNPCOAST-1970-2005-STANTON
+US State,WINFLOUNDRI,Winter flounder Rhode Island,Rhode Island Department of Environmental Management,RIDEM-WINFLOUNDRI-1959-2007-COLLIE
+(45 rows)

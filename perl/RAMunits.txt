@@ -1,0 +1,817 @@
+Salvelinus fontinalis 	 Hunt Creek, Michigan 	 Number of Eggs 	 Number of Fry 	 .  
+Merlangius merlangus 	 Western Black Sea 	 Thousand tonnes 	 Billions 	 Tonnes 
+Oncorhynchus nerka  	 Chilko Lake, B.C.  	 Million of Eggs  	 Millions of Fry  	 . 
+Perca flavescens 	 Kabegogama Lake, Minnesota 	 . 	 index 	 .  
+Abramis brama 	 Lake Tjeukemeer, the Netherlands 	 Numbers per Tow 	 Numbers per Tow 	 .  
+Stizostedion lucioperca 	 Lake Ijssel, the Netherlands 	 kg/ha 	 numbers per 10 min trawl 	 .  
+Sardinops sagax 	 Sea of Japan 	 Ten thousand tonnes 	 Thousand millions 	 . 
+Perca fluviatilis 	 Lake Constance 	 . 	 Millions 	 .  
+Salvelinus fontinalis 	 Hell Diver 3 Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Oncorhynchus keta 	 Central Coast, B.C. 	 Thousands fish 	 Thousands 	 .  
+Oncorhynchus keta 	 Hooknose Creek, B.C. 	 Thousands of eggs 	 Hundreds of fry 	 .  
+Salmo salar 	 Conne River, Nfld, CA 	 millions of eggs 	 thousands of smolt 	 .  
+Clupea harengus 	 Newfoundland(I) 	 .  	 .  	 .  
+Mallotus villosus 	 SA2 + Div. 3KL 	 Index 	 Index 	 . 
+Oncorhynchus nerka  	 Fraser River, B.C. 	 Thousand fish 	 . 	 . 
+Stizostedion vitreum 	 Lake Winnibigoshish, Minnesota 	 . 	 index 	 .  
+Melanogrammus aeglefinus 	 Faroe Plateau 	 Tonnes 	 Thousands 	 Tonnes 
+Perca flavescens 	 Savanne Lake, Ontario 	 . 	 Median number of fish per hectare 	 .  
+Mallotus villosus 	 Barents Sea 	 Thousand tonnes 	 Thousands of billions 	 Thousand tonnes 
+Merlangius merlangus 	 Irish Sea 	 Tonnes 	 Millions 	 Tonnes 
+Salmo salar 	 Exploits River, Bishop's Falls, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Decapterus rhonchus 	 N.W. Africa (CECAF 34.1.3-34.3.1) 	 . 	 Millions 	 Thousands tonnes 
+Salmo salar 	 Shelligan Burn, Section D, Scotland 	 Numbers of fry per m^2 	 Numbers of 1 year olds per m^2 	 .  
+Alosa kessleri  	 Black Sea 	 Tonnes  	 Millions 	 Tonnes  
+Oncorhynchus nerka 	 Tahltan Lake, B.C. 	 Numbers of fish 	 Numbers of smolts 	 .  
+Gadus morhua 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Merluccius bilinearis 	 NAFO 5Ze 	 Thousand tonnes 	 Millions 	 .  
+Clupea harengus 	 Newfoundland(AB) 	 .  	 .  	 .  
+Oncorhynchus kisutch 	 Shale Creek, Washington 	 . 	 Smolts 	 .  
+Pleuronectes platessa 	 Celtic Sea  	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha  	 Kitimat, B.C.  	 Fish 	 Fish 	 Fish 
+Morone chrysops 	 Western Lake Erie 	 . 	 number per hour 	 .  
+Stizostedion canadense 	 Lake Kabetogama, Minnesota 	 . 	 index 	 .  
+Oncorhynchus gorbuscha  	 Burke, B.C.  	 Fish 	 Fish 	 Fish 
+Promoxis annularis and nigromaculatus 	 Nimrod Reservoir, Arkansas 	 Number per hectare 	 Number per hectare 	 . 
+Oncorhynchus nerka 	 Late Stuart Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Clupea harengus 	 Southern Strait of Georgia 	 Tonnes 	 Millions 	 .  
+Limanda aspera 	 E. Bering Sea 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Oncorhynchus kisutch 	 Hurst Creek, Washington 	 . 	 Smolts 	 .  
+Sebastes mentella 	 West Greenland  	 Thousand tonnes 	 Thousands 	 . 
+Clupea harengus 	 Bothnian Bay 	 Tonnes 	 Millions 	 Tonnes 
+Cololabis saira 	 Soledad Basin, Baja California 	 scales per 1000 cm^2 	 . 	 . 
+Engraulis mordax 	 California 	 Thousand tonnes 	 50 billions 	 Short tons 
+Clupea harengus 	 Bothnian Sea (ICES SD30) 	 Tonnes 	 Thousands 	 . 
+Clupea harengus 	 NAFO 4-5  	 Thousand tonnes  	 Millions 	 .  
+Aplodinotus grunniens 	 Western Lake Erie 	 . 	 number per hour 	 .  
+Esox lucius 	 North Basin, Windermere Lake 	 Kilograms of females 	 Numbers 	 . 
+Alosa pseudoharengus 	 Saint John River 	 Thousands of lbs. 	 Thousands 	 .  
+Clupea harengus 	 Iceland (Summer spawners) 	 Tonnes 	 Thousands 	 Tonnes 
+Pleuronectes platessa 	 Kattegat 	 Tonnes 	 Thousands 	 Tonnes 
+Gadus morhua 	 NAFO 3Pn4RS 	 Tonnes 	 Thousands 	 Thousand tonnes 
+Oncorhynchus nerka  	 Pinkut Channel, B.C. 	 Millions of eggs 	 Millions of fry 	 . 
+Alosa pseudoharengus 	 Lake Michigan 	 Thousands of tons  	 Thousands of tons  	 .  
+Oncorhynchus gorbuscha  	 North Coast Area 4, B.C.  	 Fish 	 Fish 	 Fish 
+Sebastes mentela and fasciatus  	 NAFO 3Ps 	 . 	 . 	 Tonnes 
+Perca flavescens 	 South Bay, Lake Huron 	 catch per set 	 catch per set 	 .  
+Sprattus sprattus 	 Black Sea 	 Thousand tonnes 	 Billions 	 . 
+Micropterus salmoide 	 Kerr Reservoir, Virginia 	 . 	 Number per hour 	 . 
+Salvelinus fontinalis 	 Flower Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Promoxis annularis and nigromaculatus 	 Atkins Reservoir, Arkansas 	 Number per hectare 	 Number per hectare 	 . 
+Engraulis mordax 	 Gulf of California 	 scales per 1000 cm^2 	 . 	 . 
+Perca fluviatilis 	 Lake Ijssel, the Netherlands 	 kg/ha 	 numbers per 10 min trawl 	 .  
+Stizostedion vitreum 	 Lake Kabetogama, Minnesota 	 . 	 index 	 .  
+Oncorhynchus kisutch 	 Hunt's Creek, British Columbia 	 Females 	 Smolts 	 .  
+Salmo salar 	 Highlands River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Acipenser stellatus 	 Danube river 	 . 	 Index 	 . 
+Stizostedion vitreum 	 Rainy Lake  	 Index 	 Index 	 .  
+Oncorhynchus nerka  	 Babine Lake, B.C.  	 Millions of Fry 	 Millions of Smolt 	 . 
+Clupea harengus 	 North West Coast Vancouver Island 	 Tonnes 	 Millions 	 .  
+Pleuronectes auadrituberculatus 	 West Kamchatka Shelf 	 Million eggs 	 Millions 	 . 
+Stizostedion vitreum 	 Rice Lake  	 Index 	 Index 	 .  
+Salmo salar 	 Pollett River, Canada 	 Thousands of eggs 	 Number of Smolts 	 .  
+Melanogrammus aeglefinus 	 NAFO 3Ps1 (First part of HAD3Ps) 	 . 	 Index from survey 	 Tonnes 
+Coregonus clupeaformis 	 South Georgian Bay, Lake Huron 	 . 	 Numbers of fish 	 . 
+Melanogrammus aeglefinus 	 North Sea 	 Thousand tonnes 	 Millions 	 . 
+Limanda sakhalinensis 	 West Kamchatka Shelf 	 Million eggs 	 Millions 	 . 
+Melanogrammus aeglefinus 	 Celtic Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Scomber japonicus 	 Gulf of California 	 scales per 1000 cm^2 	 . 	 . 
+Oncorhynchus keta 	 Fraser River, B.C. 	 Thousands fish 	 Thousands 	 .  
+Merluccius merluccius 	 ICES VIIIa,b, d, VIIb-k 	 Tonnes 	 Thousands 	 Tonnes  
+Gadus morhua 	 Coastal Norway  	 Tonnes 	 Thousands 	 Tonnes 
+Perca flavescens 	 Western Erie Lake 	 . 	 Number per hour 	 .  
+Sebastes marinus 	 ICES V and XIV 	 Tonnes 	 Millions 	 Thousand tonnes 
+Stenotomus chrysops 	 Cape Cod - Cape Hatteras USA 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Naknek River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Limanda limanda 	 Belt Sea 	 Tens tonnes 	 Millions 	 . 
+Gadus morhua 	 NAFO 3Pn4RS 	 SPA 	 Tonnes 	 3 
+Notemigonus crysoleucas 	 Lake St. George, Ontario 	 Numbers 	 Thousands 	 .  
+Oncorhynchus gorbuscha 	 Prince William Sound, Alaska 	 Millions of fish 	 Millions of fish 	 millions of fish 
+Esox lucius 	 South Basin, Windermere Lake 	 Kilograms of females 	 Numbers 	 . 
+Lutjanus synagris 	 Zone B - Cuba 	 Hundreds tonnes 	 Millions 	 .  
+Sebastes goodei 	 West U.S.A. 	 Tonnes 	 Thousands 	 . 
+Oncorhynchus gorbuscha  	 Kodiak Archipelago, Alaska 	 Thousands of Fish 	 Thousands of Fish 	 Thousands of Fish 
+Merlangius merlangus 	 Eastern Black Sea 	 Thousand tonnes 	 Billions 	 Tonnes 
+Oncorhynchus kisutch 	 Big BeefCreek, Washington 	 . 	 Smolts 	 .  
+Dicentrarchus labrax 	 South-western UK 	 . 	 Index 	 . 
+Oncorhynchus gorbuscha 	 Auke Creek, Alaska  	 Fry  	 Fish  	 . 
+Alosa pseudoharengus 	 Saint John River 	 Thousands 	 Thousands 	 .  
+Gadus morhua 	 NAFO 5Z 	 Kg per tow 	 Numbers per tow 	 Tonnes 
+Micromesistius poutassou 	 ICES 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Conne River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Oncorhynchus nerka 	 Nuyakuk River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Leuciscus leuciscus 	 River Frome, Dorset, England 	 . 	 Relative year-class strength 	 .  
+Salmo salar 	 Trinite, Canada 	 Number of Eggs 	 Number of Smolt 	 .  
+Melanogrammus aeglefinus 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Solea vulgaris 	 Bay of Biscay (VIII) 	 Tonnes 	 Thousands 	 Tonnes  
+Pleuronectes platessa 	 Southwest of Ireland, ICES VIIh-k 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Naknek, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Oncorhynchus kisutch 	 Hooknose Creek, British Columbia 	 Females 	 Fry 	 .  
+Scomber japonicus 	 Southern California 	 Thousand tonnes 	 . 	 . 
+Oncorhynchus gorbuscha 	 Island Creek, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Pandalus borealis 	 Davis Strait (Div. 0B) 	 kg/hr 	 . 	 Tonnes 
+Thunnus thynnus 	 West Atlantic 	 Tonnes 	 Numbers 	 Tonnes 
+Pseudociaena polyactis 	 East China Sea 	 Index 	 Index 	 .  
+Scomber scombrus 	 North East ICES  	 Tonnes 	 Thousands 	 Tonnes 
+Melanogrammus aeglefinus 	 NAFO 5Y 	 . 	 .  	 Tonnes 
+Oncorhynchus gorbuscha 	 Utka River, Kamchatka  	 Thousands 	 Thousands 	 . 
+Salmo salar 	 Exploits River, Bishop's Falls fishway, Newfoundland, Canada 	 Number of small salmon 	 . 	 .  
+Gadus morhua 	 NAFO 4X 	 Thousand tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha  	 Central Coast Area 10, B.C.  	 Fish 	 Fish 	 Fish 
+Salmo salar 	 Western Arm Brook, Canada 	 Number of Smolt 	 Number of Large Salmon 	 .  
+Salmo trutta 	 Black Brows Beck 	 eggs 60 m^-2 	 fish 60 m^-2 	 .  
+Pandalus borealis 	 Northern Labrador (Div. 2G)  	 kg/hr 	 . 	 Tonnes 
+Salvelinus fontinalis 	 Hell Diver 3 Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Perca flavescens 	 Green Bay, Lake Michigan 	 . 	 Thousands/hour 	 .  
+Perca flavescens 	 Leech Lake, Minnesota 	 . 	 catch per hour 	 .  
+Salmo salar 	 Conne River, Nfld, CA 	 thousands of smolt 	 thousands of small salmon 	 .  
+Sciaenops ocellatus  	 Florida Gulf Coast, USA 	 . 	 Thousands  	 . 
+Stizostedion vitreum 	 Lake Erie, New York 	 . 	 numbers of fish per 1000 feet of net 	 .  
+Oncorhynchus gorbuscha  	 Upper Skeena, B.C.  	 Fish 	 Fish 	 Fish 
+Clupea harengus 	 NAFO 4R (Fall spawners) 	 Tonnes  	 Thousands 	 .  
+Squalus acanthias 	 Northwest Atlantic 	 Mean kg per tow 	 Mean numbers per tow 	 .  
+Scomber scombrus 	 Black Sea 	 Thousand tonnes 	 Millions 	 Tonnes 
+Mallotus villosus 	 Barents Sea 	 Thousand tonnes 	 Index 	 Thousand tonnes 
+Melanogrammus aeglefinus 	 Iceland 	 Thousand tonnes 	 Numbers 	 Thousand tonnes 
+Oncorhynchus nerka 	 Ayakulik, Kodiak Island, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Salmo trutta 	 Wilfin Beck, May/June 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Oncorhynchus kisutch 	 Spring Creek, Oregon 	 . 	 Smolts 	 .  
+Lepidorhombus boscii 	 ICES VIIIc and IXa 	 Tonnes 	 Thousands 	 Tonnes  
+Melanogrammus aeglefinus 	 NAFO 4TVW 	 Thousand tonnes 	 Thousands 	 Tonnes 
+Monkfish 	 Lophiiformes 	 SPA 	 Tonnes 	 1  
+Hippoglossoides platessoides 	 NAFO 3LNO 	 Tonnes 	 Thousands 	 Tonnes 
+Pollachius virens 	 NAFO 4VWX5 	 Thousands tonnes 	 Thousands 	 . 
+Oncorhynchus nerka 	 Weaver Creek, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus gorbuscha  	 Dean Channel, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus keta 	 Minter Creek, Washington 	 Females 	 Fry 	 .  
+Stizostedion vitreum 	 Leech Lake, Minnesota 	 . 	 index 	 .  
+Clupea harengus 	 Archipelago and Bothnian Seas 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Notothenia rossii 	 South Georgia, Antarctic Ocean 	 Thousand Tonnes 	 Millions 	 Thousand Tonnes 
+Salmo salar 	 Terra Nova River, Lower fishway, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Clupea harengus 	 NAFO 4T (Fall spawners) 	 Tonnes 	 Thousands 	 .  
+Huso huso 	 Danube river 	 . 	 Index 	 . 
+Pleuronectes platessa 	 Skagerrak 	 Tonnes 	 Thousands 	 Tonnes 
+Mugil cephalus 	 Taiwan 	 Thousands of Females 	 Numbers of Females 	 Numbers 
+Oncorhynchus gorbuscha  	 North Coast Area 5, B.C.  	 Fish 	 Fish 	 Fish 
+Stizostedion vitreum 	 Namakan River  	 Index 	 Index 	 .  
+Oncorhynchus gorbuscha 	 Windy Right, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Oncorhynchus nerka 	 Quesnel Lake, Fraser River, B.C. 	 Number of Effective Females 	 Number of fry (in October) 	 . 
+Taius tumifrons 	 South East China Sea 	 Numbers 	 Numbers 	 .  
+Oncorhynchus gorbuscha 	 Sunday Creek, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Pandalus borealis 	 Flemish Cap 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Branch River, Alaska 	 Thousands of fish 	 Thousands of fish 	 Millions of fish  
+Thunnus obesus 	 West Atlantic 	 Tonnes 	 Thousands 	 Tonnes 
+Stizostedion vitreum 	 Lake of the Woods, Minnesota 	 . 	 index 	 .  
+Salvelinus fontinalis 	 Hell Diver 2 Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Salmo salar 	 Shelligan Burn, Section D, Scotland 	 Numbers of fry per m^2 	 Numbers of 2 year olds per m^2 	 .  
+Lepidorhombus whiffiagonis 	 ICES VII and VIII 	 Tonnes 	 Thousands 	 Tonnes  
+Stizostedion vitreum 	 Rainy Lake, Minnesota 	 . 	 index 	 .  
+Clupea harengus 	 Bothnian Bay 	 Tonnes 	 Thousands 	 Tonnes 
+Salvelinus fontinalis 	 Montmorency County, Michigan 	 Number of eggs 	 Numbers 	 .  
+Salvelinus fontinalis 	 Par Value Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Salvelinus namaycush 	 Lake Opeongo, Ontario 	 Eggs 	 Numbers  	 .  
+Solea vulgaris 	 ICES IIIa 	 Tonnes 	 Thousands 	 Tonnes 
+Sebastes marinus 	 Iceland 	 Thousand tonnes 	 Numbers 	 Thousand tonnes 
+Scomber japonicus 	 South Africa 1.6 	 . 	 Millions 	 . 
+Oncorhynchus nerka  	 Weaver Creek, B.C.  	 Millions of Fry  	 Fish  	 . 
+Platichthys flesus 	 Baltic Areas 24 and 25 	 Tonnes 	 Thousands 	 Tonnes 
+Mallotus villosus 	 Iceland 	 Thousand tonnes 	 Billions 	 Thousand tonnes 
+Coregonus hoyi 	 Lake Michigan 	 Millions of eggs 	 Thousands of fish 	 .  
+Oncorhynchus gorbuscha 	 Auke Creek, Alaska  	 Fish  	 Fry 	 . 
+Oncorhynchus gorbuscha  	 Iknouk/Ishkeenickh, B.C.  	 Fish 	 Fish 	 Fish 
+Perca fluviatilis 	 Windermere 	 . 	 Year-class strength 	 .  
+Oncorhynchus nerka 	 Ugashik River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Leuciscus leuciscus 	 River Eden, southeast England 	 . 	 Relative year-class strength 	 .  
+Scomber japonicus 	 Pacific Coast of Japan 	 Thousand tonnes 	 Index 	 . 
+Oncorhynchus gorbuscha  	 Kodiak Archipelago, Alaska 	 Thousands of Fish 	 Fry per metre square 	 . 
+Gadus morhua 	 North East Arctic 	 Thousand tonnes 	 Thousands 	 Tonnes 
+Micropterus dolomieui 	 Baie du Dore, Lake Huron,  	 . 	 Numbers 	 . 
+Melanogrammus aeglefinus 	 Irish Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Engraulisi japonicus  	 Yellow Sea  	 Million tonnes 	 Billions  	 Million tonnes 
+Oncorhynchus nerka 	 Igushik River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Sprattus sprattus 	 Baltic Areas 22-32 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Stizostedion vitreum 	 Lake Vermilion East, Minnesota 	 . 	 index 	 .  
+Pagrus auratus 	 New Zeeland, SNA 8 	 Tonnes 	 Millions 	 Tonnes 
+Chrysophrys major 	 Yellow Sea 	 Numbers 	 Numbers 	 .  
+Notothenia rossii 	 Kerguelen Islands, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Trachurus trachurus 	 Southern ICES  	 Tonnes 	 Thousands 	 Tonnes 
+Esox lucius 	 Lake of the Woods, Minnesota 	 . 	 index 	 . 
+Oncorhynchus gorbuscha 	 Fraser River, B.C. 	 Millions of fish 	 Millions of fish 	 .  
+Clupea harengus 	 Newfoundland(CD) 	 . 	 .  	 .  
+Anoplopoma fimbria 	 West Coast USA 	 Tonnes of females 	 Thousands 	 . 
+Oncorhynchus nerka  	 Pinkut Creek, B.C. 	 Numbers of Spawners 	 Millions of fry 	 . 
+Oncorhynchus nerka 	 Chilko River, B.C. 	 Fish 	 Fish 	 Fish 
+Mallotus villosus 	 Barents Sea 	 Thousand tonnes 	 Billions 	 Thousand tonnes 
+Merluccius gayi 	 Chile - South Central zone 	 Thousands of Tonnes 	 Millions 	 Thousands 
+Engraulis capensis 	 South Africa 	 Thousand tonnes 	 Billions 	 . 
+Placopecten magellanicus 	 NAFO 5Ze 	 . 	 . 	 . 
+Oncorhynchus nerka 	 Red River, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Clupea harengus 	 Baltic areas 25-29, 32 plus Gulf of Riga 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka  	 Kvichak River, Alaska 	 Thousands of fish 	 Thousands 	 . 
+Sardinops sagax 	 South Africa 	 Tonnes 	 Millions 	 .  
+Pseudopentaceros wheeleri 	 Southeast Hancock Seamount, Hawaii 	 Tonnes 	 Tonnes 	 .  
+Pandalus borealis 	 Northern Gulf of St. Lawrence 	 Kg/hr 	 . 	 . 
+Oncorhynchus nerka  	 Adams Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Salmo salar 	 Rocky River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Gadus morhua 	 Kattegat 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Desire Lake, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Oncorhynchus tshawytscha  	 Chickamin River, Alaska-B.C. 	 Numbers 	 Numbers 	 .  
+Paralithodes camtschatica 	 Bristol Bay, Alaska 	 Tonnes  	 Thousands 	 .  
+Gadus morhua 	 ICES VIa 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Oncorhynchus gorbuscha 	 Central B.C. (Areas 6-8) 	 Numbers of fish 	 Numbers 	 Numbers of fish 
+Sardinops sagax 	 Chile- Northern zone 	 SPA 	 Thousand tonnes 	 3 
+Clupea harengus 	 Baltic area 30 	 Tonnes 	 Thousands 	 Tonnes 
+Micropterus salmoide 	 Bull Shoals Reservoir, Arkansas 	 . 	 Number per acre 	 . 
+Plecoglossus altivelis 	 Lake Biwa, Japan 	 Hundreds of millions 	 Hundreds of millions 	 .  
+Rutilus rutilus 	 River Stour, Dorset, England 	 . 	 Relative year-class strength 	 .  
+Salvelinus namaycush 	 Gull Island, Lake Superior 	 Females per 1000 m gillnet lift 	 Numbers per ha 	 .  
+Oncorhynchus keta 	 North Coast, B.C. 	 Thousands fish 	 Thousands 	 .  
+Alosa aestivalis 	 Saint John River 	 Thousands 	 Thousands 	 .  
+Oncorhynchus nerka 	 Babine Lake, B.C.  	 Millions of Eggs 	 Millions of Smolt 	 . 
+Salmo salar 	 Girnock Burn, Scotland 	 Thousands of eggs 	 Numbers of parr and smolt 	 .  
+Gadus morhua 	 Iceland 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Clupea harengus 	 Revilla Channel (Kah Shakes), Alaska 	 Trillions of Eggs 	 Millions 	 . 
+Oncorhynchus keta 	 West Coast Vancouver Island, B.C. 	 Thousands fish 	 Thousands 	 .  
+Patagonotothen guntheri 	 South Georgia, Antarctic Ocean 	 Thousand Tonnes 	 Millions 	 Thousand Tonnes 
+Squalus acanthias 	 Black Sea 	 Millions 	 Millions 	 Tonnes  
+Salmo salar 	 Northeast River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Coregonus albula 	 Lake Pyhajarvi, Finland 	 Billions eggs 	 Millions 	 .  
+Gadus macrocephalus 	 Eastern Bering Sea 	 Thousand tonnes 	 Millions 	 Tonnes 
+Lutjanus campechanus 	 U.S. Gulf of Mexico 	 Thousand billion eggs 	 Millions 	 .  
+Merluccius merluccius 	 ICES VIIIc and IXa 	 Tonnes 	 Thousands 	 Tonnes  
+Clupea harengus 	 Yellow Sea or Huanghai Sea 	 Millions of fish 	 Millions 	 .   
+Stizostedion lucioperca 	 Lake Tjeukemeer, the Netherlands 	 . 	 Numbers per Tow 	 .  
+Salmo salar 	 Tobique River, N.B., Canada 	 eggs/100m^2 	 number of MSW salmon 	 recruits + Nfld + Grnld  
+Salvelinus fontinalis 	 Montmorency County, Michigan 	 Number of eggs 	 Numbers 	 .  
+Sebastes mentela and fasciatus  	 NAFO 5YZ 	 .  	 .  	 .  
+Pleuronectes ferrugineus 	 NAFO 3LNO 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Terra Nova River, Lower fishway, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Salmo salar 	 Terra Nova River, Upper fishway, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Salmo salar 	 Conne River, Nfld, CA 	 Number of smolts 	 Number of small salmon 	 .  
+Salmo salar 	 Miramichi River, N. B., Canada 	 Number angled large kelt 	 Number small parr per 100 m^2 	 .  
+Oncorhynchus keta 	 Queen Charlotte Islands, B.C. 	 Thousands fish 	 Thousands 	 .  
+Oncorhynchus gorbuscha 	 Kodiak Area, Alaska 	 Thousands of fish 	 Thousands of fish 	 Millions of fish 
+Oncorhynchus mykiss 	 Keogh River, B.C. 	 Number of Smolts 	 Number of Adults 	 .  
+Salmo salar 	 Torrent River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Clupea harengus 	 Prince Rupert District 	 Tonnes 	 Millions 	 .  
+Trachurus symetricus 	 South Pacific Ocean 	 Thousand Tonnes 	 Billions 	 Thousand Tonnes 
+Oncorhynchus tshawytscha  	 King Salmon River, Alaska 	 Numbers 	 Numbers 	 .  
+Salmo salar 	 Pinchgut Brook, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Champsocephalus gunnari 	 South Orkney Islands, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Perca flavescens 	 Western Lake Erie 	 . 	 index 	 .  
+Oncorhynchus nerka 	 Horsefly River, B.C. 	 Fish 	 Fish 	 Fish 
+Cancer borealis 	 NAFO 4X 	 Kg per tow 	 . 	 . 
+Hippoglossoides elassodon 	 West Kamchatka Shelf 	 Million eggs 	 Millions 	 . 
+Oncorhynchus gorbuscha  	 Dean Channel, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus nerka 	 Ugashik River, Alaska 	 Numbers of fish 	 Numbers of smolts 	 .  
+Oncorhynchus gorbuscha 	 Bakhura River, Sakhalin Is.  	 Thousands 	 Thousands 	 . 
+Stizostedion vitreum 	 Cass Lake, Minnesota 	 . 	 index 	 .  
+Gadus morhua 	 Greenland offshore component 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Newfoundland(GH) 	 .  	 .  	 .  
+Taius tumifrons 	 East China Sea 	 Index of Eggs 	 Index 	 .  
+Oncorhynchus kisutch 	 Hooknose Creek, British Columbia 	 Females 	 Smolts 	 .  
+Oncorhynchus gorbuscha  	 Lower Skeena, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus gorbuscha 	 Bristol Bay, Alaska 	 . 	 . 	 Numbers of fish  
+Alosa pseudoharengus 	 Lamprey River 	 Thousands of lbs. 	 Thousands 	 .  
+Gobio gobio 	 River Frome, Dorset, England 	 . 	 Relative year-class strength 	 .  
+Oncorhynchus mykiss 	 Keogh River, B.C. 	 Number of Eggs 	 Number of Smolts 	 .  
+Reinhardtius hippoglossoides 	 ICES V and XIV 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Lutoga River, Sakhalin Is.  	 Thousands 	 Thousands 	 . 
+Oncorhynchus kisutch 	 Discovery Bay, Washington 	 Adults 	 . 	 .  
+Alosa aestivalis  	 Connecticut River, USA 	 Thousand pounds 	 Thousands 	 .  
+Sardinops sagax 	 California 	 Thousand Tonnes 	 Millions 	 Short tons 
+Oncorhynchus nerka 	 Tally Creek, B.C. 	 Number of Spawners 	 Number of fry 	 . 
+Sebastes paucispinis 	 W. U.S. 	 . 	 Millions 	 Tonnes 
+Cololabis saira 	 California 	 Thousand tonnes 	 . 	 . 
+Sebastes alutus 	 Aleutian Is. 	 Tonnes of Females 	 Thousands 	 Tonnes 
+Gadus morhua 	 Irish Sea 	 Tonnes 	 Thousands  	 Tonnes 
+Oncorhynchus nerka 	 Black Lake, Alaska 	 Millions of fish 	 Millions of fish 	 .  
+Stizostedion vitreum 	 Lake Vermilion West, Minnesota 	 . 	 index 	 .  
+Trichiurus haumela 	 East China Sea 	 . 	 Hundred million 	 .  
+Merluccius productus 	 Gulf of California 	 scales per 1000 cm^2 	 . 	 . 
+Sebastes mentela and fasciatus  	 NAFO 3M 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Trachurus trecae 	 N.W. Africa (CECAF 34.1.3-34.3.1) 	 . 	 Millions 	 Thousands tonnes 
+Oncorhynchus nerka 	 Bristol Bay, Alaska 	 Millions of fish 	 Millions of fish 	 .  
+Merluccius gayi 	 Peru 	 Thousand tonnes 	 Millions 	 .  
+Salmo salar 	 Bec-Scie, Canada 	 Number of Eggs 	 Number of Smolt 	 .  
+Taius tumifrons 	 Central East China Sea 	 Numbers 	 Numbers 	 .  
+Oncorhynchus nerka 	 Ugashik River, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Pseudochaenichthys georgianus 	 South Georgia, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Stizostedion canadense 	 Rainy Lake, Minnesota 	 . 	 index 	 .  
+Salmo salar 	 Exploits River, Bishop's Falls, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Oncorhynchus nerka 	 Babine Lake, B.C.  	 Millions of Smolt 	 Fish  	 . 
+Oncorhynchus nerka  	 Nushagak River, Alaska 	 Millions of fish  	 Millions 	 Millions of fish  
+Lepidorhombus whiffiagonis 	 ICES VII and VIIIa,b 	 Tonnes 	 Thousands 	 Tonnes  
+Salmo trutta 	 Wilfin Beck, Aug/Sept 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Salmo salar 	 Highlands River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Lepidonotothen squamifrons 	 Lena Bank, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Oncorhynchus nerka 	 Birkenhead River, B.C. 	 Fish 	 Fish 	 Fish 
+Clupea harengus 	 Gulf of Maine 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Mallotus villosus 	 Northern Newfoundland 	 Index 	 Index 	 Tonnes 
+Clupea harengus 	 Eastern Bering Sea 	 Thousands Tonnes   	 Millions 	 .  
+Oncorhynchus nerka 	 Igushik River, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Salvelinus fontinalis 	 Montmorency County, Michigan 	 Number of eggs 	 Numbers 	 .  
+Alosa pseudoharengus  	 Annaquatucket River, USA 	 Thousand pounds 	 Thousands 	 .  
+Salmo salar 	 Rocky River, Nfld, CA 	 Number of smolts 	 Number of small salmon 	 .  
+Gadus macrocephalus 	 West Vancouver Island 	 . 	 Thousands 	 Thousand tonnes  
+Salmo salar 	 Western Arm Brook, Canada 	 Number of Adult 	 Number of Smolt 	 .  
+Urophycis chuss 	 NAFO Gulf of Maine, N. Georges Bank  	 Thousand tonnes 	 Millions 	 . 
+Sardinops sagax 	 Gulf of California 	 Numbers 	 Numbers 	 Metric tons 
+Argyrosomus argentatus 	 East China Sea 	 Ten Thousands (Weighted by maturity and fecundity) 	 Ten Thousands 	 Ten Thousands 
+Sardinops sagax 	 California 	 Thousand Tonnes 	 Millions 	 Thousand Tonnes  
+Salmo salar 	 Northeast Brook, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Clupea harengus 	 Baltic areas 28 and 29S 	 Thousand tonnes 	 Millions 	 Tonnes 
+Melanogrammus aeglefinus 	 Iceland 	 Tonnes 	 Thousands 	 Tonnes 
+Pollachius virens 	 Faroe 	 Tonnes 	 Thousands 	 Tonnes 
+Sebastes alutus 	 Gulf of Alaska 	 Tonnes of Females 	 Thousands 	 . 
+Clupea harengus 	 Baltic areas 25-27 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Bakhura River, Sakhalin Is. 	 Thousands 	 Millions of Fry 	 . 
+Clupea harengus 	 Baltic area 30 	 Thousand tonnes 	 Millions 	 . 
+Merlangius merlangus 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Engraulis mordax 	 California 	 scales per 1000 cm^2 	 . 	 . 
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Salmo salar 	 Conne River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Pandalus borealis 	 Flemish Cap 	 Thousand tonnes 	 . 	 Thousand tonnes 
+Mallotus villosus 	 Northern Newfoundland 	 Index 	 Index 	 Tonnes 
+Oncorhynchus gorbuscha  	 Laredo-Campania, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus nerka  	 Egegik River, Alaska 	 Millions of fish  	 Millions 	 Millions of fish  
+Dicentrarchus labrax 	 Hinkley Point, Somerset UK 	 . 	 Index 	 . 
+Rutilus rutilus 	 Klicava Reservoir 	 Million of eggs 	 Thousands 	 .  
+Micropterus salmoide 	 Lake Eufaula, Oklahoma 	 . 	 Number per hour 	 . 
+Oncorhynchus gorbuscha  	 Laredo Sound, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus kisutch 	 Qualicum River, British Columbia 	 Females 	 Fry 	 .  
+Oncorhynchus gorbuscha  	 N. Queen Charlotte Is., B.C.  	 Fish 	 Fish 	 Fish 
+Engraulis ringens 	 Northern/Central Stock Peru 	 Thousand tonnes  	 Billions 	 Thousand tonnes 
+Stizostedion vitreum 	 Lake Erie 	 Thousands 	 Thousands 	 .  
+Melanogrammus aeglefinus 	 NAFO 3NO2 (Second part of HAD3NO) 	 . 	 . 	 . 
+Anarhichas  lupus 	 West Greenland 	 Tonnes 	 Thousands 	 . 
+Stizostedion vitreum 	 Savanne Lake, Ontario 	 . 	 Median number of fish per hectare 	 .  
+Clupea harengus 	 Gulf of Finland 	 Tonnes 	 Millions 	 Tonnes 
+Dicentrarchus labrax 	 Severn Estuary UK 	 . 	 Index 	 . 
+Salmo salar 	 Restigouche River, Canada 	 Number angled large salmon 	 Number small parr / 100 m^2 	 .  
+Oncorhynchus keta 	 Central Alaska 	 Thousands fish 	 Thousands 	 .  
+Morone americana 	 Western Lake Erie 	 . 	 number per hour 	 .  
+Gadus morhua 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Squalus acanthias 	 Northwest Atlantic 	 Thousand tonnes 	 Thousand tonnes 	 .  
+Gadus morhua 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Micropterus salmoide 	 Lake Eufaula, Oklahoma 	 . 	 Number per 1080 sq ft. 	 . 
+Oncorhynchus gorbuscha 	 Central Alaska 	 Millions 	 Millions 	 .  
+Anoplopoma fimbria 	 West Coast USA (alternative model) 	 Tonnes of females 	 Thousands 	 . 
+Pandalus borealis 	 Baffin Bay (Div. 0A + subarea 1)  	 kg/hr 	 . 	 Tonnes 
+Clupea harengus 	 ICES VIa (north) 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 S.E. Alaska 	 Thousands Tonnes 	 Millions 	 .  
+Pagrus auratus 	 Hauraki Gulf/Bay of Plenty  	 Tonnes 	 Millions 	 Tonnes 
+Micropterus dolomieui 	 South Bay, Manitoulin Island, Canada 	 . 	 Numbers 	 . 
+Coregonus clupeaformis 	 Thunder Bay, Lake Superior 	 Tonnes 	 Thousands 	 Tonnes  
+Oncorhynchus nerka  	 Naknek-Kvichak Rivers, Alaska 	 Millions of fish  	 Millions 	 Millions of fish  
+Rutilus rutilus 	 River Frome, Dorset, England 	 . 	 Relative year-class strength 	 .  
+Oncorhynchus gorbuscha 	 Bakhura River, Sakhalin Is. 	 Millions of Fry 	 Thousands 	 . 
+Oncorhynchus gorbuscha 	 Hooknose Creek, B.C., Canada 	 Thousands of eggs 	 Hundreds of fry 	 . 
+Salmo salar 	 Humber River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Trachurus mediterraneus 	 Black Sea 	 Thousands tonnes 	 Millions 	 Tonnes 
+Oncorhynchus nerka  	 Fulton River, Channel 1, B.C. 	 Millions of eggs 	 Millions of fry 	 . 
+Lithodes maja 	 NAFO 4X 	 Kg per tow 	 . 	 . 
+Sardinops sagax 	 Japan-E. 	 Millions 	 Millions 	 Tonnes 
+Peprilus triacanthus 	 NAFO 5 and 6  	 . 	 . 	 Tonnes 
+Oncorhynchus gorbuscha 	 Port Chatham, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Stizostedion vitreum 	 Rainy Lake, Minnesota 	 index 	 index 	 .  
+Theragra chalcogramma 	 West Bering Sea 	 Millions of tonnes  	 Millions  	 .  
+Engraulis encrasicolus 	 Black Sea 	 Thousand tonnes 	 Billions 	 Tonnes 
+Oncorhynchus nerka 	 Stellako River, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus kisutch 	 Mill Creek, Washington 	 . 	 Smolts 	 .  
+Pandalus borealis 	 Hopedale and Cartwright Channels (SFA 5) 	 kg/hr 	 . 	 Tonnes 
+Melanogrammus aeglefinus 	 North Sea 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Ammodytes marinus 	 Shetland 	 Tonnes 	 Billions 	 Thousand tonnes 
+Oncorhynchus gorbuscha  	 Fraser-Graham, B.C.  	 Fish 	 Fish 	 Fish 
+Clupea harengus 	 Sitka, Alaska 	 Trillions of Eggs 	 Millions 	 . 
+Clupea harengus 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Coregonus clupeaformis 	 Whitefish Bay, Lake Superior 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Lakelse Lake, B.C.  	 Millions of Eggs 	 Thousands of Smolt 	 . 
+Oncorhynchus gorbuscha 	 Utka River, Kamchatka 	 Thousands 	 Millions of Fry 	 . 
+Melanogrammus aeglefinus 	 NAFO 4X 	 Tonnes 	 Thousands 	 Tonnes 
+Stizostedion vitreum 	 Upper Red Lake, Minnesota 	 . 	 index 	 .  
+Clupea harengus 	 North Sea 	 Tonnes 	 Millions 	 Tonnes 
+Oncorhynchus gorbuscha 	 Lutoga River, Sakhalin Is. 	 Millions of Fry 	 Thousands 	 . 
+Oncorhynchus gorbuscha  	 Fisher-Fitzhugh, B.C.  	 Fish 	 Fish 	 Fish 
+Cancer borealis  	 NAFO 5Z 	 Kg per tow 	 . 	 . 
+Oncorhynchus gorbuscha  	 Gardner, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus kisutch 	 Qualicum River, British Columbia 	 Females 	 Smolts 	 .  
+Pandalus borealis 	 Iceland  	 Kg/hr 	 . 	 Tonnes 
+Salvelinus fontinalis 	 Hell Diver 2 Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Clupea harengus 	 South West Coast Vancouver Island 	 Tonnes 	 Millions 	 .  
+Oncorhynchus gorbuscha 	 Lesnaya River, Sakhalin Is. 	 Thousands 	 Millions of Fry 	 . 
+Salmo salar 	 Rive Ume/Vindela, Sweeden  	 Eggs  	 Number 0+ parr per 100 m^2 	 .  
+Pleuronectes platessa 	 ICES VIId 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus tshawytscha  	 Wild Canadian Coastwide 	 Thousands of fish 	 Thousands 	 .  
+Oncorhynchus keta 	 Tillamook Bay, Oregon 	 Number of Spawners 	 Number of Recruits 	 .  
+Melanogrammus aeglefinus 	 NAFO 4X 	 Tonnes 	 Thousands 	 Tonnes 
+Merluccius hubbsi 	 Southwest Atlantic Ocean  	 Million Tonnes 	 Billions 	 . 
+Trachurus trecae 	 N.W. Africa (CECAF 34.1.3-34.3.1) 	 . 	 Millions 	 Thousands tonnes 
+Paralichthys dentatus 	 Middle Atlantic Bight 	 Tonnes 	 Thousands 	 Tonnes 
+Sardinella brasiliensis 	 South Eastern Brazil 	 Thousand tonnes 	 Billions 	 Thousand Tons 
+Salmo salar 	 Middle Brook, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Scomber japonicus 	 Southern California 	 Million pounds 	 Millions 	 . 
+Oncorhynchus nerka 	 Tahltan Lake, B.C. 	 Numbers of fish 	 Thousands of fry 	 .  
+Salvelinus fontinalis 	 Fishgut Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Oncorhynchus nerka  	 Gates Creek, B.C.  	 Millions of Fry  	 Fish  	 . 
+Oncorhynchus kisutch 	 Minter Creek, Washington 	 Females 	 Smolts 	 .  
+Oncorhynchus nerka  	 Upper Pinkut Creek, B.C. 	 Millions of eggs 	 Millions of fry 	 . 
+Trachurus trachurus 	 Western ICES 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Northeast Brook, Nfld, CA 	 Number of smolts 	 Number of small salmon 	 .  
+Stizostedion canadense 	 Lake Pepin, Minnesota 	 . 	 index 	 .  
+Limanda probosidea 	 West Kamchatka Shelf 	 Million eggs 	 Millions 	 . 
+Clupea harengus 	 Baltic areas 25-29, 32 plus Gulf of Riga 	 Tonnes 	 Thousands 	 Tonnes 
+Coregonus clupeaformis 	 Lake Huron 	 Numbers of eggs 	 Relative year-class strength 	 .  
+Stizostedion vitreum 	 Lake Erie, Michigan 	 number per trap-net lift 	 number per trap-net lift 	 .  
+Salmo salar 	 Samd Hill River, Labrador, Canada 	 Number of large salmon 	 . 	 .  
+Merluccius productus 	 Soledad Basin, Baja California 	 scales per 1000 cm^2 	 . 	 . 
+Oncorhynchus tshawytscha  	 Keta River, Alaska-B.C. 	 Numbers 	 Numbers 	 .  
+Penaeus orientalis 	 Po-hai Bay 	 Tens of Thousands 	 Tens of Thousands 	 Tonnes 
+Oncorhynchus gorbuscha  	 Douglas, B.C.  	 Fish 	 Fish 	 Fish 
+Salmo salar 	 Middle Brook, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Oncorhynchus gorbuscha 	 James Lagoon, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Gadus morhua 	 Baltic Areas 25-32 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka  	 Fulton River, B.C. 	 Numbers of Spawners 	 Millions of fry 	 . 
+Clupea harengus 	 Baltic areas 22 and 24  	 Tonnes 	 Millions 	 Tonnes 
+Salvelinus fontinalis 	 Par Value Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Salmo salar 	 Little Codroy River, Canada 	 Thousands of eggs 	 Number of Smolts 	 .  
+Stizostedion vitreum 	 Savanne Lake  	 Index 	 Index 	 .  
+Sardinops sagax 	 Gulf of California 	 scales per 1000 cm^2 	 . 	 . 
+Scomber japonicus 	 Pacific Coast of Japan 	 Trillions of eggs 	 Trillions of eggs 	 . 
+Oncorhynchus nerka 	 Egegik River, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Pandalus borealis 	 Flemish Cap 	 Tonnes 	 . 	 . 
+Clupea harengus 	 Downs stock 	 Thousand Tonnes 	 Millions 	 . 
+Salmo salar 	 Girnock Burn, Scotland 	 Thousands of eggs 	 Number of Migrant parr 	 .  
+Oncorhynchus nerka 	 Wood River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Clupea harengus 	 NAFO 4T (Spring spawners) 	 .  	 .  	 .  
+Gadus morhua 	 Baltic Areas 22 and 24 	 Tonnes 	 Thousands 	 Tonnes  
+Gadus morhua 	 Celtic Sea  	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Lomond River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Pleuronectes platessa 	 ICES VIIe 	 Tonnes 	 Thousands 	 Tonnes 
+Pollachius virens 	 ICES VI 	 Thousand tonnes 	 Millions 	 Tonnes 
+Oncorhynchus kisutch 	 Flynn Creek, Oregon 	 Females 	 Fry 	 .  
+Pollachius virens 	 North Sea 	 Tonnes 	 Thousands  	 Tonnes 
+Gadus morhua 	 ICES VIId 	 Thousand tonnes 	 Millions 	 Tonnes 
+Hippoglossoides platessoides 	 NAFO 3Ps 	 .  	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Northern Panhandle, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish 
+Lepidorhombus whiffiagonis 	 ICES VII and VIII 	 Tonnes 	 Thousands 	 Tonnes  
+Scomber scombrus 	 NAFO 2 to 6 	 Thousand tonnes 	 Tens of millions 	 Tonnes 
+Merlangius merlangus 	 Irish Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Gulf of Dvina, White Sea 	 . 	 Millions 	 .   
+Pandalus borealis 	 Skagerrak 	 Tonnes 	 Thousands 	 Tonnes 
+Argentina silus 	 NAFO 4VWX 	 . 	 . 	 Thousand tonnes  
+Perca flavescens 	 Red Lakes, Minnesota 	 . 	 relative to mean 	 .  
+Merlangius merlangus 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Trachurus trachurus 	 Southern ICES 	 Tonnes 	 Thousands 	 Tonnes 
+Lepidonotothen squamifrons 	 Kerguelen Islands, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Pleuronectes platessa 	 ICES IIIa 	 Tonnes 	 Thousands 	 Tonnes 
+Dicentrarchus labrax 	 English Channel 	 . 	 Index 	 . 
+Oncorhynchus nerka 	 Stellako River, B.C. 	 Fish 	 Fish 	 Fish 
+Psetta maeotica  	 Black Sea 	 Thousand tonnes 	 Millions 	 Tonnes 
+Merlangius merlangus 	 ICES VIa 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Morone saxatilis 	 Head of Chesapeake Bay 	 . 	 Catch per haul 	 . 
+Salmo salar 	 River Bush, Northern Ireland 	 Millions of eggs 	 Index of fry 	 .  
+Clupea harengus 	 Seymour Canal, Alaska 	 Trillions of Eggs 	 Millions 	 . 
+Oncorhynchus kisutch 	 Big Beef Ck, Washington 	 Females 	 Smolts 	 .  
+Notothenia rossii 	 South Orkney Islands, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Salmo salar 	 Terra Nova River, Upper fishway, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Oncorhynchus gorbuscha 	 Pokosnaya River, Sakhalin Is. 	 Millions of Fry 	 Thousands 	 . 
+Saurida tumbil  	 East China Sea 	 Index 	 Index 	 .  
+Oncorhynchus nerka  	 Fulton River, Channel 2, B.C. 	 Millions of eggs 	 Millions of fry 	 . 
+Lithodes maja 	 NAFO 5Z 	 Kg per tow 	 . 	 . 
+Oncorhynchus nerka 	 Birkenhead River, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus gorbuscha 	 Southern Panhandle, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish 
+Ammodytes marinus 	 Southern North Sea 	 Tonnes  	 Millions 	 Thousand tonnes 
+Pandalus borealis 	 Svalbard and Barents Sea 	 Thousand tonnes 	 . 	 Thousand tonnes 
+Clupea harengus 	 NAFO 4WX 	 Tonnes 	 Thousands 	 Thousand tonnes 
+Oncorhynchus gorbuscha 	 Poronal River, Sakhalin Is. 	 Thousands 	 Thousands 	 . 
+Oncorhynchus kisutch 	 Harris Creek, Washington 	 . 	 Smolts 	 .  
+Thunnus alalunga 	 South Pacific Ocean 	 Index 	 Index 	 Thousand tonnes  
+Taius tumifrons 	 Japan Coast  	 Numbers 	 Numbers 	 .  
+Leuciscus cephalus 	 River Eden, southeast England 	 . 	 Relative year-class strength 	 .  
+Melanogrammus aeglefinus 	 NAFO 5Z 	 Tonnes 	 Thousands 	 Million pounds 
+Salmo trutta 	 Wilfin Beck, May/June 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Clupea harengus 	 Baltic areas 282932 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Port Dick, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Placopecten magellanicus 	 Georges Bank 	 1e15 eggs 	 Millions 	 .  
+Oncorhynchus kisutch 	 Keogh River, British Columbia 	 . 	 Smolts 	 .  
+Oncorhynchus kisutch 	 Snahapish Creek, Washington 	 . 	 Smolts 	 .  
+Esox lucius 	 Bay of Quinte, Ontario 	 . 	 index 	 . 
+Perca flavescens 	 Rainy Lake, Minnesota 	 . 	 index 	 .  
+Reinhardtius hippoglossoides 	 Northwest Atlantiac, NAFO 2 and 3LMNOM 	 Tonnes 	 Thousands 	 Tonnes  
+Sebastes alutus 	 Eastern Berring Sea  	 Tonnes of Females 	 Thousands 	 Tonnes 
+Salmo salar 	 Torrent River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Engraulis mordax 	 Soledad Basin, Baja California 	 scales per 1000 cm^2 	 . 	 . 
+Clupea harengus 	 Georges Bank 	 Thousand Tonnes  	 Millions  	 Thousand Tonnes 
+Salvelinus fontinalis 	 Fishgut Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Gadus macrocephalus 	 Gulf of Alaska 	 Thousand tonnes 	 Millions 	 Tonnes 
+Salmo salar 	 Girnock Burn, Scotland 	 Thousands of eggs 	 Numbers of parr 	 .  
+Oncorhynchus tshawytscha  	 Situk River, Alaska 	 Numbers 	 Numbers 	 .  
+Gadus macrocephalus 	 Hecate Strait 	 Tonnes 	 Thousands 	 Thousand tonnes 
+Salmo salar 	 Margaree River, N.S., Canada 	 Number of fish 	 Number of fish 	 .  
+Lophius budegassa 	 ICES VIIb-k and VIIIa,b. 	 Tonnes 	 Thousands 	 Tonnes  
+Oncorhynchus kisutch 	 Needle Branch Creek, Oregon 	 Females 	 Fry 	 .  
+Salmo salar 	 Gander River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Lactarius lactarius  	 Gulf of Thailand 	 Thousands tonnes 	 Millions 	 .  
+Micropterus salmoide 	 Smith Mountain Lake, Virginia 	 . 	 Number per hectare 	 . 
+Oncorhynchus gorbuscha 	 Lakelse River, B.C.  	 Thousands  	 Thousands  	 . 
+Stizostedion vitreum 	 Buckhorn Lake 	 Index 	 Index 	 .  
+Stizostedion vitreum 	 Scugog Lake  	 Index 	 Index 	 .  
+Mallotus villosus 	 Northern Gulf of St. Lawrence 	 Occurence % 	 . 	 Tonnes 
+Clupea harengus 	 Central Coast B.C. 	 Tonnes 	 Millions 	 .  
+Anoplopoma fimbria 	 W. Canada 	 . 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Lake Dalnee, Kamchatka  	 Millions of Eggs 	 Thousands of Smolt 	 . 
+Perca flavescens 	 Oneida Lake, New York 	 Number of eggs (millions) per hectare 	 Number of fish per hectare 	 .  
+Melanogrammus aeglefinus 	 ICES VIa 	 Thousand tonnes 	 Millions 	 Tonnes 
+Oncorhynchus gorbuscha  	 Kwinamass/Khinamass, B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus gorbuscha  	 North Coast Area 3, B.C.  	 Fish 	 Fish 	 Fish 
+Lophius piscatorius 	 ICES VIIb-k and VIIIa,b. 	 Tonnes 	 Thousands 	 Tonnes  
+Oncorhynchus nerka  	 Chilko Lake, B.C.  	 Numbers of Effective Females  	 Numbers of Smolts  	 . 
+Clupea harengus 	 Bothnian Bay (ICES SD31) 	 Tonnes 	 Thousands 	 . 
+Gadus morhua 	 West Greenland (NAFO 1) 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Ellidaar River, Iceland 	 Numbers 	 Numbers  	 .  
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Penaeus esculentus 	 Exmouth Gulf, Western Australia 	 Spawning stock index 	 Recruitment index 	 .  
+Oncorhynchus gorbuscha 	 Lakelse River, B.C.  	 Thousands  	 Thousands of Fry  	 . 
+Clupea harengus 	 Gulf of Kandalaksha, White Sea 	 . 	 Millions 	 .   
+Sebastes entomelas 	 W. U.S. + Canada 	 10^12 oocytes 	 Millions 	 Tonnes 
+Reinhardtius hippoglossoides 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Ammodytes marinus 	 Northern North Sea 	 Tonnes 	 Millions 	 Thousand tonnes 
+Oncorhynchus gorbuscha  	 Aristazabal Is., B.C.  	 Fish 	 Fish 	 Fish 
+Coregonus lavaretus 	 Lake Constance, Europe 	 Millions of larvae 	 Thousands 	 .  
+Clupea harengus 	 North Strait of Georgia 	 Tonnes 	 Millions 	 .  
+Salmo salar 	 Exploits River, Gt. Rattling Brook, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Sebastes alutus 	 British Colombia 	 . 	 . 	 . 
+Gadus morhua 	 NAFO 5Y 	 Tonnes  	 Thousands 	 Tonnes 
+Merluccius productus 	 W. US. + Canada 	 Million Tonnes 	 Billions  	 Thousand tonnes  
+Oncorhynchus gorbuscha 	 Rocky River, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Reinhardtius hippoglossoides 	 E. Bering Sea and Aleutian Islands 	 Tonnes of Females 	 Thousands 	 Tonnes 
+Osmerus mordax 	 Western Lake Erie 	 . 	 number per hour 	 .  
+Sardinops sagax 	 California 	 Thousand tonnes 	 . 	 . 
+Salmo trutta 	 Black Brows Beck 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Salvelinus fontinalis 	 Wonder 3 Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Oncorhynchus kisutch 	 Wildcat Creek, Washington 	 . 	 Smolts 	 .  
+Sardinops sagax 	 South Africa 	 Thousand tonnes 	 Billions 	 .  
+Salmo salar 	 River Bush, Northern Ireland 	 Millions of eggs 	 Number of smolts 	 .  
+Sardina pilchardus 	 West Iberian (ICES VIIIc-IXa) 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Gulf of Riga 	 Tonnes 	 Thousands 	 . 
+Salmo salar 	 Northeast Brook, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Stizostedion vitreum 	 Mille Lacs Lake, Minnesota 	 Tonnes 	 Thousands 	 Tonnes 
+Eopsetta jordani 	 Southern B.C., Canada 	 Pounds per hour 	 Number per 100 hr. trawling 	 . 
+Branchiostegus japonicus 	 Wakasa Bay 	 Index of Eggs 	 Index 	 Tons 
+Stizostedion vitreum 	 Erie Lake  	 Index 	 Index 	 .  
+Oncorhynchus nerka  	 Late Nadina River, B.C.  	 Millions of Fry  	 Fish  	 . 
+Oncorhynchus gorbuscha 	 Windy Left, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Oncorhynchus gorbuscha 	 Seldovia, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Sebastes mentela and fasciatus  	 NAFO 4VWX 	 .  	 .  	 Thousand tonnes 
+Gadus morhua 	 NAFO 3M 	 Mean norm. 	 Mean norm. 	 .  
+Salmo salar 	 Western Arm Brook, Canada 	 Number of fish 	 Number of fish 	 .  
+Micromesistius australis 	 Campbell Island, NZ 	 Tonnes 	 Millions 	 Tonnes 
+Oncorhynchus nerka  	 Karluk River, Alaska 	 Thousands of fish  	 Thousands 	 .  
+Alosa pseudoharengus  	 Long Pond, MA, USA 	 Thousands 	 Thousands 	 .  
+Salmo salar 	 Biscay Bay River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Theragra chalcogramma 	 Gulf of Alaska, Alaska 	 Thousand tonnes 	 Millions 	 Thousand tonnes  
+Sebastolobus alaskanus 	 Gulf of Alaska 	 Tonnes 	 Thousands 	 Tonnes 
+Micropterus dolomieui 	 Courtois Creek, Missouri  	 . 	 Number per acre 	 . 
+Oncorhynchus nerka 	 Kasilof River, Alaska 	 Millions of fish 	 Millions of fish 	 .  
+Oncorhynchus gorbuscha 	 Pokosnaya River, Sakhalin Is. 	 Thousands 	 Millions of Fry 	 . 
+Morone saxatilis 	 East Coast, USA 	 Tonnes of females 	 Thousands  	 Thousand tonnes 
+Oncorhynchus gorbuscha  	 E. Queen Charlotte Is., B.C.  	 Fish 	 Fish 	 Fish 
+Pollachius virens 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Gander River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Salvelinus fontinalis 	 Flower Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Melanogrammus aeglefinus 	 Rockall Bank 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Lutoga River, Sakhalin Is. 	 Thousands 	 Millions of Fry 	 . 
+Morone saxatilis 	 Potomac River, Chesapeake Bay 	 . 	 Catch per haul 	 . 
+Sebastes alutus 	 US West Coast 	 Trillion of eggs  	 Millions 	 Tonnes 
+Oncorhynchus gorbuscha 	 Humpy Creek, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Merluccius capensis 	 South Africa South Coast 	 Thousand Tonnes 	 Millions 	 . 
+Mallotus villosus 	 Iceland 	 Thousand tonnes 	 Index 	 Thousand tonnes 
+Portunus trituberculatus 	 Hiuchi Nada, Seto Island Sea 	 Tonnes  	 Tonnes 	 Tonnes  
+Hippoglossoides platessoides 	 West Greenland 	 Tonnes 	 Thousands 	 . 
+Esox lucius 	 River Frome, Dorset, England 	 . 	 Relative year-class strength 	 .  
+Oncorhynchus kisutch 	 Snow Creek, Washington 	 Females 	 Smolts 	 .  
+Clupea harengus 	 Hokkaido 	 Thousand Kilograms 	 Thousand Kilograms 	 .   
+Oncorhynchus kisutch 	 Little Pilchuk Creek, Washington 	 . 	 Smolts 	 .  
+Salvelinus fontinalis 	 Dingleberry Lake, Sierra Nevada 	 . 	 Numbers 	 .  
+Merluccius merluccius 	 Jabuka Pit, Adriatic Sea 	 Tons 	 Millions 	 .  
+Stizostedion vitreum 	 Lake Pepin, Minnesota 	 . 	 index 	 .  
+Stizostedion vitreum 	 Escanaba Lake, Wisconsin 	 Number of fish per hectare 	 Number of fish per hectare 	 .  
+Lepidorhombus whiffiagonis 	 ICES VIIIc and IXa 	 Tonnes 	 Thousands 	 Tonnes  
+Oncorhynchus nerka  	 Ugashik River, Alaska 	 Millions of fish  	 Millions 	 Millions of fish  
+Perca fluviatilis 	 River Kyronjoki 	 . 	 Mean number per hauls 	 .  
+Promoxis annularis and nigromaculatus 	 Okatibbee Reservoir, Mississippi 	 Number per hectare 	 Number per hectare 	 . 
+Gadus morhua 	 North East Arctic 	 Thousand tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Rocky River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Clupea harengus 	 Gulf of Riga 	 Tonnes 	 Thousands 	 Tonnes 
+Alosa aestivalis 	 Saint John River 	 Thousands of lbs. 	 Thousands 	 .  
+Merluccius gayi 	 Chile- Northern zone 	 Thousand Tonnes 	 Millions 	 .  
+Oncorhynchus kisutch 	 South Fork Skykomish River, Washington 	 Females 	 Smolts 	 .  
+Oncorhynchus nerka 	 Wood River, Alaska 	 Thousands of fish 	 Thousands of fish 	 Millions of fish  
+Gadus morhua 	 NAFO 4VsW 	 Tonnes 	 Thousands 	 Tonnes 
+Sebastes flavidus 	 Vancouver 	 . 	 Millions 	 Tonnes 
+Thunnus obesus 	 East Pacific 	 Thousands tonnes 	 Thousands 	 Number of fish 
+Oncorhynchus nerka 	 Port John Lake, B.C.  	 Millions of Eggs 	 Smolts 	 . 
+Engraulis ringens 	 Peru 	 .  	 Billions 	 Thousand Tonnes 
+Clupea harengus 	 Georges Bank 	 .  	 .  	 .  
+Alosa pseudoharengus 	 Lake Ontario 	 Millions 	 Millions 	 .  
+Oncorhynchus nerka 	 Horsefly River, B.C. 	 Fish 	 Fish 	 Fish 
+Sardinops sagax 	 California 	 scales per 1000 cm^2 	 . 	 . 
+Clupea harengus 	 Celtic Sea and VIIj 	 Tonnes 	 Thousands 	 Tonnes 
+Salvelinus fontinalis 	 Wonder 3 Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Oncorhynchus gorbuscha 	 Sashin Creek, Alaska 	 Numbers of females 	 Numbers of fry 	 .  
+Clupea harengus 	 ICES VIa (north) 	 Thousand Tonnes 	 Millions 	 Tonnes 
+Oncorhynchus nerka 	 Chignik Lake, Alaska 	 Millions of fish 	 Millions of fish 	 .  
+Pleuronectes platessa 	 W. of Ireland, ICES VIIb,c 	 Tonnes 	 Thousands 	 Tonnes 
+Sebastes alutus 	 Goose Island Gully, B.C. 	 Thousand tonnes 	 Thousand tonnes 	 Thousand tonnes 
+Solea vulgaris 	 ICES VIId 	 Tonnes 	 Thousands 	 Tonnes 
+Stizostedion vitreum 	 Balsam Lake 	 Index 	 Index 	 .  
+Sciaenops ocellatus  	 Florida Atlantic Coast, USA 	 . 	 Thousands  	 . 
+Melanogrammus aeglefinus 	 NAFO 3Ps2 (Second part of HAD3Ps) 	 . 	 . 	 . 
+Trachurus capensis 	 South Africa 1.3-1.5 	 Thousand tonnes 	 Billions 	 . 
+Pleurogrammus monopterygius 	 Eastern Bering Sea and Aleutian Islands 	 Thousand tonnes 	 Billions 	 Tonnes 
+Oncorhynchus nerka 	 Smith Inlet, B.C. 	 Thousands of fish 	 Thousands of fish 	 Thousands of fish  
+Etrumeus teres 	 South Africa 1.6 	 . 	 Millions 	 . 
+Clupea harengus 	 Northern Irish Sea  	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Lomond River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Oncorhynchus nerka 	 Togiak River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Oncorhynchus gorbuscha 	 Port Graham, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Salmo salar 	 Samd Hill River, Labrador, Canada 	 Number of small salmon 	 . 	 .  
+Oncorhynchus nerka 	 Frazer Lake, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Oncorhynchus gorbuscha  	 Lakelse River, B.C.  	 Thousands of fry 	 Thousands  	 . 
+Micromesistius poutassou 	 Southern ICES 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Lepidonotothen squamifrons 	 Ob Bank, Antarctic Ocean 	 Thousand Tonnes 	 . 	 Thousand Tonnes 
+Oncorhynchus kisutch 	 Harris Creek, B.C. 	 Adults 	 . 	 .  
+Merluccius bilinearis 	 NAFO 4VWX 	 Tonnes 	 Thousands 	 Thousands Tonnes 
+Merlangius merlangus 	 ICES VIa 	 Thousand tonnes 	 Millions 	 Tonnes 
+Sprattus sprattus 	 Baltic Areas 26 and 28 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Oncorhynchus kisutch 	 Bear Creek, Washington 	 . 	 Smolts 	 .  
+Salmo salar 	 Northeast River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Merlangius merlangus 	 Celtic Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Newfoundland(EF) 	 .  	 .  	 .  
+Oncorhynchus kisutch 	 Lost Creek, Washington 	 . 	 Smolts 	 .  
+Clupea harengus 	 ICES VIa (south) and VIIb,c 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha  	 Bentinck, B.C.  	 Fish 	 Fish 	 Fish 
+Acipenser guldanstadti 	 Danube river 	 . 	 Index 	 . 
+Salmo salar 	 Exploits River, Gt. Rattling Brook, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Oncorhynchus nerka 	 Togiak River, Alaska 	 Thousands of fish 	 Thousands of fish 	 .  
+Gadus morhua 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Salmon Brook, Gander River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Sebastes flavidus 	 Columbia 	 . 	 Millions 	 Tonnes 
+Gadus morhua 	 Skagerrak 	 Tonnes 	 Thousands 	 Tonnes 
+Trisopterus esmarkii 	 North Sea 	 Thousand tonnes 	 Billions 	 Thousand tonnes 
+Oncorhynchus nerka 	 Skeena River, B.C. 	 Thousands of fish 	 Thousands 	 .  
+Urophycis tenuis 	 NAFO 4T  	 Thousand tonnes 	 Thousands 	 Tonnes 
+Clupea harengus 	 Craig, Alaska 	 Trillions of Eggs 	 Millions 	 . 
+Squalus acanthias 	 Northwest Atlantic 	 Thousand tonnes 	 Thousand tonnes 	 Tonnes  
+Oncorhynchus nerka  	 Chilko South End, B.C.  	 Millions of Smolt  	 Fish  	 . 
+Morone saxatilis 	 Choptank River, Chesapeake Bay 	 . 	 Catch per haul 	 . 
+Oncorhynchus kisutch 	 Nile Creek, British Columbia 	 Females 	 Smolts 	 .  
+Melanogrammus aeglefinus 	 ICES VIa 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo trutta 	 Black Brows Beck 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Dicentrarchus labrax 	 Southern Irish UK 	 . 	 Index 	 . 
+Brevoortia tyrannus 	 U.S. Atlantic 	 Thousand tonnes of females 	 Billions 	 Thousand tonnes 
+Champsocephalus gunnari 	 South Georgia, Antarctic Ocean 	 Thousand Tonnes 	 Millions 	 Thousand Tonnes 
+Thunnus maccoyii 	 Southern Pacific 	 Thousand Tonnes 	 Thousands 	 . 
+Cynoscion guatucupa 	 East Coast, USA 	 Tonnes 	 Thousands  	 Tonnes 
+Pagrus pagrus 	 Atlantic Ocean off North Carolina 	 Thousand tonnes females 	 Millions 	 Tonnes 
+Haliotis laevigata 	 South Australia 	 Number per hundred metre square 	 Index 	 .   
+Thunnus albacares 	 Eastern Pacific Ocean 	 Thousands of tons 	 Thousands of fish 	 .  
+Stizostedion canadense 	 Lake of the Woods, Minnesota 	 . 	 index 	 .  
+Oncorhynchus nerka  	 Chilko River, B.C.  	 Millions of Smolt  	 Fish  	 . 
+Morone saxatilis 	 East Coast, USA 	 Tonnes of females 	 Thousands  	 Tonnes 
+Salmo trutta 	 Black Brows Beck 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Sebastes mentela and fasciatus 	 NAFO 3M 	 . 	 Thousands 	 . 
+Sebastes mentela and fasciatus  	 NAFO 3NO 	 .  	 .  	 .  
+Salmo salar 	 Biscay Bay River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Merluccius productus 	 W. US. + Canada 	 Thousand tonnes 	 . 	 . 
+Clupea harengus 	 NAFO 4R (Spring spawners) 	 Tonnes 	 Thousands 	 .  
+Clupea harengus 	 Queen Charlotte Islands 	 Tonnes 	 Millions 	 .  
+Oncorhynchus nerka 	 Egegik River, Alaska 	 Numbers of fish 	 Numbers of smolts 	 .  
+Coilia dussumieri 	 Northwest coast of India 	 Millions 	 Millions 	 Millions 
+Salvelinus fontinalis 	 Montmorency County, Michigan 	 Number of eggs 	 Numbers 	 .  
+Engraulis encrasicolus 	 Bay of Biscay 	 Tonnes 	 Actual numbers 	 Tonnes 
+Salmo salar 	 Pinchgut Brook, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Oncorhynchus gorbuscha  	 W. Queen Charlotte Is., B.C.  	 Fish 	 Fish 	 Fish 
+Oncorhynchus nerka 	 Early Stuart Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus gorbuscha  	 Central Coast Area 9, B.C.  	 Fish 	 Fish 	 Fish 
+Gadus morhua 	 NAFO 2J3KL 	 Thousand tonnes 	 Thousands 	 Thousand tonnes 
+Cancer borealis 	 NAFO 4Y 	 Kg per tow 	 . 	 . 
+Theragra chalcogramma 	 East Kamchatka 	 Millions of fish  	 Millions  	 .  
+Clupea harengus 	 Iceland (Spring spawners) 	 Thousand Tonnes 	 Millions 	 .  
+Clupea harengus 	 Southern Central Baltic 	 Tonnes 	 Millions 	 Thousand tonnes 
+Oncorhynchus kisutch 	 Deer Creek, Oregon 	 Females 	 Smolts 	 .  
+Reinhardtius hippoglossoides 	 Northwest Atlantic 	 Thousand tonnes 	 Millions 	 .  
+Oncorhynchus kisutch 	 Christmas Creek, Washington 	 . 	 Smolts 	 .  
+Solea vulgaris 	 Celtic Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Solea vulgaris 	 ICES VIIe 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus kisutch 	 Little Tayuha Creek, Washington 	 . 	 Smolts 	 .  
+Merluccius capensis 	 South Africa 1.6 	 Thousand Tonnes 	 Millions 	 . 
+Gadus morhua 	 NAFO 3M 	 .  	 .  	 .  
+Stizostedion vitreum 	 Woods Lake  	 Index 	 Index 	 .  
+Melanogrammus aeglefinus 	 NAFO 3NO1 (First part of HAD3NO) 	 . 	 Index from survey 	 . 
+Lepidopsetta bilineata 	 Hecate Strait, B.C. 	 CPUE Index 	 CPUE Index 	 . 
+Oncorhynchus nerka 	 Early Stuart Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Stizostedion vitreum 	 Nipissing Lake  	 Index 	 Index 	 .  
+Thunnus albacares 	 Indian Ocean 	 Millions of fish 	 Millions of fish 	 .  
+Oncorhynchus nerka 	 Karymaisky Spring, Kamchatka  	 Egg 	 Fry 	 . 
+Salvelinus fontinalis 	 Montmorency County, Michigan 	 Number of eggs 	 Numbers 	 .  
+Sebastes mentella 	 North East Arctic 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Utka River, Kamchatka 	 Millions of Fry 	 Thousands 	 . 
+Oncorhynchus nerka 	 Weaver Creek, B.C. 	 Fish 	 Fish 	 Fish 
+Pollachius virens 	 Iceland 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus keta 	 Johnstone Strait 	 Thousands fish 	 Thousands 	 .  
+Stizostedion vitreum 	 Western Lake Erie 	 . 	 number per hour 	 .  
+Pleuronectes ferrugineus 	 NAFO 5Z 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Merlangius merlangus 	 ICES VIId 	 Thousand tonnes 	 Millions 	 Tonnes 
+Salvelinus fontinalis 	 Dingleberry Lake, Sierra Nevada 	 Numbers 	 Numbers 	 .  
+Salmo salar 	 Humber River, Nfld, CA 	 Number of large salmon 	 . 	 .  
+Brevoortia patronus 	 Gulf of Mexico 	 Thousand tonnes 	 Billions 	 Thousands tonnes 
+Salmo salar 	 Morgan Falls, LaHave River, N.S. Canada 	 number 	 number 	 .  
+Engraulis encrasicolus 	 Bay of Biscay 	 Tonnes 	 Thousands 	 Tonnes 
+Taius tumifrons 	 South East China Sea 	 Numbers 	 Numbers 	 .  
+Limanda aspera 	 West Kamchatka Shelf 	 Million eggs 	 Millions 	 . 
+Pleuronectes platessa 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Salmon Brook, Gander River, Nfld, CA 	 Number of small salmon 	 . 	 .  
+Esox masquinongy 	 Nogies Creek Sanctuary, Ontario 	 . 	 numbers 	 . 
+Oncorhynchus gorbuscha 	 Brown's Peak Creek, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Oncorhynchus nerka 	 Chilko River, B.C. 	 Fish 	 Fish 	 Fish 
+Scomber japonicus 	 Soledad Basin, Baja California 	 scales per 1000 cm^2 	 . 	 . 
+Thunnus maccoyii 	 Southern Pacific 	 Tonnes 	 Thousands 	 . 
+Oncorhynchus nerka 	 Late Stuart Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus mykiss 	 Keogh River, B.C. 	 Number of Eggs 	 Number of Fry 	 .  
+Alosa pseudoharengus 	 Damariscotta Lake, Maine 	 Billions of eggs 	 Thousands of fish 	 .  
+Esox lucius 	 Lake Kabetogama, Minnesota 	 . 	 index 	 . 
+Morone saxatilis 	 Nanticoke River, Chesapeake Bay 	 . 	 Catch per haul 	 . 
+Pandalus borealis 	 Hawke Channel + Division 3K  	 kg/hr 	 . 	 Tonnes 
+Hippoglossus stenolepis 	 North Pacific 	 Tonnes 	 Thousands 	 Million pounds 
+Gadus morhua 	 NAFO 5Y 	 Kg per tow  	 Numbers per tow 	 Tonnes 
+Gadus morhua 	 Faroe Plateau 	 Tonnes 	 Thousands 	 Tonnes 
+Salmo salar 	 Tobique River, N.B., Canada 	 eggs/100m^2 	 number of 1SW salmon 	 .  
+Sebastes marinus 	 West Greenland  	 Thousand tonnes 	 Thousands 	 . 
+Harpodon nehereus 	 Northwest coast of India 	 Millions 	 Millions 	 Tonnes 
+Engraulis capensis 	 South Africa 	 Million tonnes 	 Million tonnes 	 . 
+Xiphias gladius 	 North Atlantic 	 Thousand tonnes 	 Thousands 	 . 
+Genypterus capensis 	 South Africa 1.3-1.4 	 . 	 Thousands 	 . 
+Scomberomorus cavalla 	 W. Gulf of Mexico 	 Thousands 	 Thousands 	 Tonnes 
+Alosa aestivalis  	 Chowan River, USA 	 Thousand pounds 	 Thousands 	 .  
+Oncorhynchus nerka  	 Adams Complex, B.C. 	 Fish 	 Fish 	 Fish 
+Oncorhynchus kisutch 	 Qualicum River System, British Columbia 	 Adults 	 Smolts 	 .  
+Oncorhynchus nerka  	 Columbia River 	 Thousands of fish 	 Thousands of fish 	 . 
+Salmo salar 	 Western Arm Brook, Canada 	 Number of Smolt 	 Number of Grilse 	 .  
+Oncorhynchus gorbuscha 	 Pokosnaya River, Sakhalin Is.  	 Thousands 	 Thousands 	 . 
+Salmo salar 	 Nepisiguit River, N.B., Canada 	 Number of eggs (x10^6) 	 Number of fry / 100m2 	 .  
+Clupea harengus 	 Norway (Spring spawners) 	 Million tonnes 	 Billions 	 Tonnes 
+Alosa pseudoharengus 	 Damariscotta River 	 Thousands of lbs. 	 Thousands 	 .  
+Ammodytes marinus 	 ICES VIa 	 Tonnes 	 Billions 	 Tonnes 
+Sardinops sagax 	 Soledad Basin, Baja California 	 scales per 1000 cm^2 	 . 	 . 
+Oncorhynchus gorbuscha  	 Central Coast Area 7, B.C.  	 Fish 	 Fish 	 Fish 
+Pleuronectes ferrugineus 	 Southern New England 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Gadus morhua 	 Iceland 	 Thousand tonnes 	 Millions 	 Thousand tonnes 
+Lithodes maja 	 NAFO 5Y 	 Kg per tow 	 . 	 . 
+Promoxis annularis and nigromaculatus 	 Ross Barnett Reservoir, Mississippi 	 Number per hectare 	 Number per hectare 	 . 
+Pandalus borealis 	 Eastern Scotian Shelf  	 kg/hr 	 . 	 Tonnes 
+Pleuronectes platessa 	 Irish Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus nerka 	 Shuswap Lake, Fraser River, B.C. 	 Number of Effective Females 	 Number of fry (in October) 	 . 
+Oncorhynchus nerka 	 Rivers Inlet, B.C. 	 Millions of fish 	 Millions 	 Millions of fish  
+Hippoglossoides platessoides 	 NAFO 5YZ 	 Thousand tonnes 	 Millions 	 . 
+Alosa sapidissima 	 Connecticut River 	 Thousands 	 Thousands 	 .  
+Theragra chalcogramma 	 Japan-Pacific coast of Hokkaido  	 Thousand Tonnes 	 Millions 	 Tonnes 
+Hippoglossoides platessoides 	 NAFO 4V 	 . 	 . 	 Tonnes 
+Oncorhynchus nerka 	 Kenai River, Alaska 	 Millions of fish 	 Millions of fish 	 .  
+Oncorhynchus kisutch 	 Deschutes River, Washington 	 Females 	 Smolts 	 .  
+Ammodytes marinus 	 Shetland 	 Relative Scale 	 Relative Scale 	 .  
+Stizostedion vitreum 	 Red Lakes, Minnesota 	 . 	 relative to mean 	 .  
+Oncorhynchus nerka  	 Kvichak River, Alaska 	 Numbers of Fish 	 Numbers of Smolts 	 . 
+Argyrosomus nibe 	 East China Sea 	 Index 	 Index 	 . 
+Gadus morhua 	 NAFO 4TVn 	 Thousand tonnes 	 Thousands 	 Thousand Tonnes 
+Clupea harengus 	 Gulf of Onega, White Sea 	 . 	 Millions 	 .   
+Merluccius bilinearis 	 Mid Atlantic Bight 	 Thousand tonnes 	 Millions 	 .  
+Leuciscus cephalus 	 River Stour, Dorset 	 . 	 Indices of year class strength 	 .  
+Oncorhynchus gorbuscha 	 Dagi River, Sakhalin Is. 	 Thousands 	 Millions of Fry 	 . 
+Theragra chalcogramma 	 E. Bering Sea 	 Million tonnes 	 Billions  	 Million tonnes 
+Oncorhynchus nerka 	 Egegik River, Alaska 	 Millions of fish 	 Millions of fish 	 Millions of fish  
+Gadus morhua 	 NAFO 3NO 	 Tonnes 	 Thousands 	 Tonnes 
+Micromesistius poutassou 	 Northern ICES 	 Thousand tonnes 	 Millions 	 Tonnes 
+Sebastes pinniger 	 W. U.S.(Columbia region) 	 . 	 . 	 Tonnes 
+Oncorhynchus nerka 	 Little Kitoi Lake, Afognak Is., Alaska  	 Thousands of Eggs 	 Smolts 	 . 
+Scomber scombrus 	 Western ICES  	 Tonnes 	 Thousands 	 Tonnes 
+Stizostedion vitreum glaucum 	 Eastern Lake Erie 	 . 	 Number of fish 	 Thousands of pounds  
+Gadus morhua 	 NAFO 3Ps 	 Tonnes 	 Thousands 	 Tonnes 
+Solea vulgaris 	 Irish Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Urophycis chuss 	 NAFO S. New England  	 Thousand tonnes 	 Millions 	 . 
+Engraulis mordax 	 California 	 Thousand tonnes 	 . 	 . 
+Solea vulgaris 	 North Sea 	 Tonnes 	 Thousands 	 Tonnes 
+Oncorhynchus gorbuscha 	 Bruin Bay, Cook Inlet, Alaska 	 Numbers of fish 	 Numbers of fish 	 . 
+Oncorhynchus nerka 	 Skeena River, B.C. 	 Fish 	 Fish 	 .  
+Gadus morhua 	 NAFO 5Z 	 Tonnes 	 Thousands 	 Tonnes 
+Gobionotothen gibberifrons 	 South Georgia, Antarctic Ocean 	 Thousand Tonnes 	 , 	 Thousand Tonnes 
+Salmo trutta 	 Wilfin Beck, Aug/Sept 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  
+Oncorhynchus nerka 	 Tahltan Lake, B.C. 	 Numbers of fish 	 Numbers of fish 	 Numbers of fish  
+Salmo salar 	 Tobique River, Canada 	 Thousands of eggs 	 Number of Adults 	 .  
+Parophrys vetulus 	 Hecate Strait 	 . 	 Actual numbers 	 Tonnes 
+Esox lucius 	 Rainy Lake, Minnesota 	 . 	 index 	 . 
+Salmo trutta 	 Black Brows Beck 	 eggs per 60 m^2 	 fish per 60 m^2 	 .  

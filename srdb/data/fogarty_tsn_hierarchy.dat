@@ -1,0 +1,44 @@
+tsn,sciname,kingdom,phylum,classname,ordername,family,genus,species,myersname,com1,com2,ms,mf
+172567,Peprilus triacanthus,Animalia,Chordata,Actinopterygii,Perciformes,Stromateidae,Peprilus,triacanthus,BUTTER,Atlantic butterfish,butterfish,NULL,NULL
+160200,Rhizoprionodon terraenovae,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Rhizoprionodon,terraenovae,SNOSESHAR,Atlantic sharpnose shark,NULL,NULL,NULL
+80944,Spisula solidissima,Animalia,Mollusca,Bivalvia,Veneroida,Mactridae,Spisula,solidissima,SURF,Atlantic surfclam,NULL,NULL,NULL
+166727,Sebastes melanops,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,melanops,BLACKROCK,Black rockfish,NULL,NULL,NULL
+167687,Centropristis striata,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Centropristis,striata,BSBASS,Black sea bass,NULL,NULL,NULL
+160304,Carcharhinus acronotus,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus,acronotus,BNOSESHAR,Blacknose shark,NULL,NULL,NULL
+160318,Carcharhinus limbatus,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus,limbatus,BTIPSHAR,Blacktip shark,NULL,NULL,NULL
+97936,Paralithodes platypus,Animalia,Arthropoda,Malacostraca,Decapoda,Lithodidae,Paralithodes,platypus,BKINGCRAB,Blue king crab,NULL,NULL,NULL
+166730,Sebastes mystinus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,mystinus,BLUEROCK,Blue rockfish,NULL,NULL,NULL
+160502,Sphyrna tiburo,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Sphyrnidae,Sphyrna,tiburo,BHEADSHAR,Bonnethead shark,NULL,NULL,NULL
+96028,Sicyonia brevirostris,Animalia,Arthropoda,Malacostraca,Decapoda,Sicyoniidae,Sicyonia,brevirostris,BRNROCKSHRIMP,Brown rock shrimp,NULL,NULL,NULL
+551570,Farfantepenaeus aztecus,Animalia,Arthropoda,Malacostraca,Decapoda,Penaeidae,Farfantepenaeus,aztecus,BRNSHRIMP,Brown shrimp,NULL,NULL,NULL
+166727,Sebastes melanops,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,melanops,BLACKROCK,Black rockfish,NULL,NULL,NULL
+166734,Sebastes pinniger,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,pinniger,CROCK,Canary rockfish,NULL,NULL,NULL
+172887,Microstomus pacificus,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Microstomus,pacificus,DSOLE,Dover sole,NULL,NULL,NULL
+166714,Sebastes ciliatus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,ciliatus,DUSKYROCK,Dusky rockfish,NULL,NULL,NULL
+160268,Carcharhinus obscurus,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus,obscurus,DUSKYSHAR,Dusky shark,NULL,NULL,NULL
+160409,Carcharhinus isodon,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus,isodon,FTOOTHSHAR,Finetooth shark,NULL,NULL,NULL
+167759,Mycteroperca microlepis,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Mycteroperca,microlepis,GAG,Gag,NULL,NULL,NULL
+173138,Balistes capriscus,Animalia,Chordata,Actinopterygii,Tetraodontiformes,Balistidae,Balistes,capriscus,GTRIG,Gray triggerfish,NULL,NULL,NULL
+168689,Seriola dumerili,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Seriola,dumerili,GRAMBER,Greater amberjack,NULL,NULL,NULL
+160851,Raja rhina,Animalia,Chordata,Chondrichthyes,Rajiformes,Rajidae,Raja,rhina,LNOSESKA,Longnose skate,NULL,NULL,NULL
+82521,Illex illecebrosus,Animalia,Mollusca,Cephalopoda,Teuthida,Ommastrephidae,Illex,illecebrosus,ILLEX,Northern shortfin squid,NULL,NULL,NULL
+96967,Pandalus borealis,Animalia,Arthropoda,Malacostraca,Decapoda,Pandalidae,Pandalus,borealis,PANDAL,Northern shrimp,NULL,NULL,NULL
+81343,Arctica islandica,Animalia,Mollusca,Bivalvia,Veneroida,Arcticidae,Arctica,islandica,QUAH,Ocean quahog,NULL,NULL,NULL
+551574,Farfantepenaeus duorarum,Animalia,Arthropoda,Malacostraca,Decapoda,Penaeidae,Farfantepenaeus,duorarum,PINKSHRIMP,Pink shrimp,Northern pink shrimp,NULL,NULL
+620992,Chaceon quinquedens,Animalia,Arthropoda,Malacostraca,Decapoda,Geryonidae,Chaceon,quinquedens,RDEEPCRAB,Red deepsea crab,NULL,NULL,NULL
+167702,Epinephelus morio,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Epinephelus,morio,RGROUP,Red grouper,NULL,NULL,NULL
+97935,Paralithodes camtschaticus,Animalia,Arthropoda,Malacostraca,Decapoda,Lithodidae,Paralithodes,camtschaticus,RKCRAB,Red king crab,NULL,NULL,NULL
+95966,Pleoticus robustus,Animalia,Arthropoda,Malacostraca,Decapoda,Solenoceridae,Pleoticus,robustus,ROYALRSHRIMP,Royal red shrimp,NULL,NULL,NULL
+160289,Carcharhinus plumbeus,Animalia,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus,plumbeus,SBARSHAR,Sandbar shark,NULL,NULL,NULL
+79718,Placopecten magellanicus,Animalia,Mollusca,Bivalvia,Ostreoida,Pectinidae,Placopecten,magellanicus,SCALL,Sea scallop,NULL,NULL,NULL
+166725,Sebastes jordani,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,jordani,SBELLYROCK,Shortbelly rockfish,NULL,NULL,NULL
+166712,Sebastes borealis,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,borealis,SRAKEROCK,Shortraker rockfish,NULL,NULL,NULL
+98428,Chionoecetes opilio,Animalia,Arthropoda,Malacostraca,Decapoda,Oregoniidae,Chionoecetes,opilio,SNOWCRAB,Snow crab,NULL,NULL,NULL
+167705,Epinephelus niveatus,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Epinephelus,niveatus,SNOWGROUP,Snowy grouper,NULL,NULL,NULL
+172436,Scomberomorus maculatus,Animalia,Chordata,Actinopterygii,Perciformes,Scombridae,Scomberomorus,maculatus,SPANMACK,Spanish mackerel,NULL,NULL,NULL
+160617,Squalus acanthias,Animalia,Chordata,Chondrichthyes,Squaliformes,Squalidae,Squalus,acanthias,SDOG,Spiny dogfish,NULL,NULL,NULL
+167680,Morone saxatilis,Animalia,Chordata,Actinopterygii,Perciformes,Moronidae,Morone,saxatilis,STRIPEDBASS,Striped bass,NULL,NULL,NULL
+168546,Lopholatilus chamaeleonticeps,Animalia,Chordata,Actinopterygii,Perciformes,Malacanthidae,Lopholatilus,chamaeleonticeps,TILE,Tilefish,NULL,NULL,NULL
+168909,Rhomboplites aurorubens,Animalia,Chordata,Actinopterygii,Perciformes,Lutjanidae,Rhomboplites,aurorubens,VSNAP,Vermilion snapper,NULL,NULL,NULL
+551680,Litopenaeus setiferus,Animalia,Arthropoda,Malacostraca,Decapoda,Penaeidae,Litopenaeus,setiferus,WSHRIMP,White shrimp,NULL,NULL,NULL
+166740,Sebastes ruberrimus,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Sebastes,ruberrimus,YEYEROCK,Yelloweye rockfish,NULL,NULL,NULL

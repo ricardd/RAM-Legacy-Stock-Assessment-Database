@@ -1,0 +1,5 @@
+ index   name        value      SD   
+     1   varproc     3.1654e-03 7.2826e-04
+     2   varobs      3.3307e-09 1.0981e-06
+     3   slope_pre  -1.7591e-02 1.1484e-02
+     4   slope_post -4.9365e-03 1.5604e-02

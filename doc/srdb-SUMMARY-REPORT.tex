@@ -1,0 +1,88 @@
+\documentclass[a4paper,10pt,oneside]{book}
+
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx} 
+\pagestyle{plain}
+\makeindex
+
+\author{Julia Baum \thanks{Scripps Institute of oceanography, La Jolla, CA, USA} \and Coil\'{i}n Minto \thanks{Dalhousie University, Halifax, NS, Canada} \and Daniel Ricard $^{2}$ \and Olaf Jensen \thanks{University of Washington, Seattle, WA, USA}}
+
+\title{\begin{LARGE}Summary contents of the RAM II stock-recruitment database\end{LARGE}} % \\ \vspace{0.5cm} \textit{\begin{large}Document for NCEAS working group ``Finding Common Ground in Marine Conservation and Management''              \end{large}}}
+
+% Summary contents of RAM's updated stock-recruitment database
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+
+% \citep{Myers:etal:1995a}
+In 1995 Ransom A. Myers and colleagues first published a summary of their newly compiled worldwide database of stock-recruitment data for marine species (Myers, R. A., J. Bridson, and N.J. Barrowman. 1995. Summary of Worldwide Spawner and Recruitment Data. Can. Tech. Rep. Fish. Aquat. Sci.2020: iv + 327 p.). This database has since been used in a large number of publications, leading to important advances in fisheries science and ecology (please refer to the following URL for a list of Dr. Myers' publications: \url{http://as01.ucis.dal.ca/ramweb/content.php?lang=en&i=4&sub=0}). Increasingly, however, analyses became limited by the lack of updating for many of the stocks, providing potentially an outdated picture of the status of marine fisheries. 
+
+
+
+\vspace{0.3cm}
+\begin{Large}DISCLAIMER: \end{Large} This database is under development and the stocks that appear here are only those that have passed the Quality Assurance and Quality Control (QAQC) process.
+%
+
+The current database details can be accessed by NCEAS group members at the following URL:
+\url{http://www.marinebiodiversity.ca/RAMlegacy/srdb}
+
+\newpage
+
+
+
+\section{Contacts}
+
+For further information about the databse design, its content and how to access it, please contact:
+\begin{itemize}
+ \item Julia Baum, Email: juliakbaum@gmail.com, Phone: +1 858-822-5912 (W); +1 858 752-0633 (cell)
+ \item Coil\'{i}n Minto, Email: mintoc@mathstat.dal.ca, Phone: +1 902-494-2146
+ \item Daniel Ricard, Email: ricardd@mathstat.dal.ca, Phone: +1 902-494-2146
+ \item Olaf Jensen, Email: ojensen@u.washington.edu, Phone: +1 410-812-4842
+
+\end{itemize}
+
+
+% Dr. Ransom A. Myers compiled a worldwide database of stock-recruitment data for marine species. In early 2008, a group of colleagues decided to update his database with new stock assessments.
+
+% This document is meant to support research efforts associated with the National Centre for Ecological Analysis and Synthesis (NCEAS) working group ``Finding Common Ground in Marine Conservation and Management''. The current document contains summary graphs for the different fish stock assessments present in the updated stock-recruitment database under development at Dalhousie University.
+
+
+\chapter{Summary plots}
+%\section{Template plots with descriptions}
+
+\include{srdb-allgraphs}
+
+%\chapter*{References}
+%\bibliographystyle{authordate1}
+%\bibliography{/home/ricardd/linux_sync_folder/papers_references/main}
+
+\chapter{Summary tables}
+\section{Contributors}
+%\include{contribtable}
+
+\section{Number of assessments per family}
+%\section{Number of assessments per stock}
+%\include{assessperstock}
+
+\section{Number of assessments per species}
+%\include{assessperspecies}
+
+\section{Number of assessments per jurisdiction}
+
+% select a.country, a.areatype, m.managementauthority, count(*) as ct from srdb.assessment aa, srdb.qaqc q, srdb.area a, srdb.stock s, srdb.management m where aa.assessid=q.assessid and q.qaqc is true and aa.stockid = s.stockid and s.areaid=a.areaid and a.areatype=m.mgmt group by a.country, a.areatype, m.managementauthority order by ct desc;
+
+\section{Reference material for each assessment}
+%\include{refcitations}
+
+\addcontentsline{toc}{Chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } 
+\printindex
+
+\end{document}

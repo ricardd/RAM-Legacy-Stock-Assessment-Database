@@ -1,0 +1,2 @@
+-- query from John Manderson about flatfish
+select aa.mgmt, s.stockid, s.stocklong, aa.assessorfull, a.assessid from srdb.assessment a, srdb.stock s, srdb.assessor aa where a.stockid=s.stockid and a.assessorid=aa.assessorid and a.stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where family = 'Pleuronectidae')) and recorder != 'MYERS' order by aa.mgmt, aa.assessorid;

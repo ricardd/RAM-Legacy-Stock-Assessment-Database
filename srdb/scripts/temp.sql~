@@ -1,0 +1,14 @@
+--#select ss.assessid, a.pdffile, q.issueurl from srdb.assessment a, srdb.qaqc q, srdb.science2009stocks ss where a.assessid = ss.assessid and q.assessid = ss.assessid;
+--select s.assessid, c.citation from srdb.science2009stocks s, srdb.citation c where c.assessid=s.assessid;
+-- select assessid, contacts, assesssource, pdffile from srdb.assessment where assessid in (select assessid from srdb.science2009stocks);
+
+drop table srdb.timeseries_values_science2009;
+create table srdb.timeseries_values_science2009 as
+(
+
+SELECT  tsv.* ,lst.lme_number, lref.lme_name
+FROM 
+srdb.timeseries_values_view tsv, srdb.science2009stocks ss, srdb.lmerefs lref, srdb.lmetostocks lst, srdb.assessment a
+WHERE
+tsv.assessid = ss.assessid and a.assessid=tsv.assessid and a.stockid=lst.stockid and lst.stocktolmerelation='primary' and lst.lme_number=lref.lme_number
+);

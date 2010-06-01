@@ -1,0 +1,2176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments Alternative Title 1: A new global stock assessment database for exploited marine species Alternative Title 2: Understanding marine population dynamics using a new global database Suggested Running Title: A new global stock assessment database</TITLE>
+<META NAME="description" CONTENT="Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments Alternative Title 1: A new global stock assessment database for exploited marine species Alternative Title 2: Understanding marine population dynamics using a new global database Suggested Running Title: A new global stock assessment database">
+<META NAME="keywords" CONTENT="fishandfisheries-v2">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="fishandfisheries-v2.css">
+
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<IMG WIDTH="81" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next_inactive"
+ SRC="/usr/share/latex2html/icons/nx_grp_g.png"> 
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up_g.png"> 
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev_g.png">   
+<BR>
+<BR><BR></DIV>
+<!--End of Navigation Panel-->
+
+<P>
+<H1 ALIGN="CENTER">Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments 
+<BR><BR>
+<BR> Alternative Title 1: A new global stock assessment database for exploited marine species 
+<BR><BR>
+<BR> Alternative Title 2: Understanding marine population dynamics using a new global database 
+<BR><BR>
+<BR> Suggested Running Title: A new global stock assessment database</H1><DIV CLASS="author_info">
+
+<P ALIGN="CENTER"><STRONG>Daniel Ricard <A NAME="tex2html1"
+  HREF="#foot14"><SUP><SPAN CLASS="arabic">1</SPAN></SUP></A></STRONG></P>
+</DIV><DIV CLASS="author_info">
+
+<P ALIGN="CENTER"><STRONG>C&#243;il&#237;n Minto<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="18" ALIGN="BOTTOM" BORDER="0"
+ SRC="img1.png"
+ ALT="$^{*}$"></SPAN> </STRONG></P>
+</DIV><DIV CLASS="author_info">
+
+<P ALIGN="CENTER"><STRONG>Julia Baum<A NAME="tex2html2"
+  HREF="#foot18"><SUP><SPAN CLASS="arabic">2</SPAN></SUP></A></STRONG></P>
+</DIV><DIV CLASS="author_info">
+
+<P ALIGN="CENTER"><STRONG>Olaf Jensen <A NAME="tex2html3"
+  HREF="#foot19"><SUP><SPAN CLASS="arabic">3</SPAN></SUP></A></STRONG></P>
+</DIV>
+
+<P>
+
+<H1><A NAME="SECTION00010000000000000000">
+Abstract</A>
+</H1>
+
+<P>
+Data used to assess the status of individual fish stocks varies from
+very little information on many of the world's artisanal fisheries, to
+commercial landings at various levels of geographic and taxonomic
+aggregation, research surveys, and sophisticated population dynamics
+models that integrate many sources of information.  Previous
+evaluations of the state of global fisheries have used catch or
+landings data, which may be poor proxies for fish stock abundances. A
+global compilation of stock assessment data in the mid-1990s enabled
+substantial syntheses of stock status; however the focus of this
+database was on stock-recruitment relationships and it is now 15 years
+out of date. To facilitate contemporary syntheses, we have assembled a
+comprehensive database of the most intensively studied commercially
+exploited marine fish stocks. The database includes time series of:
+total biomass, spawner biomass, recruits, fishing mortality, and
+catch; reference points; and ancillary information on the life
+history, management, and assessment methods for each stock.  Here, we
+present the first overview of the structure and content of the
+database. We further evaluate the knowledge-base for assessed marine
+fishes. Globally, publicly available stock assessments were found for
+322 stocks (286 species of
+fishes representing 45 families and
+36 species of invertebrates representing
+12 families), from 18
+national and international management institutions. Assessments are
+available for only XX percent of global marine fisheries catches by
+weight and XX percent by value.  There is substantial spatial
+variation in availability of assessed stocks, with XX percent coming
+from north temperate regions (North Atlantic, North Pacific).
+Geographic differences in assessment methods show that Statistical
+Catch at Age (SCA) models are widely used by the west coast of the
+U.S. (XX percent of assessments), regional fishery management
+organizations in the Pacific (XX percent of assessments), and New
+Zealand (XX percent of assessments); the east coast of the U.S. is
+transitioning from Virtual Population Analysis (VPA) to SCA (XX
+percent of assessments conducted since 2000 have used SCA); while VPA
+is still the dominant assessment
+technique in western Europe (XX percent of assessments).
+<BR>
+<P>
+Keywords: marine fisheries, meta-analysis, population dynamics models, relational database, stock assessment, synthesis.
+
+
+<P>
+
+<H1><A NAME="SECTION00020000000000000000">
+Introduction</A>
+</H1>
+
+<P>
+Marine wild capture fisheries provide more than 80 million tons of
+fisheries products (both food and industrial) per year and employ 43.5
+million people (wild capture and aquaculture, (<A
+ HREF="fishandfisheries-v2.html#FAO:fishstat">FAO, 2009</A>)).
+At the same time, fishing has been recognized as having one of the
+most widespread human impacts in the world's oceans
+(<A
+ HREF="fishandfisheries-v2.html#Halpern:etal:2008:science">Halpern <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2008</A>), and the Food and Agricultural
+Organization of the United Nations (FAO) estimates that two-thirds of
+fish stocks globally are fully exploited or overexploited
+(<A
+ HREF="fishandfisheries-v2.html#FAO:fishstat">FAO, 2009</A>).  While many fisheries have reduced exploitation
+rates to levels that should promote recovery, overfishing continues to
+be a serious global problem (<A
+ HREF="fishandfisheries-v2.html#Worm:etal:2009:science">Worm <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2009</A>).  Fishery
+managers are asked to address multiple competing objectives, including
+maximizing yields, ensuring profitability, reducing bycatch, and
+minimizing the risk of overfishing.  Given the enormous social and
+economic costs (<A
+ HREF="fishandfisheries-v2.html#Rice:etal:2003:icescm">Rice <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2003</A>) and ecosystems
+consequences (<A NAME="tex2html46" target="contents"
+  HREF="fishandfisheries-v2.html#Myers:etal:2007:science">Myers <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2007</A>; <A NAME="tex2html47" target="contents"
+  HREF="fishandfisheries-v2.html#Frank:etal:2005:science">Frank <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2005</A>)
+of collapsed fisheries, it is imperative that we are able to quickly
+learn from successful and failed fisheries from around the world.
+
+<P>
+Effective management of exploited fish populations generally requires
+an understanding of where the current size and harvest rate
+lie in relation to the size and rate which maximize
+fishery benefits or limit the risk of overfishing.  This process of
+quantitative determination of stock status and estimation of reference
+points is called stock assessment.  Some fisheries in developing
+countries have apparently provided sustainable yields for long periods
+of time without formal stock assessment (e.g. many community-managed
+fisheries in Oceania, (<A
+ HREF="fishandfisheries-v2.html#Johannes:2002:arees">Johannes, 2002</A>)).  This has been achieved by
+limiting harvest rates, often through gear restrictions or seasonal or
+area closures.  In modern industrialized fisheries, however, where fishing
+capacity exceeds the productivity of fished stocks stock
+assessment is an integral component of responsible
+management (<A
+ HREF="fishandfisheries-v2.html#Hilborn:Walters:1992">Hilborn &amp; Walters, 1992</A>).
+
+<P>
+Even in developed countries, however, not all stocks are assessed.
+For example, in 2007, of the 528 fish and invertebrate stocks
+recognized by the National Marine Fisheries Service (NMFS), only 179,
+or slightly over one-third, were fully assessed
+(<A
+ HREF="fishandfisheries-v2.html#NMFS:2008:status">National Marine Fisheries Service, 2008</A>).  An assessment by the European Environment
+Agency (EEA) in 2006 indicated that the percentage of commercial
+landings obtained from assessed stocks ranged between 66-97 percent in
+northern European waters and 30-77 percent in the Mediterranean
+(<A
+ HREF="fishandfisheries-v2.html#eea:2009:status">European Environment Agency, 2009</A>).  The New Zealand Ministry of Fisheries
+reports the status of 117 stocks or sub-stocks out of a total of 628
+stocks managed under New Zealand's Quota Management System
+(<A
+ HREF="fishandfisheries-v2.html#NZMF:2009">New Zealand Ministry of Fisheries, 2009</A>).  In Australia, 98 federally managed stocks have
+been assessed (<A
+ HREF="fishandfisheries-v2.html#Wilson:etal:2009:status">Wilson <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2009</A>) out of an unknown total.
+The extent to which stocks are assessed elsewhere in the world is
+currently unknown.
+
+<P>
+The global database of fishery landings compiled by FAO (<A
+ HREF="fishandfisheries-v2.html#FAO:fishstat">FAO, 2009</A>)
+and synthesized by the Sea Around Us project
+(<A
+ HREF="fishandfisheries-v2.html#Watson:etal:2004:fandf">Watson <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2004</A>) has proven to be a valuable resource
+for understanding fishery status; however, catch data alone can be
+misleading when used as a proxy for stock size.  Many papers have used
+these catch databases to examine changes in fishery status
+(<A NAME="tex2html48" target="contents"
+  HREF="fishandfisheries-v2.html#Worm:etal:2006:science">Worm <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2006</A>; <A NAME="tex2html49" target="contents"
+  HREF="fishandfisheries-v2.html#Costello:etal:2008:science">Costello <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2008</A>), including
+changes in trophic level (<A NAME="tex2html50" target="contents"
+  HREF="fishandfisheries-v2.html#Essington:etal:2006:procnatacadsci">Essington <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2006</A>; <A NAME="tex2html51" target="contents"
+  HREF="fishandfisheries-v2.html#Pauly:etal:1998">Pauly <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 1998</A>; <A NAME="tex2html52" target="contents"
+  HREF="fishandfisheries-v2.html#Newton:etal:2007:currentbiol">Newton <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2007</A>).
+Most of these analyses rely (either explicitly or implicitly) on the
+assumption that catch or landings is a reliable index of stock size.
+Critics have pointed out that catch can change for a number of reasons
+unrelated to stock size, including changes in targeting, fishing
+restrictions, or market preferences (<A NAME="tex2html53" target="contents"
+  HREF="fishandfisheries-v2.html#Hilborn:2007:science">Hilborn, 2007</A>; <A NAME="tex2html54" target="contents"
+  HREF="fishandfisheries-v2.html#Murawski:Methot:Tromble:2007:science">Murawski <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2007</A>; <A NAME="tex2html55" target="contents"
+  HREF="fishandfisheries-v2.html#deMutsert:etal:2008:pnas">de&nbsp;Mutsert <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2008</A>).  Even
+when catch is standardized by the amount of fishing effort
+(catch-per-unit-of-effort, CPUE), it can be an unreliable index of
+relative abundance (<A NAME="tex2html56" target="contents"
+  HREF="fishandfisheries-v2.html#Walters:2003:cjfas">Walters, 2003</A>; <A NAME="tex2html57" target="contents"
+  HREF="fishandfisheries-v2.html#Harley:etal:2001:cjfas">Harley <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2001</A>; <A NAME="tex2html58" target="contents"
+  HREF="fishandfisheries-v2.html#Polacheck:2006:marpol">Polacheck, 2006</A>; <A NAME="tex2html59" target="contents"
+  HREF="fishandfisheries-v2.html#Hutchings:Myers:1994:cjfas">Hutchings &amp; Myers, 1994</A>).
+Stock assessments consider time series of catch along with other
+sources of information such as: natural mortality rates, changes in
+size or age composition, stock-recruitment relationships, and CPUE of
+different sectors or of fishery-independent surveys.  Because they
+integrate across multiple sources of information, stock assessment
+models are thought to provide a more accurate picture of changes in
+abundance than catch data alone (<A
+ HREF="fishandfisheries-v2.html#Sibert:etal:2006:science">Sibert <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2006</A>). Yet,
+without a current and comprehensive database of stock assessments,
+scientists wishing to conduct comparative analyses of marine fish
+population dynamics and fishery status have little choice but to use
+problematic catch data.
+
+<P>
+The first global database of stock assessment information, the Myers
+Stock Recruitment Database, was developed by Ransom Myers and
+colleagues in the mid-1990s (<A
+ HREF="fishandfisheries-v2.html#Myers:etal:1995:summary">Myers <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 1995b</A>).  While
+the database was primarily known for its time series of stock and
+recruitment, it did contain time series of fishing mortality rates for
+many stocks, however, biological reference points were largely absent. The
+original release version of the Myers database
+(<A
+ HREF="fishandfisheries-v2.html#Myers:etal:1995:summary">Myers <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 1995b</A>) contained spawning stock size and
+recruitment time series for 274 stocks representing 92 species as well
+as time series of fishing mortality rates for 144 stocks. It was used
+to: <BR>
+<IMG
+ WIDTH="555" HEIGHT="158" ALIGN="TOP" BORDER="0"
+ SRC="img2.png"
+ ALT="\begin{inparaenum}[1\upshape )]\item
+decisively answer the question of whether ...
+...Myers:etal:1999:cjfas, Myers:etal:2002:najfm,
+Dorn:2002:najfm} \end{inparaenum}">
+<BR>.  The Myers
+database has also been used for several studies of collapse and
+recovery of exploited fish populations (<A NAME="tex2html60" target="contents"
+  HREF="fishandfisheries-v2.html#Hilborn:1997:csiro">Hilborn, 1997</A>; <A NAME="tex2html61" target="contents"
+  HREF="fishandfisheries-v2.html#Hutchings:2000:nature">Hutchings, 2000</A>,<A NAME="tex2html62" target="contents"
+  HREF="fishandfisheries-v2.html#Hutchings:2001:jfishb">2001</A>)..
+
+<P>
+Although the original Myers database (<A
+ HREF="fishandfisheries-v2.html#Myers:etal:1995:summary">Myers <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 1995b</A>)
+has proven to be a valuable resource, it is now 15 years out of date.
+For stocks that were depleted in 1995, these additional 15 years
+include valuable observations at low stock size or of a recovering
+population, both of which are critical for estimating population
+dynamics parameters such as the behaviour of the stock-recruitment
+relationship near the origin. In addition, there have been numerous improvements in
+stock assessment methodologies (including important advances in
+statistical catch-at-age or catch-at-length models) and assessments
+have been conducted for the first time for many species.
+
+<P>
+Previous meta-analyses of fishery status have been hampered by the
+lack of a global assessment database containing biological reference
+points (BRPs, e.g., the total/spawning biomass and fishing mortality rate that
+produce Maximum Sustainable Yield (MSY), <SPAN CLASS="MATH"><IMG
+ WIDTH="54" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.png"
+ ALT="$B_{MSY}$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="51" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.png"
+ ALT="$F_{MSY}$"></SPAN>).  Knowledge of BRPs
+is important if stocks are to be managed for high yields that can be
+sustained over time (<A
+ HREF="fishandfisheries-v2.html#Mace:1994:cjfas">Mace, 1994</A>).  Without information on
+reference points, previous analyses of stock assessments or catch data
+have been forced to use non-biological thresholds to define fishery
+status, such as the greatest 15-year decline
+(<A
+ HREF="fishandfisheries-v2.html#Hutchings:Reynolds:2004:biosci">Hutchings &amp;
+  Reynolds, 2004</A>) or 10 percent of maximum catch
+(<A
+ HREF="fishandfisheries-v2.html#Worm:etal:2006:science">Worm <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2006</A>). Ad hoc reference points based on some
+fraction of the maximum of a time series also have undesirable
+statistical properties and can result in false collapses when applied
+to inherently variable time series of catch or abundance
+(<A NAME="tex2html63" target="contents"
+  HREF="fishandfisheries-v2.html#branch:2008:marpol">Branch, 2008</A>; <A NAME="tex2html64" target="contents"
+  HREF="fishandfisheries-v2.html#Wilberg:Miller:2007:science">Wilberg &amp; Miller, 2007</A>).  Complicating
+comparisons of fishery status is the fact that different BRPs are used
+in different parts of the world and even the same BRP can be used in a
+different manner, for example, as a target or a limit. 
+
+<P>
+Here we present a new global database of stock assessments for
+commercially exploited marine fish populations.  The database is an
+update and extension of that developed by Ransom Myers, and is named
+the RAM Legacy database in honor of his pioneering contribution.  This
+effort is the first global stock assessment database to:
+
+<OL>
+<LI>Use a formal relational database structure;
+</LI>
+<LI>Use source control software to organise release versions;
+</LI>
+<LI>Include metadata related to the geographic location of the stock, the type of assessment model used, and the original source document for the assessment data;
+</LI>
+<LI>Include biological reference points and stock-specific life history information. 
+</LI>
+</OL>
+
+<P>
+We have used the database to assess the knowledge-base for management of marine fish populations and address the following questions:
+
+<OL>
+<LI>What fraction of world wild-capture fishery landings come from assessed stocks and how does this proportion vary by region?
+</LI>
+<LI>What is the temporal coverage of stock assessments, i.e. how far back do stock assessments look when reconstructing trends in abundance?
+</LI>
+<LI>What are the taxonomic and geographic biases, if any, in assessed stocks?
+</LI>
+<LI>Which stock assessment approaches and biological reference points are used and how does this vary by region?
+</LI>
+</OL>
+
+<P>
+
+<H1><A NAME="SECTION00030000000000000000">
+Methods</A>
+</H1> 
+
+<P>
+
+<H2><A NAME="SECTION00031000000000000000">
+The RAM Legacy database</A>
+</H2>
+The RAM Legacy database is a global relational database designed and
+developed to store data from all current and accessible population
+dynamics model-based fisheries stock assessments for marine fish and
+invertebrate populations. Time series of spawning stock biomass (SSB),
+total biomass (TB), recruits (R), total catch (TC) or landings (TL),
+and fishing mortality (F) from individual stock assessments form the
+core of the database.  Apart from catch/landings, these time series
+are not raw data, but rather the output of population dynamics models;
+depending on the type of assessment model not all of these time series
+were available for every stock. The database also contains details
+about the time series data, including the age and sex of spawners, age
+of recruits, and the ages used to compute the fishing mortality, as
+well as BRPs and some life history information (e.g. growth
+parameters, age and length at 50% maturity, natural mortality).
+Metadata for each stock assessment consists of taxonomic information
+about the species (retrieved from the Integrated Taxonomic Information
+System (ITIS) (http://www.itis.gov)), the geographic location of the
+stock (primary, and in some cases, secondary and tertiary Large Marine
+Ecosystem, LME), the management body that conducted the assessment,
+the assessment methodology, the reference for the stock assessment
+document, the name of the recorder entering the assessment data, and
+the date the assessment was entered.  Many assessments, particularly
+those for invertebrates, were based only on CPUE time series rather
+than population dynamics models. While we included these in the
+database, the analyses presented here focus on stocks assessed by
+proper assessments.
+
+<P>
+We employed a variety of search methods in an attempt to obtain all
+recent fisheries stock assessments.  Publically available stock
+assessment reports available from the internet were the primary data
+source.  These reports were obtained either from the website of the
+relevant management agency or directly from stock assessment
+scientists.  Assessments also were obtained from the primary
+literature and through personal contacts at fisheries management
+agencies.  Significant contributions also were made by the other members
+of the National Center for Ecological Analysis and Synthesis (NCEAS)
+working group ``Finding common ground in marine conservation and
+management''. Relevant assessment data were first transferred into a
+standardized spreadsheet template by a number of recorders, including
+ourselves, assessment authors, our NCEAS collaborators, and associated
+graduate students and postdoctoral researchers, and then uploaded into
+the relational database management system by the first author.
+
+<P>
+
+<H2><A NAME="SECTION00032000000000000000">
+Database structure and advantages</A>
+</H2>
+The database is implemented in the Open Source PostgreSQL relational
+database management system (RDBMS) (<A
+ HREF="fishandfisheries-v2.html#postgresql:2009">PostgreSQL Global Development Group, 2009</A>), and includes tables for the assessment metadata,
+time series values, time series units, and biometrics (a catch-all term
+for data, such as life history characteristics or BRPs, that are not
+part of a time series). The relationship between the different database
+tables is shown in the entity relationship diagram (Fig. S1).
+
+<P>
+RDBMSs form the server back-end to a great many applications of
+interest to ecologists, including web-clients and GIS software, and
+have a number of advantages over spreadsheet or flat text file data
+compilations.  First, housing stock assessments in an RDBMS allows
+multiple users to concurrently access and extract subsets of data in
+an efficient and reproducible manner. Second, with the development of
+Application Programming Interfaces (APIs) that allow analytical
+softwares to directly communicate and extract data from the database,
+a common data environment is established, independent of one's choice
+of analytical software (e.g., SAS:SAS ACCESS, Matlab: Matlab/Database,
+R:RDBI/RODBC, Perl:DBI, etc.).  Users familiar with Structured Query
+Language (SQL) can also query the database directly from their
+analytical software of choice and the same SQL query will extract the
+same data through each of these applications.  Third, data products
+tailored to specific projects can be generated and stored as dynamic
+(continually updated) ``views'' within the database.  These are
+typically rectangular, spreadsheet-like results of an expansive query
+of the relevant tables that can be readily read into all commonly-used
+analytical software.  The use of views is, however, greatly
+advantageous over manipulating spreadsheets or flat text files for
+importing into a specific analytic software, which runs the risk of
+losing data integrity (e.g. multiple copies) and becomes impractical
+with large, non-rectangular datasets and multiple users.
+
+<P>
+
+<H2><A NAME="SECTION00033000000000000000">
+Data integrity and quality control</A>
+</H2>
+We have employed several mechanisms to ensure that the database is of
+high quality. During the data recording process, assessment authors
+often were contacted to clarify aspects of the assessment or to obtain
+more detailed data. Time series data presented in figures were, for
+example, only entered into the database if the exact numbers could be
+obtained from the assessment or its authors. In cases where multiple
+models were presented in an assessment without a preferred or&nbsp;best&nbsp;
+model being denoted, we attempted to ascertain which model was
+preferred by the stock assessment scientist, but included all model
+results whenever this was not possible.  Once uploaded into the
+database all stock assessments underwent an additional&nbsp;Quality
+Assurance/Quality Control&nbsp; (QA/QC) step, to ensure that the entered
+data replicated that of the original assessment document exactly. This
+process consisted of creating a QA/QC summary document for each
+assessment, containing summary details of the stock, a selection of
+biometrics and ratios for comparison (e.g. current status relative to
+BRP), and time series plots of the biomass, recruitment, and
+exploitation trajectories. QA/QC documents were then returned to
+assessment recorders and an electronic trail of subsequent
+correspondence was captured using a bug tracking system. Recorders
+were responsible for checking, and where necessary correcting, their
+QA/QC documents, after which all corrections were transmitted back to
+the operational database and a quality controlled flag was inserted to
+signify the assessment had passed the check. Only assessments that
+have passed this QA/QC step are available for subsequent analyses.
+
+<P>
+
+<H2><A NAME="SECTION00034000000000000000">
+Links to related databases</A>
+</H2>
+To facilitate integration of the RAM Legacy database with related
+databases, such as Fishbase (<A
+ HREF="fishandfisheries-v2.html#Froese:Pauly:2009:fishbase">Froese &amp; Pauly, 2009</A>) and the
+Sea Around Us Project's (SAUP) global landings database
+(<A
+ HREF="fishandfisheries-v2.html#Watson:etal:2004:fandf">Watson <SPAN  CLASS="textit">et&nbsp;al.</SPAN>, 2004</A>), each species present in the RAM Legacy
+database was assigned a matching FishBase species name and species
+code as well as the SAUP taxon code. Additionally, each stock was
+assigned to a primary, secondary, and tertiary Large Marine Ecosystem
+(LME) (<A
+ HREF="fishandfisheries-v2.html#NOAA:LME64:1998">NOAA, 1998</A>).  LMEs encompass the continental shelves
+of the world's oceans and represent the most productive areas of the
+oceans.  Open ocean areas beyond the continental shelves are, however,
+not included. Large, highly migratory oceanic species such as tuna
+were therefore assigned to new categories ``Atlantic High Seas'',
+``Pacific High Seas'', ``Indian High Seas'', and ``Subantarctic High
+Seas''.
+
+<P>
+
+<H2><A NAME="SECTION00035000000000000000">
+Database analyses: Assessing the knowledge-base for commercially exploited stocks</A>
+</H2>
+We first assess the scope of the stock assessments held in the current
+version of the RAM Legacy database (Version 1.0, 2010) in terms of
+institutional contributions, geography, taxonomy, global fisheries,
+timespan, and ecology. To evaluate the taxonomic scope of the
+database, we compare the taxonomy of assessed stocks with the
+diversity of i) all marine fishes (as represented by FishBase), and
+ii) marine fishes in global fisheries catches (as represented by the
+SAUP database), and discuss taxonomic biases in species included in
+catch data and in populations assessed using stock assessments. To
+determine what fraction of world wild-capture fisheries landings come
+from assessed stocks, we used the SAUP's average global fisheries
+catches from the most recent ten years of available data (1995-2004);
+we also discuss limitations to obtaining assessments for some of the
+world's major fisheries.
+
+<P>
+Next, we briefly overview the types of asssessment models and BRPs
+contained within the stock assessments, and the frequencies of
+different assessment methods and BRPs overall and by management body.
+We then evaluate the status of assessed stocks overall, by management
+body and by trophic level, using standard reference points so that all
+stocks are referenced to a comparable benchmark.  Following
+<A
+ HREF="fishandfisheries-v2.html#Froese:Proelss:2010:fandf">Froese &amp; Proel&#223; (2010)</A> and <A
+ HREF="fishandfisheries-v2.html#Worm:etal:2009:science">Worm <SPAN  CLASS="textit">et&nbsp;al.</SPAN> (2009)</A>, we
+compare the current status and exploitation rate of stocks relative
+to their MSY reference points, <SPAN CLASS="MATH"><IMG
+ WIDTH="54" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.png"
+ ALT="$B_{MSY}$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="50" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.png"
+ ALT="$u_{MSY}$"></SPAN>, respectively. 
+
+<P>
+We do not advocate the use of MSY targets for management, but still
+report MSY-related BRPs because they can be used to compare multiple
+stocks.  For those assessments that did not contain MSY reference
+points, but did include total catch (<SPAN CLASS="MATH"><IMG
+ WIDTH="47" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.png"
+ ALT="$TC_{i,s}$"></SPAN>, <!-- MATH
+ $i \in
+{1,\ldots,n_{s}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="104" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.png"
+ ALT="$i \in {1,\ldots,n_{s}}$"></SPAN>) and total biomass (<SPAN CLASS="MATH"><IMG
+ WIDTH="48" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img8.png"
+ ALT="$TB_{i,s}$"></SPAN>, <!-- MATH
+ $i \in
+{1,\ldots,n_{s}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="104" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.png"
+ ALT="$i \in {1,\ldots,n_{s}}$"></SPAN>) time series data, we used a Schaefer surplus
+production model to estimate total biomass and exploitation rate at
+MSY (<SPAN CLASS="MATH"><IMG
+ WIDTH="71" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="$TB_{MSY_{s}}$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="50" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.png"
+ ALT="$u_{MSY}$"></SPAN>, respectively). Surplus production
+of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.png"
+ ALT="$s$"></SPAN> in year <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img11.png"
+ ALT="$t$"></SPAN>, <SPAN CLASS="MATH"><IMG
+ WIDTH="32" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.png"
+ ALT="$P_{s,t}$"></SPAN>, is a commonly used measure of
+stock productivity. The surplus production can be calculated as:
+
+<P>
+<BR>
+<DIV ALIGN="RIGHT" CLASS="mathdisplay">
+
+<!-- MATH
+ \begin{equation}
+P_{s,t}  = TB_{s,t+1} - TB_{s,t} + TC_{s,t}
+\end{equation}
+ -->
+<TABLE WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE"><TD ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="245" HEIGHT="34" BORDER="0"
+ SRC="img13.png"
+ ALT="\begin{displaymath}
+P_{s,t} = TB_{s,t+1} - TB_{s,t} + TC_{s,t}
+\end{displaymath}"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">1</SPAN>)</TD></TR>
+</TABLE>
+<BR CLEAR="ALL"></DIV><P></P>
+where,
+<DL>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="48" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img14.png"
+ ALT="$TB_{s,t}$"></SPAN> is the total biomass of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.png"
+ ALT="$s$"></SPAN> in year <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img11.png"
+ ALT="$t$"></SPAN>
+</DD>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="47" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img15.png"
+ ALT="$TC_{s,t}$"></SPAN> is the total catch of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.png"
+ ALT="$s$"></SPAN> in year <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img11.png"
+ ALT="$t$"></SPAN>
+</DD>
+</DL>
+
+<P>
+We fit a Schaefer surplus-production model, which is based on a logistic model of population
+growth to the catch and total biomass time series data. The predicted surplus production in each
+year in the Schaefer model is given by:
+
+<P>
+<BR>
+<DIV ALIGN="RIGHT" CLASS="mathdisplay">
+
+<!-- MATH
+ \begin{equation}
+\hat{P_{s,t}} = \frac{4mTB_{s,t}}{K} - 4m\left(\frac{TB_{s,t}}{K} \right)^{2}
+\end{equation}
+ -->
+<TABLE WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE"><TD ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="255" HEIGHT="50" BORDER="0"
+ SRC="img16.png"
+ ALT="\begin{displaymath}
+\hat{P_{s,t}} = \frac{4mTB_{s,t}}{K} - 4m\left(\frac{TB_{s,t}}{K} \right)^{2}
+\end{displaymath}"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">2</SPAN>)</TD></TR>
+</TABLE>
+<BR CLEAR="ALL"></DIV><P></P>
+where,
+<DL>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img17.png"
+ ALT="$m$"></SPAN> is the maximum sustainable yield 
+</DD>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img18.png"
+ ALT="$K$"></SPAN> is the carrying capacity or equilibrium total biomass in the absence of fishing
+</DD>
+</DL>
+
+<P>
+We estimated the model parameters (<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img17.png"
+ ALT="$m$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img18.png"
+ ALT="$K$"></SPAN>) using maximum
+likelihood in AD Model Builder (<A
+ HREF="fishandfisheries-v2.html#admb">ADMB Project, 2009</A>) assuming that the
+residuals <!-- MATH
+ $\epsilon_{s,t}=P_{s,t} - \hat{P_{s,t}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="132" HEIGHT="45" ALIGN="MIDDLE" BORDER="0"
+ SRC="img19.png"
+ ALT="$\epsilon_{s,t}=P_{s,t} - \hat{P_{s,t}}$"></SPAN> were normally
+distributed.  For the Schaefer model, <SPAN CLASS="MATH"><IMG
+ WIDTH="54" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.png"
+ ALT="$B_{MSY}$"></SPAN> is simply <SPAN CLASS="MATH"><IMG
+ WIDTH="46" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.png"
+ ALT="$0.5K$"></SPAN>, and the
+harvest rate that results in maximum sustainable yield, <SPAN CLASS="MATH"><IMG
+ WIDTH="50" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.png"
+ ALT="$u_{MSY}$"></SPAN>, is
+<SPAN CLASS="MATH"><IMG
+ WIDTH="79" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img21.png"
+ ALT="$m/B_{MSY}$"></SPAN>. Carrying capacity was constrained to be less than twice the
+maximum observed total biomass.
+
+<P>
+Finally, we discuss potential applications of the database, point out
+its limitations and caveats about its use, and outline directions for
+future development.
+
+<P>
+All data handling was carried out using a PostgreSQL relational
+database management system (<A
+ HREF="fishandfisheries-v2.html#postgresql:2009">PostgreSQL Global Development Group, 2009</A>). Statistical
+analyses and generation of plots were conducted with the R Environment
+for Statistics and Graphics (<A
+ HREF="fishandfisheries-v2.html#R">D, 2009</A>) using the packages RODBC,
+KernSmooth, gregmisc, xtable, ape, gsubfn, IDPmisc, doBy, and
+beanplot. The map in Figure&nbsp;<A HREF="#fig:lmes">1</A> was generated using the
+Generic Mapping Tools (<A
+ HREF="fishandfisheries-v2.html#gmt">Wessel &amp; Smith, 1991</A>).
+
+<P>
+
+<H1><A NAME="SECTION00040000000000000000">
+Results</A>
+</H1>
+
+<H2><A NAME="SECTION00041000000000000000">
+Scope of the RAM Legacy database</A>
+</H2>
+In total, 322 recent stock assessments for
+286 marine fish and 36
+invertebrate populations are included in the RAM Legacy database
+(Version 1.0, 2010).
+
+<P>
+
+<H3><A NAME="SECTION00041100000000000000">
+Management bodies and geography</A>
+</H3>
+The database includes stocks assessed by fisheries management bodies
+in Europe, the United States, Canada, New Zealand, Australia, Russia,
+South Africa and Argentina (Table&nbsp;<A HREF="#tab:mgmt">1</A>). Also included are assessments
+conducted by eight Regional Fisheries Management Organizations
+(RFMOs), in the Northwest Atlantic, Atlantic, Pacific and Indian Ocean
+(Table&nbsp;<A HREF="#tab:mgmt">1</A>). Assessments from the United States comprise by far the most
+stocks of any country or region (n=137);
+assessments from the European Union's management body ICES comprise
+the the second greatest number of stocks (n=63).
+Whereas nations are responsible for managing all populations within
+their EEZs, RFMOs typically focus on a certain type of species (e.g.
+halibut, tunas) or fisheries (e.g. pelagic high seas) within a given
+area and hence assess a smaller number of stocks.
+
+<P>
+Most assessments come from North America, Europe, Australia, New
+Zealand and the High Seas, while few are entered from regions such as
+Southeast Asia, South America, and the Indian Ocean (outside
+Australian waters) (Figure&nbsp;<A HREF="#fig:lmes">1</A>). LMEs with the greatest number of
+assessed stocks are the Northeast U.S. Continental Shelf (n=58),
+California Current (n=35), New Zealand Shelf (n=29),
+Celtic-Biscay Shelf (n=26), Gulf of Alaska (n=25), East Bering Sea (n=22)
+and Southeast U.S. Continental Shelf (n=20) (Figure&nbsp;<A HREF="#fig:lmes">1</A>).
+
+<P>
+
+<H3><A NAME="SECTION00041200000000000000">
+Taxonomy</A>
+</H3>
+
+<P>
+157 species from
+57 families and 20
+orders are included in the database (Figure&nbsp;<A HREF="#fig:taxo:srdb">2</A>). Five
+taxonomic orders (Gadiformes (n=67),
+Perciformes (n=60), Pleuronectiformes (n=53),
+Scorpaeniformes (n=41) and Clupeiformes (n=36)) account for
+80% of available stock assessments.  Of these, Perciformes, the
+most speciose Order of marine fishes are in fact underrepresented in
+the database (46.04% of all marine fish species vs.  19%
+of all marine fish assessments), while it is the other four orders
+that are taxonomically overrepresented: Clupeiformes (2.1% of marine
+fishes vs.  11% in the database), Gadiformes (3.3% of marine fishes
+vs.  21% in the database), Pleuronectiformes (4.5% of marine fishes
+vs.  17% in the database), Scorpaeniformes (8.5% of marine fishes
+vs. 12% in the database) (Figure&nbsp;<A HREF="#fig:taxo:threepanel">3</A>).
+
+<P>
+Assessed marine fish stocks in the RAM Legacy database comprise a
+relatively small proportion of harvested taxa (XX% of fish species
+from the SAUP database) and an even smaller proportion of marine fish
+biodiversity (XX% of fish species in FishBase; Figure&nbsp;<A HREF="#fig:taxo:threepanel">3</A>). In turn,
+catches from the SAUP database, which come from XX species and XX
+orders (Figure&nbsp;<A HREF="#fig:taxo:threepanel">3</A>), represent only XX% of the 12339 species and XX%
+of the 54 different orders present in FishBase (Figure&nbsp;<A HREF="#fig:taxo:threepanel">3</A>).
+
+<P>
+
+<H3><A NAME="SECTION00041300000000000000">
+Global Fisheries</A>
+</H3>
+
+<P>
+Table&nbsp;<A HREF="#tab:worldfisheries">2</A>
+
+<P>
+
+<H3><A NAME="SECTION00041400000000000000">
+Timespan </A>
+</H3>
+
+<P>
+Of the 322 stock assessments, time series data of
+catch/landings were available for 306 stocks (X%),
+of SSB for 269 stocks (X%), and of recruitment for
+267 stocks (X%).  The median lengths of
+catch/landings, SSB, and recruitment timeseries were
+38, 34, and 33 years,
+respectively.  The time period covered by 90%
+of assessments is: catch/landings (1967-2007), SSB (1972-2007), recruitment
+(1971-2006), while that covered by 50% of assessments is: catch/landings
+(1983-2004), SSB (1985-2005), recruitment (1984-2003) (Figure&nbsp;<A HREF="#fig:orca">4</A>).
+
+<P>
+
+<H3><A NAME="SECTION00041500000000000000">
+Stock assessment methodologies and BRPs</A>
+</H3>
+In addition to the 322 assessments in the
+database, indices of relative abundance from scientific surveys are
+available for an additional 26 stocks. The
+three most common assessment methods were Statistical catch-at-age/length models (n=162),
+Virtual Population Analyses (n=90) and Biomass dynamics model (n=45)..  .....Need
+to add a sentence here about the regional differences.... .
+
+<P>
+The total number and percentage of assessments that reported biomass-
+or exploitation- based reference points of any sort was
+255 (81%) and
+220 (69%),
+respectively. From these assessments,
+62 report both a biomass-based and an
+exploitation-based BRP and appear as solid dots on
+Figures&nbsp;<A HREF="#fig:friedegg">5</A> and&nbsp;<A HREF="#fig:friedeggmgmt">6</A>. Schaefer-derived BRPs
+add an additional 178 assessments, for
+a total of 240 assessments used to generate
+Figure&nbsp;<A HREF="#fig:friedegg">5</A>. Overall,
+59% of assessed stocks are below
+their biomass-related MSY BRP and
+32% are above their
+exploitation-related MSY BRP. Different management bodies have
+different overall status of current biomass to BRPs
+(Figure&nbsp;<A HREF="#fig:friedeggmgmt">6</A>).
+
+<P>
+
+<H3><A NAME="SECTION00041600000000000000">
+Ecology</A>
+</H3>
+Assessed species span a range of ecological traits. In terms of their
+trophic level, we see XXX (Figure&nbsp;<A HREF="#fig:TL">7</A>). The total number and
+percentage of assessments that reported any life-history information
+(growth, maturity, fecundity) was 286.
+
+<P>
+
+<P>
+
+<H1><A NAME="SECTION00050000000000000000">
+Discussion</A>
+</H1>
+
+<P>
+The RAM Legacy Database of available stock assessments for the world's
+marine fisheries, although non-exhaustive, provides a basis to
+evaluate the existing knowledge-base of exploited marine populations.
+The stocks comprising the database are predominantly from developed
+nations with properly identified fisheries management bodies and tend
+to cover a recent time period. Few assessments extend back beyond 30
+years from present. The taxonomic makeup of available assessments is a
+very limited subset of the accepted taxonomic coverage of marine
+species worldwide.
+
+<P>
+
+<H2><A NAME="SECTION00051000000000000000">
+Biases</A>
+</H2>
+
+<H3><A NAME="SECTION00051100000000000000">
+Geographic bias</A>
+</H3>
+
+<P>
+There are important geographic biases in the amount of assessments entered per LME
+
+<P>
+The question of geographic bias relates to whether: <BR>
+<IMG
+ WIDTH="555" HEIGHT="64" ALIGN="TOP" BORDER="0"
+ SRC="img22.png"
+ ALT="\begin{inparaenum}[1\upshape )]\item an assessment is
+conducted on a stock; \it...
+...tive collation we undertook may have
+overlooked the assessment \end{inparaenum}">
+<BR>. Whether an assessment is conducted for a
+given stock depends upon a multitude of factors, including the
+economic value of the stock and availability of fiscal resources to
+collect the data required for an assessment. How accessible
+assessments are for entry depends upon the transparency and access
+policies of the relevant management agencies, which varies
+geographically. Similarly, the legal context where fisheries are
+prosecuted will strongly influence the requirement for conducting
+stock assessments. In the United States, the Magnuson-Stevens Act
+defines what stocks are to be monitored and managed, hence a large
+number of the assessments in the RAM Legacy database are under the
+jurisdiction of the US National Marine Fisheries Services.  Our
+incomplete search for assessments could also give rise to geographic
+biases, as concerted collation efforts have only been conducted in
+those assessment-rich regions of It is hoped that readers of this
+article can assist in correcting these biases by participating in
+future updates of the RAM Legacy database.
+
+<P>
+Note Also: from Figure 4 SOFIA 2008 (FAO 2009) - The top 10
+wild-caught marine fisheries producer countries are China, Peru,
+U.S.A., Indonesia, Japan, Chile, India, Russia, Thailand, Philippines.
+We only have assessments for U.S.A. and Russia (and only 2 for
+Russia!). Most major fish producing countires do not do assessments or
+do not make them accessible, still to be decided how to phrase this.
+
+<P>
+
+<H3><A NAME="SECTION00051200000000000000">
+Taxonomic bias</A>
+</H3>
+
+<P>
+Taxonomic biases in those species that are assessed include ...
+
+<P>
+
+<H2><A NAME="SECTION00052000000000000000">
+Caveats and limitations</A>
+</H2>
+Assessment outputs e.g. biomass timeseries, are model estimates, not
+raw data. The uncertainty associated with these estimates should be
+carried forth in subsequent analyses. The RAM Legacy database
+structure allows for estimates of uncertainty (standard errors, 95%
+credible/confidence intervals), however these estimates are often
+missing from assessments either because they aren't produced by the
+assessment model (e.g. non-bootstrapped VPA assessments) or the focus
+of the assessment document was on central tendency (e.g. mean
+biomass), not the associated uncertainty. Note that this view is
+changing with the advent of MCMC aproaches to Bayesian inference for
+assessments, bootstrap methods, statistical catch-at-age models
+(<A
+ HREF="fishandfisheries-v2.html#admb">ADMB Project, 2009</A>) and a general focus on uncertainty
+(<A
+ HREF="fishandfisheries-v2.html#Walters:Maguire:1996:reviews">Walters &amp; Maguire, 1996</A>). As with any analysis, clearer
+inference on the strength of a signal is available when all
+uncertainty in the data is carried forth. This represents a difficulty
+for large-scale analyses of fisheries data in that in an ideal world
+one would access the raw data per sub-unit (e.g. stock) and carry
+forth the uncertainty at all levels of the analysis. In the case of
+assessments, the raw data is typically catch-at-age matrices and
+potentially survey indices. To understand the fleet characteristics
+and survey stratification schema for each stock in a potentially
+global meta-analysis would be extremely time consuming and
+error-prone. So, the expert opinion of those researchers most familiar
+with the data, stock assessment authors, is used but without
+accompanying uncertainty estimates the strength of conclusions drawn
+may be weakened.
+
+<P>
+The original database developed by Dr. Myers was used to address a
+variety of ecological question derived from stock-recruit
+relationships. This was possible because of the timeseries of stock
+and recruitment generated in assessment using VPA-type models. With
+the increasing use of statistical catch-at-age/length models, an
+underlying stock-recruit relationship is assumed to exist. Estimating
+the parameters of a stock-recruit relationship using timeseries from
+such models does not constitute a valid statistical procedure.  More
+generally, the increasing use of Bayesian methods that incorporate
+prior information poses a challenge for meta-analysis of such model
+outputs.
+
+<P>
+Point data are stored in the database with an associated unit, value
+and year. We expect to also include age-varying and length-varying
+data such as maturity ogive and age-disaggregated natural mortality in
+subsequent releases of the RAM Legacy database. In addition to the
+initial aim of providing reliable access to timeseries information
+about stocks, we hope to also stimulate research in the relationships
+of life-history characteristics and their relation to exploitation.
+
+<P>
+
+<H2><A NAME="SECTION00053000000000000000">
+Future Development</A>
+</H2>
+It is anticipated that the RAM Legacy database will continue to grow
+with hitherto unentered stocks and updated assessments for already
+included stocks. The ultimate goal is to provide a data standard for
+researchers to use results from multiple regions to assist in their
+own applied and fundamental research in population ecology, fisheries
+science, and conservation biology. The development of a standard for
+assessment reporting would assist in realizing this goal. For example,
+ICES assessments have a very regular standard, including agreed-upon
+reference points and regular estimate reporting. This makes the
+process of data collation much more routine than unstandardized
+documents where the recorder trawls through a report for information.
+Certainly different stocks and regions require different formats but
+the basic output tables, consisting of total and spawning biomass,
+recruitment, catch/landings, estimated fishing mortality over
+vulnerable age groups, associated measures of uncertainty, and
+commonly-used reference points would streamline the process immensely.
+A process whereby the assessment spreadsheets are filled out at each
+assessment meeting would be the least error prone method. In return,
+the assessment scientists can access results for a global collation of
+assessments to further their own research initiatives in population
+assessment and management. Other products include
+management-agency-level reports containing summaries of all stocks
+within their remit. Future versions to the database will also include
+timelines of management actions per stock. The RAM Legacy database
+contains the corresponding species codes to the Sea Around Us Project
+and FishBase, thus facilitating researchers's use of a global
+fisheries data ``toolkit'' to address questions on the relationships
+between life history attributes and resulting population dynamics in
+an exploited setting.
+
+<P>
+
+<P>
+
+<H1><A NAME="SECTION00060000000000000000">
+Availability of the database</A>
+</H1> 
+Contributions or corrections to the existing database, as well as
+requests to use the database (subject to standard ``Fair Use''
+policies), should be directed to the corresponding author. 
+
+<P>
+
+<H1><A NAME="SECTION00070000000000000000">
+Acknowledgments </A>
+</H1>
+We sincerely thank all of the fisheries scientists around the world
+for conducting the stock assessments that form the basis of this new
+global database. We are also grateful for the database contributions,
+advice, and support of Trevor Branch, Jeremy Collie, Laurence
+Fauconnet, Mike Fogarty, Rainer Froese, Ray Hilborn, Jeff Hutchings,
+Simon Jennings, Heike Lotze, Pamela Mace, Michael Melnychuk, Ana
+Parma, Ren&#233;e Pr&#233;fontaine, Reg Watson, Boris Worm, Dirk Zeller,
+and the financial support of the National Science Foundation through
+an NCEAS Working Group, the Natural Sciences and Engineering Research
+Council (NSERC) of Canada, the Canadian Foundation for Innovation, the
+David H. Smith Conservation Research Fellowship, the Schmidt Research
+Vessel Institute, and the Census of Marine Life (CoML/FMAP).
+
+<P>
+
+<P>
+<P>
+<H2><A NAME="SECTIONREF">Bibliography</A>
+</H2>
+
+<DL COMPACT>
+<DT><A NAME="admb"><STRONG>
+ADMB Project (2009).</STRONG></A>
+<DD>
+<BR> AD Model Builder: automatic differentiation model builder.
+<BR> Developed by David Fournier and freely available from
+  admb-project.org.
+
+<BR>
+<P>
+<DT><A NAME="branch:2008:marpol"><STRONG>
+Branch, T. (2008).</STRONG></A>
+<DD>
+<BR> Not all fisheries will be collapsed in 2048.
+<BR> <SPAN  CLASS="textit">Marine Policy</SPAN> 32, 38-39.
+
+<BR>
+<P>
+<DT><A NAME="Costello:etal:2008:science"><STRONG>
+Costello, C., Gaines, S.D. &amp; Lynham, J. (
+  2008).</STRONG></A>
+<DD>
+<BR> Can catch shares prevent fisheries collapse?
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 321(5896), 1678-1681.
+
+<BR>
+<P>
+<DT><A NAME="deMutsert:etal:2008:pnas"><STRONG>
+de&nbsp;Mutsert, K., Cowan, Jr., J.H., Essington, T.E. &amp; Hilborn, R.
+  (2008).</STRONG></A>
+<DD>
+<BR> Reanalyses of Gulf of Mexico fisheries data: Landings can be
+  misleading in assessments of fisheries and fisheries ecosystems.
+<BR> <SPAN  CLASS="textit">Proceedings of the National Academy of Sciences</SPAN> 105(7),
+  2740-2744.
+
+<BR>
+<P>
+<DT><A NAME="R"><STRONG>
+Development&nbsp;Core Team, R. (2009).</STRONG></A>
+<DD>
+<BR> R: a Language and Environment for Statistical Computing.
+
+<BR>
+<P>
+<DT><A NAME="Dorn:2002:najfm"><STRONG>
+Dorn, M. (2002).</STRONG></A>
+<DD>
+<BR> Advice on West Coast rockfish harvest rates from Bayesian
+  meta-analysis of stock-recruit relationships.
+<BR> <SPAN  CLASS="textit">North American Journal of Fisheries Management</SPAN> 22, 280-300.
+
+<BR>
+<P>
+<DT><A NAME="Essington:etal:2006:procnatacadsci"><STRONG>
+Essington, T.E., Beaudreau, A.H. &amp; Wiedenmann, J. (
+  2006).</STRONG></A>
+<DD>
+<BR> Fishing through marine food webs.
+<BR> <SPAN  CLASS="textit">Proceedings of the National Academy of Science</SPAN> 103(9),
+  3171-3175.
+
+<BR>
+<P>
+<DT><A NAME="eea:2009:status"><STRONG>
+European Environment Agency (2009).</STRONG></A>
+<DD>
+
+<BR>
+<P>
+<DT><A NAME="FAO:fishstat"><STRONG>
+FAO (2009).</STRONG></A>
+<DD>
+<BR> FISHSTAT-PC: Data retrieval, graphical and analytical software for
+  microcomputers.
+
+<BR>
+<P>
+<DT><A NAME="Frank:etal:2005:science"><STRONG>
+Frank, K., Petrie, B., Choi, J. &amp; Leggett, W. (
+  2005).</STRONG></A>
+<DD>
+<BR> Trophic cascades in a formerly cod-dominated ecosystem.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 308(5728), 1621-1623.
+
+<BR>
+<P>
+<DT><A NAME="Froese:Proelss:2010:fandf"><STRONG>
+Froese, R. &amp; Proel&#223;, A. (2010).</STRONG></A>
+<DD>
+<BR> Rebuilding fish stocks no later than 2015: will Europe meet the
+  deadline?
+<BR> <SPAN  CLASS="textit">Fish and Fisheries</SPAN> (in press).
+
+<BR>
+<P>
+<DT><A NAME="Froese:Pauly:2009:fishbase"><STRONG>
+Froese, R. &amp; Pauly, D. (2009).</STRONG></A>
+<DD>
+<BR> FishBase www.fishbase.org, version (10/2009).
+<BR> World Wide Web electronic publication.
+
+<BR>
+<P>
+<DT><A NAME="Garvey:etal:2009:cjfas"><STRONG>
+Garvey, J., Wright, R. &amp; Marschall, E. (
+  2009).</STRONG></A>
+<DD>
+<BR> Searching for threshold shifts in spawner-recruit data.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 66,
+  312-320.
+
+<BR>
+<P>
+<DT><A NAME="Halpern:etal:2008:science"><STRONG>
+Halpern, B., Walbridge, S., Selkoe, K. <SPAN  CLASS="textit">et&nbsp;al.</SPAN> (
+  2008).</STRONG></A>
+<DD>
+<BR> A global map of human impact on marine ecosystems.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 319(5865), 948-952.
+
+<BR>
+<P>
+<DT><A NAME="Harley:etal:2001:cjfas"><STRONG>
+Harley, S., Myers, R. &amp; Dunn, A. (
+  2001).</STRONG></A>
+<DD>
+<BR> Is catch-per-unit-effort proportional to abundance?
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 58,
+  1705-1772.
+
+<BR>
+<P>
+<DT><A NAME="Hilborn:1997:csiro"><STRONG>
+Hilborn, R., ed. (1997).</STRONG></A>
+<DD>
+<BR> <SPAN  CLASS="textit">The frequency and severity of fish stock declines and
+  increases</SPAN>.
+<BR> Developing and sustaining world fisheries resources. Proceedings of
+  the 2nd World Fisheries Congress. CSIRO Publishing, Victoria, Australia.
+
+<BR>
+<P>
+<DT><A NAME="Hilborn:Walters:1992"><STRONG>
+Hilborn, R. &amp; Walters, C.J. (
+  1992).</STRONG></A>
+<DD>
+<BR> <SPAN  CLASS="textit">Quantitative Fisheries Stock Assessment: Choice, Dynamics and
+  Uncertainty</SPAN>.
+<BR> Kluwer Academic Publishers.
+
+<BR>
+<P>
+<DT><A NAME="Hilborn:2007:science"><STRONG>
+Hilborn, R. (2007).</STRONG></A>
+<DD>
+<BR> Biodiversity loss in the ocean: how bad is it?
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 316(5829), 1281.
+
+<BR>
+<P>
+<DT><A NAME="Hutchings:2000:nature"><STRONG>
+Hutchings, J. (2000).</STRONG></A>
+<DD>
+<BR> Collapse and recovery of marine fishes.
+<BR> <SPAN  CLASS="textit">Nature (London)</SPAN> 406, 882-885.
+
+<BR>
+<P>
+<DT><A NAME="Hutchings:2001:jfishb"><STRONG>
+Hutchings, J. (2001).</STRONG></A>
+<DD>
+<BR> Influence of population decline, fishing, and spawner variability on
+  the recovery of marine fishes.
+<BR> <SPAN  CLASS="textit">Journal of Fish Biology</SPAN> Suppl. A, 306-322.
+
+<BR>
+<P>
+<DT><A NAME="Hutchings:Myers:1994:cjfas"><STRONG>
+Hutchings, J. &amp; Myers, R. (1994).</STRONG></A>
+<DD>
+<BR> What can be learned from the collapse of a renewable resource?
+  Atlantic cod, Gadus morhua, of Newfoundland and Labrador.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 51,
+  2126-2146.
+
+<BR>
+<P>
+<DT><A NAME="Hutchings:Reynolds:2004:biosci"><STRONG>
+Hutchings, J. &amp; Reynolds, J. (
+  2004).</STRONG></A>
+<DD>
+<BR> Marine fish population collapses: Consequences for recovery and
+  extinction risk.
+<BR> <SPAN  CLASS="textit">BioScience</SPAN> 54, 297-309.
+
+<BR>
+<P>
+<DT><A NAME="Johannes:2002:arees"><STRONG>
+Johannes, R. (2002).</STRONG></A>
+<DD>
+<BR> The renaissance of community-based marine resource management in
+  Oceania.
+<BR> <SPAN  CLASS="textit">Annual Review of Ecology, Evolution, and Systematics</SPAN> 33,
+  317-340.
+
+<BR>
+<P>
+<DT><A NAME="Liermann:Hilborn:1997:cjfas"><STRONG>
+Liermann, M. &amp; Hilborn, R. (
+  1997).</STRONG></A>
+<DD>
+<BR> Depensation in fish stocks: a hierarchic Bayesian meta-analysis.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 54,
+  1976-1984.
+
+<BR>
+<P>
+<DT><A NAME="Mace:1994:cjfas"><STRONG>
+Mace, P.M. (1994).</STRONG></A>
+<DD>
+<BR> Relationships between Common Biological Reference Points Used as
+  Thresholds and Targets of Fisheries Management Strategies.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 51(1),
+  110-122.
+
+<BR>
+<P>
+<DT><A NAME="Minto:etal:2008:nature"><STRONG>
+Minto, C., Myers, R.A. &amp; Blanchard, W. (
+  2008).</STRONG></A>
+<DD>
+<BR> Survival variability and population density in fish populations.
+<BR> <SPAN  CLASS="textit">Nature (London)</SPAN> 452, 344-347.
+
+<BR>
+<P>
+<DT><A NAME="Murawski:Methot:Tromble:2007:science"><STRONG>
+Murawski, S., Methot, R. &amp; Tromble, G. (
+  2007).</STRONG></A>
+<DD>
+<BR> Letter to the editors of Science.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 316, 1281.
+
+<BR>
+<P>
+<DT><A NAME="Myers:2001:ices"><STRONG>
+Myers, R.A. (2001).</STRONG></A>
+<DD>
+<BR> Stock and recruitment: Generalizations about maximum reproductive
+  rate, density dependence and variability using meta-analytic approaches.
+<BR> <SPAN  CLASS="textit">ICES Journal of Marine Science</SPAN> 58, 937-951.
+
+<BR>
+<P>
+<DT><A NAME="Myers:Barrowman:1996:fishbull"><STRONG>
+Myers, R. &amp; Barrowman, N. (1996).</STRONG></A>
+<DD>
+<BR> Is fish recruitment related to spawner abundance?
+<BR> <SPAN  CLASS="textit">Fishery Bulletin</SPAN> 94, 707-724.
+
+<BR>
+<P>
+<DT><A NAME="Myers:etal:2002:najfm"><STRONG>
+Myers, R., Barrowman, N., Hilborn, R. &amp; Kehler, D. (
+  2002).</STRONG></A>
+<DD>
+<BR> Inferring bayesian priors with limited direct data: applications to
+  risk analysis.
+<BR> <SPAN  CLASS="textit">North American Journal of Fisheries Management</SPAN> 22, 351-364.
+
+<BR>
+<P>
+<DT><A NAME="Myers:etal:1995:science"><STRONG>
+Myers, R., Barrowman, N., Hutchings, J. &amp; Rosenberg, A.
+  (1995a).</STRONG></A>
+<DD>
+<BR> Population dynamics of exploited fish stocks at low population
+  levels.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 269, 1106-1108.
+
+<BR>
+<P>
+<DT><A NAME="Myers:etal:2007:science"><STRONG>
+Myers, R., Baum, J., Shepherd, T., Powers, S. &amp; Peterson, C.
+  (2007).</STRONG></A>
+<DD>
+<BR> Cascading Effects of the Loss of Apex Predatory Sharks from a
+  Coastal Ocean.
+<BR> <SPAN  CLASS="textit">Science</SPAN> 315(5820), 1846-1850.
+
+<BR>
+<P>
+<DT><A NAME="Myers:etal:1999:cjfas"><STRONG>
+Myers, R., Bowen, K. &amp; Barrowman, N. (
+  1999).</STRONG></A>
+<DD>
+<BR> Maximum reproductive rate of fish at low population sizes.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 56,
+  2404-2419.
+
+<BR>
+<P>
+<DT><A NAME="Myers:etal:1995:summary"><STRONG>
+Myers, R.A., Bridson, J. &amp; N.J., B. (
+  1995b).</STRONG></A>
+<DD>
+<BR> Summary of Worldwide Spawner and Recruitment Data.
+<BR> <SPAN  CLASS="textit">Canadian Technical Report of Fisheries and Aquatic Sciences,
+  No. 2020</SPAN> p. 327.
+
+<BR>
+<P>
+<DT><A NAME="NMFS:2008:status"><STRONG>
+National Marine Fisheries Service (2008).</STRONG></A>
+<DD>
+<BR> Status of US Fisheries 2007.
+<BR> Tech. rep., NMFS.
+<BR> Http://www.nmfs.noaa.gov/sfa/statusoffisheries/SOSmain.htm.
+
+<BR>
+<P>
+<DT><A NAME="NZMF:2009"><STRONG>
+New Zealand Ministry of Fisheries (2009).</STRONG></A>
+<DD>
+<BR> Stock Status http://fs.fish.govt.nz/Page.aspx?pk=16.
+
+<BR>
+<P>
+<DT><A NAME="Newton:etal:2007:currentbiol"><STRONG>
+Newton, K., C&#244;t&#233;, I., Pilling, G., Jennings, S. &amp; Dulvy, N.
+  (2007).</STRONG></A>
+<DD>
+<BR> Current and Future Sustainability of Island Coral Reef Fisheries.
+<BR> <SPAN  CLASS="textit">Current Biology</SPAN> 17(7), 655-658.
+
+<BR>
+<P>
+<DT><A NAME="NOAA:LME64:1998"><STRONG>
+NOAA (1998).</STRONG></A>
+<DD>
+<BR> Large Marine Ecosystems.
+<BR> Tech. rep., National Oceanic and Atmospheric Administration.
+
+<BR>
+<P>
+<DT><A NAME="Pauly:etal:1998"><STRONG>
+Pauly, D., Christensen, V., Dalsgaard, J., Froese, R. &amp; Torres,
+  Jr., F. (1998).</STRONG></A>
+<DD>
+<BR> Fishing Down Marine Food Webs.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 279(5352), 860-863.
+
+<BR>
+<P>
+<DT><A NAME="Polacheck:2006:marpol"><STRONG>
+Polacheck, T. (2006).</STRONG></A>
+<DD>
+<BR> Tuna longline catch rates in the Indian Ocean: Did industrial fishing
+  result in a 90% rapid decline in the abundance of large predatory species.
+<BR> <SPAN  CLASS="textit">Marine Policy</SPAN> 30, 470-482.
+
+<BR>
+<P>
+<DT><A NAME="postgresql:2009"><STRONG>
+PostgreSQL Global Development Group (2009).</STRONG></A>
+<DD>
+<BR> PostgreSQL, version 8.3.8. http://www.postgresql.org.
+
+<BR>
+<P>
+<DT><A NAME="Rice:etal:2003:icescm"><STRONG>
+Rice, J., Shelton, P., Rivard, D., Chouinard, G. &amp; Fr&#233;chet, A.
+  (2003).</STRONG></A>
+<DD>
+<BR> Recovering Canadian Atlantic cod stocks: the shape of things to come.
+<BR> <SPAN  CLASS="textit">ICES CM</SPAN> 2003/U 06, 23pp.
+
+<BR>
+<P>
+<DT><A NAME="Sibert:etal:2006:science"><STRONG>
+Sibert, J., Hampton, J., Kleiber, P. &amp; Maunder, M. (
+  2006).</STRONG></A>
+<DD>
+<BR> Biomass, Size, and Trophic Status of Top Predators in the Pacific
+  Ocean.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 314(5806), 1773-1776.
+
+<BR>
+<P>
+<DT><A NAME="Walters:Maguire:1996:reviews"><STRONG>
+Walters, C. &amp; Maguire, J. (1996).</STRONG></A>
+<DD>
+<BR> Lessons for stock assessment from the northern cod collapse.
+<BR> <SPAN  CLASS="textit">Reviews in Fish Biology and Fisheries</SPAN> 6(2), 125-137.
+
+<BR>
+<P>
+<DT><A NAME="Walters:2003:cjfas"><STRONG>
+Walters, C. (2003).</STRONG></A>
+<DD>
+<BR> Folly and fantasy in the analysis of spatial catch rate data.
+<BR> <SPAN  CLASS="textit">Canadian Journal of Fisheries and Aquatic Sciences</SPAN> 60(12),
+  1433-1436.
+
+<BR>
+<P>
+<DT><A NAME="Watson:etal:2004:fandf"><STRONG>
+Watson, R., Kitchingman, A., Gelchu, A. &amp; Pauly, D.
+  (2004).</STRONG></A>
+<DD>
+<BR> Mapping global fisheries: sharpening our focus.
+<BR> <SPAN  CLASS="textit">Fish and Fisheries</SPAN> 5, 168-177.
+
+<BR>
+<P>
+<DT><A NAME="gmt"><STRONG>
+Wessel, P. &amp; Smith, W.H.F. (
+  1991).</STRONG></A>
+<DD>
+<BR> Free software helps map and display data.
+<BR> <SPAN  CLASS="textit">EOS Transactions of the American Geophysical Union</SPAN> 72, 441.
+
+<BR>
+<P>
+<DT><A NAME="Wilberg:Miller:2007:science"><STRONG>
+Wilberg, M. &amp; Miller, T. (2007).</STRONG></A>
+<DD>
+<BR> Comment on "Impacts of biodiversity loss on ocean ecosystem
+  services".
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 316, 1285b.
+
+<BR>
+<P>
+<DT><A NAME="Wilson:etal:2009:status"><STRONG>
+Wilson, D., Curtotti, R., Begg, G. &amp; Phillips, K., eds.
+  (2009).</STRONG></A>
+<DD>
+<BR> <SPAN  CLASS="textit">Fishery status reports 2008: status of fish stocks and
+  fisheries managed by the Australian Government</SPAN>.
+<BR> Bureau of Rural Sciences and Australian Bureau of Agricultural and
+  Resource Economics, Canberra.
+
+<BR>
+<P>
+<DT><A NAME="Worm:etal:2006:science"><STRONG>
+Worm, B., Barbier, E., Beaumont, N. <SPAN  CLASS="textit">et&nbsp;al.</SPAN> (
+  2006).</STRONG></A>
+<DD>
+<BR> Impacts of Biodiversity Loss on Ocean Ecosystem Services.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 314, 787-790.
+
+<BR>
+<P>
+<DT><A NAME="Worm:etal:2009:science"><STRONG>
+Worm, B., Hilborn, R., Baum, J.K. <SPAN  CLASS="textit">et&nbsp;al.</SPAN> (
+  2009).</STRONG></A>
+<DD>
+<BR> Rebuilding global fisheries.
+<BR> <SPAN  CLASS="textit">Science (Washington)</SPAN> 325, 578-585.
+
+<BR>
+<P>
+</DL>
+
+<P>
+
+<H1><A NAME="SECTION00090000000000000000">
+Tables</A>
+</H1>
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER">
+
+<A NAME="362"></A>
+<TABLE CELLPADDING=3 BORDER="1">
+<CAPTION><STRONG>Table 1:</STRONG>
+Number of assessments included in the RAM Legacy database by
+country and ocean basin, with associated national management bodies
+and regional fisheries management organizations (RFMOs).</CAPTION>
+<TR><TD ALIGN="LEFT"><A NAME="tab:mgmt"></A><SPAN  CLASS="textit">Country/Ocean</SPAN></TD>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=198><SPAN  CLASS="textit">Management Body</SPAN></TH>
+<TH ALIGN="LEFT"><SPAN  CLASS="textit">Acronym</SPAN></TH>
+<TH ALIGN="RIGHT"><SPAN  CLASS="textit">No. stocks</SPAN></TH>
+</TR>
+<TR><TD ALIGN="LEFT">Argentina</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Consejo Federal Pesquero</TD>
+<TD ALIGN="LEFT">CFP</TD>
+<TD ALIGN="RIGHT">6</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Australia</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Australian Fisheries Management Authority</TD>
+<TD ALIGN="LEFT">AFMA</TD>
+<TD ALIGN="RIGHT">16</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Canada</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Department of Fisheries and Oceans</TD>
+<TD ALIGN="LEFT">DFO</TD>
+<TD ALIGN="RIGHT">22</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Europe</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>International Council for the Exploration of the Sea</TD>
+<TD ALIGN="LEFT">ICES</TD>
+<TD ALIGN="RIGHT">63</TD>
+</TR>
+<TR><TD ALIGN="LEFT">New Zealand</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Ministry of Fisheries</TD>
+<TD ALIGN="LEFT">MFish</TD>
+<TD ALIGN="RIGHT">29</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Russia</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Russian Federal Fisheries Agency</TD>
+<TD ALIGN="LEFT">RFFA</TD>
+<TD ALIGN="RIGHT">2</TD>
+</TR>
+<TR><TD ALIGN="LEFT">South Africa</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Department of Environment and Tourism, Marine and Coastal Management</TD>
+<TD ALIGN="LEFT">DETMCM</TD>
+<TD ALIGN="RIGHT">14</TD>
+</TR>
+<TR><TD ALIGN="LEFT">USA</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>National Marine Fisheries Service</TD>
+<TD ALIGN="LEFT">NMFS</TD>
+<TD ALIGN="RIGHT">137</TD>
+</TR>
+<TR><TD ALIGN="LEFT">USA</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>US state-level management</TD>
+<TD ALIGN="LEFT">US State</TD>
+<TD ALIGN="RIGHT">3</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Atlantic Ocean</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>International Commission for the Conservation of Atlantic Tunas</TD>
+<TD ALIGN="LEFT">ICCAT</TD>
+<TD ALIGN="RIGHT">10</TD>
+</TR>
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Northwest Atlantic Fisheries Organization</TD>
+<TD ALIGN="LEFT">NAFO</TD>
+<TD ALIGN="RIGHT">8</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Indian Ocean</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Indian Ocean Tuna Commission</TD>
+<TD ALIGN="LEFT">IOTC</TD>
+<TD ALIGN="RIGHT">1</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Pacific Ocean</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Inter-American Tropical Tuna Commission</TD>
+<TD ALIGN="LEFT">IATTC</TD>
+<TD ALIGN="RIGHT">2</TD>
+</TR>
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>International Pacific Halibut Commission</TD>
+<TD ALIGN="LEFT">IPHC</TD>
+<TD ALIGN="RIGHT">1</TD>
+</TR>
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>South Pacific Regional Fisheries Management Organization</TD>
+<TD ALIGN="LEFT">SPRFMO</TD>
+<TD ALIGN="RIGHT">1</TD>
+</TR>
+<TR><TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Western and Central Pacific Fisheries Commission</TD>
+<TD ALIGN="LEFT">WCPFC</TD>
+<TD ALIGN="RIGHT">4</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Antarctic</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=198>Commission for the Conservation of Antarctic Marine Living Resources</TD>
+<TD ALIGN="LEFT">CCAMLR</TD>
+<TD ALIGN="RIGHT">1</TD>
+</TR>
+</TABLE>
+</DIV><BR>
+
+<P>
+<A NAME="417"></A>
+<TABLE CELLPADDING=3 BORDER="1">
+<CAPTION><STRONG>Table 2:</STRONG>
+The world's forty largest wild-caught fisheries (comprising
+  less than 41% of total global catches, based on average catches
+  1995-2004 in SAUP database), and the thirty largest fisheries of
+  individual stocks (i.e. fisheries identified to the species level;
+  comprising more than 32% of total global catches), including their
+  LME, whether or not stock assessments for them are included in the
+  RAM Legacy database, and the reason if not included (e.g. 1= no
+  known assessment, 2=assessment is not based on a population dynamics
+  model, 3=assessment inaccessible).</CAPTION>
+<TR><TH ALIGN="LEFT" VALIGN="TOP" WIDTH=57><SPAN  CLASS="textit">Stock Rank</SPAN></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=57><SPAN  CLASS="textit">Stock Number</SPAN></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=142><SPAN  CLASS="textit">Species (Common name, Latin name) or higher taxonomic unit</SPAN></TH>
+<TH ALIGN="LEFT"><SPAN  CLASS="textit">LME</SPAN></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=57><SPAN  CLASS="textit">In Database?</SPAN></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=57><SPAN  CLASS="textit">Reason if not included</SPAN></TH>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Peruvian anchoveta, <SPAN  CLASS="textit">Engraulis ringens</SPAN></TD>
+<TD ALIGN="LEFT">Humboldt Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>3</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>2</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">South China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>3</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">Bay of Bengal</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>2</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>4</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Alaska pollock, <SPAN  CLASS="textit">Theragra chalcogramma</SPAN></TD>
+<TD ALIGN="LEFT">Okhotsk Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>3</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>5</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142><SPAN  CLASS="textit">Ammodytes</SPAN></TD>
+<TD ALIGN="LEFT">North Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>4</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>6</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Atlantic herring, <SPAN  CLASS="textit">Clupea harengus</SPAN></TD>
+<TD ALIGN="LEFT">Norwegian Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>5</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>7</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Alaska pollock, <SPAN  CLASS="textit">Theragra chalcogramma</SPAN></TD>
+<TD ALIGN="LEFT">East Bering Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>6</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>8</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Capelin, <SPAN  CLASS="textit">Mallotus villosus</SPAN></TD>
+<TD ALIGN="LEFT">Iceland Shelf/Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>7</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>9</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>European pilchard, <SPAN  CLASS="textit">Sardina pilchardus</SPAN></TD>
+<TD ALIGN="LEFT">Canary Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>8</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>10</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Japanese anchovy, <SPAN  CLASS="textit">Engraulis japonicus</SPAN></TD>
+<TD ALIGN="LEFT">East China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>3</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>9</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>11</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Inca scad, <SPAN  CLASS="textit">Trachurus murphyi</SPAN></TD>
+<TD ALIGN="LEFT">Humboldt Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>12</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">East China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>10</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>13</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Gulf menhaden, <SPAN  CLASS="textit">Brevoortia patronus</SPAN></TD>
+<TD ALIGN="LEFT">Gulf of Mexico</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>14</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">Yellow Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>15</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">Indonesian Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>11</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>16</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Alaska pollock, <SPAN  CLASS="textit">Theragra chalcogramma</SPAN></TD>
+<TD ALIGN="LEFT">Gulf ofAlaska</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>12</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>17</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Argentinean short-finned squid, <SPAN  CLASS="textit">Illex argentinus</SPAN></TD>
+<TD ALIGN="LEFT">Patagonian Shself</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>13</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>18</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Argentine hake, <SPAN  CLASS="textit">Merluccius hubbsi</SPAN></TD>
+<TD ALIGN="LEFT">Patagonian Shelf</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>14</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>19</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Japanese anchovy, <SPAN  CLASS="textit">Engraulis japonicus</SPAN></TD>
+<TD ALIGN="LEFT">South China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>15</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>20</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Araucanian herring, <SPAN  CLASS="textit">Strangomera bentincki</SPAN></TD>
+<TD ALIGN="LEFT">Humboldt Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>16</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>21</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Atlantic cod, <SPAN  CLASS="textit">Gadus morhua</SPAN></TD>
+<TD ALIGN="LEFT">Barents Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>17</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>22</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>European sprat, <SPAN  CLASS="textit">Sprattus sprattus</SPAN></TD>
+<TD ALIGN="LEFT">Baltic Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>18</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>23</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Atlantic herring, <SPAN  CLASS="textit">Clupea harengus</SPAN></TD>
+<TD ALIGN="LEFT">North Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>19</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>24</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Alaska pollock, <SPAN  CLASS="textit">Theragra chalcogramma</SPAN></TD>
+<TD ALIGN="LEFT">Arctic Ocean</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>25</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">Gulf of Thailand</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>20</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>26</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Atlantic herring, <SPAN  CLASS="textit">Clupea harengus</SPAN></TD>
+<TD ALIGN="LEFT">Baltic Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>21</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>27</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Cape horse mackerel, <SPAN  CLASS="textit">Trachurus capensis</SPAN></TD>
+<TD ALIGN="LEFT">Benguela Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>22</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>28</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Largehead hairtail, <SPAN  CLASS="textit">Trichiurus lepturus</SPAN></TD>
+<TD ALIGN="LEFT">East China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>23</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>29</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Japanese anchovy, <SPAN  CLASS="textit">Engraulis japonicus</SPAN></TD>
+<TD ALIGN="LEFT">Yellow Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>24</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>30</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>European anchovy, <SPAN  CLASS="textit">Engraulis encrasicolus</SPAN></TD>
+<TD ALIGN="LEFT">Black Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>25</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>31</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Chub mackerel, <SPAN  CLASS="textit">Scomber japonicus</SPAN></TD>
+<TD ALIGN="LEFT">East China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>26</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>32</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Indian oil sardine, <SPAN  CLASS="textit">Sardinella longiceps</SPAN></TD>
+<TD ALIGN="LEFT">Arabian Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>1</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>33</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142><SPAN  CLASS="textit">Decapterus</SPAN></TD>
+<TD ALIGN="LEFT">South China Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>34</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142><SPAN  CLASS="textit">Sciaenidae</SPAN></TD>
+<TD ALIGN="LEFT">Arabian Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>27</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>35</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Atlantic mackerel, <SPAN  CLASS="textit">Scomber scombrus</SPAN></TD>
+<TD ALIGN="LEFT">North Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>28</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>36</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Largehead hairtail, <SPAN  CLASS="textit">Trichiurus lepturus</SPAN></TD>
+<TD ALIGN="LEFT">Yellow Sea</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>37</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142><SPAN  CLASS="textit">Merluccius</SPAN></TD>
+<TD ALIGN="LEFT">Benguela Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>yes</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>38</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Marine fishes not identified</TD>
+<TD ALIGN="LEFT">Kuroshio Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>29</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>39</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Alaska pollock, <SPAN  CLASS="textit">Theragra chalcogramma</SPAN></TD>
+<TD ALIGN="LEFT">Sea of Japan</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>30</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>40</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>Round sardinella, <SPAN  CLASS="textit">Sardinella aurita</SPAN></TD>
+<TD ALIGN="LEFT">Canary Current</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>no</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57><A NAME="tab:worldfisheries"></A></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=142>&nbsp;</TD>
+<TD ALIGN="LEFT">&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=57>&nbsp;</TD>
+</TR>
+</TABLE>
+
+<P>
+
+<H1><A NAME="SECTION000100000000000000000">
+Figures</A>
+</H1>
+
+<H2><A NAME="SECTION000101000000000000000">
+Figure legends</A>
+</H2>
+
+<P>
+Figure 1. Global map of the Large Marine Ecosystems (LMEs) showing the
+number of stock assessments present in the database for each LME or High Seas area. 
+<BR>
+<P>
+Figure 2. Taxonomic coverage of assessed marine species present in the
+RAM Legacy database. The circle located near the middle of the circular
+dendrogram represents kingdom Animalia and each subsequent branching
+represents a different taxonomic group (Kingdom to Phylum to Class to
+Order to Family to Genus to Species). The width of each line is
+proportional to the square root of the number of assessments in the
+database. The outermost lines represent species and the number of
+lines is the number of assessments for each species. The names of
+multi-assessment species are not repeated on the outermost portion of
+the dendrogram but continue counter-clockwise from the first entry.
+Note that branch lengths are chosen for graphical purposes and do not
+convey phylogenetic distance.
+<BR>
+<P>
+Figure 3. Comparison of the taxonomic diversity of marine
+species as provided by FishBase (top panel), the coverage of catch
+data as provided by the Sea Around Us Project (SAUP) database (middle
+panel) and the RAM Legacy database (bottom panel). To facilitate the
+identification of the taxonomic groups that are not presented in the catch
+and assessment data, the FishBase branching pattern of the spoked dendrogram is
+maintained to generate other two dendrograms.
+<BR>
+<P>
+Figure 4. Temporal coverage of (A) catch/landings, (B) spawning stock
+biomass and (C) recruitment. The temporal coverage for individual
+assessments is represented by thin alternating black and grey
+horizontal lines in the main panels. Thick horizontal lines at the
+base of each main panel represent the time periods which are present
+in 90% (black) and 50% (grey) of all series for that data type.
+Subfigure histograms contain the frequency of occurrence of the
+various timespans without reference to time period. Solid and
+long-dash vertical lines within the subfigures represent the median,
+2.5% and 97.5% quantiles, respectively.
+<BR>
+<P>
+Figure 5. Current exploitation rate versus biomass for XXX
+individual stocks. Exploitation is scaled relative to that which
+should allow maximum sustainable yield (uMSY); biomass is scaled
+relative to BMSY. Colors indicate probability of occurrence as
+revealed by a kernel density smooth function. Solid circles indicate
+BMSY and uMSY that were obtained directly from assessments; open circles
+indicate that they were estimated from surplus production models.
+<BR>
+<P>
+Figure 6. Current exploitation rate versus biomass for
+individual stocks grouped by management unit. Plot details as in
+Figure 5.
+<BR>
+<P>
+Figure 7. Mean trophic level of assessed species for
+overexploited and non-overexploited stocks. Overexploited stocks are
+those for which the current biomass is below the MSY BRP. 
+<BR>
+<P>
+
+<H2><A NAME="SECTION000102000000000000000">
+Figures</A>
+</H2>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:lmes"></A><A NAME="439"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 1:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:taxo:srdb"></A><A NAME="446"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 2:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+ 
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:taxo:threepanel"></A><A NAME="453"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 3:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+ 
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:orca"></A><A NAME="460"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 4:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:friedegg"></A><A NAME="467"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 5:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:friedeggmgmt"></A><A NAME="474"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 6:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:TL"></A><A NAME="481"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 7:</STRONG>
+ </CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+
+<H1><A NAME="SECTION000110000000000000000">
+Supporting Information</A>
+</H1>
+
+<P>
+
+<H2><A NAME="SECTION000111000000000000000">
+Entity relationship diagram</A>
+</H2>
+
+<DIV ALIGN="CENTER"><A NAME="490"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 8:</STRONG>
+Entity relationship diagram of the RAM legacy database.</CAPTION>
+<TR><TD><DIV ALIGN="CENTER">
+
+
+</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<H1><A NAME="SECTION000120000000000000000">
+About this document ...</A>
+</H1>
+ <STRONG>Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments 
+<BR><BR>
+<BR> Alternative Title 1: A new global stock assessment database for exploited marine species 
+<BR><BR>
+<BR> Alternative Title 2: Understanding marine population dynamics using a new global database 
+<BR><BR>
+<BR> Suggested Running Title: A new global stock assessment database</STRONG><P>
+This document was generated using the
+<A HREF="http://www.latex2html.org/"><STRONG>LaTeX</STRONG>2<tt>HTML</tt></A> translator Version 2002-2-1 (1.71)
+<P>
+Copyright &#169; 1993, 1994, 1995, 1996,
+Nikos Drakos, 
+Computer Based Learning Unit, University of Leeds.
+<BR>Copyright &#169; 1997, 1998, 1999,
+<A HREF="http://www.maths.mq.edu.au/~ross/">Ross Moore</A>, 
+Mathematics Department, Macquarie University, Sydney.
+<P>
+The command line arguments were: <BR>
+ <STRONG>latex2html</STRONG> <TT>fishandfisheries-v2 -split 0</TT>
+<P>
+The translation was initiated by Stock-recruitment database administrator on 2010-05-10<BR><HR><H4>Footnotes</H4>
+<DL>
+<DT><A NAME="foot14">... Ricard</A><A
+ HREF="fishandfisheries-v2.html#tex2html1"><SUP><SPAN CLASS="arabic">1</SPAN></SUP></A></DT>
+<DD>Department of Biology, Dalhousie University, Halifax, NS B3H 4J1, Canada
+
+</DD>
+<DT><A NAME="foot18">... Baum</A><A
+ HREF="fishandfisheries-v2.html#tex2html2"><SUP><SPAN CLASS="arabic">2</SPAN></SUP></A></DT>
+<DD>Scripps Institution of Oceanography, UCSD, 9500 Gilman Drive, La Jolla, CA 92093-0202, USA
+
+</DD>
+<DT><A NAME="foot19">... Jensen</A><A
+ HREF="fishandfisheries-v2.html#tex2html3"><SUP><SPAN CLASS="arabic">3</SPAN></SUP></A></DT>
+<DD>School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA 98195-5020, USA
+
+</DD>
+</DL>
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<IMG WIDTH="81" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next_inactive"
+ SRC="/usr/share/latex2html/icons/nx_grp_g.png"> 
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up_g.png"> 
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev_g.png">   
+<BR></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Stock-recruitment database administrator
+2010-05-10
+</ADDRESS>
+</BODY>
+</HTML>

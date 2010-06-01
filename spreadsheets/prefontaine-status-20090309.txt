@@ -1,0 +1,276 @@
+status of renee Prefontaine's spreadsheet submissions and inclusion in the database
+Time-stamp: <2009-03-11 12:56:01 (ricardd)>
+
+
+WhAT FILES ARE CURRENTLY IN THE srdb folder?
+
+oui>ls -lh spreadsheets/PREFONTAINE-*.xls
+
+
+-rwxrwxr-- 1 srdbadmin srdb 141K Dec  2 14:49 spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  57K Oct 27 13:28 spreadsheets/PREFONTAINE-AMPL23K-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: changed the areaid from "multinational-NAFO-23K" to "Canada-DFO-23K"
+# READY for QA/QC?: yes 
+
+
+-rwxrwxr-- 1 srdbadmin srdb 135K Dec  2 14:48 spreadsheets/PREFONTAINE-AMPL3LNO-2005-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  61K Oct 27 13:27 spreadsheets/PREFONTAINE-AMPL3LNO-2005.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: AMPL3LNO
+# other comments: changed the areaid from "multinational-NAFO-3LNO" to "Canada-DFO-3LNO"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 109K Dec  2 14:26 spreadsheets/PREFONTAINE-AMPL3M-2006-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  51K Sep 15 16:20 spreadsheets/PREFONTAINE-AMPL3M-2006.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: AMPL3M
+# other comments: areaid kept at "multinational-NAFO-3M", this seems to be under NAFO management, it's the Flemish Cap area
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 103K Dec  2 14:46 spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  48K Sep 15 16:20 spreadsheets/PREFONTAINE-AMPL3Ps-2005.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: AMPL3Ps
+# other comments: changed the areaid from "multinational-NAFO-3Ps" to "Canada-DFO-3Ps"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 147K Oct 31 15:31 spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  47K Sep 15 16:20 spreadsheets/PREFONTAINE-BARNSK-2002.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: NO TIME-SERIES data
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 112K Dec  2 14:22 spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  59K Aug 21  2008 spreadsheets/PREFONTAINE-COD2J3KLIS-2006.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none, this is the inshore component of the 2J3KL stock
+# other comments: changed areaid from "" to ""
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 145K Dec  2 14:44 spreadsheets/PREFONTAINE-COD3NO-2007-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  52K Jul 23  2008 spreadsheets/PREFONTAINE-COD3NO-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: COD3NO
+# other comments: changed the areaid from "multinational-NAFO-3NO" to "Canada-DFO-3NO"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 147K Dec  2 14:25 spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  53K Jun  2  2008 spreadsheets/PREFONTAINE-COD3Pn4RS-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: COD3Pn4RS
+# other comments: changed the areaid from "multinational-NAFO-3Pn4RS" to "Canada-DFO-3Pn4RS"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  75K Oct 27 13:28 spreadsheets/PREFONTAINE-COD3Ps-2004.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: COD3Ps
+# other comments: changed the areaid from "multinational-NAFO-3Ps" to "Canada-DFO-3Ps"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  52K Oct 30 10:34 spreadsheets/PREFONTAINE-COD4TVn-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: COD4TVn
+# other comments: changed the areaid from "multinational-NAFO-4TVn" to "Canada-DFO-4TVn"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  51K Oct 30 10:34 spreadsheets/PREFONTAINE-COD4VsW-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: COD4VsW
+# other comments: areaid changed to "Canada-DFO-4VsW"
+# READY for QA/QC?: yes
+
+
+
+-rwxrwxr-- 1 srdbadmin srdb 141K Dec  2 14:45 spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  42K Jul 23  2008 spreadsheets/PREFONTAINE-COD5Zjm-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: areaid changed to "Canada-DFO-5Zjm"
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 118K Oct 31 15:51 spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  54K Sep 15 16:20 spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: 
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 140K Dec  2 14:38 spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  50K Sep 15 16:20 spreadsheets/PREFONTAINE-GHAL23KLMNO-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: GHALNAFO23
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  55K Oct 27 13:28 spreadsheets/PREFONTAINE-GHAL4RST-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 109K Dec  2 14:16 spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  50K Aug 21  2008 spreadsheets/PREFONTAINE-HAD4X5Y-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 110K Dec  2 14:17 spreadsheets/PREFONTAINE-HAD5Zejm-2003-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  52K Aug 21  2008 spreadsheets/PREFONTAINE-HAD5Zejm-2003.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 110K Dec  2 14:18 spreadsheets/PREFONTAINE-HERR4RFA-2004-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  65K Aug 21  2008 spreadsheets/PREFONTAINE-HERR4RFA-2004.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: 
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 110K Dec  2 14:19 spreadsheets/PREFONTAINE-HERR4RSP-2004-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  57K Aug 21  2008 spreadsheets/PREFONTAINE-HERR4RSP-2004.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  64K Oct 30 10:34 spreadsheets/PREFONTAINE-HERR4TFA-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  56K Oct 30 10:34 spreadsheets/PREFONTAINE-HERR4TSP-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 111K Dec  2 14:07 spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  44K Jul 23  2008 spreadsheets/PREFONTAINE-HERR4VWX-2006.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 147K Oct 31 12:50 spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  46K Sep 15 16:21 spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  56K Oct 27 13:28 spreadsheets/PREFONTAINE-MONK4VWX5Zc-2000.xls
+
+
+-rwxrwxr-- 1 srdbadmin srdb 108K Dec  2 14:20 spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  57K Aug 21  2008 spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006.xls
+
+
+-rwxrwxr-- 1 srdbadmin srdb  47K Sep 15 16:21 spreadsheets/PREFONTAINE-RED1-2005.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  47K Sep 15 16:21 spreadsheets/PREFONTAINE-RED23K-2001.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  52K Sep 15 16:21 spreadsheets/PREFONTAINE-RED3LN-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 149K Oct 16 17:14 spreadsheets/PREFONTAINE-RED3M-2007-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  47K Sep 15 16:20 spreadsheets/PREFONTAINE-RED3M-2007.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb  57K Oct 27 13:28 spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 117K Oct 31 12:54 spreadsheets/PREFONTAINE-WHAKE4VWX5-2005-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  49K Sep 15 16:21 spreadsheets/PREFONTAINE-WHAKE4VWX5-2005.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+
+
+-rwxrwxr-- 1 srdbadmin srdb 150K Oct 31 12:58 spreadsheets/PREFONTAINE-YELL3LNO-2006-editedDR.xls
+-rwxrwxr-- 1 srdbadmin srdb  48K Sep 15 16:21 spreadsheets/PREFONTAINE-YELL3LNO-2006.xls
+# SUBMITTED AS AN ISSUE ON RAM LEGACY: yes
+# APPEARS IN srDB?: yes
+# matching stockid from RAM's original data: none
+# other comments: none
+# READY for QA/QC?: yes
+

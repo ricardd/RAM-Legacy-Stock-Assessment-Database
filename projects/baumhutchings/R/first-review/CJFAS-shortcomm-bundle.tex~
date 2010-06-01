@@ -1,0 +1,22 @@
+% LaTeX file for CJFAS short communication paper (Hutchings, Minto, Ricard and Baum)
+% Last modified Time-stamp: <2010-05-31 10:36:40 (srdbadmin)>
+%
+\documentclass[letterpaper,12pt]{article}
+
+
+\title{Figures and Tables for CJFAS Short Communication} 
+\date{}
+\begin{document}
+
+\maketitle{}
+
+\begin{figure}
+\begin{center}
+\includegraphics[height=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig1-1010_withBRP.pdf}
+\end{center}
+\caption{}
+\end{figure}\label{fig1}
+
+
+
+\end{document}

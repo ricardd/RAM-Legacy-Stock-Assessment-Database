@@ -1,0 +1,159 @@
+assessid	 pdfcheck	 pdffilename 
+ICCAT-ALBANATL-1929-2005-WORM 	 (pdf file present) 	 2007-ALB-STOCK-ASSESS-REP.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/24
+ICCAT-ATBTUNAEATL-1979-2007-WORM 	 (pdf file present) 	 2008-BFT-STOCK-ASSESS-REP.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/128
+WGBFAS-CODBA2224-1969-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/26
+WGBFAS-CODBA2532-1964-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/27
+WGBFAS-HERR2532-1973-2006-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/29
+WGBFAS-HERR30-1972-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/30
+WGBFAS-HERR31-1979-2006-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/31
+WGBFAS-HERRRIGA-1976-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/32
+WGBFAS-SPRAT22-32-1973-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/35
+AFWG-CODNEAR-1943-2006-MINTO 	 (pdf file MISSING!) 	 AFWG-NEAR-Gadusmorhua-2007.pdf 	 
+AFWG-CAPENOR-1964-2006-MINTO 	 (pdf file present) 	 ICES-AFWG-2007.pdf 	 
+AFWG-GHALNEAR-1959-2007-JENNINGS 	 (pdf file present) 	 ICES-AFWG-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/76
+AFWG-HADNEAR-1947-2006-MINTO 	 (pdf file present) 	 ICES-AFWG-2007.pdf 	 
+AFWG-POLLNEAR-1957-2006-MINTO 	 (pdf file present) 	 ICES-AFWG-2007.pdf 	 
+MARAM-ANCHOSA-1984-2006-deMoor 	 (pdf file MISSING!) 	 .pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/126
+MARAM-CTRACSA-1950-2007-Johnston 	 (pdf file present) 	 Johnston-SAHorseMackerel-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/134
+MARAM-SARDSA-1984-2006-deMoor 	 (pdf file MISSING!) 	 deMoorSASardineAssessment-Sep07.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/127
+MARAM-SSLOBSTERSASC-1973-2008-Johnston 	 (pdf file present) 	 Johnston-SASouthRockLobster-2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/133
+NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH 	 (pdf file present) 	 NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/22
+NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH 	 (pdf file present) 	 NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/38
+NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH 	 (pdf file present) 	 NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/37
+NWFSC-BLUEROCKCAL-1916-2007-BRANCH 	 (pdf file present) 	 NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/39
+NWFSC-BOCACCSPCOAST-1951-2006-BRANCH 	 (pdf file present) 	 NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/61
+NWFSC-CROCKPCOAST-1916-2007-BRANCH 	 (pdf file present) 	 NWFSC-CROCKPCOAST-2007-Canary.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/84
+NWFSC-CHILISPCOAST-1892-2007-BRANCH 	 (pdf file present) 	 NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/83
+NWFSC-COWCODSCAL-1900-2007-BRANCH 	 (pdf file present) 	 NWFSC-COWCODSCAL-2007-Cowcod CA.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/40
+NWFSC-DKROCKPCOAST-1928-2007-BRANCH 	 (pdf file present) 	 NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/43
+NWFSC-ESOLEPCOAST-1876-2007-BRANCH 	 (pdf file present) 	 NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/21
+NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH 	 (pdf file present) 	 NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/41
+NWFSC-PHAKEPCOAST-1966-2008-BRANCH 	 (pdf file present) 	 NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/74
+NWFSC-POPERCHPCOAST-1953-2007-BRANCH 	 (pdf file present) 	 NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/63
+NWFSC-SABLEFPCOAST-1900-2007-BRANCH 	 (pdf file present) 	 NWFSC-SABLEFPCOAST-2007-Sablefish.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/42
+NWFSC-WROCKPCOAST-1955-2006-BRANCH 	 (pdf file present) 	 NWFSC-WROCKPCOAST-2007-widow.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/62
+NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH 	 (pdf file present) 	 NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/65
+WGNSDS-CODIS-1968-2006-MINTO 	 (pdf file present) 	 ICES-WGNSDS-2007.pdf 	 
+WGNSDS-CODVIa-1977-2006-MINTO 	 (pdf file present) 	 ICES-WGNSDS-2007.pdf 	 
+WGNPBW-BWHITNEA-1980-2007-JENNINGS 	 (pdf file present) 	 ICES-WGNPBW-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/79
+WGHMM-SOLEVIII-1982-2006-JENNINGS 	 (pdf file present) 	 ICES-WGHMM-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/54
+WGNSDS-SOLEIS-1968-2006-MINTO 	 (pdf file present) 	 ICES-WGNSDS-2007.pdf 	 
+WGNSSK-SOLEVIId-1981-2006-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+WGSSDS-SOLECS-1970-2006-JENNINGS 	 (pdf file present) 	 ICES-WGSSDS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/55
+WGSSDS-SOLEVIIe-1968-2006-JENNINGS 	 (pdf file present) 	 ICES-WGSSDS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/78
+WGNSDS-PLAICIS-1962-2006-MINTO 	 (pdf file present) 	 ICES-WGNSDS-2007.pdf 	 
+WGSSDS-PLAICCELT-1976-2006-JENNINGS 	 (pdf file present) 	 ICES-WGSSDS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/51
+WGSSDS-PLAICECHW-1975-2006-JENNINGS 	 (pdf file present) 	 ICES-WGSSDS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/52
+WGNSDS-HADVIa-1977-2006-MINTO 	 (pdf file present) 	 ICES-WGNSDS-2007.pdf 	 
+HAWG-HERRNIRS-1960-2006-JENNINGS 	 (pdf file present) 	 ICES-HAWG-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/77
+HAWG-HERRVIa-1957-2006-MINTO 	 (pdf file present) 	 ICES-HAWG-2007.pdf 	 
+HAWG-HERRVIaVIIbc-1969-2000-MINTO 	 (pdf file present) 	 ICES-HAWG-2007.pdf 	 
+WGSSDS-WHITVIIek-1982-2007-JENNINGS 	 (pdf file present) 	 ICES-WGSSDS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/81
+NWWG-CODFAPL-1959-2006-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+NWWG-HADFAPL-1955-2007-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+NWWG-POLLFAPL-1958-2006-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+DFO-PAC-ESOLEHS-1944-2001-COLLIE 	 (pdf file present) 	 Flat99.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/106
+DFO-PAC-PCODHS-1956-2005-COLLIE 	 (pdf file present) 	 RES2005_026_Cod.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/310
+DFO-PAC-PCODWCVANI-1956-2002-COLLIE 	 (pdf file present) 	 2002-113.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/311
+DFO-PAC-HERRCC-1951-2007-COLLIE 	 (pdf file present) 	 RES2007_002_e.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/305
+DFO-PAC-HERRPRD-1951-2007-COLLIE 	 (pdf file present) 	 RES2007_002_e.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/306
+DFO-PAC-HERRQCI-1951-2007-COLLIE 	 (pdf file present) 	 RES2007_002_e.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/307
+DFO-PAC-HERRSOG-1951-2007-COLLIE 	 (pdf file present) 	 RES2007_002_e.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/308
+DFO-PAC-HERRWCVANI-1951-2007-COLLIE 	 (pdf file present) 	 RES2007_002_e.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/309
+DFO-PAC-RSOLEHSTR-1945-2001-COLLIE 	 (pdf file present) 	 Flat99.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/107
+SEFSC-GAGGM-1963-2004-JENSEN 	 (pdf file MISSING!) 	 JENSEN_GAGGM_2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/18
+SEFSC-MENATGM-1964-2004-GILROY 	 (pdf file present) 	 GILROY-MENHADENGM-2007.pdf 	 
+WGHMM-FMEG8c9a-1986-2006-JENNINGS 	 (pdf file present) 	 ICES-WGHMM-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/49
+WGHMM-MEG8c9a-1985-2007-JENNINGS 	 (pdf file present) 	 ICES-WGHMM-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/50
+NWWG-CODICE-1952-2006-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+NWWG-CAPEICE-1977-2007-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+NWWG-HADICE-1977-2007-MINTO 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 
+WGBFAS-HERRIsum-1983-2007-JENNINGS 	 (pdf file present) 	 ICES-NWWG-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/47
+ICCAT-SWORDMED-1968-2006-JENSEN 	 (pdf file present) 	 ICCAT-Mediterranean-Xiphiasgladius-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/58
+NIWA-PINKLINGLIN3-4-1972-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/157
+NIWA-PINKLINGLIN5-6-1972-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/159
+NIWA-PINKLINGLIN6b-1980-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/158
+NIWA-PINKLINGLIN72-1972-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/160
+NIWA-PINKLINGLIN7WC-1972-2008-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/161
+NIWA-BFOOTABALONEPAU5A-1964-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/183
+NIWA-BFOOTABALONEPAU5B-1963-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/185
+NIWA-BFOOTABALONEPAU5D-1964-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/184
+NIWA-BFOOTABALONEPAU7-1964-2008-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/186
+NIWA-GEMFISHNZ-1952-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/182
+NIWA-HOKIENZ-1972-2007-FRANCIS 	 (pdf file present) 	 FAR0804hok07.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/360
+NIWA-HOKIWNZ-1972-2007-FRANCIS 	 (pdf file present) 	 FAR0804hok07.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/359
+NIWA-NZSNAPNZ8-1931-2005-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/193
+NIWA-SBWHITACIR-1979-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/190
+NIWA-SOUTHHAKECR-1975-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/180
+NIWA-SOUTHHAKESA-1975-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/181
+NIWA-WHITETREVALLYTRE7-1944-2005-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/189
+DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-AMPL23K-2003.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/8
+DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE 	 (pdf file present) 	 DFO-COD3Ps-2004.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/155
+DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE 	 (pdf file MISSING!) 	 DFO-COD3Pn4Rs-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/154
+NAFO-SC-COD3NO-1953-2007-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-COD3NO-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/153
+NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-GHAL23KLMNO-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/164
+NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-RED3LN-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/174
+WGBFAS-CODKAT-1970-2006-MINTO 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 
+WGNSSK-CODNS-1962-2006-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+WGBFAS-SOLEIIIa-1982-2007-JENNINGS 	 (pdf file present) 	 ICES-WGBFAS-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/80
+WGNSSK-HADNS-IIIa-1963-2006-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+HAWG-HERRNS-1960-2007-MINTO 	 (pdf file present) 	 ICES-HAWG-2007.pdf 	 
+WGNSSK-NPOUTNS-1983-2007-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+WGNSSK-SEELNS-1983-2007-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO 	 (pdf file present) 	 ICES-WGNSSK-2007.pdf 	 
+RIDEM-LOBSTERRI-1959-2007-COLLIE 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/312
+NEFSC-AMPL5YZ-1960-2008-OBRIEN 	 (pdf file MISSING!) 	  .pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/112
+DFO-COD5Zjm-1978-2003-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-COD5Zjm-2003.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/163
+NEFSC-CODGB-1960-2008-BAUM 	 (pdf file MISSING!) 	 NMFS-GB-Gadusmorhua-2008.pdf 	 
+NEFSC-CODGOM-1893-2008-BAUM 	 (pdf file MISSING!) 	 NMFS-GOM-Gadusmorhua-2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/110
+DFO-HAD4X5Y-1960-2003-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-HAD4X5Y-2003.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/166
+DFO-HAD5Zejm-1969-2003-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-HAD5Zejm-2003.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/105
+NEFSC-HAD5Y-1956-2008-BAUM 	 (pdf file MISSING!) 	 NMFS-GOM-Melanogrammusaeglefinus-2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/116
+DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-POLL4VWX5Zc-2006.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/179
+RIDEM-TAUTOGRI-1959-2007-COLLIE 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/313
+NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO 	 (pdf file MISSING!) 	 NMFS-SNEMATL-Pseudopleuronectesamercianus-2008.pdf 	 
+RIDEM-WINFLOUNDRI-1959-2007-COLLIE 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/314
+NEFSC-YELLGB-1935-2008-BAUM 	 (pdf file MISSING!) 	 NMFS-GB-Limandaferruginea-2008.pdf 	 
+AFWG-CODCOASTNOR-1982-2006-MINTO 	 (pdf file present) 	 ICES-AFWG-2007.pdf 	 
+WGHMM-HAKENRTN-1977-2007-JENNINGS 	 (pdf file present) 	 ICES-WGHMM-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/33
+WGMHSA-MACKNEICES-1972-2007-JENNINGS 	 (pdf file present) 	 ICES-WGMHSA07.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/48
+SPC-ALBASPAC-1959-2007-JENSEN 	 (pdf file present) 	 JENSEN_ALBWPO_2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/57
+SPC-BIGEYEWPO-1952-2007-JENSEN 	 (pdf file present) 	 JENSEN_BETWPO_2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/59
+SPC-SKJCWPAC-1972-2007-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/15
+SPC-YFINCWPAC-1952-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/60
+INIDEP-ARGHAKENARG-1985-2007-Parma 	 (pdf file present) 	 Irusta-hake-N-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/104
+INIDEP-ARGHAKESARG-1985-2007-Parma 	 (pdf file present) 	 Renzi-hake-S-2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/103
+INIDEP-PATGRENADIERSARG-1983-2006-Parma 	 (pdf file present) 	 Giussi-hoki-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/148
+INIDEP-SBWHITARGS-1985-2007-Parma 	 (pdf file present) 	 Giussi-polaca-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/119
+DFO-SG-COD4T-1950-2007-HUTCHINGS 	 (pdf file MISSING!) 	 http://www.dfo-mpo.gc.ca/csas/Csas/DocREC/2007/RES2007_033_b.pdf 	 
+DFO-SG-COD4TVn-1965-2007-PREFONTAINE 	 (pdf file MISSING!) 	 NAFO-COD4TVn-2007.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/156
+CSIRO-PINKLINGGABSESSF-1968-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/93
+CSIRO-PINKLINGSESSF-1968-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/89
+CSIRO-WAREHOUGABSESSF-1984-2006-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/97
+CSIRO-WAREHOUSESSF-1984-2006-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/101
+CSIRO-GEMFISHSESSF-1966-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/88
+CSIRO-DEEPFLATHEADSESSF-1978-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/99
+CSIRO-MORWONGSESSF-1913-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/90
+CSIRO-OROUGHYSESSF-1978-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/98
+CSIRO-SWHITSESSF-1945-2007-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/94
+CSIRO-SILVERFISHSESSF-1978-2006-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/91
+CSIRO-TIGERFLATSESSF-1913-2006-FULTON 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/92
+SEFSC-RPORGYSATLC-1972-2005-JENSEN 	 (pdf file MISSING!) 	 JENSEN_RPORGYSATLC_2006.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/73
+SEFSC-SPANMACKSATLC-1950-2008-JENSEN 	 (pdf file MISSING!) 	 JENSEN_SPANMACKSATLC_2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/75
+AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK 	 (pdf file present) 	 AFSC-ALPLAICBSAI-2008-Alaska plaice BSAI.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/269
+AFSC-ARFLOUNDBSAI-1970-2008-STANTON 	 (pdf file MISSING!) 	 AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BSAI.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/244
+AFSC-ATKABSAI-1977-2009-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAIatka.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/240
+AFSC-FLSOLEBSAI-1977-2008-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAIflathead.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/232
+AFSC-GHALBSAI-1960-2009-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAIturbot.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/243
+AFSC-NRSOLEEBSAI-1971-2008-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAIrocksole.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/238
+AFSC-NROCKBSAI-1977-2009-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAInorthern.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/255
+AFSC-PCODBSAI-1964-2008-MELNYCHUK 	 (pdf file present) 	 AFSC-PCODBSAI-2008-Pacific cod BSAI.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/268
+AFSC-PERCHEBSAI-1974-2009-STANTON 	 (pdf file MISSING!) 	 2008_SAFE_BSAIpop.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/256
+AFSC-SNOWCRABBS-1979-2008-JENSEN 	 (pdf file present) 	 CRABSAFE2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/257
+AFSC-WPOLLEBS-1963-2008-MELNYCHUK 	 (pdf file present) 	 AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/267
+AFSC-YSOLEBSAI-1959-2008-MELNYCHUK 	 (pdf file present) 	 AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/270
+AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK 	 (pdf file present) 	 AFSC-SABLEFEBSAIGA-2008-Sablefish EBS AI GA.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/266
+NIWA-SOUTHHAKECR-1975-2006-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/180
+AFSC-TANNERCRABBSAI-1965-2008-JENSEN 	 (pdf file present) 	 CRABSAFE2008.pdf 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/259
+NIWA-NZSNAPNZ8-1931-2005-JENSEN 	 (pdf file MISSING!) 	 NONE 	 http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/193

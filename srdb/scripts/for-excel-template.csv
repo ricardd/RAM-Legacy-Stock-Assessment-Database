@@ -1,0 +1,76 @@
+category|subcategory|bioshort|biolong|biounitsshort|biounitslong
+TIME SERIES DATA DESCRIPTORS|TOTAL BIOMASS|TB-AGE|age used in the calculation of total recruited biomass (e.g. age 3+ biomass)|yr|years
+TIME SERIES DATA DESCRIPTORS|TOTAL BIOMASS|TB-TYPE|0=total biomass, 1=total exploitable biomass|0-1|0=total biomass, 1=total exploitable biomass
+TIME SERIES DATA DESCRIPTORS|SPAWNERS|SSB-AGE|Age of spawners (e.g. 3+)|yr|years
+TIME SERIES DATA DESCRIPTORS|SPAWNERS|SSB-SEX|Sex of spawners: 0=both sexes,1=females only,2=males only,NA=sex unknown|sex|0=both sexes,1=females only,2=males only,NA=sex unknown
+TIME SERIES DATA DESCRIPTORS|RECRUITS|REC-AGE|Age of recruits (note: offset in the time series by their age as in Myers SR database)|yr|years
+TIME SERIES DATA DESCRIPTORS|RECRUITS|REC-ESTIMATED|Enter the year range for which R was estimated from the data (rather than being dominantly driven by the assumed underlying S-R relationship)
+|yr-yr|years
+TIME SERIES DATA DESCRIPTORS|FISHING MORTALITY|F-AGE|Ages used to compute fishing mortality|yr-yr|range of years
+TIME SERIES DATA DESCRIPTORS|FISHING MORTALITY|F-SEX|Sex used for F calculation: 0=both sexes,1=females only,2=males only,NA=sex unknown|sex|0=both sexes,1=females only,2=males only,NA=sex unknown
+TIME SERIES DATA DESCRIPTORS|FISHING MORTALITY|F-CALC|Fishing mortality calculation: 0=weighted by weights-at-age; 1=weighted by numbers-at-age; 2=unweighted|0-1-2|0=weighted by weights-at-age; 1=weighted by numbers-at-age; 2=unweighted
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Flim|the fishing mortality threshold, above which fishing has typically lead to stock decline|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Flim|the fishing mortality threshold, above which fishing has typically lead to stock decline|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fmax|the rate of fishing mortality for a given exploitation pattern rate of growth and natural mortality, that results in the maximum level of yield per recruit|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fmsy|fishing mortality corresponding to maximum sustainable yield|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fmsy|fishing mortality corresponding to maximum sustainable yield|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fpa|Precautionary approach fishing mortality|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fpa|Precautionary approach fishing mortality|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fref|Reference fishing mortality|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fcurrent|Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|MORATOR|Fishing moratorium (years): e.g. 1992-1996|yr-yr|range of years
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|NATMORT|Natural mortality|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|SPRF0|Spawners per recruit when F=0|E01|numbers
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|F40%|Fishing mortality that reduces spawner biomass per recruit to 40% of the level obtained without fishing mortality|1/T|per unit time
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|SSBmsy|Spawning Stock Biomass at MSY|MT|metric tons
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|MSY|Maximum Sustainable Yield|MT|metric tons
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Umsy|harvest rate corresponding to maximum sustainable yield|ratio|dimensionless
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|BH-h|Beverton-Holt steepness|dimensionless|
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Blim|lowest observed spawning stock biomass in previous assessments|MT|metric tons
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Bmsy|spawning stock biomass at maximum sustainable yield|MT|metric tons
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Bpa|Precautionary approach biomass|MT|Metric tonnes
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Brebuild|Rebuild target for biomass|MT|Metric tonnes
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Bbuf|spawning stock biomass that produced the last abundant year-class|MT|Metric tonnes
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|F0.1|the fishing mortality rate at which the increase in yield per recruit in weight for an increase in a unit of effort is only 10 percent of the yield per recruit produced by the first unit of effort on the unexploited stock|1/yr|per year
+OTHER BIOMETRICS|REFERENCE POINTS ETC.|Fext|the rate of fishing mortality where equilibrium biomass=0|1/yr|per year
+OTHER BIOMETRICS|LIFE HISTORY|VB-k|k parameter in Von Bertalanffy growth function|cm/T|
+OTHER BIOMETRICS|LIFE HISTORY|VB-t0|t0 parameter in Von Bertalanffy growth function|yr|
+OTHER BIOMETRICS|LIFE HISTORY|VB-LA|length in max age class for von Bertalanffy growth function|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|VB-L1|length in first age class for von Bertalanffy growth function|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|VB-A|age of last age class for von Bertalanffy growth function|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|Z-AGE|Ages used to compute total mortality|yr-yr|range of years
+OTHER BIOMETRICS|LIFE HISTORY|Trophiclevel|should be entered from FishBase, and the HIGHEST value should be entered|value|float value
+OTHER BIOMETRICS|LIFE HISTORY|Winf|Asymptotic weight in von Bertalanffy growth model|g|grams
+OTHER BIOMETRICS|LIFE HISTORY|A50|Age at 50% maturity|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|A50-1|Age at 50% maturity|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|A50-2|Age at 50% maturity|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|A50min|Minimum age at 50% maturity (choose the age (in years or half years) closest to 50%)|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|A50min|Minimum age at 50% maturity (choose the age (in years or half years) closest to 50%)|0.5yr|half-year
+OTHER BIOMETRICS|LIFE HISTORY|A50max|Maximum age at 50% maturity (choose the age (in years or half years) closest to 50%)|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|A50max|Maximum age at 50% maturity (choose the age (in years or half years) closest to 50%)|0.5yr|half-year
+OTHER BIOMETRICS|LIFE HISTORY|MAT-SEX|Maturity sex: 0=both sexes,1=females only,2=males only,NA=sex unknown|sex|0=both sexes,1=females only,2=males only,NA=sex unknown
+OTHER BIOMETRICS|LIFE HISTORY|MAT-CALC|Maturity 50% calculation: 0=by cohort,1=by age|0-1|by cohor or by age
+OTHER BIOMETRICS|LIFE HISTORY|MAT-MODEL|Maturity model option|option|option
+OTHER BIOMETRICS|LIFE HISTORY|MAT-SLOPE|Slope of maturity function|dimensionless|dimensionless
+OTHER BIOMETRICS|LIFE HISTORY|MAT-REF|Age at 50% maturity reference|doctype|Reference document for age at 50% maturity
+OTHER BIOMETRICS|LIFE HISTORY|Fecundity|Fecundity|N|number of eggs
+OTHER BIOMETRICS|LIFE HISTORY|Fecundity-rel|Relative fecundity|eggs/g|Total egg production per gram of ssb
+OTHER BIOMETRICS|LIFE HISTORY|Habitat|Habitat, (pelagic marine; demersal marine; diadromous; wholly freshwater)|Habitat|habitat type
+OTHER BIOMETRICS|LIFE HISTORY|L50|Length at 50% maturity|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|L50-1|Length at 50% maturity|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|L50-2|Length at 50% maturity|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|L50max|Maximum length at 50% maturity|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|L50min|Minimum length at 50% maturity|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|LEN-SEX|Length at 50% maturity sex: 0=both sexes,1=females only,2=males only,NA=sex unknown|sex|0=both sexes,1=females only,2=males only,NA=sex unknown
+OTHER BIOMETRICS|LIFE HISTORY|LEN-REF|Length at 50% maturity reference|doctype|Reference document for length at 50% maturity
+OTHER BIOMETRICS|LIFE HISTORY|Linf|Asymptotic length in von Bertalanffy growth model|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|LW-a|Coefficient in length-weight relationship|kg/cm|kilograms per centimeters
+OTHER BIOMETRICS|LIFE HISTORY|LW-a|Coefficient in length-weight relationship|MT/cm|tonnes per centimeters
+OTHER BIOMETRICS|LIFE HISTORY|LW-b|Power in length-weight relationship|dimensionless|
+OTHER BIOMETRICS|LIFE HISTORY|M|Natural mortality|1/T|per unit time
+OTHER BIOMETRICS|LIFE HISTORY|M|Natural mortality|1/yr|per year
+OTHER BIOMETRICS|LIFE HISTORY|M|Natural mortality|1/month|per month
+OTHER BIOMETRICS|LIFE HISTORY|MAX-AGE|Maximum age|yr|years
+OTHER BIOMETRICS|LIFE HISTORY|MAX-LEN|Maximum length|cm|centimeters
+OTHER BIOMETRICS|LIFE HISTORY|MAX-WGT|Maximum weight|g|grams
+(73 rows)

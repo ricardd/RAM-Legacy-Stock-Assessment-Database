@@ -1,0 +1,25 @@
+\begin{tabular}{l | l | l | r}
+\textit{country} & \textit{managementauthority} & \textit{mgmt} & \textit{nassess} \\
+\hline
+Argentina & Consejo Federal Pesquero, Argentina national management & CFP & 6 \\
+Australia & Australian Fisheries Management Authority, Australia national management & AFMA & 16 \\
+Canada & Department of Fisheries and Oceans, Canada national management & DFO & 22 \\
+Multinational & Indian Ocean Tuna Commission & IOTC & 1 \\
+Multinational & Unknown management body & UNKNOWN & 1 \\
+Multinational & International Commission for the Conservation of Atlantic Tunas & ICCAT & 10 \\
+Multinational & Inter-American Tropical Tuna Commission & IATTC & 2 \\
+Multinational & International Pacific Halibut Commission & IPHC & 1 \\
+Multinational & International Council for the Exploration of the Sea & ICES & 63 \\
+Multinational & South Pacific Regional Fisheries Management Organization & SPRFMO & 1 \\
+Multinational & Commission for the Conservation of Antarctic Marine Living Resources & CCAMLR & 1 \\
+Multinational & Northwest Atlantic Fisheries Organization & NAFO & 8 \\
+Multinational & Western and Central Pacific Fisheries Commission & WCPFC & 4 \\
+New Zealand & Ministry of Fisheries, New Zealand national management & MFish & 29 \\
+Russia & Russian Federal Fisheries Agency, Russia national management & RFFA & 2 \\
+South Africa & South African national management, Department of Environment and Tourism, Marine and Coastal Management & DETMCM & 14 \\
+USA & US state-level management & US State & 3 \\
+USA & National Marine Fisheries Service, US national management & NMFS & 137 \\
+\end{tabular}
+
+\noindent (18 rows) \\
+

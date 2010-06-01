@@ -1,0 +1,72 @@
+##-----------------------------------------------------------------------------
+## plot a taxonomy tree for all species in WoRMS
+## DR, CM
+## date: Fri Dec  9 15:47:22 AST 2009
+## Last modified Time-stamp: <2009-12-10 13:10:07 (srdbadmin)>
+## Modification history: WoRMS data has holes in the matrix, i.e. some species are not assigned to a family, etc., so I'm brute-force removing NAs from the data prior to using "as.phylo"
+##-----------------------------------------------------------------------------
+
+require(RODBC); require(ape); require(gsubfn); require(IDPmisc)
+## load csv file from Rainer Froese
+taxo.dat.fishbase <- read.table("fishbase-DendroRAM-FROMRAINER.csv", sep=",", header=TRUE)
+taxo.dat.fishbase$scientificname <- as.factor(paste(taxo.dat.fishbase$Genus, taxo.dat.fishbase$Species, sep=" "))
+
+taxo.dat.fishbase <- taxo.dat.fishbase[order(taxo.dat.fishbase$scientificname),]
+## expand out the species row entries to be equal to the value of LME column
+expanded.taxo.dat.fishbase<-taxo.dat.fishbase[rep(1:nrow(taxo.dat.fishbase), times=taxo.dat.fishbase$LME), ]
+## regular tree
+taxo.phylo.fishbase<-as.phylo(~Class/Order/Family/Genus/scientificname, data=expanded.taxo.dat.fishbase)
+## take a look at the contents using taxo.phylo[]
+## edge width/length inclusion
+taxo.2.phylo.fishbase<-my.as.phylo.formula(~Class/Order/Family/Genus/scientificname, data=expanded.taxo.dat.fishbase)
+
+##---------------------------
+## branch width calculations
+##---------------------------
+## sqrt for plotting branch widths
+taxo.2.phylo.fishbase$sqrt.edge.length<-sqrt(taxo.2.phylo.fishbase$edge.length)
+## logarithm with various bases
+my.log.base<-function(x,base){return(log(x)/log(base))}
+## e.g. using R's built-in log base 10
+##log10(6)
+##my.log.base(x=6, base=10)
+##taxo.2.phylo.fishbase$log.edge.length<-my.log.base(taxo.2.phylo.fishbase$edge.length+0.1, 4)
+taxo.2.phylo.fishbase$pow.edge.length<-taxo.2.phylo.fishbase$edge.length^(0.1)
+## try a boxcox transformation
+##require(MASS)
+##edge.boxcox<-boxcox(taxo.2.phylo.fishbase$edge.length~1, lambda=seq(-40,10, 1/10))
+##lambda.bar<-edge.boxcox$x[which.max(edge.boxcox$y)]
+## divisor
+taxo.2.phylo.fishbase$div.edge.length<-taxo.2.phylo.fishbase$edge.length/(range(taxo.2.phylo.fishbase$edge.length)[2]/40)
+
+##-------------
+## tip labels
+##-------------
+## in case this was changed previously
+taxo.phylo.fishbase$tip.label<-taxo.2.phylo.fishbase$tip.label
+## at the order level
+
+order.tips<-sapply(seq(1, length(taxo.phylo.fishbase$tip.label)), function(x){
+  print(x)
+  taxo.dat.fishbase$Order[taxo.dat.fishbase$scientificname==taxo.phylo.fishbase$tip.label[x]]})
+
+prelim.tip.labels<-rep("", length(order.tips))
+prelim.tip.labels[1]<-as.character(order.tips[1])
+for(i in 2:length(prelim.tip.labels)){
+  print(i)
+  if(order.tips[i]!=order.tips[i-1]){
+    prelim.tip.labels[i]<-as.character(order.tips[i])
+  }
+}
+
+taxo.phylo.fishbase$tip.label<-prelim.tip.labels
+
+pdf("./taxonomic_coverage_fishbase.pdf", width=10, height=10)
+my.opaque.grey<-"#80808099"
+##plot(taxo.phylo.fishbase, type="r", edge.width=taxo.2.phylo.fishbase$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.fishbase$sqrt.edge.length-2))))
+plot(taxo.phylo.fishbase, type="r", edge.width=taxo.2.phylo.fishbase$div.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo.fishbase$sqrt.edge.length-2))))
+points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+my.cex=0.75
+dev.off()
+
+system("xpdf ./taxonomic_coverage_fishbase.pdf")

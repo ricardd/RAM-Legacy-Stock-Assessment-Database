@@ -1,0 +1,102 @@
+\documentclass[a4paper,10pt,oneside]{book}
+
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx} 
+\pagestyle{plain}
+\makeindex
+
+\author{Julia Baum \and Coil\'{i}n Minto \and Daniel Ricard \and Boris Worm}
+
+\title{\begin{LARGE}Summary contents of the RAM II stock-recruitment database\end{LARGE} \\ \vspace{0.5cm} \textit{\begin{large}Document for NCEAS working group ``Finding Common Ground in Marine Conservation and Management''              \end{large}}}
+
+% Summary contents of RAM's updated stock-recruitment database
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+
+% \citep{Myers:etal:1995a}
+In 1995 Ransom A. Myers and colleagues first published a summary of their newly compiled worldwide database of stock-recruitment data for marine species (Myers, R. A., J. Bridson, and N.J. Barrowman. 1995. Summary of Worldwide Spawner and Recruitment Data. Can. Tech. Rep. Fish. Aquat. Sci.2020: iv + 327 p.). This database has since been used in a large number of publications, leading to important advances in fisheries science and ecology (please refer to the following URL for a list of Dr. Myers' publications: \url{http://as01.ucis.dal.ca/ramweb/content.php?lang=en&i=4&sub=0}). Increasingly, however, analyses became limited by the lack of updating for many of the stocks, providing potentially an outdated picture of the status of marine fisheries. 
+
+In early 2008, a group of scientists associated with the National Centre for Ecological Analysis and Synthesis (NCEAS) working group ``Finding Common Ground in Marine Conservation and Management'' decided to update his database with new stock assessments. This was done in particular to gauge the recovery potential of stocks in relation to current regimes of biomass and fishing mortality. At the same time it was decided to transfer the database to a modern relational database management system using the Structured Query Language (SQL).
+
+This document is meant to support research efforts associated with the NCEAS working group and an associated distributed graduate seminar. The current document contains summary graphs for all stock assessments that are currently loaded in the updated stock-recruitment database under development at Dalhousie University. It is meant as a starting point for feedback. Please provide comments to the contacts given below. Once the database has been completed and feedback incorporated we envision to publish this documents as a technical report and make the database freely available.
+
+\vspace{0.3cm}
+\begin{Large}DISCLAIMER: \end{Large} This database is under development and the preliminary summary results presented here have not been quality controlled. In particular, all NMFS stocks that were obtained from Mike Fogarty have been transfered into the relational system in an ad-hoc fashion and are still being added to the database. Additionally, we will soon provide better online access to the database. We anticipate and actively encourage contributions of new stocks, updated assessments, and additional information that would complete the data available on each stock.
+
+The current database details can be accessed by NCEAS group members at the following URL:
+\url{http://www.marinebiodiversity.ca/RAMlegacy/srdb}
+
+\newpage
+
+
+
+\section{Contacts}
+
+For further information about the databse design, its content and how to access it, please contact:
+\begin{itemize}
+ \item Julia Baum, NCEAS group member, Email: juliakbaum@gmail.com, Phone: +1 858-822-5912 (W); +1 858 752-0633 (cell)
+ \item Coil\'{i}n Minto, NCEAS group member, Email: mintoc@mathstat.dal.ca, Phone: +1 902-494-2146
+ \item Daniel Ricard, Database manager, Email: ricardd@mathstat.dal.ca, Phone: +1 902-494-2146
+\end{itemize}
+
+For further information about the NCEAS working group, please contact:
+\begin{itemize}
+ \item Boris Worm, NCEAS group co-leader, Email: bworm@ dal.ca, Phone: +1 902-494-2178
+\end{itemize}
+
+
+
+% Dr. Ransom A. Myers compiled a worldwide database of stock-recruitment data for marine species. In early 2008, a group of colleagues decided to update his database with new stock assessments.
+
+% This document is meant to support research efforts associated with the National Centre for Ecological Analysis and Synthesis (NCEAS) working group ``Finding Common Ground in Marine Conservation and Management''. The current document contains summary graphs for the different fish stock assessments present in the updated stock-recruitment database under development at Dalhousie University.
+
+\chapter{Stock-recruitment database summary tables}
+
+\section{Number of assessments per species}
+
+%\begin{center}
+\begin{table}[htbp]
+\caption{Number of assessments per species.}
+\begin{scriptsize}\include{NCEAStable1}
+\end{scriptsize}
+\end{table}
+%\end{center}
+
+\newpage
+\section{Number of assessments per stock}
+\include{nceastable2}
+
+\chapter{Summary plots}
+
+\section{Template plots with descriptions}
+For each assessment present in the stock-recruitment database where time-series data is present, a summary page containing four plots is generated. Each page follows a similar layout. The top-left plot shows the temporal trend in spawning stock biomass and/or CPUE and in fishing mortality. The top-right plot shows the stock-recruitment relationship with fitted Ricker and Beverton-Holt models, assuming gamma error structure. The bottom-left plot shows the spawning stock biomass vs. fishing mortality phase diagram. When available, biomass and fishing mortality reference points are also added. Finally, the bottom-left plot shows the temporal exploitation history of the stock using total catch and/or landings. Please refer to Figure~\ref{fig:legend} for plot legends.
+
+\begin{center}
+\begin{figure}\label{fig:legend}
+\includegraphics[width=1.2\textwidth]{../R/report_legend.pdf}
+\caption{Line type specification for summary plots.}
+\end{figure}
+
+\end{center}
+
+
+\include{NCEASallgraphs}
+
+%\chapter*{References}
+%\bibliographystyle{authordate1}
+%\bibliography{/home/ricardd/linux_sync_folder/papers_references/main}
+
+
+\addcontentsline{toc}{Chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } 
+\printindex
+
+\end{document}

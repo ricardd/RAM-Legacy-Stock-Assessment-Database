@@ -1,0 +1,16 @@
+\contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
+\contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
+\contentsline {subsubsection}{NAFO-SC-AMPL3LNO-1955-2007-BAUM}{3}{section*.4}
+\contentsline {subsubsection}{NAFO-SC-AMPL3M-1960-2007-BAUM}{5}{section*.5}
+\contentsline {subsubsection}{NAFO-SC-COD3M-1959-2008-BAUM}{7}{section*.6}
+\contentsline {subsubsection}{NAFO-SC-COD3NO-1953-2007-BAUM}{9}{section*.7}
+\contentsline {subsubsection}{NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM}{11}{section*.8}
+\contentsline {subsubsection}{NAFO-SC-YELL3LNO-1960-2009-BAUM}{13}{section*.9}
+\contentsline {subsubsection}{NEFSC-CODGB-1960-2008-BAUM}{15}{section*.10}
+\contentsline {subsubsection}{NEFSC-CODGOM-1893-2008-BAUM}{17}{section*.11}
+\contentsline {subsubsection}{NEFSC-HAD5Y-1956-2008-BAUM}{19}{section*.12}
+\contentsline {subsubsection}{NEFSC-HADGB-1930-2008-BAUM}{21}{section*.13}
+\contentsline {subsubsection}{NEFSC-SFLOUNMATLC-1940-2007-BAUM}{23}{section*.14}
+\contentsline {subsubsection}{NEFSC-YELLGB-1935-2008-BAUM}{25}{section*.15}
+\contentsline {subsubsection}{NEFSC-YELLSNEMATL-1935-2008-BAUM}{27}{section*.16}
+\contentsline {subsubsection}{LME map}{29}{section*.17}

@@ -1,0 +1,48 @@
+Currently the columnwise "timeseriesview" of the timeseries data
+follows a hierarchy such that if the first metric exists use it, if
+not, use the second and so on. The query is located in:
+
+/home/ricardd/linux_sync_folder/SQL/SQLpg/srDB/projects/recovery/queries/create_user2_timeseries_view.sql
+
+The units are to be detailed in the
+"unitsview". For example the tb (total biomass column) follows the
+hierarchy
+
+
+--~~~~~~~~~~~~~~~~~~~~~ Spawning stock biomass~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SSB-MT
+SSB-1-MT
+SSB-E03
+SSB-E03eggs
+SSB-relative
+--~~~~~~~~~~~~~~~~~~~~~ Recruitment ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R-E03
+R-1-E03
+R-relative
+--~~~~~~~~~~~~~~~~~~~~~ Total biomass~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TB-MT
+TB-1-MT
+TB-relative
+TN-E03
+TN-relative
+
+--~~~~~~~~~~~~~~~~~~~~~ Fishing mortality~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F-1/T
+F-1/yr
+F-1-1/T
+ER-ratio
+ER-none
+EI-ratio
+
+--~~~~~~~~~~~~~~~~~~~~~ Catch per unit effort ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CPUEraw-C/E
+CPUEraw-2-C/E
+--~~~~~~~~~~~~~~~~~~~~~ Catch or landings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TC-MT
+TL-MT
+TC-1-MT
+TL-1-MT
+TC-E03
+TL-E03
+TC-1-E03
+TL-1-E03

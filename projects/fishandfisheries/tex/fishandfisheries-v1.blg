@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: fishandfisheries-v1.aux
+The style file: fishandfisheriesBST.bst
+A level-1 auxiliary file: Tables.aux
+A level-1 auxiliary file: Figures.aux
+A level-1 auxiliary file: Supporting.aux
+Database file #1: ./fishfisheries.bib
+You've used 48 entries,
+            2914 wiz_defined-function locations,
+            923 strings with 14322 characters,
+and the built_in function-call counts, 30712 in all, are:
+= -- 2687
+> -- 1333
+< -- 51
++ -- 639
+- -- 363
+* -- 2267
+:= -- 4570
+add.period$ -- 141
+call.type$ -- 48
+change.case$ -- 313
+chr.to.int$ -- 47
+cite$ -- 48
+duplicate$ -- 2034
+empty$ -- 2195
+format.name$ -- 553
+if$ -- 6138
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 428
+newline$ -- 242
+num.names$ -- 242
+pop$ -- 962
+preamble$ -- 1
+purify$ -- 310
+quote$ -- 0
+skip$ -- 1108
+stack$ -- 0
+substring$ -- 1462
+swap$ -- 1113
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 564
+warning$ -- 0
+while$ -- 212
+width$ -- 0
+write$ -- 637

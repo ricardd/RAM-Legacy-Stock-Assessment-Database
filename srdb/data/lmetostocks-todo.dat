@@ -1,0 +1,69 @@
+BSBASSMATLC	Black sea bass Mid-Atlantic Coast	Southeast U.S. Continental Shelf	Northeast U.S. Continental Shelf				
+RDEEPCRABNWATL	Red deepsea crab Northwestern Atlantic	Northeast U.S. Continental Shelf					
+SHAKEGOMNGB	Silver hake Gulf of Maine / Northern Georges Bank	Northeast U.S. Continental Shelf					
+SHAKESGBMATL	Silver hake Southern Georges Bank / Mid-Atlantic	Northeast U.S. Continental Shelf					
+MACKGOMCHATT	Atlantic mackerel Gulf of Maine / Cape Hatteras	Northeast U.S. Continental Shelf					
+ILLEXNWATLC	Northern shortfin squid Northwestern Atlantic Coast	Northeast U.S. Continental Shelf					
+BLUEFISHATLC	Bluefish Atlantic Coast	Northeast U.S. Continental Shelf	Southeast U.S. Continental Shelf				
+TILEMATLC	Tilefish Mid-Atlantic Coast	Southeast U.S. Continental Shelf	Northeast U.S. Continental Shelf				
+BUTTERGOMCHATT	Atlantic butterfish Gulf of Maine / Cape Hatteras	Northeast U.S. Continental Shelf					
+SCUPNWATLC	Scup Atlantic Coast	Northeast U.S. Continental Shelf	Southeast U.S. Continental Shelf				
+WINFLOUNGB	Winter flounder Georges Bank	Northeast U.S. Continental Shelf					
+HERRNWATLC	Atlantic herring Northwestern Atlantic Coast	Northeast U.S. Continental Shelf					
+RSNAPEGM	Red snapper Eastern Gulf of Mexico	Gulf of Mexico					
+RSNAPWGM	Red snapper Western Gulf of Mexico	Gulf of Mexico					
+BRNROCKSHRIMPSATLC	Brown rock shrimp Southern Atlantic Coast	Southeast U.S. Continental Shelf					
+SABLEFEBSAIGA	Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska	East Bering Sea	Gulf of Alaska				
+PCODBSAI	Pacific cod Bering Sea and Aleutian Islands	East Bering Sea					
+YSOLEBSAI	Yellowfin sole Bering Sea and Aleutian Islands	East Bering Sea					
+NRSOLEBSAI	Northern rock sole Bering Sea and Aleutian Islands	East Bering Sea					
+ARFLOUNDBSAI	Arrowtooth flounder Bering Sea and Aleutian Islands	East Bering Sea					
+ALPLAICBSAI	Alaska plaice Bering Sea and Aleutian Islands	East Bering Sea					
+NROCKBSAI	Northern rockfish Bering Sea and Aleutian Islands	East Bering Sea					
+POPERCHBSAI	Pacific ocean perch Bering Sea and Aleutian Islands	East Bering Sea					
+REYEROCKBSAI	Rougheye rockfish Bering Sea and Aleutian Islands	East Bering Sea					
+ATKABSAI	Atka mackerel Bering Sea and Aleutian Islands	East Bering Sea					
+FLSOLEBSAI	Flathead sole Bering Sea and Aleutian Islands	East Bering Sea					
+WPOLLAI	Walleye pollock Aleutian Islands	East Bering Sea					
+WPOLLEBS	Walleye pollock Eastern Bering Sea	East Bering Sea					
+GHALBSAI	Greenland turbot Bering Sea and Aleutian Islands	East Bering Sea					
+BKINGCRABSMI	Blue king crab Saint Matthews Island						
+BKINGCRABPI	Blue king crab Pribilof Islands	East Bering Sea					
+RKCRABBB	Red king crab Bristol Bay	East Bering Sea					
+SNOWCRABBS	Snow crab Bering Sea	East Bering Sea	West Bering Sea				
+POPERCHGA	Pacific ocean perch Gulf of Alaska	Gulf of Alaska					
+DUSKYROCKGA	Dusky rockfish Gulf of Alaska	Gulf of Alaska					
+DSOLEGA	Dover sole Gulf of Alaska	Gulf of Alaska					
+WPOLLGA	Walleye pollock Gulf of Alaska	Gulf of Alaska					
+BRNSHRIMPGM	Brown shrimp Gulf of Mexico	Gulf of Mexico					
+WSHRIMPGM	White shrimp Gulf of Mexico	Gulf of Mexico					
+PINKSHRIMPGM	Pink shrimp Gulf of Mexico	Gulf of Mexico					
+ROYALRSHRIMPGM	Royal red shrimp Gulf of Mexico	Gulf of Mexico					
+SNOSESHARATL	Atlantic sharpnose shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico				
+BNOSESHARATL	Blacknose shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico				
+BHEADSHARATL	Bonnethead shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico				
+FTOOTHSHARATL	Finetooth shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico				
+SBARSHARATL	Sandbar shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico	Northeast U.S. Continental Shelf			
+BRNSHRIMPSATLC	Brown shrimp Southern Atlantic Coast	Southeast U.S. Continental Shelf					
+WSHRIMPSATLC	White shrimp Southern Atlantic Coast	Southeast U.S. Continental Shelf					
+PINKSHRIMPSATLC	Pink shrimp Southern Atlantic Coast	Southeast U.S. Continental Shelf					
+RPORGYSATLC	Red porgy Southern Atlantic coast	Southeast U.S. Continental Shelf					
+VSNAPSATLC	Vermilion snapper Southern Atlantic coast	Southeast U.S. Continental Shelf					
+SNOWGROUPSATLC	Snowy grouper Southern Atlantic coast	Southeast U.S. Continental Shelf					
+TILESATLC	Tilefish Southern Atlantic coast	Southeast U.S. Continental Shelf					
+GAGSATLC	Gag Southern Atlantic coast	Southeast U.S. Continental Shelf					
+RSNAPSATLC	Red snapper Southern Atlantic coast	Southeast U.S. Continental Shelf					
+GRAMBERSATLC	Greater amberjack Southern Atlantic coast	Southeast U.S. Continental Shelf					
+YFINATL	Yellowfin tuna Atlantic	Atlantic High Seas					
+BTIPSHARATL	Blacktip shark Atlantic	Southeast U.S. Continental Shelf	Northeast U.S. Continental Shelf				
+DUSKYSHARATL	Dusky shark Atlantic	Southeast U.S. Continental Shelf	Gulf of Mexico	Northeast U.S. Continental Shelf			
+BIGEYEATL	Bigeye tuna Atlantic	Atlantic High Seas					
+BIGEYEWPO	Bigeye tuna Western Pacific Ocean	Pacific High Seas					
+CMACKPCOAST	Pacific chub mackerel Pacific Coast	California Current					
+BTIPSHARGM	Blacktip shark Gulf of Mexico	Gulf of Mexico					
+SARDPCOAST	Pacific sardine Pacific Coast	California Current					
+SRAKEROCKBSAI	Shortraker rockfish Bering Sea and Aleutian Islands	East Bering Sea					
+YFINCWPAC	Yellowfin tuna Central Western Pacific	Pacific High Seas					
+YFINEPAC	Yellowfin tuna Eastern Pacific	Pacific High Seas					
+BSBASSSATLC	Black seabass Southern Atlantic coast	Southeast U.S. Continental Shelf					
+BTROHUNT	Freshwater brook trout Hunt Creek Michigan						

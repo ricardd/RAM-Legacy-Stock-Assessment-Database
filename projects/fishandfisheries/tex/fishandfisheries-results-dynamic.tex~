@@ -1,0 +1,130 @@
+\newpage
+\section*{Results}
+\subsection*{Scope of the RAM Legacy database}
+In total, REF:SQL:TOTNUMASSESSMENT recent stock assessments for
+REF:SQL:TOTNUMASSESSFISH marine fish and REF:SQL:TOTNUMASSESSINVERT
+invertebrate populations are included in the RAM Legacy database
+(Version 1.0, 2010).
+
+\subsubsection*{Management bodies and geography}
+The database includes stocks assessed by fisheries management bodies
+in Europe, the United States, Canada, New Zealand, Australia, Russia,
+South Africa and Argentina (Table~\ref{tab:mgmt}). Also included are assessments
+conducted by eight Regional Fisheries Management Organizations
+(RFMOs), in the Northwest Atlantic, Atlantic, Pacific and Indian Ocean
+(Table~\ref{tab:mgmt}). Assessments from the United States comprise by far the most
+stocks of any country or region (n=REF:SQL:TOTNUMASSESSNMFS);
+assessments from the European Union's management body ICES comprise
+the the second greatest number of stocks (n=REF:SQL:TOTNUMASSESSICES).
+Whereas nations are responsible for managing all populations within
+their EEZs, RFMOs typically focus on a certain type of species (e.g.
+halibut, tunas) or fisheries (e.g. pelagic high seas) within a given
+area and hence assess a smaller number of stocks.
+
+Most assessments come from North America, Europe, Australia, New
+Zealand and the High Seas, while few are entered from regions such as
+Southeast Asia, South America, and the Indian Ocean (outside
+Australian waters) (Figure~\ref{fig:lmes}). Assessments were available for REF:SQL:TOTNUMLMESPRIMARY LMEs, with the greatest number of
+assessed stocks coming from REF:SQL:NUMASSESSLME:1,
+REF:SQL:NUMASSESSLME:2, REF:SQL:NUMASSESSLME:3,
+REF:SQL:NUMASSESSLME:4, REF:SQL:NUMASSESSLME:5, REF:SQL:NUMASSESSLME:6
+and REF:SQL:NUMASSESSLME:7 (Figure~\ref{fig:lmes}).
+
+%Northeast U.S. Continental Shelf (n=88), the California Current (n=35, the East Bering Sea (n=32), the New Zealand Shelf (n=29), the Gulf of Alaska (n=28), the Celtic-Biscay Shelf (n=24) and the Newfoundland-Labrador Shelf (n=21)
+
+\subsubsection*{Taxonomy}
+
+REF:SQL:TOTNUMASSESSBYSPECIES species from
+REF:SQL:TOTNUMASSESSBYFAMILY families and REF:SQL:TOTNUMASSESSBYORDERS
+orders are included in the database (Figure~\ref{fig:taxo:srdb}). Five
+taxonomic orders (REF:SQL:NUMASSESSORDERS:1,
+REF:SQL:NUMASSESSORDERS:2, REF:SQL:NUMASSESSORDERS:3,
+REF:SQL:NUMASSESSORDERS:4 and REF:SQL:NUMASSESSORDERS:5) account for
+80\% of available stock assessments.  Of these, Perciformes, the
+most speciose Order of marine fishes are in fact underrepresented in
+the database (46.04\% of all marine fish species vs.  19\%
+of all marine fish assessments), while it is the other four orders
+that are taxonomically overrepresented: Clupeiformes (2.1\% of marine
+fishes vs.  11\% in the database), Gadiformes (3.3\% of marine fishes
+vs.  21\% in the database), Pleuronectiformes (4.5\% of marine fishes
+vs.  17\% in the database), Scorpaeniformes (8.5\% of marine fishes
+vs. 12\% in the database) (Figure~\ref{fig:taxo:threepanel}).
+
+Assessed marine fish stocks in the RAM Legacy database comprise a
+relatively small proportion of harvested taxa (REF:SQL:SRDBPERCENTSPPSAUP\% of fish species
+from the SAUP database) and an even smaller proportion of marine fish
+biodiversity (REF:SQL:SRDBPERCENTSPPFISHBASE\% of fish species in FishBase;
+Figure~\ref{fig:taxo:threepanel}). In turn, catches from the SAUP
+database, which come from REF:SQL:SAUPNUMSPP species and
+REF:SQL:SAUPNUMORDERS orders (Figure~\ref{fig:taxo:threepanel}),
+represent only REF:SQL:SAUPPERCENTSPPFISHBASE\% of the REF:SQL:NUMSPPFISHBASE species and REF:SQL:SAUPPERCENTORDERSFISHBASE\% of
+the REF:SQL:NUMORDERSFISHBASE different orders present in FishBase
+(Figure~\ref{fig:taxo:threepanel}).
+
+%The paucity of marine invertebrate stock assessments means these
+%species are more poorly taxonomically represented in the database than
+%fishes (Figure 4XX). Only XX\% .....
+
+\subsubsection*{Global Fisheries}
+
+Table~\ref{tab:worldfisheries}
+
+\subsubsection*{Timespan }
+
+Of the REF:SQL:TOTNUMASSESSMENT stock assessments, time series data of
+catch/landings were available for REF:SQL:NUMCATCHSERIES stocks (REF:SQL:PERCENTCATCHSERIES\%),
+of SSB for REF:SQL:NUMSSBSERIES stocks (REF:SQL:PERCENTSSBSERIES\%), and of recruitment for
+REF:SQL:NUMRSERIES stocks (REF:SQL:PERCENTRSERIES\%).  The median lengths of
+catch/landings, SSB, and recruitment timeseries were
+REF:SQL:MEDCATCHLEN, REF:SQL:MEDSSBLEN, and REF:SQL:MEDRLEN years,
+respectively.  The time period covered by 90\%
+of assessments is: catch/landings (REF:SQL:CATCHTIMESPAN90), SSB (REF:SQL:SSBTIMESPAN90), recruitment
+(REF:SQL:RTIMESPAN90), while that covered by 50\% of assessments is: catch/landings
+(REF:SQL:CATCHTIMESPAN50), SSB (REF:SQL:SSBTIMESPAN50), recruitment (REF:SQL:RTIMESPAN50) (Figure~\ref{fig:orca}).
+
+\subsubsection*{Stock assessment methodologies and BRPs}
+In addition to the REF:SQL:TOTNUMASSESSMENT assessments in the
+database, indices of relative abundance from scientific surveys are
+available for an additional REF:SQL:TOTNUMWITHOUTMODEL stocks. The
+three most common assessment methods were REF:SQL:NUMASSESSMETHOD:1,
+REF:SQL:NUMASSESSMETHOD:2 and REF:SQL:NUMASSESSMETHOD:3..  .....Need
+to add a sentence here about the regional differences.... .
+
+
+The total number and percentage of assessments that reported biomass-
+or exploitation- based reference points of any sort was
+REF:SQL:NUMASSESSBIOREF (REF:SQL:PERCENTASSESSBIOREF\%) and
+REF:SQL:NUMASSESSEXPLOITREF (REF:SQL:PERCENTASSESSEXPLOITREF\%),
+respectively. From these assessments,
+REF:SQL:NUMASSESSBIOANDEXPLOITREF report both a biomass-based and an
+exploitation-based BRP and appear as solid dots on
+Figures~\ref{fig:friedegg} and ~\ref{fig:friedeggmgmt}. Schaefer-derived BRPs
+add an additional REF:SQL:NUMADDITIONALASSESSSCHAEFER assessments, for
+a total of REF:SQL:NUMASSESSFRIEDEGG assessments used to generate
+Figure~\ref{fig:friedegg}. Overall,
+REF:SQL:PERCENTASSESSMENTSBELOWBMSY\% of assessed stocks are below
+their biomass-related MSY BRP and
+REF:SQL:PERCENTASSESSMENTSABOVEFMSY\% are above their
+exploitation-related MSY BRP. Different management bodies have
+different overall status of current biomass to BRPs
+(Figure~\ref{fig:friedeggmgmt}).
+%Status of Assessed Stocks 
+%Need to know:
+%\% of stocks with biomass below Bmsy
+%\% of stocks with
+%overall and by management body.
+ 
+\subsubsection*{Ecology}
+Assessed species span a range of ecological traits. In terms of their
+trophic level, we see XXX (Figure~\ref{fig:TL}). The total number and
+percentage of assessments that reported any life-history information
+(growth, maturity, fecundity) was REF:SQL:NUMASSESSLIFE.
+
+
+%Assessed species in the data span a range of ecological
+%traits..... [need trophic level plot here; Figure 6). -assessemnts by
+%trophic level: can we make a barplot showing number of stocks by
+%trophic level for a) overexploited, and b) not overexploited species
+%(i.e. could be on same plot but different hatching for the a vs. b.
+
+

@@ -1,0 +1,30 @@
+\contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
+\contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
+\contentsline {subsubsection}{AFWG-GHALNEAR-1959-2007-JENNINGS}{3}{section*.4}
+\contentsline {subsubsection}{HAWG-HERRNIRS-1960-2006-JENNINGS}{5}{section*.5}
+\contentsline {subsubsection}{WGBFAS-CODBA2224-1969-2007-JENNINGS}{7}{section*.6}
+\contentsline {subsubsection}{WGBFAS-CODBA2532-1964-2007-JENNINGS}{9}{section*.7}
+\contentsline {subsubsection}{WGBFAS-HERR2532-1973-2006-JENNINGS}{11}{section*.8}
+\contentsline {subsubsection}{WGBFAS-HERR30-1972-2007-JENNINGS}{13}{section*.9}
+\contentsline {subsubsection}{WGBFAS-HERR31-1979-2006-JENNINGS}{15}{section*.10}
+\contentsline {subsubsection}{WGBFAS-HERRIsum-1983-2007-JENNINGS}{17}{section*.11}
+\contentsline {subsubsection}{WGBFAS-HERRRIGA-1976-2007-JENNINGS}{19}{section*.12}
+\contentsline {subsubsection}{WGBFAS-SOLEIIIa-1982-2007-JENNINGS}{21}{section*.13}
+\contentsline {subsubsection}{WGBFAS-SPRAT22-32-1973-2007-JENNINGS}{23}{section*.14}
+\contentsline {subsubsection}{WGHMM-FMEG8c9a-1986-2006-JENNINGS}{25}{section*.15}
+\contentsline {subsubsection}{WGHMM-HAKENRTN-1977-2007-JENNINGS}{27}{section*.16}
+\contentsline {subsubsection}{WGHMM-HAKESOTH-1982-2007-JENNINGS}{29}{section*.17}
+\contentsline {subsubsection}{WGHMM-MEG8c9a-1985-2007-JENNINGS}{31}{section*.18}
+\contentsline {subsubsection}{WGHMM-SOLEVIII-1982-2006-JENNINGS}{33}{section*.19}
+\contentsline {subsubsection}{WGMHSA-ANCHOBAYB-1986-2007-JENNINGS}{35}{section*.20}
+\contentsline {subsubsection}{WGMHSA-MACKNEICES-1972-2007-JENNINGS}{37}{section*.21}
+\contentsline {subsubsection}{WGMHSA-SARDPVIIIc-IXa-1978-2007-JENNINGS}{39}{section*.22}
+\contentsline {subsubsection}{WGNPBW-BWHITNEA-1980-2007-JENNINGS}{41}{section*.23}
+\contentsline {subsubsection}{WGNSSK-HADROCK-1990-2007-JENNINGS}{43}{section*.24}
+\contentsline {subsubsection}{WGSSDS-HADVIIb-k-1993-2006-JENNINGS}{45}{section*.25}
+\contentsline {subsubsection}{WGSSDS-PLAICCELT-1976-2006-JENNINGS}{47}{section*.26}
+\contentsline {subsubsection}{WGSSDS-PLAICECHW-1975-2006-JENNINGS}{49}{section*.27}
+\contentsline {subsubsection}{WGSSDS-SOLECS-1970-2006-JENNINGS}{51}{section*.28}
+\contentsline {subsubsection}{WGSSDS-SOLEVIIe-1968-2006-JENNINGS}{53}{section*.29}
+\contentsline {subsubsection}{WGSSDS-WHITVIIek-1982-2007-JENNINGS}{55}{section*.30}
+\contentsline {subsubsection}{LME map}{57}{section*.31}

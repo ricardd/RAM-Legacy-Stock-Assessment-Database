@@ -1,0 +1,510 @@
+             List of relations
+ Schema |      Name      | Type  |  Owner  
+--------+----------------+-------+---------
+ srdb   | area           | table | ricardd
+ srdb   | assessment     | table | ricardd
+ srdb   | assessmethod   | table | ricardd
+ srdb   | assessor       | table | ricardd
+ srdb   | biometrics     | table | ricardd
+ srdb   | bioparams      | table | ricardd
+ srdb   | management     | table | ricardd
+ srdb   | nmfsbiometrics | table | ricardd
+ srdb   | nmfsstock      | table | ricardd
+ srdb   | nmfstsmetrics  | table | ricardd
+ srdb   | ramunits       | table | ricardd
+ srdb   | stock          | table | ricardd
+ srdb   | taxonomy       | table | ricardd
+ srdb   | timeseries     | table | ricardd
+ srdb   | tsmetrics      | table | ricardd
+(15 rows)
+
+            Table "srdb.bioparams"
+  Column  |          Type          | Modifiers 
+----------+------------------------+-----------
+ assessid | character varying(200) | 
+ bioid    | character varying(40)  | 
+ biovalue | character varying(100) | 
+ bioyear  | character varying(10)  | 
+Foreign-key constraints:
+    "bioparams_bioid_fkey" FOREIGN KEY (bioid) REFERENCES srdb.biometrics(biounique)
+
+select distinct bioid from  srdb.bioparams;
+          bioid          
+-------------------------
+ A50max-0.5yr
+ A50max-yr
+ A50min-0.5yr
+ A50min-yr
+ A50-yr
+ BH-h-dimensionless
+ Blim-MT
+ Bmsy-MT
+ Bpa-MT
+ F0.1-1/yr
+ F40%-1/T
+ F-AGE-yr-yr
+ F-CALC-0-1
+ Fecundity-N
+ Fecundity-rel-eggs/g
+ Fext-1/yr
+ Flim-1/T
+ Flim-1/yr
+ Fmax-1/yr
+ Fmsy-1/yr
+ Fpa-1/yr
+ Fref-1/T
+ F-SEX-sex
+ Habitat-Habitat
+ L50-cm
+ L50max-cm
+ L50min-cm
+ LEN-REF-doctype
+ LEN-SEX-sex
+ Linf-cm
+ LW-a-dimensionless
+ LW-b-dimensionless
+ M-1/month
+ M-1/T
+ M-1/yr
+ MAT-CALC-0-1
+ MAT-MODEL-option
+ MAT-REF-doctype
+ MAT-SEX-sex
+ MAT-SLOPE-dimensionless
+ MAX-AGE-yr
+ MAX-LEN-cm
+ MAX-WGT-g
+ MORATOR-yr-yr
+ NATMORT-1/yr
+ REC-AGE-yr
+ REC-ESTIMATED-yr-yr
+ SSB-AGE-yr
+ SSBmsy-MT
+ SSB-SEX-sex
+ TB-AGE-yr
+ TB-TYPE-0-1
+ Trophiclevel-value
+ VB-k-cm/T
+ VB-t0-yr
+ Z-AGE-yr-yr
+(56 rows)
+
+select distinct bioid from  srdb.bioparams where bioid like '%Bmsy%';
+   bioid   
+-----------
+ Bmsy-MT
+ SSBmsy-MT
+(2 rows)
+
+select assessid, bioid, biovalue from  srdb.bioparams where bioid like '%Bmsy%';
+              assessid               |   bioid   | biovalue  
+-------------------------------------+-----------+-----------
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    | Bmsy-MT   | 5662
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE | Bmsy-MT   | 6731
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE | Bmsy-MT   | 6731
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     | Bmsy-MT   | 369.56
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | Bmsy-MT   | 5478
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  | Bmsy-MT   | SEE NOTES
+ NEFSC-COD5Z-1960-2007-BAUM          | SSBmsy-MT | 91806
+ IATTC-YFINEPAC-1975-2007-JENSEN     | Bmsy-MT   | 417813.00
+(10 rows)
+
+select t.assessid, min(t.tsvalue) from srdb.timeseries t, srdb.assessment a where tsid like 'SSB%' and a.assessid=t.assessid group by t.assessid;
+                 assessid                  |   min    
+-------------------------------------------+----------
+ NMFS-SPANMACKSATLC-2003-FOGARTY           |  6282640
+ CSIRO-PINKLINGSESSF-YEAR-2007-Fulton      |  1960.12
+ NMFS-WINFLOUNGOM-2005-FOGARTY             |      529
+ NEFSC-COD5Z-1960-2007-BAUM                |    10627
+ NMFS-WINFLOUNSNEMATL-2005-FOGARTY         |     2651
+ NIWA-HOKIENZ-1972-2007-FRANCIS            |   186148
+ AFWG-HADNEAR-1947-2006-MINTO              |    49733
+ NMFS-WITFLOUNNWATLC-2005-FOGARTY          |     3899
+ DFO-PAC-HERRWCVANI-YEAR-2007-COLLIE       |  2144.14
+ CSIRO-MORWONGSESSF-YEAR-2007-Fulton       |   148.29
+ AFWG-CODCOASTNOR-1982-2006-MINTO          |    51445
+ WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO     |    97609
+ NMFS-AMPLGOMGB-2005-FOGARTY               |     7451
+ DFO-PAC-HERRPRD-YEAR-2007-COLLIE          |  1727.74
+ NWWG-CODICE-1952-2006-MINTO               |      174
+ WGNSDS-WHITVIa-1984-2007-MINTO            |    0.152
+ NMFS-YELLGB-2005-FOGARTY                  |     2652
+ CSIRO-SWHITSESSF-YEAR-2007-Fulton         |    98.14
+ NMFS-YELLSNEMATL-2005-FOGARTY             |      553
+ NMFS-HADGB-2005-FOGARTY                   |    14629
+ DFO-HAD5Zejm-1969-2003-PREFONTAINE        |     8458
+ NAFO-SC-AMPL3M-1960-2005-PREFONTAINE      |      1.6
+ AFWG-CAPENOR-1964-2006-MINTO              |       22
+ WGNSSK-PLAICNS-1956-2006-MINTO            |   180384
+ DFO-SG-COD4T-1950-2007-HUTCHINGS          | 48219.39
+ HAWG-HERRNS-1960-2007-MINTO               |    47975
+ NAFO-SC-AMPL3M-YEAR-2005-BAUM             |     1526
+ DFO-HERR4VWX-1965-2006-PREFONTAINE        |    48646
+ WGNSSK-SOLENS-1956-2006-MINTO             |    20945
+ WGBFAS-CODKAT-1970-2006-MINTO             |     2966
+ DFO-PAC-HERRQCI-YEAR-2007-COLLIE          |  1098.02
+ NIWA-HOKIWNZ-1972-2007-FRANCIS            |   139515
+ WGNSSK-SEELNS-1983-2007-MINTO             |   169965
+ NMFS-YELLCCODGOM-2005-FOGARTY             |      699
+ AFWG-GHALNEAR-1959-2006-MINTO             |    14516
+ AFWG-GOLDREDNEAR-1986-2006-MINTO          |    32572
+ NAFO-SC-COD3NO-YEAR-2007-BAUM             |     4097
+ DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE    |    32559
+ DFO-HAD4X5Y-1960-2003-PREFONTAINE         |    19506
+ DFO-PAC-HERRCC-YEAR-2007-COLLIE           |     4728
+ NMFS-SNOSESHARATL-2006-FOGARTY            |      669
+ AFWG-POLLNEAR-1957-2006-MINTO             |    93950
+ NMFS-KMACKGM-2004-FOGARTY                 |     4.83
+ WGNSSK-SOLEVIId-1981-2006-MINTO           |     7876
+ HAWG-HERRVIa-1957-2006-MINTO              |    50015
+ AFSC-PCODGA-1977-2007-BAUM                |   106210
+ NWWG-CAPEICE-1977-2007-MINTO              |      115
+ NWWG-POLLFAPL-1958-2006-MINTO             |    59693
+ NMFS-KMACKSATLC-2004-FOGARTY              |     2.98
+ NMFS-BTIPSHARSATL-2006-FOGARTY            |   9663.3
+ NMFS-BHEADSHARATL-2006-FOGARTY            |      868
+ HAWG-HERRNIRS-1960-2006-MINTO             |     1866
+ NWWG-HADICE-1977-2007-MINTO               |    43116
+ CSIRO-TIGERFLATSESSF-YEAR-2006-Fulton     |   183.91
+ NWWG-HERRIsum-1983-2007-MINTO             |      276
+ NAFO-SC-COD3NO-1953-2007-PREFONTAINE      |     4097
+ DFO-COD5Zjm-1978-2003-PREFONTAINE         |     8667
+ DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE    |    34671
+ DFO-PAC-HERRSOG-YEAR-2007-COLLIE          |  8039.02
+ WGNSSK-NPOUTNS-1983-2007-MINTO            |    55568
+ AFWG-CODNEAR-1943-2006-MINTO              |   102315
+ WGNSDS-CODIS-1968-2006-MINTO              |     2025
+ WGNSDS-SOLEIS-1968-2006-MINTO             |     1750
+ IATTC-YFINEPAC-1975-2007-JENSEN           |     0.27
+ WGNSDS-HADVIa-1977-2006-MINTO             |    21880
+ CSIRO-PINKLINGGABSESSF-YEAR-2007-Fulton   |  3660.27
+ HAWG-HERR2224IIIa-1991-2006-MINTO         |   111615
+ NMFS-CODGOM-2005-FOGARTY                  |    10798
+ WGNSSK-HADNS-IIIa-1963-2006-MINTO         |    61772
+ NMFS-BUTTERGOMCHATT-2004-FOGARTY          |     7.84
+ WGNSSK-PLAIC7d-1979-2006-MINTO            |     4473
+ HAWG-HERRVIaVIIbc-1969-2000-MINTO         |    39994
+ NMFS-SPANMACKGM-2003-FOGARTY              |  7520340
+ CSIRO-GEMFISHSESSF-YEAR-2007-Fulton       |   263.46
+ NMFS-BNOSESHARATL-2006-FOGARTY            |      200
+ NMFS-SBARSHARATL-2006-FOGARTY             |   428.34
+ WGNSSK-CODNS-1962-2007-MINTO              |    28481
+ WGNSSK-PLAICIIIa-1976-2005-MINTO          |    11423
+ NAFO-SC-AMPL3LNO-YEAR-2007-BAUM           |     6526
+ NWWG-HADFAPL-1955-2007-MINTO              |    22125
+ NMFS-SFLOUNMATLC-2006-FOGARTY             |     7025
+ NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE |     2129
+ NMFS-CODGB-2005-FOGARTY                   |    17340
+ DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE |     6804
+ NWWG-CODFAPL-1959-2006-MINTO              |    17878
+ WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO   |    96967
+ WGNSDS-PLAICIS-1962-2006-MINTO            |     3003
+ WGNSDS-HADIS-1991-2006-MINTO              |    0.005
+ CSIRO-SILVERFISHSESSF-YEAR-2006-Fulton    |  7678.11
+ DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE     |     7524
+ WGNSDS-CODVIa-1977-2006-MINTO             |   3.5306
+(91 rows)
+
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'Bmsy%') res where tsid like 'TB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue;
+              assessid               |   min    |  bioid  | biovalue  
+-------------------------------------+----------+---------+-----------
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT | 8861
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |    91734 | Bmsy-MT | SEE NOTES
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT | 6731
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | 837.8442 | Bmsy-MT | 5478
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT | 5662
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT | 417813.00
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |  536.293 | Bmsy-MT | 369.56
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT | 7584
+(8 rows)
+
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue
+union
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'Bmsy%') res where tsid like 'TB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue;
+              assessid               |   min    |   bioid   | biovalue  
+-------------------------------------+----------+-----------+-----------
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |    91734 | Bmsy-MT   | SEE NOTES
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT   | 6731
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT   | 417813.00
+ NEFSC-COD5Z-1960-2007-BAUM          |    10627 | SSBmsy-MT | 91806
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT   | 5662
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |  536.293 | Bmsy-MT   | 369.56
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | 837.8442 | Bmsy-MT   | 5478
+(9 rows)
+
+(select distinct a.assessid from srdb.assessment a, srdb.timeseries ts where a.assessid not in (select distinct t.assessid from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid) and a.assessid = ts.assessid);
+                 assessid                  
+-------------------------------------------
+ AFSC-PCODGA-1977-2007-BAUM
+ AFWG-CAPENOR-1964-2006-MINTO
+ AFWG-CODCOASTNOR-1982-2006-MINTO
+ AFWG-CODNEAR-1943-2006-MINTO
+ AFWG-GHALNEAR-1959-2006-MINTO
+ AFWG-GOLDREDNEAR-1986-2006-MINTO
+ AFWG-HADNEAR-1947-2006-MINTO
+ AFWG-POLLNEAR-1957-2006-MINTO
+ AFWG-REDDEEPI_II-1987-2007-MINTO
+ CSIRO-GEMFISHSESSF-YEAR-2007-Fulton
+ CSIRO-MORWONGSESSF-YEAR-2007-Fulton
+ CSIRO-PINKLINGGABSESSF-YEAR-2007-Fulton
+ CSIRO-PINKLINGSESSF-YEAR-2007-Fulton
+ CSIRO-SILVERFISHSESSF-YEAR-2006-Fulton
+ CSIRO-SWHITSESSF-YEAR-2007-Fulton
+ CSIRO-TIGERFLATSESSF-YEAR-2006-Fulton
+ DFO-COD5Zjm-1978-2003-PREFONTAINE
+ DFO-HAD4X5Y-1960-2003-PREFONTAINE
+ DFO-HAD5Zejm-1969-2003-PREFONTAINE
+ DFO-HERR4VWX-1965-2006-PREFONTAINE
+ DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE
+ DFO-PAC-HERRCC-YEAR-2007-COLLIE
+ DFO-PAC-HERRPRD-YEAR-2007-COLLIE
+ DFO-PAC-HERRQCI-YEAR-2007-COLLIE
+ DFO-PAC-HERRSOG-YEAR-2007-COLLIE
+ DFO-PAC-HERRWCVANI-YEAR-2007-COLLIE
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE
+ DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE
+ DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE
+ DFO-QUE-HERR4RSP-1965-2004-PREFONTAINE
+ DFO-SG-COD4T-1950-2007-HUTCHINGS
+ HAWG-HERR2224IIIa-1991-2006-MINTO
+ HAWG-HERRNIRS-1960-2006-MINTO
+ HAWG-HERRNS-1960-2007-MINTO
+ HAWG-HERRVIa-1957-2006-MINTO
+ HAWG-HERRVIaVIIbc-1969-2000-MINTO
+ HAWG-SPRATNS-1995-2007-MINTO
+ IATTC-YFINEPAC-1975-2007-JENSEN
+ NAFO-SC-AMPL3LNO-YEAR-2007-BAUM
+ NAFO-SC-AMPL3M-1960-2005-PREFONTAINE
+ NAFO-SC-AMPL3M-YEAR-2005-BAUM
+ NAFO-SC-COD3NO-1953-2007-PREFONTAINE
+ NAFO-SC-COD3NO-YEAR-2007-BAUM
+ NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE
+ NIWA-HOKIENZ-1972-2007-FRANCIS
+ NIWA-HOKIWNZ-1972-2007-FRANCIS
+ NMFS-ACADREDGOMGB-2005-FOGARTY
+ NMFS-ALBANPAC-2006-FOGARTY
+ NMFS-AMPLGOMGB-2005-FOGARTY
+ NMFS-ARFLOUNDGA-2007-FOGARTY
+ NMFS-ARFLOUNDPCOAST-2007-FOGARTY
+ NMFS-BHEADSHARATL-2006-FOGARTY
+ NMFS-BKINGCRABPI-2007-FOGARTY
+ NMFS-BKINGCRABSMI-2007-FOGARTY
+ NMFS-BLACKROCKNPCOAST-2007-FOGARTY
+ NMFS-BLACKROCKSPCOAST-2007-FOGARTY
+ NMFS-BLUEFISHATLC-2006-FOGARTY
+ NMFS-BLUEROCKCAL-2007-FOGARTY
+ NMFS-BNOSESHARATL-2006-FOGARTY
+ NMFS-BOCACCSPCOAST-2007-FOGARTY
+ NMFS-BTIPSHARATL-2002-FOGARTY
+ NMFS-BTIPSHARSATL-2006-FOGARTY
+ NMFS-BUTTERGOMCHATT-2004-FOGARTY
+ NMFS-CHILISPCOAST-2007-FOGARTY
+ NMFS-CODGB-2005-FOGARTY
+ NMFS-CODGOM-2005-FOGARTY
+ NMFS-COWCODSCAL-2007-FOGARTY
+ NMFS-CROCKPCOAST-2007-FOGARTY
+ NMFS-DKROCKPCOAST-2007-FOGARTY
+ NMFS-DSOLEGA-2007-FOGARTY
+ NMFS-DUSKYROCKGA-2007-FOGARTY
+ NMFS-ESOLEPCOAST-2007-FOGARTY
+ NMFS-FLSOLEGA-2007-FOGARTY
+ NMFS-FTOOTHSHARATL-2006-FOGARTY
+ NMFS-GTRIGGM-2006-FOGARTY
+ NMFS-HADGB-2005-FOGARTY
+ NMFS-HERRNWATLC-2006-FOGARTY
+ NMFS-KMACKGM-2004-FOGARTY
+ NMFS-KMACKSATLC-2004-FOGARTY
+ NMFS-LNOSESKAPCOAST-2007-FOGARTY
+ NMFS-MACKGOMCHATT-2006-FOGARTY
+ NMFS-MONKGOMNGB-2007-FOGARTY
+ NMFS-MONKSGBMATL-2007-FOGARTY
+ NMFS-NROCKGA-2007-FOGARTY
+ NMFS-NRSOLEEBSAI-2007-FOGARTY
+ NMFS-PCODGA-2006-FOGARTY
+ NMFS-PHAKEPCOAST-2006-FOGARTY
+ NMFS-PHAKEPCOAST-2007-FOGARTY
+ NMFS-POPERCHPCOAST-2007-FOGARTY
+ NMFS-QUAHATLC-2006-FOGARTY
+ NMFS-REXSOLEGA-2007-FOGARTY
+ NMFS-REYEROCKGA-2007-FOGARTY
+ NMFS-RSNAPEGM-2006-FOGARTY
+ NMFS-RSNAPWGM-2006-FOGARTY
+ NMFS-SABLEFPCOAST-2007-FOGARTY
+ NMFS-SBARSHARATL-2002-FOGARTY
+ NMFS-SBARSHARATL-2006-FOGARTY
+ NMFS-SCALLNWATLC-2007-FOGARTY
+ NMFS-SDOGATLC-2006-FOGARTY
+ NMFS-SFLOUNMATLC-2006-FOGARTY
+ NMFS-SNOSESHARATL-2006-FOGARTY
+ NMFS-SNOWCRABBS-2007-FOGARTY
+ NMFS-SPANMACKGM-2003-FOGARTY
+ NMFS-SPANMACKSATLC-2003-FOGARTY
+ NMFS-STRIPEDBASSGOMCHATT-2008-FOGARTY
+ NMFS-SURFMATLC-2006-FOGARTY
+ NMFS-VSNAPGM-2006-FOGARTY
+ NMFS-WINFLOUNGOM-2005-FOGARTY
+ NMFS-WINFLOUNSNEMATL-2005-FOGARTY
+ NMFS-WITFLOUNNWATLC-2005-FOGARTY
+ NMFS-WPOLLGA-2007-FOGARTY
+ NMFS-WROCKPCOAST-2007-FOGARTY
+ NMFS-YELLCCODGOM-2005-FOGARTY
+ NMFS-YELLGB-2005-FOGARTY
+ NMFS-YELLSNEMATL-2005-FOGARTY
+ NMFS-YEYEROCKPCOAST-2006-FOGARTY
+ NMFS-YEYEROCKPCOAST-2007-FOGARTY
+ NWWG-CAPEICE-1977-2007-MINTO
+ NWWG-CODFAPL-1959-2006-MINTO
+ NWWG-CODICE-1952-2006-MINTO
+ NWWG-HADFAPL-1955-2007-MINTO
+ NWWG-HADICE-1977-2007-MINTO
+ NWWG-HERRIsum-1983-2007-MINTO
+ NWWG-POLLFAPL-1958-2006-MINTO
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE
+ WGBFAS-CODKAT-1970-2006-MINTO
+ WGNSDS-CODIS-1968-2006-MINTO
+ WGNSDS-CODVIa-1977-2006-MINTO
+ WGNSDS-HADIS-1991-2006-MINTO
+ WGNSDS-HADVIa-1977-2006-MINTO
+ WGNSDS-PLAICIS-1962-2006-MINTO
+ WGNSDS-SOLEIS-1968-2006-MINTO
+ WGNSDS-WHITVIa-1984-2007-MINTO
+ WGNSSK-CODNS-1962-2007-MINTO
+ WGNSSK-HADNS-IIIa-1963-2006-MINTO
+ WGNSSK-NPOUTNS-1983-2007-MINTO
+ WGNSSK-PLAIC7d-1979-2006-MINTO
+ WGNSSK-PLAICIIIa-1976-2005-MINTO
+ WGNSSK-PLAICNS-1956-2006-MINTO
+ WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO
+ WGNSSK-SEELNS-1983-2007-MINTO
+ WGNSSK-SOLENS-1956-2006-MINTO
+ WGNSSK-SOLEVIId-1981-2006-MINTO
+ WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO
+(147 rows)
+
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue;
+          assessid          |  min  |   bioid   | biovalue 
+----------------------------+-------+-----------+----------
+ NEFSC-COD5Z-1960-2007-BAUM | 10627 | SSBmsy-MT | 91806
+(1 row)
+
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'Bmsy%') res where tsid like 'TB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue;
+              assessid               |   min    |  bioid  | biovalue  
+-------------------------------------+----------+---------+-----------
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT | 8861
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |    91734 | Bmsy-MT | SEE NOTES
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT | 6731
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | 837.8442 | Bmsy-MT | 5478
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT | 5662
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT | 417813.00
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |  536.293 | Bmsy-MT | 369.56
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT | 7584
+(8 rows)
+
+select t.assessid, min(t.tsvalue) as minstock, res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue
+union
+select t.assessid, min(t.tsvalue), res.bioid, res.biovalue from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'Bmsy%') res,
+(select distinct a.assessid from srdb.assessment a, srdb.timeseries ts where a.assessid not in (select distinct t.assessid from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid) and a.assessid = ts.assessid) tb
+where tsid like 'TB%' and t.assessid=tb.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, res.biovalue;
+              assessid               | minstock |   bioid   | biovalue  
+-------------------------------------+----------+-----------+-----------
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |    91734 | Bmsy-MT   | SEE NOTES
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT   | 6731
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT   | 417813.00
+ NEFSC-COD5Z-1960-2007-BAUM          |    10627 | SSBmsy-MT | 91806
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT   | 5662
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |  536.293 | Bmsy-MT   | 369.56
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | 837.8442 | Bmsy-MT   | 5478
+(9 rows)
+
+create or replace view refs as (select t.assessid, min(t.tsvalue) as minstock, res.bioid, cast(cast(res.biovalue as float) as float) from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, cast(res.biovalue as float)
+union
+select t.assessid, min(t.tsvalue), res.bioid, cast(res.biovalue as float) from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'Bmsy%') res,
+(select distinct a.assessid from srdb.assessment a, srdb.timeseries ts where a.assessid not in (select distinct t.assessid from srdb.timeseries t, srdb.assessment a, (select assessid, bioid, biovalue from  srdb.bioparams where bioid like 'SSBmsy%') res where tsid like 'SSB%' and a.assessid=t.assessid and t.assessid=res.assessid) and a.assessid = ts.assessid) tb
+where tsid like 'TB%' and t.assessid=tb.assessid and t.assessid=res.assessid group by t.assessid, res.bioid, cast(res.biovalue as float));
+select * from refs where minstock < biovalue;
+              assessid               | minstock |   bioid   | biovalue  
+-------------------------------------+----------+-----------+-----------
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |    91734 | Bmsy-MT   | SEE NOTES
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT   | 6731
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT   | 417813.00
+ NEFSC-COD5Z-1960-2007-BAUM          |    10627 | SSBmsy-MT | 91806
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT   | 5662
+(7 rows)
+
+select * from refs where minstock < biovalue and biovalue !='SEE NOTES';
+              assessid               | minstock |   bioid   | biovalue  
+-------------------------------------+----------+-----------+-----------
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT   | 6731
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT   | 417813.00
+ NEFSC-COD5Z-1960-2007-BAUM          |    10627 | SSBmsy-MT | 91806
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT   | 5662
+(6 rows)
+
+select refs.assessid,
+(CASE WHEN minstock < biovalue THEN 1 ELSE 0 END) as collapsed
+from refs;
+              assessid               | collapsed 
+-------------------------------------+-----------
+ DFO-HERR4VWX-1965-2006-PREFONTAINE  |         1
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |         1
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |         1
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |         1
+ IATTC-YFINEPAC-1975-2007-JENSEN     |         1
+ NEFSC-COD5Z-1960-2007-BAUM          |         1
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |         1
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |         0
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  |         0
+(9 rows)
+
+select * from refs where biovalue !='SEE NOTES' and biovalue !='417,813';
+              assessid               | minstock |   bioid   | biovalue  
+-------------------------------------+----------+-----------+-----------
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 7584
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |     3695 | Bmsy-MT   | 8861
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |     1827 | Bmsy-MT   | 6731
+ IATTC-YFINEPAC-1975-2007-JENSEN     |   239493 | Bmsy-MT   | 417813.00
+ NEFSC-COD5Z-1960-2007-BAUM          |    10627 | SSBmsy-MT | 91806
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |  330.892 | Bmsy-MT   | 5662
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |  536.293 | Bmsy-MT   | 369.56
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  | 837.8442 | Bmsy-MT   | 5478
+(8 rows)
+
+select refs.assessid, (CASE WHEN minstock < cast(biovalue as float) THEN 1 ELSE 0 END) as collapsed
+from refs where biovalue !='SEE NOTES' and biovalue !='417,813';
+              assessid               | collapsed 
+-------------------------------------+-----------
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |         1
+ DFO-PAC-PCODHS-YEAR-2005-COLLIE     |         1
+ DFO-PAC-PCODWCVANI-YEAR-2002-COLLIE |         1
+ IATTC-YFINEPAC-1975-2007-JENSEN     |         1
+ NEFSC-COD5Z-1960-2007-BAUM          |         1
+ RIDEM-LOBSTERRI-YEAR-2007-COLLIE    |         1
+ RIDEM-TAUTOGRI-YEAR-2007-COLLIE     |         0
+ RIDEM-WINFLOUNDRI-YEAR-2007-COLLIE  |         1
+(8 rows)
+
+select ((sum(coll.collapsed)))*1.0 / ((count(coll.collapsed)))*1.0 as percent_collapsed from (select (CASE WHEN minstock < cast(biovalue as float) THEN 1 ELSE 0 END) as collapsed from refs where biovalue !='SEE NOTES') as coll;
+    percent_collapsed    
+-------------------------
+ 0.875000000000000000000
+(1 row)
+
+select trim(trailing '0' from ((sum(coll.collapsed)))*1.0 / ((count(coll.collapsed)))*1.0) as percent_collapsed from (select (CASE WHEN minstock < cast(biovalue as float) THEN 1 ELSE 0 END) as collapsed from refs where biovalue !='SEE NOTES') as coll;
+ percent_collapsed 
+-------------------
+ 0.875
+(1 row)
+

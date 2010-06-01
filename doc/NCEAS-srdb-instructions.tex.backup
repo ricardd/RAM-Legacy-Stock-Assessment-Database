@@ -1,0 +1,36 @@
+\documentclass[a4paper,10pt,oneside]{book}
+
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx} 
+\pagestyle{plain}
+\makeindex
+
+\author{Daniel Ricard, Julia Baum, and Coil\'{i}n Minto}
+\title{Accessing the RAM II stock-recruitment database}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Entry levels}
+There are currently two levels of entry to the database
+\begin{itemize}
+ \item Back-end user
+\begin{itemize}
+ \item Command line interface to the database
+ \item SQL code
+\end{itemize}
+
+\item Web access
+\begin{itemize}
+ \item Access to database views using a web browser
+\end{itemize}
+\end{itemize}
+
+\chapter{Back-end user}
+
+\end{document}

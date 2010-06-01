@@ -1,0 +1,10 @@
+%% Last modified: Time-stamp: <2010-05-21 15:06:42 (srdbadmin)>
+\documentclass[letterpaper,12pt]{article}
+
+\include{srdb-citations}
+
+\bibliographystyle{../tex/fishandfisheriesBST}
+
+\bibliography{./srdb-references}
+
+\end{document}

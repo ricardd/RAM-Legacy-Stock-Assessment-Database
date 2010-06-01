@@ -1,0 +1,153 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.19)  8 APR 2010 16:13
+entering extended mode
+ %&-line parsing enabled.
+**taxonomic-dendrogram-details.tex
+(./taxonomic-dendrogram-details.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(./taxonomic-dendrogram-details.aux)
+\openout1 = `taxonomic-dendrogram-details.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/FishBase-byorder.
+pdf, id=9, 722.7pt x 722.7pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/FishBase-byo
+rder.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/FishBase-byor
+der.pdf>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 61--62
+ [] 
+ []
+
+
+</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/SAUP-byorder.pdf,
+ id=10, 722.7pt x 722.7pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/SAUP-byorder
+.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/SAUP-byorder.
+pdf>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 69--70
+ [] 
+ []
+
+
+</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-byorder.pdf,
+ id=11, 722.7pt x 722.7pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-byorder
+.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-byorder.
+pdf>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 76--77
+ [] 
+ []
+
+
+</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/fourpanel-byorder
+.pdf, id=12, 722.7pt x 722.7pt>
+File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/fourpanel-by
+order.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/fourpanel-byo
+rder.pdf>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 96--97
+ [] 
+ []
+
+[2] [3 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/FishBase-b
+yorder.pdf>] [4 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/S
+AUP-byorder.pdf>] [5 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisherie
+s/R/srdb-byorder.pdf>] [6 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfis
+heries/R/fourpanel-byorder.pdf>] (./taxonomic-dendrogram-details.aux) ) 
+Here is how much of TeX's memory you used:
+ 921 strings out of 95086
+ 12289 string characters out of 1183254
+ 60929 words of memory out of 1500000
+ 4139 multiletter control sequences out of 10000+50000
+ 6103 words of font info for 22 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 25i,6n,32p,237b,241s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/sh
+are/texmf-texlive/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf-texlive/f
+onts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/c
+m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on taxonomic-dendrogram-details.pdf (6 pages, 87565 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

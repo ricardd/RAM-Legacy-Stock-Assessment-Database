@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: Ricardetal_CJFASproposal.aux
+The style file: coilin.bst
+Database file #1: Ricardetal_CJFASproposal.bib
+You've used 1 entry,
+            2986 wiz_defined-function locations,
+            614 strings with 5234 characters,
+and the built_in function-call counts, 688 in all, are:
+= -- 48
+> -- 28
+< -- 0
++ -- 10
+- -- 9
+* -- 57
+:= -- 104
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 53
+empty$ -- 51
+format.name$ -- 13
+if$ -- 127
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 12
+newline$ -- 14
+num.names$ -- 5
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 19
+stack$ -- 0
+substring$ -- 23
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 4
+width$ -- 0
+write$ -- 22

@@ -1,0 +1,15 @@
+-- create a table with information about which assessment is the most recent, what it updates, whether it's a duplicate, etc.
+-- Daniel Ricard, started 2010-01-04
+-- Last modified Time-stamp: <2010-01-04 22:06:13 (srdbadmin)>
+
+DROP TABLE srdb.mostrecent;
+
+CREATE TABLE srdb.mostrecent
+AS
+(
+
+(
+select a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid and v.catch_landings is not null group by a.assessid, a.recorder order by minyear, span desc, maxyear
+) as aa 
+
+);

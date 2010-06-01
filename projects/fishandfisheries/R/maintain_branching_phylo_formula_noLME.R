@@ -1,0 +1,115 @@
+maintain.branching.phylo.formula.nolme<-
+function (x, data1,data2, ...) 
+{
+    err <- "Formula must be of the kind \"~A1/A2/.../An\"."
+    if (length(x) != 2) 
+        stop(err)
+    if (x[[1]] != "~") 
+        stop(err)
+    f <- x[[2]]
+    taxo <- list()
+    while (length(f) == 3) {
+        if (f[[1]] != "/") 
+            stop(err)
+        if (!is.factor(data1[[deparse(f[[3]])]])) 
+            stop(paste("Variable", deparse(f[[3]]), "must be a factor."))
+        taxo[[deparse(f[[3]])]] <- data1[[deparse(f[[3]])]]
+        if (length(f) > 1) 
+            f <- f[[2]]
+      }
+    if (!is.factor(data1[[deparse(f)]])) 
+        stop(paste("Variable", deparse(f), "must be a factor."))
+    taxo[[deparse(f)]] <- data1[[deparse(f)]]
+    taxo.data1 <- as.data.frame(taxo)
+    leaves.names <- as.character(taxo.data1[, 1])
+    taxo.data1[, 1] <- 1:nrow(taxo.data1)
+    ## ammended by DR and CM (Dec. 16th, 2009)
+    ## two f.rec functions, one that works on the large dataset and one on the sub dataset
+    ##--------------------------
+    ## Full dataset phylogeny
+    ##--------------------------
+    f.rec.1 <- function(subtaxo) {
+        u <- ncol(subtaxo)
+        levels <- unique(subtaxo[, u])
+        if (u == 1) {
+            if (length(levels) != nrow(subtaxo)) 
+                warning("Error, leaves names are not unique.")
+            return(as.character(subtaxo[, 1]))
+        }
+        t <- character(length(levels))
+        for (l in 1:length(levels)) {
+            x <- f.rec.1(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
+            ##print(x)
+           if (length(x) == 1) 
+              t[l] <- x
+               ##t[l] <- paste(x,":", 1, sep="")
+            else{
+              n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
+              t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
+            }
+        }
+        return(t)
+      }
+    string <- paste("(", paste(f.rec.1(taxo.data1), collapse = ","), ")",":",dim(taxo.data1)[1],";", sep = "")
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
+    phy <- read.tree(text = string2)
+    ##-----------------------
+    ## subset phylogeny
+    ##-----------------------
+    ## Find out which species by lme are present in the subset dataset
+    phy.names.df<-data.frame(number=as.numeric(phy$tip.label), names.phy.1=leaves.names[as.numeric(phy$tip.label)])
+    phy.names.df<-phy.names.df[order(phy.names.df$number),]
+    ## the following does a check to see if the names in the are the same as data1
+    ## so we can assign lme
+    ##unique(as.character(data1$scientificname)==as.character(phy.names.df$names.phy.1))
+#    phy.names.df$LME<-data1$LME
+#    data2$scienticnamelme<-paste(as.character(data2$scientificname),data2$LME)
+#    phy.names.df$scienticnamelme<-paste(as.character(phy.names.df$names.phy.1),phy.names.df$LME)
+    phy.names.df$appear.phy.2<-phy.names.df$names.phy.1%in%data2$Order
+    ## a new f.rec function that looks to see if the species is present in the subset before
+    ## assigning a branch width
+    f.rec.2 <- function(subtaxo) {
+        u <- ncol(subtaxo)
+        levels <- unique(subtaxo[, u])
+        if (u == 1) {
+            if (length(levels) != nrow(subtaxo)) 
+                warning("Error, leaves names are not unique.")
+            return(as.character(subtaxo[, 1]))
+        }
+        t <- character(length(levels))
+        for (l in 1:length(levels)) {
+            x <- f.rec.2(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
+            ##print(x)
+           if (length(x) == 1) 
+              t[l] <- x
+               ##t[l] <- paste(x,":", 1, sep="")
+            else{
+              ## Here's the lookup
+              n.elements<-sum(phy.names.df[phy.names.df$number%in%as.numeric(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))),"appear.phy.2"]) ## ammended CM & DR, Dec 16th 2009
+              t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
+            }
+        }
+        return(t)
+      }
+    string <- paste("(", paste(f.rec.2(taxo.data1), collapse = ","), ")",":",sum(phy.names.df$appear.phy.2),";", sep = "")
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
+
+    ## replace the 1's with 0's, ammended CM & DR, Dec 16th 2009
+    string3<-gsubfn("[0-9]+:1", function(x){
+      string<-strapply(x, "[0-9]+(?=:)",perl=TRUE,backref=1)[[1]] 
+      if(phy.names.df$appear.phy.2[phy.names.df$number==as.numeric(string)]){
+        paste(string, ":1", sep="")}else{
+          paste(string, ":0", sep="")}},
+                    string2, backref=1, perl=TRUE)
+
+    
+    phy2 <- read.tree(text = string3)
+    ## assign the tip labels
+    phy$tip.label <- leaves.names[as.numeric(phy$tip.label)]
+    phy2$tip.label<-sapply(seq(1, length(phy2$tip.label)), function(y){
+      ##print(y)
+      if(phy.names.df$appear.phy.2[as.numeric(phy2$tip.label[y])]){
+        as.character(phy.names.df$names.phy.1[as.numeric(phy2$tip.label[y])])}else{
+          c("")}})   
+    return(list(phy,phy2))
+}

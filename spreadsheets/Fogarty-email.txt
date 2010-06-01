@@ -1,0 +1,17 @@
+Dear Mike,
+Thanks again for the NMFS data. I'm really happy to see some enthusiasm in this project and really look forward to including NMFS assessments in the new stock-recruitment database (srDB).
+
+For srDB, we have developed a relational model that we implemented in a PostgreSQL database system. The spreadsheet template that we have developed is used to process the data and load them in the backend database. This step is handled by a Perl script that reads from the Excel files and sends SQL commands to insert data in the database server. 
+
+The data that you sent us differs from our Excel template in a variety of ways. I have no doubt that I can write another Perl script to handle your data. However, it seems to me that the Excel files that you provided were themselves produced from a relational system. Is this what "SIS" is? 
+
+If it is the case that you are managing the assessment results from a relational database, I believe that a few properly defined queries and functions should suffice to extract the same data in a format consistent with our template spreadsheet. 
+
+The basic design principles for srDB are that stocks are composed of a combination of a species and an area, and each assessment consists of a stock and an assessor. So we end up with a single Excel file for each assessment. 
+
+Please let me know your thoughts. 
+
+All the best.
+
+Dan
+

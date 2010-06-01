@@ -1,0 +1,93 @@
+Beth,
+Your data has been loaded in the srDB database running on calopteryx at Dalhousie. 
+
+Coilin can undoubtedly access it. 
+
+I did not load the NWS data yet.
+
+
+Your assessments required the creation of the following new entries in the shared tables:
+
+Table "srdb.taxonomy":
+550883,Rexea solandri,Animalia,Chordata,Actinopterygii,Perciformes,Gempylidae,Rexea,solandri,GEMFISH,common gemfish,hake,NULL,NULL
+165000,Genypterus blacodes,Animalia,Chordata,Actinopterygii,Ophidiiformes,Ophidiidae,Genypterus,blacodes,ROCKLING,Australian rockling,,NULL,NULL
+170262,Nemadactylus macropterus,Animalia,Chordata,Actinopterygii,Perciformes,Cheilodactylidae,Nemadactylus,macropterus,MORWONG,Hawaiian morwong,Jackass morwong,NULL,NULL
+172534,Seriolella punctata,Animalia,Chordata,Actinopterygii,Perciformes,Centrolophidae,Seriolella,punctata,SILVERFISH,Silverfish,,NULL,NULL
+644187,Neoplatycephalus richardsoni,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Platycephalidae,Neoplatycephalus,richardsoni,TIGERFLAT,Tiger flathead,,NULL,NULL
+646043,Sillago flindersi,Animalia,Chordata,Actinopterygii,Perciformes,Sillaginidae,Sillago,flindersi,SWHIT,School whiting,,NULL,NULL
+
+
+Table "srdb.management":
+"CSIRO","Australia","Australia national management"
+
+
+Table "srdb.assessor"
+"CSIRO","CSIRO","Australia","Commonwealth Scientific and Industrial Research Organization"
+
+
+Table "srdb.area":
+"Australia","CSIRO","SESSF","Southeast Australia (SESSF)",""
+"Australia","CSIRO","SESSFE","Eastern Southeast Australia (SESSF)",""
+"Australia","CSIRO","SESSFW","Western Southeast Australia (SESSF)",""
+
+
+Table "srdb.assess-method"
+"SS2","SS2 model"
+
+
+Table "srdb.stock":
+"GEMFISHSESSF",550883,"Rexea solandri","common gemfish","Australia-CSIRO-SESSF","common gemfish Southeast Australia",0,NULL
+"PINKLINGSESSFE",165000,"Genypterus blacodes","Australian rockling","Australia-CSIRO-SESSFE","Australian rockling Eastern Southeast Australia",0,NULL
+"PINKLINGSESSFW",165000,"Genypterus blacodes","Australian rockling","Australia-CSIRO-SESSFW","Australian rockling Western Southeast Australia",0,NULL
+"MORWONGSESSF",170262,"Nemadactylus macropterus","Jackass morwong","Australia-CSIRO-SESSF","Jackass morwong Southeast Australia",0,NULL
+"SILVERFISHSESSF",172534,"Seriolella punctata","Silverfish","Australia-CSIRO-SESSF","Silverfish Southeast Australia",0,NULL
+"TIGERFLATSESSF",644187,"Neoplatycephalus richardsoni","Tiger flathead","Australia-CSIRO-SESSF","Tiger flathead Southeast Australia",0,NULL
+"SWHITSESSF",646043,"Sillago flindersi","School whiting","Australia-CSIRO-SESSF","School whiting Southeast Australia",0,NULL
+
+
+Table "srdb.biometrics":
+"MAT-SLOPE","Slope of maturity function","dimensionless","dimensionless"
+"MAT-MODEL","Maturity model option","option","option"
+"LW-a","Coefficient in length-weight relationship","dimensionless",""
+"LW-b","Power in length-weight relationship","dimensionless",""
+"VB-k","k parameter in Von Bertalanffy growth function","cm/T",""
+"VB-t0","t0 parameter in Von Bertalanffy growth function","yr",""
+"BH-h","Beverton-Holt steepness","dimensionless",""
+
+
+Table "srdb.tsmetrics"
+"SSB-STDDEV","Standard deviation of spawning Stock Biomass","MT","Metric tons"
+
+
+
+You gave us two files for species Genypterus blacodes, on was called "Pink Ling (western)" and the other "Pink Ling (eastern)". To fit our current system, I use the same TSN and species name for both assessments but use a different area for each. I'm assuming that this is a single species divided into two stock areas each corresponding to a different geographical region.
+
+All of your "daterecorded" (cell D20 of the "meta" worksheet) had a leading single quote symbol that choked the data type requirement on loading. 
+
+Your "assessmethod" was always empty. I added ss2 as an entry to table "srdb.assess-method". Please let me know if this is appropriate, I think that we need more details about the assessment methodology. 
+
+The correct unit for numbers in not "N", we settled on "E00", "E03", etc. I changed all "N" for "E00" in your spreadsheets. 
+
+The time-series for harvest rates were renamed "F", please chat with Coilin about this. If need be (i.e if your "Hrate-F1, Hrate-F2, ..." is conceptually different from a fishing mortality measure) we can define a new entry in the srdb.tsmetrics table.
+
+
+I am not sure whether the current way your data is entered captures the management regime of the different stocks. CSIRO is now defined as the assessor and the management authority, whereas it should really be captured as AFMA being the anagement authority and CSIRO as the assessor. As such, I would propose defining AFMA as a new entry in the srdb.management table and keep CSIRO as the assessor. Please comment.
+
+The rest ran pretty smoothly, thanks again for this. We will be running quality-control plots on these data and I'm sure that Coilin will be to churn some of your data. One thing that strikes me right away is that the recruitment time-series do not seem to be lagged, i.e. the recruitment time-series has data points for the same years as the spawning stock biomass. 
+
+Have a good day guys, I'm back home an on email for the evening.
+
+
+Dan
+
+
+*************************************************
+ recorder  | number of assessments in srDB
+-----------+-------------------------------
+ MINTO     |                            40
+ BAUM      |                             4
+ HUTCHINGS |                             1
+ COLLIE    |                             5
+ Fulton    |                             7
+(5 rows)
+

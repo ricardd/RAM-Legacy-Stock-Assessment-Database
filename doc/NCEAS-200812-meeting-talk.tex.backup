@@ -1,0 +1,70 @@
+\documentclass{beamer}
+\usepackage{fancybox}
+\usepackage{beamerthemesplit}
+\usepackage{hyperref}
+
+\mode<presentation> {
+
+\usetheme{Warsaw}
+\setbeamertemplate{footline}[frame number]
+
+  }
+\title[Updated stock-recruitment DB]{The RAM II stock-recruitment database}
+\subtitle{An historical and technological overview}
+\author[Baum, Minto and Ricard]{Julia Baum \thanks{Scripps} \and Coil\'{i}n Minto \thanks{Dalhousie University} \and Daniel Ricard$^{2}$}
+
+\date{Dec. 10th 2008 - NCEAS}
+
+\begin{document}
+
+
+\frame{\titlepage}
+% [plain]
+
+
+\frame{\tableofcontents}
+
+\section{Past}
+
+\begin{frame}
+\frametitle{RAM's original database}
+\end{frame}
+
+
+\section{Present}
+\begin{frame}
+\frametitle{postgreSQL database}
+\end{frame}
+
+\begin{frame}
+\frametitle{stock assessment spreadhseet template}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{RAMlegacy portal}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ongoing projects}
+\end{frame}
+
+
+\section{Future}
+
+\begin{frame}
+\frametitle{Version 1.0}
+\end{frame}
+
+\begin{frame}
+\frametitle{Source code and resources on subversion}
+\end{frame}
+
+\begin{frame}
+\frametitle{Longer term}
+
+\end{frame}
+
+
+
+\end{document}

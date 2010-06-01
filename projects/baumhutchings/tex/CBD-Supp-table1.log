@@ -1,0 +1,346 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.10.19)  21 FEB 2010 18:09
+entering extended mode
+ %&-line parsing enabled.
+**CBD-Supp-table1.tex
+(./CBD-Supp-table1.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2006/05/05 v1.1b Input encoding file
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks17
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count99
+\LTcapwidth=\dimen112
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count100
+\LT@rows=\count101
+\c@LT@tables=\count102
+\c@LT@chunks=\count103
+\LT@p@ftn=\toks21
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count104
+\@cmidlb=\count105
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count106
+\@lastruleclass=\count107
+\@thisrulewidth=\dimen125
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
+\Gm@bindingoffset=\dimen126
+\Gm@wd@mp=\dimen127
+\Gm@odd@mp=\dimen128
+\Gm@even@mp=\dimen129
+\Gm@dimlist=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count111
+)))
+(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (./CBD-Supp-table1.aux)
+\openout1 = `CBD-Supp-table1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 12.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 28.45274pt, 540.60239pt, 28.45274pt
+v-parts: 28.45274pt, 788.14136pt, 28.45274pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  540.60239pt
+\textheight 788.14136pt
+\oddsidemargin  -43.81725pt
+\evensidemargin -43.81725pt
+\topmargin  -80.81725pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 57.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+
+(./CBD-Supp-table1-table.tex
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/ptm/m/n/8 Northern Gulf of St.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/ptm/m/n/8 Southern Gulf of St.
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 86--86
+[]|\OT1/ptm/m/n/8 Labrador Shelf - Grand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/ptm/m/n/8 Western Sco-tian Shelf,
+ []
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/ptm/m/n/8 Northwestern At-lantic
+ []
+
+
+Overfull \hbox (22.3531pt too wide) in paragraph at lines 123--123
+[]|\OT1/ptm/m/n/8 KELPGREENLINGORECOAST| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\OT1/ptm/m/n/8 IIa-IIIabd-IV-Vb-VI-VII-
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 133--133
+[]|\OT1/ptm/m/n/8 Southern At-lantic coast
+ []
+
+[2]
+Underfull \hbox (badness 2469) in paragraph at lines 136--136
+[]|\OT1/ptm/m/n/8 Eastern Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\OT1/ptm/m/n/8 New Zealand Area 8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\OT1/ptm/m/n/8 (Auck-land and Cen-tral
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 145--145
+[]|\OT1/ptm/m/n/8 New Zealand Mid East
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 149--149
+[]|\OT1/ptm/m/n/8 Eastern Bering Sea and
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 157--157
+[]|\OT1/ptm/m/n/8 Scotian Shelf, Bay of
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 171--171
+\OT1/ptm/m/n/8 tian Is-lands / Gulf of
+ []
+
+[3]
+Overfull \hbox (11.25703pt too wide) in paragraph at lines 196--196
+[]|\OT1/ptm/m/n/8 STRIPEDBASSGOMCHATT| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\OT1/ptm/m/n/8 Southern New Eng-land
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\OT1/ptm/m/n/8 Southern New Eng-land
+ []
+
+[4]) [5] (./CBD-Supp-table1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1929 strings out of 95086
+ 23386 string characters out of 1183254
+ 112321 words of memory out of 1500000
+ 5111 multiletter control sequences out of 10000+50000
+ 7416 words of font info for 19 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 27i,5n,22p,276b,282s stack positions out of 5000i,500n,6000p,200000b,5000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CBD-Supp-table1.pdf (5 pages, 52097 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

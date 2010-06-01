@@ -1,0 +1,51 @@
+	\documentclass[a4paper,10pt]{article}
+\usepackage[top=.3in, nohead, nofoot]{geometry}
+\usepackage{booktabs}
+\usepackage{bookman}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\title{Assessment of AREA SPECIES (\textit{LATINNAME})\\{\large Assessment ID:ASSESSMENTID \\Issue URL: ISSUEURL \\Area ID: AREAID}}
+\chead{Assessment of AREA SPECIES (\textit{LATINNAME})}
+\cfoot{ASSESSMENTID.pdf \\ STAMP}
+%\author{Entered by: RECORDER}
+%\author{}
+%\date{Entered on: DATEIN}
+\date{}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace*{-.75in}
+\begin{center}
+{\large General assessment details.}
+\end{center}
+\input{ASSESSTABLE}
+\begin{center}
+{\large Biometrics provided. Note that the assumed timeseries to which the reference point pertains is indicated in parentheses.}
+\begin{table}[htb]
+\centering
+\input{LMETABLE}
+\input{LHTABLE}
+\input{REFTABLE}
+\end{table}
+\end{center}
+%% post-entry
+%\begin{center}
+%{\large Post-entry additions and estimates.}
+%\end{center}
+%\input{POSTENTRYTAB}
+\pagebreak
+%\thispagestyle{headings}
+\vspace*{1cm}
+\input{TIMESERIESTABLE}
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+%   \vspace*{2in}
+   \includegraphics[width=6in]{SUMMARYPLOT} 
+%   \caption{}
+%   \label{}
+\end{figure}
+
+\end{document}
+

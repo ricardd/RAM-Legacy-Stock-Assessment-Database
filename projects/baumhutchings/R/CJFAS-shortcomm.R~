@@ -1,0 +1,44 @@
+# R code associated with CJFAS short communication (Hutching, Minto, Ricard and Baum)
+# DR CM Started 2010-01-12
+# Last modified Time-stamp: <Last modified: 14 JANUARY 2010  (srdbadmin)>
+#
+# file "reanalysis-models.R" has the data loading and the model fitting steps
+
+# how many stocks fulfill the criteria?
+dim(par.estimates)[1]
+
+## how many stocks have a negative pre-1992 slope (model without continuity constraint)?
+dim(par.estimates[par.estimates$m.slope.before<0,])[1]
+## of these, how many have a positive deltaslope (i.e.easing of rate of decline)
+dim(par.estimates[par.estimates$m.slope.before<0 & par.estimates$m.diff>0,])[1]
+
+
+
+## how many stocks have a negative pre-1992 slope (model with continuity constraint)?
+dim(par.estimates[par.estimates$mcont.slope.before<0,])[1]
+
+
+## gather the info in a data frame
+table.compare.models <- data.frame(model.name=rep("blah",3), n.stocks.pre.negative=rep(0,3), n.stocks.delta.positive=rep(0,3), percent.delta.positive=rep(0,3), n.stocks.post.positive=rep(0,3),stringsAsFactors=FALSE)
+
+n <- dim(par.estimates[par.estimates$m.slope.before<0,])[1]
+nn <- dim(par.estimates[par.estimates$m.slope.before<0 & par.estimates$m.diff>0,])[1]
+nnn <- round(100*nn/n,2)
+nnnn <- dim(par.estimates[par.estimates$m.slope.after>0 & par.estimates$m.slope.before<0,])[1]
+table.compare.models[1,] <- c("No continuity constraint",n,nn,nnn,nnnn)
+
+n <- dim(par.estimates[par.estimates$mcont.slope.before<0,])[1]
+nn <- dim(par.estimates[par.estimates$mcont.slope.before<0 & par.estimates$mcont.diff>0,])[1]
+nnn <- round(100*nn/n,2)
+nnnn <- dim(par.estimates[par.estimates$mcont.slope.after>0 & par.estimates$mcont.slope.before<0,])[1]
+table.compare.models[2,] <- c("Continuity constraint",n,nn,nnn,nnnn)
+
+n <- dim(par.estimates[par.estimates$mss.slope.before<0,])[1]
+nn <- dim(par.estimates[par.estimates$mss.slope.before<0 & par.estimates$mss.slope.diff>0,])[1]
+nnn <- round(100*nn/n,2)
+nnnn <- dim(par.estimates[par.estimates$mss.slope.after>0 & par.estimates$mss.slope.before<0,])[1]
+
+table.compare.models[3,] <- c("Process error",n,nn,nnn,nnnn)
+
+(table.compare.models)
+

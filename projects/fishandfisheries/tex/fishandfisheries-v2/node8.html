@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Data products from the database contents</TITLE>
+<META NAME="description" CONTENT="Data products from the database contents">
+<META NAME="keywords" CONTENT="fishandfisheries-v2">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="fishandfisheries-v2.css">
+
+<LINK REL="next" HREF="node9.html">
+<LINK REL="previous" HREF="node7.html">
+<LINK REL="up" HREF="node3.html">
+<LINK REL="next" HREF="node9.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html151"
+  HREF="node9.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html149"
+  HREF="node3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html143"
+  HREF="node7.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html152"
+  HREF="node9.html">Database access</A>
+<B> Up:</B> <A NAME="tex2html150"
+  HREF="node3.html">Methods - was ``The</A>
+<B> Previous:</B> <A NAME="tex2html144"
+  HREF="node7.html">Data integrity and quality</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00035000000000000000">
+Data products from the database contents</A>
+</H2>
+To facilitate analyses, a variety of data products, typically
+rectangular, matrix-like, summarised contents of information from the
+database were constructed. This include summarised timeseries for a
+subset of metrics (e.g. SSB, TB, R, TC and F) as well as timeseries which
+fulfill certain criteria (e.g. all SR pairs with <SPAN CLASS="MATH"><IMG
+ WIDTH="43" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.png"
+ ALT="$\ge25$"></SPAN> years of
+data). These products were assembled as database views using the
+Structured Query Language (SQL). 
+<P>
+To obtain a comparable set of BRPs, for all stocks <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img6.png"
+ ALT="$s$"></SPAN> with available
+total catch (<SPAN CLASS="MATH"><IMG
+ WIDTH="33" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img7.png"
+ ALT="$TC$"></SPAN>) and total biomass (<SPAN CLASS="MATH"><IMG
+ WIDTH="33" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img8.png"
+ ALT="$TB$"></SPAN>) timeseries data (<SPAN CLASS="MATH"><IMG
+ WIDTH="47" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="$TC_{i,s}$"></SPAN>, <!-- MATH
+ $i \in {1,\ldots,n_{s}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="104" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img10.png"
+ ALT="$i \in {1,\ldots,n_{s}}$"></SPAN> and 
+<SPAN CLASS="MATH"><IMG
+ WIDTH="48" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img11.png"
+ ALT="$TB_{i,s}$"></SPAN>, <!-- MATH
+ $i \in {1,\ldots,n_{s}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="104" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img10.png"
+ ALT="$i \in {1,\ldots,n_{s}}$"></SPAN> ), a Schaefer
+surplus production model was used to estimate total biomass and
+fishing mortality at Maximum Sustainable Yield (<SPAN CLASS="MATH"><IMG
+ WIDTH="71" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.png"
+ ALT="$TB_{MSY_{s}}$"></SPAN> and
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img13.png"
+ ALT="$MSY_{s}$"></SPAN>, respectively).
+<BR>
+<DIV ALIGN="RIGHT" CLASS="mathdisplay">
+
+<!-- MATH
+ \begin{equation}
+TB_{i+1,s} = TB_{i,s}*\left(1+\frac{r_{s}}{K_{s}}\right) - TC_{i,s}
+\end{equation}
+ -->
+<TABLE WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE"><TD ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="294" HEIGHT="47" BORDER="0"
+ SRC="img14.png"
+ ALT="\begin{displaymath}
+TB_{i+1,s} = TB_{i,s}*\left(1+\frac{r_{s}}{K_{s}}\right) - TC_{i,s}
+\end{displaymath}"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">1</SPAN>)</TD></TR>
+</TABLE>
+<BR CLEAR="ALL"></DIV><P></P>
+where,
+<DL>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="20" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img15.png"
+ ALT="$r_{s}$"></SPAN> is the intrinsic growth rate of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img6.png"
+ ALT="$s$"></SPAN>
+</DD>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="27" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img16.png"
+ ALT="$K_{s}$"></SPAN> is the carrying capacity of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img6.png"
+ ALT="$s$"></SPAN>
+</DD>
+<DT></DT>
+<DD><SPAN CLASS="MATH"><IMG
+ WIDTH="47" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="$TC_{i,s}$"></SPAN> is the catch of stock <SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="19" ALIGN="BOTTOM" BORDER="0"
+ SRC="img6.png"
+ ALT="$s$"></SPAN> in year <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img17.png"
+ ALT="$i$"></SPAN>
+</DD>
+</DL>
+
+<P>
+<SPAN CLASS="MATH"><IMG
+ WIDTH="71" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.png"
+ ALT="$TB_{MSY_{s}}$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img13.png"
+ ALT="$MSY_{s}$"></SPAN> can then be calculated as:
+
+<P>
+<BR>
+<DIV ALIGN="RIGHT" CLASS="mathdisplay">
+
+<!-- MATH
+ \begin{equation}
+TB_{MSY_{s}} = K_{s}/2 % \left( 1 - \frac{}{r_{s}}\right)
+\end{equation}
+ -->
+<TABLE WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE"><TD ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="131" HEIGHT="33" BORDER="0"
+ SRC="img18.png"
+ ALT="\begin{displaymath}
+TB_{MSY_{s}} = K_{s}/2 % \left( 1 - \frac{}{r_{s}}\right)
+\end{displaymath}"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">2</SPAN>)</TD></TR>
+</TABLE>
+<BR CLEAR="ALL"></DIV><P></P>
+
+<P>
+<BR>
+<DIV ALIGN="RIGHT" CLASS="mathdisplay">
+
+<!-- MATH
+ \begin{equation}
+MSY_{s} = r_{s}K_{s}/4
+\end{equation}
+ -->
+<TABLE WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE"><TD ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="132" HEIGHT="33" BORDER="0"
+ SRC="img19.png"
+ ALT="\begin{displaymath}
+MSY_{s} = r_{s}K_{s}/4
+\end{displaymath}"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">3</SPAN>)</TD></TR>
+</TABLE>
+<BR CLEAR="ALL"></DIV><P></P>
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html151"
+  HREF="node9.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html149"
+  HREF="node3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html143"
+  HREF="node7.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html152"
+  HREF="node9.html">Database access</A>
+<B> Up:</B> <A NAME="tex2html150"
+  HREF="node3.html">Methods - was ``The</A>
+<B> Previous:</B> <A NAME="tex2html144"
+  HREF="node7.html">Data integrity and quality</A></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Stock-recruitment database administrator
+2010-04-15
+</ADDRESS>
+</BODY>
+</HTML>

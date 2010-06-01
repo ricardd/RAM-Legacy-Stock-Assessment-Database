@@ -1,0 +1,69 @@
+srdb=# select assessid from srdb.assessment where recorder  = 'FULTON';
+                 assessid                 
+------------------------------------------
+ CSIRO-MORWONGSESSF-1913-2007-FULTON
+ CSIRO-NZLINGGABSESSF-1968-2007-FULTON
+ CSIRO-NZLINGSESSF-1968-2007-FULTON
+ CSIRO-TIGERFLATSESSF-1913-2006-FULTON
+ CSIRO-GEMFISHSESSF-1966-2007-FULTON
+ CSIRO-GTPRAWNNAUST-1970-2006-FULTON
+ CSIRO-BTSHRIMPNAUST-1970-2006-FULTON
+ CSIRO-WAREHOUSESSF-1984-2006-FULTON
+ CSIRO-WAREHOUGABSESSF-1984-2006-FULTON
+ CSIRO-BIGHTREDSESSF-1958-2007-FULTON
+ CSIRO-OROUGHYCASCADE-1987-2006-FULTON
+ CSIRO-SILVERFISHSESSF-1978-2006-FULTON
+ CSIRO-OROUGHYSESSF-1978-2007-FULTON
+ CSIRO-DEEPFLATHEADSESSF-1978-2007-FULTON
+ CSIRO-SWHITSESSF-1945-2007-FULTON
+(15 rows)
+
+
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, first visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+srdb=# select assessid, issueurl, qaqc from srdb.qaqc where assessid in (select assessid from srdb.assessment aa, srdb.stock s, srdb.area a where aa.recorder != 'MYERS' and s.areaid=a.areaid and s.stockid=aa.stockid and a.areatype = 'MFish');
+                assessid                 |                                issueurl                                | qaqc 
+-----------------------------------------+------------------------------------------------------------------------+------
+ OK - NIWA-NZSNAPNZ8-1931-2005-JENSEN         | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/193 | f
+ OK - NIWA-SBWHITACIR-1979-2006-JENSEN        | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/190 | f
+ OK - NIWA-WHITETREVALLYTRE7-1944-2005-JENSEN | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/189 | f
+ OK - NIWA-BFOOTABALONEPAU7-1964-2008-JENSEN  | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/186 | f
+ OK - NIWA-BFOOTABALONEPAU5B-1963-2007-JENSEN | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/185 | f
+ OK - NIWA-BFOOTABALONEPAU5D-1964-2006-JENSEN | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/184 | f
+ OK - NIWA-BFOOTABALONEPAU5A-1964-2006-JENSEN | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/183 | f
+ OK - NIWA-GEMFISHNZ-1952-2006-JENSEN         | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/182 | f
+ OK - NIWA-SOUTHHAKESA-1975-2007-JENSEN       | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/181 | f
+ OK - NIWA-SOUTHHAKECR-1975-2006-JENSEN       | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/180 | f
+ OK - NIWA-PINKLINGLIN7WC-1972-2008-JENSEN    | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/161 | f
+ OK - NIWA-PINKLINGLIN72-1972-2007-JENSEN     | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/160 | f
+ OK - NIWA-PINKLINGLIN5-6-1972-2007-JENSEN    | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/159 | f
+ OK - NIWA-PINKLINGLIN6b-1980-2006-JENSEN     | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/158 | f
+ OK - NIWA-PINKLINGLIN3-4-1972-2007-JENSEN    | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/157 | f
+ OK - NIWA-HOKIWNZ-1972-2007-FRANCIS          | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/359 | 
+ OK - NIWA-HOKIENZ-1972-2007-FRANCIS          | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/360 | 
+ OK - NIWA-SMOOTHOREOWECR-1973-2004-JENSEN    | http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/221 | 
+(18 rows)
+
+
+
+srdb=# select assessid from srdb.assessment where recorder = 'FULTON';
+                 assessid                 
+------------------------------------------
+ CSIRO-SILVERFISHSESSF-1978-2006-FULTON
+ CSIRO-OROUGHYSESSF-1978-2007-FULTON
+ CSIRO-DEEPFLATHEADSESSF-1978-2007-FULTON
+ CSIRO-PINKLINGGABSESSF-1968-2007-FULTON
+ CSIRO-SWHITSESSF-1945-2007-FULTON
+ CSIRO-WAREHOUGABSESSF-1984-2006-FULTON
+ CSIRO-OROUGHYCASCADE-1987-2006-FULTON
+ CSIRO-BIGHTREDSESSF-1958-2007-FULTON
+ CSIRO-WAREHOUSESSF-1984-2006-FULTON
+ CSIRO-TIGERFLATSESSF-1913-2006-FULTON
+ CSIRO-GEMFISHSESSF-1966-2007-FULTON
+ CSIRO-MORWONGSESSF-1913-2007-FULTON
+ CSIRO-GTPRAWNNAUST-1970-2006-FULTON
+ CSIRO-PINKLINGSESSF-1968-2007-FULTON
+ CSIRO-BTSHRIMPNAUST-1970-2006-FULTON
+(15 rows)

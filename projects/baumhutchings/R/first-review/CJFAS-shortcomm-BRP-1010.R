@@ -1,0 +1,89 @@
+## for CJFAS short communication, getting Biological Reference Points for 1992 and the current year
+##  last modified Time-stamp: <2010-05-31 11:09:34 (srdbadmin)>
+require(RODBC)
+chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
+
+### bring back Bcurrent/Bmsy values
+qu.brp.salt <- paste("
+select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor) AND recorder != \'MYERS\')
+",sep="")
+brp.salt.dat <- sqlQuery(chan,qu.brp.salt)
+nn <- dim(brp.salt.dat)[1]
+salt <- data.frame(assessid=brp.salt.dat$assessid, currentyr=brp.salt.dat$maxyr, bratiocurrent=brp.salt.dat$ratio, type = rep("salt",nn), fromassessment = rep("no",nn))
+
+  qu.brp.pepper <- paste("
+select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+", sep="")
+brp.pepper.dat <- sqlQuery(chan,qu.brp.pepper)
+nn <- dim(brp.pepper.dat)[1]
+pepper <- data.frame(assessid=brp.pepper.dat$assessid, currentyr=brp.pepper.dat$maxyr, bratiocurrent=brp.pepper.dat$ratio, type = rep("pepper",nn), fromassessment = rep("yes",nn))
+
+  temp.dat <- rbind(pepper,salt)
+  temp.dat.ord <- temp.dat[order(temp.dat$assessid),]
+  oo<- unlist(tapply(temp.dat.ord$assessid,temp.dat.ord$assessid,order))
+  crosshair.dat <- temp.dat.ord[oo==1,]
+
+# for assessments that have both salt and pepper points, compute correlation between salt and pepper
+salt.and.pepper <-  merge(pepper,salt,"assessid")
+corr.current <- cor(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y)
+
+par.estimates.1010.brp <- merge(par.estimates.1010, crosshair.dat, by = "assessid", all.x = TRUE)
+
+#par.estimates.1010.brp$colourcurrent[par.estimates.1010.brp$bratiocurrent>=1] <- "black" 
+#par.estimates.1010.brp$colourcurrent[par.estimates.1010.brp$bratiocurrent<1] <- grey(0.6)
+
+par.estimates.1010.brp$colourcurrent[is.na(par.estimates.1010.brp$bratiocurrent)] <- grey(0.5)
+par.estimates.1010.brp$colourcurrent[par.estimates.1010.brp$bratiocurrent<0.5] <- "red2" 
+par.estimates.1010.brp$colourcurrent[par.estimates.1010.brp$bratiocurrent>=0.5 & par.estimates.1010.brp$bratiocurrent<1] <- "orange1"
+par.estimates.1010.brp$colourcurrent[par.estimates.1010.brp$bratiocurrent>=1] <- "green"
+
+par.estimates.1010.brp$pchcurrent[is.na(par.estimates.1010.brp$bratiocurrent)] <- 19
+par.estimates.1010.brp$pchcurrent[par.estimates.1010.brp$bratiocurrent<0.5] <- 15
+par.estimates.1010.brp$pchcurrent[par.estimates.1010.brp$bratiocurrent>=0.5 & par.estimates.1010.brp$bratiocurrent<1] <- 17
+par.estimates.1010.brp$pchcurrent[par.estimates.1010.brp$bratiocurrent>=1] <- 19
+
+### bring back B1992/Bmsy values
+qu.brp.salt <- paste("
+select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, tsv.tsyear as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where tsv.tsyear=1992 and s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND tsv.tsyear=a.maxyr and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor) AND recorder != \'MYERS\')
+",sep="")
+brp.salt.dat <- sqlQuery(chan,qu.brp.salt)
+nn <- dim(brp.salt.dat)[1]
+salt <- data.frame(assessid=brp.salt.dat$assessid, currentyr=brp.salt.dat$maxyr, b1992=brp.salt.dat$bmsy, bratio1992=brp.salt.dat$ratio, type = rep("salt",nn), fromassessment = rep("no",nn))
+
+  qu.brp.pepper <- paste("
+select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=1992 and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\'
+", sep="")
+brp.pepper.dat <- sqlQuery(chan,qu.brp.pepper)
+nn <- dim(brp.pepper.dat)[1]
+pepper <- data.frame(assessid=brp.pepper.dat$assessid, currentyr=brp.pepper.dat$maxyr, b1992=brp.pepper.dat$biovalue, bratio1992=brp.pepper.dat$ratio, type = rep("pepper",nn), fromassessment = rep("yes",nn))
+
+  temp.dat <- rbind(pepper,salt)
+  temp.dat.ord <- temp.dat[order(temp.dat$assessid),]
+  oo<- unlist(tapply(temp.dat.ord$assessid,temp.dat.ord$assessid,order))
+  crosshair.dat <- temp.dat.ord[oo==1,]
+
+# for assessments that have both salt and pepper points, compute correlation between salt and pepper
+salt.and.pepper <-  merge(pepper,salt,"assessid")
+corr.1992 <- cor(salt.and.pepper$bratio1992.x, salt.and.pepper$bratio1992.y)
+
+par.estimates.1010.brp.both <- merge(par.estimates.1010.brp, crosshair.dat, "assessid", all.x=TRUE)
+
+#par.estimates.1010.brp.both$colour1992[par.estimates.1010.brp.both$bratio1992>=1] <- "black" 
+#par.estimates.1010.brp.both$colour1992[par.estimates.1010.brp.both$bratio1992<1] <- grey(0.6)
+
+par.estimates.1010.brp.both$colour1992[is.na(par.estimates.1010.brp.both$bratio1992)] <- grey(0.5)
+par.estimates.1010.brp.both$colour1992[par.estimates.1010.brp.both$bratio1992<0.5] <- "red2" 
+par.estimates.1010.brp.both$colour1992[par.estimates.1010.brp.both$bratio1992>=0.5 & par.estimates.1010.brp.both$bratio1992<1] <- "orange1"
+par.estimates.1010.brp.both$colour1992[par.estimates.1010.brp.both$bratio1992>=1] <- "green"
+
+par.estimates.1010.brp.both$pch1992[is.na(par.estimates.1010.brp.both$bratio1992)] <- 1 
+par.estimates.1010.brp.both$pch1992[par.estimates.1010.brp.both$bratio1992<0.5] <- 22
+par.estimates.1010.brp.both$pch1992[par.estimates.1010.brp.both$bratio1992>=0.5 & par.estimates.1010.brp.both$bratio1992<1] <- 2
+par.estimates.1010.brp.both$pch1992[par.estimates.1010.brp.both$bratio1992>=1] <- 1
+
+
+#order(par.estimates.1010$assessid)
+odbcClose(chan)
+
+
+write.csv(c(1,5),"BRP-timestamp.csv")

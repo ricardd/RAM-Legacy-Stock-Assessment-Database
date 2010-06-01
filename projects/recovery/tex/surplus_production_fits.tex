@@ -1,0 +1,55 @@
+\documentclass[12pt]{proc}
+\usepackage[top=.5in, nohead, nofoot]{geometry}
+\usepackage[latin1]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[dvips]{graphicx}
+\usepackage{appendix}
+\usepackage{graphics}
+\usepackage{amsmath, amsthm,natbib}
+\usepackage{amssymb, latexsym}
+\usepackage{textcomp}
+\usepackage{verbatim}
+\usepackage{setspace}
+\usepackage{graphics}
+\usepackage{wasysym}
+\usepackage{float}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{verbatim}
+\usepackage{listings}
+\setcounter{secnumdepth}{-1}
+\author{C. Minto}
+\title{Biomass dynamic model fit comparisons}
+\date{}
+\begin{document}
+\maketitle
+\citet{WaltersHilborn1976} presented a difference form of the continuous Schaefer
+\begin{equation}
+B_{t+1}=B_{t}+rB_{t}\left( 1-\frac{B_{t}}{k}\right)-qE_{t}B_{t}
+\label{eqn:schaefer1}
+\end{equation}
+where $B_t$ is the biomass at time $t$, $r$ is the population growth rate, $k$ is the carrying capacity, $q$ is catchability, and $E_{t}$ is effort. From the assessment database, estimates of the biomass $(\hat{B_{t}})$ and catch $(\hat{C_{t}})$ are provided. For clarity, equation~(\ref{eqn:schaefer1}) is re-written  
+\begin{equation}
+ \hat{B}_{t+1}=\hat{B_{t}}+r\hat{B_{t}}\left( 1-\frac{\hat{B_{t}}}{k}\right)-\hat{C_{t}}
+\label{eqn:schaefer2}
+\end{equation}
+Estimates of the uncertainty are not generally available so the $\hat{B_t}$ and $\hat{C_t}$ are treated as knowns. The question is, how to obtain parameter estimates and resulting reference points from these series? \citet{WaltersHilborn1991} suggest two methods: regression and timeseries fitting.
+\subsection{Regression}
+Surplus production is given by
+\begin{equation}
+ S_{t}=B_{t+1}-B_{t}+C_{t}
+\end{equation}
+where $S_{t}$ is the surplus production at time $t$ \citep{Hilborn2001}. Re-formulating equation~(\ref{eqn:schaefer2})
+\begin{equation}
+\hat{S}_{t}=\hat{B}_{t+1}-\hat{B}_{t}+\hat{C}_{t}=rB_{t}\left( 1-\frac{B_{t}}{k}\right)
+\end{equation}
+which can be written as a surplus production rate over biomass.
+\begin{eqnarray}
+\frac{\hat{S}_{t}}{B_{t}}&=&r\left( 1-\frac{B_{t}}{k}\right)\\
+&=&r-\frac{r}{k} B_{t}
+\end{eqnarray}
+\bibliographystyle{./coilin.bst}
+\bibliography{/home/srdbadmin/SQLpg/srDB/doc/srdb.bib}
+\end{document}
+ 
+The surplus production formula presented in 

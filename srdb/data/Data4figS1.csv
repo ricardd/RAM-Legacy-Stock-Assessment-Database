@@ -1,0 +1,143 @@
+"assessid","LME","common_name","Bratio-for-Fig3B","Uratio-for-Fig3B","Both_from_Assessments"
+"ICCAT-ALBANATL-1930-2006-WORM","Atlantic High Seas","Albacore tuna",0.81,1.49,1
+"ICCAT-ATBTUNAEATL-1955-2007-WORM","Atlantic High Seas","Atlantic bluefin tuna",0.34,9.38,1
+"WGBFAS-HERR2532-1973-2006-JENNINGS","Baltic Sea","Herring",0.69,0.79,0
+"WGBFAS-HERRRIGA-1976-2007-JENNINGS","Baltic Sea","Herring",1.21,0.87,0
+"WGBFAS-HERR30-1972-2007-JENNINGS","Baltic Sea","Herring",1.19,1.1,0
+"WGBFAS-SPRAT22-32-1973-2007-JENNINGS","Baltic Sea","Sprat",1.13,1.27,0
+"WGBFAS-CODBA2224-1969-2007-JENNINGS","Baltic Sea","Atlantic cod",0.36,1.43,0
+"WGBFAS-CODBA2532-1964-2007-JENNINGS","Baltic Sea","Atlantic cod",0.16,1.46,0
+"WGBFAS-HERR31-1979-2006-JENNINGS","Baltic Sea","Herring",0.29,1.6,0
+"AFWG-CAPENOR-1964-2006-MINTO","Barents Sea","Capelin",0.17,0,0
+"AFWG-POLLNEAR-1957-2006-MINTO","Barents Sea","Pollock",1.7,0.6,0
+"AFWG-HADNEAR-1947-2006-MINTO","Barents Sea","Haddock",1.1,1.06,0
+"AFWG-GHALNEAR-1959-2007-JENNINGS","Barents Sea","Greenland halibut",0.36,1.2,0
+"AFWG-CODNEAR-1943-2006-MINTO","Barents Sea","Atlantic cod",0.56,1.42,0
+"MARAM-ANCHOSA-1984-2006-deMoor","Benguela Current","Anchovy",0.97,0.36,0
+"MARAM-SARDSA-1984-2006-deMoor","Benguela Current","Sardine",0.75,0.55,0
+"MARAM-CTRACSA-1950-2007-Johnston","Benguela Current","Cape horse mackerel",1.47,0.76,0
+"MARAM-SSLOBSTERSASC-1973-2008-Johnston","Benguela Current","Southern spiny lobster",0.51,1.5,0
+"NWFSC-CROCKPCOAST-1916-2007-BRANCH","California Current","Canary rockfish",0.82,0.02,1
+"NWFSC-CHILISPCOAST-1892-2007-BRANCH","California Current","Chilipepper",2.77,0.04,1
+"NWFSC-WROCKPCOAST-1955-2006-BRANCH","California Current","Widow rockfish",0.91,0.05,0
+"NWFSC-COWCODSCAL-1900-2007-BRANCH","California Current","Cowcod",0.2,0.07,1
+"NWFSC-ESOLEPCOAST-1876-2007-BRANCH","California Current","English sole",10.71,0.07,1
+"NWFSC-BOCACCSPCOAST-1951-2006-BRANCH","California Current","Bocaccio",0.32,0.1,0
+"NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH","California Current","Arrowtooth flounder",5.02,0.21,1
+"NWFSC-DKROCKPCOAST-1928-2007-BRANCH","California Current","Darkblotched rockfish",0.62,0.31,0
+"NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH","California Current","Black rockfish",1.49,0.33,0
+"NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH","California Current","Black rockfish",1.37,0.47,0
+"NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH","California Current","Yelloweye rockfish",1.11,0.65,1
+"NWFSC-SABLEFPCOAST-1900-2007-BRANCH","California Current","Sablefish",2.13,0.69,1
+"NWFSC-PHAKEPCOAST-1966-2008-BRANCH","California Current","Pacific hake",3.66,0.73,1
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","California Current","Longnose skate",27.12,0.8,1
+"NWFSC-BLUEROCKCAL-1916-2007-BRANCH","California Current","Blue rockfish",0.82,1.19,0
+"WGNSDS-PLAICIS-1962-2006-MINTO","Celtic-Biscay Shelf","European Plaice",1.07,0.23,0
+"WGNSDS-CODVIa-1977-2006-MINTO","Celtic-Biscay Shelf","Atlantic cod",0.12,0.23,0
+"HAWG-HERRNIRS-1960-2006-JENNINGS","Celtic-Biscay Shelf","Herring",0.72,0.34,0
+"WGSSDS-PLAICCELT-1976-2006-JENNINGS","Celtic-Biscay Shelf","European Plaice",0.65,0.41,0
+"WGNSDS-HADVIa-1977-2006-MINTO","Celtic-Biscay Shelf","Haddock",0.67,0.5,0
+"WGNSDS-CODIS-1968-2006-MINTO","Celtic-Biscay Shelf","Atlantic cod",0.15,0.56,0
+"WGNSSK-SOLEVIId-1981-2006-MINTO","Celtic-Biscay Shelf","common European sole",1.41,0.68,0
+"WGSSDS-SOLECS-1970-2006-JENNINGS","Celtic-Biscay Shelf","common European sole",0.9,0.95,0
+"HAWG-HERRVIaVIIbc-1969-2000-MINTO","Celtic-Biscay Shelf","Herring",0.53,0.98,0
+"WGHMM-SOLEVIII-1982-2006-JENNINGS","Celtic-Biscay Shelf","common European sole",0.75,1,0
+"WGNSDS-SOLEIS-1968-2006-MINTO","Celtic-Biscay Shelf","common European sole",0.36,1.16,0
+"WGSSDS-WHITVIIek-1982-2007-JENNINGS","Celtic-Biscay Shelf","Whiting",0.44,1.25,0
+"WGSSDS-PLAICECHW-1975-2006-JENNINGS","Celtic-Biscay Shelf","European Plaice",0.51,1.39,0
+"HAWG-HERRVIa-1957-2006-MINTO","Celtic-Biscay Shelf","Herring",0.18,1.59,0
+"WGNPBW-BWHITNEA-1979-2007-JENNINGS","Celtic-Biscay Shelf","Blue whiting",0.67,1.66,0
+"WGSSDS-SOLEVIIe-1968-2006-JENNINGS","Celtic-Biscay Shelf","common European sole",0.51,1.74,0
+"NWWG-HADFAPL-1955-2007-MINTO","Faroe Plateau","Haddock",0.85,1.07,0
+"NWWG-POLLFAPL-1958-2006-MINTO","Faroe Plateau","Pollock",0.99,1.52,0
+"NWWG-CODFAPL-1959-2006-MINTO","Faroe Plateau","Atlantic cod",0.26,1.52,0
+"DFO-PAC-HERRWCVANI-1951-2007-COLLIE","Gulf of Alaska","Pacific herring",0.03,0,0
+"DFO-PAC-HERRQCI-1951-2007-COLLIE","Gulf of Alaska","Pacific herring",0.2,0,0
+"NWFSC-POPERCHPCOAST-1953-2007-BRANCH","Gulf of Alaska","Pacific ocean perch",1.79,0.08,1
+"DFO-PAC-HERRCC-1951-2007-COLLIE","Gulf of Alaska","Pacific herring",0.3,0.11,0
+"DFO-PAC-PCODHS-1956-2005-COLLIE","Gulf of Alaska","Pacific cod",0.37,0.25,0
+"DFO-PAC-HERRPRD-1951-2007-COLLIE","Gulf of Alaska","Pacific herring",0.16,0.32,0
+"DFO-PAC-ESOLEHS-1944-2005-COLLIE","Gulf of Alaska","English sole",1.23,0.37,0
+"DFO-PAC-HERRSOG-1951-2007-COLLIE","Gulf of Alaska","Pacific herring",0.91,0.4,0
+"DFO-PAC-RSOLEHSTR-1945-2001-COLLIE","Gulf of Alaska","Rock sole",1.03,0.45,0
+"DFO-PAC-PCODWCVANI-1956-2002-COLLIE","Gulf of Alaska","Pacific cod",1.04,0.47,1
+"SEFSC-MENATGM-1964-2004-GILROY","Gulf of Mexico","Gulf menhaden",1.08,0.48,0
+"SEFSC-GAGGM-1963-2004-JENSEN","Gulf of Mexico","Gag",1,1.99,1
+"WGHMM-FMEG8c9a-1986-2006-JENNINGS","Iberian Coastal","Fourspotted megrim",0.7,1.01,0
+"WGHMM-MEG8c9a-1985-2007-JENNINGS","Iberian Coastal","Megrim",0.43,1.07,0
+"WGBFAS-HERRIsum-1983-2007-JENNINGS","Iceland Shelf","Herring",1,0.79,0
+"NWWG-CAPEICE-1977-2007-MINTO","Iceland Shelf","Capelin",0.49,0.85,0
+"NWWG-CODICE-1952-2006-MINTO","Iceland Shelf","Atlantic cod",0.46,1.17,0
+"NWWG-HADICE-1977-2007-MINTO","Iceland Shelf","Haddock",0.98,1.23,0
+"ICCAT-SWORDMED-1968-2006-JENSEN","Mediterranean Sea","Swordfish",0.94,1.26,1
+"NIWA-HOKIENZ-1972-2007-FRANCIS","New Zealand Shelf","Hoki",1.11,0.33,0
+"NIWA-PINKLINGLIN7WC-1972-2008-JENSEN","New Zealand Shelf","Australian rockling",1.88,0.33,0
+"NIWA-PINKLINGLIN3-4-1972-2007-JENSEN","New Zealand Shelf","Australian rockling",1.42,0.37,0
+"NIWA-PINKLINGLIN5-6-1972-2007-JENSEN","New Zealand Shelf","Australian rockling",1.64,0.39,0
+"NIWA-HOKIWNZ-1972-2007-FRANCIS","New Zealand Shelf","Hoki",0.51,0.57,0
+"NIWA-BFOOTABALONEPAU5B-1963-2007-JENSEN","New Zealand Shelf","Blackfoot abalone",1.02,0.59,0
+"NIWA-PINKLINGLIN6b-1980-2006-JENSEN","New Zealand Shelf","Australian rockling",1.09,0.9,0
+"NIWA-BFOOTABALONEPAU7-1964-2008-JENSEN","New Zealand Shelf","Blackfoot abalone",0.87,0.94,0
+"NIWA-PINKLINGLIN72-1972-2007-JENSEN","New Zealand Shelf","Australian rockling",1.19,0.96,0
+"NIWA-SBWHITACIR-1979-2006-JENSEN","New Zealand Shelf","Southern blue whiting",0.86,1.2,0
+"NIWA-WHITETREVALLYTRE7-1944-2005-JENSEN","New Zealand Shelf","White trevally",0.9,1.49,0
+"NIWA-SOUTHHAKECR-1975-2006-JENSEN","New Zealand Shelf","Southern hake",0.46,1.97,0
+"NIWA-BFOOTABALONEPAU5D-1964-2006-JENSEN","New Zealand Shelf","Blackfoot abalone",0.44,2.1,0
+"NIWA-GEMFISHNZ-1952-2006-JENSEN","New Zealand Shelf","common gemfish",0.34,2.23,0
+"NIWA-BFOOTABALONEPAU5A-1964-2006-JENSEN","New Zealand Shelf","Blackfoot abalone",0.72,2.83,0
+"NIWA-SOUTHHAKESA-1975-2007-JENSEN","New Zealand Shelf","Southern hake",0.92,3.4,0
+"NIWA-NZSNAPNZ8-1931-2005-JENSEN","New Zealand Shelf","New Zealand snapper",0.16,5.91,0
+"NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE","Newfoundland-Labrador Shelf","Redfish species",1.91,0.01,1
+"DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE","Newfoundland-Labrador Shelf","American Plaice",0.12,0.07,0
+"NAFO-SC-COD3NO-1953-2007-PREFONTAINE","Newfoundland-Labrador Shelf","Atlantic cod",0.07,0.25,0
+"DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE","Newfoundland-Labrador Shelf","Atlantic cod",0.48,0.41,0
+"DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE","Newfoundland-Labrador Shelf","Atlantic cod",0.09,0.79,0
+"NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE","Newfoundland-Labrador Shelf","Greenland halibut",0.39,1.73,0
+"WGNSSK-HADNS-IIIa-1963-2006-MINTO","North Sea","Haddock",0.73,0.22,0
+"WGNSSK-SEELNS-1983-2007-MINTO","North Sea","Sand lance",0.92,0.24,0
+"WGNSSK-NPOUTNS-1983-2007-MINTO","North Sea","Norway pout",0.9,0.33,0
+"WGBFAS-CODKAT-1970-2006-MINTO","North Sea","Atlantic cod",0.16,0.37,0
+"WGBFAS-SOLEIIIa-1982-2007-JENNINGS","North Sea","common European sole",1.25,0.54,0
+"WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO","North Sea","Whiting",0.51,0.81,0
+"WGNSSK-CODNS-1962-2006-MINTO","North Sea","Atlantic cod",0.18,0.94,0
+"WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO","North Sea","Pollock",0.57,0.97,0
+"HAWG-HERRNS-1960-2007-MINTO","North Sea","Herring",0.65,1.32,0
+"NEFSC-AMPL5YZ-1960-2008-OBRIEN","Northeast U.S. Continental Shelf","American Plaice",0.7,0.3,0
+"DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE","Northeast U.S. Continental Shelf","Pollock",0.56,0.3,0
+"DFO-HAD4X5Y-1960-2003-PREFONTAINE","Northeast U.S. Continental Shelf","Haddock",0.85,0.33,0
+"DFO-COD5Zjm-1978-2003-PREFONTAINE","Northeast U.S. Continental Shelf","Atlantic cod",0.34,0.45,0
+"RIDEM-TAUTOGRI-1959-2007-COLLIE","Northeast U.S. Continental Shelf","Tautog",3.08,0.62,1
+"DFO-HAD5Zejm-1969-2003-PREFONTAINE","Northeast U.S. Continental Shelf","Haddock",1,0.65,0
+"NEFSC-CODGB-1960-2008-BAUM","Northeast U.S. Continental Shelf","Atlantic cod",0.12,0.72,0
+"RIDEM-LOBSTERRI-1959-2007-COLLIE","Northeast U.S. Continental Shelf","American lobster",0.61,0.73,1
+"NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO","Northeast U.S. Continental Shelf","Winter Flounder",0.09,1.1,0
+"NEFSC-YELLGB-1935-2008-BAUM","Northeast U.S. Continental Shelf","Yellowtail flounder",0.22,1.14,1
+"NEFSC-HAD5Y-1956-2008-BAUM","Northeast U.S. Continental Shelf","Haddock",0.99,1.21,0
+"RIDEM-WINFLOUNDRI-1959-2007-COLLIE","Northeast U.S. Continental Shelf","Winter flounder",0.23,2.02,1
+"NEFSC-CODGOM-1893-2008-BAUM","Northeast U.S. Continental Shelf","Atlantic cod",0.63,2.4,1
+"WGHMM-HAKENRTN-1978-2007-JENNINGS","Norwegian Sea","Hake",1.03,0.73,0
+"WGMHSA-MACKNEICES-1972-2007-JENNINGS","Norwegian Sea","Mackerel",0.98,0.73,0
+"AFWG-CODCOASTNOR-1982-2006-MINTO","Norwegian Sea","Atlantic cod",0.27,2.17,0
+"SPC-SKJCWPAC-1972-2007-JENSEN","Pacific High Seas","Skipjack tuna",3.93,0.16,1
+"SPC-ALBASPAC-1959-2007-JENSEN","Pacific High Seas","Albacore tuna",2.15,0.46,1
+"SPC-YFINCWPAC-1952-2006-JENSEN","Pacific High Seas","Yellowfin tuna",1.49,0.56,1
+"SPC-BIGEYEWPO-1952-2007-JENSEN","Pacific High Seas","Bigeye tuna",1.15,1.23,1
+"INIDEP-PATGRENADIERSARG-1983-2006-Parma","Patagonian Shelf","Patagonian grenadier",2.15,0.6,1
+"INIDEP-SBWHITARGS-1985-2007-Parma","Patagonian Shelf","Southern blue whiting",0.38,1.18,0
+"INIDEP-ARGHAKESARG-1985-2007-Parma","Patagonian Shelf","Argentine hake",0.54,1.67,1
+"INIDEP-ARGHAKENARG-1986-2007-Parma","Patagonian Shelf","Argentine hake",0.15,2.48,1
+"DFO-SG-COD4T-1950-2007-HUTCHINGS","Scotian Shelf","Atlantic cod",0.16,0.32,0
+"DFO-SG-COD4TVn-1965-2007-PREFONTAINE","Scotian Shelf","Atlantic cod",0.17,0.32,0
+"CSIRO-OROUGHYSESSF-1978-2007-FULTON","Southeast Australian Shelf","Orange roughy",0.2,0.29,0
+"CSIRO-GEMFISHSESSF-1966-2007-FULTON","Southeast Australian Shelf","common gemfish",0.25,0.39,0
+"CSIRO-DEEPFLATHEADSESSF-1978-2007-FULTON","Southeast Australian Shelf","Deepwater flathead",1.43,0.61,0
+"CSIRO-SILVERFISHSESSF-1978-2006-FULTON","Southeast Australian Shelf","Silverfish",1.03,0.79,0
+"CSIRO-SWHITSESSF-1945-2007-FULTON","Southeast Australian Shelf","School whiting",0.66,0.82,0
+"CSIRO-WAREHOUSESSF-1984-2006-FULTON","Southeast Australian Shelf","Blue Warehou",0.49,0.84,0
+"CSIRO-TIGERFLATSESSF-1913-2006-FULTON","Southeast Australian Shelf","Tiger flathead",1.78,1.03,0
+"CSIRO-MORWONGSESSF-1913-2007-FULTON","Southeast Australian Shelf","Jackass morwong",0.31,1.8,0
+"CSIRO-WAREHOUGABSESSF-1984-2006-FULTON","Southeast Australian Shelf","Blue Warehou",0.41,2.04,0
+"CSIRO-PINKLINGSESSF-1968-2007-FULTON","Southeast Australian Shelf","Australian rockling",0.59,2.2,0
+"CSIRO-PINKLINGGABSESSF-1968-2007-FULTON","Southeast Australian Shelf","Australian rockling",1.08,8.98,0
+"SEFSC-RPORGYSATLC-1972-2005-JENSEN","Southeast U.S. Continental Shelf","Red porgy",0.61,0.39,1
+"SEFSC-SPANMACKSATLC-1950-2008-JENSEN","Southeast U.S. Continental Shelf","Spanish mackerel",0.47,0.91,1

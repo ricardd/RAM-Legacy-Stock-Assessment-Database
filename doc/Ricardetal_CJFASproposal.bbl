@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+{\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
+|immediate|write|@auxout{\expandafter\ifx\csname
+  natexlab\endcsname\relax\gdef\natexlab#1{#1}\fi}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\harvarditem[Myers \emph{et~al.}]{Myers, Bridson \harvardand{}
+  Barrowman}{1995}{Myersetal1995a}
+Myers, R.~A., Bridson, J., \harvardand{} Barrowman, N.~J. \harvardyearleft
+  1995\harvardyearright{}.
+\newblock Summary of worldwide spawner and recruitment data.
+\newblock Canadian Technical Report of Fisheries and Aquatic Sciences,
+  \textbf{2024:iv}:327p.
+
+\end{thebibliography}

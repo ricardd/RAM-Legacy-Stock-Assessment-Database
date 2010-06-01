@@ -1,0 +1,358 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  27 MAY 2010 12:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**srdb-cite
+(./srdb-cite.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+) (./srdb-cite.aux
+(./srdb-citations.aux))
+\openout1 = `srdb-cite.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+\openout2 = `srdb-citations.aux'.
+
+ (./srdb-citations.tex
+
+Package natbib Warning: Citation `ADFG-HERRPWS-1980-2006-COLLIE' on page 1 unde
+fined on input line 1.
+
+
+Package natbib Warning: Citation `ADFG-HERRSITKA-1978-2007-COLLIE' on page 1 un
+defined on input line 2.
+
+
+Package natbib Warning: Citation `CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN' on page
+ 1 undefined on input line 52.
+
+
+Package natbib Warning: Citation `NIWA-AUSSALMONNZ-1975-2006-JENSEN' on page 1 
+undefined on input line 200.
+
+
+Package natbib Warning: Citation `NIWA-OROUGHYNZMEC-1981-2004-JENSEN' on page 1
+ undefined on input line 201.
+
+
+Package natbib Warning: Citation `NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENS
+EN' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSE
+N' on page 1 undefined on input line 234.
+
+
+Package natbib Warning: Citation `NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JEN
+SEN' on page 1 undefined on input line 235.
+
+
+Package natbib Warning: Citation `NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN' 
+on page 1 undefined on input line 238.
+
+
+Package natbib Warning: Citation `NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSE
+N' on page 1 undefined on input line 239.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-J
+ENSEN' on page 1 undefined on input line 240.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-J
+ENSEN' on page 1 undefined on input line 241.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-J
+ENSEN' on page 1 undefined on input line 242.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-J
+ENSEN' on page 1 undefined on input line 243.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-J
+ENSEN' on page 1 undefined on input line 244.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-J
+ENSEN' on page 1 undefined on input line 245.
+
+
+Package natbib Warning: Citation `NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-J
+ENSEN' on page 1 undefined on input line 246.
+
+
+Package natbib Warning: Citation `NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN
+' on page 1 undefined on input line 247.
+
+
+Package natbib Warning: Citation `NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JEN
+SEN' on page 1 undefined on input line 248.
+
+
+Package natbib Warning: Citation `NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENS
+EN' on page 1 undefined on input line 250.
+
+
+Package natbib Warning: Citation `NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSE
+N' on page 1 undefined on input line 253.
+
+
+Package natbib Warning: Citation `NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENS
+EN' on page 1 undefined on input line 254.
+
+
+Package natbib Warning: Citation `NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN
+' on page 1 undefined on input line 256.
+
+
+Package natbib Warning: Citation `NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN
+' on page 1 undefined on input line 257.
+
+
+Package natbib Warning: Citation `NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN
+' on page 1 undefined on input line 258.
+
+
+Package natbib Warning: Citation `SEFSC-MENATGM-1964-2004-GILROY' on page 1 und
+efined on input line 277.
+
+
+Package natbib Warning: Citation `WGNPBW-BWHITNEA-1980-2007-JENNINGS' on page 1
+ undefined on input line 325.
+
+
+Package natbib Warning: Citation `WGNSDS-CODVIa-1977-2006-MINTO' on page 1 unde
+fined on input line 327.
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3]
+(./srdb-cite.bbl [4
+
+] [5]
+! Undefined control sequence.
+l.201   62{\textdegree
+                      }N (HAWG).
+? 
+! Undefined control sequence.
+l.208   62{\textdegree
+                      }N (HAWG).
+? 
+! Undefined control sequence.
+l.215   62{\textdegree
+                      }N (HAWG).
+? 
+! Undefined control sequence.
+l.222   62{\textdegree
+                      }N (HAWG).
+? 
+[6]
+Runaway argument?
+Anon(2007{\natexlab {{}}}{WGNPBW-BWHITNEA-1980-2007-JENNINGS} Anon \harvardyear
+left \ETC.
+! Paragraph ended before \@lbibitem was complete.
+<to be read again> 
+                   \par 
+l.341 ...rleft 2007{\natexlab{}}}\harvardyearright
+                                                  {}.
+? 
+! Argument of \\harvarditem has an extra }.
+<inserted text> 
+                \par 
+l.341 ...rleft 2007{\natexlab{}}}\harvardyearright
+                                                  {}.
+? 
+Runaway argument?
+! Paragraph ended before \\harvarditem was complete.
+<to be read again> 
+                   \par 
+l.341 ...rleft 2007{\natexlab{}}}\harvardyearright
+                                                  {}.
+? 
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.341 ...rleft 2007{\natexlab{}}}\harvardyearright
+                                                  {}.
+? 
+[7]
+! Undefined control sequence.
+l.384   62{\textdegree
+                      }N (HAWG).
+? 
+! Undefined control sequence.
+l.412   62{\textdegree
+                      }N (HAWG).
+? 
+[8] [9] [10] [11] [12]
+Underfull \hbox (badness 1960) in paragraph at lines 780--785
+\OT1/cmr/m/n/12 through 2007: Re-port of the 3rd Ground-fish As-sess-ment Re-vi
+ew
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 780--785
+\OT1/cmr/m/n/12 Meet-ing (GARM III),.  Tech. rep., Woods Hole, Mas-sachusetts.
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 795--800
+\OT1/cmr/m/n/12 through 2007: Re-port of the 3rd Ground-fish As-sess-ment Re-vi
+ew
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 795--800
+\OT1/cmr/m/n/12 Meet-ing (GARM III),.  Tech. rep., Woods Hole, Mas-sachusetts.
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 803--808
+\OT1/cmr/m/n/12 through 2007: Re-port of the 3rd Ground-fish As-sess-ment Re-vi
+ew
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 803--808
+\OT1/cmr/m/n/12 Meet-ing (GARM III),.  Tech. rep., Woods Hole, Mas-sachusetts.
+ []
+
+[13] [14] [15]
+Underfull \hbox (badness 1024) in paragraph at lines 989--995
+[]\OT1/cmr/m/n/12 DS, B. and SJ, J. (????c).  MARAM/OLRAC av-er-aged Fi-nal are
+a-
+ []
+
+[16] [17]
+Underfull \hbox (badness 3229) in paragraph at lines 1151--1156
+[]\OT1/cmr/m/n/12 Haddon, M., NULL, Gard-ner, C. and Ziegler, P. (2005).  Tas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1156
+\OT1/cmr/m/n/12 ma-nian gi-ant crab fish-ery - 2006/07.  Tech. rep., NULL.
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1213.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1213.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1213.
+
+Underfull \hbox (badness 1603) in paragraph at lines 1209--1216
+\OT1/cmr/m/n/12 PRO-DUCCI[]ON ES-TRUC-TURADO POR EDADES Y CAP-TURAS
+ []
+
+[18]
+Underfull \hbox (badness 1102) in paragraph at lines 1283--1289
+\OT1/cmr/m/n/12 ment in the 2008-2009 fish-ing sea-son.  Tech. rep., Port-land,
+ OR.
+ []
+
+[19]
+Underfull \hbox (badness 1577) in paragraph at lines 1326--1331
+[]\OT1/cmr/m/n/12 Ianelli, J..W.M..A.K..L.R..S.I. and Lowe, S. (2008).  15. Sto
+ck As-
+ []
+
+[20] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1639
+[]\OT1/cmr/m/n/12 NULL (2006a).  NULL.  Tech. rep., NULL.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1645
+[]\OT1/cmr/m/n/12 NULL (2006b).  NULL.  Tech. rep., NULL.
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1647--1651
+[]\OT1/cmr/m/n/12 NULL (2006c).  NULL.  Tech. rep., NULL.
+ []
+
+[24] [25]
+Underfull \hbox (badness 4940) in paragraph at lines 1862--1867
+\OT1/cmr/m/n/12 (Epinephelus nivea-tus) in the South At-lantic Fish-eries Man-a
+ge-
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 1862--1867
+\OT1/cmr/m/n/12 ment Coun-cil Man-age-ment Area.  Tech. rep.  2004-SEDAR-
+ []
+
+
+Overfull \hbox (394.89442pt too wide) in paragraph at lines 1869--1875
+[]\OT1/cmr/m/n/12 Panel, S..S.A. (2008).  As-sess-ment?of?Tilefish,?Lopholatilu
+s?chamaeleonticeps,?in?the?South?Atlantic?Fishery?Management?Council?Management
+?Area?
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 1877--1880
+[]\OT1/cmr/m/n/12 PD, S. and RF, R. (2008).  Chap-ter 13A Short-raker Rock-fish
+.
+ []
+
+[26] [27] [28] [29] [30])
+
+Package natbib Warning: There were undefined citations.
+
+[31] (./srdb-cite.aux (./srdb-citations.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1583 strings out of 495061
+ 48583 string characters out of 1182621
+ 73993 words of memory out of 3000000
+ 4820 multiletter control sequences out of 15000+50000
+ 7636 words of font info for 27 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 28i,4n,27p,246b,831s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on srdb-cite.pdf (31 pages, 105176 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

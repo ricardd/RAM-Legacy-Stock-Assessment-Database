@@ -1,0 +1,4 @@
+#!/usr/bin/perl -w
+# a Perl script to generate a single pdf file containing summaries and plots for all assessments in the database
+# Daniel Ricard, started 2009-12-05 from earlier Perl script in /trunk/perl
+# Time-stamp: <2010-03-25 13:25:54 (srdbadmin)>

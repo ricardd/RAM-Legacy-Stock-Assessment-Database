@@ -1,0 +1,36 @@
+skype call with Julia, Olaf and Coilin
+
+points to be covered
+
+- reference points: cumbersome, but has to be done
+
+- QAQC: probe people to do QAQC
+
+- SAUP data and how to handle non-fish species and highly migratory species
+-> make an srDB-only dendrogram
+-> multi-panel for fish species
+-> multi-panel for invertebrates species (possibly on one row comparing SAUP to srdb)
+
+- Olaf suggestion: global sum of catch per species (last 10 years) from SAUP and see what percentage of the catch is represented in srdb + same for inverts.
+|-> follow up with Olaf on that
+
+- show Table 2 to Reg and make sure that he's ok with it.
+|-> top 30 tonnage fisheries
+
+- surplus production model estimates: add to methods 
+
+Julia questions:
+- results: notes about Data Thief extractions
+
+- EXCLUDE ASSESSMENTS WITH ONLY CPUE data, i.e. where assess=1 ONLY
+-> list of those with CPUE data only
+-> keep if an absolute biomass estimate is available
+
+- write-up
+
+- figures and tables
+
+- timeline
+
+- Fogarty/Murawski 
+- Manderson

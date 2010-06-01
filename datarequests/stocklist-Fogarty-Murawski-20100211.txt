@@ -1,0 +1,164 @@
+                     assessid                     |                              stocklong                               | fpercentreduction 
+--------------------------------------------------+----------------------------------------------------------------------+-------------------
+ AFSC-CABEZNCAL-1916-2005-STANTON                 | Cabezon Northern California                                          |  70.7214887202412
+ AFSC-CABEZSCAL-1932-2005-STANTON                 | Cabezon Southern California                                          |  81.6121876625931
+ AFSC-GHALBSAI-1960-2009-STANTON                  | Greenland turbot Bering Sea and Aleutian Islands                     |                40
+ AFSC-NROCKGA-1959-2008-MELNYCHUK                 | Northern rockfish Gulf of Alaska                                     |  96.6101694915254
+ AFSC-POPERCHGA-1959-2008-MELNYCHUK               | Pacific ocean perch Gulf of Alaska                                   |  94.6969696969697
+ AFSC-TANNERCRABBSAI-1965-2008-JENSEN             | Tanner crab Bering Sea and Aleutian Islands                          |  93.1034482758621
+ AFSC-WPOLLAI-1976-2008-MELNYCHUK                 | Walleye pollock Aleutian Islands                                     |  97.4910394265233
+ AFWG-CODCOASTNOR-1982-2006-MINTO                 | Atlantic cod coastal Norway                                          |  40.9372071227741
+ AFWG-CODNEAR-1943-2006-MINTO                     | Atlantic cod Northeast Arctic                                        |  51.4595580782485
+ AFWG-GHALNEAR-1959-2007-JENNINGS                 | Greenland halibut Northeast Arctic                                   |  73.1443377533913
+ AFWG-GOLDREDNEAR-1986-2006-MINTO                 | Golden Redfish Northeast Arctic                                      |  27.5280898876404
+ AFWG-HADNEAR-1947-2006-MINTO                     | Haddock Northeast Arctic                                             |  75.5746677091478
+ AFWG-POLLNEAR-1957-2006-MINTO                    | Pollock Northeast Arctic                                             |  66.3582966226138
+ ASMFC-LOBSTERGB-1981-2007-STANTON                | American lobster Georges Bank                                        |  33.3333333333333
+ CSIRO-BTSHRIMPNAUST-1970-2006-FULTON             | Northern Australia brown tiger shrimp                                |  87.3722779037532
+ CSIRO-DEEPFLATHEADSE-1978-2007-FULTON            | Deepwater flathead Southeast Australia                               |  77.6243681187605
+ CSIRO-GEMFISHSE-1966-2007-FULTON                 | common gemfish Southeast Australia                                   |  92.4508812058297
+ CSIRO-GTPRAWNNAUST-1970-2006-FULTON              | Northern Australia grooved Tiger Prawn                               |  35.0317300096032
+ CSIRO-MORWONGSE-1913-2007-FULTON                 | Jackass morwong Southeast Australia                                  |  49.6145423668216
+ CSIRO-NZLINGESE-1968-2007-FULTON                 | New Zealand ling Eastern half of Southeast Australia                 |  57.9247242065312
+ CSIRO-OROUGHYSE-1978-2007-FULTON                 | Orange roughy Southeast Australia                                    |   67.294338255213
+ CSIRO-SILVERFISHSE-1978-2006-FULTON              | Silverfish Southeast Australia                                       |  97.4170025706159
+ CSIRO-SWHITSE-1945-2007-FULTON                   | School whiting Southeast Australia                                   |  57.8086573571901
+ CSIRO-TIGERFLATSE-1913-2006-FULTON               | Tiger flathead Southeast Australia                                   |  96.2978957409212
+ CSIRO-WAREHOUESE-1984-2006-FULTON                | Blue Warehou Eastern half of Southeast Australia                     |  85.4802711257213
+ CSIRO-WAREHOUWSE-1984-2006-FULTON                | Blue Warehou Western half of Southeast Australia                     |  57.5250606118578
+ DFO-COD5Zjm-1978-2003-PREFONTAINE                | Atlantic cod NAFO 5Zjm                                               |  82.2822822822823
+ DFO-HAD4X5Y-1960-2003-PREFONTAINE                | Haddock NAFO-4X5Y                                                    |  71.4285714285714
+ DFO-HAD5Zejm-1969-2003-PREFONTAINE               | Haddock NAFO-5Zejm                                                   |  86.0189573459716
+ DFO-HERR4VWX-1965-2006-PREFONTAINE               | Herring Scotian Shelf and Bay of Fundy                               |  56.0975609756098
+ DFO-PAC-HERRCC-1951-2007-COLLIE                  | Pacific herring Central Coast                                        |               100
+ DFO-PAC-HERRPRD-1951-2007-COLLIE                 | Pacific herring Prince Rupert District                               |               100
+ DFO-PAC-HERRQCI-1951-2007-COLLIE                 | Pacific herring Queen Charlotte Islands                              |               100
+ DFO-PAC-HERRSOG-1951-2007-COLLIE                 | Pacific herring Straight of Georgia                                  |  99.5759117896523
+ DFO-PAC-HERRWCVANI-1951-2007-COLLIE              | Pacific herring West Coast of Vancouver Island                       |               100
+ DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE            | Pollock NAFO-4VWX5Zc                                                 |  92.3444976076555
+ DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE          | Atlantic cod NAFO 3Pn4RS                                             |  98.8826815642458
+ DFO-QUE-HERR4RFA-1973-2003-PREFONTAINE           | Herring NAFO 4R fall spawners                                        |  80.4878048780488
+ DFO-SG-COD4TVn-1965-2007-PREFONTAINE             | Atlantic cod NAFO 4TVn                                               |               100
+ HAWG-HERR2224IIIa-1991-2006-MINTO                | Herring ICES 22-24-IIIa                                              |  45.6126687435099
+ HAWG-HERRNIRS-1960-2006-JENNINGS                 | Herring Northern Irish Sea                                           |  71.9340054995417
+ HAWG-HERRNS-1960-2007-MINTO                      | Herring North Sea                                                    |  96.3886617606977
+ HAWG-HERRVIa-1957-2006-MINTO                     | Herring ICES VIa                                                     |  99.9622961636347
+ HAWG-HERRVIaVIIbc-1969-2000-MINTO                | Herring ICES VIa-VIIb-VIIc                                           |  54.1045895410459
+ ICCAT-ALBANATL-1929-2005-WORM                    | Albacore tuna North Atlantic                                         |  56.8081991215227
+ ICCAT-ATBTUNAEATL-1979-2007-WORM                 | Bluefin tuna Eastern Atlantic                                        |  68.5340802987862
+ ICCAT-ATBTUNAWATL-1969-2007-WORM                 | Bluefin tuna Western Atlantic                                        |  50.8599508599509
+ ICCAT-BIGEYEATL-1950-2005-JENSEN                 | Bigeye tuna Atlantic                                                 |  42.6229508196721
+ ICCAT-SWORDNATL-1978-2007-JENSEN                 | Swordfish North Atlantic                                             |             45.44
+ ICCAT-YFINATL-1970-2006-JENSEN                   | Yellowfin tuna Atlantic                                              |  34.4692737430168
+ INIDEP-ARGHAKENARG-1985-2007-Parma               | Argentine hake Northern Argentina                                    |  67.6150835559421
+ INIDEP-ARGHAKESARG-1985-2008-Parma               | Argentine hake Southern Argentina                                    |  47.8391959798995
+ IOTC-BIGEYEIO-1957-2006-JENSEN                   | Bigeye tuna Indian Ocean                                             |  21.5667618141453
+ MARAM-ANCHOSA-1984-2006-deMoor                   | Anchovy South Africa                                                 |  81.4814814814815
+ MARAM-CRLOBSTERSA12-1910-2008-Johnston           | South African west coast rock lobster South Africa Areas 1-2         |  50.7936507936508
+ MARAM-CRLOBSTERSA34-1910-2008-Johnston           | South African west coast rock lobster South Africa Areas 3-4         |  65.7142857142857
+ MARAM-CRLOBSTERSA56-1910-2008-Johnston           | South African west coast rock lobster South Africa Areas 5-6         |  38.2978723404255
+ MARAM-CRLOBSTERSA7-1910-2008-Johnston            | South African west coast rock lobster South Africa Area 7            |  69.6969696969697
+ MARAM-CRLOBSTERSA8-1910-2008-Johnston            | South African west coast rock lobster South Africa Area 8            |  45.7516339869281
+ MARAM-CTRACSA-1950-2007-Johnston                 | Cape horse mackerel South Africa South coast                         |  88.3040935672515
+ MARAM-KINGKLIPSA-1932-2008-DEDECKER              | Kingklip South Africa                                                |   78.448275862069
+ MARAM-PTOOTHFISHPEI-1960-2008-DEDECKER           | Patagonian toothfish South Africa Subantarctic Prince Edward Islands |  47.6190476190476
+ MARAM-SAABALONESA-1951-2008-PLAGANYI             | South African abalone South Africa                                   |                75
+ MARAM-SSLOBSTERSASC-1973-2008-Johnston           | Southern spiny lobster South Africa South coast                      |  31.5068493150685
+ NAFO-SC-AMPL3LNO-1955-2007-BAUM                  | American Plaice NAFO-3LNO                                            |  96.3302752293578
+ NAFO-SC-AMPL3M-1960-2007-BAUM                    | American Plaice NAFO-3M                                              |  82.1548821548822
+ NAFO-SC-COD3M-1959-2008-BAUM                     | Atlantic cod NAFO 3M                                                 |  99.5275590551181
+ NAFO-SC-COD3NO-1953-2007-BAUM                    | Atlantic cod NAFO 3NO                                                |  97.9452054794521
+ NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE        | Greenland halibut NAFO 23KLMNO                                       |  20.9142332976609
+ NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE       | Redfish species NAFO 3M                                              |  93.7877364819536
+ NEFSC-ACADREDGOMGB-1913-2007-MILLER              | Acadian redfish Gulf of Maine / Georges Bank                         |  97.2793028971839
+ NEFSC-AMPL5YZ-1960-2008-OBRIEN                   | American Plaice NAFO-5YZ                                             |                60
+ NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD            | Bluefish Atlantic Coast                                              |  58.0645161290322
+ NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ         | Atlantic butterfish Gulf of Maine / Cape Hatteras                    |  82.4712643678161
+ NEFSC-CODGB-1960-2008-BAUM                       | Atlantic cod Georges Bank                                            |  67.3913043478261
+ NEFSC-CODGOM-1893-2008-BAUM                      | Atlantic cod Gulf of Maine                                           |  77.1557271557272
+ NEFSC-HAD5Y-1956-2008-BAUM                       | Haddock NAFO-5Y                                                      |  94.3007512032747
+ NEFSC-HADGB-1930-2008-BAUM                       | Haddock Georges Bank                                                 |  81.1320754716981
+ NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ             | Atlantic herring Northwestern Atlantic Coast                         |  83.3527750155716
+ NEFSC-SCUPNWATLC-1960-2007-TERCEIRO              | Scup Atlantic Coast                                                  |  94.5535714285714
+ NEFSC-SDOGATLC-1962-2006-SOSEBEE                 | Spiny dogfish Atlantic Coast                                         |  77.0042194092827
+ NEFSC-SFLOUNMATLC-1940-2007-BAUM                 | Summer flounder Mid-Atlantic Coast                                   |  72.3310479921645
+ NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON           | Winter Flounder NAFO-5Z                                              |  69.5652173913043
+ NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO         | Winter Flounder Southern New England-Mid Atlantic                    |  34.7738693467337
+ NEFSC-WITFLOUN5Y-1982-2008-WIGLEY                | Witch Flounder NAFO-5Y                                               |  64.1975308641975
+ NEFSC-YELLGB-1935-2008-BAUM                      | Yellowtail flounder Georges Bank                                     |  72.1311475409836
+ NEFSC-YELLSNEMATL-1935-2008-BAUM                 | Yellowtail Flounder Southern New England-Mid Atlantic                |  87.5776397515528
+ NIWA-AUSSALMONNZ-1975-2006-JENSEN                | Australian salmon New Zealand                                        |  62.3041474654378
+ NIWA-OROUGHYNZMEC-1981-2004-JENSEN               | Orange roughy New Zealand Mid East Coast                             |  91.3901478881853
+ NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH            | Arrowtooth flounder Pacific Coast                                    |  63.3663366336634
+ NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH          | Black rockfish Northern Pacific Coast                                |  76.0416666666667
+ NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH          | Black rockfish Southern Pacific Coast                                |  65.9574468085106
+ NWFSC-BLUEROCKCAL-1916-2007-BRANCH               | Blue rockfish California                                             |           85.9375
+ NWFSC-BOCACCSPCOAST-1951-2006-BRANCH             | Bocaccio Southern Pacific Coast                                      |  99.1452991452991
+ NWFSC-CHILISPCOAST-1892-2007-BRANCH              | Chilipepper Southern Pacific Coast                                   |  99.2481203007519
+ NWFSC-COWCODSCAL-1900-2007-BRANCH                | Cowcod Southern California                                           |  93.6082474226804
+ NWFSC-CROCKPCOAST-1916-2007-BRANCH               | Canary rockfish Pacific Coast                                        |  98.9690721649485
+ NWFSC-DKROCKPCOAST-1928-2007-BRANCH              | Darkblotched rockfish Pacific Coast                                  |  92.4623115577889
+ NWFSC-ESOLEPCOAST-1876-2007-BRANCH               | English sole Pacific Coast                                           |  45.4545454545455
+ NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON    | Kelp greenling Oregon Coast                                          |  61.5428232754808
+ NWFSC-PHAKEPCOAST-1966-2008-BRANCH               | Pacific hake Pacific Coast                                           |  70.8661417322835
+ NWFSC-POPERCHPCOAST-1953-2007-BRANCH             | Pacific ocean perch Pacific Coast                                    |  96.3414634146341
+ NWFSC-SABLEFPCOAST-1900-2007-BRANCH              | Sablefish Pacific Coast                                              |  51.1111111111111
+ NWFSC-WROCKPCOAST-1955-2006-BRANCH               | Widow rockfish Pacific Coast                                         |  98.3050847457627
+ NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH            | Yelloweye rockfish Pacific Coast                                     |  95.2095808383233
+ NWWG-CODFAPL-1959-2006-MINTO                     | Atlantic cod Faroe Plateau                                           |   47.477455520351
+ NWWG-CODICE-1952-2006-MINTO                      | Atlantic cod Iceland                                                 |  43.3333333333333
+ NWWG-HADFAPL-1955-2006-MINTO                     | Haddock Faroe Plateau                                                |  64.9186602870813
+ NWWG-HADICE-1977-2007-MINTO                      | Haddock Iceland                                                      |  42.4396442185515
+ NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN  | Black oreo West end of Chatham Rise                                  |  62.6849376381813
+ NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN | Smooth oreo West end of Chatham Rise                                 |  75.1368926686397
+ NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS          | Hoki Eastern New Zealand                                             |   46.244635193133
+ NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS          | Hoki Western New Zealand                                             |  42.9146832662029
+ NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN      | New Zealand snapper New Zealand Area 8                               |  67.0005364814382
+ NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN   | Trevally New Zealand Areas TRE 7                                     |  23.5248763263166
+ NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN    | common gemfish New Zealand                                           |  41.9271313176319
+ NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN   | Southern blue whiting Campbell Island Rise                           |  84.9638788695331
+ NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN  | Southern hake Chatham Rise                                           |  84.2745418570268
+ NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN    | New Zealand abalone species New Zealand Area PAU 5A                  |  85.5722794863702
+ NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN    | New Zealand abalone species New Zealand Area PAU 5B                  |  66.8993380392605
+ NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN    | New Zealand abalone species New Zealand Area PAU 5D                  |  34.9190766677286
+ NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN     | New Zealand abalone species New Zealand Area PAU 7                   |  53.5087719298246
+ SEFSC-GAGGM-1963-2004-JENSEN                     | Gag Gulf of Mexico                                                   |  41.4634146341463
+ SEFSC-GAGSATLC-1962-2005-JENSEN                  | Gag Southern Atlantic coast                                          |                70
+ SEFSC-GRAMBERSATLC-1946-2006-JENSEN              | Greater amberjack Southern Atlantic coast                            |   51.063829787234
+ SEFSC-GTRIGGM-1981-2004-JENSEN                   | Gray triggerfish Gulf of Mexico                                      |  43.9393939393939
+ SEFSC-MENATGM-1964-2004-GILROY                   | Gulf menhaden Gulf of Mexico                                         |  71.9220549158547
+ SEFSC-RPORGYSATLC-1972-2005-JENSEN               | Red porgy Southern Atlantic coast                                    |  93.5734584627586
+ SEFSC-RSNAPSATLC-1945-2006-JENSEN                | Red snapper Southern Atlantic coast                                  |  35.4126848888172
+ SEFSC-SNOWGROUPSATLC-1961-2002-STANTON           | Snowy grouper Southern Atlantic coast                                |  54.8275862068965
+ SEFSC-SPANMACKSATLC-1950-2008-JENSEN             | Spanish mackerel Southern Atlantic Coast                             |   71.264367816092
+ SEFSC-TILESATLC-1961-2002-STANTON                | Tilefish Southern Atlantic coast                                     |  72.8564547206166
+ SEFSC-VSNAPGM-1981-2004-JENSEN                   | Vermilion snapper Gulf of Mexico                                     |  32.3101777059774
+ SEFSC-VSNAPSATLC-1946-2008-STANTON               | Vermilion snapper Southern Atlantic coast                            |  49.1775579170229
+ SPC-ALBASPAC-1959-2007-JENSEN                    | Albacore tuna South Pacific Ocean                                    |                50
+ SPC-BIGEYEWPO-1952-2007-JENSEN                   | Bigeye tuna Western Pacific Ocean                                    |  30.3268616367658
+ SPC-YFINCWPAC-1952-2006-JENSEN                   | Yellowfin tuna Central Western Pacific                               |   38.079739625712
+ SWFSC-CMACKPCOAST-1929-2008-PINSKY               | Pacific chub mackerel Pacific Coast                                  |  94.5819450732238
+ WGBFAS-CODBA2224-1969-2007-JENNINGS              | Atlantic cod Baltic Areas 22 and 24                                  |   71.673274372268
+ WGBFAS-CODBA2532-1964-2007-JENNINGS              | Atlantic cod Baltic Areas 25-32                                      |  32.8593194514982
+ WGBFAS-CODKAT-1970-2006-MINTO                    | Atlantic cod Kattegat                                                |  55.4185303514377
+ WGBFAS-HERR2532-1973-2006-JENNINGS               | Herring ICES 25-32                                                   |  73.9121021866205
+ WGBFAS-HERR31-1979-2006-JENNINGS                 | Herring ICES 31                                                      |  58.4022468403807
+ WGBFAS-SPRAT22-32-1973-2007-JENNINGS             | Sprat ICES Baltic Areas 22-32                                        |  64.5250623096095
+ WGHMM-HAKENRTN-1977-2007-JENNINGS                | Hake Northeast Atlantic North                                        |  43.5294117647059
+ WGHMM-HAKESOTH-1982-2007-JENNINGS                | Hake Northeast Atlantic South                                        |  49.1048593350384
+ WGHMM-MEG8c9a-1985-2007-JENNINGS                 | Megrim ICES VIIIc-IXa                                                |  71.8085106382979
+ WGMHSA-MACKNEICES-1972-2007-JENNINGS             | Mackerel ICES Northeast Atlantic                                     |  43.4296977660972
+ WGNSDS-CODIS-1968-2006-MINTO                     | Atlantic cod Irish Sea                                               |  39.8642584698227
+ WGNSDS-CODVIa-1977-2006-MINTO                    | Atlantic cod West of Scotland                                        |  9.05735976381274
+ WGNSDS-PLAICIS-1962-2006-MINTO                   | European Plaice Irish Sea                                            |  40.5156537753223
+ WGNSDS-SOLEIS-1968-2006-MINTO                    | common European sole Irish Sea                                       |  47.3473473473473
+ WGNSSK-CODNS-1962-2007-MINTO                     | Atlantic cod North Sea                                               |  39.2478302796528
+ WGNSSK-HADNS-IIIa-1963-2006-MINTO                | Haddock ICES IIIa and North Sea                                      |              47.5
+ WGNSSK-HADROCK-1990-2007-JENNINGS                | Haddock Rockall Bank                                                 |  86.3351732455123
+ WGNSSK-NPOUTNS-1983-2007-MINTO                   | Norway pout North Sea                                                |               100
+ WGNSSK-PLAICIIIa-1976-2006-MINTO                 | European Plaice ICES IIIa                                            |  56.1497326203209
+ WGNSSK-SEELNS-1983-2007-MINTO                    | Sandeel North Sea                                                    |   78.328173374613
+ WGNSSK-SOLENS-1956-2006-MINTO                    | common European sole North Sea                                       |  45.7142857142857
+ WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO          | Whiting ICES IIIa, VIId and North Sea                                |                50
+ WGSSDS-SOLECS-1970-2006-JENNINGS                 | common European sole Celtic Sea                                      |  50.3748125937031
+(161 rows)

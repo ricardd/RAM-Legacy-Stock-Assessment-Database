@@ -1,0 +1,15 @@
+require(RODBC)
+chan<-odbcConnect(dsn="srdbcalo")
+my.qu <- paste("
+select * from srdb.timeseries where assessid = \'NWFSC-WROCKPCOAST-1955-2006-BRANCH\'
+", sep="")
+wrock.dat <- sqlQuery(chan,my.qu)
+odbcClose(chan)
+ssb.mt<-subset(wrock.dat, tsid=="SSB-MT")
+ssb.eggs<-subset(wrock.dat, tsid=="SSB-E03eggs")
+
+cor(na.omit(ssb.mt$tsvalue),na.omit(ssb.eggs$tsvalue))
+plot(ssb.mt$tsvalue,ssb.eggs$tsvalue,type='p')
+
+plot(ssb.mt$tsyear,ssb.mt$tsvalue, type='b')
+lines(ssb.eggs$tsyear,ssb.eggs$tsvalue, type='b')

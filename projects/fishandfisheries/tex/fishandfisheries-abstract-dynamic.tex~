@@ -1,0 +1,43 @@
+\newpage
+\section*{Abstract}
+
+Data used to assess the status of individual fish stocks varies from
+very little information on many of the world's artisanal fisheries, to
+commercial landings at various levels of geographic and taxonomic
+aggregation, research surveys, and sophisticated population dynamics
+models that integrate many sources of information.  Previous
+evaluations of the state of global fisheries have used catch or
+landings data, which may be poor proxies for fish stock abundances. A
+global compilation of stock assessment data in the mid-1990s enabled
+substantial syntheses of stock status; however the focus of this
+database was on stock-recruitment relationships and it is now 15 years
+out of date. To facilitate contemporary syntheses, we have assembled a
+comprehensive database of the most intensively studied commercially
+exploited marine fish stocks. The database includes time series of:
+total biomass, spawner biomass, recruits, fishing mortality, and
+catch; reference points; and ancillary information on the life
+history, management, and assessment methods for each stock.  Here, we
+present the first overview of the structure and content of the
+database. We further evaluate the knowledge-base for assessed marine
+fishes. Globally, publicly available stock assessments were found for
+REF:SQL:TOTNUMASSESSMENT stocks (REF:SQL:TOTNUMASSESSFISH species of
+fishes representing REF:SQL:TOTNUMFISHFAMILIES families and
+REF:SQL:TOTNUMASSESSINVERT species of invertebrates representing
+REF:SQL:TOTNUMINVERTFAMILIES families), from REF:SQL:TOTNUMMGMT
+national and international management institutions. Assessments are
+available for only XX percent of global marine fisheries catches by
+weight and XX percent by value.  There is substantial spatial
+variation in availability of assessed stocks, with XX percent coming
+from north temperate regions (North Atlantic, North Pacific).
+Geographic differences in assessment methods show that Statistical
+Catch at Age (SCA) models are widely used by the west coast of the
+U.S. (XX percent of assessments), regional fishery management
+organizations in the Pacific (XX percent of assessments), and New
+Zealand (XX percent of assessments); the east coast of the U.S. is
+transitioning from Virtual Population Analysis (VPA) to SCA (XX
+percent of assessments conducted since 2000 have used SCA); while VPA
+is still the dominant assessment
+technique in western Europe (XX percent of assessments).\\
+
+\noindent Keywords: Marine fisheries, stock assessment, relational database.
+\newpage

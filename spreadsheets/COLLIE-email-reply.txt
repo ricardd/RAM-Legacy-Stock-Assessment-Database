@@ -1,0 +1,30 @@
+Hi Jeremy,
+Thanks again for your first 5 assessments. I have edited them so that they now load on the backend database.
+
+Nothing major, thanks for sticking to the spreadsheet template. Below are a few points that need clarification.
+
+
+In the time-series worksheet, to stick with the metrics that are already defined, I changed "EB" to "TB", please confirm that this is OK.
+
+In the meta worksheet, whenever "Surplus Production" appeared as the assessment method, I changed it to ASPM (age-structured production model). Please confirm that this is OK, it could also be AAPM (age-aggregated surplus production model)
+
+In the biometrics worksheet, I added the units for "Fmsy" as "1/yr". Please confirm that this is OK, the other option is "1/T".
+
+For the PCODWCVANI assessment, for the CPUE time-series, I changed it to CPUEraw - please confirm, it could also be CPUEstand.
+
+
+
+The duplicates in the biometrics table are not really duplicate, they are simply the same type of point data but with different units. In the case of the ones that you identified it is usually to distinguish between "per year" (1/yr) and "per unit time" (1/T).
+
+Re: the taxonomy table, what I have made available on the RAMlegacy website is simply a "SELECT * FROM TAXONOMY", so ordering it by taxonomic hierarchy is straight-forward. I have updated the taxonomy table on RAMlegacy so it is now ordered by taxonomy, please see here:
+
+http://www.marinebiodiversity.ca/RAMlegacy/srdb/updated-srdb/database-tables/taxonomy
+
+
+Don't hesitate to send more assessments my way, Coilin will be at the meeting and will have unrestricted access to the database. I will also be on call and will be able to help with any issues that may arise during the meeting.
+
+
+All the best.
+
+Dan
+

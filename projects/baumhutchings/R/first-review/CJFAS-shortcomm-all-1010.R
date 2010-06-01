@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-31 11:19:52 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-01 15:22:51 (srdbadmin)>
 
 ## fits and plots by stock
 ## DR, CM
@@ -67,26 +67,31 @@ par.estimates.1010$geo[i] <- as.character(unique(temp$geo))
 par.estimates.1010$taxo[i] <- as.character(unique(temp$taxocategory))
 
 ## process error model
-##  my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/processerroronly/processerroronly.dat"
+
 ## kalman filter model
 ## For the straightforward kalman filter, need the data to be evenly spaced
 ## the test here makes sure they are
 diff.is.1<-!1%in%as.numeric(unique(diff(temp$tsyear))>1)
 if(diff.is.1){
-  my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/cbdkalman/cbdkalman.dat"
+
+  my.dat.path<-"/home/srdbadmin/srdb/projects/baumhutchings/admb/cbdkalman/cbdkalman.dat"
   cat("# Number of obs \n", dim(temp)[1], "\n",file = my.dat.path, append=FALSE)
   cat("# section 1 length \n", which(temp$tsyear==cutoff), "\n",file = my.dat.path, append=TRUE)
   cat("# section 2 length \n", (dim(temp)[1]-which(temp$tsyear==cutoff)), "\n",file = my.dat.path, append=TRUE)
   cat("# cutoff \n", cutoff, "\n",file = my.dat.path, append=TRUE)
   cat("# years \n", temp$tsyear, "\n",file = my.dat.path, append=TRUE)
   cat("# Observations \n", log(temp$ssb), "\n",file = my.dat.path, append=TRUE)
-  system("cd /home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/cbdkalman; rm cbdkalman.std; ./cbdkalman ")
-  if(file.exists("/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/cbdkalman/cbdkalman.std")){
-    admb.fit<-get.admb.results("/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/cbdkalman/","cbdkalman")
+
+    system("cd /home/srdbadmin/srdb/projects/baumhutchings/admb/cbdkalman; rm cbdkalman.std; ./cbdkalman ")
+
+  if(file.exists("/home/srdbadmin/srdb/projects/baumhutchings/admb/cbdkalman/cbdkalman.std")){  
+
+    admb.fit<-get.admb.results("/home/srdbadmin/srdb/projects/baumhutchings/admb/cbdkalman/","cbdkalman")
     par.estimates.1010$mss.slope.before[i]<-admb.fit$value[admb.fit$name=="slope_pre"]
     par.estimates.1010$mss.slope.after[i]<-admb.fit$value[admb.fit$name=="slope_post"]
     par.estimates.1010$mss.slope.diff[i]<-par.estimates.1010$mss.slope.after[i]-par.estimates.1010$mss.slope.before[i]
-    state.res<-readLines("/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/cbdkalman/cbdkalman.rep")
+
+    state.res<-readLines("/home/srdbadmin/srdb/projects/baumhutchings/admb/cbdkalman/cbdkalman.rep")
     ##state.hat<-admb.fit$value[admb.fit$name=="state"]
     state.hat<-as.numeric(strsplit(state.res[6], split=" ")[[1]])[-c(1,dim(temp)[1]+2)]
   }else{
@@ -183,7 +188,7 @@ write.csv(c(1,5),"all-timestamp.csv")
 
 ### output example data to admb to check
 
-#my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/hinge/hinge.dat"
+
 #cat("# Number of obs \n", dim(temp)[1], "\n",file = my.dat.path, append=FALSE)
 #cat("# cutoff \n", ccc, "\n",file = my.dat.path, append=TRUE)
 #cat("# years \n", temp$yr, "\n",file = my.dat.path, append=TRUE)

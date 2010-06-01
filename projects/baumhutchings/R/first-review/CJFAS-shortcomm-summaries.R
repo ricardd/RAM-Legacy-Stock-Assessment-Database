@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-01 13:42:52 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-01 15:39:59 (srdbadmin)>
 ##
 require(xtable)
 
@@ -55,7 +55,9 @@ supp.table$Scientificname <- paste("\\textit{",supp.table$Scientificname,"}",sep
 # now generate a good looking LaTeX table to be picked up by CJFAS-shortcomm-bundle.tex
 
 
-  my.table.S1 <- xtable(supp.table, caption=c(""), label=c("tab:S1"), digits=4, align="cp{2.8cm}p{2cm}p{1.7cm}p{1.7cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}")
+my.tableS1.caption <- c("A description of each population's alphanumeric identification code, and values for the different slopes.")
+
+  my.table.S1 <- xtable(supp.table, caption=my.tableS1.caption, label=c("tab:S1"), digits=4, align="cp{2.8cm}p{2cm}p{1.7cm}p{1.7cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}")
 
   print(my.table.S1, type="latex", file="Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 

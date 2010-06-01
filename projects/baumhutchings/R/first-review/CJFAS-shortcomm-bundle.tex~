@@ -1,22 +1,67 @@
 % LaTeX file for CJFAS short communication paper (Hutchings, Minto, Ricard and Baum)
-% Last modified Time-stamp: <2010-05-31 10:36:40 (srdbadmin)>
+% Last modified Time-stamp: <2010-05-31 15:37:20 (srdbadmin)>
 %
 \documentclass[letterpaper,12pt]{article}
 
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{booktabs}
 
 \title{Figures and Tables for CJFAS Short Communication} 
-\date{}
+%\date{}
 \begin{document}
 
 \maketitle{}
 
-\begin{figure}
+%\begin{figure}
 \begin{center}
-\includegraphics[height=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig1-1010_withBRP.pdf}
+\includegraphics[height=18cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig1-1010_withBRP.pdf}
 \end{center}
-\caption{}
-\end{figure}\label{fig1}
+%\caption{}
+%\end{figure}\label{fig1}
+\noindent 
+Figure 1
+
+%\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig2-BRPratio-1010.pdf}
+\end{center}
+%\caption{}
+%\end{figure}\label{fig2}
+\noindent 
+Figure 2
 
 
+\begin{tiny}
+\begin{landscape}
+\include{Table-S1-formatted}
+\end{landscape}
+\end{tiny}
+
+\clearpage
+
+%\begin{figure}
+%\begin{center}
+%\includegraphics[height=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pdf}
+\includepdf[pages=-]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pdf}
+%\end{center}
+%\caption{Figure S1}
+%\end{figure}\label{figS1}
+\noindent 
+Figure S1
+
+\clearpage
+
+%\begin{figure}
+\begin{center}
+\includegraphics[height=15cm]{/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf}
+\end{center}
+%\caption{}
+%\end{figure}\label{figS2}
+\noindent 
+Figure S2
 
 \end{document}

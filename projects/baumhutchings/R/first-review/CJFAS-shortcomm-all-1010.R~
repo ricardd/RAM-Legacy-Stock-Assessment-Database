@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-27 13:28:05 (srdbadmin)>
+# last modifieds Time-stamp: <2010-05-31 11:19:52 (srdbadmin)>
 
 ## fits and plots by stock
 ## DR, CM
@@ -162,27 +162,59 @@ dev.off()
 
 odbcClose(chan)
 
+write.csv(c(1,5),"all-timestamp.csv")
+
 ##q("yes")
 
 ## sandbox
 
-ccc<-which(temp$tsyear==cutoff)
-post <- ifelse(temp$tsyear<cutoff, 0, 1)
-b1<-par.estimates.1010$mcont.slope.before[par.estimates.1010$stockid=="WHITVIIek"]
-b2<-par.estimates.1010$mcont.slope.after[par.estimates.1010$stockid=="WHITVIIek"]
-a1<-coef(mcont)[1]
-## note the second intercept
-a2<-a1+ccc*(b1-b2)
-pred<-(1-post)*(a1+b1*temp$yr)+post*(a2+b2*temp$yr)
-with(temp, plot(yr,log(ssb)))
-mcont <- lm(log(ssb) ~ yr + post:I(yr-ccc), data=temp)
-lines(temp$yr,predict(mcont))
-lines(temp$yr,pred, lty=2, lwd=2, col="purple")
+#ccc<-which(temp$tsyear==cutoff)
+#post <- ifelse(temp$tsyear<cutoff, 0, 1)
+#b1<-par.estimates.1010$mcont.slope.before[par.estimates.1010$stockid=="WHITVIIek"]
+#b2<-par.estimates.1010$mcont.slope.after[par.estimates.1010$stockid=="WHITVIIek"]
+#a1<-coef(mcont)[1]
+### note the second intercept
+#a2<-a1+ccc*(b1-b2)
+#pred<-(1-post)*(a1+b1*temp$yr)+post*(a2+b2*temp$yr)
+#with(temp, plot(yr,log(ssb)))
+#mcont <- lm(log(ssb) ~ yr + post:I(yr-ccc), data=temp)
+#lines(temp$yr,predict(mcont))
+#lines(temp$yr,pred, lty=2, lwd=2, col="purple")
 
-## output example data to admb to check
+### output example data to admb to check
 
-my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/hinge/hinge.dat"
-cat("# Number of obs \n", dim(temp)[1], "\n",file = my.dat.path, append=FALSE)
-cat("# cutoff \n", ccc, "\n",file = my.dat.path, append=TRUE)
-cat("# years \n", temp$yr, "\n",file = my.dat.path, append=TRUE)
-cat("# Observations \n", log(temp$ssb), "\n",file = my.dat.path, append=TRUE)
+#my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/admb/hinge/hinge.dat"
+#cat("# Number of obs \n", dim(temp)[1], "\n",file = my.dat.path, append=FALSE)
+#cat("# cutoff \n", ccc, "\n",file = my.dat.path, append=TRUE)
+#cat("# years \n", temp$yr, "\n",file = my.dat.path, append=TRUE)
+#cat("# Observations \n", log(temp$ssb), "\n",file = my.dat.path, append=TRUE)
+
+## Fig S2 for revised manuscript
+
+## plot the values of the estimates against each other
+## CM
+## date:
+## Timestamp: <Last modified: 17 FEBRUARY 2010  (srdbadmin)>
+
+mtext.fun<-function(xstring,ystring,xline,yline){
+  mtext(side=1, text=xstring, line=xline, cex=0.9)
+  mtext(side=2, text=ystring, line=yline, cex=0.9, las=3)
+}
+
+
+pdf("CBD-Supp-fig2.pdf", height=8, width=6, title="CJFAS CBD Short Comm. Figure S2")
+par(mfrow=c(3,2), mar=c(4,4,0,1), oma=c(0,0,2,2), las=1)
+plot(par.estimates.1010$m.slope.before, par.estimates.1010$mcont.slope.before, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1),lwd=0.7); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Discontinuous pre-1992",ystring="Continuous pre-1992",xline=2.5,yline=2.5)
+plot(par.estimates.1010$m.slope.after, par.estimates.1010$mcont.slope.after, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Discontinuous post-1992",ystring="Continuous post-1992",xline=2.5,yline=2.5)
+plot(par.estimates.1010$m.slope.before, par.estimates.1010$mss.slope.before, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Discontinuous pre-1992",ystring="Drift pre-1992",xline=2.5,yline=2.5)
+plot(par.estimates.1010$m.slope.after, par.estimates.1010$mss.slope.after, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Discontinuous post-1992",ystring="Drift post-1992",xline=2.5,yline=2.5)
+plot(par.estimates.1010$mcont.slope.before, par.estimates.1010$mss.slope.before, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Continuous pre-1992",ystring="Drift pre-1992",xline=2.5,yline=2.5)
+plot(par.estimates.1010$mcont.slope.after, par.estimates.1010$mss.slope.after, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
+mtext.fun(xstring="Continuous post-1992",ystring="Drift post-1992",xline=2.5,yline=2.5)
+dev.off()
+

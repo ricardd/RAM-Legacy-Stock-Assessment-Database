@@ -1,8 +1,9 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-23 14:48:27 (srdbadmin)>
+# last modifieds Time-stamp: <2010-05-31 11:02:19 (srdbadmin)>
 
 #
 #rm(list=ls())
+require(xtable)
 require(RODBC)
 source("../functions/get_admb_results.R")
 
@@ -10,7 +11,7 @@ chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
 
 # tsn and associated taxonomic classification
 qu.taxo <- paste("
-(select s.stockid, tt.taxocategory from (select tsn, (CASE WHEN family = \'Gadidae\' THEN \'Gadidae\' ELSE (CASE WHEN ordername = \'Pleuronectiformes\' THEN \'Pleuronectiformes\' ELSE (CASE WHEN ((family in (\'Clupeidae\',\'Scombridae\',\'Engraulidae\')) OR (genus IN (\'Trachurus\',\'Mallotus\'))) THEN \'Pelagic\' ELSE (CASE WHEN classname = \'Chondrichthyes\' THEN \'Shark/Skate\' ELSE \'Other demersal\' END) END) END) END) as taxocategory from srdb.taxonomy where classname in (\'Actinopterygii\',\'Chondrichthyes\')) as tt, srdb.stock s where s.tsn=tt.tsn) as tt
+(select s.stockid, tt.taxocategory from (select tsn, (CASE WHEN family = \'Gadidae\' THEN \'Gadidae\' ELSE (CASE WHEN ordername = \'Pleuronectiformes\' THEN \'Pleuronectiformes\' ELSE (CASE WHEN ((family in (\'Clupeidae\',\'Scombridae\',\'Engraulidae\')) OR (genus IN (\'Trachurus\',\'Mallotus\')) OR (scientificname IN (\'Arripis trutta\',\'Micromesistius australis\',\'Xiphias gladius\',\'Micromesistius poutassou\',\'Pomatomus saltatrix \'))) THEN \'Pelagic\' ELSE (CASE WHEN classname = \'Chondrichthyes\' THEN \'Shark/Skate\' ELSE \'Other demersal\' END) END) END) END) as taxocategory from srdb.taxonomy where classname in (\'Actinopterygii\',\'Chondrichthyes\')) as tt, srdb.stock s where s.tsn=tt.tsn) as tt
 ", sep="")
 
 # stockid and associated geographical region

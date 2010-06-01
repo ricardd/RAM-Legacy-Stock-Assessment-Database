@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-31 11:02:19 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-01 15:18:50 (srdbadmin)>
 
 #
 #rm(list=ls())
@@ -53,8 +53,6 @@ ORDER BY ss.stockid, ts.tsyear
 ",sep=" ")
 
 dat.1010 <- sqlQuery(chan,qu.main)
-
-## write.table(dat.1010,"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/data_1010_23_05_2010.csv", sep=",")
 
 cutoff <- 1992
 a <- unique(dat.1010$assessid)

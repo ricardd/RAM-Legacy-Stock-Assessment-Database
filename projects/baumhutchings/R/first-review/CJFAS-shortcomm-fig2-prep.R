@@ -1,6 +1,6 @@
 ## get the data for figure 2 of the main manuscript
 ## CM
-## Time-stamp: <2010-05-26 11:14:50 (srdbadmin)>
+## Time-stamp: <2010-06-01 15:22:11 (srdbadmin)>
 
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
@@ -51,10 +51,8 @@ ts.ratios.dat <- merge(ts.ratios.temp, keep.assessid, "assessid", all.x=FALSE, a
 odbcClose(chan)
 
 ## write data to file for working with at GMIT
-write.table(dat.1010, file="/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/CJFAS-shortcomm-multispecies.csv", sep=",")
-write.table(ts.ratios.dat, file="/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/CJFAS-shortcomm-multispecies-BRPratios.csv", sep=",")
+write.table(dat.1010, file="/home/srdbadmin/srdb/projects/baumhutchings/data/CJFAS-shortcomm-multispecies.csv", sep=",")
+write.table(ts.ratios.dat, file="/home/srdbadmin/srdb/projects/baumhutchings/data/CJFAS-shortcomm-multispecies-BRPratios.csv", sep=",")
 
-                                        #write.table(ts.dat, file="/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/ts_data.csv", sep=",")
-#write.table(dat, file="/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/taxo_dat_values.csv", sep=",")
 
 

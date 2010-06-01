@@ -8,8 +8,8 @@
          35           4           1 
 [1] "Number of stocks with negative pre-1992 slope"
 [1] 152
-[1] 97 20
-[1] 62 20
+[1] 97
+[1] 62
              
                0  1
   Aust-NZ     25  3

@@ -1,5 +1,5 @@
 ## for CJFAS short communication, getting Biological Reference Points for 1992 and the current year
-##  last modified Time-stamp: <2010-05-26 11:27:53 (srdbadmin)>
+##  last modified Time-stamp: <2010-05-31 11:09:34 (srdbadmin)>
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
 
@@ -86,3 +86,4 @@ par.estimates.1010.brp.both$pch1992[par.estimates.1010.brp.both$bratio1992>=1] <
 odbcClose(chan)
 
 
+write.csv(c(1,5),"BRP-timestamp.csv")

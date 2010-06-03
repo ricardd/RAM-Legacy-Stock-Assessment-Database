@@ -1,6 +1,6 @@
 ## get the data for figure 2 of the main manuscript
 ## CM
-## Time-stamp: <2010-06-01 15:22:11 (srdbadmin)>
+## Time-stamp: <2010-06-02 23:05:39 (srdbadmin)>
 
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
@@ -55,4 +55,4 @@ write.table(dat.1010, file="/home/srdbadmin/srdb/projects/baumhutchings/data/CJF
 write.table(ts.ratios.dat, file="/home/srdbadmin/srdb/projects/baumhutchings/data/CJFAS-shortcomm-multispecies-BRPratios.csv", sep=",")
 
 
-
+save.image()

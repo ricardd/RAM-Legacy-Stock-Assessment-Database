@@ -20,7 +20,7 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > # revised R code to address the reviewers' comments for CJFAS CBD short communication
-> # last modifieds Time-stamp: <2010-05-31 11:02:19 (srdbadmin)>
+> # last modifieds Time-stamp: <2010-06-02 15:19:37 (srdbadmin)>
 > 
 > #
 > #rm(list=ls())
@@ -39,7 +39,7 @@ Loading required package: RODBC
 > 
 > # stockid and associated geographical region
 > qu.geo <- paste("
-+ (select stockid, max(geoarea) as geo from (select stockid, (CASE WHEN lme_number in (7,8,9,18) THEN \'NWAtl\' ELSE (CASE WHEN lme_number in (19,20,21,22,23,24,25,59,60) THEN \'NEAtl\' ELSE (CASE WHEN lme_number in (1,2,3) THEN \'NEPac\' ELSE (CASE WHEN lme_number in (5,6,12) THEN \'NorthMidAtl\' ELSE (CASE WHEN lme_number in (14,15,16,17) THEN \'SWAtl\' ELSE (CASE WHEN lme_number in (39,40,41,42,43,44,45,46) THEN \'Aust-NZ\' ELSE (CASE WHEN lme_number in (29,30) THEN \'SAfr\' ELSE (CASE WHEN lme_number <0 THEN \'HighSeas\' ELSE (CASE WHEN lme_number = 26 THEN \'Med\' ELSE (CASE WHEN lme_number = 62 THEN \'BlackSea\' ELSE (CASE WHEN lme_number = 13 THEN \'SEPac\'ELSE NULL END) END) END) END) END) END) END) END) END) END) END ) as geoarea from srdb.lmetostocks) as a group by stockid) as gg
++ (select stockid, min(geoarea) as geo from (select stockid, (CASE WHEN lme_number in (7,8,9,18) THEN \'NWAtl\' ELSE (CASE WHEN lme_number in (19,20,21,22,23,24,25,59,60) THEN \'NEAtl\' ELSE (CASE WHEN lme_number in (1,2,3) THEN \'NEPac\' ELSE (CASE WHEN lme_number in (5,6,12) THEN \'NorthMidAtl\' ELSE (CASE WHEN lme_number in (14,15,16,17) THEN \'SWAtl\' ELSE (CASE WHEN lme_number in (39,40,41,42,43,44,45,46) THEN \'Aust-NZ\' ELSE (CASE WHEN lme_number in (29,30) THEN \'SAfr\' ELSE (CASE WHEN lme_number <0 THEN \'HighSeas\' ELSE (CASE WHEN lme_number = 26 THEN \'Med\' ELSE (CASE WHEN lme_number = 62 THEN \'BlackSea\' ELSE (CASE WHEN lme_number = 13 THEN \'SEPac\'ELSE NULL END) END) END) END) END) END) END) END) END) END) END ) as geoarea from srdb.lmetostocks) as a group by stockid) as gg
 + ",sep="")
 > 
 > # SSB time-series
@@ -77,8 +77,6 @@ Loading required package: RODBC
 > 
 > dat.1010 <- sqlQuery(chan,qu.main)
 > 
-> ## write.table(dat.1010,"/home/srdbadmin/SQLpg/srdb/trunk/projects/baumhutchings/data/data_1010_23_05_2010.csv", sep=",")
-> 
 > cutoff <- 1992
 > a <- unique(dat.1010$assessid)
 > #s <- unique(dat$stockid)
@@ -105,4 +103,4 @@ Loading required package: RODBC
 > 
 > proc.time()
    user  system elapsed 
-  1.384   0.056   1.678 
+  1.376   0.048   1.674 

@@ -8,7 +8,7 @@
 "NWAtl","Demersal","16","0.61","0.36","41.33"
 "NorthMidAtl","Pelagic","2","0.68","0.65","4.12"
 "NorthMidAtl","Demersal","4","2.04","0.94","53.78"
-"Med","Pelagic","1","1.58","0.96","38.94"
+"Med","Pelagic",NA,NA,NA,NA
 "Med","Demersal",NA,NA,NA,NA
 "SAfr","Pelagic","1","1.68","1.13","32.72"
 "SAfr","Demersal","2","1.71","1.36","20.62"
@@ -16,5 +16,5 @@
 "NEPac","Demersal","45","1.31","1.24","5.56"
 "Aust-NZ","Pelagic","1","NaN","1.71","NaN"
 "Aust-NZ","Demersal","20","2.43","1.06","56.28"
-"HighSeas","Pelagic","10","1.62","0.82","49.38"
+"HighSeas","Pelagic","11","1.61","0.81","49.77"
 "HighSeas","Demersal","1","4.95","2.16","56.24"

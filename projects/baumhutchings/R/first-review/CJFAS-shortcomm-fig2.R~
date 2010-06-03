@@ -1,7 +1,7 @@
 ## CBD analysis, main figure 2
 ## CM, DR
 ## date: Thu Jan 14 15:34:45 AST 2010
-## Time-stamp: <Last modified: 28 MAY 2010  (mintoc)>
+## Time-stamp: <2010-05-31 15:05:55 (srdbadmin)>
 ## Notes: Dan, please place in the /R/first-review folder
 
 ## REQUIRED PACKAGES
@@ -13,17 +13,20 @@ source("./CJFAS-shortcomm-fig2-functions.R")
 ## DATA
 ## Currently reads in .csv files but these data should come directly from the database
 ## Dan to include RODBC calls
-ts.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies.csv", header=TRUE, stringsAsFactors=FALSE)
-brp.ratio.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies-BRPratios.csv", header=TRUE, stringsAsFactors=FALSE)
+# DR: data frame is already defined and properly populated
+#ts.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies.csv", header=TRUE, stringsAsFactors=FALSE)
+#brp.ratio.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies-BRPratios.csv", header=TRUE, stringsAsFactors=FALSE)
 
+
+## DR: I changed the SQL in CJFAS-shortcomm-data-1010.R to reflect the changes in taxonomic classification 
 ## RE-CLASSIFY SOME TAXONOMIC CATEGORIES 
-reclassify.dat<-read.xls(xls="../../data/stocks_for_taxocategory_class.xls", sheet=1, na.strings = "NA", stringsAsFactors=FALSE)
+#reclassify.dat<-read.xls(xls="../../data/stocks_for_taxocategory_class.xls", sheet=1, na.strings = "NA", stringsAsFactors=FALSE)
 
-recls.dat<-reclassify.dat[reclassify.dat$alternative_category!="",]
-for(i in 1:dim(recls.dat)[1]){
-  ts.dat$taxocategory[ts.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
-  brp.ratio.dat$taxocategory[brp.ratio.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
-}
+#recls.dat<-reclassify.dat[reclassify.dat$alternative_category!="",]
+#for(i in 1:dim(recls.dat)[1]){
+#  ts.dat$taxocategory[ts.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
+#  brp.ratio.dat$taxocategory[brp.ratio.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
+#}
 
 ## make sure required years are present
 min.year<-1978
@@ -116,7 +119,9 @@ for(i in 1:length(all.category.vec)){
 ## Dan to change filepath here for calo
 ## brp
 ## Dan to change this directory
-png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_brp_v2.png", width=5.5,height=7.5, res=100,units="in")
+#png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_brp_v2.png", width=5.5,height=7.5, res=100,units="in")
+pdf("CJFAS-shortcomm-fig2-BRPratio-1010.pdf")
+
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(0,2.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=TRUE)
@@ -157,7 +162,8 @@ mtext(side=2, text= "Relative biomass", cex=1.1, line=2.25, outer=TRUE)
 dev.off()
 
 ## orig
-png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_orig_v1.png", width=5,height=7, res=600,units="in")
+#png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_orig_v1.png", width=5,height=7, res=600,units="in")
+pdf("CJFAS-shortcomm-fig2-orig-1010.pdf")
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4.5,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
@@ -214,7 +220,9 @@ for(i in 1:length(regions.vec)){
   }}
 names(brp.percent.change.df)<-c("region", "category", "n","index.start", "index.end", "percent.decline")
 ## Dan to change this output directory
-write.csv(brp.percent.change.df, file="../../data/CJFAS-shortcomm-fig2-brp-percent-change.csv", row.names=FALSE)
+##write.csv(brp.percent.change.df, file="../../data/CJFAS-shortcomm-fig2-brp-percent-change.csv", row.names=FALSE)
+write.csv(brp.percent.change.df, file="./CJFAS-shortcomm-fig2-brp-percent-change.csv", row.names=FALSE)
+
 
 ## orig
 orig.percent.change.df<-data.frame(t(extract.percentage.change(region="All", category="All", n.years=5, brp=FALSE)))
@@ -232,8 +240,8 @@ for(i in 1:length(regions.vec)){
   }}
 names(orig.percent.change.df)<-c("region", "category", "n","index.start", "index.end", "percent.decline")
 ## Dan to change this output directory
-write.csv(orig.percent.change.df, file="../../data/CJFAS-shortcomm-fig2-orig-percent-change.csv", row.names=FALSE)
-
-q("yes")
+#write.csv(orig.percent.change.df, file="../../data/CJFAS-shortcomm-fig2-orig-percent-change.csv", row.names=FALSE)
+write.csv(orig.percent.change.df, file="./CJFAS-shortcomm-fig2-orig-percent-change.csv", row.names=FALSE)
+#q("yes")
 
 ##--------

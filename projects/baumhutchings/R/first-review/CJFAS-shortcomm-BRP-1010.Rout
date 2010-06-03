@@ -20,7 +20,7 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > ## for CJFAS short communication, getting Biological Reference Points for 1992 and the current year
-> ##  last modified Time-stamp: <2010-05-31 11:09:34 (srdbadmin)>
+> ##  last modified Time-stamp: <2010-06-02 18:43:36 (srdbadmin)>
 > require(RODBC)
 Loading required package: RODBC
 > chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
@@ -34,9 +34,11 @@ Loading required package: RODBC
 > salt <- data.frame(assessid=brp.salt.dat$assessid, currentyr=brp.salt.dat$maxyr, bratiocurrent=brp.salt.dat$ratio, type = rep("salt",nn), fromassessment = rep("no",nn))
 > 
 >   qu.brp.pepper <- paste("
-+ select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
++ select l.assessid, aa.maxyr, aa.biovalue, aa.tsvalue, aa.ratio from (select a.assessid, a.maxyr, a.biovalue, a.bioid, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, bioid, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, bioid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\') aa, (select assessid, min(bioid) as bioid from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\' group by assessid) l where aa.assessid=l.assessid and aa.bioid=l.bioid
 + ", sep="")
+> ## select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 > brp.pepper.dat <- sqlQuery(chan,qu.brp.pepper)
+> 
 > nn <- dim(brp.pepper.dat)[1]
 > pepper <- data.frame(assessid=brp.pepper.dat$assessid, currentyr=brp.pepper.dat$maxyr, bratiocurrent=brp.pepper.dat$ratio, type = rep("pepper",nn), fromassessment = rep("yes",nn))
 > 
@@ -112,4 +114,4 @@ Loading required package: RODBC
 > 
 > proc.time()
    user  system elapsed 
-  1.108   0.032   1.305 
+  1.112   0.024   1.316 

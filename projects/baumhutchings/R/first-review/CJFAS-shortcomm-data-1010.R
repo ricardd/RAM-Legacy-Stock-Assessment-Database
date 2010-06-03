@@ -1,8 +1,8 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-06-01 15:18:50 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-02 23:00:15 (srdbadmin)>
 
 #
-#rm(list=ls())
+rm(list=ls())
 require(xtable)
 require(RODBC)
 source("../functions/get_admb_results.R")
@@ -16,7 +16,7 @@ qu.taxo <- paste("
 
 # stockid and associated geographical region
 qu.geo <- paste("
-(select stockid, max(geoarea) as geo from (select stockid, (CASE WHEN lme_number in (7,8,9,18) THEN \'NWAtl\' ELSE (CASE WHEN lme_number in (19,20,21,22,23,24,25,59,60) THEN \'NEAtl\' ELSE (CASE WHEN lme_number in (1,2,3) THEN \'NEPac\' ELSE (CASE WHEN lme_number in (5,6,12) THEN \'NorthMidAtl\' ELSE (CASE WHEN lme_number in (14,15,16,17) THEN \'SWAtl\' ELSE (CASE WHEN lme_number in (39,40,41,42,43,44,45,46) THEN \'Aust-NZ\' ELSE (CASE WHEN lme_number in (29,30) THEN \'SAfr\' ELSE (CASE WHEN lme_number <0 THEN \'HighSeas\' ELSE (CASE WHEN lme_number = 26 THEN \'Med\' ELSE (CASE WHEN lme_number = 62 THEN \'BlackSea\' ELSE (CASE WHEN lme_number = 13 THEN \'SEPac\'ELSE NULL END) END) END) END) END) END) END) END) END) END) END ) as geoarea from srdb.lmetostocks) as a group by stockid) as gg
+(select stockid, min(geoarea) as geo from (select stockid, (CASE WHEN lme_number in (7,8,9,18) THEN \'NWAtl\' ELSE (CASE WHEN lme_number in (19,20,21,22,23,24,25,59,60) THEN \'NEAtl\' ELSE (CASE WHEN lme_number in (1,2,3) THEN \'NEPac\' ELSE (CASE WHEN lme_number in (5,6,12) THEN \'NorthMidAtl\' ELSE (CASE WHEN lme_number in (14,15,16,17) THEN \'SWAtl\' ELSE (CASE WHEN lme_number in (39,40,41,42,43,44,45,46) THEN \'Aust-NZ\' ELSE (CASE WHEN lme_number in (29,30) THEN \'SAfr\' ELSE (CASE WHEN lme_number <0 THEN \'HighSeas\' ELSE (CASE WHEN lme_number = 26 THEN \'Med\' ELSE (CASE WHEN lme_number = 62 THEN \'BlackSea\' ELSE (CASE WHEN lme_number = 13 THEN \'SEPac\'ELSE NULL END) END) END) END) END) END) END) END) END) END) END ) as geoarea from srdb.lmetostocks) as a group by stockid) as gg
 ",sep="")
 
 # SSB time-series
@@ -77,3 +77,4 @@ write.table(file="stocklist-CJFAS-shortcomm-1010.csv",stocklist.1010,sep=",", ro
 
 
 odbcClose(chan)
+save.image()

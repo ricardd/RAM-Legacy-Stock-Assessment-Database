@@ -1,7 +1,7 @@
 ## CBD analysis, main figure 2
 ## CM, DR
 ## date: Thu Jan 14 15:34:45 AST 2010
-## Time-stamp: <2010-05-31 15:05:55 (srdbadmin)>
+## Time-stamp: <2010-06-02 23:09:08 (srdbadmin)>
 ## Notes: Dan, please place in the /R/first-review folder
 
 ## REQUIRED PACKAGES
@@ -17,6 +17,8 @@ source("./CJFAS-shortcomm-fig2-functions.R")
 #ts.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies.csv", header=TRUE, stringsAsFactors=FALSE)
 #brp.ratio.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies-BRPratios.csv", header=TRUE, stringsAsFactors=FALSE)
 
+ts.dat <- dat.1010
+brp.ratio.dat <- ts.ratios.dat
 
 ## DR: I changed the SQL in CJFAS-shortcomm-data-1010.R to reflect the changes in taxonomic classification 
 ## RE-CLASSIFY SOME TAXONOMIC CATEGORIES 
@@ -65,6 +67,7 @@ brp.ratio.dat2<-subset(brp.ratio.dat, assessid %in% brp.ratio.assessid.vec[brp.y
 brp.ratio.dat2$lnratio<-log(brp.ratio.dat2$ratio)
 
 regions.vec<-c("NEAtl", "NWAtl", "NorthMidAtl", "Med", "SAfr", "NEPac", "Aust-NZ", "HighSeas")
+#regions.vec<-c("NEAtl", "NWAtl", "NorthMidAtl", "SAfr", "NEPac", "Aust-NZ", "HighSeas")
 
 ## Pelagic by region
 ## brp

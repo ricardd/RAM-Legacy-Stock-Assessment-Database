@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-01 15:39:59 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-02 23:46:27 (srdbadmin)>
 ##
 require(xtable)
 
@@ -14,23 +14,33 @@ print(summary.geo)
 
 print("Number of stocks with negative pre-1992 slope")
 print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0,])[1])
-dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0,])[1]
-dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff<0,])[1]
-table(par.estimates.1010$geo, par.estimates.1010$mcont.pre.positive)
+print("Number of stocks with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)")
+print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0,])[1])
+print("Number of stocks with negative pre-1992 slope and positive slope difference")
+print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff<0,])[1])
+print("Number of pre-1992 negative (0) and pre-1992 positive (1) per region")
+print(table(par.estimates.1010$geo, par.estimates.1010$mcont.pre.positive))
 
 print("Number of stocks with BRP with negative pre-1992 slope")
-dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
-dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0,])
-dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff<0,])
+print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
+print("Number of stocks with BRP with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)")
+print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
+print("Number of stocks with BRP with negative pre-1992 slope and positive slope difference")
+print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff<0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
 
-dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
+#dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
 temp.pre.negative <- par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,]
 
-table(temp.pre.negative$fromassessment.x)
-table(temp.pre.negative$geo, temp.pre.negative$colour1992)
-table(temp.pre.negative$geo, temp.pre.negative$colourcurrent)
-table(temp.pre.negative$geo, temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x)
-table(temp.pre.negative$geo, temp.pre.negative$colourcurrent, temp.pre.negative$fromassessment.x)
+print("Number of stocks with BRP from assessment")
+print(table(temp.pre.negative$fromassessment.x))
+print("1992 ratio per region")
+print(table(temp.pre.negative$geo, temp.pre.negative$colour1992))
+print("current ratio per region")
+print(table(temp.pre.negative$geo, temp.pre.negative$colourcurrent))
+
+#print("1992 ratio per region")
+#table(temp.pre.negative$geo, temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x)
+#table(temp.pre.negative$geo, temp.pre.negative$colourcurrent, temp.pre.negative$fromassessment.x)
 
 sink()
 
@@ -55,9 +65,9 @@ supp.table$Scientificname <- paste("\\textit{",supp.table$Scientificname,"}",sep
 # now generate a good looking LaTeX table to be picked up by CJFAS-shortcomm-bundle.tex
 
 
-my.tableS1.caption <- c("A description of each population's alphanumeric identification code, and values for the different slopes.")
+my.tableS1.caption <- c("A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, values for the different slopes and ratios of biomass to MSY reference point for 1992 and the current year.")
 
-  my.table.S1 <- xtable(supp.table, caption=my.tableS1.caption, label=c("tab:S1"), digits=4, align="cp{2.8cm}p{2cm}p{1.7cm}p{1.7cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}")
+  my.table.S1 <- xtable(supp.table, caption=my.tableS1.caption, label=c("tab:S1"), digits=4, align="cp{2.6cm}p{1.9cm}p{1.7cm}p{1.6cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}")
 
   print(my.table.S1, type="latex", file="Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 

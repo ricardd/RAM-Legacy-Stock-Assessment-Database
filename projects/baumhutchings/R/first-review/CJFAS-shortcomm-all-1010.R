@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-06-01 15:22:51 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-02 23:00:06 (srdbadmin)>
 
 ## fits and plots by stock
 ## DR, CM
@@ -222,4 +222,6 @@ mtext.fun(xstring="Continuous pre-1992",ystring="Drift pre-1992",xline=2.5,yline
 plot(par.estimates.1010$mcont.slope.after, par.estimates.1010$mss.slope.after, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5)); abline(c(0,1)); abline(h=0, lwd=0.5, col=grey(0.5)); abline(v=0, lwd=0.5, col=grey(0.5))
 mtext.fun(xstring="Continuous post-1992",ystring="Drift post-1992",xline=2.5,yline=2.5)
 dev.off()
+
+save.image()
 

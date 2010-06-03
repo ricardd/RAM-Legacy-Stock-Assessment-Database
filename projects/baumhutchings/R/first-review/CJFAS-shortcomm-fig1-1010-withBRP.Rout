@@ -93,13 +93,13 @@ Type 'q()' to quit R.
 > par(mfrow=c(3,2))
 > par(mar=c(2,5,2,2), oma=c(3,4,4,3))
 > plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NWAtl","a",0.03) # 
-[1] "NWAtl" "27"   
+[1] "NWAtl" "28"   
 [1] 1
 > plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NEAtl","b",0.02) #
 [1] "NEAtl" "35"   
 [1] 1
 > plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NorthMidAtl","c",0.02) #
-[1] "NorthMidAtl" "13"         
+[1] "NorthMidAtl" "12"         
 [1] 1
 > mtext("stock ID",side=2,line=3, outer=TRUE,cex=0.75,las=3)
 > plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NEPac","d",0.02) #
@@ -109,7 +109,7 @@ Type 'q()' to quit R.
 [1] "Aust-NZ" "25"     
 [1] 1
 > plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","HighSeas","f",0.012) #
-[1] "HighSeas" "10"      
+[1] "HighSeas" "11"      
 [1] 1
 > #mtext("parameter value",side=1,line=1,outer=TRUE,cex=0.75)
 > mtext("annual rate of change",side=1,line=1,outer=TRUE,cex=0.75)
@@ -120,4 +120,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  1.004   0.032   1.038 
+  0.992   0.032   1.033 

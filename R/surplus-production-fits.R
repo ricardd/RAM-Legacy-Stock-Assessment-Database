@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2010-05-20 10:13:45 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-02 14:04:37 (srdbadmin)>
 require(RODBC)
 require(gplots)
 
@@ -61,7 +61,7 @@ sp.fit$FMSY[i] <- as.numeric(strsplit(admb.rep, split="\t")[[1]])[2]
 if(sp.fit$lnK[i] < 0) sp.fit$qualityflag[i] <- -8 else sp.fit$qualityflag[i] <- 1
 
 ## did a parameter estimate reach the upper bound of 2*log(K)?
-if(log(2*max.b) == sp.fit$lnK[i]) { sp.fit$qualityflag[i] <- -8}
+##if(log(2*max.b) == sp.fit$lnK[i]) { sp.fit$qualityflag[i] <- -8} ## OLAF ADVISED AGAINST THIS since the upper bound may provide a reasonable fit
 
 ##plot(na.omit(as.numeric(strsplit(admb.rep, split=" ")[[2]])))
 

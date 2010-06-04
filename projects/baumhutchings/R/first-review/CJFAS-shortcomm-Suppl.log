@@ -1,0 +1,2777 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  4 JUN 2010 14:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CJFAS-shortcomm-Suppl
+(./CJFAS-shortcomm-Suppl.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+))
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count88
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count95
+\calc@Cskip=\skip49
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@toc@title=\toks16
+\c@AM@survey=\count96
+\AM@templatesizebox=\box31
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen108
+\captionmargin@=\dimen109
+\captionwidth=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+)
+\c@ContinuedFloat=\count97
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+))
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count98
+\@cmidlb=\count99
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count100
+\@lastruleclass=\count101
+\@thisrulewidth=\dimen126
+)
+(/usr/share/texmf-texlive/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count102
+\FV@InFile=\read1
+\FV@TabBox=\box32
+\c@FancyVerbLine=\count103
+\FV@StepNumber=\count104
+\FV@OutFile=\write3
+) (./CJFAS-shortcomm-Suppl.aux (./Table-S1-formatted.aux))
+\openout1 = `CJFAS-shortcomm-Suppl.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen127
+\scratchbox=\box33
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen128
+\MPnumerator=\count109
+\everyMPtoPDFconversion=\toks18
+) ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 27.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `Table-S1-formatted.aux'.
+
+ (./Table-S1-formatted.tex
+Overfull \hbox (114.57852pt too wide) in alignment at lines 3--4
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 4--4
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/6 Scientific
+ []
+
+
+Overfull \hbox (0.68578pt too wide) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/6 Category| 
+ []
+
+
+Overfull \hbox (5.54726pt too wide) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/6 type| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/6 ratio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\OT1/cmr/m/n/6 ratio
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 4--7
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\OT1/cmr/m/n/6 Acadian red-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\OT1/cmr/m/it/6 Sebastes fas-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 8--8
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/6 Northern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/it/6 Thunnus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/6 South Pa-cific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/it/6 Thunnus
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\OT1/cmr/m/it/6 quadritu-ber-cu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/6 Labrador - NE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/6 American
+ []
+
+
+Overfull \hbox (2.23296pt too wide) in paragraph at lines 12--12
+[]|\OT1/cmr/m/it/6 Hippoglossoides
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/6 American
+ []
+
+
+Overfull \hbox (2.23296pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/it/6 Hippoglossoides
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/6 American
+ []
+
+
+Overfull \hbox (2.23296pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/it/6 Hippoglossoides
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/6 Arrowtooth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\OT1/cmr/m/n/6 Arrowtooth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 16--16
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/6 Arrowtooth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\OT1/cmr/m/n/6 Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\OT1/cmr/m/n/6 Atlantic
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Overfull \hbox (1.78304pt too wide) in paragraph at lines 20--20
+[]|\OT1/cmr/m/it/6 Pleurogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/6 Mid-Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/6 Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/m/it/6 Micropogonias
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\OT1/cmr/m/n/6 Australian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 23--23
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 24--24
+[]|\OT1/cmr/m/it/6 Thunnus obe-
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 25--25
+[]|\OT1/cmr/m/it/6 Thunnus obe-
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 26--26
+[]|\OT1/cmr/m/it/6 Thunnus obe-
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 27--27
+[]|\OT1/cmr/m/n/6 Western Pa-cific
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 27--27
+[]|\OT1/cmr/m/it/6 Thunnus obe-
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 7--28
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\OT1/cmr/m/it/6 Centroberyx
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 28--28
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/6 West end of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/it/6 Allocyttus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (8.72173pt too wide) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/6 BLACKROCKNPCOAST| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (7.39952pt too wide) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/6 BLACKROCKSPCOAST| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\OT1/cmr/m/it/6 Pomatomus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 34--34
+[]|\OT1/cmr/m/it/6 Sebastes pau-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 34--34
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/6 Mid-Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/it/6 Centropristis
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (0.61075pt too wide) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/6 BUTTERGOMCHATT| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/6 Atlantic but-
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 36--36
+[]|\OT1/cmr/m/it/6 Peprilus tri-a-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/6 Northeast At-
+ []
+
+
+Overfull \hbox (0.81633pt too wide) in paragraph at lines 37--37
+[]|\OT1/cmr/m/it/6 Micromesistius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/cmr/m/n/6 Northern Cal-i-
+ []
+
+
+Overfull \hbox (3.56395pt too wide) in paragraph at lines 38--38
+[]|\OT1/cmr/m/it/6 Scorpaenichthys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 38--38
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/6 Southern Cal-i-
+ []
+
+
+Overfull \hbox (3.56395pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmr/m/it/6 Scorpaenichthys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/6 Shallow-water
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/6 Chilipepper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\OT1/cmr/m/n/6 Chilean jack
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\OT1/cmr/m/it/6 Trachurus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmr/m/it/6 Scomber
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 46--46
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 28--48
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 48--48
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 49--49
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 50--50
+[]|\OT1/cmr/m/n/6 Eastern Sco-tian
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 50--50
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 51--51
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 52--52
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 53--53
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 56--56
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 58--58
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/6 Kattegat and
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 60--60
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 61--61
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 62--62
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/6 Southern Cal-i-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/cmr/m/n/6 Canary rock-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/cmr/m/it/6 Sebastes pin-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 64--64
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/6 South Africa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/6 Cape horse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/it/6 Trachurus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/6 Deep-water
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/6 Deepwater
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/cmr/m/it/6 Platycephalus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 48--68
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[2
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/6 Darkblotched
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\OT1/cmr/m/it/6 Microstomus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 69--69
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 70--70
+[]|\OT1/cmr/m/it/6 Sebastes vari-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 70--70
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 71--71
+[]|\OT1/cmr/m/it/6 Parophrys ve-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 71--71
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 72--72
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Overfull \hbox (2.23296pt too wide) in paragraph at lines 72--72
+[]|\OT1/cmr/m/it/6 Hippoglossoides
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 72--72
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\OT1/cmr/m/it/6 Mycteroperca
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 73--73
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/cmr/m/it/6 Mycteroperca
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 74--74
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 75--75
+[]|\OT1/cmr/m/n/6 common gem-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 75--75
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/6 common gem-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\OT1/cmr/m/it/6 hip-poglos-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 77--77
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 78--78
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\OT1/cmr/m/it/6 hip-poglos-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 78--78
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\OT1/cmr/m/it/6 Reinhardtius
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/it/6 hip-poglos-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\OT1/cmr/m/n/6 Gopher rock-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\OT1/cmr/m/it/6 Sebastes car-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 80--80
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/6 Greater am-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\OT1/cmr/m/n/6 Gray trig-ger-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\OT1/cmr/m/it/6 Balistes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 82--82
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\OT1/cmr/m/n/6 Shelf, Bay of
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 83--83
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 84--84
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 84--84
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 85--85
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 85--85
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 87--87
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 87--87
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 68--88
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[3]
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 88--88
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 88--88
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 89--89
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 89--89
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 90--90
+[]|\OT1/cmr/m/n/6 IIIa and North
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 90--90
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 90--90
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (4.42116pt too wide) in paragraph at lines 91--91
+[]|\OT1/cmr/m/it/6 Melanogrammus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/6 IIIa-IV-VI-VII-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 94--94
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 95--95
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 96--96
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 97--97
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 98--98
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/6 Scotian Shelf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/6 and Bay of
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 99--99
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 101--101
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 102--102
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/6 Northwestern
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 103--103
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\OT1/cmr/m/n/6 Prince Ru-pert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\OT1/cmr/m/n/6 Prince William
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/6 Gulf of Riga
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 107--107
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 88--108
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[4]
+Underfull \hbox (badness 1838) in paragraph at lines 110--110
+[]|\OT1/cmr/m/it/6 Clupea haren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\OT1/cmr/m/n/6 West Coast
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/6 of Van-cou-ver
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/6 Eastern New
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/it/6 Macruronus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\OT1/cmr/m/it/6 no-vaeze-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/6 Western New
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/it/6 Macruronus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\OT1/cmr/m/it/6 no-vaeze-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (31.41031pt too wide) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/6 KELPGREENLINGORECOAST| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/cmr/m/it/6 Hexagrammos
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 115--115
+[]|\OT1/cmr/m/it/6 Engraulis en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\OT1/cmr/m/it/6 Ophiodon
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 116--116
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\OT1/cmr/m/it/6 Ophiodon
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 117--117
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 118--118
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\OT1/cmr/m/n/6 Longspine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\OT1/cmr/m/it/6 Sebastolobus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 119--119
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\OT1/cmr/m/n/6 IIa-IIIabd-IV-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/cmr/m/n/6 Vb-VI-VII-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/cmr/m/n/6 VIIIabcde-XII-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/cmr/m/it/6 Nemadactylus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/6 Mutton snap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\OT1/cmr/m/it/6 Lutjanus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 125--125
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 125--125
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 126--126
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/6 Eastern Bering
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/6 Northern rock
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\OT1/cmr/m/it/6 Lepidopsetta
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 108--128
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 129--129
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 130--130
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 131--131
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 132--132
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 133--133
+\OT1/cmr/m/n/6 eas LIN 7WC-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 133--133
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\OT1/cmr/m/n/6 Western half
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/cmr/m/n/6 of South-east
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\OT1/cmr/m/it/6 Genypterus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 134--134
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 135--135
+\OT1/cmr/m/n/6 Area 8 (Auck-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\OT1/cmr/m/it/6 Chrysophrys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 135--135
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/cmr/m/n/6 New Zealand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/cmr/m/it/6 Hoplostethus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 136--136
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\OT1/cmr/m/it/6 Hoplostethus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 138--138
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 138--138
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 139--139
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\OT1/cmr/m/n/6 Eastern Bering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\OT1/cmr/m/n/6 Pacific ocean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\OT1/cmr/m/it/6 Sebastes alu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 140--140
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 141--141
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/6 Eastern En-glish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 143--143
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 144--144
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/6 Kattegat and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 146--146
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|\OT1/cmr/m/it/6 Pleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 147--147
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 128--148
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\OT1/cmr/m/n/6 Scotian Shelf,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/6 Bay of Fundy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/6 and Georges
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\OT1/cmr/m/it/6 Pollachius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 148--148
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/it/6 Pollachius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\OT1/cmr/m/it/6 Pollachius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 150--150
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\OT1/cmr/m/n/6 IIIa, VI and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\OT1/cmr/m/it/6 Pollachius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 151--151
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\OT1/cmr/m/n/6 Pacific ocean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\OT1/cmr/m/it/6 Sebastes alu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 152--152
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\OT1/cmr/m/n/6 Pacific ocean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\OT1/cmr/m/it/6 Sebastes alu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 153--153
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\OT1/cmr/m/it/6 Eopsetta
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 154--154
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\OT1/cmr/m/it/6 Eopsetta
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 155--155
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\OT1/cmr/m/n/6 South Africa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmr/m/n/6 Sub-antarc-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmr/m/n/6 Prince Ed-ward
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\OT1/cmr/m/n/6 Patagonian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\OT1/cmr/m/it/6 Dissostichus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 156--156
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 157--157
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/6 Rougheye
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 158--158
+[]|\OT1/cmr/m/it/6 Sebastes aleu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[]|\OT1/cmr/m/n/6 Rougheye
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 159--159
+[]|\OT1/cmr/m/it/6 Sebastes aleu-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 159--159
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/6 Common
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\OT1/cmr/m/it/6 Lutjanus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 161--161
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[]|\OT1/cmr/m/it/6 Lutjanus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/6 Eastern Bering
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 163--163
+\OT1/cmr/m/n/6 Sea / Aleu-tian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|\OT1/cmr/m/it/6 Anoplopoma
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 163--163
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[]|\OT1/cmr/m/it/6 Anoplopoma
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 164--164
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\OT1/cmr/m/it/6 Sardinops
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\OT1/cmr/m/it/6 Sardinops
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\OT1/cmr/m/n/6 European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\OT1/cmr/m/it/6 Sardina
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 148--168
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[6]
+Overfull \hbox (5.64954pt too wide) in paragraph at lines 168--168
+[]|\OT1/cmr/m/n/6 SBELLYROCKPCOAST| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\OT1/cmr/m/n/6 Shortbelly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\OT1/cmr/m/it/6 Sebastes jor-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 168--168
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/6 New Zealand -
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/6 Southern blue
+ []
+
+
+Overfull \hbox (0.81633pt too wide) in paragraph at lines 169--169
+[]|\OT1/cmr/m/it/6 Micromesistius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\OT1/cmr/m/n/6 Mid-Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\OT1/cmr/m/it/6 Paralichthys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 170--170
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\OT1/cmr/m/it/6 Seriolella
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 171--171
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|\OT1/cmr/m/it/6 Katsuwonus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]|\OT1/cmr/m/it/6 Pseudocyttus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 173--173
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (2.43848pt too wide) in paragraph at lines 174--174
+[]|\OT1/cmr/m/n/6 SMOOTHOREOWECR| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\OT1/cmr/m/n/6 West end of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\OT1/cmr/m/it/6 Pseudocyttus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 174--174
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\OT1/cmr/m/it/6 Epinephelus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 175--175
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 176--176
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 177--177
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 178--178
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 179--179
+[]|\OT1/cmr/m/n/6 Eastern En-glish
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 179--179
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 180--180
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\OT1/cmr/m/it/6 Merluccius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 182--182
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Overfull \hbox (2.22826pt too wide) in paragraph at lines 183--183
+[]|\OT1/cmr/m/it/6 Scomberomorus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/cmr/m/n/6 Shortspine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/cmr/m/it/6 Sebastolobus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 185--185
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\OT1/cmr/m/it/6 Platichthys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/cmr/m/it/6 Platichthys
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 168--188
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[7]
+Overfull \hbox (20.81047pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/6 STRIPEDBASSGOMCHATT| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]|\OT1/cmr/m/it/6 Morone sax-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\OT1/cmr/m/it/6 Sillago
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 189--189
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/6 Northern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\OT1/cmr/m/it/6 Xiphias gla-d-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\OT1/cmr/m/n/6 Southeast Aus-
+ []
+
+
+Overfull \hbox (6.73305pt too wide) in paragraph at lines 191--191
+[]|\OT1/cmr/m/it/6 Neoplatycephalus
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 191--191
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\OT1/cmr/m/it/6 Lopholatilus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+\OT1/cmr/m/it/6 chamaeleon-ti-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\OT1/cmr/m/it/6 Pseudocaranx
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 193--193
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/6 Vermilion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\OT1/cmr/m/it/6 Rhomboplites
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\OT1/cmr/m/n/6 Southern At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\OT1/cmr/m/n/6 Vermilion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\OT1/cmr/m/it/6 Rhomboplites
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 195--195
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 196--196
+[]|\OT1/cmr/m/it/6 Cynoscion re-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]|\OT1/cmr/m/it/6 Urophycis
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 197--197
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 198--198
+[]|\OT1/cmr/m/n/6 IIIa, VIId and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+[]|\OT1/cmr/m/it/6 Merlangius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 198--198
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[]|\OT1/cmr/m/it/6 Merlangius
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 199--199
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/6 Winter floun-
+ []
+
+
+Overfull \hbox (13.97597pt too wide) in paragraph at lines 200--200
+[]|\OT1/cmr/m/it/6 Pseudopleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (2.41066pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 WINFLOUNSNEMATL| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 Southern New
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\OT1/cmr/m/n/6 Eng-land /Mid
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 Winter floun-
+ []
+
+
+Overfull \hbox (13.97597pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/it/6 Pseudopleuronectes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/6 Walleye pol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\OT1/cmr/m/it/6 Theragra
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\OT1/cmr/m/n/6 Eastern Bering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\OT1/cmr/m/n/6 Walleye pol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\OT1/cmr/m/it/6 Theragra
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 204--204
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\OT1/cmr/m/n/6 Walleye pol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\OT1/cmr/m/it/6 Theragra
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 205--205
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\OT1/cmr/m/n/6 Widow rock-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\OT1/cmr/m/it/6 Sebastes en-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 206--206
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/6 Yellowtail
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\OT1/cmr/m/it/6 Limanda
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 188--208
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\OT1/cmr/m/n/6 Southern New
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\OT1/cmr/m/n/6 Eng-land /Mid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\OT1/cmr/m/n/6 Yellowtail
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\OT1/cmr/m/it/6 Limanda
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 208--208
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[]|\OT1/cmr/m/n/6 Yelloweye
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[]|\OT1/cmr/m/it/6 Sebastes ru-
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 209--209
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
+[]|\OT1/cmr/m/it/6 Thunnus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\OT1/cmr/m/it/6 Thunnus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/n/6 Northeast Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/it/6 Thunnus
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 213--213
+[]|\OT1/cmr/m/n/6 Bering Sea and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\OT1/cmr/m/it/6 Limanda
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 213--213
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/6 Yellowtail
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]|\OT1/cmr/m/it/6 Sebastes
+ []
+
+
+Overfull \hbox (1.19131pt too wide) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/6 Demersal| 
+ []
+
+
+Overfull \hbox (114.57852pt too wide) in alignment at lines 208--219
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[9] [10]) [11] (./CJFAS-shortcomm-Suppl.aux (./Table-S1-formatted.aux)) ) 
+Here is how much of TeX's memory you used:
+ 3188 strings out of 495061
+ 48838 string characters out of 1182621
+ 208834 words of memory out of 3000000
+ 6345 multiletter control sequences out of 15000+50000
+ 7936 words of font info for 28 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 36i,9n,44p,422b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on CJFAS-shortcomm-Suppl.pdf (11 pages, 131301 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

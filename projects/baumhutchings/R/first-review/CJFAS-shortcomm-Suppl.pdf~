@@ -1,0 +1,94 @@
+% LaTeX file for CJFAS short communication paper (Hutchings, Minto, Ricard and Baum)
+% Last modified Time-stamp: <2010-06-04 14:26:41 (srdbadmin)>
+%
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{fancyvrb}
+
+\title{Figures and Tables for CJFAS Short Communication} 
+%\date{}
+\begin{document}
+
+\maketitle{}
+
+\subsection*{Temporal Trends in Abundance: Alternative Model Fits}
+In addition to the continuous piece-wise model described in the main
+body of the paper to compare regression slopes before and after 1992,
+we fit two other models to evaluate the robustness of our results. The
+first was a less biologically realistic, discontinuous piece-wise
+model with no continuity constraint 
+
+\begin{equation}
+ln\left(SSB_{t}\right) = \alpha + \delta_{\alpha}\eta_{t} + \left(\beta + \delta_{\beta}\eta_{t}\right)t + \epsilon_{t}
+\end{equation}
+where $\delta_{\alpha}$ is the change in intercept post-1992. The equations
+used for the continuous and discontinuous piece-wise models assume
+independence and that variability around the mean arises from
+measurement error. Thus, for comparison, we also fit a random-walk
+state-space model (Durbin and Koopman 2001) with pre- and post-1992
+drift terms via a Kalman filter with measurement and process error
+estimation attempted: 
+
+\begin{equation}
+ln\left(SSB_{obs,t}\right) = ln\left(SSB_{true,t}\right) + \nu_{t}
+\end{equation}
+
+\begin{equation}
+ln\left(SSB_{true,t+1}\right) = ln\left(SSB_{true,t}\right) + \beta + \delta_{\beta}\eta_{t} + \zeta_{t}
+\label{eq:3}
+\end{equation}
+
+where $SSB_{obs,t}$ the assessment-derived spawning stock biomass in year t, $SSB_{true,t+1}$ is
+the estimate of the true state of the spawning stock biomass, and $\nu_{t}$
+and $\zeta_{t}$ are the normally distributed measurement and process errors,
+respectively. The equations for all three models use the same
+parameter symbols for continuity but each will have a model-specific
+interpretation. The random-walk state-space model consistently yielded
+estimates of low to absent measurement error variability. This had the
+effect of reducing the model to a process-variance model where the
+model fit often, but not always, conformed closely with the observed
+data. The near absence of measurement error variability can be
+attributed to either the low-frequency nature of the time series,
+which presumably resulted from the assessments being aggregated across
+multiple ages and cohorts, thus producing a relatively smooth biomass
+series where the error variances are difficult to separate, or the
+relative simplicity of the implemented state space model (Equation~\ref{eq:3}).
+
+
+\clearpage
+
+\begin{tiny}
+\begin{landscape}
+\include{Table-S1-formatted}
+\end{landscape}
+\end{tiny}
+
+\clearpage
+
+%\begin{figure}
+%\begin{center}
+\includepdf[pages=-]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pdf}
+%\end{center}
+%\caption{Figure S1}
+%\end{figure}\label{figS1}
+\noindent 
+Figure S1
+
+\clearpage
+
+%\begin{figure}
+\begin{center}
+\includegraphics[height=15cm]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf}
+\end{center}
+%\caption{}
+%\end{figure}\label{figS2}
+\noindent 
+Figure S2
+
+\end{document}

@@ -49,6 +49,17 @@ yes  no
 
 #808080   green orange1    red2 
      16      52      42      42 
+[1] "1992 ratio for pre-1992 negative by type"
+         
+          yes no
+  #808080   0  0
+  green    46  6
+  orange1  15 27
+  red2     24 18
+[1] "Number of stocks with 1992 ratio < 1 and pre-1992 negative"
+[1] 84
+[1] "Number of stocks with 1992 ratio < 1, pre-1992 negative and positive slope difference"
+[1] 58
 [1] "1992 ratio per region for pre-1992 negative "
              
               #808080 green orange1 red2
@@ -63,6 +74,13 @@ yes  no
 
 #808080   green orange1    red2 
      16      55      47      34 
+[1] "current ratio for pre-1992 negative by type"
+         
+          yes no
+  #808080   0  0
+  green    44 11
+  orange1  26 21
+  red2     15 19
 [1] "current ratio per region for pre-1992 negative "
              
               #808080 green orange1 red2
@@ -73,3 +91,96 @@ yes  no
   NorthMidAtl       2     2       5    3
   NWAtl             5     3       9   11
   SAfr              0     3       1    0
+[1] "Slope difference by region"
+             
+              negative positive
+  Aust-NZ           13       12
+  HighSeas           6        5
+  NEAtl             13       22
+  NEPac             20       17
+  NorthMidAtl        2       10
+  NWAtl              8       20
+  SAfr               0        4
+, ,  = negative
+
+             
+              #808080 green orange1 red2
+  Aust-NZ           0     7       4    2
+  HighSeas          0     3       2    1
+  NEAtl             4     0       1    8
+  NEPac             2     8       7    3
+  NorthMidAtl       1     1       0    0
+  NWAtl             3     0       1    4
+  SAfr              0     0       0    0
+
+, ,  = positive
+
+             
+              #808080 green orange1 red2
+  Aust-NZ           0    10       1    1
+  HighSeas          0     3       2    0
+  NEAtl             1     4      12    5
+  NEPac             2    12       3    0
+  NorthMidAtl       1     1       5    3
+  NWAtl             2     3       8    7
+  SAfr              0     3       1    0
+
+[1] "pre-1992 negative, positive difference and post-1992 negative by region and ratio"
+             
+              #808080 green orange1 red2
+  Aust-NZ           0     8       1    1
+  HighSeas          0     3       1    0
+  NEAtl             1     0       2    2
+  NEPac             1     3       2    0
+  NorthMidAtl       0     0       2    1
+  NWAtl             1     0       1    4
+  SAfr              0     1       0    0
+[1] "pre-1992 negative, negative difference by region and ratio"
+             
+              #808080 green orange1 red2
+  Aust-NZ           0     7       4    2
+  HighSeas          0     3       2    1
+  NEAtl             4     0       1    8
+  NEPac             2     8       7    3
+  NorthMidAtl       1     1       0    0
+  NWAtl             3     0       1    4
+[1] "Multi-species"
+[1] "Number of stocks used in multi-species analysis"
+[1] "174"
+[1] "Overall percentage decline 1970-1974 to 2005-2009"
+[1] "37.92"
+[1] "Pelagic percentage decline 1970-1974 to 2005-2009"
+[1] "27.92"
+[1] "Demersal percentage decline 1970-1974 to 2005-2009"
+[1] "40.54"
+[1] "Number of stocks used in multi-species analysis with BRP"
+[1] 139
+[1] "Overall decline 1970-1974 to 2005-2009, with BRP"
+[1] "34.13"
+[1] "1.22"
+[1] "0.8"
+[1] "Pelagic decline 1970-1974 to 2005-2009, with BRP"
+[1] "34.17"
+[1] "1.09"
+[1] "0.72"
+[1] "Demersal decline 1970-1974 to 2005-2009, with BRP"
+[1] "34.29"
+[1] "1.26"
+[1] "0.83"
+[1] "Demersal decline by region, with BRP"
+[1] "NWAtl"
+[1] "41.33"
+[1] "0.61"
+[1] "0.36"
+[1] "NEAtl"
+[1] "49.05"
+[1] "0.89"
+[1] "0.45"
+[1] "NorthMidAtl"
+[1] "53.78"
+[1] "2.04"
+[1] "0.94"
+[1] "Aust-NZ"
+[1] "56.28"
+[1] "2.43"
+[1] "1.06"

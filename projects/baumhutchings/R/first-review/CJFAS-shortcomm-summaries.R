@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-03 21:58:59 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-04 14:24:09 (srdbadmin)>
 ##
 require(xtable)
 
@@ -51,10 +51,26 @@ print("Number of pre-1992 negative stocks with BRP from assessment")
 print(table(temp.pre.negative$fromassessment.x))
 print("1992 ratio for pre-1992 negative ")
 print(table(temp.pre.negative$colour1992))
+print("1992 ratio for pre-1992 negative by type")
+print(table(temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x))
+
+temp.pre.negative.noNA <- na.omit(temp.pre.negative)
+temp.pre.negative.noNA.belowBmsy <- temp.pre.negative.noNA[temp.pre.negative.noNA$bratio1992<1,]
+
+print("Number of stocks with 1992 ratio < 1 and pre-1992 negative")
+print(dim(temp.pre.negative.noNA.belowBmsy)[1])
+print("Number of stocks with 1992 ratio < 1, pre-1992 negative and positive slope difference")
+print(dim(temp.pre.negative.noNA.belowBmsy[temp.pre.negative.noNA.belowBmsy$mcont.diff>0,])[1])
+
+##print(table(temp.pre.negative$colour1992, temp.pre.negative$mcont.diff))
+
 print("1992 ratio per region for pre-1992 negative ")
 print(table(temp.pre.negative$geo, temp.pre.negative$colour1992))
+
 print("current ratio for pre-1992 negative ")
 print(table(temp.pre.negative$colourcurrent))
+print("current ratio for pre-1992 negative by type")
+print(table(temp.pre.negative$colourcurrent, temp.pre.negative$fromassessment.x))
 print("current ratio per region for pre-1992 negative ")
 print(table(temp.pre.negative$geo, temp.pre.negative$colourcurrent))
 
@@ -62,6 +78,70 @@ print(table(temp.pre.negative$geo, temp.pre.negative$colourcurrent))
 #table(temp.pre.negative$geo, temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x)
 #table(temp.pre.negative$geo, temp.pre.negative$colourcurrent, temp.pre.negative$fromassessment.x)
 
+
+temp.pre.negative$diff <- ifelse(temp.pre.negative$mcont.diff>0,"positive","negative")
+print("Slope difference by region")
+print(table(temp.pre.negative$geo,temp.pre.negative$diff))
+print(table(temp.pre.negative$geo,temp.pre.negative$colourcurrent,temp.pre.negative$diff))
+
+temp.post.negative <- temp.pre.negative[temp.pre.negative$mcont.post.positive==0 & temp.pre.negative$mcont.diff>0,]
+
+print("pre-1992 negative, positive difference and post-1992 negative by region and ratio")
+print(table(temp.post.negative$geo,temp.post.negative$colourcurrent))
+
+temp.post.negative <- temp.pre.negative[temp.pre.negative$mcont.diff<0,]
+
+print("pre-1992 negative, negative difference by region and ratio")
+print(table(temp.post.negative$geo,temp.post.negative$colourcurrent))
+
+## multi-species analysis
+print("Multi-species")
+print("Number of stocks used in multi-species analysis")
+print(as.character(length(unique(ts.dat2$assessid))))
+print("Overall percentage decline 1970-1974 to 2005-2009")
+print(as.character(orig.percent.change.df$percent.decline[orig.percent.change.df$region=='All' & orig.percent.change.df$category=='All']))
+print("Pelagic percentage decline 1970-1974 to 2005-2009")
+print(as.character(orig.percent.change.df$percent.decline[orig.percent.change.df$region=='All' & orig.percent.change.df$category=='Pelagic']))
+print("Demersal percentage decline 1970-1974 to 2005-2009")
+print(as.character(orig.percent.change.df$percent.decline[orig.percent.change.df$region=='All' & orig.percent.change.df$category=='Demersal']))
+
+
+
+print("Number of stocks used in multi-species analysis with BRP")
+print(length(unique(brp.ratio.dat2$assessid)))
+print("Overall decline 1970-1974 to 2005-2009, with BRP")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='All']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='All']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='All']))
+
+print("Pelagic decline 1970-1974 to 2005-2009, with BRP")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Pelagic']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Pelagic']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Pelagic']))
+
+print("Demersal decline 1970-1974 to 2005-2009, with BRP")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region=='All' & brp.percent.change.df$category=='Demersal']))
+
+print("Demersal decline by region, with BRP")
+print("NWAtl")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region == 'NWAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region == 'NWAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region == 'NWAtl' & brp.percent.change.df$category=='Demersal']))
+print("NEAtl")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region == 'NEAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region == 'NEAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region == 'NEAtl' & brp.percent.change.df$category=='Demersal']))
+print("NorthMidAtl")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region == 'NorthMidAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region == 'NorthMidAtl' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region == 'NorthMidAtl' & brp.percent.change.df$category=='Demersal']))
+print("Aust-NZ")
+print(as.character(brp.percent.change.df$percent.decline[brp.percent.change.df$region == 'Aust-NZ' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.start[brp.percent.change.df$region == 'Aust-NZ' & brp.percent.change.df$category=='Demersal']))
+print(as.character(brp.percent.change.df$index.end[brp.percent.change.df$region == 'Aust-NZ' & brp.percent.change.df$category=='Demersal']))
+                                                  
 sink()
 
 

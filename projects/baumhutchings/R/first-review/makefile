@@ -1,5 +1,9 @@
 # makefile for CJFAS Short Communication 2010 manuscript
-# last modified Time-stamp: <2010-06-03 13:36:30 (srdbadmin)>
+# last modified Time-stamp: <2010-06-04 14:31:13 (srdbadmin)>
+
+CJFAS-shortcomm-Suppl.pdf: CJFAS-shortcomm-Suppl.tex Table-S1-formatted.tex
+	pdflatex CJFAS-shortcomm-Suppl
+	pdflatex CJFAS-shortcomm-Suppl
 
 CJFAS-shortcomm-bundle.pdf: CJFAS-shortcomm-bundle.tex CJFAS-shortcomm-fig1-1010_withBRP.pdf CJFAS-shortcomm-fig2-BRPratio-1010.pdf CBD-Supp-fig1_v1.pdf CBD-Supp-fig2.pdf Table-S1-formatted.tex
 	pdflatex CJFAS-shortcomm-bundle

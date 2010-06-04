@@ -20,10 +20,10 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > # revised R code to address the reviewers' comments for CJFAS CBD short communication
-> # last modifieds Time-stamp: <2010-06-02 15:19:37 (srdbadmin)>
+> # last modifieds Time-stamp: <2010-06-02 23:00:15 (srdbadmin)>
 > 
 > #
-> #rm(list=ls())
+> rm(list=ls())
 > require(xtable)
 Loading required package: xtable
 > require(RODBC)
@@ -100,7 +100,8 @@ Loading required package: RODBC
 > 
 > 
 > odbcClose(chan)
+> save.image()
 > 
 > proc.time()
    user  system elapsed 
-  1.376   0.048   1.674 
+  1.212   0.032   1.482 

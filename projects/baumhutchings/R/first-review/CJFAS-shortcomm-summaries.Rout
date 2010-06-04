@@ -20,45 +20,65 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > ## write the data and results for the CJFAS Short Comm. paper to a file
-> ## Last modified Time-stamp: <2010-06-02 14:37:12 (srdbadmin)>
+> ## Last modified Time-stamp: <2010-06-03 21:58:59 (srdbadmin)>
 > ##
 > require(xtable)
 Loading required package: xtable
 > 
 > summary.nstocks <- dim(par.estimates.1010)[1]
 > sink(file="CJFAS-summaries.txt")
-> print("Number of stocks used in the analyses")
+> print("Number of stocks used in the slope analyses")
 > print(summary.nstocks)
-> 
+> print("Number of species used in the slope analyses")
+> print(length(unique(dat.1010$scientificname)))
 > summary.geo <- table(par.estimates.1010$geo)
 > print("Number of stocks per geographical region")
 > print(summary.geo)
 > 
+> print("Number of stocks used in the multi-species analyses")
+> print(length(unique(ts.ratios.dat$stockid)))
+> 
 > print("Number of stocks with negative pre-1992 slope")
 > print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0,])[1])
 > print("Number of stocks with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)")
-> dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0,])[1]
+> print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0,])[1])
+> print("Number of stocks with negative pre-1992 slope and negative slope difference")
+> print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff<0,])[1])
 > print("Number of stocks with negative pre-1992 slope and positive slope difference")
-> dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff<0,])[1]
+> print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.diff>0,])[1])
+> print("Number of stocks with negative pre-1992 slope, positive slope difference and negative post-1992 slope")
+> print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0 & par.estimates.1010$mcont.post.positive==0 & par.estimates.1010$mcont.diff>0,])[1])
+> 
 > print("Number of pre-1992 negative (0) and pre-1992 positive (1) per region")
-> table(par.estimates.1010$geo, par.estimates.1010$mcont.pre.positive)
+> print(table(par.estimates.1010$geo, par.estimates.1010$mcont.pre.positive))
 > 
 > print("Number of stocks with BRP with negative pre-1992 slope")
-> dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])[1]
+> print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
 > print("Number of stocks with BRP with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)")
-> dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0,])
+> print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
+> print("Number of stocks with BRP with negative pre-1992 slope and negative slope difference")
+> print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff<0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
 > print("Number of stocks with BRP with negative pre-1992 slope and positive slope difference")
-> dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff<0,])
+> print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.diff>0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
+> print("Number of stocks with BRP with negative pre-1992 slope, positive slope difference and negative post-1992 slope")
+> print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0 & par.estimates.1010.brp.both$mcont.post.positive==0 & par.estimates.1010.brp.both$mcont.diff>0  & !is.na(par.estimates.1010.brp.both$fromassessment.x),])[1])
+> 
 > 
 > #dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
 > temp.pre.negative <- par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,]
 > 
-> print("Number of stocks with BRP from assessment")
-> table(temp.pre.negative$fromassessment.x)
-> print("1992 ratio per region")
-> table(temp.pre.negative$geo, temp.pre.negative$colour1992)
-> print("current ratio per region")
-> table(temp.pre.negative$geo, temp.pre.negative$colourcurrent)
+> #print("1992 ratio for stocks with BRP with negative pre-1992 slope")
+> 
+> print("Number of pre-1992 negative stocks with BRP from assessment")
+> print(table(temp.pre.negative$fromassessment.x))
+> print("1992 ratio for pre-1992 negative ")
+> print(table(temp.pre.negative$colour1992))
+> print("1992 ratio per region for pre-1992 negative ")
+> print(table(temp.pre.negative$geo, temp.pre.negative$colour1992))
+> print("current ratio for pre-1992 negative ")
+> print(table(temp.pre.negative$colourcurrent))
+> print("current ratio per region for pre-1992 negative ")
+> print(table(temp.pre.negative$geo, temp.pre.negative$colourcurrent))
 > 
 > #print("1992 ratio per region")
 > #table(temp.pre.negative$geo, temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x)
@@ -102,4 +122,4 @@ Loading required package: xtable
 > 
 > proc.time()
    user  system elapsed 
-  2.652   0.040   3.818 
+  2.344   0.040   2.441 

@@ -1,5 +1,5 @@
 ## for CJFAS short communication, getting Biological Reference Points for 1992 and the current year
-##  last modified Time-stamp: <2010-06-02 22:59:58 (srdbadmin)>
+##  last modified Time-stamp: <2010-06-03 13:51:43 (srdbadmin)>
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
 
@@ -12,7 +12,7 @@ nn <- dim(brp.salt.dat)[1]
 salt <- data.frame(assessid=brp.salt.dat$assessid, currentyr=brp.salt.dat$maxyr, bratiocurrent=brp.salt.dat$ratio, type = rep("salt",nn), fromassessment = rep("no",nn))
 
   qu.brp.pepper <- paste("
-select l.assessid, aa.maxyr, aa.biovalue, aa.tsvalue, aa.ratio from (select a.assessid, a.maxyr, a.biovalue, a.bioid, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, bioid, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, bioid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\') aa, (select assessid, max(bioid) as bioid from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\' group by assessid) l where aa.assessid=l.assessid and aa.bioid=l.bioid
+select l.assessid, aa.maxyr, aa.bioid, aa.biovalue, aa.tsvalue, aa.ratio from (select a.assessid, a.maxyr, a.biovalue, a.bioid, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, bioid, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, bioid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\') aa, (select assessid, max(bioid) as bioid from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\' group by assessid) l where aa.assessid=l.assessid and aa.bioid=l.bioid
 ", sep="")
 ## select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 brp.pepper.dat <- sqlQuery(chan,qu.brp.pepper)
@@ -87,7 +87,6 @@ par.estimates.1010.brp.both$pch1992[par.estimates.1010.brp.both$bratio1992>=1] <
 
 #order(par.estimates.1010$assessid)
 odbcClose(chan)
-
 
 write.csv(c(1,5),"BRP-timestamp.csv")
 

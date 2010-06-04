@@ -1,17 +1,25 @@
-[1] "Number of stocks used in the analyses"
+[1] "Number of stocks used in the slope analyses"
 [1] 207
+[1] "Number of species used in the slope analyses"
+[1] 108
 [1] "Number of stocks per geographical region"
 
     Aust-NZ    HighSeas       NEAtl       NEPac NorthMidAtl       NWAtl 
          28          14          46          64          14          36 
        SAfr       SEPac 
           4           1 
+[1] "Number of stocks used in the multi-species analyses"
+[1] 185
 [1] "Number of stocks with negative pre-1992 slope"
 [1] 152
 [1] "Number of stocks with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)"
 [1] 97
-[1] "Number of stocks with negative pre-1992 slope and positive slope difference"
+[1] "Number of stocks with negative pre-1992 slope and negative slope difference"
 [1] 62
+[1] "Number of stocks with negative pre-1992 slope and positive slope difference"
+[1] 90
+[1] "Number of stocks with negative pre-1992 slope, positive slope difference and negative post-1992 slope"
+[1] 35
 [1] "Number of pre-1992 negative (0) and pre-1992 positive (1) per region"
              
                0  1
@@ -27,13 +35,21 @@
 [1] 136
 [1] "Number of stocks with BRP with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)"
 [1] 84
-[1] "Number of stocks with BRP with negative pre-1992 slope and positive slope difference"
+[1] "Number of stocks with BRP with negative pre-1992 slope and negative slope difference"
 [1] 52
-[1] "Number of stocks with BRP from assessment"
+[1] "Number of stocks with BRP with negative pre-1992 slope and positive slope difference"
+[1] 84
+[1] "Number of stocks with BRP with negative pre-1992 slope, positive slope difference and negative post-1992 slope"
+[1] 32
+[1] "Number of pre-1992 negative stocks with BRP from assessment"
 
 yes  no 
  85  51 
-[1] "1992 ratio per region"
+[1] "1992 ratio for pre-1992 negative "
+
+#808080   green orange1    red2 
+     16      52      42      42 
+[1] "1992 ratio per region for pre-1992 negative "
              
               #808080 green orange1 red2
   Aust-NZ           0    20       4    1
@@ -43,7 +59,11 @@ yes  no
   NorthMidAtl       2     3       2    5
   NWAtl             5     1       7   15
   SAfr              0     3       1    0
-[1] "current ratio per region"
+[1] "current ratio for pre-1992 negative "
+
+#808080   green orange1    red2 
+     16      55      47      34 
+[1] "current ratio per region for pre-1992 negative "
              
               #808080 green orange1 red2
   Aust-NZ           0    17       5    3

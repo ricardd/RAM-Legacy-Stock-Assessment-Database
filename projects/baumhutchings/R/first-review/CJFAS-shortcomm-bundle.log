@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  2 JUN 2010 23:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  3 JUN 2010 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -153,33 +153,44 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count101
 \@thisrulewidth=\dimen126
 )
-(./CJFAS-shortcomm-bundle.aux (./Table-S1-formatted.aux))
+(/usr/share/texmf-texlive/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count102
+\FV@InFile=\read1
+\FV@TabBox=\box32
+\c@FancyVerbLine=\count103
+\FV@StepNumber=\count104
+\FV@OutFile=\write3
+) (./CJFAS-shortcomm-bundle.aux (./Table-S1-formatted.aux))
 \openout1 = `CJFAS-shortcomm-bundle.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
+\scratchcounter=\count105
 \scratchdimen=\dimen127
-\scratchbox=\box32
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\scratchbox=\box33
+\nofMPsegments=\count106
+\nofMParguments=\count107
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count105
+\MPscratchCnt=\count108
 \MPscratchDim=\dimen128
-\MPnumerator=\count106
+\MPnumerator=\count109
 \everyMPtoPDFconversion=\toks18
 ) ABD: EveryShipout initializing macros
 (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
@@ -193,31 +204,31 @@ Package color Info: Driver file: pdftex.def on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 18.
 
 
 LaTeX Warning: No \author given.
 
+[1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig
-1-1010_withBRP.pdf, id=1, 578.16pt x 794.97pt>
+1-1010_withBRP.pdf, id=9, 578.16pt x 794.97pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcom
 m-fig1-1010_withBRP.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm
--fig1-1010_withBRP.pdf> [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+-fig1-1010_withBRP.pdf> [2]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig
-2-BRPratio-1010.pdf, id=8, 505.89pt x 505.89pt>
+2-BRPratio-1010.pdf, id=13, 505.89pt x 505.89pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcom
 m-fig2-BRPratio-1010.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm
--fig2-BRPratio-1010.pdf> [2 </home/srdbadmin/srdb/projects/baumhutchings/R/firs
-t-review/CJFAS-shortcomm-fig1-1010_withBRP.pdf>] [3 </home/srdbadmin/srdb/proje
+-fig2-BRPratio-1010.pdf> [3 </home/srdbadmin/srdb/projects/baumhutchings/R/firs
+t-review/CJFAS-shortcomm-fig1-1010_withBRP.pdf>] [4 </home/srdbadmin/srdb/proje
 cts/baumhutchings/R/first-review/CJFAS-shortcomm-fig2-BRPratio-1010.pdf>]
 \openout2 = `Table-S1-formatted.aux'.
 
@@ -902,7 +913,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 48--68
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[4
+[5
 
 
 ]
@@ -1170,7 +1181,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 68--88
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[5]
+[6]
 Overfull \hbox (4.42116pt too wide) in paragraph at lines 88--88
 []|\OT1/cmr/m/it/6 Melanogrammus
  []
@@ -1325,7 +1336,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 88--108
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 1838) in paragraph at lines 110--110
 []|\OT1/cmr/m/it/6 Clupea haren-
  []
@@ -1540,7 +1551,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 108--128
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\OT1/cmr/m/n/6 Southeast Aus-
  []
@@ -2145,7 +2156,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 148--168
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[8]
+[9]
 Overfull \hbox (5.64954pt too wide) in paragraph at lines 168--168
 []|\OT1/cmr/m/n/6 SBELLYROCKPCOAST| 
  []
@@ -2365,7 +2376,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 168--188
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[9]
+[10]
 Overfull \hbox (20.81047pt too wide) in paragraph at lines 188--188
 []|\OT1/cmr/m/n/6 STRIPEDBASSGOMCHATT| 
  []
@@ -2665,7 +2676,7 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 188--208
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/6 Southern New
  []
@@ -2760,9 +2771,9 @@ Overfull \hbox (114.57852pt too wide) in alignment at lines 208--219
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[11] [12]) [13]
+[12] [13]) [14]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=62, page=1, 578.16pt x 722.7pt>
+f, id=66, page=1, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2787,14 +2798,14 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 1> [14
+1.pdf, page 1> [15
 
 
 
  </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.p
 df>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=70, page=2, 578.16pt x 722.7pt>
+f, id=74, page=2, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2809,10 +2820,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 2> [15 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 2> [16 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=74, page=3, 578.16pt x 722.7pt>
+f, id=78, page=3, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2827,10 +2838,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 3> [16 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 3> [17 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=78, page=4, 578.16pt x 722.7pt>
+f, id=82, page=4, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2845,10 +2856,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 4> [17 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 4> [18 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=82, page=5, 578.16pt x 722.7pt>
+f, id=86, page=5, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2863,10 +2874,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 5> [18 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 5> [19 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=86, page=6, 578.16pt x 722.7pt>
+f, id=91, page=6, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2881,10 +2892,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 6> [19 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 6> [20 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=91, page=7, 578.16pt x 722.7pt>
+f, id=95, page=7, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2899,10 +2910,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 7> [20 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 7> [21 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=95, page=8, 578.16pt x 722.7pt>
+f, id=99, page=8, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2917,10 +2928,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 8> [21 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 8> [22 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=99, page=9, 578.16pt x 722.7pt>
+f, id=103, page=9, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2935,10 +2946,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 9> [22 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
+1.pdf, page 9> [23 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/
 CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=103, page=10, 578.16pt x 722.7pt>
+f, id=107, page=10, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2953,10 +2964,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 10> [23 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
+1.pdf, page 10> [24 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
 /CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=107, page=11, 578.16pt x 722.7pt>
+f, id=111, page=11, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2971,10 +2982,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 11> [24 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
+1.pdf, page 11> [25 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
 /CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=111, page=12, 578.16pt x 722.7pt>
+f, id=116, page=12, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -2989,10 +3000,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 12> [25 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
+1.pdf, page 12> [26 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
 /CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=116, page=13, 578.16pt x 722.7pt>
+f, id=120, page=13, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -3007,10 +3018,10 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 13> [26 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
+1.pdf, page 13> [27 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
 /CBD-Supp-fig1_v1.pdf>]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pd
-f, id=120, page=14, 578.16pt x 722.7pt>
+f, id=124, page=14, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
@@ -3025,34 +3036,35 @@ File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_
 v1.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v
-1.pdf, page 14> [27 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
-/CBD-Supp-fig1_v1.pdf>] [28]
+1.pdf, page 14> [28 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review
+/CBD-Supp-fig1_v1.pdf>] [29]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf, 
-id=127, 433.62pt x 578.16pt>
+id=131, 433.62pt x 578.16pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.
 pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.p
-df> [29
+df> [30
 
  </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf>
 ] (./CJFAS-shortcomm-bundle.aux (./Table-S1-formatted.aux)) ) 
 Here is how much of TeX's memory you used:
- 2865 strings out of 495061
- 47983 string characters out of 1182621
- 205355 words of memory out of 3000000
- 6026 multiletter control sequences out of 15000+50000
- 5800 words of font info for 21 fonts, out of 3000000 for 9000
+ 3238 strings out of 495061
+ 53783 string characters out of 1182621
+ 208861 words of memory out of 3000000
+ 6392 multiletter control sequences out of 15000+50000
+ 5968 words of font info for 22 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 36i,16n,44p,423b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,16n,44p,423b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/font
 s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmti7.pfb>
-Output written on CJFAS-shortcomm-bundle.pdf (29 pages, 1793707 bytes).
+m/cmti7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+>
+Output written on CJFAS-shortcomm-bundle.pdf (30 pages, 1813369 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

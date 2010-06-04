@@ -20,7 +20,7 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > # revised R code to address the reviewers' comments for CJFAS CBD short communication
-> # last modifieds Time-stamp: <2010-06-01 15:22:51 (srdbadmin)>
+> # last modifieds Time-stamp: <2010-06-02 23:00:06 (srdbadmin)>
 > 
 > ## fits and plots by stock
 > ## DR, CM
@@ -7857,7 +7857,9 @@ null device
 null device 
           1 
 > 
+> save.image()
+> 
 > 
 > proc.time()
    user  system elapsed 
-229.021 221.837 248.716 
+225.977 219.001 235.470 

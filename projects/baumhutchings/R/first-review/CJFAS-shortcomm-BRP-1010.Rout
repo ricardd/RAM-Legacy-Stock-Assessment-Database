@@ -20,7 +20,7 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > ## for CJFAS short communication, getting Biological Reference Points for 1992 and the current year
-> ##  last modified Time-stamp: <2010-06-03 13:37:52 (srdbadmin)>
+> ##  last modified Time-stamp: <2010-06-03 13:51:43 (srdbadmin)>
 > require(RODBC)
 Loading required package: RODBC
 > chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
@@ -110,11 +110,10 @@ Loading required package: RODBC
 > #order(par.estimates.1010$assessid)
 > odbcClose(chan)
 > 
-> 
 > write.csv(c(1,5),"BRP-timestamp.csv")
 > 
 > save.image()
 > 
 > proc.time()
    user  system elapsed 
-  0.600   0.036   0.833 
+  0.600   0.036   0.844 

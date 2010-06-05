@@ -8,8 +8,6 @@
          28          14          46          64          14          36 
        SAfr       SEPac 
           4           1 
-[1] "Number of stocks used in the multi-species analyses"
-[1] 185
 [1] "Number of stocks with negative pre-1992 slope"
 [1] 152
 [1] "Number of stocks with negative pre-1992 slope and negative post-1992 slope (i.e. still declining)"

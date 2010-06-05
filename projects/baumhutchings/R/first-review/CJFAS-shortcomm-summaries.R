@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-04 14:24:09 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-04 21:48:58 (srdbadmin)>
 ##
 require(xtable)
 
@@ -13,8 +13,6 @@ summary.geo <- table(par.estimates.1010$geo)
 print("Number of stocks per geographical region")
 print(summary.geo)
 
-print("Number of stocks used in the multi-species analyses")
-print(length(unique(ts.ratios.dat$stockid)))
 
 print("Number of stocks with negative pre-1992 slope")
 print(dim(par.estimates.1010[par.estimates.1010$mcont.pre.positive==0,])[1])

@@ -54,6 +54,17 @@ yes  no
   green    46  6
   orange1  15 27
   red2     24 18
+[1] "Ratios for stocks still declining, by region"
+             
+              #808080 green orange1 red2
+  Aust-NZ           0    22       3    1
+  HighSeas          1     9       3    0
+  NEAtl             7     2      10    6
+  NEPac             3    21       8    8
+  NorthMidAtl       1     4       0    1
+  NWAtl             6     1       5    7
+  SAfr              0     1       0    0
+  SEPac             0     1       0    0
 [1] "Number of stocks with 1992 ratio < 1 and pre-1992 negative"
 [1] 84
 [1] "Number of stocks with 1992 ratio < 1, pre-1992 negative and positive slope difference"

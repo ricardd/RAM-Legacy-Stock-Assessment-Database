@@ -21,7 +21,7 @@ Type 'q()' to quit R.
 
 > ## get the data for figure 2 of the main manuscript
 > ## CM
-> ## Time-stamp: <2010-06-08 21:49:35 (srdbadmin)>
+> ## Time-stamp: <2010-06-09 09:38:15 (srdbadmin)>
 > 
 > require(RODBC)
 Loading required package: RODBC
@@ -31,13 +31,50 @@ Loading required package: RODBC
 > 
 > # REVISED ANALYSIS WITH BIOLOGICAL REFERENCE POINTS
 > # bring back SSB timeseries relative to SSBmsy (basically like the pepper but with a data point for each year)
-> pepper.ts.qu <- paste("select assessid,tsyear,tsid,tsvalue,bioid,biovalue,tstobrpratio as ratio, 'pepper' as type from srdb.tsrelative_explicit_view where bioid like 'SSBmsy%' order by assessid, tsyear", sep="")
+> pepper.ts.qu <- paste("
++ select
++ assessid,
++ tsyear,
++ tsid,
++ tsvalue,
++ bioid,
++ biovalue,
++ tstobrpratio as ratio,
++ 'pepper' as type
++ from
++ srdb.tsrelative_explicit_view
++ where
++ bioid like 'SSBmsy%'
++ order by
++ assessid, tsyear",
++                       sep="")
+> 
 > pepper.ts.dat <- sqlQuery(chan, pepper.ts.qu, stringsAsFactors=FALSE)
 > 
 > 
 > # bring back TB timeseries relative to Bmsy (basically like the salt but with a data point for each year)
 > 
-> salt.ts.qu <- paste("select a.assessid, a.tsyear, a.tsid, a.total as tsvalue, b.bioid, b.bmsy as biovalue, a.total/b.bmsy as ratio, 'salt' as type from (select assessid, tsyear, 'TB' as tsid, total from srdb.timeseries_values_view) as a, (select assessid, bmsy, 'Bmsy' as bioid from srdb.spfits) as b where a.assessid=b.assessid and a.total is not null order by a.assessid, a.tsyear", sep="")
+> salt.ts.qu <- paste("
++ select
++ a.assessid,
++ a.tsyear,
++ a.tsid,
++ a.total as tsvalue,
++ b.bioid,
++ b.bmsy as biovalue,
++ a.total/b.bmsy as ratio,
++ 'salt' as type
++ from
++ (select assessid, tsyear, 'TB' as tsid, total from srdb.timeseries_values_view) as a,
++ (select assessid, bmsy, 'Bmsy' as bioid from srdb.spfits) as b
++ where
++ a.assessid not in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like 'SSBmsy%') AND
++ a.assessid=b.assessid and
++ a.total is not null
++ order by
++ a.assessid, a.tsyear",
++ sep="")
+> 
 > salt.ts.dat <- sqlQuery(chan, salt.ts.qu, stringsAsFactors=FALSE)
 > 
 > 
@@ -82,4 +119,4 @@ Loading required package: RODBC
 > 
 > proc.time()
    user  system elapsed 
-  3.940   0.076   4.330 
+  2.644   0.048   2.885 

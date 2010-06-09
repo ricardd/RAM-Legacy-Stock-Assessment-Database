@@ -1,6 +1,6 @@
 ## R code to extract data for Malin Pinsky's paper on fisheries collapse
 ## Daniel Ricard 2010-06-07
-## Last modified Time-stamp: <2010-06-09 09:59:03 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-09 14:46:27 (srdbadmin)>
 require(RODBC)
 #rm(list=ls(all=TRUE))
 chan <- odbcConnect(dsn="srdbusercalo")
@@ -99,6 +99,6 @@ transposed.dat$Btype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-BBmsy-20100608.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-BBmsy-20100609.csv", row.names=FALSE)
 
 

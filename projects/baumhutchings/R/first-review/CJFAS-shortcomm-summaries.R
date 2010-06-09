@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-04 21:48:58 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-09 14:28:00 (srdbadmin)>
 ##
 require(xtable)
 
@@ -42,6 +42,7 @@ print(dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.posi
 
 #dim(par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,])
 temp.pre.negative <- par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.pre.positive==0,]
+temp.post.negative <- par.estimates.1010.brp.both[par.estimates.1010.brp.both$mcont.post.positive==0,]
 
 #print("1992 ratio for stocks with BRP with negative pre-1992 slope")
 
@@ -51,6 +52,9 @@ print("1992 ratio for pre-1992 negative ")
 print(table(temp.pre.negative$colour1992))
 print("1992 ratio for pre-1992 negative by type")
 print(table(temp.pre.negative$colour1992, temp.pre.negative$fromassessment.x))
+
+print("Ratios for stocks still declining, by region")
+print(table(temp.post.negative$geo, temp.post.negative$colour1992))
 
 temp.pre.negative.noNA <- na.omit(temp.pre.negative)
 temp.pre.negative.noNA.belowBmsy <- temp.pre.negative.noNA[temp.pre.negative.noNA$bratio1992<1,]
@@ -163,7 +167,7 @@ supp.table$Scientificname <- paste("\\textit{",supp.table$Scientificname,"}",sep
 # now generate a good looking LaTeX table to be picked up by CJFAS-shortcomm-bundle.tex
 
 
-my.tableS1.caption <- c("A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, values for the different slopes and ratios of biomass to MSY reference point for 1992 and the current year.")
+my.tableS1.caption <- c("A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, ratios of biomass to MSY reference point for 1992 and the current year and values for the slopes under the three different models.")
 
   my.table.S1 <- xtable(supp.table, caption=my.tableS1.caption, label=c("tab:S1"), digits=4, align="cp{2.6cm}p{1.9cm}p{1.7cm}p{1.6cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}")
 

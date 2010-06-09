@@ -1,6 +1,6 @@
 ## R code to extract data for Malin Pinsky's paper on fisheries collapse
 ## Daniel Ricard 2010-06-07
-## Last modified Time-stamp: <2010-06-09 09:59:03 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-09 09:59:40 (srdbadmin)>
 require(RODBC)
 #rm(list=ls(all=TRUE))
 chan <- odbcConnect(dsn="srdbusercalo")

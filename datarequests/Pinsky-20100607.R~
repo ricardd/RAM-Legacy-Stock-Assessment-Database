@@ -1,0 +1,17 @@
+## R code to extract data for Malin Pinsky's paper on fisheries collapse
+## Daniel Ricard
+## Last modified Time-stamp: <2010-06-07 15:38:41 (srdbadmin)>
+require(RODBC)
+chan <- odbcConnect()
+
+## bring back assessment-derived reference points and associated timeseries
+
+## bring back Schaefer-derived reference points and associated timeseries
+
+## preferentially keep the assessment-derived BRPs over the Schaefer-derived ones
+
+## transpose into a new matrix with years as columns
+
+## write the resulting data frame to a CSV file
+
+odbcClose(chan)

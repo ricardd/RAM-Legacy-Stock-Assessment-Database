@@ -1,6 +1,6 @@
 ## get the data for figure 2 of the main manuscript
 ## CM
-## Time-stamp: <2010-06-02 23:05:39 (srdbadmin)>
+## Time-stamp: <2010-06-08 21:49:35 (srdbadmin)>
 
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
@@ -9,19 +9,20 @@ chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
 
 # REVISED ANALYSIS WITH BIOLOGICAL REFERENCE POINTS
 # bring back SSB timeseries relative to SSBmsy (basically like the pepper but with a data point for each year)
-pepper.ts.qu <- paste("select assessid,tsyear,tsid,tsvalue,bioid,biovalue,tstobrpratio as ratio, 'pepper' as type from srdb.tsrelative_explicit_view where bioid like 'SSBmsy%'", sep="")
-pepper.ts.dat <- sqlQuery(chan, pepper.ts.qu)
+pepper.ts.qu <- paste("select assessid,tsyear,tsid,tsvalue,bioid,biovalue,tstobrpratio as ratio, 'pepper' as type from srdb.tsrelative_explicit_view where bioid like 'SSBmsy%' order by assessid, tsyear", sep="")
+pepper.ts.dat <- sqlQuery(chan, pepper.ts.qu, stringsAsFactors=FALSE)
 
 
 # bring back TB timeseries relative to Bmsy (basically like the salt but with a data point for each year)
 
 salt.ts.qu <- paste("select a.assessid, a.tsyear, a.tsid, a.total as tsvalue, b.bioid, b.bmsy as biovalue, a.total/b.bmsy as ratio, 'salt' as type from (select assessid, tsyear, 'TB' as tsid, total from srdb.timeseries_values_view) as a, (select assessid, bmsy, 'Bmsy' as bioid from srdb.spfits) as b where a.assessid=b.assessid and a.total is not null order by a.assessid, a.tsyear", sep="")
-salt.ts.dat <- sqlQuery(chan, salt.ts.qu)
+salt.ts.dat <- sqlQuery(chan, salt.ts.qu, stringsAsFactors=FALSE)
 
 
 # now preferentially keep the pepper
 merged.temp <- rbind(pepper.ts.dat, salt.ts.dat)
 merged.ordered <- merged.temp[order(merged.temp$assessid,merged.temp$tsyear),]
+
 oo <- unlist(tapply(merged.ordered$assessid, paste(merged.ordered$assessid, merged.ordered$tsyear, sep="."), order))
 merged.dat <- merged.ordered[oo==1, ]
 
@@ -35,7 +36,7 @@ FROM", qu.taxo, ",", qu.geo, ", srdb.assessment a ",
 a.stockid = gg.stockid and gg.stockid=tt.stockid
 ORDER BY a.stockid", sep="")
 
-my.det <- sqlQuery(chan,det.qu)
+my.det <- sqlQuery(chan,det.qu, stringsAsFactors=FALSE)
 
 ts.ratios.temp <- merge(merged.dat, my.det, "assessid")
 

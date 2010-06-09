@@ -109,7 +109,7 @@ Warning message:
 > table(apply(brp.years.present.mat,2,function(x){sum(x)}))
 
   0   1   2 
- 42  26 139 
+ 23  25 159 
 > ## Are the both FALSE stocks, those without reference points?
 > ## need both to be true so the sum should be >1
 > brp.years.present.index<-apply(brp.years.present.mat,2,function(x){sum(x)>1})
@@ -369,4 +369,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-151.937   9.980 163.634 
+164.462   9.864 176.058 

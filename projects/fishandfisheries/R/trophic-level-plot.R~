@@ -1,7 +1,8 @@
 ##
 ##
-## Laast modified Time-stamp: <2010-05-06 15:02:39 (srdbadmin)>
+## Last modified Time-stamp: <2010-05-20 11:58:15 (srdbadmin)>
 ##
+setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
 
 require(beanplot)
 require(RODBC)

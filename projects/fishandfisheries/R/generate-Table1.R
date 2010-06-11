@@ -1,3 +1,4 @@
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 require(RODBC)
 require(xtable)
 

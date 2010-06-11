@@ -2,8 +2,9 @@
 ## plot the count of assessments for a given data type by year in the database
 ## DR, CM
 ## date: Tue Dec  1 14:26:02 AST 2009
-## Time-stamp: <2010-05-11 22:14:06 (srdbadmin)>
+## Time-stamp: <2010-05-20 22:47:24 (srdbadmin)>
 ##-----------------------------------------------------------------------------
+setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
 
 require(RODBC)
 ## open a channel to the database
@@ -27,19 +28,19 @@ sci.names <- sqlQuery(mychan, qu)
 qu <- paste("select a.assessid, min(ts.tsyear) || '-' || max(ts.tsyear) as timespan from srdb.assessment a, srdb.timeseries ts where a.assessid = ts.assessid group by a.assessid")
 timespan <- sqlQuery(mychan, qu)
 
-## write to a Latex table for Table S1 of manuscript
-temp1 <- merge(catch.span.dat, ssb.span.dat, "assessid")
-temp2 <- merge(temp1, r.span.dat, "assessid")
-temp3 <- merge(temp2, sci.names, "assessid")
-temp4 <- merge(temp3, timespan)
+### write to a Latex table for Table S1 of manuscript
+#temp1 <- merge(catch.span.dat, ssb.span.dat, "assessid")
+#temp2 <- merge(temp1, r.span.dat, "assessid")
+#temp3 <- merge(temp2, sci.names, "assessid")
+#temp4 <- merge(temp3, timespan)
 
-my.table.data <- data.frame(stock=temp4$stocklong, scientificname=temp4$scientificname, timespan=temp4$timespan, nyrscatch=temp4$span.x, nyrsssb=temp4$span.y, nyrsr=temp4$span)
+#my.table.data <- data.frame(stock=temp4$stocklong, scientificname=temp4$scientificname, timespan=temp4$timespan, nyrscatch=temp4$span.x, nyrsssb=temp4$span.y, nyrsr=temp4$span)
 
-write.table(my.table.data, "orca.dat")
+#write.table(my.table.data, "orca.dat")
 
-my.table.S1 <- xtable(my.table.data, caption = c("Summary of the assessments used in this analysis and the timespan of their different results."),align="p{6cm}p{3cm}ccccc",label="tab:orca")
+#my.table.S1 <- xtable(my.table.data, caption = c("Summary of the assessments used in this analysis and the timespan of their different results."),align="p{6cm}p{3cm}ccccc",label="tab:orca")
 
-print(my.table.S1, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", floating.environment="sidewaystable")
+#print(my.table.S1, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", floating.environment="sidewaystable")
 
 plot.xlim<-range(c(catch.span.dat$minyear,ssb.span.dat$minyear,r.span.dat$minyear,catch.span.dat$maxyear,ssb.span.dat$maxyear,r.span.dat$maxyear ))
 ylim.upper <- max(c(dim(catch.span.dat)[1],dim(ssb.span.dat)[1],dim(r.span.dat)[1]))
@@ -134,8 +135,20 @@ ssb.50 <- paste(ssb.q[2], ssb.q[3], sep="-")
 rec.90 <- paste(rec.q[1], rec.q[4], sep="-")
 rec.50 <- paste(rec.q[2], rec.q[3], sep="-")
 
+tot.num.assessment <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:TOTNUMASSESSMENT'")
+num.assessment.catch <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMCATCHSERIES'")
+percent.catch <- round(num.assessment.catch / tot.num.assessment * 100,0)
+num.assessment.ssb <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMSSBSERIES'")
+percent.ssb <- round(num.assessment.ssb / tot.num.assessment * 100, 0)
+num.assessment.r <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMRSERIES'")
+percent.r <- round(num.assessment.r / tot.num.assessment * 100, 0)
+
 ## send this to fishfisheries.results
+
 qu <- paste(
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTCATCHSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCATCHSERIES','",percent.catch,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTSSBSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSSBSERIES','",percent.ssb,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTRSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTRSERIES','",percent.r,"')",sep=""),
             paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN90','",catch.90,"')",sep=""),
             paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN90','",ssb.90,"')",sep=""),
             paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN90','",rec.90,"')",sep=""),

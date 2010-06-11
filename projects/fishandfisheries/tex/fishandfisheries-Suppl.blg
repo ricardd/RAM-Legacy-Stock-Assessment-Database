@@ -1,296 +1,269 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: fishandfisheries-Suppl.aux
-A level-1 auxiliary file: Table-S1.aux
+A level-1 auxiliary file: Table-S1-formatted.aux
+White space in argument---line 143 of file Table-S1-formatted.aux
+ : \citation{AFSC-ALPLAICBSAI-2008-Alaska
+ :                                        plaice BSAI.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 144 of file Table-S1-formatted.aux
+ : \citation{AFSC-ARFLOUNDBSAI-2007-Arrowtooth
+ :                                             flounder BSAI.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 149 of file Table-S1-formatted.aux
+ : \citation{AFSC-DUSROCKGA-2008-Dusky
+ :                                     rockfish GA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 153 of file Table-S1-formatted.aux
+ : \citation{AFSC-NROCKGA-2008-Northern
+ :                                      rockfish GA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 155 of file Table-S1-formatted.aux
+ : \citation{AFSC-PCODBSAI-2008-Pacific
+ :                                      cod BSAI.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 156 of file Table-S1-formatted.aux
+ : \citation{AFSC-PCODGA-2008-Pacific
+ :                                    cod GA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 158 of file Table-S1-formatted.aux
+ : \citation{AFSC-POPERCHGA-2008-Pacific
+ :                                       ocean perch GA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 160 of file Table-S1-formatted.aux
+ : \citation{AFSC-SABLEFEBSAIGA-2008-Sablefish
+ :                                             EBS AI GA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 162 of file Table-S1-formatted.aux
+ : \citation{AFSC-WPOLLAI-2008-Walleye
+ :                                     pollock AI.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 163 of file Table-S1-formatted.aux
+ : \citation{AFSC-WPOLLEBS-2008-Walleye
+ :                                      pollock EBS.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 164 of file Table-S1-formatted.aux
+ : \citation{AFSC-YSOLEBSAI-2008-Yellowfin
+ :                                         sole BSAI.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 189 of file Table-S1-formatted.aux
+ : \citation{2008
+ :                pac sardine.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 190 of file Table-S1-formatted.aux
+ : \citation{NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth
+ :                                                flounder.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 192 of file Table-S1-formatted.aux
+ : \citation{NWFSC-BLACKROCKNPCOAST-2007-Black
+ :                                             rockfish NOR WA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 193 of file Table-S1-formatted.aux
+ : \citation{NWFSC-BLACKROCKSPCOAST-2007-Black
+ :                                             rockfish OR CA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 194 of file Table-S1-formatted.aux
+ : \citation{NWFSC-BLUEROCKCAL-2007-Blue
+ :                                       rockfish CA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 195 of file Table-S1-formatted.aux
+ : \citation{NWFSC-BOCACCSPCOAST-2007
+ :                                    Bocaccio.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 196 of file Table-S1-formatted.aux
+ : \citation{NWFSC-CHILISPCOAST-2007-Chilipepper
+ :                                               CA OR.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 197 of file Table-S1-formatted.aux
+ : \citation{NWFSC-COWCODSCAL-2007-Cowcod
+ :                                        CA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 199 of file Table-S1-formatted.aux
+ : \citation{NWFSC-DKROCKPCOAST-2008-Darkblotched
+ :                                                rockfish.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 201 of file Table-S1-formatted.aux
+ : \citation{NWFSC-LNOSESKAPCOAST-2008-Longnose
+ :                                              skate.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 204 of file Table-S1-formatted.aux
+ : \citation{NWFSC-POPERCHPCOAST-2007-Pacific
+ :                                            ocean perch.pdf}
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
-Reallocated field_info (elt_size=4) to 10474 items from 5000.
 Database file #1: ./srdb-references.bib
-Warning--I'm ignoring NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN's extra "note" field
---line 2206 of file ./srdb-references.bib
-Warning--I'm ignoring SEFSC-KMACKSATLC-1981-2001-JENSEN's extra "note" field
---line 2390 of file ./srdb-references.bib
-Warning--I didn't find a database entry for "CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN"
-Warning--I didn't find a database entry for "NIWA-AUSSALMONNZ-1975-2006-JENSEN"
-Warning--I didn't find a database entry for "NIWA-OROUGHYNZMEC-1981-2004-JENSEN"
-Warning--I didn't find a database entry for "NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN"
-Warning--I didn't find a database entry for "NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN"
-Warning--I didn't find a database entry for "NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN"
-Warning--I didn't find a database entry for "NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN"
-Warning--I didn't find a database entry for "NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN"
-Warning--I didn't find a database entry for "NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN"
-Warning--I didn't find a database entry for "NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN"
-Warning--I didn't find a database entry for "NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN"
-Warning--I didn't find a database entry for "NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN"
-Warning--I didn't find a database entry for "NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN"
-Warning--I didn't find a database entry for "NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN"
-Warning--I didn't find a database entry for "NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN"
-Warning--I didn't find a database entry for "NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN"
-Warning--I didn't find a database entry for "SEFSC-MENATGM-1964-2004-GILROY"
-Warning--empty institution in CSIRO-DEEPFLATHEADSE-1978-2007-FULTON
-Warning--empty institution in CSIRO-GEMFISHSE-1966-2007-FULTON
-Warning--empty institution in CSIRO-MORWONGSE-1913-2007-FULTON
-Warning--empty institution in CSIRO-NZLINGESE-1968-2007-FULTON
-Warning--empty institution in CSIRO-OROUGHYCASCADE-1987-2006-FULTON
-Warning--empty institution in CSIRO-OROUGHYSE-1978-2007-FULTON
-Warning--empty institution in CSIRO-SILVERFISHSE-1978-2006-FULTON
-Warning--empty institution in CSIRO-SWHITSE-1945-2007-FULTON
-Warning--empty institution in CSIRO-TIGERFLATSE-1913-2006-FULTON
-Warning--empty institution in CSIRO-WAREHOUESE-1984-2006-FULTON
-Warning--empty institution in CSIRO-WAREHOUWSE-1984-2006-FULTON
-Warning--empty institution in TAFI-TASGIANTCRABTAS-1990-2007-JENSEN
-Warning--empty institution in INIDEP-ARGANCHONARG-1989-2007-Parma
-Warning--empty institution in INIDEP-ARGANCHOSARG-1992-2007-Parma
-Warning--empty title in INIDEP-ARGHAKENARG-1985-2007-Parma
-Warning--empty institution in INIDEP-ARGHAKENARG-1985-2007-Parma
-Warning--empty title in INIDEP-ARGHAKESARG-1985-2008-Parma
-Warning--empty institution in INIDEP-ARGHAKESARG-1985-2008-Parma
-Warning--empty institution in INIDEP-PATGRENADIERSARG-1983-2006-Parma
-Warning--empty title in MARAM-ANCHOSA-1984-2006-deMoor
-Warning--empty institution in MARAM-ANCHOSA-1984-2006-deMoor
-Warning--empty year in MARAM-ANCHOSA-1984-2006-deMoor
-Warning--empty institution in MARAM-CHAKESA-1917-2008-DEDECKER
-Warning--empty year in MARAM-CHAKESA-1917-2008-DEDECKER
-Warning--empty institution in MARAM-CTRACSA-1950-2007-Johnston
-Warning--empty year in MARAM-CTRACSA-1950-2007-Johnston
-Warning--empty institution in MARAM-KINGKLIPSA-1932-2008-DEDECKER
-Warning--empty year in MARAM-KINGKLIPSA-1932-2008-DEDECKER
-Warning--empty institution in MARAM-SARDSA-1984-2006-deMoor
-Warning--empty year in MARAM-SARDSA-1984-2006-deMoor
-Warning--empty institution in MARAM-SSLOBSTERSASC-1973-2008-Johnston
-Warning--empty year in MARAM-SSLOBSTERSASC-1973-2008-Johnston
-Warning--empty institution in DFO-COD5Zjm-1978-2003-PREFONTAINE
-Warning--empty institution in DFO-HAD4X5Y-1960-2003-PREFONTAINE
-Warning--empty institution in DFO-HAD5Zejm-1969-2003-PREFONTAINE
-Warning--empty institution in DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE
-Warning--empty institution in DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE
-Warning--empty institution in DFO-PAC-ESOLEHS-1944-2001-COLLIE
-Warning--empty institution in DFO-PAC-RSOLEHSTR-1945-2001-COLLIE
-Warning--empty institution in DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE
-Warning--empty institution in DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE
-Warning--empty institution in DFO-SG-COD4TVn-1965-2007-PREFONTAINE
-Warning--empty institution in ICCAT-ALBANATL-1929-2005-WORM
-Warning--empty institution in ICCAT-ATBTUNAEATL-1969-2007-WORM
-Warning--empty year in ICCAT-ATBTUNAEATL-1969-2007-WORM
-Warning--empty institution in ICCAT-ATBTUNAWATL-1969-2007-WORM
-Warning--empty author in ICCAT-BIGEYEATL-1950-2005-JENSEN
-Warning--empty institution in ICCAT-BIGEYEATL-1950-2005-JENSEN
-Warning--empty author in ICCAT-SKJEATL-1950-2006-JENSEN
-Warning--empty institution in ICCAT-SKJEATL-1950-2006-JENSEN
-Warning--empty author in ICCAT-SKJWATL-1952-2006-JENSEN
-Warning--empty institution in ICCAT-SKJWATL-1952-2006-JENSEN
-Warning--empty institution in ICCAT-SWORDMED-1968-2006-JENSEN
-Warning--empty author in ICCAT-SWORDNATL-1978-2007-JENSEN
-Warning--empty institution in ICCAT-SWORDNATL-1978-2007-JENSEN
-Warning--empty author in ICCAT-SWORDSATL-1950-2005-JENSEN
-Warning--empty institution in ICCAT-SWORDSATL-1950-2005-JENSEN
-Warning--empty author in ICCAT-YFINATL-1970-2006-JENSEN
-Warning--empty institution in ICCAT-YFINATL-1970-2006-JENSEN
-Warning--empty institution in AFWG-CAPENOR-1965-2007-MINTO
-Warning--empty institution in AFWG-CODCOASTNOR-1982-2006-MINTO
-Warning--empty institution in AFWG-CODNEAR-1943-2006-MINTO
-Warning--empty institution in AFWG-GHALNEAR-1959-2007-JENNINGS
-Warning--empty institution in AFWG-GOLDREDNEAR-1986-2006-MINTO
-Warning--empty institution in AFWG-HADNEAR-1947-2006-MINTO
-Warning--empty institution in AFWG-POLLNEAR-1957-2006-MINTO
-Warning--empty institution in HAWG-HERR2224IIIa-1991-2006-MINTO
-Warning--empty institution in HAWG-HERRNIRS-1960-2006-JENNINGS
-Warning--empty institution in HAWG-HERRNS-1960-2007-MINTO
-Warning--empty institution in HAWG-HERRVIa-1957-2006-MINTO
-Warning--empty institution in HAWG-HERRVIaVIIbc-1969-2000-MINTO
-Warning--empty institution in NWWG-CAPEICE-1977-2007-MINTO
-Warning--empty institution in NWWG-CODFAPL-1959-2006-MINTO
-Warning--empty institution in NWWG-CODICE-1952-2006-MINTO
-Warning--empty institution in NWWG-HADFAPL-1955-2006-MINTO
-Warning--empty institution in NWWG-HADICE-1977-2007-MINTO
-Warning--empty institution in NWWG-POLLFAPL-1958-2006-MINTO
-Warning--empty institution in WGBFAS-CODBA2224-1969-2007-JENNINGS
-Warning--empty institution in WGBFAS-CODBA2532-1964-2007-JENNINGS
-Warning--empty institution in WGBFAS-CODKAT-1970-2006-MINTO
-Warning--empty institution in WGBFAS-HERR2532-1973-2006-JENNINGS
-Warning--empty institution in WGBFAS-HERR30-1972-2007-JENNINGS
-Warning--empty institution in WGBFAS-HERR31-1979-2006-JENNINGS
-Warning--empty institution in WGBFAS-HERRIsum-1983-2007-JENNINGS
-Warning--empty institution in WGBFAS-HERRRIGA-1976-2007-JENNINGS
-Warning--empty institution in WGBFAS-SOLEIIIa-1982-2007-JENNINGS
-Warning--empty institution in WGBFAS-SPRAT22-32-1973-2007-JENNINGS
-Warning--empty institution in WGHMM-FMEG8c9a-1986-2006-JENNINGS
-Warning--empty institution in WGHMM-HAKENRTN-1977-2007-JENNINGS
-Warning--empty institution in WGHMM-MEG8c9a-1985-2007-JENNINGS
-Warning--empty institution in WGHMM-SOLEVIII-1982-2006-JENNINGS
-Warning--empty institution in WGMHSA-MACKNEICES-1972-2007-JENNINGS
-Warning--empty institution in WGNPBW-BWHITNEA-1980-2007-JENNINGS
-Warning--empty institution in WGNSDS-CODIS-1968-2006-MINTO
-Warning--empty institution in WGNSDS-CODVIa-1977-2006-MINTO
-Warning--empty institution in WGNSDS-HADVIa-1977-2006-MINTO
-Warning--empty institution in WGNSDS-PLAICIS-1962-2006-MINTO
-Warning--empty institution in WGNSDS-SOLEIS-1968-2006-MINTO
-Warning--empty institution in WGNSSK-CODNS-1962-2007-MINTO
-Warning--empty institution in WGNSSK-HADNS-IIIa-1963-2006-MINTO
-Warning--empty institution in WGNSSK-HADROCK-1990-2007-JENNINGS
-Warning--empty institution in WGNSSK-NPOUTNS-1983-2007-MINTO
-Warning--empty institution in WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO
-Warning--empty institution in WGNSSK-SEELNS-1983-2007-MINTO
-Warning--empty institution in WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO
-Warning--empty institution in WGSSDS-HADVIIb-k-1993-2006-JENNINGS
-Warning--empty institution in WGSSDS-PLAICCELT-1976-2006-JENNINGS
-Warning--empty institution in WGSSDS-PLAICECHW-1975-2006-JENNINGS
-Warning--empty institution in WGSSDS-SOLECS-1970-2006-JENNINGS
-Warning--empty institution in WGSSDS-SOLEVIIe-1968-2006-JENNINGS
-Warning--empty institution in WGSSDS-WHITVIIek-1982-2007-JENNINGS
-Warning--empty author in IOTC-BIGEYEIO-1957-2006-JENSEN
-Warning--empty institution in IOTC-BIGEYEIO-1957-2006-JENSEN
-Warning--empty institution in IPHC-PHALNPAC-1988-2009-Parma
-Warning--empty institution in NAFO-SC-AMPL3LNO-1955-2007-BAUM
-Warning--empty institution in NAFO-SC-AMPL3M-1960-2007-BAUM
-Warning--empty institution in NAFO-SC-COD3NO-1953-2007-BAUM
-Warning--empty institution in NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE
-Warning--empty institution in NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE
-Warning--empty institution in NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM
-Warning--empty institution in NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE
-Warning--empty institution in NAFO-SC-YELL3LNO-1960-2009-BAUM
-Warning--empty institution in AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK
-Warning--empty institution in AFSC-ARFLOUNDBSAI-1970-2008-STANTON
-Warning--empty institution in AFSC-ARFLOUNDGA-1958-2010-STANTON
-Warning--empty institution in AFSC-ATKABSAI-1976-2009-STANTON
-Warning--empty institution in AFSC-CABEZNCAL-1916-2005-STANTON
-Warning--empty institution in AFSC-CABEZSCAL-1932-2005-STANTON
-Warning--empty institution in AFSC-DUSROCKGA-1973-2008-MELNYCHUK
-Warning--empty institution in AFSC-FLSOLEBSAI-1977-2008-STANTON
-Warning--empty institution in AFSC-GHALBSAI-1960-2009-STANTON
-Warning--empty institution in AFSC-NROCKBSAI-1974-2009-STANTON
-Warning--empty institution in AFSC-NROCKGA-1959-2008-MELNYCHUK
-Warning--empty institution in AFSC-NRSOLEEBSAI-1971-2008-STANTON
-Warning--empty institution in AFSC-PCODBSAI-1964-2008-MELNYCHUK
-Warning--empty institution in AFSC-PCODGA-1964-2008-MELNYCHUK
-Warning--empty institution in AFSC-PERCHEBSAI-1974-2009-STANTON
-Warning--empty institution in AFSC-POPERCHGA-1959-2008-MELNYCHUK
-Warning--empty institution in AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK
-Warning--empty institution in AFSC-WPOLLAI-1976-2008-MELNYCHUK
-Warning--empty institution in AFSC-WPOLLEBS-1963-2008-MELNYCHUK
-Warning--empty institution in AFSC-YSOLEBSAI-1959-2008-MELNYCHUK
-Warning--empty author in ASMFC-ATLCROAKMATLC-1973-2002-STANTON
-Warning--empty institution in ASMFC-ATLCROAKMATLC-1973-2002-STANTON
-Warning--empty institution in ASMFC-PANDALGOM-1960-2009-IDOINE
-Warning--empty institution in NEFSC-AMPL5YZ-1960-2008-OBRIEN
-Warning--empty institution in NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD
-Warning--empty institution in NEFSC-BSBASSMATLC-1968-2007-SHEPHERD
-Warning--empty institution in NEFSC-CODGB-1960-2008-BAUM
-Warning--empty institution in NEFSC-CODGOM-1893-2008-BAUM
-Warning--empty institution in NEFSC-HAD5Y-1956-2008-BAUM
-Warning--empty institution in NEFSC-MONKGOMNGB-1964-2006-RICHARDS
-Warning--empty institution in NEFSC-MONKSGBMATL-1964-2006-RICHARDS
-Warning--empty institution in NEFSC-SCALLGB-1964-2006-HART
-Warning--empty institution in NEFSC-SCALLMATLC-1964-2006-HART
-Warning--empty institution in NEFSC-SDOGATLC-1962-2006-SOSEBEE
-Warning--empty institution in NEFSC-SURFMATLC-1965-2008-JACOBSON
-Warning--empty institution in NEFSC-TILEMATLC-1973-2008-NITSCHKE
-Warning--empty institution in NEFSC-WEAKFISHATLC-1980-2008-STANTON
-Warning--empty institution in NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE
-Warning--empty institution in NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON
-Warning--empty institution in NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO
-Warning--empty institution in NEFSC-WITFLOUN5Y-1982-2008-WIGLEY
-Warning--empty institution in NEFSC-YELLCCODGOM-1935-2008-LEGAULT
-Warning--empty institution in NEFSC-YELLGB-1935-2008-BAUM
-Warning--empty institution in NEFSC-YELLSNEMATL-1935-2008-BAUM
-Warning--empty institution in NMFS-MENATLAN-1940-2005-STANTON
-Warning--empty institution in NMFS-SARDNPAC-1981-2008-STANTON
-Warning--empty institution in NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH
-Warning--empty institution in NWFSC-BGROCKPCOAST-1950-2005-STANTON
-Warning--empty institution in NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH
-Warning--empty institution in NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH
-Warning--empty institution in NWFSC-BLUEROCKCAL-1916-2007-BRANCH
-Warning--empty institution in NWFSC-BOCACCSPCOAST-1951-2006-BRANCH
-Warning--empty institution in NWFSC-CHILISPCOAST-1892-2007-BRANCH
-Warning--empty institution in NWFSC-COWCODSCAL-1900-2007-BRANCH
-Warning--empty institution in NWFSC-CROCKPCOAST-1916-2007-BRANCH
-Warning--empty institution in NWFSC-DKROCKPCOAST-1928-2007-BRANCH
-Warning--empty institution in NWFSC-ESOLEPCOAST-1876-2007-BRANCH
-Warning--empty institution in NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH
-Warning--empty institution in NWFSC-LSTHORNHPCOAST-1962-2005-STANTON
-Warning--empty institution in NWFSC-PHAKEPCOAST-1966-2008-BRANCH
-Warning--empty institution in NWFSC-POPERCHPCOAST-1953-2007-BRANCH
-Warning--empty institution in NWFSC-PSOLENPCOAST-1910-2005-STANTON
-Warning--empty institution in NWFSC-PSOLESPCOAST-1874-2005-STANTON
-Warning--empty institution in NWFSC-SABLEFPCOAST-1900-2007-BRANCH
-Warning--empty institution in NWFSC-SSTHORNHPCOAST-1901-2005-STANTON
-Warning--empty institution in NWFSC-WROCKPCOAST-1955-2006-BRANCH
-Warning--empty institution in NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH
-Warning--empty institution in NWFSC-YTROCKNPCOAST-1967-2005-STANTON
-Warning--empty author in SEFSC-GAGGM-1963-2004-JENSEN
-Warning--empty title in SEFSC-GAGGM-1963-2004-JENSEN
-Warning--empty institution in SEFSC-GAGGM-1963-2004-JENSEN
-Warning--empty institution in SEFSC-GAGSATLC-1962-2005-JENSEN
-Warning--empty institution in SEFSC-GRAMBERGM-1986-2004-JENSEN
-Warning--empty institution in SEFSC-KMACKGM-1992-2001-JENSEN
-Warning--empty institution in SEFSC-KMACKSATLC-1981-2001-JENSEN
-Warning--empty institution in SEFSC-RGROUPGM-1986-2005-JENSEN
-Warning--empty author in SEFSC-RPORGYSATLC-1972-2004-JENSEN
-Warning--empty title in SEFSC-RPORGYSATLC-1972-2004-JENSEN
-Warning--empty institution in SEFSC-RPORGYSATLC-1972-2004-JENSEN
-Warning--empty institution in SEFSC-SNOWGROUPSATLC-1961-2002-STANTON
-Warning--empty author in SEFSC-SPANMACKSATLC-1950-2008-JENSEN
-Warning--empty title in SEFSC-SPANMACKSATLC-1950-2008-JENSEN
-Warning--empty institution in SEFSC-SPANMACKSATLC-1950-2008-JENSEN
-Warning--empty institution in SEFSC-TILESATLC-1961-2002-STANTON
-Warning--empty institution in SEFSC-VSNAPSATLC-1946-2008-STANTON
-Warning--empty institution in SEFSC-YTSNAPSATLCGM-1962-2001-STANTON
-Warning--empty institution in SWFSC-DSOLEPCOAST-1910-2005-STANTON
-Warning--empty institution in SWFSC-GOPHERSPCOAST-1965-2005-STANTON
-Warning--empty institution in SWFSC-SARDPCOAST-1981-2007-PINSKY
-Warning--empty institution in SWFSC-STFLOUNNPCOAST-1970-2005-STANTON
-Warning--empty institution in SWFSC-STFLOUNSPCOAST-1970-2005-STANTON
-Warning--empty institution in VNIRO-WPOLLWBS-1994-2004-JENSEN
-Warning--empty institution in IFOP-CHTRACCH-1975-2007-JENSEN
-Warning--empty institution in RIDEM-LOBSTERRI-1959-2007-COLLIE
-Warning--empty institution in RIDEM-TAUTOGRI-1959-2007-COLLIE
-Warning--empty institution in RIDEM-WINFLOUNDRI-1959-2007-COLLIE
-Warning--empty institution in SPC-ALBASPAC-1959-2006-JENSEN
-Warning--empty institution in SPC-BIGEYEWPO-1952-2006-JENSEN
-Warning--empty institution in SPC-SKJCWPAC-1972-2006-JENSEN
-Warning--empty institution in SPC-YFINCWPAC-1952-2005-JENSEN
-You've used 216 entries,
+Warning--I didn't find a database entry for "NA"
+Warning--I didn't find a database entry for ".pdf"
+Warning--I didn't find a database entry for "2007-ALB-STOCK-ASSESS-REP.pdf"
+Warning--I didn't find a database entry for "2008-BFT-STOCK-ASSESS-REP.pdf"
+Warning--I didn't find a database entry for "07-09-FAR.pdf"
+Warning--I didn't find a database entry for "08-05-FAR.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_GOAatf.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAIatka.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-WCcabezon.pdf"
+Warning--I didn't find a database entry for "2005_SAFE_Wccabezon.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAIflathead.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAIturbot.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAInorthern.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAIrocksole.pdf"
+Warning--I didn't find a database entry for "2008_SAFE_BSAIpop.pdf"
+Warning--I didn't find a database entry for "2004_ASMFC_AtlCroak.pdf"
+Warning--I didn't find a database entry for "2008ShrimpAssessment.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-Wcblackgill.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-Longspine.pdf"
+Warning--I didn't find a database entry for "2004_SAFE_WCpetralesole.pdf"
+Warning--I didn't find a database entry for "2004-SAFE-WCpetralesole.pdf"
+Warning--I didn't find a database entry for "2005-SST-assessment.pdf"
+Warning--I didn't find a database entry for "2005_SAFE_yellowtail.pdf"
+Warning--I didn't find a database entry for "GILROY-MENHADENGM-2007.pdf"
+Warning--I didn't find a database entry for "2004-SEDAR-deepwatersnappergrouper.pdf"
+Warning--I didn't find a database entry for "2008_SEDAR_VermillionSnapper_Satl.pdf"
+Warning--I didn't find a database entry for "2003_SEDAR_Yellowtailsnapper.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-WCdover.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-Wcgopher.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-WCstarryflounder.pdf"
+Warning--empty institution in CSIRO-Cascade-Plateau-Stock-Assessment-2006.pdf
+Warning--empty institution in JENSEN_TASGIANTCRAB_2008.pdf
+Warning--empty institution in Hansen-ANCHOVY-N-2007.pdf
+Warning--empty institution in Hansen-ANCHOVY-S-2007.pdf
+Warning--empty title in Irusta-hake-N-2007.pdf
+Warning--empty institution in Irusta-hake-N-2007.pdf
+Warning--empty title in Renzi-hake-S-2009.pdf
+Warning--empty institution in Renzi-hake-S-2009.pdf
+Warning--empty institution in Giussi-hoki-2007.pdf
+Warning--empty institution in SA-Mcapensis-2008_IWS_DEC08_H_5.pdf
+Warning--empty year in SA-Mcapensis-2008_IWS_DEC08_H_5.pdf
+Warning--empty institution in Johnston-SAHorseMackerel-2007.pdf
+Warning--empty year in Johnston-SAHorseMackerel-2007.pdf
+Warning--empty institution in Branch-SA-Kingklip-2008.pdf
+Warning--empty year in Branch-SA-Kingklip-2008.pdf
+Warning--empty institution in deMoorSASardineAssessment-Sep07.pdf
+Warning--empty year in deMoorSASardineAssessment-Sep07.pdf
+Warning--empty institution in Johnston-SASouthRockLobster-2008.pdf
+Warning--empty year in Johnston-SASouthRockLobster-2008.pdf
+Warning--empty institution in NAFO-COD5Zjm-2003.pdf
+Warning--empty institution in NAFO-HAD4X5Y-2003.pdf
+Warning--empty institution in NAFO-HAD5Zejm-2003.pdf
+Warning--empty institution in DFO-COD2J3KLIS-2006.pdf
+Warning--empty institution in DFO-COD3Ps-2004.pdf
+Warning--empty institution in Flat99.pdf
+Warning--empty institution in NAFO-POLL4VWX5Zc-2006.pdf
+Warning--empty institution in DFO-COD3Pn4Rs-2007.pdf
+Warning--empty institution in NAFO-COD4TVn-2007.pdf
+Warning--empty author in JENSEN-BIGEYEATL-2008.pdf
+Warning--empty institution in JENSEN-BIGEYEATL-2008.pdf
+Warning--empty author in JENSEN_YFINATL-2008.pdf
+Warning--empty institution in JENSEN_YFINATL-2008.pdf
+Warning--empty institution in ICCAT-Mediterranean-Xiphiasgladius-2007.pdf
+Warning--empty author in JENSEN_SWORDSATL-2007.pdf
+Warning--empty institution in JENSEN_SWORDSATL-2007.pdf
+Warning--empty author in JENSEN-YFINATL-2008.pdf
+Warning--empty institution in JENSEN-YFINATL-2008.pdf
+Warning--empty institution in ICES-AFWG-2007.pdf
+Warning--empty institution in AFWG-NEAR-Gadusmorhua-2007.pdf
+Warning--empty institution in ICES-HAWG-2007.pdf
+Warning--empty institution in ICES-NWWG-2007.pdf
+Warning--empty institution in ICES-WGBFAS-2007.pdf
+Warning--empty institution in ICES-WGHMM-2007.pdf
+Warning--empty institution in ICES-WGMHSA07.pdf
+Warning--empty institution in ICES-WGNPBW-2007.pdf
+Warning--empty institution in ICES-WGNSDS-2007.pdf
+Warning--empty institution in ICES-WGNSSK-2007.pdf
+Warning--empty institution in ICES-WGSSDS-2007.pdf
+Warning--empty author in JENSEN_BIGEYEIO-2007.pdf
+Warning--empty institution in JENSEN_BIGEYEIO-2007.pdf
+Warning--empty institution in hare-clark08.pdf
+Warning--empty institution in NAFO-GrandBanks-AmPlaice-2007.pdf
+Warning--empty institution in NAFO-AMPL3M-2008.pdf
+Warning--empty institution in NAFO-3NO-COD-2007.pdf
+Warning--empty institution in NAFO-GHAL23KLMNO-2007.pdf
+Warning--empty institution in NAFO-RED3LN-2007.pdf
+Warning--empty institution in NAFO-3LN-Redfishspp-2008.pdf
+Warning--empty institution in NAFO-RED3M-2007.pdf
+Warning--empty institution in NAFO-YELL3LNO-2008.pdf
+Warning--empty institution in final-2005-SAW-41-assessment.pdf
+Warning--empty institution in DataPoorReviewPanelReportFinal-1-20-09.pdf
+Warning--empty institution in NMFS-GB-Gadusmorhua-2008.pdf
+Warning--empty institution in NMFS-GOM-Gadusmorhua-2008.pdf
+Warning--empty institution in NMFS-GOM-Melanogrammusaeglefinus-2008.pdf
+Warning--empty institution in crd0721.pdf
+Warning--empty institution in Monkfish2007NEFSCAssessment.pdf
+Warning--empty institution in SeaScallop2007.pdf
+Warning--empty institution in spinydogfish2006.pdf
+Warning--empty institution in Surfclam2007.pdf
+Warning--empty institution in Tilefish2005.pdf
+Warning--empty institution in NEFSC-Weakfish-2009.pdf
+Warning--empty institution in WhiteHake2008.pdf
+Warning--empty institution in garm3k.pdf
+Warning--empty institution in NMFS-SNEMATL-Pseudopleuronectesamercianus-2008.pdf
+Warning--empty institution in NMFS-CCGOM-Limandaferruginea-2008.pdf
+Warning--empty institution in NMFS-GB-Limandaferruginea-2008.pdf
+Warning--empty institution in NMFS-SNEMATL-Limandaferruginea-2008.pdf
+Warning--empty institution in Atl.Menhaden-ASMFC-2006.pdf
+Warning--empty institution in NWFSC-CROCKPCOAST-2007-Canary.pdf
+Warning--empty institution in NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf
+Warning--empty institution in NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf
+Warning--empty institution in NWFSC-SABLEFPCOAST-2007-Sablefish.pdf
+Warning--empty institution in NWFSC-WROCKPCOAST-2007-widow.pdf
+Warning--empty institution in NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf
+Warning--empty author in JENSEN_GAGGM_2007.pdf
+Warning--empty title in JENSEN_GAGGM_2007.pdf
+Warning--empty institution in JENSEN_GAGGM_2007.pdf
+Warning--empty institution in JENSEN_GAGSATLC_2006.pdf
+Warning--empty institution in JENSEN_GRAMBERGM_2006.pdf
+Warning--empty institution in JENSEN_KMACKGMSATLC_2004.pdf
+Warning--empty institution in JENSEN_RGROUPGM-2006.pdf
+Warning--empty author in JENSEN_RPORGYSATLC_2006.pdf
+Warning--empty title in JENSEN_RPORGYSATLC_2006.pdf
+Warning--empty institution in JENSEN_RPORGYSATLC_2006.pdf
+Warning--empty author in JENSEN_SPANMACKSATLC_2008.pdf
+Warning--empty title in JENSEN_SPANMACKSATLC_2008.pdf
+Warning--empty institution in JENSEN_SPANMACKSATLC_2008.pdf
+Warning--empty institution in NOAA-TM-NMFS-SWFSC-413.pdf
+Warning--empty institution in WPOLLWBS-2004-JENSEN.pdf
+Warning--empty institution in JENSEN-JACKMACKCH-2008.pdf
+Warning--empty institution in JENSEN_ALBWPO_2008.pdf
+Warning--empty institution in SC4-SA-WP1-rev1-bigeye-tuna.pdf
+Warning--empty institution in SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf
+Warning--empty institution in WCPFC-SC3-SA-SWG-WP-01.pdf
+You've used 89 entries,
             1791 wiz_defined-function locations,
-            1399 strings with 40034 characters,
-and the built_in function-call counts, 30640 in all, are:
-= -- 2843
-> -- 1409
+            879 strings with 19147 characters,
+and the built_in function-call counts, 12326 in all, are:
+= -- 1033
+> -- 658
 < -- 0
-+ -- 578
-- -- 362
-* -- 1318
-:= -- 5861
-add.period$ -- 796
-call.type$ -- 216
-change.case$ -- 400
++ -- 264
+- -- 175
+* -- 663
+:= -- 2360
+add.period$ -- 251
+call.type$ -- 89
+change.case$ -- 169
 chr.to.int$ -- 0
-cite$ -- 438
-duplicate$ -- 1281
-empty$ -- 2697
-format.name$ -- 362
-if$ -- 6385
+cite$ -- 193
+duplicate$ -- 534
+empty$ -- 1083
+format.name$ -- 175
+if$ -- 2520
 int.to.chr$ -- 0
-int.to.str$ -- 216
+int.to.str$ -- 89
 missing$ -- 1
-newline$ -- 1231
-num.names$ -- 203
-pop$ -- 442
+newline$ -- 432
+num.names$ -- 80
+pop$ -- 242
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 391
+skip$ -- 131
 stack$ -- 0
 substring$ -- 0
-swap$ -- 18
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 222
-while$ -- 203
-width$ -- 219
-write$ -- 2547
-(There were 246 warnings)
+warning$ -- 104
+while$ -- 80
+width$ -- 91
+write$ -- 905
+(There were 22 error messages)

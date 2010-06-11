@@ -39,6 +39,7 @@ while ( $ordername = $sth->fetchrow_array() )
 #print "$ordername \n";
 #print LATEXFILE "\\section{$ordername}\\index{$ordername}\n\n";
 #print LATEXFILE "\\section{$ordername}\\index{$ordername (order)}\n\n";
+print LATEXFILE "\\addcontentsline{toc}{section}{Order $ordername}" ; # .  . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 my $sqlfam = qq{SELECT distinct tt.family from srdb.assessment aa, srdb.stock bb, srdb.taxonomy tt, srdb.timeseries ts
 WHERE
@@ -57,6 +58,7 @@ while ( $famname = $sth2->fetchrow_array() )
 print LATEXFILE "\\index{$famname}\\index{$ordername!$famname}\n\n";
 #\\subsection{$famname}
 #print LATEXFILE "\\subsection{$famname}\\index{$famname (family)}\\index{$ordername (order)!$famname}\n\n";
+print LATEXFILE "\\addcontentsline{toc}{subsection}{\\hspace{0.2cm}Family $famname}" ; # . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 #my $sqlassess = qq{select distinct aa.assessid, tt.commonname1, tt.scientificname, aa.recorder from srdb.taxonomy tt, srdb.assessment aa, srdb.stock ss where (aa.assessid in (SELECT assessid from srdb.qaqc where qaqc is true)) and aa.stockid=ss.stockid and ss.tsn=tt.tsn and tt.family = \'$famname\' order by tt.scientificname, aa.recorder};
 
@@ -69,6 +71,7 @@ while ( ($stocklong, $assessid, $comname, $sciname, $recorder, $assess, $model, 
 {
 $pdfname = $assessid . ".pdf";
 print LATEXFILE "\\index{$comname}\\index{$sciname}\\index{$famname!$sciname}\n";
+#print LATEXFILE "\\addcontentsline{toc}{subsubsection}{\\hspace{0.2cm}\\it{$sciname} . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . }" ;
 #\\subsubsection{$sciname - $comname}
 #print LATEXFILE "ID: $assessid\n\n";
 #print LATEXFILE "$stocklong \n\n";

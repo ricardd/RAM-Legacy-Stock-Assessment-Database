@@ -1,12 +1,12 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-05-21 22:27:54 (srdbadmin)>
+## Last modified: Time-stamp: <2010-06-10 09:40:37 (srdbadmin)>
 setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
 
 require(RODBC)
 require(KernSmooth)
-require(gregmisc)
+#require(gregmisc)
 require(xtable)
 
 chan<- odbcConnect(dsn="srdbcalo")
@@ -22,12 +22,12 @@ if(gtype == "all"){
   tb.salt.qu <- paste("
 select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor) AND recorder != \'MYERS\')
 ", sep="")
-  tb.salt <- sqlQuery(chan,tb.salt.qu)
+  tb.salt <- sqlQuery(chan,tb.salt.qu, stringsAsFactors=FALSE)
 
   f.salt.qu <- paste("
 select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor) and recorder != \'MYERS\')
 ", sep="")
-  f.salt <- sqlQuery(chan,f.salt.qu)
+  f.salt <- sqlQuery(chan,f.salt.qu, stringsAsFactors=FALSE)
 
     salt.merged <- merge(tb.salt, f.salt, "assessid")
 nn <- dim(salt.merged)[1]
@@ -40,12 +40,12 @@ nn <- dim(salt.merged)[1]
   ssb.pepper.qu <- paste("
 select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
-ssb.pepper <- sqlQuery(chan,ssb.pepper.qu)
+ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
   
   f.pepper.qu <- paste("
   select a.assessid, a.maxyr, a.biovalue, v.tsvalue, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Fmsy%\' or bioid like \'Umsy%\')  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Fmsy%\' or v.bioid like \'Umsy%\')
   ", sep="")
-f.pepper <- sqlQuery(chan, f.pepper.qu)
+f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
 ## pepper
 
 ## only keep assessid where there exists both f and an ssb entries
@@ -135,21 +135,26 @@ select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeser
   
   crosshair.for.table.tt <- merge(crosshair.for.table.t, timespan.dat, "assessid")
 
-  ## get management body for each assessid
-  qu <- paste("SELECT
+  ## get management body and RIS ID for each assessid
+  qu <- paste("
+SELECT
 a.assessid,
-m.mgmt
+m.mgmt, r.risentry
 FROM
 srdb.management m,
 srdb.assessor aa,
-srdb.assessment a
+srdb.assessment a, srdb.referencedoc r
 WHERE
-a.assessorid = aa.assessorid AND
+r.assessid = a.assessid AND 
+r.risfield='ID' AND 
+a.assessorid = aa.assessorid AND 
 m.mgmt = aa.mgmt AND
 a.recorder != 'MYERS' AND
 a.assess=1
 GROUP BY 
-a.assessid, m.country,
+r.risentry, 
+a.assessid, 
+m.country,
 m.managementauthority,
 m.mgmt
 ORDER BY 
@@ -158,16 +163,18 @@ m.country
 mgmt.dat <- sqlQuery(chan, qu)
 
     crosshair.for.table.temp <- merge(crosshair.for.table.tt, mgmt.dat, "assessid")
-  crosshair.for.table.temp$ref <- paste("cite{", crosshair.for.table.temp$assessid, "}",sep="")
+  crosshair.for.table.temp$ref <- paste("\\cite{", crosshair.for.table.temp$risentry, "}",sep="")
   
 ##  write.table(crosshair.for.table.temp, "crosshair-table.dat")
   crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong ,scientificname=crosshair.for.table.temp$scientificname, timespan=crosshair.for.table.temp$timespan, currentyear=crosshair.for.table.temp$currentyr, Bratio=crosshair.for.table.temp$b.ratio ,Uratio=crosshair.for.table.temp$u.ratio , fromassessment=crosshair.for.table.temp$fromassessment, ref=crosshair.for.table.temp$ref)
   crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt),]
-  
+
+  crosshair.for.table$scientificname <- paste("\\textit{",crosshair.for.table$scientificname,"}",sep="")
+
   write.table(crosshair.for.table, "crosshair-table.dat")
 
-  my.table.S2 <- xtable(crosshair.for.table, caption=c("Summary of the assessments used in this analysis and their estimated ratios of current biomass to the biomass at maximum sustainable yield and current harvest rate to the harvest rate that results is maximum sustainable yield. The estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production model fits. When both an SSBmsy and Bmsy reference points are available, the SSB is chosen preferentially."), label=c("tab:crosshair"), digits=2, align="cp{2cm}p{3cm}p{4cm}cccccc")
-  print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom")
+  my.table.S2 <- xtable(crosshair.for.table, caption=c("Summary of the assessments used in this analysis and their estimated ratios of current biomass to the biomass at maximum sustainable yield and current harvest rate to the harvest rate that results is maximum sustainable yield. The estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production model fits. When both an SSBmsy and Bmsy reference points are available, the SSB is chosen preferentially."), label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}ccccp{1.9cm}c")
+  print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 #  write.table(my.table.S2, "../tex/Table-S1.tex")
 #  sink("../tex/Table-S1.tex")
 #  my.table.S2

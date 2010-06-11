@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # a Perl script to generate the abstract for the F&F manuscript
 # DR CM
-# Time-stamp: <Last modified: 22 JANUARY   (srdbadmin)>
+# Time-stamp: <2010-06-10 10:39:09 (srdbadmin)>
 use strict;
 use warnings;
 use DBI;
@@ -11,11 +11,11 @@ my $dbh = DBI->connect("dbi:Pg:dbname=srdb;host=localhost;port=5432;" ,
 		      || die "Database connection not made: $DBI::errstr";
 
 
-open OUT, ">/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/tex/abstract-dynamic.tex" or die $!;
+open OUT, ">/home/srdbadmin/srdb/projects/fishandfisheries/tex/abstract-dynamic.tex" or die $!;
 
 
 
-open IN, "/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/tex/fishandfisheries-abstract-dynamic.tex" or die $!;
+open IN, "/home/srdbadmin/srdb/projects/fishandfisheries/tex/fishandfisheries-abstract-dynamic.tex" or die $!;
 
 # loop over lines in the IN file
 while ($_ = <IN> ) {

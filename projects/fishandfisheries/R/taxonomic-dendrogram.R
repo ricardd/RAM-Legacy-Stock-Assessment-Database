@@ -1,11 +1,11 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-05-28 11:39:10 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-10 10:18:44 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
 
-setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 require(RODBC); require(ape); require(gsubfn); require(IDPmisc); require(doBy)
 
     f.rec <- function(subtaxo) {
@@ -76,7 +76,7 @@ percent.actinopterygii<-round(100*sum(fishbase.dat.order$Family.length[fishbase.
 percent.elasmobranchii<-round(100*sum(fishbase.dat.order$Family.length[fishbase.dat.order$Class=="Elasmobranchii (sharks and rays)"])/sum(fishbase.dat.order$Family.length),2)
 
 ## pdf output
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/FishBase-byorder.pdf", width=10, height=10)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/FishBase-byorder.pdf", width=10, height=10)
 plot(taxo.phylo.fishbase, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
      edge.width=taxo.2.phylo.fishbase$div.edge.length, label.offset=0.5, srt=0, adj=0)
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -153,7 +153,7 @@ taxo.phylo.saup$tip.label<-paste(taxo.phylo.saup$tip.label,paste("(",percentage.
 percent.actinopterygii<-round(100*sum(saup.dat.order$Family.length[saup.dat.order$Class=="Actinopterygii (ray-finned fishes)"])/sum(saup.dat.order$Family.length),2)
 percent.elasmobranchii<-round(100*sum(saup.dat.order$Family.length[saup.dat.order$Class=="Elasmobranchii (sharks and rays)"])/sum(saup.dat.order$Family.length),2)
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/SAUP-byorder.pdf", width=10, height=10)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/SAUP-byorder.pdf", width=10, height=10)
 plot(taxo.phylo.saup, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
      edge.width=taxo.2.phylo.saup$div.edge.length, label.offset=0.5, srt=0, adj=0)
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -188,7 +188,7 @@ for(i in 2:length(prelim.tip.labels)){
 
 taxo.phylo$tip.label<-prelim.tip.labels
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
 my.opaque.grey<-"#80808099"
 plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -255,7 +255,7 @@ percent.actinopterygii<-round(100*sum(srdb.dat.order$Family.length[srdb.dat.orde
 percent.chondrichthyes <-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Chondrichthyes"])/sum(srdb.dat.order$Family.length),2)
 
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-byorder.pdf", width=10, height=10)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-byorder.pdf", width=10, height=10)
 plot(taxo.phylo.srdb, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
      edge.width=taxo.2.phylo.srdb$div.edge.length, label.offset=0.5, srt=0, adj=0)
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -292,7 +292,7 @@ percent.actinopterygii<-round(100*sum(srdb.dat.order$Family.length[srdb.dat.orde
 percent.chondrichthyes <-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Chondrichthyes"])/sum(srdb.dat.order$Family.length),2)
 
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-fishonly-byorder.pdf", width=10, height=10)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-fishonly-byorder.pdf", width=10, height=10)
 plot(taxo.phylo.srdb, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
      edge.width=taxo.2.phylo.srdb$div.edge.length, label.offset=0.5, srt=0, adj=0)
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -317,7 +317,7 @@ saup.percentage.by.order<-round(100*as.numeric(sapply(saup.phylo$tip.label, func
 saup.phylo$tip.label<-paste(saup.phylo$tip.label,paste("(",saup.percentage.by.order,")", sep=""), sep="\n")
 saup.phylo$tip.label[saup.phylo$tip.label=="\n(NA)"] <- ""
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/fishbase_saup_two_panel_phylo.pdf", width=10, height=6)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/fishbase_saup_two_panel_phylo.pdf", width=10, height=6)
 par(mfrow=c(1,2), mar=c(0,0,0,0))
 ## Fishbase
 plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
@@ -349,7 +349,7 @@ srdb.phylo$tip.label[srdb.phylo$tip.label=="\n(NA)"] <- ""
 # REF:SQL:SAUPPERCENTORDERSFISHBASE
 
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
+pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
 par(mfrow=c(3,1), mar=c(0,0,0,0))
 ## Fishbase
 plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))

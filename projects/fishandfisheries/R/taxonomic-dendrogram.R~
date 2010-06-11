@@ -1,9 +1,10 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-05-26 13:28:18 (srdbadmin)>
+## Last modified Time-stamp: <2010-05-28 11:39:10 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
-##
+## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
+
 setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
 require(RODBC); require(ape); require(gsubfn); require(IDPmisc); require(doBy)
 
@@ -94,6 +95,10 @@ saup.dat.in <- read.csv("SAUP-species-list.csv")
 fishbase.saup.merged <- merge(fishbase.dat, saup.dat.in, "scientificname")
 saup.dat <- data.frame(Kingdom = fishbase.saup.merged$Kingdom, Phylum = fishbase.saup.merged$Phylum, Class = fishbase.saup.merged$Class, Order = fishbase.saup.merged$Order, Family = fishbase.saup.merged$Family, Genus = fishbase.saup.merged$Genus, Species = fishbase.saup.merged$Species, LME = fishbase.saup.merged$LME, scientificname = fishbase.saup.merged$scientificname)
 
+saup.dat$Order <- as.factor(as.character(saup.dat$Order))
+saup.dat$Class <- as.factor(as.character(saup.dat$Class))
+
+
 # number of species in SAUP
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP'",sep="" )
 sqlQuery(chan,delete.qu)
@@ -119,14 +124,14 @@ sqlQuery(chan,insert.qu)
 
 ##
 
-## note subsample of fishbase for now
-n.sample<-floor(0.3*length(fishbase.dat[,1]))
-index<-sample(seq(1,length(fishbase.dat[,1])),size=n.sample)
-saup.data<-fishbase.dat[index,]
-saup.dat <- saup.dat[order(saup.dat$scientificname),]
-saup.dat$scientificname <- as.factor(paste(saup.dat$Genus, saup.dat$Species, sep=" "))
-saup.levels <- as.character(unique((saup.dat$Order)))
-saup.dat$Order <- as.factor(as.character(saup.dat$Order))
+### note subsample of fishbase for now
+#n.sample<-floor(0.3*length(fishbase.dat[,1]))
+#index<-sample(seq(1,length(fishbase.dat[,1])),size=n.sample)
+#saup.data<-fishbase.dat[index,]
+#saup.dat <- saup.dat[order(saup.dat$scientificname),]
+#saup.dat$scientificname <- as.factor(paste(saup.dat$Genus, saup.dat$Species, sep=" "))
+#saup.levels <- as.character(unique((saup.dat$Order)))
+#saup.dat$Order <- as.factor(as.character(saup.dat$Order))
 
 
 ##expanded.saup.dat<-saup.dat[rep(1:nrow(saup.dat), times=saup.dat$LME), ]
@@ -135,8 +140,10 @@ expanded.saup.dat<-saup.dat
 ## get the counts by order2
 saup.dat.order<-summaryBy(Family~Class+Order, data=expanded.saup.dat, FUN=c(length))
 
-taxo.phylo.saup<-as.phylo(~Class/Order, data=saup.dat.order)
-taxo.2.phylo.saup<-by.order.as.phylo.formula(~Class/Order, data=saup.dat.order)
+taxo.phylo.saup <- as.phylo(~Class/Order, data=saup.dat.order)
+
+taxo.2.phylo.saup <- by.order.as.phylo.formula(~Class/Order, data=saup.dat.order)
+
 taxo.2.phylo.saup$div.edge.length<-taxo.2.phylo.saup$edge.length/(range(taxo.2.phylo.saup$edge.length)[2]/20)
 taxo.phylo.saup$tip.label<-taxo.2.phylo.saup$tip.label
 
@@ -181,7 +188,7 @@ for(i in 2:length(prelim.tip.labels)){
 
 taxo.phylo$tip.label<-prelim.tip.labels
 
-pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10)
+pdf("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
 my.opaque.grey<-"#80808099"
 plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -190,11 +197,11 @@ text(0.68,-0.09, labels="Arthropoda", srt=351, cex=my.cex, font=2)
 text(0.6,-0.34, labels="Mollusca", srt=330, cex=my.cex, font=2)
 text(0.45,-0.41, labels="Chondrichtyes", srt=325, cex=my.cex)
 text(0.35,0.41, labels="Perciformes", srt=40, cex=my.cex)
-text(-0.07,0.5, labels="Scorpaeniformes", srt=80, cex=my.cex)
+text(-0.09,0.5, labels="Scorpaeniformes", srt=80, cex=my.cex)
 text(-0.5,0.35, labels="Clupeiformes", srt=320, cex=my.cex)
 text(-0.47,-0.15, labels="Pleuronectiformes", srt=33, cex=my.cex)
-text(0.09,-0.45, labels="Gadiformes", srt=297, cex=my.cex)
-text(0.17,0.1, labels="Animalia", srt=0, cex=1, font=2)
+text(0.1,-0.45, labels="Gadiformes", srt=295, cex=my.cex)
+text(0.20,0.1, labels="Animalia", srt=0, cex=1, font=2)
 Arrows(0.08,0.1,0.015,0.04, open=FALSE, size=0.5)
 #text(-0.38,0.35, labels="Actinopterygii", srt=0, cex=my.cex)
 #Arrows(-0.37,0.31,-0.10,-0.02, open=FALSE, size=0.5)

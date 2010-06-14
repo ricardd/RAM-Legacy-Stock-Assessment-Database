@@ -1,5 +1,5 @@
 ## write the data and results for the CJFAS Short Comm. paper to a file
-## Last modified Time-stamp: <2010-06-09 14:28:00 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-14 09:41:00 (srdbadmin)>
 ##
 require(xtable)
 
@@ -167,11 +167,13 @@ supp.table$Scientificname <- paste("\\textit{",supp.table$Scientificname,"}",sep
 # now generate a good looking LaTeX table to be picked up by CJFAS-shortcomm-bundle.tex
 
 
-my.tableS1.caption <- c("A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, ratios of biomass to MSY reference point for 1992 and the current year and values for the slopes under the three different models.")
+#my.tableS1.caption <- c("A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, ratios of biomass to MSY reference point for 1992 and the current year and values for the slopes under the three different models.")
+#my.tableS1.caption <- c("")
+#caption=my.tableS1.caption, 
+  my.table.S1 <- xtable(supp.table, label=c("tab:S1"), digits=4, align="cp{2.6cm}p{1.9cm}p{1.7cm}p{1.6cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}")
 
-  my.table.S1 <- xtable(supp.table, caption=my.tableS1.caption, label=c("tab:S1"), digits=4, align="cp{2.6cm}p{1.9cm}p{1.7cm}p{1.6cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}")
-
-  print(my.table.S1, type="latex", file="Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+print(my.table.S1, type="latex", file="Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="top", sanitize.text.function=I)
+#  print(my.table.S1, type="latex", file="Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 #  \hline \\ Continued on next page \endfoot
 

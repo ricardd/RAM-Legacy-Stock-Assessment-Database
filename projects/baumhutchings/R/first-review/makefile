@@ -1,5 +1,5 @@
 # makefile for CJFAS Short Communication 2010 manuscript
-# last modified Time-stamp: <2010-06-09 09:44:12 (srdbadmin)>
+# last modified Time-stamp: <2010-06-14 09:46:39 (srdbadmin)>
 
 CJFAS-shortcomm-bundle.pdf: CJFAS-shortcomm-bundle.tex CJFAS-shortcomm-fig1-1010_withBRP.pdf CJFAS-shortcomm-fig2-BRPratio-1010.pdf CBD-Supp-fig1_v1.pdf CBD-Supp-fig2.pdf Table-S1-formatted.tex 
 	pdflatex CJFAS-shortcomm-bundle
@@ -33,6 +33,6 @@ CBD-Supp-fig2.pdf: all-timestamp.csv
 
 Table-S1-formatted.tex: CJFAS-shortcomm-summaries.R CBD-TableS1.csv mytable.txt all-timestamp.csv
 	R CMD BATCH CJFAS-shortcomm-summaries.R
-	sed '/begin/ r mytable.txt' Table-S1.tex | sed 8,10d > Table-S1-formatted.tex
+	sed '/begin/ r mytable.txt' Table-S1.tex | sed 8,10d > Table-S1-formatted.tex # replace table head
 
 # number of stocks where ratio is based on assessment TB and Bmsy

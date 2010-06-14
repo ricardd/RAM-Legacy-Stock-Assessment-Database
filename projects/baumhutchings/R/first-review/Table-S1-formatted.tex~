@@ -1,6 +1,7 @@
 % latex table generated in R 2.9.1 by xtable 1.5-6 package
-% Mon Jun 14 10:05:51 2010
+% Mon Jun 14 09:09:03 2010
 \begin{longtable}{p{2.6cm}p{1.9cm}p{1.7cm}p{1.6cm}p{1cm}p{0.3cm}p{1cm}p{1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}p{1cm}p{1.1cm}}
+\caption{A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type, ratios of biomass to MSY reference point for 1992 and the current year and values for the slopes under the three different models.} \\ 
   \bottomrule \\ \multicolumn{2}{c}{Continued on next page} \endfoot \endlastfoot
  \toprule  & & & & & & & & \multicolumn{2}{c}{Continuous} & \multicolumn{2}{c}{Discontinuous} & \multicolumn{2}{c}{Drift} \\ 
 \cmidrule{9-14}

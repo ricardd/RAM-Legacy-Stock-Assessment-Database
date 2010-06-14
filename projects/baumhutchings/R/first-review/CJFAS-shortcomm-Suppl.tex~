@@ -1,5 +1,5 @@
 % LaTeX file for CJFAS short communication paper (Hutchings, Minto, Ricard and Baum)
-% Last modified Time-stamp: <2010-06-04 14:29:50 (srdbadmin)>
+% Last modified Time-stamp: <2010-06-04 14:30:56 (srdbadmin)>
 %
 \documentclass[letterpaper,12pt]{article}
 
@@ -16,7 +16,7 @@
 \begin{document}
 
 %\maketitle{}
-\section{Text for Supplementary Materials and Table S1}
+\section*{Text for Supplementary Materials and Table S1}
 \subsection*{Temporal Trends in Abundance: Alternative Model Fits}
 In addition to the continuous piece-wise model described in the main
 body of the paper to compare regression slopes before and after 1992,

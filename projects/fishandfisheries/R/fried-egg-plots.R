@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-06-10 09:55:20 (srdbadmin)>
+## Last modified: Time-stamp: <2010-06-14 14:53:06 (srdbadmin)>
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(RODBC)
@@ -129,7 +129,7 @@ sci.names <- sqlQuery(chan, qu)
 
   ## timespan for each assessment
   qu <- paste("
-select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeseries group by assessid
+select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeseries where assessid in (select assessid from srdb.assessment where assess=1 and recorder != 'MYERS') group by assessid
 ",sep="")
   timespan.dat <- sqlQuery(chan,qu)
   
@@ -139,15 +139,24 @@ select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeser
   qu <- paste("
 SELECT
 a.assessid,
+s.stocklong,
+t.scientificname,
+ts.timespan,
 m.mgmt,
 r.risentry
 FROM
 srdb.management m,
 srdb.assessor aa,
 srdb.assessment a,
-srdb.referencedoc r
+srdb.referencedoc r,
+srdb.stock s,
+srdb.taxonomy t,
+(select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeseries group by assessid) as ts
 WHERE
-r.assessid = a.assessid AND 
+r.assessid = a.assessid AND
+ts.assessid=a.assessid AND
+a.stockid = s.stockid AND
+s.tsn = t.tsn AND
 r.risfield='ID' AND 
 a.assessorid = aa.assessorid AND 
 m.mgmt = aa.mgmt AND
@@ -155,25 +164,27 @@ a.recorder != 'MYERS' AND
 a.assess=1
 GROUP BY 
 r.risentry, 
-a.assessid, 
+a.assessid, s.stocklong, t.scientificname, ts.timespan, 
 m.country,
 m.managementauthority,
 m.mgmt
 ORDER BY 
-m.country
+m.country,
+t.scientificname
 ",sep="")
 mgmt.dat <- sqlQuery(chan, qu)
 
-    crosshair.for.table.temp <- merge(crosshair.for.table.tt, mgmt.dat, "assessid")
+    crosshair.for.table.temp <- merge(crosshair.for.table.tt, mgmt.dat, "assessid", all.y=TRUE)
   crosshair.for.table.temp$ref <- paste("\\cite{", crosshair.for.table.temp$risentry, "}",sep="")
   
 ##  write.table(crosshair.for.table.temp, "crosshair-table.dat")
-  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong ,scientificname=crosshair.for.table.temp$scientificname, timespan=crosshair.for.table.temp$timespan, currentyear=crosshair.for.table.temp$currentyr, Bratio=crosshair.for.table.temp$b.ratio ,Uratio=crosshair.for.table.temp$u.ratio , fromassessment=crosshair.for.table.temp$fromassessment, ref=crosshair.for.table.temp$ref)
-  crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt),]
+  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$currentyr, Bratio=crosshair.for.table.temp$b.ratio ,Uratio=crosshair.for.table.temp$u.ratio , fromassessment=crosshair.for.table.temp$fromassessment, ref=crosshair.for.table.temp$ref)
 
   crosshair.for.table$scientificname <- paste("\\textit{",crosshair.for.table$scientificname,"}",sep="")
+  crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt,crosshair.for.table$scientificname),]
 
   write.table(crosshair.for.table, "crosshair-table.dat")
+  write.csv(crosshair.for.table, "crosshair-table.csv")
 
   my.table.S2 <- xtable(crosshair.for.table, caption=c("Summary of the assessments used in this analysis and their estimated ratios of current biomass to the biomass at maximum sustainable yield and current harvest rate to the harvest rate that results is maximum sustainable yield. The estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production model fits. When both an SSBmsy and Bmsy reference points are available, the SSB is chosen preferentially."), label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}ccccp{1.9cm}c")
   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
@@ -208,14 +219,20 @@ else if(gtype == "mgmt"){
 # Schaefer-derived SSBmsy and Fmsy reference points (i.e. salt)
 ## salt data
   tb.salt.qu <- paste("
-select tsv.assessid, tsv.tsyear as maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\')  and recorder != \'MYERS\')
+select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') AND recorder != \'MYERS\')
 ", sep="")
   tb.salt <- sqlQuery(chan,tb.salt.qu)
 
+
+## select tsv.assessid, tsv.tsyear as maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\')  and recorder != \'MYERS\')
+
   f.salt.qu <- paste("
-select tsv.assessid, tsv.tsyear as maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and catch_landings is not null and total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
+select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
 ", sep="")
   f.salt <- sqlQuery(chan,f.salt.qu)
+
+
+# select tsv.assessid, tsv.tsyear as maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and catch_landings is not null and total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
 
     salt.merged <- merge(tb.salt, f.salt, "assessid")
 nn <- dim(salt.merged)[1]
@@ -250,7 +267,8 @@ nn <- dim(pepper.merged)[1]
   temp.dat.ord <- temp.dat[order(temp.dat$assessid),]
   oo<- unlist(tapply(temp.dat.ord$assessid,temp.dat.ord$assessid,order))
   crosshair.dat <- temp.dat.ord[oo==1,]
-
+print(dim(crosshair.dat)[1])
+print(unique(crosshair.dat$assessid))
   ## fried egg contour plot
 
 # BANDWIDTH FOR SMOOTHER
@@ -331,4 +349,6 @@ dev.off()
 
 odbcClose(chan)
 
+
+save.image()
 

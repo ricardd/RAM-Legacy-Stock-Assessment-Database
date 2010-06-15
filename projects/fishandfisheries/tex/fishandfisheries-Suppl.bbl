@@ -1,17 +1,83 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{r2006_0813_2.pdf}
+Neil Klaer.
+\newblock volume~2, chapter Assessment of Bight Redfish, pages 415--437.
+\newblock AFMA, Hobart, Australia, 2007.
+
+\bibitem{NZLINGESE.pdf}
+Bruce Taylor.
+\newblock Assessment of eastern pink ling.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{NZLINGWSE.pdf}
+Bruce Taylor.
+\newblock Assessment of western pink ling.
+\newblock Technical report, Hobart, Australia, 2007.
 
 \bibitem{CSIRO-Cascade-Plateau-Stock-Assessment-2006.pdf}
-Sally Wayte and NULL.
+Sally Wayte.
 \newblock Assessment of cascades orange roughy.
 \newblock Technical report, Hobart, Australia, 2006.
 
+\bibitem{OROUGHYSE.pdf}
+Sally Wayte.
+\newblock Assessment of eastern orange roughy.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{MORWONGSE.pdf}
+Sally Wayte.
+\newblock Assessment of jackass morwong.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{TIGERFLATSE.pdf}
+Neil Klaer.
+\newblock Assessment of tiger flathead.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{NORTHPRAWNS.pdf}
+Cathy Dichmont.
+\newblock Assessment of tiger prawns.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{DEEPFLATHEADSE.pdf}
+Neil Klaer.
+\newblock Assessment of deepwater flathead.
+\newblock Technical report, Hobart, Australia, 2007.
+
 \bibitem{JENSEN_TASGIANTCRAB_2008.pdf}
-Caleb Gardner, NULL, Phillippe Ziegler, and Malcolm Haddon.
+Phillippe Ziegler, Caleb Gardner, and Malcolm Haddon.
 \newblock Tasmanian giant crab fishery - 2006/07.
-\newblock Technical report, NULL, 2008.
+\newblock Technical report, 2008.
+
+\bibitem{GEMFISHSE.pdf}
+Rich Little.
+\newblock Assessment of eastern gemfish.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{WAREHOUSE.pdf}
+Andre Punt.
+\newblock Assessment of blue warehou.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{SILVERFISHSE.pdf}
+Geoff Tuck.
+\newblock Assessment of silver warehou.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{SWHITSE.pdf}
+Jemery Day.
+\newblock Assessment of school whiting.
+\newblock Technical report, Hobart, Australia, 2007.
+
+\bibitem{ATOOTHFISHRS.pdf}
+S.~M. Hanchet and A.~Dunn.
+\newblock Assessment models for antarctic toothfish (dissostichus mawsoni) in
+  the \{R\}oss \{S\}ea including data from the 2006/07 season.
+\newblock Technical report, 2008.
 
 \bibitem{Hansen-ANCHOVY-N-2007.pdf}
-Claudio Buratti, Jorge Hansen, and David Garciarena.
+Claudio Buratti, David Garciarena, and Jorge Hansen.
 \newblock An{\'a}lisis estacional de cohortes 1990 - 2007 de la poblaci{\'o}n
   de ancho{\'i}ta (engraulis anchoita) al norte de 41{\textordmasculine}s, y
   estimaci{\'o}n de una captura biol{\'o}gicamente aceptable durante el a{\~n}o
@@ -19,11 +85,17 @@ Claudio Buratti, Jorge Hansen, and David Garciarena.
 \newblock Technical report, Mar del Plata, Argentina, 2008.
 
 \bibitem{Hansen-ANCHOVY-S-2007.pdf}
-David Garciarena, Claudio Buratti, and Jorge Hansen.
+Claudio Buratti, David Garciarena, and Jorge Hansen.
 \newblock Modelo de producci{\'o}n estructurado por edades y capturas
   biol{\'o}gicamente aceptables de ancho{\'i}ta (engraulis anchoita) al sur de
   41{\textordmasculine}s estimadas para el a{\~n}o 2008.
 \newblock Technical report, Mar del Plata, Argentina, 2008.
+
+\bibitem{Giussi-hoki-2007.pdf}
+Otto W{\"o}hler and Analia Giussi.
+\newblock Evaluaci{\'o}n de la abundancia de merluza de cola (macruronus
+  magellanicus) en el atl{\'a}ntico sudoccidental. per{\'i}odo 1985-2006.
+\newblock Technical report, Mar del Plata, Argentina, 2007.
 
 \bibitem{Irusta-hake-N-2007.pdf}
 Marta Renzi and Gabriela Irusta.
@@ -33,23 +105,21 @@ Marta Renzi and Gabriela Irusta.
 Gabriela Irusta and Marta Renzi.
 \newblock Technical report, Mar del Plata, Argentina, 2009.
 
-\bibitem{Giussi-hoki-2007.pdf}
+\bibitem{Giussi-polaca-2007.pdf}
 Otto W{\"o}hler and Analia Giussi.
-\newblock Evaluaci{\'o}n de la abundancia de merluza de cola (macruronus
-  magellanicus) en el atl{\'a}ntico sudoccidental. per{\'i}odo 1985-2006.
-\newblock Technical report, Mar del Plata, Argentina, 2007.
+\newblock Evaluaci{\'o}n de la abundancia de polaca (micromesistius australis)
+  en el atl{\'a}ntico sudoccidental. per{\'i}odo 1987-2007.
+\newblock Technical report, Mar del Plata, Argentina, 2008.
 
-\bibitem{SA-Mcapensis-2008_IWS_DEC08_H_5.pdf}
-R.~A. Rademeyer.
-\newblock Development of a new baseline assessment for the south african hake
-  resource, incorporating catch-at-length information.
-\newblock Technical report.
+\bibitem{Branch-SA-Toothfish-2007.pdf}
+A.~Brandao.
+\newblock 2007 assessment of the toothfish(dissostichus eleginoides) resource
+  in the price edward island vicinity.
+\newblock Technical report, 2007.
 
-\bibitem{Johnston-SAHorseMackerel-2007.pdf}
-Johnston SJ and Butterworth DS.
-\newblock The south african horse mackerel assessment for 2007 using an
-  age-structured production model, with future biomass projections.
-\newblock Technical report.
+\bibitem{ANCHOSA.pdf}
+Carryn~L. deMoor.
+\newblock Personal communication.
 
 \bibitem{Branch-SA-Kingklip-2008.pdf}
 A.~Brandao.
@@ -57,9 +127,22 @@ A.~Brandao.
   an initial attempt at including catch-at-length data.
 \newblock Technical report.
 
-\bibitem{deMoorSASardineAssessment-Sep07.pdf}
-Butterworth DS and Cunningham CL.
-\newblock Base case assessment of the south african sardine resource.
+\bibitem{Johnston-SAWestRockLobster-2007.pdf}
+Butterworth DS and Johnston SJ.
+\newblock Maram/olrac averaged final area-disaggregated assessment results for
+  west coast rock lobster.
+\newblock Technical report.
+
+\bibitem{SA-Mcapensis-2008_IWS_DEC08_H_5.pdf}
+R.~A. Rademeyer.
+\newblock Development of a new baseline assessment for the south african hake
+  resource, incorporating catch-at-length information.
+\newblock Technical report.
+
+\bibitem{SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf}
+D.~S. Butterworth and R.~A. Rademeyer.
+\newblock Development of a new baseline assessment for the south african hake
+  resource, incorporating catch-at-length information.
 \newblock Technical report.
 
 \bibitem{Johnston-SASouthRockLobster-2008.pdf}
@@ -68,34 +151,81 @@ Butterworth DS and Johnston SJ.
   models for testing omps for the south coast rock lobster resource.
 \newblock Technical report.
 
+\bibitem{deMoorSASardineAssessment-Sep07.pdf}
+Cunningham CL and Butterworth DS.
+\newblock Base case assessment of the south african sardine resource.
+\newblock Technical report.
+
+\bibitem{Johnston-SAHorseMackerel-2007.pdf}
+Butterworth DS and Johnston SJ.
+\newblock The south african horse mackerel assessment for 2007 using an
+  age-structured production model, with future biomass projections.
+\newblock Technical report.
+
+\bibitem{NAFO-HERR4VWX-2006.pdf}
+D.~Knox, M.~J. Power, K.~J. Clark, F.~J. Fife, G.~D. Melvin, R.~L. Stephenson,
+  and L.~M. Annis.
+\newblock 2006 evaluation of 4vwx herring.
+\newblock Technical report, Canada, 2006.
+
+\bibitem{NAFO-HERR4RFA-2004.pdf}
+Louise Lefebvre, Jerry Lavers, and Francois Gregoire.
+\newblock Analytical assessment and risk analyses for the herring (clupea
+  harengus harengus l.) stocks of the west coast of newfoundland (nafo division
+  4r) in 2002.
+\newblock Technical report, Canada, 2004.
+
+\bibitem{NAFO-HERR4RSP-2004.pdf}
+Jerry Lavers, Louise Lefebvre, and Francois Gregoire.
+\newblock Analytical assessment and risk analyses for the spring spawning
+  herring (clupea harengus harengus l.) stock of the west coast of newfoundland
+  (nafo division 4r) in 2003.
+\newblock Technical report, Canada, 2004.
+
+\bibitem{NAFO-HERR4TFA-2007.pdf}
+C.~Bourque, J.~Roy, C.~MacDougall, G.~A. Poirier, and C.~H. LeBlanc.
+\newblock Assessment of the nafo division 4t southern gulf of st. lawrence
+  herring stocks in 2006.
+\newblock Technical report, Canada, 2007.
+
+\bibitem{NAFO-HERR4T-2007.pdf}
+J.~Roy, C.~Bourque, C.~MacDougall, G.~A. Poirier, and C.~H. LeBlanc.
+\newblock Assessment of the nafo division 4t southern gulf of st. lawrence
+  herring stocks in 2006.
+\newblock Technical report, Canada, 2007.
+
 \bibitem{NAFO-COD5Zjm-2003.pdf}
-L.~O'Brien, B.~Hatt, and J.~J. Hunt.
+B.~Hatt, L.~O'Brien, and J.~J. Hunt.
 \newblock Population status of eastern georges bank cod (unit areas 5zj,m) for
   1978-2004.
 \newblock Technical report, Canada, 2003.
 
-\bibitem{NAFO-HAD4X5Y-2003.pdf}
-R.~K. Mohn, G.~E. Simon, G.~A.~P. Black, P.~C.~F. Hurley, and P.~A. Comeau.
-\newblock Assessment of the status of nafo division 4x/5y haddock in 2003.
-\newblock Technical report, Canada, 2003.
-
-\bibitem{NAFO-HAD5Zejm-2003.pdf}
-Jon Brodziak, Stratis Gavaris, and L.~Van~Eeckhaute.
-\newblock Assessment of haddock on eastern georges bank.
-\newblock Technical report, Canada, 2003.
-
 \bibitem{DFO-COD2J3KLIS-2006.pdf}
-J.~Brattey, B.~P. Healey, G.~R. Lilly, and E.~F. Murphy.
+J.~Brattey, G.~R. Lilly, E.~F. Murphy, and B.~P. Healey.
 \newblock An assessment of the cod (gadus morhua) stock in nafo divisions 2j3kl
   in april 2006.
 \newblock Technical report, Canada, 2006.
 
 \bibitem{DFO-COD3Ps-2004.pdf}
-B.~P. Healey, J.-C. Mah{\'e}, P.~F. Shelton, E.~F. Murphy, N.~G. Cadigan,
-  J.~Brattey, and G.~R. Lilly.
+G.~R. Lilly, J.-C. Mah{\'e}, P.~F. Shelton, J.~Brattey, E.~F. Murphy, N.~G.
+  Cadigan, and B.~P. Healey.
 \newblock Assessment of the cod (gadus morhua) stock in nafo subdivision 3ps in
   october 2004.
 \newblock Technical report, Canada, 2004.
+
+\bibitem{DFO-COD3Pn4Rs-2007.pdf}
+Frank Collier, Hugo Bourdages, Jason Spingle, Johanne Gauthier, Alain
+  Fr{\'e}chet, Coralie Tournois, Philippe Schwab, and Monty Way.
+\newblock The status of cod in the northern gulf of st. lawrence (3pn, 4rs) in
+  2006.
+\newblock Technical report, Canada, 2007.
+
+\bibitem{NAFO-COD4TVn-2007.pdf}
+D.~P. Swain, D.~Daigle, T.~Hurlbut, L.~Savoie, G.~A. Poirier, G.~A. Chouinard,
+  and L.~G. Currie.
+\newblock Assessment of the southern gulf of st. lawrence cod stock, march
+  2007.
+\newblock Technical report, Canada, 2007.
 
 \bibitem{Flat99.pdf}
 Jeff Fargo.
@@ -103,31 +233,43 @@ Jeff Fargo.
   recommended yield options for 2000.
 \newblock Technical report, 1999.
 
+\bibitem{NAFO-HAD4X5Y-2003.pdf}
+P.~A. Comeau, P.~C.~F. Hurley, G.~A.~P. Black, G.~E. Simon, and R.~K. Mohn.
+\newblock Assessment of the status of nafo division 4x/5y haddock in 2003.
+\newblock Technical report, Canada, 2003.
+
+\bibitem{NAFO-HAD5Zejm-2003.pdf}
+L.~Van~Eeckhaute, Stratis Gavaris, and Jon Brodziak.
+\newblock Assessment of haddock on eastern georges bank.
+\newblock Technical report, Canada, 2003.
+
 \bibitem{NAFO-POLL4VWX5Zc-2006.pdf}
-Heath Stone, Donald Clark, and Peter Perley.
+Donald Clark, Peter Perley, and Heath Stone.
 \newblock 2006 assessment of pollock in 4vwx and 5zc.
 \newblock Technical report, Canada, 2006.
 
-\bibitem{DFO-COD3Pn4Rs-2007.pdf}
-Johanne Gauthier, Alain Fr{\'e}chet, Hugo Bourdages, Coralie Tournois, Jason
-  Spingle, Frank Collier, Monty Way, and Philippe Schwab.
-\newblock The status of cod in the northern gulf of st. lawrence (3pn, 4rs) in
-  2006.
-\newblock Technical report, Canada, 2007.
+\bibitem{SAR8-YFT-ENG.pdf}
+Mark Maunder and NULL.
+\newblock Status of yellowfin tuna in the eastern pacific ocean in 2006 and
+  outlook.
+\newblock Technical report, La Jolla, CA, 2007.
 
-\bibitem{NAFO-COD4TVn-2007.pdf}
-L.~Savoie, G.~A. Poirier, L.~G. Currie, G.~A. Chouinard, D.~Daigle, T.~Hurlbut,
-  and D.~P. Swain.
-\newblock Assessment of the southern gulf of st. lawrence cod stock, march
-  2007.
-\newblock Technical report, Canada, 2007.
-
-\bibitem{JENSEN-BIGEYEATL-2008.pdf}
-Report of the 2007 iccat bigeye tuna stock assessment session.
-\newblock Technical report, 2008.
+\bibitem{JENSEN_BETEPAC_2008.pdf}
+Mark Maunder, NULL, and Alexandre Aires-da Silva.
+\newblock Status of bigeye tuna in the eastern pacific ocean in 2006 and
+  outlook.
+\newblock Technical report, NULL, 2007.
 
 \bibitem{JENSEN_YFINATL-2008.pdf}
 Report of the 2008 iccat yellowfin and skipjack stock assessments meeting.
+\newblock Technical report, 2008.
+
+\bibitem{JENSEN-YFINATL-2008.pdf}
+Report of the 2008 iccat yellowfin and skipjack stock assessments meeting.
+\newblock Technical report, 2008.
+
+\bibitem{JENSEN-BIGEYEATL-2008.pdf}
+Report of the 2007 iccat bigeye tuna stock assessment session.
 \newblock Technical report, 2008.
 
 \bibitem{ICCAT-Mediterranean-Xiphiasgladius-2007.pdf}
@@ -139,9 +281,33 @@ NULL.
 Report of the 2006 atlantic swordfish stock assessment session.
 \newblock Technical report, 2007.
 
-\bibitem{JENSEN-YFINATL-2008.pdf}
-Report of the 2008 iccat yellowfin and skipjack stock assessments meeting.
-\newblock Technical report, 2008.
+\bibitem{ICES-WGNSSK-2007.pdf}
+NULL and Anon.
+\newblock Report of the working group on the assessment of demersal stocks in
+  the north sea and skagerrak (wgnssk).
+\newblock Technical report, Copenhagen, 2007.
+
+\bibitem{ICES-HAWG-2007.pdf}
+Anon.
+\newblock Report of the herring assessment working group south of
+  62{\textdegree}n (hawg).
+\newblock Technical report, 2007.
+
+\bibitem{ICES-WGBFAS-2007.pdf}
+Anon and NULL.
+\newblock Report of the baltic fisheries assessment working group.
+\newblock Technical report, Copenhagen, 2007.
+
+\bibitem{ICES-NWWG-2007.pdf}
+Anon.
+\newblock Report of the north-western working group (nwwg).
+\newblock Technical report, 2007.
+
+\bibitem{ICES-WGMHSA007.pdf}
+Anon and NULL.
+\newblock Report of the working group on the assessment of mackerel, horse
+  mackerel, sardine and anchovy (wgmhsa).
+\newblock Technical report, Copenhagen, 2007.
 
 \bibitem{ICES-AFWG-2007.pdf}
 Anon.
@@ -153,50 +319,16 @@ Anon.
 \newblock Report of the arctic fisheries working group (afwg).
 \newblock Technical report, 2007.
 
-\bibitem{ICES-HAWG-2007.pdf}
-Anon.
-\newblock Report of the herring assessment working group south of
-  62{\textdegree}n (hawg).
-\newblock Technical report, 2007.
-
-\bibitem{ICES-NWWG-2007.pdf}
-Anon.
-\newblock Report of the north-western working group (nwwg).
-\newblock Technical report, 2007.
-
-\bibitem{ICES-WGBFAS-2007.pdf}
-Anon and NULL.
-\newblock Report of the baltic fisheries assessment working group.
-\newblock Technical report, Copenhagen, 2007.
-
-\bibitem{ICES-WGHMM-2007.pdf}
-NULL and Anon.
-\newblock Report of the working group on the assessment of southern shelf
-  stocks of hake, monk and megrim.
-\newblock Technical report, Copenhagen, 2007.
-
-\bibitem{ICES-WGMHSA07.pdf}
-Anon and NULL.
-\newblock Report of the working group on the assessment of mackerel, horse
-  mackerel, sardine and anchovy (wgmhsa).
-\newblock Technical report, Copenhagen, 2007.
-
-\bibitem{ICES-WGNPBW-2007.pdf}
-Anon and NULL.
-\newblock Report of the working group on northern pelagic and blue whiting
-  fisheries (wgnpbw).
-\newblock Technical report, Copenhagen, 2007.
-
 \bibitem{ICES-WGNSDS-2007.pdf}
 Anon.
 \newblock Report of the working group on the assessment of northern shelf
   demersal stocks (wgnsds).
 \newblock Technical report, 2007.
 
-\bibitem{ICES-WGNSSK-2007.pdf}
+\bibitem{ICES-WGHMM-2007.pdf}
 Anon and NULL.
-\newblock Report of the working group on the assessment of demersal stocks in
-  the north sea and skagerrak (wgnssk).
+\newblock Report of the working group on the assessment of southern shelf
+  stocks of hake, monk and megrim.
 \newblock Technical report, Copenhagen, 2007.
 
 \bibitem{ICES-WGSSDS-2007.pdf}
@@ -205,12 +337,24 @@ NULL and Anon.
   demersal stocks (wgssds).
 \newblock Technical report, Copenhagen, 2007.
 
+\bibitem{ICES-WGNPBW-2007.pdf}
+Anon and NULL.
+\newblock Report of the working group on northern pelagic and blue whiting
+  fisheries (wgnpbw).
+\newblock Technical report, Copenhagen, 2007.
+
+\bibitem{ICES-WGMHSA07.pdf}
+Anon and NULL.
+\newblock Report of the working group on the assessment of mackerel, horse
+  mackerel, sardine and anchovy (wgmhsa).
+\newblock Technical report, Copenhagen, 2007.
+
 \bibitem{JENSEN_BIGEYEIO-2007.pdf}
 Report of the tenth session of the scientific committee.
 \newblock Technical report, 2007.
 
 \bibitem{hare-clark08.pdf}
-Steven Hare and William Clark.
+William Clark and Steven Hare.
 \newblock Assessment of the pacific halibut stock at the end of 2008.
 \newblock Technical report, Seattle, WA, 2009.
 
@@ -218,8 +362,18 @@ Steven Hare and William Clark.
 R.~I. C.~C. Francis.
 \newblock Assessment of hoki (macruronus novaezelandiae) in 2007, 2008.
 
+\bibitem{NAFO-3NO-COD-2007.pdf}
+J.~Brattey, E.~F. Murphy, and M.~J. Morgan.
+\newblock An assessment of the cod stock in nafo divisions 3no.
+\newblock Technical report, 2007.
+
+\bibitem{NAFO-3M-COD-2008.pdf}
+C.~Fernandez, S.~Cervino, F.~Saborido-Rey, and A.~Vazquez.
+\newblock Assessment of the cod stock in nafo division 3m.
+\newblock Technical report, 2008.
+
 \bibitem{NAFO-GrandBanks-AmPlaice-2007.pdf}
-M.~J. Morgan, B.~P. Healey, W.~B. Brodie, D.~Maddock~Parsons, and K.~S. Dwyer.
+B.~P. Healey, K.~S. Dwyer, M.~J. Morgan, D.~Maddock~Parsons, and W.~B. Brodie.
 \newblock An assessment of american plaice in nafo div. 3lno.
 \newblock Technical report, 2007.
 
@@ -229,52 +383,94 @@ A.~M. Avila~de Melo and R.~Alpoim.
   nafo division 3m.
 \newblock Technical report, 2008.
 
-\bibitem{NAFO-3NO-COD-2007.pdf}
-J.~Brattey, E.~F. Murphy, and M.~J. Morgan.
-\newblock An assessment of the cod stock in nafo divisions 3no.
-\newblock Technical report, 2007.
-
-\bibitem{NAFO-GHAL23KLMNO-2007.pdf}
-J.-C. Mah{\'e} and B.~P. Healey.
-\newblock An assessment of greenland halibut (reinhardtius hippoglossoides) in
-  nafo subarea 2 and divisions 3klmno.
-\newblock Technical report, St. John's, Newfoundland, Canada, 2007.
-
-\bibitem{NAFO-RED3LN-2007.pdf}
-R.~Alpoim, A.~M. {\`A}vila~de Melo, R.~Duarte, and D.~Power.
-\newblock An aspic based assessment of redfish in nafo divisions 3ln.
-\newblock Technical report, Lisboa, Portugal, 2007.
+\bibitem{NAFO-YELL3LNO-2008.pdf}
+D.~Power, M.~J. Morgan, W.~B. Brodie, and D.~M. Parsons.
+\newblock The 2008 assessment of the grand bank yellowtail flounder stock, nafo
+  divisions 3lno.
+\newblock Technical report, St. John's, Newfoundland, Canada, 2008.
 
 \bibitem{NAFO-3LN-Redfishspp-2008.pdf}
 A.~M. {\`A}vila~de Melo, D.~Power, R.~Alpoim, and R.~Duarte.
 \newblock A revised aspic based assessment of redfish in nafo divisions 3ln.
 \newblock Technical report, 2008.
 
+\bibitem{NAFO-RED3LN-2007.pdf}
+R.~Duarte, R.~Alpoim, D.~Power, and A.~M. {\`A}vila~de Melo.
+\newblock An aspic based assessment of redfish in nafo divisions 3ln.
+\newblock Technical report, Lisboa, Portugal, 2007.
+
 \bibitem{NAFO-RED3M-2007.pdf}
-R.~Alpoim, A.~M. {\`A}vila~de Melo, and F.~Saborido-Rey.
+F.~Saborido-Rey, A.~M. {\`A}vila~de Melo, and R.~Alpoim.
 \newblock An xsa based assessment of beaked redfish (s. mentella and s.
   fasciatus) in nafo division 3m.
 \newblock Technical report, Lisboa, Portugal, 2007.
 
-\bibitem{NAFO-YELL3LNO-2008.pdf}
-W.~B. Brodie, D.~M. Parsons, M.~J. Morgan, and D.~Power.
-\newblock The 2008 assessment of the grand bank yellowtail flounder stock, nafo
-  divisions 3lno.
-\newblock Technical report, St. John's, Newfoundland, Canada, 2008.
+\bibitem{NAFO-GHAL23KLMNO-2007.pdf}
+B.~P. Healey and J.-C. Mah{\'e}.
+\newblock An assessment of greenland halibut (reinhardtius hippoglossoides) in
+  nafo subarea 2 and divisions 3klmno.
+\newblock Technical report, St. John's, Newfoundland, Canada, 2007.
 
-\bibitem{CRABSAFE2008.pdf}
-2008.
+\bibitem{NWFSC-SABLEFPCOAST-2007-Sablefish.pdf}
+Schirripa MJ.
+\newblock Status of the sablefish resource off the continental u.s. pacific
+  coast in 2007.
+\newblock Technical report, 2007.
 
-\bibitem{final-2005-SAW-41-assessment.pdf}
+\bibitem{quahog.pdf}
 Northeast Fisheries~Science Center.
-\newblock Ne regional stock assessment workshop (41st saw).
-\newblock Technical report, Woods Hole, Massachusetts, 2006.
+\newblock 48th northeast regional stock assessment workshop (48th saw) 48th saw
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2009.
+
+\bibitem{JENSEN_GTRIGGM_2006.pdf}
+NULL.
+\newblock Null.
+\newblock Technical report, NULL, 2006.
+
+\bibitem{Atl.Menhaden-ASMFC-2006.pdf}
+NA.
+\newblock 2006 stock assessment report for atlantic menhaden.
+\newblock Technical report, 2006.
+
+\bibitem{SmallcoastalAtl2007-SEFSC.pdf}
+Enric Cort{\'e}s, Katie Siegfried, John Carlson, Genny Nesslage, Liz Brooks,
+  and Walter Ingram.
+\newblock Stock assessment report - small coastal shark complex, atlantic
+  sharpnose, blacknose, bonnethead and finetooth shark.
+\newblock Technical report, Silver Spring, Maryland, 2007.
+
+\bibitem{LargeCoastalAtl2006-SEFSC.pdf}
+Jack Musick, Nancy Kohler, Jason Romine, John Carlson, Jose Castro, and Robert
+  Hueter.
+\newblock Stock assessment report - large coastal shark complex, blacktip and
+  sandbar shark.
+\newblock Technical report, Silver Spring, Maryland, 2006.
 
 \bibitem{DataPoorReviewPanelReportFinal-1-20-09.pdf}
 Northeast Data Poor~Working Group.
 \newblock The northeast data poor stocks working group report. december 8-12,
   2008 meeting part a.
 \newblock Technical report, Woods Hole, Massachusetts, 2009.
+
+\bibitem{CRABSAFE2008.pdf}
+2008.
+
+\bibitem{Herring2006.pdf}
+Transboundary Resource~Assessment Committee.
+\newblock Gulf of maine-georges bank herring stock complex.
+\newblock Technical report, 2006.
+
+\bibitem{NEFSC-Weakfish-2009.pdf}
+Northeast Regional Stock~Assessment Workshop.
+\newblock 48th northeast regional stock assessment workshop (48th saw) -
+  assessment summary report.
+\newblock Technical report, 2009.
+
+\bibitem{JENSEN_RGROUPGM-2006.pdf}
+NULL.
+\newblock Null.
+\newblock Technical report, NULL, 2006.
 
 \bibitem{NMFS-GB-Gadusmorhua-2008.pdf}
 Northeast Fisheries~Science Center.
@@ -288,66 +484,17 @@ Northeast Fisheries~Science Center.
   the 3rd groundfish assessment review meeting (garm iii),.
 \newblock Technical report, Woods Hole, Massachusetts, 2008.
 
-\bibitem{NMFS-GOM-Melanogrammusaeglefinus-2008.pdf}
-Northeast Fisheries~Science Center.
-\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
-  the 3rd groundfish assessment review meeting (garm iii),.
-\newblock Technical report, Woods Hole, Massachusetts, 2008.
+\bibitem{KelpGreenling_2005.pdf}
+MacCall Alec and Jason Cope.
+\newblock Status of kelp greenling (hexagrammos decagrammus) in oregon and
+  california waters as assessed in 2005.
+\newblock Technical report, City, State (or country), 2005.
 
-\bibitem{crd0721.pdf}
-Northeast Fisheries~Science Center.
-\newblock Monkfish assessment report for 2007.
-\newblock Technical report, Woods Hole, Massachusetts, 2007.
-
-\bibitem{Monkfish2007NEFSCAssessment.pdf}
-Northeast Fisheries~Science Center.
-\newblock Monkfish assessment report for 2007.
-\newblock Technical report, Woods Hole, Massachusetts, 2007.
-
-\bibitem{SeaScallop2007.pdf}
-Northeast Fisheries~Science Center.
-\newblock 45th northeast regional stock assessment workshop (45th saw) 45th saw
-  assessment report.
-\newblock Technical report, Woods Hole, Massachusetts, 2007.
-
-\bibitem{spinydogfish2006.pdf}
-Northeast Fisheries~Science Center.
-\newblock 43rd northeast regional stock assessment workshop (43rd saw).
-\newblock Technical report, Woods Hole, Massachusetts, 2006.
-
-\bibitem{Surfclam2007.pdf}
-Northeast Fisheries~Science Center.
-\newblock 44th northeast regional stock assessment workshop (44th saw) 44th saw
-  assessment report.
-\newblock Technical report, Woods Hole, Massachusetts, 2007.
-
-\bibitem{Tilefish2005.pdf}
-Northeast Fisheries~Science Center.
-\newblock Northeast regional stock assessment workshop (41st saw).
-\newblock Technical report, Woods Hole, Massachusetts, 2005.
-
-\bibitem{NEFSC-Weakfish-2009.pdf}
-Northeast Regional Stock~Assessment Workshop.
-\newblock 48th northeast regional stock assessment workshop (48th saw) -
-  assessment summary report.
-\newblock Technical report, 2009.
-
-\bibitem{WhiteHake2008.pdf}
-Northeast Fisheries~Science Center.
-\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
-  the 3rd groundfish assessment review meeting (garm iii),.
-\newblock Technical report, Woods Hole, Massachusetts, 2008.
-
-\bibitem{garm3k.pdf}
-Lisa Hendrickson.
-\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
-  the 3rd groundfish assessment review meeting (garm iii),.
-\newblock Technical report, Woods Hole, Massachusetts, 2008.
-
-\bibitem{NMFS-SNEMATL-Pseudopleuronectesamercianus-2008.pdf}
-Northeast Fisheries~Science Center.
-\newblock Assessment of 19 northeast groundfish stocks through 2007.
-\newblock Technical report, Woods Hole, Massachusetts, 2008.
+\bibitem{scr06-46.pdf}
+Hendrickson~and Showell.
+\newblock Assessment of northern shortfin squid (illex illecebrosus) in
+  subareas 3+4 for 2005.
+\newblock Technical report, Halifax, NS, 2006.
 
 \bibitem{NMFS-CCGOM-Limandaferruginea-2008.pdf}
 Northeast Fisheries~Science Center.
@@ -367,44 +514,57 @@ Northeast Fisheries~Science Center.
   the 3rd groundfish assessment review meeting (garm iii),.
 \newblock Technical report, Woods Hole, Massachusetts, 2008.
 
-\bibitem{Atl.Menhaden-ASMFC-2006.pdf}
-NA.
-\newblock 2006 stock assessment report for atlantic menhaden.
-\newblock Technical report, 2006.
+\bibitem{crd0721.pdf}
+Northeast Fisheries~Science Center.
+\newblock Monkfish assessment report for 2007.
+\newblock Technical report, Woods Hole, Massachusetts, 2007.
 
-\bibitem{NWFSC-CROCKPCOAST-2007-Canary.pdf}
-NULL and Ian~J. Stewart.
-\newblock Status of the u.s. canary rockfish resource in 2007.
-\newblock Technical report, NULL, 2007.
+\bibitem{Monkfish2007NEFSCAssessment.pdf}
+Northeast Fisheries~Science Center.
+\newblock Monkfish assessment report for 2007.
+\newblock Technical report, Woods Hole, Massachusetts, 2007.
 
-\bibitem{NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf}
-Ian~J. Stewart.
-\newblock Updated u.s. english sole stock assessment: status of the resource in
-  2007.
-\newblock Technical report, 2007.
+\bibitem{Tilefish2005.pdf}
+Northeast Fisheries~Science Center.
+\newblock Northeast regional stock assessment workshop (41st saw).
+\newblock Technical report, Woods Hole, Massachusetts, 2005.
+
+\bibitem{JENSEN_MUTSNAPSATLCGM_2008.pdf}
+Technical report, 2008.
+
+\bibitem{RedSnapper-SEDAR-2008.pdf}
+SEDAR.
+\newblock Gulf of mexico red snapper stock assessment report.
+\newblock Technical report, 2005.
+
+\bibitem{JENSEN_RSNAPSATLC_2008.pdf}
+NULL.
+\newblock Null.
+\newblock Technical report, NULL, 2008.
+
+\bibitem{NMFS-GOM-Melanogrammusaeglefinus-2008.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{NMFS-5Z-Melanogrammusaeglefinus-2008.pdf}
+Northeast Fisheries~Science Center and NULL.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{SilverHake-2005-NEFSC-Assessment.pdf}
+Northeast Fisheries~Science Center.
+\newblock 42nd northeast regional stock assessment workshop (42nd saw) stock
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2005.
 
 \bibitem{NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf}
-Ian~J. Stewart, Thomas~E. Helser, and Owen~S. Hamel.
+Owen~S. Hamel, Thomas~E. Helser, and Ian~J. Stewart.
 \newblock Stock assessment of pacific hake, \{M\}erluccius productus, (a.k.a.
   whiting) in u.s. and canadian waters in 2008.
 \newblock Technical report, 2008.
-
-\bibitem{NWFSC-SABLEFPCOAST-2007-Sablefish.pdf}
-Schirripa MJ.
-\newblock Status of the sablefish resource off the continental u.s. pacific
-  coast in 2007.
-\newblock Technical report, 2007.
-
-\bibitem{NWFSC-WROCKPCOAST-2007-widow.pdf}
-Dick EJ Field JC Ralston S. MacCall~AD Pearson~DE and He~X.
-\newblock Status of the widow rockfish resource in 2007: an update.
-\newblock Technical report, 2007.
-
-\bibitem{NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf}
-Wallace GR.
-\newblock Update to the status of yelloweye rockfish (sebastes ruberrimus) off
-  the u.s. west coast in 2007.
-\newblock Technical report, 2007.
 
 \bibitem{JENSEN_GAGGM_2007.pdf}
 Technical report, 2007.
@@ -414,37 +574,155 @@ NULL.
 \newblock Null.
 \newblock Technical report, NULL, 2006.
 
+\bibitem{JENSEN_RPORGYSATLC_2006.pdf}
+Technical report, 2006.
+
+\bibitem{NMFS-MATLC-Paralichthysdentatus-2008.pdf}
+NULL and Northeast Fisheries~Science Center.
+\newblock 47th northeast regional stock assessment workshop (47th saw)
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf}
+Ian~J. Stewart.
+\newblock Updated u.s. english sole stock assessment: status of the resource in
+  2007.
+\newblock Technical report, 2007.
+
+\bibitem{butterfish-assessment-2004.pdf}
+Northeast Fisheries~Science Center.
+\newblock B. atlantic butterfish.
+\newblock Technical report, Woods Hole, Massachusetts, 2004.
+
+\bibitem{SeaScallop2007.pdf}
+Northeast Fisheries~Science Center.
+\newblock 45th northeast regional stock assessment workshop (45th saw) 45th saw
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2007.
+
+\bibitem{http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{final-2005-SAW-41-assessment.pdf}
+Northeast Fisheries~Science Center.
+\newblock Ne regional stock assessment workshop (41st saw).
+\newblock Technical report, Woods Hole, Massachusetts, 2006.
+
+\bibitem{garm3k.pdf}
+Lisa Hendrickson.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{NMFS-SNEMATL-Pseudopleuronectesamercianus-2008.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{JENSEN_VSNAPGM_2006.pdf}
+NULL.
+\newblock Null.
+\newblock Technical report, NULL, 2006.
+
+\bibitem{NOAA-TM-NMFS-SWFSC-413.pdf}
+Roberto Felix-Uraga, Christina Show, Beverly~J. Macewicz, Nancy C.~H. Lo,
+  Emmanis Dorval, and Kevin~T. Hill.
+\newblock Assessment of the pacific sardine resource in 2007 for u.s.
+  management in 2008.
+\newblock Technical report, La Jolla, CA, 2007.
+
+\bibitem{PFMC_2008_CPS_SAFE_App2_PMackerel.pdf}
+Emmanis Dorval, Jennifer~D. McDaniel, Nancy C.~H. Lo, and Kevin~T. Hill.
+\newblock Pacific mackerel (scomber japonicus) stock assessment for u.s.
+  management in the 2008-2009 fishing season.
+\newblock Technical report, Portland, OR, 2008.
+
+\bibitem{JENSEN_KMACKGMSATLC_2004.pdf}
+NULL, Joseph Smith, Douglas Vaughan, and Kyle Shertzer.
+\newblock Null: Fishery characteristics and biological reference points for
+  management.
+\newblock Technical report, NULL, 2004.
+
+\bibitem{JENSEN_SPANMACKSATLC_2008.pdf}
+Technical report, 2008.
+
+\bibitem{AtlanticMackerel2005.pdf}
+Northeast Fisheries~Science Center.
+\newblock 42nd northeast regional stock assessment workshop (42nd saw) stock
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2006.
+
+\bibitem{garm3p.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{Scorpionfish_assessment_report_2005.pdf}
+Mark Maunder and Debbie Aseltine-Nielson.
+\newblock The status of california scorpionfish (scorpaena guttata) off
+  southern california in 2004.
+\newblock Technical report, City, State (or country), 2005.
+
+\bibitem{NWFSC-WROCKPCOAST-2007-widow.pdf}
+He~X and Dick EJ Field JC Ralston S. MacCall~AD Pearson~DE.
+\newblock Status of the widow rockfish resource in 2007: an update.
+\newblock Technical report, 2007.
+
+\bibitem{AcadianRedfish2008.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
+
+\bibitem{NWFSC-CROCKPCOAST-2007-Canary.pdf}
+Ian~J. Stewart and NULL.
+\newblock Status of the u.s. canary rockfish resource in 2007.
+\newblock Technical report, NULL, 2007.
+
+\bibitem{NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf}
+Wallace GR.
+\newblock Update to the status of yelloweye rockfish (sebastes ruberrimus) off
+  the u.s. west coast in 2007.
+\newblock Technical report, 2007.
+
 \bibitem{JENSEN_GRAMBERGM_2006.pdf}
 NULL.
 \newblock Null.
 \newblock Technical report, NULL, 2006.
 
-\bibitem{JENSEN_KMACKGMSATLC_2004.pdf}
-NULL, Kyle Shertzer, Joseph Smith, and Douglas Vaughan.
-\newblock Null: Fishery characteristics and biological reference points for
-  management.
-\newblock Technical report, NULL, 2004.
-
-\bibitem{JENSEN_RGROUPGM-2006.pdf}
+\bibitem{JENSEN_GRAMBERSATLC_2008.pdf}
 NULL.
 \newblock Null.
-\newblock Technical report, NULL, 2006.
+\newblock Technical report, NULL, 2008.
 
-\bibitem{JENSEN_RPORGYSATLC_2006.pdf}
-Technical report, 2006.
+\bibitem{Surfclam2007.pdf}
+Northeast Fisheries~Science Center.
+\newblock 44th northeast regional stock assessment workshop (44th saw) 44th saw
+  assessment report.
+\newblock Technical report, Woods Hole, Massachusetts, 2007.
 
-\bibitem{JENSEN_SPANMACKSATLC_2008.pdf}
-Technical report, 2008.
+\bibitem{spinydogfish2006.pdf}
+Northeast Fisheries~Science Center.
+\newblock 43rd northeast regional stock assessment workshop (43rd saw).
+\newblock Technical report, Woods Hole, Massachusetts, 2006.
 
-\bibitem{NOAA-TM-NMFS-SWFSC-413.pdf}
-Beverly~J. Macewicz, Christina Show, Emmanis Dorval, Nancy C.~H. Lo, Roberto
-  Felix-Uraga, and Kevin~T. Hill.
-\newblock Assessment of the pacific sardine resource in 2007 for u.s.
-  management in 2008.
-\newblock Technical report, La Jolla, CA, 2007.
+\bibitem{crd0902.pdf}
+Northeast Fisheries~Science Center.
+\newblock The northeast data poor stocks working group report.
+\newblock Technical report, Woods Hole, Massachusetts, 2009.
+
+\bibitem{WhiteHake2008.pdf}
+Northeast Fisheries~Science Center.
+\newblock Assessment of 19 northeast groundfish stocks through 2007: Report of
+  the 3rd groundfish assessment review meeting (garm iii),.
+\newblock Technical report, Woods Hole, Massachusetts, 2008.
 
 \bibitem{WPOLLNSO-1997-JENSEN.pdf}
-J.~Janusz and J.~Horbowy.
+J.~Horbowy and J.~Janusz.
 \newblock The state of the walleye pollock in the northern part of the okhotsk
   sea, north pacific.
 \newblock {\em Fisheries Research}, 30, 1997.
@@ -456,8 +734,21 @@ D.~A. Vasilyev.
 \newblock Technical report, 2004.
 
 \bibitem{JENSEN-JACKMACKCH-2008.pdf}
-Cristian Canales and Rodolfo Serra.
+Rodolfo Serra and Cristian Canales.
 \newblock Updated status of the chilean jack mackerel stock.
+\newblock Technical report, 2008.
+
+\bibitem{Chang-Liu-2009-Shortfin-mako-NWPAC.pdf}
+Kwang-Ming Liu and Jui-Han Chang.
+\newblock Stock assessment of the shortfin mako shark (isurus oxyrinchus) in
+  the northwest pacific ocean using per recruit and virtual population
+  analyses.
+\newblock Volume 98, issues 1-3, 2009.
+
+\bibitem{SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf}
+John Hampton and Adam Langley.
+\newblock Stock assessment of skipjack tuna in the western and central pacific
+  ocean.
 \newblock Technical report, 2008.
 
 \bibitem{JENSEN_ALBWPO_2008.pdf}
@@ -465,22 +756,16 @@ Simon Hoyle, John Hampton, and Adam Langley.
 \newblock Stock assessment of albacore tuna in the south pacific ocean.
 \newblock Technical report, 2008.
 
-\bibitem{SC4-SA-WP1-rev1-bigeye-tuna.pdf}
-John Hampton, Simon Hoyle, Pierre Kleiber, and Adam Langley.
-\newblock Stock assessment of bigeye tuna in the western and central pacific
-  ocean, including an analysis of management options.
-\newblock Technical report, 2008.
-
-\bibitem{SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf}
-Adam Langley and John Hampton.
-\newblock Stock assessment of skipjack tuna in the western and central pacific
-  ocean.
-\newblock Technical report, 2008.
-
 \bibitem{WCPFC-SC3-SA-SWG-WP-01.pdf}
-Pierre Kleibert, John Hampton, Adam Langley, and Simon Hoyle.
+Simon Hoyle, John Hampton, Pierre Kleibert, and Adam Langley.
 \newblock Stock assessment of yellowfin tuna in the western and central pacific
   ocean, including an analysis of management options.
 \newblock Technical report, 2007.
+
+\bibitem{SC4-SA-WP1-rev1-bigeye-tuna.pdf}
+Simon Hoyle, Adam Langley, John Hampton, and Pierre Kleiber.
+\newblock Stock assessment of bigeye tuna in the western and central pacific
+  ocean, including an analysis of management options.
+\newblock Technical report, 2008.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  10 JUN 2010 10:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  14 JUN 2010 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,7 +295,7 @@ Underfull \hbox (badness 5231) in paragraph at lines 17--17
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 20--20
+Underfull \hbox (badness 4927) in paragraph at lines 19--19
 []\OT1/cmr/m/n/12 Northwest At-lantic Fish-
  []
 
@@ -494,84 +494,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--56
  []
 
 [25]
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/GMT/stocks-byLME.pd
-f, id=93, 845.1575pt x 597.23125pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/GMT/stocks-byL
-ME.pdf Graphic file (type pdf)
+</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=93, 84
+5.1575pt x 597.23125pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
+ic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/GMT/stocks-byLM
-E.pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-assessmen
-t.pdf, id=94, 722.7pt x 722.7pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-asse
-ssment.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf, id=94
+, 722.7pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf G
+raphic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/srdb-by-asses
-sment.pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_phylo
-.pdf, id=95, 433.62pt x 722.7pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_
-phylo.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf, id=95,
+ 433.62pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf Gr
+aphic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_p
-hylo.pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/orca_plot_v2.pdf,
- id=96, 483.8075pt x 216.81pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/orca_plot_v2
-.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=96, 483.
+8075pt x 216.81pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
+ file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/orca_plot_v2.
-pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-single.p
-df, id=97, 578.16pt x 722.7pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-sin
-gle.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=97, 5
+78.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
+hic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-sing
-le.pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-by-mgmt.
-pdf, id=98, 578.16pt x 722.7pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-by-
-mgmt.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=98, 
+578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
+phic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-by-m
-gmt.pdf>
-</home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/TL-quadrant-srdb.
-pdf, id=99, 578.16pt x 722.7pt>
-File: /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/TL-quadrant-
-srdb.pdf Graphic file (type pdf)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=99, 
+578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf Gra
+phic file (type pdf)
 
-<use /home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/TL-quadrant-s
-rdb.pdf>) [26 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/GMT/s
-tocks-byLME.pdf, page is rotated 90 degrees>] [27 </home/srdbadmin/SQLpg/srdb/t
-runk/projects/fishandfisheries/R/srdb-by-assessment.pdf>] [28 </home/srdbadmin/
-SQLpg/srdb/trunk/projects/fishandfisheries/R/three_panel_phylo.pdf>] [29 </home
-/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/orca_plot_v2.pdf>]
-[30 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/friedegg-sing
-le.pdf>] [31 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R/frie
-degg-by-mgmt.pdf>] [32 </home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisher
-ies/R/TL-quadrant-srdb.pdf>] (./fishandfisheries-v3.aux (./Table1-formatted.aux
-) (./Figures.aux)) ) 
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf>)
+[26 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
+is rotated 90 degrees>] [27 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
+rdb-by-assessment.pdf>] [28 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
+hree_panel_phylo.pdf>] [29 </home/srdbadmin/srdb/projects/fishandfisheries/R/or
+ca_plot_v2.pdf>] [30 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg
+-single.pdf>] [31 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by
+-mgmt.pdf>] [32 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-s
+rdb.pdf>] (./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux)) 
+) 
 Here is how much of TeX's memory you used:
  2331 strings out of 495061
- 35204 string characters out of 1182621
+ 34844 string characters out of 1182621
  123235 words of memory out of 3000000
  5474 multiletter control sequences out of 15000+50000
  9155 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,11n,32p,665b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on fishandfisheries-v3.pdf (32 pages, 1753637 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmti12.pfb>
+Output written on fishandfisheries-v3.pdf (32 pages, 1754953 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

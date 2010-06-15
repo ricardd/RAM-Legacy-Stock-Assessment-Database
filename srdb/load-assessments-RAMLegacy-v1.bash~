@@ -1,0 +1,7 @@
+#!/bin/bash
+# load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript
+# Last modified Time-stamp: <2010-06-14 11:09:43 (srdbadmin)>
+#
+
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Fulton-deepwater_flathead-australia-2007_v2-editedDR-QAQC.xls

@@ -1,5 +1,5 @@
 % LaTeX file for CJFAS short communication paper (Hutchings, Minto, Ricard and Baum)
-% Last modified Time-stamp: <2010-06-04 14:30:56 (srdbadmin)>
+% Last modified Time-stamp: <2010-06-14 09:49:39 (srdbadmin)>
 %
 \documentclass[letterpaper,12pt]{article}
 
@@ -10,13 +10,14 @@
 \usepackage{caption}
 \usepackage{booktabs}
 \usepackage{fancyvrb}
+\usepackage{caption}
 
 %\title{} 
 %\date{}
 \begin{document}
 
 %\maketitle{}
-\section*{Text for Supplementary Materials and Table S1}
+\section*{Supplemental materials for Hutchings et al. 2010, CJFAS}
 \subsection*{Temporal Trends in Abundance: Alternative Model Fits}
 In addition to the continuous piece-wise model described in the main
 body of the paper to compare regression slopes before and after 1992,
@@ -60,35 +61,39 @@ multiple ages and cohorts, thus producing a relatively smooth biomass
 series where the error variances are difficult to separate, or the
 relative simplicity of the implemented state space model (Equation~\ref{eq:3}).
 
+\section*{References}
+
+Durbin, J. and Koopman, S.J. 2001. Time Series Analysis by State Space Methods. Oxford University Press. 253 pp.
 
 \clearpage
 
-\begin{tiny}
+\noindent Table S1. A description of each population's alphanumeric identification code, geographic location, common and scientific names, taxonomic category, reference point type (* indicates that the reference point was obtained from a Schaefer surplus production model), ratios of biomass to MSY reference point for 1992 and the current year and values for the slopes under the three different models.
+
 \begin{landscape}
+\begin{tiny}
 \include{Table-S1-formatted}
-\end{landscape}
 \end{tiny}
+\end{landscape}
 
 \clearpage
 
 %\begin{figure}
-%\begin{center}
-%\includepdf[pages=-]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pdf}
-%\end{center}
-%\caption{Figure S1}
+\begin{center}
+\includepdf[pages=-]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig1_v1.pdf}
+\end{center}
 %\end{figure}\label{figS1}
-%\noindent 
-%Figure S1
+\noindent 
+Figure S1
 
 \clearpage
 
 %\begin{figure}
-%\begin{center}
-%\includegraphics[height=15cm]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf}
-%\end{center}
+\begin{center}
+\includegraphics[height=15cm]{/home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CBD-Supp-fig2.pdf}
+\end{center}
 %\caption{}
 %\end{figure}\label{figS2}
-%\noindent 
-%Figure S2
+\noindent 
+Figure S2
 
 \end{document}

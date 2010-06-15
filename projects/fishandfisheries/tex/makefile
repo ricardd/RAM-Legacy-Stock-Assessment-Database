@@ -1,5 +1,5 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2010-06-10 10:49:26 (srdbadmin)>
+# last modified Time-stamp: <2010-06-14 15:16:07 (srdbadmin)>
 #
 #
 
@@ -17,10 +17,11 @@ results-dynamic.tex: fishandfisheries-results-dynamic.tex Table-S1-formatted.tex
 	../perl/results-dynamic.pl # generate the dynamic results
 
 Table1-formatted.tex: ../R/TL-quadrant-srdb.pdf
-	R CMD BATCH ../generate-Table1.R
+	R CMD BATCH ../R/generate-Table1.R
 	sed '/begin{tabular/ r mytable1.txt' Table1.tex | sed 9,11d > Table1-formatted.tex
 
 Table-S1-formatted.tex: ../R/TL-quadrant-srdb.pdf
+	R CMD BATCH ../R/fried-egg-plots.R # generate Figs.5 and 6, the fried egg plots
 	sed '/begin/ r mytable.txt' Table-S1.tex | sed 6,8d > Table-S1-formatted.tex
 
 ../R/TL-quadrant-srdb.pdf: ../R/trophic-level-plot.R ../R/friedegg-single.pdf
@@ -38,3 +39,9 @@ Table-S1-formatted.tex: ../R/TL-quadrant-srdb.pdf
 ../GMT/stocks-byLME.pdf: ../GMT/stocks-by-LME.bash lastDBupdate-timestamp.txt
 	../GMT/stocks-by-LME.bash # generate Fig.1, the LME map
 
+fishandfisheries-Suppl.pdf: fishandfisheries-Suppl.tex lastDBupdate-timestamp.txt Table-S1-formatted.tex
+	../SQL/generateBIBfile.bash
+	pdflatex fishandfisheries-Suppl.tex
+	bibtex fishandfisheries-Suppl
+	pdflatex fishandfisheries-Suppl.tex
+	pdflatex fishandfisheries-Suppl.tex

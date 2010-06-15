@@ -1,6 +1,6 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'CSIRO', 'DEEPFLATHEADSE', 'FULTON', '2008-04-30', '2010-05-27 20:19:25', '1978-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used V1.23d of SS2', '../spreadsheets/Fulton-deepwater_flathead-australia-2007_v2-editedDR-QAQC.xls') ; 
- INSERT INTO srdb.referencedoc VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'ID', 'NULL') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'CSIRO', 'DEEPFLATHEADSE', 'FULTON', '2008-04-30', '2010-06-14 11:11:27', '1978-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used V1.23d of SS2', '../spreadsheets/Fulton-deepwater_flathead-australia-2007_v2-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.referencedoc VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'ID', 'DEEPFLATHEADSE') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'A1', 'Klaer, Neil') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'T1', 'Assessment of Deepwater Flathead') ; 

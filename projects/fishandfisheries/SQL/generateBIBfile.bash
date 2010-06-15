@@ -1,6 +1,6 @@
 #!/bin/bash
 # bash script to generate a BibTex file of the citation information from srdb.referencedoc
-# Time-stamp: <2010-06-10 13:59:18 (srdbadmin)>
+# Time-stamp: <2010-06-14 11:17:50 (srdbadmin)>
 
 # echo "The script you are running has basename `basename $0`, dirname `dirname $0`"
 # echo "The present working directory is `pwd`"
@@ -18,8 +18,6 @@ psql srdb -t -f produceRISfile-pdfasID.sql |   sed -e 's/^[ \t]*//' > srdb-refer
 
 # remove "ZZID" from the RIS file
 sed '/^ZZID/d' srdb-references2.ris > srdb-references-pdfasID.ris
-
-srdb-references-pdfasID.ris
 
 # turn RIS into XML
 ris2xml srdb-references.ris > srdb-references.xml

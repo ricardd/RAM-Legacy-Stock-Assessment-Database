@@ -28,3 +28,5 @@ risfield, risdescription
 "VL","Volume or report number"
 "JO","Periodical name"
 "ZZID","My Reference ID"
+"A","My TY"
+"M1","Miscellaneous 1"

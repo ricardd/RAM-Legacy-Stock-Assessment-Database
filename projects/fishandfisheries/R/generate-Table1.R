@@ -23,9 +23,12 @@ GROUP BY
 m.country,
 m.managementauthority,
 m.mgmt
-ORDER BY 
+ORDER BY
+m.mgmt,
 m.country
 ",sep="")
+
+## CASE WHEN position(',' in m.managementauthority)=0 THEN m.managementauthority ELSE substring(m.managementauthority,0,position(',' in m.managementauthority)) END,
 
 table1.data <- sqlQuery(chan,qu)
 

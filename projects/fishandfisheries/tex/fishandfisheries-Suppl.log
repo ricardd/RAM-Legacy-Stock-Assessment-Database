@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  14 JUN 2010 19:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  15 JUN 2010 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -72,13 +72,6 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count92
 \LT@p@ftn=\toks14
 )
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip47
-\bibsep=\skip48
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count93
-)
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
@@ -95,10 +88,10 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 (/usr/share/texmf-texlive/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
-\pltopsep=\skip49
-\plpartopsep=\skip50
-\plitemsep=\skip51
-\plparsep=\skip52
+\pltopsep=\skip47
+\plpartopsep=\skip48
+\plitemsep=\skip49
+\plparsep=\skip50
 \pl@lab=\toks16
 )
 (/usr/share/texmf-texlive/tex/latex/comment/comment.sty
@@ -120,9 +113,9 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count94
-\Gm@cntv=\count95
-\c@Gm@tempcnt=\count96
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
 \Gm@bindingoffset=\dimen106
 \Gm@wd@mp=\dimen107
 \Gm@odd@mp=\dimen108
@@ -141,12 +134,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen117
 \cmidrulekern=\dimen118
 \defaultaddspace=\dimen119
-\@cmidla=\count97
-\@cmidlb=\count98
+\@cmidla=\count96
+\@cmidlb=\count97
 \@aboverulesep=\dimen120
 \@belowrulesep=\dimen121
-\@thisruleclass=\count99
-\@lastruleclass=\count100
+\@thisruleclass=\count98
+\@lastruleclass=\count99
 \@thisrulewidth=\dimen122
 )
 (./fishandfisheries-Suppl.aux (./Table-S1-formatted.aux))
@@ -167,15 +160,15 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
+\scratchcounter=\count100
 \scratchdimen=\dimen123
 \scratchbox=\box30
-\nofMPsegments=\count102
-\nofMParguments=\count103
+\nofMPsegments=\count101
+\nofMParguments=\count102
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count104
+\MPscratchCnt=\count103
 \MPscratchDim=\dimen124
-\MPnumerator=\count105
+\MPnumerator=\count104
 \everyMPtoPDFconversion=\toks19
 )
 *geometry auto-detecting driver*
@@ -372,10 +365,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []
 
 
-Package natbib Warning: Citation `Plaganyi-SA-abalone-2008 NOV SWG-AB 21.pdf' o
-n page 3 undefined on input line 32.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []|\OT1/cmr/m/n/10.95 South African west
  []
@@ -474,7 +463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
  []
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 48.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 48.
 
 
 Underfull \hbox (badness 2245) in paragraph at lines 49--49
@@ -482,7 +471,7 @@ Underfull \hbox (badness 2245) in paragraph at lines 49--49
  []
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 49.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 49.
 
 
 Underfull \hbox (badness 2368) in paragraph at lines 50--50
@@ -490,10 +479,10 @@ Underfull \hbox (badness 2368) in paragraph at lines 50--50
  []
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 50.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 50.
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 51.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 51.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
@@ -506,7 +495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 52.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 52.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
@@ -514,10 +503,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
  []
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 53.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 53.
 
 
-Package natbib Warning: Citation `NA' on page 4 undefined on input line 54.
+LaTeX Warning: Citation `NA' on page 4 undefined on input line 54.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
@@ -560,8 +549,8 @@ Underfull \hbox (badness 5607) in paragraph at lines 69--69
  []
 
 
-Package natbib Warning: Citation `2007-ALB-STOCK-ASSESS-REP.pdf' on page 6 unde
-fined on input line 69.
+LaTeX Warning: Citation `2007-ALB-STOCK-ASSESS-REP.pdf' on page 6 undefined on 
+input line 69.
 
 
 Underfull \hbox (badness 5578) in paragraph at lines 72--72
@@ -569,17 +558,9 @@ Underfull \hbox (badness 5578) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `2008-BFT-STOCK-ASSESS-REP.pdf' on page 6 unde
-fined on input line 72.
-
-
 Underfull \hbox (badness 3260) in paragraph at lines 73--73
 []|\OT1/cmr/m/n/10.95 Bluefin tuna West-ern
  []
-
-
-Package natbib Warning: Citation `2008-BFT-STOCK-ASSESS-REP.pdf' on page 6 unde
-fined on input line 73.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
@@ -697,10 +678,10 @@ Underfull \hbox (badness 4144) in paragraph at lines 141--141
  []
 
 
-Package natbib Warning: Citation `NA' on page 9 undefined on input line 142.
+LaTeX Warning: Citation `NA' on page 9 undefined on input line 142.
 
 
-Package natbib Warning: Citation `NA' on page 9 undefined on input line 143.
+LaTeX Warning: Citation `NA' on page 9 undefined on input line 143.
 
 
 Underfull \hbox (badness 2245) in paragraph at lines 144--144
@@ -708,7 +689,7 @@ Underfull \hbox (badness 2245) in paragraph at lines 144--144
  []
 
 
-Package natbib Warning: Citation `NA' on page 9 undefined on input line 144.
+LaTeX Warning: Citation `NA' on page 9 undefined on input line 144.
 
 
 Underfull \hbox (badness 1496) in paragraph at lines 145--145
@@ -716,7 +697,7 @@ Underfull \hbox (badness 1496) in paragraph at lines 145--145
  []
 
 
-Package natbib Warning: Citation `NA' on page 9 undefined on input line 145.
+LaTeX Warning: Citation `NA' on page 9 undefined on input line 145.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 126--146
@@ -729,16 +710,16 @@ Underfull \hbox (badness 1496) in paragraph at lines 146--146
  []
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 146.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 146.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 147.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 147.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 148.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 148.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 149.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 149.
 
 
 Underfull \hbox (badness 2970) in paragraph at lines 150--150
@@ -751,8 +732,8 @@ Underfull \hbox (badness 7116) in paragraph at lines 150--150
  []
 
 
-Package natbib Warning: Citation `07-09-FAR.pdf' on page 11 undefined on input 
-line 150.
+LaTeX Warning: Citation `07-09-FAR.pdf' on page 11 undefined on input line 150.
+
 
 
 Underfull \hbox (badness 2970) in paragraph at lines 151--151
@@ -765,8 +746,8 @@ Underfull \hbox (badness 7116) in paragraph at lines 151--151
  []
 
 
-Package natbib Warning: Citation `08-05-FAR.pdf' on page 11 undefined on input 
-line 151.
+LaTeX Warning: Citation `08-05-FAR.pdf' on page 11 undefined on input line 151.
+
 
 
 Underfull \hbox (badness 2970) in paragraph at lines 152--152
@@ -779,8 +760,8 @@ Underfull \hbox (badness 7116) in paragraph at lines 152--152
  []
 
 
-Package natbib Warning: Citation `07-09-FAR.pdf' on page 11 undefined on input 
-line 152.
+LaTeX Warning: Citation `07-09-FAR.pdf' on page 11 undefined on input line 152.
+
 
 
 Underfull \hbox (badness 2970) in paragraph at lines 153--153
@@ -793,7 +774,7 @@ Underfull \hbox (badness 7116) in paragraph at lines 153--153
  []
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 153.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 153.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
@@ -806,28 +787,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
  []
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 154.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 154.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 155.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 155.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 156.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 156.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 157.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 157.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 158.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 158.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 159.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 159.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 160.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 160.
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 161.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 161.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 162--162
@@ -855,7 +836,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--164
  []
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 164.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 164.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
@@ -863,7 +844,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--165
  []
 
 
-Package natbib Warning: Citation `NA' on page 11 undefined on input line 165.
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 165.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 146--166
@@ -876,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--166
  []
 
 
-Package natbib Warning: Citation `NA' on page 12 undefined on input line 166.
+LaTeX Warning: Citation `NA' on page 12 undefined on input line 166.
 
 
 Underfull \hbox (badness 1571) in paragraph at lines 167--167
@@ -884,13 +865,13 @@ Underfull \hbox (badness 1571) in paragraph at lines 167--167
  []
 
 
-Package natbib Warning: Citation `NA' on page 12 undefined on input line 167.
+LaTeX Warning: Citation `NA' on page 12 undefined on input line 167.
 
 
-Package natbib Warning: Citation `NA' on page 12 undefined on input line 168.
+LaTeX Warning: Citation `NA' on page 12 undefined on input line 168.
 
 
-Package natbib Warning: Citation `NA' on page 12 undefined on input line 169.
+LaTeX Warning: Citation `NA' on page 12 undefined on input line 169.
 
 
 Underfull \hbox (badness 1715) in paragraph at lines 170--170
@@ -898,7 +879,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 170--170
  []
 
 
-Package natbib Warning: Citation `NA' on page 12 undefined on input line 170.
+LaTeX Warning: Citation `NA' on page 12 undefined on input line 170.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
@@ -941,12 +922,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--180
  []
 
 
-Package natbib Warning: Citation `AFSC-SABLEFEBSAIGA-2008-Sablefish EBS AI GA.p
-df' on page 12 undefined on input line 180.
+LaTeX Warning: Citation `AFSC-SABLEFEBSAIGA-2008-Sablefish EBS AI GA.pdf' on pa
+ge 12 undefined on input line 180.
 
 
-Package natbib Warning: Citation `GILROY-MENHADENGM-2007.pdf' on page 12 undefi
-ned on input line 184.
+LaTeX Warning: Citation `GILROY-MENHADENGM-2007.pdf' on page 12 undefined on in
+put line 184.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 166--186
@@ -974,10 +955,10 @@ Underfull \hbox (badness 2245) in paragraph at lines 194--194
  []
 
 
-Package natbib Warning: Citation `NA' on page 14 undefined on input line 194.
+LaTeX Warning: Citation `NA' on page 14 undefined on input line 194.
 
 
-Package natbib Warning: Citation `NA' on page 14 undefined on input line 195.
+LaTeX Warning: Citation `NA' on page 14 undefined on input line 195.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 196--196
@@ -990,8 +971,8 @@ Underfull \hbox (badness 2970) in paragraph at lines 197--197
  []
 
 
-Package natbib Warning: Citation `2004_SAFE_WCpetralesole.pdf' on page 14 undef
-ined on input line 197.
+LaTeX Warning: Citation `2004_SAFE_WCpetralesole.pdf' on page 14 undefined on i
+nput line 197.
 
 
 Underfull \hbox (badness 3240) in paragraph at lines 198--198
@@ -999,8 +980,8 @@ Underfull \hbox (badness 3240) in paragraph at lines 198--198
  []
 
 
-Package natbib Warning: Citation `2004-SAFE-WCpetralesole.pdf' on page 14 undef
-ined on input line 198.
+LaTeX Warning: Citation `2004-SAFE-WCpetralesole.pdf' on page 14 undefined on i
+nput line 198.
 
 
 Underfull \hbox (badness 3039) in paragraph at lines 199--199
@@ -1008,12 +989,12 @@ Underfull \hbox (badness 3039) in paragraph at lines 199--199
  []
 
 
-Package natbib Warning: Citation `2004-SEDAR-deepwatersnappergrouper.pdf' on pa
-ge 14 undefined on input line 200.
+LaTeX Warning: Citation `2004-SEDAR-deepwatersnappergrouper.pdf' on page 14 und
+efined on input line 200.
 
 
-Package natbib Warning: Citation `AFSC-PCODBSAI-2008-Pacific cod BSAI.pdf' on p
-age 14 undefined on input line 201.
+LaTeX Warning: Citation `AFSC-PCODBSAI-2008-Pacific cod BSAI.pdf' on page 14 un
+defined on input line 201.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--202
@@ -1021,8 +1002,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--202
  []
 
 
-Package natbib Warning: Citation `AFSC-PCODGA-2008-Pacific cod GA.pdf' on page 
-14 undefined on input line 202.
+LaTeX Warning: Citation `AFSC-PCODGA-2008-Pacific cod GA.pdf' on page 14 undefi
+ned on input line 202.
 
 
 Underfull \hbox (badness 4792) in paragraph at lines 203--203
@@ -1040,7 +1021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--205
  []
 
 
-Package natbib Warning: Citation `NA' on page 14 undefined on input line 205.
+LaTeX Warning: Citation `NA' on page 14 undefined on input line 205.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 186--206
@@ -1049,8 +1030,8 @@ Overfull \hbox (16.17723pt too wide) in alignment at lines 186--206
 
 [14]
 
-Package natbib Warning: Citation `2008_SAFE_GOArex.pdf' on page 15 undefined on
- input line 206.
+LaTeX Warning: Citation `2008_SAFE_GOArex.pdf' on page 15 undefined on input li
+ne 206.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 207--207
@@ -1073,8 +1054,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--208
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIflathead.pdf' on page 15 undefi
-ned on input line 208.
+LaTeX Warning: Citation `2008_SAFE_BSAIflathead.pdf' on page 15 undefined on in
+put line 208.
 
 
 Underfull \hbox (badness 1286) in paragraph at lines 209--209
@@ -1087,8 +1068,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--209
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_GOAflathead.pdf' on page 15 undefin
-ed on input line 209.
+LaTeX Warning: Citation `2008_SAFE_GOAflathead.pdf' on page 15 undefined on inp
+ut line 209.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 210--210
@@ -1101,8 +1082,7 @@ Underfull \hbox (badness 2980) in paragraph at lines 210--210
  []
 
 
-Package natbib Warning: Citation `.pdf' on page 15 undefined on input line 210.
-
+LaTeX Warning: Citation `.pdf' on page 15 undefined on input line 210.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--211
@@ -1110,8 +1090,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--211
  []
 
 
-Package natbib Warning: Citation `AtlanticHalibut5YZ2008.pdf .pdf' on page 15 u
-ndefined on input line 211.
+LaTeX Warning: Citation `AtlanticHalibut5YZ2008.pdf .pdf' on page 15 undefined 
+on input line 211.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 212--212
@@ -1119,12 +1099,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--212
  []
 
 
-Package natbib Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined o
-n input line 212.
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined on input l
+ine 212.
 
 
-Package natbib Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined o
-n input line 213.
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined on input l
+ine 213.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 214--214
@@ -1132,8 +1112,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--214
  []
 
 
-Package natbib Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined o
-n input line 214.
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 15 undefined on input l
+ine 214.
 
 
 Underfull \hbox (badness 6204) in paragraph at lines 215--215
@@ -1146,8 +1126,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--216
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIrocksole.pdf' on page 15 undefi
-ned on input line 216.
+LaTeX Warning: Citation `2008_SAFE_BSAIrocksole.pdf' on page 15 undefined on in
+put line 216.
 
 
 Underfull \hbox (badness 5388) in paragraph at lines 217--217
@@ -1160,8 +1140,8 @@ Underfull \hbox (badness 2401) in paragraph at lines 217--217
  []
 
 
-Package natbib Warning: Citation `AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf' 
-on page 15 undefined on input line 217.
+LaTeX Warning: Citation `AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf' on page 1
+5 undefined on input line 217.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 218--218
@@ -1214,8 +1194,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--225
  []
 
 
-Package natbib Warning: Citation `2004-SEDAR-deepwatersnappergrouper.pdf' on pa
-ge 15 undefined on input line 225.
+LaTeX Warning: Citation `2004-SEDAR-deepwatersnappergrouper.pdf' on page 15 und
+efined on input line 225.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 206--226
@@ -1273,12 +1253,12 @@ Underfull \hbox (badness 4353) in paragraph at lines 236--236
  []
 
 
-Package natbib Warning: Citation `2004_ASMFC_AtlCroak.pdf' on page 17 undefined
- on input line 236.
+LaTeX Warning: Citation `2004_ASMFC_AtlCroak.pdf' on page 17 undefined on input
+ line 236.
 
 
-Package natbib Warning: Citation `2005-SAFE-WCdover.pdf' on page 17 undefined o
-n input line 237.
+LaTeX Warning: Citation `2005-SAFE-WCdover.pdf' on page 17 undefined on input l
+ine 237.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 238--238
@@ -1286,8 +1266,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--238
  []
 
 
-Package natbib Warning: Citation `2007_SAFE_GOAdeepflat.pdf' on page 17 undefin
-ed on input line 238.
+LaTeX Warning: Citation `2007_SAFE_GOAdeepflat.pdf' on page 17 undefined on inp
+ut line 238.
 
 
 Underfull \hbox (badness 3407) in paragraph at lines 239--239
@@ -1295,8 +1275,8 @@ Underfull \hbox (badness 3407) in paragraph at lines 239--239
  []
 
 
-Package natbib Warning: Citation `07AssessmentReport.pdf' on page 17 undefined 
-on input line 239.
+LaTeX Warning: Citation `07AssessmentReport.pdf' on page 17 undefined on input 
+line 239.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
@@ -1324,8 +1304,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--242
  []
 
 
-Package natbib Warning: Citation `2003_SEDAR_Yellowtailsnapper.pdf' on page 17 
-undefined on input line 242.
+LaTeX Warning: Citation `2003_SEDAR_Yellowtailsnapper.pdf' on page 17 undefined
+ on input line 242.
 
 
 Underfull \hbox (badness 1264) in paragraph at lines 243--243
@@ -1333,8 +1313,8 @@ Underfull \hbox (badness 1264) in paragraph at lines 243--243
  []
 
 
-Package natbib Warning: Citation `2005-SAFE-WClingcod.pdf' on page 17 undefined
- on input line 243.
+LaTeX Warning: Citation `2005-SAFE-WClingcod.pdf' on page 17 undefined on input
+ line 243.
 
 
 Underfull \hbox (badness 1418) in paragraph at lines 244--244
@@ -1342,8 +1322,8 @@ Underfull \hbox (badness 1418) in paragraph at lines 244--244
  []
 
 
-Package natbib Warning: Citation `2005_SAFE_Wclingcod.pdf' on page 17 undefined
- on input line 244.
+LaTeX Warning: Citation `2005_SAFE_Wclingcod.pdf' on page 17 undefined on input
+ line 244.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 226--246
@@ -1352,8 +1332,8 @@ Overfull \hbox (16.17723pt too wide) in alignment at lines 226--246
 
 [17] [18]
 
-Package natbib Warning: Citation `2008ShrimpAssessment.pdf' on page 19 undefine
-d on input line 246.
+LaTeX Warning: Citation `2008ShrimpAssessment.pdf' on page 19 undefined on inpu
+t line 246.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 248--248
@@ -1391,12 +1371,12 @@ Underfull \hbox (badness 2334) in paragraph at lines 253--253
  []
 
 
-Package natbib Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 19 un
-defined on input line 254.
+LaTeX Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 19 undefined o
+n input line 254.
 
 
-Package natbib Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 19 un
-defined on input line 255.
+LaTeX Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 19 undefined o
+n input line 255.
 
 
 Underfull \hbox (badness 2368) in paragraph at lines 256--256
@@ -1414,8 +1394,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--256
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIatka.pdf' on page 19 undefined 
-on input line 256.
+LaTeX Warning: Citation `2008_SAFE_BSAIatka.pdf' on page 19 undefined on input 
+line 256.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--257
@@ -1433,8 +1413,8 @@ Underfull \hbox (badness 6526) in paragraph at lines 257--257
  []
 
 
-Package natbib Warning: Citation `AFSC-ALPLAICBSAI-2008-Alaska plaice BSAI.pdf'
- on page 19 undefined on input line 257.
+LaTeX Warning: Citation `AFSC-ALPLAICBSAI-2008-Alaska plaice BSAI.pdf' on page 
+19 undefined on input line 257.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 260--260
@@ -1462,8 +1442,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--262
  []
 
 
-Package natbib Warning: Citation `NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf'
- on page 19 undefined on input line 263.
+LaTeX Warning: Citation `NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf' on page 
+19 undefined on input line 263.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 264--264
@@ -1471,8 +1451,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--264
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIturbot.pdf' on page 19 undefine
-d on input line 264.
+LaTeX Warning: Citation `2008_SAFE_BSAIturbot.pdf' on page 19 undefined on inpu
+t line 264.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--265
@@ -1480,8 +1460,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--265
  []
 
 
-Package natbib Warning: Citation `NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder
-.pdf' on page 19 undefined on input line 265.
+LaTeX Warning: Citation `NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder.pdf' on 
+page 19 undefined on input line 265.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 246--266
@@ -1499,8 +1479,8 @@ Underfull \hbox (badness 6510) in paragraph at lines 266--266
  []
 
 
-Package natbib Warning: Citation `AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BS
-AI.pdf' on page 20 undefined on input line 266.
+LaTeX Warning: Citation `AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BSAI.pdf' o
+n page 20 undefined on input line 266.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--267
@@ -1508,8 +1488,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--267
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_GOAatf.pdf' on page 20 undefined on
- input line 267.
+LaTeX Warning: Citation `2008_SAFE_GOAatf.pdf' on page 20 undefined on input li
+ne 267.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 268--268
@@ -1532,8 +1512,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--269
  []
 
 
-Package natbib Warning: Citation `2008_SEDAR_VermillionSnapper_Satl.pdf' on pag
-e 20 undefined on input line 269.
+LaTeX Warning: Citation `2008_SEDAR_VermillionSnapper_Satl.pdf' on page 20 unde
+fined on input line 269.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 270--270
@@ -1546,8 +1526,8 @@ Underfull \hbox (badness 4060) in paragraph at lines 271--271
  []
 
 
-Package natbib Warning: Citation `2008 pac sardine.pdf' on page 20 undefined on
- input line 271.
+LaTeX Warning: Citation `2008 pac sardine.pdf' on page 20 undefined on input li
+ne 271.
 
 
 Underfull \hbox (badness 1701) in paragraph at lines 272--272
@@ -1590,8 +1570,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--281
  []
 
 
-Package natbib Warning: Citation `2005-SAFE-WCcabezon.pdf' on page 20 undefined
- on input line 281.
+LaTeX Warning: Citation `2005-SAFE-WCcabezon.pdf' on page 20 undefined on input
+ line 281.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 282--282
@@ -1599,8 +1579,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--282
  []
 
 
-Package natbib Warning: Citation `2005_SAFE_Wccabezon.pdf' on page 20 undefined
- on input line 282.
+LaTeX Warning: Citation `2005_SAFE_Wccabezon.pdf' on page 20 undefined on input
+ line 282.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 283--283
@@ -1608,16 +1588,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--283
  []
 
 
-Package natbib Warning: Citation `2008 SAFE BSAIrougheye.pdf' on page 20 undefi
-ned on input line 283.
+LaTeX Warning: Citation `2008 SAFE BSAIrougheye.pdf' on page 20 undefined on in
+put line 283.
 
 
-Package natbib Warning: Citation `AFSC-RYEROCKGA-2008-Rougheye rockfish GA.pdf'
- on page 20 undefined on input line 284.
+LaTeX Warning: Citation `AFSC-RYEROCKGA-2008-Rougheye rockfish GA.pdf' on page 
+20 undefined on input line 284.
 
 
-Package natbib Warning: Citation `AFSC-POPERCHGA-2008-Pacific ocean perch GA.pd
-f' on page 20 undefined on input line 285.
+LaTeX Warning: Citation `AFSC-POPERCHGA-2008-Pacific ocean perch GA.pdf' on pag
+e 20 undefined on input line 285.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 266--286
@@ -1626,8 +1606,8 @@ Overfull \hbox (16.17723pt too wide) in alignment at lines 266--286
 
 [20] [21]
 
-Package natbib Warning: Citation `NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.
-pdf' on page 22 undefined on input line 286.
+LaTeX Warning: Citation `NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf' on p
+age 22 undefined on input line 286.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
@@ -1635,8 +1615,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--287
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIpop.pdf' on page 22 undefined o
-n input line 287.
+LaTeX Warning: Citation `2008_SAFE_BSAIpop.pdf' on page 22 undefined on input l
+ine 287.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 288--288
@@ -1644,12 +1624,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--288
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAIshortraker.pdf' on page 22 unde
-fined on input line 288.
+LaTeX Warning: Citation `2008_SAFE_BSAIshortraker.pdf' on page 22 undefined on 
+input line 288.
 
 
-Package natbib Warning: Citation `2005-SAFE-Wcgopher.pdf' on page 22 undefined 
-on input line 289.
+LaTeX Warning: Citation `2005-SAFE-Wcgopher.pdf' on page 22 undefined on input 
+line 289.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--290
@@ -1657,8 +1637,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--290
  []
 
 
-Package natbib Warning: Citation `NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish
-.pdf' on page 22 undefined on input line 290.
+LaTeX Warning: Citation `NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish.pdf' on 
+page 22 undefined on input line 290.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
@@ -1666,8 +1646,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--293
  []
 
 
-Package natbib Warning: Citation `2005_SAFE_yellowtail.pdf' on page 22 undefine
-d on input line 293.
+LaTeX Warning: Citation `2005_SAFE_yellowtail.pdf' on page 22 undefined on inpu
+t line 293.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
@@ -1675,24 +1655,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
  []
 
 
-Package natbib Warning: Citation `NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf
-' on page 22 undefined on input line 294.
+LaTeX Warning: Citation `NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf' on page
+ 22 undefined on input line 294.
 
 
-Package natbib Warning: Citation `SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfi
-sh.pdf' on page 22 undefined on input line 295.
+LaTeX Warning: Citation `SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfish.pdf' o
+n page 22 undefined on input line 295.
 
 
-Package natbib Warning: Citation `NWFSC-COWCODSCAL-2007-Cowcod CA.pdf' on page 
-22 undefined on input line 296.
+LaTeX Warning: Citation `NWFSC-COWCODSCAL-2007-Cowcod CA.pdf' on page 22 undefi
+ned on input line 296.
 
 
-Package natbib Warning: Citation `NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR
- CA.pdf' on page 22 undefined on input line 297.
+LaTeX Warning: Citation `NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf' 
+on page 22 undefined on input line 297.
 
 
-Package natbib Warning: Citation `NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NO
-R WA.pdf' on page 22 undefined on input line 298.
+LaTeX Warning: Citation `NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf'
+ on page 22 undefined on input line 298.
 
 
 Underfull \hbox (badness 3657) in paragraph at lines 299--299
@@ -1700,20 +1680,20 @@ Underfull \hbox (badness 3657) in paragraph at lines 299--299
  []
 
 
-Package natbib Warning: Citation `2005-SAFE-Wcblackgill.pdf' on page 22 undefin
-ed on input line 299.
+LaTeX Warning: Citation `2005-SAFE-Wcblackgill.pdf' on page 22 undefined on inp
+ut line 299.
 
 
-Package natbib Warning: Citation `NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf' 
-on page 22 undefined on input line 300.
+LaTeX Warning: Citation `NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf' on page 2
+2 undefined on input line 300.
 
 
-Package natbib Warning: Citation `NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf' on pag
-e 22 undefined on input line 301.
+LaTeX Warning: Citation `NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf' on page 22 unde
+fined on input line 301.
 
 
-Package natbib Warning: Citation `AFSC-NROCKGA-2008-Northern rockfish GA.pdf' o
-n page 22 undefined on input line 303.
+LaTeX Warning: Citation `AFSC-NROCKGA-2008-Northern rockfish GA.pdf' on page 22
+ undefined on input line 303.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
@@ -1721,8 +1701,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--304
  []
 
 
-Package natbib Warning: Citation `2008_SAFE_BSAInorthern.pdf' on page 22 undefi
-ned on input line 304.
+LaTeX Warning: Citation `2008_SAFE_BSAInorthern.pdf' on page 22 undefined on in
+put line 304.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 286--306
@@ -1731,8 +1711,8 @@ Overfull \hbox (16.17723pt too wide) in alignment at lines 286--306
 
 [22]
 
-Package natbib Warning: Citation `AFSC-DUSROCKGA-2008-Dusky rockfish GA.pdf' on
- page 23 undefined on input line 306.
+LaTeX Warning: Citation `AFSC-DUSROCKGA-2008-Dusky rockfish GA.pdf' on page 23 
+undefined on input line 306.
 
 
 Underfull \hbox (badness 2591) in paragraph at lines 307--307
@@ -1740,8 +1720,8 @@ Underfull \hbox (badness 2591) in paragraph at lines 307--307
  []
 
 
-Package natbib Warning: Citation `2005-SST-assessment.pdf' on page 23 undefined
- on input line 307.
+LaTeX Warning: Citation `2005-SST-assessment.pdf' on page 23 undefined on input
+ line 307.
 
 
 Underfull \hbox (badness 7540) in paragraph at lines 308--308
@@ -1749,8 +1729,8 @@ Underfull \hbox (badness 7540) in paragraph at lines 308--308
  []
 
 
-Package natbib Warning: Citation `2005-SAFE-Longspine.pdf' on page 23 undefined
- on input line 308.
+LaTeX Warning: Citation `2005-SAFE-Longspine.pdf' on page 23 undefined on input
+ line 308.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
@@ -1763,16 +1743,16 @@ Underfull \hbox (badness 1748) in paragraph at lines 315--315
  []
 
 
-Package natbib Warning: Citation `AFSC-WPOLLAI-2008-Walleye pollock AI.pdf' on 
-page 23 undefined on input line 315.
+LaTeX Warning: Citation `AFSC-WPOLLAI-2008-Walleye pollock AI.pdf' on page 23 u
+ndefined on input line 315.
 
 
-Package natbib Warning: Citation `AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf' o
-n page 23 undefined on input line 316.
+LaTeX Warning: Citation `AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf' on page 23
+ undefined on input line 316.
 
 
-Package natbib Warning: Citation `AFSC-WPOLLGA-2008-Walleye pollock GA.pdf' on 
-page 23 undefined on input line 317.
+LaTeX Warning: Citation `AFSC-WPOLLGA-2008-Walleye pollock GA.pdf' on page 23 u
+ndefined on input line 317.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 318--318
@@ -1800,7 +1780,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--323
  []
 
 
-Package natbib Warning: Citation `NA' on page 23 undefined on input line 323.
+LaTeX Warning: Citation `NA' on page 23 undefined on input line 323.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--324
@@ -1808,10 +1788,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--324
  []
 
 
-Package natbib Warning: Citation `NA' on page 23 undefined on input line 324.
+LaTeX Warning: Citation `NA' on page 23 undefined on input line 324.
 
 
-Package natbib Warning: Citation `NA' on page 23 undefined on input line 325.
+LaTeX Warning: Citation `NA' on page 23 undefined on input line 325.
 
 
 Overfull \hbox (16.17723pt too wide) in alignment at lines 306--326
@@ -1838,53 +1818,66 @@ Overfull \hbox (16.17723pt too wide) in alignment at lines 326--334
  [] [] [] [] [] [] [] [] [] 
  []
 
-[25] [26]) [27] (./fishandfisheries-Suppl.bbl
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
-
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 82.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 82.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 82.
- [28
+[25] [26]) [27] (./fishandfisheries-Suppl.bbl (./babelbst.tex) [28
 
 
-] [29] [30]
-! Undefined control sequence.
-l.293   62{\textdegree
-                      }n (hawg).
-? 
-[31] [32] [33] [34] [35] [36])
+]
+Missing character: There is no Á in font cmti12!
+Missing character: There is no Ó in font cmti12!
+Missing character: There is no Í in font cmti12!
+Missing character: There is no º in font cmti12!
+Missing character: There is no Ó in font cmti12!
+Missing character: There is no Ó in font cmti12!
+Missing character: There is no Ñ in font cmti12!
+Missing character: There is no Ó in font cmti12!
+Missing character: There is no Ó in font cmti12!
+Missing character: There is no Í in font cmti12!
+Missing character: There is no º in font cmti12!
+Missing character: There is no Ñ in font cmti12!
+Missing character: There is no ö in font cmr12!
+Missing character: There is no ó in font cmti12!
+Missing character: There is no á in font cmti12!
+Missing character: There is no í in font cmti12!
+Missing character: There is no ö in font cmr12!
+Missing character: There is no ó in font cmti12!
+Missing character: There is no á in font cmti12!
+Missing character: There is no í in font cmti12!
+ [29]
+[30]
+Missing character: There is no é in font cmr12!
+Missing character: There is no é in font cmr12!
+ [31]
+Missing character: There is no ° in font cmti12!
+ [32]
+Missing character: There is no À in font cmr12!
+Missing character: There is no À in font cmr12!
+Missing character: There is no À in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no é in font cmr12!
+ [33] [34] [35] [36] [37]) [38] (./fishandfisheries-Suppl.aux
+(./Table-S1-formatted.aux))
 
-Package natbib Warning: There were undefined citations.
+LaTeX Warning: There were undefined references.
 
-[37] (./fishandfisheries-Suppl.aux (./Table-S1-formatted.aux)) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 2636 strings out of 495061
- 44534 string characters out of 1182621
- 124933 words of memory out of 3000000
- 5794 multiletter control sequences out of 15000+50000
- 9802 words of font info for 34 fonts, out of 3000000 for 9000
+ 2039 strings out of 495061
+ 30448 string characters out of 1182621
+ 117536 words of memory out of 3000000
+ 5207 multiletter control sequences out of 15000+50000
+ 7364 words of font info for 26 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,32p,597b,733s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on fishandfisheries-Suppl.pdf (37 pages, 208278 bytes).
+ 32i,6n,23p,597b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on fishandfisheries-Suppl.pdf (38 pages, 209924 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

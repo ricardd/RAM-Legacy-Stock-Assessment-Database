@@ -1,0 +1,4 @@
+psql:../spreadsheets/Fulton-morwong-australia-2007_v2-editedDR-QAQC.sql:7: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ... VALUES('CSIRO-MORWONGSE-1913-2007-FULTON', 'T1', 'Jackass m...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

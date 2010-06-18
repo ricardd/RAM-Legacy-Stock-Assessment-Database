@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  14 JUN 2010 14:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  15 JUN 2010 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,58 +260,58 @@ ver-sion 8.3.8.
 \openout2 = `Table1-formatted.aux'.
 
  (./Table1-formatted.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]\OT1/cmr/m/n/12 Department of Fish-eries
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/12 South African na-tional
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]\OT1/cmr/m/n/12 Unknown man-age-ment
+[]\OT1/cmr/m/n/12 Department of Fish-eries
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\OT1/cmr/m/n/12 International Com-mis-sion
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 14--14
-\OT1/cmr/m/n/12 for the Con-ser-va-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
 []\OT1/cmr/m/n/12 Inter-American Trop-i-cal
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 16--16
-[]\OT1/cmr/m/n/12 International Pa-cific Hal-
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]\OT1/cmr/m/n/12 International Com-mis-sion
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 17--17
+Underfull \hbox (badness 6575) in paragraph at lines 15--15
+\OT1/cmr/m/n/12 for the Con-ser-va-tion of
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 16--16
 []\OT1/cmr/m/n/12 International Coun-cil for
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 19--19
+Underfull \hbox (badness 3019) in paragraph at lines 18--18
+[]\OT1/cmr/m/n/12 International Pa-cific Hal-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 20--20
 []\OT1/cmr/m/n/12 Northwest At-lantic Fish-
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 23--23
+Underfull \hbox (badness 1270) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/12 National Ma-rine Fish-eries
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 Russian Fed-eral Fish-eries
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]\OT1/cmr/m/n/12 South African na-tional
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 26--26
-[]\OT1/cmr/m/n/12 National Ma-rine Fish-eries
+[]\OT1/cmr/m/n/12 Unknown man-age-ment
  []
 
 ) [20]
@@ -471,17 +471,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--39
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--48
+Underfull \hbox (badness 10000) in paragraph at lines 32--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
  []
 
@@ -489,7 +489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
@@ -512,38 +512,38 @@ File: /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf Gr
 aphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=96, 483.
+</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=96, 
+578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf Gra
+phic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=97, 483.
 8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=97, 5
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=98, 5
 78.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=98, 
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=99, 
 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type pdf)
 
-<use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=99, 
-578.16pt x 722.7pt>
-File: /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf Gra
-phic file (type pdf)
-
-<use /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf>)
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>)
 [26 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
 is rotated 90 degrees>] [27 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
 rdb-by-assessment.pdf>] [28 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
-hree_panel_phylo.pdf>] [29 </home/srdbadmin/srdb/projects/fishandfisheries/R/or
-ca_plot_v2.pdf>] [30 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg
--single.pdf>] [31 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by
--mgmt.pdf>] [32 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-s
-rdb.pdf>] (./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux)) 
+hree_panel_phylo.pdf>] [29 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL
+-quadrant-srdb.pdf>] [30 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca
+_plot_v2.pdf>] [31 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-s
+ingle.pdf>] [32 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-m
+gmt.pdf>] (./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux)) 
 ) 
 Here is how much of TeX's memory you used:
  2331 strings out of 495061
@@ -564,7 +564,7 @@ exmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
 onts/cm/cmti12.pfb>
-Output written on fishandfisheries-v3.pdf (32 pages, 1754953 bytes).
+Output written on fishandfisheries-v3.pdf (32 pages, 1752466 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

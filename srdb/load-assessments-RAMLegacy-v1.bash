@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, JUNE 2010
-# Last modified Time-stamp: <2010-06-14 15:48:22 (srdbadmin)>
+# Last modified Time-stamp: <2010-06-15 13:34:19 (srdbadmin)>
 #
 
 # assessments are here in the order they appear in F&F manuscript Table S1, ie. by management body
@@ -24,3 +24,8 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Fulton-whiting-austr
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-TOOTHFISHRS-2007-v2-editedDR.xls ## NOT QAQCed
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/deMoor-SAAnchovy-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Plaganyi-SA-abalone-2008-editedDR.xls  ## NOT QAQCed
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ATBTUNAEATL-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls

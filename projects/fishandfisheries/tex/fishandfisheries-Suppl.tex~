@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2010-05-31 19:45:21 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-05-31 20:25:29 (srdbadmin)>
 \documentclass[letterpaper,12pt]{article}
 
 \usepackage{pdflscape}
@@ -11,6 +11,7 @@
 \usepackage{comment}
 \usepackage{color}
 \usepackage[left=3cm,top=3cm,right=3cm, bottom=3cm,nohead]{geometry}
+\usepackage{booktabs}
 %\linenumbers
 
 \title{Supplementary materials for Fish and Fisheries manuscript}
@@ -31,9 +32,11 @@
 \end{figure}
 
 %%\include{Table-S1}
+\begin{small}
 \begin{landscape}
-\include{Table-S1}
+\include{Table-S1-formatted}
 \end{landscape}
+\end{small}
 
 \bibliographystyle{unsrt}
 \bibliography{./srdb-references}

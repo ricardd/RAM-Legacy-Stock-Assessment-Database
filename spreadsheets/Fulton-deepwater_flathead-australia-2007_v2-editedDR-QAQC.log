@@ -1,0 +1,4 @@
+psql:../spreadsheets/Fulton-deepwater_flathead-australia-2007_v2-editedDR-QAQC.sql:6: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...ES('CSIRO-DEEPFLATHEADSE-1978-2007-FULTON', 'T1', 'Updated s...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

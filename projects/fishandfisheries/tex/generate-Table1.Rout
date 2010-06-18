@@ -46,9 +46,12 @@ Loading required package: xtable
 + m.country,
 + m.managementauthority,
 + m.mgmt
-+ ORDER BY 
++ ORDER BY
++ m.mgmt,
 + m.country
 + ",sep="")
+> 
+> ## CASE WHEN position(',' in m.managementauthority)=0 THEN m.managementauthority ELSE substring(m.managementauthority,0,position(',' in m.managementauthority)) END,
 > 
 > table1.data <- sqlQuery(chan,qu)
 > 
@@ -62,4 +65,4 @@ Loading required package: xtable
 > 
 > proc.time()
    user  system elapsed 
-  0.428   0.024   0.459 
+  0.416   0.036   0.471 

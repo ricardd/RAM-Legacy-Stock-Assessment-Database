@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  15 JUN 2010 13:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  21 JUN 2010 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,6 +7,9 @@ entering extended mode
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -22,14 +25,15 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
-(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -44,7 +48,68 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count87
-)))
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (./fishandfisheries-v3.spl) (/usr/share/texmf-texlive/tex/latex/natbib/natbib.
+sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `fishandfisheries-v3.spl'.
+
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
@@ -56,53 +121,32 @@ Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 ))
 (/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip43
-\LTright=\skip44
-\LTpre=\skip45
-\LTpost=\skip46
-\LTchunksize=\count88
-\LTcapwidth=\dimen103
-\LT@head=\box26
-\LT@firsthead=\box27
-\LT@foot=\box28
-\LT@lastfoot=\box29
-\LT@cols=\count89
-\LT@rows=\count90
-\c@LT@tables=\count91
-\c@LT@chunks=\count92
-\LT@p@ftn=\toks14
-)
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip47
-\bibsep=\skip48
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count93
-)
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count95
+\LTcapwidth=\dimen109
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count96
+\LT@rows=\count97
+\c@LT@tables=\count98
+\c@LT@chunks=\count99
+\LT@p@ftn=\toks18
 )
 (/usr/share/texmf-texlive/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
-\pltopsep=\skip49
-\plpartopsep=\skip50
-\plitemsep=\skip51
-\plparsep=\skip52
-\pl@lab=\toks16
+\pltopsep=\skip51
+\plpartopsep=\skip52
+\plitemsep=\skip53
+\plparsep=\skip54
+\pl@lab=\toks19
 )
 (/usr/share/texmf-texlive/tex/latex/comment/comment.sty
-\CommentStream=\write3
+\CommentStream=\write4
 
 Excluding comment 'comment')
 (/usr/share/texmf-texlive/tex/latex/graphics/color.sty
@@ -120,63 +164,66 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count94
-\Gm@cntv=\count95
-\c@Gm@tempcnt=\count96
-\Gm@bindingoffset=\dimen106
-\Gm@wd@mp=\dimen107
-\Gm@odd@mp=\dimen108
-\Gm@even@mp=\dimen109
-\Gm@dimlist=\toks17
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen110
+\Gm@wd@mp=\dimen111
+\Gm@odd@mp=\dimen112
+\Gm@even@mp=\dimen113
+\Gm@dimlist=\toks20
 )
 (/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen110
-\lightrulewidth=\dimen111
-\cmidrulewidth=\dimen112
-\belowrulesep=\dimen113
-\belowbottomsep=\dimen114
-\aboverulesep=\dimen115
-\abovetopsep=\dimen116
-\cmidrulesep=\dimen117
-\cmidrulekern=\dimen118
-\defaultaddspace=\dimen119
-\@cmidla=\count97
-\@cmidlb=\count98
-\@aboverulesep=\dimen120
-\@belowrulesep=\dimen121
-\@thisruleclass=\count99
-\@lastruleclass=\count100
-\@thisrulewidth=\dimen122
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count103
+\@cmidlb=\count104
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count105
+\@lastruleclass=\count106
+\@thisrulewidth=\dimen126
 )
-(./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux))
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux))
 \openout1 = `fishandfisheries-v3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen123
-\scratchbox=\box30
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen124
-\MPnumerator=\count105
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count107
+\scratchdimen=\dimen127
+\scratchbox=\box34
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen128
+\MPnumerator=\count111
+\everyMPtoPDFconversion=\toks22
 )
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -212,51 +259,117 @@ driver: pdftex
 \marginparwidth 44.0pt
 \marginparsep   10.0pt
 \columnsep  10.0pt
-\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\skip\footins  24.0pt
 \hoffset 0.0pt
 \voffset 0.0pt
 \mag 1000
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abstract-dynamic.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--41
+(./abstract-dynamic.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--39
 
  []
 
-[2]) [3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 153.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 153.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 153.
- [4] [5] [6] [7] [8] (./results-dynamic.tex [9] [10]
-Overfull \hbox (14.14455pt too wide) in paragraph at lines 94--116
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+Overfull \hbox (0.78915pt too wide) in paragraph at lines 208--226
+\OT1/cmr/m/n/12 sess-ment database con-tain-ing bi-o-log-i-cal ref-er-ence poin
+ts (BRPs, e.g., the to-tal/spawning
+ []
+
+[5]
+Overfull \hbox (1.06702pt too wide) in paragraph at lines 240--250
+[]\OT1/cmr/m/n/12 We use the new RAM Legacy database (Ver-sion 1.0, 2010) to ev
+al-u-ate the knowledge-
+ []
+
+[6] [7] [8] [9] [10] [11]
+
+Package natbib Warning: Citation `R:gregmisc' on page 12 undefined on input lin
+e 501.
+
+
+Overfull \hbox (6.78687pt too wide) in paragraph at lines 499--503
+\OT1/cmr/m/n/12 2009), greg-misc (\OT1/cmr/bx/n/12 ?\OT1/cmr/m/n/12 ), xtable (
+Dahl, 2009), ape (Par-adis \OT1/cmr/m/it/12 et al.\OT1/cmr/m/n/12 , 2004), gsub
+fn (Grothendieck,
+ []
+
+(./results-dynamic.tex [12] [13]
+Overfull \hbox (14.14455pt too wide) in paragraph at lines 98--120
 []\OT1/cmr/m/n/12 The to-tal num-ber and per-cent-age of as-sess-ments that re-
 ported biomass- or exploitation-
  []
 
-) [11] [12] [13] [14] [15] (./fishandfisheries-v3.bbl [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+[14]) [15] [16] [17] [18] [19] [20] (./fishandfisheries-v3.bbl
+! Undefined control sequence.
+l.28 \newblock \urlprefix
+                         \url{http://CRAN.R-project.org/package=xtable}, r p...
+
+? 
+[21]
+! Undefined control sequence.
+l.100 \newblock \urlprefix
+                          \url{http://CRAN.R-project.org/package=gsubfn}, r ...
+
+? 
+[22]
+! Undefined control sequence.
+l.176 \newblock \urlprefix
+                          \url{http://www.jstatsoft.org/v28/c01/}.
+? 
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
 []\OT1/cmr/m/n/12 New Zealand Min-istry of Fish-eries (2009).  Stock Sta-tus
  []
 
+[24]
+! Misplaced alignment tab character &.
+<argument> ...ions for kernel smoothing for Wand &
+                                                   Jones (1995)
+l.295   (1995)}
+               .
+? 
+! Undefined control sequence.
+l.296 \newblock \urlprefix
+                          \url{http://CRAN.R-project.org/package=KernSmooth}, r
 
-Underfull \hbox (badness 3219) in paragraph at lines 269--271
+? 
+
+Underfull \hbox (badness 3219) in paragraph at lines 321--323
 []\OT1/cmr/m/n/12 PostgreSQL Global De-vel-op-ment Group (2009).  Post-greSQL, 
 ver-sion 8.3.8.
  []
 
-[18]) [19]
+! Undefined control sequence.
+l.336 \newblock \urlprefix
+                          \url{http://CRAN.R-project.org/package=RODBC}, r p...
+
+? 
+! Undefined control sequence.
+l.346 \newblock \urlprefix
+                          \url{http://CRAN.R-project.org/package=IDPmisc}, r...
+
+? 
+[25]
+! Undefined control sequence.
+l.408 \newblock \urlprefix
+                          \url{http://CRAN.R-project.org/package=doBy}, r pa...
+
+? 
+[26]) [27]
 \openout2 = `Table1-formatted.aux'.
 
  (./Table1-formatted.tex
@@ -314,145 +427,148 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []\OT1/cmr/m/n/12 Unknown man-age-ment
  []
 
-) [20]
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+
+LaTeX Warning: Float too large for page by 219.79758pt on input line 30.
+
+) [28]
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\OT1/cmr/m/it/12 Stock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\OT1/cmr/m/it/12 Stock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\OT1/cmr/m/it/12 Species (Com-mon name,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 \OT1/cmr/m/it/12 Latin name) or higher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\OT1/cmr/m/it/12 In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\OT1/cmr/m/it/12 Reason
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--764
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 \OT1/cmr/m/it/12 if not
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 766--766
+Underfull \hbox (badness 4454) in paragraph at lines 862--862
 []|\OT1/cmr/m/n/12 Peruvian an-choveta, \OT1/cmr/m/it/12 En-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 769--769
+Underfull \hbox (badness 3713) in paragraph at lines 865--865
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--771
+Underfull \hbox (badness 10000) in paragraph at lines 867--867
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 772--772
+Underfull \hbox (badness 3713) in paragraph at lines 868--868
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--775
+Underfull \hbox (badness 10000) in paragraph at lines 871--871
 []|\OT1/cmr/m/n/12 Japanese an-chovy, \OT1/cmr/m/it/12 En-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 781--781
+Underfull \hbox (badness 3713) in paragraph at lines 877--877
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
+Underfull \hbox (badness 10000) in paragraph at lines 878--878
 []|\OT1/cmr/m/n/12 Argentinean short-finned
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--784
+Underfull \hbox (badness 10000) in paragraph at lines 880--880
 []|\OT1/cmr/m/n/12 Japanese an-chovy, \OT1/cmr/m/it/12 En-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 785
+Underfull \vbox (badness 10000) detected at line 881
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--786
+Underfull \hbox (badness 10000) in paragraph at lines 882--882
 []|\OT1/cmr/m/n/12 Atlantic cod, \OT1/cmr/m/it/12 Gadus
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 787--787
+Underfull \hbox (badness 3000) in paragraph at lines 883--883
 []|\OT1/cmr/m/n/12 European sprat, \OT1/cmr/m/it/12 Sprat-tus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--788
+Underfull \hbox (badness 10000) in paragraph at lines 884--884
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 789--789
+Underfull \hbox (badness 3713) in paragraph at lines 885--885
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--791
+Underfull \hbox (badness 10000) in paragraph at lines 887--887
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--794
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
 []|\OT1/cmr/m/n/12 Japanese an-chovy, \OT1/cmr/m/it/12 En-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--795
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []|\OT1/cmr/m/n/12 European an-chovy, \OT1/cmr/m/it/12 En-
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 796--796
+Underfull \hbox (badness 5302) in paragraph at lines 892--892
 []|\OT1/cmr/m/n/12 Chub mack-erel, \OT1/cmr/m/it/12 Scomber
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 797--797
+Underfull \hbox (badness 5036) in paragraph at lines 893--893
 []|\OT1/cmr/m/n/12 Indian oil sar-dine, \OT1/cmr/m/it/12 Sar-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 804--804
+Underfull \hbox (badness 3713) in paragraph at lines 900--900
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--805
+Underfull \hbox (badness 10000) in paragraph at lines 901--901
 []|\OT1/cmr/m/n/12 Round sar-dinella, \OT1/cmr/m/it/12 Sar-
  []
 
-[21
+[29
 
 
 
-] [22] [23]
+] [30] [31] [32] [33]
 \openout2 = `Figures.aux'.
 
  (./Figures.tex
@@ -480,93 +596,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--42
 
  []
 
+[34
 
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
  []
 
-[24
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
-[25]
-</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=93, 84
-5.1575pt x 597.23125pt>
+[35]
+</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=130, 8
+45.1575pt x 597.23125pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
 ic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf, id=94
-, 722.7pt x 722.7pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf, id=13
+1, 722.7pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf G
 raphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf, id=95,
- 433.62pt x 722.7pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf, id=132
+, 433.62pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf Gr
 aphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=96, 
-578.16pt x 722.7pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=133,
+ 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf Gra
 phic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=97, 483.
-8075pt x 216.81pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=134, 483
+.8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=98, 5
-78.16pt x 722.7pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=135, 
+578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=99, 
-578.16pt x 722.7pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=136,
+ 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>)
-[26 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
-is rotated 90 degrees>] [27 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
-rdb-by-assessment.pdf>] [28 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
-hree_panel_phylo.pdf>] [29 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL
--quadrant-srdb.pdf>] [30 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca
-_plot_v2.pdf>] [31 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-s
-ingle.pdf>] [32 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-m
-gmt.pdf>] (./fishandfisheries-v3.aux (./Table1-formatted.aux) (./Figures.aux)) 
-) 
+[36 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
+is rotated 90 degrees>] [37 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
+rdb-by-assessment.pdf>] [38 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
+hree_panel_phylo.pdf>] [39 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL
+-quadrant-srdb.pdf>] [40 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca
+_plot_v2.pdf>] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-s
+ingle.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-m
+gmt.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+(./fishandfisheries-v3.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./Table1-formatted.aux) (./Figures.aux)) ) 
 Here is how much of TeX's memory you used:
- 2331 strings out of 495061
- 34844 string characters out of 1182621
- 123235 words of memory out of 3000000
- 5474 multiletter control sequences out of 15000+50000
- 9155 words of font info for 32 fonts, out of 3000000 for 9000
+ 2930 strings out of 495061
+ 41267 string characters out of 1182621
+ 128208 words of memory out of 3000000
+ 6029 multiletter control sequences out of 15000+50000
+ 12959 words of font info for 50 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,11n,32p,665b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmti12.pfb>
-Output written on fishandfisheries-v3.pdf (32 pages, 1752466 bytes).
+ 32i,10n,34p,665b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmti7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on fishandfisheries-v3.pdf (42 pages, 1827868 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

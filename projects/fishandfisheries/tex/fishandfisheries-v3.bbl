@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 {\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
 |immediate|write|@auxout{\expandafter\ifx\csname
@@ -21,6 +21,13 @@ Costello, C., Gaines, S.D. \harvardand{} Lynham, J. \harvardyearleft
   2008\harvardyearright{}.
 \newblock Can catch shares prevent fisheries collapse?
 \newblock \emph{Science (Washington)} 321(5896), 1678--1681.
+
+\harvarditem{Dahl}{2009}{R:xtable}
+Dahl, D.B. \harvardyearleft 2009\harvardyearright{}.
+\newblock \emph{xtable: Export tables to LaTeX or HTML}.
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=xtable}, r package
+  version 1.5-6.
+\newline\harvardurl{http://CRAN.R-project.org/package=xtable}
 
 \harvarditem[de~Mutsert \emph{et~al.}]{de~Mutsert, Cowan, Essington
   \harvardand{} Hilborn}{2008}{deMutsert:etal:2008:pnas}
@@ -52,10 +59,14 @@ Essington, T.E., Beaudreau, A.H. \harvardand{} Wiedenmann, J. \harvardyearleft
 \harvarditem{{European Environment Agency}}{2009}{eea:2009:status}
 {European Environment Agency} \harvardyearleft 2009\harvardyearright{}.
 
-\harvarditem{FAO}{2009}{FAO:fishstat}
-FAO \harvardyearleft 2009\harvardyearright{}.
+\harvarditem{FAO}{2009{\natexlab{a}}}{FAO:fishstat}
+FAO \harvardyearleft 2009{\natexlab{a}}\harvardyearright{}.
 \newblock FISHSTAT-PC: Data retrieval, graphical and analytical software for
   microcomputers.
+
+\harvarditem{FAO}{2009{\natexlab{b}}}{FAO:sofia}
+FAO \harvardyearleft 2009{\natexlab{b}}\harvardyearright{}.
+\newblock SOFIA report 2008.
 
 \harvarditem[Frank \emph{et~al.}]{Frank, Petrie, Choi \harvardand{}
   Leggett}{2005}{Frank:etal:2005:science}
@@ -82,6 +93,13 @@ Garvey, J., Wright, R. \harvardand{} Marschall, E. \harvardyearleft
 \newblock Searching for threshold shifts in spawner-recruit data.
 \newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 66,
   312--320.
+
+\harvarditem{Grothendieck}{2010}{R:gsubfn}
+Grothendieck, G. \harvardyearleft 2010\harvardyearright{}.
+\newblock \emph{gsubfn: Utilities for strings and function arguments.}
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=gsubfn}, r package
+  version 0.5-2.
+\newline\harvardurl{http://CRAN.R-project.org/package=gsubfn}
 
 \harvarditem[Halpern \emph{et~al.}]{Halpern, Walbridge, Selkoe
   \emph{et~al.}}{2008}{Halpern:etal:2008:science}
@@ -150,6 +168,14 @@ Johannes, R. \harvardyearleft 2002\harvardyearright{}.
 \newblock \emph{Annual Review of Ecology, Evolution, and Systematics} 33,
   317--340.
 
+\harvarditem{Kampstra}{2008}{R:beanplot}
+Kampstra, P. \harvardyearleft 2008\harvardyearright{}.
+\newblock Beanplot: A Boxplot Alternative for Visual Comparison of
+  Distributions.
+\newblock \emph{Journal of Statistical Software, Code Snippets} 28(1), 1--9.
+\newblock \urlprefix\url{http://www.jstatsoft.org/v28/c01/}.
+\newline\harvardurl{http://www.jstatsoft.org/v28/c01/}
+
 \harvarditem{Liermann \harvardand{} Hilborn}{1997}{Liermann:Hilborn:1997:cjfas}
 Liermann, M. \harvardand{} Hilborn, R. \harvardyearleft
   1997\harvardyearright{}.
@@ -191,9 +217,9 @@ Myers, R. \harvardand{} Barrowman, N. \harvardyearleft 1996\harvardyearright{}.
 \newblock \emph{Fishery Bulletin} 94, 707--724.
 
 \harvarditem[Myers \emph{et~al.}]{Myers, Barrowman, Hilborn \harvardand{}
-  Kehler}{2002}{Myers:etal:2002:najfm}
+  Kehler}{2002{\natexlab{a}}}{Myers:etal:2002:najfm}
 Myers, R., Barrowman, N., Hilborn, R. \harvardand{} Kehler, D. \harvardyearleft
-  2002\harvardyearright{}.
+  2002{\natexlab{a}}\harvardyearright{}.
 \newblock Inferring bayesian priors with limited direct data: applications to
   risk analysis.
 \newblock \emph{North American Journal of Fisheries Management} 22, 351--364.
@@ -221,6 +247,15 @@ Myers, R., Bowen, K. \harvardand{} Barrowman, N. \harvardyearleft
 \newblock Maximum reproductive rate of fish at low population sizes.
 \newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 56,
   2404--2419.
+
+\harvarditem[Myers \emph{et~al.}]{Myers, MacKenzie, Bowen \harvardand{}
+  Barrowman}{2002{\natexlab{b}}}{Myers:etal:2001:cjfas}
+Myers, R., MacKenzie, B., Bowen, B. \harvardand{} Barrowman, N.
+  \harvardyearleft 2002{\natexlab{b}}\harvardyearright{}.
+\newblock What is the carrying capacity for fish in the ocean? A meta-analysis
+  of population dynamics of North Atlantic cod.
+\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 58,
+  1464--1476.
 
 \harvarditem[Myers \emph{et~al.}]{Myers, Bridson \harvardand{}
   N.J.}{1995{\natexlab{b}}}{Myers:etal:1995:summary}
@@ -252,6 +287,23 @@ Newton, K., C{\^o}t{\'e}, I., Pilling, G., Jennings, S. \harvardand{} Dulvy, N.
 \newblock Large Marine Ecosystems.
 \newblock Tech. rep., National Oceanic and Atmospheric Administration.
 
+\harvarditem{original by Matt Wand. R port~by
+  Brian~Ripley.}{2009}{R:KernSmooth}
+original by Matt Wand. R port~by Brian~Ripley., S. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock \emph{KernSmooth: Functions for kernel smoothing for Wand & Jones
+  (1995)}.
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=KernSmooth}, r
+  package version 2.23-2.
+\newline\harvardurl{http://CRAN.R-project.org/package=KernSmooth}
+
+\harvarditem[Paradis \emph{et~al.}]{Paradis, Claude \harvardand{}
+  Strimmer}{2004}{R:ape}
+Paradis, E., Claude, J. \harvardand{} Strimmer, K. \harvardyearleft
+  2004\harvardyearright{}.
+\newblock APE: analyses of phylogenetics and evolution in {R} language.
+\newblock \emph{Bioinformatics} 20, 289--290.
+
 \harvarditem[Pauly \emph{et~al.}]{Pauly, Christensen, Dalsgaard, Froese
   \harvardand{} Torres}{1998}{Pauly:etal:1998}
 Pauly, D., Christensen, V., Dalsgaard, J., Froese, R. \harvardand{} Torres,
@@ -276,6 +328,25 @@ Rice, J., Shelton, P., Rivard, D., Chouinard, G. \harvardand{} Fr\'echet, A.
 \newblock Recovering Canadian Atlantic cod stocks: the shape of things to come.
 \newblock \emph{ICES CM} 2003/U 06, 23pp.
 
+\harvarditem[Ripley \emph{et~al.}]{Ripley,  \harvardand{} from 1999~to Oct 2002
+  Michael~Lapsley}{2009}{R:RODBC}
+Ripley, B.,  \harvardand{} from 1999~to Oct 2002 Michael~Lapsley
+  \harvardyearleft 2009\harvardyearright{}.
+\newblock \emph{RODBC: ODBC Database Access}.
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=RODBC}, r package
+  version 1.3-1.
+\newline\harvardurl{http://CRAN.R-project.org/package=RODBC}
+
+\harvarditem[Ruckstuhl \emph{et~al.}]{Ruckstuhl, Unternaehrer \harvardand{}
+  Locher}{2009}{R:IDPmisc}
+Ruckstuhl, A., Unternaehrer, T. \harvardand{} Locher, R. \harvardyearleft
+  2009\harvardyearright{}.
+\newblock \emph{IDPmisc: Utilities of Institute of Data Analyses and Process
+  Design (www.idp.zhaw.ch)}.
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=IDPmisc}, r package
+  version 1.1.06.
+\newline\harvardurl{http://CRAN.R-project.org/package=IDPmisc}
+
 \harvarditem[Sibert \emph{et~al.}]{Sibert, Hampton, Kleiber \harvardand{}
   Maunder}{2006}{Sibert:etal:2006:science}
 Sibert, J., Hampton, J., Kleiber, P. \harvardand{} Maunder, M. \harvardyearleft
@@ -294,6 +365,11 @@ Walters, C. \harvardyearleft 2003\harvardyearright{}.
 \newblock Folly and fantasy in the analysis of spatial catch rate data.
 \newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 60(12),
   1433--1436.
+
+\harvarditem{Warnes.}{????}{R:gregmisc}
+Warnes., G.R. \harvardyearleft ????\harvardyearright{}.
+\newblock \emph{gregmisc: Greg's Miscellaneous Functions}.
+\newblock R package version 2.1.1.
 
 \harvarditem[Watson \emph{et~al.}]{Watson, Kitchingman, Gelchu \harvardand{}
   Pauly}{2004}{Watson:etal:2004:fandf}
@@ -322,6 +398,16 @@ Wilson, D., Curtotti, R., Begg, G. \harvardand{} Phillips, K., eds.
   fisheries managed by the Australian Government}.
 \newblock Bureau of Rural Sciences and Australian Bureau of Agricultural and
   Resource Economics, Canberra.
+
+\harvarditem{with contributions~from Kevin~Wright \harvardand{}
+  Leidi.}{2010}{R:doBy}
+with contributions~from Kevin~Wright, S.H. \harvardand{} Leidi., A.A.
+  \harvardyearleft 2010\harvardyearright{}.
+\newblock \emph{doBy: Groupwise computations of summary statistics, general
+  linear contrasts and other utilities}.
+\newblock \urlprefix\url{http://CRAN.R-project.org/package=doBy}, r package
+  version 4.0.6.
+\newline\harvardurl{http://CRAN.R-project.org/package=doBy}
 
 \harvarditem[Worm \emph{et~al.}]{Worm, Barbier, Beaumont
   \emph{et~al.}}{2006}{Worm:etal:2006:science}

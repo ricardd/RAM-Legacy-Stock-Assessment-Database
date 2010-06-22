@@ -4,44 +4,46 @@ The style file: fishandfisheriesBST.bst
 A level-1 auxiliary file: Table1-formatted.aux
 A level-1 auxiliary file: Figures.aux
 Database file #1: ./fishfisheries.bib
-You've used 51 entries,
+Warning--empty year in R:gregmisc; set to ????
+You've used 62 entries,
             2914 wiz_defined-function locations,
-            936 strings with 14670 characters,
-and the built_in function-call counts, 31823 in all, are:
-= -- 2796
-> -- 1355
-< -- 59
-+ -- 643
-- -- 369
-* -- 2319
-:= -- 4772
-add.period$ -- 149
-call.type$ -- 51
-change.case$ -- 327
-chr.to.int$ -- 50
-cite$ -- 51
-duplicate$ -- 2116
-empty$ -- 2278
-format.name$ -- 575
-if$ -- 6359
-int.to.chr$ -- 2
+            1000 strings with 16478 characters,
+and the built_in function-call counts, 37725 in all, are:
+= -- 3303
+> -- 1586
+< -- 73
++ -- 749
+- -- 432
+* -- 2747
+:= -- 5669
+add.period$ -- 182
+call.type$ -- 62
+change.case$ -- 399
+chr.to.int$ -- 59
+cite$ -- 63
+duplicate$ -- 2540
+empty$ -- 2702
+format.name$ -- 674
+if$ -- 7516
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 442
-newline$ -- 256
-num.names$ -- 257
-pop$ -- 985
+missing$ -- 522
+newline$ -- 318
+num.names$ -- 312
+pop$ -- 1189
 preamble$ -- 1
-purify$ -- 324
+purify$ -- 389
 quote$ -- 0
-skip$ -- 1160
+skip$ -- 1377
 stack$ -- 0
-substring$ -- 1493
-swap$ -- 1140
+substring$ -- 1693
+swap$ -- 1347
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 600
-warning$ -- 0
-while$ -- 221
+type$ -- 732
+warning$ -- 1
+while$ -- 259
 width$ -- 0
-write$ -- 671
+write$ -- 823
+(There was 1 warning)

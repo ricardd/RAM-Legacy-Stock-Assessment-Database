@@ -5,7 +5,7 @@
 %
 % Modification history:
 %
-% Last modified: Time-stamp: <2010-04-26 14:35:51 (srdbadmin)> 
+% Last modified: Time-stamp: <2010-05-07 18:44:57 (srdbadmin)> 
 
 @string{cjfas = "Canadian Journal of Fisheries and Aquatic Sciences"}
 @string{meps = "Marine Ecology Progress Series"}
@@ -716,3 +716,41 @@ Year = {1998}
         publisher = {Oxford Univ Pr},
         year = 1999,
 }
+
+@Misc{admb,
+  OPTkey = 	 {},
+  author = 	 {{ADMB Project}},
+  title = 	 {{AD} {M}odel {Builder}: automatic differentiation model builder.},
+  howpublished = {Developed by David Fournier and freely available from admb-project.org.},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Misc{R,
+  OPTkey = 	 {},
+  author = 	 {{R} {D}evelopment {C}ore {T}eam},
+  title = 	 {{R}: a Language and Environment for
+Statistical Computing},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{gmt,
+  author = 	 {Wessel, P. and Smith, W. H. F.},
+  title = 	 {Free software helps map and display data},
+  journal = 	 {EOS Transactions of the American Geophysical Union},
+  year = 	 {1991},
+  OPTkey = 	 {},
+  volume = 	 {72},
+  OPTnumber = 	 {},
+  pages = 	 {441},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+

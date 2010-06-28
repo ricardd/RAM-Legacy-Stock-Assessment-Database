@@ -1,7 +1,7 @@
 "region","category","n","index.start","index.end","percent.decline"
 "All","All","159","1.28","0.79","37.97"
-"All","Pelagic","35","1.18","0.75","36.74"
-"All","Demersal","124","1.3","0.8","38.32"
+"All","Pelagic","34","1.16","0.73","36.83"
+"All","Demersal","125","1.31","0.81","38.28"
 "NEAtl","Pelagic","10","1.19","0.57","51.76"
 "NEAtl","Demersal","23","0.88","0.47","45.86"
 "NWAtl","Pelagic","1","2.21","3.63","-64.24"
@@ -10,8 +10,8 @@
 "NorthMidAtl","Demersal","8","1.4","0.47","66.58"
 "Med","Pelagic",NA,NA,NA,NA
 "Med","Demersal",NA,NA,NA,NA
-"SAfr","Pelagic","2","1.46","1.29","11.52"
-"SAfr","Demersal","2","1.71","1.36","20.62"
+"SAfr","Pelagic","1","1.22","1.44","-17.62"
+"SAfr","Demersal","3","1.72","1.29","25.01"
 "NEPac","Pelagic","6","0.43","0.31","27.78"
 "NEPac","Demersal","49","1.41","1.25","10.72"
 "Aust-NZ","Pelagic","1","NaN","1.71","NaN"

@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-21 21:38:42 (srdbadmin)>
+# last modifieds Time-stamp: <2010-05-31 15:11:38 (srdbadmin)>
 
 ## Figure 1 for CJFAS Short Comm. paper
 ## DR, CM
@@ -70,7 +70,7 @@ axis(side=2, at=y.idx, labels=as.expression(paste(y,y.f,sep=" ")), cex.axis=0.7)
 pdf("CJFAS-shortcomm-fig1-1010_withBRP.pdf", width=8, height=11, title="CJFAS CBD Short Comm. Figure 1")
 
 par(mfrow=c(3,2))
-par(mar=c(2,5,2,2), oma=c(3,6,4,3))
+par(mar=c(2,5,2,2), oma=c(3,4,4,3))
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NWAtl","a",0.03) # 
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NEAtl","b",0.02) #
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NorthMidAtl","c",0.02) #

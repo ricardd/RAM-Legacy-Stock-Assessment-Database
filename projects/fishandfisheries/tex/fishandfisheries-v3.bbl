@@ -1,4 +1,4 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 {\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
 |immediate|write|@auxout{\expandafter\ifx\csname
@@ -25,9 +25,7 @@ Costello, C., Gaines, S.D. \harvardand{} Lynham, J. \harvardyearleft
 \harvarditem{Dahl}{2009}{R:xtable}
 Dahl, D.B. \harvardyearleft 2009\harvardyearright{}.
 \newblock \emph{xtable: Export tables to LaTeX or HTML}.
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=xtable}, r package
-  version 1.5-6.
-\newline\harvardurl{http://CRAN.R-project.org/package=xtable}
+\newblock R package version 1.5-6.
 
 \harvarditem[de~Mutsert \emph{et~al.}]{de~Mutsert, Cowan, Essington
   \harvardand{} Hilborn}{2008}{deMutsert:etal:2008:pnas}
@@ -66,7 +64,7 @@ FAO \harvardyearleft 2009{\natexlab{a}}\harvardyearright{}.
 
 \harvarditem{FAO}{2009{\natexlab{b}}}{FAO:sofia}
 FAO \harvardyearleft 2009{\natexlab{b}}\harvardyearright{}.
-\newblock SOFIA report 2008.
+\newblock The State of World Fisheries and Aquaculture ({SOFIA}) report 2008.
 
 \harvarditem[Frank \emph{et~al.}]{Frank, Petrie, Choi \harvardand{}
   Leggett}{2005}{Frank:etal:2005:science}
@@ -79,7 +77,7 @@ Frank, K., Petrie, B., Choi, J. \harvardand{} Leggett, W. \harvardyearleft
 Froese, R. \harvardand{} Proel\ss, A. \harvardyearleft 2010\harvardyearright{}.
 \newblock Rebuilding fish stocks no later than 2015: will Europe meet the
   deadline?
-\newblock \emph{Fish and Fisheries} (in press).
+\newblock \emph{Fish and Fisheries} 11(2), 194--202.
 
 \harvarditem{Froese \harvardand{} Pauly}{2009}{Froese:Pauly:2009:fishbase}
 Froese, R. \harvardand{} Pauly, D. \harvardyearleft 2009\harvardyearright{}.
@@ -97,9 +95,7 @@ Garvey, J., Wright, R. \harvardand{} Marschall, E. \harvardyearleft
 \harvarditem{Grothendieck}{2010}{R:gsubfn}
 Grothendieck, G. \harvardyearleft 2010\harvardyearright{}.
 \newblock \emph{gsubfn: Utilities for strings and function arguments.}
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=gsubfn}, r package
-  version 0.5-2.
-\newline\harvardurl{http://CRAN.R-project.org/package=gsubfn}
+\newblock R package version 0.5-2.
 
 \harvarditem[Halpern \emph{et~al.}]{Halpern, Walbridge, Selkoe
   \emph{et~al.}}{2008}{Halpern:etal:2008:science}
@@ -122,6 +118,14 @@ Hilborn, R., ed. \harvardyearleft 1997\harvardyearright{}.
   increases}.
 \newblock Developing and sustaining world fisheries resources. Proceedings of
   the 2nd World Fisheries Congress. CSIRO Publishing, Victoria, Australia.
+
+\harvarditem{Hilborn \harvardand{}
+  Liermann}{1998}{Hilborn:Liermann:1998:reviews}
+Hilborn, R. \harvardand{} Liermann, M. \harvardyearleft
+  1998\harvardyearright{}.
+\newblock Standing on the shoulders of giants: learning from experience in
+  fisheries.
+\newblock \emph{Reviews in Fish Biology and Fisheries} pp. 273--283.
 
 \harvarditem{Hilborn \harvardand{} Walters}{1992}{Hilborn:Walters:1992}
 Hilborn, R. \harvardand{} Walters, C.J. \harvardyearleft
@@ -146,6 +150,13 @@ Hutchings, J. \harvardyearleft 2001\harvardyearright{}.
   the recovery of marine fishes.
 \newblock \emph{Journal of Fish Biology} Suppl. A, 306--322.
 
+\harvarditem{Hutchings \harvardand{} Baum}{2005}{Hutchings:Baum:2005:philB}
+Hutchings, J. \harvardand{} Baum, J. \harvardyearleft 2005\harvardyearright{}.
+\newblock Measuring marine fish biodiversity: temporal changes in abundance,
+  life history and demography.
+\newblock \emph{Philosophical Transactions of the Royal Society B} 360,
+  315--338.
+
 \harvarditem{Hutchings \harvardand{} Myers}{1994}{Hutchings:Myers:1994:cjfas}
 Hutchings, J. \harvardand{} Myers, R. \harvardyearleft 1994\harvardyearright{}.
 \newblock What can be learned from the collapse of a renewable resource?
@@ -167,14 +178,6 @@ Johannes, R. \harvardyearleft 2002\harvardyearright{}.
   Oceania.
 \newblock \emph{Annual Review of Ecology, Evolution, and Systematics} 33,
   317--340.
-
-\harvarditem{Kampstra}{2008}{R:beanplot}
-Kampstra, P. \harvardyearleft 2008\harvardyearright{}.
-\newblock Beanplot: A Boxplot Alternative for Visual Comparison of
-  Distributions.
-\newblock \emph{Journal of Statistical Software, Code Snippets} 28(1), 1--9.
-\newblock \urlprefix\url{http://www.jstatsoft.org/v28/c01/}.
-\newline\harvardurl{http://www.jstatsoft.org/v28/c01/}
 
 \harvarditem{Liermann \harvardand{} Hilborn}{1997}{Liermann:Hilborn:1997:cjfas}
 Liermann, M. \harvardand{} Hilborn, R. \harvardyearleft
@@ -291,11 +294,9 @@ Newton, K., C{\^o}t{\'e}, I., Pilling, G., Jennings, S. \harvardand{} Dulvy, N.
   Brian~Ripley.}{2009}{R:KernSmooth}
 original by Matt Wand. R port~by Brian~Ripley., S. \harvardyearleft
   2009\harvardyearright{}.
-\newblock \emph{KernSmooth: Functions for kernel smoothing for Wand & Jones
+\newblock \emph{KernSmooth: Functions for kernel smoothing for Wand \& Jones
   (1995)}.
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=KernSmooth}, r
-  package version 2.23-2.
-\newline\harvardurl{http://CRAN.R-project.org/package=KernSmooth}
+\newblock R package version 2.23-2.
 
 \harvarditem[Paradis \emph{et~al.}]{Paradis, Claude \harvardand{}
   Strimmer}{2004}{R:ape}
@@ -303,6 +304,11 @@ Paradis, E., Claude, J. \harvardand{} Strimmer, K. \harvardyearleft
   2004\harvardyearright{}.
 \newblock APE: analyses of phylogenetics and evolution in {R} language.
 \newblock \emph{Bioinformatics} 20, 289--290.
+
+\harvarditem{Pauly}{1995}{Pauly:1995:tree}
+Pauly, D. \harvardyearleft 1995\harvardyearright{}.
+\newblock Anecdotes and the shifting baseline syndrome of fisheries.
+\newblock \emph{Trends in Ecology and Evolution} 10(10), 430.
 
 \harvarditem[Pauly \emph{et~al.}]{Pauly, Christensen, Dalsgaard, Froese
   \harvardand{} Torres}{1998}{Pauly:etal:1998}
@@ -333,9 +339,7 @@ Rice, J., Shelton, P., Rivard, D., Chouinard, G. \harvardand{} Fr\'echet, A.
 Ripley, B.,  \harvardand{} from 1999~to Oct 2002 Michael~Lapsley
   \harvardyearleft 2009\harvardyearright{}.
 \newblock \emph{RODBC: ODBC Database Access}.
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=RODBC}, r package
-  version 1.3-1.
-\newline\harvardurl{http://CRAN.R-project.org/package=RODBC}
+\newblock R package version 1.3-1.
 
 \harvarditem[Ruckstuhl \emph{et~al.}]{Ruckstuhl, Unternaehrer \harvardand{}
   Locher}{2009}{R:IDPmisc}
@@ -343,9 +347,17 @@ Ruckstuhl, A., Unternaehrer, T. \harvardand{} Locher, R. \harvardyearleft
   2009\harvardyearright{}.
 \newblock \emph{IDPmisc: Utilities of Institute of Data Analyses and Process
   Design (www.idp.zhaw.ch)}.
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=IDPmisc}, r package
-  version 1.1.06.
-\newline\harvardurl{http://CRAN.R-project.org/package=IDPmisc}
+\newblock R package version 1.1.06.
+
+\harvarditem[S{\'a}enz-Arroyo \emph{et~al.}]{S{\'a}enz-Arroyo, Roberts, Torre,
+  Cari{\~n}o-Olvera \harvardand{}
+  Enr{\'i}quez-Andrade}{2005}{SaenzArroyo:etal::2005:procB}
+S{\'a}enz-Arroyo, A., Roberts, C.M., Torre, J., Cari{\~n}o-Olvera, M.
+  \harvardand{} Enr{\'i}quez-Andrade, R.R. \harvardyearleft
+  2005\harvardyearright{}.
+\newblock Rapidly shifting environmental baselines among fishers of the Gulf of
+  California.
+\newblock \emph{Proceedings of the Royal Society B} 272(1575), 1957--1962.
 
 \harvarditem[Sibert \emph{et~al.}]{Sibert, Hampton, Kleiber \harvardand{}
   Maunder}{2006}{Sibert:etal:2006:science}
@@ -405,9 +417,7 @@ with contributions~from Kevin~Wright, S.H. \harvardand{} Leidi., A.A.
   \harvardyearleft 2010\harvardyearright{}.
 \newblock \emph{doBy: Groupwise computations of summary statistics, general
   linear contrasts and other utilities}.
-\newblock \urlprefix\url{http://CRAN.R-project.org/package=doBy}, r package
-  version 4.0.6.
-\newline\harvardurl{http://CRAN.R-project.org/package=doBy}
+\newblock R package version 4.0.6.
 
 \harvarditem[Worm \emph{et~al.}]{Worm, Barbier, Beaumont
   \emph{et~al.}}{2006}{Worm:etal:2006:science}

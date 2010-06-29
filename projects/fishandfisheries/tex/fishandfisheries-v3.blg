@@ -5,45 +5,45 @@ A level-1 auxiliary file: Table1-formatted.aux
 A level-1 auxiliary file: Figures.aux
 Database file #1: ./fishfisheries.bib
 Warning--empty year in R:gregmisc; set to ????
-You've used 62 entries,
+You've used 65 entries,
             2914 wiz_defined-function locations,
-            1000 strings with 16478 characters,
-and the built_in function-call counts, 37725 in all, are:
-= -- 3303
-> -- 1586
-< -- 73
-+ -- 749
-- -- 432
-* -- 2747
-:= -- 5669
-add.period$ -- 182
-call.type$ -- 62
-change.case$ -- 399
-chr.to.int$ -- 59
-cite$ -- 63
-duplicate$ -- 2540
-empty$ -- 2702
-format.name$ -- 674
-if$ -- 7516
+            1018 strings with 16984 characters,
+and the built_in function-call counts, 39978 in all, are:
+= -- 3509
+> -- 1685
+< -- 78
++ -- 799
+- -- 459
+* -- 2890
+:= -- 5983
+add.period$ -- 190
+call.type$ -- 65
+change.case$ -- 420
+chr.to.int$ -- 62
+cite$ -- 66
+duplicate$ -- 2683
+empty$ -- 2859
+format.name$ -- 721
+if$ -- 7982
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 522
-newline$ -- 318
-num.names$ -- 312
-pop$ -- 1189
+missing$ -- 552
+newline$ -- 325
+num.names$ -- 327
+pop$ -- 1260
 preamble$ -- 1
-purify$ -- 389
+purify$ -- 410
 quote$ -- 0
-skip$ -- 1377
+skip$ -- 1475
 stack$ -- 0
-substring$ -- 1693
-swap$ -- 1347
-text.length$ -- 1
+substring$ -- 1837
+swap$ -- 1440
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 732
+type$ -- 768
 warning$ -- 1
-while$ -- 259
+while$ -- 276
 width$ -- 0
-write$ -- 823
+write$ -- 848
 (There was 1 warning)

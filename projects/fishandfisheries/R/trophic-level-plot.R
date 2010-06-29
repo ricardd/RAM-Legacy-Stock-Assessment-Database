@@ -1,6 +1,6 @@
 ##
 ##
-## Last modified Time-stamp: <2010-06-10 09:56:25 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-29 12:59:49 (srdbadmin)>
 ##
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
@@ -36,7 +36,10 @@ n4 <- dim(crosshair.merged[crosshair.merged$quadrant==4,])[1]
 
 
 pdf("TL-quadrant-srdb.pdf", width=8, height=10)
-beanplot(TL~quadrant,data=crosshair.merged,horizontal=FALSE,xlab="",ylab="Mean trophic level",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE)
+#beanplot(TL~quadrant,data=crosshair.merged,horizontal=FALSE,xlab="",ylab="Mean trophic level",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE)
+
+boxplot(TL~quadrant,data=crosshair.merged,xlab="",ylab="Mean trophic level", varwidth=TRUE, names=FALSE)
+
 par(las=1)
 mtext(bquote(italic("Below Bmsy")), side=1, outer = FALSE, line=1,at=1)
 mtext(bquote(italic("Above Umsy")), side=1, outer = FALSE, line=2,at=1)

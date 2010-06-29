@@ -22,7 +22,7 @@ Type 'q()' to quit R.
 > ## fried-egg-plots.R
 > ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2010-06-14 14:53:06 (srdbadmin)>
+> ## Last modified: Time-stamp: <2010-06-29 13:49:54 (srdbadmin)>
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
 > require(RODBC)
@@ -121,6 +121,37 @@ Loading required package: xtable
 + insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSMENTSBELOWBMSY',",nn,")",sep="" )
 + sqlQuery(chan,insert.qu)
 + 
++   ## of those below Bmsy, what percentage are below Umsy?
++   nn <- dim(subset(crosshair.dat, b.ratio < 1 & u.ratio < 1))[1]/dim(subset(crosshair.dat, b.ratio < 1))[1] * 100
++   nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSBELOWBMSYANDBELOWFMSY'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSBELOWBMSYANDBELOWFMSY',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++     ## of those below Bmsy, what percentage are above Umsy?
++   nn <- dim(subset(crosshair.dat, b.ratio < 1 & u.ratio > 1))[1]/dim(subset(crosshair.dat, b.ratio < 1))[1] * 100
++   nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSBELOWBMSYANDABOVEFMSY'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSBELOWBMSYANDABOVEFMSY',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++   ## percentage of stocks above Bmsy
++     nn <- dim(subset(crosshair.dat, b.ratio > 1))[1]/dim(crosshair.dat)[1] * 100
++   nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSMENTSABOVEBMSY'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSMENTSABOVEBMSY',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++   ## of those above Bmsy, what percentage are below Umsy?
++   nn <- dim(subset(crosshair.dat, b.ratio > 1 & u.ratio < 1))[1]/dim(subset(crosshair.dat, b.ratio > 1))[1] * 100
++   nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSABOVEBMSYANDBELOWFMSY'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSABOVEBMSYANDBELOWFMSY',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
 +   
 +   ## percentage of stocks above Umsy
 +   nn <- dim(subset(crosshair.dat, u.ratio > 1))[1]/dim(crosshair.dat)[1] * 100
@@ -128,6 +159,13 @@ Loading required package: xtable
 +   delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSMENTSABOVEFMSY'",sep="" )
 + sqlQuery(chan,delete.qu)
 + insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSMENTSABOVEFMSY',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++     nn <- dim(subset(crosshair.dat, u.ratio < 1))[1]/dim(crosshair.dat)[1] * 100
++   nn <- round(nn,0)
++   delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSMENTSBELOWFMSY'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSMENTSBELOWFMSY',",nn,")",sep="" )
 + sqlQuery(chan,insert.qu)
 + 
 +   
@@ -161,7 +199,7 @@ Loading required package: xtable
 +   
 +   crosshair.for.table.tt <- merge(crosshair.for.table.t, timespan.dat, "assessid")
 + 
-+   ## get management body and RIS ID for each assessid
++   ## get management body, assessment method and RIS ID for each assessid
 +   qu <- paste("
 + SELECT
 + a.assessid,
@@ -169,16 +207,19 @@ Loading required package: xtable
 + t.scientificname,
 + ts.timespan,
 + m.mgmt,
++ am.category,
 + r.risentry
 + FROM
 + srdb.management m,
 + srdb.assessor aa,
++ srdb.assessmethod am,
 + srdb.assessment a,
 + srdb.referencedoc r,
 + srdb.stock s,
 + srdb.taxonomy t,
 + (select assessid, min(tsyear) || '-' || max(tsyear) as timespan from srdb.timeseries group by assessid) as ts
 + WHERE
++ am.methodshort=a.assessmethod AND
 + r.assessid = a.assessid AND
 + ts.assessid=a.assessid AND
 + a.stockid = s.stockid AND
@@ -193,7 +234,7 @@ Loading required package: xtable
 + a.assessid, s.stocklong, t.scientificname, ts.timespan, 
 + m.country,
 + m.managementauthority,
-+ m.mgmt
++ m.mgmt, am.category
 + ORDER BY 
 + m.country,
 + t.scientificname
@@ -212,7 +253,9 @@ Loading required package: xtable
 +   write.table(crosshair.for.table, "crosshair-table.dat")
 +   write.csv(crosshair.for.table, "crosshair-table.csv")
 + 
-+   my.table.S2 <- xtable(crosshair.for.table, caption=c("Summary of the assessments used in this analysis and their estimated ratios of current biomass to the biomass at maximum sustainable yield and current harvest rate to the harvest rate that results is maximum sustainable yield. The estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production model fits. When both an SSBmsy and Bmsy reference points are available, the SSB is chosen preferentially."), label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}ccccp{1.9cm}c")
++ my.caption <- c("Summary of population-dynamics model based assessments in the RAM Legacy database, including the management body (acronyms from Table 1), assessment method, timespan of their longest time series data, estimated ratios of current biomass to the biomass at MSY and current harvest rate to the harvest rate that results in MSY. Estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production models. When both SSBmsy and Bmsy reference points were available, SSB was chosen preferentially.")
++ 
++   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}ccccp{1.9cm}c")
 +   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 + #  write.table(my.table.S2, "../tex/Table-S1.tex")
 + #  sink("../tex/Table-S1.tex")
@@ -247,7 +290,7 @@ Loading required package: xtable
 +   tb.salt.qu <- paste("
 + select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') AND recorder != \'MYERS\')
 + ", sep="")
-+   tb.salt <- sqlQuery(chan,tb.salt.qu)
++   tb.salt <- sqlQuery(chan,tb.salt.qu, stringsAsFactors=FALSE)
 + 
 + 
 + ## select tsv.assessid, tsv.tsyear as maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\')  and recorder != \'MYERS\')
@@ -255,7 +298,7 @@ Loading required package: xtable
 +   f.salt.qu <- paste("
 + select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
 + ", sep="")
-+   f.salt <- sqlQuery(chan,f.salt.qu)
++   f.salt <- sqlQuery(chan,f.salt.qu, stringsAsFactors=FALSE)
 + 
 + 
 + # select tsv.assessid, tsv.tsyear as maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and catch_landings is not null and total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
@@ -272,12 +315,12 @@ Loading required package: xtable
 +   ssb.pepper.qu <- paste("
 + select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 + ", sep="")
-+ ssb.pepper <- sqlQuery(chan,ssb.pepper.qu)
++ ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 +   
 +   f.pepper.qu <- paste("
 +   select a.assessid, a.maxyr, a.biovalue, v.tsvalue, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Fmsy%\' or bioid like \'Umsy%\')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'", gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Fmsy%\' or v.bioid like \'Umsy%\')
 +   ", sep="")
-+ f.pepper <- sqlQuery(chan, f.pepper.qu)
++ f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
 + ## pepper
 + 
 + ## only keep assessid where there exists both f and an ssb entries
@@ -297,6 +340,52 @@ Loading required package: xtable
 + print(unique(crosshair.dat$assessid))
 +   ## fried egg contour plot
 + 
++ ## percent above and below Bmsy and Fmsy for management body
++ ## TOTAL NUMBER FOR THIS MANAGEMENT BODY
++   nn <- dim(crosshair.dat)[1]
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDTOTAL",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDTOTAL",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++ ## BELOW Bmsy
++ nn <- dim(subset(crosshair.dat, b.ratio < 1))[1]/dim(crosshair.dat)[1] * 100
++ nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDBELOWBMSY",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDBELOWBMSY",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ ## of those BELOW Bmsy, percentage above Fmsy
++ nn <- dim(subset(crosshair.dat, b.ratio < 1 & u.ratio>1))[1]/dim(subset(crosshair.dat, b.ratio < 1))[1] * 100
++ nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSY",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSY",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ ## BELOW Fmsy
++   nn <- dim(subset(crosshair.dat, u.ratio < 1))[1]/dim(crosshair.dat)[1] * 100
++ nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDBELOWFMSY",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDBELOWFMSY",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++ ## ABOVE Bmsy
++   nn <- dim(subset(crosshair.dat, b.ratio > 1))[1]/dim(crosshair.dat)[1] * 100
++ nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDABOVEBMSY",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDABOVEBMSY",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ ## ABOVE Fmsy
++   nn <- dim(subset(crosshair.dat, u.ratio > 1))[1]/dim(crosshair.dat)[1] * 100
++ nn <- round(nn,0)
++ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDABOVEFMSY",gcrit,"'",sep="" )
++ sqlQuery(chan,delete.qu)
++ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDABOVEFMSY",gcrit,"',",nn,")",sep="" )
++ sqlQuery(chan,insert.qu)
++ 
++ 
 + # BANDWIDTH FOR SMOOTHER
 + # References in Scott 1992 and Bowman and Azzalini 1997
 + d<-2 # the bandwidth dimension
@@ -315,12 +404,17 @@ Loading required package: xtable
 + 
 + ##  contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, nlevels=40, levels=palettetable.egg)
 + 
-+     if(xlabel) {my.xlab <- expression(SSB[curr]/SSB[MSY])} else {my.xlab <- ""}
-+   if(ylabel) {my.ylab <- expression(U[curr]/U[MSY])} else {my.ylab <- ""}
++ #    if(xlabel) {my.xlab <- expression(SSB[curr]/SSB[MSY])} else {my.xlab <- ""}
++ #  if(ylabel) {my.ylab <- expression(U[curr]/U[MSY])} else {my.ylab <- ""}
 + 
-+ image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = my.xlab, ylab = my.ylab, xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
++ ## axis(side=1, labels=FALSE)
++ image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = my.xlab, ylab = my.ylab, xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3, axes=FALSE)
 + abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
 + points(crosshair.dat[,3], crosshair.dat[,4], col=1, cex=.7, pch=ifelse(crosshair.dat$type=="pepper",19,21), bg="white")
++ 
++ ifelse(xlabel, axis(side=1, labels=TRUE), axis(side=1, labels=FALSE))
++ ifelse(ylabel, axis(side=2, labels=TRUE), axis(side=2, labels=FALSE))
++ 
 + 
 +   n.assessid <- dim(crosshair.dat)[1]
 +   my.label <- paste(gcrit, " (n=", n.assessid, ")", sep="")
@@ -342,286 +436,104 @@ Loading required package: xtable
 > pdf("friedegg-by-mgmt.pdf", width=8, height=10)
 > multipanel <- "TRUE"
 >   if(multipanel){
-+     par(mar=c(1,1,1,1), oma=c(3.5,3,0,0))
++     par(mar=c(1,1,1,1), oma=c(2,2,0,0))
 + }else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
 > par(mfrow=c(5,2))
 > 
 > fried.egg.fct("mgmt","NMFS","FALSE","TRUE")
 [1] 88
  [1] AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK    
- [2] AFSC-ARFLOUNDBSAI-1970-2008-STANTON     
- [3] AFSC-ARFLOUNDGA-1958-2010-STANTON       
- [4] AFSC-ATKABSAI-1976-2009-STANTON         
- [5] AFSC-CABEZNCAL-1916-2005-STANTON        
- [6] AFSC-CABEZSCAL-1932-2005-STANTON        
- [7] AFSC-DUSROCKGA-1973-2008-MELNYCHUK      
- [8] AFSC-FLSOLEBSAI-1977-2008-STANTON       
- [9] AFSC-GHALBSAI-1960-2009-STANTON         
-[10] AFSC-NROCKBSAI-1974-2009-STANTON        
-[11] AFSC-NROCKGA-1959-2008-MELNYCHUK        
-[12] AFSC-NRSOLEEBSAI-1971-2008-STANTON      
-[13] AFSC-PCODBSAI-1964-2008-MELNYCHUK       
-[14] AFSC-PCODGA-1964-2008-MELNYCHUK         
-[15] AFSC-PERCHEBSAI-1974-2009-STANTON       
-[16] AFSC-POPERCHGA-1959-2008-MELNYCHUK      
-[17] AFSC-RKCRABBB-1960-2008-JENSEN          
-[18] AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK  
-[19] AFSC-SNOWCRABBS-1979-2008-JENSEN        
-[20] AFSC-TANNERCRABBSAI-1965-2008-JENSEN    
-[21] AFSC-WPOLLAI-1976-2008-MELNYCHUK        
-[22] AFSC-WPOLLEBS-1963-2008-MELNYCHUK       
-[23] AFSC-YSOLEBSAI-1959-2008-MELNYCHUK      
-[24] ASMFC-ATLCROAKMATLC-1973-2002-STANTON   
-[25] NEFSC-AMPL5YZ-1960-2008-OBRIEN          
-[26] NEFSC-BSBASSMATLC-1968-2007-SHEPHERD    
-[27] NEFSC-CODGB-1960-2008-BAUM              
-[28] NEFSC-HAD5Y-1956-2008-BAUM              
-[29] NEFSC-WEAKFISHATLC-1980-2008-STANTON    
-[30] NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE      
-[31] NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON  
-[32] NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO
-[33] NEFSC-WITFLOUN5Y-1982-2008-WIGLEY       
-[34] NEFSC-YELLCCODGOM-1935-2008-LEGAULT     
-[35] NEFSC-YELLGB-1935-2008-BAUM             
-[36] NEFSC-YELLSNEMATL-1935-2008-BAUM        
-[37] NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH   
-[38] NWFSC-BGROCKPCOAST-1950-2005-STANTON    
-[39] NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH 
-[40] NWFSC-BLUEROCKCAL-1916-2007-BRANCH      
-[41] NWFSC-BOCACCSPCOAST-1951-2006-BRANCH    
-[42] NWFSC-COWCODSCAL-1900-2007-BRANCH       
-[43] NWFSC-CROCKPCOAST-1916-2007-BRANCH      
-[44] NWFSC-DKROCKPCOAST-1928-2007-BRANCH     
-[45] NWFSC-ESOLEPCOAST-1876-2007-BRANCH      
-[46] NWFSC-LSTHORNHPCOAST-1962-2005-STANTON  
-[47] NWFSC-PHAKEPCOAST-1966-2008-BRANCH      
-[48] NWFSC-POPERCHPCOAST-1953-2007-BRANCH    
-[49] NWFSC-PSOLENPCOAST-1910-2005-STANTON    
-[50] NWFSC-PSOLESPCOAST-1874-2005-STANTON    
-[51] NWFSC-SSTHORNHPCOAST-1901-2005-STANTON  
-[52] NWFSC-YTROCKNPCOAST-1967-2005-STANTON   
-[53] SEFSC-GAGGM-1963-2004-JENSEN            
-[54] SEFSC-GAGSATLC-1962-2005-JENSEN         
-[55] SEFSC-KMACKGM-1992-2001-JENSEN          
-[56] SEFSC-KMACKSATLC-1981-2001-JENSEN       
-[57] SEFSC-RPORGYSATLC-1972-2004-JENSEN      
-[58] SEFSC-SNOWGROUPSATLC-1961-2002-STANTON  
-[59] SEFSC-SPANMACKSATLC-1950-2008-JENSEN    
-[60] SEFSC-TILESATLC-1961-2002-STANTON       
-[61] SEFSC-VSNAPSATLC-1946-2008-STANTON      
-[62] SEFSC-YTSNAPSATLCGM-1962-2001-STANTON   
-[63] SWFSC-DSOLEPCOAST-1910-2005-STANTON     
-[64] SWFSC-GOPHERSPCOAST-1965-2005-STANTON   
-[65] SWFSC-STFLOUNNPCOAST-1970-2005-STANTON  
-[66] SWFSC-STFLOUNSPCOAST-1970-2005-STANTON  
-[67] ASMFC-PANDALGOM-1960-2009-IDOINE        
-[68] NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD   
-[69] NEFSC-CODGOM-1893-2008-BAUM             
-[70] NEFSC-MONKGOMNGB-1964-2006-RICHARDS     
-[71] NEFSC-MONKSGBMATL-1964-2006-RICHARDS    
-[72] NEFSC-SCALLGB-1964-2006-HART            
-[73] NEFSC-SCALLMATLC-1964-2006-HART         
-[74] NEFSC-SDOGATLC-1962-2006-SOSEBEE        
-[75] NEFSC-SURFMATLC-1965-2008-JACOBSON      
-[76] NEFSC-TILEMATLC-1973-2008-NITSCHKE      
-[77] NMFS-MENATLAN-1940-2005-STANTON         
-[78] NMFS-SARDNPAC-1981-2008-STANTON         
-[79] NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH 
-[80] NWFSC-CHILISPCOAST-1892-2007-BRANCH     
-[81] NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH   
-[82] NWFSC-SABLEFPCOAST-1900-2007-BRANCH     
-[83] NWFSC-WROCKPCOAST-1955-2006-BRANCH      
-[84] NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH   
-[85] SEFSC-GRAMBERGM-1986-2004-JENSEN        
-[86] SEFSC-MENATGM-1964-2004-GILROY          
-[87] SEFSC-RGROUPGM-1986-2005-JENSEN         
-[88] SWFSC-SARDPCOAST-1981-2007-PINSKY       
-109 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-> fried.egg.fct("mgmt","ICES","FALSE","FALSE")
-[1] 52
- [1] AFWG-CAPENOR-1965-2007-MINTO           
- [2] AFWG-CODCOASTNOR-1982-2006-MINTO       
- [3] AFWG-CODNEAR-1943-2006-MINTO           
- [4] AFWG-GHALNEAR-1959-2007-JENNINGS       
- [5] AFWG-GOLDREDNEAR-1986-2006-MINTO       
- [6] AFWG-HADNEAR-1947-2006-MINTO           
- [7] AFWG-POLLNEAR-1957-2006-MINTO          
- [8] HAWG-HERR2224IIIa-1991-2006-MINTO      
- [9] HAWG-HERRNIRS-1960-2006-JENNINGS       
-[10] HAWG-HERRNS-1960-2007-MINTO            
-[11] HAWG-HERRVIa-1957-2006-MINTO           
-[12] HAWG-HERRVIaVIIbc-1969-2000-MINTO      
-[13] NWWG-CAPEICE-1977-2007-MINTO           
-[14] NWWG-CODFAPL-1959-2006-MINTO           
-[15] NWWG-CODICE-1952-2006-MINTO            
-[16] NWWG-HADFAPL-1955-2006-MINTO           
-[17] NWWG-HADICE-1977-2007-MINTO            
-[18] NWWG-POLLFAPL-1958-2006-MINTO          
-[19] WGBFAS-CODBA2224-1969-2007-JENNINGS    
-[20] WGBFAS-CODBA2532-1964-2007-JENNINGS    
-[21] WGBFAS-CODKAT-1970-2006-MINTO          
-[22] WGBFAS-HERR2532-1973-2006-JENNINGS     
-[23] WGBFAS-HERR30-1972-2007-JENNINGS       
-[24] WGBFAS-HERR31-1979-2006-JENNINGS       
-[25] WGBFAS-HERRIsum-1983-2007-JENNINGS     
-[26] WGBFAS-HERRRIGA-1976-2007-JENNINGS     
-[27] WGBFAS-SOLEIIIa-1982-2007-JENNINGS     
-[28] WGBFAS-SPRAT22-32-1973-2007-JENNINGS   
-[29] WGHMM-FMEG8c9a-1986-2006-JENNINGS      
-[30] WGHMM-HAKENRTN-1977-2007-JENNINGS      
-[31] WGHMM-MEG8c9a-1985-2007-JENNINGS       
-[32] WGHMM-SOLEVIII-1982-2006-JENNINGS      
-[33] WGMHSA-MACKNEICES-1972-2007-JENNINGS   
-[34] WGNPBW-BWHITNEA-1980-2007-JENNINGS     
-[35] WGNSDS-CODIS-1968-2006-MINTO           
-[36] WGNSDS-CODVIa-1977-2006-MINTO          
-[37] WGNSDS-HADVIa-1977-2006-MINTO          
-[38] WGNSDS-PLAICIS-1962-2006-MINTO         
-[39] WGNSDS-SOLEIS-1968-2006-MINTO          
-[40] WGNSSK-CODNS-1962-2007-MINTO           
-[41] WGNSSK-HADNS-IIIa-1963-2006-MINTO      
-[42] WGNSSK-HADROCK-1990-2007-JENNINGS      
-[43] WGNSSK-NPOUTNS-1983-2007-MINTO         
-[44] WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO  
-[45] WGNSSK-SEELNS-1983-2007-MINTO          
-[46] WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO
-[47] WGSSDS-HADVIIb-k-1993-2006-JENNINGS    
-[48] WGSSDS-PLAICCELT-1976-2006-JENNINGS    
-[49] WGSSDS-PLAICECHW-1975-2006-JENNINGS    
-[50] WGSSDS-SOLECS-1970-2006-JENNINGS       
-[51] WGSSDS-SOLEVIIe-1968-2006-JENNINGS     
-[52] WGSSDS-WHITVIIek-1982-2007-JENNINGS    
-52 Levels: AFWG-CAPENOR-1965-2007-MINTO ... WGSSDS-WHITVIIek-1982-2007-JENNINGS
-> fried.egg.fct("mgmt","MFish","FALSE","TRUE")
-[1] 28
- [1] NIWA-AUSSALMONNZ-1975-2006-JENSEN                 
- [2] NIWA-OROUGHYNZMEC-1981-2004-JENSEN                
- [3] NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN   
- [4] NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN    
- [5] NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN  
- [6] NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN       
- [7] NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN    
- [8] NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN     
- [9] NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN  
-[10] NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN  
-[11] NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN   
-[12] NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN   
-[13] NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN  
-[14] NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN    
-[15] NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN   
-[16] NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN   
-[17] NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS           
-[18] NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS           
-[19] NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN
-[20] NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN
-[21] NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN
-[22] NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN
-[23] NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN
-[24] NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN
-[25] NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN     
-[26] NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN     
-[27] NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN     
-[28] NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN      
-28 Levels: NIWA-AUSSALMONNZ-1975-2006-JENSEN ...
-> fried.egg.fct("mgmt","DFO","FALSE","FALSE")
-[1] 19
- [1] DFO-COD5Zjm-1978-2003-PREFONTAINE           
- [2] DFO-HAD4X5Y-1960-2003-PREFONTAINE           
- [3] DFO-HAD5Zejm-1969-2003-PREFONTAINE          
- [4] DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE   
- [5] DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE       
- [6] DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE
- [7] DFO-PAC-ESOLEHS-1944-2001-COLLIE            
- [8] DFO-PAC-HERRCC-1951-2007-COLLIE             
- [9] DFO-PAC-HERRPRD-1951-2007-COLLIE            
-[10] DFO-PAC-HERRQCI-1951-2007-COLLIE            
-[11] DFO-PAC-HERRSOG-1951-2007-COLLIE            
-[12] DFO-PAC-HERRWCVANI-1951-2007-COLLIE         
-[13] DFO-PAC-PCODHS-1956-2005-COLLIE             
-[14] DFO-PAC-PCODWCVANI-1956-2002-COLLIE         
-[15] DFO-PAC-RSOLEHSTR-1945-2001-COLLIE          
-[16] DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE       
-[17] DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE     
-[18] DFO-SG-COD4TVn-1965-2007-PREFONTAINE        
-[19] DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON      
-19 Levels: DFO-COD5Zjm-1978-2003-PREFONTAINE ...
-> fried.egg.fct("mgmt","AFMA","FALSE","TRUE")
-[1] 12
- [1] CSIRO-DEEPFLATHEADSE-1978-2007-FULTON CSIRO-GEMFISHSE-1966-2007-FULTON     
- [3] CSIRO-MORWONGSE-1913-2007-FULTON      CSIRO-NZLINGESE-1968-2007-FULTON     
- [5] CSIRO-OROUGHYCASCADE-1987-2006-FULTON CSIRO-OROUGHYSE-1978-2007-FULTON     
- [7] CSIRO-SILVERFISHSE-1978-2006-FULTON   CSIRO-SWHITSE-1945-2007-FULTON       
- [9] CSIRO-TIGERFLATSE-1913-2006-FULTON    CSIRO-WAREHOUESE-1984-2006-FULTON    
-[11] CSIRO-WAREHOUWSE-1984-2006-FULTON     TAFI-TASGIANTCRABTAS-1990-2007-JENSEN
-12 Levels: CSIRO-DEEPFLATHEADSE-1978-2007-FULTON ...
-> fried.egg.fct("mgmt","DETMCM","FALSE","FALSE")
-[1] 6
-[1] MARAM-ANCHOSA-1984-2006-deMoor        
-[2] MARAM-CHAKESA-1917-2008-DEDECKER      
-[3] MARAM-CTRACSA-1950-2007-Johnston      
-[4] MARAM-KINGKLIPSA-1932-2008-DEDECKER   
-[5] MARAM-SARDSA-1984-2006-deMoor         
-[6] MARAM-SSLOBSTERSASC-1973-2008-Johnston
-6 Levels: MARAM-ANCHOSA-1984-2006-deMoor ... MARAM-SSLOBSTERSASC-1973-2008-Johnston
-> fried.egg.fct("mgmt","NAFO","FALSE","TRUE")
-[1] 8
-[1] NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM       
-[2] NAFO-SC-AMPL3LNO-1955-2007-BAUM            
-[3] NAFO-SC-AMPL3M-1960-2007-BAUM              
-[4] NAFO-SC-COD3NO-1953-2007-BAUM              
-[5] NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE  
-[6] NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE
-[7] NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE 
-[8] NAFO-SC-YELL3LNO-1960-2009-BAUM            
-8 Levels: NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM ...
-> fried.egg.fct("mgmt","ICCAT","FALSE","FALSE")
-[1] 10
- [1] ICCAT-ALBANATL-1929-2005-WORM    ICCAT-ATBTUNAEATL-1969-2007-WORM
- [3] ICCAT-ATBTUNAWATL-1969-2007-WORM ICCAT-SWORDMED-1968-2006-JENSEN 
- [5] ICCAT-YFINATL-1970-2006-JENSEN   ICCAT-BIGEYEATL-1950-2005-JENSEN
- [7] ICCAT-SKJEATL-1950-2006-JENSEN   ICCAT-SKJWATL-1952-2006-JENSEN  
- [9] ICCAT-SWORDNATL-1978-2007-JENSEN ICCAT-SWORDSATL-1950-2005-JENSEN
-10 Levels: ICCAT-ALBANATL-1929-2005-WORM ... ICCAT-SWORDSATL-1950-2005-JENSEN
-> fried.egg.fct("mgmt","CFP","TRUE","TRUE")
-[1] 5
-[1] INIDEP-ARGANCHONARG-1989-2007-Parma    
-[2] INIDEP-ARGANCHOSARG-1992-2007-Parma    
-[3] INIDEP-ARGHAKENARG-1985-2007-Parma     
-[4] INIDEP-ARGHAKESARG-1985-2008-Parma     
-[5] INIDEP-PATGRENADIERSARG-1983-2006-Parma
-5 Levels: INIDEP-ARGANCHONARG-1989-2007-Parma ...
-> fried.egg.fct("mgmt","WCPFC","FALSE","FALSE")
-[1] 4
-[1] SPC-ALBASPAC-1959-2006-JENSEN  SPC-BIGEYEWPO-1952-2006-JENSEN
-[3] SPC-SKJCWPAC-1972-2006-JENSEN  SPC-YFINCWPAC-1952-2005-JENSEN
-4 Levels: SPC-ALBASPAC-1959-2006-JENSEN ... SPC-YFINCWPAC-1952-2005-JENSEN
-> 
-> ##mtext(side=1, expression(SSB[curr]/SSB[MSY]), at=1, line=1)
-> ##mtext(side=2, expression(U[curr]/U[MSY]), at=3, line=1)
-> 
-> dev.off()
-null device 
-          1 
-> 
-> ## fried.egg.fct("assessor","NEFSC")
-> ## fried.egg.fct("LME","Baltic Sea")
-> 
-> pdf("friedegg-single.pdf", width=8, height=10)
-> multipanel <- "FALSE"
->   if(multipanel){
-+     par(mar=c(1,1,1,1), oma=c(3.5,3,0,0))
-+ }else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
-> fried.egg.fct("all","all","TRUE","TRUE")
-> dev.off()
-null device 
-          1 
-> 
-> odbcClose(chan)
-> 
-> 
-> save.image()
-> 
-> 
-> proc.time()
-   user  system elapsed 
-  2.728   0.076   4.655 
+ [2] AFSC-DUSROCKGA-1973-2008-MELNYCHUK      
+ [3] AFSC-GHALBSAI-1960-2009-STANTON         
+ [4] AFSC-NROCKGA-1959-2008-MELNYCHUK        
+ [5] AFSC-NRSOLEEBSAI-1971-2008-STANTON      
+ [6] AFSC-POPERCHGA-1959-2008-MELNYCHUK      
+ [7] AFSC-RKCRABBB-1960-2008-JENSEN          
+ [8] AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK  
+ [9] AFSC-WPOLLAI-1976-2008-MELNYCHUK        
+[10] AFSC-YSOLEBSAI-1959-2008-MELNYCHUK      
+[11] ASMFC-ATLCROAKMATLC-1973-2002-STANTON   
+[12] NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE      
+[13] NEFSC-WITFLOUN5Y-1982-2008-WIGLEY       
+[14] NEFSC-YELLCCODGOM-1935-2008-LEGAULT     
+[15] NEFSC-YELLGB-1935-2008-BAUM             
+[16] NEFSC-YELLSNEMATL-1935-2008-BAUM        
+[17] NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH   
+[18] NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH 
+[19] NWFSC-BLUEROCKCAL-1916-2007-BRANCH      
+[20] NWFSC-BOCACCSPCOAST-1951-2006-BRANCH    
+[21] NWFSC-COWCODSCAL-1900-2007-BRANCH       
+[22] NWFSC-CROCKPCOAST-1916-2007-BRANCH      
+[23] NWFSC-DKROCKPCOAST-1928-2007-BRANCH     
+[24] NWFSC-LSTHORNHPCOAST-1962-2005-STANTON  
+[25] NWFSC-PHAKEPCOAST-1966-2008-BRANCH      
+[26] NWFSC-POPERCHPCOAST-1953-2007-BRANCH    
+[27] SEFSC-GAGGM-1963-2004-JENSEN            
+[28] SEFSC-GAGSATLC-1962-2005-JENSEN         
+[29] SEFSC-RPORGYSATLC-1972-2004-JENSEN      
+[30] SEFSC-SNOWGROUPSATLC-1961-2002-STANTON  
+[31] SEFSC-SPANMACKSATLC-1950-2008-JENSEN    
+[32] SEFSC-TILESATLC-1961-2002-STANTON       
+[33] SEFSC-VSNAPSATLC-1946-2008-STANTON      
+[34] SEFSC-YTSNAPSATLCGM-1962-2001-STANTON   
+[35] AFSC-ARFLOUNDBSAI-1970-2008-STANTON     
+[36] AFSC-ARFLOUNDGA-1958-2010-STANTON       
+[37] AFSC-ATKABSAI-1976-2009-STANTON         
+[38] AFSC-CABEZNCAL-1916-2005-STANTON        
+[39] AFSC-CABEZSCAL-1932-2005-STANTON        
+[40] AFSC-FLSOLEBSAI-1977-2008-STANTON       
+[41] AFSC-NROCKBSAI-1974-2009-STANTON        
+[42] AFSC-PCODBSAI-1964-2008-MELNYCHUK       
+[43] AFSC-PCODGA-1964-2008-MELNYCHUK         
+[44] AFSC-PERCHEBSAI-1974-2009-STANTON       
+[45] AFSC-SNOWCRABBS-1979-2008-JENSEN        
+[46] AFSC-TANNERCRABBSAI-1965-2008-JENSEN    
+[47] AFSC-WPOLLEBS-1963-2008-MELNYCHUK       
+[48] ASMFC-PANDALGOM-1960-2009-IDOINE        
+[49] NEFSC-AMPL5YZ-1960-2008-OBRIEN          
+[50] NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD   
+[51] NEFSC-BSBASSMATLC-1968-2007-SHEPHERD    
+[52] NEFSC-CODGB-1960-2008-BAUM              
+[53] NEFSC-CODGOM-1893-2008-BAUM             
+[54] NEFSC-HAD5Y-1956-2008-BAUM              
+[55] NEFSC-MONKGOMNGB-1964-2006-RICHARDS     
+[56] NEFSC-MONKSGBMATL-1964-2006-RICHARDS    
+[57] NEFSC-SCALLGB-1964-2006-HART            
+[58] NEFSC-SCALLMATLC-1964-2006-HART         
+[59] NEFSC-SDOGATLC-1962-2006-SOSEBEE        
+[60] NEFSC-SURFMATLC-1965-2008-JACOBSON      
+[61] NEFSC-TILEMATLC-1973-2008-NITSCHKE      
+[62] NEFSC-WEAKFISHATLC-1980-2008-STANTON    
+[63] NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON  
+[64] NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO
+[65] NMFS-MENATLAN-1940-2005-STANTON         
+[66] NMFS-SARDNPAC-1981-2008-STANTON         
+[67] NWFSC-BGROCKPCOAST-1950-2005-STANTON    
+[68] NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH 
+[69] NWFSC-CHILISPCOAST-1892-2007-BRANCH     
+[70] NWFSC-ESOLEPCOAST-1876-2007-BRANCH      
+[71] NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH   
+[72] NWFSC-PSOLENPCOAST-1910-2005-STANTON    
+[73] NWFSC-PSOLESPCOAST-1874-2005-STANTON    
+[74] NWFSC-SABLEFPCOAST-1900-2007-BRANCH     
+[75] NWFSC-SSTHORNHPCOAST-1901-2005-STANTON  
+[76] NWFSC-WROCKPCOAST-1955-2006-BRANCH      
+[77] NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH   
+[78] NWFSC-YTROCKNPCOAST-1967-2005-STANTON   
+[79] SEFSC-GRAMBERGM-1986-2004-JENSEN        
+[80] SEFSC-KMACKGM-1992-2001-JENSEN          
+[81] SEFSC-KMACKSATLC-1981-2001-JENSEN       
+[82] SEFSC-MENATGM-1964-2004-GILROY          
+[83] SEFSC-RGROUPGM-1986-2005-JENSEN         
+[84] SWFSC-DSOLEPCOAST-1910-2005-STANTON     
+[85] SWFSC-GOPHERSPCOAST-1965-2005-STANTON   
+[86] SWFSC-SARDPCOAST-1981-2007-PINSKY       
+[87] SWFSC-STFLOUNNPCOAST-1970-2005-STANTON  
+[88] SWFSC-STFLOUNSPCOAST-1970-2005-STANTON  
+88 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
+Error in plot.default(NA, NA, xlim = xlim, ylim = ylim, type = "n", xaxs = xaxs,  : 
+  object 'my.xlab' not found
+Calls: fried.egg.fct -> image -> image.default -> plot -> plot.default
+Execution halted
+Warning message:
+closing unused RODBC handle 1 

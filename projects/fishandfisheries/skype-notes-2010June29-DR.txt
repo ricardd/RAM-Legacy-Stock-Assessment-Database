@@ -1,0 +1,47 @@
+notes from skype call on June 29 2010
+Last-modified Time-stamp: <2010-06-29 16:08:51 (srdbadmin)>
+
+
+- life-history traits from FishBase vs. srdb?
+-> from FishBase, Trophic Level, a50, Max Length + make it clear that it is from FishBase
+
+- BRPs in the discussion, ICES has great streamlined assessments, but then we use Schaefer to derive comparable BRPs
+
+- Table S2 with Schaefer vs assesment BRPs
+
+- add assessment method to Table S1
+
+- supporting information about the methods, etc.
+
+
+- how to submit? they don't want PDFs, but they also don't want MS Word equations! Would they accept an Open Office document?
+-> only Word 7 equation editor doesn't work well, newest should be fine
+
+- Dan's visit to Woods Hole
+
+TODO:
+- year for ICES using VPA
+- Indian Ocean bigeye
+- Chilean Mackerel
+
+- remove the two stocks from the analyses, and add them back if we hear from the assessment authors
+
+- maybe (or not) how SAUP species list was obtained
+
+- write about Schaefer derivation in Suppl.?
+
+- number of stocks in original RAM database: in the introduction, give RAM's numbers in details and then state that we have a similar number of stocks now
+-> add sentence about salmonids in the introduction
+
+- marine inverts: keep as is
+
+- BRPs: report them by management body
+
+- word on Suresh's paper 
+
+- send PDF document by tomorrow
+
+- assessment method in Table S1
+- try gray fried eggs + contour lines 
+- labels for Fig. 7
+

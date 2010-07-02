@@ -1,5 +1,5 @@
 notes from skype call on June 29 2010
-Last-modified Time-stamp: <2010-06-29 16:08:51 (srdbadmin)>
+Last-modified Time-stamp: <2010-07-02 14:46:16 (srdbadmin)>
 
 
 - life-history traits from FishBase vs. srdb?
@@ -21,12 +21,12 @@ Last-modified Time-stamp: <2010-06-29 16:08:51 (srdbadmin)>
 
 TODO:
 - year for ICES using VPA
-- Indian Ocean bigeye
-- Chilean Mackerel
 
-- remove the two stocks from the analyses, and add them back if we hear from the assessment authors
+- Indian Ocean bigeye used data thief
+- Chilean Mackerel used data thief
+-> remove the two stocks from the analyses, and add them back if we hear from the assessment authors
 
-- maybe (or not) how SAUP species list was obtained
+- maybe (or not) how SAUP species list was obtained 
 
 - write about Schaefer derivation in Suppl.?
 

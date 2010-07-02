@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-05-31 15:11:38 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-28 09:40:15 (srdbadmin)>
 
 ## Figure 1 for CJFAS Short Comm. paper
 ## DR, CM
@@ -46,7 +46,7 @@ axis(side=1)
 
 ##mtext(at=c(range(d[,5:11])[1]+offset,range(y.idx)[2]+1),let,cex=1.5)
 #mtext(at=c(range(top.panel.data[,5:11])[1]+offset,range(y.idx)[2]+1),let,cex=1.5)
-mtext(at=c(range(top.panel.data[,5:11])[1]+offset,range(y.idx)[2]+1),paste("(",let,")"),cex=0.75)
+mtext(at=c(range(top.panel.data[,5:11])[1]+offset,range(y.idx)[2]+1),paste("(",let,")",sep=""),cex=0.75)
 par(font=1)
 
 #points(x.mcont.pre, y.idx, pch=2, col=x.col1992)
@@ -74,11 +74,11 @@ par(mar=c(2,5,2,2), oma=c(3,4,4,3))
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NWAtl","a",0.03) # 
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NEAtl","b",0.02) #
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NorthMidAtl","c",0.02) #
-mtext("stock ID",side=2,line=3, outer=TRUE,cex=0.75,las=3)
+mtext("Stock ID",side=2,line=3, outer=TRUE,cex=0.75,las=3)
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","NEPac","d",0.02) #
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","Aust-NZ","e",0.02) #
 plot.CJFASfig1.brp(par.estimates.1010.brp.both, "mcont", "diff", "pre.positive==0","HighSeas","f",0.012) #
 #mtext("parameter value",side=1,line=1,outer=TRUE,cex=0.75)
-mtext("annual rate of change",side=1,line=1,outer=TRUE,cex=0.75)
+mtext("Annual rate of change",side=1,line=1,outer=TRUE,cex=0.75)
 dev.off()
 

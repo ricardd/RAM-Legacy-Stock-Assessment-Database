@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{64}
 \providecommand{\natexlab}[1]{#1}
 {\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
 |immediate|write|@auxout{\expandafter\ifx\csname
@@ -377,11 +377,6 @@ Walters, C. \harvardyearleft 2003\harvardyearright{}.
 \newblock Folly and fantasy in the analysis of spatial catch rate data.
 \newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 60(12),
   1433--1436.
-
-\harvarditem{Warnes.}{????}{R:gregmisc}
-Warnes., G.R. \harvardyearleft ????\harvardyearright{}.
-\newblock \emph{gregmisc: Greg's Miscellaneous Functions}.
-\newblock R package version 2.1.1.
 
 \harvarditem[Watson \emph{et~al.}]{Watson, Kitchingman, Gelchu \harvardand{}
   Pauly}{2004}{Watson:etal:2004:fandf}

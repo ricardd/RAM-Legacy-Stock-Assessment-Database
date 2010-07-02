@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2010-06-02 14:04:37 (srdbadmin)>
+## Last modified Time-stamp: <2010-07-02 14:01:52 (srdbadmin)>
 require(RODBC)
 require(gplots)
 
@@ -33,21 +33,21 @@ try(print(log(2*max.b)))
 
 
 ## write ADMB-compatible data file
-  my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.dat"
+  my.dat.path<-"/home/srdbadmin/srdb/ADMB/schaefer.dat"
   cat("# Number of obs \n",dim(temp.dat)[1], "\n",file = my.dat.path, append=FALSE)
   cat("# Bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
 #  cat("# Bound on K - ln(X*max(biomass)) \n", 25, "\n",file = my.dat.path, append=TRUE)
   cat("# observed X values \t observed Y values \n", file = my.dat.path, append=TRUE)
   write.table(cbind(temp.dat$c,temp.dat$b), file=my.dat.path, append = TRUE, col.names=FALSE,row.names=FALSE)
 ## call to ADMB
-  system("cd /home/srdbadmin/SQLpg/srdb/trunk/ADMB; rm schaefer.std; ./schaefer")
+  system("cd /home/srdbadmin/srdb/ADMB; rm schaefer.std; ./schaefer")
 
 ## did the model converge?
-conv <- length(system("ls /home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.std", intern=TRUE))
+conv <- length(system("ls /home/srdbadmin/srdb/ADMB/schaefer.std", intern=TRUE))
 if(conv) {
 ## read in parameter estimates from ADMB output
-admb.fit <- get.admb.results("/home/srdbadmin/SQLpg/srdb/trunk/ADMB/","schaefer")
-admb.rep<-readLines("/home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.rep")
+admb.fit <- get.admb.results("/home/srdbadmin/srdb/ADMB/","schaefer")
+admb.rep<-readLines("/home/srdbadmin/srdb/ADMB/schaefer.rep")
 
 
 
@@ -180,21 +180,21 @@ max.b <- max(temp.dat$b)
 try(print(log(2*max.b)))
 
 ## write ADMB-compatible data file
-  my.dat.path<-"/home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.dat"
+  my.dat.path<-"/home/srdbadmin/srdb/ADMB/schaefer.dat"
   cat("# Number of obs \n",dim(temp.dat)[1], "\n",file = my.dat.path, append=FALSE)
 #  cat("# Bound on K - ln(X*max(biomass)) \n",25, "\n",file = my.dat.path, append=TRUE)
   cat("# Bound on K - ln(X*max(biomass)) \n",log(2*max.b), "\n",file = my.dat.path, append=TRUE)
   cat("# observed X values \t observed Y values \n", file = my.dat.path, append=TRUE)
   write.table(cbind(temp.dat$c,temp.dat$b), file=my.dat.path, append = TRUE, col.names=FALSE,row.names=FALSE)
 ## call to ADMB
-  system("cd /home/srdbadmin/SQLpg/srdb/trunk/ADMB; rm schaefer.std; ./schaefer")
+  system("cd /home/srdbadmin/srdb/ADMB; rm schaefer.std; ./schaefer")
 
 ## did the model converge?
-conv <- length(system("ls /home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.std", intern=TRUE))
+conv <- length(system("ls /home/srdbadmin/srdb/ADMB/schaefer.std", intern=TRUE))
 if(conv) {
 ## read in parameter estimates from ADMB output
-admb.fit <- get.admb.results("/home/srdbadmin/SQLpg/srdb/trunk/ADMB/","schaefer")
-admb.rep<-readLines("/home/srdbadmin/SQLpg/srdb/trunk/ADMB/schaefer.rep")
+admb.fit <- get.admb.results("/home/srdbadmin/srdb/ADMB/","schaefer")
+admb.rep<-readLines("/home/srdbadmin/srdb/ADMB/schaefer.rep")
 
 sp.fit$assessid[i]<-my.assessid[i]
 sp.fit$lnK[i] <- admb.fit[1,3]

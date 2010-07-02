@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  28 JUN 2010 09:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  29 JUN 2010 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,12 +215,17 @@ LaTeX Warning: No \author given.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig
-1-1010_withBRP.pdf, id=21, 578.16pt x 794.97pt>
+1-1010_withBRP.pdf, id=21, 614.295pt x 794.97pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcom
 m-fig1-1010_withBRP.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm
 -fig1-1010_withBRP.pdf>
+Overfull \hbox (5.76262pt too wide) in paragraph at lines 28--29
+ [] 
+ []
+
+
 </home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcomm-fig
 2-BRPratio-1010.pdf, id=22, 505.89pt x 505.89pt>
 File: /home/srdbadmin/srdb/projects/baumhutchings/R/first-review/CJFAS-shortcom
@@ -3063,7 +3068,7 @@ df> [33
 Here is how much of TeX's memory you used:
  3252 strings out of 495061
  53914 string characters out of 1182621
- 208870 words of memory out of 3000000
+ 209870 words of memory out of 3000000
  6400 multiletter control sequences out of 15000+50000
  8412 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -3077,7 +3082,7 @@ fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
 e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CJFAS-shortcomm-bundle.pdf (33 pages, 1860097 bytes).
+Output written on CJFAS-shortcomm-bundle.pdf (33 pages, 1860223 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

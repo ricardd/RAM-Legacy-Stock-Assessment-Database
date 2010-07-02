@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-06-28 09:40:15 (srdbadmin)>
+# last modifieds Time-stamp: <2010-06-29 20:52:00 (srdbadmin)>
 
 ## Figure 1 for CJFAS Short Comm. paper
 ## DR, CM
@@ -67,7 +67,7 @@ axis(side=2, at=y.idx, labels=as.expression(paste(y,y.f,sep=" ")), cex.axis=0.7)
 } # end of function plot.CJFASfig1
 
 
-pdf("CJFAS-shortcomm-fig1-1010_withBRP.pdf", width=8, height=11, title="CJFAS CBD Short Comm. Figure 1")
+pdf("CJFAS-shortcomm-fig1-1010_withBRP.pdf", width=8.5, height=11, title="CJFAS CBD Short Comm. Figure 1")
 
 par(mfrow=c(3,2))
 par(mar=c(2,5,2,2), oma=c(3,4,4,3))

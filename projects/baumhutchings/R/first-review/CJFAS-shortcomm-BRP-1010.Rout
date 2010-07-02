@@ -116,4 +116,4 @@ Loading required package: RODBC
 > 
 > proc.time()
    user  system elapsed 
-  2.104   0.028   3.114 
+  2.144   0.048   2.727 

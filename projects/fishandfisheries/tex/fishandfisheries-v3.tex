@@ -1,6 +1,6 @@
-%% Last modified: Time-stamp: <2010-06-29 15:37:44 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-07-02 11:13:49 (srdbadmin)>
 %%\documentclass[letterpaper,12pt]{article}
-\documentclass[letterpaper,review,authoryear,12pt]{elsarticle}
+\documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 %%\documentclass[preprint,authoryear,12pt]{elsarticle}
 
 \usepackage{amssymb}
@@ -75,24 +75,26 @@
 \address[scripps]{Scripps Institution of Oceanography, UCSD, 9500 Gilman Drive, La Jolla, CA 92093-0202, USA}
 \address[uw]{School of Aquatic and Fishery Sciences, University of Washington, Seattle, WA  98195-5020, USA}
 
-\begin{abstract}
+
+%\begin{abstract}
 %% Text of abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Abstract
 %%%%%%%%%%%%%%%%%%%%%%%%% 
-\input{abstract-dynamic}
+%\input{abstract-dynamic}
 
-\end{abstract}
+%\end{abstract}
 
-\begin{keyword}
-marine fisheries \sep meta-analysis \sep population dynamics models \sep relational database \sep stock assessment \sep synthesis
-\end{keyword}
+%\begin{keyword}
+%marine fisheries \sep meta-analysis \sep population dynamics models \sep relational database \sep stock assessment \sep synthesis
+%\end{keyword}
 
 \end{frontmatter}
 
 
-
-
+\newpage
+\input{abstract-dynamic}
+\newpage
 
 \section*{Introduction}
 
@@ -175,9 +177,10 @@ absent. The original release version of the Myers database
 \citep{Myers:etal:1995:summary} included spawning stock size and
 recruitment time series for 274 stocks representing 92 species as well
 as fishing mortality rates time series for 144 stocks. The number of
-entered stocks grew to approximately 652 stocks (507 with at least one
-SR pair) over the period from 1995-2005. The assessment results
-collated by Dr. Myers were used to:
+entered stocks grew to approximately 642 stocks (509 with at least one
+SR pair) over the period from 1995-2005. Note that the Salmonidae
+comprised 290 assessments in the original database.  The assessment
+results collated by Dr. Myers were used to:
 \begin{inparaenum}[1\upshape)] \item decisively answer the question of
   whether recruitment shows any relationship to spawning stock size
   \citep{Myers:Barrowman:1996:fishbull}, \item investigate potential
@@ -228,13 +231,13 @@ different manner, for example, as a target or as a limit.
 Here we present a new global database of stock assessments for
 commercially exploited marine fish populations.  The database is an
 update and extension of that developed by Ransom A. Myers, and is named
-the RAM Legacy database in honor of his pioneering contribution.  This
+the RAM Legacy database in honour of his pioneering contribution.  This
 effort is the first global stock assessment database to:
 \begin{enumerate}
 \item Use a formal relational database structure;
 \item Use source control software to organise release versions;
 \item Include metadata related to the geographic location of the stock, the type of assessment model used, and the original source document for the assessment data;
-\item Include biological reference points and stock-specific life history information. 
+\item Include biological reference points, in addition to stock-specific life history information. 
 \end{enumerate}
 
 
@@ -311,10 +314,10 @@ The database is implemented in the Open Source PostgreSQL relational
 database management system (RDBMS) \citep{postgresql:2009}, and includes tables for the assessment metadata,
 time series values, time series units, and biometrics (a catch-all term
 for data, such as life history characteristics or BRPs, that are not
-part of a time series). The entity relationship diagram of the database and its component tables can be found in the Supplementary materials.
+part of a time series). The entity relationship diagram of the database and its component tables can be found in the Supplementary Materials.
 %tables is shown in the  (Figure~\ref{fig:ERD}).
 
-RDBMSs form the server back-end to a great many applications of
+RDBMSs form the server back-end to many applications of
 interest to ecologists, including web-clients and GIS software, and
 have a number of advantages over spreadsheet or flat text file data
 compilations.  First, housing stock assessments in an RDBMS allows
@@ -396,21 +399,21 @@ represented by the RAM Legacy database, using a variety of metrics. To
 evaluate the taxonomic scope of the database, we compare the taxonomy
 of assessed stocks with the diversity of i) all marine fishes (as
 represented by FishBase), and ii) marine fishes in global fisheries
-catches (as represented by the SAUP database), and discuss taxonomic
-biases in species included in catch data and in populations assessed
-using stock assessments. We evaluate the ecological scope of assessed
-stocks in terms of age at sexual maturity as reported in the
-assessments, and trophic level of those assessed stocks as reported in
-FishBase. We overview the types of assessment models used, and BRPs
-estimated, for all stock assessments and by management body. To
-determine what fraction of world wild-capture fisheries landings come
-from assessed stocks, we used the SAUP's average global fisheries
-catches from the most recent ten years of available data (1995-2004);
-we also discuss limitations to obtaining assessments for some of the
-world's major fisheries.  Comparisons between assessments and catch
-data at a regional level are hampered by the geographic mismatch
-between stocks and FAO statistical areas or the SAUP's Large Marine
-Ecosystems.
+catches (as represented by the species available from the SAUP
+database), and discuss taxonomic biases in species included in catch
+data and in populations assessed using stock assessments. We evaluate
+the ecological scope of assessed stocks in terms of age at sexual
+maturity as reported in the assessments, and trophic level of those
+assessed stocks as reported in FishBase. We overview the types of
+assessment models used, and BRPs estimated, for all stock assessments
+and by management body. To determine what fraction of world
+wild-capture fisheries landings come from assessed stocks, we used the
+SAUP's average global fisheries catches from the most recent ten years
+of available data (1995-2004); we also discuss limitations to
+obtaining assessments for some of the world's major fisheries.
+Comparisons between assessments and catch data at a regional level are
+hampered by the geographic mismatch between stocks and FAO statistical
+areas or the SAUP's Large Marine Ecosystems.
 
 %; we
 %also evaluate how the frequencies of different assessment model types
@@ -426,7 +429,7 @@ body, using standard reference points so that all
 stocks are referenced to a comparable benchmark.  Following
 \cite{Froese:Proelss:2010:fandf} and \cite{Worm:etal:2009:science}, we
 compare the current biomass and exploitation rate of stocks relative
-to their MSY reference points, $B_{MSY}$ and $u_{MSY}$, respectively. 
+to their MSY reference points, $B_{MSY}$ and $U_{MSY}$, respectively. 
 
 We do not advocate the use of MSY targets for management, but still
 report MSY-related BRPs because they are the most commonly estimated
@@ -510,13 +513,12 @@ future development.
 
 Statistical analyses and plot generation were conducted with the R
 Environment for Statistics and Graphics \citep{R} using the packages
-RODBC \citep{R:RODBC}, KernSmooth \citep{R:KernSmooth}, gregmisc
-\citep{R:gregmisc}, xtable \citep{R:xtable}, ape \citep{R:ape}, gsubfn
-\citep{R:gsubfn}, IDPmisc \citep{R:IDPmisc}, and doBy \citep{R:doBy}.
-Figure~\ref{fig:lmes} was generated using the Generic Mapping Tools
-\citep{gmt}.
+RODBC \citep{R:RODBC}, KernSmooth \citep{R:KernSmooth}, xtable
+\citep{R:xtable}, ape \citep{R:ape}, gsubfn \citep{R:gsubfn}, IDPmisc
+\citep{R:IDPmisc}, and doBy \citep{R:doBy}.  Figure~\ref{fig:lmes} was
+generated using the Generic Mapping Tools \citep{gmt}.
 
-%% , beanplot \citep{R:beanplot}
+%% , beanplot \citep{R:beanplot} gregmisc \citep{R:gregmisc},
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% Results
 %%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -545,6 +547,14 @@ of global status of exploited populations must be interpreted only for
 that subset of exploited species for which assessments are present in
 the database.
 % [need to briefly discuss the ‘Stock Status’ results]
+
+
+Note that BRPs derived from surplus production models are to be
+interpreted with great care. For stocks where both were avaialble, we
+compared the values of assessment BRPs and Schaefer-derived BRPs
+(Figure S2) and found correlations of XX\% between $B_{msy}$ BRPs and
+XX\% between $U_{msy}$ BRPs.
+
 
 \subsection*{Biases in the knowledge-base for commercially exploited marine stocks}
 
@@ -629,17 +639,11 @@ Put simply, if we don't know what's historically possible (in terms of
 stock size), it's hard to know where we should set our goals.  This
 ``shifting baseline'' problem has been widely recognized
 \citep{Pauly:1995:tree, SaenzArroyo:etal::2005:procB}, but is still apparent in the
-relatively short time series of most assessments..)  -what are the
-implications of this? Shifting baselines..(recent Callum Roberts 2010
-North Sea Nature paper; Jennings and Blanchard 2004 paper)
+relatively short time series of most assessments.
 
-\subsubsection*{Current status of assessed fisheries}
-Note that BRPs derived from surplus production models are to be
-interpreted with great care. For stocks where both were avaialble, we
-compared the values of assessment BRPs and Schaefer-derived BRPs
-(Figure S2) and found correlations of XX\% between $B_{msy}$ BRPs and
-XX\% between $U_{msy}$ BRPs.
-
+%.)  -what are the
+%implications of this? Shifting baselines..(recent Callum Roberts 2010
+%North Sea Nature paper; Jennings and Blanchard 2004 paper)
 
 \subsubsection*{Future applications of the RAM Legacy database}
 We anticipate that this new database will be of utility for fisheries
@@ -684,18 +688,22 @@ global meta-analysis would be extremely time consuming and
 error-prone. Instead, the expert opinion of those researchers most
 familiar with the data, stock assessment authors, is used, while
 recognizing that without accompanying uncertainty estimates the
-strength of conclusions drawn may be weakened.  The original database
-developed by Ransom A. Myers was used to address a variety of ecological
-questions derived from stock-recruit relationships. This was possible
-because the VPA-type assessment models that comprised most of that
-database generated time series of stock and recruitment with relatively
-few a priori assumptions.  Forward projection methods generally
-specify the form of the stock-recruit relationship, and in many cases
-even fix parameters (infinitely dense point prior) such as steepness.
-Stock-recruitment ``data'' from such models, are clearly inappropriate
-for straightforward meta-analysis. More generally, meta-analysis may
-become the victim of its own success.  As more assessments incorporate
-some type of prior information from other stocks or species
+strength of conclusions drawn may be weakened.  
+
+The original database developed by Ransom A. Myers was used to address
+a variety of ecological questions derived from stock-recruit
+relationships. This was possible because the VPA-type assessment
+models that comprised most of that database generated time series of
+stock and recruitment with relatively few a priori assumptions.
+Forward projection methods generally specify the form of the
+stock-recruit relationship, and in many cases even fix parameters
+(infinitely dense point prior) such as steepness.  Stock-recruitment
+``data'' from such models, are clearly inappropriate for
+straightforward meta-analysis.
+
+More generally, meta-analysis may become the victim of its own
+success.  As more assessments incorporate some type of prior
+information from other stocks or species
 \citep{Hilborn:Liermann:1998:reviews}, there is less stock-specific
 information available for future meta-analysis.  One solution is for
 stock assessments to report not only best estimates of parameters
@@ -756,8 +764,7 @@ policies), should be directed to the corresponding author.
 
 
 \section*{Acknowledgments }
-We sincerely thank all of the fisheries scientists around the world
-for conducting and making available the stock assessments that form
+We sincerely thank all of the fisheries scientists whose assessments form
 the basis of this new global database. We are also grateful for the
 database contributions, advice, and support of Trevor Branch, Jeremy
 Collie, Laurence Fauconnet, Mike Fogarty, Rainer Froese, Ray Hilborn,

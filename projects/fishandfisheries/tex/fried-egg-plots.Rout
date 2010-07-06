@@ -22,7 +22,7 @@ Type 'q()' to quit R.
 > ## fried-egg-plots.R
 > ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2010-07-05 13:49:06 (srdbadmin)>
+> ## Last modified: Time-stamp: <2010-07-06 12:07:57 (srdbadmin)>
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
 > require(RODBC)
@@ -38,7 +38,7 @@ Loading required package: xtable
 > chan<- odbcConnect(dsn="srdbcalo")
 > 
 > # define as a function
-> fried.egg.fct <- function(grouping.type, grouping.criterion, xlabel, ylabel) {
+> fried.egg.fct <- function(grouping.type, grouping.criterion, xlabel, ylabel, legendlabel) {
 + gtype <- grouping.type
 + gcrit <- grouping.criterion
 + if(gtype == "all"){
@@ -296,18 +296,22 @@ Loading required package: xtable
 + # Schaefer-derived SSBmsy and Fmsy reference points (i.e. salt)
 + ## salt data
 +   tb.salt.qu <- paste("
-+ select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') AND recorder != \'MYERS\')
++ select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit,") AND recorder != \'MYERS\')
 + ", sep="")
 +   tb.salt <- sqlQuery(chan,tb.salt.qu, stringsAsFactors=FALSE)
++ 
++ # select tsv.assessid, a.maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null and tsv.catch_landings is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') AND recorder != \'MYERS\')
 + 
 + 
 + ## select tsv.assessid, tsv.tsyear as maxyr, tsv.total, sp.bmsy, tsv.total/sp.bmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\')  and recorder != \'MYERS\')
 + 
 +   f.salt.qu <- paste("
-+ select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
++ select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit,") and recorder != \'MYERS\')
++ 
 + ", sep="")
 +   f.salt <- sqlQuery(chan,f.salt.qu, stringsAsFactors=FALSE)
 + 
++ # select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and tsv.catch_landings is not null and tsv.total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
 + 
 + # select tsv.assessid, tsv.tsyear as maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv.catch_landings/tsv.total)/sp.fmsy as ratio from srdb.spfits sp, srdb.timeseries_values_view tsv, (select tsv.assessid, max(tsyear) as maxyr from srdb.timeseries_values_view tsv, srdb.spfits s where s.assessid=tsv.assessid and catch_landings is not null and total is not null group by tsv.assessid) as a where sp.assessid=tsv.assessid and a.assessid=tsv.assessid AND a.maxyr=tsv.tsyear and tsv.assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit,"\') and recorder != \'MYERS\')
 + 
@@ -321,15 +325,19 @@ Loading required package: xtable
 +   
 + ## pepper data
 +   ssb.pepper.qu <- paste("
-+ select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
++ select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit, ") and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 + ", sep="")
 + ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
-+   
++ 
++ #select a.assessid, a.maxyr, a.biovalue, v.tsvalue, v.tsvalue/cast(a.biovalue as numeric) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'",gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
++ 
 +   f.pepper.qu <- paste("
-+   select a.assessid, a.maxyr, a.biovalue, v.tsvalue, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Fmsy%\' or bioid like \'Umsy%\')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'", gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Fmsy%\' or v.bioid like \'Umsy%\')
++   select a.assessid, a.maxyr, a.biovalue, v.tsvalue, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Fmsy%\' or bioid like \'Umsy%\')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ", gcrit, ") and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Fmsy%\' or v.bioid like \'Umsy%\')
 +   ", sep="")
 + f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
 + ## pepper
++ 
++ #   select a.assessid, a.maxyr, a.biovalue, v.tsvalue, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Fmsy%\' or bioid like \'Umsy%\')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt = \'", gcrit, "\') and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Fmsy%\' or v.bioid like \'Umsy%\')
 + 
 + ## only keep assessid where there exists both f and an ssb entries
 +   pepper.merged <- merge(ssb.pepper, f.pepper, "assessid")
@@ -440,7 +448,8 @@ Loading required package: xtable
 + 
 + 
 +   n.assessid <- dim(crosshair.dat)[1]
-+   my.label <- paste(gcrit, " (n=", n.assessid, ")", sep="")
++ #  my.label <- paste(gcrit, " (n=", n.assessid, ")", sep="")
++   my.label <- paste(legendlabel, " (n=", n.assessid, ")", sep="")
 + #  mtext(side=3, my.label, line=2)
 + 
 +   
@@ -463,8 +472,8 @@ Loading required package: xtable
 + }else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
 > 
 > #par(mfrow=c(5,2))
-> par(mfrow=c(3,2))
-> fried.egg.fct("mgmt","NMFS","FALSE","TRUE")
+> par(mfrow=c(4,2))
+> fried.egg.fct("mgmt",c("('NMFS')"),"FALSE","TRUE","NMFS")
 [1] 88
  [1] AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK    
  [2] AFSC-DUSROCKGA-1973-2008-MELNYCHUK      
@@ -555,7 +564,7 @@ Loading required package: xtable
 [87] SWFSC-STFLOUNNPCOAST-1970-2005-STANTON  
 [88] SWFSC-STFLOUNSPCOAST-1970-2005-STANTON  
 88 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-> fried.egg.fct("mgmt","ICES","FALSE","FALSE")
+> fried.egg.fct("mgmt",c("('ICES')"),"FALSE","FALSE","ICES")
 [1] 52
  [1] AFWG-CAPENOR-1965-2007-MINTO           
  [2] AFWG-CODCOASTNOR-1982-2006-MINTO       
@@ -610,7 +619,7 @@ Loading required package: xtable
 [51] WGSSDS-SOLEVIIe-1968-2006-JENNINGS     
 [52] WGSSDS-WHITVIIek-1982-2007-JENNINGS    
 52 Levels: AFWG-CAPENOR-1965-2007-MINTO ... WGSSDS-WHITVIIek-1982-2007-JENNINGS
-> fried.egg.fct("mgmt","MFish","FALSE","TRUE")
+> fried.egg.fct("mgmt",c("('MFish')"),"FALSE","TRUE","MFish")
 [1] 28
  [1] NIWA-AUSSALMONNZ-1975-2006-JENSEN                 
  [2] NIWA-OROUGHYNZMEC-1981-2004-JENSEN                
@@ -641,8 +650,7 @@ Loading required package: xtable
 [27] NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN     
 [28] NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN      
 28 Levels: NIWA-AUSSALMONNZ-1975-2006-JENSEN ...
-> mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
-> fried.egg.fct("mgmt","DFO","FALSE","FALSE")
+> fried.egg.fct("mgmt",c("('DFO')"),"FALSE","FALSE","DFO")
 [1] 19
  [1] DFO-COD5Zjm-1978-2003-PREFONTAINE           
  [2] DFO-HAD4X5Y-1960-2003-PREFONTAINE           
@@ -664,7 +672,7 @@ Loading required package: xtable
 [18] DFO-SG-COD4TVn-1965-2007-PREFONTAINE        
 [19] DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON      
 19 Levels: DFO-COD5Zjm-1978-2003-PREFONTAINE ...
-> fried.egg.fct("mgmt","AFMA","TRUE","TRUE")
+> fried.egg.fct("mgmt",c("('AFMA')"),"FALSE","TRUE","AFMA")
 [1] 12
  [1] CSIRO-DEEPFLATHEADSE-1978-2007-FULTON CSIRO-GEMFISHSE-1966-2007-FULTON     
  [3] CSIRO-MORWONGSE-1913-2007-FULTON      CSIRO-NZLINGESE-1968-2007-FULTON     
@@ -673,7 +681,8 @@ Loading required package: xtable
  [9] CSIRO-TIGERFLATSE-1913-2006-FULTON    CSIRO-WAREHOUESE-1984-2006-FULTON    
 [11] CSIRO-WAREHOUWSE-1984-2006-FULTON     TAFI-TASGIANTCRABTAS-1990-2007-JENSEN
 12 Levels: CSIRO-DEEPFLATHEADSE-1978-2007-FULTON ...
-> fried.egg.fct("mgmt","DETMCM","TRUE","FALSE")
+> mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+> fried.egg.fct("mgmt",c("('DETMCM')"),"FALSE","FALSE","DETMCM")
 [1] 6
 [1] MARAM-ANCHOSA-1984-2006-deMoor        
 [2] MARAM-CHAKESA-1917-2008-DEDECKER      
@@ -686,13 +695,38 @@ Loading required package: xtable
 > #fried.egg.fct("mgmt","ICCAT","FALSE","FALSE")
 > #fried.egg.fct("mgmt","CFP","TRUE","TRUE")
 > #fried.egg.fct("mgmt","WCPFC","TRUE","FALSE")
+> fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"TRUE","TRUE","Atlantic")
+[1] 18
+ [1] ICCAT-ALBANATL-1929-2005-WORM              
+ [2] ICCAT-ATBTUNAEATL-1969-2007-WORM           
+ [3] ICCAT-ATBTUNAWATL-1969-2007-WORM           
+ [4] ICCAT-SWORDMED-1968-2006-JENSEN            
+ [5] ICCAT-YFINATL-1970-2006-JENSEN             
+ [6] NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM       
+ [7] ICCAT-BIGEYEATL-1950-2005-JENSEN           
+ [8] ICCAT-SKJEATL-1950-2006-JENSEN             
+ [9] ICCAT-SKJWATL-1952-2006-JENSEN             
+[10] ICCAT-SWORDNATL-1978-2007-JENSEN           
+[11] ICCAT-SWORDSATL-1950-2005-JENSEN           
+[12] NAFO-SC-AMPL3LNO-1955-2007-BAUM            
+[13] NAFO-SC-AMPL3M-1960-2007-BAUM              
+[14] NAFO-SC-COD3NO-1953-2007-BAUM              
+[15] NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE  
+[16] NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE
+[17] NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE 
+[18] NAFO-SC-YELL3LNO-1960-2009-BAUM            
+18 Levels: ICCAT-ALBANATL-1929-2005-WORM ... NAFO-SC-YELL3LNO-1960-2009-BAUM
+> #fried.egg.fct("mgmt",c("('IATTC','IPHC','SPRFMO')"),"TRUE","FALSE","Pacific")
 > mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+> 
 > dev.off()
 null device 
           1 
 > 
 > #
 > #
+> 
+> 
 > 
 > #fried.egg.fct("ocean","Atlantic","TRUE","TRUE")
 > #fried.egg.fct("ocean","Pacific","TRUE","TRUE")
@@ -706,7 +740,7 @@ null device
 >   if(multipanel){
 +     par(mar=c(1,1,1,1), oma=c(3.5,3,0,0))
 + }else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
-> fried.egg.fct("all","all","TRUE","TRUE")
+> fried.egg.fct("all","all","TRUE","TRUE","")
 > dev.off()
 null device 
           1 
@@ -784,4 +818,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  3.156   0.040   4.542 
+  3.184   0.072   4.716 

@@ -1,22 +1,33 @@
-Dear colleague, 
-Despite the fact that our NCEAS Working Group has dissolved over a
-year ago, a lot of work has happened since. Of concern to this communication
-is a draft manuscript that follows up on the database of assessments that
-was used for last year's Science paper and that has been under active
-development since.
+Dear colleagues,
 
-We are seeking your timely comments and queries on the attached
-manuscript to be submitted to the journal Fish and Fisheries. This
-paper presents a summary of the database that we've assembled and puts
-the results in the context of our knowledge-base of marine fisheries.
+Much progress has been made on the RAM Legacy database of stock
+assessments over the past year since our NCEAS Working Group ended. As
+you know, we used an early version of the database for last year's
+Science paper. Since then the database has been under active
+development and it has grown to over 350 assessments. 
 
-We plan on sending the manuscript to Fish and Fisheries on Monday July
-12th 2010. We welcome your comments until Friday July 9th, at which
-point a revised version of the manuscript will be put together for
+I am writing to you now to ask for your comments on the attached
+manuscript, which Coilin, Julia, Olaf and I have co-authored for
+submission to the journal Fish and Fisheries. It presents a summary of
+the RAM Legacy database and puts the results in the context of our
+knowledge-base of commercially exploited marine fisheries.
+
+We plan on submitting the manuscript on Monday July 12th 2010. We
+therefore welcome your comments until Friday July 9th, at which point
+a revised version of the manuscript will be put together for
 submission.
 
-All the best.
+In particular, we would appreciate your help in completing the reasons
+why certain assessments found in Table 2 have not been included in the
+database. The stocks for which we are unsure have a question mark in
+the last column of Table 2.
 
-Daniel Ricard
-Ph.D. Candidate
-Dalhousie University
+If you are unable to send us comments by this Friday, we would still
+appreciate receiving them and we will endeavor to incorporate them at
+the revision stage.
+
+Thanks in advance for your input. 
+
+Best wishes, 
+
+Dan, Coilin, Olaf and Julia

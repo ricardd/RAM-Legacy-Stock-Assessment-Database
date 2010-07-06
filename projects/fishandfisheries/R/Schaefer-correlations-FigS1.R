@@ -5,6 +5,8 @@ mtext.fun<-function(xstring,ystring,xline,yline){
   mtext(side=2, text=ystring, line=yline, cex=0.9, las=3)
 }
 
+## (select a.assessid from srdb.assessment a, srdb.assessmethod m where a.assessmethod=m.methodshort and m.category = 'Biomass dynamics model' and m.methodshort in ('ASPM','AAPM','ASPIC','BSPM'))
+
 ## this is a paste from the CJFAS short comm R file "CJFAS-shortcomm-BRP-1010.R"
 require(RODBC)
 chan <- odbcConnect(dsn="srdbcalo", case='postgresql',believeNRows=FALSE)
@@ -33,6 +35,15 @@ pepper <- data.frame(assessid=brp.pepper.dat$assessid, currentyr=brp.pepper.dat$
 
 # for assessments that have both salt and pepper points, compute correlation between salt and pepper
 salt.and.pepper <-  merge(pepper,salt,"assessid")
+
+# data frame to compute the contingency table of classification
+b.for.comparison.table <- data.frame(assessid=salt.and.pepper$assessid, Bratio=salt.and.pepper$bratiocurrent.x, BratioSP=salt.and.pepper$bratiocurrent.y)
+b.for.comparison.table$BratioCLASS <- ifelse(b.for.comparison.table$Bratio<1,"B/Bmsy < 1","B/Bmsy > 1")
+b.for.comparison.table$BratioSPCLASS <- ifelse(b.for.comparison.table$BratioSP<1,"SP B/Bmsy < 1","SP B/Bmsy > 1")
+
+b.table <- table(b.for.comparison.table$BratioCLASS, b.for.comparison.table$BratioSPCLASS)
+
+
 corr.current <- cor(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y)
 nn <- length(salt.and.pepper$bratiocurrent.x)
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRBBMSY'",sep="" )
@@ -91,6 +102,21 @@ pepper <- data.frame(assessid=brp.pepper.dat$assessid, currentyr=brp.pepper.dat$
 
 # for assessments that have both salt and pepper points, compute correlation between salt and pepper
 salt.and.pepper <-  merge(pepper,salt,"assessid")
+
+# remove the assessments that use a surplus production model 
+qu <- paste("
+select a.assessid from srdb.assessment a, srdb.assessmethod m where a.assessmethod=m.methodshort and m.category = 'Biomass dynamics model' and m.methodshort in ('ASPM','AAPM','ASPIC','BSPM')
+",sep="")
+assessid.to.exclude <- sqlQuery(chan, qu)
+
+
+f.for.comparison.table <- data.frame(assessid=salt.and.pepper$assessid, Uratio=salt.and.pepper$fratiocurrent.x, UratioSP=salt.and.pepper$fratiocurrent.y)
+f.for.comparison.table$UratioCLASS <- ifelse(f.for.comparison.table$Uratio<1,"U/Umsy < 1","U/Umsy > 1")
+f.for.comparison.table$UratioSPCLASS <- ifelse(f.for.comparison.table$UratioSP<1,"SP U/Umsy < 1","SP U/Umsy > 1")
+
+f.table <- table(f.for.comparison.table$UratioCLASS, f.for.comparison.table$UratioSPCLASS)
+
+
 corr.current <- cor(salt.and.pepper$fratiocurrent.x, salt.and.pepper$fratiocurrent.y)
 nn <- length(salt.and.pepper$fratiocurrent.x)
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRFFMSY'",sep="" )
@@ -111,4 +137,48 @@ abline(c(0,1),lwd=0.7)
 mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.5,yline=2.5)
 
 dev.off()
+
+print(b.table)
+print(f.table)
+
+numerator <- dim(b.for.comparison.table[(b.for.comparison.table$Bratio < 1 & b.for.comparison.table$BratioSP < 1) | (b.for.comparison.table$Bratio > 1 & b.for.comparison.table$BratioSP > 1),])[1]
+  nn<-numerator
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTBCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMCORRECTBCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+denominator<- dim(b.for.comparison.table)[1]
+nn <- denominator
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMBCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMBCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+nn <- round(100*numerator/denominator,0)
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTBCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRECTBCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+numerator <- dim(f.for.comparison.table[(f.for.comparison.table$Uratio < 1 & f.for.comparison.table$UratioSP < 1) | (f.for.comparison.table$Uratio > 1 & f.for.comparison.table$UratioSP > 1),])[1]
+  nn<-numerator
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTUCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMCORRECTUCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+denominator<- dim(f.for.comparison.table)[1]
+nn <- denominator
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMUCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMUCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+nn <- round(100*numerator/denominator,0)
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTUCLASS'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRECTUCLASS',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
 odbcClose(chan)

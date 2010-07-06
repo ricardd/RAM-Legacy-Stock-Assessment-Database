@@ -1,0 +1,70 @@
+notes from skype call on July 5th 2010
+Last-modified Time-stamp: <2010-07-05 22:39:16 (srdbadmin)>
+
+age at 50% maturity -> many entries say "AVAILABLE", so maybe I'll present something else such as age-at-recruitment, or another bioid where we have many entries
+-> get it from FishBase, double check
+
+
+- still need to aggregate the Pacific and Atlantic Oceans for RFMOs, so the fried egg plots have larger number of samples
+
+
+- beanplot with alternative kernel
+
+
+- ideas/help for the email to NCEAS people
+pass email by Julia before sending
+
+please specifically look at Table 2 and tell us why they aren't there
+
+- ask some questions about what toe.g. Ana Parma re: "stock status" on p.18
+
+
+people to include on the email:
+
+Pamela Mace
+Elisabeth Fulton
+Mike Fogarty
+Jeremy Collie
+Jeffrey Hutchings
+Boris Worm
+Ray Hilborn
+Heike Lotze
+Simon Jennings
+Trevor Branch
+Dirk Zeller
+Reg Watson
+
+- contingency table and remove the correlation
+- Table 6 blank space
+- underestimate over/estimate change that sentence and "systematic"
+
+
+fully-exploited = around Bmsy
+
+contents of the database vs. the catch data
+merits and problems of our database, instead of actually comparing our "global status" 
+
+short paragraph in discussion, or 2 sentences at the end of the first paragraph
+more accurate status, but not as gloabl as FAO catch database
+
+FIND OUT IF/HOW TO MAKE COMPARISONS BETWEEN OUR STATUS AND FAO STATUS
+
+
+shifting baseline
+
+ (Jennings & Blanchard 2004, Thurstan et al. 2010).
+
+Thurstan, R.H., S. Brockingotn, C.M. Roberts 2010. The effects of 118 years of industrial fishing on UK bottom trawl fisheries. Nature Communications. 1 
+
+Jennings, S., and Blanchard, J.L. 2004. Fish abundance with no fishing: predictions based on macroecological theory. J. Anim. Ecol. 73(4): 632-642.
+
+"victim of its own success"
+
+state-space model and meta analysis
+
+Fig 1. blue to green to red 
+
+try censored kernel to cutoff the beanplot
+
+revise caption for Table 2 / redo Table 2 as per Word document sent by Julia
+

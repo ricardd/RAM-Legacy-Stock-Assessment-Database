@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-07-02 11:47:17 (srdbadmin)>
+## Last modified: Time-stamp: <2010-07-05 13:49:06 (srdbadmin)>
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(RODBC)
@@ -161,8 +161,8 @@ kernel.dens <- bkde2D(crosshair.dat[,c(3,4)], bandwidth=c(bmsy.bw,umsy.bw), rang
 # please note the range restrictions at 2.01 to include the points that line up at the boundaries
 
 # generate color palette 
-#palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
-palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
+palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
+#palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
 
     ## write a table with the data
 write.table(crosshair.dat, "crosshair.dat")
@@ -391,9 +391,9 @@ kernel.dens <- bkde2D(crosshair.dat[,c(3,4)], bandwidth=c(bmsy.bw,umsy.bw), rang
 # please note the range restrictions at 2.01 to include the points that line up at the boundaries
 
 # generate color palette 
-#palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
+palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
 
-palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
+#palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
   
   crosshair.dat$b.ratio[crosshair.dat$b.ratio>2] <- 2
   crosshair.dat$u.ratio[crosshair.dat$u.ratio>2] <- 2
@@ -441,9 +441,9 @@ par(mfrow=c(3,2))
 fried.egg.fct("mgmt","NMFS","FALSE","TRUE")
 fried.egg.fct("mgmt","ICES","FALSE","FALSE")
 fried.egg.fct("mgmt","MFish","FALSE","TRUE")
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
 fried.egg.fct("mgmt","DFO","FALSE","FALSE")
 fried.egg.fct("mgmt","AFMA","TRUE","TRUE")
-mtext(expression(U[curr]/U[MSY]), side=2, line=3, outer=TRUE, cex=0.75, las=3)
 fried.egg.fct("mgmt","DETMCM","TRUE","FALSE")
 #fried.egg.fct("mgmt","NAFO","FALSE","TRUE")
 #fried.egg.fct("mgmt","ICCAT","FALSE","FALSE")

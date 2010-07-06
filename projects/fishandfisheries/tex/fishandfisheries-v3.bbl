@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 {\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
 |immediate|write|@auxout{\expandafter\ifx\csname
@@ -139,23 +139,17 @@ Hilborn, R. \harvardyearleft 2007\harvardyearright{}.
 \newblock {Biodiversity loss in the ocean: how bad is it?}
 \newblock \emph{Science (Washington)} 316(5829), 1281.
 
-\harvarditem{Hutchings}{2000}{Hutchings:2000:nature}
-Hutchings, J. \harvardyearleft 2000\harvardyearright{}.
-\newblock Collapse and recovery of marine fishes.
-\newblock \emph{Nature (London)} 406, 882--885.
+\harvarditem{Hutchings}{2001{\natexlab{a}}}{Hutchings:2001:cjfas}
+Hutchings, J. \harvardyearleft 2001{\natexlab{a}}\harvardyearright{}.
+\newblock Conservation biology of marine fishes: perceptions and caveats
+  regarding assignment of extinction risk.
+\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 58.
 
-\harvarditem{Hutchings}{2001}{Hutchings:2001:jfishb}
-Hutchings, J. \harvardyearleft 2001\harvardyearright{}.
+\harvarditem{Hutchings}{2001{\natexlab{b}}}{Hutchings:2001:jfishb}
+Hutchings, J. \harvardyearleft 2001{\natexlab{b}}\harvardyearright{}.
 \newblock Influence of population decline, fishing, and spawner variability on
   the recovery of marine fishes.
 \newblock \emph{Journal of Fish Biology} Suppl. A, 306--322.
-
-\harvarditem{Hutchings \harvardand{} Baum}{2005}{Hutchings:Baum:2005:philB}
-Hutchings, J. \harvardand{} Baum, J. \harvardyearleft 2005\harvardyearright{}.
-\newblock Measuring marine fish biodiversity: temporal changes in abundance,
-  life history and demography.
-\newblock \emph{Philosophical Transactions of the Royal Society B} 360,
-  315--338.
 
 \harvarditem{Hutchings \harvardand{} Myers}{1994}{Hutchings:Myers:1994:cjfas}
 Hutchings, J. \harvardand{} Myers, R. \harvardyearleft 1994\harvardyearright{}.

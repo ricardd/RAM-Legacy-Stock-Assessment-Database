@@ -22,7 +22,7 @@ Type 'q()' to quit R.
 > ## fried-egg-plots.R
 > ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2010-07-02 11:47:17 (srdbadmin)>
+> ## Last modified: Time-stamp: <2010-07-05 13:49:06 (srdbadmin)>
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
 > require(RODBC)
@@ -187,8 +187,8 @@ Loading required package: xtable
 + # please note the range restrictions at 2.01 to include the points that line up at the boundaries
 + 
 + # generate color palette 
-+ #palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
-+ palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
++ palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
++ #palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
 + 
 +     ## write a table with the data
 + write.table(crosshair.dat, "crosshair.dat")
@@ -417,9 +417,9 @@ Loading required package: xtable
 + # please note the range restrictions at 2.01 to include the points that line up at the boundaries
 + 
 + # generate color palette 
-+ #palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
++ palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
 + 
-+ palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
++ #palettetable.egg<-colorRampPalette(c("white",grey(0.9),grey(0.8),grey(0.7),grey(0.6)))
 +   
 +   crosshair.dat$b.ratio[crosshair.dat$b.ratio>2] <- 2
 +   crosshair.dat$u.ratio[crosshair.dat$u.ratio>2] <- 2
@@ -641,6 +641,7 @@ Loading required package: xtable
 [27] NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN     
 [28] NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN      
 28 Levels: NIWA-AUSSALMONNZ-1975-2006-JENSEN ...
+> mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
 > fried.egg.fct("mgmt","DFO","FALSE","FALSE")
 [1] 19
  [1] DFO-COD5Zjm-1978-2003-PREFONTAINE           
@@ -672,7 +673,6 @@ Loading required package: xtable
  [9] CSIRO-TIGERFLATSE-1913-2006-FULTON    CSIRO-WAREHOUESE-1984-2006-FULTON    
 [11] CSIRO-WAREHOUWSE-1984-2006-FULTON     TAFI-TASGIANTCRABTAS-1990-2007-JENSEN
 12 Levels: CSIRO-DEEPFLATHEADSE-1978-2007-FULTON ...
-> mtext(expression(U[curr]/U[MSY]), side=2, line=3, outer=TRUE, cex=0.75, las=3)
 > fried.egg.fct("mgmt","DETMCM","TRUE","FALSE")
 [1] 6
 [1] MARAM-ANCHOSA-1984-2006-deMoor        
@@ -784,4 +784,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  3.060   0.064   4.576 
+  3.156   0.040   4.542 

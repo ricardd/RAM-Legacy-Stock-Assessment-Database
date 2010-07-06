@@ -1,9 +1,9 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2010-06-14 15:16:07 (srdbadmin)>
+# last modified Time-stamp: <2010-07-05 15:21:04 (srdbadmin)>
 #
 #
 
-fishandfisheries-v3.pdf: fishandfisheries-v3.tex abstract-dynamic.tex results-dynamic.tex fishandfisheries-v3.bbl Table1-formatted.tex Table-S1-formatted.tex
+fishandfisheries-v3.pdf: fishandfisheries-v3.tex abstract-dynamic.tex results-dynamic.tex fishandfisheries-v3.bbl Table1-formatted.aux Table-S1-formatted.tex
 	pdflatex fishandfisheries-v3
 	pdflatex fishandfisheries-v3
 
@@ -16,9 +16,13 @@ abstract-dynamic.tex: fishandfisheries-abstract-dynamic.tex Table-S1-formatted.t
 results-dynamic.tex: fishandfisheries-results-dynamic.tex Table-S1-formatted.tex
 	../perl/results-dynamic.pl # generate the dynamic results
 
-Table1-formatted.tex: ../R/TL-quadrant-srdb.pdf
+Table1-formatted.aux: ../R/TL-quadrant-srdb.pdf Table1-formatted.tex
 	R CMD BATCH ../R/generate-Table1.R
-	sed '/begin{tabular/ r mytable1.txt' Table1.tex | sed 9,11d > Table1-formatted.tex
+	sed '/begin{tabular/ r mytable1.txt' Table1.tex | sed 9,11d > temptable.tex
+#	echo "\begin{tiny}" > Table1-formatted.tex
+#	cat temptable.tex >> Table1-formatted.tex
+#	echo "\end{tiny}" >> Table1-formatted.tex
+#	sed '1 i \\\begin{small}' Table1-temp.tex | sed '$ a \\\end{small}' > Table1-formatted.tex
 
 Table-S1-formatted.tex: ../R/TL-quadrant-srdb.pdf
 	R CMD BATCH ../R/fried-egg-plots.R # generate Figs.5 and 6, the fried egg plots

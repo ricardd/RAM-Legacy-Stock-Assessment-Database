@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.5.25)  15 JUN 2010 09:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.5.25)  3 JUL 2010 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -20,7 +20,7 @@ It makes up a docstrip batch job to produce
 a customized .bst file for running with BibTeX
 Do you want a description of the usage? (NO)
 
-\yn=n
+\yn=
 
 Enter the name of the MASTER file (default=merlin.mbs)
 
@@ -28,17 +28,17 @@ Enter the name of the MASTER file (default=merlin.mbs)
 
 Name of the final OUTPUT .bst file? (default extension=bst)
 
-\ofile=fishfisheriessuppl
+\ofile=dantesting
 
 Give a comment line to include in the style file.
 Something like for which journals it is applicable.
 
-\ans=for the Fish and Fisheries Supplementary
-\openout3 = `fishfisheriessuppl.dbj'.
+\ans=
+\openout3 = `dantesting.dbj'.
 
 Do you want verbose comments? (NO)
 
-\yn=n
+\yn=y
 (/usr/share/texmf-texlive/tex/latex/custom-bib/merlin.mbs
 <<< For more information about the meanings of
 <<< the various options, see the section on 
@@ -58,15 +58,17 @@ Include file(s) for extra journal names? (NO)
 
 No included files.
 
-INTERNAL LANGUAGE SUPPORT (if no external language file)
+<<INTERNAL LANGUAGE SUPPORT (if no external language file)
 (*) English words used explicitly
 (b) Babel (words replaced by commands defined in babelbst.tex)
   Select:
 
-\ans=b
-  You have selected: Babel
+\ans=
+  You have selected: English
 
-STYLE OF CITATIONS:
+>>INTERNAL LANGUAGE SUPPORT (if no external language file)
+
+<<STYLE OF CITATIONS:
 (*) Numerical as in standard LaTeX
 (a) Author-year with some non-standard interface
 (b) Alpha style, Jon90 or JWB90 for single or multiple authors
@@ -78,7 +80,9 @@ STYLE OF CITATIONS:
 \ans=
   You have selected: Numerical
 
-HTML OUTPUT (if non author-year citations)
+>>STYLE OF CITATIONS:
+
+<<HTML OUTPUT (if non author-year citations)
 (*) Normal LaTeX output
 (h) Hypertext output, in HTML code, in paragraphs
 (n) Hypertext list with sequence numbers
@@ -88,7 +92,9 @@ HTML OUTPUT (if non author-year citations)
 \ans=
   You have selected: Normal LaTeX
 
-LANGUAGE FIELD
+>>HTML OUTPUT (if non author-year citations)
+
+<<LANGUAGE FIELD
 (*) No language field 
 (l) Add language field to switch hyphenation patterns temporarily
   Select:
@@ -96,7 +102,9 @@ LANGUAGE FIELD
 \ans=
   You have selected: No language field
 
-ANNOTATIONS:
+>>LANGUAGE FIELD
+
+<<ANNOTATIONS:
 (*) No annotations will be recognized
 (a) Annotations in annote field or in .tex file of citekey name
   Select:
@@ -104,7 +112,9 @@ ANNOTATIONS:
 \ans=
   You have selected: No annotations
 
-PRESENTATIONS:
+>>ANNOTATIONS:
+
+<<PRESENTATIONS:
 (*) Do not add presentation type for conference talks
 (p) Add presentation, speaker not highlighted 
 (b) Presentation, speaker bold face 
@@ -115,17 +125,21 @@ PRESENTATIONS:
 \ans=
   You have selected: Do not add presentation type
 
-ORDERING OF REFERENCES (if non-author/year and non-alph)
+>>PRESENTATIONS:
+
+<<ORDERING OF REFERENCES (if non-author/year and non-alph)
 (*) Alphabetical by all authors
 (c) Citation order (unsorted, like unsrt.bst)
 (d) Year ordered and then by authors
 (r) Reverse year ordered and then by authors
   Select:
 
-\ans=c
-  You have selected: Citation order
+\ans=
+  You have selected: Alphabetical
 
-ORDER ON VON PART (if not citation order)
+>>ORDERING OF REFERENCES (if non-author/year and non-alph)
+
+<<ORDER ON VON PART (if not citation order)
 (*) Sort on von part (de la Maire before Defoe)
 (x) Sort without von part (de la Maire after Mahone)
   Select:
@@ -133,7 +147,9 @@ ORDER ON VON PART (if not citation order)
 \ans=
   You have selected: Sort on von part
 
-AUTHOR NAMES:
+>>ORDER ON VON PART (if not citation order)
+
+<<AUTHOR NAMES:
 (*) Full, surname last (John Frederick Smith)
 (f) Full, surname first (Smith, John Frederick)
 (i) Initials + surname (J. F. Smith)
@@ -147,26 +163,12 @@ AUTHOR NAMES:
 (b) First name reversed, with full names (Smith, John Fred, Harry Kab Jones)
   Select:
 
-\ans=r
-  You have selected: Surname + initials
-
-EDITOR NAMES IN COLLECTIONS (if author names reversed)
-(*) Editor names NOT reversed as edited by J. J. Smith
-(r) Editor names reversed just like authors'
-  Select:
-
 \ans=
-  You have selected: Editor names NOT reversed
+  You have selected: Full, surname last
 
-POSITION OF JUNIOR (if author names reversed)
-(*) Junior comes last as Smith, John, Jr.
-(m) Junior between as Smith, Jr., John
-  Select:
+>>AUTHOR NAMES:
 
-\ans=
-  You have selected: Junior comes last
-
-PUNCTUATION BETWEEN AUTHOR NAMES:
+<<PUNCTUATION BETWEEN AUTHOR NAMES:
 (*) Author names separated by commas 
 (s) Names separated by semi-colon 
 (h) Names separated by slash /
@@ -175,7 +177,9 @@ PUNCTUATION BETWEEN AUTHOR NAMES:
 \ans=
   You have selected: Author names separated by commas
 
-ADJACENT REFERENCES WITH REPEATED NAMES:
+>>PUNCTUATION BETWEEN AUTHOR NAMES:
+
+<<ADJACENT REFERENCES WITH REPEATED NAMES:
 (*) Author/editor names always present 
 (d) Repeated author/editor names replaced by dash 
 (2) Repeated author/editor names replaced by 2 dashes 
@@ -185,7 +189,9 @@ ADJACENT REFERENCES WITH REPEATED NAMES:
 \ans=
   You have selected: Author/editor names always present
 
-NUMBER OF AUTHORS IN BIBLIOGRAPHY:
+>>ADJACENT REFERENCES WITH REPEATED NAMES:
+
+<<NUMBER OF AUTHORS IN BIBLIOGRAPHY:
 (*) All authors included in listing
 (l) Limited authors (et al replaces missing names)
   Select:
@@ -193,7 +199,9 @@ NUMBER OF AUTHORS IN BIBLIOGRAPHY:
 \ans=
   You have selected: All authors
 
-AUTHORS IN CITATIONS:
+>>NUMBER OF AUTHORS IN BIBLIOGRAPHY:
+
+<<AUTHORS IN CITATIONS:
 (*) One author et al for three or more authors
 (m) Some other truncation scheme 
   Select:
@@ -201,7 +209,9 @@ AUTHORS IN CITATIONS:
 \ans=
   You have selected: One author et al
 
-TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
+>>AUTHORS IN CITATIONS:
+
+<<TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
 (*) Normal font for author names 
 (s) Small caps authors (\sc)
 (i) Italic authors (\it or \em)
@@ -212,7 +222,9 @@ TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
 \ans=
   You have selected: Normal font for author names
 
-DATE POSITION:
+>>TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
+
+<<DATE POSITION:
 (*) Date at end 
 (b) Date after authors 
 (j) Date part of journal spec. (as 1994;45:34-40) else at end
@@ -222,7 +234,9 @@ DATE POSITION:
 \ans=
   You have selected: Date at end
 
-DATE FORMAT (if non author-year citations)
+>>DATE POSITION:
+
+<<DATE FORMAT (if non author-year citations)
 (*) Plain month and year without any brackets
 (p) Date in parentheses as (May 1993)
 (b) Date in brackets as [May 1993]
@@ -235,15 +249,29 @@ DATE FORMAT (if non author-year citations)
 \ans=
   You have selected: Plain month and year
 
-SUPPRESS MONTH:
+<<SUPPRESS MONTH:
 (*) Date is month and year 
 (x) Date is year only 
   Select:
 
-\ans=x
-  You have selected: Date is year only
+\ans=
+  You have selected: Date is month and year
 
-DATE FONT:
+>>SUPPRESS MONTH:
+
+<<REVERSED DATE (if including month)
+(*) Date as month year 
+(r) Date as year month 
+  Select:
+
+\ans=
+  You have selected: Date as month year
+
+>>REVERSED DATE (if including month)
+
+>>DATE FORMAT (if non author-year citations)
+
+<<DATE FONT:
 (*) Date in normal font 
 (b) Date in bold face 
   Select:
@@ -251,7 +279,9 @@ DATE FONT:
 \ans=
   You have selected: Date in normal font
 
-TITLE OF ARTICLE:
+>>DATE FONT:
+
+<<TITLE OF ARTICLE:
 (*) Title plain with no special font
 (i) Title italic (\em)
 (q) Title and punctuation in single quotes (`Title,' ..)
@@ -265,15 +295,19 @@ TITLE OF ARTICLE:
 \ans=
   You have selected: Title plain
 
-CAPITALIZATION OF ARTICLE TITLE:
+>>TITLE OF ARTICLE:
+
+<<CAPITALIZATION OF ARTICLE TITLE:
 (*) Sentence style (capitalize first word and those in braces)
 (t) Title style (just as in bib entry)
   Select:
 
-\ans=t
-  You have selected: Title style
+\ans=
+  You have selected: Sentence style
 
-ARTICLE TITLE PRESENT:
+>>CAPITALIZATION OF ARTICLE TITLE:
+
+<<ARTICLE TITLE PRESENT:
 (*) Article title present in journals and proceedings
 (x) No article title 
   Select:
@@ -281,7 +315,9 @@ ARTICLE TITLE PRESENT:
 \ans=
   You have selected: Article title present
 
-JOURNAL NAMES:
+>>ARTICLE TITLE PRESENT:
+
+<<JOURNAL NAMES:
 (*) Periods in journal names are retained, as `Phys. Rev.'
 (x) Dotless journal names as `Phys Rev'
   Select:
@@ -289,7 +325,9 @@ JOURNAL NAMES:
 \ans=
   You have selected: Periods in journal names
 
-JOURNAL NAME FONT:
+>>JOURNAL NAMES:
+
+<<JOURNAL NAME FONT:
 (*) Journal name italics 
 (r) Journal name normal font
   Select:
@@ -297,7 +335,9 @@ JOURNAL NAME FONT:
 \ans=
   You have selected: Journal name italics
 
-THESIS TITLE:
+>>JOURNAL NAME FONT:
+
+<<THESIS TITLE:
 (*) Thesis titles like books 
 (a) Thesis title like article 
 (x) No thesis title 
@@ -306,15 +346,19 @@ THESIS TITLE:
 \ans=
   You have selected: Thesis titles like books
 
-TECHNICAL REPORT TITLE:
+>>THESIS TITLE:
+
+<<TECHNICAL REPORT TITLE:
 (*) Tech. report title like articles 
 (b) Tech. report title like books 
   Select:
 
-\ans=b
-  You have selected: Tech. report title like books
+\ans=
+  You have selected: Tech. report title like articles
 
-TECHNICAL REPORT NUMBER:
+>>TECHNICAL REPORT TITLE:
+
+<<TECHNICAL REPORT NUMBER:
 (*) Tech. report and number plain as `Tech. Rep. 123'
 (i) Tech. report and number italic as `{\it Tech. Rep. 123'}
   Select:
@@ -322,7 +366,9 @@ TECHNICAL REPORT NUMBER:
 \ans=
   You have selected: Tech. report and number plain
 
-JOURNAL VOLUME:
+>>TECHNICAL REPORT NUMBER:
+
+<<JOURNAL VOLUME:
 (*) Volume plain as vol(num)
 (i) Volume italic as {\em vol}(num)
 (b) Volume bold as {\bf vol}(num)
@@ -332,7 +378,9 @@ JOURNAL VOLUME:
 \ans=
   You have selected: Volume plain
 
-JOURNAL VOL AND NUMBER:
+>>JOURNAL VOLUME:
+
+<<JOURNAL VOL AND NUMBER:
 (*) Journal vol(num) as 34(2)
 (s) Journal vol (num) as 34 (2)
 (c) Journal vol, num as 34, 2
@@ -345,7 +393,9 @@ JOURNAL VOL AND NUMBER:
 \ans=
   You have selected: Journal vol(num)
 
-VOLUME PUNCTUATION:
+>>JOURNAL VOL AND NUMBER:
+
+<<VOLUME PUNCTUATION:
 (*) Volume with colon as vol(num):ppp
 (s) Volume with colon and space as vol(num): ppp
 (h) Volume with semi-colon as vol(num); ppp
@@ -356,7 +406,9 @@ VOLUME PUNCTUATION:
 \ans=
   You have selected: Volume with colon
 
-YEAR IN JOURNAL SPECIFICATION:
+>>VOLUME PUNCTUATION:
+
+<<YEAR IN JOURNAL SPECIFICATION:
 (*) Journal year like others as given by date position
 (v) Journal vol(year) as 34(1995)
 (s) Journal vol (year) as 34 (1995)
@@ -367,7 +419,9 @@ YEAR IN JOURNAL SPECIFICATION:
 \ans=
   You have selected: Journal year like others
 
-PAGE NUMBERS:
+>>YEAR IN JOURNAL SPECIFICATION:
+
+<<PAGE NUMBERS:
 (*) Start and stop page numbers given
 (f) Only start page number 
   Select:
@@ -375,7 +429,9 @@ PAGE NUMBERS:
 \ans=
   You have selected: Start and stop page numbers
 
-LARGE PAGE NUMBERS:
+>>PAGE NUMBERS:
+
+<<LARGE PAGE NUMBERS:
 (*) No separators for large page numbers 
 (c) Comma inserted over 9999 as 11,234
 (s) Thin space inserted over 9999 as 11 234
@@ -385,7 +441,9 @@ LARGE PAGE NUMBERS:
 \ans=
   You have selected: No separators for large page numbers
 
-WORD `PAGE' IN ARTICLES:
+>>LARGE PAGE NUMBERS:
+
+<<WORD `PAGE' IN ARTICLES:
 (*) Article pages numbers only as 234-256
 (p) Include `page' in articles as pp. 234--256
   Select:
@@ -393,7 +451,9 @@ WORD `PAGE' IN ARTICLES:
 \ans=
   You have selected: Article pages numbers only
 
-POSITION OF PAGES:
+>>WORD `PAGE' IN ARTICLES:
+
+<<POSITION OF PAGES:
 (*) Pages given mid text as is normal
 (e) Pages at end but before any notes
   Select:
@@ -401,7 +461,9 @@ POSITION OF PAGES:
 \ans=
   You have selected: Pages given mid text
 
-WORD `VOLUME' IN ARTICLES:
+>>POSITION OF PAGES:
+
+<<WORD `VOLUME' IN ARTICLES:
 (*) Article volume as number only as 21
 (p) Include `volume' in articles as vol. 21
   Select:
@@ -409,7 +471,9 @@ WORD `VOLUME' IN ARTICLES:
 \ans=
   You have selected: Article volume as number only
 
-NUMBER AND SERIES FOR COLLECTIONS:
+>>WORD `VOLUME' IN ARTICLES:
+
+<<NUMBER AND SERIES FOR COLLECTIONS:
 (*) Allows number without series and suppresses word "number"
 (s) Standard BibTeX as: "number 123 in Total Works"; error if number and no ser
 ies
@@ -418,7 +482,9 @@ ies
 \ans=
   You have selected: Allows number without series
 
-POSITION OF NUMBER AND SERIES:
+>>NUMBER AND SERIES FOR COLLECTIONS:
+
+<<POSITION OF NUMBER AND SERIES:
 (*) After chapter and pages as in standard BibTeX
 (t) Just before publisher or organization
   Select:
@@ -426,7 +492,9 @@ POSITION OF NUMBER AND SERIES:
 \ans=
   You have selected: After chapter and pages
 
-VOLUME AND SERIES FOR BOOKS/COLLECTIONS:
+>>POSITION OF NUMBER AND SERIES:
+
+<<VOLUME AND SERIES FOR BOOKS/COLLECTIONS:
 (*) Vol. 23 of Series as in standard BibTeX
 (s) Series, vol. 23 
   Select:
@@ -434,7 +502,9 @@ VOLUME AND SERIES FOR BOOKS/COLLECTIONS:
 \ans=
   You have selected: Vol. 23 of Series
 
-POSITION OF VOLUME AND SERIES FOR INCOLLECTIONS:
+>>VOLUME AND SERIES FOR BOOKS/COLLECTIONS:
+
+<<POSITION OF VOLUME AND SERIES FOR INCOLLECTIONS:
 (*) Series and volume after the editors 
 (e) Series and volume after booktitle and before editors
   Select:
@@ -442,7 +512,9 @@ POSITION OF VOLUME AND SERIES FOR INCOLLECTIONS:
 \ans=
   You have selected: Series and volume after the editors
 
-JOURNAL NAME PUNCTUATION:
+>>POSITION OF VOLUME AND SERIES FOR INCOLLECTIONS:
+
+<<JOURNAL NAME PUNCTUATION:
 (*) Comma after journal name
 (x) Space after journal name
   Select:
@@ -450,7 +522,9 @@ JOURNAL NAME PUNCTUATION:
 \ans=
   You have selected: Comma after journal
 
-BOOK TITLE:
+>>JOURNAL NAME PUNCTUATION:
+
+<<BOOK TITLE:
 (*) Book title italic (\em)
 (p) Book title plain (no font command)
   Select:
@@ -458,7 +532,9 @@ BOOK TITLE:
 \ans=
   You have selected: Book title italic
 
-PAGES IN BOOKS:
+>>BOOK TITLE:
+
+<<PAGES IN BOOKS:
 (*) Pages in book plain as pp. 50-55
 (p) Pages in book in parentheses as (pp. 50-55)
 (x) Pages in book bare as 50-55
@@ -467,16 +543,20 @@ PAGES IN BOOKS:
 \ans=
   You have selected: Pages in book plain
 
-TOTAL PAGES OF A BOOK:
+>>PAGES IN BOOKS:
+
+<<TOTAL PAGES OF A BOOK:
 (*) Total book pages not printed 
 (p) For book: 345 pages or pp.
 (a) Total book pages before publisher 
   Select:
 
-\ans=p
-  You have selected: For book: 345 pages
+\ans=
+  You have selected: Total book pages not printed
 
-PUBLISHER ADDRESS:
+>>TOTAL PAGES OF A BOOK:
+
+<<PUBLISHER ADDRESS:
 (*) Publisher, address as Harcourt, New York
 (a) Address: Publisher as New York: Harcourt
   Select:
@@ -484,7 +564,9 @@ PUBLISHER ADDRESS:
 \ans=
   You have selected: Publisher, address
 
-PUBLISHER IN PARENTHESES:
+>>PUBLISHER ADDRESS:
+
+<<PUBLISHER IN PARENTHESES:
 (*) Publisher as normal block without parentheses
 (p) Publisher in parentheses 
 (d) Publisher and date in parentheses (Oxford, 1994)
@@ -493,10 +575,12 @@ PUBLISHER IN PARENTHESES:
 (k) Publisher and date, no parentheses, no comma Oxford 1994
   Select:
 
-\ans=d
-  You have selected: Publisher and date in parentheses
+\ans=
+  You have selected: Publisher as normal block
 
-PUBLISHER POSITION:
+>>PUBLISHER IN PARENTHESES:
+
+<<PUBLISHER POSITION:
 (*) Publisher after chapter, pages 
 (p) Publisher before chapter, pages 
 (e) Publisher after edition 
@@ -505,7 +589,9 @@ PUBLISHER POSITION:
 \ans=
   You have selected: Publisher after chapter, pages
 
-ISBN NUMBER:
+>>PUBLISHER POSITION:
+
+<<ISBN NUMBER:
 (*) Include ISBN for books, booklets, etc.
 (x) No ISBN 
   Select:
@@ -513,7 +599,9 @@ ISBN NUMBER:
 \ans=
   You have selected: Include ISBN
 
-ISSN NUMBER:
+>>ISBN NUMBER:
+
+<<ISSN NUMBER:
 (*) Include ISSN for periodicals
 (x) No ISSN 
   Select:
@@ -521,7 +609,9 @@ ISSN NUMBER:
 \ans=
   You have selected: Include ISSN
 
-DOI NUMBER:
+>>ISSN NUMBER:
+
+<<DOI NUMBER:
 (*) Include DOI as "doi: number"
 (a) Insert DOI AGU style as part of page number
 (x) No DOI 
@@ -530,7 +620,9 @@ DOI NUMBER:
 \ans=
   You have selected: Include DOI
 
-`EDITOR' AFTER NAMES (EDITED BOOKS WITHOUT AUTHORS):
+>>DOI NUMBER:
+
+<<`EDITOR' AFTER NAMES (EDITED BOOKS WITHOUT AUTHORS):
 (*) Word `editor' after name 
 (a) `Name (editor),' in parentheses, after name, comma after
 (b) `Name (Editor),' as above, editor upper case
@@ -543,7 +635,9 @@ DOI NUMBER:
 \ans=
   You have selected: Word `editor' after name
 
-EDITOR IN COLLECTIONS:
+>>`EDITOR' AFTER NAMES (EDITED BOOKS WITHOUT AUTHORS):
+
+<<EDITOR IN COLLECTIONS:
 (*) Same as for edited book (names before booktitle)
 (b) In booktitle, edited by ..  (where .. is names)
 (p) In booktitle (edited by ..) 
@@ -556,10 +650,12 @@ EDITOR IN COLLECTIONS:
 (m) In booktitle (.., editor) 
   Select:
 
-\ans=m
-  You have selected: In booktitle (.., editor)
+\ans=
+  You have selected: Same as for edited book
 
-PUNCTUATION BETWEEN SECTIONS (BLOCKS):
+>>EDITOR IN COLLECTIONS:
+
+<<PUNCTUATION BETWEEN SECTIONS (BLOCKS):
 (*) \newblock after blocks (periods or new lines with openbib option)
 (c) Comma between blocks 
 (s) Semi-colon between blocks 
@@ -570,18 +666,22 @@ PUNCTUATION BETWEEN SECTIONS (BLOCKS):
 (d) Colon after titles of articles else commas
   Select:
 
-\ans=
+\ans=?
   You have selected: \newblock after blocks
 
-PUNCTUATION AFTER AUTHORS:
+>>PUNCTUATION BETWEEN SECTIONS (BLOCKS):
+
+<<PUNCTUATION AFTER AUTHORS:
 (*) Author block normal with regular block punctuation
 (c) Author block with colon 
   Select:
 
-\ans=
+\ans=q
   You have selected: Author block normal
 
-PUNCTUATION AFTER `IN':
+>>PUNCTUATION AFTER AUTHORS:
+
+<<PUNCTUATION AFTER `IN':
 (*) Space after `in' for incollection or inproceedings
 (c) Colon after `in' (as `In: ...')
 (i) Italic `in' and space
@@ -589,254 +689,57 @@ PUNCTUATION AFTER `IN':
 (x) No word `in' for edited works
   Select:
 
-\ans=
+\ans=q
   You have selected: Space after `in'
 
-`IN' WITH JOURNAL NAMES (if using 'in' with collections)
+>>PUNCTUATION AFTER `IN':
+
+<<`IN' WITH JOURNAL NAMES (if using 'in' with collections)
 (*) No `in' before journal name 
 (i) Add `in' before journal name in style for incollection
   Select:
 
-\ans=
+\ans=X
   You have selected: No `in' before journal name
 
-FINAL PUNCTUATION:
+>>`IN' WITH JOURNAL NAMES (if using 'in' with collections)
+
+<<FINAL PUNCTUATION:
 (*) Period at very end of the listed reference
 (x) No period at end 
   Select:
 
 \ans=
+! Interruption.
+\ask #1#2->\mes {#2}\read \ttyin to #1
+                                      \ifx #1\defpar \def #1{}\else \edef #1...
+l.2582 \getans
+              
+? q
+OK, entering \batchmode...
   You have selected: Period at very end
 
-ABBREVIATE WORD `PAGES' (if not using external language file)
+>>FINAL PUNCTUATION:
+
+<<ABBREVIATE WORD `PAGES' (if not using external language file)
 (*) `Page(s)' (no abbreviation)
 (a) `Page' abbreviated as p. or pp.
 (x) `Page' omitted 
   Select:
+! Emergency stop.
+<read 1> 
+         
+l.2602 \getans
+              
+*** (cannot \read from terminal in nonstop modes)
 
-\ans=a
-  You have selected: `Page' abbreviated
-
-ABBREVIATE WORD `EDITORS':
-(*) `Editor(s)' (no abbreviation)
-(a) `Editor' abbreviated as ed. or eds.
-  Select:
-
-\ans=a
-  You have selected: `Editor' abbreviated
-
-OTHER ABBREVIATIONS:
-(*) No abbreviations of volume, edition, chapter, etc
-(a) Abbreviations of such words
-  Select:
-
-\ans=a
-  You have selected: Abbreviations
-
-ABBREVIATION FOR `EDITION' (if abbreviating words)
-(*) `Edition' abbreviated as `edn' 
-(a) `Edition' abbreviated as `ed' 
-  Select:
-
-\ans=a
-  You have selected: `Edition' abbreviated as `ed'
-
-MONTHS WITH DOTS:
-(*) Months with dots as Jan.
-(x) Months without dots as Feb Mar
-  Select:
-
-\ans=
-  You have selected: Months with dots
-
-EDITION NUMBERS:
-(*) Editions as in database saving much processing memory
-(w) Write out editions as first, second, third, etc
-(n) Numerical editions as 1st, 2nd, 3rd, etc
-  Select:
-
-\ans=
-  You have selected: Editions as in database
-
-Reading external language file \cfile=
-
-STORED JOURNAL NAMES:
-(*) Full journal names for prestored journals
-(a) Abbreviated journal names 
-(s) Abbreviated with astronomy shorthands like ApJ and AJ
-  Select:
-
-\ans=
-  You have selected: Full journal names
-
-AMPERSAND:
-(*) Use word `and' in author lists
-(a) Use ampersand in place of `and'
-(v) Use \BIBand in place of `and'
-  Select:
-
-\ans=
-  You have selected: Use word `and'
-
-COMMA BEFORE `AND':
-(*) Comma before `and' as `Tom, Dick, and Harry'
-(n) No comma before `and' as `Tom, Dick and Harry'
-(c) Comma even with 2 authors as `Tom, and Harry'
-  Select:
-
-\ans=
-  You have selected: Comma before `and'
-
-NO `AND' IN REFERENCE LIST:
-(*) With `and' before last author in reference list
-(x) No `and' as `Tom, Dick, Harry'
-  Select:
-
-\ans=
-  You have selected: With `and'
-
-COMMA BEFORE `ET AL':
-(*) Comma before `et al' in reference list
-(x) No comma before `et al' 
-  Select:
-
-\ans=
-  You have selected: Comma before `et al'
-
-FONT OF `ET AL':
-(*) Plain et al 
-(i) Italic et al 
-(r) Roman et al even when authors something else
-  Select:
-
-\ans=
-  You have selected: Plain et al
-
-ADDITIONAL REVTeX DATA FIELDS:
-(*) No additional fields for REVTeX
-(r) Include REVTeX data fields collaboration, eid, eprint, archive, numpages, u
-rl
-  Select:
-
-\ans=
-  You have selected: No additional fields
-
-E-PRINT DATA FIELD: (without REVTeX fields)
-(*) Do not include eprint field 
-(e) Include eprint and archive fields for electronic publications
-  Select:
-
-\ans=
-  You have selected: Do not include eprint field
-
-URL ADDRESS: (without REVTeX fields)
-(*) No URL for electronic (Internet) documents
-(u) Include URL as regular item block
-(n) URL as note 
-(l) URL on new line after rest of reference
-  Select:
-
-\ans=
-  You have selected: No URL
-
-REFERENCE COMPONENT TAGS:
-(*) No reference component tags in the \bibitem entries
-(b) Reference component tags like \bibinfo in the content of \bibitem
-  Select:
-
-\ans=
-  You have selected: No reference component tags
-
-EMPHASIS: (affects all so-called italics)
-(*) Use emphasis ie, \em, allows font switching
-(i) Use true italics ie, \it, absolute italics
-(x) No italics at all
-(u) Underlining in place of italics, best with ulem package
-  Select:
-
-\ans=
-  You have selected: Use emphasis
-
-COMPATIBILITY WITH PLAIN TEX:
-(*) Use LaTeX commands which may not work with Plain TeX
-(t) Use only Plain TeX commands for fonts and testing
-  Select:
-
-\ans=
-  You have selected: Use LaTeX commands
-)
-
-Finished!!
-Batch job written to file `fishfisheriessuppl.dbj'
-Shall I now run this batch job? (NO)
-
-\yn=y
-(./fishfisheriessuppl.dbj (/usr/share/texmf-texlive/tex/latex/base/docstrip.tex
-\blockLevel=\count81
-\emptyLines=\count82
-\processedLines=\count83
-\commentsRemoved=\count84
-\commentsPassed=\count85
-\codeLinesPassed=\count86
-\TotalprocessedLines=\count87
-\TotalcommentsRemoved=\count88
-\TotalcommentsPassed=\count89
-\TotalcodeLinesPassed=\count90
-\NumberOfFiles=\count91
-\inFile=\read3
-\inputcheck=\read4
-\off@0=\count92
-\off@1=\count93
-\off@2=\count94
-\off@3=\count95
-\off@4=\count96
-\off@5=\count97
-\off@6=\count98
-\off@7=\count99
-\off@8=\count100
-\off@9=\count101
-\off@10=\count102
-\off@11=\count103
-\off@12=\count104
-\off@13=\count105
-\off@14=\count106
-\off@15=\count107
-\@maxfiles=\count108
-\@maxoutfiles=\count109
-Utility: `docstrip' 2.5d <2005/07/29>
-English documentation    <1999/03/31>
-
-**********************************************************
-* This program converts documented macro-files into fast *
-* loadable files by stripping off (nearly) all comments! *
-**********************************************************
-
-********************************************************
-* No Configuration file found, using default settings. *
-********************************************************
-
-)
-
-Generating file(s) ./fishfisheriessuppl.bst 
-\openout0 = `./fishfisheriessuppl.bst'.
-
-
-Processing file merlin.mbs (babel,seq-no,nm-rev,jnrlst,xmth,atit-u,trtit-b,num-
-xser,pg-bk,pub-date,isbn,issn,doi,edby-par,edbyy,pp,ed,abr,ednx,xedn,nfss,) -> 
-fishfisheriessuppl.bst
-Lines  processed: 9293
-Comments removed: 3787
-Comments  passed: 1
-Codelines passed: 3686
-
- ) ) 
+ 
 Here is how much of TeX's memory you used:
- 817 strings out of 495062
- 6899 string characters out of 1182644
- 60151 words of memory out of 3000000
- 4080 multiletter control sequences out of 15000+50000
+ 209 strings out of 495062
+ 1635 string characters out of 1182644
+ 45215 words of memory out of 3000000
+ 3478 multiletter control sequences out of 15000+50000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 15i,0n,15p,327b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
-
+ 11i,0n,8p,136b,93s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Caveats and limitations</TITLE>
+<META NAME="description" CONTENT="Caveats and limitations">
+<META NAME="keywords" CONTENT="fishandfisheries-finaldraft">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="fishandfisheries-finaldraft.css">
+
+<LINK REL="next" HREF="node27.html">
+<LINK REL="previous" HREF="node25.html">
+<LINK REL="up" HREF="node21.html">
+<LINK REL="next" HREF="node27.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html331"
+  HREF="node27.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html329"
+  HREF="node21.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html323"
+  HREF="node25.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html332"
+  HREF="node27.html">Future development</A>
+<B> Up:</B> <A NAME="tex2html330"
+  HREF="node21.html">Biases in the knowledge-base</A>
+<B> Previous:</B> <A NAME="tex2html324"
+  HREF="node25.html">Future applications of the</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H3><A NAME="SECTION00052500000000000000">
+Caveats and limitations</A>
+</H3>
+
+<P>
+Stock assessment outputs (e.g. biomass time series), which comprise the
+majority of the new RAM Legacy database are model estimates, not raw
+data. The uncertainty associated with these estimates should be
+carried forth in subsequent analyses. Although the database structure
+allows for inclusion of estimates of uncertainty (standard errors,
+95% credible/confidence intervals), because these estimates were
+typically missing from assessments, either because they weren't
+produced by the assessment model (e.g. non-bootstrapped VPA
+assessments) or the focus of the assessment document was on central
+tendency (e.g. mean biomass) not the associated uncertainty, they have
+not been included in this first version of the database. Note that
+this view of assessment uncertainty is changing with the advent of
+MCMC approaches to Bayesian inference for assessments, bootstrap
+methods, statistical catch-at-age models admb and a
+general focus on uncertainty Walters:Maguire:1996:reviews. As with any
+analysis, clearer inference on the strength of a signal is available
+when all uncertainty in the data is carried forth. This represents a
+difficulty for synthetic analyses of fisheries data in that in an
+ideal world one would access the raw data for each stock and carry
+forth the uncertainty at all levels of the analysis. In the case of
+assessments, the raw data is typically catch-at-age matrices and
+potentially survey indices. To understand the fleet characteristics
+and survey stratification schema for each stock in a potentially
+global meta-analysis would be extremely time consuming and
+error-prone. Instead, the expert opinion of those researchers most
+familiar with the data, stock assessment authors, is used, while
+recognizing that without accompanying uncertainty estimates the
+strength of conclusions drawn may be weakened.  
+
+<P>
+While the database provides detailed trends for individual stocks, it
+will never have the geographic and taxonomic coverage provided by
+catch statistics. Assessment results will also never replace the
+essential role played by fisheries-independent scientific surveys in
+determining abundance, biomass and diversity trends in marine living
+resources. 
+
+<P>
+BRPs derived from surplus production models are to be interpreted with
+great care. For stocks where both were available we found that
+Schaefer-derived <SPAN CLASS="MATH"><IMG
+ WIDTH="45" HEIGHT="35" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.png"
+ ALT="$B_{msy}$"></SPAN> were systematically higher than those
+obtained from assessments. This stems from the fact that under the
+Schaefer surplus production model, MSY occurs at 50% of the carrying
+capacity whereas in most age-based assessment models, yield is
+maximised at a lower fraction of the carrying capacity.
+
+<P>
+The original database developed by Ransom A. Myers was used to address
+a variety of ecological questions derived from stock-recruit
+relationships. This was possible because the VPA-type assessment
+models that comprised most of that database generated time series of
+stock and recruitment with relatively few a priori assumptions.
+Forward projection methods generally specify the form of the
+stock-recruit relationship, and in many cases even fix parameters
+(infinitely dense point prior) such as steepness.  Stock-recruitment
+``data'' from such models, are clearly inappropriate for
+straightforward meta-analysis. In general, as more assessments
+incorporate some type of prior information from other stocks or
+species Hilborn:Liermann:1998:reviews, there is less
+stock-specific information available for future meta-analysis
+Minte-Vera:etal:2005:cjfas.  One solution is for stock
+assessments to report not only best estimates of parameters based on
+all available data, but also stock-specific parameter estimates that
+do not incorporate prior information from other stocks or species.
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html331"
+  HREF="node27.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html329"
+  HREF="node21.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html323"
+  HREF="node25.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html332"
+  HREF="node27.html">Future development</A>
+<B> Up:</B> <A NAME="tex2html330"
+  HREF="node21.html">Biases in the knowledge-base</A>
+<B> Previous:</B> <A NAME="tex2html324"
+  HREF="node25.html">Future applications of the</A></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Stock-recruitment database administrator
+2010-07-15
+</ADDRESS>
+</BODY>
+</HTML>

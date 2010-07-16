@@ -1,7 +1,7 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC
 # - adding calls to the appropriate Perl script as the submissions are QAQCed
-# Last modified Time-stamp: <2010-05-27 11:45:16 (srdbadmin)>
+# Last modified Time-stamp: <2010-07-15 23:30:47 (srdbadmin)>
 #
 
 # submissions from Beth Fulton
@@ -23,12 +23,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Fulton-brown_tiger_p
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Fulton-grooved_tiger_prawn-australia-2007_v2-editedDR-QAQC.xls
 
 # submissions from Ana Parma
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-AHAKE-ARG-S-2009-v2-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-AHAKE-ARG-N-2008-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-POLACA-ARG-S-2008-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-ANCHOVY-ARG-S-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-ANCHOVY-ARG-N-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-HOKI-ARG-S-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.xls
 
 # submissions from Trevor Branch and South African scientists
@@ -45,11 +39,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-LNOSESKAPCOAS
 # submissions from Jeremy Collie
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRPRD-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRQCI-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRSOG-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRWCVI-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.xls

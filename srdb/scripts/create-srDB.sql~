@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <Last modified: 17 FEBRUARY   (srdbadmin)>
+-- Last modified: Time-stamp: <2010-05-05 14:47:53 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -245,7 +245,7 @@ CREATE TABLE srdb.bioparams (
 assessid VARCHAR(200),
 bioid VARCHAR(40) REFERENCES srdb.biometrics,
 biovalue VARCHAR(200),
--- bionotes VARCHAR(1000)
+bionotes VARCHAR(1000),
 bioyear VARCHAR(15)
 );
 

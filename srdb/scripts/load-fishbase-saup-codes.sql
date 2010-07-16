@@ -10,7 +10,7 @@ scientificname VARCHAR(200) REFERENCES srdb.taxonomy(scientificname)
 );
 
 COPY srdb.fishbasesaupcodes
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/SAUP-codes.csv'
+FROM '/home/srdbadmin/srdb/srdb/data/SAUP-codes.csv'
 NULL AS 'NA'
 CSV HEADER 
 ;

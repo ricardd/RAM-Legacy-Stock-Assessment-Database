@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON', 'CSIRO', 'TIGERFLATSE', 'FULTON', '2008-04-30', '2010-06-15 12:17:25', '1913-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used V1.23d of SS2', '../spreadsheets/Fulton-tiger_flathead-australia-2007_v2-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON', 'CSIRO', 'TIGERFLATSE', 'FULTON', '2008-04-30', '2010-07-15 13:28:39', '1913-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used V1.23d of SS2', '../spreadsheets/Fulton-tiger_flathead-australia-2007_v2-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON', 'ID', 'TIGERFLATSE') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON', 'A1', 'Klaer, Neil') ; 
@@ -414,7 +414,7 @@ BEGIN;
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','TL-MT',2003, 3669.4) ; 
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','TL-MT',2004, 3596) ; 
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','TL-MT',2005, 3199.2) ; 
- INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','TL-MT',2006, 0) ; 
+ INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','TL-MT',2006, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','SSB-STDDEV-MT',1913, 1267.5) ; 
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','SSB-STDDEV-MT',1914, 1267.5) ; 
  INSERT INTO srdb.timeseries VALUES('CSIRO-TIGERFLATSE-1913-2006-FULTON','SSB-STDDEV-MT',1915, 1267.5) ; 

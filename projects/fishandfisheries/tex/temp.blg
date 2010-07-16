@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: temp.aux
+The style file: fishfisheriessuppl.bst
+Database file #1: ./temp.bib
+Warning--missing institution in Giussi-polaca-2007.pdf
+You've used 1 entry,
+            2490 wiz_defined-function locations,
+            544 strings with 4787 characters,
+and the built_in function-call counts, 285 in all, are:
+= -- 14
+> -- 8
+< -- 0
++ -- 3
+- -- 2
+* -- 14
+:= -- 38
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 31
+empty$ -- 23
+format.name$ -- 3
+if$ -- 51
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 9
+newline$ -- 14
+num.names$ -- 1
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 4
+stack$ -- 0
+substring$ -- 0
+swap$ -- 21
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 1
+width$ -- 2
+write$ -- 19
+(There was 1 warning)

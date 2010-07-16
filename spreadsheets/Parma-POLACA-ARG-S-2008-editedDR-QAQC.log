@@ -1,0 +1,8 @@
+psql:../spreadsheets/Parma-POLACA-ARG-S-2008-editedDR-QAQC.sql:6: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'A1', 'W{\\"{o}}...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
+psql:../spreadsheets/Parma-POLACA-ARG-S-2008-editedDR-QAQC.sql:7: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'T1', 'Evaluaci\...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

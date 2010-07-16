@@ -1,0 +1,4 @@
+psql:../spreadsheets/Parma-AHAKE-ARG-N-2008-editedDR-QAQC.sql:10: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...ALUES('INIDEP-ARGHAKENARG-1985-2007-Parma', 'T1', 'Evaluaci\...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

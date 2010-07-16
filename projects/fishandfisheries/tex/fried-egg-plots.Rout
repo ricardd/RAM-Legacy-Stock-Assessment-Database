@@ -22,7 +22,9 @@ Type 'q()' to quit R.
 > ## fried-egg-plots.R
 > ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2010-07-06 12:07:57 (srdbadmin)>
+> ## Last modified: Time-stamp: <2010-07-14 17:50:40 (srdbadmin)>
+> ## Modification history:
+> ## 
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
 > require(RODBC)
@@ -262,7 +264,7 @@ Loading required package: xtable
 + 
 + my.caption <- c("Summary of population-dynamics model based assessments in the RAM Legacy database, including the management body (acronyms from Table 1), assessment method, timespan of their longest time series data, estimated ratios of current biomass to the biomass at MSY and current harvest rate to the harvest rate that results in MSY. Estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production models. When both SSBmsy and Bmsy reference points were available, SSB was chosen preferentially.")
 + 
-+   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}p{3.5cm}ccccp{1.5cm}c")
++   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}ccccp{0.9cm}c")
 +   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 + #  write.table(my.table.S2, "../tex/Table-S1.tex")
 + #  sink("../tex/Table-S1.tex")
@@ -654,7 +656,7 @@ Loading required package: xtable
 [1] 19
  [1] DFO-COD5Zjm-1978-2003-PREFONTAINE           
  [2] DFO-HAD4X5Y-1960-2003-PREFONTAINE           
- [3] DFO-HAD5Zejm-1969-2003-PREFONTAINE          
+ [3] DFO-HAD5Zejm-1968-2003-PREFONTAINE          
  [4] DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE   
  [5] DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE       
  [6] DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE
@@ -696,26 +698,25 @@ Loading required package: xtable
 > #fried.egg.fct("mgmt","CFP","TRUE","TRUE")
 > #fried.egg.fct("mgmt","WCPFC","TRUE","FALSE")
 > fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"TRUE","TRUE","Atlantic")
-[1] 18
- [1] ICCAT-ALBANATL-1929-2005-WORM              
- [2] ICCAT-ATBTUNAEATL-1969-2007-WORM           
- [3] ICCAT-ATBTUNAWATL-1969-2007-WORM           
- [4] ICCAT-SWORDMED-1968-2006-JENSEN            
- [5] ICCAT-YFINATL-1970-2006-JENSEN             
- [6] NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM       
- [7] ICCAT-BIGEYEATL-1950-2005-JENSEN           
- [8] ICCAT-SKJEATL-1950-2006-JENSEN             
- [9] ICCAT-SKJWATL-1952-2006-JENSEN             
-[10] ICCAT-SWORDNATL-1978-2007-JENSEN           
-[11] ICCAT-SWORDSATL-1950-2005-JENSEN           
-[12] NAFO-SC-AMPL3LNO-1955-2007-BAUM            
-[13] NAFO-SC-AMPL3M-1960-2007-BAUM              
-[14] NAFO-SC-COD3NO-1953-2007-BAUM              
-[15] NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE  
-[16] NAFO-SC-REDFISHSPP3LN-1959-2007-PREFONTAINE
-[17] NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE 
-[18] NAFO-SC-YELL3LNO-1960-2009-BAUM            
-18 Levels: ICCAT-ALBANATL-1929-2005-WORM ... NAFO-SC-YELL3LNO-1960-2009-BAUM
+[1] 17
+ [1] ICCAT-ALBANATL-1929-2005-WORM             
+ [2] ICCAT-ATBTUNAEATL-1969-2007-WORM          
+ [3] ICCAT-ATBTUNAWATL-1969-2007-WORM          
+ [4] ICCAT-SWORDMED-1968-2006-JENSEN           
+ [5] ICCAT-SWORDNATL-1978-2007-JENSEN          
+ [6] ICCAT-SWORDSATL-1970-2005-JENSEN          
+ [7] ICCAT-YFINATL-1970-2006-JENSEN            
+ [8] NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM      
+ [9] ICCAT-BIGEYEATL-1950-2005-JENSEN          
+[10] ICCAT-SKJEATL-1950-2006-JENSEN            
+[11] ICCAT-SKJWATL-1952-2006-JENSEN            
+[12] NAFO-SC-AMPL3LNO-1955-2007-BAUM           
+[13] NAFO-SC-AMPL3M-1960-2007-BAUM             
+[14] NAFO-SC-COD3NO-1953-2007-BAUM             
+[15] NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE 
+[16] NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE
+[17] NAFO-SC-YELL3LNO-1960-2009-BAUM           
+17 Levels: ICCAT-ALBANATL-1929-2005-WORM ... NAFO-SC-YELL3LNO-1960-2009-BAUM
 > #fried.egg.fct("mgmt",c("('IATTC','IPHC','SPRFMO')"),"TRUE","FALSE","Pacific")
 > mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
 > 
@@ -818,4 +819,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  3.184   0.072   4.716 
+  3.236   0.072   5.606 

@@ -1,7 +1,9 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-07-06 12:07:57 (srdbadmin)>
+## Last modified: Time-stamp: <2010-07-14 17:50:40 (srdbadmin)>
+## Modification history:
+## 
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(RODBC)
@@ -236,7 +238,7 @@ mgmt.dat <- sqlQuery(chan, qu)
 
 my.caption <- c("Summary of population-dynamics model based assessments in the RAM Legacy database, including the management body (acronyms from Table 1), assessment method, timespan of their longest time series data, estimated ratios of current biomass to the biomass at MSY and current harvest rate to the harvest rate that results in MSY. Estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production models. When both SSBmsy and Bmsy reference points were available, SSB was chosen preferentially.")
 
-  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{4cm}p{4cm}p{3.5cm}ccccp{1.5cm}c")
+  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}ccccp{0.9cm}c")
   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 #  write.table(my.table.S2, "../tex/Table-S1.tex")
 #  sink("../tex/Table-S1.tex")

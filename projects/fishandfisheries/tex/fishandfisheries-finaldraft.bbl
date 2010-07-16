@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 {\catcode`\|=0\catcode`\#=12\catcode`\@=11\catcode`\\=12
 |immediate|write|@auxout{\expandafter\ifx\csname
@@ -15,17 +15,31 @@ Branch, T.A. \harvardyearleft 2008\harvardyearright{}.
 \newblock Not all fisheries will be collapsed in 2048.
 \newblock \emph{Marine Policy} 32, 38--39.
 
+\harvarditem[Caddy \emph{et~al.}]{Caddy, Csirke, Garcia \harvardand{}
+  Grainger}{1998}{Caddy:etal:1998:science}
+Caddy, J., Csirke, Garcia, S. \harvardand{} Grainger, R. \harvardyearleft
+  1998\harvardyearright{}.
+\newblock How pervasive is "Fishing down marine food webs".
+\newblock \emph{Science} 282, 1383a.
+
 \harvarditem[Costello \emph{et~al.}]{Costello, Gaines \harvardand{}
   Lynham}{2008}{Costello:etal:2008:science}
 Costello, C., Gaines, S.D. \harvardand{} Lynham, J. \harvardyearleft
   2008\harvardyearright{}.
 \newblock Can catch shares prevent fisheries collapse?
-\newblock \emph{Science (Washington)} 321(5896), 1678--1681.
+\newblock \emph{Science} 321, 1678--1681.
 
 \harvarditem{Dahl}{2009}{R:xtable}
 Dahl, D.B. \harvardyearleft 2009\harvardyearright{}.
 \newblock \emph{xtable: Export tables to LaTeX or HTML}.
 \newblock R package version 1.5-6.
+
+\harvarditem{Dalzell}{1998}{Dalzell:1998:coastmgmt}
+Dalzell, P. \harvardyearleft 1998\harvardyearright{}.
+\newblock The role of archaeological and cultural-historical records in
+  long-range coastal fisheries resources management strategies and policies in
+  the Pacific Island.
+\newblock \emph{Ocean \& Coastal Management} 40.
 
 \harvarditem[de~Mutsert \emph{et~al.}]{de~Mutsert, Cowan, Essington
   \harvardand{} Hilborn}{2008}{deMutsert:etal:2008:pnas}
@@ -33,7 +47,7 @@ de~Mutsert, K., Cowan, Jr., J.H., Essington, T.E. \harvardand{} Hilborn, R.
   \harvardyearleft 2008\harvardyearright{}.
 \newblock Reanalyses of Gulf of Mexico fisheries data: Landings can be
   misleading in assessments of fisheries and fisheries ecosystems.
-\newblock \emph{Proceedings of the National Academy of Sciences} 105(7),
+\newblock \emph{Proceedings of the National Academy of Sciences} 105,
   2740--2744.
 
 \harvarditem{{D}evelopment~{C}ore {T}eam}{2009}{R}
@@ -51,7 +65,7 @@ Dorn, M. \harvardyearleft 2002\harvardyearright{}.
 Essington, T.E., Beaudreau, A.H. \harvardand{} Wiedenmann, J. \harvardyearleft
   2006\harvardyearright{}.
 \newblock Fishing through marine food webs.
-\newblock \emph{Proceedings of the National Academy of Science} 103(9),
+\newblock \emph{Proceedings of the National Academy of Science} 103,
   3171--3175.
 
 \harvarditem{{European Environment Agency}}{2009}{eea:2009:status}
@@ -71,13 +85,13 @@ FAO \harvardyearleft 2009{\natexlab{b}}\harvardyearright{}.
 Frank, K., Petrie, B., Choi, J. \harvardand{} Leggett, W. \harvardyearleft
   2005\harvardyearright{}.
 \newblock Trophic cascades in a formerly cod-dominated ecosystem.
-\newblock \emph{Science (Washington)} 308(5728), 1621--1623.
+\newblock \emph{Science} 308, 1621--1623.
 
 \harvarditem{Froese \harvardand{} Proel\ss}{2010}{Froese:Proelss:2010:fandf}
 Froese, R. \harvardand{} Proel\ss, A. \harvardyearleft 2010\harvardyearright{}.
 \newblock Rebuilding fish stocks no later than 2015: will Europe meet the
   deadline?
-\newblock \emph{Fish and Fisheries} 11(2), 194--202.
+\newblock \emph{Fish and Fisheries} 11, 194--202.
 
 \harvarditem{Froese \harvardand{} Pauly}{2009}{Froese:Pauly:2009:fishbase}
 Froese, R. \harvardand{} Pauly, D. \harvardyearleft 2009\harvardyearright{}.
@@ -102,7 +116,7 @@ Grothendieck, G. \harvardyearleft 2010\harvardyearright{}.
 Halpern, B., Walbridge, S., Selkoe, K. \emph{et~al.} \harvardyearleft
   2008\harvardyearright{}.
 \newblock A global map of human impact on marine ecosystems.
-\newblock \emph{Science (Washington)} 319(5865), 948--952.
+\newblock \emph{Science} 319, 948--952.
 
 \harvarditem[Harley \emph{et~al.}]{Harley, Myers \harvardand{}
   Dunn}{2001}{Harley:etal:2001:cjfas}
@@ -137,7 +151,7 @@ Hilborn, R. \harvardand{} Walters, C.J. \harvardyearleft
 \harvarditem{Hilborn}{2007}{Hilborn:2007:science}
 Hilborn, R. \harvardyearleft 2007\harvardyearright{}.
 \newblock {Biodiversity loss in the ocean: how bad is it?}
-\newblock \emph{Science (Washington)} 316(5829), 1281.
+\newblock \emph{Science} 316, 1281.
 
 \harvarditem{Hutchings}{2001{\natexlab{a}}}{Hutchings:2001:cjfas}
 Hutchings, J. \harvardyearleft 2001{\natexlab{a}}\harvardyearright{}.
@@ -166,13 +180,6 @@ Hutchings, J. \harvardand{} Reynolds, J. \harvardyearleft
   extinction risk.
 \newblock \emph{BioScience} 54, 297--309.
 
-\harvarditem{Johannes}{2002}{Johannes:2002:arees}
-Johannes, R. \harvardyearleft 2002\harvardyearright{}.
-\newblock The renaissance of community-based marine resource management in
-  Oceania.
-\newblock \emph{Annual Review of Ecology, Evolution, and Systematics} 33,
-  317--340.
-
 \harvarditem{Liermann \harvardand{} Hilborn}{1997}{Liermann:Hilborn:1997:cjfas}
 Liermann, M. \harvardand{} Hilborn, R. \harvardyearleft
   1997\harvardyearright{}.
@@ -184,22 +191,44 @@ Liermann, M. \harvardand{} Hilborn, R. \harvardyearleft
 Mace, P.M. \harvardyearleft 1994\harvardyearright{}.
 \newblock Relationships between Common Biological Reference Points Used as
   Thresholds and Targets of Fisheries Management Strategies.
-\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 51(1),
+\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 51,
   110--122.
+
+\harvarditem{Maunder \harvardand{} Punt}{2004}{Maunder:punt:2004:fishres}
+Maunder, M.N. \harvardand{} Punt, A.E. \harvardyearleft
+  2004\harvardyearright{}.
+\newblock Standardizing catch and effort data: a review of recent approaches.
+\newblock \emph{Fisheries Research} 70, 141--159.
+
+\harvarditem[Minte-Vera \emph{et~al.}]{Minte-Vera, Branch, Stewart
+  \harvardand{} Dorn}{2005}{Minte-Vera:etal:2005:cjfas}
+Minte-Vera, C.V., Branch, T.A., Stewart, I. \harvardand{} Dorn, M.
+  \harvardyearleft 2005\harvardyearright{}.
+\newblock Practical application of meta-analysis results: avoiding the double
+  use of data.
+\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 62,
+  925--929.
 
 \harvarditem[Minto \emph{et~al.}]{Minto, Myers \harvardand{}
   Blanchard}{2008}{Minto:etal:2008:nature}
 Minto, C., Myers, R.A. \harvardand{} Blanchard, W. \harvardyearleft
   2008\harvardyearright{}.
 \newblock Survival variability and population density in fish populations.
-\newblock \emph{Nature (London)} 452, 344--347.
+\newblock \emph{Nature} 452, 344--347.
+
+\harvarditem[Mora \emph{et~al.}]{Mora, Myers, Coll
+  \emph{et~al.}}{2009}{Mora:etal:2009:PLoSBiol}
+Mora, C., Myers, R.A., Coll, M. \emph{et~al.} \harvardyearleft
+  2009\harvardyearright{}.
+\newblock Management Effectiveness of the World's Marine Fisheries.
+\newblock \emph{PLoS Biol} 7(6), e1000131.
 
 \harvarditem[Murawski \emph{et~al.}]{Murawski, Methot \harvardand{}
   Tromble}{2007}{Murawski:Methot:Tromble:2007:science}
 Murawski, S., Methot, R. \harvardand{} Tromble, G. \harvardyearleft
   2007\harvardyearright{}.
-\newblock Letter to the editors of Science.
-\newblock \emph{Science (Washington)} 316, 1281.
+\newblock Biodiversity Loss in the Ocean: How Bad Is It?
+\newblock \emph{Science} 316, 1281.
 
 \harvarditem{Myers}{2001}{Myers:2001:ices}
 Myers, R.A. \harvardyearleft 2001\harvardyearright{}.
@@ -227,7 +256,7 @@ Myers, R., Barrowman, N., Hutchings, J. \harvardand{} Rosenberg, A.
   \harvardyearleft 1995{\natexlab{a}}\harvardyearright{}.
 \newblock Population dynamics of exploited fish stocks at low population
   levels.
-\newblock \emph{Science (Washington)} 269, 1106--1108.
+\newblock \emph{Science} 269, 1106--1108.
 
 \harvarditem[Myers \emph{et~al.}]{Myers, Baum, Shepherd, Powers \harvardand{}
   Peterson}{2007}{Myers:etal:2007:science}
@@ -235,7 +264,7 @@ Myers, R., Baum, J., Shepherd, T., Powers, S. \harvardand{} Peterson, C.
   \harvardyearleft 2007\harvardyearright{}.
 \newblock {Cascading Effects of the Loss of Apex Predatory Sharks from a
   Coastal Ocean}.
-\newblock \emph{Science} 315(5820), 1846--1850.
+\newblock \emph{Science} 315, 1846--1850.
 
 \harvarditem[Myers \emph{et~al.}]{Myers, Bowen \harvardand{}
   Barrowman}{1999}{Myers:etal:1999:cjfas}
@@ -277,12 +306,7 @@ Myers, R.A., Bridson, J. \harvardand{} N.J., B. \harvardyearleft
 Newton, K., C{\^o}t{\'e}, I., Pilling, G., Jennings, S. \harvardand{} Dulvy, N.
   \harvardyearleft 2007\harvardyearright{}.
 \newblock Current and Future Sustainability of Island Coral Reef Fisheries.
-\newblock \emph{Current Biology} 17(7), 655--658.
-
-\harvarditem{{NOAA}}{1998}{NOAA:LME64:1998}
-{NOAA} \harvardyearleft 1998\harvardyearright{}.
-\newblock Large Marine Ecosystems.
-\newblock Tech. rep., National Oceanic and Atmospheric Administration.
+\newblock \emph{Current Biology} 17, 655--658.
 
 \harvarditem{original by Matt Wand. R port~by
   Brian~Ripley.}{2009}{R:KernSmooth}
@@ -302,14 +326,14 @@ Paradis, E., Claude, J. \harvardand{} Strimmer, K. \harvardyearleft
 \harvarditem{Pauly}{1995}{Pauly:1995:tree}
 Pauly, D. \harvardyearleft 1995\harvardyearright{}.
 \newblock Anecdotes and the shifting baseline syndrome of fisheries.
-\newblock \emph{Trends in Ecology and Evolution} 10(10), 430.
+\newblock \emph{Trends in Ecology and Evolution} 10, 430.
 
 \harvarditem[Pauly \emph{et~al.}]{Pauly, Christensen, Dalsgaard, Froese
   \harvardand{} Torres}{1998}{Pauly:etal:1998}
 Pauly, D., Christensen, V., Dalsgaard, J., Froese, R. \harvardand{} Torres,
   Jr., F. \harvardyearleft 1998\harvardyearright{}.
 \newblock Fishing Down Marine Food Webs.
-\newblock \emph{Science (Washington)} 279(5352), 860--863.
+\newblock \emph{Science} 279, 860--863.
 
 \harvarditem{Polacheck}{2006}{Polacheck:2006:marpol}
 Polacheck, T. \harvardyearleft 2006\harvardyearright{}.
@@ -317,9 +341,9 @@ Polacheck, T. \harvardyearleft 2006\harvardyearright{}.
   result in a 90\% rapid decline in the abundance of large predatory species.
 \newblock \emph{Marine Policy} 30, 470--482.
 
-\harvarditem{{PostgreSQL Global Development Group}}{2009}{postgresql:2009}
-{PostgreSQL Global Development Group} \harvardyearleft 2009\harvardyearright{}.
-\newblock PostgreSQL, version 8.3.8. http://www.postgresql.org.
+\harvarditem{{PostgreSQL Global Development Group}}{2010}{postgresql:2009}
+{PostgreSQL Global Development Group} \harvardyearleft 2010\harvardyearright{}.
+\newblock PostgreSQL, version 8.4.4. http://www.postgresql.org.
 
 \harvarditem[Rice \emph{et~al.}]{Rice, Shelton, Rivard, Chouinard \harvardand{}
   Fr\'echet}{2003}{Rice:etal:2003:icescm}
@@ -351,7 +375,15 @@ S{\'a}enz-Arroyo, A., Roberts, C.M., Torre, J., Cari{\~n}o-Olvera, M.
   2005\harvardyearright{}.
 \newblock Rapidly shifting environmental baselines among fishers of the Gulf of
   California.
-\newblock \emph{Proceedings of the Royal Society B} 272(1575), 1957--1962.
+\newblock \emph{Proceedings of the Royal Society B} 272, 1957--1962.
+
+\harvarditem[Sherman \emph{et~al.}]{Sherman, Alexander \harvardand{}
+  Gold}{1993}{NOAA:LME64:1998}
+Sherman, K., Alexander, L. \harvardand{} Gold, B., eds. \harvardyearleft
+  1993\harvardyearright{}.
+\newblock \emph{{Large Marine Ecosystems}: stress, mitigation, and
+  sustainability}.
+\newblock AAAS Press.
 
 \harvarditem[Sibert \emph{et~al.}]{Sibert, Hampton, Kleiber \harvardand{}
   Maunder}{2006}{Sibert:etal:2006:science}
@@ -359,17 +391,12 @@ Sibert, J., Hampton, J., Kleiber, P. \harvardand{} Maunder, M. \harvardyearleft
   2006\harvardyearright{}.
 \newblock Biomass, Size, and Trophic Status of Top Predators in the Pacific
   Ocean.
-\newblock \emph{Science (Washington)} 314(5806), 1773--1776.
-
-\harvarditem{Walters \harvardand{} Maguire}{1996}{Walters:Maguire:1996:reviews}
-Walters, C. \harvardand{} Maguire, J. \harvardyearleft 1996\harvardyearright{}.
-\newblock {Lessons for stock assessment from the northern cod collapse}.
-\newblock \emph{Reviews in Fish Biology and Fisheries} 6(2), 125--137.
+\newblock \emph{Science} 314, 1773--1776.
 
 \harvarditem{Walters}{2003}{Walters:2003:cjfas}
 Walters, C. \harvardyearleft 2003\harvardyearright{}.
 \newblock Folly and fantasy in the analysis of spatial catch rate data.
-\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 60(12),
+\newblock \emph{Canadian Journal of Fisheries and Aquatic Sciences} 60,
   1433--1436.
 
 \harvarditem[Watson \emph{et~al.}]{Watson, Kitchingman, Gelchu \harvardand{}
@@ -389,7 +416,7 @@ Wessel, P. \harvardand{} Smith, W.H.F. \harvardyearleft
 Wilberg, M. \harvardand{} Miller, T. \harvardyearleft 2007\harvardyearright{}.
 \newblock Comment on "Impacts of biodiversity loss on ocean ecosystem
   services".
-\newblock \emph{Science (Washington)} 316, 1285b.
+\newblock \emph{Science} 316, 1285b.
 
 \harvarditem[Wilson \emph{et~al.}]{Wilson, Curtotti, Begg \harvardand{}
   Phillips}{2009}{Wilson:etal:2009:status}
@@ -413,13 +440,13 @@ with contributions~from Kevin~Wright, S.H. \harvardand{} Leidi., A.A.
 Worm, B., Barbier, E., Beaumont, N. \emph{et~al.} \harvardyearleft
   2006\harvardyearright{}.
 \newblock Impacts of Biodiversity Loss on Ocean Ecosystem Services.
-\newblock \emph{Science (Washington)} 314, 787--790.
+\newblock \emph{Science} 314, 787--790.
 
 \harvarditem[Worm \emph{et~al.}]{Worm, Hilborn, Baum
   \emph{et~al.}}{2009}{Worm:etal:2009:science}
 Worm, B., Hilborn, R., Baum, J.K. \emph{et~al.} \harvardyearleft
   2009\harvardyearright{}.
 \newblock Rebuilding global fisheries.
-\newblock \emph{Science (Washington)} 325, 578--585.
+\newblock \emph{Science} 325, 578--585.
 
 \end{thebibliography}

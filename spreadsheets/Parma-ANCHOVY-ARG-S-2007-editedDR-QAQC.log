@@ -1,0 +1,8 @@
+psql:../spreadsheets/Parma-ANCHOVY-ARG-S-2007-editedDR-QAQC.sql:8: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...LUES('INIDEP-ARGANCHOSARG-1992-2007-Parma', 'T1', 'Modelo de...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
+psql:../spreadsheets/Parma-ANCHOVY-ARG-S-2007-editedDR-QAQC.sql:9: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...LUES('INIDEP-ARGANCHOSARG-1992-2007-Parma', 'VL', 'Inf. T\\'...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

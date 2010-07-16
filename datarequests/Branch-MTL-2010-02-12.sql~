@@ -1,5 +1,5 @@
 -- SQL code to extract data for Trevor Branch's Mean Trophic Level paper
--- Time-stamp: <Last modified: 26 FEBRUARY   (srdbadmin)>
+-- Time-stamp: <Last modified: 1 MARCH   (srdbadmin)>
 --
 -- this data request is handled by a Poi issue on RAMlegacy:
 -- http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/440
@@ -12,6 +12,7 @@
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100224.csv
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100225.csv
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100226.csv
+-- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100301.csv
 
 
 select fb.taxonkey as sauptaxonkey,  '"' || fb.taxonnom_taxonname || '"'  as saupname,   '"' || tt.scientificname || '"' as scientificname,  '"' || tt.commonname1 || '"' as commonname, '"' || ar.areaname || '"' as areaname,  '"' || lr.lme_name || '"' as primarylme,  '"' || vv.assessid || '"' as assessid, vv.tsyear, vv.total,  '"' || uv.total_unit || '"' as total_unit, vv.ssb,  '"' || uv.ssb_unit || '"' as ssb_unit

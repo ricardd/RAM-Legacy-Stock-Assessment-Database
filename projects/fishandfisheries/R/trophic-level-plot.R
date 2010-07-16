@@ -1,6 +1,6 @@
 ##
 ##
-## Last modified Time-stamp: <2010-06-30 15:11:44 (srdbadmin)>
+## Last modified Time-stamp: <2010-07-15 15:25:20 (srdbadmin)>
 ##
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
@@ -20,10 +20,10 @@ sci.names <- sqlQuery(chan, qu)
 crosshair.tl <- read.table("crosshair.dat")
 
 
-crosshair.tl$quadrant[crosshair.tl$b.ratio<1 & crosshair.tl$u.ratio>1] <- 1
-crosshair.tl$quadrant[crosshair.tl$b.ratio>1 & crosshair.tl$u.ratio>1] <- 2
-crosshair.tl$quadrant[crosshair.tl$b.ratio<1 & crosshair.tl$u.ratio<1] <- 3
-crosshair.tl$quadrant[crosshair.tl$b.ratio>1 & crosshair.tl$u.ratio<1] <- 4
+crosshair.tl$quadrant[crosshair.tl$ratio.x<1 & crosshair.tl$ratio.y>1] <- 1
+crosshair.tl$quadrant[crosshair.tl$ratio.x>1 & crosshair.tl$ratio.y>1] <- 2
+crosshair.tl$quadrant[crosshair.tl$ratio.x<1 & crosshair.tl$ratio.y<1] <- 3
+crosshair.tl$quadrant[crosshair.tl$ratio.x>1 & crosshair.tl$ratio.y<1] <- 4
 
 crosshair.m <- merge(crosshair.tl, sci.names, "assessid")
 crosshair.merged <- merge(crosshair.m, tl.data, "scientificname")
@@ -63,6 +63,8 @@ n2 <- dim(crosshair.merged[crosshair.merged$quadrant==2,])[1]
 n3 <- dim(crosshair.merged[crosshair.merged$quadrant==3,])[1]
 n4 <- dim(crosshair.merged[crosshair.merged$quadrant==4,])[1]
 
+
+## TREVOR BRANCH COMMENT: I would suggest two XY plots of MTL vs. U/Umsy and MTL vs. B/Bmsy to display the relationship, if any. Or else vertical histograms instead of boxplots. 
 
 pdf("TL-quadrant-srdb.pdf", width=8, height=10)
 #beanplot(TL~quadrant,data=crosshair.merged,horizontal=FALSE,xlab="",ylab="Mean trophic level",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE)

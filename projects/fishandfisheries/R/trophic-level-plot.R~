@@ -1,11 +1,14 @@
 ##
 ##
-## Last modified Time-stamp: <2010-05-20 11:58:15 (srdbadmin)>
+## Last modified Time-stamp: <2010-06-30 15:11:44 (srdbadmin)>
 ##
-setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(beanplot)
 require(RODBC)
+
+tl.data.pinsky <- read.csv("lh2010-06-24.csv", header=TRUE)
+tl.data.pinsky$scientificname <- tl.data.pinsky$spp
 
 tl.data <- read.csv("BRANCH-Assessment-TLs-v4.csv", header=TRUE)
 chan<- odbcConnect(dsn="srdbcalo")
@@ -13,7 +16,6 @@ chan<- odbcConnect(dsn="srdbcalo")
 
 qu <- paste("select a.assessid, t.scientificname from srdb.assessment a, srdb.stock s, srdb.taxonomy t where a.stockid=s.stockid and s.tsn=t.tsn and a.recorder != 'MYERS' and a.assess=1")
 sci.names <- sqlQuery(chan, qu)
-odbcClose(chan)
 
 crosshair.tl <- read.table("crosshair.dat")
 
@@ -26,8 +28,35 @@ crosshair.tl$quadrant[crosshair.tl$b.ratio>1 & crosshair.tl$u.ratio<1] <- 4
 crosshair.m <- merge(crosshair.tl, sci.names, "assessid")
 crosshair.merged <- merge(crosshair.m, tl.data, "scientificname")
 
+crosshair.merged.pinsky <- merge(crosshair.m, tl.data.pinsky, "scientificname")
+
+
+nn <- range(crosshair.merged$TL)[1]
+
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:MINTL'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:MINTL',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+nn <- range(crosshair.merged$TL)[2]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:MAXTL'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:MAXTL',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+nn <- mean(crosshair.merged$TL)
+  nn <- round(nn,2)
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:MEANTL'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:MEANTL',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+
 nn<- dim(crosshair.merged)[[1]]
 ## crosshair.tl$TL <- rnorm(nn, 4,0.7) ## NEED FISHBASE DATA HERE
+
+odbcClose(chan)
+
 
 n1 <- dim(crosshair.merged[crosshair.merged$quadrant==1,])[1]
 n2 <- dim(crosshair.merged[crosshair.merged$quadrant==2,])[1]
@@ -36,7 +65,10 @@ n4 <- dim(crosshair.merged[crosshair.merged$quadrant==4,])[1]
 
 
 pdf("TL-quadrant-srdb.pdf", width=8, height=10)
-beanplot(TL~quadrant,data=crosshair.merged,horizontal=FALSE,xlab="",ylab="Mean trophic level",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE)
+#beanplot(TL~quadrant,data=crosshair.merged,horizontal=FALSE,xlab="",ylab="Mean trophic level",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE)
+
+boxplot(TL~quadrant,data=crosshair.merged,xlab="",ylab="Mean trophic level", varwidth=TRUE, names=FALSE)
+
 par(las=1)
 mtext(bquote(italic("Below Bmsy")), side=1, outer = FALSE, line=1,at=1)
 mtext(bquote(italic("Above Umsy")), side=1, outer = FALSE, line=2,at=1)
@@ -54,6 +86,7 @@ mtext(bquote(italic("Above Bmsy")), side=1, outer = FALSE, line=1,at=4)
 mtext(bquote(italic("Below Umsy")), side=1, outer = FALSE, line=2,at=4)
 mtext(paste("n=",n4,sep=""), side=1, outer = FALSE, line=3,at=4)
 dev.off()
+
 
 
 topright <- data.frame(type=rep("topright",50), value = rnorm(50,3,0.7))

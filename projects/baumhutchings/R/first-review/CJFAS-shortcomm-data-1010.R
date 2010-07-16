@@ -1,5 +1,5 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2010-06-02 23:00:15 (srdbadmin)>
+# last modifieds Time-stamp: <2010-07-13 22:46:06 (srdbadmin)>
 
 #
 rm(list=ls())
@@ -65,8 +65,6 @@ n <- length(a)
 #",sep="")
 
 #dat.brp <- sqlQuery(chan,qu.brp)
-
-
 
 
 # print-friendly list of stocks by geographic region for supplementary materials

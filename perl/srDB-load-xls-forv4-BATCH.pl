@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2009-03-13 14:11:48 (ricardd)>
+# Last modified: Time-stamp: <2010-07-15 23:36:20 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -13,7 +13,7 @@
 
 use strict;
 use Spreadsheet::ParseExcel;
-use DateTime::Format::Excel;
+# use DateTime::Format::Excel;
 
 use POSIX qw(strftime);
 use DBI;
@@ -67,7 +67,7 @@ $stockid = $oWkS->{Cells}[12][3]->Value;
 $recorder = $oWkS->{Cells}[18][3]->Value;
 $daterecorded = $oWkS->{Cells}[19][3]->Value;
 
-$excel = DateTime::Format::Excel->new();
+#$excel = DateTime::Format::Excel->new();
 
 #$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
 $formatteddaterecorded = $daterecorded ;

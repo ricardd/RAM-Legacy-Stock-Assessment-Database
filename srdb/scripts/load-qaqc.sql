@@ -15,7 +15,7 @@ qaqc BOOLEAN -- is the assessment QA/QCed?
 
 
 COPY srdb.qaqc
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/qaqc.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/qaqc.dat'
 CSV HEADER 
 ;
 

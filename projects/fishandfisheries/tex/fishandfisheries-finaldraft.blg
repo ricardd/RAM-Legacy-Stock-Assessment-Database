@@ -4,44 +4,44 @@ The style file: fishandfisheriesBST.bst
 A level-1 auxiliary file: temptable.aux
 A level-1 auxiliary file: Figures.aux
 Database file #1: ./fishfisheries.bib
-You've used 63 entries,
+You've used 66 entries,
             2914 wiz_defined-function locations,
-            1005 strings with 16770 characters,
-and the built_in function-call counts, 38827 in all, are:
-= -- 3402
-> -- 1652
-< -- 74
-+ -- 786
-- -- 450
-* -- 2815
-:= -- 5812
-add.period$ -- 184
-call.type$ -- 63
-change.case$ -- 408
-chr.to.int$ -- 59
-cite$ -- 63
-duplicate$ -- 2604
-empty$ -- 2769
-format.name$ -- 702
-if$ -- 7751
+            1019 strings with 17700 characters,
+and the built_in function-call counts, 41095 in all, are:
+= -- 3596
+> -- 1807
+< -- 72
++ -- 864
+- -- 492
+* -- 2995
+:= -- 6157
+add.period$ -- 193
+call.type$ -- 66
+change.case$ -- 432
+chr.to.int$ -- 62
+cite$ -- 66
+duplicate$ -- 2726
+empty$ -- 2900
+format.name$ -- 758
+if$ -- 8210
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 536
-newline$ -- 315
-num.names$ -- 317
-pop$ -- 1225
+missing$ -- 568
+newline$ -- 330
+num.names$ -- 333
+pop$ -- 1331
 preamble$ -- 1
-purify$ -- 399
+purify$ -- 424
 quote$ -- 0
-skip$ -- 1434
+skip$ -- 1525
 stack$ -- 0
-substring$ -- 1763
-swap$ -- 1402
+substring$ -- 1835
+swap$ -- 1426
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 744
+type$ -- 776
 warning$ -- 0
-while$ -- 266
+while$ -- 277
 width$ -- 0
-write$ -- 823
+write$ -- 865

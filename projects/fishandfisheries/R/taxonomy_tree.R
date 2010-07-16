@@ -3,7 +3,7 @@
 ## to the number of assessments
 ## DR, CM
 ## date: Fri Dec  4 15:47:22 AST 2009
-## Time-stamp: <Last modified: 3 DECEMBER 2009  (mintoc)>
+## Time-stamp: <2010-07-15 05:14:51 (mintoc)>
 ##-----------------------------------------------------------------------------
 
 require(RODBC); require(ape); require(gsubfn); require(IDPmisc)
@@ -15,6 +15,8 @@ taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock w
 
 taxo.dat<-sqlQuery(mychan, taxo.qu)
 taxo.dat<-taxo.dat[order(taxo.dat$scientificname),]
+## output this data for Coilin
+## write.table(taxo.dat, "./taxo_dat.csv", row.names=FALSE, sep=",")
 ##taxo.dat[length(taxo.dat[,1]),]<-NA
 
 ##levels(taxo.dat[length(taxo.dat[,1]),"kingdom"])<-as.factor(c("Animalia","1"))

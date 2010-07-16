@@ -13,7 +13,7 @@ tsid VARCHAR(40) REFERENCES srdb.tsmetrics(tsunique)
 -- NOTE: to generate the initial list of entries for this data table, I actually ran a query on the underlying tables, see "get-data-for-brptots.sql"
 
 COPY srdb.brptots
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/reference-points-to-timeseries.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/reference-points-to-timeseries.dat'
 CSV HEADER 
 ;
 

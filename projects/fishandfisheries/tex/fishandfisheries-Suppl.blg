@@ -1,51 +1,51 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: fishandfisheries-Suppl.aux
 A level-1 auxiliary file: Table-S1-formatted.aux
-White space in argument---line 176 of file Table-S1-formatted.aux
+White space in argument---line 175 of file Table-S1-formatted.aux
  : \citation{AFSC-SABLEFEBSAIGA-2008-Sablefish
  :                                             EBS AI GA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 197 of file Table-S1-formatted.aux
+White space in argument---line 196 of file Table-S1-formatted.aux
  : \citation{AFSC-PCODBSAI-2008-Pacific
  :                                      cod BSAI.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 198 of file Table-S1-formatted.aux
+White space in argument---line 197 of file Table-S1-formatted.aux
  : \citation{AFSC-PCODGA-2008-Pacific
  :                                    cod GA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 207 of file Table-S1-formatted.aux
+White space in argument---line 206 of file Table-S1-formatted.aux
  : \citation{AtlanticHalibut5YZ2008.pdf
  :                                      .pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 213 of file Table-S1-formatted.aux
+White space in argument---line 212 of file Table-S1-formatted.aux
  : \citation{AFSC-YSOLEBSAI-2008-Yellowfin
  :                                         sole BSAI.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 253 of file Table-S1-formatted.aux
+White space in argument---line 252 of file Table-S1-formatted.aux
  : \citation{AFSC-ALPLAICBSAI-2008-Alaska
  :                                        plaice BSAI.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 259 of file Table-S1-formatted.aux
+White space in argument---line 258 of file Table-S1-formatted.aux
  : \citation{NWFSC-LNOSESKAPCOAST-2008-Longnose
  :                                              skate.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 261 of file Table-S1-formatted.aux
- : \citation{NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth
- :                                                flounder.pdf}
-I'm skipping whatever remains of this command
-White space in argument---line 262 of file Table-S1-formatted.aux
+White space in argument---line 260 of file Table-S1-formatted.aux
  : \citation{AFSC-ARFLOUNDBSAI-2007-Arrowtooth
  :                                             flounder BSAI.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 267 of file Table-S1-formatted.aux
+White space in argument---line 262 of file Table-S1-formatted.aux
+ : \citation{NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth
+ :                                                flounder.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 266 of file Table-S1-formatted.aux
  : \citation{2008
  :                pac sardine.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 279 of file Table-S1-formatted.aux
+White space in argument---line 278 of file Table-S1-formatted.aux
  : \citation{2008
  :                SAFE BSAIrougheye.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 280 of file Table-S1-formatted.aux
+White space in argument---line 279 of file Table-S1-formatted.aux
  : \citation{AFSC-RYEROCKGA-2008-Rougheye
  :                                        rockfish GA.pdf}
 I'm skipping whatever remains of this command
@@ -57,35 +57,35 @@ White space in argument---line 282 of file Table-S1-formatted.aux
  : \citation{NWFSC-POPERCHPCOAST-2007-Pacific
  :                                            ocean perch.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 286 of file Table-S1-formatted.aux
+White space in argument---line 285 of file Table-S1-formatted.aux
  : \citation{NWFSC-DKROCKPCOAST-2008-Darkblotched
  :                                                rockfish.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 290 of file Table-S1-formatted.aux
+White space in argument---line 289 of file Table-S1-formatted.aux
  : \citation{NWFSC-CHILISPCOAST-2007-Chilipepper
  :                                               CA OR.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 291 of file Table-S1-formatted.aux
+White space in argument---line 290 of file Table-S1-formatted.aux
  : \citation{SWFSC-SBELLYROCKPCOAST-2007-Shortbelly
  :                                                  rockfish.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 292 of file Table-S1-formatted.aux
+White space in argument---line 291 of file Table-S1-formatted.aux
  : \citation{NWFSC-COWCODSCAL-2007-Cowcod
  :                                        CA.pdf}
+I'm skipping whatever remains of this command
+White space in argument---line 292 of file Table-S1-formatted.aux
+ : \citation{NWFSC-BLACKROCKNPCOAST-2007-Black
+ :                                             rockfish NOR WA.pdf}
 I'm skipping whatever remains of this command
 White space in argument---line 293 of file Table-S1-formatted.aux
  : \citation{NWFSC-BLACKROCKSPCOAST-2007-Black
  :                                             rockfish OR CA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 294 of file Table-S1-formatted.aux
- : \citation{NWFSC-BLACKROCKNPCOAST-2007-Black
- :                                             rockfish NOR WA.pdf}
-I'm skipping whatever remains of this command
-White space in argument---line 296 of file Table-S1-formatted.aux
+White space in argument---line 295 of file Table-S1-formatted.aux
  : \citation{NWFSC-BLUEROCKCAL-2007-Blue
  :                                       rockfish CA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 297 of file Table-S1-formatted.aux
+White space in argument---line 296 of file Table-S1-formatted.aux
  : \citation{NWFSC-BOCACCSPCOAST-2007
  :                                    Bocaccio.pdf}
 I'm skipping whatever remains of this command
@@ -93,19 +93,19 @@ White space in argument---line 299 of file Table-S1-formatted.aux
  : \citation{AFSC-NROCKGA-2008-Northern
  :                                      rockfish GA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 302 of file Table-S1-formatted.aux
+White space in argument---line 301 of file Table-S1-formatted.aux
  : \citation{AFSC-DUSROCKGA-2008-Dusky
  :                                     rockfish GA.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 311 of file Table-S1-formatted.aux
+White space in argument---line 310 of file Table-S1-formatted.aux
  : \citation{AFSC-WPOLLAI-2008-Walleye
  :                                     pollock AI.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 312 of file Table-S1-formatted.aux
+White space in argument---line 311 of file Table-S1-formatted.aux
  : \citation{AFSC-WPOLLEBS-2008-Walleye
  :                                      pollock EBS.pdf}
 I'm skipping whatever remains of this command
-White space in argument---line 313 of file Table-S1-formatted.aux
+White space in argument---line 312 of file Table-S1-formatted.aux
  : \citation{AFSC-WPOLLGA-2008-Walleye
  :                                     pollock GA.pdf}
 I'm skipping whatever remains of this command
@@ -126,8 +126,8 @@ Warning--I didn't find a database entry for ".pdf"
 Warning--I didn't find a database entry for "2009-ASMFC-Am-Lob.pdf"
 Warning--I didn't find a database entry for "2008_SAFE_BSAIrocksole.pdf"
 Warning--I didn't find a database entry for "2004_ASMFC_AtlCroak.pdf"
-Warning--I didn't find a database entry for "2005-SAFE-WCdover.pdf"
 Warning--I didn't find a database entry for "2007_SAFE_GOAdeepflat.pdf"
+Warning--I didn't find a database entry for "2005-SAFE-WCdover.pdf"
 Warning--I didn't find a database entry for "07AssessmentReport.pdf"
 Warning--I didn't find a database entry for "2003_SEDAR_Yellowtailsnapper.pdf"
 Warning--I didn't find a database entry for "2005-SAFE-WClingcod.pdf"
@@ -154,9 +154,7 @@ Warning--missing institution in ATOOTHFISHRS.pdf
 Warning--missing institution in Hansen-ANCHOVY-N-2007.pdf
 Warning--missing institution in Hansen-ANCHOVY-S-2007.pdf
 Warning--missing institution in Giussi-hoki-2007.pdf
-Warning--empty title in Irusta-hake-N-2007.pdf
 Warning--missing institution in Irusta-hake-N-2007.pdf
-Warning--empty title in Renzi-hake-S-2009.pdf
 Warning--missing institution in Renzi-hake-S-2009.pdf
 Warning--missing institution in Giussi-polaca-2007.pdf
 Warning--missing institution in Branch-SA-Toothfish-2007.pdf
@@ -177,10 +175,9 @@ Warning--empty year in deMoorSASardineAssessment-Sep07.pdf
 Warning--missing institution in Johnston-SAHorseMackerel-2007.pdf
 Warning--empty year in Johnston-SAHorseMackerel-2007.pdf
 Warning--missing institution in NAFO-HERR4VWX-2006.pdf
-Warning--missing institution in NAFO-HERR4RFA-2004.pdf
 Warning--missing institution in NAFO-HERR4RSP-2004.pdf
 Warning--missing institution in NAFO-HERR4TFA-2007.pdf
-Warning--missing institution in NAFO-HERR4T-2007.pdf
+Warning--missing institution in RES2007_002_e.pdf
 Warning--missing institution in NAFO-COD5Zjm-2003.pdf
 Warning--missing institution in DFO-COD2J3KLIS-2006.pdf
 Warning--missing institution in DFO-COD3Ps-2004.pdf
@@ -200,8 +197,8 @@ Warning--empty author in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in ref2008-BFT-STOCK-ASSESS-REP.pdf
 Warning--missing institution in ICCAT-Mediterranean-Xiphiasgladius-2007.pdf
-Warning--empty author in JENSEN_SWORDSATL-2007.pdf
-Warning--missing institution in JENSEN_SWORDSATL-2007.pdf
+Warning--empty author in JENSEN-SWORDSATL-2007.pdf
+Warning--missing institution in JENSEN-SWORDSATL-2007.pdf
 Warning--missing institution in ICES-WGNSSK-2007.pdf
 Warning--missing institution in ICES-HAWG-2007.pdf
 Warning--missing institution in ICES-WGBFAS-2007.pdf
@@ -217,13 +214,12 @@ Warning--missing institution in ICES-WGMHSA07.pdf
 Warning--empty author in JENSEN_BIGEYEIO-2007.pdf
 Warning--missing institution in JENSEN_BIGEYEIO-2007.pdf
 Warning--missing institution in hare-clark08.pdf
-Warning--missing institution in NAFO-3NO-COD-2007.pdf
 Warning--missing institution in NAFO-3M-COD-2008.pdf
+Warning--missing institution in NAFO-3NO-COD-2007.pdf
 Warning--missing institution in NAFO-GrandBanks-AmPlaice-2007.pdf
 Warning--missing institution in NAFO-AMPL3M-2008.pdf
 Warning--missing institution in NAFO-YELL3LNO-2008.pdf
 Warning--missing institution in NAFO-3LN-Redfishspp-2008.pdf
-Warning--missing institution in NAFO-RED3LN-2007.pdf
 Warning--missing institution in NAFO-RED3M-2007.pdf
 Warning--missing institution in NAFO-GHAL23KLMNO-2007.pdf
 Warning--missing institution in NWFSC-SABLEFPCOAST-2007-Sablefish.pdf
@@ -297,45 +293,45 @@ Warning--missing institution in SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf
 Warning--missing institution in JENSEN_ALBWPO_2008.pdf
 Warning--missing institution in WCPFC-SC3-SA-SWG-WP-01.pdf
 Warning--missing institution in SC4-SA-WP1-rev1-bigeye-tuna.pdf
-You've used 140 entries,
+You've used 138 entries,
             2490 wiz_defined-function locations,
-            1193 strings with 28063 characters,
-and the built_in function-call counts, 36465 in all, are:
-= -- 1960
-> -- 1025
+            1187 strings with 28223 characters,
+and the built_in function-call counts, 35851 in all, are:
+= -- 1936
+> -- 991
 < -- 30
-+ -- 413
-- -- 273
-* -- 1753
-:= -- 4040
-add.period$ -- 391
-call.type$ -- 140
-change.case$ -- 125
++ -- 401
+- -- 263
+* -- 1712
+:= -- 3968
+add.period$ -- 387
+call.type$ -- 138
+change.case$ -- 123
 chr.to.int$ -- 0
-cite$ -- 289
-duplicate$ -- 4359
-empty$ -- 3369
-format.name$ -- 339
-if$ -- 7377
+cite$ -- 283
+duplicate$ -- 4289
+empty$ -- 3323
+format.name$ -- 327
+if$ -- 7261
 int.to.chr$ -- 0
-int.to.str$ -- 140
-missing$ -- 1306
-newline$ -- 680
-num.names$ -- 130
-pop$ -- 2532
+int.to.str$ -- 138
+missing$ -- 1282
+newline$ -- 672
+num.names$ -- 128
+pop$ -- 2488
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 659
+skip$ -- 652
 stack$ -- 0
 substring$ -- 320
-swap$ -- 2892
+swap$ -- 2842
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 149
-while$ -- 160
-width$ -- 143
-write$ -- 1440
+warning$ -- 145
+while$ -- 158
+width$ -- 141
+write$ -- 1422
 (There were 27 error messages)

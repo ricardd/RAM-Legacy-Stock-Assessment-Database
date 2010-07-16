@@ -27,7 +27,7 @@ stocktolmerelation VARCHAR(10) -- PRIMARY, SECONDARY, TERTIARY
 
 
 COPY srdb.lmetostocks
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/lmetostocks.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/lmetostocks.dat'
 CSV HEADER 
 ;
 

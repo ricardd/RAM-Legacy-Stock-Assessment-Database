@@ -5,14 +5,14 @@
 %
 % Modification history:
 %
-% Last modified: Time-stamp: <2010-05-07 18:44:57 (srdbadmin)> 
+% Last modified: Time-stamp: <2010-07-13 10:47:33 (srdbadmin)> 
 
 @string{cjfas = "Canadian Journal of Fisheries and Aquatic Sciences"}
 @string{meps = "Marine Ecology Progress Series"}
 @string{jfishb = "Journal of Fish Biology"}
 @string{ices = "ICES Journal of Marine Science"}
-@string{science = "Science (Washington)"}
-@string{nature = "Nature (London)"}
+@string{science = "Science"} % (Washington)
+@string{nature = "Nature"} % (London)
 @string{procnatacadsci = "Proceedings of the National Academy of Science"}
 @string{marpol = "Marine Policy"}
 @string{fandf = "Fish and Fisheries"}
@@ -22,8 +22,11 @@
 @string{fishbull = "Fishery Bulletin"}
 @string{najfm = "North American Journal of Fisheries Management"}
 @string{biosci = "BioScience"}
-
-
+@string{philtrroysocB = "Philosophical Transactions of the Royal Society B"}
+@string{reviews = "Reviews in Fish Biology and Fisheries"}
+@string{procb = "Proceedings of the Royal Society B"}
+@string{tree = "Trends in Ecology and Evolution"}
+@string{fishres = "Fisheries Research"}
 
 @Article{Costello:etal:2008:science,
   author = 	 {Costello, Chris and Gaines, Steven D. and Lynham, John},
@@ -32,7 +35,7 @@
   year = 	 {2008},
   OPTkey = 	 {},
   volume = 	 {321},
-  number = 	 {5896},
+  OPTnumber = 	 {5896},
   pages = 	 {1678--1681},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -46,7 +49,7 @@
   year = 	 {2008},
   OPTkey = 	 {},
   volume = 	 {319},
-  number = 	 {5865},
+  OPTnumber = 	 {5865},
   pages = 	 {948--952},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -91,7 +94,7 @@
   year = 	 {2005},
   OPTkey = 	 {},
   volume = 	 {308},
-  number = 	 {5728},
+  OPTnumber = 	 {5728},
   pages = 	 {1621--1623},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -103,7 +106,7 @@
   author={Myers, R.A. and Baum, J.K. and Shepherd, T.D. and Powers, S.P. and Peterson, C.H.},
   journal={Science},
   volume={315},
-  number={5820},
+  OPTnumber={5820},
   pages={1846--1850},
   year={2007},
   publisher={AAAS}
@@ -116,7 +119,7 @@
   year = 	 {2006},
   OPTkey = 	 {},
   volume = 	 {103},
-  number = 	 {9},
+  OPTnumber = 	 {9},
   pages = 	 {3171--3175},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -145,7 +148,7 @@
   year = 	 {1998},
   OPTkey = 	 {},
   volume = 	 {279},
-  number = 	 {5352},
+  OPTnumber = 	 {5352},
   pages = 	 {860--863},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -153,7 +156,7 @@
 }
 
 @Article{branch:2008:marpol,
-  author = 	 {Branch, T.A.},
+  author = 	 {Branch, Trevor A.},
   title = 	 {Not all fisheries will be collapsed in 2048.},
   journal = 	 marpol,
   year = 	 {2008},
@@ -174,7 +177,7 @@
   year = 	 {1994},
   OPTkey = 	 {},
   volume = 	 {51},
-  number = 	 {1},
+  OPTnumber = 	 {1},
   pages = 	 {110--122},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -192,6 +195,15 @@
   OPTannote = 	 {}
 }
 
+@Misc{FAO:sofia,
+  author = 	 {FAO},
+  title = 	 {The State of World Fisheries and Aquaculture ({SOFIA}) report 2008},
+  OPThowpublished = {},
+  OPTmonth = 	 {},
+  year = 	 {2009},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
 
 @Misc{FAO:fishstat,
   author = 	 {FAO},
@@ -224,10 +236,10 @@
 @Misc{postgresql:2009,
   OPTkey = 	 {},
   author = 	 {{PostgreSQL Global Development Group}},
-  title = 	 {PostgreSQL, version 8.3.8. http://www.postgresql.org},
+  title = 	 {PostgreSQL, version 8.4.4. http://www.postgresql.org},
   OPThowpublished = {},
   OPTmonth = 	 {},
-  year = 	 {2009},
+  year = 	 {2010},
   OPTnote = 	 {},
   OPTannote = 	 {}
 }
@@ -315,7 +327,7 @@
   year = 	 {2007},
   OPTkey = 	 {},
   volume = 	 {17},
-  number = 	 {7},
+  OPTnumber = 	 {7},
   pages = 	 {655--658},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -376,7 +388,7 @@
   year = 	 {2008},
   OPTkey = 	 {},
   volume = 	 {105},
-  number = 	 {7},
+  OPTnumber = 	 {7},
   pages = 	 {2740--2744},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -416,7 +428,7 @@
   year = 	 {2003},
   OPTkey = 	 {},
   volume = 	 {60},
-  number = 	 {12},
+  OPTnumber = 	 {12},
   pages = 	 {1433--1436},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -460,7 +472,7 @@
   year = 	 {2006},
   OPTkey = 	 {},
   volume = 	 {314},
-  number = 	 {5806},
+  OPTnumber = 	 {5806},
   pages = 	 {1773--1776},
   OPTmonth = 	 {},
   OPTnote = 	 {},
@@ -595,7 +607,7 @@ Year = {2003}
 
 @Article{Murawski:Methot:Tromble:2007:science,
 Author = {Murawski, S. and Methot, R. and Tromble, G.},
-Title = {Letter to the editors of Science},
+Title = {Biodiversity Loss in the Ocean: How Bad Is It?},
 Journal = science,
 Volume = {316},
 Pages = {1281},
@@ -607,7 +619,7 @@ Year = {2007}
   author={Hilborn, R.W.},
   journal=science,
   volume={316},
-  number={5829},
+  OPTnumber={5829},
   pages={1281},
   year={2007}
 }
@@ -637,7 +649,7 @@ Author = {Barbrook, A.C. and Howe, C.J. and Blake, N. and Robinson, P.},
 Title = {The phylogeny of the Canterbury Tales},
 Journal = nature,
 Volume = {394},
-Number = {6696},
+OPTNumber = {6696},
 Pages = {839},
 Year = {1998} 
 }
@@ -647,7 +659,7 @@ Year = {1998}
   author={Pauly, D. and Christensen, V. and Gu{\'e}nette, S. and Pitcher, T.J. and Sumaila, U.R. and Walters, C.J. and Watson, R. and Zeller, D.},
   journal=nature,
   volume={418},
-  number={6898},
+  OPTnumber={6898},
   pages={689--695},
   year={2002}
 }
@@ -657,7 +669,7 @@ Year = {1998}
   author={Pitcher, T.J. and Watson, R. and Forrest, R. and Valtysson, H.P. and Guenette, S.},
   journal={Fish and Fisheries},
   volume={3},
-  number={4},
+  OPTnumber={4},
   pages={317--339},
   year={2002}
 }
@@ -666,7 +678,7 @@ Year = {1998}
   author={Walters, C. and Maguire, J.J.},
   journal={Reviews in Fish Biology and Fisheries},
   volume={6},
-  number={2},
+  OPTnumber={2},
   pages={125--137},
   year={1996},
   publisher={Springer}
@@ -681,11 +693,12 @@ Year = {1998}
 }
 
 
-@TechReport{NOAA:LME64:1998,
-  author = 	 {{NOAA}},
-  title = 	 {Large Marine Ecosystems},
+@book{NOAA:LME64:1998,
+  editor = 	 {Sherman, K. and Alexander, L.M. and Gold, B.D.},
+  title = 	 {{Large Marine Ecosystems}: stress, mitigation, and sustainability},
   institution =  {National Oceanic and Atmospheric Administration},
-  year = 	 {1998},
+  year = 	 {1993},
+  publisher = 	 {AAAS Press},
   OPTkey = 	 {},
   OPTtype = 	 {},
   OPTnumber = 	 {},
@@ -702,9 +715,9 @@ Year = {1998}
   journal = 	 fandf,
   year = 	 {2010},
   OPTkey = 	 {},
-  volume = 	 {(in press)},
-  OPTnumber = 	 {},
-  OPTpages = 	 {},
+  volume = 	 {11},
+  OPTnumber = 	 {2},
+  pages = 	 {194--202},
   OPTmonth = 	 {},
   OPTnote = 	 {},
   OPTannote = 	 {}
@@ -749,6 +762,227 @@ Statistical Computing},
   volume = 	 {72},
   OPTnumber = 	 {},
   pages = 	 {441},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@Article{Myers:etal:2001:cjfas,
+  author = 	 {Myers, R.A. and MacKenzie, B.R. and Bowen, B.W. and Barrowman, N.J.},
+  title = 	 {What is the carrying capacity for fish in the ocean? A meta-analysis of population dynamics of North Atlantic cod},
+  journal = 	 cjfas,
+  year = 	 {2002},
+  OPTkey = 	 {},
+  volume = 	 {58},
+  OPTnumber = 	 {},
+  pages = 	 {1464--1476},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Manual{R:RODBC,
+  title = {RODBC: ODBC Database Access},
+  author = {Brian Ripley and and from 1999 to Oct 2002 Michael Lapsley},
+  year = {2009},
+  note = {R package version 1.3-1}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=RODBC}
+
+@Manual{R:KernSmooth,
+  title = {KernSmooth: Functions for kernel smoothing for Wand \& Jones (1995)},
+  author = {S original by Matt Wand. R port by Brian Ripley.},
+  year = {2009},
+  note = {R package version 2.23-2}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=KernSmooth}
+
+@Manual{R:gregmisc,
+  title = {gregmisc: Greg's Miscellaneous Functions},
+  author = {Gregory R. Warnes.},
+  year = {},
+  note = {R package version 2.1.1}
+}
+
+@Manual{R:xtable,
+  title = {xtable: Export tables to LaTeX or HTML},
+  author = {Dahl, David B. },
+  year = {2009},
+  note = {R package version 1.5-6}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=xtable}
+
+@Article{R:ape,
+  title = {APE: analyses of phylogenetics and evolution in {R} language},
+  author = {E. Paradis and J. Claude and K. Strimmer},
+  journal = {Bioinformatics},
+  year = {2004},
+  volume = {20},
+  pages = {289-290}
+}
+
+@Manual{R:gsubfn,
+  title = {gsubfn: Utilities for strings and function arguments.},
+  author = {G. Grothendieck},
+  year = {2010},
+  note = {R package version 0.5-2}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=gsubfn}
+
+@Manual{R:IDPmisc,
+  title = {IDPmisc: Utilities of Institute of Data Analyses and Process Design
+(www.idp.zhaw.ch)},
+  author = {Andreas Ruckstuhl and Thomas Unternaehrer and Rene Locher},
+  year = {2009},
+  note = {R package version 1.1.06}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=IDPmisc}
+
+@Manual{R:doBy,
+  title = {doBy: Groupwise computations of summary statistics, general linear
+contrasts and other utilities},
+  author = {Søren Højsgaard with contributions from Kevin Wright and Alessandro A. Leidi.},
+  year = {2010},
+  note = {R package version 4.0.6}
+}
+%,
+%  url = {http://CRAN.R-project.org/package=doBy}
+
+@Article{R:beanplot,
+  title = {Beanplot: A Boxplot Alternative for Visual Comparison of Distributions},
+  author = {Peter Kampstra},
+  journal = {Journal of Statistical Software, Code Snippets},
+  year = {2008},
+  volume = {28},
+  OPTnumber = {1},
+  pages = {1--9}
+}
+%,
+%  url = {http://www.jstatsoft.org/v28/c01/}
+
+@Article{Hutchings:Baum:2005:philB,
+  author = 	 {Hutchings, J.A. and Baum, J.K.},
+  title = 	 {Measuring marine fish biodiversity: temporal changes in abundance, life history and demography.},
+  journal = 	 philtrroysocB,
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {360},
+  OPTnumber = 	 {},
+  pages = 	 {315--338},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Hilborn:Liermann:1998:reviews,
+  author = 	 {Hilborn, R. and Liermann, M.},
+  title = 	 {Standing on the shoulders of giants: learning from experience in fisheries},
+  journal = reviews,
+  year = 	 {1998},
+  OPTkey = 	 {},
+  Tvolume = 	 {8},
+  OPTnumber = 	 {},
+  pages = 	 {273--283},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+ 8:273-283.
+
+
+@Article{Hutchings:2001:cjfas,
+  author = 	 {Hutchings, J.},
+  title = 	 {Conservation biology of marine fishes: perceptions and caveats regarding assignment of extinction risk},
+  journal = 	 cjfas,
+  year = 	 {2001},
+  OPTkey = 	 {},
+  volume = 	 {58},
+  OPTnumber = 	 {},
+  Tpages = 	 {108--121},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@Article{Pauly:1995:tree,
+  author = 	 {Pauly, Daniel},
+  title = 	 {Anecdotes and the shifting baseline syndrome of fisheries},
+  journal = 	 tree,
+  year = 	 {1995},
+  OPTkey = 	 {},
+  volume = 	 {10},
+  OPTnumber = 	 {10},
+  pages = 	 {430},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{SaenzArroyo:etal::2005:procB,
+  author = 	 {S{\'a}enz-Arroyo,Andrea and Roberts,Callum M. and Torre, Jorge and Cari{\~n}o-Olvera, Micheline and Enr{\'i}quez-Andrade, Roberto R.},
+  title = 	 {Rapidly shifting environmental baselines among fishers of the Gulf of California},
+  journal = 	 procB,
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {272},
+  OPTnumber = 	 {1575},
+  pages = 	 {1957--1962},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+ Science 282, 1383a (1998)
+
+@Article{Caddy:etal:1998:science,
+  author = 	 {Caddy, J.F. and Csirke and Garcia, S.M. and Grainger, R.J.R.},
+  title = 	 {How pervasive is "Fishing down marine food webs"},
+  journal = 	 science,
+  year = 	 {1998},
+  OPTkey = 	 {},
+  volume = 	 {282},
+  OPTnumber = 	 {},
+  pages = 	 {1383a},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@Article{Maunder:punt:2004:fishres,
+  author = 	 {Maunder, M. N. and A. E. Punt},
+  title = 	 {Standardizing catch and effort data: a review of recent approaches.},
+  journal = 	 fishres,
+  year = 	 {2004},
+  OPTkey = 	 {},
+  volume = 	 {70},
+  OPTnumber = 	 {},
+  pages = 	 {141--159},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{Minte-Vera:etal:2005:cjfas,
+  author = 	 {Minte-Vera, C. V. and Branch, T. A. and Stewart, I.J. and Dorn, M.W.},
+  title = 	 {Practical application of meta-analysis results: avoiding the double use of data.},
+  journal = 	 cjfas,
+  year = 	 {2005},
+  OPTkey = 	 {},
+  volume = 	 {62},
+  OPTnumber = 	 {},
+  pages = 	 {925--929},
   OPTmonth = 	 {},
   OPTnote = 	 {},
   OPTannote = 	 {}

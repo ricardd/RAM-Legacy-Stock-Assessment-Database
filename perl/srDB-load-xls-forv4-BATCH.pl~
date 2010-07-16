@@ -69,8 +69,8 @@ $daterecorded = $oWkS->{Cells}[19][3]->Value;
 
 $excel = DateTime::Format::Excel->new();
 
-$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
-
+#$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
+$formatteddaterecorded = $daterecorded ;
 
 #$assessyear = $oWkS->{Cells}[2][2]->Value;
 

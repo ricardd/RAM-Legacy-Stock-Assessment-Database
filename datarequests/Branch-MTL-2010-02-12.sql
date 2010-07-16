@@ -1,5 +1,5 @@
 -- SQL code to extract data for Trevor Branch's Mean Trophic Level paper
--- Time-stamp: <Last modified: 1 MARCH   (srdbadmin)>
+-- Time-stamp: <2010-07-13 16:11:32 (srdbadmin)>
 --
 -- this data request is handled by a Poi issue on RAMlegacy:
 -- http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/440
@@ -13,9 +13,12 @@
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100225.csv
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100226.csv
 -- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100301.csv
+-- psql srdb -A -F "," -f Branch-MTL-2010-02-12.sql > BRANCH-MTLrequest-20100713.csv
+--
+-- Modification history:
+-- 2010-07-13: Trevor is about to submit this paper and asked to add total catch and total landings
 
-
-select fb.taxonkey as sauptaxonkey,  '"' || fb.taxonnom_taxonname || '"'  as saupname,   '"' || tt.scientificname || '"' as scientificname,  '"' || tt.commonname1 || '"' as commonname, '"' || ar.areaname || '"' as areaname,  '"' || lr.lme_name || '"' as primarylme,  '"' || vv.assessid || '"' as assessid, vv.tsyear, vv.total,  '"' || uv.total_unit || '"' as total_unit, vv.ssb,  '"' || uv.ssb_unit || '"' as ssb_unit
+select fb.taxonkey as sauptaxonkey,  '"' || fb.taxonnom_taxonname || '"'  as saupname,   '"' || tt.scientificname || '"' as scientificname,  '"' || tt.commonname1 || '"' as commonname, '"' || ar.areaname || '"' as areaname,  '"' || lr.lme_name || '"' as primarylme,  '"' || vv.assessid || '"' as assessid, vv.tsyear, vv.total,  '"' || uv.total_unit || '"' as total_unit, vv.ssb,  '"' || uv.ssb_unit || '"' as ssb_unit, vv.catch_landings,  '"' || uv.catch_landings_unit || '"' as catch_landings_unit
 from srdb.taxonomy tt, srdb.stock ss, srdb.area ar, srdb.assessment aa, srdb.lmerefs lr, srdb.lmetostocks ls, srdb.newtimeseries_values_view vv, srdb.timeseries_units_view uv, srdb.fishbasesaupcodes fb 
 WHERE 
 fb.scientificname = tt.scientificname and

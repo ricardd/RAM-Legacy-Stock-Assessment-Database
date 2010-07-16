@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Database structure and advantages</TITLE>
+<META NAME="description" CONTENT="Database structure and advantages">
+<META NAME="keywords" CONTENT="fishandfisheries-finaldraft">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="fishandfisheries-finaldraft.css">
+
+<LINK REL="next" HREF="node6.html">
+<LINK REL="previous" HREF="node4.html">
+<LINK REL="up" HREF="node3.html">
+<LINK REL="next" HREF="node6.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html100"
+  HREF="node6.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html98"
+  HREF="node3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html92"
+  HREF="node4.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html101"
+  HREF="node6.html">Data integrity and quality</A>
+<B> Up:</B> <A NAME="tex2html99"
+  HREF="node3.html">Methods</A>
+<B> Previous:</B> <A NAME="tex2html93"
+  HREF="node4.html">The RAM Legacy database</A>
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00032000000000000000">
+Database structure and advantages</A>
+</H2>
+The database is implemented in the Open Source PostgreSQL relational
+database management system (RDBMS) postgresql:2009, and includes tables for the assessment metadata,
+time series values, time series units, and biometrics (a catch-all term
+for data, such as life history characteristics or BRPs, that are not
+part of a time series). The entity relationship diagram of the database and its component tables can be found in the Supplementary Materials.
+
+<P>
+RDBMSs form the server back-end to many applications of
+interest to ecologists, including web-clients and GIS software, and
+have a number of advantages over spreadsheet or flat text file data
+compilations.  First, housing stock assessments in an RDBMS allows
+multiple users to concurrently access and extract subsets of data in
+an efficient and reproducible manner. Second, with the development of
+Application Programming Interfaces (APIs) that allow analytical
+software to directly communicate and extract data from the database,
+a common data environment is established, independent of one's choice
+of analytical software (e.g., SAS:SAS ACCESS, Matlab: Matlab/Database,
+R:RDBI/RODBC, Perl:DBI, etc.).  Users familiar with Structured Query
+Language (SQL) can also query the database directly from their
+analytical software of choice and the same SQL query will extract the
+same data through each of these applications.  Third, data products
+tailored to specific projects can be generated and stored as dynamic
+(i.e., continually updated) ``views'' within the database.  These are
+typically rectangular, spreadsheet-like results of an expansive query
+of the relevant tables that can be readily read into all commonly-used
+analytical software.  The use of views is advantageous over
+manipulating spreadsheets or flat text files for importing into a
+specific analytic software, which runs the risk of losing data
+integrity (e.g. multiple copies) and becomes impractical with large,
+non-tabular datasets and multiple users.
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html100"
+  HREF="node6.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html98"
+  HREF="node3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html92"
+  HREF="node4.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html101"
+  HREF="node6.html">Data integrity and quality</A>
+<B> Up:</B> <A NAME="tex2html99"
+  HREF="node3.html">Methods</A>
+<B> Previous:</B> <A NAME="tex2html93"
+  HREF="node4.html">The RAM Legacy database</A></DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Stock-recruitment database administrator
+2010-07-15
+</ADDRESS>
+</BODY>
+</HTML>

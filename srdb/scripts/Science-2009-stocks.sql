@@ -2,7 +2,7 @@
 --
 -- a table to handle the stocks that were used in the 2009 Science paper
 -- Started: 2009-06-04
--- Last modified: Time-stamp: <Last modified: 24 FEBRUARY   (srdbadmin)>
+-- Last modified: Time-stamp: <2010-07-14 13:23:23 (srdbadmin)>
 
 DROP TABLE srdb.science2009stocks;
 CREATE TABLE srdb.science2009stocks (
@@ -11,7 +11,7 @@ assessid VARCHAR(200) UNIQUE REFERENCES srdb.assessment
 );
 
 COPY srdb.science2009stocks
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/Science-2009.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/Science-2009.dat'
 CSV HEADER
 ;
 
@@ -22,7 +22,7 @@ assessid VARCHAR(200) UNIQUE REFERENCES srdb.assessment
 );
 
 COPY srdb.science2009updated
-FROM '/home/srdbadmin/SQLpg/srdb/trunk/srdb/data/Science-2009-updated.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/Science-2009-updated.dat'
 CSV HEADER
 ;
 

@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2010-05-05 14:47:53 (srdbadmin)>
+-- Last modified: Time-stamp: <2010-07-13 14:39:59 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -281,6 +281,6 @@ CSV HEADER
 CREATE TABLE srdb.referencedoc (
 assessid VARCHAR(200) REFERENCES srdb.assessment,
 risfield VARCHAR(50) REFERENCES srdb.risfields,
-risentry VARCHAR(200) 
+risentry VARCHAR(300) 
 );
 

@@ -8,10 +8,10 @@ select distinct lme_number, lme_name from (select cast(lme_number as int), lme_n
 );
 
 -- add high seas areas
-INSERT INTO srdb.lmerefs VALUES (-99,'Pacific High Seas');
-INSERT INTO srdb.lmerefs VALUES (-98,'Atlantic High Seas');
-INSERT INTO srdb.lmerefs VALUES (-97,'Indian Ocean High Seas');
-INSERT INTO srdb.lmerefs VALUES (-96,'Subantarctic High Seas');
+--INSERT INTO srdb.lmerefs VALUES (-99,'Pacific High Seas');
+--INSERT INTO srdb.lmerefs VALUES (-98,'Atlantic High Seas');
+--INSERT INTO srdb.lmerefs VALUES (-97,'Indian Ocean High Seas');
+--INSERT INTO srdb.lmerefs VALUES (-96,'Subantarctic High Seas');
 
 
 ALTER TABLE srdb.lmerefs

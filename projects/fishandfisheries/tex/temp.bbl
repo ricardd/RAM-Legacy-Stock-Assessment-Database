@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\input{babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem{Giussi-polaca-2007.pdf}
+W{\"{o}}hler, O. \bbland{} Giussi, A.
+\newblock \emph{Evaluaci\'{o}n de la abundancia de polaca (\emph{Micromesistius
+  australis}) en el Atl\'{a}ntico Sudoccidental. Per\'{i}odo 1987-2007}.
+\newblock \bbltechrep{}, Mar del Plata, Argentina, 2008.
+
+\end{thebibliography}

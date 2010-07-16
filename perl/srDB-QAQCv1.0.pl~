@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for a loaded assessment
 # Cóilín Minto
 # date: Fri Nov 21 13:17:09 AST 2008
-# Time-stamp: <2010-03-23 12:22:51 (srdbadmin)>
+# Time-stamp: <2010-04-08 21:41:29 (srdbadmin)>
 # Modification history:
 # 2009-03-26: adding issue URL to the QA/QC report, this also required modifications to "srDB-QAQC-template.tex" (ricardd)
 # 2009-04-21: adding a timestamp to show when the document was created this also required modifications to "srDB-QAQC-template.tex" (ricardd)
@@ -10,7 +10,7 @@
 # 2009-05-14: changed the code a tiny bit so that pdf filenames with underscores are accepted both by "does this file exist" chaeck and to LaTex's requirement to use \\_
 # 2010-02-17: removed the unlink to the assessment-specific R file created (DR) to debug the R script, but then I unlinked it again 
 # 2010-03-18: added caret on index finder for reference points on lines 391-455 (CM).
-
+# 2010-04-08: adding SSB-sex to the life-history table, I found a few errors on this in the QAQC so it seems reasonable to add it to the QAQC document (DR) 
 use strict;
 use warnings;
 use DBI;
@@ -242,7 +242,7 @@ close(OUT);
 #----------------------------------------------------
 # Life history details -now requisite values
 #----------------------------------------------------
-my $lhsql = qq{select * from (select bioid, biovalue, biounitsshort from srdb.bioparams b, srdb.biometrics c where assessid like \'$assessid\' and b.bioid=c.biounique) as a where a.bioid in ('REC-AGE-yr', 'SSB-AGE-yr', 'TB-AGE-yr', 'F-AGE-yr-yr', 'M-1/T', 'M-1/yr', 'NATMORT-1/yr', 'A50-yr', 'L50-cm')}; #, 'MORATOR-yr-yr')};
+my $lhsql = qq{select * from (select bioid, biovalue, biounitsshort from srdb.bioparams b, srdb.biometrics c where assessid like \'$assessid\' and b.bioid=c.biounique) as a where a.bioid in ('REC-AGE-yr', 'SSB-AGE-yr', 'SSB-SEX-sex', 'TB-AGE-yr', 'F-AGE-yr-yr', 'M-1/T', 'M-1/yr', 'NATMORT-1/yr', 'A50-yr', 'L50-cm')}; #, 'MORATOR-yr-yr')};
 my $lhhandle = $dbh -> prepare($lhsql);
 $lhhandle -> execute();
 
@@ -267,6 +267,11 @@ if (!grep /REC-AGE*/, @lharray2)
 if (!grep /SSB-AGE*/, @lharray2)
 {
       push(@lharray, ["SSB-AGE-yr","",""]);
+};
+# ssb sex
+if (!grep /SSB-SEX*/, @lharray2)
+{
+      push(@lharray, ["SSB-SEX-sex","",""]);
 };
 # tb age
 if (!grep /TB-AGE*/, @lharray2)

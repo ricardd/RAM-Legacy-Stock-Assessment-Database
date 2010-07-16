@@ -1,0 +1,8 @@
+psql:../spreadsheets/PREFONTAINE-HERR4RSP-2004-editedRP-QAQC.sql:5: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...S('DFO-QUE-HERR4RSP-1963-2004-PREFONTAINE', 'A1', 'Gr\\''{e}...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
+psql:../spreadsheets/PREFONTAINE-HERR4RSP-2004-editedRP-QAQC.sql:8: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...S('DFO-QUE-HERR4RSP-1963-2004-PREFONTAINE', 'T1', 'Analytica...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

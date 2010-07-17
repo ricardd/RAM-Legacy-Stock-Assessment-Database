@@ -1,11 +1,13 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'DFO-PAC', 'PCODHS', 'COLLIE', '2008-04-08', '2009-05-13 13:52:36', '1956-2005', 'http://www.pac.dfo-mpo.gc.ca/sci/psarc/ResDocs/groundfish05_e.htm', 'A.F. Sinclair, DFO Science Branch, Pacific Biological Station, Nanaimo, BC V9T 6N7', 'this is a test entry only', 'RES2005_026_Cod.pdf', 1, 1, 'Delay difference', '"Estimate M,h" version of model used', '../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'ID', 'NULL') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'TY', 'NULL') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'DFO-PAC', 'PCODHS', 'COLLIE', '2008-04-08', '2010-07-16 12:23:44', '1956-2005', 'http://www.pac.dfo-mpo.gc.ca/sci/psarc/ResDocs/groundfish05_e.htm', 'A.F. Sinclair, DFO Science Branch, Pacific Biological Station, Nanaimo, BC V9T 6N7', 'this is a test entry only', 'RES2005_026_Cod.pdf', 1, 1, 'Delay difference', '"Estimate M,h" version of model used', '../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'ID', 'RES2005_026_Cod.pdf') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'A1', 'Sinclair, A.F.') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'T1', 'Assessment of Pacific Cod in Hecate Strait (5CD) and Queen Charlotte Sound (5AB), January, 2005') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'T1', '{Assessment of Pacific Cod in Hecate Strait (5CD) and Queen Charlotte Sound (5AB)}') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'Y1', '2005') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'PB', 'NULL') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'VL', '2005-026') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'PB', 'DFO') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'CY', 'Canada') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE','Linf-cm','89.48', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE','M-1/yr','0.567', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE','Habitat-Habitat','demersal marine', 'NULL') ; 

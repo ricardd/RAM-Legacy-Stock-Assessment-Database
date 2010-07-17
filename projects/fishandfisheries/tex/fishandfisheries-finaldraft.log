@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  15 JUL 2010 23:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  16 JUL 2010 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,38 +302,38 @@ Overfull \hbox (1.06702pt too wide) in paragraph at lines 252--263
 al-u-ate the knowledge-
  []
 
-[6] [7] [8] [9] [10] [11] (./results-dynamic.tex [12] [13] [14] [15] [16]
-Overfull \hbox (165.58249pt too wide) in paragraph at lines 221--244
+[6] [7] [8] [9] [10] [11] (./results-dynamic.tex [12] [13] [14] [15]
+Overfull \hbox (165.58249pt too wide) in paragraph at lines 225--248
 \OT1/cmr/m/n/12 stocks (man-aged by ICES) have biomasses less than $\OML/cmm/m/
 it/12 B[]$ \OT1/cmr/m/n/12 (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES%),
  []
 
 
-Overfull \hbox (95.71056pt too wide) in paragraph at lines 221--244
+Overfull \hbox (95.71056pt too wide) in paragraph at lines 225--248
 \OT1/cmr/m/n/12 and over half of these stocks (REF:SQL:PERCENTASSESSFRIEDBELBMS
 YANDABOVEFMSYICES%)
  []
 
 
-Overfull \hbox (150.68265pt too wide) in paragraph at lines 221--244
+Overfull \hbox (150.68265pt too wide) in paragraph at lines 225--248
 \OT1/cmr/m/n/12 stocks man-aged by MFish and AFMA are above $\OML/cmm/m/it/12 B
 []$ \OT1/cmr/m/n/12 in REF:SQL:PERCENTASSESSFRIEDABOVEBMSYMFish%
  []
 
 
-Overfull \hbox (149.41966pt too wide) in paragraph at lines 221--244
-\OT1/cmr/m/n/12 For the stocks grouped as ``At-lantic'' in Fig-ure 7[] we found
+Overfull \hbox (149.41966pt too wide) in paragraph at lines 225--248
+\OT1/cmr/m/n/12 For the stocks grouped as ``At-lantic'' in Fig-ure 6[] we found
  that REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT
  []
 
 
-Overfull \hbox (206.08878pt too wide) in paragraph at lines 221--244
+Overfull \hbox (206.08878pt too wide) in paragraph at lines 225--248
 \OT1/cmr/m/n/12 of the REF:SQL:NUMASSESSFRIEDTOTALICCAT IC-CAT stocks and REF:S
 QL:NUMASSESSFRIEDBELOWBMSYICCAT
  []
 
-) [17] [18] [19] [20] [21] [22] [23] [24] (./fishandfisheries-finaldraft.bbl
-[25] [26] [27] [28]
+[16]) [17] [18] [19] [20] [21] [22] [23] [24]
+(./fishandfisheries-finaldraft.bbl [25] [26] [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 301--303
 []\OT1/cmr/m/n/12 New Zealand Min-istry of Fish-eries (2009).  Stock Sta-tus
  []
@@ -573,11 +573,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 30--43
 
  []
@@ -608,31 +603,34 @@ File: /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf G
 raphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf>
+Overfull \hbox (98.44652pt too wide) in paragraph at lines 70--71
+ [] 
+ []
+
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf, id=145
 , 433.62pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf Gr
 aphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf, id=146,
- 578.16pt x 722.7pt>
-File: /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf Gra
-phic file (type pdf)
 
-<use /home/srdbadmin/srdb/projects/fishandfisheries/R/TL-quadrant-srdb.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=147, 483
+LaTeX Warning: Float too large for page by 105.25597pt on input line 81.
+
+
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=146, 483
 .8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=148, 
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=147, 
 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=149,
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=148,
  578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type pdf)
@@ -641,39 +639,38 @@ phic file (type pdf)
 [40 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
 is rotated 90 degrees>] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
 rdb-by-assessment.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
-hree_panel_phylo.pdf>] [43 </home/srdbadmin/srdb/projects/fishandfisheries/R/TL
--quadrant-srdb.pdf>] [44 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca
-_plot_v2.pdf>] [45 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-s
-ingle.pdf>] [46 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-m
-gmt.pdf>] (./fishandfisheries-finaldraft.aux (./temptable.aux) (./Figures.aux))
- ) 
+hree_panel_phylo.pdf>] [43 </home/srdbadmin/srdb/projects/fishandfisheries/R/or
+ca_plot_v2.pdf>] [44 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg
+-single.pdf>] [45 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by
+-mgmt.pdf>] (./fishandfisheries-finaldraft.aux (./temptable.aux) (./Figures.aux
+)) ) 
 Here is how much of TeX's memory you used:
- 2940 strings out of 495061
- 41643 string characters out of 1182621
- 122640 words of memory out of 3000000
- 6041 multiletter control sequences out of 15000+50000
+ 2934 strings out of 495061
+ 41320 string characters out of 1182621
+ 123631 words of memory out of 3000000
+ 6036 multiletter control sequences out of 15000+50000
  12790 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,34p,673b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on fishandfisheries-finaldraft.pdf (46 pages, 1506617 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on fishandfisheries-finaldraft.pdf (45 pages, 1501922 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

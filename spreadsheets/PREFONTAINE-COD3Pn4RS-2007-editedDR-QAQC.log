@@ -1,0 +1,4 @@
+psql:../spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR-QAQC.sql:5: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...('DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE', 'A1', 'Fr\\''{e}...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

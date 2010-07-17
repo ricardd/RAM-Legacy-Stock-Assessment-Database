@@ -1,10 +1,11 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'MARAM', 'SAABALONESA', 'PLAGANYI', '2009-03-13', '2010-06-15 13:20:07', '1951-2008', 'Assessment conducted personally', 'Eva Plaganyi ; Eva.Plaganyi-lloyd@csiro.au; Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'SCA', 'Simultaneously fits 5 zones', '../spreadsheets/Plaganyi-SA-abalone-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'MARAM', 'SAABALONESA', 'PLAGANYI', '2009-03-13', '2010-07-16 13:54:31', '1951-2008', 'Assessment conducted personally', 'Eva Plaganyi ; Eva.Plaganyi-lloyd@csiro.au; Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'SCA', 'Simultaneously fits 5 zones', '../spreadsheets/Plaganyi-SA-abalone-2008-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'ID', 'Plaganyi-SA-abalone-2008NOVSWG-AB21.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'A1', 'Plaganyi, E.E.') ; 
- INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'T1', 'Reference-case 2008 assessment model  for abalone in Zones A, B, C and D') ; 
+ INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'T1', 'Reference-case 2008 assessment model  for abalone in {Zones A, B, C and D}') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'VL', 'MCM 2008 NOV SWG-AB 21.pdf') ; 
+ INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'Y1', '2008') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'ZZID', 'MARAM-SAABALONESA-1951-2008-PLAGANYI') ; 
  INSERT INTO srdb.bioparams VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI','SSB-AGE-yr','7+', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI','SSB-SEX-sex','0', '', 'assessment not sex-disaggregated') ; 

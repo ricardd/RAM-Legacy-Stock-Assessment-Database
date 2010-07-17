@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2010-07-15 17:07:33 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-07-16 13:14:21 (srdbadmin)>
 %%\documentclass[letterpaper,12pt]{article}
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 %%\documentclass[preprint,authoryear,12pt]{elsarticle}
@@ -129,7 +129,7 @@ of time without formal stock assessment (e.g. many community-managed
 fisheries in Oceania; \cite{Dalzell:1998:coastmgmt}). This has been achieved by
 limiting harvest rates, often through gear restrictions or seasonal and
 area closures. In modern industrialized fisheries, however, where fishing
-capacity exceeds the productivity of fished stocks, stock
+capacity often exceeds the productivity of fished stocks, stock
 assessment is an integral component of responsible
 management \citep{Hilborn:Walters:1992}.
 
@@ -408,19 +408,18 @@ of assessed stocks with the diversity of i) all marine fishes (as
 represented by FishBase), and ii) marine fishes in global fisheries
 catches (as represented by the species available from the SAUP
 database), and discuss taxonomic biases in species included in catch
-data and in populations assessed using stock assessments. We evaluate
-the ecological scope of assessed stocks in terms of age at sexual
-maturity as reported in the assessments, and trophic level of those
-assessed stocks as reported in FishBase. We overview the types of
-assessment models used, and BRPs estimated, for all stock assessments
-and by management body. To determine what fraction of world
-wild-capture fisheries landings come from assessed stocks, we used the
-SAUP's average global fisheries catches from the most recent ten years
-of available data (1995-2004); we also discuss limitations to
-obtaining assessments for some of the world's major fisheries.
+data and in populations assessed using stock assessments. We overview
+the types of assessment models used, and BRPs estimated, for all stock
+assessments and by management body. To determine what fraction of
+world wild-capture fisheries landings come from assessed stocks, we
+used the SAUP's average global fisheries catches from the most recent
+ten years of available data (1995-2004); we also discuss limitations
+to obtaining assessments for some of the world's major fisheries.
 Comparisons between assessments and catch data at a regional level are
 hampered by the geographic mismatch between stocks and FAO statistical
 areas or the SAUP's Large Marine Ecosystems.
+
+% We evaluate the ecological scope of assessed stocks in terms of age at sexual maturity as reported in the assessments, and trophic level of those assessed stocks as reported in FishBase. 
 
 %; we
 %also evaluate how the frequencies of different assessment model types
@@ -469,17 +468,18 @@ year in the Schaefer model is given by:
 \end{equation}
 where,
 \begin{description}
-\item $m$ is the maximum sustainable yield, equal to $rK/4$
+\item $m$ is the maximum sustainable yield, equal to $rK/4$ ($r$ is the maximum intrinsic population growth rate)
 \item $K$ is the carrying capacity or equilibrium total biomass in the absence of fishing \citep{Hilborn:Walters:1992}
 \end{description}
 
 We estimated the model parameters ($m$ and $K$) using maximum
 likelihood in AD Model Builder \citep{admb} assuming that the
 residuals $\epsilon_{s,t}=P_{s,t} - \hat{P_{s,t}}$ were normally
-distributed.  For the Schaefer model, $B_{MSY}$ is simply $0.5K$, and the
-harvest rate that results in maximum sustainable yield, $u_{MSY}$, is
-$m/B_{MSY}$. Carrying capacity was constrained to be less than twice the
-maximum observed total biomass.
+distributed.  For the Schaefer model, $B_{MSY}$ is simply $0.5K$, and
+the harvest rate that results in maximum sustainable yield, $u_{MSY}$,
+is $m/B_{MSY}$. For model fitting, the carrying capacity parameter $K$
+was constrained to be less than twice the maximum observed total
+biomass.
 
 
 % for the stock (s) as follows:
@@ -520,11 +520,11 @@ maximum observed total biomass.
 
 Statistical analyses and plot generation were conducted with the R
 Environment for Statistics and Graphics \citep{R} using the packages
-\emph{RODBC} \citep{R:RODBC}, \emph{KernSmooth} \citep{R:KernSmooth},
-\emph{xtable} \citep{R:xtable}, \emph{ape} \citep{R:ape},
-\emph{gsubfn} \citep{R:gsubfn}, \emph{IDPmisc} \citep{R:IDPmisc}, and
-\emph{doBy} \citep{R:doBy}.  Figure~\ref{fig:lmes} was generated using
-the Generic Mapping Tools \citep{gmt}.
+\emph{RODBC} for database connectivity \citep{R:RODBC},
+\emph{KernSmooth} for computing density kernels \citep{R:KernSmooth}
+and \emph{ape} to produce taxonomic dendrograms \citep{R:ape}.
+Figure~\ref{fig:lmes} was generated using the Generic Mapping Tools
+\citep{gmt}.
 
 %% , beanplot \citep{R:beanplot} gregmisc \citep{R:gregmisc},
 %%%%%%%%%%%%%%%%%%%%%%%%%

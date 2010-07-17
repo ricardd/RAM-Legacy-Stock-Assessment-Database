@@ -1,8 +1,8 @@
 \section*{Figures}
 \subsection*{Figure legends}
 
-\noindent Figure 1. Global map of Large Marine Ecosystems (LMEs) and High Seas Areas (ovals) showing the
-number of stock assessments present in the database for each area. \\ 
+\noindent Figure 1. Global map of Large Marine Ecosystems (LMEs) and
+high seas areas (ovals) showing the number of stock assessments present in the database for each area. \\
 
 \noindent Figure 2. Taxonomic coverage of assessed marine species present in the
 RAM Legacy database. The circle located near the middle of the circular
@@ -25,18 +25,21 @@ identification of the taxonomic groups that are not presented in the catch
 and assessment data, the FishBase branching pattern of the spoked dendrogram is
 maintained to generate the other two dendrograms.\\ 
 
-\noindent Figure 4. Mean trophic level (obtained from FishBase) of the assessed species, grouped by their $B/B_{msy}$ and $U/U_{msy}$ ratios. \\ 
+\noindent Figure 4. Mean trophic level (obtained from FishBase) of the assessed species, grouped by their $B/B_{msy}$ and $U/U_{msy}$ ratios. \\
 
-\noindent Figure 5. Temporal coverage of (A) catch/landings, (B) spawning stock
-biomass and (C) recruitment. The temporal coverage for individual
-assessments is represented by thin alternating black and grey
-horizontal lines in the main panels. Thick horizontal lines at the
-base of each main panel represent the time periods which are present
-in 90\% (black) and 50\% (grey) of all series for that data type.
-Subfigure histograms contain the frequency of occurrence of the
-various timespans without reference to time period. Solid and
-long-dash vertical lines within the subfigures represent the median,
-2.5\% and 97.5\% quantiles, respectively.\\ 
+\noindent Figure 5. Orca plots showing the temporal coverage of (A)
+catch/landings, (B) spawning stock biomass and (C) recruitment. The
+temporal coverage for individual assessments is represented by thin
+alternating black and grey horizontal lines in the main panels. Orca
+plots are named because their distinctive shape is uncannily similar
+to the individually-identifiable nicked and notched dorsal fins of
+killer whales (orcas). Thick horizontal lines at the base of each main
+panel represent the time periods which are present in 90\% (black) and
+50\% (grey) of all series for that data type.  Subfigure histograms
+contain the frequency of occurrence of the various timespans without
+reference to time period. Solid and long-dash vertical lines within
+the subfigures represent the median,
+2.5\% and 97.5\% quantiles, respectively.\\
 
 \noindent Figure 6. Current exploitation rate versus current biomass for 241
 individual stocks. Exploitation is scaled relative to that which

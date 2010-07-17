@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-07-15 15:27:42 (srdbadmin)>
+## Last modified: Time-stamp: <2010-07-16 13:04:17 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -86,6 +86,17 @@ sqlQuery(chan,delete.qu)
 insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDEGG',",nn,")",sep="" )
 sqlQuery(chan,insert.qu)
 
+    ## REF:SQL:PERCENTASSESSFRIEDEGG
+  tot.n <- sqlQuery(chan,"SELECT COUNT(*) from srdb.assessment where assess=1 and recorder !='MYERS'")
+  nn <- dim(crosshair.dat)[1] / tot.n * 100
+  nn <- round(nn,0)
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDEGG'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTASSESSFRIEDEGG',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+  
+  
   ## REF:SQL:NUMASSESSBIOASSESSREF
   nn <- dim(subset(crosshair.dat, btype == "yes"))[1]
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSBIOASSESSREF'",sep="" )

@@ -1,7 +1,7 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC
 # - adding calls to the appropriate Perl script as the submissions are QAQCed
-# Last modified Time-stamp: <2010-07-15 23:30:47 (srdbadmin)>
+# Last modified Time-stamp: <2010-07-16 12:11:09 (srdbadmin)>
 #
 
 # submissions from Beth Fulton
@@ -37,8 +37,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-LNOSESKAPCOAS
 
 
 # submissions from Jeremy Collie
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.xls
@@ -155,7 +153,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-WHAKE4VW
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4TVn-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4VsW-2003-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR-QAQC.xls
 

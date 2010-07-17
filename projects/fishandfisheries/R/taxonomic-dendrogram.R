@@ -1,6 +1,6 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-07-13 10:57:41 (srdbadmin)>
+## Last modified Time-stamp: <2010-07-16 14:11:24 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -352,7 +352,7 @@ srdb.phylo$tip.label[srdb.phylo$tip.label=="\n(NA)"] <- ""
 pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
 par(mfrow=c(3,1), mar=c(0,0,0,0))
 ## Fishbase
-plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
+plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
 legend("topleft", legend="FishBase", bty="n", cex=1.2)
 ## SAUP
 plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))

@@ -112,7 +112,6 @@ I'm skipping whatever remains of this command
 The style file: fishfisheriessuppl.bst
 Database file #1: ./srdb-references.bib
 Warning--I didn't find a database entry for "NA"
-Warning--I didn't find a database entry for "2007-ALB-STOCK-ASSESS-REP.pdf"
 Warning--I didn't find a database entry for "07-09-FAR.pdf"
 Warning--I didn't find a database entry for "08-05-FAR.pdf"
 Warning--I didn't find a database entry for "GILROY-MENHADENGM-2007.pdf"
@@ -159,25 +158,18 @@ Warning--missing institution in Renzi-hake-S-2009.pdf
 Warning--missing institution in Giussi-polaca-2007.pdf
 Warning--missing institution in Branch-SA-Toothfish-2007.pdf
 Warning--missing institution in Branch-SA-Kingklip-2008.pdf
-Warning--empty year in Branch-SA-Kingklip-2008.pdf
 Warning--missing institution in Plaganyi-SA-abalone-2008NOVSWG-AB21.pdf
-Warning--empty year in Plaganyi-SA-abalone-2008NOVSWG-AB21.pdf
 Warning--missing institution in Johnston-SAWestRockLobster-2007.pdf
-Warning--empty year in Johnston-SAWestRockLobster-2007.pdf
-Warning--missing institution in SA-Mcapensis-2008_IWS_DEC08_H_5.pdf
-Warning--empty year in SA-Mcapensis-2008_IWS_DEC08_H_5.pdf
 Warning--missing institution in SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf
-Warning--empty year in SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf
 Warning--missing institution in Johnston-SASouthRockLobster-2008.pdf
-Warning--empty year in Johnston-SASouthRockLobster-2008.pdf
 Warning--missing institution in deMoorSASardineAssessment-Sep07.pdf
-Warning--empty year in deMoorSASardineAssessment-Sep07.pdf
 Warning--missing institution in Johnston-SAHorseMackerel-2007.pdf
-Warning--empty year in Johnston-SAHorseMackerel-2007.pdf
 Warning--missing institution in NAFO-HERR4VWX-2006.pdf
 Warning--missing institution in NAFO-HERR4RSP-2004.pdf
 Warning--missing institution in NAFO-HERR4TFA-2007.pdf
 Warning--missing institution in RES2007_002_e.pdf
+Warning--missing institution in RES2005_026_Cod.pdf
+Warning--missing institution in ref2002-113.pdf
 Warning--missing institution in NAFO-COD5Zjm-2003.pdf
 Warning--missing institution in DFO-COD2J3KLIS-2006.pdf
 Warning--missing institution in DFO-COD3Ps-2004.pdf
@@ -189,10 +181,8 @@ Warning--missing institution in NAFO-HAD5Zejm-2003.pdf
 Warning--missing institution in NAFO-POLL4VWX5Zc-2006.pdf
 Warning--missing institution in SAR8-YFT-ENG.pdf
 Warning--missing institution in JENSEN_BETEPAC_2008.pdf
-Warning--empty author in JENSEN_YFINATL-2008.pdf
-Warning--missing institution in JENSEN_YFINATL-2008.pdf
-Warning--empty author in JENSEN-YFINATL-2008.pdf
 Warning--missing institution in JENSEN-YFINATL-2008.pdf
+Warning--missing institution in ref2007-ALB-STOCK-ASSESS-REP.pdf
 Warning--empty author in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in ref2008-BFT-STOCK-ASSESS-REP.pdf
@@ -293,45 +283,45 @@ Warning--missing institution in SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf
 Warning--missing institution in JENSEN_ALBWPO_2008.pdf
 Warning--missing institution in WCPFC-SC3-SA-SWG-WP-01.pdf
 Warning--missing institution in SC4-SA-WP1-rev1-bigeye-tuna.pdf
-You've used 138 entries,
+You've used 139 entries,
             2490 wiz_defined-function locations,
-            1187 strings with 28223 characters,
-and the built_in function-call counts, 35851 in all, are:
-= -- 1936
-> -- 991
+            1195 strings with 28482 characters,
+and the built_in function-call counts, 36128 in all, are:
+= -- 1961
+> -- 998
 < -- 30
-+ -- 401
-- -- 263
-* -- 1712
-:= -- 3968
-add.period$ -- 387
-call.type$ -- 138
-change.case$ -- 123
++ -- 404
+- -- 265
+* -- 1696
+:= -- 4022
+add.period$ -- 392
+call.type$ -- 139
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 283
-duplicate$ -- 4289
-empty$ -- 3323
-format.name$ -- 327
-if$ -- 7261
+cite$ -- 275
+duplicate$ -- 4328
+empty$ -- 3354
+format.name$ -- 329
+if$ -- 7328
 int.to.chr$ -- 0
-int.to.str$ -- 138
-missing$ -- 1282
-newline$ -- 672
-num.names$ -- 128
-pop$ -- 2488
+int.to.str$ -- 139
+missing$ -- 1291
+newline$ -- 679
+num.names$ -- 131
+pop$ -- 2484
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 652
 stack$ -- 0
 substring$ -- 320
-swap$ -- 2842
+swap$ -- 2871
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 145
-while$ -- 158
-width$ -- 141
-write$ -- 1422
+warning$ -- 136
+while$ -- 161
+width$ -- 142
+write$ -- 1446
 (There were 27 error messages)

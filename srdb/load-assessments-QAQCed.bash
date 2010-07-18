@@ -1,7 +1,7 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC
 # - adding calls to the appropriate Perl script as the submissions are QAQCed
-# Last modified Time-stamp: <2010-07-16 12:11:09 (srdbadmin)>
+# Last modified Time-stamp: <2010-07-18 11:45:14 (srdbadmin)>
 #
 
 # submissions from Beth Fulton
@@ -72,40 +72,37 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-WHBCOM
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-SOLKASK-1984-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR-QAQC.xls
 
-
-# submissions from Boris Worm
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ATBTUNAEATL-2008-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ALBANATL-2007-editedDR-QAQC.xls
-
 # submissions from Coilin Minto
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SOLENS-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SOLEVIId-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADICE-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-WHITNS-VIId-IIIa-2007-editedDR-QAQC-revised.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-GOLDREDNEAR-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CAPENOR-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODNORCOAST-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADNEAR-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLNEAR-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CAPENOR-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MINTO-CODNS-2007-example-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-REDDEEPI-II-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HERR2224IIIa-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADNEAR-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CAPEICE-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLNEAR-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HERRNS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HERRVIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HERRVIaVIIbc-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CAPEICE-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODFAPL-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODICE-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADIS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADFAPL-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADICE-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLFAPL-2007-editedDR-QAQC.xls
-
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-WHITVIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODKAT-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLFAPL-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODVIIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-CODVIa-2007-editedDR-QAQC-revised.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADIS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADVIa-2007-editedDR-QAQC-revised.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAICIS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SOLEIS-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-WHITVIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-HADNS-IIIa-2007-editedDR-QAQC-revised.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-NPOUTNS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAIC7d-2007-editedDR-QAQC.xls
@@ -113,10 +110,11 @@ perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAICIIIa-2007-e
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAICNS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLNS-VI-IIIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SEELNS-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SOLENS-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SOLEVIId-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-WHITNS-VIId-IIIa-2007-editedDR-QAQC-revised.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MINTO-CODNS-2007-example-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SEELNS-2007-editedDR-QAQC.xls
+
+# submissions from Boris Worm
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WORM-ALBANATL-2007-editedDR-QAQC.xls
+
 
 # submissions from Olaf Jensen and minions 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/JENSEN-RKCRABBB-2008-editedDR-QAQC.xls

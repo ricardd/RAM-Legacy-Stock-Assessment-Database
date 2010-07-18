@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'AFWG', 'GOLDREDNEAR', 'MINTO', '2008-04-07', '2009-06-08 11:04:48', '1986-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'TB and TN refer to ages 3+', 'ICES-AFWG-2007.pdf', 1, 0, 'GADGET', 'Analytical assessment is currently deemed exploratory for this population. Assessment document uses “Sebastes marinus”, which is not an accepted TSN according to ITIS.', '../spreadsheets/MINTO-GOLDREDNEAR-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'AFWG', 'GOLDREDNEAR', 'MINTO', '2008-04-07', '2010-07-18 10:32:09', '1986-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'TB and TN refer to ages 3+', 'ICES-AFWG-2007.pdf', 1, 0, 'GADGET', 'Analytical assessment is currently deemed exploratory for this population. Assessment document uses “Sebastes marinus”, which is not an accepted TSN according to ITIS.', '../spreadsheets/MINTO-GOLDREDNEAR-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'T1', 'Report of the Arctic Fisheries Working Group (AFWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-GOLDREDNEAR-1986-2006-MINTO', 'T3', 'ICES CM 2007') ; 

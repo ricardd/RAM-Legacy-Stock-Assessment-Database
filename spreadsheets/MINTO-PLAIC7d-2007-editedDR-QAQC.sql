@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'WGNSSK', 'PLAIC7d', 'MINTO', '2008-04-13', '2010-03-15 21:29:22', '1979-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-PLAIC7d-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'WGNSSK', 'PLAIC7d', 'MINTO', '2008-04-13', '2010-07-18 11:14:30', '1979-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-PLAIC7d-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'T1', 'Report of the Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak (WGNSSK)') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAIC7d-1979-2006-MINTO', 'T3', 'ICES CM 2007') ; 

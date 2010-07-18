@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'HAWG', 'HERRVIaVIIbc', 'MINTO', '2008-04-15', '2010-03-15 15:12:18', '1969-2000', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'No final assessment is agreed upon for post-2000 data.', 'ICES-HAWG-2007.pdf', 1, 1, 'VPA', 'No final assessment was agreed upon by the working group. Three assessment results were presented and only differ post-2000. Only the pre-2000 terminal F=0.4 estimates are presented here, as F=0.4 is the mid value and the results between the different terminal F''s don''t differ during this period. There are results to 2006 but these were not agreed upon.', '../spreadsheets/MINTO-HERRVIaVIIbc-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'HAWG', 'HERRVIaVIIbc', 'MINTO', '2008-04-15', '2010-07-18 10:59:44', '1969-2000', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'No final assessment is agreed upon for post-2000 data.', 'ICES-HAWG-2007.pdf', 1, 1, 'VPA', 'No final assessment was agreed upon by the working group. Three assessment results were presented and only differ post-2000. Only the pre-2000 terminal F=0.4 estimates are presented here, as F=0.4 is the mid value and the results between the different terminal F''s don''t differ during this period. There are results to 2006 but these were not agreed upon.', '../spreadsheets/MINTO-HERRVIaVIIbc-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'A1', 'Anon') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62°N (HAWG)') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62$^\\circ$N (HAWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIaVIIbc-1969-2000-MINTO', 'Y1', '2007') ; 

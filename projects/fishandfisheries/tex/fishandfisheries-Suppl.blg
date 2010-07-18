@@ -183,11 +183,9 @@ Warning--missing institution in SAR8-YFT-ENG.pdf
 Warning--missing institution in JENSEN_BETEPAC_2008.pdf
 Warning--missing institution in JENSEN-YFINATL-2008.pdf
 Warning--missing institution in ref2007-ALB-STOCK-ASSESS-REP.pdf
-Warning--empty author in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in JENSEN-BIGEYEATL-2008.pdf
 Warning--missing institution in ref2008-BFT-STOCK-ASSESS-REP.pdf
 Warning--missing institution in ICCAT-Mediterranean-Xiphiasgladius-2007.pdf
-Warning--empty author in JENSEN-SWORDSATL-2007.pdf
 Warning--missing institution in JENSEN-SWORDSATL-2007.pdf
 Warning--missing institution in ICES-WGNSSK-2007.pdf
 Warning--missing institution in ICES-HAWG-2007.pdf
@@ -195,7 +193,6 @@ Warning--missing institution in ICES-WGBFAS-2007.pdf
 Warning--missing institution in ICES-NWWG-2007.pdf
 Warning--missing institution in ICES-WGMHSA007.pdf
 Warning--missing institution in ICES-AFWG-2007.pdf
-Warning--missing institution in AFWG-NEAR-Gadusmorhua-2007.pdf
 Warning--missing institution in ICES-WGNSDS-2007.pdf
 Warning--missing institution in ICES-WGHMM-2007.pdf
 Warning--missing institution in ICES-WGSSDS-2007.pdf
@@ -283,45 +280,45 @@ Warning--missing institution in SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf
 Warning--missing institution in JENSEN_ALBWPO_2008.pdf
 Warning--missing institution in WCPFC-SC3-SA-SWG-WP-01.pdf
 Warning--missing institution in SC4-SA-WP1-rev1-bigeye-tuna.pdf
-You've used 139 entries,
+You've used 138 entries,
             2490 wiz_defined-function locations,
-            1195 strings with 28482 characters,
-and the built_in function-call counts, 36128 in all, are:
-= -- 1961
-> -- 998
+            1187 strings with 28311 characters,
+and the built_in function-call counts, 35723 in all, are:
+= -- 1939
+> -- 972
 < -- 30
-+ -- 404
-- -- 265
-* -- 1696
-:= -- 4022
-add.period$ -- 392
-call.type$ -- 139
-change.case$ -- 124
++ -- 397
+- -- 259
+* -- 1654
+:= -- 3997
+add.period$ -- 391
+call.type$ -- 138
+change.case$ -- 123
 chr.to.int$ -- 0
-cite$ -- 275
-duplicate$ -- 4328
-empty$ -- 3354
-format.name$ -- 329
-if$ -- 7328
+cite$ -- 271
+duplicate$ -- 4283
+empty$ -- 3328
+format.name$ -- 316
+if$ -- 7246
 int.to.chr$ -- 0
-int.to.str$ -- 139
-missing$ -- 1291
-newline$ -- 679
-num.names$ -- 131
-pop$ -- 2484
+int.to.str$ -- 138
+missing$ -- 1278
+newline$ -- 676
+num.names$ -- 132
+pop$ -- 2455
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 652
+skip$ -- 638
 stack$ -- 0
 substring$ -- 320
-swap$ -- 2871
+swap$ -- 2836
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 136
-while$ -- 161
-width$ -- 142
-write$ -- 1446
+warning$ -- 133
+while$ -- 162
+width$ -- 141
+write$ -- 1439
 (There were 27 error messages)

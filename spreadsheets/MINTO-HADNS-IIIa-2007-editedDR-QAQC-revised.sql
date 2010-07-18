@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-HADNS-IIIa-1963-2006-MINTO', 'WGNSSK', 'HADNS-IIIa', 'MINTO', '2008-04-14', '2010-03-15 21:22:44', '1963-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'The plus group was moved from +7 to +8 due to the large age 7 group', '../spreadsheets/MINTO-HADNS-IIIa-2007-editedDR-QAQC-revised.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-HADNS-IIIa-1963-2006-MINTO', 'WGNSSK', 'HADNS-IIIa', 'MINTO', '2008-04-14', '2010-07-18 11:12:46', '1963-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'The plus group was moved from +7 to +8 due to the large age 7 group', '../spreadsheets/MINTO-HADNS-IIIa-2007-editedDR-QAQC-revised.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-HADNS-IIIa-1963-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-HADNS-IIIa-1963-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-HADNS-IIIa-1963-2006-MINTO', 'A1', 'Anon') ; 

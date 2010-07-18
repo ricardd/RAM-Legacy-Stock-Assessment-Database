@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'NWWG', 'CAPEICE', 'MINTO', '2008-04-10', '2009-06-08 12:04:08', '1977-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment is for capelin in the Iceland-East Greenland-Jan Mayen area. Need to request or estimate the fishing mortalities.', 'ICES-NWWG-2007.pdf', 1, 0, 'Acoustic', 'Because of the short lifespan of the species, particular caution is taken not to reduce the population below 400000 SSB. The last two years of the assessment are preliminary. Year in time series refers to the summer season until the following March.', '../spreadsheets/MINTO-CAPEICE-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'NWWG', 'CAPEICE', 'MINTO', '2008-04-10', '2010-07-18 10:55:03', '1977-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment is for capelin in the Iceland-East Greenland-Jan Mayen area. Need to request or estimate the fishing mortalities.', 'ICES-NWWG-2007.pdf', 1, 0, 'Acoustic', 'Because of the short lifespan of the species, particular caution is taken not to reduce the population below 400000 SSB. The last two years of the assessment are preliminary. Year in time series refers to the summer season until the following March.', '../spreadsheets/MINTO-CAPEICE-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'ID', 'ICES-NWWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'T1', 'Report of the North-Western Working Group (NWWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-CAPEICE-1977-2007-MINTO', 'T3', 'ICES CM 2007') ; 

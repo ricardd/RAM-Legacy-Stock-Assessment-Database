@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'HAWG', 'SPRATNS', 'MINTO', '2008-04-15', '2009-06-08 12:01:24', '1995-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-HAWG-2007.pdf', 1, 0, 'CSA', 'Assessment results are relative and not absolute. TN in time series refers to the relative number of mature individuals.', '../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'HAWG', 'SPRATNS', 'MINTO', '2008-04-15', '2010-07-18 10:53:53', '1995-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-HAWG-2007.pdf', 1, 0, 'CSA', 'Assessment results are relative and not absolute. TN in time series refers to the relative number of mature individuals.', '../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'A1', 'Anon') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62°N (HAWG)') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62$^\\circ$N (HAWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'Y1', '2007') ; 

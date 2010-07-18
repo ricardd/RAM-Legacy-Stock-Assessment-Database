@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2009-06-08 11:13:15 (ricardd)>
+# Last modified: Time-stamp: <2009-11-06 12:43:37 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -68,9 +68,9 @@ $daterecorded = $oWkS->{Cells}[19][3]->Value;
 
 $excel = DateTime::Format::Excel->new();
 
-$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
+#$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
 #$formatteddaterecorded = "2008-11-11";
-#$formatteddaterecorded = $daterecorded;
+$formatteddaterecorded = $daterecorded;
 # TEMPORARY FAKE VALUE
 # $assessyear = 2134;
 

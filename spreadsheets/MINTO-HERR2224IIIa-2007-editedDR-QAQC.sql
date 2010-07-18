@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'HAWG', 'HERR2224IIIa', 'MINTO', '2008-04-15', '2009-06-08 11:45:14', '1991-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers spring-spawning herring in ICES sub-divisions 22-24 and division IIIa', 'ICES-HAWG-2007.pdf', 1, 0, 'ICA', 'All surveys had noisy fits to population estimates for the younger and older age-classes, and somewhat better for the intermediate ones.', '../spreadsheets/MINTO-HERR2224IIIa-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'HAWG', 'HERR2224IIIa', 'MINTO', '2008-04-15', '2010-07-18 10:50:35', '1991-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers spring-spawning herring in ICES sub-divisions 22-24 and division IIIa', 'ICES-HAWG-2007.pdf', 1, 0, 'ICA', 'All surveys had noisy fits to population estimates for the younger and older age-classes, and somewhat better for the intermediate ones.', '../spreadsheets/MINTO-HERR2224IIIa-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'A1', 'Anon') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62°N (HAWG)') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62$^\\circ$N (HAWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERR2224IIIa-1991-2006-MINTO', 'Y1', '2007') ; 

@@ -1,13 +1,14 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'AFWG', 'CODCOASTNOR', 'MINTO', '2008-03-24', '2009-06-08 11:19:54', '1982-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 0, 'VPA', 'Assessment is considered exploratory owing to under-reporting of the catch, particularly from the recreation and tourist sectors. No reference points are calculated as a result. Using the XSA with SOP correction.', '../spreadsheets/MINTO-CODNORCOAST-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'AFWG', 'CODCOASTNOR', 'MINTO', '2008-03-24', '2010-07-18 12:40:20', '1982-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 0, 'VPA', 'Assessment is considered exploratory owing to under-reporting of the catch, particularly from the recreation and tourist sectors. No reference points are calculated as a result. Using the XSA with SOP correction.', '../spreadsheets/MINTO-CODNORCOAST-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'T1', 'Report of the Arctic Fisheries Working Group (AFWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'Y1', '2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'PB', 'ICES') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO', 'CY', 'Copenhagen') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO','A50-yr','5', '2007') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO','MAT-CALC-0-1','1', '2007') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODCOASTNOR-1982-2006-MINTO','SSB-AGE-yr','2+', '2007') ; 

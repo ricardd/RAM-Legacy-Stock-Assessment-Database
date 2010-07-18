@@ -83,7 +83,7 @@
 "287","ICES","Herring ICES 28","\textit{Clupea harengus}","VPA","1976-2007",2006,1.20823578488545,"no",0.873536221148056,"no","\cite{ICES-WGBFAS-2007.pdf}"
 "295","ICES","Anchovy ICES VIII","\textit{Engraulis encrasicolus}","Biomass dynamics model","1986-2007",NA,NA,NA,NA,NA,"\cite{ICES-WGMHSA007.pdf}"
 "36","ICES","Atlantic cod coastal Norway","\textit{Gadus morhua}","VPA","1982-2006",2006,0.273934584229171,"no",2.16996074990954,"no","\cite{ICES-AFWG-2007.pdf}"
-"37","ICES","Atlantic cod Northeast Arctic","\textit{Gadus morhua}","VPA","1943-2006",2006,0.561596122977197,"no",1.42388576466740,"no","\cite{AFWG-NEAR-Gadusmorhua-2007.pdf}"
+"37","ICES","Atlantic cod Northeast Arctic","\textit{Gadus morhua}","VPA","1943-2006",2006,0.561596122977197,"no",1.42388576466740,"no","\cite{ICES-AFWG-2007.pdf}"
 "201","ICES","Atlantic cod Faroe Plateau","\textit{Gadus morhua}","VPA","1959-2006",2006,0.256108194535902,"no",1.52224096790067,"no","\cite{ICES-NWWG-2007.pdf}"
 "202","ICES","Atlantic cod Iceland","\textit{Gadus morhua}","Statistical catch at age model","1952-2006",2006,0.457627118644068,"no",1.16671302267516,"no","\cite{ICES-NWWG-2007.pdf}"
 "280","ICES","Atlantic cod Baltic Areas 22 and 24","\textit{Gadus morhua}","VPA","1969-2007",2006,0.364263763737695,"no",1.42883149384782,"no","\cite{ICES-WGBFAS-2007.pdf}"

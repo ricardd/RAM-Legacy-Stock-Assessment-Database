@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'HAWG', 'HERRVIa', 'MINTO', '2008-04-15', '2010-03-15 15:05:59', '1957-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers herring in the north of Via', 'ICES-HAWG-2007.pdf', 1, 1, 'ICA', 'There is no precautionary reference points for this stock. ', '../spreadsheets/MINTO-HERRVIa-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'HAWG', 'HERRVIa', 'MINTO', '2008-04-15', '2010-07-18 10:58:36', '1957-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers herring in the north of Via', 'ICES-HAWG-2007.pdf', 1, 1, 'ICA', 'There is no precautionary reference points for this stock. ', '../spreadsheets/MINTO-HERRVIa-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'A1', 'Anon') ; 
- INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62°N (HAWG)') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'T1', 'Report of the Herring Assessment Working Group South of 62$^\\circ$N (HAWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRVIa-1957-2006-MINTO', 'Y1', '2007') ; 

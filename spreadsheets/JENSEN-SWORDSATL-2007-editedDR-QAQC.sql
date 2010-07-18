@@ -1,11 +1,11 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'ICCAT', 'SWORDSATL', 'JENSEN', '2009-04-10', '2010-07-14 12:29:37', '1970-2005', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', '', '../spreadsheets/JENSEN-SWORDSATL-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'ICCAT', 'SWORDSATL', 'JENSEN', '2009-04-10', '2010-07-18 11:22:02', '1970-2005', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', '', '../spreadsheets/JENSEN-SWORDSATL-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'ID', 'JENSEN-SWORDSATL-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'T1', 'Report of the 2006 Atlantic swordfish stock assessment session') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'VL', 'Col. Vol. Sci. Pap. ICCAT, 60(6): 1787-1896') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'Y1', '2007') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'A1', '{International Commission for the Conservation of Atlantic Tunas}') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN', 'ZZID', 'ICCAT-SWORDSATL-1970-2005-JENSEN') ; 
  INSERT INTO srdb.bioparams VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN','Fmsy-1/T','0.356', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('ICCAT-SWORDSATL-1970-2005-JENSEN','MSY-MT','16640', 'NULL', '') ; 

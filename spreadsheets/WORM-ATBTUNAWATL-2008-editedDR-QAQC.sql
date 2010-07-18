@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAWATL', 'WORM', '2008-11-14', '2010-06-15 14:00:54', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', '', 'Data derived directly from 2008 ICCAT assessment document, Reference Points based on low recruitment scenario (hockey stick)', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAWATL', 'WORM', '2008-11-14', '2010-07-18 10:04:05', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', '', 'Data derived directly from 2008 ICCAT assessment document, Reference Points based on low recruitment scenario (hockey stick)', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ID', 'ref2008-BFT-STOCK-ASSESS-REP') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'A1', 'Anon.') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'T1', 'REPORT OF THE 2008 ATLANTIC BLUEFIN TUNA STOCK ASSESSMENT SESSION') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'T1', 'Report of the 2008 {A}tlantic bluefin tuna stock assessment session') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'Y1', '2008') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'PB', 'ICCAT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'CY', 'Madrid, Spain') ; 

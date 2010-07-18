@@ -1,13 +1,14 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'AFWG', 'CODNEAR', 'MINTO', '2008-02-15', '2010-03-15 14:04:39', '1943-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', '', 'Coilin first entry', 'ICES-AFWG-2007.pdf', 1, 1, 'VPA', 'Two time series are provided (NOR=1 and RUS=2) for Norwegian and Russian methods of estimating unreported catches since 2002. The results are very similar.', '../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls') ; 
- INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'ID', 'AFWG-NEAR-Gadusmorhua-2007') ; 
+ INSERT INTO srdb.assessment VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'AFWG', 'CODNEAR', 'MINTO', '2008-02-15', '2010-07-18 12:40:20', '1943-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', '', 'Coilin first entry', 'ICES-AFWG-2007.pdf', 1, 1, 'VPA', 'Two time series are provided (NOR=1 and RUS=2) for Norwegian and Russian methods of estimating unreported catches since 2002. The results are very similar.', '../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'T1', 'Report of the Arctic Fisheries Working Group (AFWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'T3', 'ICES CM 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'Y1', '2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'PB', 'ICES') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'CY', 'Copenhagen') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODNEAR-1943-2006-MINTO','A50-yr','6.5', '1984') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODNEAR-1943-2006-MINTO','MAT-CALC-0-1','0', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('AFWG-CODNEAR-1943-2006-MINTO','SSB-AGE-yr','3+', 'NULL') ; 

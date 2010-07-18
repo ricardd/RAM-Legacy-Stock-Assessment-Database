@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAEATL', 'WORM', '2009-01-22', '2010-06-15 14:00:54', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', 'John.F.Walter@noaa.gov, NOAA-Fisheries SEFSC, 75 Virginia Beach Drive, Miami, Florida  33149', 'Time series data and reference points derived directly from John Walter, NMFS. Based on VPA run "70-07 sh 075 4 blocks inflated CAA" where catches were adjusted in recent years to 50-60,000 t to account for underreporting', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAEATL-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAEATL', 'WORM', '2009-01-22', '2010-07-18 10:03:46', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', 'John.F.Walter@noaa.gov, NOAA-Fisheries SEFSC, 75 Virginia Beach Drive, Miami, Florida  33149', 'Time series data and reference points derived directly from John Walter, NMFS. Based on VPA run "70-07 sh 075 4 blocks inflated CAA" where catches were adjusted in recent years to 50-60,000 t to account for underreporting', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAEATL-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'ID', 'ref2008-BFT-STOCK-ASSESS-REP') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'A1', 'Anon.') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'T1', 'REPORT OF THE 2008 ATLANTIC BLUEFIN TUNA STOCK ASSESSMENT SESSION') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'T1', 'Report of the 2008 {A}tlantic bluefin tuna stock assessment session') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'PB', 'ICCAT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'CY', 'Madrid, Spain') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAEATL-1969-2007-WORM', 'Y1', '2008') ; 

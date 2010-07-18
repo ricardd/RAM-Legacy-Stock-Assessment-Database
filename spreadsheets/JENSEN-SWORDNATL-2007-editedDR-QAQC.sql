@@ -1,10 +1,11 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ICCAT', 'SWORDNATL', 'JENSEN', '2009-04-10', '2010-07-14 15:41:19', '1978-2007', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'same pdf as SWORDSATL - stock and recruitment timeseries from base case VPA', '../spreadsheets/JENSEN-SWORDNATL-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ICCAT', 'SWORDNATL', 'JENSEN', '2009-04-10', '2010-07-18 11:22:03', '1978-2007', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'same pdf as SWORDSATL - stock and recruitment timeseries from base case VPA', '../spreadsheets/JENSEN-SWORDNATL-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ID', 'JENSEN-SWORDSATL-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'T1', 'REPORT OF THE 2006 ATLANTIC SWORDFISH STOCK ASSESSMENT SESSION') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'T1', 'Report of the 2006 {A}tlantic swordfish stock assessment session') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'VL', 'Col. Vol. Sci. Pap. ICCAT, 60(6): 1787-1896') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'Y1', '2007') ; 
+ INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ZZID', 'ICCAT-SWORDNATL-1978-2007-JENSEN') ; 
  INSERT INTO srdb.bioparams VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN','REC-AGE-yr','1', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN','Fmsy-1/T','0.3895', 'NULL', '') ; 

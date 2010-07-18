@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'WGBFAS', 'CODKAT', 'MINTO', '2008-04-15', '2010-03-15 15:44:00', '1970-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers inner part of IIIa -the Kattegat', 'ICES-WGBFAS-2007.pdf', 1, 1, 'B-ADAPT', 'Due to high level of discarding of especially age-group 1, recruitment estimates from the catch at age analyses not including discards are considered uncertain. The face value for SSB from both XSA and B-Adapt analyses should be treated with caution due to problematic catch data and also relatively noisy survey indices.', '../spreadsheets/MINTO-CODKAT-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'WGBFAS', 'CODKAT', 'MINTO', '2008-04-15', '2010-07-18 11:05:21', '1970-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers inner part of IIIa -the Kattegat', 'ICES-WGBFAS-2007.pdf', 1, 1, 'B-ADAPT', 'Due to high level of discarding of especially age-group 1, recruitment estimates from the catch at age analyses not including discards are considered uncertain. The face value for SSB from both XSA and B-Adapt analyses should be treated with caution due to problematic catch data and also relatively noisy survey indices.', '../spreadsheets/MINTO-CODKAT-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'ID', 'ICES-WGBFAS-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'T1', 'Report of the Baltic Fisheries Assessment Working Group (WGBFAS)') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-CODKAT-1970-2006-MINTO', 'T3', 'ICES CM 2007') ; 

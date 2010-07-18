@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'NWWG', 'POLLFAPL', 'MINTO', '2008-04-09', '2010-03-16 14:05:29', '1958-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', 'The 2007 Faroe saithe analytical assessment is an exploratory assessment with technical issues to be resolved. The working group concludes that the XSA assessment is useful to indicate stock trends but that recent year classes are probably underestimated because of changes in catchability (q) due to slower growth.', '../spreadsheets/MINTO-POLLFAPL-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'NWWG', 'POLLFAPL', 'MINTO', '2008-04-09', '2010-07-18 11:06:34', '1958-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', 'The 2007 Faroe saithe analytical assessment is an exploratory assessment with technical issues to be resolved. The working group concludes that the XSA assessment is useful to indicate stock trends but that recent year classes are probably underestimated because of changes in catchability (q) due to slower growth.', '../spreadsheets/MINTO-POLLFAPL-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'ID', 'ICES-NWWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'T1', 'Report of the North-Western Working Group (NWWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-POLLFAPL-1958-2006-MINTO', 'T3', 'ICES CM 2007') ; 

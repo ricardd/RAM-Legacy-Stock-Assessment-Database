@@ -1,7 +1,7 @@
 #!/bin/bash
 # load spreadsheets
 # - adding calls to the appropriate Perl script as the assessments come in
-# Last modified Time-stamp: <2010-05-27 11:45:04 (srdbadmin)>
+# Last modified Time-stamp: <2010-07-18 10:11:22 (srdbadmin)>
 #
 # as things went along, assessments are increasingly being submitted via RAMlegacy's issue tracking system, so there should be an issue per assessment there
 
@@ -202,7 +202,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-YFINEPAC-2006
 # received 2008-10-30
 
 
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls
 
 # assessments submitted via RAMlegacy, loaded on 2008-11-21
 

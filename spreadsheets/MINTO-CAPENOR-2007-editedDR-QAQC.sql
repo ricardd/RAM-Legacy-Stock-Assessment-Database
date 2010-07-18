@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'AFWG', 'CAPENOR', 'MINTO', '2008-04-08', '2010-03-15 13:37:45', '1965-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'CapTool', 'Full details of the model used are in The methodology is described in “Stock assessment methodology for the
+ INSERT INTO srdb.assessment VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'AFWG', 'CAPENOR', 'MINTO', '2008-04-08', '2010-07-18 10:44:27', '1965-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'CapTool', 'Full details of the model used are in The methodology is described in “Stock assessment methodology for the
 Barents Sea capelin”, WD # 8 to AFWG 2006.', '../spreadsheets/MINTO-CAPENOR-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'A1', 'Anon') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'A1', 'Anonymous') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'T1', 'Report of the Arctic Fisheries Working Group (AFWG)') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'T2', 'ICES Advisory Committee on Fishery Management') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'T3', 'ICES CM 2007') ; 

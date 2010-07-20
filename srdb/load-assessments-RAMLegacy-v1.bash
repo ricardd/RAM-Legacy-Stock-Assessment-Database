@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, JUNE 2010
-# Last modified Time-stamp: <2010-07-18 12:28:42 (srdbadmin)>
+# Last modified Time-stamp: <2010-07-20 17:56:13 (srdbadmin)>
 #
 
 # assessments are here in the order they appear in F&F manuscript Table S1, ie. by management body
@@ -86,6 +86,8 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SWORDSATL-200
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SWORDNATL-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls
 
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BIGEYEIO-2007-editedDR.xls
+
 
 ## ICES
 # submissions from Coilin Minto
@@ -157,3 +159,33 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-WHBCOM
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-SOLKASK-1984-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR-QAQC.xls
 
+## New Zealand stocks
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SMOOTHOREOWECR-2004-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SMOOTHOREOCR-2004-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BLACKOREOWECR-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FRANCIS-HOK1W-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FRANCIS-HOK1E-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SQUIREFISHNZ8-2005-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-TREVALLYNZ7-2005-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-GEMFISHNZ-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA1-2001-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA2-2001-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA3-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA4-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA5-2002-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA7-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RROCKLOBSTERCRA8-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-KAHNZ-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-PINKLINGNZ3-4-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-PINKLINGNZ5-6-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-PINKLINGNZ6b-2006-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-PINKLINGNZ72-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-PINKLINGNZ7WC-2008-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SOHAKENZCR-2006-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SOHAKENZSA-2007-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BWHITINGNZCIR-2006-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BFOOTABALONENZ5A-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BFOOTABALONENZ5B-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BFOOTABALONENZ5D-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BFOOTABALONENZ7-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-OROUGHYMEC-2004-v2-editedDR.xls

@@ -1,0 +1,4 @@
+psql:../spreadsheets/FRANCIS-HOK1E-2007-editedDR.sql:6: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'T1', 'Assessmen...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

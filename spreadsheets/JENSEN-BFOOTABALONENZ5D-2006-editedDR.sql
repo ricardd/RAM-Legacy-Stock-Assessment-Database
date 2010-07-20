@@ -1,6 +1,14 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'NZMFishSHELLFISHWG', 'PAUAPAU5D', 'JENSEN', '2009-03-11', '2009-06-10 11:51:21', '1964-2006', 'received from contact', 'Paul Breen - p.breen@niwa.co.nz', '', '', 1, 0, 'LBBM', 'recruitment timeseries available, but age at recruitment is undetermined (size-based approach)', '../spreadsheets/JENSEN-BFOOTABALONENZ5D-2006-editedDR.xls') ; 
- INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'ID', '07-09-FAR.pdf') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'NZMFishSHELLFISHWG', 'PAUAPAU5D', 'JENSEN', '2009-03-11', '2010-07-20 17:52:44', '1964-2006', 'received from contact', 'Paul Breen - p.breen@niwa.co.nz', '', '', 1, 0, 'LBBM', 'recruitment timeseries available, but age at recruitment is undetermined (size-based approach)', '../spreadsheets/JENSEN-BFOOTABALONENZ5D-2006-editedDR.xls') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'ID', 'ref07-09-FAR.pdf') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'A1', 'Breen, Paul') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'A1', 'Kim, S.W.') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'T1', 'The 2006 stock assessment for paua (\\emph{Haliotis iris}) stocks PAU 5A (Fiordland) and PAU 5D (Otago)') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'Y1', '2007') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'VL', 'New Zealand Fisheries Assessment Report 2007/9') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'CY', 'Wellington, New Zealand') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'TY', 'RPRT') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN', 'ZZID', 'NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN') ; 
  INSERT INTO srdb.timeseries VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN','SSB-MT',1964, 1928.83) ; 
  INSERT INTO srdb.timeseries VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN','SSB-MT',1965, 1925.795) ; 
  INSERT INTO srdb.timeseries VALUES('NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN','SSB-MT',1966, 1916.545) ; 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  18 JUL 2010 13:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  20 JUL 2010 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,26 +566,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
  []
 
 
-LaTeX Warning: Citation `NA' on page 6 undefined on input line 142.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\OT1/cmr/m/n/6 Australian salmon New
  []
 
 
-LaTeX Warning: Citation `NA' on page 6 undefined on input line 143.
-
-
 Underfull \hbox (badness 6300) in paragraph at lines 144--144
 []|\OT1/cmr/m/n/6 New Zealand snap-per New
  []
-
-
-LaTeX Warning: Citation `NA' on page 6 undefined on input line 144.
-
-
-LaTeX Warning: Citation `NA' on page 6 undefined on input line 145.
 
 
 Overfull \hbox (28.76855pt too wide) in alignment at lines 126--146
@@ -594,28 +582,16 @@ Overfull \hbox (28.76855pt too wide) in alignment at lines 126--146
 
 [6]
 
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 146.
+LaTeX Warning: Citation `ref07-09-FAR.pdf' on page 7 undefined on input line 15
+0.
 
 
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 147.
+LaTeX Warning: Citation `ref08-05-FAR.pdf' on page 7 undefined on input line 15
+1.
 
 
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 148.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 149.
-
-
-LaTeX Warning: Citation `07-09-FAR.pdf' on page 7 undefined on input line 150.
-
-
-LaTeX Warning: Citation `08-05-FAR.pdf' on page 7 undefined on input line 151.
-
-
-LaTeX Warning: Citation `07-09-FAR.pdf' on page 7 undefined on input line 152.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 153.
+LaTeX Warning: Citation `ref07-09-FAR.pdf' on page 7 undefined on input line 15
+2.
 
 
 Underfull \hbox (badness 1087) in paragraph at lines 154--154
@@ -626,39 +602,9 @@ Underfull \hbox (badness 1087) in paragraph at lines 154--154
 LaTeX Warning: Citation `NA' on page 7 undefined on input line 154.
 
 
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 155.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 156.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 157.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 158.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 159.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 160.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 161.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 164.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 165.
-
-
 Overfull \hbox (28.76855pt too wide) in alignment at lines 146--166
  [] [] [] [] [] [] [] [] [] [] [] 
  []
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 166.
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 167--167
@@ -666,21 +612,9 @@ Underfull \hbox (badness 1565) in paragraph at lines 167--167
  []
 
 
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 167.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 168.
-
-
 Underfull \hbox (badness 6078) in paragraph at lines 169--169
 []|\OT1/cmr/m/n/6 Smooth oreo West end of
  []
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 169.
-
-
-LaTeX Warning: Citation `NA' on page 7 undefined on input line 170.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--175
@@ -1508,18 +1442,19 @@ Missing character: There is no é in font cmr12!
 Missing character: There is no À in font cmr12!
 Missing character: There is no À in font cmr12!
 Missing character: There is no é in font cmr12!
+ [19]
 Missing character: There is no é in font cmr12!
- [19] [20] [21] [22]) [23] (./fishandfisheries-Suppl.aux
+ [20] [21] [22] [23]) [24] (./fishandfisheries-Suppl.aux
 (./Table-S1-formatted.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2064 strings out of 495061
- 30941 string characters out of 1182621
- 146563 words of memory out of 3000000
- 5224 multiletter control sequences out of 15000+50000
+ 2067 strings out of 495061
+ 31008 string characters out of 1182621
+ 146578 words of memory out of 3000000
+ 5227 multiletter control sequences out of 15000+50000
  9509 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,6n,24p,682b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1530,9 +1465,9 @@ ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 msy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></
 usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on fishandfisheries-Suppl.pdf (23 pages, 215161 bytes).
+Output written on fishandfisheries-Suppl.pdf (24 pages, 215766 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

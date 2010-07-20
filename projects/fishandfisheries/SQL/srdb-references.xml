@@ -6,16 +6,16 @@
         <subTitle>Alaska plaice</subTitle>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Wilderbuer</namePart>
-        <namePart type="family">WT</namePart>
+        <namePart type="given">Spencer</namePart>
+        <namePart type="given">PD</namePart>
+        <namePart type="family">Nichol DG</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Spencer</namePart>
-        <namePart type="given">PD</namePart>
-        <namePart type="family">Nichol DG</namePart>
+        <namePart type="given">Wilderbuer</namePart>
+        <namePart type="family">WT</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,15 +41,15 @@
         <subTitle>arrowtooth flounder</subTitle>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nichol</namePart>
-        <namePart type="family">DG</namePart>
+        <namePart type="given">Wilderbuer</namePart>
+        <namePart type="family">TK</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Wilderbuer</namePart>
-        <namePart type="family">TK</namePart>
+        <namePart type="given">Nichol</namePart>
+        <namePart type="family">DG</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -105,6 +105,13 @@
         <title>15. Stock Assessment of Bering Sea/Aleutian Islands Atka Mackerel</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Lowe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">J</namePart>
         <namePart type="given">;</namePart>
         <namePart type="given">Wilkins,</namePart>
@@ -119,13 +126,6 @@
         <namePart type="given">Spies,</namePart>
         <namePart type="given">I</namePart>
         <namePart type="family">Ianelli</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="family">Lowe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -172,15 +172,15 @@
         <title>Status of Cabezon (Scorpaenichthys marmoratus) in California Waters as Assessed in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Cope</namePart>
+        <namePart type="given">Andre</namePart>
+        <namePart type="family">Punt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andre</namePart>
-        <namePart type="family">Punt</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Cope</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -204,15 +204,15 @@
         <title>Status of Cabezon (Scorpaenichthys marmoratus) in California Waters as Assessed in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Cope</namePart>
+        <namePart type="given">Andre</namePart>
+        <namePart type="family">Punt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andre</namePart>
-        <namePart type="family">Punt</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Cope</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -236,14 +236,6 @@
         <title>5. Gulf of Alaska Deepwater Flatfish</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Stockhausen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">B</namePart>
         <namePart type="given">J</namePart>
         <namePart type="given">;</namePart>
@@ -255,6 +247,14 @@
         <namePart type="given">M</namePart>
         <namePart type="given">H</namePart>
         <namePart type="family">Turnock</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Stockhausen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -351,14 +351,6 @@
         <title>8. Gulf of Alaska Flathead Sole Stock Assessment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Stockhausen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">M</namePart>
         <namePart type="given">E</namePart>
         <namePart type="given">;</namePart>
@@ -366,6 +358,14 @@
         <namePart type="given">M</namePart>
         <namePart type="given">H</namePart>
         <namePart type="family">Wilkins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Stockhausen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -445,17 +445,17 @@
         <title>Chapter 12. Northern Rockfish</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Ianelli</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Spencer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Spencer</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Ianelli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -477,6 +477,13 @@
         <subTitle>Assessment of Northern Rockfish in the Gulf of Alaska (Executive Summary)</subTitle>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Heifetz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">D</namePart>
         <namePart type="given">,</namePart>
         <namePart type="given">Shotwell,</namePart>
@@ -486,13 +493,6 @@
         <namePart type="given">Ianelli,</namePart>
         <namePart type="given">J</namePart>
         <namePart type="family">Hanselman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Heifetz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -517,17 +517,17 @@
         <title>Chapter 7 Northern Rock Sole</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Nichol</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Wliderbuer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">T</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Wliderbuer</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Nichol</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -622,17 +622,17 @@
         <title>Chapter 11. Pacific Ocean Perch</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Spencer</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Ianelli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Ianelli</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Spencer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -699,14 +699,6 @@
         <title>6. Goulf of Alaska Rex Sole Stock Assessment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Stockhausen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">B</namePart>
         <namePart type="given">,</namePart>
         <namePart type="given">Turnock,</namePart>
@@ -720,6 +712,14 @@
         <namePart type="given">M</namePart>
         <namePart type="given">H</namePart>
         <namePart type="family">Matta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Stockhausen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -771,20 +771,20 @@
         <subTitle>Assessment of Rougheye and Blackspotted Rockfish in the Gulf of Alaska (Executive Summary)</subTitle>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">Kalei</namePart>
-        <namePart type="family">Shotwell</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">D</namePart>
         <namePart type="given">,</namePart>
         <namePart type="given">Clausen,</namePart>
         <namePart type="given">D</namePart>
         <namePart type="given">M</namePart>
         <namePart type="family">Hanselman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">Kalei</namePart>
+        <namePart type="family">Shotwell</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -848,18 +848,18 @@
         <title>3. Assessment of the Sablefish stock in Alaska</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hanselman</namePart>
-        <namePart type="family">D</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">Fujioka</namePart>
         <namePart type="given">JT,</namePart>
         <namePart type="given">Rodgveller</namePart>
         <namePart type="given">CJ</namePart>
         <namePart type="family">Lunsford CR</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hanselman</namePart>
+        <namePart type="family">D</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -1019,13 +1019,6 @@
         <title>1.   Gulf of Alaska Walleye Pollock</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Martin</namePart>
-        <namePart type="family">Dorn</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">K</namePart>
         <namePart type="given">,</namePart>
         <namePart type="given">Barbeaux,</namePart>
@@ -1044,6 +1037,13 @@
         <namePart type="given">Wilkins,</namePart>
         <namePart type="given">M</namePart>
         <namePart type="family">Aydin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Dorn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -1611,6 +1611,13 @@
         <title>Eastern gemfish (\emph{Rexea solandri}) Stock Assessment based on 2007 survey data</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Andre</namePart>
+        <namePart type="family">Punt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Richard</namePart>
         <namePart type="given">L</namePart>
         <namePart type="family">Little</namePart>
@@ -1621,13 +1628,6 @@
     <name type="personal">
         <namePart type="given">Kevin</namePart>
         <namePart type="family">Rowling</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andre</namePart>
-        <namePart type="family">Punt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -1698,15 +1698,15 @@
         <title>Jackass morwong (\emph{Nemadactylus macropterus}) stock assessment based on data up to 2006</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sally</namePart>
-        <namePart type="family">Wayte</namePart>
+        <namePart type="given">Gavin</namePart>
+        <namePart type="family">Fay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gavin</namePart>
-        <namePart type="family">Fay</namePart>
+        <namePart type="given">Sally</namePart>
+        <namePart type="family">Wayte</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2195,16 +2195,16 @@
         <title>Population status of Eastern Georges Bank cod (unit areas 5Zj,m) for 1978-2004.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="family">Hatt</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hunt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Hunt</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Hatt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2236,14 +2236,6 @@
         <title>Assessment of the status of NAFO division 4X/5Y haddock in 2003.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Comeau</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">R</namePart>
         <namePart type="given">K</namePart>
         <namePart type="family">Mohn</namePart>
@@ -2252,9 +2244,10 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">G</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Simon</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Hurley</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2269,10 +2262,17 @@
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">G</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Simon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">P</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Hurley</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Comeau</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2297,13 +2297,6 @@
         <title>Assessment of haddock on eastern {G}eorges {B}ank.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Stratis</namePart>
-        <namePart type="family">Gavaris</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">L</namePart>
         <namePart type="family">Van Eeckhaute</namePart>
         <role>
@@ -2313,6 +2306,13 @@
     <name type="personal">
         <namePart type="given">Jon</namePart>
         <namePart type="family">Brodziak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stratis</namePart>
+        <namePart type="family">Gavaris</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2337,6 +2337,37 @@
         <title>2006 Evaluation of 4VWX Herring</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Stephenson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="family">Knox</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Fife</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Annis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">G</namePart>
         <namePart type="given">D</namePart>
         <namePart type="family">Melvin</namePart>
@@ -2353,40 +2384,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Annis</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Stephenson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="family">Knox</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">K</namePart>
         <namePart type="given">J</namePart>
         <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Fife</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2411,9 +2411,9 @@
         <title>Distribution and abundance of barndoor skate Dupturius laevis in the Canadian Atlantic based upon research vessel surveys and industry/science surveys</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Kulka</namePart>
+        <namePart type="given">Kenneth</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Frank</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2427,9 +2427,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kenneth</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Frank</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Kulka</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2454,17 +2454,17 @@
         <title>Assessment of 4VsW cod to 2002.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Fanning</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Mohn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Mohn</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Fanning</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2497,15 +2497,15 @@
         <title>Assessment of White Hake (Urophycis tenuis) in NAFO Divisions 4VWX and 5</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Simon</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bundy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="family">Bundy</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Simon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2573,6 +2573,14 @@
         <title>An assessment of American plaice in NAFO subdivision 3Ps</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Brodie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">M</namePart>
         <namePart type="given">J</namePart>
         <namePart type="family">Morgan</namePart>
@@ -2584,14 +2592,6 @@
         <namePart type="given">P</namePart>
         <namePart type="given">A</namePart>
         <namePart type="family">Shelton</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Brodie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2616,9 +2616,17 @@
         <title>An assessment of the cod (Gadus morhua) stock in NAFO Divisions 2J3KL in April 2006.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">E</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Murphy</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Healey</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">G</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Lilly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2631,17 +2639,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Healey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">G</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Lilly</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Murphy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2666,6 +2666,14 @@
         <title>Assessment of the cod (Gadus morhua) stock in NAFO Subdivision 3Ps in October 2004.</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">E</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Murphy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">J</namePart>
         <namePart type="family">Brattey</namePart>
         <role>
@@ -2688,14 +2696,6 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">E</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Murphy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">G</namePart>
         <namePart type="given">R</namePart>
         <namePart type="family">Lilly</namePart>
@@ -2704,17 +2704,17 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Healey</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Cadigan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">N</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Cadigan</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Healey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2739,17 +2739,17 @@
         <title>The status of monkfish (Lophius americanus) in NAFO divisions 2J, 3K, 3L, 3N, 3O and subdivision 3Ps</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Kulka</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Miri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">C</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Miri</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Kulka</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2820,15 +2820,15 @@
         <title>{Stock Assessment for British Columbia Herring in 2006 and Forecasts of the Potential Catch in 2007}</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Vivian</namePart>
-        <namePart type="family">Haist</namePart>
+        <namePart type="given">Jake</namePart>
+        <namePart type="family">Schweigert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jake</namePart>
-        <namePart type="family">Schweigert</namePart>
+        <namePart type="given">Vivian</namePart>
+        <namePart type="family">Haist</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2853,15 +2853,15 @@
         <title>{Stock Assessment for British Columbia Herring in 2006 and Forecasts of the Potential Catch in 2007}</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jake</namePart>
-        <namePart type="family">Schweigert</namePart>
+        <namePart type="given">Vivian</namePart>
+        <namePart type="family">Haist</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Vivian</namePart>
-        <namePart type="family">Haist</namePart>
+        <namePart type="given">Jake</namePart>
+        <namePart type="family">Schweigert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2919,15 +2919,15 @@
         <title>{Stock Assessment for British Columbia Herring in 2006 and Forecasts of the Potential Catch in 2007}</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jake</namePart>
-        <namePart type="family">Schweigert</namePart>
+        <namePart type="given">Vivian</namePart>
+        <namePart type="family">Haist</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Vivian</namePart>
-        <namePart type="family">Haist</namePart>
+        <namePart type="given">Jake</namePart>
+        <namePart type="family">Schweigert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -2952,15 +2952,15 @@
         <title>{Stock Assessment for British Columbia Herring in 2006 and Forecasts of the Potential Catch in 2007}</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jake</namePart>
-        <namePart type="family">Schweigert</namePart>
+        <namePart type="given">Vivian</namePart>
+        <namePart type="family">Haist</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Vivian</namePart>
-        <namePart type="family">Haist</namePart>
+        <namePart type="given">Jake</namePart>
+        <namePart type="family">Schweigert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3060,6 +3060,13 @@
         <title>2006 Assessment of pollock in 4VWX and 5Zc.</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Perley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Heath</namePart>
         <namePart type="family">Stone</namePart>
         <role>
@@ -3069,13 +3076,6 @@
     <name type="personal">
         <namePart type="given">Donald</namePart>
         <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Perley</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3100,8 +3100,8 @@
         <title>The status of cod in the {Northern Gulf of St. Lawrence (3Pn, 4RS)} in 2006.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Johanne</namePart>
-        <namePart type="family">Gauthier</namePart>
+        <namePart type="given">Hugo</namePart>
+        <namePart type="family">Bourdages</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3135,15 +3135,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hugo</namePart>
-        <namePart type="family">Bourdages</namePart>
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Schwab</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Schwab</namePart>
+        <namePart type="given">Johanne</namePart>
+        <namePart type="family">Gauthier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3288,8 +3288,15 @@
         <title>The status of the redfish stock in unit 1 (Gulf of St. Lawrence) in 2000.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="family">Bernier</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Bourdages</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Morin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3302,14 +3309,7 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">H</namePart>
-        <namePart type="family">Bourdages</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">B</namePart>
+        <namePart type="given">D</namePart>
         <namePart type="family">Bernier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -3317,7 +3317,7 @@
     </name>
     <name type="personal">
         <namePart type="given">B</namePart>
-        <namePart type="family">Morin</namePart>
+        <namePart type="family">Bernier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3342,6 +3342,13 @@
         <title>Assessment of the southern Gulf of St. Lawrence cod stock, March 2007.</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Savoie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">D</namePart>
         <namePart type="given">P</namePart>
         <namePart type="family">Swain</namePart>
@@ -3364,13 +3371,6 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="family">Savoie</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">G</namePart>
         <namePart type="given">A</namePart>
         <namePart type="family">Poirier</namePart>
@@ -3379,17 +3379,17 @@
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">L</namePart>
         <namePart type="given">G</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Chouinard</namePart>
+        <namePart type="family">Currie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">L</namePart>
         <namePart type="given">G</namePart>
-        <namePart type="family">Currie</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Chouinard</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3414,15 +3414,22 @@
         <title>Assessment of the NAFO Division 4T southern Gulf of St. Lawrence herring stocks in 2006.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">C</namePart>
-        <namePart type="family">Bourque</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">MacDougall</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Bourque</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3439,13 +3446,6 @@
         <namePart type="given">G</namePart>
         <namePart type="given">A</namePart>
         <namePart type="family">Poirier</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">C</namePart>
-        <namePart type="family">MacDougall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3470,16 +3470,17 @@
         <title>Assessment of the NAFO Division 4T southern Gulf of St. Lawrence herring stocks in 2006.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">C</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">LeBlanc</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Poirier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">C</namePart>
-        <namePart type="family">Bourque</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">LeBlanc</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3492,9 +3493,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">G</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Poirier</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Bourque</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3526,6 +3526,13 @@
         <title>The 2007 assessment of snow crab, Chionoecetes opilio, stocks in the southern Gulf of St. Lawrence (Areas 12, 19, E and F)</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Bélanger</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">M</namePart>
         <namePart type="family">Hébert</namePart>
         <role>
@@ -3533,15 +3540,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="family">Moriyasu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="family">Bélanger</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Wade</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -3554,8 +3554,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">E</namePart>
-        <namePart type="family">Wade</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Moriyasu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4037,15 +4037,15 @@
         <title>Updated Status of the Chilean Jack Mackerel Stock</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Rodolfo</namePart>
-        <namePart type="family">Serra</namePart>
+        <namePart type="given">Cristian</namePart>
+        <namePart type="family">Canales</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Cristian</namePart>
-        <namePart type="family">Canales</namePart>
+        <namePart type="given">Rodolfo</namePart>
+        <namePart type="family">Serra</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4066,15 +4066,15 @@
         <title>Stock assessment of the shortfin mako shark (Isurus oxyrinchus) in the Northwest Pacific Ocean using per recruit and virtual population analyses</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kwang-Ming</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Jui-Han</namePart>
+        <namePart type="family">Chang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jui-Han</namePart>
-        <namePart type="family">Chang</namePart>
+        <namePart type="given">Kwang-Ming</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4109,13 +4109,6 @@
         <title>An\&apos;{a}lisis estacional de cohortes 1990 - 2007 de la poblaci\&apos;{o}n de ancho\&apos;{i}ta (\emph{Engraulis anchoita}) al norte de 41$^{\circ}$S, y estimaci\&apos;{o}n de una captura biol\&apos;{o}gicamente aceptable durante el a\~{n}o 2008.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Claudio</namePart>
-        <namePart type="family">Buratti</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">David</namePart>
         <namePart type="family">Garciarena</namePart>
         <role>
@@ -4125,6 +4118,13 @@
     <name type="personal">
         <namePart type="given">Jorge</namePart>
         <namePart type="family">Hansen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claudio</namePart>
+        <namePart type="family">Buratti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4189,15 +4189,15 @@
         <title>Evaluaci\&apos;{o}n del estado del efectivo norte de 41$^{\circ}$S de la merluza (\emph{Merluccius hubbsi}) y estimaci\&apos;{o}n de la captura biol\&apos;{o}gicamente aceptable para el a\~{n}o 2007.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marta</namePart>
-        <namePart type="family">Renzi</namePart>
+        <namePart type="given">Gabriela</namePart>
+        <namePart type="family">Irusta</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gabriela</namePart>
-        <namePart type="family">Irusta</namePart>
+        <namePart type="given">Marta</namePart>
+        <namePart type="family">Renzi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4219,15 +4219,15 @@
         <title>Evaluaci\&apos;{o}n del estado del efectivo sur de 41$^{\circ}$S de la merluza (\emph{Merluccius hubbsi}) y estimaci\&apos;{o}n de la captura biol\&apos;{o}gicamente aceptable correspondiente al a\~{n}o 2007.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gabriela</namePart>
-        <namePart type="family">Irusta</namePart>
+        <namePart type="given">Marta</namePart>
+        <namePart type="family">Renzi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marta</namePart>
-        <namePart type="family">Renzi</namePart>
+        <namePart type="given">Gabriela</namePart>
+        <namePart type="family">Irusta</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4249,15 +4249,15 @@
         <title>Evaluaci\&apos;{o}n de la abundancia de merluza de cola (\emph{Macruronus magellanicus}) en el Atl\&apos;{a}ntico Sudoccidental. Per\&apos;{i}odo 1985-2006.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Analia</namePart>
-        <namePart type="family">Giussi</namePart>
+        <namePart type="given">Otto</namePart>
+        <namePart type="family">W{\&quot;{o}}hler</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Otto</namePart>
-        <namePart type="family">W{\&quot;{o}}hler</namePart>
+        <namePart type="given">Analia</namePart>
+        <namePart type="family">Giussi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4282,15 +4282,15 @@
         <title>Evaluaci\&apos;{o}n de la abundancia de polaca (\emph{Micromesistius australis}) en el Atl\&apos;{a}ntico Sudoccidental. Per\&apos;{i}odo 1987-2007</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Otto</namePart>
-        <namePart type="family">W{\&quot;{o}}hler</namePart>
+        <namePart type="given">Analia</namePart>
+        <namePart type="family">Giussi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Analia</namePart>
-        <namePart type="family">Giussi</namePart>
+        <namePart type="given">Otto</namePart>
+        <namePart type="family">W{\&quot;{o}}hler</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4314,12 +4314,18 @@
     <titleInfo>
         <title>Report of the tenth session of the scientific committee</title>
     </titleInfo>
+    <name type="personal">
+        <namePart type="family">Anonymous</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2007</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
     <genre>report</genre>
-    <note>JENSEN_BIGEYEIO-2007.pdf</note>
+    <note>JENSEN-BIGEYEIO-2007.pdf</note>
     <identifier type="citekey">IOTC-BIGEYEIO-1957-2006-JENSEN</identifier>
     <part>
         <detail type="volume"><number>IOTC-2007-SC-R[E]</number></detail>
@@ -4330,15 +4336,15 @@
         <title>Assessment of the Pacific halibut stock at the end of 2008</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="family">Clark</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="family">Hare</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Steven</namePart>
-        <namePart type="family">Hare</namePart>
+        <namePart type="given">William</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4404,17 +4410,17 @@
         <title>{MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="family">Butterworth</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Johnston</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnston</namePart>
+        <namePart type="family">Butterworth</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4466,17 +4472,17 @@
         <title>{MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="family">Butterworth</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Johnston</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnston</namePart>
+        <namePart type="family">Butterworth</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4528,17 +4534,17 @@
         <title>{MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnston</namePart>
+        <namePart type="family">Butterworth</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="family">Butterworth</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Johnston</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4618,16 +4624,16 @@
         <title>Updated assessment of the {South African} kingklip resource including an initial attempt at including catch-at-length data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="family">Brandao</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Butterworth</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Butterworth</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Brandao</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4737,17 +4743,17 @@
         <title>Near final specifications for the sex- and area-specific Operating Models for testing OMPs for the South Coast rock lobster resource</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnston</namePart>
+        <namePart type="family">Butterworth</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">D</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="family">Butterworth</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Johnston</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4776,9 +4782,16 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Dwyer</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Brodie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="family">Maddock Parsons</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4792,16 +4805,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="family">Maddock Parsons</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Brodie</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Dwyer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4823,16 +4829,16 @@
         <title>An Assessment of American Plaice (Hippoglossoides platessoides) in NAFO Division 3M</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Alpoim</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Avila de Melo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Avila de Melo</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Alpoim</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4861,13 +4867,6 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="family">Saborido-Rey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">S</namePart>
         <namePart type="family">Cervino</namePart>
         <role>
@@ -4877,6 +4876,13 @@
     <name type="personal">
         <namePart type="given">C</namePart>
         <namePart type="family">Fernandez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="family">Saborido-Rey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4898,16 +4904,16 @@
         <title>An assessment of the cod stock in NAFO Divisions 3NO</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Morgan</namePart>
+        <namePart type="family">Brattey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">M</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Brattey</namePart>
+        <namePart type="family">Morgan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4964,16 +4970,16 @@
         <title>An Assessment of Greenland Halibut (Reinhardtius hippoglossoides) in NAFO Subarea 2 and Divisions 3KLMNO</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">J.-C.</namePart>
-        <namePart type="family">Mahé</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Healey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Healey</namePart>
+        <namePart type="given">J.-C.</namePart>
+        <namePart type="family">Mahé</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -4998,8 +5004,8 @@
         <title>Assessment of Demersal Redfish in NAFO Subarea 1</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christoph</namePart>
-        <namePart type="family">Stransky</namePart>
+        <namePart type="given">Hans-Joachim</namePart>
+        <namePart type="family">Rätz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5012,8 +5018,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hans-Joachim</namePart>
-        <namePart type="family">Rätz</namePart>
+        <namePart type="given">Christoph</namePart>
+        <namePart type="family">Stransky</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5038,16 +5044,15 @@
         <title>A Revised ASPIC Based Assessment of Redfish in NAFO Divisions 3LN</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="family">Power</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Alpoim</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Àvila de Melo</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Power</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5060,8 +5065,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Alpoim</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Àvila de Melo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5133,14 +5139,6 @@
     </name>
     <name type="personal">
         <namePart type="given">D</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Parsons</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">D</namePart>
         <namePart type="family">Power</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -5150,6 +5148,14 @@
         <namePart type="given">W</namePart>
         <namePart type="given">B</namePart>
         <namePart type="family">Brodie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Parsons</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5490,16 +5496,16 @@
         <subTitle>Report of the 3rd Groundfish Assessment Review Meeting (GARM III),</subTitle>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">Northeast</namePart>
+        <namePart type="given">Fisheries</namePart>
+        <namePart type="given">Science</namePart>
+        <namePart type="family">Center</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Northeast</namePart>
-        <namePart type="given">Fisheries</namePart>
-        <namePart type="given">Science</namePart>
-        <namePart type="family">Center</namePart>
+        <namePart type="family">NULL</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -5939,16 +5945,16 @@
         <title>47th Northeast Regional Stock Assessment Workshop (47th SAW) Assessment Report.</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Northeast</namePart>
-        <namePart type="given">Fisheries</namePart>
-        <namePart type="given">Science</namePart>
-        <namePart type="family">Center</namePart>
+        <namePart type="family">NULL</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">Northeast</namePart>
+        <namePart type="given">Fisheries</namePart>
+        <namePart type="given">Science</namePart>
+        <namePart type="family">Center</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6504,6 +6510,21 @@
         <detail type="volume"><number>Northeast Fisheries Science Center Reference Document 08-15</number></detail>
     </part>
 </mods>
+<mods ID="NIWA-AUSSALMONNZ-1975-2006-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NIWA-AUSSALMONNZ-1975-2006-JENSEN</identifier>
+</mods>
 <mods ID="NMFS-MENATLAN-1940-2005-STANTON">
     <titleInfo>
         <title>2006 Stock Assessment Report for Atlantic Menhaden</title>
@@ -6549,17 +6570,17 @@
         <title>Stock assessment of the arrowtooth flounder (Atheresthes stomias) population off the West Coast of the United States in 2007</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">T</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Helser</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Kaplan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">I</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Kaplan</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Helser</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6649,13 +6670,6 @@
         <title>The 2007 assessment of blue rockfish (Sebastes mystinus) in California</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="family">Key</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">AD,</namePart>
         <namePart type="given">Field,</namePart>
         <namePart type="given">J,</namePart>
@@ -6664,6 +6678,13 @@
         <namePart type="given">Lynn,</namePart>
         <namePart type="given">K</namePart>
         <namePart type="family">MacCall</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Key</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6745,16 +6766,16 @@
         <title>Status of cowcod, Sebastes levis, in the Southern California Bight</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Pearson</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Ralston S</namePart>
+        <namePart type="given">Dick</namePart>
+        <namePart type="family">EJ</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dick</namePart>
-        <namePart type="family">EJ</namePart>
+        <namePart type="given">Pearson</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Ralston S</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6772,15 +6793,15 @@
         <title>Status of the U.S. canary rockfish resource in 2007</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">Ian</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Stewart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ian</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Stewart</namePart>
+        <namePart type="family">NULL</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6846,15 +6867,15 @@
         <title>Status of Kelp Greenling (Hexagrammos decagrammus) in Oregon and California Waters as Assessed in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Cope</namePart>
+        <namePart type="given">MacCall</namePart>
+        <namePart type="family">Alec</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">MacCall</namePart>
-        <namePart type="family">Alec</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Cope</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6927,14 +6948,6 @@
         <title>Stock assessment of Pacific hake, {M}erluccius productus, (a.k.a. whiting) in U.S. and Canadian waters in 2008</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ian</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Stewart</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">Thomas</namePart>
         <namePart type="given">E</namePart>
         <namePart type="family">Helser</namePart>
@@ -6946,6 +6959,14 @@
         <namePart type="given">Owen</namePart>
         <namePart type="given">S</namePart>
         <namePart type="family">Hamel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ian</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Stewart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -6985,18 +7006,18 @@
         <subTitle>2004</subTitle>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Punt</namePart>
-        <namePart type="given">Andre,</namePart>
-        <namePart type="given">Cope</namePart>
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Haltuch Melissa</namePart>
+        <namePart type="given">Han-Lin</namePart>
+        <namePart type="family">Lai</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Han-Lin</namePart>
-        <namePart type="family">Lai</namePart>
+        <namePart type="given">Punt</namePart>
+        <namePart type="given">Andre,</namePart>
+        <namePart type="given">Cope</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Haltuch Melissa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7070,15 +7091,15 @@
         <title>Status and Future Prospects for the Shortspine Thornyhead Resource in Waters off Washington, Oregon, and California as Assessed in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Owen</namePart>
-        <namePart type="family">Hamel</namePart>
+        <namePart type="given">Firstname</namePart>
+        <namePart type="family">Lastname</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Firstname</namePart>
-        <namePart type="family">Lastname</namePart>
+        <namePart type="given">Owen</namePart>
+        <namePart type="family">Hamel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7154,15 +7175,15 @@
         <title>Status of the Yellowtail Rockfish in 2004</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Han-Lin</namePart>
-        <namePart type="family">Lai</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Wallace</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Wallace</namePart>
+        <namePart type="given">Han-Lin</namePart>
+        <namePart type="family">Lai</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7372,25 +7393,52 @@
 </mods>
 <mods ID="NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN">
     <titleInfo>
-        <title/>
+        <title>Personal communication</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Patrick</namePart>
+        <namePart type="given">PatrickL</namePart>
         <namePart type="family">Cordue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
-    <originInfo>
-        <dateIssued>2009</dateIssued>
-    </originInfo>
-    <genre>Personal Communication</genre>
     <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
     <identifier type="citekey">NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN</identifier>
 </mods>
 <mods ID="NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS">
     <titleInfo>
-        <title>Assessment of hoki (Macruronus novaezelandiae) in 2007</title>
+        <title>Assessment of hoki (\emph{Macruronus novaezelandiae}) in 2007</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">R</namePart>
@@ -7417,7 +7465,7 @@
 </mods>
 <mods ID="NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS">
     <titleInfo>
-        <title>Assessment of hoki (Macruronus novaezelandiae) in 2007</title>
+        <title>Assessment of hoki (\emph{Macruronus novaezelandiae}) in 2007</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">R</namePart>
@@ -7442,82 +7490,366 @@
         <detail type="volume"><number>New Zealand Fisheries Assessment Report 2008/4</number></detail>
     </part>
 </mods>
-<mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN">
+<mods ID="NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN">
     <titleInfo>
-        <title/>
+        <title>Personal communication</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Pall</namePart>
+        <namePart type="family">Starr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>PALLSTARRperscomm.pdf</note>
+    <identifier type="citekey">NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
     <identifier type="citekey">NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN</identifier>
 </mods>
 <mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN">
     <titleInfo>
-        <title/>
+        <title>Personal communication</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
     <identifier type="citekey">NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN</identifier>
 </mods>
 <mods ID="NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN">
     <titleInfo>
-        <title/>
+        <title>Personal communication</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
     <identifier type="citekey">NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN</identifier>
+</mods>
+<mods ID="NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN">
+    <titleInfo>
+        <title>Personal communication</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <identifier type="citekey">NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN</identifier>
 </mods>
 <mods ID="NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN">
     <titleInfo>
-        <title/>
+        <title>Personal communication</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">PatrickL</namePart>
+        <namePart type="family">Cordue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
-    <note>07-09-FAR.pdf</note>
-    <note>08-05-FAR.pdf</note>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Kim</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="family">Breen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Breen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Adam</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm type="text">Wellington, New Zealand</placeTerm>
+        </place>
+    </originInfo>
+    <genre>communication</genre>
+    <note>CORDUEperscomm.pdf</note>
+    <note>ref07-09-FAR.pdf</note>
+    <note>ref08-05-FAR.pdf</note>
     <identifier type="citekey">NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN</identifier>
+    <part>
+        <detail type="volume"><number>New Zealand Fisheries Assessment Report 2007/9</number></detail>
+    </part>
 </mods>
 <mods ID="NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN">
     <titleInfo>
-        <title/>
+        <title>The 2008 stock assessment of paua (\emph{Haliotis iris}) in PAU7</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="family">NULL</namePart>
+        <namePart type="given">Andy</namePart>
+        <namePart type="family">McKenzie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Adam</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wellington, New Zealand</placeTerm>
+        </place>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>report</genre>
+    <note>ref09-34-FAR.pdf</note>
     <identifier type="citekey">NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN</identifier>
+    <part>
+        <detail type="volume"><number>New Zealand Fisheries Assessment Report 2009/34</number></detail>
+    </part>
 </mods>
 <mods ID="PFMC-LINGCODNPCOAST-1956-2005-STANTON">
     <titleInfo>
         <title>Assessment of Lingcod (Ophiodon elongatus) for the Pacific Fishery Management Council in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Thomas</namePart>
-        <namePart type="family">Jagielo</namePart>
+        <namePart type="given">Farron</namePart>
+        <namePart type="family">Wallace</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Farron</namePart>
-        <namePart type="family">Wallace</namePart>
+        <namePart type="given">Thomas</namePart>
+        <namePart type="family">Jagielo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7634,6 +7966,13 @@
         <title>Stock Assessment Report - Small Coastal Shark Complex, Atlantic Sharpnose, Blacknose, Bonnethead and Finetooth Shark</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Liz</namePart>
+        <namePart type="family">Brooks</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Katie</namePart>
         <namePart type="family">Siegfried</namePart>
         <role>
@@ -7664,13 +8003,6 @@
     <name type="personal">
         <namePart type="given">John</namePart>
         <namePart type="family">Carlson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Liz</namePart>
-        <namePart type="family">Brooks</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7695,6 +8027,20 @@
         <title>Stock Assessment Report - Small Coastal Shark Complex, Atlantic Sharpnose, Blacknose, Bonnethead and Finetooth Shark</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Enric</namePart>
+        <namePart type="family">Cortés</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="family">Carlson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Liz</namePart>
         <namePart type="family">Brooks</namePart>
         <role>
@@ -7718,20 +8064,6 @@
     <name type="personal">
         <namePart type="given">Walter</namePart>
         <namePart type="family">Ingram</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Enric</namePart>
-        <namePart type="family">Cortés</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Carlson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7756,6 +8088,27 @@
         <title>Stock Assessment Report - Large Coastal Shark Complex, Blacktip and Sandbar Shark</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Jack</namePart>
+        <namePart type="family">Musick</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Romine</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nancy</namePart>
+        <namePart type="family">Kohler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Robert</namePart>
         <namePart type="family">Hueter</namePart>
         <role>
@@ -7772,27 +8125,6 @@
     <name type="personal">
         <namePart type="given">John</namePart>
         <namePart type="family">Carlson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Romine</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jack</namePart>
-        <namePart type="family">Musick</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nancy</namePart>
-        <namePart type="family">Kohler</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7817,8 +8149,8 @@
         <title>Stock Assessment Report - Large Coastal Shark Complex, Blacktip and Sandbar Shark</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jose</namePart>
-        <namePart type="family">Castro</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Carlson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7831,15 +8163,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Carlson</namePart>
+        <namePart type="given">Jack</namePart>
+        <namePart type="family">Musick</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jack</namePart>
-        <namePart type="family">Musick</namePart>
+        <namePart type="given">Nancy</namePart>
+        <namePart type="family">Kohler</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7852,8 +8184,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nancy</namePart>
-        <namePart type="family">Kohler</namePart>
+        <namePart type="given">Jose</namePart>
+        <namePart type="family">Castro</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7878,8 +8210,8 @@
         <title>Stock Assessment Report - Small Coastal Shark Complex, Atlantic Sharpnose, Blacknose, Bonnethead and Finetooth Shark</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Walter</namePart>
-        <namePart type="family">Ingram</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Carlson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7887,6 +8219,13 @@
     <name type="personal">
         <namePart type="given">Katie</namePart>
         <namePart type="family">Siegfried</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Liz</namePart>
+        <namePart type="family">Brooks</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -7906,15 +8245,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Liz</namePart>
-        <namePart type="family">Brooks</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Carlson</namePart>
+        <namePart type="given">Walter</namePart>
+        <namePart type="family">Ingram</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8084,15 +8416,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Joseph</namePart>
-        <namePart type="family">Smith</namePart>
+        <namePart type="given">Douglas</namePart>
+        <namePart type="family">Vaughan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Douglas</namePart>
-        <namePart type="family">Vaughan</namePart>
+        <namePart type="given">Joseph</namePart>
+        <namePart type="family">Smith</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8222,8 +8554,8 @@
         <title>Stock Assessment Report - Large Coastal Shark Complex, Blacktip and Sandbar Shark</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Carlson</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="family">Romine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8257,8 +8589,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="family">Romine</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Carlson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8283,13 +8615,6 @@
         <title>Stock Assessment Report - Small Coastal Shark Complex, Atlantic Sharpnose, Blacknose, Bonnethead and Finetooth Shark</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Genny</namePart>
-        <namePart type="family">Nesslage</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">Katie</namePart>
         <namePart type="family">Siegfried</namePart>
         <role>
@@ -8297,15 +8622,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Walter</namePart>
-        <namePart type="family">Ingram</namePart>
+        <namePart type="given">Genny</namePart>
+        <namePart type="family">Nesslage</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Enric</namePart>
-        <namePart type="family">Cortés</namePart>
+        <namePart type="given">Liz</namePart>
+        <namePart type="family">Brooks</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8318,8 +8643,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Liz</namePart>
-        <namePart type="family">Brooks</namePart>
+        <namePart type="given">Enric</namePart>
+        <namePart type="family">Cortés</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Walter</namePart>
+        <namePart type="family">Ingram</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8450,13 +8782,6 @@
         <title>A stock assessment of yellowtail snapper, Ocyurus chrysurus, in the Southeast United States</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Muller</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">M;</namePart>
         <namePart type="given">De</namePart>
         <namePart type="given">Silva</namePart>
@@ -8464,6 +8789,13 @@
         <namePart type="given">Barbieri,</namePart>
         <namePart type="given">L</namePart>
         <namePart type="family">Murphy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Muller</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8482,14 +8814,14 @@
     </titleInfo>
     <name type="personal">
         <namePart type="given">J</namePart>
-        <namePart type="family">Horbowy</namePart>
+        <namePart type="family">Janusz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">J</namePart>
-        <namePart type="family">Janusz</namePart>
+        <namePart type="family">Horbowy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8527,15 +8859,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="family">Langley</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Hoyle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="family">Hoyle</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="family">Langley</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8556,6 +8888,13 @@
         <title>Stock assessment of bigeye tuna in the {Western and Central Pacific Ocean}, including an analysis of management options</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="family">Hampton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Adam</namePart>
         <namePart type="family">Langley</namePart>
         <role>
@@ -8572,13 +8911,6 @@
     <name type="personal">
         <namePart type="given">Pierre</namePart>
         <namePart type="family">Kleiber</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Hampton</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8625,8 +8957,8 @@
         <title>Stock assessment of yellowfin tuna in the western and central Pacific Ocean, including an analysis of management options</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="family">Langley</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Hoyle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8646,8 +8978,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="family">Hoyle</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="family">Langley</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8742,15 +9074,15 @@
         <title>The Status of Dover Sole off the U.S. West Coast in 2005</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Firstname</namePart>
-        <namePart type="family">Lastname</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="family">Sampson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="family">Sampson</namePart>
+        <namePart type="given">Firstname</namePart>
+        <namePart type="family">Lastname</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8803,6 +9135,15 @@
         <title>Assessment of the Pacific Sardine resource in 2007 for U.S. management in 2008</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Nancy</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Lo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Roberto</namePart>
         <namePart type="family">Felix-Uraga</namePart>
         <role>
@@ -8810,25 +9151,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Hill</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Emmanis</namePart>
-        <namePart type="family">Dorval</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nancy</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Lo</namePart>
+        <namePart type="given">Christina</namePart>
+        <namePart type="family">Show</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8842,8 +9166,16 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christina</namePart>
-        <namePart type="family">Show</namePart>
+        <namePart type="given">Emmanis</namePart>
+        <namePart type="family">Dorval</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Hill</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8868,16 +9200,16 @@
         <title>Stock assessment model for the shortbelly rockfish, Sebastes jordani, in the California Current</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">MacCall</namePart>
-        <namePart type="given">AD</namePart>
-        <namePart type="family">Dick EJ</namePart>
+        <namePart type="given">Field</namePart>
+        <namePart type="family">JC</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Field</namePart>
-        <namePart type="family">JC</namePart>
+        <namePart type="given">MacCall</namePart>
+        <namePart type="given">AD</namePart>
+        <namePart type="family">Dick EJ</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -8946,6 +9278,13 @@
         <title>Tasmanian giant crab fishery - 2006/07</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Malcolm</namePart>
+        <namePart type="family">Haddon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Phillippe</namePart>
         <namePart type="family">Ziegler</namePart>
         <role>
@@ -8955,13 +9294,6 @@
     <name type="personal">
         <namePart type="given">Caleb</namePart>
         <namePart type="family">Gardner</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Malcolm</namePart>
-        <namePart type="family">Haddon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>

@@ -1,9 +1,14 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'AFSC', 'RKCRABBB', 'JENSEN', '2009-04-13', '2010-05-11 16:04:33', '1960-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKCRABBB-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'AFSC', 'RKCRABBB', 'JENSEN', '2009-04-13', '2010-07-28 09:54:17', '1960-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKCRABBB-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'ID', 'CRABSAFE2008.pdf') ; 
- INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'TY', 'Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'VL', '2008 BSAI Crab SAFE') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'Y1', '2008') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'T1', 'Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'A1', 'Anonymous') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'CY', 'Anchorage, AK') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'PB', 'North Pacific Fishery Management Council') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'ZZID', 'AFSC-RKCRABBB-1960-2008-JENSEN') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','Umsy-ratio','0.33', 'NULL', 'based on F35%') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSBmsy-MT','34070', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSB-MT',1960, NULL) ; 

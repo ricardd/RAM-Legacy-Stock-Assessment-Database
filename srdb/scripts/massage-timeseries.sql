@@ -1,7 +1,7 @@
 -- SQL code to normalize units of time-series data
 -- to address Julia's requests for same units
 -- Started 2008-11-12
--- Last modified Time-stamp: <2008-11-28 17:35:14 (ricardd)>
+-- Last modified Time-stamp: <2010-07-21 16:32:37 (srdbadmin)>
 
 --------------------------------------------------------------------------
 -- recruitment units
@@ -99,6 +99,10 @@ WHERE tsid = 'SSB-E03MT';
 UPDATE srdb.timeseries 
 SET tsvalue = tsvalue * 100000, tsid = 'SSB-MT'
 WHERE tsid = 'SSB-E05MT';
+
+UPDATE srdb.timeseries 
+SET tsvalue = tsvalue * 1000000, tsid = 'SSB-MT'
+WHERE tsid = 'SSB-E06MT';
 
 UPDATE srdb.timeseries 
 SET tsvalue = tsvalue * 0.001, tsid = 'SSB-E03'

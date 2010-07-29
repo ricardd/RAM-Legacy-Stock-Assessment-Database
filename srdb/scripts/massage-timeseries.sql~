@@ -30,6 +30,10 @@ SET tsvalue = tsvalue * 1000, tsid = 'R-E03'
 WHERE tsid = 'R-E06';
 
 UPDATE srdb.timeseries 
+SET tsvalue = tsvalue * 10000, tsid = 'R-E03'
+WHERE tsid = 'R-E07';
+
+UPDATE srdb.timeseries 
 SET tsvalue = tsvalue * 1000000, tsid = 'R-E03'
 WHERE tsid = 'R-E09';
 

@@ -1,0 +1,4 @@
+psql:../spreadsheets/GILROY-MENHADENGM-2007-editedDR.sql:7: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...oc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'T1', 'Gulf menh...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

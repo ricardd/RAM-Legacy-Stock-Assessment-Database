@@ -38,3 +38,4 @@ firstname VARCHAR(50),lastname VARCHAR(50),email VARCHAR(50),institution VARCHAR
 "Dvora","Hart","","","","","NEFSC scientist, submitted on RAMlegacy","HART"
 "Toni","Chute","","","","","NEFSC scientist, submitted on RAMlegacy","CHUTE"
 "Eva","Plaganyi","","","","","assesments from this recorder were submitted by Trevor Branch","PLAGANYI"
+"Jacobson","Larry","","","","","NEFSC scientist, submitted on RAMlegacy","JACOBSON"

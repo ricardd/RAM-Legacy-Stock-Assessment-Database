@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2010-07-12 15:59:01 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-07-16 13:14:21 (srdbadmin)>
 %%\documentclass[letterpaper,12pt]{article}
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 %%\documentclass[preprint,authoryear,12pt]{elsarticle}
@@ -13,8 +13,8 @@
 \usepackage[left=3cm,top=3cm,right=3cm, bottom=3cm,nohead]{geometry}
 \usepackage{booktabs}
 \usepackage{url}
-\usepackage[left,running]{lineno}
-\linenumbers
+%\usepackage[left,running]{lineno}
+%\linenumbers
 %\title{Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments}
 
 %%%\title{Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments \\ \vspace{0.5cm} Alternative Title 1: A new global stock assessment database for exploited marine species \\ \vspace{0.5cm} Alternative Title 2: Understanding marine population dynamics using a new global database \\ \vspace{0.5cm} Suggested Running Title: A new global stock assessment database}
@@ -107,12 +107,12 @@ most widespread human impacts in the world's oceans
 \citep{Halpern:etal:2008:science}, and the Food and Agricultural
 Organization of the United Nations (FAO) estimates that two-thirds of
 fish stocks globally are fully exploited or overexploited
-\citep{FAO:sofia}.  While many fisheries have reduced exploitation
+\citep{FAO:sofia}. While many fisheries have reduced exploitation
 rates to levels that should in theory promote recovery, overfishing continues to
-be a serious global problem \citep{Worm:etal:2009:science}.  Fishery
+be a serious global problem \citep{Worm:etal:2009:science}. Fishery
 managers are asked to address multiple competing objectives, including
 maximizing yields, ensuring profitability, reducing bycatch, and
-minimizing the risk of overfishing.  Given the large social and
+minimizing the risk of overfishing. Given the large social and
 economic costs \citep{Rice:etal:2003:icescm} and ecosystem
 consequences \citep{Frank:etal:2005:science, Myers:etal:2007:science}
 of collapsed fisheries, it is imperative that we are able to quickly
@@ -121,15 +121,15 @@ learn from successful and failed fisheries from around the world.
 Effective management of exploited fish populations generally requires
 an understanding of where the current size and harvest rate
 lie in relation to the size and rate which maximize
-fishery benefits or limit the risk of overfishing.  This process of
+fishery benefits or limit the risk of overfishing. This process of
 quantitative determination of stock status and estimation of reference
-points is called stock assessment.  Some fisheries in developing
+points is called stock assessment. Some fisheries in developing
 countries have apparently provided sustainable yields for long periods
 of time without formal stock assessment (e.g. many community-managed
-fisheries in Oceania; \cite{Johannes:2002:arees}).  This has been achieved by
+fisheries in Oceania; \cite{Dalzell:1998:coastmgmt}). This has been achieved by
 limiting harvest rates, often through gear restrictions or seasonal and
-area closures.  In modern industrialized fisheries, however, where fishing
-capacity exceeds the productivity of fished stocks, stock
+area closures. In modern industrialized fisheries, however, where fishing
+capacity often exceeds the productivity of fished stocks, stock
 assessment is an integral component of responsible
 management \citep{Hilborn:Walters:1992}.
 
@@ -147,15 +147,15 @@ assumption that catch or landings is a reliable index of stock size.
 Critics have pointed out that catch can change for a number of reasons
 unrelated to stock size, including changes in targeting, fishing
 restrictions, or market preferences \citep{deMutsert:etal:2008:pnas,
-  Murawski:Methot:Tromble:2007:science, Hilborn:2007:science,
-  Caddy:etal:1998:science}.  Standardizing catch by the amount of
+ Murawski:Methot:Tromble:2007:science, Hilborn:2007:science,
+ Caddy:etal:1998:science}. Standardizing catch by the amount of
 fishing effort (catch-per-unit-of-effort, CPUE) is an improvement,
 particularly when these data are modeled to account for spatial,
 temporal, and operational factors affecting the CPUE
 \citep{Maunder:punt:2004:fishres}, but CPUE can still be an unreliable
 index of relative abundance since it is difficult to account for all
 relevant factors \citep{Hutchings:Myers:1994:cjfas,
-  Harley:etal:2001:cjfas, Walters:2003:cjfas, Polacheck:2006:marpol}.
+ Harley:etal:2001:cjfas, Walters:2003:cjfas, Polacheck:2006:marpol}.
 
 Stock assessments consider time series of catch along with other
 sources of information such as: natural mortality rates, changes in
@@ -183,9 +183,9 @@ as fishing mortality rates time series for 144 stocks. The number of
 entered stocks grew to approximately 642 stocks (509 with at least one
 SR pair) by 2005. Note that anadromous fishes
 of the family Salmonidae comprised 290 assessments in the original
-database.  The assessment results collated by Dr. Myers were used to:
+database. The assessment results collated by Dr. Myers were used to:
 \begin{inparaenum}[1\upshape)] \item decisively answer the question of
-  whether recruitment shows any relationship to spawning stock size
+ whether recruitment shows any relationship to spawning stock size
   \citep{Myers:Barrowman:1996:fishbull}, \item investigate potential
   depensation in stock-recruitment relationships
   \citep{Myers:etal:1995:science, Liermann:Hilborn:1997:cjfas,
@@ -408,19 +408,18 @@ of assessed stocks with the diversity of i) all marine fishes (as
 represented by FishBase), and ii) marine fishes in global fisheries
 catches (as represented by the species available from the SAUP
 database), and discuss taxonomic biases in species included in catch
-data and in populations assessed using stock assessments. We evaluate
-the ecological scope of assessed stocks in terms of age at sexual
-maturity as reported in the assessments, and trophic level of those
-assessed stocks as reported in FishBase. We overview the types of
-assessment models used, and BRPs estimated, for all stock assessments
-and by management body. To determine what fraction of world
-wild-capture fisheries landings come from assessed stocks, we used the
-SAUP's average global fisheries catches from the most recent ten years
-of available data (1995-2004); we also discuss limitations to
-obtaining assessments for some of the world's major fisheries.
+data and in populations assessed using stock assessments. We overview
+the types of assessment models used, and BRPs estimated, for all stock
+assessments and by management body. To determine what fraction of
+world wild-capture fisheries landings come from assessed stocks, we
+used the SAUP's average global fisheries catches from the most recent
+ten years of available data (1995-2004); we also discuss limitations
+to obtaining assessments for some of the world's major fisheries.
 Comparisons between assessments and catch data at a regional level are
 hampered by the geographic mismatch between stocks and FAO statistical
 areas or the SAUP's Large Marine Ecosystems.
+
+% We evaluate the ecological scope of assessed stocks in terms of age at sexual maturity as reported in the assessments, and trophic level of those assessed stocks as reported in FishBase. 
 
 %; we
 %also evaluate how the frequencies of different assessment model types
@@ -469,17 +468,18 @@ year in the Schaefer model is given by:
 \end{equation}
 where,
 \begin{description}
-\item $m$ is the maximum sustainable yield, equal to $rK/4$
+\item $m$ is the maximum sustainable yield, equal to $rK/4$ ($r$ is the maximum intrinsic population growth rate)
 \item $K$ is the carrying capacity or equilibrium total biomass in the absence of fishing \citep{Hilborn:Walters:1992}
 \end{description}
 
 We estimated the model parameters ($m$ and $K$) using maximum
 likelihood in AD Model Builder \citep{admb} assuming that the
 residuals $\epsilon_{s,t}=P_{s,t} - \hat{P_{s,t}}$ were normally
-distributed.  For the Schaefer model, $B_{MSY}$ is simply $0.5K$, and the
-harvest rate that results in maximum sustainable yield, $u_{MSY}$, is
-$m/B_{MSY}$. Carrying capacity was constrained to be less than twice the
-maximum observed total biomass.
+distributed.  For the Schaefer model, $B_{MSY}$ is simply $0.5K$, and
+the harvest rate that results in maximum sustainable yield, $u_{MSY}$,
+is $m/B_{MSY}$. For model fitting, the carrying capacity parameter $K$
+was constrained to be less than twice the maximum observed total
+biomass.
 
 
 % for the stock (s) as follows:
@@ -520,11 +520,11 @@ maximum observed total biomass.
 
 Statistical analyses and plot generation were conducted with the R
 Environment for Statistics and Graphics \citep{R} using the packages
-\emph{RODBC} \citep{R:RODBC}, \emph{KernSmooth} \citep{R:KernSmooth},
-\emph{xtable} \citep{R:xtable}, \emph{ape} \citep{R:ape},
-\emph{gsubfn} \citep{R:gsubfn}, \emph{IDPmisc} \citep{R:IDPmisc}, and
-\emph{doBy} \citep{R:doBy}.  Figure~\ref{fig:lmes} was generated using
-the Generic Mapping Tools \citep{gmt}.
+\emph{RODBC} for database connectivity \citep{R:RODBC},
+\emph{KernSmooth} for computing density kernels \citep{R:KernSmooth}
+and \emph{ape} to produce taxonomic dendrograms \citep{R:ape}.
+Figure~\ref{fig:lmes} was generated using the Generic Mapping Tools
+\citep{gmt}.
 
 %% , beanplot \citep{R:beanplot} gregmisc \citep{R:gregmisc},
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -559,22 +559,23 @@ the database.
 In its latest State of the World Fisheries and Aquaculture
 \citep{FAO:sofia}, the FAO reports that 20\% of stocks are
 underexploited, 52\% are fully exploited, 19\% are overexploited, 8\%
-are depleted and 1\% are recovering. The ambiguous
-classification of stocks as ``underexploited'', ``fully exploited''
-and ``overexploited'' makes comparisons of our results with those from
-the FAO difficult. Our estimates are that almost 60\% of stocks are
-below the biomass reference point that maximises their yield. Almost
-half of stocks that are below $B_{msy}$ still experience exploitation
-rates that are above those that would maximise yield. Our results also
-provide evidence that appropriate fisheries management measures can
-curtail over-exploitation and that stocks can recover.  For depleted
-stocks, recovery requires strongly articulated legislation,
-potentially difficult short- to medium-term regulations to decrease
-fishing mortality, protection of habitat through area closures and
-recovery targets with well-defined timelines. For stocks that exist in
-areas beyond national jurisdiction, nation members of various Regional
-Fisheries Management Organisations must treat international
-regulations as binding agreements that must be fulfilled.
+are depleted and 1\% are recovering. While direct comparison with
+these categories is difficult, we estimate that almost 60\% of
+assessed stocks are below the biomass reference point that maximises
+their yield. Almost half of stocks that are below $B_{msy}$ still
+experience exploitation rates that are above those that would maximise
+yield. 
+
+%Our results also provide evidence that appropriate fisheries
+%management measures can curtail over-exploitation and that stocks can
+%recover.  For depleted stocks, recovery requires strongly articulated
+%legislation, potentially difficult short- to medium-term regulations
+%to decrease fishing mortality, protection of habitat through area
+%closures and recovery targets with well-defined timelines. For stocks
+%that exist in areas beyond national jurisdiction, nation members of
+%various Regional Fisheries Management Organisations must treat
+%international regulations as binding agreements that must be
+%fulfilled.
 
 
 
@@ -603,46 +604,64 @@ managed, hence a large number of the assessments in the RAM Legacy
 database are under the jurisdiction of the US National Marine
 Fisheries Services. How accessible assessments are for entry depends
 upon the transparency and access policies of the relevant management
-agencies, which also varies geographically. Our search for
-assessments could also give rise to geographic biases, as concerted
-collation efforts have only been conducted in those known
-assessment-rich regions.  It is hoped that readers of this article can
-assist in correcting these biases by participating in future updates
-of the RAM Legacy database, and that the development of this database
-will encourage greater transparency amongst fishing nations.
+agencies, which also varies geographically. Our search for assessments
+could also give rise to geographic biases, as concerted collation
+efforts have only been conducted in those known assessment-rich
+regions. It is hoped that readers of this article can assist in
+correcting these biases by participating in future updates of the RAM
+Legacy database, in particular, by helping to expand our coverage of
+stocks in developing countries.
+
+Even in developed countries, however, not all stocks are assessed. For
+example, in 2007, of the 528 fish and invertebrate stocks recognized
+by the National Marine Fisheries Service (NMFS), only 179, or slightly
+over one-third, were fully assessed \citep{NMFS:2008:status}. An
+assessment by the European Environment Agency (EEA) in 2006 indicated
+that the percentage of commercial landings obtained from assessed
+stocks ranged between 66-97 percent in northern European waters and
+30-77 percent in the Mediterranean \citep{eea:2009:status}. The New
+Zealand Ministry of Fisheries reports the status of 117 stocks or
+sub-stocks out of a total of 628 stocks managed under New Zealand's
+Quota Management System \citep{NZMF:2009}. In Australia, 98 federally
+managed stocks have been assessed \citep{Wilson:etal:2009:status} out
+of an unknown total. The extent to which stocks are assessed elsewhere
+in the world is generally lower \citep{Mora:etal:2009:PLoSBiol}.
+
+%and that the development of this database will encourage greater transparency amongst fishing nations.
 
 
 \subsubsection*{Taxonomic bias}
 Related to geographic bias is the taxonomic bias in those species that
 are known, caught and assessed. At a broad level the Gadiformes and
 Clupeiformes occupy disproportionate taxonomic representation in the
-catch compared to overall species occurrence (Figure~\ref{fig:taxo:threepanel}, panels a and
-b). Taxonomic biases at this level may reflect behavioural tendencies
-of the over-represented species in the catch to form large aggregated
+catch compared to overall species occurrence
+(Figure~\ref{fig:taxo:threepanel}, panels a and b). Taxonomic biases
+at this level may reflect behavioural tendencies of the
+over-represented species in the catch to form large aggregated
 populations in temperate regions that are readily accessible to
 fishing. Consumer preferences may also be an important determinant of
 what taxonomic groups are more likely to be caught.  The
 over-representation of the Gadiformes and, to a lesser degree, the
 Clupeiformes, continues when caught and assessed taxa are compared
-(Figure~\ref{fig:taxo:threepanel}, panels b and c). 
+(Figure~\ref{fig:taxo:threepanel}, panels b and c). Historical
+economic importance as well as the geographic distribution of the taxa
+in relation to mandated assessments may play important roles in
+determining what fished taxa are assessed.
 
-Historical economic importance as well as
-the geographic distribution of the taxa in relation to mandated
-assessments may play important roles in determining what fished taxa
-are assessed.  Even in developed countries, however, not all stocks
-are assessed. For example, in 2007, of the 528 fish and invertebrate
-stocks recognized by the National Marine Fisheries Service (NMFS),
-only 179, or slightly over one-third, were fully assessed \citep{NMFS:2008:status}. An assessment by the European
-Environment Agency (EEA) in 2006 indicated that the percentage of
-commercial landings obtained from assessed stocks ranged between 66-97
-percent in northern European waters and 30-77 percent in the
-Mediterranean \citep{eea:2009:status}. The New Zealand
-Ministry of Fisheries reports the status of 117 stocks or sub-stocks
-out of a total of 628 stocks managed under New Zealand's Quota
-Management System \citep{NZMF:2009}. In
-Australia, 98 federally managed stocks have been assessed
-\citep{Wilson:etal:2009:status} out of an unknown total. The extent to
-which stocks are assessed elsewhere in the world is currently unknown.
+%Even in developed countries, however, not all stocks
+%are assessed. For example, in 2007, of the 528 fish and invertebrate
+%stocks recognized by the National Marine Fisheries Service (NMFS),
+%only 179, or slightly over one-third, were fully assessed \citep{NMFS:2008:status}. An assessment by the European
+%Environment Agency (EEA) in 2006 indicated that the percentage of
+%commercial landings obtained from assessed stocks ranged between 66-97
+%percent in northern European waters and 30-77 percent in the
+%Mediterranean \citep{eea:2009:status}. The New Zealand
+%Ministry of Fisheries reports the status of 117 stocks or sub-stocks
+%out of a total of 628 stocks managed under New Zealand's Quota
+%Management System \citep{NZMF:2009}. In
+%Australia, 98 federally managed stocks have been assessed
+%\citep{Wilson:etal:2009:status} out of an unknown total. The extent to
+%which stocks are assessed elsewhere in the world is currently unknown.
 
 \subsubsection*{Temporal bias}
 Most of the assessments in the RAM Legacy database contain time series
@@ -689,49 +708,49 @@ an exploited setting.
 
 \subsubsection*{Caveats and limitations}
 
-Stock assessment outputs (e.g. biomass time series), which comprise the
-majority of the new RAM Legacy database are model estimates, not raw
-data. The uncertainty associated with these estimates should be
+Stock assessment outputs (e.g. biomass time series), which comprise
+the majority of the new RAM Legacy database are model estimates, not
+raw data. The uncertainty associated with these estimates should be
 carried forth in subsequent analyses. Although the database structure
 allows for inclusion of estimates of uncertainty (standard errors,
-95\% credible/confidence intervals), because these estimates were
-typically missing from assessments, either because they weren't
-produced by the assessment model (e.g. non-bootstrapped VPA
-assessments) or the focus of the assessment document was on central
-tendency (e.g. mean biomass) not the associated uncertainty, they have
-not been included in this first version of the database. Note that
-this view of assessment uncertainty is changing with the advent of
-MCMC approaches to Bayesian inference for assessments, bootstrap
-methods, statistical catch-at-age models \citep{admb} and a
-general focus on uncertainty \citep{Walters:Maguire:1996:reviews}. As with any
-analysis, clearer inference on the strength of a signal is available
-when all uncertainty in the data is carried forth. This represents a
-difficulty for synthetic analyses of fisheries data in that in an
-ideal world one would access the raw data for each stock and carry
-forth the uncertainty at all levels of the analysis. In the case of
-assessments, the raw data is typically catch-at-age matrices and
-potentially survey indices. To understand the fleet characteristics
-and survey stratification schema for each stock in a potentially
-global meta-analysis would be extremely time consuming and
-error-prone. Instead, the expert opinion of those researchers most
-familiar with the data, stock assessment authors, is used, while
-recognizing that without accompanying uncertainty estimates the
-strength of conclusions drawn may be weakened.  
+95\% credible/confidence intervals), uncertainty estimates for time
+series data were typically missing from assessments and hence were not
+included in the database. As with any analysis, clearer inference on
+the strength of a signal is available when all uncertainty in the data
+is carried forth. 
 
-While the database provides detailed trends for individual stocks, it
-will never have the geographic and taxonomic coverage provided by
-catch statistics. Assessment results will also never replace the
-essential role played by fisheries-independent scientific surveys in
-determining abundance, biomass and diversity trends in marine living
-resources. 
+%This represents a difficulty for synthetic analyses
+%of fisheries data in that in an ideal world one would access the raw
+%data for each stock and carry forth the uncertainty at all levels of
+%the analysis. In the case of assessments, the raw data is typically
+%catch-at-age matrices and potentially survey indices. To understand
+%the fleet characteristics and survey stratification schema for each
+%stock in a potentially global meta-analysis would be extremely time
+%consuming and error-prone. Instead, the expert opinion of those
+%researchers most familiar with the data, stock assessment authors, is
+%used, while recognizing that without accompanying uncertainty
+%estimates the strength of conclusions drawn may be weakened.
+
+%While the database provides detailed trends for individual stocks, it
+%will never have the geographic and taxonomic coverage provided by
+%catch statistics. Assessment results will also never replace the
+%essential role played by fisheries-independent scientific surveys in
+%determining abundance, biomass and diversity trends in marine living
+%resources. 
 
 BRPs derived from surplus production models are to be interpreted with
 great care. For stocks where both were available we found that
-Schaefer-derived $B_{msy}$ were systematically higher than those
-obtained from assessments. This stems from the fact that under the
-Schaefer surplus production model, MSY occurs at 50\% of the carrying
-capacity whereas in most age-based assessment models, yield is
-maximised at a lower fraction of the carrying capacity.
+estimates from surplus production models were systematically higher
+than those obtained from assessments. This stems from the fact that in
+the Schaefer surplus production model, MSY occurs at 50\% of the
+carrying capacity whereas in most age-based assessment models, yield
+is maximised at a lower fraction of the carrying capacity. The more
+flexible Pella-Tomlinson surplus production model allows for an
+asymmetric production function where MSY can occur at a wider range of
+relative biomass. Pella-Tomlinson models provided a better fit to data
+from individual stocks, which is to be expected given their greater
+flexibility and the inclusion of an additional parameter, however they
+performed no better in cross-validation than did the Schaefer model.
 
 % tuck this in as 2nd or 3rd paragraph
 %BRPs derived from surplus production models are to be
@@ -837,7 +856,11 @@ support of the National Science Foundation through an NCEAS Working
 Group, the Natural Sciences and Engineering Research Council (NSERC)
 of Canada, the Canadian Foundation for Innovation, the David H. Smith
 Conservation Research Fellowship, the Schmidt Research Vessel
-Institute, and the Census of Marine Life (CoML/FMAP).
+Institute, and the Census of Marine Life's Future of Marine Animal
+Populations (CoML/FMAP). Comments from the members of the NCEAS
+Working Group ``Finding common ground in marine conservation and
+management'' greatly improved an earlier version of this manuscript.
+%%The Sea Around Us Project, FishBase and the Integrated Taxonomic Information System.
 
 
 \newpage

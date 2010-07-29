@@ -1,0 +1,4 @@
+psql:../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.sql:7: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'A1', 'Cort\\''{...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

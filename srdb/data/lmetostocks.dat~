@@ -166,6 +166,7 @@ stockid,lme_number,stocktolmerelation
 "POPERCHPCOAST",3,"primary"
 "SBELLYROCKPCOAST",3,"primary"
 "PHAKEPCOAST",3,"primary"
+"PHAKEPCOAST",2,"secondary"
 "CODGB",7,"primary"
 "HADGB",7,"primary"
 "YELLGB",7,"primary"

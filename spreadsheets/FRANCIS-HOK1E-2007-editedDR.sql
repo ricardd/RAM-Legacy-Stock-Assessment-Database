@@ -1,7 +1,7 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'NZMFishHOKIWG', 'HOKIENZ', 'FRANCIS', '2008-09-18', '2010-07-19 17:43:14', '1972-2007', 'Chris Francis', '', '', '', 1, 1, 'CASAL', 'Time series are point estimates (not Bayesian) for E stock from model 4.4', '../spreadsheets/FRANCIS-HOK1E-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'NZMFishHOKIWG', 'HOKIENZ', 'FRANCIS', '2008-09-18', '2010-07-21 11:05:41', '1972-2007', 'Chris Francis', '', '', '', 1, 1, 'CASAL', 'Time series are point estimates (not Bayesian) for E stock from model 4.4', '../spreadsheets/FRANCIS-HOK1E-2007-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'ID', 'FAR0804hok07.pdf') ; 
- INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'TY', 'NZ Fisheries Assessment Report') ; 
+ INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'A1', 'Francis, R.I.C.C.') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'T1', 'Assessment of hoki (\\emph{Macruronus novaezelandiae}) in 2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS', 'VL', 'New Zealand Fisheries Assessment Report 2008/4') ; 

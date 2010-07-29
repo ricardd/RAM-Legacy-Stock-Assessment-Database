@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for a loaded assessment
 # Cóilín Minto
 # date: Fri Nov 21 13:17:09 AST 2008
-# Time-stamp: <2010-04-08 21:41:29 (srdbadmin)>
+# Time-stamp: <2010-07-14 16:08:01 (srdbadmin)>
 # Modification history:
 # 2009-03-26: adding issue URL to the QA/QC report, this also required modifications to "srDB-QAQC-template.tex" (ricardd)
 # 2009-04-21: adding a timestamp to show when the document was created this also required modifications to "srDB-QAQC-template.tex" (ricardd)
@@ -93,7 +93,7 @@ my $pdffilename;
 if($pdffile eq ""){$pdffilename ="/home/"}else{$pdffilename = basename($pdffile)};
 print("$pdffile \t $pdffilename \n");
 my $pdfcheck;
-if (-e "/home/srdbadmin/SQLpg/srdb/trunk/pdf/$pdffilename") {
+if (-e "/home/srdbadmin/srdb/pdf/$pdffilename") {
 print "pdf file exists!";
 $pdfcheck ="(pdf in database)";
 }else {
@@ -140,9 +140,9 @@ my $methodlong=$tab1result[4];
       [ 'QA/QC complete',     "$qaqc"],
       [ 'Date approved',     "$dateapproved"],
      ];
-  my $assesstabfile= "/home/srdbadmin/SQLpg/srdb/trunk//tex/" . $assessid . "assestab.tex";
+  my $assesstabfile= "/home/srdbadmin/srdb/tex/" . $assessid . "assestab.tex";
 # print "$assesstabfile \n";
-$CWD = "/home/srdbadmin/SQLpg/srdb/trunk/tex";
+$CWD = "/home/srdbadmin/srdb/tex";
   my $table1 = LaTeX::Table->new(
         {   
         filename    => "$assesstabfile",
@@ -178,7 +178,7 @@ $lmehandle -> execute();
 my @lmes = $lmehandle->fetchrow_array;
 print("LMEs: @lmes[0] \t @lmes[1] \n");
 my $lmeheader = [["primary LME","secondary LME","tertiary LME"]];
-my $templmefile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "templmetab.tex";
+my $templmefile= "/home/srdbadmin/srdb/tex/" . $assessid . "templmetab.tex";
 
   my $lmetable = LaTeX::Table->new(
 	{
@@ -198,7 +198,7 @@ my $templmefile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "templmet
   );
 $lmetable->generate();
 
-my $lmefile    = "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "lmetab.tex";
+my $lmefile    = "/home/srdbadmin/srdb/tex/" . $assessid . "lmetab.tex";
 
 
 ##~~~~~~~~~~~~~~~~ replacements ~~~~~~~~~~~~~~~~~~~~~~
@@ -306,7 +306,7 @@ if (!grep /L50-*/, @lharray2)
 #  my $lhheader = [["Life history:3c"],["Parameter", "Value", "Units"]];
   my $lhheader = [["Parameter", "Value", "Units"]];
 
-  my $templhfile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "templhtab.tex";
+  my $templhfile= "/home/srdbadmin/srdb/tex/" . $assessid . "templhtab.tex";
   my $lhtable = LaTeX::Table->new(
 	{
         filename    => "$templhfile",
@@ -332,7 +332,7 @@ if (!grep /L50-*/, @lharray2)
 
 # replace the table definitions from the perl latex output
 
-my $lhfile    = "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "lhtab.tex";
+my $lhfile    = "/home/srdbadmin/srdb/tex/" . $assessid . "lhtab.tex";
 
 
 ##~~~~~~~~~~~~~~~~ replacements ~~~~~~~~~~~~~~~~~~~~~~
@@ -515,7 +515,7 @@ my @ratio5=("\$SSB_{$ssbyrcurr}/SSB_{msy}\$",sprintf("%.3f", $ssbcurr/$SSBmsy),"
 push(@refarray,[@ratio5])}
 
   my $refheader = [["Reference points:3c"],["Parameter", "Value", "Units"]];
-  my $tempreffile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "tempreftab.tex";
+  my $tempreffile= "/home/srdbadmin/srdb/tex/" . $assessid . "tempreftab.tex";
   my $reftable = LaTeX::Table->new(
 	{
         filename    => "$tempreffile",
@@ -541,7 +541,7 @@ push(@refarray,[@ratio5])}
 
 # replace the table definitions from the perl latex output
 
-my $reffile    = "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "reftab.tex";
+my $reffile    = "/home/srdbadmin/srdb/tex/" . $assessid . "reftab.tex";
 
 ##~~~~~~~~~~~~~~~~ replacements ~~~~~~~~~~~~~~~~~~~~~~
 # write the assumed timeseries that accompanies the reference point
@@ -658,7 +658,7 @@ close(OUT);
       [ "Surplus production \$F_{msy}\$", "" ],
       [ "Surplus production \$B_{msy}\$", "" ],
      ];
-  my $postentryfile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "postentrytab.tex";
+  my $postentryfile= "/home/srdbadmin/srdb/tex/" . $assessid . "postentrytab.tex";
   my $table3 = LaTeX::Table->new(
 	{
         filename    => "$postentryfile",
@@ -811,7 +811,7 @@ my $header2 = [['Time series minima and maxima:6c']];
       ["Time series maximum", "$ssbmax","$rmax","$fmax","$tbmax", "$catchmax"],
       ["Units", "$ssbunit", "$runit", "$funit", "$tbunit", "$catchunit"],
      ];
-  my $timetabfile= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . "timetab.tex";
+  my $timetabfile= "/home/srdbadmin/srdb/tex/" . $assessid . "timetab.tex";
   my $table2 = LaTeX::Table->new(
 	{
         filename    => "$timetabfile",
@@ -840,8 +840,8 @@ my $header2 = [['Time series minima and maxima:6c']];
 ##~~~~~~~~~~~~~~~~ R file~~~~~~~~~~~~~~~~~~~~~~~~
 # replaces the 
 # create an assessment-specific R file
-my $tempR="/home/srdbadmin/SQLpg/srdb/trunk/R/functions/srDB-QAQC-template.R";
-my $outR="/home/srdbadmin/SQLpg/srdb/trunk/R/functions/" . $assessid . ".R";
+my $tempR="/home/srdbadmin/srdb/R/functions/srDB-QAQC-template.R";
+my $outR="/home/srdbadmin/srdb/R/functions/" . $assessid . ".R";
 print "$outR \n";
 ##~~~~~~~~~~~~~~~~ replacements ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -863,8 +863,8 @@ close(IN);
 close(OUT);
 
 #print "R --slave < $outR > /home/srdbadmin/SQLpg/srDB/R/functions/r.log";
-system("R --slave < $outR > /home/srdbadmin/SQLpg/srdb/trunk/R/functions/r.log");
-my $summaryplot="/home/srdbadmin/SQLpg/srdb/trunk/tex/figures/plot-". $assessid . ".pdf";
+system("R --slave < $outR > /home/srdbadmin/srdb/R/functions/r.log");
+my $summaryplot="/home/srdbadmin/srdb/tex/figures/plot-". $assessid . ".pdf";
 #print "$summaryplot /n";
 
 
@@ -872,8 +872,8 @@ my $summaryplot="/home/srdbadmin/SQLpg/srdb/trunk/tex/figures/plot-". $assessid 
 # LaTeX file replacements
 #------------------------------------------
 # create an assessment-specific tex file
-my $temptex="/home/srdbadmin/SQLpg/srdb/trunk/tex/templates/srDB-QAQC-template.tex";
-my $outtex="/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . ".tex";
+my $temptex="/home/srdbadmin/srdb/tex/templates/srDB-QAQC-template.tex";
+my $outtex="/home/srdbadmin/srdb/tex/" . $assessid . ".tex";
 
 ## Open the file
 open (IN, "$temptex") || die $!;
@@ -961,11 +961,11 @@ close(OUT);
 #-------------------------
 # Compile and clean up
 #-------------------------
-system("pdflatex -output-directory /home/srdbadmin/SQLpg/srdb/trunk/tex  $outtex ");
+system("pdflatex -output-directory /home/srdbadmin/srdb/tex  $outtex ");
 my $outpdffile = "/home/srdbadmin/SQLpg/srDB/tex/" . $assessid . ".pdf";
 ## clean up, removes extra files generated by latex
-my $outtexlog= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . ".log";
-my $outtexaux= "/home/srdbadmin/SQLpg/srdb/trunk/tex/" . $assessid . ".aux";
+my $outtexlog= "/home/srdbadmin/srdb/tex/" . $assessid . ".log";
+my $outtexaux= "/home/srdbadmin/srdb/tex/" . $assessid . ".aux";
 #unlink $outtex, $outR, $summaryplot, $timetabfile, $postentryfile, $tempreffile, $reffile, $templhfile, $lhfile, $assesstabfile, $outtexlog, $outtexaux || die "Cannot open file";
 unlink $outtex, $outR, $timetabfile, $postentryfile, $tempreffile, $reffile, $templmefile, $lmefile, $templhfile, $lhfile, $assesstabfile, $outtexlog, $outtexaux || die "Cannot open file"; ## 
 $dbh->disconnect();

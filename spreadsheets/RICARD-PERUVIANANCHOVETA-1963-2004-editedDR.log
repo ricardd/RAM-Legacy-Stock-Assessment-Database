@@ -1,0 +1,12 @@
+psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:7: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'A1', '\\~{N}iqu...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
+psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:8: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'A1', 'Escribano...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
+psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:9: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'T1', 'Climatic ...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

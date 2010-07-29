@@ -204,3 +204,4 @@ country, mgmt, areacode, areaname, alternateareaname
 "Russia","RFFA","WBS","Western Bering Sea",""
 "USA","NMFS","ORECOAST","Oregon Coast",""
 "multinational","CCAMLR","RS","Ross Sea",""
+"multinational","UNKNOWN","NWPAC","Nothwest Pacific Ocean",""

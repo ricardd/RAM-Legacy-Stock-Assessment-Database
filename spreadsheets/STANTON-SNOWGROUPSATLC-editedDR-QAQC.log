@@ -1,0 +1,4 @@
+psql:../spreadsheets/STANTON-SNOWGROUPSATLC-editedDR-QAQC.sql:6: WARNING:  nonstandard use of \\ in a string literal
+LINE 1: ...S('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'T1', 'Section I...
+                                                             ^
+HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.

@@ -41,7 +41,7 @@ Wayte, S.
   and Atmospheric Research, Hobart, Australia, 2007).
 
 \bibitem{MORWONGSE.pdf}
-Fay, G. \bbland{} Wayte, S.
+Wayte, S. \bbland{} Fay, G.
 \newblock \emph{Stock assessment for the Southern and Eastern Scalefish and
   Shark Fishery 2006-2007}, \bblvol{}~2, \bblchap{} Jackass morwong
   (\emph{Nemadactylus macropterus}) stock assessment based on data up to 2006,
@@ -62,12 +62,12 @@ Dichmont, C.
 \newblock \bbltechrep{}, Hobart, Australia, 2007.
 
 \bibitem{JENSEN_TASGIANTCRAB_2008.pdf}
-Ziegler, P., Haddon, M., \bbland{} Gardner, C.
+Haddon, M., Gardner, C., \bbland{} Ziegler, P.
 \newblock \emph{Tasmanian giant crab fishery - 2006/07}.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{GEMFISHSE.pdf}
-Little, R.~L., Rowling, K., \bbland{} Punt, A.
+Punt, A., Little, R.~L., \bbland{} Rowling, K.
 \newblock \emph{Stock assessment for the Southern and Eastern Scalefish and
   Shark Fishery 2006-2007}, \bblvol{}~2, \bblchap{} Eastern gemfish
   (\emph{Rexea solandri}) Stock Assessment based on 2007 survey data, \bblpp{}
@@ -99,7 +99,7 @@ Day, J.
   and Atmospheric Research, Hobart, Australia, 2007).
 
 \bibitem{ATOOTHFISHRS.pdf}
-Hanchet, S.~M. \bbland{} Dunn, A.
+Dunn, A. \bbland{} Hanchet, S.~M.
 \newblock \emph{Assessment models for Antarctic toothfish (Dissostichus
   mawsoni) in the {R}oss {S}ea including data from the 2006/07 season}.
 \newblock \bbltechrep{}, 2008.
@@ -141,7 +141,7 @@ Renzi, M. \bbland{} Irusta, G.
 \newblock \bbltechrep{}, Mar del Plata, Argentina, 2009.
 
 \bibitem{Giussi-polaca-2007.pdf}
-Giussi, A. \bbland{} W{\"{o}}hler, O.
+W{\"{o}}hler, O. \bbland{} Giussi, A.
 \newblock \emph{Evaluaci\'{o}n de la abundancia de polaca (\emph{Micromesistius
   australis}) en el Atl\'{a}ntico Sudoccidental. Per\'{i}odo 1987-2007}.
 \newblock \bbltechrep{}, Mar del Plata, Argentina, 2008.
@@ -157,7 +157,7 @@ deMoor, C.~L.
 \newblock Personal communication.
 
 \bibitem{Branch-SA-Kingklip-2008.pdf}
-Brandao, A. \bbland{} Butterworth, D.~S.
+Butterworth, D.~S. \bbland{} Brandao, A.
 \newblock \emph{Updated assessment of the {South African} kingklip resource
   including an initial attempt at including catch-at-length data}.
 \newblock \bbltechrep{}, 2008.
@@ -181,7 +181,7 @@ Butterworth, D.~S. \bbland{} Rademeyer, R.~A.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{Johnston-SASouthRockLobster-2008.pdf}
-Johnston, S.~J. \bbland{} Butterworth, D.~S.
+Butterworth, D.~S. \bbland{} Johnston, S.~J.
 \newblock \emph{Near final specifications for the sex- and area-specific
   Operating Models for testing OMPs for the South Coast rock lobster resource}.
 \newblock \bbltechrep{}, 2008.
@@ -192,26 +192,26 @@ Butterworth, D.~S. \bbland{} Cunningham, C.~L.
 \newblock \bbltechrep{}, 2007.
 
 \bibitem{Johnston-SAHorseMackerel-2007.pdf}
-Johnston, S.~J. \bbland{} Butterworth, D.~S.
+Butterworth, D.~S. \bbland{} Johnston, S.~J.
 \newblock \emph{The {South African} horse mackerel assessment for 2007 using an
   age-structured production model, with future biomass projections.}
 \newblock \bbltechrep{}, 2007.
 
 \bibitem{NAFO-HERR4VWX-2006.pdf}
-Stephenson, R.~L., Annis, L.~M., Melvin, G.~D., Knox, D., Fife, F.~J., Clark,
-  K.~J., \bbland{} Power, M.~J.
+Melvin, G.~D., Knox, D., Power, M.~J., Clark, K.~J., Fife, F.~J., Annis, L.~M.,
+  \bbland{} Stephenson, R.~L.
 \newblock \emph{2006 Evaluation of 4VWX Herring}.
 \newblock \bbltechrep{}, Canada, 2006.
 
 \bibitem{NAFO-HERR4RSP-2004.pdf}
-Gr\'{e}goire, F., Lavers, J., \bbland{} Lefebvre, L.
+Gr\'{e}goire, F., Lefebvre, L., \bbland{} Lavers, J.
 \newblock \emph{Analytical assessment and risk analyses for the spring spawning
   herring (\emph{Clupea harengus harengus L.}) stock of the west coast of
   Newfoundland (NAFO Division 4R) in 2003.}
 \newblock \bbltechrep{}, Canada, 2004.
 
 \bibitem{NAFO-HERR4TFA-2007.pdf}
-Bourque, C., Roy, J., MacDougall, C., Poirier, G.~A., \bbland{} LeBlanc, C.~H.
+Bourque, C., MacDougall, C., Poirier, G.~A., LeBlanc, C.~H., \bbland{} Roy, J.
 \newblock \emph{Assessment of the NAFO Division 4T southern Gulf of St.
   Lawrence herring stocks in 2006.}
 \newblock \bbltechrep{}, Canada, 2007.
@@ -234,34 +234,34 @@ Sinclair, A.~F.
 \newblock \bbltechrep{}, Canada, 2002.
 
 \bibitem{NAFO-COD5Zjm-2003.pdf}
-Hunt, J.~J., Hatt, B., \bbland{} O'Brien, L.
+O'Brien, L., Hatt, B., \bbland{} Hunt, J.~J.
 \newblock \emph{Population status of Eastern Georges Bank cod (unit areas
   5Zj,m) for 1978-2004.}
 \newblock \bbltechrep{}, Canada, 2003.
 
 \bibitem{DFO-COD2J3KLIS-2006.pdf}
-Murphy, E.~F., Lilly, G.~R., Brattey, J., \bbland{} Healey, B.~P.
+Murphy, E.~F., Healey, B.~P., Brattey, J., \bbland{} Lilly, G.~R.
 \newblock \emph{An assessment of the cod (Gadus morhua) stock in NAFO Divisions
   2J3KL in April 2006.}
 \newblock \bbltechrep{}, Canada, 2006.
 
 \bibitem{DFO-COD3Ps-2004.pdf}
-Lilly, G.~R., MahÈ, J.-C., Murphy, E.~F., Cadigan, N.~G., Healey, B.~P.,
-  Shelton, P.~F., \bbland{} Brattey, J.
+Brattey, J., Cadigan, N.~G., Healey, B.~P., Lilly, G.~R., Murphy, E.~F., MahÈ,
+  J.-C., \bbland{} Shelton, P.~F.
 \newblock \emph{Assessment of the cod (Gadus morhua) stock in NAFO Subdivision
   3Ps in October 2004.}
 \newblock \bbltechrep{}, Canada, 2004.
 
 \bibitem{DFO-COD3Pn4Rs-2007.pdf}
-Way, M., Collier, F., Spingle, J., Fr\'{e}chet, A., Schwab, P., Bourdages, H.,
-  Tournois, C., \bbland{} Gauthier, J.
+Fr\'{e}chet, A., Gauthier, J., Schwab, P., Bourdages, H., Tournois, C.,
+  Spingle, J., Way, M., \bbland{} Collier, F.
 \newblock \emph{The status of cod in the {Northern Gulf of St. Lawrence (3Pn,
   4RS)} in 2006.}
 \newblock \bbltechrep{}, Canada, 2007.
 
 \bibitem{NAFO-COD4TVn-2007.pdf}
-Poirier, G.~A., Savoie, L., Swain, D.~P., Currie, L.~G., Chouinard, G.~A.,
-  Daigle, D., \bbland{} Hurlbut, T.
+Hurlbut, T., Daigle, D., Savoie, L., Poirier, G.~A., Chouinard, G.~A., Currie,
+  L.~G., \bbland{} Swain, D.~P.
 \newblock \emph{Assessment of the southern Gulf of St. Lawrence cod stock,
   March 2007.}
 \newblock \bbltechrep{}, Canada, 2007.
@@ -273,19 +273,19 @@ Fargo, J.
 \newblock \bbltechrep{}, 1999.
 
 \bibitem{NAFO-HAD4X5Y-2003.pdf}
-Comeau, P.~A., Hurley, P. C.~F., Simon, G.~E., Mohn, R.~K., \bbland{} Black, G.
-  A.~P.
+Mohn, R.~K., Hurley, P. C.~F., Simon, G.~E., Black, G. A.~P., \bbland{} Comeau,
+  P.~A.
 \newblock \emph{Assessment of the status of NAFO division 4X/5Y haddock in
   2003.}
 \newblock \bbltechrep{}, Canada, 2003.
 
 \bibitem{NAFO-HAD5Zejm-2003.pdf}
-Van~Eeckhaute, L., Brodziak, J., \bbland{} Gavaris, S.
+Gavaris, S., Brodziak, J., \bbland{} Van~Eeckhaute, L.
 \newblock \emph{Assessment of haddock on eastern {G}eorges {B}ank.}
 \newblock \bbltechrep{}, Canada, 2003.
 
 \bibitem{NAFO-POLL4VWX5Zc-2006.pdf}
-Stone, H., Perley, P., \bbland{} Clark, D.
+Stone, H., Clark, D., \bbland{} Perley, P.
 \newblock \emph{2006 Assessment of pollock in 4VWX and 5Zc.}
 \newblock \bbltechrep{}, Canada, 2006.
 
@@ -296,7 +296,7 @@ Maunder, M.
 \newblock \bbltechrep{}, La Jolla, CA, 2007.
 
 \bibitem{JENSEN_BETEPAC_2008.pdf}
-Maunder, M. \bbland{} Aires-da Silva, A.
+Aires-da Silva, A. \bbland{} Maunder, M.
 \newblock \emph{Status of bigeye tuna in the eastern {Pacific Ocean} in 2006
   and outlook}.
 \newblock \bbltechrep{}, 2007.
@@ -398,6 +398,12 @@ Anonymous.
   horse mackerel, sardine and anchovy (WGMHSA)}.
 \newblock \bbltechrep{}, Copenhagen, 2007.
 
+\bibitem{Cahuin_etal_2009.pdf}
+\~{N}iquen, M., Cahuin, S.~M., Cubillos, L.~A., \bbland{} Escribano, R.
+\newblock Climatic regimes and the recruitment rate of ancoveta,
+  \emph{Engraulis ringens}, off Peru.
+\newblock \emph{Estuarine, Coastal and Shelf Science}, 84:591--597, 2009.
+
 \bibitem{JENSEN-BIGEYEIO-2007.pdf}
 Anonymous.
 \newblock \emph{Report of the tenth session of the scientific committee}.
@@ -412,6 +418,18 @@ Clark, W. \bbland{} Hare, S.
 Cordue, P.
 \newblock Personal communication.
 
+\bibitem{ref07-09-FAR.pdf}
+Breen, P. \bbland{} Kim, S.~W.
+\newblock \emph{The 2006 stock assessment for paua (\emph{Haliotis iris})
+  stocks PAU 5A (Fiordland) and PAU 5D (Otago)}.
+\newblock \bbltechrep{}, Wellington, New Zealand, 2007.
+
+\bibitem{ref08-05-FAR.pdf}
+Smith, A. N.~H. \bbland{} Breen, P.~A.
+\newblock \emph{The 2007 assessment for paua (\emph{Haliotis iris}) stock PAU
+  5B (Stewart Island)}.
+\newblock \bbltechrep{}, Wellington, New Zealand.
+
 \bibitem{ref09-34-FAR.pdf}
 Smith, A. N.~H. \bbland{} McKenzie, A.
 \newblock \emph{The 2008 stock assessment of paua (\emph{Haliotis iris}) in
@@ -419,26 +437,26 @@ Smith, A. N.~H. \bbland{} McKenzie, A.
 \newblock \bbltechrep{}, Wellington, New Zealand.
 
 \bibitem{PALLSTARRperscomm.pdf}
-Starr, P., Breen, P., Kim, S.~W., Breen, P.~A., \bbland{} Smith, A. N.~H.
-\newblock Personal communication, 2007.
+Starr, P.
+\newblock Personal communication.
 
 \bibitem{FAR0804hok07.pdf}
 Francis, R. I. C.~C.
 \newblock Assessment of hoki (\emph{Macruronus novaezelandiae}) in 2007, 2008.
 
 \bibitem{NAFO-3M-COD-2008.pdf}
-Saborido-Rey, F., Vazquez, A., Fernandez, C., \bbland{} Cervino, S.
+Fernandez, C., Vazquez, A., Saborido-Rey, F., \bbland{} Cervino, S.
 \newblock \emph{Assessment of the cod stock in NAFO Division 3M}.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{NAFO-3NO-COD-2007.pdf}
-Murphy, E.~F., Morgan, M.~J., \bbland{} Brattey, J.
+Murphy, E.~F., Brattey, J., \bbland{} Morgan, M.~J.
 \newblock \emph{An assessment of the cod stock in NAFO Divisions 3NO}.
 \newblock \bbltechrep{}, 2007.
 
 \bibitem{NAFO-GrandBanks-AmPlaice-2007.pdf}
-Morgan, M.~J., Dwyer, K.~S., Maddock~Parsons, D., Healey, B.~P., \bbland{}
-  Brodie, W.~B.
+Healey, B.~P., Brodie, W.~B., Maddock~Parsons, D., Morgan, M.~J., \bbland{}
+  Dwyer, K.~S.
 \newblock \emph{An assessment of American plaice in NAFO Div. 3LNO}.
 \newblock \bbltechrep{}, 2007.
 
@@ -449,19 +467,19 @@ Avila~de Melo, A.~M. \bbland{} Alpoim, R.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{NAFO-YELL3LNO-2008.pdf}
-Power, D., Morgan, M.~J., Parsons, D.~M., \bbland{} Brodie, W.~B.
+Parsons, D.~M., Brodie, W.~B., Morgan, M.~J., \bbland{} Power, D.
 \newblock \emph{The 2008 Assessment of the Grand Bank Yellowtail Flounder
   Stock, NAFO Divisions 3LNO}.
 \newblock \bbltechrep{}, St. John's, Newfoundland, Canada, 2008.
 
 \bibitem{NAFO-3LN-Redfishspp-2008.pdf}
-Alpoim, R., ¿vila~de Melo, A.~M., Duarte, R., \bbland{} Power, D.
+Alpoim, R., Power, D., Duarte, R., \bbland{} ¿vila~de Melo, A.~M.
 \newblock \emph{A Revised ASPIC Based Assessment of Redfish in NAFO Divisions
   3LN}.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{NAFO-RED3M-2007.pdf}
-Saborido-Rey, F., Alpoim, R., \bbland{} ¿vila~de Melo, A.~M.
+Saborido-Rey, F., ¿vila~de Melo, A.~M., \bbland{} Alpoim, R.
 \newblock \emph{An XSA Based Assessment of Beaked Redfish (S. mentella and S.
   fasciatus) in NAFO Division 3M}.
 \newblock \bbltechrep{}, Lisboa, Portugal, 2007.
@@ -472,66 +490,115 @@ Healey, B.~P. \bbland{} MahÈ, J.-C.
   hippoglossoides) in NAFO Subarea 2 and Divisions 3KLMNO}.
 \newblock \bbltechrep{}, St. John's, Newfoundland, Canada, 2007.
 
+\bibitem{AFSC-SABLEFEBSAIGA-2008-Sablefish-EBS-AI-GA.pdf}
+Rodgveller, C.~J., Hanselman, D., Lunsford, C.~R., \bbland{} Fujioka, J.~T.
+\newblock \emph{North Pacific Groundfish Stock Assessment and Fishery
+  Evaluation Reports for 2009}, \bblchap{} Assessment of the Sablefish stock in
+  Alaska, \bblpp{} 330--420 (North Pacific Fisheries Management Council,
+  Anchorage, AK, 2008).
+
 \bibitem{NWFSC-SABLEFPCOAST-2007-Sablefish.pdf}
-MJ, S.
+Schirripa, M.~J.
 \newblock \emph{Status of the sablefish resource off the continental U.S.
   Pacific coast in 2007}.
 \newblock \bbltechrep{}, 2007.
 
 \bibitem{quahog.pdf}
-Center, N. F.~S.
+Anonymous.
 \newblock \emph{48th Northeast Regional Stock Assessment Workshop (48th SAW)
   48th SAW Assessment Report}.
 \newblock \bbltechrep{}, Woods Hole, Massachusetts, 2009.
 
 \bibitem{JENSEN_GTRIGGM_2006.pdf}
-NULL.
-\newblock \emph{NULL}.
-\newblock \bbltechrep{}, NULL, 2006.
+Anonymous.
+\newblock \emph{Gulf of Mexico Gray Triggerfish}.
+\newblock \bbltechrep{}, Charleston, SC, 2006.
+
+\bibitem{GILROY-MENHADENGM-2007.pdf}
+Smith, J., Shertzer, K., \bbland{} Vaughan, D.
+\newblock Gulf menhaden (\emph{Brevoortia patronus}) in the U.S. Gulf of
+  Mexico: Fishery characteristics and biological reference points for
+  management.
+\newblock 2007.
 
 \bibitem{Atl.Menhaden-ASMFC-2006.pdf}
-NA.
+Anonymous.
 \newblock \emph{2006 Stock Assessment Report for Atlantic Menhaden}.
 \newblock \bbltechrep{}, 2006.
 
 \bibitem{SmallcoastalAtl2007-SEFSC.pdf}
-Brooks, L., Carlson, J., CortÈs, E., Ingram, W., Nesslage, G., \bbland{}
-  Siegfried, K.
+CortÈs, E., Carlson, J., Ingram, W., Nesslage, G., Siegfried, K., \bbland{}
+  Brooks, L.
 \newblock \emph{Stock Assessment Report - Small Coastal Shark Complex, Atlantic
   Sharpnose, Blacknose, Bonnethead and Finetooth Shark}.
 \newblock \bbltechrep{}, Silver Spring, Maryland, 2007.
 
 \bibitem{LargeCoastalAtl2006-SEFSC.pdf}
-Carlson, J., Musick, J., Hueter, R., Castro, J., Romine, J., \bbland{} Kohler,
-  N.
+Castro, J., Romine, J., Musick, J., Kohler, N., Hueter, R., \bbland{} Carlson,
+  J.
 \newblock \emph{Stock Assessment Report - Large Coastal Shark Complex, Blacktip
   and Sandbar Shark}.
 \newblock \bbltechrep{}, Silver Spring, Maryland, 2006.
 
 \bibitem{DataPoorReviewPanelReportFinal-1-20-09.pdf}
-Group, N. D. P.~W.
+{Northeast, Data Poor Working Group}.
 \newblock \emph{The Northeast Data Poor Stocks Working group report. December
   8-12, 2008 meeting Part A.}
 \newblock \bbltechrep{}, Woods Hole, Massachusetts, 2009.
 
 \bibitem{CRABSAFE2008.pdf}
-2008.
+Anonymous.
+\newblock \emph{Stock Assessment and Fishery Evaluation Report for the King and
+  Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions}.
+\newblock \bbltechrep{}, Anchorage, AK, 2008.
 
 \bibitem{Herring2006.pdf}
-Committee, T. R.~A.
+Anonymous.
 \newblock \emph{Gulf of Maine-Georges Bank Herring Stock Complex}.
 \newblock \bbltechrep{}, 2006.
 
+\bibitem{Hulson-etal-2008-ICESJM.pdf}
+Miller, S.~E., Moffitt, S.~D., Quinn, T. J.~I., Funk, F., Marty, G.~D.,
+  \bbland{} Hulson, P.-J.~F.
+\newblock Data conflicts in fishery models: incorporating hydroacoustic data
+  into the Prince William Sound Pacific herring assessment model.
+\newblock \emph{ICES Journal of Marine Science}, 65:25--43, 2008.
+
 \bibitem{NEFSC-Weakfish-2009.pdf}
-Workshop, N. R. S.~A.
+Anonymous.
 \newblock \emph{48th Northeast Regional Stock Assessment Workshop (48th SAW) -
   Assessment Summary Report}.
-\newblock \bbltechrep{}, 2009.
+\newblock \bbltechrep{}, Woods Hole, MA, 2009.
 
-\bibitem{JENSEN_RGROUPGM-2006.pdf}
-NULL.
-\newblock \emph{NULL}.
-\newblock \bbltechrep{}, NULL, 2006.
+\bibitem{ref2004-SAFE-WCpetralesole.pdf}
+Lai, H.-L., Cope, J., Punt, A., \bbland{} Haltuch, M.
+\newblock \emph{Stock Assessment of Petrale Sole: 2004}.
+\newblock \bbltechrep{}, 2005.
+
+\bibitem{JENSEN-RGROUPGM-2006.pdf}
+Anonymous.
+\newblock \emph{Gulf of Mexico Red Grouper SEDAR 12 - Stock Assessment Report
+  1}.
+\newblock \bbltechrep{}, Charleston, SC, 2006.
+
+\bibitem{ref2004-SEDAR-deepwatersnappergrouper.pdf}
+Anonymous.
+\newblock \emph{Stock¬†Assessment¬†Report¬†1 -
+  Atlantic¬†Deepwater¬†Snapper‚ÄêGrouper¬†Complex}, \bblchap{} Section III. A.
+  Assesssment of Snowy Grouper (\emph{Epinephelus niveatus}) in the South
+  Atlantic Fisheries Management Council Management Area (SEDAR 4 Stock
+  Assessment Panel, Charleston, SC, 2004).
+
+\bibitem{AFSC-PCODBSAI-2008-Pacific-cod-BSAI.pdf}
+Aydin, K., Gaichas, S., Thompson, G., Ianelli, J., \bbland{} Lauth, R.
+\newblock \emph{2: Assessment of the Pacific Cod Stock in the Eastern Bering
+  Sea and Aleutian Islands Area}.
+\newblock \bbltechrep{}, Anchorage, AK, 2008.
+
+\bibitem{AFSC-PCODGA-2008-Pacific-cod-GA.pdf}
+Thompson, G., Ianelli, J., \bbland{} Wilkins, M.
+\newblock \emph{2: Assessment of the Pacific Cod Stock in the Gulf of Alaska}.
+\newblock \bbltechrep{}, Anchorage, AK, 2008.
 
 \bibitem{NMFS-GB-Gadusmorhua-2008.pdf}
 Center, N. F.~S.
@@ -544,6 +611,18 @@ Center, N. F.~S.
 \newblock \emph{Assessment of 19 Northeast Groundfish Stocks through 2007:
   Report of the 3rd Groundfish Assessment Review Meeting (GARM III),}.
 \newblock \bbltechrep{}, Woods Hole, Massachusetts, 2008.
+
+\bibitem{crd0815.pdf}
+Center, N. F.~S.
+\newblock \emph{Assessment of 19 Northeast Groundfish Stocks through 2007:
+  Report of the 3rd Groundfish Assessment Review Meeting (GARM III),}.
+\newblock \bbltechrep{}, Woods Hole, MA, 2008.
+
+\bibitem{ref2008-SAFE-GOArex.pdf}
+Turnock, B., Stockhausen, W.~T., Matta, B., Wilkins, M.~E., \bbland{} Martin,
+  M.~H.
+\newblock \emph{6. Gulf of Alaska Rex Sole Stock Assessment}.
+\newblock \bbltechrep{}, 2008.
 
 \bibitem{KelpGreenling_2005.pdf}
 Alec, M. \bbland{} Cope, J.
@@ -689,22 +768,21 @@ NULL.
 \newblock \bbltechrep{}, NULL, 2006.
 
 \bibitem{NOAA-TM-NMFS-SWFSC-413.pdf}
-Felix-Uraga, R., Macewicz, B.~J., Hill, K.~T., Show, C., Lo, N. C.~H.,
-  \bbland{} Dorval, E.
+Dorval, E., Lo, N. C.~H., Show, C., Hill, K.~T., Felix-Uraga, R., \bbland{}
+  Macewicz, B.~J.
 \newblock \emph{Assessment of the Pacific Sardine resource in 2007 for U.S.
   management in 2008}.
 \newblock \bbltechrep{}, La Jolla, CA, 2007.
 
 \bibitem{PFMC_2008_CPS_SAFE_App2_PMackerel.pdf}
-Lo, N. C.~H., Hill, K.~T., McDaniel, J.~D., \bbland{} Dorval, E.
+Hill, K.~T., Lo, N. C.~H., Dorval, E., \bbland{} McDaniel, J.~D.
 \newblock \emph{Pacific mackerel (Scomber japonicus) stock assessment for U.S.
   management in the 2008-2009 fishing season}.
 \newblock \bbltechrep{}, Portland, OR, 2008.
 
 \bibitem{JENSEN_KMACKGMSATLC_2004.pdf}
-NULL, Smith, J., Shertzer, K., \bbland{} Vaughan, D.
-\newblock \emph{NULL: Fishery characteristics and biological reference points
-  for management}.
+NULL.
+\newblock \emph{NULL}.
 \newblock \bbltechrep{}, NULL, 2004.
 
 \bibitem{JENSEN_SPANMACKSATLC_2008.pdf}
@@ -800,14 +878,14 @@ Canales, C. \bbland{} Serra, R.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{Chang-Liu-2009-Shortfin-mako-NWPAC.pdf}
-Chang, J.-H. \bbland{} Liu, K.-M.
+Liu, K.-M. \bbland{} Chang, J.-H.
 \newblock Stock assessment of the shortfin mako shark (Isurus oxyrinchus) in
   the Northwest Pacific Ocean using per recruit and virtual population
   analyses.
 \newblock Volume 98, issues 1-3, 2009.
 
 \bibitem{SC4-SA-WP4-SKJ-Assessment-rev1-skipjack.pdf}
-Hampton, J. \bbland{} Langley, A.
+Langley, A. \bbland{} Hampton, J.
 \newblock \emph{Stock assessment of skipjack tuna in the western and central
   Pacific Ocean}.
 \newblock \bbltechrep{}, 2008.
@@ -819,7 +897,7 @@ Hoyle, S., Langley, A., \bbland{} Hampton, J.
 \newblock \bbltechrep{}, 2008.
 
 \bibitem{WCPFC-SC3-SA-SWG-WP-01.pdf}
-Hoyle, S., Kleibert, P., Hampton, J., \bbland{} Langley, A.
+Langley, A., Hampton, J., Hoyle, S., \bbland{} Kleibert, P.
 \newblock \emph{Stock assessment of yellowfin tuna in the western and central
   Pacific Ocean, including an analysis of management options}.
 \newblock \bbltechrep{}, 2007.

@@ -105,7 +105,7 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "HERR2224IIIa",161722,"Clupea harengus","Herring","multinational-ICES-22-24-IIIa","Herring ICES 22-24-IIIa",0,NULL
 "HERR2532",161722,"Clupea harengus","Herring","multinational-ICES-25-32","Herring ICES 25-32",0,NULL
 "HERR30",161722,"Clupea harengus","Herring","multinational-ICES-30","Herring ICES 30",0,NULL
-"HERR31",161722,"Clupea harengus","Herring","multinational-ICES-30","Herring ICES 31",0,NULL
+"HERR31",161722,"Clupea harengus","Herring","multinational-ICES-31","Herring ICES 31",0,NULL
 "HERRRIGA",161722,"Clupea harengus","Herring","multinational-ICES-28","Herring ICES 28",0,NULL
 "HERRNIRS",161722,"Clupea harengus","Herring","multinational-ICES-VIIa","Herring Northern Irish Sea",1,"HERRNIRS"
 "PLAIC7d",172902,"Pleuronectes platessa","European Plaice","multinational-ICES-VIId","European Plaice ICES VIId",1,"PLAIC7d"

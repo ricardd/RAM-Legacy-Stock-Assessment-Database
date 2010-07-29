@@ -101,6 +101,7 @@ category,subcategory,bioshort,biolong,biounitsshort,biounitslong
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","F30%","Fishing mortality that reduces spawner biomass per recruit to 30% of the level obtained without fishing mortality","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","F35%","Fishing mortality that reduces spawner biomass per recruit to 35% of the level obtained without fishing mortality","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","F40%","Fishing mortality that reduces spawner biomass per recruit to 40% of the level obtained without fishing mortality","1/yr","per year"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","FemaleGonadMT","Female Gonad Weight in metric tons"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","relative","relative"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","MT","metric tons"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","E00eggs","number of eggs"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  20 JUL 2010 17:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  28 JUL 2010 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,31 +303,31 @@ al-u-ate the knowledge-
  []
 
 [6] [7] [8] [9] [10] [11] (./results-dynamic.tex [12] [13] [14] [15]
-Overfull \hbox (165.58249pt too wide) in paragraph at lines 225--248
+Overfull \hbox (165.58249pt too wide) in paragraph at lines 224--247
 \OT1/cmr/m/n/12 stocks (man-aged by ICES) have biomasses less than $\OML/cmm/m/
 it/12 B[]$ \OT1/cmr/m/n/12 (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES%),
  []
 
 
-Overfull \hbox (95.71056pt too wide) in paragraph at lines 225--248
+Overfull \hbox (95.71056pt too wide) in paragraph at lines 224--247
 \OT1/cmr/m/n/12 and over half of these stocks (REF:SQL:PERCENTASSESSFRIEDBELBMS
 YANDABOVEFMSYICES%)
  []
 
 
-Overfull \hbox (150.68265pt too wide) in paragraph at lines 225--248
+Overfull \hbox (150.68265pt too wide) in paragraph at lines 224--247
 \OT1/cmr/m/n/12 stocks man-aged by MFish and AFMA are above $\OML/cmm/m/it/12 B
 []$ \OT1/cmr/m/n/12 in REF:SQL:PERCENTASSESSFRIEDABOVEBMSYMFish%
  []
 
 
-Overfull \hbox (149.41966pt too wide) in paragraph at lines 225--248
+Overfull \hbox (149.41966pt too wide) in paragraph at lines 224--247
 \OT1/cmr/m/n/12 For the stocks grouped as ``At-lantic'' in Fig-ure 6[] we found
  that REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT
  []
 
 
-Overfull \hbox (206.08878pt too wide) in paragraph at lines 225--248
+Overfull \hbox (206.08878pt too wide) in paragraph at lines 224--247
 \OT1/cmr/m/n/12 of the REF:SQL:NUMASSESSFRIEDTOTALICCAT IC-CAT stocks and REF:S
 QL:NUMASSESSFRIEDBELOWBMSYICCAT
  []
@@ -378,175 +378,175 @@ Underfull \hbox (badness 5231) in paragraph at lines 16--16
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 18--18
+Underfull \hbox (badness 3019) in paragraph at lines 19--19
 []\OT1/cmr/m/n/12 International Pa-cific Hal-
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 20--20
+Underfull \hbox (badness 4927) in paragraph at lines 21--21
 []\OT1/cmr/m/n/12 Northwest At-lantic Fish-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 21--21
+Underfull \hbox (badness 1270) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 National Ma-rine Fish-eries
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 22--22
+Underfull \hbox (badness 2828) in paragraph at lines 23--23
 []\OT1/cmr/m/n/12 Russian Fed-eral Fish-eries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []\OT1/cmr/m/n/12 Unknown man-age-ment
  []
 
 
-LaTeX Warning: Float too large for page by 219.79758pt on input line 30.
+LaTeX Warning: Float too large for page by 241.54756pt on input line 31.
 
 ) [32]
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 []|\OT1/cmr/m/it/12 Stock
  []
 
 
-Overfull \hbox (14.03404pt too wide) in paragraph at lines 884--884
+Overfull \hbox (14.03404pt too wide) in paragraph at lines 888--888
 []|\OT1/cmr/m/it/12 Individual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 \OT1/cmr/m/it/12 species
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 []|\OT1/cmr/m/it/12 Species (Com-mon name,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 \OT1/cmr/m/it/12 Latin name) or higher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 []|\OT1/cmr/m/it/12 In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 []|\OT1/cmr/m/it/12 Reason
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 888--888
 \OT1/cmr/m/it/12 if not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-[]|\OT1/cmr/m/it/12 Stock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-[]|\OT1/cmr/m/it/12 Stock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-\OT1/cmr/m/it/12 Num-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-[]|\OT1/cmr/m/it/12 Species (Com-mon name,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-\OT1/cmr/m/it/12 Latin name) or higher
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-[]|\OT1/cmr/m/it/12 In
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-[]|\OT1/cmr/m/it/12 Reason
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 886--886
-\OT1/cmr/m/it/12 if not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 887--887
-[]|\OT1/cmr/m/n/12 Peruvian an-choveta, \OT1/cmr/m/it/12 En-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/it/12 Stock
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/it/12 Stock
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+\OT1/cmr/m/it/12 Num-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/it/12 Species (Com-mon name,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+\OT1/cmr/m/it/12 Latin name) or higher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/it/12 In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\OT1/cmr/m/it/12 Reason
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+\OT1/cmr/m/it/12 if not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
+[]|\OT1/cmr/m/n/12 Peruvian an-choveta, \OT1/cmr/m/it/12 En-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 894--894
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--892
+Underfull \hbox (badness 10000) in paragraph at lines 896--896
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--893
+Underfull \hbox (badness 10000) in paragraph at lines 897--897
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--902
+Underfull \hbox (badness 10000) in paragraph at lines 906--906
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--903
+Underfull \hbox (badness 10000) in paragraph at lines 907--907
 []|\OT1/cmr/m/n/12 Argentinean short-finned
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 906--906
+Underfull \hbox (badness 1024) in paragraph at lines 910--910
 []|\OT1/cmr/m/n/12 Araucanian her-ring, \OT1/cmr/m/it/12 Stran-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--908
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 []|\OT1/cmr/m/n/12 European sprat, \OT1/cmr/m/it/12 Sprat-tus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 909--909
+Underfull \hbox (badness 10000) in paragraph at lines 913--913
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--910
+Underfull \hbox (badness 10000) in paragraph at lines 914--914
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--912
+Underfull \hbox (badness 10000) in paragraph at lines 916--916
 []|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 921--921
 []|\OT1/cmr/m/n/12 Chub mack-erel, \OT1/cmr/m/it/12 Scomber
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 925--925
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
 []|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
  []
 
@@ -617,33 +617,32 @@ aphic file (type pdf)
 
 LaTeX Warning: Float too large for page by 105.25597pt on input line 81.
 
-
-</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=146, 483
+[40 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
+is rotated 90 degrees>] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
+rdb-by-assessment.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
+hree_panel_phylo.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=172, 483
 .8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=147, 
+[43 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=180, 
 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=148,
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=181,
  578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>)
-[40 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
-is rotated 90 degrees>] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
-rdb-by-assessment.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
-hree_panel_phylo.pdf>] [43 </home/srdbadmin/srdb/projects/fishandfisheries/R/or
-ca_plot_v2.pdf>] [44 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg
--single.pdf>] [45 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by
--mgmt.pdf>] (./fishandfisheries-finaldraft.aux (./temptable.aux) (./Figures.aux
-)) ) 
+[44 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>]
+[45 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>]
+(./fishandfisheries-finaldraft.aux (./temptable.aux) (./Figures.aux)) ) 
 Here is how much of TeX's memory you used:
  2934 strings out of 495061
  41320 string characters out of 1182621
@@ -651,24 +650,25 @@ Here is how much of TeX's memory you used:
  6036 multiletter control sequences out of 15000+50000
  12790 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,10n,34p,673b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/symbols/msam10.pfb>
-Output written on fishandfisheries-finaldraft.pdf (45 pages, 1501718 bytes).
+ 32i,10n,34p,677b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/symbols/msam10.pfb>
+Output written on fishandfisheries-finaldraft.pdf (45 pages, 1502045 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

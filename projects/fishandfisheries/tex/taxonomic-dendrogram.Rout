@@ -582,6 +582,7 @@ Warning messages:
 [1] 321
 [1] 322
 [1] 323
+[1] 324
 > 
 > taxo.phylo$tip.label<-prelim.tip.labels
 > 
@@ -785,4 +786,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  9.092   0.084  11.383 
+  8.756   0.120   9.853 

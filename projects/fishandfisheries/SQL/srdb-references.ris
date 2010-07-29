@@ -1,7 +1,33 @@
-
+TY  - JOUR
+A1  - Funk, Frederick
+A1  - Moffitt, Steven D.
+A1  - Marty, Gary D.
+A1  - Quinn, Terrance J. II
+A1  - Miller, Sara E.
+A1  - Hulson, Peter-John F.
+EP  - 43
+N1  - Hulson-etal-2008-ICESJM.pdf
+JO  - ICES Journal of Marine Science
+SP  - 25
+T1  - Data conflicts in fishery models: incorporating hydroacoustic data into the Prince William Sound Pacific herring assessment model
+VL  - 65
+Y1  - 2008
 ID  - ADFG-HERRPWS-1980-2006-COLLIE
 ER  -
-
+TY  - JOUR
+A1  - Quinn, Terrance J. II
+A1  - Moffitt, Steven D.
+A1  - Marty, Gary D.
+A1  - Miller, Sara E.
+A1  - Hulson, Peter-John F.
+A1  - Funk, Frederick
+EP  - 43
+N1  - Hulson-etal-2008-ICESJM.pdf
+JO  - ICES Journal of Marine Science
+SP  - 25
+T1  - Data conflicts in fishery models: incorporating hydroacoustic data into the Prince William Sound Pacific herring assessment model
+VL  - 65
+Y1  - 2008
 ID  - ADFG-HERRSITKA-1978-2007-COLLIE
 ER  -
 TY  - RPRT
@@ -36,22 +62,30 @@ Y1  - 2008
 ID  - AFSC-ARFLOUNDGA-1958-2010-STANTON
 ER  -
 TY  - RPRT
-A1  - Lowe, S
 A1  - Ianelli, J ; Wilkins, M ; Aydin, K ; Lauth, R ; Spies, I
+A1  - Lowe, S
 N1  - 2008_SAFE_BSAIatka.pdf
 T1  - 15. Stock Assessment of Bering Sea/Aleutian Islands Atka Mackerel
 VL  - 2008 North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009 
 Y1  - 2009
 ID  - AFSC-ATKABSAI-1976-2009-STANTON
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-BKINGCRABPI-1960-2008-JENSEN
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-BKINGCRABSMI-1960-2008-JENSEN
@@ -67,8 +101,8 @@ Y1  - 2005
 ID  - AFSC-CABEZNCAL-1916-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Punt, Andre
 A1  - Cope, Jason
+A1  - Punt, Andre
 CY  - City, State (or country)
 N1  - 2005_SAFE_Wccabezon.pdf
 T1  - Status of Cabezon (Scorpaenichthys marmoratus) in California Waters as Assessed in 2005
@@ -124,21 +158,29 @@ VL  - 2008 North Pacific Groundfish Stock Assessment and Fishery Evaluation Repo
 Y1  - 2009
 ID  - AFSC-GHALBSAI-1960-2009-STANTON
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-GKINGCRABAIES-1990-2007-JENSEN
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-GKINGCRABAIWS-1989-2007-JENSEN
 ER  -
 TY  - RPRT
-A1  - Spencer, P.D.
 A1  - Ianelli, J.N.
+A1  - Spencer, P.D.
 N1  - 2008_SAFE_BSAInorthern.pdf
 T1  - Chapter 12. Northern Rockfish
 VL  - 2008 North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009 
@@ -146,8 +188,8 @@ Y1  - 2009
 ID  - AFSC-NROCKBSAI-1974-2009-STANTON
 ER  -
 TY  - RPRT
-A1  - Heifetz, J
 A1  - Hanselman, D., Shotwell, S.K.., Ianelli, J.
+A1  - Heifetz, J
 CY  - Anchorage, AK
 N1  - AFSC-NROCKGA-2008-Northern rockfish GA.pdf
 PB  - North Pacific Fishery Management Council 
@@ -157,8 +199,8 @@ Y1  - 2008
 ID  - AFSC-NROCKGA-1959-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Wliderbuer, TK
 A1  - Nichol, DG
+A1  - Wliderbuer, TK
 N1  - 2008_SAFE_BSAIrocksole.pdf
 T1  - Chapter 7 Northern Rock Sole
 VL  - 2008 North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009 
@@ -166,10 +208,13 @@ Y1  - 2009
 ID  - AFSC-NRSOLEEBSAI-1971-2008-STANTON
 ER  -
 TY  - RPRT
-A1  - Thompson G
-A1  - Ianelli J, Lauth, R, Gaichas S, Aydin K
+A1  - Lauth, R.
+A1  - Aydin, K.
+A1  - Gaichas, S.
+A1  - Ianelli, J.
+A1  - Thompson, G.
 CY  - Anchorage, AK
-N1  - AFSC-PCODBSAI-2008-Pacific cod BSAI.pdf
+N1  - AFSC-PCODBSAI-2008-Pacific-cod-BSAI.pdf
 PB  - North Pacific Fisheries Management Council
 T1  - 2:  Assessment of the Pacific Cod Stock in the Eastern Bering Sea and Aleutian Islands Area 
 VL  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009
@@ -177,10 +222,11 @@ Y1  - 2008
 ID  - AFSC-PCODBSAI-1964-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Thompson G
-A1  - Ianelli J, Wilkins, M
+A1  - Ianelli, J.
+A1  - Wilkins, M.
+A1  - Thompson, G.
 CY  - Anchorage, AK
-N1  - AFSC-PCODGA-2008-Pacific cod GA.pdf
+N1  - AFSC-PCODGA-2008-Pacific-cod-GA.pdf
 PB  - North Pacific Fisheries Management Council
 T1  - 2:  Assessment of the Pacific Cod Stock in the Gulf of Alaska
 VL  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009
@@ -188,8 +234,8 @@ Y1  - 2008
 ID  - AFSC-PCODGA-1964-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Ianelli, JN
 A1  - Spencer, PD
+A1  - Ianelli, JN
 N1  - 2008_SAFE_BSAIpop.pdf
 T1  - Chapter 11. Pacific Ocean Perch
 VL  - 2008 North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009 
@@ -208,10 +254,13 @@ Y1  - 2008
 ID  - AFSC-POPERCHGA-1959-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Matta, B., Turnock, B., Wilkins M.E., Martin M.H.
+A1  - Wilkins, M.E.
 A1  - Stockhausen, W.T.
-N1  - 2008_SAFE_GOArex.pdf
-T1  - 6. Goulf of Alaska Rex Sole Stock Assessment
+A1  - Matta, B.
+A1  - Martin, M.H.
+A1  - Turnock, B.
+N1  - ref2008-SAFE-GOArex.pdf
+T1  - 6. Gulf of Alaska Rex Sole Stock Assessment
 VL  - 2007 North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2008
 Y1  - 2008
 ID  - AFSC-REXSOLEGA-1979-2008-STANTON
@@ -237,44 +286,64 @@ VL  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports f
 Y1  - 2008
 ID  - AFSC-REYEROCKGA-1974-2007-MELNYCHUK
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-RKCRABBB-1960-2008-JENSEN
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-RKCRABNS-1976-2008-JENSEN
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-RKCRABPI-1981-2009-JENSEN
 ER  -
-TY  - RPRT
-A1  - Lunsford CR, Fujioka JT, Rodgveller CJ
-A1  - Hanselman D
+TY  - CHAP
+A1  - Lunsford, C.R.
+A1  - Fujioka, J.T.
+A1  - Hanselman, D.
+A1  - Rodgveller, C.J.
+BT  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009
 CY  - Anchorage, AK
-N1  - AFSC-SABLEFEBSAIGA-2008-Sablefish EBS AI GA.pdf
+EP  - 420
+N1  - AFSC-SABLEFEBSAIGA-2008-Sablefish-EBS-AI-GA.pdf
 PB  - North Pacific Fisheries Management Council
-T1  - 3. Assessment of the Sablefish stock in Alaska 
-VL  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports for 2009
+SP  - 330
+T1  - Assessment of the Sablefish stock in Alaska 
 Y1  - 2008
 ID  - AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-SNOWCRABBS-1979-2008-JENSEN
 ER  -
 TY  - RPRT
-A1  - Reuter RF
 A1  - Spencer PD
+A1  - Reuter RF
 N1  - 2008_SAFE_BSAIshortraker.pdf
 PB  - North Pacific Fisheries Management Council
 T1  - Chapter 13A Shortraker Rockfish
@@ -282,15 +351,19 @@ VL  - North Pacific Groundfish Stock Assessment and Fishery Evaluation Reports f
 Y1  - 2009
 ID  - AFSC-SRAKEROCKBSAI-1977-2008-STANTON
 ER  -
-TY  - Stock Assessment and Fishery Evaluation Report for the KING AND TANNER CRAB FISHERIES of the Bering Sea and Aleutian Islands Regions
+TY  - RPRT
+A1  - Anonymous
+CY  - Anchorage, AK
 N1  - CRABSAFE2008.pdf
+PB  - North Pacific Fishery Management Council
+T1  - Stock Assessment and Fishery Evaluation Report for the King and Tanner Crab Fisheries of the Bering Sea and Aleutian Islands Regions
 VL  - 2008 BSAI Crab SAFE
 Y1  - 2008
 ID  - AFSC-TANNERCRABBSAI-1965-2008-JENSEN
 ER  -
 TY  - RPRT
-A1  - Ianelli, J., Gaichas, S., Wilkins, M.
 A1  - Barbeaux, S.
+A1  - Ianelli, J., Gaichas, S., Wilkins, M.
 CY  - Anchorage, AK
 N1  - AFSC-WPOLLAI-2008-Walleye pollock AI.pdf
 PB  - North Pacific Fisheries Management Council
@@ -300,8 +373,8 @@ Y1  - 2008
 ID  - AFSC-WPOLLAI-1976-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Barbeaux S, Honkalehto T, Kotwicki S, Aydin K, Williamson N
 A1  - Ianelli JN
+A1  - Barbeaux S, Honkalehto T, Kotwicki S, Aydin K, Williamson N
 CY  - Anchorage, AK
 N1  - AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf
 PB  - North Pacific Fisheries Management Council
@@ -311,8 +384,8 @@ Y1  - 2008
 ID  - AFSC-WPOLLEBS-1963-2008-MELNYCHUK
 ER  -
 TY  - RPRT
-A1  - Aydin, K., Barbeaux, S., Guttormsen, M., Megrey, B., Spalinger, K., and Wilkins, M.
 A1  - Dorn, Martin
+A1  - Aydin, K., Barbeaux, S., Guttormsen, M., Megrey, B., Spalinger, K., and Wilkins, M.
 CY  - Anchorage, AK
 N1  - AFSC-WPOLLGA-2008-Walleye pollock GA.pdf
 PB  - North Pacific Fishery Management Council 
@@ -523,8 +596,8 @@ Y1  - 2007
 ID  - CSIRO-GTPRAWNNAUST-1970-2006-FULTON
 ER  -
 TY  - CHAP
-A1  - Fay, Gavin
 A1  - Wayte, Sally
+A1  - Fay, Gavin
 A2  - Tuck, Geoffrey N.
 BT  - Stock assessment for the Southern and Eastern Scalefish and Shark Fishery 2006-2007
 CY  - Hobart, Australia
@@ -664,9 +737,9 @@ Y1  - 2007
 ID  - CSIRO-WAREHOUWSE-1984-2006-FULTON
 ER  -
 TY  - RPRT
-A1  - Hunt, J.J.
-A1  - Hatt, B.
 A1  - O'Brien, L.
+A1  - Hatt, B.
+A1  - Hunt, J.J.
 CY  - Canada
 N1  - NAFO-COD5Zjm-2003.pdf
 PB  - DFO
@@ -676,11 +749,11 @@ Y1  - 2003
 ID  - DFO-COD5Zjm-1978-2003-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Mohn, R.K.
-A1  - Hurley, P.C.F.
 A1  - Black, G.A.P.
+A1  - Hurley, P.C.F.
 A1  - Simon, G.E.
 A1  - Comeau, P.A.
+A1  - Mohn, R.K.
 CY  - Canada
 N1  - NAFO-HAD4X5Y-2003.pdf
 PB  - DFO
@@ -690,8 +763,8 @@ Y1  - 2003
 ID  - DFO-HAD4X5Y-1960-2003-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Van Eeckhaute, L.
 A1  - Brodziak, Jon
+A1  - Van Eeckhaute, L.
 A1  - Gavaris, Stratis
 CY  - Canada
 N1  - NAFO-HAD5Zejm-2003.pdf
@@ -702,13 +775,13 @@ Y1  - 2003
 ID  - DFO-HAD5Zejm-1968-2003-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Stephenson, R.L.
-A1  - Knox, D.
-A1  - Fife, F.J.
-A1  - Annis, L.M.
 A1  - Melvin, G.D.
 A1  - Power, M.J.
+A1  - Annis, L.M.
+A1  - Stephenson, R.L.
+A1  - Knox, D.
 A1  - Clark, K.J.
+A1  - Fife, F.J.
 CY  - Canada
 N1  - NAFO-HERR4VWX-2006.pdf
 PB  - DFO
@@ -718,9 +791,9 @@ Y1  - 2006
 ID  - DFO-HERR4VWX-1965-2006-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Frank, Kenneth T.
-A1  - Simon, James E.
 A1  - Kulka, David W.
+A1  - Simon, James E.
+A1  - Frank, Kenneth T.
 CY  - Canada
 N1  - NAFO-BARNSK-2002.pdf
 PB  - DFO
@@ -731,8 +804,8 @@ ID  - DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE
 ER  -
 TY  - RPRT
 A1  - Mohn, R.K.
-A1  - Fanning, L.P.
 A1  - MacEachern, W.J.
+A1  - Fanning, L.P.
 CY  - Canada
 N1  - NAFO-COD4VsW-2003.pdf
 PB  - DFO
@@ -753,9 +826,9 @@ Y1  - 2005
 ID  - DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Morgan, M.J.
-A1  - Dwyer, K.S.
 A1  - Brodie, W.B.
+A1  - Dwyer, K.S.
+A1  - Morgan, M.J.
 CY  - Canada
 N1  - NAFO-AMPL23K-2003.pdf
 PB  - DFO
@@ -765,9 +838,9 @@ Y1  - 2003
 ID  - DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Brodie, W.B.
 A1  - Morgan, M.J.
 A1  - Shelton, P.A.
+A1  - Brodie, W.B.
 CY  - St. John's, Newfoundland, Canada
 N1  - NAFO-AMPL3Ps-2005.pdf
 PB  - DFO
@@ -778,9 +851,9 @@ ID  - DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE
 ER  -
 TY  - RPRT
 A1  - Healey, B.P.
+A1  - Murphy, E.F.
 A1  - Lilly, G.R.
 A1  - Brattey, J.
-A1  - Murphy, E.F.
 CY  - Canada
 N1  - DFO-COD2J3KLIS-2006.pdf
 PB  - DFO
@@ -790,13 +863,13 @@ Y1  - 2006
 ID  - DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Murphy, E.F.
 A1  - Brattey, J.
 A1  - MahÈ, J.-C.
 A1  - Shelton, P.F.
+A1  - Murphy, E.F.
 A1  - Lilly, G.R.
-A1  - Cadigan, N.G.
 A1  - Healey, B.P.
+A1  - Cadigan, N.G.
 CY  - Canada
 N1  - DFO-COD3Ps-2004.pdf
 PB  - DFO
@@ -835,8 +908,8 @@ Y1  - 1999
 ID  - DFO-PAC-ESOLEHS-1944-2001-COLLIE
 ER  -
 TY  - RPRT
-A1  - Schweigert, Jake
 A1  - Haist, Vivian
+A1  - Schweigert, Jake
 CY  - Canada
 N1  - RES2007_002_e.pdf
 PB  - DFO
@@ -857,8 +930,8 @@ Y1  - 2007
 ID  - DFO-PAC-HERRPRD-1951-2007-COLLIE
 ER  -
 TY  - RPRT
-A1  - Schweigert, Jake
 A1  - Haist, Vivian
+A1  - Schweigert, Jake
 CY  - Canada
 N1  - RES2007_002_e.pdf
 PB  - DFO
@@ -868,8 +941,8 @@ Y1  - 2007
 ID  - DFO-PAC-HERRQCI-1951-2007-COLLIE
 ER  -
 TY  - RPRT
-A1  - Haist, Vivian
 A1  - Schweigert, Jake
+A1  - Haist, Vivian
 CY  - Canada
 N1  - RES2007_002_e.pdf
 PB  - DFO
@@ -918,9 +991,9 @@ Y1  - 1999
 ID  - DFO-PAC-RSOLEHSTR-1945-2001-COLLIE
 ER  -
 TY  - RPRT
-A1  - Perley, Peter
 A1  - Stone, Heath
 A1  - Clark, Donald
+A1  - Perley, Peter
 CY  - Canada
 N1  - NAFO-POLL4VWX5Zc-2006.pdf
 PB  - DFO
@@ -930,14 +1003,14 @@ Y1  - 2006
 ID  - DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE
 ER  -
 TY  - RPRT
+A1  - Tournois, Coralie
+A1  - Fr\'{e}chet, Alain
+A1  - Gauthier, Johanne
+A1  - Schwab, Philippe
 A1  - Bourdages, Hugo
 A1  - Collier, Frank
 A1  - Way, Monty
 A1  - Spingle, Jason
-A1  - Tournois, Coralie
-A1  - Schwab, Philippe
-A1  - Gauthier, Johanne
-A1  - Fr\'{e}chet, Alain
 CY  - Canada
 N1  - DFO-COD3Pn4Rs-2007.pdf
 PB  - DFO
@@ -970,8 +1043,8 @@ Y1  - 2004
 ID  - DFO-QUE-HERR4RFA-1971-2003-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Gr\'{e}goire, Fran\c{c}ois
 A1  - Lavers, Jerry
+A1  - Gr\'{e}goire, Fran\c{c}ois
 A1  - Lefebvre, Louise
 CY  - Canada
 N1  - NAFO-HERR4RSP-2004.pdf
@@ -982,9 +1055,9 @@ Y1  - 2004
 ID  - DFO-QUE-HERR4RSP-1963-2004-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Bourdages, H.
-A1  - Morin, B.
 A1  - Camirand, R.
+A1  - Morin, B.
+A1  - Bourdages, H.
 A1  - Bernier, D.
 A1  - Bernier, B.
 CY  - Mont-Joli, QuÈbec, Canada
@@ -996,13 +1069,13 @@ Y1  - 2001
 ID  - DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Savoie, L.
-A1  - Swain, D.P.
-A1  - Daigle, D.
 A1  - Hurlbut, T.
+A1  - Daigle, D.
+A1  - Savoie, L.
 A1  - Poirier, G.A.
-A1  - Currie, L.G.
 A1  - Chouinard, G.A.
+A1  - Currie, L.G.
+A1  - Swain, D.P.
 CY  - Canada
 N1  - NAFO-COD4TVn-2007.pdf
 PB  - DFO
@@ -1012,11 +1085,11 @@ Y1  - 2007
 ID  - DFO-SG-COD4TVn-1965-2007-PREFONTAINE
 ER  -
 TY  - RPRT
+A1  - Poirier, G.A.
+A1  - LeBlanc, C.H.
+A1  - Bourque, C.
 A1  - Roy, J.
 A1  - MacDougall, C.
-A1  - Bourque, C.
-A1  - LeBlanc, C.H.
-A1  - Poirier, G.A.
 CY  - Canada
 N1  - NAFO-HERR4TFA-2007.pdf
 PB  - DFO
@@ -1026,11 +1099,11 @@ Y1  - 2007
 ID  - DFO-SG-HERR4TFA-1974-2007-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Poirier, G.A.
-A1  - LeBlanc, C.H.
 A1  - Roy, J.
 A1  - Bourque, C.
 A1  - MacDougall, C.
+A1  - Poirier, G.A.
+A1  - LeBlanc, C.H.
 CY  - Canada
 N1  - NAFO-HERR4TFA-2007.pdf
 PB  - DFO
@@ -1040,11 +1113,11 @@ Y1  - 2007
 ID  - DFO-SG-HERR4TSP-1974-2007-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - BÈlanger, P
-A1  - HÈbert, M
 A1  - Wade, E
-A1  - DeGr‚ce, P
 A1  - Moriyasu, M
+A1  - BÈlanger, P
+A1  - DeGr‚ce, P
+A1  - HÈbert, M
 CY  - Moncton, New Brunswick
 N1  - 2008_040_b.pdf
 PB  - Department of Fisheries and Oceans
@@ -1215,8 +1288,8 @@ Y1  - 2008
 ID  - ICCAT-YFINATL-1970-2006-JENSEN
 ER  -
 TY  - RPRT
-A1  - Canales, Cristian
 A1  - Serra, Rodolfo
+A1  - Canales, Cristian
 N1  - JENSEN-JACKMACKCH-2008.pdf
 T1  - Updated Status of the Chilean Jack Mackerel Stock
 VL  - CHILEAN JACK MACKEREL WORKSHOP #6
@@ -1224,8 +1297,8 @@ Y1  - 2008
 ID  - IFOP-CHTRACCH-1975-2007-JENSEN
 ER  -
 TY  - JOUR
-A1  - Chang, Jui-Han
 A1  - Liu, Kwang-Ming
+A1  - Chang, Jui-Han
 CY  - Amsterdam
 N1  - Chang-Liu-2009-Shortfin-mako-NWPAC.pdf
 PB  - Elsevier
@@ -1233,6 +1306,20 @@ T1  - Stock assessment of the shortfin mako shark (Isurus oxyrinchus) in the Nor
 VL  - Volume 98, issues 1-3
 Y1  - 2009
 ID  - IMARM-SFMAKONWPAC-1990-2003-FAUCONNET
+ER  -
+TY  - JOUR
+A1  - Escribano, Rub\'{e}n
+A1  - \~{N}iquen, Miguel
+A1  - Cubillos, Luis A.
+A1  - Cahuin, Sandra M.
+EP  - 597
+N1  - Cahuin_etal_2009.pdf
+JO  - Estuarine, Coastal and Shelf Science
+SP  - 591
+T1  - Climatic regimes and the recruitment rate of ancoveta, \emph{Engraulis ringens}, off Peru
+VL  - 84
+Y1  - 2009
+ID  - IMARPE-PANCHPERUNC-1963-2004-RICARD
 ER  -
 TY  - RPRT
 A1  - Garciarena, David
@@ -1247,8 +1334,8 @@ Y1  - 2008
 ID  - INIDEP-ARGANCHONARG-1989-2007-Parma
 ER  -
 TY  - RPRT
-A1  - Hansen, Jorge
 A1  - Garciarena, David
+A1  - Hansen, Jorge
 A1  - Buratti, Claudio
 CY  - Mar del Plata, Argentina
 N1  - Hansen-ANCHOVY-S-2007.pdf
@@ -1279,8 +1366,8 @@ Y1  - 2009
 ID  - INIDEP-ARGHAKESARG-1985-2008-Parma
 ER  -
 TY  - RPRT
-A1  - W{\"{o}}hler, Otto
 A1  - Giussi, Analia
+A1  - W{\"{o}}hler, Otto
 CY  - Mar del Plata, Argentina
 N1  - Giussi-hoki-2007.pdf
 PB  - INIDEP
@@ -1290,8 +1377,8 @@ Y1  - 2007
 ID  - INIDEP-PATGRENADIERSARG-1983-2006-Parma
 ER  -
 TY  - RPRT
-A1  - Giussi, Analia
 A1  - W{\"{o}}hler, Otto
+A1  - Giussi, Analia
 CY  - Mar del Plata, Argentina
 N1  - Giussi-polaca-2007.pdf
 PB  - INIDEP
@@ -1309,8 +1396,8 @@ Y1  - 2007
 ID  - IOTC-BIGEYEIO-1957-2006-JENSEN
 ER  -
 TY  - RPRT
-A1  - Hare, Steven
 A1  - Clark, William
+A1  - Hare, Steven
 CY  - Seattle, WA
 N1  - hare-clark08.pdf
 PB  - IPHC
@@ -1325,16 +1412,16 @@ T1  - Personal communication
 ID  - MARAM-ANCHOSA-1984-2006-deMoor
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Rademeyer, R.A.
+A1  - Butterworth, D.S.
 N1  - SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf
 T1  - Development of a new Baseline Assessment for the South African Hake resource, Incorporating catch-at-length information
 Y1  - 2008
 ID  - MARAM-CHAKESA-1917-2008-DEDECKER
 ER  -
 TY  - RPRT
-A1  - Johnston, S.J.
 A1  - Butterworth, D.S.
+A1  - Johnston, S.J.
 N1  - Johnston-SAWestRockLobster-2007.pdf
 T1  - {MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.
 VL  - WG/07/06/WCRL32
@@ -1342,8 +1429,8 @@ Y1  - 2007
 ID  - MARAM-CRLOBSTERSA12-1910-2008-Johnston
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Johnston, S.J.
+A1  - Butterworth, D.S.
 N1  - Johnston-SAWestRockLobster-2007.pdf
 T1  - {MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.
 VL  - WG/07/06/WCRL32
@@ -1360,8 +1447,8 @@ Y1  - 2007
 ID  - MARAM-CRLOBSTERSA56-1910-2008-Johnston
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Johnston, S.J.
+A1  - Butterworth, D.S.
 N1  - Johnston-SAWestRockLobster-2007.pdf
 T1  - {MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.
 VL  - WG/07/06/WCRL32
@@ -1369,8 +1456,8 @@ Y1  - 2007
 ID  - MARAM-CRLOBSTERSA7-1910-2008-Johnston
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Johnston, S.J.
+A1  - Butterworth, D.S.
 N1  - Johnston-SAWestRockLobster-2007.pdf
 T1  - {MARAM/OLRAC} averaged Final area-disaggregated Assessment results for west coast rock lobster.
 VL  - WG/07/06/WCRL32
@@ -1387,16 +1474,16 @@ Y1  - 2007
 ID  - MARAM-CTRACSA-1950-2007-Johnston
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Rademeyer, R.A.
+A1  - Butterworth, D.S.
 N1  - SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf
 T1  - Development of a new Baseline Assessment for the South African Hake resource, Incorporating catch-at-length information
 Y1  - 2008
 ID  - MARAM-DEEPCHAKESA-1917-2008-DEDECKER
 ER  -
 TY  - RPRT
-A1  - Butterworth, D.S.
 A1  - Brandao, A.
+A1  - Butterworth, D.S.
 N1  - Branch-SA-Kingklip-2008.pdf
 T1  - Updated assessment of the {South African} kingklip resource including an initial attempt at including catch-at-length data
 VL  - MCM/2008/NOV/SWG-DEM: 75
@@ -1439,11 +1526,11 @@ Y1  - 2008
 ID  - MARAM-SSLOBSTERSASC-1973-2008-Johnston
 ER  -
 TY  - RPRT
+A1  - Dwyer, K.S.
 A1  - Healey, B.P.
 A1  - Brodie, W.B.
 A1  - Maddock Parsons, D.
 A1  - Morgan, M.J.
-A1  - Dwyer, K.S.
 N1  - NAFO-GrandBanks-AmPlaice-2007.pdf
 PB  - Northwest Atlantic Fisheries Organization
 T1  - An assessment of American plaice in NAFO Div. 3LNO
@@ -1462,9 +1549,9 @@ Y1  - 2008
 ID  - NAFO-SC-AMPL3M-1960-2007-BAUM
 ER  -
 TY  - RPRT
-A1  - Vazquez, A.
 A1  - Cervino, S.
 A1  - Fernandez, C.
+A1  - Vazquez, A.
 A1  - Saborido-Rey, F.
 N1  - NAFO-3M-COD-2008.pdf
 PB  - Northwest Atlantic Fisheries Organization
@@ -1474,9 +1561,9 @@ Y1  - 2008
 ID  - NAFO-SC-COD3M-1959-2008-BAUM
 ER  -
 TY  - RPRT
-A1  - Brattey, J.
-A1  - Morgan, M.J.
 A1  - Murphy, E.F.
+A1  - Morgan, M.J.
+A1  - Brattey, J.
 N1  - NAFO-3NO-COD-2007.pdf
 PB  - Northwest Atlantic Fisheries Organization
 T1  - An assessment of the cod stock in NAFO Divisions 3NO
@@ -1507,8 +1594,8 @@ ID  - NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE
 ER  -
 TY  - RPRT
 A1  - R‰tz, Hans-Joachim
-A1  - Siegstad, Helle
 A1  - Stransky, Christoph
+A1  - Siegstad, Helle
 CY  - Greenland
 N1  - NAFO-RED1-2005.pdf
 PB  - NAFO
@@ -1518,9 +1605,9 @@ Y1  - 2005
 ID  - NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE
 ER  -
 TY  - RPRT
+A1  - Duarte, R.
 A1  - Alpoim, R.
 A1  - Power,  D.
-A1  - Duarte, R.
 A1  - ¿vila de Melo, A. M.
 N1  - NAFO-3LN-Redfishspp-2008.pdf
 PB  - NAFO
@@ -1530,9 +1617,9 @@ Y1  - 2008
 ID  - NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM
 ER  -
 TY  - RPRT
-A1  - ¿vila de Melo, A. M.
 A1  - Alpoim, R.
 A1  - Saborido-Rey, F.
+A1  - ¿vila de Melo, A. M.
 CY  - Lisboa, Portugal
 N1  - NAFO-RED3M-2007.pdf
 PB  - NAFO
@@ -1542,10 +1629,10 @@ Y1  - 2007
 ID  - NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE
 ER  -
 TY  - RPRT
-A1  - Morgan, M.J.
 A1  - Power, D.
-A1  - Brodie, W.B.
 A1  - Parsons, D.M.
+A1  - Brodie, W.B.
+A1  - Morgan, M.J.
 CY  - St. John's, Newfoundland, Canada
 N1  - NAFO-YELL3LNO-2008.pdf
 PB  - NAFO
@@ -1595,7 +1682,7 @@ Y1  - 2006
 ID  - NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD
 ER  -
 TY  - RPRT
-A1  - Northeast Data Poor Working Group
+A1  - ,{Northeast Data Poor Working Group}
 CY  - Woods Hole, Massachusetts
 N1  - DataPoorReviewPanelReportFinal-1-20-09.pdf
 PB  - U.S. Department of Commerce, NOAA Fisheries
@@ -1615,8 +1702,8 @@ Y1  - 2007
 ID  - NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE
 ER  -
 TY  - RPRT
-A1  - Northeast Fisheries Science Center
 A1  - 
+A1  - Northeast Fisheries Science Center
 CY  - Woods Hole, Massachusetts
 N1  - butterfish-assessment-2004.pdf
 PB  - U.S. Department of Commerce, NOAA Fisheries
@@ -1677,10 +1764,11 @@ Y1  - 2008
 ID  - NEFSC-HADGB-1930-2008-BAUM
 ER  -
 TY  - RPRT
-A1  - Transboundary Resource Assessment Committee
+A1  - Anonymous
 N1  - Herring2006.pdf
 PB  - Fisheries and Oceans Canada
 T1  - Gulf of Maine-Georges Bank Herring Stock Complex
+T2  - Transboundary Resource Assessment Committee
 Y1  - 2006
 ID  - NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ
 ER  -
@@ -1755,7 +1843,7 @@ Y1  - 2008
 ID  - NEFSC-POLL5YZ-1963-2007-MAYO
 ER  -
 TY  - RPRT
-A1  - Northeast Fisheries Science Center
+A1  - Anonymous
 CY  - Woods Hole, Massachusetts
 N1  - quahog.pdf
 PB  - U.S. Department of Commerce, NOAA Fisheries
@@ -1825,8 +1913,8 @@ Y1  - 2006
 ID  - NEFSC-SDOGATLC-1962-2006-SOSEBEE
 ER  -
 TY  - RPRT
-A1  - NULL
 A1  - Northeast Fisheries Science Center
+A1  - NULL
 CY  - Woods Hole, Massachusetts
 N1  - NMFS-MATLC-Paralichthysdentatus-2008.pdf
 PB  - U.S. Department of Commerce, NOAA Fisheries
@@ -1906,13 +1994,14 @@ Y1  - 2007
 ID  - NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE
 ER  -
 TY  - RPRT
-A1  - Northeast Regional Stock Assessment Workshop 
+A1  - Anonymous
+CY  - Woods Hole, MA
 N1  - NEFSC-Weakfish-2009.pdf
 PB  - NOAA
 T1  - 48th Northeast Regional Stock Assessment Workshop (48th SAW) - Assessment Summary Report
-VL  - 10-Sep
+T2  - Northeast Regional Stock Assessment Workshop 
 Y1  - 2009
-ID  - NEFSC-WEAKFISHATLC-1980-2008-STANTON
+ID  - NEFSC-WEAKFISHATLC-1981-2008-STANTON
 ER  -
 TY  - RPRT
 A1  - Northeast Fisheries Science Center
@@ -1976,8 +2065,8 @@ ID  - NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO
 ER  -
 TY  - RPRT
 A1  - Northeast Fisheries Science Center
-CY  - Woods Hole, Massachusetts
-
+CY  - Woods Hole, MA
+N1  - crd0815.pdf
 PB  - U.S. Department of Commerce, NOAA Fisheries
 T1  - Assessment of 19 Northeast Groundfish Stocks through 2007: Report of the 3rd Groundfish Assessment Review Meeting (GARM III), 
 VL  - Northeast Fisheries Science Center Reference Document 08-15
@@ -2031,12 +2120,16 @@ N1  - CORDUEperscomm.pdf
 T1  - Personal communication
 ID  - NIWA-AUSSALMONNZ-1975-2006-JENSEN
 ER  -
-
+TY  - PCOMM
+A1  - Cordue, PatrickL.
+N1  - CORDUEperscomm.pdf
+T1  - Personal communication
 ID  - NIWA-OROUGHYNZMEC-1981-2004-JENSEN
 ER  -
 TY  - RPRT
-A1  - NA
+A1  - Anonymous
 N1  - Atl.Menhaden-ASMFC-2006.pdf
+PB  - Atlantic Menhaden Management Board
 T1  - 2006 Stock Assessment Report for Atlantic Menhaden
 Y1  - 2006
 ID  - NMFS-MENATLAN-1940-2005-STANTON
@@ -2066,16 +2159,16 @@ Y1  - 2005
 ID  - NWFSC-BGROCKPCOAST-1950-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Cheng Y.W. and Tsou T-S
 A1  - Wallace F.R.
+A1  - Cheng Y.W. and Tsou T-S
 N1  - NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf
 T1  - Status of the black rockfish resource north of Cape Falcon, Oregon to the U.S.-Canada border in 2006
 Y1  - 2008
 ID  - NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH
 ER  -
 TY  - RPRT
-A1  - 
 A1  - Sampson, D.B.
+A1  - 
 CY  - 
 N1  - NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf
 PB  - 
@@ -2085,8 +2178,8 @@ Y1  - 2007
 ID  - NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH
 ER  -
 TY  - RPRT
-A1  - MacCall, AD, Field, J, Aseltine-Neilson, D, Lynn, K
 A1  - Key, M
+A1  - MacCall, AD, Field, J, Aseltine-Neilson, D, Lynn, K
 CY  - 
 N1  - NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf
 PB  - 
@@ -2096,8 +2189,8 @@ Y1  - 2008
 ID  - NWFSC-BLUEROCKCAL-1916-2007-BRANCH
 ER  -
 TY  - RPRT
-A1  - NULL
 A1  - MacCall AD
+A1  - NULL
 CY  - NULL
 N1  - NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf
 PB  - Pacific Fisheries Management Council
@@ -2107,8 +2200,8 @@ Y1  - 2008
 ID  - NWFSC-BOCACCSPCOAST-1951-2006-BRANCH
 ER  -
 TY  - RPRT
-A1  - Field JG
 A1  - NULL
+A1  - Field JG
 CY  - NULL
 N1  - NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf
 PB  - NULL
@@ -2118,8 +2211,8 @@ Y1  - 2007
 ID  - NWFSC-CHILISPCOAST-1892-2007-BRANCH
 ER  -
 TY  - RPRT
-A1  - Dick EJ
 A1  - Ralston S, Pearson D
+A1  - Dick EJ
 CY  - 
 N1  - NWFSC-COWCODSCAL-2007-Cowcod CA.pdf
 PB  - 
@@ -2129,8 +2222,8 @@ Y1  - 2007
 ID  - NWFSC-COWCODSCAL-1900-2007-BRANCH
 ER  -
 TY  - RPRT
-A1  - Stewart, Ian J.
 A1  - NULL
+A1  - Stewart, Ian J.
 CY  - NULL
 N1  - NWFSC-CROCKPCOAST-2007-Canary.pdf
 PB  - NULL
@@ -2158,8 +2251,8 @@ Y1  - 2007
 ID  - NWFSC-ESOLEPCOAST-1876-2007-BRANCH
 ER  -
 TY  - RPRT
-A1  - MacCall Alec
 A1  - Cope, Jason
+A1  - MacCall Alec
 CY  - City, State (or country)
 N1  - KelpGreenling_2005.pdf
 T1  - Status of Kelp Greenling (Hexagrammos decagrammus) in Oregon and California Waters as Assessed in 2005 
@@ -2168,8 +2261,8 @@ Y1  - 2005
 ID  - NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Schirripa MJ
 A1  - Gertseva VV
+A1  - Schirripa MJ
 N1  - NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf
 PB  - Pacific Fisheries Management Council
 T1  - Status of the longnose skate (Raja rhina) off the continental US Pacific Coast in 2007
@@ -2185,9 +2278,9 @@ Y1  - 2005
 ID  - NWFSC-LSTHORNHPCOAST-1962-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Helser, Thomas E.
 A1  - Hamel, Owen S.
 A1  - Stewart, Ian J.
+A1  - Helser, Thomas E.
 N1  - NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf
 PB  - Pacific Fisheries Management Council
 T1  - Stock assessment of Pacific hake, {M}erluccius productus, (a.k.a. whiting) in U.S. and Canadian waters in 2008
@@ -2195,8 +2288,8 @@ Y1  - 2008
 ID  - NWFSC-PHAKEPCOAST-1966-2008-BRANCH
 ER  -
 TY  - RPRT
-A1  - Hamel OS
 A1  - 
+A1  - Hamel OS
 CY  - 
 N1  - NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf
 PB  - Pacific Fisheries Management Council
@@ -2207,30 +2300,31 @@ ID  - NWFSC-POPERCHPCOAST-1953-2007-BRANCH
 ER  -
 TY  - RPRT
 A1  - Lai, Han-Lin
-A1  - Haltuch Melissa, Punt Andre, Cope Jason
-N1  - 2004_SAFE_WCpetralesole.pdf
+A1  - Cope, Jason
+A1  - Punt, Andre
+A1  - Haltuch, Melissa
+N1  - ref2004-SAFE-WCpetralesole.pdf
 T1  - Stock Assessment of Petrale Sole: 2004 
 VL  - II
 Y1  - 2005
 ID  - NWFSC-PSOLENPCOAST-1910-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Haltuch Melissa, Punt Andre, Cope Jason
 A1  - Lai, Han-Lin
-N1  - 2004-SAFE-WCpetralesole.pdf
+A1  - Haltuch, Melissa
+A1  - Punt, Andre
+A1  - Cope, Jason
+N1  - ref2004-SAFE-WCpetralesole.pdf
 T1  - Stock Assessment of Petrale Sole: 2004 
 VL  - II
 Y1  - 2005
 ID  - NWFSC-PSOLESPCOAST-1874-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Schirripa MJ
-A1  - 
-CY  - 
+A1  - Schirripa, M.J.
 N1  - NWFSC-SABLEFPCOAST-2007-Sablefish.pdf
 PB  - Pacific Fisheries Management Council
 T1  - Status of the sablefish resource off the continental U.S. Pacific coast in 2007
-VL  - 
 Y1  - 2007
 ID  - NWFSC-SABLEFPCOAST-1900-2007-BRANCH
 ER  -
@@ -2255,8 +2349,8 @@ Y1  - 2007
 ID  - NWFSC-WROCKPCOAST-1955-2006-BRANCH
 ER  -
 TY  - RPRT
-A1  - 
 A1  - Wallace GR
+A1  - 
 CY  - 
 N1  - NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf
 PB  - Pacific Fisheries Management Council
@@ -2362,7 +2456,7 @@ VL  - New Zealand Fisheries Assessment Report 2008/4
 Y1  - 2008
 ID  - NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS
 ER  -
-TY  - NZ Fisheries Assessment Report
+TY  - RPRT
 A1  - Francis, R.I.C.C.
 CY  - Wellington, New Zealand
 N1  - FAR0804hok07.pdf
@@ -2480,6 +2574,7 @@ N1  - CORDUEperscomm.pdf
 T1  - Personal communication
 ID  - NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN
 ER  -
+TY  - RPRT
 A1  - Kim, S.W.
 A1  - Breen, Paul
 CY  - Wellington, New Zealand
@@ -2489,6 +2584,7 @@ VL  - New Zealand Fisheries Assessment Report 2007/9
 Y1  - 2007
 ID  - NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN
 ER  -
+TY  - RPRT
 A1  - Breen, Paul A.
 A1  - Smith, Adam N. H.
 CY  - Wellington, New Zealand
@@ -2497,8 +2593,9 @@ T1  - The 2007 assessment for paua (\emph{Haliotis iris}) stock PAU 5B (Stewart 
 VL  - New Zealand Fisheries Assessment Report 2008/5
 ID  - NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN
 ER  -
-A1  - Breen, Paul
+TY  - RPRT
 A1  - Kim, S.W.
+A1  - Breen, Paul
 CY  - Wellington, New Zealand
 N1  - ref07-09-FAR.pdf
 T1  - The 2006 stock assessment for paua (\emph{Haliotis iris}) stocks PAU 5A (Fiordland) and PAU 5D (Otago)
@@ -2516,8 +2613,8 @@ VL  - New Zealand Fisheries Assessment Report 2009/34
 ID  - NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN
 ER  -
 TY  - RPRT
-A1  - Wallace, Farron
 A1  - Jagielo, Thomas
+A1  - Wallace, Farron
 N1  - 2005-SAFE-WClingcod.pdf
 T1  - Assessment of Lingcod (Ophiodon elongatus) for the Pacific Fishery Management Council in 2005
 VL  - V
@@ -2525,8 +2622,8 @@ Y1  - 2005
 ID  - PFMC-LINGCODNPCOAST-1956-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Wallace, Farron
 A1  - Jagielo, Thomas
+A1  - Wallace, Farron
 N1  - 2005_SAFE_Wclingcod.pdf
 T1  - Assessment of Lingcod (Ophiodon elongatus) for the Pacific Fishery Management Council in 2005
 VL  - V
@@ -2558,12 +2655,12 @@ Y1  - 2008
 ID  - RIDEM-WINFLOUNDRI-1959-2007-COLLIE
 ER  -
 TY  - RPRT
-A1  - Brooks, Liz
+A1  - Carlson, John
 A1  - Siegfried, Katie
 A1  - Nesslage, Genny
 A1  - Ingram, Walter
 A1  - CortÈs, Enric
-A1  - Carlson, John
+A1  - Brooks, Liz
 CY  - Silver Spring, Maryland
 N1  - SmallcoastalAtl2007-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2573,12 +2670,12 @@ Y1  - 2007
 ID  - SEFSC-BHEADSHARATL-1950-2005-FAUCONNET
 ER  -
 TY  - RPRT
-A1  - CortÈs, Enric
-A1  - Carlson, John
 A1  - Brooks, Liz
+A1  - Ingram, Walter
+A1  - Cort\'{e}s, Enric
+A1  - Carlson, John
 A1  - Siegfried, Katie
 A1  - Nesslage, Genny
-A1  - Ingram, Walter
 CY  - Silver Spring, Maryland
 N1  - SmallcoastalAtl2007-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2588,12 +2685,12 @@ Y1  - 2007
 ID  - SEFSC-BNOSESHARATL-1950-2005-FAUCONNET
 ER  -
 TY  - RPRT
-A1  - Musick, Jack
 A1  - Romine, Jason
-A1  - Kohler, Nancy
-A1  - Hueter, Robert
-A1  - Castro, Jose
 A1  - Carlson, John
+A1  - Castro, Jose
+A1  - Hueter, Robert
+A1  - Kohler, Nancy
+A1  - Musick, Jack
 CY  - Silver Spring, Maryland
 N1  - LargeCoastalAtl2006-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2603,12 +2700,12 @@ Y1  - 2006
 ID  - SEFSC-BTIPSHARATL-1981-2004-FAUCONNET
 ER  -
 TY  - RPRT
-A1  - Carlson, John
+A1  - Kohler, Nancy
 A1  - Romine, Jason
 A1  - Musick, Jack
-A1  - Kohler, Nancy
 A1  - Hueter, Robert
 A1  - Castro, Jose
+A1  - Carlson, John
 CY  - Silver Spring, Maryland
 N1  - LargeCoastalAtl2006-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2618,12 +2715,12 @@ Y1  - 2006
 ID  - SEFSC-BTIPSHARGM-1981-2004-FAUCONNET
 ER  -
 TY  - RPRT
-A1  - Carlson, John
-A1  - Siegfried, Katie
 A1  - Brooks, Liz
 A1  - Nesslage, Genny
-A1  - CortÈs, Enric
 A1  - Ingram, Walter
+A1  - Cort\'{e}s, Enric
+A1  - Carlson, John
+A1  - Siegfried, Katie
 CY  - Silver Spring, Maryland
 N1  - SmallcoastalAtl2007-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2677,15 +2774,12 @@ Y1  - 2008
 ID  - SEFSC-GRAMBERSATLC-1946-2006-JENSEN
 ER  -
 TY  - RPRT
-A1  - NULL
-A1  - NULL
-A1  - NULL
-A1  - NULL
-CY  - NULL
+A1  - Anonymous
+CY  - Charleston, SC
 N1  - JENSEN_GTRIGGM_2006.pdf
-PB  - NULL
-T1  - NULL
-VL  - NULL
+PB  - Southeast Data, Assessment, and Review (SEDAR)
+T1  - Gulf of Mexico Gray Triggerfish
+VL  - SEDAR 9 Assessment Report 1
 Y1  - 2006
 ID  - SEFSC-GTRIGGM-1981-2004-JENSEN
 ER  -
@@ -2707,12 +2801,13 @@ N1  - JENSEN_KMACKGMSATLC_2004.pdf
 Y1  - 2004
 ID  - SEFSC-KMACKSATLC-1981-2001-JENSEN
 ER  -
+TY  - JOUR
+A1  - Smith, Joseph
 A1  - Shertzer, Kyle
 A1  - Vaughan, Douglas
-A1  - Smith, Joseph
 N1  - GILROY-MENHADENGM-2007.pdf
 PB  - Fisheries Research
-T1  - Gulf menhaden (Brevoortia patronus) in the U.S. Gulf of Mexico: Fishery characteristics and biological reference points for management 
+T1  - Gulf menhaden (\emph{Brevoortia patronus}) in the U.S. Gulf of Mexico: Fishery characteristics and biological reference points for management 
 Y1  - 2007
 ID  - SEFSC-MENATGM-1964-2004-GILROY
 ER  -
@@ -2722,15 +2817,11 @@ Y1  - 2008
 ID  - SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN
 ER  -
 TY  - RPRT
-A1  - NULL
-A1  - NULL
-A1  - NULL
-A1  - NULL
-CY  - NULL
-N1  - JENSEN_RGROUPGM-2006.pdf
-PB  - NULL
-T1  - NULL
-VL  - NULL
+A1  - Anonymous
+CY  - Charleston, SC
+N1  - JENSEN-RGROUPGM-2006.pdf
+PB  - Southeast Data, Assessment and Review
+T1  - Gulf of Mexico Red Grouper SEDAR 12 - Stock Assessment Report 1
 Y1  - 2006
 ID  - SEFSC-RGROUPGM-1986-2005-JENSEN
 ER  -
@@ -2767,12 +2858,12 @@ Y1  - 2005
 ID  - SEFSC-RSNAPWGM-1880-2003-STANTON
 ER  -
 TY  - RPRT
-A1  - Romine, Jason
 A1  - Musick, Jack
-A1  - Kohler, Nancy
-A1  - Hueter, Robert
-A1  - Castro, Jose
 A1  - Carlson, John
+A1  - Castro, Jose
+A1  - Hueter, Robert
+A1  - Romine, Jason
+A1  - Kohler, Nancy
 CY  - Silver Spring, Maryland
 N1  - LargeCoastalAtl2006-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2782,12 +2873,12 @@ Y1  - 2006
 ID  - SEFSC-SBARSHARATL-1975-2004-FAUCONNET
 ER  -
 TY  - RPRT
+A1  - Ingram, Walter
 A1  - Siegfried, Katie
 A1  - Nesslage, Genny
-A1  - Brooks, Liz
-A1  - Carlson, John
 A1  - CortÈs, Enric
-A1  - Ingram, Walter
+A1  - Carlson, John
+A1  - Brooks, Liz
 CY  - Silver Spring, Maryland
 N1  - SmallcoastalAtl2007-SEFSC.pdf
 PB  - NOAA/NMFS
@@ -2796,10 +2887,13 @@ VL  - SEDAR 13
 Y1  - 2007
 ID  - SEFSC-SNOSESHARATL-1950-2005-FAUCONNET
 ER  -
-TY  - RPRT
-A1  - SEDAR 4 Stock Assessment Panel
-N1  - 2004-SEDAR-deepwatersnappergrouper.pdf
-T1  - Section III. A. Assesssment of Snowy Grouper (Epinephelus niveatus) in the South Atlantic Fisheries Management Council Management Area
+TY  - CHAP
+A1  - Anonymous
+BT  - Stock¬†Assessment¬†Report¬†1 - Atlantic¬†Deepwater¬†Snapper‚ÄêGrouper¬†Complex
+CY  - Charleston, SC
+N1  - ref2004-SEDAR-deepwatersnappergrouper.pdf
+PB  - SEDAR 4 Stock Assessment Panel
+T1  - Section III. A. Assesssment of Snowy Grouper (\emph{Epinephelus niveatus}) in the South Atlantic Fisheries Management Council Management Area
 Y1  - 2004
 ID  - SEFSC-SNOWGROUPSATLC-1961-2002-STANTON
 ER  -
@@ -2837,16 +2931,16 @@ Y1  - 2008
 ID  - SEFSC-VSNAPSATLC-1946-2008-STANTON
 ER  -
 TY  - RPRT
-A1  - Murphy, M; De Silva J; Barbieri, L
 A1  - Muller, R
+A1  - Murphy, M; De Silva J; Barbieri, L
 N1  - 2003_SEDAR_Yellowtailsnapper.pdf
 T1  - A stock assessment of yellowtail snapper, Ocyurus chrysurus, in the Southeast United States 
 Y1  - 2003
 ID  - SEFSC-YTSNAPSATLCGM-1962-2001-STANTON
 ER  -
 TY  - JOUR
-A1  - Janusz, J.
 A1  - Horbowy, J.
+A1  - Janusz, J.
 N1  - WPOLLNSO-1997-JENSEN.pdf
 JO  - Fisheries Research
 T1  - The state of the walleye pollock in the northern part of the Okhotsk Sea, North Pacific
@@ -2855,8 +2949,8 @@ Y1  - 1997
 ID  - SFI-WPOLLNSO-1985-1994-JENSEN
 ER  -
 TY  - RPRT
-A1  - Hampton, John
 A1  - Hoyle, Simon
+A1  - Hampton, John
 A1  - Langley, Adam
 N1  - JENSEN_ALBWPO_2008.pdf
 T1  - Stock assessment of albacore tuna in the {South Pacific Ocean}
@@ -2865,10 +2959,10 @@ Y1  - 2008
 ID  - SPC-ALBASPAC-1959-2006-JENSEN
 ER  -
 TY  - RPRT
+A1  - Kleiber, Pierre
+A1  - Hoyle, Simon
 A1  - Hampton, John
 A1  - Langley, Adam
-A1  - Hoyle, Simon
-A1  - Kleiber, Pierre
 N1  - SC4-SA-WP1-rev1-bigeye-tuna.pdf
 T1  - Stock assessment of bigeye tuna in the {Western and Central Pacific Ocean}, including an analysis of management options
 VL  - WCPFC-SC4-2008/SA-WP-1
@@ -2884,10 +2978,10 @@ Y1  - 2008
 ID  - SPC-SKJCWPAC-1972-2006-JENSEN
 ER  -
 TY  - RPRT
-A1  - Hoyle, Simon
+A1  - Langley, Adam
 A1  - Kleibert, Pierre
 A1  - Hampton, John
-A1  - Langley, Adam
+A1  - Hoyle, Simon
 N1  - WCPFC-SC3-SA-SWG-WP-01.pdf
 T1  - Stock assessment of yellowfin tuna in the western and central Pacific Ocean, including an analysis of management options
 Y1  - 2007
@@ -2903,8 +2997,8 @@ Y1  - 2005
 ID  - SWFSC-CALSCORPSCAL-1990-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - McDaniel,Jennifer D.
 A1  - Lo,Nancy C. H.
+A1  - McDaniel,Jennifer D.
 A1  - Hill,Kevin T.
 A1  - Dorval,Emmanis
 CY  - Portland, OR
@@ -2933,10 +3027,10 @@ Y1  - 2005
 ID  - SWFSC-GOPHERSPCOAST-1965-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Lo, Nancy C.H.
+A1  - Macewicz, Beverly J.
 A1  - Felix-Uraga, Roberto
 A1  - Show, Christina
-A1  - Macewicz, Beverly J.
+A1  - Lo, Nancy C.H.
 A1  - Dorval, Emmanis
 A1  - Hill, Kevin T.
 CY  - La Jolla, CA
@@ -2948,8 +3042,8 @@ Y1  - 2007
 ID  - SWFSC-SARDPCOAST-1981-2007-PINSKY
 ER  -
 TY  - RPRT
-A1  - Field JC
 A1  - Dick EJ, MacCall AD
+A1  - Field JC
 CY  - Santa Cruz, CA
 N1  - SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfish.pdf
 PB  - Southwest Fisheries Science Center
@@ -2975,9 +3069,9 @@ Y1  - 2005
 ID  - SWFSC-STFLOUNSPCOAST-1970-2005-STANTON
 ER  -
 TY  - RPRT
-A1  - Malcolm Haddon
-A1  - Phillippe Ziegler
 A1  - Caleb Gardner
+A1  - Phillippe Ziegler
+A1  - Malcolm Haddon
 N1  - JENSEN_TASGIANTCRAB_2008.pdf
 T1  - Tasmanian giant crab fishery - 2006/07
 Y1  - 2008

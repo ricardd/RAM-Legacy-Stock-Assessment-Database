@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2010-07-16 13:14:21 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-07-27 14:23:51 (srdbadmin)>
 %%\documentclass[letterpaper,12pt]{article}
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 %%\documentclass[preprint,authoryear,12pt]{elsarticle}
@@ -51,8 +51,8 @@
 %% \address{Address\fnref{label3}}
 %% \fntext[label3]{}
 
-\title{Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments
-\\ \vspace{0.5cm} \small Alternative Title 1: A new global stock assessment database for exploited marine species
+\title{RAM Legacy: a new global stock assessment database for exploited marine species
+\\ \vspace{0.5cm} \small Alternative Title 1: Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments
 \\ \vspace{0.5cm} Alternative Title 2: Understanding marine population dynamics using a new global database 
 \\ \vspace{0.5cm} \normalsize Suggested Running Title: A new global stock assessment database \vspace{1.5cm}}
 
@@ -119,19 +119,19 @@ of collapsed fisheries, it is imperative that we are able to quickly
 learn from successful and failed fisheries from around the world.
 
 Effective management of exploited fish populations generally requires
-an understanding of where the current size and harvest rate
-lie in relation to the size and rate which maximize
-fishery benefits or limit the risk of overfishing. This process of
-quantitative determination of stock status and estimation of reference
-points is called stock assessment. Some fisheries in developing
-countries have apparently provided sustainable yields for long periods
-of time without formal stock assessment (e.g. many community-managed
-fisheries in Oceania; \cite{Dalzell:1998:coastmgmt}). This has been achieved by
-limiting harvest rates, often through gear restrictions or seasonal and
-area closures. In modern industrialized fisheries, however, where fishing
-capacity often exceeds the productivity of fished stocks, stock
-assessment is an integral component of responsible
-management \citep{Hilborn:Walters:1992}.
+an understanding of where the current size and harvest rate lie in
+relation to the size and rate which maximize fishery benefits or limit
+the risk of overfishing. This process of quantitative determination of
+stock status and estimation of reference points is called stock
+assessment. Some fisheries in developing countries have apparently
+provided sustainable yields for long periods of time without formal
+stock assessment (e.g. many community-managed fisheries in Oceania;
+\cite{Dalzell:1998:coastmgmt}). This sustainability has been achieved
+by limiting harvest rates, often through gear restrictions or seasonal
+and area closures. In modern industrialized fisheries, however, where
+fishing capacity often exceeds the productivity of fished stocks,
+stock assessment is an integral component of responsible management
+\citep{Hilborn:Walters:1992}.
 
 The global databases of fishery landings compiled by
 \cite{FAO:fishstat} and extended by the Sea Around Us project
@@ -402,13 +402,13 @@ and ``Subantarctic high seas''.
 
 \subsection*{Assessing the knowledge-base for commercially exploited stocks}
 We assess the knowledge-base for commercially exploited stocks, as
-represented by the RAM Legacy database, using a variety of metrics. To
+represented by the RAM Legacy database, with a variety of metrics. To
 evaluate the taxonomic scope of the database, we compare the taxonomy
 of assessed stocks with the diversity of i) all marine fishes (as
 represented by FishBase), and ii) marine fishes in global fisheries
 catches (as represented by the species available from the SAUP
 database), and discuss taxonomic biases in species included in catch
-data and in populations assessed using stock assessments. We overview
+data and in populations assessed with stock assessments. We overview
 the types of assessment models used, and BRPs estimated, for all stock
 assessments and by management body. To determine what fraction of
 world wild-capture fisheries landings come from assessed stocks, we
@@ -437,12 +437,15 @@ stocks are referenced to a comparable benchmark.  Following
 compare the current biomass and exploitation rate of stocks relative
 to their MSY reference points, $B_{MSY}$ and $U_{MSY}$, respectively. 
 
-We do not advocate the use of MSY targets for management, but still
-report MSY-related BRPs because they are the most commonly estimated
-BRP and can be used to compare multiple stocks.  For those assessments
-that did not contain MSY reference points, but did include total catch
-($TC_{i,s}$, $i \in {1,\ldots,n_{s}}$) and total biomass ($TB_{i,s}$,
-$i \in {1,\ldots,n_{s}}$) time series data, we used a Schaefer surplus
+
+%We do not advocate the use of MSY targets for management, but still report MSY-related BRPs because
+
+We recognized that MSY-related BRPS are not used by all management
+agencies but they are the most commonly estimated BRP and can be used
+to compare multiple stocks.  For those assessments that did not
+contain MSY reference points, but did include total catch ($TC_{i,s}$,
+$i \in {1,\ldots,n_{s}}$) and total biomass ($TB_{i,s}$, $i \in
+{1,\ldots,n_{s}}$) time series data, we used a Schaefer surplus
 production model to estimate total biomass and exploitation rate at
 MSY ($TB_{MSY_{s}}$ and $u_{MSY}$, respectively). Surplus production
 of stock $s$ in year $t$, $P_{s,t}$, is a commonly used measure of
@@ -523,7 +526,7 @@ Environment for Statistics and Graphics \citep{R} using the packages
 \emph{RODBC} for database connectivity \citep{R:RODBC},
 \emph{KernSmooth} for computing density kernels \citep{R:KernSmooth}
 and \emph{ape} to produce taxonomic dendrograms \citep{R:ape}.
-Figure~\ref{fig:lmes} was generated using the Generic Mapping Tools
+Figure~\ref{fig:lmes} was generated with the Generic Mapping Tools
 \citep{gmt}.
 
 %% , beanplot \citep{R:beanplot} gregmisc \citep{R:gregmisc},
@@ -708,7 +711,7 @@ an exploited setting.
 
 \subsubsection*{Caveats and limitations}
 
-Stock assessment outputs (e.g. biomass time series), which comprise
+Stock assessment outputs (e.g. biomass time series), which constitute
 the majority of the new RAM Legacy database are model estimates, not
 raw data. The uncertainty associated with these estimates should be
 carried forth in subsequent analyses. Although the database structure
@@ -717,12 +720,12 @@ allows for inclusion of estimates of uncertainty (standard errors,
 series data were typically missing from assessments and hence were not
 included in the database. As with any analysis, clearer inference on
 the strength of a signal is available when all uncertainty in the data
-is carried forth. 
+is carried forth.
 
-%This represents a difficulty for synthetic analyses
+%The treatment of uncertainty is a difficulty for synthetic analyses
 %of fisheries data in that in an ideal world one would access the raw
 %data for each stock and carry forth the uncertainty at all levels of
-%the analysis. In the case of assessments, the raw data is typically
+%the analysis. In the case of assessments, the raw data are typically
 %catch-at-age matrices and potentially survey indices. To understand
 %the fleet characteristics and survey stratification schema for each
 %stock in a potentially global meta-analysis would be extremely time
@@ -739,16 +742,17 @@ is carried forth.
 %resources. 
 
 BRPs derived from surplus production models are to be interpreted with
-great care. For stocks where both were available we found that
-estimates from surplus production models were systematically higher
-than those obtained from assessments. This stems from the fact that in
-the Schaefer surplus production model, MSY occurs at 50\% of the
-carrying capacity whereas in most age-based assessment models, yield
-is maximised at a lower fraction of the carrying capacity. The more
-flexible Pella-Tomlinson surplus production model allows for an
-asymmetric production function where MSY can occur at a wider range of
-relative biomass. Pella-Tomlinson models provided a better fit to data
-from individual stocks, which is to be expected given their greater
+great care. For stocks with both assesment-derived and
+Schaefer-derived BRPs, we found that estimates from surplus production
+models were systematically higher than those obtained from
+assessments. This discrepancy stems from the fact that in the Schaefer
+surplus production model, MSY occurs at 50\% of the carrying capacity
+whereas in most age-based assessment models, yield is maximised at a
+lower fraction of the carrying capacity. The more flexible
+Pella-Tomlinson surplus production model allows for an asymmetric
+production function where MSY can occur at a wider range of relative
+biomass.  Pella-Tomlinson models provided a better fit to data from
+individual stocks, which is to be expected given their greater
 flexibility and the inclusion of an additional parameter, however they
 performed no better in cross-validation than did the Schaefer model.
 
@@ -764,11 +768,11 @@ performed no better in cross-validation than did the Schaefer model.
 
 The original database developed by Ransom A. Myers was used to address
 a variety of ecological questions derived from stock-recruit
-relationships. This was possible because the VPA-type assessment
-models that comprised most of that database generated time series of
-stock and recruitment with relatively few a priori assumptions.
-Forward projection methods generally specify the form of the
-stock-recruit relationship, and in many cases even fix parameters
+relationships. This synthesis was possible because the VPA-type
+assessment models that constituted most of that database generated time
+series of stock and recruitment with relatively few a priori
+assumptions.  Forward projection methods generally specify the form of
+the stock-recruit relationship, and in many cases even fix parameters
 (infinitely dense point prior) such as steepness.  Stock-recruitment
 ``data'' from such models, are clearly inappropriate for
 straightforward meta-analysis. In general, as more assessments
@@ -800,7 +804,7 @@ do not incorporate prior information from other stocks or species.
 
 New stocks will continue to be added to the RAM Legacy database,
 particularly freshwater and anadramous populations (the
-\emph{Salmonidae} comprised 45\% of the stocks in the original Myers
+\emph{Salmonidae} constituted 45\% of the stocks in the original Myers
 Stock Recruitment Database), and updated assessments for already
 included stocks. Future versions of the database will also include
 timelines of management actions per stock, as well as age-varying and
@@ -882,9 +886,9 @@ management'' greatly improved an earlier version of this manuscript.
 \begin{longtable}{p{1.3cm} | p{1.3cm} | p{5.2cm} | l | p{2cm} | p{2cm}}
   \multicolumn{2}{c}{Continued on next page} \endfoot \endlastfoot
 \textit{Stock Rank} & \textit{Individual species rank} & \textit{Species (Common name, Latin name) or higher taxonomic unit} & \textit{LME} & \textit{In Database?} & \textit{Reason if not included} \\ \midrule \endhead
-\caption{The world's forty largest wild-caught fisheries (comprising less than 41\% of total global catches, based on average catches 1995-2004 in SAUP database), and the thirty largest fisheries of individual stocks (i.e. fisheries identified to the species level; comprising more than 32\% of total global catches), including their LME, whether or not stock assessments for them are included in the RAM Legacy database, and the reason if not included (e.g. 1= no known assessment, 2=assessment is not based on a population dynamics model, 3=assessment inaccessible).}\\ 
+\caption{The world's forty largest wild-caught fisheries (constituting less than 41\% of total global catches, based on average catches 1995-2004 in SAUP database), and the thirty largest fisheries of individual stocks (i.e. fisheries identified to the species level; constituting more than 32\% of total global catches), including their LME, whether or not stock assessments for them are included in the RAM Legacy database, and the reason if not included (e.g. 1= no known assessment, 2=assessment is not based on a population dynamics model, 3=assessment inaccessible).}\\ 
 \textit{Stock Rank} & \textit{Stock Number} & \textit{Species (Common name, Latin name) or higher taxonomic unit} & \textit{LME} & \textit{In Database?} & \textit{Reason if not included} \\ \midrule \endfirsthead
-1 & 1& Peruvian anchoveta, \textit{Engraulis ringens} & Humboldt Current & x & 3\\
+1 & 1& Peruvian anchoveta, \textit{Engraulis ringens} & Humboldt Current & $\checkmark$ & \\
 2 & & Marine fishes not identified & South China Sea & x & 1\\
 3 & & Marine fishes not identified & Bay of Bengal & x & 1\\ %\hline
 4 & 2& Alaska pollock, \textit{Theragra chalcogramma} & Okhotsk Sea & $\checkmark$ & \\ %\hline

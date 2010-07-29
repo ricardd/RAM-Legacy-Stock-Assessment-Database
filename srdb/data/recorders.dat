@@ -39,3 +39,4 @@ firstname VARCHAR(50),lastname VARCHAR(50),email VARCHAR(50),institution VARCHAR
 "Toni","Chute","","","","","NEFSC scientist, submitted on RAMlegacy","CHUTE"
 "Eva","Plaganyi","","","","","assesments from this recorder were submitted by Trevor Branch","PLAGANYI"
 "Jacobson","Larry","","","","","NEFSC scientist, submitted on RAMlegacy","JACOBSON"
+"Daniel","Ricard","ricardd@mathstat.dal.ca","Dalhousie University","1355 Oxford St. Halifax NS B3H 4J1 Canada","Intl. +1 902-494-2146","","RICARD"

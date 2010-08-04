@@ -141,12 +141,12 @@ $cached_env_img{$key} = q|<IMG
  SRC="|."$dir".q|img19.png"
  ALT="$m$">|; 
 
-$key = q/{landscape}%latex2htmlidmarker518longtable{{p{1.3cm}|p{1.3cm}|p{5.2cm}|l|p{2cm}|xtit{Sardinellaaurita}&CanaryCurrent&x&?longtable{{landscape};MSF=1.6;LFS=12;AAT/;
+$key = q/{landscape}%latex2htmlidmarker521longtable{{p{1.3cm}|p{1.3cm}|p{5.2cm}|l|p{2cm}|xtit{Sardinellaaurita}&CanaryCurrent&x&?longtable{{landscape};MSF=1.6;LFS=12;AAT/;
 $cached_env_img{$key} = q|<IMG
- WIDTH="861" HEIGHT="2832" ALIGN="BOTTOM" BORDER="0"
+ WIDTH="863" HEIGHT="2832" ALIGN="BOTTOM" BORDER="0"
  SRC="|."$dir".q|img32.png"
  ALT="\begin{landscape}
-% latex2html id marker 518\begin{longtable}{p{1.3cm} \vert p...
+% latex2html id marker 521\begin{longtable}{p{1.3cm} \vert p...
 ...t{Sardinella aurita} &amp; Canary Current &amp; x &amp; ? \\\\
 \end{longtable}\end{landscape}">|; 
 

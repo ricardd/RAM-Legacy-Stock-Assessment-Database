@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  3 AUG 2010 15:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  4 AUG 2010 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,34 +202,54 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(/usr/share/texmf-texlive/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language4
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/share/texmf-texlive/tex/latex/microtype/microtype.sty
+Package: microtype 2009/03/27 v2.3d Micro-typography with pdfTeX (RS)
+\MT@toks=\toks21
+\MT@count=\count107
+LaTeX Info: Redefining \lsstyle on input line 1608.
+LaTeX Info: Redefining \lslig on input line 1608.
+\MT@outer@space=\skip55
+LaTeX Info: Redefining \textls on input line 1616.
+\MT@outer@kern=\dimen127
+LaTeX Info: Redefining \textmicrotypecontext on input line 2167.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texmf-texlive/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2009/03/27 v2.3d microtype main configuration file (RS)
+))
 (./fishandfisheries-SUBMISSION-August-2010.aux (./temptable.aux) (./Figures.aux
 ))
 \openout1 = `fishandfisheries-SUBMISSION-August-2010.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen127
+\scratchcounter=\count108
+\scratchdimen=\dimen128
 \scratchbox=\box34
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen128
-\MPnumerator=\count111
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen129
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks23
 )
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -272,253 +292,353 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
+LaTeX Info: Redefining \microtypecontext on input line 33.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
+ (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abstract-dynamic.tex) [
-2] [3]
-Overfull \hbox (2.842pt too wide) in paragraph at lines 170--182
-\OT1/cmr/m/n/12 recruitment re-la-tion-ships, and CPUE com-ing from dif-fer-ent
- fish-eries and/or from fishery-
+2]
+Overfull \hbox (4.81905pt too wide) in paragraph at lines 135--149
+[]\OT1/cmr/m/n/12 (-20) Effective man-age-ment of ex-ploited fish pop-u-la-tion
+s gen-er-ally re-quires an un-der-stand-ing
+ []
+
+[3]
+Overfull \hbox (6.07872pt too wide) in paragraph at lines 187--215
+[]\OT1/cmr/m/n/12 (-20) The first global database of stock as-sess-ment in-for-
+ma-tion, the My-ers Stock Re-cruit-ment
  []
 
 [4]
-Overfull \hbox (0.78915pt too wide) in paragraph at lines 230--248
-\OT1/cmr/m/n/12 sess-ment database con-tain-ing bi-o-log-i-cal ref-er-ence poin
-ts (BRPs, e.g., the to-tal/spawning
+Overfull \hbox (10.24626pt too wide) in paragraph at lines 222--233
+\OT1/cmr/m/n/12 (-20) pop-u-la-tion dy-nam-ics pa-ram-e-ters such as the be-hav
+iour of the stock-recruitment re-la-tion-ship
+ []
+
+
+Overfull \hbox (9.05432pt too wide) in paragraph at lines 222--233
+\OT1/cmr/m/n/12 (-20) method-olo-gies (in-clud-ing im-por-tant ad-vances in sta
+-tis-ti-cal catch-at-age and catch-at-length
+ []
+
+
+Overfull \hbox (3.64131pt too wide) in paragraph at lines 234--252
+\OT1/cmr/m/n/12 (-20) as-sess-ment database con-tain-ing bi-o-log-i-cal ref-er-
+ence points (BRPs, e.g., the to-tal/spawning
  []
 
 [5]
-Overfull \hbox (1.06702pt too wide) in paragraph at lines 262--273
-[]\OT1/cmr/m/n/12 We use the new RAM Legacy database (Ver-sion 1.0, 2010) to ev
-al-u-ate the knowledge-
+Overfull \hbox (11.56206pt too wide) in paragraph at lines 262--263
+[]\OT1/cmr/m/n/12 (-20) Include bi-o-log-i-cal ref-er-ence points, in ad-di-tio
+n to stock-specific life his-tory in-for-ma-tion. 
  []
 
-[6] [7] [8] [9] [10] [11] (./results-dynamic.tex [12] [13] [14] [15] [16])
+
+Overfull \hbox (17.90378pt too wide) in paragraph at lines 266--277
+[]\OT1/cmr/m/n/12 (-20) We use the new RAM Legacy database (Ver-sion 1.0, 2010)
+ to eval-u-ate the knowledge-base
+ []
+
+[6] [7]
+Overfull \hbox (3.907pt too wide) in paragraph at lines 342--365
+\OT1/cmr/m/n/12 (-20) in-clud-ing web-clients and GIS soft-ware, and have a num
+-ber of ad-van-tages over spread-sheet
+ []
+
+[8] [9]
+Overfull \hbox (11.55524pt too wide) in paragraph at lines 419--426
+\OT1/cmr/m/n/12 (-20) ecosys-tem. To pro-vide in-sight into the scope of the da
+tabase we as-sessed the knowledge-base
+ []
+
+[10] [11] (./results-dynamic.tex [12] [13] [14] [15]
+Overfull \hbox (10.58415pt too wide) in paragraph at lines 228--251
+[]\OT1/cmr/m/n/12 (-20) The sta-tus of ex-ploited ma-rine stocks, as es-ti-mate
+d from biomass- and exploitaion-BRPs,
+ []
+
+[16])
+Overfull \hbox (5.14923pt too wide) in paragraph at lines 563--582
+\OT1/cmr/m/n/12 (-20) Ac-ces-si-ble stock as-sess-ments are pre-dom-i-nantly fr
+om de-vel-oped na-tions in north-temperate
+ []
+
 [17] [18] [19] [20] [21] [22] [23]
-(./fishandfisheries-SUBMISSION-August-2010.bbl [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
-[]\OT1/cmr/m/n/12 New Zealand Min-istry of Fish-eries (2009).  Stock Sta-tus
+(./fishandfisheries-SUBMISSION-August-2010.bbl
+Underfull \hbox (badness 1270) in paragraph at lines 63--66
+[]\OT1/cmr/m/n/12 (+20) European En-vi-ron-ment Agency (2009).  SI-032 Sta-tus 
+of ma-rine fish stocks.
+ []
+
+[24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 289--291
+[]\OT1/cmr/m/n/12 (+20) New Zealand Min-istry of Fish-eries (2009).  Stock Sta-
+tus
  []
 
 [27]
-Underfull \hbox (badness 3219) in paragraph at lines 335--337
-[]\OT1/cmr/m/n/12 PostgreSQL Global De-vel-op-ment Group (2010).  Post-greSQL, 
-ver-sion 8.4.4.
+Underfull \hbox (badness 2213) in paragraph at lines 333--335
+[]\OT1/cmr/m/n/12 (+20) PostgreSQL Global De-vel-op-ment Group (2010).  Post-gr
+eSQL, ver-sion 8.4.4.
  []
 
 [28]) [29]
 \openout2 = `temptable.aux'.
 
  (./temptable.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]\OT1/cmr/m/n/12 South African na-tional
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]\OT1/cmr/m/n/12 (+20) Australian Fish-eries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]\OT1/cmr/m/n/12 Department of Fish-eries
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/12 (+20) Commission for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/12 (+20) South African na-tional
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\OT1/cmr/m/n/12 Inter-American Trop-i-cal
+[]\OT1/cmr/m/n/12 (+20) Inter-American Trop-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]\OT1/cmr/m/n/12 International Com-mis-sion
+Underfull \hbox (badness 4024) in paragraph at lines 15--15
+[]\OT1/cmr/m/n/12 (+20) International Com-mis-sion
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 15--15
-\OT1/cmr/m/n/12 for the Con-ser-va-tion of
+Underfull \hbox (badness 4505) in paragraph at lines 15--15
+\OT1/cmr/m/n/12 (+20) for the Con-ser-va-tion of
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 16--16
-[]\OT1/cmr/m/n/12 International Coun-cil for
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\OT1/cmr/m/n/12 (+20) Indian Ocean Tuna
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 19--19
-[]\OT1/cmr/m/n/12 International Pa-cific Hal-
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\OT1/cmr/m/n/12 (+20) International Pa-cific
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 21--21
-[]\OT1/cmr/m/n/12 Northwest At-lantic Fish-
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/12 (+20) Northwest At-lantic
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 22--22
-[]\OT1/cmr/m/n/12 National Ma-rine Fish-eries
+Underfull \hbox (badness 1019) in paragraph at lines 23--23
+[]\OT1/cmr/m/n/12 (+20) Russian Fed-eral Fish-eries
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 23--23
-[]\OT1/cmr/m/n/12 Russian Fed-eral Fish-eries
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/12 (+20) South Pa-cific Re-gional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\OT1/cmr/m/n/12 Unknown man-age-ment
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 (+20) Fish-eries Man-age-ment
  []
 
 
-LaTeX Warning: Float too large for page by 241.54756pt on input line 31.
+LaTeX Warning: Float too large for page by 219.79756pt on input line 31.
 
 ) [30]
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-[]|\OT1/cmr/m/it/12 Stock
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[]|\OT1/cmr/m/it/12 (+20) Stock
  []
 
 
-Overfull \hbox (14.03404pt too wide) in paragraph at lines 905--905
-[]|\OT1/cmr/m/it/12 Individual
+Overfull \hbox (13.0136pt too wide) in paragraph at lines 910--910
+[]|\OT1/cmr/m/it/12 (-20) Individual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-\OT1/cmr/m/it/12 species
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+\OT1/cmr/m/it/12 (+20) species
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-[]|\OT1/cmr/m/it/12 Species (Com-mon name,
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[]|\OT1/cmr/m/it/12 (+20) Species (Com-mon name,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-\OT1/cmr/m/it/12 Latin name) or higher
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+\OT1/cmr/m/it/12 (+20) Latin name) or higher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-[]|\OT1/cmr/m/it/12 In
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[]|\OT1/cmr/m/it/12 (+20) In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-[]|\OT1/cmr/m/it/12 Reason
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[]|\OT1/cmr/m/it/12 (+20) Reason
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 905--905
-\OT1/cmr/m/it/12 if not
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+\OT1/cmr/m/it/12 (+20) if not
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-[]|\OT1/cmr/m/it/12 Stock
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]|\OT1/cmr/m/it/12 (+20) Stock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-[]|\OT1/cmr/m/it/12 Stock
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]|\OT1/cmr/m/it/12 (+20) Stock
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-\OT1/cmr/m/it/12 Num-
+Overfull \hbox (3.43617pt too wide) in paragraph at lines 912--912
+\OT1/cmr/m/it/12 (-20) Num-ber| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-[]|\OT1/cmr/m/it/12 Species (Com-mon name,
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]|\OT1/cmr/m/it/12 (+20) Species (Com-mon name,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-\OT1/cmr/m/it/12 Latin name) or higher
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+\OT1/cmr/m/it/12 (+20) Latin name) or higher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-[]|\OT1/cmr/m/it/12 In
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]|\OT1/cmr/m/it/12 (+20) In
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-[]|\OT1/cmr/m/it/12 Reason
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]|\OT1/cmr/m/it/12 (+20) Reason
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
-\OT1/cmr/m/it/12 if not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--908
-[]|\OT1/cmr/m/n/12 Peruvian an-choveta, \OT1/cmr/m/it/12 En-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 911--911
-[]|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+\OT1/cmr/m/it/12 (+20) if not
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 913--913
-[]|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
+[]|\OT1/cmr/m/n/12 (+20) Peruvian an-choveta,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 914--914
-[]|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
+Underfull \hbox (badness 5189) in paragraph at lines 916--916
+[]|\OT1/cmr/m/n/12 (+20) Alaska pol-lock, \OT1/cmr/m/it/12 (+20) Ther-a-gra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--918
+[]|\OT1/cmr/m/n/12 (+20) Atlantic her-ring, \OT1/cmr/m/it/12 (+20) Clu-pea
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 919--919
+[]|\OT1/cmr/m/n/12 (+20) Alaska pol-lock, \OT1/cmr/m/it/12 (+20) Ther-a-gra
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 923--923
-[]|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
+[]|\OT1/cmr/m/n/12 (+20) Inca scad, \OT1/cmr/m/it/12 (+20) Tra-chu-rus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
-[]|\OT1/cmr/m/n/12 Argentinean short-finned
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 927--927
-[]|\OT1/cmr/m/n/12 Araucanian her-ring, \OT1/cmr/m/it/12 Stran-
+Underfull \hbox (badness 5189) in paragraph at lines 928--928
+[]|\OT1/cmr/m/n/12 (+20) Alaska pol-lock, \OT1/cmr/m/it/12 (+20) Ther-a-gra
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 929--929
-[]|\OT1/cmr/m/n/12 European sprat, \OT1/cmr/m/it/12 Sprat-tus
+[]|\OT1/cmr/m/n/12 (+20) Argentinean short-finned
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--930
-[]|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
+Underfull \hbox (badness 10000) in paragraph at lines 932--932
+[]|\OT1/cmr/m/n/12 (+20) Araucanian her-ring,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
-[]|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
+Underfull \hbox (badness 5431) in paragraph at lines 934--934
+[]|\OT1/cmr/m/n/12 (+20) European sprat, \OT1/cmr/m/it/12 (+20) Sprat-tus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--933
-[]|\OT1/cmr/m/n/12 Atlantic her-ring, \OT1/cmr/m/it/12 Clu-pea
+Underfull \hbox (badness 10000) in paragraph at lines 935--935
+[]|\OT1/cmr/m/n/12 (+20) Atlantic her-ring, \OT1/cmr/m/it/12 (+20) Clu-pea
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 936--936
+[]|\OT1/cmr/m/n/12 (+20) Alaska pol-lock, \OT1/cmr/m/it/12 (+20) Ther-a-gra
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 938--938
-[]|\OT1/cmr/m/n/12 Chub mack-erel, \OT1/cmr/m/it/12 Scomber
+[]|\OT1/cmr/m/n/12 (+20) Atlantic her-ring, \OT1/cmr/m/it/12 (+20) Clu-pea
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
-[]|\OT1/cmr/m/n/12 Alaska pol-lock, \OT1/cmr/m/it/12 Ther-a-gra
+Underfull \hbox (badness 10000) in paragraph at lines 939--939
+[]|\OT1/cmr/m/n/12 (+20) Cape horse mack-erel,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--940
+[]|\OT1/cmr/m/n/12 (+20) Largehead hair-tail,
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 943--943
+[]|\OT1/cmr/m/n/12 (+20) Chub mack-erel, \OT1/cmr/m/it/12 (+20) Scomber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
+[]|\OT1/cmr/m/n/12 (+20) Largehead hair-tail,
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 951--951
+[]|\OT1/cmr/m/n/12 (+20) Alaska pol-lock, \OT1/cmr/m/it/12 (+20) Ther-a-gra
  []
 
 [31
@@ -616,13 +736,13 @@ phic file (type pdf)
 (./fishandfisheries-SUBMISSION-August-2010.aux (./temptable.aux) (./Figures.aux
 )) ) 
 Here is how much of TeX's memory you used:
- 2922 strings out of 495061
- 41287 string characters out of 1182621
- 123443 words of memory out of 3000000
- 6024 multiletter control sequences out of 15000+50000
- 12790 words of font info for 49 fonts, out of 3000000 for 9000
+ 4463 strings out of 495061
+ 67571 string characters out of 1182621
+ 180789 words of memory out of 3000000
+ 7403 multiletter control sequences out of 15000+50000
+ 17503 words of font info for 118 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,10n,34p,689b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,10n,35p,689b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
 hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
@@ -639,10 +759,10 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 149927
-6 bytes).
+Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 149802
+0 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 14367 words of extra memory for PDF output out of 14400 (max. 10000000)
 

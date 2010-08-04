@@ -1,6 +1,6 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-07-16 14:11:24 (srdbadmin)>
+## Last modified Time-stamp: <2010-08-04 15:28:38 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -355,9 +355,9 @@ par(mfrow=c(3,1), mar=c(0,0,0,0))
 plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
 legend("topleft", legend="FishBase", bty="n", cex=1.2)
 ## SAUP
-plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
+plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
 legend("topleft", legend="SAUP", bty="n", cex=1.2)
 ## srdb
-plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
+plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
 legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
 dev.off()

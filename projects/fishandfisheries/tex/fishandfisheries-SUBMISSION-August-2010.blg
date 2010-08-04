@@ -6,37 +6,37 @@ A level-1 auxiliary file: Figures.aux
 Database file #1: ./fishfisheries.bib
 You've used 62 entries,
             2914 wiz_defined-function locations,
-            999 strings with 17132 characters,
-and the built_in function-call counts, 39117 in all, are:
-= -- 3427
+            1001 strings with 17193 characters,
+and the built_in function-call counts, 39156 in all, are:
+= -- 3433
 > -- 1730
 < -- 66
 + -- 830
 - -- 471
-* -- 2871
-:= -- 5854
-add.period$ -- 181
+* -- 2872
+:= -- 5858
+add.period$ -- 183
 call.type$ -- 62
-change.case$ -- 405
+change.case$ -- 406
 chr.to.int$ -- 58
 cite$ -- 62
-duplicate$ -- 2578
-empty$ -- 2759
+duplicate$ -- 2582
+empty$ -- 2761
 format.name$ -- 721
-if$ -- 7823
+if$ -- 7832
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 541
-newline$ -- 310
+missing$ -- 542
+newline$ -- 312
 num.names$ -- 313
-pop$ -- 1258
+pop$ -- 1254
 preamble$ -- 1
 purify$ -- 401
 quote$ -- 0
-skip$ -- 1437
+skip$ -- 1439
 stack$ -- 0
-substring$ -- 1783
-swap$ -- 1358
+substring$ -- 1785
+swap$ -- 1361
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
@@ -44,4 +44,4 @@ type$ -- 728
 warning$ -- 0
 while$ -- 265
 width$ -- 0
-write$ -- 816
+write$ -- 820

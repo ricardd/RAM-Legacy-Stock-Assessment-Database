@@ -187,7 +187,7 @@ null device
 +             paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','",rec.50,"')",sep=""),
 +             sep=";")
 > sqlQuery(mychan,qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTCATCHSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCATCHSERIES','95');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTSSBSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSSBSERIES','85');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTRSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTRSERIES','83');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN90','1967-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN90','1972-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN90','1971-2006');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN50','1983-2004');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN50','1985-2005');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','1984-2003')'"
+character(0)
 > #system("xpdf ./orca_plot_v2.pdf")
 > 
 > ###system("gwenview ./orca_plot.png")
@@ -223,6 +223,6 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.760   0.052   1.081 
+  0.788   0.028   1.268 
 Warning message:
 closing unused RODBC handle 1 

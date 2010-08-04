@@ -45,10 +45,6 @@ de~Mutsert, K., Cowan, Jr., J.H., Essington, T.E. \harvardand{} Hilborn, R.
 \newblock \emph{Proceedings of the National Academy of Sciences} 105,
   2740--2744.
 
-\harvarditem{{D}evelopment~{C}ore {T}eam}{2009}{R}
-{D}evelopment~{C}ore {T}eam, R. \harvardyearleft 2009\harvardyearright{}.
-\newblock {R}: a Language and Environment for Statistical Computing.
-
 \harvarditem{Dorn}{2002}{Dorn:2002:najfm}
 Dorn, M. \harvardyearleft 2002\harvardyearright{}.
 \newblock Advice on West Coast rockfish harvest rates from Bayesian
@@ -65,6 +61,8 @@ Essington, T.E., Beaudreau, A.H. \harvardand{} Wiedenmann, J. \harvardyearleft
 
 \harvarditem{{European Environment Agency}}{2009}{eea:2009:status}
 {European Environment Agency} \harvardyearleft 2009\harvardyearright{}.
+\newblock SI-032 Status of marine fish stocks.
+\newblock Http://www.eea.europa.eu.
 
 \harvarditem{FAO}{2009{\natexlab{a}}}{FAO:fishstat}
 FAO \harvardyearleft 2009{\natexlab{a}}\harvardyearright{}.
@@ -334,6 +332,10 @@ Polacheck, T. \harvardyearleft 2006\harvardyearright{}.
 \harvarditem{{PostgreSQL Global Development Group}}{2010}{postgresql:2009}
 {PostgreSQL Global Development Group} \harvardyearleft 2010\harvardyearright{}.
 \newblock PostgreSQL, version 8.4.4. http://www.postgresql.org.
+
+\harvarditem{{{R} {D}evelopment {C}ore {T}eam}}{2009}{R}
+{{R} {D}evelopment {C}ore {T}eam} \harvardyearleft 2009\harvardyearright{}.
+\newblock {R}: a Language and Environment for Statistical Computing.
 
 \harvarditem[Rice \emph{et~al.}]{Rice, Shelton, Rivard, Chouinard \harvardand{}
   Fr\'echet}{2003}{Rice:etal:2003:icescm}

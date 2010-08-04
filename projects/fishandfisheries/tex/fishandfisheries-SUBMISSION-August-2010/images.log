@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.5.25)  3 AUG 2010 15:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2010.5.25)  4 AUG 2010 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,10 +183,27 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 ) (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+) (/usr/share/texmf-texlive/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language4
+LaTeX Info: Redefining \_ on input line 43.
+) (/usr/share/texmf-texlive/tex/latex/microtype/microtype.sty
+Package: microtype 2009/03/27 v2.3d Micro-typography with pdfTeX (RS)
+\MT@toks=\toks21
+\MT@count=\count106
+LaTeX Info: Redefining \lsstyle on input line 1608.
+LaTeX Info: Redefining \lslig on input line 1608.
+\MT@outer@space=\skip55
+LaTeX Info: Redefining \textls on input line 1616.
+\MT@outer@kern=\dimen127
+LaTeX Info: Redefining \textmicrotypecontext on input line 2167.
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texmf-texlive/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2009/03/27 v2.3d microtype main configuration file (RS)
+)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 (/usr/share/texmf-texlive/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
@@ -197,18 +214,18 @@ able.aux) (/newhome/home/srdbadmin/srdb/projects/fishandfisheries/tex/Figures.a
 ux))
 \openout1 = `images.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 \AtBeginShipoutBox=\box35
 *geometry auto-detecting driver*
 *geometry detected driver: dvips*
@@ -251,6 +268,18 @@ driver: dvips
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
+LaTeX Info: Redefining \microtypecontext on input line 129.
+Package microtype Info: Generating DVI output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
+ (RS)
+)
 
 latex2htmlLength hsize=349.0pt
 
@@ -282,7 +311,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 ...ts/fishandfisheries/GMT/stocks-byLME.pdf}
+l.153 ...ts/fishandfisheries/GMT/stocks-byLME.pdf}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -290,7 +319,7 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
 ic file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
-l2hSize :tex2html_wrap2260:349.09615pt::0.0pt::349.0pt.
+l2hSize :tex2html_wrap2268:349.09615pt::0.0pt::349.0pt.
 [1
 
 
@@ -304,7 +333,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 ...ishandfisheries/R/srdb-by-assessment.pdf}
+l.159 ...ishandfisheries/R/srdb-by-assessment.pdf}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -312,11 +341,11 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf G
 raphic file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf>
-Overfull \hbox (193.025pt too wide) detected at line 158
+Overfull \hbox (193.025pt too wide) detected at line 161
  [] 
  []
 
-l2hSize :tex2html_wrap2264:542.17488pt::0.0pt::349.0pt.
+l2hSize :tex2html_wrap2272:542.17488pt::0.0pt::349.0pt.
 [2
 
 
@@ -329,7 +358,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 ...fishandfisheries/R/three_panel_phylo.pdf}
+l.165 ...fishandfisheries/R/three_panel_phylo.pdf}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -337,13 +366,13 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf Gr
 aphic file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf>
-Overfull \hbox (337.75456pt too wide) detected at line 164
+Overfull \hbox (337.75456pt too wide) detected at line 167
  [] 
  []
 
-*** image for tex2html_wrap2268 is too tall at 686.56499pt, reducing to .95 vsi
+*** image for tex2html_wrap2276 is too tall at 686.56499pt, reducing to .95 vsi
 ze ***
-l2hSize :tex2html_wrap2268:633.97261pt::0.0pt::349.0pt.
+l2hSize :tex2html_wrap2276:633.97261pt::0.0pt::349.0pt.
 [3
 
 
@@ -356,7 +385,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 ...ects/fishandfisheries/R/orca_plot_v2.pdf}
+l.177 ...ects/fishandfisheries/R/orca_plot_v2.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -364,9 +393,9 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-*** image for landscape653 is too tall at 665.76425pt, reducing to .95 vsize **
+*** image for landscape656 is too tall at 665.76425pt, reducing to .95 vsize **
 *
-l2hSize :landscape653:633.97261pt::0.0pt::667.34174pt.
+l2hSize :landscape656:633.97261pt::0.0pt::667.34174pt.
 [4
 
 
@@ -381,7 +410,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 ...s/fishandfisheries/R/friedegg-single.pdf}
+l.187 ...s/fishandfisheries/R/friedegg-single.pdf}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -389,11 +418,11 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-Overfull \hbox (77.79134pt too wide) detected at line 186
+Overfull \hbox (77.79134pt too wide) detected at line 189
  [] 
  []
 
-l2hSize :tex2html_wrap2272:426.90857pt::0.0pt::349.0pt.
+l2hSize :tex2html_wrap2280:426.90857pt::0.0pt::349.0pt.
 [5
 
 
@@ -406,7 +435,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 .../fishandfisheries/R/friedegg-by-mgmt.pdf}
+l.193 .../fishandfisheries/R/friedegg-by-mgmt.pdf}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -414,22 +443,22 @@ If that doesn't work, type  X <return>  to quit.
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type eps)
 </home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf>
-Overfull \hbox (77.79134pt too wide) detected at line 192
+Overfull \hbox (77.79134pt too wide) detected at line 195
  [] 
  []
 
-l2hSize :tex2html_wrap2276:426.90857pt::0.0pt::349.0pt.
+l2hSize :tex2html_wrap2284:426.90857pt::0.0pt::349.0pt.
 [6
 
 
 ] (./images.aux) ) 
 Here is how much of TeX's memory you used:
- 2696 strings out of 495062
- 35955 string characters out of 1182644
- 87299 words of memory out of 3000000
- 5830 multiletter control sequences out of 15000+50000
+ 4031 strings out of 495062
+ 59735 string characters out of 1182644
+ 145035 words of memory out of 3000000
+ 7152 multiletter control sequences out of 15000+50000
  4628 words of font info for 17 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,5n,34p,1275b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,5n,35p,1275b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on images.dvi (6 pages, 1972 bytes).

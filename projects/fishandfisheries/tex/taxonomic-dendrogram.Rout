@@ -21,7 +21,7 @@ Type 'q()' to quit R.
 
 > ## spoked wheel dendrogram for Fish and Fisheries manuscript
 > ## Started: 2010-02-16 DR from earlier work in this directory
-> ## Last modified Time-stamp: <2010-07-16 14:11:24 (srdbadmin)>
+> ## Last modified Time-stamp: <2010-08-04 15:28:38 (srdbadmin)>
 > ## Modification history:
 > ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 > ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -82,7 +82,7 @@ Loading required package: splines
 > # number of species in FishBase
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMSPPFISHBASE',",dim(fishbase.dat)[1] ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -90,7 +90,7 @@ character(0)
 > # number of orders in FishBase
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMORDERSFISHBASE',",length(unique(fishbase.dat$Order)) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -157,7 +157,7 @@ null device
 > # number of species in SAUP
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMSPP',",dim(saup.dat)[1] ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -165,7 +165,7 @@ character(0)
 > # number of orders in SAUP
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMORDERS',",length(unique(saup.dat$Order)) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -173,14 +173,14 @@ character(0)
 > ## SAUP vs. FishBase in percentages
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTSPPFISHBASE',",round(dim(saup.dat)[1]/dim(fishbase.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTORDERSFISHBASE',",round(length(unique(saup.dat$Order))/length(unique(fishbase.dat$Order))*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -624,14 +624,14 @@ null device
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPSAUP',",round(length(unique(srdb.dat$scientificname))/dim(saup.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE''"
+character(0)
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPFISHBASE',",round(length(unique(srdb.dat$scientificname))/dim(fishbase.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -775,10 +775,10 @@ null device
 > plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
 > legend("topleft", legend="FishBase", bty="n", cex=1.2)
 > ## SAUP
-> plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
+> plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
 > legend("topleft", legend="SAUP", bty="n", cex=1.2)
 > ## srdb
-> plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
+> plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
 > legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
 > dev.off()
 null device 
@@ -786,4 +786,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  8.800   0.080   9.579 
+  8.728   0.112   9.436 

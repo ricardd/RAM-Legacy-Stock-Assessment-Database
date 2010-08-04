@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2010-08-03 16:14:00 (srdbadmin)>
+%% Last modified: Time-stamp: <2010-08-04 14:08:14 (srdbadmin)>
 %%\documentclass[letterpaper,12pt]{article}
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 %%\documentclass[preprint,authoryear,12pt]{elsarticle}
@@ -10,9 +10,13 @@
 \usepackage{paralist}
 \usepackage{comment}
 \usepackage{color}
-\usepackage[left=3cm,top=3cm,right=3cm, bottom=3cm,nohead]{geometry}
+\usepackage[left=3cm,top=3cm,right=3cm,bottom=3cm,nohead]{geometry}
 \usepackage{booktabs}
 \usepackage{url}
+\usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
+\usepackage{microtype} %% no ligature, to facilitate conversion to Word
+\DisableLigatures{encoding = *, family = * }
+
 %\usepackage[left,running]{lineno}
 %\linenumbers
 %\title{Assessing the knowledge-base for commercially exploited marine fishes and invertebrates with a new global database of stock assessments}
@@ -328,11 +332,12 @@ researchers, and then uploaded into the relational database.
 
 \subsection*{Database structure and advantages}
 The database is implemented in the Open Source PostgreSQL relational
-database management system (RDBMS) \citep{postgresql:2009}, and includes tables for the assessment metadata,
-time series values, time series units, and biometrics (a catch-all term
-for data, such as life history characteristics or BRPs, that are not
-part of a time series). The entity relationship diagram of the database and its component tables can be found in the Supplementary Materials.
-%tables is shown in the  (Figure~\ref{fig:ERD}).
+database management system (RDBMS) \citep{postgresql:2009}, and
+includes tables for the assessment metadata, time series values, time
+series units, and biometrics (a catch-all term for data, such as life
+history characteristics or BRPs, that are not part of a time series).
+The entity relationship diagram of the database and its component
+tables can be found in the Supporting Information.
 
 RDBMSs form the server back-end to many applications of
 interest to ecologists, including web-clients and GIS software, and
@@ -379,8 +384,8 @@ of the stock, a selection of biometrics and ratios for comparison
 biomass, recruitment, and exploitation trajectories. QA/QC documents
 were then returned to assessment recorders and an electronic trail of
 subsequent correspondence was captured using a bug tracking system.
-Recorders were responsible for checking, and where necessary
-correcting, their QA/QC documents, after which all corrections were
+Recorders were responsible for checking and, where necessary,
+correcting their QA/QC documents, after which all corrections were
 transmitted back to the operational database and a quality controlled
 flag was inserted to signify the assessment had passed the check. Only
 assessments that have passed this QA/QC step are available for

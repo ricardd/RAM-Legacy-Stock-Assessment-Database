@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-08-03 15:02:44 (srdbadmin)>
+## Last modified: Time-stamp: <2010-08-04 14:41:45 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -272,6 +272,9 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
 #  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}c")
   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+
+  print(my.table.S2, type="html", file="../tex/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+
 #  write.table(my.table.S2, "../tex/Table-S1.tex")
 #  sink("../tex/Table-S1.tex")
 #  my.table.S2

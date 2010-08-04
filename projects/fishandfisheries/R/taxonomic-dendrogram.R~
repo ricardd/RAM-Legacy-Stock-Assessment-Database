@@ -1,6 +1,6 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-06-10 10:18:44 (srdbadmin)>
+## Last modified Time-stamp: <2010-07-16 14:11:24 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -190,7 +190,7 @@ taxo.phylo$tip.label<-prelim.tip.labels
 
 pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
 my.opaque.grey<-"#80808099"
-plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
+plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
 my.cex=0.75
 text(0.68,-0.09, labels="Arthropoda", srt=351, cex=my.cex, font=2)
@@ -352,12 +352,12 @@ srdb.phylo$tip.label[srdb.phylo$tip.label=="\n(NA)"] <- ""
 pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
 par(mfrow=c(3,1), mar=c(0,0,0,0))
 ## Fishbase
-plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
+plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
 legend("topleft", legend="FishBase", bty="n", cex=1.2)
 ## SAUP
-plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
+plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
 legend("topleft", legend="SAUP", bty="n", cex=1.2)
 ## srdb
-plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
+plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.75, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
 legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
 dev.off()

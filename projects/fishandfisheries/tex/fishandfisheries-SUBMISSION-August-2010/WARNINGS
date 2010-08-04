@@ -5,5 +5,7 @@ No implementation found for style `paralist'
 No implementation found for style `geometry'
 No implementation found for style `booktabs'
 No implementation found for style `url'
+No implementation found for style `hyphenat'
+No implementation found for style `microtype'
 
 fishandfisheries-SUBMISSION-August-2010.tex is newer than fishandfisheries-SUBMISSION-August-2010.bbl: Please rerun latex and bibtex.

@@ -5,7 +5,7 @@
 %
 % Modification history:
 %
-% Last modified: Time-stamp: <2010-07-13 10:47:33 (srdbadmin)> 
+% Last modified: Time-stamp: <2010-07-15 16:52:36 (srdbadmin)> 
 
 @string{cjfas = "Canadian Journal of Fisheries and Aquatic Sciences"}
 @string{meps = "Marine Ecology Progress Series"}
@@ -988,3 +988,46 @@ contrasts and other utilities},
   OPTannote = 	 {}
 }
 
+
+@Article{Dalzell:1998:coastmgmt,
+  author = 	 {Dalzell, P.},
+  title = 	 {The role of archaeological and cultural-historical records in long-range coastal fisheries resources management strategies and policies in the Pacific Island},
+  journal = 	 {Ocean \& Coastal Management},
+  year = 	 {1998},
+  OPTkey = 	 {},
+  volume = 	 {40},
+  OPTnumber = 	 {},
+  Tpages = 	 {237--252},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+@Article{,
+  author = 	 {},
+  title = 	 {},
+  journal = 	 {},
+  year = 	 {},
+  OPTkey = 	 {},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTpages = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@article{Mora:etal:2009:PLoSBiol,
+    author = {Mora, Camilo AND Myers, Ransom A. AND Coll, Marta AND Libralato, Simone AND Pitcher, Tony J. AND Sumaila, Rashid U. AND Zeller, Dirk AND Watson, Reg AND Gaston, Kevin J. AND Worm, Boris},
+    journal = {PLoS Biol},
+    publisher = {Public Library of Science},
+    title = {Management Effectiveness of the World's Marine Fisheries},
+    year = {2009},
+    month = {06},
+    volume = {7},
+    howpublished = {\url{http://dx.doi.org/10.1371\%2Fjournal.pbio.1000131}},
+    pages = {e1000131},
+    number = {6},
+    doi = {10.1371/journal.pbio.1000131}
+}        

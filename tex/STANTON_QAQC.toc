@@ -19,7 +19,7 @@
 \contentsline {subsubsection}{ASMFC-LOBSTERGB-1981-2007-STANTON}{35}{section*.20}
 \contentsline {subsubsection}{ASMFC-LOBSTERGOM-1981-2007-STANTON}{37}{section*.21}
 \contentsline {subsubsection}{ASMFC-LOBSTERSNE-1981-2007-STANTON}{39}{section*.22}
-\contentsline {subsubsection}{NEFSC-WEAKFISHATLC-1980-2008-STANTON}{41}{section*.23}
+\contentsline {subsubsection}{NEFSC-WEAKFISHATLC-1981-2008-STANTON}{41}{section*.23}
 \contentsline {subsubsection}{NMFS-MENATLAN-1940-2005-STANTON}{43}{section*.24}
 \contentsline {subsubsection}{NMFS-SARDNPAC-1981-2008-STANTON}{45}{section*.25}
 \contentsline {subsubsection}{NWFSC-BGROCKPCOAST-1950-2005-STANTON}{47}{section*.26}

@@ -1,7 +1,7 @@
 # template that Perl uses to run the plots for the QAQC
 # Coilín Minto
 # date: Thu Nov 27 14:47:59 AST 2008
-# Time-stamp: <2010-03-25 10:33:10 (srdbadmin)>
+# Time-stamp: <2010-07-29 14:14:00 (srdbadmin)>
 # Modifification history
 ## 2010-02-17: some of the units names in the views changed, amended code to reflect that (some plots were not showing a y axis label on the exploitation plots) - DR
 ## 2010-03-15: changed line 41 sum(x to sum(as.numeric(x) because I was getting an integer overflow for recruitment timeseries for assessment AFWG-CAPENOR-1965-2007-MINTO - DR
@@ -46,7 +46,8 @@ sum.dat.rows[sum.dat.rows>0]
 avail.series<-names(sum.dat.rows[sum.dat.rows>0])
 # the plot
 #pdf("./test.pdf")
-pdf(paste("/home/srdbadmin/SQLpg/srdb/trunk/tex/figures/plot-",assessid,".pdf", sep=""), width=9, height=9)
+#pdf(paste("/home/srdbadmin/SQLpg/srdb/trunk/tex/figures/plot-",assessid,".pdf", sep=""), width=9, height=9)
+pdf(paste("/home/srdbadmin/srdb/tex/figures/plot-",assessid,".pdf", sep=""), width=9, height=9)
 # layout of the plot
 par( oma=c(2,1,1,0))
 layout.mat<-matrix(c(1,2,3,4), 2, 2, byrow = TRUE)

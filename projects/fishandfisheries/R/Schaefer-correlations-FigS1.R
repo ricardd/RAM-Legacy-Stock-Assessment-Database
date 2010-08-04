@@ -1,5 +1,7 @@
 ##
 ##
+require(xtable)
+
 mtext.fun<-function(xstring,ystring,xline,yline){
   mtext(side=1, text=xstring, line=xline, cex=0.9)
   mtext(side=2, text=ystring, line=yline, cex=0.9, las=3)
@@ -182,3 +184,15 @@ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCO
 sqlQuery(chan,insert.qu)
 
 odbcClose(chan)
+
+
+# Table S2 showing the contingency table for B and U
+contingency.table <- rbind(f.table,b.table)
+my.caption <- c("Contingency tables of stock status classification for biomass and exploitation reference points obtained from assessments and those derived from surplus production models.")
+my.table.contingency <- xtable(contingency.table, caption=my.caption, label=c("tab:contingency"), digits=2, align="ccc")
+  print(my.table.contingency, type="latex", file="../tex/Table-S2.tex", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
+
+
+save.image()
+
+

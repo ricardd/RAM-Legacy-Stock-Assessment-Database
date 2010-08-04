@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: fishandfisheries-SUBMISSION-August-2010.aux
+The style file: fishandfisheriesBST.bst
+A level-1 auxiliary file: temptable.aux
+A level-1 auxiliary file: Figures.aux
+Database file #1: ./fishfisheries.bib
+You've used 62 entries,
+            2914 wiz_defined-function locations,
+            999 strings with 17132 characters,
+and the built_in function-call counts, 39117 in all, are:
+= -- 3427
+> -- 1730
+< -- 66
++ -- 830
+- -- 471
+* -- 2871
+:= -- 5854
+add.period$ -- 181
+call.type$ -- 62
+change.case$ -- 405
+chr.to.int$ -- 58
+cite$ -- 62
+duplicate$ -- 2578
+empty$ -- 2759
+format.name$ -- 721
+if$ -- 7823
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 541
+newline$ -- 310
+num.names$ -- 313
+pop$ -- 1258
+preamble$ -- 1
+purify$ -- 401
+quote$ -- 0
+skip$ -- 1437
+stack$ -- 0
+substring$ -- 1783
+swap$ -- 1358
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 728
+warning$ -- 0
+while$ -- 265
+width$ -- 0
+write$ -- 816

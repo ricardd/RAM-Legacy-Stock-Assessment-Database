@@ -1,5 +1,5 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2010-07-06 15:19:01 (srdbadmin)>
+# last modified Time-stamp: <2010-07-15 15:17:53 (srdbadmin)>
 #
 #
 
@@ -25,14 +25,14 @@ Table1-formatted.aux: ../R/TL-quadrant-srdb.pdf Table1-formatted.tex
 #	sed '1 i \\\begin{small}' Table1-temp.tex | sed '$ a \\\end{small}' > Table1-formatted.tex
 
 Table-S1-formatted.tex: ../R/TL-quadrant-srdb.pdf
-	R CMD BATCH ../R/fried-egg-plots.R # generate Figs.5 and 6, the fried egg plots
+	R CMD BATCH ../R/fried-egg-plots-MIXANDMATCH.R # generate Figs.5 and 6, the fried egg plots
 	sed '/begin/ r mytable.txt' Table-S1.tex | sed 6,8d > Table-S1-formatted.tex
 
 ../R/TL-quadrant-srdb.pdf: ../R/trophic-level-plot.R ../R/friedegg-single.pdf
-	R CMD BATCH ../R/trophic-level-plot.R # generate Fig.7, the trophic level beanplot
+	R CMD BATCH ../R/trophic-level-plot.R # generate Fig.7, the trophic level barplot
 
-../R/friedegg-single.pdf: ../R/fried-egg-plots.R ../R/orca_plot_v2.pdf
-	R CMD BATCH ../R/fried-egg-plots.R # generate Figs.5 and 6, the fried egg plots
+../R/friedegg-single.pdf: ../R/fried-egg-plots-MIXANDMATCH.R ../R/orca_plot_v2.pdf
+	R CMD BATCH ../R/fried-egg-plots-MIXANDMATCH.R # generate Figs.5 and 6, the fried egg plots
 
 ../R/orca_plot_v2.pdf:  ../R/orca_plot.R ../R/srdb-by-assessment.pdf #../SQL/queries-for-results.log
 	R CMD BATCH ../R/orca_plot.R # generate Fig.4, the orca plot

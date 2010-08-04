@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{ICCAT-SKJWATL-1952-2006-JENSEN}{32}{section*.18}
 \contentsline {subsubsection}{ICCAT-SWORDMED-1968-2006-JENSEN}{34}{section*.19}
 \contentsline {subsubsection}{ICCAT-SWORDNATL-1978-2007-JENSEN}{36}{section*.20}
-\contentsline {subsubsection}{ICCAT-SWORDSATL-1950-2005-JENSEN}{38}{section*.21}
+\contentsline {subsubsection}{ICCAT-SWORDSATL-1970-2005-JENSEN}{38}{section*.21}
 \contentsline {subsubsection}{ICCAT-YFINATL-1970-2006-JENSEN}{40}{section*.22}
 \contentsline {subsubsection}{IFOP-CHTRACCH-1975-2007-JENSEN}{42}{section*.23}
 \contentsline {subsubsection}{IOTC-BIGEYEIO-1957-2006-JENSEN}{44}{section*.24}

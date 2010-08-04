@@ -1,14 +1,17 @@
 \newpage
 \section*{Results}
 %\subsection*{Scope of the RAM Legacy database}
+
+%The database presented here contains ... \citep{Worm:etal:2009:science, Hutchings:etal::2010:cjfas}
+
 \subsection*{The knowledge-base for commercially-exploited marine stocks}
-In total, 323 recent stock assessments for
-287 marine fish and 36
+In total, 324 recent stock assessments for
+288 marine fish and 36
 invertebrate populations are included in the RAM Legacy database
 (Version 1.0, 2010; Table S1). Together these comprise time series of
 catch/landings for 307 stocks (95\%),
-SSB estimates for 273 stocks (85\%), and recruitment estimates for
-269 stocks (83\%) (Table S1).
+SSB estimates for 274 stocks (85\%), and recruitment estimates for
+270 stocks (83\%) (Table S1).
 
 \subsubsection*{Management bodies and geography}
 Stock assessments are derived from fisheries management bodies in
@@ -40,12 +43,12 @@ and Southeast U.S. Continental Shelf (n=20) (Figure~\ref{fig:lmes}).
 
 \subsubsection*{Taxonomy}
 
-Assessments for 158 species from
+Assessments for 159 species from
 57 families and 20
 orders are included in the database (Figure~\ref{fig:taxo:srdb}). Five
 taxonomic orders (Gadiformes (n=67),
 Perciformes (n=62), Pleuronectiformes (n=53),
-Scorpaeniformes (n=40) and Clupeiformes (n=35)) account for
+Scorpaeniformes (n=40) and Clupeiformes (n=36)) account for
 80\% of available stock assessments.  Of these, Perciformes, the most
 speciose Order of marine fishes are in fact underrepresented in the
 database (46\% of all marine fish species vs.  19\% of all marine
@@ -82,7 +85,7 @@ database and likely in stock assessments in general.
 \subsubsection*{Ecology}
 Assessed species span a range of ecological traits. Some life-history
 information (e.g. growth, maturity, fecundity) is available for
-287 of the collated assessments. In some cases, this
+288 of the collated assessments. In some cases, this
 information is derived from biological studies, while in other cases
 life-history parameters represent model assumptions (e.g., natural
 mortality = 0.2) or model estimates. 
@@ -92,7 +95,7 @@ mortality = 0.2) or model estimates.
 %3.7, with no apparent relationship between trophic level and stock status (Figure~\ref{fig:TL}).
 
 %%Of these, age at sexual maturity ranged from XX to XX (n=XX, mean=XX) and . 
-%was 287.
+%was 288.
 
 %Assessed species in the data span a range of ecological
 %traits..... [need trophic level plot here; Figure 6). -assessemnts by
@@ -103,10 +106,10 @@ mortality = 0.2) or model estimates.
 
 \subsubsection*{Timespan }
 
-%Of the 323 stock assessments, time series data of
+%Of the 324 stock assessments, time series data of
 %catch/landings were available for 307 stocks (95\%),
-%of SSB for 273 stocks (85\%), and of recruitment for
-%269 stocks (83\%).  
+%of SSB for 274 stocks (85\%), and of recruitment for
+%270 stocks (83\%).  
 
 The median lengths of catch/landings, SSB, and recruitment timeseries
 were 38, 34, and 33
@@ -118,12 +121,12 @@ covered by 50\% of assessments is: catch/landings
 (1984-2003) (Figure~\ref{fig:orca}).
 
 \subsubsection*{Stock assessment methodologies and BRPs}
-%In addition to the 323 assessments in the
+%In addition to the 324 assessments in the
 %database, indices of relative abundance from scientific surveys are
 %available for an additional 26 stocks. 
 
 The three most common assessment methods were
-Statistical catch-at-age/length models (n=164), Virtual Population Analyses (n=90) and
+Statistical catch-at-age/length models (n=164), Virtual Population Analyses (n=91) and
 Biomass dynamics model (n=44). Regionally, Virtual Population Analysis
 (VPA) is still the most common assessment model for European stocks
 (71\% of 63 assessments),
@@ -168,7 +171,8 @@ nations, U.S.A. and Russia \citep{FAO:sofia}, with only two
 assessments from the latter. We were unable to obtain any assessments
 from the other top 10 yield-producing countries: China, Peru,
 Indonesia, Japan, Chile, India, Thailand, Philippines
-\citep{FAO:sofia}.
+\citep{FAO:sofia}. 
+%Including stock assessments from these countries would greatly benefit the database's spatial and taxonomic coverage. 
 
 
 % cushion by using "estimates"
@@ -187,12 +191,12 @@ derived from surplus production models we computed a contingency table
 of status classification for stocks that have both assessment- and
 Schaefer-derived BRPs (Table S2). Surplus production models correctly
 classified ratios of current biomass to BRPs in
-REF:SQL:PERCENTCORRECTBCLASS\% of cases (for REF:SQL:NUMCORRECTBCLASS
-of REF:SQL:NUMBCLASS assessments) and REF:SQL:PERCENTCORRECTUCLASS\%
-of cases for exploitation BRPs (for REF:SQL:NUMCORRECTUCLASS of
-REF:SQL:NUMUCLASS assessments).
+69\% of cases (for 67
+of 97 assessments) and 62\%
+of cases for exploitation BRPs (for 37 of
+60 assessments).
 
-%For the stocks where both are available, we found a correlation of REF:SQL:PERCENTCORRBBMSY and REF:SQL:PERCENTCORRFFMSY between assessment BRP and surplus production model BRP for biomass (n=REF:SQL:NUMFORCORRBBMSY) and exploitation (n=REF:SQL:NUMFORCORRFFMSY), respectively (Supplementary Figure S1). 
+%For the stocks where both are available, we found a correlation of 0.67 and 0.61 between assessment BRP and surplus production model BRP for biomass (n=97) and exploitation (n=60), respectively (Supplementary Figure S1). 
 
 % BRPs derived from surplus production models tended to underestimate $B/B_{msy}$ and overestimate $U/U_{msy}$.
 
@@ -225,25 +229,25 @@ The status of exploited marine stocks, as estimated from biomass- and
 exploitaion-BRPs, varied widely depending on the management body
 (Figure~\ref{fig:friedeggmgmt}). Most European stocks (managed by
 ICES) have biomasses less than $B_{msy}$
-(REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%), and over half of these
-stocks (REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSYICES\%) still
+(79\%), and over half of these
+stocks (61\%) still
 have exploitation rates exceeding $U_{msy}$. Canadian stocks (managed
-by DFO) also had low biomass (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDFO\%
+by DFO) also had low biomass (79\%
 $< B_{msy}$), but all but one of these has had its exploitation rate
 reduced below $U_{msy}$. In contrast, about half
-(REF:SQL:PERCENTASSESSFRIEDABOVEBMSYNMFS\%) of U.S. stocks (managed by
+(21\%) of U.S. stocks (managed by
 NMFS) are estimated to still be above $B_{msy}$, and of the
-REF:SQL:NUMASSESSFRIEDBELOWBMSYNMFS stocks that are below $B_{msy}$
-REF:SQL:PERCENTASSESSFRIEDBELBMSYANDBELOWFMSYNMFS\% have exploitation
+40 stocks that are below $B_{msy}$
+65\% have exploitation
 rates below $U_{msy}$ (Figure~\ref{fig:friedeggmgmt}). In the New
 Zealand and Australian waters, stocks managed by MFish and AFMA are
-above $B_{msy}$ in REF:SQL:PERCENTASSESSFRIEDABOVEBMSYMFish\% and
-REF:SQL:PERCENTASSESSFRIEDABOVEBMSYAFMA\% of cases, respectively. For
+above $B_{msy}$ in 21\% and
+42\% of cases, respectively. For
 the stocks grouped as ``Atlantic'' in Figure~\ref{fig:friedeggmgmt} we
-found that REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
-REF:SQL:NUMASSESSFRIEDTOTALICCAT ICCAT stocks and
-REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
-REF:SQL:NUMASSESSFRIEDTOTALICCAT of NAFO stocks were below $B_{msy}$ .
+found that 6 of the
+10 ICCAT stocks and
+6 of the
+10 of NAFO stocks were below $B_{msy}$ .
 
 %Species under international management include tuna stocks in the
 %Atlantic, Pacific, Indian Oceans. 

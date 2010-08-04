@@ -82,7 +82,7 @@ Loading required package: splines
 > # number of species in FishBase
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMSPPFISHBASE',",dim(fishbase.dat)[1] ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -90,7 +90,7 @@ character(0)
 > # number of orders in FishBase
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMORDERSFISHBASE',",length(unique(fishbase.dat$Order)) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -157,7 +157,7 @@ null device
 > # number of species in SAUP
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMSPP',",dim(saup.dat)[1] ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -165,7 +165,7 @@ character(0)
 > # number of orders in SAUP
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMORDERS',",length(unique(saup.dat$Order)) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -173,14 +173,14 @@ character(0)
 > ## SAUP vs. FishBase in percentages
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTSPPFISHBASE',",round(dim(saup.dat)[1]/dim(fishbase.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTORDERSFISHBASE',",round(length(unique(saup.dat$Order))/length(unique(fishbase.dat$Order))*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -624,14 +624,14 @@ null device
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPSAUP',",round(length(unique(srdb.dat$scientificname))/dim(saup.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
 > 
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPFISHBASE',",round(length(unique(srdb.dat$scientificname))/dim(fishbase.dat)[1]*100,0) ,")", sep="")
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -786,4 +786,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  8.756   0.120   9.853 
+  8.800   0.080   9.579 

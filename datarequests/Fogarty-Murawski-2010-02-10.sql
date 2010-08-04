@@ -1,5 +1,5 @@
 -- some SQL code to see how many stocks in srdb are of likely interest for Steve Murawski's request
--- Time-stamp: <Last modified: 11 FEBRUARY   (srdbadmin)>
+-- Time-stamp: <2010-08-03 09:17:12 (srdbadmin)>
 --
 -- this data request is handled by a Poi issue on RAMlegacy:
 -- http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/441
@@ -24,7 +24,7 @@ bb.minssb / aa.ssbfirstyear <= 0.5
 ;
 
 -- SSBmin and its first year of occurence
-(SELECT assessid, min(tsyear) as minssbyear, min(minssb) as minssb  from (SELECT v.assessid, v.tsyear, aa.minssb FROM srdb.newtimeseries_values_view v, (SELECT assessid, min(ssb) as minssb from srdb.newtimeseries_values_view WHERE ssb IS NOT NULL GROUP BY assessid) as aa WHERE v.assessid=aa.assessid and v.ssb=aa.minssb) as bb GROUP BY assessid) as cc;
+(SELECT assessid, min(tsyear) as minssbyear, min(minssb) as minssb  from (SELECT v.assessid, v.tsyear, aa.minssb FROM srdb.newtimeseries_values_view v, (SELECT assessid, min(ssb) as minssb from srdb.newtimeseries_values_view WHERE ssb IS NOT NULL GROUP BY assessid) as aa WHERE v.assessid=aa.assessid and v.ssb=aa.minssb) as bb GROUP BY assessid);
 
 
 -- percent difference between maximum and minimum values of F between 5 years prior to SSBmin and 10 years after SSBmin was observed
@@ -66,3 +66,4 @@ WHERE
 ii.assessid = a.assessid and
 a.stockid=s.stockid
 ;
+

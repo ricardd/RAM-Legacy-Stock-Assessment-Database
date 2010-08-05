@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  4 AUG 2010 15:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  4 AUG 2010 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,20 +712,21 @@ LaTeX Warning: Float too large for page by 105.25597pt on input line 81.
 is rotated 90 degrees>] [39 </home/srdbadmin/srdb/projects/fishandfisheries/R/s
 rdb-by-assessment.pdf>] [40 </home/srdbadmin/srdb/projects/fishandfisheries/R/t
 hree_panel_phylo.pdf>]
-</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=166, 483
-.8075pt x 216.81pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf, id=166, 803
+.0pt x 401.5pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf Graphic
  file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>
-[41 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf>]
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=173, 
+[41 </home/srdbadmin/srdb/projects/fishandfisheries/R/orca_plot_v2.pdf (PNG cop
+y)>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf, id=171, 
 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf Grap
 hic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-single.pdf>
-</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=174,
+</home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf, id=172,
  578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/friedegg-by-mgmt.pdf Gra
 phic file (type pdf)
@@ -759,10 +760,10 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 149802
-0 bytes).
+Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 145051
+3 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
+ 246 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  14367 words of extra memory for PDF output out of 14400 (max. 10000000)
 

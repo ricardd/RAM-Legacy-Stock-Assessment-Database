@@ -2,7 +2,7 @@ It now seems unavoidable to have to produce Word document version of papers writ
 
 A few ideas:
 
-- in Open Office, make sure that the Tools-Options-Load/Save-Microsoft Office is set correctly for handling equations
+- in Open Office, make sure that the Tools-Options-Load/Save-Microsoft Office is set correctly for handling equations, this handles whether the equations are read and written to/from MathType and Math
 
 - in LaTeX, turn off ligature
 \usepackage{microtype} %% no ligature, to facilitate conversion to Word
@@ -11,17 +11,18 @@ A few ideas:
 - in LaTeX, turn off hyphenation
 \usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
 
-To minimize the pain involved in translating the LaTeX document into Word, I'll be using the following sequence of events:
+To minimize the pain involved in translating the LaTeX document into Word, use the following sequence of events:
 
 In Linux:
 1 - latex2rtf filename
 2 - latex2html filename -split 0
 3 - latex filename, then xdvi and "save as text"
-4 - now have rtf, html and txt in Word
+4 - now have rtf, html and txt
 
 In Windows:
-1 - open filename.tex in Scientific Word and export as rtf (this will nicely translate the equation into MathType)
+1a - open filename.tex in Scientific Word and export as rtf (this will nicely translate the equation into MathType)
+1b - grindEQ software will do the same translation of equations
+
 
 Then:
-Open all 4 files (.rtf,.html,.txt from Linux and .rtf from Windows) in Word and the beautiful PDF from pdflatex and mix-and-match the output into a single Word document.
-
+Open all 4 files (.rtf,.html,.txt from Linux and .rtf from Windows) in Word and the beautiful original PDF from pdflatex and mix-and-match the output into a single Word document.

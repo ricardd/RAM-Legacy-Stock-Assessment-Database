@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-08-04 14:41:45 (srdbadmin)>
+## Last modified: Time-stamp: <2010-08-04 16:03:22 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -453,7 +453,9 @@ legend("topright",my.label)
 
 
 ## now generate some PDF with plots
-pdf("friedegg-single.pdf", width=8, height=10)
+#pdf("friedegg-single.pdf", width=8, height=10)
+png("friedegg-single.png", width=800, height=1000)
+
 multipanel <- "FALSE"
   if(multipanel){
     par(mar=c(1,1,1,1), oma=c(3.5,3,0,0))
@@ -463,7 +465,8 @@ dev.off()
 
 
 
-pdf("friedegg-by-mgmt.pdf", width=8, height=10)
+#pdf("friedegg-by-mgmt.pdf", width=8, height=10)
+png("friedegg-by-mgmt.png", width=800, height=1000)
 multipanel <- "TRUE"
   if(multipanel){
     par(mar=c(2,2,1,1), oma=c(2,2,0,0))

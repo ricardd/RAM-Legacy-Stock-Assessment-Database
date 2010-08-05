@@ -1,0 +1,13 @@
+It now seems unavoidable to have to produce Word document version of papers written in LaTeX.
+
+A few ideas:
+
+- in Open Office, make sure that the Tools-Options-Load/Save-Microsoft Office is set correctly for handling equations
+
+- in LaTeX, turn off ligature
+\usepackage{microtype} %% no ligature, to facilitate conversion to Word
+\DisableLigatures{encoding = *, family = * }
+
+- in LaTeX, turn off hyphenation
+\usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
+

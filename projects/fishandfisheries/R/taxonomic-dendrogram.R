@@ -1,6 +1,6 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-08-04 15:28:38 (srdbadmin)>
+## Last modified Time-stamp: <2010-08-04 16:10:36 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -188,7 +188,8 @@ for(i in 2:length(prelim.tip.labels)){
 
 taxo.phylo$tip.label<-prelim.tip.labels
 
-pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
+#pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database"
+png("/home/srdbadmin/srdb/projects/fishandfisheries/R/srdb-by-assessment.png", width=1000, height=1000)
 my.opaque.grey<-"#80808099"
 plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
 points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
@@ -349,7 +350,8 @@ srdb.phylo$tip.label[srdb.phylo$tip.label=="\n(NA)"] <- ""
 # REF:SQL:SAUPPERCENTORDERSFISHBASE
 
 
-pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
+#pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.pdf", width=6, height=10)
+png("/home/srdbadmin/srdb/projects/fishandfisheries/R/three_panel_phylo.png", width=600, height=1000)
 par(mfrow=c(3,1), mar=c(0,0,0,0))
 ## Fishbase
 plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))

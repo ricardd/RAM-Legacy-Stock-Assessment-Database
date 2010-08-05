@@ -35,3 +35,4 @@ pslegend /home/srdbadmin/srdb/projects/fishandfisheries/GMT/legend-text-colours.
 
 ps2pdf /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf
 
+convert /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.png

@@ -2,9 +2,9 @@
 ## plot the count of assessments for a given data type by year in the database
 ## DR, CM
 ## date: Tue Dec  1 14:26:02 AST 2009
-## Time-stamp: <2010-05-20 22:47:24 (srdbadmin)>
+## Time-stamp: <2010-06-10 09:55:42 (srdbadmin)>
 ##-----------------------------------------------------------------------------
-setwd("/home/srdbadmin/SQLpg/srdb/trunk/projects/fishandfisheries/R")
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(RODBC)
 ## open a channel to the database

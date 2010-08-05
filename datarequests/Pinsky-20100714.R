@@ -1,9 +1,11 @@
 ## R code to extract data for Malin Pinsky's paper on fisheries collapse
 ## Daniel Ricard 2010-06-07
-## Last modified Time-stamp: <2010-07-14 18:07:52 (srdbadmin)>
+## Last modified Time-stamp: <2010-08-04 20:19:15 (srdbadmin)>
 ## Modification history:
 ## 2010-06-25: Malin needs the F/Fmsy series as well
 ## 2010-07-14: the U/Umsy for Schaefer-derived was calculated as F/Umsy instead of (TC/TB)/Umsy, I fixed that
+## 2010-08-04: the original code chose both reference points from the assessment or the surplus production model, now need to mismatch the reference points so that we can have an assessment-derived Bmsy and a Schaefer-derived Umsy. The code to produce the fried eggs and Table S1 of the Fish and Fisheries manuscript does that. I'm using srdb/projects/fishandfisheries/R/fried-egg-plots-MIXANDMATCH.R as a starting point here.
+
 require(RODBC)
 #rm(list=ls(all=TRUE))
 chan <- odbcConnect(dsn="srdbusercalo")
@@ -37,7 +39,6 @@ v.bioid like '%Bmsy%'
 ",sep="")
 
 pepper.dat <-  sqlQuery(chan,qu.pepper, stringsAsFactors=FALSE)
-#pepper <- data.frame()
 
 ## bring back Schaefer-derived reference points and associated timeseries
 qu.salt <- paste("
@@ -73,20 +74,10 @@ salt.dat <- sqlQuery(chan,qu.salt, stringsAsFactors=FALSE)
 ## rbind both data frames
 both.dat <- rbind(pepper.dat,salt.dat)
 
-## preferentially keep the assessment-derived BRPs over the Schaefer-derived ones ## NOTE THIS IS NOW HANDLED IN THE QUERY
-#both.dat.ord <- both.dat[order(both.dat$assessid,both.dat$tsyear),]
-
-
-#oo <- unlist(tapply(both.dat.ord$assessid,paste(both.dat.ord$assessid,both.dat.ord$tsyear,sep="." ), order))
-#oo2 <- tapply(oo,paste(both.dat.ord$assessid,both.dat.ord$tsyear,sep="." ),var)
-
-#both.dat.singleBRP <- both.dat.ord[oo==1,]
-
 ## keep only years 1950 to 2008
 both.dat.singleBRP.1950to2008 <- subset(both.dat, tsyear <= 2008 & tsyear >= 1950)
 
 ## transpose into a new matrix with years 1950 to 2008 as columns
-
 transposed.dat <- as.data.frame(tapply(both.dat.singleBRP.1950to2008$ratio, list(both.dat.singleBRP.1950to2008$assessid,both.dat.singleBRP.1950to2008$tsyear), min))
 
 # add new column with the minimum value of the timeseries
@@ -102,7 +93,8 @@ transposed.dat$Btype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-BBmsy-20100714.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-BBmsy-20100804.csv", row.names=FALSE)
+
 
 
 ###############################################################################
@@ -171,14 +163,6 @@ odbcClose(chan)
 ## rbind both data frames
 both.dat <- rbind(pepper.dat,salt.dat)
 
-## preferentially keep the assessment-derived BRPs over the Schaefer-derived ones ## NOTE THIS IS NOW HANDLED IN THE QUERY
-#both.dat.ord <- both.dat[order(both.dat$assessid,both.dat$tsyear),]
-
-
-#oo <- unlist(tapply(both.dat.ord$assessid,paste(both.dat.ord$assessid,both.dat.ord$tsyear,sep="." ), order))
-#oo2 <- tapply(oo,paste(both.dat.ord$assessid,both.dat.ord$tsyear,sep="." ),var)
-
-#both.dat.singleBRP <- both.dat.ord[oo==1,]
 
 ## keep only years 1950 to 2008
 both.dat.singleBRP.1950to2008 <- subset(both.dat, tsyear <= 2008 & tsyear >= 1950)
@@ -200,6 +184,5 @@ transposed.dat$Ftype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-FFmsy-20100714.csv", row.names=FALSE)
-
+write.csv(transposed.dat,"PINSKY-FFmsy-20100804.csv", row.names=FALSE)
 

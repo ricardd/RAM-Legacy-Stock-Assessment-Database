@@ -65,4 +65,4 @@ Loading required package: xtable
 > 
 > proc.time()
    user  system elapsed 
-  0.432   0.020   0.468 
+  0.452   0.012   0.464 

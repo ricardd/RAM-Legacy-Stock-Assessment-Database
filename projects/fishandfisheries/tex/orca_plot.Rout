@@ -23,7 +23,7 @@ Type 'q()' to quit R.
 > ## plot the count of assessments for a given data type by year in the database
 > ## DR, CM
 > ## date: Tue Dec  1 14:26:02 AST 2009
-> ## Time-stamp: <2010-06-10 09:55:42 (srdbadmin)>
+> ## Time-stamp: <2010-08-04 16:15:04 (srdbadmin)>
 > ##-----------------------------------------------------------------------------
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
@@ -127,7 +127,8 @@ Loading required package: RODBC
 +                      rep(c(rep(1,4),rep(3,4),rep(5,4)),4)
 +                      ), nrow=6,byrow=TRUE)
 > 
-> pdf("./orca_plot_v2.pdf", height=3, width=6.7, pointsize=1)
+> #pdf("./orca_plot_v2.pdf", height=3, width=6.7, pointsize=1)
+> png("./orca_plot_v2.png", height=400, width=800)
 > ##bitmap("./orca_plot.png", width=8,height=5, type="png256", res=1000,units="in", pointsize=12)
 > ##postscript("./orca_plot.eps", height=5, width=8, pointsize=1)
 > layout(layout.mat)
@@ -223,6 +224,6 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  0.788   0.028   1.268 
+  0.836   0.024   1.130 
 Warning message:
 closing unused RODBC handle 1 

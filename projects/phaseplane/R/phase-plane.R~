@@ -1,6 +1,6 @@
 ## R code to produce phase-plane plots for all the assessments where SSBmsy and Fmsy are defined
 ## Started 2010-02-12 DR
-## Time-stamp: <Last modified: 2 MARCH   (srdbadmin)>
+## Time-stamp: <2010-05-11 11:20:53 (srdbadmin)>
 
 require(RODBC)
 require(gplots)
@@ -131,45 +131,45 @@ odbcClose(chan)
 
 
 ## ### sandbox
-## direction and magnitude of the vector linking each subsequent years
-## 
-for (i in 1:length(a)) {
-temp<-subset(my.dat, assessid==a[i])
+### direction and magnitude of the vector linking each subsequent years
+### 
+#for (i in 1:length(a)) {
+#temp<-subset(my.dat, assessid==a[i])
 
-# time window to calculate direction and magnitude 
-minyr <- min(temp$tsyear) + 1
-maxyr <- max(temp$tsyear)
-n.pts <-maxyr-minyr
+## time window to calculate direction and magnitude 
+#minyr <- min(temp$tsyear) + 1
+#maxyr <- max(temp$tsyear)
+#n.pts <-maxyr-minyr
   
-delta.ssb.f <- data.frame(tsyear=rep(-99,n.pts), delta.ssb=rep(-99,n.pts), delta.f=rep(-99,n.pts), delta.dir=rep(-99,n.pts), delta.mag=rep(-99,n.pts))
+#delta.ssb.f <- data.frame(tsyear=rep(-99,n.pts), delta.ssb=rep(-99,n.pts), delta.f=rep(-99,n.pts), delta.dir=rep(-99,n.pts), delta.mag=rep(-99,n.pts))
 
-# direction in radians for 0 to 2pi
-# magnitude 
+## direction in radians for 0 to 2pi
+## magnitude 
 
-for (y in minyr:maxyr) {
+#for (y in minyr:maxyr) {
   
-  ii<-y-minyr+1 # index for R object "temp"
-  ind<-ii-1 # index for data frame delta.ssb.f 
-  print (paste(y,ii,ind))
-delta.ssb.f$tsyear[ind]=y
-delta.ssb.f$delta.ssb[ind] <- temp$ssbrelativetossbmsy[ii-1] - temp$ssbrelativetossbmsy[ii]
-delta.ssb.f$delta.f[ind] <- temp$frelativetofmsy[ii-1] - temp$frelativetofmsy[ii]
-delta.ssb.f$delta.mag[ind] <- sqrt((delta.ssb.f$delta.ssb[ind])^2+(delta.ssb.f$delta.f[ind])^2)
-delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
-##print(delta.ssb.f[ind])
-## atan(delta.ssb.f$delta.f[ind]/delta.ssb.f$delta.ssb[ind]) ## THIS DOESN'T WORK
-}
+#  ii<-y-minyr+1 # index for R object "temp"
+#  ind<-ii-1 # index for data frame delta.ssb.f 
+#  print (paste(y,ii,ind))
+#delta.ssb.f$tsyear[ind]=y
+#delta.ssb.f$delta.ssb[ind] <- temp$ssbrelativetossbmsy[ii-1] - temp$ssbrelativetossbmsy[ii]
+#delta.ssb.f$delta.f[ind] <- temp$frelativetofmsy[ii-1] - temp$frelativetofmsy[ii]
+#delta.ssb.f$delta.mag[ind] <- sqrt((delta.ssb.f$delta.ssb[ind])^2+(delta.ssb.f$delta.f[ind])^2)
+#delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
+###print(delta.ssb.f[ind])
+### atan(delta.ssb.f$delta.f[ind]/delta.ssb.f$delta.ssb[ind]) ## THIS DOESN'T WORK
+#}
 
-par(mfrow=c(2,1))
-plot(delta.ssb.f$tsyear, delta.ssb.f$delta.mag, type='b', lty=1, lwd=3, pch=1, col='red')
-plot(delta.ssb.f$tsyear, delta.ssb.f$delta.dir, lty=1, lwd=3, pch=1, col='red')
+#par(mfrow=c(2,1))
+#plot(delta.ssb.f$tsyear, delta.ssb.f$delta.mag, type='b', lty=1, lwd=3, pch=1, col='red')
+#plot(delta.ssb.f$tsyear, delta.ssb.f$delta.dir, lty=1, lwd=3, pch=1, col='red')
 
 
-}
+#}
 
-##  delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
-  ## transform the direction to [0,2pi[
-##  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
-##  delta.ssb.f$delta.dir.2pi[ind] <- delta.ssb.f$delta.dir.2pi[ind] - (pi/2)
-##  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
+###  delta.ssb.f$delta.dir[ind] <- atan2(delta.ssb.f$delta.f[ind],delta.ssb.f$delta.ssb[ind])
+#  ## transform the direction to [0,2pi[
+###  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
+###  delta.ssb.f$delta.dir.2pi[ind] <- delta.ssb.f$delta.dir.2pi[ind] - (pi/2)
+###  if (delta.ssb.f$delta.dir.2pi[ind]<0) delta.ssb.f$delta.dir.2pi[ind]<- delta.ssb.f$delta.dir.2pi[ind]+(2*pi)
 

@@ -1,0 +1,17 @@
+digraph g {
+node [ fontsize = "10", shape = record ];
+edge [];
+
+"srdb.area" [shape = record, label = "{<col0> \N| country:  character varying(50)\lareatype:  character varying(40)\lareacode:  character varying(50)\lareaname:  character varying(100)\lalternateareaname:  character varying(50)\lareaid:  character varying(70)\l}" ];
+
+"srdb.assessment" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lassessorid:  character varying(40)\lstockid:  character varying(40)\lrecorder:  character varying(40)\ldaterecorded:  date\ldateloaded:  date\lassessyear:  character varying(9)\lassesssource:  character varying(1000)\lcontacts:  character varying(300)\lnotes:  character varying(1000)\lpdffile:  character varying(300)\lassess:  integer\lrefpoints:  integer\lassessmethod:  character varying(200)\lassesscomments:  character varying(1000)\lxlsfilename:  character varying(100)\l}" ];
+
+
+"srdb.area" -> "srdb.management" [label="area_areatype_fkey"];
+"srdb.assessment" -> "srdb.assessor" [label="assessment_assessorid_fkey"];
+"srdb.assessment" -> "srdb.stock" [label="assessment_stockid_fkey"];
+"srdb.assessment" -> "srdb.recorder" [label="assessment_recorder_fkey"];
+"srdb.assessment" -> "srdb.assessmethod" [label="assessment_assessmethod_fkey"];
+}
+
+

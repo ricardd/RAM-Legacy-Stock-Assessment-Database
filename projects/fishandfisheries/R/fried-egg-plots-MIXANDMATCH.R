@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-08-04 16:03:22 (srdbadmin)>
+## Last modified: Time-stamp: <2010-09-14 15:04:58 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -259,10 +259,18 @@ mgmt.dat <- sqlQuery(chan, qu)
   
 ##  write.table(crosshair.for.table.temp, "crosshair-table.dat")
 #  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype, ref=crosshair.for.table.temp$ref)
+
  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype) # , ref=crosshair.for.table.temp$ref)
+
+crosshair.for.table.withref <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype, ref=crosshair.for.table.temp$ref)
 
   crosshair.for.table$scientificname <- paste("\\textit{",crosshair.for.table$scientificname,"}",sep="")
   crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt,crosshair.for.table$scientificname),]
+
+
+  crosshair.for.table.withref$scientificname <- paste("\\textit{",crosshair.for.table$scientificname,"}",sep="")
+  crosshair.for.table.withref <- crosshair.for.table[order(crosshair.for.table$mgmt,crosshair.for.table$scientificname),]
+
 
   write.table(crosshair.for.table, "crosshair-table.dat")
   write.csv(crosshair.for.table, "crosshair-table.csv")
@@ -270,10 +278,12 @@ mgmt.dat <- sqlQuery(chan, qu)
 my.caption <- c("Summary of population-dynamics model based assessments in the RAM Legacy database, including the management body (acronyms from Table 1), assessment method, timespan of their longest time series data, estimated ratios of current biomass to the biomass at MSY and current harvest rate to the harvest rate that results in MSY. Estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production models. When both SSBmsy and Bmsy reference points were available, SSB was chosen preferentially.")
 
   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
-#  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}c")
+  my.table.S2.withref <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}c")
   print(my.table.S2, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
   print(my.table.S2, type="html", file="../tex/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+
+  print(my.table.S2.withref, type="latex", file="../tex/Table-S1-withref.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 #  write.table(my.table.S2, "../tex/Table-S1.tex")
 #  sink("../tex/Table-S1.tex")
@@ -453,8 +463,8 @@ legend("topright",my.label)
 
 
 ## now generate some PDF with plots
-#pdf("friedegg-single.pdf", width=8, height=10)
-png("friedegg-single.png", width=800, height=1000)
+pdf("friedegg-single.pdf", width=8, height=10)
+#png("friedegg-single.png", width=800, height=1000)
 
 multipanel <- "FALSE"
   if(multipanel){
@@ -465,8 +475,8 @@ dev.off()
 
 
 
-#pdf("friedegg-by-mgmt.pdf", width=8, height=10)
-png("friedegg-by-mgmt.png", width=800, height=1000)
+pdf("friedegg-by-mgmt.pdf", width=8, height=10)
+#png("friedegg-by-mgmt.png", width=800, height=1000)
 multipanel <- "TRUE"
   if(multipanel){
     par(mar=c(2,2,1,1), oma=c(2,2,0,0))

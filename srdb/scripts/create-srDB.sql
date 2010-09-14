@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2010-07-13 14:39:59 (srdbadmin)>
+-- Last modified: Time-stamp: <2010-08-31 11:08:13 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -17,12 +17,17 @@
 -- 2008-11-27: adding tables for RIS fields/ citation data
 -- 2009-03-02: adding tables for LMEs
 -- 2009-03-10: adding table for recorders
+-- 2010-08-31: adding comments on the tables and views, I haven't used this script for a long time since there is rarely a need to rebuild the database from scratch now
+
+-- COMMENT ON DATABASE srdb IS 'RAM Legacy assessment database.';
 
 -- create a separate schema for this database
 CREATE SCHEMA srdb;
--- create a separate schema for the recovery work
-CREATE SCHEMA srdbrecovery;
 
+-- create a separate schema for the recovery work 
+-- CREATE SCHEMA srdbrecovery;
+
+COMMENT ON SCHEMA srdb IS 'This schema handles all tables and views for the RAM Legacy assessment database.';
 
 -- table for the different management authorities
 CREATE TABLE srdb.management (
@@ -36,6 +41,8 @@ FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/mgmt.dat'
 -- FROM './data/mgmt.dat'
 CSV HEADER 
 ;
+
+COMMENT ON TABLE srdb.management IS 'Management bodies, used in the definition of stock areas and stock assessors.';
 
 
 -- table for the different geographic areas
@@ -69,6 +76,8 @@ UPDATE srDB.area SET areaID = (country || '-' || areatype || '-' || areacode);
 ALTER TABLE srDB.area 
 ADD PRIMARY KEY (areaID);
 
+COMMENT ON TABLE srdb.area IS 'Stock areas, used in the definition of stocks.';
+
 -- table for taxonomic information
 CREATE TABLE srdb.taxonomy (
 tsn INT PRIMARY KEY,
@@ -93,6 +102,7 @@ FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/taxonomy.dat'
 CSV HEADER 
 ;
 
+COMMENT ON TABLE srdb.taxonomy IS 'Taxonomic information obtained from the Integrated Taxonomic Information System (ITIS). Negative values for taxonomic serial number (TSN) are used in cases where a stock is of a species not present in ITIS.';
 
 ---
 -- table for the different stocks
@@ -112,7 +122,7 @@ MYERSstockid VARCHAR(40)
 --areaID VARCHAR(70) REFERENCES srdb.area
 --);
 
-
+COMMENT ON TABLE srdb.stock IS 'A stock consists of a species (field "tsn" from srdb.taxonomy), an area (field "areaid" from srdb.area). This table also keeps track of stocks that were in RAM''s original database and the name used there if it is different from the stockid defined in the RAM Legacy database';
 
 -- table for the different assessors
 CREATE TABLE srdb.assessor (
@@ -122,6 +132,8 @@ country VARCHAR(50),
 assessorfull VARCHAR(200)
 );
 
+COMMENT ON TABLE srdb.assessmethod IS 'Details of assessors. An assessor must be associated with a management boby from the table srdb.management.';
+
 
 -- table for the different assessment methods
 CREATE TABLE srdb.assessmethod (
@@ -129,6 +141,8 @@ category VARCHAR(100),
 methodshort VARCHAR(20) PRIMARY KEY,
 methodlong VARCHAR(200)
 );
+
+COMMENT ON TABLE srdb.assessmethod IS 'Details of assessment methods.';
 
 
 -- table for the different recorders
@@ -147,6 +161,8 @@ COPY srDB.recorder
 FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/recorders.dat'
 CSV HEADER
 ;
+
+COMMENT ON TABLE srdb.recorder IS 'Details for recorders of assessments.';
 
 
 --ALTER TABLE srDB.recorder
@@ -179,6 +195,7 @@ assesscomments VARCHAR(1000),
 xlsfilename VARCHAR(100)
 );
 
+COMMENT ON TABLE srdb.assessment IS 'Assesment-level details, defines ASSESSID.';
 
 -- table for references to stock assessment documents
 --CREATE TABLE srdb.references (
@@ -208,6 +225,9 @@ UPDATE srDB.tsmetrics SET tsunique = (tsshort || '-' || tsunitsshort);
 ALTER TABLE srDB.tsmetrics
 ADD PRIMARY KEY (tsunique);
 
+COMMENT ON TABLE srdb.tsmetrics IS 'Definition of tiemseries such as recruits, spawning stock biomass, total abundance, etc.';
+
+
 -- table for time-series
 CREATE TABLE srdb.timeseries (
 assessid VARCHAR(200) REFERENCES srdb.assessment,
@@ -215,6 +235,8 @@ tsid VARCHAR(40) REFERENCES srdb.tsmetrics,
 tsyear INT,
 tsvalue FLOAT
 );
+
+COMMENT ON TABLE srdb.timeseries IS 'Values of timeseries';
 
 
 -- codes for point metrics
@@ -240,6 +262,8 @@ UPDATE srDB.biometrics SET biounique = (bioshort || '-' || biounitsshort);
 ALTER TABLE srDB.biometrics
 ADD PRIMARY KEY (biounique);
 
+COMMENT ON TABLE srdb.biometrics IS 'Definition of point metrics such as reference points, life-history parameters and description of timeseries (e.g. age of recruitment, ages used in F calculations, etc.).';
+
 -- table for biological parameters
 CREATE TABLE srdb.bioparams (
 assessid VARCHAR(200),
@@ -248,6 +272,8 @@ biovalue VARCHAR(200),
 bionotes VARCHAR(1000),
 bioyear VARCHAR(15)
 );
+
+COMMENT ON TABLE srdb.bioparams IS 'Values of point metrics.';
 
 -- table for RIS data fields for handling references
 CREATE TABLE srdb.risfields (
@@ -264,6 +290,8 @@ FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/risfields.dat'
 CSV HEADER 
 ;
 
+COMMENT ON TABLE srdb.risfields IS 'Name of RIS fields.';
+
 -- restrict possible values for certain RIS fields
 CREATE TABLE srdb.risfieldvalues (
 risfield VARCHAR(50) REFERENCES srDB.risfields,
@@ -277,6 +305,9 @@ FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/risfieldvalues.dat'
 CSV HEADER 
 ;
 
+COMMENT ON TABLE srdb.risfieldvalues IS 'Allowed RIS field values.';
+
+
 -- table for actual references (data to be loaded from assessments)
 CREATE TABLE srdb.referencedoc (
 assessid VARCHAR(200) REFERENCES srdb.assessment,
@@ -284,3 +315,4 @@ risfield VARCHAR(50) REFERENCES srdb.risfields,
 risentry VARCHAR(300) 
 );
 
+COMMENT ON TABLE srdb.referencedoc IS 'RIS fields containing the reference document for an assessment.';

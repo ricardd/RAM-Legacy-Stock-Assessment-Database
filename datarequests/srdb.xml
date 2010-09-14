@@ -1,0 +1,4225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Header: /cvsroot/autodoc/autodoc/xml.tmpl,v 1.2 2006/05/16 19:01:27 rbt Exp $ -->
+
+<book id="database.srdb" xreflabel="srdb database schema"><title>srdb Model</title>
+
+
+
+
+  <chapter id="srdb.schema"
+           xreflabel="srdb">
+    <title>Schema srdb</title>
+    <para>This schema handles all tables and views for the RAM Legacy assessment database.</para>
+
+
+      <section id="srdb.table.area"
+               xreflabel="srdb.area">
+        <title id="srdb.table.area-title">
+         Table:
+         
+         <structname>area</structname>
+        </title>
+ 
+
+        <para>
+          Stock areas, used in the definition of stocks.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>area</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>country</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areatype</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.management"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areacode</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areaname</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>alternateareaname</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areaid</structfield></term>
+              <listitem><para>
+                <type>character varying(70)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing stock via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.stock"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.assessment"
+               xreflabel="srdb.assessment">
+        <title id="srdb.table.assessment-title">
+         Table:
+         
+         <structname>assessment</structname>
+        </title>
+ 
+
+        <para>
+          Assesment-level details, defines ASSESSID.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>assessment</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessorid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.assessor"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>stockid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.stock"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>recorder</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.recorder"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>daterecorded</structfield></term>
+              <listitem><para>
+                <type>date</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>dateloaded</structfield></term>
+              <listitem><para>
+                <type>date</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessyear</structfield></term>
+              <listitem><para>
+                <type>character varying(9)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assesssource</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>contacts</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>notes</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>pdffile</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assess</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>refpoints</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessmethod</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.assessmethod"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assesscomments</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>xlsfilename</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+        <variablelist>
+          <title>Indexes on assessment</title>
+
+          <varlistentry>
+            <term>assessment_index_assessid</term>
+            <listitem><para>assessid</para></listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing timeseries via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.timeseries"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.assessmethod"
+               xreflabel="srdb.assessmethod">
+        <title id="srdb.table.assessmethod-title">
+         Table:
+         
+         <structname>assessmethod</structname>
+        </title>
+ 
+
+        <para>
+          Details of assessment methods.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>assessmethod</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>category</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>methodshort</structfield></term>
+              <listitem><para>
+                <type>character varying(20)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>methodlong</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing assessment via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.assessment"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.assessor"
+               xreflabel="srdb.assessor">
+        <title id="srdb.table.assessor-title">
+         Table:
+         
+         <structname>assessor</structname>
+        </title>
+ 
+
+        <para>
+          Details of assessors. An assessor must be associated with a management boby from the table srdb.management.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>assessor</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessorid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>mgmt</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.management"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>country</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessorfull</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing assessment via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.assessment"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.biometrics"
+               xreflabel="srdb.biometrics">
+        <title id="srdb.table.biometrics-title">
+         Table:
+         
+         <structname>biometrics</structname>
+        </title>
+ 
+
+        <para>
+          Definition of point metrics such as reference points, life-history parameters and description of timeseries (e.g. age of recruitment, ages used in F calculations, etc.).
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>biometrics</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>category</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>subcategory</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bioshort</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>biolong</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>biounitsshort</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>biounitslong</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>biounique</structfield></term>
+              <listitem><para>
+                <type>character varying(70)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing bioparams via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.bioparams"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.bioparams"
+               xreflabel="srdb.bioparams">
+        <title id="srdb.table.bioparams-title">
+         Table:
+         
+         <structname>bioparams</structname>
+        </title>
+ 
+
+        <para>
+          Values of point metrics.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>bioparams</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bioid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.biometrics"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>biovalue</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bioyear</structfield></term>
+              <listitem><para>
+                <type>character varying(15)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bionotes</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.fishbasesaupcodes"
+               xreflabel="srdb.fishbasesaupcodes">
+        <title id="srdb.table.fishbasesaupcodes-title">
+         Table:
+         
+         <structname>fishbasesaupcodes</structname>
+        </title>
+ 
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>fishbasesaupcodes</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>taxonkey</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>specode</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>taxonnom_taxonname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>commonname</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>scientificname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.taxonomy"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.management"
+               xreflabel="srdb.management">
+        <title id="srdb.table.management-title">
+         Table:
+         
+         <structname>management</structname>
+        </title>
+ 
+
+        <para>
+          Management bodies, used in the definition of stock areas and stock assessors.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>management</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>mgmt</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>country</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>managementauthority</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing area via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.area"/>
+            </para>
+          </listitem>
+
+
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.assessor"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.recorder"
+               xreflabel="srdb.recorder">
+        <title id="srdb.table.recorder-title">
+         Table:
+         
+         <structname>recorder</structname>
+        </title>
+ 
+
+        <para>
+          Details for recorders of assessments.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>recorder</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>firstname</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>lastname</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>email</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>institution</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>address</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>phonenumber</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>notes</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>nameinxls</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing assessment via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.assessment"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.view.reference-point-units-view"
+               xreflabel="srdb.reference_point_units_view">
+        <title id="srdb.view.reference-point-units-view-title">
+         View:
+         
+         <structname>reference_point_units_view</structname>
+        </title>
+ 
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>reference_point_units_view</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>common</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>area</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>points_available</structfield></term>
+              <listitem><para>
+                <type>bigint</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bmsy_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbmsy_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>blim_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssblim_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbpa_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbtarget_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>umsy_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>fmsy_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>flim_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+        <figure>
+         <title>Definition of view reference_point_units_view</title>
+         <programlisting>
+SELECT aa.assessid
+, aa.common
+, aa.area
+, aa.points_available
+, aa.bmsy_unit
+, aa.ssbmsy_unit
+, aa.blim_unit
+, aa.ssblim_unit
+, aa.ssbpa_unit
+, aa.ssbtarget_unit
+, aa.umsy_unit
+, aa.fmsy_unit
+, aa.flim_unit 
+FROM (
+SELECT biopar.assessid
+     , stock.commonname AS common
+     , area.areaname AS area
+     , count
+     (*) AS points_available
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Bmsy-MT&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS bmsy_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;SSBmsy-MT&apos;::character varying
+                                         ,&apos;SSBmsy-E03egss&apos;::character varying
+                                         ,&apos;SSBmsy-E06larvae&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS ssbmsy_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Blim-MT&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS blim_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBlim-MT&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS ssblim_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBpa-MT&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS ssbpa_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBtarget-MT&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS ssbtarget_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Umsy-ratio&apos;::text
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS umsy_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;Fmsy-1/yr&apos;::character varying
+                                         ,&apos;Fmsy-1/T&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS fmsy_unit
+     , min
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;Flim-1/yr&apos;::character varying
+                                         ,&apos;Flim-1/T&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biometrics.biounitsshort ELSE NULL::character varying END
+           )::text
+     ) AS flim_unit 
+  FROM srdb.bioparams biopar
+     , srdb.biometrics
+     , srdb.assessment assess
+     , srdb.stock stock
+     , srdb.area area 
+ WHERE (
+           (
+                 (
+                       (
+                             (biopar.bioid)::text = 
+                             (biometrics.biounique)::text
+                       )
+                     AND (
+                             (stock.stockid)::text = 
+                             (assess.stockid)::text
+                       )
+                 )
+               AND (
+                       (stock.areaid)::text = 
+                       (area.areaid)::text
+                 )
+           )
+         AND (
+                 (biopar.assessid)::text = 
+                 (assess.assessid)::text
+           )
+     )
+GROUP BY biopar.assessid
+     , stock.commonname
+     , area.areaname 
+ORDER BY biopar.assessid
+) aa;</programlisting>
+        </figure>
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.view.reference-point-values-view"
+               xreflabel="srdb.reference_point_values_view">
+        <title id="srdb.view.reference-point-values-view-title">
+         View:
+         
+         <structname>reference_point_values_view</structname>
+        </title>
+ 
+
+        <para>
+          This is a view that organises the reference points into separate columns.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>reference_point_values_view</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>common</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>area</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>points_available</structfield></term>
+              <listitem><para>
+                <type>bigint</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bmsy</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbmsy</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>blim</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssblim</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbpa</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssbtarget</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>umsy</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>fmsy</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>flim</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+        <figure>
+         <title>Definition of view reference_point_values_view</title>
+         <programlisting>
+SELECT aa.assessid
+, aa.common
+, aa.area
+, aa.points_available
+, aa.bmsy
+, aa.ssbmsy
+, aa.blim
+, aa.ssblim
+, aa.ssbpa
+, aa.ssbtarget
+, aa.umsy
+, aa.fmsy
+, aa.flim 
+FROM (
+SELECT biopar.assessid
+     , stock.commonname AS common
+     , area.areaname AS area
+     , count
+     (*) AS points_available
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (upper
+                             (
+                                   (biometrics.subcategory)::text
+                             ) = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Bmsy-MT&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS bmsy
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (upper
+                             (
+                                   (biometrics.subcategory)::text
+                             ) = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;SSBmsy-MT&apos;::character varying
+                                         ,&apos;SSBmsy-E03egss&apos;::character varying
+                                         ,&apos;SSBmsy-E06larvae&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS ssbmsy
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Blim-MT&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS blim
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBlim-MT&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS ssblim
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBpa-MT&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS ssbpa
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;SSBtarget-MT&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS ssbtarget
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = &apos;Umsy-ratio&apos;::text
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS umsy
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;Fmsy-1/yr&apos;::character varying
+                                         ,&apos;Fmsy-1/T&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS fmsy
+     , max
+     (
+           (CASE WHEN 
+                 (
+                       (
+                             (biometrics.subcategory)::text = &apos;REFERENCE POINTS ETC.&apos;::text
+                       )
+                     AND (
+                             (biometrics.biounique)::text = ANY 
+                             (
+                                   (ARRAY[&apos;Flim-1/yr&apos;::character varying
+                                         ,&apos;Flim-1/T&apos;::character varying]
+                                   )::text[]
+                             )
+                       )
+                 ) THEN biopar.biovalue ELSE NULL::character varying END
+           )::text
+     ) AS flim 
+  FROM srdb.bioparams biopar
+     , srdb.biometrics
+     , srdb.assessment assess
+     , srdb.stock stock
+     , srdb.area area 
+ WHERE (
+           (
+                 (
+                       (
+                             (biopar.bioid)::text = 
+                             (biometrics.biounique)::text
+                       )
+                     AND (
+                             (stock.stockid)::text = 
+                             (assess.stockid)::text
+                       )
+                 )
+               AND (
+                       (stock.areaid)::text = 
+                       (area.areaid)::text
+                 )
+           )
+         AND (
+                 (biopar.assessid)::text = 
+                 (assess.assessid)::text
+           )
+     )
+GROUP BY biopar.assessid
+     , stock.commonname
+     , area.areaname 
+ORDER BY biopar.assessid
+) aa;</programlisting>
+        </figure>
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.spfits"
+               xreflabel="srdb.spfits">
+        <title id="srdb.table.spfits-title">
+         Table:
+         
+         <structname>spfits</structname>
+        </title>
+ 
+
+        <para>
+          This table stores the parameter estimates from the Schaefer surplus production model ran against the catch and total biomass timeseries.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>spfits</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>rownames</structfield></term>
+              <listitem><para>
+                <type>character varying(255)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(255)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>lnk</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>k</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>lnmsy</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>msy</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>bmsy</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>fmsy</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>qualityflag</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.stock"
+               xreflabel="srdb.stock">
+        <title id="srdb.table.stock-title">
+         Table:
+         
+         <structname>stock</structname>
+        </title>
+ 
+
+        <para>
+          A stock consists of a species (field &quot;tsn&quot; from srdb.taxonomy), an area (field &quot;areaid&quot; from srdb.area). This table also keeps track of stocks that were in RAM&apos;s original database and the name used there if it is different from the stockid defined in the RAM Legacy database
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>stock</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>stockid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsn</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.taxonomy"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>scientificname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>commonname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areaid</structfield></term>
+              <listitem><para>
+                <type>character varying(70)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.area"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>stocklong</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>inmyersdb</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>myersstockid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing assessment via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.assessment"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.taxonomy"
+               xreflabel="srdb.taxonomy">
+        <title id="srdb.table.taxonomy-title">
+         Table:
+         
+         <structname>taxonomy</structname>
+        </title>
+ 
+
+        <para>
+          Taxonomic information obtained from the Integrated Taxonomic Information System (ITIS). Negative values for taxonomic serial number (TSN) are used in cases where a stock is of a species not present in ITIS.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>taxonomy</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>tsn</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>scientificname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+                      <literal>UNIQUE</literal>
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>kingdom</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>phylum</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>classname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ordername</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>family</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>genus</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>species</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>myersname</structfield></term>
+              <listitem><para>
+                <type>character varying(20)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>commonname1</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>commonname2</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>myersscientificname</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>myersfamily</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing fishbasesaupcodes via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.fishbasesaupcodes"/>
+            </para>
+          </listitem>
+
+
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.stock"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.timeseries"
+               xreflabel="srdb.timeseries">
+        <title id="srdb.table.timeseries-title">
+         Table:
+         
+         <structname>timeseries</structname>
+        </title>
+ 
+
+        <para>
+          Values of timeseries
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>timeseries</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.assessment"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.tsmetrics"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsyear</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsvalue</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+        <variablelist>
+          <title>Indexes on timeseries</title>
+
+          <varlistentry>
+            <term>ts_index_assessid</term>
+            <listitem><para>assessid</para></listitem>
+          </varlistentry>
+
+
+
+          <varlistentry>
+            <term>ts_index_year</term>
+            <listitem><para>tsyear</para></listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.view.timeseries-units-view"
+               xreflabel="srdb.timeseries_units_view">
+        <title id="srdb.view.timeseries-units-view-title">
+         View:
+         
+         <structname>timeseries_units_view</structname>
+        </title>
+ 
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>timeseries_units_view</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>count</structfield></term>
+              <listitem><para>
+                <type>bigint</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssb_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>r_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>total_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>f_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>cpue_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>catch_landings_unit</structfield></term>
+              <listitem><para>
+                <type>text</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+        <figure>
+         <title>Definition of view timeseries_units_view</title>
+         <programlisting>
+SELECT ts.assessid
+, count
+(*) AS count
+, CASE WHEN srdb_metric_boolean
+(&apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+     ,&apos;SSB-MT&apos;::text
+     , (ts.assessid)::text
+) THEN min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-MT&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) ELSE CASE WHEN srdb_metric_boolean
+(&apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+     ,&apos;SSB-1-MT&apos;::text
+     , (ts.assessid)::text
+) THEN min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-1-MT&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) ELSE CASE WHEN srdb_metric_boolean
+(&apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+     ,&apos;SSB-E03&apos;::text
+     , (ts.assessid)::text
+) THEN min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-E03&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) ELSE CASE WHEN srdb_metric_boolean
+(&apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+     ,&apos;SSB-E03eggs&apos;::text
+     , (ts.assessid)::text
+) THEN min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-E03eggs&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) ELSE CASE WHEN srdb_metric_boolean
+(&apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+     ,&apos;SSB-E06larvae&apos;::text
+     , (ts.assessid)::text
+) THEN min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-E06larvae&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) ELSE min
+(
+     (CASE WHEN 
+           (
+                 (
+                       (tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+                 )
+               AND (
+                       (tm.tsunique)::text = &apos;SSB-relative&apos;::text
+                 )
+           ) THEN tm.tsunitsshort ELSE NULL::character varying END
+     )::text
+) END END END END END AS ssb_unit
+, CASE WHEN srdb_metric_boolean
+(&apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+,&apos;R-MT&apos;::text
+, (ts.assessid)::text
+)      THEN min
+(     
+(CASE WHEN 
+     (
+           (
+                 (tm.tscategory)::text = 
+&apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+     )
+   AND (
+           (tm.tsunique)::text = &apos;R-MT&apos;::text
+     )
+) THEN tm.tsunitsshort ELSE NULL::character varying END
+)     ::text
+)            ELSE CASE WHEN srdb_metric_boolean
+(           &apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+,           &apos;R-E03&apos;::text
+,            (ts.assessid)::text
+)                  THEN min
+(                 
+(           CASE WHEN 
+(     
+(
+     (tm.tscategory)::text = 
+&apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+)     
+AND    (
+(tm.tsunique)::text = &apos;R-E03&apos;::text
+)     
+)            THEN tm.tsunitsshort ELSE NULL::character varying END
+)                 ::text
+)                        ELSE CASE WHEN srdb_metric_boolean
+(                       &apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+,                       &apos;R-1-E03&apos;::text
+,                        (ts.assessid)::text
+)                              THEN min
+(                             
+(                       CASE WHEN 
+(                 
+(           
+(     tm.tscategory)::text = 
+&apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+)                 
+AND                (
+(           tm.tsunique)::text = &apos;R-1-E03&apos;::text
+)                 
+)                        THEN tm.tsunitsshort ELSE NULL::character varying END
+)                             ::text
+)                                    ELSE min
+(                                   
+(                             CASE WHEN 
+(                       
+(                 
+(           tm.tscategory)::text = 
+&apos;RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT)&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;R-relative&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          END END END AS r_unit
+,                                          CASE WHEN srdb_metric_boolean
+(                                         &apos;TOTAL BIOMASS&apos;::text
+,                                   &apos;TB-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;TOTAL BIOMASS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TB-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         &apos;TOTAL BIOMASS&apos;::text
+,                                   &apos;TB-1-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;TOTAL BIOMASS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TB-1-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         &apos;TOTAL BIOMASS&apos;::text
+,                                   &apos;TB-relative&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;TOTAL BIOMASS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TB-relative&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         &apos;TOTAL BIOMASS&apos;::text
+,                                   &apos;TN-E03&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;TOTAL BIOMASS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TN-E03&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;TOTAL BIOMASS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TN-relative&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          END END END END AS total_unit
+,                                          CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;F-1/T&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;F-1/T&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;F-1/yr&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;F-1/yr&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;F-1-1/T&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;F-1-1/T&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;F-unweighted-1/T&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;F-unweighted-1/T&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;ER-ratio&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;ER-ratio&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;FISHING MORTALITY&apos;                 ::text
+,                                   &apos;ER-none&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;ER-none&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;FISHING MORTALITY&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;EI-ratio&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          END END END END END END AS f_unit
+,                                          CASE WHEN srdb_metric_boolean
+(                                         &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+,                                   &apos;CPUEraw-C/E&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;CPUEraw-C/E&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+,                                   &apos;CPUEraw-C/E&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;CPUEraw-2-C/E&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = &apos;SPAWNING STOCK BIOMASS or CPUE&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;CPUE-kgpertow&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          END END AS cpue_unit
+,                                          CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TC-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TC-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TL-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TL-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TC-1-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TC-1-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TL-1-MT&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TL-1-MT&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TC-E03&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TC-E03&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TL-E03&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TL-E03&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE CASE WHEN srdb_metric_boolean
+(                                         
+&apos;CATCH or LANDINGS&apos;                 ::text
+,                                   &apos;TC-1-E03&apos;::text
+,                                    (ts.assessid)::text
+)                                          THEN min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TC-1-E03&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          ELSE min
+(                                         
+(                                   CASE WHEN 
+(                             
+(                       
+(                 tm.tscategory)::text = 
+&apos;CATCH or LANDINGS&apos;::text
+)                       
+AND                      (
+(                 tm.tsunique)::text = &apos;TL-1-E03&apos;::text
+)                       
+)                              THEN tm.tsunitsshort ELSE NULL::character varying END
+)                                   ::text
+)                                          END END END END END END END AS catch_landings_unit 
+FROM                                       srdb.timeseries ts
+,                                          srdb.tsmetrics tm 
+WHERE                                      (
+(                                   ts.tsid)::text = 
+(                                   tm.tsunique)::text
+)                                         
+GROUP BY                                   ts.assessid 
+ORDER BY                                   ts.assessid;</programlisting>
+        </figure>
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.timeseries-values-view"
+               xreflabel="srdb.timeseries_values_view">
+        <title id="srdb.table.timeseries-values-view-title">
+         Table:
+         
+         <structname>timeseries_values_view</structname>
+        </title>
+ 
+
+        <para>
+          This is a materialised view that organises the timeseries into separate columns.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>timeseries_values_view</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsyear</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>pt_avail</structfield></term>
+              <listitem><para>
+                <type>bigint</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>ssb</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>r</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>total</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>f</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>cpue</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>catch_landings</structfield></term>
+              <listitem><para>
+                <type>double precision</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.tsmetrics"
+               xreflabel="srdb.tsmetrics">
+        <title id="srdb.table.tsmetrics-title">
+         Table:
+         
+         <structname>tsmetrics</structname>
+        </title>
+ 
+
+        <para>
+          Definition of timeseries such as recruits, spawning stock biomass, total abundance, etc.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>tsmetrics</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>tscategory</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsshort</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tslong</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsunitsshort</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsunitslong</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>tsunique</structfield></term>
+              <listitem><para>
+                <type>character varying(70)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+        <itemizedlist>
+          <title>
+            Tables referencing timeseries via Foreign Key Constraints
+          </title>
+
+          <listitem>
+            <para>
+              <xref linkend="srdb.table.timeseries"/>
+            </para>
+          </listitem>
+
+        </itemizedlist>
+
+
+
+
+
+
+      </para>
+    </section>
+
+
+
+  </chapter>
+
+</book>
+

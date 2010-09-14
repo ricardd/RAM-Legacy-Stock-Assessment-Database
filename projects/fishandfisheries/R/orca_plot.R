@@ -2,7 +2,7 @@
 ## plot the count of assessments for a given data type by year in the database
 ## DR, CM
 ## date: Tue Dec  1 14:26:02 AST 2009
-## Time-stamp: <2010-08-04 20:12:50 (srdbadmin)>
+## Time-stamp: <2010-09-14 14:58:11 (srdbadmin)>
 ##-----------------------------------------------------------------------------
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
@@ -105,8 +105,8 @@ layout.mat<-matrix(c(
                      rep(c(rep(1,4),rep(3,4),rep(5,4)),4)
                      ), nrow=6,byrow=TRUE)
 
-#pdf("./orca_plot_v2.pdf", height=3, width=6.7, pointsize=1)
-png("./orca_plot_v2.png", height=400, width=800)
+pdf("./orca_plot_v2.pdf", height=3, width=6.7, pointsize=1)
+#png("./orca_plot_v2.png", height=400, width=800)
 ##bitmap("./orca_plot.png", width=8,height=5, type="png256", res=1000,units="in", pointsize=12)
 ##postscript("./orca_plot.eps", height=5, width=8, pointsize=1)
 layout(layout.mat)

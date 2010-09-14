@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- $Header: /cvsroot/autodoc/autodoc/xml.tmpl,v 1.2 2006/05/16 19:01:27 rbt Exp $ -->
+
+<book id="database.srdb" xreflabel="srdb database schema"><title>srdb Model</title>
+
+
+
+
+  <chapter id="fishfisheries.schema"
+           xreflabel="fishfisheries">
+    <title>Schema fishfisheries</title>
+    <para></para>
+
+
+
+
+  </chapter>
+
+  <chapter id="public.schema"
+           xreflabel="public">
+    <title>Schema public</title>
+    <para>Standard public schema</para>
+
+
+
+
+  </chapter>
+
+  <chapter id="srdb.schema"
+           xreflabel="srdb">
+    <title>Schema srdb</title>
+    <para>This schema handles all tables and views for the RAM Legacy assessment database.</para>
+
+
+      <section id="srdb.table.area"
+               xreflabel="srdb.area">
+        <title id="srdb.table.area-title">
+         Table:
+         
+         <structname>area</structname>
+        </title>
+ 
+
+        <para>
+          Stock areas, used in the definition of stocks.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>area</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>country</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areatype</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.management"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areacode</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areaname</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>alternateareaname</structfield></term>
+              <listitem><para>
+                <type>character varying(50)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>areaid</structfield></term>
+              <listitem><para>
+                <type>character varying(70)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+      <section id="srdb.table.assessment"
+               xreflabel="srdb.assessment">
+        <title id="srdb.table.assessment-title">
+         Table:
+         
+         <structname>assessment</structname>
+        </title>
+ 
+
+        <para>
+          Assesment-level details, defines ASSESSID.
+        </para>
+
+
+        <para>
+          <variablelist>
+            <title>
+              Structure of <structname>assessment</structname>
+            </title>
+
+
+            <varlistentry>
+              <term><structfield>assessid</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+                <literal>PRIMARY KEY</literal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessorid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.assessor"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>stockid</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.stock"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>recorder</structfield></term>
+              <listitem><para>
+                <type>character varying(40)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.recorder"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>daterecorded</structfield></term>
+              <listitem><para>
+                <type>date</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>dateloaded</structfield></term>
+              <listitem><para>
+                <type>date</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessyear</structfield></term>
+              <listitem><para>
+                <type>character varying(9)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assesssource</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>contacts</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>notes</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>pdffile</structfield></term>
+              <listitem><para>
+                <type>character varying(300)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assess</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>refpoints</structfield></term>
+              <listitem><para>
+                <type>integer</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assessmethod</structfield></term>
+              <listitem><para>
+                <type>character varying(200)</type>
+
+
+
+
+
+
+
+
+
+
+
+
+                <literal>REFERENCES</literal> <xref linkend="srdb.table.assessmethod"/>
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>assesscomments</structfield></term>
+              <listitem><para>
+                <type>character varying(1000)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+            <varlistentry>
+              <term><structfield>xlsfilename</structfield></term>
+              <listitem><para>
+                <type>character varying(100)</type>
+
+
+
+
+
+
+
+              </para>
+
+            </listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+        <variablelist>
+          <title>Indexes on assessment</title>
+
+          <varlistentry>
+            <term>assessment_index_assessid</term>
+            <listitem><para>assessid</para></listitem>
+          </varlistentry>
+
+        </variablelist>
+
+
+
+
+
+
+
+
+      </para>
+    </section>
+
+
+
+  </chapter>
+
+  <chapter id="srdbuser.schema"
+           xreflabel="srdbuser">
+    <title>Schema srdbuser</title>
+    <para></para>
+
+
+
+
+  </chapter>
+
+</book>
+

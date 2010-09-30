@@ -2,16 +2,105 @@ digraph g {
 node [ fontsize = "10", shape = record ];
 edge [];
 
-"srdb.area" [shape = record, label = "{<col0> \N| country:  character varying(50)\lareatype:  character varying(40)\lareacode:  character varying(50)\lareaname:  character varying(100)\lalternateareaname:  character varying(50)\lareaid:  character varying(70)\l}" ];
+"area" [shape = record, label = "{<col0> \N| country:  character varying(50)\lareatype:  character varying(40)\lareacode:  character varying(50)\lareaname:  character varying(100)\lalternateareaname:  character varying(50)\lareaid:  character varying(70)\l}" ];
 
-"srdb.assessment" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lassessorid:  character varying(40)\lstockid:  character varying(40)\lrecorder:  character varying(40)\ldaterecorded:  date\ldateloaded:  date\lassessyear:  character varying(9)\lassesssource:  character varying(1000)\lcontacts:  character varying(300)\lnotes:  character varying(1000)\lpdffile:  character varying(300)\lassess:  integer\lrefpoints:  integer\lassessmethod:  character varying(200)\lassesscomments:  character varying(1000)\lxlsfilename:  character varying(100)\l}" ];
+"assessment" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lassessorid:  character varying(40)\lstockid:  character varying(40)\lrecorder:  character varying(40)\ldaterecorded:  date\ldateloaded:  date\lassessyear:  character varying(9)\lassesssource:  character varying(1000)\lcontacts:  character varying(300)\lnotes:  character varying(1000)\lpdffile:  character varying(300)\lassess:  integer\lrefpoints:  integer\lassessmethod:  character varying(200)\lassesscomments:  character varying(1000)\lxlsfilename:  character varying(100)\l}" ];
+
+"assessmethod" [shape = record, label = "{<col0> \N| category:  character varying(100)\lmethodshort:  character varying(20)\lmethodlong:  character varying(200)\l}" ];
+
+"assessor" [shape = record, label = "{<col0> \N| assessorid:  character varying(40)\lmgmt:  character varying(40)\lcountry:  character varying(50)\lassessorfull:  character varying(200)\l}" ];
+
+"biometrics" [shape = record, label = "{<col0> \N| category:  character varying(100)\lsubcategory:  character varying(100)\lbioshort:  character varying(40)\lbiolong:  character varying(300)\lbiounitsshort:  character varying(40)\lbiounitslong:  character varying(200)\lbiounique:  character varying(70)\l}" ];
+
+"bioparams" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lbioid:  character varying(40)\lbiovalue:  character varying(200)\lbioyear:  character varying(15)\lbionotes:  character varying(1000)\l}" ];
+
+"brptots" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lbioid:  character varying(70)\ltsid:  character varying(40)\lbrptotsunique:  character varying(300)\l}" ];
+
+"citation" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lpdffile:  character varying(300)\lcitation:  text\l}" ];
+
+"fishbasesaupcodes" [shape = record, label = "{<col0> \N| taxonkey:  integer\lspecode:  integer\ltaxonnom_taxonname:  character varying(200)\lcommonname:  character varying(100)\lscientificname:  character varying(200)\l}" ];
+
+"lmerefs" [shape = record, label = "{<col0> \N| lme_number:  integer\llme_name:  character varying(70)\l}" ];
+
+"lmetostocks" [shape = record, label = "{<col0> \N| stockid:  character varying(40)\llme_number:  integer\lstocktolmerelation:  character varying(10)\l}" ];
+
+"management" [shape = record, label = "{<col0> \N| mgmt:  character varying(40)\lcountry:  character varying(50)\lmanagementauthority:  character varying(200)\l}" ];
+
+"mostrecent" [shape = record, label = "{<col0> \N| stockid:  character varying(40)\lassessid:  character varying(200)\lismostrecent:  integer\lisduplicate:  integer\l}" ];
+
+"newtimeseries_frelative_view" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lf:  double precision\lfmsy:  text\lfrelativetofmsy:  double precision\l}" ];
+
+"newtimeseries_ssbrelative_view" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lssb:  double precision\lssbmsy:  text\lssbrelativetossbmsy:  double precision\l}" ];
+
+"newtimeseries_values_view" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lpt_avail:  bigint\lssb:  double precision\lr:  double precision\ltotal:  double precision\lf:  double precision\lcpue:  double precision\lcatch_landings:  double precision\l}" ];
+
+"phaseplane" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lssbrelativetossbmsy:  double precision\lfrelativetofmsy:  double precision\l}" ];
+
+"qaqc" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lissueid:  integer\ldatesent:  date\ldatereply:  date\ldateapproved:  date\lnotes:  character varying(1000)\lqaqc:  boolean\lissueurl:  character varying(200)\l}" ];
+
+"ramunits" [shape = record, label = "{<col0> \N| ramcat:  character varying(40)\lramunits:  character varying(100)\ltsunitsshort:  character varying(40)\l}" ];
+
+"recorder" [shape = record, label = "{<col0> \N| firstname:  character varying(50)\llastname:  character varying(50)\lemail:  character varying(50)\linstitution:  character varying(100)\laddress:  character varying(1000)\lphonenumber:  character varying(50)\lnotes:  character varying(1000)\lnameinxls:  character varying(50)\l}" ];
+
+"reference_points_units_science2009" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lcommon:  character varying(200)\larea:  character varying(100)\lpoints_available:  bigint\lbmsy_unit:  text\lssbmsy_unit:  text\lblim_unit:  text\lumsy_unit:  text\lfmsy_unit:  text\lflim_unit:  text\l}" ];
+
+"reference_points_values_science2009" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lcommon:  character varying(200)\larea:  character varying(100)\lpoints_available:  bigint\lbmsy:  text\lssbmsy:  text\lblim:  text\lumsy:  text\lfmsy:  text\lflim:  text\l}" ];
+
+"referencedoc" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lrisfield:  character varying(50)\lrisentry:  character varying(300)\l}" ];
+
+"risfields" [shape = record, label = "{<col0> \N| risfield:  character varying(50)\lrisdescription:  character varying(200)\l}" ];
+
+"risfieldvalues" [shape = record, label = "{<col0> \N| risfield:  character varying(50)\lallowedvalueshort:  character varying(10)\lallowedvaluelong:  character varying(200)\l}" ];
+
+"science2009stocks" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\l}" ];
+
+"science2009updated" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\l}" ];
+
+"spfits" [shape = record, label = "{<col0> \N| rownames:  character varying(255)\lassessid:  character varying(255)\llnk:  double precision\lk:  double precision\llnmsy:  double precision\lmsy:  double precision\lbmsy:  double precision\lfmsy:  double precision\lqualityflag:  double precision\l}" ];
+
+"stock" [shape = record, label = "{<col0> \N| stockid:  character varying(40)\ltsn:  integer\lscientificname:  character varying(200)\lcommonname:  character varying(200)\lareaid:  character varying(70)\lstocklong:  character varying(200)\linmyersdb:  integer\lmyersstockid:  character varying(40)\l}" ];
+
+"taxonomy" [shape = record, label = "{<col0> \N| tsn:  integer\lscientificname:  character varying(200)\lkingdom:  character varying(200)\lphylum:  character varying(200)\lclassname:  character varying(200)\lordername:  character varying(200)\lfamily:  character varying(200)\lgenus:  character varying(200)\lspecies:  character varying(200)\lmyersname:  character varying(20)\lcommonname1:  character varying(200)\lcommonname2:  character varying(200)\lmyersscientificname:  character varying(200)\lmyersfamily:  character varying(50)\l}" ];
+
+"timeseries" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsid:  character varying(40)\ltsyear:  integer\ltsvalue:  double precision\l}" ];
+
+"timeseries_units_science2009" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\lcount:  bigint\lssb_unit:  text\lr_unit:  text\ltotal_unit:  text\lf_units:  text\lcpue_unit:  text\lcatch-landings_unit:  text\l}" ];
+
+"timeseries_values_science2009" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lpt_avail:  bigint\lssb:  double precision\lr:  double precision\ltotal:  double precision\lf:  double precision\lcpue:  double precision\lcatch_landings:  double precision\llme_number:  integer\llme_name:  character varying(70)\l}" ];
+
+"timeseries_values_view" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\lpt_avail:  bigint\lssb:  double precision\lr:  double precision\ltotal:  double precision\lf:  double precision\lcpue:  double precision\lcatch_landings:  double precision\l}" ];
+
+"trophiclevel" [shape = record, label = "{<col0> \N| rownames:  character varying(255)\lscientificnamefb:  character varying(255)\lcommonname:  character varying(255)\lscientificname:  character varying(255)\lcommonname1:  character varying(255)\lfamily:  character varying(255)\ltl:  double precision\lsetl:  double precision\llmax:  double precision\ldemersalpelagic:  character varying(255)\lcomment:  character varying(255)\l}" ];
+
+"tsmetrics" [shape = record, label = "{<col0> \N| tscategory:  character varying(200)\ltsshort:  character varying(40)\ltslong:  character varying(200)\ltsunitsshort:  character varying(40)\ltsunitslong:  character varying(300)\ltsunique:  character varying(70)\l}" ];
+
+"tsrelative_explicit_view" [shape = record, label = "{<col0> \N| assessid:  character varying(200)\ltsyear:  integer\ltsid:  character varying(40)\ltsvalue:  double precision\lbioid:  character varying(40)\lbiovalue:  character varying(200)\ltstobrpratio:  double precision\l}" ];
 
 
-"srdb.area" -> "srdb.management" [label="area_areatype_fkey"];
-"srdb.assessment" -> "srdb.assessor" [label="assessment_assessorid_fkey"];
-"srdb.assessment" -> "srdb.stock" [label="assessment_stockid_fkey"];
-"srdb.assessment" -> "srdb.recorder" [label="assessment_recorder_fkey"];
-"srdb.assessment" -> "srdb.assessmethod" [label="assessment_assessmethod_fkey"];
+"area" -> "management" [label="area_areatype_fkey"];
+"assessment" -> "assessor" [label="assessment_assessorid_fkey"];
+"assessment" -> "stock" [label="assessment_stockid_fkey"];
+"assessment" -> "recorder" [label="assessment_recorder_fkey"];
+"assessment" -> "assessmethod" [label="assessment_assessmethod_fkey"];
+"assessor" -> "management" [label="assessor_mgmt_fkey"];
+"bioparams" -> "biometrics" [label="bioparams_bioid_fkey"];
+"brptots" -> "assessment" [label="brptots_assessid_fkey"];
+"brptots" -> "biometrics" [label="brptots_bioid_fkey"];
+"brptots" -> "tsmetrics" [label="brptots_tsid_fkey"];
+"fishbasesaupcodes" -> "taxonomy" [label="fishbasesaupcodes_scientificname_fkey"];
+"lmetostocks" -> "stock" [label="lmetostocks_stockid_fkey"];
+"lmetostocks" -> "lmerefs" [label="lmetostocks_lme_number_fkey"];
+"qaqc" -> "assessment" [label="qaqc_assessid_fkey"];
+"ramunits" -> "tsmetrics" [label="ramunits_tsunitsshort_fkey"];
+"referencedoc" -> "assessment" [label="referencedoc_assessid_fkey"];
+"referencedoc" -> "risfields" [label="referencedoc_risfield_fkey"];
+"risfieldvalues" -> "risfields" [label="risfieldvalues_risfield_fkey"];
+"science2009stocks" -> "assessment" [label="science2009stocks_assessid_fkey"];
+"science2009updated" -> "assessment" [label="science2009updated_assessid_fkey"];
+"stock" -> "taxonomy" [label="stock_tsn_fkey"];
+"stock" -> "area" [label="stock_areaid_fkey"];
+"timeseries" -> "assessment" [label="timeseries_assessid_fkey"];
+"timeseries" -> "tsmetrics" [label="timeseries_tsid_fkey"];
 }
 
 

@@ -1,11 +1,11 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2010-07-15 15:17:53 (srdbadmin)>
+# last modified Time-stamp: <2010-08-03 10:15:55 (srdbadmin)>
 #
 #
 
-fishandfisheries-finaldraft.pdf: fishandfisheries-finaldraft.tex abstract-dynamic.tex results-dynamic.tex fishandfisheries-finaldraft.bbl Table1-formatted.aux Table-S1-formatted.tex
-	pdflatex fishandfisheries-finaldraft
-	pdflatex fishandfisheries-finaldraft
+fishandfisheries-SUBMISSION-August-2010.pdf: fishandfisheries-SUBMISSION-August-2010.tex abstract-dynamic.tex results-dynamic.tex fishandfisheries-SUBMISSION-August-2010.bbl Table1-formatted.aux Table-S1-formatted.tex
+	pdflatex fishandfisheries-SUBMISSION-August-2010
+	pdflatex fishandfisheries-SUBMISSION-August-2010
 
 abstract-dynamic.tex: fishandfisheries-abstract-dynamic.tex Table-S1-formatted.tex
 	../perl/abstract-dynamic.pl # generate the dynamic abstract
@@ -13,8 +13,8 @@ abstract-dynamic.tex: fishandfisheries-abstract-dynamic.tex Table-S1-formatted.t
 results-dynamic.tex: fishandfisheries-results-dynamic.tex Table-S1-formatted.tex
 	../perl/results-dynamic.pl # generate the dynamic results
 
-fishandfisheries-finaldraft.bbl:
-	bibtex fishandfisheries-finaldraft
+fishandfisheries-SUBMISSION-August-2010.bbl:
+	bibtex fishandfisheries-SUBMISSION-August-2010
 
 Table1-formatted.aux: ../R/TL-quadrant-srdb.pdf Table1-formatted.tex
 	R CMD BATCH ../R/generate-Table1.R

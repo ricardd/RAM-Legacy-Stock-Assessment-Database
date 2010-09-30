@@ -1,0 +1,74 @@
+## number-of-stocks.R
+## plot of the number of stocks with B/Bmsy and landings and B/Bmsy, U/Umsy and landins over time
+## Daniel Ricard started
+## Last modified Time-stamp: <2010-09-28 15:14:07 (srdbadmin)>
+require(RODBC)
+chan <- odbcConnect(dsn="srdbcalo")
+
+## stocks with B/Bmsy and landings
+qu <- paste("
+select tsyear, count(distinct(assessid)) as tot from srdb.timeseries_values_view where tsyear >=1950 and assessid in (select assessid from srdb.assessment where assess=1 and recorder !='MYERS') and catch_landings is not null and ssb is not null group by tsyear", sep="")
+
+b.and.landings <- sqlQuery(chan,qu)
+
+## stocks with B/Bmsy, U/Umsy and landings
+qu <- paste("
+select tsyear, count(distinct(assessid)) as tot from srdb.timeseries_values_view where tsyear >=1950 and assessid in (select assessid from srdb.assessment where assess=1 and recorder !='MYERS') and catch_landings is not null and ssb is not null and f is not null group by tsyear", sep="")
+
+b.and.u.and.landings <- sqlQuery(chan,qu)
+
+
+
+# with assessment reference points
+qu <- paste("
+select tsyear, count(distinct(assessid)) as tot from srdb.timeseries_values_view where tsyear >=1950 and assessid in (select assessid from srdb.assessment where assess=1 and recorder !='MYERS') and assessid in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like '%Bmsy%') and catch_landings is not null and ssb is not null group by tsyear", sep="")
+
+b.and.landings.withbrp <- sqlQuery(chan,qu)
+
+qu <- paste("
+select tsyear, count(distinct(assessid)) as tot from srdb.timeseries_values_view where tsyear >=1950 and assessid in (select assessid from srdb.assessment where assess=1 and recorder !='MYERS') and assessid in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like '%Bmsy%') and assessid in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like 'Fmsy%') and catch_landings is not null and ssb is not null group by tsyear", sep="")
+
+b.and.u.and.landings.withbrp <- sqlQuery(chan,qu)
+
+# with either assessment reference point or surplus production reference point
+
+qu.b.schaefer.add <- paste("
+select assessid from srdb.spfits where assessid not in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like '%Bmsy%')
+", sep="")
+b.schaefer.add <- sqlQuery(chan,qu.b.schaefer.add)
+
+qu.f.schaefer.add <- paste("
+select assessid from srdb.spfits where assessid not in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like 'Fmsy%')
+", sep="")
+f.schaefer.add <- sqlQuery(chan,qu.f.schaefer.add)
+
+schaefer.add <- rbind(b.schaefer.add,f.schaefer.add)
+
+schaefer.add <- unique(schaefer.add$assessid)
+
+qu <- paste("
+select tsyear, count(distinct(assessid)) as tot from srdb.timeseries_values_view where tsyear >=1950 and assessid in (select assessid from srdb.assessment where assess=1 and recorder !='MYERS') and assessid in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like '%Bmsy%') or assessid in (select distinct assessid from srdb.tsrelative_explicit_view where bioid like 'Fmsy%') or assessid in (",qu.b.schaefer.add,") or assessid in (",qu.f.schaefer.add,") and catch_landings is not null and ssb is not null group by tsyear
+",sep="")
+
+b.and.u.and.landings.withbrp.schaefer <- sqlQuery(chan,qu)
+
+
+pdf("num-stocks.pdf", width=11, height=8.5)
+plot(b.and.landings$tsyear, b.and.landings$tot, lty=2,type='l')
+lines(b.and.u.and.landings$tsyear, b.and.u.and.landings$tot, lty=1)
+
+lines(b.and.landings.withbrp$tsyear, b.and.landings.withbrp$tot, lty=2,type='l', col='blue')
+lines(b.and.u.and.landings.withbrp$tsyear, b.and.u.and.landings.withbrp$tot, lty=1, col='blue')
+
+lines(b.and.u.and.landings.withbrp.schaefer$tsyear, b.and.u.and.landings.withbrp.schaefer$tot, lty=1, col='red')
+
+abline(h=250,lty=2,lwd=0.5, col=grey(0.5))
+abline(h=200,lty=2,lwd=0.5, col=grey(0.5))
+abline(h=150,lty=2,lwd=0.5, col=grey(0.5))
+abline(h=100,lty=2,lwd=0.5, col=grey(0.5))
+
+dev.off()
+
+
+
+odbcClose(chan)

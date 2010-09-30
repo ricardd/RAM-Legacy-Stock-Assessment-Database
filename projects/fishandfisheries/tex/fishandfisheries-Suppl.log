@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.5.25)  4 AUG 2010 13:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  29 SEP 2010 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -142,7 +142,8 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count99
 \@thisrulewidth=\dimen122
 )
-(./fishandfisheries-Suppl.aux (./Table-S1-formatted.aux) (./Table-S2.aux))
+(./fishandfisheries-Suppl.aux (./Table-S1-withref-formatted.aux)
+(./Table-S2.aux))
 \openout1 = `fishandfisheries-Suppl.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -157,8 +158,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen123
@@ -232,16 +232,16 @@ LaTeX Warning: Float too large for page by 19.19064pt on input line 32.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/srdbadmin/SQLpg/
 srdb/trunk/doc/srdb-ERD.pdf>]
-\openout2 = `Table-S1-formatted.aux'.
+\openout2 = `Table-S1-withref-formatted.aux'.
 
- (./Table-S1-formatted.tex
-Overfull \hbox (1.54655pt too wide) in alignment at lines 3--4
- [] [] [] [] [] [] [] [] [] [] 
+ (./Table-S1-withref-formatted.tex
+Overfull \hbox (28.76855pt too wide) in alignment at lines 3--4
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 4--4
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 4--4
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -270,8 +270,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 4--5
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 4--5
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -305,8 +305,8 @@ Underfull \hbox (badness 2744) in paragraph at lines 24--24
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 5--26
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 5--26
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -380,8 +380,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 26--46
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 26--46
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -440,8 +440,8 @@ Underfull \hbox (badness 3209) in paragraph at lines 65--65
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 46--66
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 46--66
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [3
@@ -468,8 +468,8 @@ Underfull \hbox (badness 3209) in paragraph at lines 81--81
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 66--86
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 66--86
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -493,8 +493,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 86--106
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 86--106
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [4]
@@ -513,8 +513,8 @@ Underfull \hbox (badness 2990) in paragraph at lines 125--125
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 106--126
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 106--126
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -573,8 +573,8 @@ Underfull \hbox (badness 6300) in paragraph at lines 145--145
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 126--146
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 126--146
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [5]
@@ -583,8 +583,8 @@ Underfull \hbox (badness 1087) in paragraph at lines 155--155
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 146--166
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 146--166
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -623,8 +623,8 @@ Underfull \hbox (badness 3209) in paragraph at lines 185--185
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 166--186
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 166--186
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [6]
@@ -668,8 +668,8 @@ Underfull \hbox (badness 2277) in paragraph at lines 201--201
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 186--206
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 186--206
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [7]
@@ -683,9 +683,24 @@ Underfull \hbox (badness 3209) in paragraph at lines 208--208
  []
 
 
+LaTeX Warning: Citation `2008_SAFE_BSAIflathead.pdf' on page 8 undefined on inp
+ut line 208.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 209--209
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008_SAFE_GOAflathead.pdf' on page 8 undefined on inpu
+t line 209.
+
+
+LaTeX Warning: Citation `.pdf' on page 8 undefined on input line 210.
+
+
+LaTeX Warning: Citation `AtlanticHalibut5YZ2008.pdf .pdf' on page 8 undefined o
+n input line 211.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 212--212
@@ -693,9 +708,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--212
  []
 
 
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 8 undefined on input li
+ne 212.
+
+
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 8 undefined on input li
+ne 213.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []|\OT1/cmr/m/n/6 American lob-ster South-ern
  []
+
+
+LaTeX Warning: Citation `2009-ASMFC-Am-Lob.pdf' on page 8 undefined on input li
+ne 214.
 
 
 Underfull \hbox (badness 4752) in paragraph at lines 216--216
@@ -713,9 +740,17 @@ Underfull \hbox (badness 3209) in paragraph at lines 216--216
  []
 
 
+LaTeX Warning: Citation `2008_SAFE_BSAIrocksole.pdf' on page 8 undefined on inp
+ut line 216.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 217--217
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf' on page 8
+ undefined on input line 217.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--219
@@ -738,8 +773,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--224
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 206--226
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 206--226
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -751,6 +786,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--226
 Underfull \hbox (badness 3209) in paragraph at lines 226--226
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2004-SEDAR-deepwatersnappergrouper.pdf' on page 8 unde
+fined on input line 226.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 227--227
@@ -773,14 +812,30 @@ Underfull \hbox (badness 3209) in paragraph at lines 230--230
  []
 
 
+LaTeX Warning: Citation `2004_ASMFC_AtlCroak.pdf' on page 8 undefined on input 
+line 236.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 237--237
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
+LaTeX Warning: Citation `2007_SAFE_GOAdeepflat.pdf' on page 8 undefined on inpu
+t line 237.
+
+
+LaTeX Warning: Citation `2005-SAFE-WCdover.pdf' on page 8 undefined on input li
+ne 238.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 239--239
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `07AssessmentReport.pdf' on page 8 undefined on input l
+ine 239.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 241--241
@@ -803,19 +858,35 @@ Underfull \hbox (badness 3209) in paragraph at lines 242--242
  []
 
 
+LaTeX Warning: Citation `2003_SEDAR_Yellowtailsnapper.pdf' on page 8 undefined 
+on input line 242.
+
+
+LaTeX Warning: Citation `2005-SAFE-WClingcod.pdf' on page 8 undefined on input 
+line 243.
+
+
+LaTeX Warning: Citation `2005_SAFE_Wclingcod.pdf' on page 8 undefined on input 
+line 244.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 245--245
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 226--246
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 226--246
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [8]
 Underfull \hbox (badness 3209) in paragraph at lines 246--246
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008ShrimpAssessment.pdf' on page 9 undefined on input
+ line 246.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 247--247
@@ -828,9 +899,21 @@ Underfull \hbox (badness 7451) in paragraph at lines 251--251
  []
 
 
+LaTeX Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 9 undefined on
+ input line 254.
+
+
+LaTeX Warning: Citation `2005-SAFE-WCstarryflounder.pdf' on page 9 undefined on
+ input line 255.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 256--256
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008_SAFE_BSAIatka.pdf' on page 9 undefined on input l
+ine 256.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 257--257
@@ -838,14 +921,26 @@ Underfull \hbox (badness 3209) in paragraph at lines 257--257
  []
 
 
+LaTeX Warning: Citation `AFSC-ALPLAICBSAI-2008-Alaska plaice BSAI.pdf' on page 
+9 undefined on input line 257.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 259--259
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
+LaTeX Warning: Citation `NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf' on page 
+9 undefined on input line 263.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 264--264
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008_SAFE_BSAIturbot.pdf' on page 9 undefined on input
+ line 264.
 
 
 Underfull \hbox (badness 7963) in paragraph at lines 265--265
@@ -858,8 +953,12 @@ Underfull \hbox (badness 3209) in paragraph at lines 265--265
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 246--266
- [] [] [] [] [] [] [] [] [] [] 
+LaTeX Warning: Citation `AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BSAI.pdf' o
+n page 9 undefined on input line 265.
+
+
+Overfull \hbox (28.76855pt too wide) in alignment at lines 246--266
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -873,9 +972,17 @@ Underfull \hbox (badness 3209) in paragraph at lines 266--266
  []
 
 
+LaTeX Warning: Citation `2008_SAFE_GOAatf.pdf' on page 9 undefined on input lin
+e 266.
+
+
 Underfull \hbox (badness 7576) in paragraph at lines 267--267
 []|\OT1/cmr/m/n/6 Arrowtooth floun-der Pa-cific
  []
+
+
+LaTeX Warning: Citation `NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder.pdf' on 
+page 9 undefined on input line 267.
 
 
 Underfull \hbox (badness 6741) in paragraph at lines 270--270
@@ -888,9 +995,17 @@ Underfull \hbox (badness 3209) in paragraph at lines 270--270
  []
 
 
+LaTeX Warning: Citation `2008_SEDAR_VermillionSnapper_Satl.pdf' on page 9 undef
+ined on input line 270.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 271--271
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008 pac sardine.pdf' on page 9 undefined on input lin
+e 271.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 273--273
@@ -923,9 +1038,21 @@ Underfull \hbox (badness 3209) in paragraph at lines 280--280
  []
 
 
+LaTeX Warning: Citation `2005-SAFE-WCcabezon.pdf' on page 9 undefined on input 
+line 281.
+
+
+LaTeX Warning: Citation `2005_SAFE_Wccabezon.pdf' on page 9 undefined on input 
+line 282.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 283--283
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008 SAFE BSAIrougheye.pdf' on page 9 undefined on inp
+ut line 283.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
@@ -936,6 +1063,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
 Underfull \hbox (badness 3209) in paragraph at lines 284--284
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `AFSC-RYEROCKGA-2008-Rougheye rockfish GA.pdf' on page 
+9 undefined on input line 284.
 
 
 Underfull \hbox (badness 1558) in paragraph at lines 285--285
@@ -953,8 +1084,12 @@ Underfull \hbox (badness 3209) in paragraph at lines 285--285
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 266--286
- [] [] [] [] [] [] [] [] [] [] 
+LaTeX Warning: Citation `2008_SAFE_BSAIpop.pdf' on page 9 undefined on input li
+ne 285.
+
+
+Overfull \hbox (28.76855pt too wide) in alignment at lines 266--286
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [9]
@@ -968,6 +1103,10 @@ Underfull \hbox (badness 3209) in paragraph at lines 286--286
  []
 
 
+LaTeX Warning: Citation `AFSC-POPERCHGA-2008-Pacific ocean perch GA.pdf' on pag
+e 10 undefined on input line 286.
+
+
 Underfull \hbox (badness 6188) in paragraph at lines 287--287
 []|\OT1/cmr/m/n/6 Pacific ocean perch Pa-cific
  []
@@ -978,14 +1117,30 @@ Underfull \hbox (badness 3209) in paragraph at lines 287--287
  []
 
 
+LaTeX Warning: Citation `NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf' on p
+age 10 undefined on input line 287.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 288--288
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
+LaTeX Warning: Citation `2008_SAFE_BSAIshortraker.pdf' on page 10 undefined on 
+input line 288.
+
+
+LaTeX Warning: Citation `2005-SAFE-Wcgopher.pdf' on page 10 undefined on input 
+line 289.
+
+
 Underfull \hbox (badness 1173) in paragraph at lines 290--290
 []|\OT1/cmr/m/n/6 Darkblotched rock-fish Pa-cific
  []
+
+
+LaTeX Warning: Citation `NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish.pdf' on 
+page 10 undefined on input line 290.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 291--291
@@ -1003,9 +1158,17 @@ Underfull \hbox (badness 5388) in paragraph at lines 293--293
  []
 
 
+LaTeX Warning: Citation `2005_SAFE_yellowtail.pdf' on page 10 undefined on inpu
+t line 293.
+
+
 Underfull \hbox (badness 2426) in paragraph at lines 294--294
 []|\OT1/cmr/m/n/6 Chilipepper South-ern Pa-cific
  []
+
+
+LaTeX Warning: Citation `NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf' on page
+ 10 undefined on input line 294.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--295
@@ -1013,14 +1176,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--295
  []
 
 
+LaTeX Warning: Citation `SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfish.pdf' o
+n page 10 undefined on input line 295.
+
+
+LaTeX Warning: Citation `NWFSC-COWCODSCAL-2007-Cowcod CA.pdf' on page 10 undefi
+ned on input line 296.
+
+
+LaTeX Warning: Citation `NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf'
+ on page 10 undefined on input line 297.
+
+
+LaTeX Warning: Citation `NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf' 
+on page 10 undefined on input line 298.
+
+
+LaTeX Warning: Citation `2005-SAFE-Wcblackgill.pdf' on page 10 undefined on inp
+ut line 299.
+
+
+LaTeX Warning: Citation `NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf' on page 1
+0 undefined on input line 300.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []|\OT1/cmr/m/n/6 Bocaccio South-ern Pa-cific
  []
 
 
+LaTeX Warning: Citation `NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf' on page 10 unde
+fined on input line 301.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 303--303
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `2008_SAFE_BSAInorthern.pdf' on page 10 undefined on in
+put line 303.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
@@ -1033,19 +1228,35 @@ Underfull \hbox (badness 3209) in paragraph at lines 304--304
  []
 
 
+LaTeX Warning: Citation `AFSC-NROCKGA-2008-Northern rockfish GA.pdf' on page 10
+ undefined on input line 304.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\OT1/cmr/m/n/6 Yelloweye rock-fish Pa-cific
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 286--306
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 286--306
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [10]
 Underfull \hbox (badness 3209) in paragraph at lines 306--306
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `AFSC-DUSROCKGA-2008-Dusky rockfish GA.pdf' on page 11 
+undefined on input line 306.
+
+
+LaTeX Warning: Citation `2005-SST-assessment.pdf' on page 11 undefined on input
+ line 307.
+
+
+LaTeX Warning: Citation `2005-SAFE-Longspine.pdf' on page 11 undefined on input
+ line 308.
 
 
 Underfull \hbox (badness 7308) in paragraph at lines 309--309
@@ -1078,9 +1289,17 @@ Underfull \hbox (badness 3209) in paragraph at lines 315--315
  []
 
 
+LaTeX Warning: Citation `AFSC-WPOLLAI-2008-Walleye pollock AI.pdf' on page 11 u
+ndefined on input line 315.
+
+
 Underfull \hbox (badness 3209) in paragraph at lines 316--316
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
+
+
+LaTeX Warning: Citation `AFSC-WPOLLEBS-2008-Walleye pollock EBS.pdf' on page 11
+ undefined on input line 316.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 317--317
@@ -1088,13 +1307,26 @@ Underfull \hbox (badness 3209) in paragraph at lines 317--317
  []
 
 
+LaTeX Warning: Citation `AFSC-WPOLLGA-2008-Walleye pollock GA.pdf' on page 11 u
+ndefined on input line 317.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 320--320
 []|\OT1/cmr/m/n/6 Walleye pol-lock West-ern
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 306--326
- [] [] [] [] [] [] [] [] [] [] 
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 323.
+
+
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 324.
+
+
+LaTeX Warning: Citation `NA' on page 11 undefined on input line 325.
+
+
+Overfull \hbox (28.76855pt too wide) in alignment at lines 306--326
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
@@ -1128,8 +1360,8 @@ Underfull \hbox (badness 3209) in paragraph at lines 329--329
  []
 
 
-Overfull \hbox (1.54655pt too wide) in alignment at lines 326--334
- [] [] [] [] [] [] [] [] [] [] 
+Overfull \hbox (28.76855pt too wide) in alignment at lines 326--334
+ [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [11]) [12]
@@ -1146,25 +1378,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-] (./fishandfisheries-Suppl.aux
-(./Table-S1-formatted.aux) (./Table-S2.aux)) ) 
+] (./fishandfisheries-Suppl.bbl (./babelbst.tex) [14
+
+] [15] [16]
+Missing character: There is no È in font cmr12!
+ [17] [18]
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no È in font cmr12!
+ [19]
+Missing character: There is no È in font cmr12!
+ [20]
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ê in font cmti12!
+Missing character: There is no ¬ in font cmti12!
+Missing character: There is no † in font cmti12!
+ [21] [22] [23] [24]) [25]
+(./fishandfisheries-Suppl.aux (./Table-S1-withref-formatted.aux)
+(./Table-S2.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1794 strings out of 495061
- 24252 string characters out of 1182621
- 142236 words of memory out of 3000000
- 4957 multiletter control sequences out of 15000+50000
- 8850 words of font info for 31 fonts, out of 3000000 for 9000
+ 2072 strings out of 495061
+ 30871 string characters out of 1182621
+ 146908 words of memory out of 3000000
+ 5227 multiletter control sequences out of 15000+50000
+ 9509 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,9n,21p,682b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
+ 32i,9n,24p,690b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on fishandfisheries-Suppl.pdf (13 pages, 138992 bytes).
+Output written on fishandfisheries-Suppl.pdf (25 pages, 213438 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

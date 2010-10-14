@@ -1,5 +1,5 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2010-08-03 10:15:55 (srdbadmin)>
+# last modified Time-stamp: <2010-09-27 13:25:28 (srdbadmin)>
 #
 #
 
@@ -27,7 +27,7 @@ Table1-formatted.aux: ../R/TL-quadrant-srdb.pdf Table1-formatted.tex
 Table-S1-formatted.tex: ../R/TL-quadrant-srdb.pdf
 	R CMD BATCH ../R/fried-egg-plots-MIXANDMATCH.R # generate Figs.5 and 6, the fried egg plots
 	sed '/begin/ r mytable.txt' Table-S1.tex | sed 6,8d > Table-S1-formatted.tex
-
+#	sed '/begin/ r mytable-withref.txt' Table-S1-withref.tex | sed 6,8d > Table-S1-withref-formatted.tex
 ../R/TL-quadrant-srdb.pdf: ../R/trophic-level-plot.R ../R/friedegg-single.pdf
 	R CMD BATCH ../R/trophic-level-plot.R # generate Fig.7, the trophic level barplot
 

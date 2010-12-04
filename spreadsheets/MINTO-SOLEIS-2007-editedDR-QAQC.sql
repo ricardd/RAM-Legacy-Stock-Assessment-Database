@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSDS-SOLEIS-1968-2006-MINTO', 'WGNSDS', 'SOLEIS', 'MINTO', '2008-04-15', '2010-07-18 11:11:52', '1968-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSDS-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-SOLEIS-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSDS-SOLEIS-1968-2006-MINTO', 'WGNSDS', 'SOLEIS', 'MINTO', '2008-04-15', '2010-12-02 20:30:44', '1968-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSDS-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-SOLEIS-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-SOLEIS-1968-2006-MINTO', 'ID', 'ICES-WGNSDS-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-SOLEIS-1968-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-SOLEIS-1968-2006-MINTO', 'A1', 'Anonymous') ; 

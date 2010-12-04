@@ -1,10 +1,11 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2010-08-31 13:29:49 (srdbadmin)>
+-- Time-stamp: <2010-12-02 20:35:04 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 
 -- 2010-03-23: <ricardd> rewrote the reference points views, old definitions were moved to "srDB-views-old.sql"
+SET SEARCH_PATH to public, srdb;
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- time series values view 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

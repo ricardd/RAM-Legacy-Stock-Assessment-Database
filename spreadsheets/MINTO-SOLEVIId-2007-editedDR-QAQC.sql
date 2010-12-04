@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-SOLEVIId-1981-2006-MINTO', 'WGNSSK', 'SOLEVIId', 'MINTO', '2008-04-13', '2010-07-18 10:25:11', '1981-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Blim is not defined for this population', '../spreadsheets/MINTO-SOLEVIId-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-SOLEVIId-1981-2006-MINTO', 'WGNSSK', 'SOLEVIId', 'MINTO', '2008-04-13', '2010-12-02 20:30:36', '1981-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Blim is not defined for this population', '../spreadsheets/MINTO-SOLEVIId-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLEVIId-1981-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLEVIId-1981-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLEVIId-1981-2006-MINTO', 'A1', 'Anonymous') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'NEFSC', 'CSKATMATLC', 'SOSEBEE', '2009-04-21', '2009-12-11 15:58:16', '1975-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-CLEARNOSESKATE-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'NEFSC', 'CSKATMATLC', 'SOSEBEE', '2009-04-21', '2010-12-02 20:32:02', '1975-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-CLEARNOSESKATE-2007-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'ID', 'skates2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'A1', 'Northeast Fisheries Science Center') ; 
@@ -8,6 +8,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'Y1', '2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'PB', 'U.S. Department of Commerce, NOAA Fisheries') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'CY', 'Woods Hole, Massachusetts') ; 
+ INSERT INTO srdb.referencedoc VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE', 'ZZID', 'NEFSC-CSKATMATLC-1975-2005-SOSEBEE') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE','CPUE-kgpertow',1975, 0.237) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE','CPUE-kgpertow',1976, 0.302) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-CSKATMATLC-1975-2005-SOSEBEE','CPUE-kgpertow',1977, 0.768) ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SPC-ALBASPAC-1959-2006-JENSEN', 'SPC', 'ALBASPAC', 'JENSEN', '2008-10-21', '2010-07-16 15:49:32', '1959-2006', 'http://www.wcpfc.int/sc4/pdf/SC4-SA-WP8%20%5BALB%20assessment%5D.pdf', 'Simon Hoyle (SimonH@spc.int), John Hampton (JohnH@spc.int)', 'data are from MULTIFAN-CL output files, not the assessment document', '', 1, 1, 'MULTIFAN-CL', 'Simon Hoyle says: "I would not use these results for SRR [stock-recruit analysis] because I do not trust the recruitment trends"', '../spreadsheets/JENSEN-ALBWPO-2008-editedDR-OJ-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('SPC-ALBASPAC-1959-2006-JENSEN', 'SPC', 'ALBASPAC', 'JENSEN', '2008-10-21', '2010-12-02 20:31:19', '1959-2006', 'http://www.wcpfc.int/sc4/pdf/SC4-SA-WP8%20%5BALB%20assessment%5D.pdf', 'Simon Hoyle (SimonH@spc.int), John Hampton (JohnH@spc.int)', 'data are from MULTIFAN-CL output files, not the assessment document', '', 1, 1, 'MULTIFAN-CL', 'Simon Hoyle says: "I would not use these results for SRR [stock-recruit analysis] because I do not trust the recruitment trends"', '../spreadsheets/JENSEN-ALBWPO-2008-editedDR-OJ-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('SPC-ALBASPAC-1959-2006-JENSEN', 'ID', 'JENSEN_ALBWPO_2008') ; 
  INSERT INTO srdb.referencedoc VALUES('SPC-ALBASPAC-1959-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SPC-ALBASPAC-1959-2006-JENSEN', 'A1', 'Hoyle, Simon') ; 
@@ -17,9 +17,9 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','LW-b-dimensionless','3.2351', 'NULL', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','M-1/T','AVAILABLE', 'NULL', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','VB-k-cm/T','0.3827', 'NULL', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','Umsy-ratio','1.88E-01', 'NULL', 'this is a harvest rate (C/B) - as is the F time series') ; 
+ INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','Umsy-ratio','1.88E-01', 'this is a harvest rate (C/B) - as is the F time series', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','MSY-MT','63,830', 'NULL', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','SSBmsy-MT','4.04E+04', 'NULL', '"adult" biomass') ; 
+ INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','SSBmsy-MT','4.04E+04', '"adult" biomass', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','VB-LA-cm','101.12', 'NULL', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','VB-L1-cm','34.21', 'NULL', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('SPC-ALBASPAC-1959-2006-JENSEN','VB-A-yr','19.5', 'NULL', 'NULL') ; 

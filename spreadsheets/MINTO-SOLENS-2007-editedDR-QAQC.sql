@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-SOLENS-1956-2006-MINTO', 'WGNSSK', 'SOLENS', 'MINTO', '2008-04-13', '2010-07-18 10:23:14', '1956-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Retrospective patterns from previous years suggested that F has been underestimated in previous years, and SSB overestimated. This was also confirmed in this year’s assessment results.', '../spreadsheets/MINTO-SOLENS-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-SOLENS-1956-2006-MINTO', 'WGNSSK', 'SOLENS', 'MINTO', '2008-04-13', '2010-12-02 20:30:36', '1956-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Retrospective patterns from previous years suggested that F has been underestimated in previous years, and SSB overestimated. This was also confirmed in this year’s assessment results.', '../spreadsheets/MINTO-SOLENS-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLENS-1956-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLENS-1956-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-SOLENS-1956-2006-MINTO', 'A1', 'Anonymous') ; 

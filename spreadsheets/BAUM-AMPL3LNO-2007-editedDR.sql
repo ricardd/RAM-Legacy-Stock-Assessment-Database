@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-AMPL3LNO-1955-2007-BAUM', 'NAFO-SC', 'AMPL3LNO', 'BAUM', '2008-04-07', '2010-05-05 22:53:22', '1955-2007', 'http://www.nafo.int/publications/frames/science.html', 'Karen Dwyer, DwyerK@DFO-MPO.GC.CA; Joanne Morgan', 'No directed fishing since 1993, but still caught as bycatch', 'NAFO-GrandBanks-AmPlaice-2007.pdf', 1, 1, 'VPA', 'Blim is not the lowest observed SSB, but rather SSB below which there is no _good_ recruitment', '../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-AMPL3LNO-1955-2007-BAUM', 'NAFO-SC', 'AMPL3LNO', 'BAUM', '2008-04-07', '2010-12-02 20:31:12', '1955-2007', 'http://www.nafo.int/publications/frames/science.html', 'Karen Dwyer, DwyerK@DFO-MPO.GC.CA; Joanne Morgan', 'No directed fishing since 1993, but still caught as bycatch', 'NAFO-GrandBanks-AmPlaice-2007.pdf', 1, 1, 'VPA', 'Blim is not the lowest observed SSB, but rather SSB below which there is no _good_ recruitment', '../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3LNO-1955-2007-BAUM', 'ID', 'NAFO-GrandBanks-AmPlaice-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3LNO-1955-2007-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3LNO-1955-2007-BAUM', 'A1', 'Dwyer, K.S.') ; 

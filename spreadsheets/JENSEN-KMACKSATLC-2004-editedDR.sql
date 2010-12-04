@@ -1,12 +1,13 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'SEFSC', 'KMACKSATLC', 'JENSEN', '2008-11-23', '2010-03-05 14:36:57', '1981-2001', 'http://www.sefsc.noaa.gov/sedar/download/S5_SAR1_complete.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'VPA', 'years of time series data refer to the start year, i.e. 1992 is 1992-1993', '../spreadsheets/JENSEN-KMACKSATLC-2004-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'SEFSC', 'KMACKSATLC', 'JENSEN', '2008-11-23', '2010-12-02 20:31:20', '1981-2001', 'http://www.sefsc.noaa.gov/sedar/download/S5_SAR1_complete.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'VPA', 'years of time series data refer to the start year, i.e. 1992 is 1992-1993', '../spreadsheets/JENSEN-KMACKSATLC-2004-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'ID', 'JENSEN_KMACKGMSATLC_2004') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'Y1', '2004') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','M-1/yr','0.15', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','Fmsy-1/T','0.29', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','MSY-MT','2576.40', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','SSBmsy-E00eggs','2930000000000', 'NULL') ; 
+ INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN', 'ZZID', 'SEFSC-KMACKSATLC-1981-2001-JENSEN') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','M-1/yr','0.15', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','Fmsy-1/T','0.29', 'F yielding 30%SPR', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','MSY-MT','2576.40', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','SSBmsy-E00eggs','2930000000000', '', 'NULL') ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','SSB-E00eggs',1981, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','SSB-E00eggs',1982, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-KMACKSATLC-1981-2001-JENSEN','SSB-E00eggs',1983, NULL) ; 

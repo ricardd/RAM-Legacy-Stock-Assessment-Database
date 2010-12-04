@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'NEFSC', 'RDEEPCRABNWATL', 'CHUTE', '2009-05-27', '2009-11-08 22:10:38', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0625/', '', '', '', 0, 0, 'Count', 'Crabs were counted with a camera mounted on a sled, size and sex data obtained from trawl samples. GOM was not surveyed, only the area of the current fishery.', '../spreadsheets/CHUTE-DEEPSEAREDCRAB-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'NEFSC', 'RDEEPCRABNWATL', 'CHUTE', '2009-05-27', '2010-12-02 20:31:45', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0625/', '', '', '', 0, 0, 'Count', 'Crabs were counted with a camera mounted on a sled, size and sex data obtained from trawl samples. GOM was not surveyed, only the area of the current fishery.', '../spreadsheets/CHUTE-DEEPSEAREDCRAB-2008-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'ID', 'RedCrab2006') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'A1', 'Northeast Fisheries Science Center') ; 
@@ -8,6 +8,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'Y1', '2006') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'PB', 'U.S. Department of Commerce, NOAA Fisheries') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'CY', 'Woods Hole, Massachusetts') ; 
+ INSERT INTO srdb.referencedoc VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE', 'ZZID', 'NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE','TL-MT',1982, 2445.58) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE','TL-MT',1983, 3252.36) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-RDEEPCRABNWATL-1982-2008-CHUTE','TL-MT',1984, 3874.96) ; 

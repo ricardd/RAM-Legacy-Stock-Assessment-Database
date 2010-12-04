@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SCALLGB-1964-2006-HART', 'NEFSC', 'SCALLGB', 'HART', '2009-04-22', '2009-11-08 21:36:18', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0716/', '', '', '', 1, 1, 'AD-CAL', 'CASA model', '../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SCALLGB-1964-2006-HART', 'NEFSC', 'SCALLGB', 'HART', '2009-04-22', '2010-12-02 20:31:45', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0716/', '', '', '', 1, 1, 'AD-CAL', 'CASA model', '../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'ID', 'SeaScallop2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'A1', 'Northeast Fisheries Science Center') ; 
@@ -8,6 +8,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'Y1', '2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'PB', 'U.S. Department of Commerce, NOAA Fisheries') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'CY', 'Woods Hole, Massachusetts') ; 
+ INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'ZZID', 'NEFSC-SCALLGB-1964-2006-HART') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-SCALLGB-1964-2006-HART','R-E06',1964, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-SCALLGB-1964-2006-HART','R-E06',1965, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-SCALLGB-1964-2006-HART','R-E06',1966, NULL) ; 

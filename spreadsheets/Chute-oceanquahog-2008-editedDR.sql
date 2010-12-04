@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-QUAHATLC-1978-2008-CHUTE', 'NEFSC', 'QUAHATLC', 'CHUTE', '2009-12-29', '2010-07-21 14:42:06', '1978-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0915/', '', '', '', 1, 1, 'Delay difference', 'KLAMZ model', '../spreadsheets/Chute-oceanquahog-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-QUAHATLC-1978-2008-CHUTE', 'NEFSC', 'QUAHATLC', 'CHUTE', '2009-12-29', '2010-12-02 20:32:03', '1978-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0915/', '', '', '', 1, 1, 'Delay difference', 'KLAMZ model', '../spreadsheets/Chute-oceanquahog-2008-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-QUAHATLC-1978-2008-CHUTE', 'ID', 'quahog.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-QUAHATLC-1978-2008-CHUTE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-QUAHATLC-1978-2008-CHUTE', 'A1', 'Anonymous') ; 

@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2009-11-06 12:43:37 (srdbadmin)>
+# Last modified: Time-stamp: <2010-07-18 10:23:09 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -10,7 +10,7 @@
 
 use strict;
 use Spreadsheet::ParseExcel;
-use DateTime::Format::Excel;
+#use DateTime::Format::Excel;
 use POSIX qw(strftime);
 use DBI;
 #my $dbh = DBI->connect('dbi:Pg:dbname=gfsDB;host=localhost;port=5433','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
@@ -66,7 +66,7 @@ $recorder = $oWkS->{Cells}[18][3]->Value;
 $daterecorded = $oWkS->{Cells}[19][3]->Value;
 #print("$daterecorded\n");
 
-$excel = DateTime::Format::Excel->new();
+#$excel = DateTime::Format::Excel->new();
 
 #$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
 #$formatteddaterecorded = "2008-11-11";

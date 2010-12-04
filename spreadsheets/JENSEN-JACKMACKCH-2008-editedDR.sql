@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'IFOP', 'CHTRACCH', 'JENSEN', '2009-11-07', '2009-11-08 00:19:47', '1975-2007', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'time series data were extracted from figures', '', 1, 0, 'Unknown', '', '../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'IFOP', 'CHTRACCH', 'JENSEN', '2009-11-07', '2010-12-02 20:31:44', '1975-2007', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'time series data were extracted from figures', '', 1, 0, 'Unknown', '', '../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'ID', 'JENSEN-JACKMACKCH-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'A1', 'Canales, Cristian') ; 
@@ -7,8 +7,9 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'T1', 'Updated Status of the Chilean Jack Mackerel Stock') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'VL', 'CHILEAN JACK MACKEREL WORKSHOP #6') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'Y1', '2008') ; 
- INSERT INTO srdb.bioparams VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','A50-yr','5', '') ; 
- INSERT INTO srdb.bioparams VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','M-1/yr','0.23', '') ; 
+ INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'ZZID', 'IFOP-CHTRACCH-1975-2007-JENSEN') ; 
+ INSERT INTO srdb.bioparams VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','A50-yr','5', '', '') ; 
+ INSERT INTO srdb.bioparams VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','M-1/yr','0.23', '', '') ; 
  INSERT INTO srdb.timeseries VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','SSB-MT',1975, 1203600) ; 
  INSERT INTO srdb.timeseries VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','SSB-MT',1976, 1719000) ; 
  INSERT INTO srdb.timeseries VALUES('IFOP-CHTRACCH-1975-2007-JENSEN','SSB-MT',1977, 2062200) ; 

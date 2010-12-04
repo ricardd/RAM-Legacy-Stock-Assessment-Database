@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'AFSC', 'NROCKGA', 'MELNYCHUK', '2009-04-17', '2009-05-22 13:23:44', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOAnorthern.pdf', 'Jonathan Heifetz', 'Catch from 1961-1976 estimated as fixed proportion of multi-species total; Catch from 1977-1983 estimated based on proportion of multi-species total in foreign fleet via observers; Catch from 1984-1989 estimated as fixed proportion of multi-species total; Catch from 1990-1992 estimated based on proportion of multi-species total in domestic fleet via observers; Catches from 1993-present were available directly from NMFS 
+ INSERT INTO srdb.assessment VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'AFSC', 'NROCKGA', 'MELNYCHUK', '2009-04-17', '2010-12-02 20:31:37', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOAnorthern.pdf', 'Jonathan Heifetz', 'Catch from 1961-1976 estimated as fixed proportion of multi-species total; Catch from 1977-1983 estimated based on proportion of multi-species total in foreign fleet via observers; Catch from 1984-1989 estimated as fixed proportion of multi-species total; Catch from 1990-1992 estimated based on proportion of multi-species total in domestic fleet via observers; Catches from 1993-present were available directly from NMFS 
 domestic fisheries observer data.  Estimates of total biomass, SSB, and rec were presented in 2007 assessment only for years 1977 onwards (or 1975 for rec year class). Estimates for 1961-1976 obtained from Dana Hanselman, pers. comm. 
 F was only presented in a figure in 2007 assessment, values obtained from Dana Hanselman, pers. comm.', '', 1, 1, 'AD-CAM', '2008 assessment was only an update. full assessment conducted in 2007. filename: AFSC-NROCKGA-2007-Northern rockfish GA.pdf', '../spreadsheets/MELNYCHUK-NROCKGA-2008-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'ID', 'AFSC-NROCKGA-2008-Northern rockfish GA.pdf') ; 
@@ -11,25 +11,26 @@ F was only presented in a figure in 2007 assessment, values obtained from Dana H
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'Y1', '2008') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'PB', 'North Pacific Fishery Management Council ') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'CY', 'Anchorage, AK') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSB-SEX-sex','1', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','REC-AGE-yr','2', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','F-AGE-yr-yr','2-22+', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','TB-AGE-yr','2+', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','TB-TYPE-0-1','0', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','A50-yr','13', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAT-SEX-sex','1', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAT-REF-doctype','C. Lunsford, National Marine Fisheries Service, Alaska Fisheries Science Center, Auke Bay Laboratory, 11305 Glacier Hwy., Juneau, AK 99801.  Pers. Comm. July, 1997. ', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','L50-cm','36.1', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LEN-SEX-sex','1', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LEN-REF-doctype','C. Lunsford, National Marine Fisheries Service, Alaska Fisheries Science Center, Auke Bay Laboratory, 11305 Glacier Hwy., Juneau, AK 99801.  Pers. Comm. July, 1997. ', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LW-a-kg/cm','1.75E-07', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','M-1/yr','0.06', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAX-AGE-yr','67', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','Fmsy-1/yr','0.073', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','NATMORT-1/yr','0.06', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','F40%-1/T','0.061', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSBmsy-MT','19500', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSBF40%-MT','22300', 'NULL') ; 
+ INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK', 'ZZID', 'AFSC-NROCKGA-1959-2008-MELNYCHUK') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSB-SEX-sex','1', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','REC-AGE-yr','2', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','F-AGE-yr-yr','2-22+', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','TB-AGE-yr','2+', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','TB-TYPE-0-1','0', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','A50-yr','13', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAT-SEX-sex','1', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAT-REF-doctype','C. Lunsford, National Marine Fisheries Service, Alaska Fisheries Science Center, Auke Bay Laboratory, 11305 Glacier Hwy., Juneau, AK 99801.  Pers. Comm. July, 1997. ', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','L50-cm','36.1', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LEN-SEX-sex','1', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LEN-REF-doctype','C. Lunsford, National Marine Fisheries Service, Alaska Fisheries Science Center, Auke Bay Laboratory, 11305 Glacier Hwy., Juneau, AK 99801.  Pers. Comm. July, 1997. ', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','LW-a-kg/cm','1.75E-07', 'was given in g/mm, 1.75 E-05', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','M-1/yr','0.06', 'estimated; used a prior of 0.06 with CV of 5%', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','MAX-AGE-yr','67', 'from survey', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','Fmsy-1/yr','0.073', 'F35%; used as proxy for Fmsy for tier 3 stocks', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','NATMORT-1/yr','0.06', 'estimated; used a prior of 0.06 with CV of 5%', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','F40%-1/T','0.061', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSBmsy-MT','19500', 'SSB35%; used as proxy for SSBmsy in tier 3 stocks; based on years 1979-2005', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSBF40%-MT','22300', 'based on years 1979-2005', 'NULL') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSB-MT',1959, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSB-MT',1960, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKGA-1959-2008-MELNYCHUK','SSB-MT',1961, 80449) ; 

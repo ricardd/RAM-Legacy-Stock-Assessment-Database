@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA8', 'JENSEN', '2009-04-07', '2010-07-19 17:40:46', '1976-2005', 'received from contact', 'Pall Starr - paul@starrfish.net', '', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA8-2005-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA8', 'JENSEN', '2009-04-07', '2010-12-02 20:30:58', '1976-2005', 'received from contact', 'Pall Starr - paul@starrfish.net', '', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA8-2005-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN', 'ID', 'PALLSTARRperscomm') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN', 'TY', 'PCOMM') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN', 'T1', 'Personal communication') ; 

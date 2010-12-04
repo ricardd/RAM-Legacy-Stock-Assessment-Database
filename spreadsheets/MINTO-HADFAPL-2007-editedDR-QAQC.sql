@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWWG-HADFAPL-1955-2006-MINTO', 'NWWG', 'HADFAPL', 'MINTO', '2008-04-08', '2010-07-18 11:03:31', '1955-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', '', '../spreadsheets/MINTO-HADFAPL-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWWG-HADFAPL-1955-2006-MINTO', 'NWWG', 'HADFAPL', 'MINTO', '2008-04-08', '2010-12-02 20:30:42', '1955-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', '', '../spreadsheets/MINTO-HADFAPL-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADFAPL-1955-2006-MINTO', 'ID', 'ICES-NWWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADFAPL-1955-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADFAPL-1955-2006-MINTO', 'A1', 'Anonymous') ; 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, JUNE 2010
-# Last modified Time-stamp: <2010-07-29 14:25:22 (srdbadmin)>
+# Last modified Time-stamp: <2010-12-02 20:02:49 (srdbadmin)>
 #
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
 
@@ -42,6 +42,16 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4RFA
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4RSP-2004-editedRP-QAQC.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD3Pn4RS-2007-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-WHAKE4VWX5-2005-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4TVn-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4VsW-2003-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR-QAQC.xls
+
 
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRQCI-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.xls
@@ -237,4 +247,215 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/OVERHOLTZ-ATLHERRING
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.xls
 
+
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls # DUPLICATE
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-AMPL3M-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL4RST-2003-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-RED1-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-RED23K-2001-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-YELL3LNO-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-MUTSNAPSATLCGM-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-GAGSATLC-2006-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-GAGGM-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-VSNAPGM-2006-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-GRAMBERGM-2006-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SPANMACKSATLC-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-ALBWPO-2008-editedDR-OJ-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-BETWPO-2008-editedDR-OJ-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-YFINCWPAC-2008-editedDR-OJ-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-SKJCWPAC-2008-editedDR-OJ-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RPORGYSATLC-2006-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-KMACKSATLC-2004-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-KMACKGM-2004-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-GRAMBERSATLC-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RSNAPSATLC-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR-QAQC-revised.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-SABLEFPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.xls
+
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SRAKEROCKBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-FLSOLEBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-REYEROCKBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-NRSOLEEBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ATKABSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-GHALBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ARFLOUNDBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-NROCKBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-PERCHEBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ARFLOUNDBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ARFLOUNDGA-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-DSOLEWC-2005-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-WCgopher-2005-editedDR-QAQC-longtimeseries.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SouthStarryFlounder-2005-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-NorthStarryFlounder-2005-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-VSNAPSATLC-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-WPOLLEBS-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-ALPLAICBSAI-2008-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-YSOLEBSAI-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-WPOLLGA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-NROCKGA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-DUSROCKGA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-WPOLLAI-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-POPERCHGA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-REYEROCKGA-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-REDFISHSPP3LN-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-MATLCROAK-2004-editedDR.xls
+
+################################3
+# DUPLICATE ASSESSMENTS
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SARDNPAC-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-SARDPCOAST-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-CMACKPCOAST-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SCORPWC-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-FLSOLEGA-2007-editedOJ.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-DSOLEGA-2007-editedOJ.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-SBARSHARATL-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BTIPSHARATL-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BNOSESHARATL-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-SNOSESHARATL-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BHEADSHARATL-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/HART-SEASCALLOPMA-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/CHUTE-DEEPSEAREDCRAB-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YellowTailWC-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-NorthLingcod-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SouthLingcod-2005-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-TILESATLC-editedDR-QAQC.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-Blackgill-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-Shortspine-2005-v2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-LongspineTH-2005-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-WPOLLNSO-1997-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-WPOLLWBS-2004-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-LOBSTER5Y-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-LOBSTER5Z-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-LOBSTERSNE-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-COD3M-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/ANDERSON-CHIOSGSL-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-KelpGreenling-2005-Cope2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-Northcabezon-Cope2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-Southcabezon-Cope2-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/COL-ATLHALIBUT-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/TERCEIRO-WINFLOUNSNEMATL-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-YELLGB-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-HAD5Z-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PALMER-HADGOM-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-CODGOM-2008-rkmayo-edits-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/OBRIEN-APGMGB-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-SFLOUNMATLC-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/LEGAULT-YELLCCGOM-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WIGLEY-POUT-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/WIGLEY-WITCH-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/LEGAULT-BAUM-YELLSNEMATL-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-CODGB-2008-lob-edits-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RAM-HENDRICKSON-ILLEX-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/HENDRICKSON-WINTERFLGB-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/OVERHOLTZ-ATLMACKEREL-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/NITSCHKE-WINTERFLGOM-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/HENDRICKSON-WINDOWPANEGOMGB-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/HENDRICKSON-WINDOWPANESNEMA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/TERCEIRO-SCUP-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICHARDS-MONKFISHSGBMA-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICHARDS-MONKFISHGOMNGB-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSEBEE-WHITEHAKE-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/COL-SILVERHAKEGOMNGB-2005-editedOJ.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/COL-SILVERHAKESGBMA-2005-editedOJ.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MAYO-POLLOCK-5YZ-2008-editedOJ.xls
+
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/OVERHOLTZ-ATLHERRING-2008-editedOJ.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/OVERHOLTZ-BUTTERFISH-2003-editedOJ.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SHEPHERD-BLACKSEABASS-2008-editedOJ.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SHEPHERD-STRIPEDBASS-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SHEPHERD-BLUEFISH-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/NITSCHKE-TILEFISH-2005-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-SPINYDOGFISH-2006-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-BARNDOORSKATE-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-CLEARNOSESKATE-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-LITTLESKATE-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-ROSETTESKATE-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-SMOOTHSKATE-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-THORNYSKATE-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-WINTERSKATE-2007-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JACOBSON-ATLSURFCLAM-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Chute-oceanquahog-2008-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-RSNAPEGM-2005-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-RSNAPWGM-2005-editedDR.xls
 

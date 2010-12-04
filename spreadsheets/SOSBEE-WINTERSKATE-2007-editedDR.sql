@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'NEFSC', 'WSKAT5YCHATT', 'SOSEBEE', '2009-04-21', '2009-12-14 12:09:57', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-WINTERSKATE-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'NEFSC', 'WSKAT5YCHATT', 'SOSEBEE', '2009-04-21', '2010-12-02 20:32:03', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-WINTERSKATE-2007-editedDR.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'ID', 'skates2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'A1', 'Northeast Fisheries Science Center') ; 
@@ -8,6 +8,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'Y1', '2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'PB', 'U.S. Department of Commerce, NOAA Fisheries') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'CY', 'Woods Hole, Massachusetts') ; 
+ INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'ZZID', 'NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE','CPUE-kgpertow',1967, 2.159) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE','CPUE-kgpertow',1968, 1.865) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE','CPUE-kgpertow',1969, 1.315) ; 

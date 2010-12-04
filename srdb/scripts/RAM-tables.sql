@@ -12,6 +12,7 @@ tsunitsshort VARCHAR(40) REFERENCES srdb.tsmetrics
 );
 
 COPY srdb.ramunits
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/ramunits.dat'
+--FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/ramunits.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/ramunits.dat'
 CSV HEADER 
 ;

@@ -1,6 +1,6 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2010-03-23 12:10:14 (srdbadmin)>
+-- Time-stamp: <2010-08-31 13:29:49 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 
@@ -683,6 +683,8 @@ order by
 	assessid
 ;
 
+COMMENT ON TABLE srdb.timeseries_values_view IS 'This is a materialised view that organises the timeseries into separate columns.';
+
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- reference point values view 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -738,6 +740,8 @@ group by
 order by 
 	biopar.assessid) as aa
 ;
+
+COMMENT ON VIEW srdb.reference_point_values_view IS 'This is a view that organises the reference points into separate columns.';
 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- reference point units view 

@@ -1,0 +1,37 @@
+last modified Time-stamp: <2010-12-01 15:55:18 (srdbadmin)>
+
+
+I need to upgrade the RAM Legacy database to postgresql 8.4 in order to migrate it to nautilus-vm
+
+1 - create the database on 8.4 (as user postgres):
+
+postgres@calopteryx:/newhome/home/ricardd$ /usr/lib/postgresql/8.4/bin/createdb -p 5435 srdb
+
+
+2- create a role called "srdbadmin", a role called 'srdbuser' and change the database owner to user "srdbadmin" (do this as user postgres on database postgres):
+
+postgres@calopteryx:/newhome/home/ricardd$ /usr/lib/postgresql/8.4/bin/psql -p 5435
+psql (8.4.5)
+Type "help" for help.
+
+postgres=# CREATE ROLE srdbadmin WITH PASSWORD 'srd6adm1n!';
+CREATE ROLE
+postgres=# CREATE ROLE srdbuser WITH PASSWORD 'srd6us3r!';
+CREATE ROLE
+postgres=# ALTER DATABASE srdb OWNER TO srdbadmin;
+ALTER DATABASE
+postgres=# ALTER ROLE srdbadmin WITH LOGIN;
+ALTER ROLE
+postgres=# ALTER ROLE srdbuser WITH LOGIN;
+ALTER ROLE
+postgres=# ALTER ROLE srdbadmin WITH SUPERUSER;
+ALTER ROLE
+
+
+3 - run the create-srDB script (now as user srdbadmin):
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb/srdb$ /usr/lib/postgresql/8.4/bin/psql srdb -p 5435 -f './scripts/create-srDB.sql'
+
+
+4 - create plpgsql language on the database
+/usr/lib/postgresql/8.4/bin/psql srdb -p 5435 -c 'CREATE LANGUAGE plpgsql'

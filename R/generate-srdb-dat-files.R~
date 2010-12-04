@@ -1,0 +1,14 @@
+## script to generate text files with the contents of the background tables for srdb
+## I'm doing this because I am upgrading to postgreSQL 8.4 and migrating to nautilus-vm, and the current .dat files are likely to be missing some values that were added to the database using INSERT statements
+## Daniel Ricard
+## last modified Time-stamp: <2010-12-02 14:33:55 (srdbadmin)>
+require(RODBC)
+chan <- odbcConnect(dsn='srdbcalo')
+
+## taxonomy
+qu <- paste("select * from srdb.taxonomy",sep="")
+tax <- sqlQuery(chan,qu)
+write.csv(tax, "../srdb/data/taxonomy-srdb.dat")
+
+
+odbcClose(chan)

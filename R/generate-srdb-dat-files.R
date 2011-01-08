@@ -1,7 +1,7 @@
 ## script to generate text files with the contents of the background tables for srdb
 ## I'm doing this because I am upgrading to postgreSQL 8.4 and migrating to nautilus-vm, and the current .dat files are likely to be missing some values that were added to the database using INSERT statements
 ## Daniel Ricard
-## last modified Time-stamp: <2010-12-02 16:35:28 (srdbadmin)>
+## last modified Time-stamp: <2010-12-03 20:53:41 (srdbadmin)>
 require(RODBC)
 chan <- odbcConnect(dsn='srdbcalo')
 
@@ -51,8 +51,15 @@ stock <- sqlQuery(chan,qu)
 write.csv(stock, "../srdb/data/stock-fromdb.dat",row.names=FALSE)
 
 ## assessors
+qu <- paste("select * from srdb.assessor",sep="")
+assessor <- sqlQuery(chan,qu)
+write.csv(assessor, "../srdb/data/assessor-fromdb.dat",row.names=FALSE)
+
 
 ## assessmethods
+qu <- paste("select * from srdb.assessmethod",sep="")
+assessmeth <- sqlQuery(chan,qu)
+write.csv(assessmeth, "../srdb/data/assessmethods-fromdb.dat",row.names=FALSE)
 
 
 odbcClose(chan)

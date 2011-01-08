@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-09-27 13:41:38 (srdbadmin)>
+## Last modified: Time-stamp: <2010-09-29 11:38:10 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -268,7 +268,7 @@ crosshair.for.table.withref <- data.frame(mgmt=crosshair.for.table.temp$mgmt, st
   crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt,crosshair.for.table$scientificname),]
 
 
-  crosshair.for.table.withref$scientificname <- paste("\\textit{",crosshair.for.table$scientificname,"}",sep="")
+  crosshair.for.table.withref$scientificname <- paste("\\textit{",crosshair.for.table.withref$scientificname,"}",sep="")
   crosshair.for.table.withref <- crosshair.for.table.withref[order(crosshair.for.table.withref$mgmt,crosshair.for.table.withref$scientificname),]
 
 

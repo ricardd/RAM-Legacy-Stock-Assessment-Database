@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for a loaded assessment
 # Cóilín Minto
 # date: Fri Nov 21 13:17:09 AST 2008
-# Time-stamp: <2010-08-03 16:15:16 (srdbadmin)>
+# Time-stamp: <2011-01-05 13:51:55 (srdbadmin)>
 # Modification history:
 # 2009-03-26: adding issue URL to the QA/QC report, this also required modifications to "srDB-QAQC-template.tex" (ricardd)
 # 2009-04-21: adding a timestamp to show when the document was created this also required modifications to "srDB-QAQC-template.tex" (ricardd)
@@ -967,6 +967,6 @@ my $outpdffile = "/home/srdbadmin/SQLpg/srDB/tex/" . $assessid . ".pdf";
 my $outtexlog= "/home/srdbadmin/srdb/tex/" . $assessid . ".log";
 my $outtexaux= "/home/srdbadmin/srdb/tex/" . $assessid . ".aux";
 #unlink $outtex, $outR, $summaryplot, $timetabfile, $postentryfile, $tempreffile, $reffile, $templhfile, $lhfile, $assesstabfile, $outtexlog, $outtexaux || die "Cannot open file";
-unlink $outtex, $outR, $timetabfile, $postentryfile, $tempreffile, $reffile, $templmefile, $lmefile, $templhfile, $lhfile, $assesstabfile, $outtexlog, $outtexaux || die "Cannot open file"; ## 
+unlink $outtex, $timetabfile, $postentryfile, $tempreffile, $reffile, $templmefile, $lmefile, $templhfile, $lhfile, $assesstabfile, $outtexlog, $outtexaux || die "Cannot open file"; ## 
 $dbh->disconnect();
 # , $outR

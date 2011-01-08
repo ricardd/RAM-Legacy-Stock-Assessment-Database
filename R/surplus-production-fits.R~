@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2010-07-02 14:01:52 (srdbadmin)>
+## Last modified Time-stamp: <2010-09-01 11:25:03 (srdbadmin)>
 require(RODBC)
 require(gplots)
 
@@ -151,6 +151,9 @@ sqlQuery(chan,qu)
 qu <- "DELETE FROM srdb.spfits where qualityflag=-8"
 sqlQuery(chan,qu)
 
+## insert a comment on the table
+qu <- "COMMENT ON TABLE srdb.spfits IS 'This table stores the parameter estimates from the Schaefer surplus production model ran against the catch and total biomass timeseries.'"
+sqlQuery(chan,qu)
 
 ## now generate another pdf document that only contains the surplus production fits that are satisfactory
 

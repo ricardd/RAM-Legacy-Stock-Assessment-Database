@@ -1,7 +1,7 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2010-09-29 11:38:10 (srdbadmin)>
+## Last modified: Time-stamp: <2011-01-07 15:00:13 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
@@ -509,6 +509,13 @@ mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
 
 dev.off()
 
+## DFO only
+pdf("friedegg-DFO.pdf", width=8, height=10)
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","TRUE","TRUE","DFO","TRUE")
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+dev.off()
+###
 
 qu <- paste("
 select mgmt, category, count(*) from (select mm.mgmt, (CASE when am.category in ('Integrated Analysis','Statistical catch at age model', 'Statistical catch at length model') THEN 'Statistical catch-at-age/length models' ELSE (CASE WHEN am.category='VPA' THEN 'Virtual Population Analyses' ELSE (CASE WHEN am.category='' THEN 'Biomass dynamics models' ELSE am.category END) END) END) as category from srdb.assessment aa, srdb.assessmethod am, srdb.assessor ass, srdb.management mm where aa.assessorid=ass.assessorid and ass.mgmt=mm.mgmt and aa.assessmethod=am.methodshort and aa.recorder != 'MYERS' and aa.assess=1) as a group by mgmt, category order by mgmt

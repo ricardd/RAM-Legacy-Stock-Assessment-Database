@@ -1,9 +1,10 @@
 ## fried-egg-plots.R
 ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-01-07 15:00:13 (srdbadmin)>
+## Last modified: Time-stamp: <2011-01-12 09:42:36 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
+## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 
 require(RODBC)
@@ -309,7 +310,7 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
   image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = my.xlab, ylab = my.ylab, xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
-points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),19,21), bg="white")
+points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
 
   n.assessid <- dim(crosshair.dat)[1]
   mtext(side=3, paste("all assessments", " (n=", n.assessid, ")", sep=""), line=2)
@@ -449,7 +450,7 @@ if (plot.true == "TRUE"){
   image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
-points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),19,21), bg="white")
+points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
 
 ifelse(xlabel, axis(side=1, labels=TRUE), axis(side=1, labels=FALSE))
 ifelse(ylabel, axis(side=2, labels=TRUE), axis(side=2, labels=FALSE))

@@ -1,8 +1,7 @@
 
-R version 2.12.0 (2010-10-15)
-Copyright (C) 2010 The R Foundation for Statistical Computing
+R version 2.9.1 (2009-06-26)
+Copyright (C) 2009 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
-Platform: i486-pc-linux-gnu (32-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -18,16 +17,15 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > ## fried-egg-plots.R
 > ## produce multi-panel fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2010-09-29 11:38:10 (srdbadmin)>
+> ## Last modified: Time-stamp: <2011-01-12 09:42:36 (srdbadmin)>
 > ## Modification history:
 > ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
+> ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R")
 > 
 > require(RODBC)
@@ -338,7 +336,7 @@ Loading required package: xtable
 +   image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = my.xlab, ylab = my.ylab, xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
 + contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 + abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
-+ points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),19,21), bg="white")
++ points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
 + 
 +   n.assessid <- dim(crosshair.dat)[1]
 +   mtext(side=3, paste("all assessments", " (n=", n.assessid, ")", sep=""), line=2)
@@ -478,7 +476,7 @@ Loading required package: xtable
 +   image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
 + contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 + abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
-+ points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),19,21), bg="white")
++ points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
 + 
 + ifelse(xlabel, axis(side=1, labels=TRUE), axis(side=1, labels=FALSE))
 + ifelse(ylabel, axis(side=2, labels=TRUE), axis(side=2, labels=FALSE))
@@ -542,6 +540,15 @@ null device
 null device 
           1 
 > 
+> ## DFO only
+> pdf("friedegg-DFO.pdf", width=8, height=10)
+> fried.egg.fct("mgmt",c("('DFO')"),"DFO","TRUE","TRUE","DFO","TRUE")
+> mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+> mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+> dev.off()
+null device 
+          1 
+> ###
 > 
 > qu <- paste("
 + select mgmt, category, count(*) from (select mm.mgmt, (CASE when am.category in ('Integrated Analysis','Statistical catch at age model', 'Statistical catch at length model') THEN 'Statistical catch-at-age/length models' ELSE (CASE WHEN am.category='VPA' THEN 'Virtual Population Analyses' ELSE (CASE WHEN am.category='' THEN 'Biomass dynamics models' ELSE am.category END) END) END) as category from srdb.assessment aa, srdb.assessmethod am, srdb.assessor ass, srdb.management mm where aa.assessorid=ass.assessorid and ass.mgmt=mm.mgmt and aa.assessmethod=am.methodshort and aa.recorder != 'MYERS' and aa.assess=1) as a group by mgmt, category order by mgmt
@@ -615,4 +622,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  8.480   0.064  11.393 
+  6.404   0.080   9.787 

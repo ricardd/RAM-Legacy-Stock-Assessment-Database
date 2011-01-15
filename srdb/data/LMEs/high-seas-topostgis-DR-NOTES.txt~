@@ -1,4 +1,4 @@
-Last-modified Time-stamp: <2010-05-05 23:03:23 (srdbadmin)>
+Last-modified Time-stamp: <2011-01-14 14:08:57 (srdbadmin)>
 
 "HighSeas.shp" is shapefile from Olaf defining the polygons for the high seas regions
 
@@ -63,15 +63,31 @@ Check constraints:
 DROP TABLE highseasformatted;
 CREATE TABLE highseasformatted AS
 (
-select -99 as gid, -99 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -99 as lme_number, 'Pacific High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (1,4)
+select -99 as gid, -99 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -99 as lme_number, 'Pacific High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(ST_Union(the_geom)) as the_geom from highseas where gid in (1,4)
 UNION
-select -98 as gid, -98 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -98 as lme_number, 'Atlantic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (6,7)
+select -98 as gid, -98 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -98 as lme_number, 'Atlantic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(ST_Union(the_geom)) as the_geom from highseas where gid in (6,7)
 UNION
-select -97 as gid, -97 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -97 as lme_number, 'Indian High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (5)
+select -97 as gid, -97 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -97 as lme_number, 'Indian High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(ST_Union(the_geom)) as the_geom from highseas where gid in (5)
 UNION
-select -96 as gid, -96 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -96 as lme_number, 'Subantarctic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(geomunion(the_geom)) as the_geom from highseas where gid in (2,3)
+select -96 as gid, -96 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -96 as lme_number, 'Subantarctic High Seas' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, multi(ST_Union(the_geom)) as the_geom from highseas where gid in (2,3)
 );
 
 
 INSERT INTO lmes (SELECT * FROM highseasformatted);
+
+********
+CASPIAN SEA DOESN'T HAVE AN LME!!
+obtained shapefile from http://www.caspianenvironment.org/dim/gis/coast_shapes.zip
+
+now load into the lmes table with ID=-95
+shp2pgsql COASTLIN caspian -S 4326 > caspian.sql
+psql srdb -f caspian.sql
+
+DROP TABLE caspianformatted;
+CREATE TABLE caspianformatted AS
+(
+select -95 as gid, -95 as objectid, -999 as area, -999 as perimeter, -999 as lme_2002_, -999 as lme_2002_i, -95 as lme_number, 'Caspian Sea' as lme_name, -999 as sq_km, 'NULL' as website, -999 as shape_leng, -999 as shape_area, the_geom from caspian 
+);
+
+INSERT INTO lmes (SELECT * FROM caspianformatted);
 

@@ -1,0 +1,8 @@
+select 
+*
+from
+geo.nafodivs
+where
+zone in ('2J','3K','3L')
+
+;

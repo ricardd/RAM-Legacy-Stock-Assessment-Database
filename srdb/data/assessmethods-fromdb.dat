@@ -48,3 +48,4 @@
 "VPA","ISVPA","Instantaneous Separable VPA"
 "Biomass dynamics model","CSM","Collie-Sissenwine model"
 "VPA","hybrid","Bayesian VPA hybrid"
+"Biomass dynamics model","KLAMZ","The KLAMZ assessment model is based on the Deriso-Schnute delay-difference equation"

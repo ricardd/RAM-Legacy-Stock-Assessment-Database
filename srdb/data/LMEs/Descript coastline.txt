@@ -1,0 +1,27 @@
+Data title: Coastline of the Caspian Sea
+
+Title of the file: coastline.shp - (Poligonal theme in the format of the Arc View Gis software of the ESRI company).
+
+Units: geographical coordinates - decimal degree (WGS 84).
+
+Introduction: Coastline is used for showing the contours of the seas and includes the coastlines of the islands. 
+
+Date of creation (last revision): May, 1999.
+
+Author: Ziyafat Kerimov (Caspian Environment Program).
+
+Address for correspondence:
+ PCU of Caspian Environment Program
+ Room 108, Government Building
+ U.Hajibekov str., 40
+ Baku-370016,
+ Azerbaijan 
+ 
+ Phone:  +994 12 97 17 85
+ Fax:    +994 12 97 17 86
+ E-mail: zkerimov@caspian.in-baku.com
+
+Used dataset: The coastline was digitized from the Navigation Map of the Caspian Sea published by the Navigation and Oceanography Department of the Defense Ministry of the USSR in 1987. (Scale 1:1000000, Mercator projection) and was corrected in some details using the image from the satellite "Resurs" made in 1997. Resolution of the image is 150 m.
+
+Method and the software used for map creation: The coastline obtained by digitizing the paper map and the satellite image in Arc View GIS 3.1 (ESRI).
+

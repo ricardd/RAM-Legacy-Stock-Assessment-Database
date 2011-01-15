@@ -1,7 +1,8 @@
 #!/bin/bash
-# load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, JUNE 2010
-# Last modified Time-stamp: <2010-12-02 20:02:49 (srdbadmin)>
-#
+# load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
+# Last modified Time-stamp: <2011-01-14 13:29:56 (srdbadmin)>
+# Modification history:
+# 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
 
 # assessments are here in the order they appear in F&F manuscript Table S1, ie. by management body
@@ -459,3 +460,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Chute-oceanquahog-20
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-RSNAPEGM-2005-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-RSNAPWGM-2005-editedDR.xls
 
+
+## database day
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-ANCHOVYKILKACS-2007-editedDR.xls

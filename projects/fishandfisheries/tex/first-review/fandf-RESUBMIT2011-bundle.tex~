@@ -1,0 +1,34 @@
+%% Last modified: Time-stamp: <2011-02-01 12:02:56 (srdbadmin)>
+\documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{comment}
+\usepackage{color}
+\usepackage[left=3cm,top=3cm,right=3cm,bottom=3cm,nohead]{geometry}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
+\usepackage{microtype} %% no ligature, to facilitate conversion to Word
+\DisableLigatures{encoding = *, family = * }
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Dynamic Abstract, dynamic Results and Figures for Fish and Fisheries paper}
+
+\end{frontmatter}
+
+\bibliographystyle{fishandfisheriesBST}
+
+\bibliography{./fishfisheries}
+
+\input{abstract-dynamic}
+\input{results-dynamic}
+
+\include{Figures-RESUBMIT}
+
+\end{document}
+

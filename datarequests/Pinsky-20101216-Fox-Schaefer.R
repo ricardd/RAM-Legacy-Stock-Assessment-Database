@@ -1,14 +1,15 @@
 ## R code to extract data for Malin Pinsky's paper on fisheries collapse
 ## Daniel Ricard 2010-06-07
-## Last modified Time-stamp: <2010-12-16 10:35:43 (srdbadmin)>
+## Last modified Time-stamp: <2011-01-19 10:04:00 (srdbadmin)>
 ## Modification history:
 ## 2010-06-25: Malin needs the F/Fmsy series as well
 ## 2010-07-14: the U/Umsy for Schaefer-derived was calculated as F/Umsy instead of (TC/TB)/Umsy, I fixed that
 ## 2010-08-04: FALSE ALARM, this was right all along (the original code chose both reference points from the assessment or the surplus production model, now need to mismatch the reference points so that we can have an assessment-derived Bmsy and a Schaefer-derived Umsy. The code to produce the fried eggs and Table S1 of the Fish and Fisheries manuscript does that. I'm using srdb/projects/fishandfisheries/R/fried-egg-plots-MIXANDMATCH.R as a starting point here.)
 ## 2010-12-16: Malin got the reviews from PNAS back and requested the surplus production model fits for the Fox model as well, I am basically copying and pasting the earlier code, changing reference to srdb.spfits to srdb.spfits_fox and writing two separate CSV files, one for each surplus production model type
-
+## 2011-01-17: there was a typo in the script generating the Fox fits an inappropriate/bad fits were not removed, I fixed this
+## 2011-01-19: change of strategy, instead of removing stocks that have non-convergence, etc. I am only including stocks identified by Olaf as appropriate, this is handled in the surplus-production-fits.R script but has consequences here
 require(RODBC)
-#rm(list=ls(all=TRUE))
+rm(list=ls(all=TRUE))
 chan <- odbcConnect(dsn="srdbusercalo")
 
 ######################################################################################################## 
@@ -60,7 +61,7 @@ FROM
 srdb.assessment a,
 srdb.stock s,
 srdb.taxonomy t,
-srdb.spfits sp,
+srdb.spfits_schaefer sp,
 srdb.timeseries_values_view tsv
 WHERE
 sp.assessid=a.assessid AND
@@ -97,7 +98,8 @@ transposed.dat$Btype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-BBmsy-Schaefer-20101216.csv", row.names=FALSE)
+#write.csv(transposed.dat,"PINSKY-BBmsy-Schaefer-20101216.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-BBmsy-Schaefer-20110117.csv", row.names=FALSE)
 
 
 
@@ -149,7 +151,7 @@ FROM
 srdb.assessment a,
 srdb.stock s,
 srdb.taxonomy t,
-srdb.spfits sp,
+srdb.spfits_schaefer sp,
 srdb.timeseries_values_view tsv
 WHERE
 sp.assessid=a.assessid AND
@@ -188,7 +190,8 @@ transposed.dat$Ftype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-FFmsy-Schaefer-20101216.csv", row.names=FALSE)
+##write.csv(transposed.dat,"PINSKY-FFmsy-Schaefer-20101216.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-FFmsy-Schaefer-20110117.csv", row.names=FALSE)
 
 ### END SCHAEFER
 ######################################################################################################## 
@@ -280,8 +283,8 @@ transposed.dat$Btype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-BBmsy-Fox-20101216.csv", row.names=FALSE)
-
+##write.csv(transposed.dat,"PINSKY-BBmsy-Fox-20101216.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-BBmsy-Fox-20110117.csv", row.names=FALSE)
 
 
 ###############################################################################
@@ -371,7 +374,8 @@ transposed.dat$Ftype <- tapply(as.character(both.dat.singleBRP.1950to2008$type),
 transposed.dat <- transposed.dat[,c(61,62,63,64,65,66,1:59,60)]
 ## the data frame created here has pretty much the same format as the CSV file that was provided by Malin on June 4th 2010
 ## write the resulting data frame to a CSV file
-write.csv(transposed.dat,"PINSKY-FFmsy-Fox-20101216.csv", row.names=FALSE)
+##write.csv(transposed.dat,"PINSKY-FFmsy-Fox-20101216.csv", row.names=FALSE)
+write.csv(transposed.dat,"PINSKY-FFmsy-Fox-20110117.csv", row.names=FALSE)
 
 ### END FOX
 ######################################################################################################## 

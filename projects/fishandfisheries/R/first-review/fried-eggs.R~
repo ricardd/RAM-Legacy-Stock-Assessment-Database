@@ -1,0 +1,11 @@
+## orca plots for resubmission of Fish and Fisheries manuscript 2011
+##
+
+pdf("fried-egg-single.pdf")
+plot(rnorm(50), rnorm(50))
+dev.off()
+
+
+pdf("fried-egg-bymgmt.pdf")
+plot(rnorm(50), rnorm(50))
+dev.off()

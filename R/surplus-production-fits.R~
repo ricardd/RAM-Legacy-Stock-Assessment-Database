@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2010-09-01 11:25:03 (srdbadmin)>
+## Last modified Time-stamp: <2010-12-20 10:19:22 (srdbadmin)>
 require(RODBC)
 require(gplots)
 
@@ -19,7 +19,7 @@ my.stockid <- unique(sp.data$stockid)
 n<-length(my.assessid)
 sp.fit <- data.frame(assessid=my.assessid, lnK=rep(-99,n), K=rep(-99,n), lnMSY=rep(-99,n), MSY=rep(-99,n), BMSY=rep(-99,n), FMSY=rep(-99,n), qualityflag=rep(-99,n))
 
-pdf("spfits.pdf", width=8, height=10)
+pdf("spfits.pdf", width=8, height=10, title="Schaefer fits")
 par(mfrow=c(5,4),mar=c(1,1,1,1), oma=c(3.5,3,0,0))
 
 for (i in 1:n) {
@@ -169,7 +169,7 @@ my.stockid <- unique(sp.data.cleaned$stockid)
 n<-length(my.assessid)
 
 
-pdf("spfits-MANUALLY-CLEANED.pdf", width=8, height=10)
+pdf("spfits-MANUALLY-CLEANED.pdf", width=8, height=10, title="Schaefer fits manually cleaned")
 par(mfrow=c(5,4),mar=c(1,1,1,1), oma=c(3.5,3,0,0))
 
 

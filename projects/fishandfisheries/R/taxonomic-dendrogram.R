@@ -1,6 +1,6 @@
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2010-09-14 14:57:17 (srdbadmin)>
+## Last modified Time-stamp: <2011-02-02 17:53:27 (root)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -60,6 +60,7 @@ expanded.fishbase.dat<-fishbase.dat
 fishbase.dat.order<-summaryBy(Family~Class+Order, data=expanded.fishbase.dat, FUN=c(length))
 
 taxo.phylo.fishbase<-as.phylo(~Class/Order, data=fishbase.dat.order)
+
 my.taxo.phylo.fishbase<-my.as.phylo.formula(~Class/Order, data=fishbase.dat.order)
 
 ## by.order.as.phylo.formula(~Class/Order, data=fishbase.dat.order)
@@ -304,6 +305,7 @@ dev.off()
 
 ## compare FishBase and SAUP
 source("./maintain_branching_phylo_formula_noLME.R")
+
 fishbase.saup.phylo <- maintain.branching.phylo.formula.nolme(~Class/Order, data1=fishbase.dat.order, data2=saup.dat.order)
 fishbase.phylo <- fishbase.saup.phylo[[1]]
 saup.phylo <- fishbase.saup.phylo[[2]]

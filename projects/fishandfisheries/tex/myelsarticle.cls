@@ -447,7 +447,7 @@
      \let\@oddhead\@empty
      \let\@evenhead\@empty
      \def\@oddfoot{\footnotesize\itshape
-       To be submitted to \ifx\@journal\@empty Fish and Fisheries
+       For resubmission to \ifx\@journal\@empty Fish and Fisheries
        \else\@journal\fi\hfill\today}%
      \let\@evenfoot\@oddfoot}
 \def\@seccntDot{.}

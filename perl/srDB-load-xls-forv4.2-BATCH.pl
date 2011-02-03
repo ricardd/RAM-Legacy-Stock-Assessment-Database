@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2010-12-02 18:33:29 (srdbadmin)>
+# Last modified: Time-stamp: <2011-01-17 15:33:22 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -172,7 +172,8 @@ $bioyr = $oWkS->{Cells}[$iR][7]->Value;
 $biounique = $bioid . "-" . $biounits;
 
 print("$iR $bioid $biounits $biovalue $bioyr \n");
-$sqlbiometrics = qq{ INSERT INTO srdb.bioparams VALUES(\'$assessid\',\'$biounique\',\'$biovalue\', \'$bionotes\', \'$bioyr\') };
+#$sqlbiometrics = qq{ INSERT INTO srdb.bioparams VALUES(\'$assessid\',\'$biounique\',\'$biovalue\', \'$bionotes\', \'$bioyr\') };
+$sqlbiometrics = qq{ INSERT INTO srdb.bioparams VALUES(\'$assessid\',\'$biounique\',\'$biovalue\', \'$bioyr\', \'$bionotes\') };
 print SQLFILE "$sqlbiometrics; \n";
 #print "$sqlbiometrics\n";
 #my $sth = $dbh->prepare( $sqlbiometrics ); 

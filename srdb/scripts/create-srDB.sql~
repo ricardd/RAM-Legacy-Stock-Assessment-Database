@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2010-08-31 11:08:13 (srdbadmin)>
+-- Last modified: Time-stamp: <2010-12-02 16:43:05 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -37,8 +37,10 @@ managementauthority VARCHAR(200)
 );
 
 COPY srdb.management
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/mgmt.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/mgmt.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/management-fromdb.dat'
 -- FROM './data/mgmt.dat'
+NULL AS 'NA'
 CSV HEADER 
 ;
 
@@ -63,8 +65,10 @@ alternateareaname VARCHAR(50)
 --            2);
 
 COPY srdb.area
---FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/areas.dat'
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/areas-updated-formatted.csv'
+--FROM '/home/srdbadmin/srdb/srdb/data/areas.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/areas-updated-formatted.csv'
+FROM '/home/srdbadmin/srdb/srdb/data/area-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER 
 ;
 
@@ -81,7 +85,7 @@ COMMENT ON TABLE srdb.area IS 'Stock areas, used in the definition of stocks.';
 -- table for taxonomic information
 CREATE TABLE srdb.taxonomy (
 tsn INT PRIMARY KEY,
-scientificname VARCHAR(200) PRIMARY KEY, -- ALTER TABLE srdb.taxonomy ADD CONSTRAINT scientificname_id UNIQUE (scientificname);
+scientificname VARCHAR(200), -- 
 -- commonname VARCHAR(200),
 kingdom VARCHAR(200),
 phylum VARCHAR(200),
@@ -97,8 +101,12 @@ myersscientificname VARCHAR(200),
 myersfamily VARCHAR(50)
 );
 
+ALTER TABLE srdb.taxonomy ADD CONSTRAINT scientificname_id UNIQUE (scientificname);
+
 COPY srdb.taxonomy
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/taxonomy.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/taxonomy.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/taxonomy-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER 
 ;
 
@@ -132,7 +140,7 @@ country VARCHAR(50),
 assessorfull VARCHAR(200)
 );
 
-COMMENT ON TABLE srdb.assessmethod IS 'Details of assessors. An assessor must be associated with a management boby from the table srdb.management.';
+COMMENT ON TABLE srdb.assessor IS 'Details of assessors. An assessor must be associated with a management boby from the table srdb.management.';
 
 
 -- table for the different assessment methods
@@ -158,7 +166,9 @@ nameinxls VARCHAR(50) PRIMARY KEY
 );
 
 COPY srDB.recorder
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/recorders.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/recorders.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/recorder-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER
 ;
 
@@ -209,21 +219,24 @@ tscategory VARCHAR(200),
 tsshort VARCHAR(40),
 tslong VARCHAR(200),
 tsunitsshort VARCHAR(40),
-tsunitslong VARCHAR(300)
+tsunitslong VARCHAR(300),
+tsunique VARCHAR(70) PRIMARY KEY
 );
 
 COPY srDB.tsmetrics
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/tsmetrics.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/tsmetrics.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/tsmetrics-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER
 ;
 
-ALTER TABLE srDB.tsmetrics
-ADD COLUMN tsunique VARCHAR(70);
+--ALTER TABLE srDB.tsmetrics
+--ADD COLUMN tsunique VARCHAR(70);
 
-UPDATE srDB.tsmetrics SET tsunique = (tsshort || '-' || tsunitsshort);
+--UPDATE srDB.tsmetrics SET tsunique = (tsshort || '-' || tsunitsshort);
 
-ALTER TABLE srDB.tsmetrics
-ADD PRIMARY KEY (tsunique);
+--ALTER TABLE srDB.tsmetrics
+--ADD PRIMARY KEY (tsunique);
 
 COMMENT ON TABLE srdb.tsmetrics IS 'Definition of tiemseries such as recruits, spawning stock biomass, total abundance, etc.';
 
@@ -246,21 +259,24 @@ subcategory VARCHAR(100),
 bioshort VARCHAR(40),
 biolong VARCHAR(300),
 biounitsshort VARCHAR(40),
-biounitslong VARCHAR(200)
+biounitslong VARCHAR(200),
+biounique VARCHAR(70) PRIMARY KEY
 );
 
 COPY srDB.biometrics
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/biometrics.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/biometrics.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/biometrics-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER
 ;
 
-ALTER TABLE srDB.biometrics
-ADD COLUMN biounique VARCHAR(70);
+--ALTER TABLE srDB.biometrics
+--ADD COLUMN biounique VARCHAR(70);
 
-UPDATE srDB.biometrics SET biounique = (bioshort || '-' || biounitsshort);
+--UPDATE srDB.biometrics SET biounique = (bioshort || '-' || biounitsshort);
 
-ALTER TABLE srDB.biometrics
-ADD PRIMARY KEY (biounique);
+--ALTER TABLE srDB.biometrics
+--ADD PRIMARY KEY (biounique);
 
 COMMENT ON TABLE srdb.biometrics IS 'Definition of point metrics such as reference points, life-history parameters and description of timeseries (e.g. age of recruitment, ages used in F calculations, etc.).';
 
@@ -286,7 +302,9 @@ ADD PRIMARY KEY (risfield);
 
 -- load the RIS fields from a text file
 COPY srdb.risfields
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/risfields.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/risfields.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/risfields-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER 
 ;
 
@@ -301,7 +319,9 @@ allowedvaluelong VARCHAR(200)
 
 -- load the allowed RIS fields from a text file
 COPY srdb.risfieldvalues
-FROM '/home/srdbadmin/SQLpg/srDB/srDB/data/risfieldvalues.dat'
+--FROM '/home/srdbadmin/srdb/srdb/data/risfieldvalues.dat'
+FROM '/home/srdbadmin/srdb/srdb/data/risfieldvalues-fromdb.dat'
+NULL AS 'NA'
 CSV HEADER 
 ;
 

@@ -1,0 +1,802 @@
+
+R version 2.12.1 (2010-12-16)
+Copyright (C) 2010 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Revobase'
+[Previously saved workspace restored]
+
+> ## revised code for Fish and Fisheries resubmission, Feb. 2011
+> ##
+> ## spoked wheel dendrogram for Fish and Fisheries manuscript
+> ## Started: 2010-02-16 DR from earlier work in this directory
+> ## Last modified Time-stamp: <2011-02-02 20:30:34 (srdbadmin)>
+> ## Modification history:
+> ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
+> ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
+> ## 2011-02-02: Coilin fixed this, something was not working when using gsubfn
+> 
+> setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
+> require(RODBC); require(ape); require(gsubfn); require(IDPmisc); require(doBy)
+Loading required package: RODBC
+Loading required package: ape
+Loading required package: gsubfn
+Loading required package: proto
+Loading required package: IDPmisc
+Loading required package: grid
+Loading required package: lattice
+
+Attaching package: 'IDPmisc'
+
+The following object(s) are masked from 'package:ape':
+
+    zoom
+
+Loading required package: doBy
+Loading required package: survival
+Loading required package: splines
+> 
+>     f.rec <- function(subtaxo) {
++         u <- ncol(subtaxo)
++         levels <- unique(subtaxo[, u])
++         if (u == 1) {
++             if (length(levels) != nrow(subtaxo)) 
++                 warning("Error, leaves names are not unique.")
++             return(as.character(subtaxo[, 1]))
++           }
++         t <- character(length(levels))
++         for (l in 1:length(levels)) {
++             x <- f.rec(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
++            if (length(x) == 1) 
++               t[l] <- x
++                ##t[l] <- paste(x,":", 1, sep="")
++             else{
++               n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
++               t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
++             }
++           }
++         return(t)
++       }
+> 
+> source("my_as_phylo_formula.R")
+> source("by_order_as_phylo_formula.R")
+> 
+> chan <- odbcConnect(dsn="srdbcalo")
+> 
+> ### FishBase
+> fishbase.dat <- read.table("fishbase-DendroRAM-FROMRAINER.csv", sep=",", header=TRUE)
+> fishbase.dat$scientificname <- as.factor(paste(fishbase.dat$Genus, fishbase.dat$Species, sep=" "))
+> fishbase.dat <- fishbase.dat[order(fishbase.dat$scientificname),]
+> 
+> # number of species in FishBase
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMSPPFISHBASE''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMSPPFISHBASE',",dim(fishbase.dat)[1] ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> # number of orders in FishBase
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMORDERSFISHBASE''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMORDERSFISHBASE',",length(unique(fishbase.dat$Order)) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> 
+> ## expand out the species row entries to be equal to the value of LME column
+> ##expanded.fishbase.dat<-fishbase.dat[rep(1:nrow(fishbase.dat), times=fishbase.dat$LME), ]
+> expanded.fishbase.dat<-fishbase.dat
+> ## get the counts by order
+> fishbase.dat.order<-summaryBy(Family~Class+Order, data=expanded.fishbase.dat, FUN=c(length))
+> 
+> taxo.phylo.fishbase<-as.phylo(~Class/Order, data=fishbase.dat.order)
+> 
+> my.taxo.phylo.fishbase<-my.as.phylo.formula(~Class/Order, data=fishbase.dat.order)
+Loading required package: tcltk
+Loading Tcl/Tk interface ... done
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> 
+> ## by.order.as.phylo.formula(~Class/Order, data=fishbase.dat.order)
+> 
+> taxo.2.phylo.fishbase<-by.order.as.phylo.formula(~Class/Order, data=fishbase.dat.order)
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> taxo.2.phylo.fishbase$div.edge.length<-taxo.2.phylo.fishbase$edge.length/(range(taxo.2.phylo.fishbase$edge.length)[2]/20)
+> taxo.phylo.fishbase$tip.label<-taxo.2.phylo.fishbase$tip.label
+> 
+> ## get the percentage in each order
+> percentage.by.order<-round(100*as.numeric(sapply(taxo.phylo.fishbase$tip.label, function(z){fishbase.dat.order$Family.length[fishbase.dat.order$Order==z]}))/sum(fishbase.dat.order$Family.length),2)
+> taxo.phylo.fishbase$tip.label<-paste(taxo.phylo.fishbase$tip.label,paste("(",percentage.by.order,")", sep=""), sep="\n")
+> ## get the percentage in each class (smaller classes only have one order already represented)
+> percent.actinopterygii<-round(100*sum(fishbase.dat.order$Family.length[fishbase.dat.order$Class=="Actinopterygii (ray-finned fishes)"])/sum(fishbase.dat.order$Family.length),2)
+> percent.elasmobranchii<-round(100*sum(fishbase.dat.order$Family.length[fishbase.dat.order$Class=="Elasmobranchii (sharks and rays)"])/sum(fishbase.dat.order$Family.length),2)
+> 
+> ## pdf output
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/FishBase-byorder.pdf", width=10, height=10)
+> plot(taxo.phylo.fishbase, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
++      edge.width=taxo.2.phylo.fishbase$div.edge.length, label.offset=0.5, srt=0, adj=0)
+> points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+> text(0.22,0.1,labels=paste("Actinopterygii",paste("(",percent.actinopterygii,")", sep=""), sep="\n"))
+> text(0.55,-0.35,labels=paste("Elasmobranchii",paste("(",percent.elasmobranchii,")", sep=""), sep="\n"))
+> dev.off()
+null device 
+          1 
+> ## system("xpdf ./FishBase-byorder.pdf")
+> 
+> ### SAUP
+> 
+> 
+> #### DATA obtained from SAUP website by copying the contents of an HTML form for search
+> ## not elegant but a start
+> saup.dat.in <- read.csv("SAUP-species-list.csv")
+> 
+> fishbase.saup.merged <- merge(fishbase.dat, saup.dat.in, "scientificname")
+> saup.dat <- data.frame(Kingdom = fishbase.saup.merged$Kingdom, Phylum = fishbase.saup.merged$Phylum, Class = fishbase.saup.merged$Class, Order = fishbase.saup.merged$Order, Family = fishbase.saup.merged$Family, Genus = fishbase.saup.merged$Genus, Species = fishbase.saup.merged$Species, LME = fishbase.saup.merged$LME, scientificname = fishbase.saup.merged$scientificname)
+> 
+> saup.dat$Order <- as.factor(as.character(saup.dat$Order))
+> saup.dat$Class <- as.factor(as.character(saup.dat$Class))
+> 
+> 
+> # number of species in SAUP
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMSPP''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMSPP',",dim(saup.dat)[1] ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> # number of orders in SAUP
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPNUMORDERS''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPNUMORDERS',",length(unique(saup.dat$Order)) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> ## SAUP vs. FishBase in percentages
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTSPPFISHBASE''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTSPPFISHBASE',",round(dim(saup.dat)[1]/dim(fishbase.dat)[1]*100,0) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SAUPPERCENTORDERSFISHBASE''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SAUPPERCENTORDERSFISHBASE',",round(length(unique(saup.dat$Order))/length(unique(fishbase.dat$Order))*100,0) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> ##
+> 
+> ### note subsample of fishbase for now
+> #n.sample<-floor(0.3*length(fishbase.dat[,1]))
+> #index<-sample(seq(1,length(fishbase.dat[,1])),size=n.sample)
+> #saup.data<-fishbase.dat[index,]
+> #saup.dat <- saup.dat[order(saup.dat$scientificname),]
+> #saup.dat$scientificname <- as.factor(paste(saup.dat$Genus, saup.dat$Species, sep=" "))
+> #saup.levels <- as.character(unique((saup.dat$Order)))
+> #saup.dat$Order <- as.factor(as.character(saup.dat$Order))
+> 
+> 
+> ##expanded.saup.dat<-saup.dat[rep(1:nrow(saup.dat), times=saup.dat$LME), ]
+> expanded.saup.dat<-saup.dat
+> 
+> ## get the counts by order2
+> saup.dat.order<-summaryBy(Family~Class+Order, data=expanded.saup.dat, FUN=c(length))
+> 
+> taxo.phylo.saup <- as.phylo(~Class/Order, data=saup.dat.order)
+> 
+> taxo.2.phylo.saup <- by.order.as.phylo.formula(~Class/Order, data=saup.dat.order)
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> 
+> taxo.2.phylo.saup$div.edge.length<-taxo.2.phylo.saup$edge.length/(range(taxo.2.phylo.saup$edge.length)[2]/20)
+> taxo.phylo.saup$tip.label<-taxo.2.phylo.saup$tip.label
+> 
+> ## get the percentage in each order
+> percentage.by.order<-round(100*as.numeric(sapply(taxo.phylo.saup$tip.label, function(z){saup.dat.order$Family.length[saup.dat.order$Order==z]}))/sum(saup.dat.order$Family.length),2)
+> taxo.phylo.saup$tip.label<-paste(taxo.phylo.saup$tip.label,paste("(",percentage.by.order,")", sep=""), sep="\n")
+> percent.actinopterygii<-round(100*sum(saup.dat.order$Family.length[saup.dat.order$Class=="Actinopterygii (ray-finned fishes)"])/sum(saup.dat.order$Family.length),2)
+> percent.elasmobranchii<-round(100*sum(saup.dat.order$Family.length[saup.dat.order$Class=="Elasmobranchii (sharks and rays)"])/sum(saup.dat.order$Family.length),2)
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/SAUP-byorder.pdf", width=10, height=10)
+> plot(taxo.phylo.saup, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
++      edge.width=taxo.2.phylo.saup$div.edge.length, label.offset=0.5, srt=0, adj=0)
+> points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+> text(0.15,0.1,labels=paste("Actinopterygii",paste("(",percent.actinopterygii,")", sep=""), sep="\n"))
+> text(0.53,-0.35,labels=paste("Elasmobranchii",paste("(",percent.elasmobranchii,")", sep=""), sep="\n"))
+> dev.off()
+null device 
+          1 
+> 
+> ##system("xpdf ./SAUP-byorder.pdf")
+> ### srdb
+> ## one entry per assessment
+> taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock where stockid in (select stockid from srdb.assessment where assessid not like '%MYERS%' and assess=1)) as bb where aa.tsn=bb.tsn")
+> 
+> taxo.dat<-sqlQuery(chan, taxo.qu)
+> taxo.dat<-taxo.dat[order(taxo.dat$scientificname),]
+> 
+> taxo.phylo<-as.phylo(~phylum/classname/ordername/family/genus/scientificname, data=taxo.dat)
+> ## take a look at the contents using taxo.phylo[]
+> ## edge width/length inclusion
+> taxo.2.phylo<-my.as.phylo.formula(~phylum/classname/ordername/family/genus/scientificname, data=taxo.dat)
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> ##taxo.phylo$root.edge<-taxo.2.phylo$root.edge
+> 
+> ## sqrt for plotting
+> taxo.2.phylo$sqrt.edge.length<-sqrt(taxo.2.phylo$edge.length+0.1)
+> 
+> prelim.tip.labels<-rep("", length(taxo.phylo$tip.label))
+> for(i in 2:length(prelim.tip.labels)){
++   print(i)
++   if(taxo.phylo$tip.label[i]!=taxo.phylo$tip.label[i-1]){
++     prelim.tip.labels[i]<-taxo.phylo$tip.label[i]
++   }
++ }
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 42
+[1] 43
+[1] 44
+[1] 45
+[1] 46
+[1] 47
+[1] 48
+[1] 49
+[1] 50
+[1] 51
+[1] 52
+[1] 53
+[1] 54
+[1] 55
+[1] 56
+[1] 57
+[1] 58
+[1] 59
+[1] 60
+[1] 61
+[1] 62
+[1] 63
+[1] 64
+[1] 65
+[1] 66
+[1] 67
+[1] 68
+[1] 69
+[1] 70
+[1] 71
+[1] 72
+[1] 73
+[1] 74
+[1] 75
+[1] 76
+[1] 77
+[1] 78
+[1] 79
+[1] 80
+[1] 81
+[1] 82
+[1] 83
+[1] 84
+[1] 85
+[1] 86
+[1] 87
+[1] 88
+[1] 89
+[1] 90
+[1] 91
+[1] 92
+[1] 93
+[1] 94
+[1] 95
+[1] 96
+[1] 97
+[1] 98
+[1] 99
+[1] 100
+[1] 101
+[1] 102
+[1] 103
+[1] 104
+[1] 105
+[1] 106
+[1] 107
+[1] 108
+[1] 109
+[1] 110
+[1] 111
+[1] 112
+[1] 113
+[1] 114
+[1] 115
+[1] 116
+[1] 117
+[1] 118
+[1] 119
+[1] 120
+[1] 121
+[1] 122
+[1] 123
+[1] 124
+[1] 125
+[1] 126
+[1] 127
+[1] 128
+[1] 129
+[1] 130
+[1] 131
+[1] 132
+[1] 133
+[1] 134
+[1] 135
+[1] 136
+[1] 137
+[1] 138
+[1] 139
+[1] 140
+[1] 141
+[1] 142
+[1] 143
+[1] 144
+[1] 145
+[1] 146
+[1] 147
+[1] 148
+[1] 149
+[1] 150
+[1] 151
+[1] 152
+[1] 153
+[1] 154
+[1] 155
+[1] 156
+[1] 157
+[1] 158
+[1] 159
+[1] 160
+[1] 161
+[1] 162
+[1] 163
+[1] 164
+[1] 165
+[1] 166
+[1] 167
+[1] 168
+[1] 169
+[1] 170
+[1] 171
+[1] 172
+[1] 173
+[1] 174
+[1] 175
+[1] 176
+[1] 177
+[1] 178
+[1] 179
+[1] 180
+[1] 181
+[1] 182
+[1] 183
+[1] 184
+[1] 185
+[1] 186
+[1] 187
+[1] 188
+[1] 189
+[1] 190
+[1] 191
+[1] 192
+[1] 193
+[1] 194
+[1] 195
+[1] 196
+[1] 197
+[1] 198
+[1] 199
+[1] 200
+[1] 201
+[1] 202
+[1] 203
+[1] 204
+[1] 205
+[1] 206
+[1] 207
+[1] 208
+[1] 209
+[1] 210
+[1] 211
+[1] 212
+[1] 213
+[1] 214
+[1] 215
+[1] 216
+[1] 217
+[1] 218
+[1] 219
+[1] 220
+[1] 221
+[1] 222
+[1] 223
+[1] 224
+[1] 225
+[1] 226
+[1] 227
+[1] 228
+[1] 229
+[1] 230
+[1] 231
+[1] 232
+[1] 233
+[1] 234
+[1] 235
+[1] 236
+[1] 237
+[1] 238
+[1] 239
+[1] 240
+[1] 241
+[1] 242
+[1] 243
+[1] 244
+[1] 245
+[1] 246
+[1] 247
+[1] 248
+[1] 249
+[1] 250
+[1] 251
+[1] 252
+[1] 253
+[1] 254
+[1] 255
+[1] 256
+[1] 257
+[1] 258
+[1] 259
+[1] 260
+[1] 261
+[1] 262
+[1] 263
+[1] 264
+[1] 265
+[1] 266
+[1] 267
+[1] 268
+[1] 269
+[1] 270
+[1] 271
+[1] 272
+[1] 273
+[1] 274
+[1] 275
+[1] 276
+[1] 277
+[1] 278
+[1] 279
+[1] 280
+[1] 281
+[1] 282
+[1] 283
+[1] 284
+[1] 285
+[1] 286
+[1] 287
+[1] 288
+[1] 289
+[1] 290
+[1] 291
+[1] 292
+[1] 293
+[1] 294
+[1] 295
+[1] 296
+[1] 297
+[1] 298
+[1] 299
+[1] 300
+[1] 301
+[1] 302
+[1] 303
+[1] 304
+[1] 305
+[1] 306
+[1] 307
+[1] 308
+[1] 309
+[1] 310
+[1] 311
+[1] 312
+[1] 313
+[1] 314
+[1] 315
+[1] 316
+[1] 317
+[1] 318
+[1] 319
+[1] 320
+[1] 321
+[1] 322
+[1] 323
+[1] 324
+[1] 325
+[1] 326
+> 
+> taxo.phylo$tip.label<-prelim.tip.labels
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessment.pdf", width=10, height=10, title="Taxonomic dendrogram of RAM Legacy database")
+> #png("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessment.png", width=1000, height=1000)
+> my.opaque.grey<-"#80808099"
+> plot(taxo.phylo, type="r", edge.width=taxo.2.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, edge.col=c(my.opaque.grey,my.opaque.grey, rep(grey(0.5), length(taxo.2.phylo$sqrt.edge.length-2))))
+> points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+> my.cex=0.75
+> text(0.68,-0.09, labels="Arthropoda", srt=351, cex=my.cex, font=2)
+> text(0.6,-0.34, labels="Mollusca", srt=330, cex=my.cex, font=2)
+> text(0.45,-0.41, labels="Chondrichtyes", srt=325, cex=my.cex)
+> text(0.35,0.41, labels="Perciformes", srt=40, cex=my.cex)
+> text(-0.09,0.5, labels="Scorpaeniformes", srt=80, cex=my.cex)
+> text(-0.5,0.35, labels="Clupeiformes", srt=320, cex=my.cex)
+> text(-0.47,-0.15, labels="Pleuronectiformes", srt=33, cex=my.cex)
+> text(0.1,-0.45, labels="Gadiformes", srt=295, cex=my.cex)
+> text(0.20,0.1, labels="Animalia", srt=0, cex=1, font=2)
+> Arrows(0.08,0.1,0.015,0.04, open=FALSE, size=0.5)
+> #text(-0.38,0.35, labels="Actinopterygii", srt=0, cex=my.cex)
+> #Arrows(-0.37,0.31,-0.10,-0.02, open=FALSE, size=0.5)
+> #text(0.22,-0.12, labels="Chordata", srt=343, cex=my.cex, font=2)
+> #Arrows(0.12,-0.09,0.01,-0.09, open=FALSE, size=0.5)
+> dev.off()
+null device 
+          1 
+> 
+> 
+> ## taxo.qu<-paste("select t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, foo.lme_number, count(*)  as numlme from srdb.stock s, srdb.taxonomy t, (select stockid, lme_number from srdb.lmetostocks where stocktolmerelation = 'primary' and stockid in (select distinct stockid from srdb.assessment where recorder != 'MYERS')) as foo where foo.stockid=s.stockid and s.tsn=t.tsn group by t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, lme_number order by t.tsn, lme_number")
+> ## order-level
+> taxo.qu<-paste("select t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, a.assessid from srdb.assessment a, srdb.stock s, srdb.taxonomy t  where a.assess=1 AND a.recorder != \'MYERS\' AND a.stockid=s.stockid and s.tsn=t.tsn order by t.tsn")
+> srdb.dat <- sqlQuery(chan,taxo.qu)
+> 
+> srdb.dat <- srdb.dat[order(srdb.dat$scientificname),]
+> srdb.levels <- as.character(unique((srdb.dat$ordername)))
+> srdb.dat$Family <- as.factor(as.character(srdb.dat$family))
+> srdb.dat$Class <- as.factor(as.character(srdb.dat$classname))
+> srdb.dat$Order <- as.factor(as.character(srdb.dat$ordername))
+> 
+> 
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPSAUP''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPSAUP',",round(length(unique(srdb.dat$scientificname))/dim(saup.dat)[1]*100,0) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE'",sep="" )
+> sqlQuery(chan,delete.qu)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:SRDBPERCENTSPPFISHBASE''"
+> insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:SRDBPERCENTSPPFISHBASE',",round(length(unique(srdb.dat$scientificname))/dim(fishbase.dat)[1]*100,0) ,")", sep="")
+> sqlQuery(chan,insert.qu)
+character(0)
+> 
+> # REF:SQL:SRDBPERCENTSPPSAUP
+> # REF:SQL:SRDBPERCENTSPPFISHBASE
+> 
+> 
+> 
+> ## expanded.srdb.dat<-srdb.dat[rep(1:nrow(srdb.dat), times=srdb.dat$numlme), ]
+> expanded.srdb.dat<-srdb.dat
+> ## get the counts by order2
+> srdb.dat.order<-summaryBy(Family~Class+Order, data=expanded.srdb.dat, FUN=c(length))
+> 
+> taxo.phylo.srdb<-as.phylo(~Class/Order, data=srdb.dat.order)
+> taxo.2.phylo.srdb<-by.order.as.phylo.formula(~Class/Order, data=srdb.dat.order)
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> taxo.2.phylo.srdb$div.edge.length<-taxo.2.phylo.srdb$edge.length/(range(taxo.2.phylo.srdb$edge.length)[2]/20)
+> taxo.phylo.srdb$tip.label<-taxo.2.phylo.srdb$tip.label
+> 
+> ## get the percentage in each order
+> percentage.by.order<-round(100*as.numeric(sapply(taxo.phylo.srdb$tip.label, function(z){srdb.dat.order$Family.length[srdb.dat.order$Order==z]}))/sum(srdb.dat.order$Family.length),2)
+> taxo.phylo.srdb$tip.label<-paste(taxo.phylo.srdb$tip.label,paste("(",percentage.by.order,")", sep=""), sep="\n")
+> 
+> percent.actinopterygii<-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Actinopterygii"])/sum(srdb.dat.order$Family.length),2)
+> percent.chondrichthyes <-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Chondrichthyes"])/sum(srdb.dat.order$Family.length),2)
+> 
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-byorder.pdf", width=10, height=10)
+> plot(taxo.phylo.srdb, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
++      edge.width=taxo.2.phylo.srdb$div.edge.length, label.offset=0.5, srt=0, adj=0)
+> points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+> text(0.26,0.16,labels=paste("Actinopterygii",paste("(",percent.actinopterygii,")", sep=""), sep="\n"))
+> text(0.5,-0.4,labels=paste("Chondrichthyes",paste("(",percent.chondrichthyes,")", sep=""), sep="\n"))
+> dev.off()
+null device 
+          1 
+> 
+> odbcClose(chan)
+> 
+> ## now do the same for fish and shark species only, eliminate the inverts from srdb
+> srdb.dat <- subset(srdb.dat, phylum=='Chordata')
+> 
+> srdb.dat <- srdb.dat[order(srdb.dat$scientificname),]
+> srdb.levels <- as.character(unique((srdb.dat$ordername)))
+> srdb.dat$Family <- as.factor(as.character(srdb.dat$family))
+> srdb.dat$Class <- as.factor(as.character(srdb.dat$classname))
+> srdb.dat$Order <- as.factor(as.character(srdb.dat$ordername))
+> 
+> 
+> ## get the counts by order2
+> srdb.dat.order<-summaryBy(Family~Class+Order, data=expanded.srdb.dat, FUN=c(length))
+> 
+> taxo.phylo.srdb<-as.phylo(~Class/Order, data=srdb.dat.order)
+> taxo.2.phylo.srdb<-by.order.as.phylo.formula(~Class/Order, data=srdb.dat.order)
+Warning messages:
+1: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+2: In data.frame(number = as.numeric(phy$tip.label), name.phy.1 = leaves.names[as.numeric(phy$tip.label)]) :
+  NAs introduced by coercion
+> taxo.2.phylo.srdb$div.edge.length<-taxo.2.phylo.srdb$edge.length/(range(taxo.2.phylo.srdb$edge.length)[2]/20)
+> taxo.phylo.srdb$tip.label<-taxo.2.phylo.srdb$tip.label
+> 
+> ## get the percentage in each order
+> percentage.by.order<-round(100*as.numeric(sapply(taxo.phylo.srdb$tip.label, function(z){srdb.dat.order$Family.length[srdb.dat.order$Order==z]}))/sum(srdb.dat.order$Family.length),2)
+> taxo.phylo.srdb$tip.label<-paste(taxo.phylo.srdb$tip.label,paste("(",percentage.by.order,")", sep=""), sep="\n")
+> 
+> percent.actinopterygii<-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Actinopterygii"])/sum(srdb.dat.order$Family.length),2)
+> percent.chondrichthyes <-round(100*sum(srdb.dat.order$Family.length[srdb.dat.order$Class=="Chondrichthyes"])/sum(srdb.dat.order$Family.length),2)
+> 
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-fishonly-byorder.pdf", width=10, height=10)
+> plot(taxo.phylo.srdb, type="r", no.margin = TRUE, cex=0.8, root.edge=TRUE, show.tip.label=TRUE,
++      edge.width=taxo.2.phylo.srdb$div.edge.length, label.offset=0.5, srt=0, adj=0)
+> points(0,0, col=1, pch=21, bg="darkgrey", cex=3)
+> text(0.26,0.16,labels=paste("Actinopterygii",paste("(",percent.actinopterygii,")", sep=""), sep="\n"))
+> text(0.5,-0.4,labels=paste("Chondrichthyes",paste("(",percent.chondrichthyes,")", sep=""), sep="\n"))
+> dev.off()
+null device 
+          1 
+> 
+> 
+> ## compare FishBase and SAUP
+> source("./maintain_branching_phylo_formula_noLME.R")
+> 
+> fishbase.saup.phylo <- maintain.branching.phylo.formula.nolme(~Class/Order, data1=fishbase.dat.order, data2=saup.dat.order)
+> fishbase.phylo <- fishbase.saup.phylo[[1]]
+> saup.phylo <- fishbase.saup.phylo[[2]]
+> 
+> fishbase.phylo$sqrt.edge.length<-fishbase.phylo$edge.length/(range(fishbase.phylo$edge.length)[2]/20)
+> saup.phylo$sqrt.edge.length<-saup.phylo$edge.length/(range(fishbase.phylo$edge.length)[2]/20)
+> 
+> fishbase.percentage.by.order<-round(100*as.numeric(sapply(fishbase.phylo$tip.label, function(z){fishbase.dat.order$Family.length[fishbase.dat.order$Order==z]}))/sum(fishbase.dat.order$Family.length),2)
+> fishbase.phylo$tip.label<-paste(fishbase.phylo$tip.label,paste("(",fishbase.percentage.by.order,")", sep=""), sep="\n")
+> 
+> saup.percentage.by.order<-round(100*as.numeric(sapply(saup.phylo$tip.label, function(z){saup.dat.order$Family.length[saup.dat.order$Order==z]}))/sum(saup.dat.order$Family.length),2)
+> saup.phylo$tip.label<-paste(saup.phylo$tip.label,paste("(",saup.percentage.by.order,")", sep=""), sep="\n")
+> saup.phylo$tip.label[saup.phylo$tip.label=="\n(NA)"] <- ""
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/fishbase_saup_two_panel_phylo.pdf", width=10, height=6)
+> par(mfrow=c(1,2), mar=c(0,0,0,0))
+> ## Fishbase
+> plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
+> legend("topleft", legend="FishBase", bty="n", cex=1.2)
+> ## srdb
+> plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.5, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
+> legend("topleft", legend="SAUP", bty="n", cex=1.2)
+> dev.off()
+null device 
+          1 
+> 
+> 
+> # three-panel plot, showing FishBase, SAUP and srdb
+> fishbase.srdb.phylo <- maintain.branching.phylo.formula.nolme(~Class/Order, data1=fishbase.dat.order, data2=srdb.dat.order)
+> srdb.phylo <- fishbase.srdb.phylo[[2]]
+> 
+> srdb.phylo$sqrt.edge.length<-srdb.phylo$edge.length/(range(fishbase.phylo$edge.length)[2]/20)
+> 
+> srdb.percentage.by.order<-round(100*as.numeric(sapply(srdb.phylo$tip.label, function(z){srdb.dat.order$Family.length[srdb.dat.order$Order==z]}))/sum(srdb.dat.order$Family.length),2)
+> srdb.phylo$tip.label<-paste(srdb.phylo$tip.label,paste("(",srdb.percentage.by.order,")", sep=""), sep="\n")
+> srdb.phylo$tip.label[srdb.phylo$tip.label=="\n(NA)"] <- ""
+> 
+> # send some results to fishfisheries.results
+> # REF:SQL:FISHBASENUMORDERS
+> # REF:SQL:FISHBASENUMSPP
+> # REF:SQL:SRDBPERCENTSPPSAUP
+> # REF:SQL:SRDBPERCENTSPPFISHBASE
+> # REF:SQL:SAUPNUMORDERS
+> # REF:SQL:SAUPNUMSPP
+> # REF:SQL:SAUPPERCENTSPPFISHBASE
+> # REF:SQL:SAUPPERCENTORDERSFISHBASE
+> 
+> 
+> pdf("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phylo.pdf", width=6, height=10)
+> #png("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three_panel_phylo.png", width=600, height=1000)
+> par(mfrow=c(3,1), mar=c(0,0,0,0))
+> ## Fishbase
+> plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
+> legend("topleft", legend="FishBase", bty="n", cex=1.2)
+> ## SAUP
+> plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
+> legend("topleft", legend="SAUP", bty="n", cex=1.2)
+> ## srdb
+> plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
+> legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
+> dev.off()
+null device 
+          1 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  9.204   0.248   9.819 

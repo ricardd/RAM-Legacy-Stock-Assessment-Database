@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  29 NOV 2010 14:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  2 FEB 2011 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,27 +454,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]\OT1/cmr/m/n/12 (+20) Iranian na-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 (+20) Northwest At-lantic
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 23--23
+Underfull \hbox (badness 1019) in paragraph at lines 24--24
 []\OT1/cmr/m/n/12 (+20) Russian Fed-eral Fish-eries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []\OT1/cmr/m/n/12 (+20) South Pa-cific Re-gional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/cmr/m/n/12 (+20) Fish-eries Man-age-ment
  []
 
 
-LaTeX Warning: Float too large for page by 219.79756pt on input line 31.
+LaTeX Warning: Float too large for page by 263.29755pt on input line 32.
 
 ) [30]
 Underfull \hbox (badness 10000) in paragraph at lines 910--910
@@ -738,7 +743,7 @@ phic file (type pdf)
 Here is how much of TeX's memory you used:
  4463 strings out of 495061
  67571 string characters out of 1182621
- 180789 words of memory out of 3000000
+ 179790 words of memory out of 3000000
  7403 multiletter control sequences out of 15000+50000
  17503 words of font info for 118 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -759,8 +764,8 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texmf-texlive/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 149839
-3 bytes).
+Output written on fishandfisheries-SUBMISSION-August-2010.pdf (43 pages, 149865
+9 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

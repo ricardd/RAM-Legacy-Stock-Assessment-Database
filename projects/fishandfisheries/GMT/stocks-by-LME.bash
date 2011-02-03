@@ -3,7 +3,7 @@ rm /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 
 # 1 to 4 assessments
 #psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext(the_geom), 'MULTIPOLYGON(('),'))') FROM stocksbylme where numassessments <=4 " | sed 's/),(/\n>/g' | sed 's/\,/\n/g' | psxy -Rg -JN13/10i -G250 -W -m -N -K >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
-psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext(the_geom), 'MULTIPOLYGON(('),'))') FROM stocksbylme where numassessments <=4 " | sed 's/),(/\n>/g' | sed 's/\,/\n/g' | psxy -Rg -JN4/10i -G65/152/175 -W -m -N -K >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
+psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext(the_geom), 'MULTIPOLYGON(('),'))') FROM stocksbylme where numassessments <=4 " | sed 's/),(/\n>/g' | sed 's/\,/\n/g' | psxy -Rg -JN4/10i -G65/152/175 -W -m -N -K -Y2c>> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 
 #185/205/150
 
@@ -30,7 +30,7 @@ psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext
 pscoast -W  -A15000 -Dc -R -J -Gwhite -K -O >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 
 #pslegend /home/srdbadmin/srdb/projects/fishandfisheries/GMT/legend-text.txt -D-167/-10/4i/4i/LM -J -R -X-0.2c -O >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
-pslegend /home/srdbadmin/srdb/projects/fishandfisheries/GMT/legend-text-colours.txt -D-167/-10/4i/4i/LM -J -R -X-0.2c -O >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
+pslegend /home/srdbadmin/srdb/projects/fishandfisheries/GMT/legend-text-colours.txt -D-167/-10/4i/4i/LM -J -R -X-0.2c -Y-0.2c -O >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 
 
 ps2pdf /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf

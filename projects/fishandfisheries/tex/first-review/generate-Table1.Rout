@@ -1,0 +1,72 @@
+
+R version 2.12.1 (2010-12-16)
+Copyright (C) 2010 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Revobase'
+[Previously saved workspace restored]
+
+> setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review")
+> require(RODBC)
+Loading required package: RODBC
+> require(xtable)
+Loading required package: xtable
+> 
+> chan<- odbcConnect(dsn="srdbcalo")
+> 
+> qu <- paste("
++ SELECT
++ m.country,
++ CASE WHEN position(',' in m.managementauthority)=0 THEN m.managementauthority ELSE substring(m.managementauthority,0,position(',' in m.managementauthority)) END as authority,
++ m.mgmt,
++ count(*) as nassess
++ FROM
++ srdb.management m,
++ srdb.assessor aa,
++ srdb.assessment a
++ WHERE
++ a.assessorid = aa.assessorid AND
++ m.mgmt = aa.mgmt AND
++ a.recorder != 'MYERS' AND
++ a.assess=1
++ GROUP BY 
++ m.country,
++ m.managementauthority,
++ m.mgmt
++ ORDER BY
++ count(*) desc,
++ m.mgmt,
++ m.country
++ ",sep="")
+> 
+> ## CASE WHEN position(',' in m.managementauthority)=0 THEN m.managementauthority ELSE substring(m.managementauthority,0,position(',' in m.managementauthority)) END,
+> 
+> table1.data <- sqlQuery(chan,qu)
+> 
+> 
+> table1 <- xtable(table1.data, caption=c("Number of assessments included in the RAM Legacy database"), label=c("tab:mgmt"), align="cp{3cm}p{5cm}cc")
+>   print(table1, type="latex", file="../../tex/first-review/Table1.tex", include.rownames=FALSE, floating=TRUE, caption.placement="top")
+> 
+> 
+> odbcClose(chan)
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  0.504   0.032   0.549 

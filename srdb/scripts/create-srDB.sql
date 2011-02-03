@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2010-12-02 16:43:05 (srdbadmin)>
+-- Last modified: Time-stamp: <2011-01-17 15:27:37 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -285,8 +285,8 @@ CREATE TABLE srdb.bioparams (
 assessid VARCHAR(200),
 bioid VARCHAR(40) REFERENCES srdb.biometrics,
 biovalue VARCHAR(200),
-bionotes VARCHAR(1000),
-bioyear VARCHAR(15)
+bioyear VARCHAR(15),
+bionotes VARCHAR(1000)
 );
 
 COMMENT ON TABLE srdb.bioparams IS 'Values of point metrics.';

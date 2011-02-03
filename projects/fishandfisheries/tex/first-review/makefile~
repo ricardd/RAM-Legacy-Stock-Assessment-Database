@@ -1,0 +1,10 @@
+# makefile for Fish and Fisheries manuscript
+# last modified Time-stamp: <2011-02-01 11:55:31 (srdbadmin)>
+# this is after the first submission, a lot of the writing is now handled in Word and this makefile is meant to generate the plots and tables and a "data and results" bundle to be integrated into the main manuscript in Word
+#
+
+fandf-RESUBMIT-bundle.pdf: fandf-RESUBMIT2011-bundle.tex
+	bibtex fandf-RESUBMIT2011-bundle
+	pdflatex fandf-RESUBMIT2011-bundle
+	bibtex fandf-RESUBMIT2011-bundle
+	pdflatex fandf-RESUBMIT2011-bundle

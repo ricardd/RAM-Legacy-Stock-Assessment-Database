@@ -1,7 +1,8 @@
 
-R version 2.9.1 (2009-06-26)
-Copyright (C) 2009 The R Foundation for Statistical Computing
+R version 2.12.1 (2010-12-16)
+Copyright (C) 2010 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -17,6 +18,8 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > ##-----------------------------------------------------------------------------
@@ -137,17 +140,17 @@ Loading required package: RODBC
 > ##plot.span.func(test.dat, xaxt=TRUE, yaxt=TRUE, my.legend="Catch/Landings")
 > catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
   5%  50%  95% 
-18.3 38.0 94.0 
+17.4 38.0 94.0 
 > legend(-20,50, legend="A", cex=1.7, bty="n")
 > ## ssb
 > ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
- 5% 50% 95% 
- 17  34  94 
+  5%  50%  95% 
+16.7 34.0 94.0 
 > legend(-20,50, legend="B", cex=1.7, bty="n")
 > ## recruits
 > rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
- 5% 50% 95% 
- 17  33  94 
+   5%   50%   95% 
+16.55 33.00 94.00 
 > legend(-20,50, legend="C", cex=1.7, bty="n")
 > mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
 > mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
@@ -224,6 +227,6 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  0.780   0.028   1.036 
+  0.992   0.036   1.799 
 Warning message:
 closing unused RODBC handle 1 

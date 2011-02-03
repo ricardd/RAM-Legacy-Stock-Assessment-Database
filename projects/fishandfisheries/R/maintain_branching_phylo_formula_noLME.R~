@@ -51,7 +51,8 @@ function (x, data1,data2, ...)
         return(t)
       }
     string <- paste("(", paste(f.rec.1(taxo.data1), collapse = ","), ")",":",dim(taxo.data1)[1],";", sep = "")
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
+    ## ammended by Coilin Feb 2011
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE)
     phy <- read.tree(text = string2)
     ##-----------------------
     ## subset phylogeny
@@ -92,14 +93,18 @@ function (x, data1,data2, ...)
         return(t)
       }
     string <- paste("(", paste(f.rec.2(taxo.data1), collapse = ","), ")",":",sum(phy.names.df$appear.phy.2),";", sep = "")
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
-    ## replace the 1's with 0's, ammended CM & DR, Dec 16th 2009
+    ## ammended by Coilin, Feb 2011
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE)
+
+    ## replace the 1's with 0's, ammended CM & DR, Dec 16th 2009, Coilin Feb 2011
     string3<-gsubfn("[0-9]+:1", function(x){
-      string<-strapply(x, "[0-9]+(?=:)")[[1]]
+      string<-strapply(x, "[0-9]+(?=:)",perl=TRUE)[[1]] 
       if(phy.names.df$appear.phy.2[phy.names.df$number==as.numeric(string)]){
         paste(string, ":1", sep="")}else{
           paste(string, ":0", sep="")}},
-                    string2, backref=1, perl=TRUE)
+                    string2, backref=0, perl=TRUE)
+
+    
     phy2 <- read.tree(text = string3)
     ## assign the tip labels
     phy$tip.label <- leaves.names[as.numeric(phy$tip.label)]

@@ -31,7 +31,7 @@ function (x, data = parent.frame(), ...)
             if (length(levels) != nrow(subtaxo)) 
                 warning("Error, leaves names are not unique.")
             return(as.character(subtaxo[, 1]))
-        }
+          }
         t <- character(length(levels))
         for (l in 1:length(levels)) {
             x <- f.rec(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
@@ -42,23 +42,23 @@ function (x, data = parent.frame(), ...)
               n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
               t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
             }
-        }
+          }
         return(t)
       }    
     string <- paste("(", paste(f.rec(taxo.data), collapse = ","), ")",":",dim(taxo.data)[1],";", sep = "")
-     ## ammended CM, Dec 6th 2009
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
+     ## ammended CM, Dec 6th 2009, Feb 2nd 2011, added R engine and changed backref to 0
+    string2<-gsubfn(pattern="(?<=[\\,,\\(])[0-9]+", replacement=function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, x=string, backref=0, perl=TRUE)
     phy <- read.tree(text = string2)
     phy$tip.label <- leaves.names[as.numeric(phy$tip.label)]
     phy.names.df<-data.frame(number=as.numeric(phy$tip.label), name.phy.1=leaves.names[as.numeric(phy$tip.label)])
     phy.names.df<-phy.names.df[order(phy.names.df$number),]
     return(phy)
-}
+  }
 
 ##--------------------------
 ## SANDBOX
 ##--------------------------
 
-test.vec<-seq(1,20)
-test.sub.vec<-sample(test.vec,10)
-sapply(test.vec, function(x){x%in%test.sub.vec})
+##test.vec<-seq(1,20)
+##test.sub.vec<-sample(test.vec,10)
+##sapply(test.vec, function(x){x%in%test.sub.vec})

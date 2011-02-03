@@ -1,0 +1,15 @@
+-- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
+-- first, produce a table that show all assessid and whether there is an SP fit available
+
+SELECT
+a.assessid,
+(CASE WHEN (a.assessid = sp.assessid) THEN 'yes' ELSE 'no' END) as spfitavailable
+FROM
+srdb.assessment a
+LEFT OUTER JOIN
+srdb.spfits sp
+ON (a.assessid = sp.assessid)
+WHERE
+a.assess = 1 and
+a.recorder != 'MYERS';
+

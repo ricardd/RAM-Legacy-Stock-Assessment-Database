@@ -37,6 +37,7 @@ table1.data <- sqlQuery(chan,qu)
 table1 <- xtable(table1.data, caption=c("Number of assessments included in the RAM Legacy database"), label=c("tab:mgmt"), align="cp{3cm}p{5cm}cc")
   print(table1, type="latex", file="../../tex/first-review/Table1.tex", include.rownames=FALSE, floating=TRUE, caption.placement="top")
 
+  print(table1, type="html", file="../../tex/first-review/Table1.html", include.rownames=FALSE, floating=TRUE, caption.placement="top")
 
 odbcClose(chan)
 

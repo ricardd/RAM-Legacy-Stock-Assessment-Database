@@ -1,8 +1,9 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2011-01-18 18:24:03 (srdbadmin)>
+## Last modified Time-stamp: <2011-02-04 20:56:40 (srdbadmin)>
 ## Modification history:
 ## 2011-01-17: slight modifications to properly removed "bad fits", based on Olaf's visual inspection of stocks
+## 2011-02-04: final touch ups to Fish and Fisheries paper and I am playing with this code a bit to see the effects on changing the parameter bounds a bit, as suggested by one of the reviewers
 
 require(RODBC)
 require(gplots)
@@ -31,28 +32,29 @@ print(my.assessid[i])
 
   temp.dat <- na.omit(subset(sp.data, assessid == my.assessid[i]))
 
-max.b <- max(temp.dat$b)
-try(print(log(2*max.b)))
-
+max.b <- max(na.omit(temp.dat$b))
+##try(print(log(2*max.b)))
 
 ## write ADMB-compatible data file
   my.dat.path<-"/home/srdbadmin/srdb/ADMB/schaefer.dat"
   cat("# Number of obs \n",dim(temp.dat)[1], "\n",file = my.dat.path, append=FALSE)
+## upper and lower bounds on K
+#  cat("# Bound on K -10000  \n", "-10000.", "\n",file = my.dat.path, append=TRUE)
   cat("# Bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
+#  cat("# Bound on K - ln(X*max(biomass)) \n", log(5*max.b), "\n",file = my.dat.path, append=TRUE)
 #  cat("# Bound on K - ln(X*max(biomass)) \n", 25, "\n",file = my.dat.path, append=TRUE)
   cat("# observed X values \t observed Y values \n", file = my.dat.path, append=TRUE)
   write.table(cbind(temp.dat$c,temp.dat$b), file=my.dat.path, append = TRUE, col.names=FALSE,row.names=FALSE)
 ## call to ADMB
-  system("cd /home/srdbadmin/srdb/ADMB; rm schaefer.std; ./schaefer")
+  system("cd /home/srdbadmin/srdb/ADMB; rm schaefer.std; ./schaefer", ignore.stdout = TRUE)
 
 ## did the model converge?
 conv <- length(system("ls /home/srdbadmin/srdb/ADMB/schaefer.std", intern=TRUE))
+print(conv)
 if(conv) {
 ## read in parameter estimates from ADMB output
 admb.fit <- get.admb.results("/home/srdbadmin/srdb/ADMB/","schaefer")
 admb.rep<-readLines("/home/srdbadmin/srdb/ADMB/schaefer.rep")
-
-
 
 sp.fit$assessid[i]<-my.assessid[i]
 sp.fit$lnK[i] <- admb.fit[1,3]
@@ -92,6 +94,7 @@ lines(reg.grid,pp,type='l',col="black",lwd=1.5)
 
 legend("topleft", legend=my.stockid[i], bty="n")
 } # end if
+
 else {
 sp.fit$assessid[i]<-my.assessid[i]
 sp.fit$lnK[i] <- -8
@@ -111,21 +114,16 @@ dev.off()
 
 
 # send the fitted parameter values, SSBmsy and MSY back to srdb in table srdb.spfits_schaefer
-sqlSave(chan, sp.fit, tablename="srdb.spfits_schaefer",safer=FALSE)
+sqlSave(chan, sp.fit, tablename="srdb.spfits_schaefer_all",safer=FALSE)
 
-#system("psql srdb -f schaefer-attrition.sql")
+## insert a comment on the table
+qu <- "COMMENT ON TABLE srdb.spfits_schaefer_all IS 'This table stores ALL the parameter estimates from the Schaefer surplus production model, including non-converging fits, ran against available catch and total biomass timeseries.'"
+sqlQuery(chan,qu)
 
 ## NOTE: inclusion and removal of assessid for SP fits is now handled in the SQL call
 system("psql srdb -f schaefer-inclusion.sql")
+#system("psql srdb -f schaefer-attrition.sql")
 
-
-## delete entries that have not converged
-#qu <- "DELETE FROM srdb.spfits where qualityflag=-8"
-#sqlQuery(chan,qu)
-
-## insert a comment on the table
-qu <- "COMMENT ON TABLE srdb.spfits_schaefer IS 'This table stores the parameter estimates from the Schaefer surplus production model ran against the catch and total biomass timeseries.'"
-sqlQuery(chan,qu)
 
 
 ##########################################

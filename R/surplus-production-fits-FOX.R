@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2011-01-19 13:26:36 (srdbadmin)>
+## Last modified Time-stamp: <2011-02-04 15:11:07 (srdbadmin)>
 ## 2010-11-30: modified to use the Fox model
 require(RODBC)
 require(gplots)
@@ -107,7 +107,7 @@ sp.fit$qualityflag[i] <- -8
 
 dev.off()
 # send the fitted parameter values, SSBmsy and MSY back to srdb
-sqlSave(chan, sp.fit, tablename="srdb.spfits_FOX",safer=FALSE)
+sqlSave(chan, sp.fit, tablename="srdb.spfits_FOX_all",safer=FALSE)
 
 
 ## NOTE: inclusion and removal of assessid for SP fits is now handled in the SQL call
@@ -118,7 +118,7 @@ system("psql srdb -f fox-inclusion.sql")
 ##sqlQuery(chan,qu)
 
 ## insert a comment on the table
-qu <- "COMMENT ON TABLE srdb.spfits_FOX IS 'This table stores the parameter estimates from the Fox surplus production model ran against the catch and total biomass timeseries.'"
+qu <- "COMMENT ON TABLE srdb.spfits_FOX_all IS 'This table stores ALL the parameter estimates from the Fox surplus production model ran against the catch and total biomass timeseries.'"
 sqlQuery(chan,qu)
 
 ##########################################

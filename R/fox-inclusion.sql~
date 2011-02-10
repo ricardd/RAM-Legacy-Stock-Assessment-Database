@@ -1,10 +1,10 @@
 -- remove stocks from the srdb.spfits_schaefer table for those assessid deemed appropriate 
--- Last modified Time-stamp: <2011-01-18 18:41:41 (srdbadmin)>
+-- Last modified Time-stamp: <2011-01-18 18:41:49 (srdbadmin)>
 -- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits_schaefer contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
 
 
 -- keep the stocks listed above for the final srdb.spfits table
-DELETE FROM srdb.spfits_schaefer WHERE assessid not in (
+DELETE FROM srdb.spfits_fox WHERE assessid not in (
 'NWFSC-COWCODSCAL-1900-2007-BRANCH',
 'ICCAT-SWORDSATL-1950-2005-JENSEN',
 'MARAM-CHAKESA-1917-2008-DEDECKER',

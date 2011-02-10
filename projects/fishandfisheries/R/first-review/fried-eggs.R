@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-02-02 20:10:31 (srdbadmin)>
+## Last modified: Time-stamp: <2011-02-09 21:27:06 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -408,6 +408,12 @@ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTAS
 sqlQuery(chan,insert.qu)
 
 ## BELOW Fmsy
+  nn <- dim(subset(crosshair.dat, ratio.y < 1))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDBELOWFMSY",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDBELOWFMSY",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
   nn <- dim(subset(crosshair.dat, ratio.y < 1))[1]/dim(crosshair.dat)[1] * 100
 nn <- round(nn,0)
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDBELOWFMSY",sql.label,"'",sep="" )
@@ -416,7 +422,7 @@ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTAS
 sqlQuery(chan,insert.qu)
 
 ## ABOVE Bmsy
-  nn <- dim(subset(crosshair.dat, ratio.y > 1))[1]/dim(crosshair.dat)[1] * 100
+  nn <- dim(subset(crosshair.dat, ratio.x > 1))[1]/dim(crosshair.dat)[1] * 100
 nn <- round(nn,0)
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDABOVEBMSY",sql.label,"'",sep="" )
 sqlQuery(chan,delete.qu)
@@ -485,24 +491,99 @@ multipanel <- "TRUE"
 }else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
 
 #par(mfrow=c(5,2))
-par(mfrow=c(4,2))
-fried.egg.fct("mgmt",c("('NMFS')"),"NMFS","FALSE","TRUE","NMFS","TRUE")
-fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","FALSE","ICES","TRUE")
-fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","TRUE","MFish","TRUE")
-fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","DFO","TRUE")
-fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","AFMA","TRUE")
-mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
-fried.egg.fct("mgmt",c("('DETMCM')"),"DETMCM","FALSE","FALSE","DETMCM","TRUE")
-#fried.egg.fct("mgmt","NAFO","FALSE","TRUE")
-#fried.egg.fct("mgmt","ICCAT","FALSE","FALSE")
-#fried.egg.fct("mgmt","CFP","TRUE","TRUE")
-#fried.egg.fct("mgmt","WCPFC","TRUE","FALSE")
-fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","TRUE","TRUE","Atlantic","TRUE")
+par(mfrow=c(5,2))
 
+# all
+fried.egg.fct("mgmt",c("('AFMA', 'CCAMLR','CCSBT', 'CFP', 'DETMCM', 'DFO', 'GFCMED', 'IATTC', 'ICCAT', 'ICES', 'IMARPE', 'IOTC', 'IPHC', 'Iran', 'MFish', 'NAFO', 'NMFS', 'RFFA', 'SPC', 'SPRFMO', 'TRAC', 'UNKNOWN', 'US State', 'WCPFC', 'WPFMC')"),"ALLMGMT","FALSE","TRUE","All","TRUE")
+# NMFS
+fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","NMFS","TRUE")
+# ICES
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","ICES","TRUE")
+# MFish
+fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","MFish","TRUE")
+# DFO
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","TRUE","DFO","TRUE")
+# AFMA
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","FALSE","AFMA","TRUE")
+# DETMCM
+fried.egg.fct("mgmt",c("('DETMCM')"),"DETMCM","TRUE","TRUE","DETMCM","TRUE")
+# Atlantic
+fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","FALSE","TRUE","Atlantic","TRUE") # 'TRAC',
+
+## calls to get results in the fishfisheries.results table
 fried.egg.fct("mgmt",c("('NAFO')"),"NAFO","TRUE","TRUE","Atlantic","FALSE")
 fried.egg.fct("mgmt",c("('ICCAT')"),"ICCAT","TRUE","TRUE","Atlantic","FALSE")
 
-#fried.egg.fct("mgmt",c("('IATTC','IPHC','SPRFMO')"),"TRUE","FALSE","Pacific")
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+
+dev.off()
+
+pdf("friedegg-bymgmt-10plots.pdf", width=8, height=10)
+#png("friedegg-by-mgmt.png", width=800, height=1000)
+multipanel <- "TRUE"
+  if(multipanel){
+    par(mar=c(2,2,1,1), oma=c(2,2,0,0))
+}else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
+
+#par(mfrow=c(5,2))
+par(mfrow=c(5,2))
+
+# all
+fried.egg.fct("mgmt",c("('AFMA', 'CCAMLR','CCSBT', 'CFP', 'DETMCM', 'DFO', 'GFCMED', 'IATTC', 'ICCAT', 'ICES', 'IMARPE', 'IOTC', 'IPHC', 'Iran', 'MFish', 'NAFO', 'NMFS', 'RFFA', 'SPC', 'SPRFMO', 'TRAC', 'UNKNOWN', 'US State', 'WCPFC', 'WPFMC')"),"ALLMGMT","FALSE","TRUE","All","TRUE")
+# NMFS
+fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","NMFS","TRUE")
+# ICES
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","ICES","TRUE")
+# DFO
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","DFO","TRUE")
+# Pacific
+fried.egg.fct("mgmt",c("('IATTC','SPC','IPHC','RFFA','SPRFMO','WCPFC','WPFMC')"),"PAC","FALSE","TRUE","Pacific","TRUE")
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+# Atlantic
+fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","FALSE","FALSE","Atlantic","TRUE") # 'TRAC',
+# AFMA
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","AFMA","TRUE")
+# MFish
+fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","MFish","TRUE")
+# other
+fried.egg.fct("mgmt",c("('CCAMLR','CFP','IMARPE','DETMCM','IOTC','Iran')"),"other","TRUE","TRUE","other","TRUE")
+
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+
+dev.off()
+
+pdf("friedegg-9plots.pdf", width=11, height=11/1.6)
+multipanel <- "TRUE"
+  if(multipanel){
+    par(mar=c(2,2,1,1), oma=c(2,2,0,0))
+}else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
+
+par(mfrow=c(3,3))
+# DFO
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","DFO","TRUE")
+# NMFS
+fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","NMFS","TRUE")
+# ICES
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","ICES","TRUE")
+# Pacific
+fried.egg.fct("mgmt",c("('IATTC','SPC','IPHC','RFFA','SPRFMO','WCPFC','WPFMC')"),"PAC","FALSE","TRUE","Pacific","TRUE")
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+#all
+fried.egg.fct("mgmt",c("('AFMA', 'CCAMLR','CCSBT', 'CFP', 'DETMCM', 'DFO', 'GFCMED', 'IATTC', 'ICCAT', 'ICES', 'IMARPE', 'IOTC', 'IPHC', 'Iran', 'MFish', 'NAFO', 'NMFS', 'RFFA', 'SPC', 'SPRFMO', 'TRAC', 'UNKNOWN', 'US State', 'WCPFC', 'WPFMC')"),"ALLMGMT","FALSE","TRUE","All","TRUE")
+# Atlantic
+fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","FALSE","FALSE","Atlantic","TRUE") # 'TRAC',
+# other
+fried.egg.fct("mgmt",c("('CCAMLR','CFP','IMARPE','DETMCM','IOTC','Iran')"),"other","TRUE","TRUE","other","TRUE")
+# AFMA
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","AFMA","TRUE")
+# MFish
+fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","MFish","TRUE")
+
+
+## calls to get results in the fishfisheries.results table
+fried.egg.fct("mgmt",c("('NAFO')"),"NAFO","TRUE","TRUE","Atlantic","FALSE")
+fried.egg.fct("mgmt",c("('ICCAT')"),"ICCAT","TRUE","TRUE","Atlantic","FALSE")
+
 mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
 
 dev.off()

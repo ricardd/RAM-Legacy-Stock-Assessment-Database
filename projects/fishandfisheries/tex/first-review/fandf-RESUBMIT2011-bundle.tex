@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2011-02-02 21:41:11 (srdbadmin)>
+%% Last modified: Time-stamp: <2011-02-09 13:30:42 (srdbadmin)>
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 \usepackage{amssymb}
 \usepackage{pdflscape}
@@ -18,7 +18,7 @@
 
 \begin{frontmatter}
 \title{Database contents for the Abstract, Results, Tables and Figures of the Fish and Fisheries paper 2011 resubmission}
-
+\date{\today}
 \end{frontmatter}
 
 \input{abstract-dynamic}
@@ -28,9 +28,18 @@
 \bibliographystyle{fishandfisheriesBST}
 \bibliography{./fishfisheries}
 
-\include{Tables-RESUBMIT}
-\include{Figures-RESUBMIT}
+\section*{Tables}
 
-\include{Table-S1}
+\begin{tiny}
+\include{Table1-formatted}
+\end{tiny}
+
+\include{Figures-RESUBMIT}
+\include{Table-S2}
+\begin{landscape}
+\begin{tiny}
+\include{Table-S1-formatted}
+\end{tiny}
+\end{landscape}
 \end{document}
 

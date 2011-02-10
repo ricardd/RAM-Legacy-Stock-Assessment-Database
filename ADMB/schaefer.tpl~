@@ -96,7 +96,10 @@ GLOBALS_SECTION
 	#include <admodel.h>
 	#include <OOP.cxx>
 REPORT_SECTION
-	report<<BMSY<<"\t"<<FMSY<<"\t"<<MSY<<"\t"<<K<<"\t"<<Pobs<<"\t"<<Ppred<<endl;
+	report<<BMSY<<"\t"<<FMSY<<"\t"<<MSY<<"\t"<<K<<"\n";  
+	report<<biomass<<"\n";
+	report<<Pobs<<"\n";
+	report<<Ppred<<endl;
 	
 
 FUNCTION mcmc_stuff

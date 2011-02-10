@@ -1,18 +1,10 @@
---
--- Last modified Time-stamp: <2011-01-18 11:47:17 (srdbadmin)>
--- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
+-- remove stocks from the srdb.spfits_schaefer table for those assessid deemed appropriate 
+-- Last modified Time-stamp: <2011-01-18 12:47:08 (srdbadmin)>
+-- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits_schaefer contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
 
--- first, produce a table that show all assessid and whether there is an SP fit available
-DROP TABLE srdb.spfitssummaryinclusive;
 
-CREATE TABLE srdb.spfitssummaryinclusive AS (
-SELECT
-a.assessid,
-(CASE WHEN (a.assessid = sp.assessid) THEN 'yes' ELSE 'no' END) as catchandbiomass,
-(CASE WHEN (a.assessid = sp.assessid) THEN (CASE WHEN (sp.qualityflag = -8) THEN 'no' ELSE 'yes' END) ELSE '' END)  as convergence,
-(CASE WHEN ((a.assessid = sp.assessid) and (sp.qualityflag != -8)) THEN (
-CASE WHEN sp.assessid in -- stocks identified by Olaf as "not good"
-(
+-- keep the stocks listed above for the final srdb.spfits table
+DELETE FROM srdb.spfits_schaefer WHERE assessid not in (
 'NWFSC-COWCODSCAL-1900-2007-BRANCH',
 'ICCAT-SWORDSATL-1950-2005-JENSEN',
 'MARAM-CHAKESA-1917-2008-DEDECKER',
@@ -174,54 +166,5 @@ CASE WHEN sp.assessid in -- stocks identified by Olaf as "not good"
 'SEFSC-MENATGM-1964-2004-GILROY',
 'SEFSC-RPORGYSATLC-1972-2005-JENSEN',
 'SEFSC-SPANMACKSATLC-1950-2008-JENSEN',
-'SEFSC-TILESATLC-1961-2002-STANTON',
-'SPC-ALBASPAC-1959-2007-JENSEN',
-'SPC-BIGEYEWPO-1952-2007-JENSEN',
-'SPC-SKJCWPAC-1972-2007-JENSEN',
-'SPC-YFINCWPAC-1952-2006-JENSEN',
-'SWFSC-STFLOUNSPCOAST-1970-2005-STANTON',
-'WGBFAS-CODBA2224-1969-2007-JENNINGS',
-'WGBFAS-CODBA2532-1964-2007-JENNINGS',
-'WGBFAS-CODKAT-1970-2006-MINTO',
-'WGBFAS-HERR2532-1973-2006-JENNINGS',
-'WGBFAS-HERR30-1972-2007-JENNINGS',
-'WGBFAS-HERR31-1979-2006-JENNINGS',
-'WGBFAS-HERRIsum-1983-2007-JENNINGS',
-'WGBFAS-HERRRIGA-1976-2007-JENNINGS',
-'WGBFAS-SOLEIIIa-1982-2007-JENNINGS',
-'WGBFAS-SPRAT22-32-1973-2007-JENNINGS',
-'WGHMM-FMEG8c9a-1986-2006-JENNINGS',
-'WGHMM-HAKENRTN-1977-2007-JENNINGS',
-'WGHMM-MEG8c9a-1985-2007-JENNINGS',
-'WGHMM-SOLEVIII-1982-2006-JENNINGS',
-'WGMHSA-MACKNEICES-1972-2007-JENNINGS',
-'WGNPBW-BWHITNEA-1980-2007-JENNINGS',
-'WGNSDS-CODIS-1968-2006-MINTO',
-'WGNSDS-CODVIa-1977-2006-MINTO',
-'WGNSDS-HADVIa-1977-2006-MINTO',
-'WGNSDS-PLAICIS-1962-2006-MINTO',
-'WGNSDS-SOLEIS-1968-2006-MINTO',
-'WGNSSK-CODNS-1962-2007-MINTO',
-'WGNSSK-HADNS-IIIa-1963-2006-MINTO',
-'WGNSSK-NPOUTNS-1983-2007-MINTO',
-'WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO',
-'WGNSSK-SEELNS-1983-2007-MINTO',
-'WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO',
-'WGSSDS-PLAICCELT-1976-2006-JENNINGS',
-'WGSSDS-PLAICECHW-1975-2006-JENNINGS',
-'WGSSDS-SOLECS-1970-2006-JENNINGS',
-'WGSSDS-SOLEVIIe-1968-2006-JENNINGS',
-'WGSSDS-WHITVIIek-1982-2007-JENNINGS
-) THEN 'yes' ELSE 'no' END
-) ELSE '' END) as keepschaefer
-FROM
-srdb.assessment a
-LEFT OUTER JOIN
-srdb.spfits sp
-ON (a.assessid = sp.assessid)
-WHERE
-a.recorder != 'MYERS'
-order by catchandbiomass, convergence, keepschaefer, a.assessid
-)
-;
-
+'SEFSC-TILESATLC-1961-2002-STANTON'
+);

@@ -2,7 +2,7 @@
 ##
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2011-02-02 20:30:34 (srdbadmin)>
+## Last modified Time-stamp: <2011-02-09 15:11:39 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -94,7 +94,8 @@ dev.off()
 
 #### DATA obtained from SAUP website by copying the contents of an HTML form for search
 ## not elegant but a start
-saup.dat.in <- read.csv("SAUP-species-list.csv")
+##saup.dat.in <- read.csv("SAUP-species-list.csv")
+saup.dat.in <- read.csv("saup-species-list.csv", header=TRUE)
 
 fishbase.saup.merged <- merge(fishbase.dat, saup.dat.in, "scientificname")
 saup.dat <- data.frame(Kingdom = fishbase.saup.merged$Kingdom, Phylum = fishbase.saup.merged$Phylum, Class = fishbase.saup.merged$Class, Order = fishbase.saup.merged$Order, Family = fishbase.saup.merged$Family, Genus = fishbase.saup.merged$Genus, Species = fishbase.saup.merged$Species, LME = fishbase.saup.merged$LME, scientificname = fishbase.saup.merged$scientificname)
@@ -362,7 +363,7 @@ plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.ma
 legend("topleft", legend="FishBase", bty="n", cex=1.2)
 ## SAUP
 plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
-legend("topleft", legend="SAUP", bty="n", cex=1.2)
+legend("topleft", legend="Sea Around Us", bty="n", cex=1.2)
 ## srdb
 plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
 legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)

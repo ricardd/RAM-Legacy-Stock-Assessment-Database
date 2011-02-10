@@ -1,13 +1,14 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: fandf-RESUBMIT2011-bundle.aux
 The style file: fishandfisheriesBST.bst
-A level-1 auxiliary file: Tables-RESUBMIT.aux
+A level-1 auxiliary file: Table1-formatted.aux
 A level-1 auxiliary file: Figures-RESUBMIT.aux
-A level-1 auxiliary file: Table-S1.aux
+A level-1 auxiliary file: Table-S2.aux
+A level-1 auxiliary file: Table-S1-formatted.aux
 Database file #1: ./fishfisheries.bib
 You've used 1 entry,
             2914 wiz_defined-function locations,
-            644 strings with 6060 characters,
+            645 strings with 6083 characters,
 and the built_in function-call counts, 819 in all, are:
 = -- 68
 > -- 44

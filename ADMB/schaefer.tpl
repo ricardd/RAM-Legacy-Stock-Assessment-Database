@@ -1,5 +1,6 @@
 DATA_SECTION
   init_int nobs;
+  init_number minB;
   init_number maxB;
   init_matrix data(1,nobs,1,2)
   vector landings(1,nobs);
@@ -8,7 +9,7 @@ DATA_SECTION
   !!iter=0;
 
 PARAMETER_SECTION
-  init_bounded_number lnK(-10000.,maxB);
+  init_bounded_number lnK(minB,maxB);
   init_number lnMSY;
   init_bounded_number n(0.1,30.,-2);
   

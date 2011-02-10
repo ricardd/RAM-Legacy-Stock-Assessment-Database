@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  2 FEB 2011 22:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  9 FEB 2011 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,8 +222,8 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texmf-texlive/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2009/03/27 v2.3d microtype main configuration file (RS)
 ))
-(./fandf-RESUBMIT2011-bundle.aux (./Tables-RESUBMIT.aux)
-(./Figures-RESUBMIT.aux) (./Table-S1.aux))
+(./fandf-RESUBMIT2011-bundle.aux (./Table1-formatted.aux)
+(./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux))
 \openout1 = `fandf-RESUBMIT2011-bundle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -324,12 +324,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 (./results-dynamic.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
 
@@ -337,84 +332,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 35--39
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
-[2]) (./fandf-RESUBMIT2011-bundle.bbl) [3]
-\openout2 = `Tables-RESUBMIT.aux'.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 97--104
 
- (./Tables-RESUBMIT.tex (./Table1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ []
+
+[3]
+
+LaTeX Warning: Reference `fig:friedeggmgmt' on page 4 undefined on input line 1
+07.
+
+
+Overfull \hbox (10.58415pt too wide) in paragraph at lines 105--128
+[]\OT1/cmr/m/n/12 (-20) The sta-tus of ex-ploited ma-rine stocks, as es-ti-mate
+d from biomass- and exploitaion-BRPs,
+ []
+
+
+Overfull \hbox (11.74124pt too wide) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/12 (-20) The pro-por-tion of stocks be-low $\OML/cmm/m/it/12 B[]
+$ \OT1/cmr/m/n/12 (-20) and be-low $\OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 (-20)
+ varies con-sid-er-ably by man-age-ment
+ []
+
+) (./fandf-RESUBMIT2011-bundle.bbl) [4]
+\openout2 = `Table1-formatted.aux'.
+
+ (./Table1-formatted.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
 []\OT1/cmr/m/n/12 (+20) Australian Fish-eries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 []\OT1/cmr/m/n/12 (+20) South African na-tional
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 17--17
+Underfull \hbox (badness 4024) in paragraph at lines 15--15
 []\OT1/cmr/m/n/12 (+20) International Com-mis-sion
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 17--17
+Underfull \hbox (badness 4505) in paragraph at lines 15--15
 \OT1/cmr/m/n/12 (+20) for the Con-ser-va-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 []\OT1/cmr/m/n/12 (+20) Northwest At-lantic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []\OT1/cmr/m/n/12 (+20) Inter-American Trop-i-cal
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 23--23
+Underfull \hbox (badness 1019) in paragraph at lines 21--21
 []\OT1/cmr/m/n/12 (+20) Russian Fed-eral Fish-eries
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 (+20) Commission for the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []\OT1/cmr/m/n/12 (+20) Indian Ocean Tuna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []\OT1/cmr/m/n/12 (+20) International Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 []\OT1/cmr/m/n/12 (+20) Iranian na-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 []\OT1/cmr/m/n/12 (+20) South Pa-cific Re-gional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 \OT1/cmr/m/n/12 (+20) Fish-eries Man-age-ment
  []
 
 
-LaTeX Warning: Float too large for page by 258.08508pt on input line 34.
+LaTeX Warning: Float too large for page by 263.29755pt on input line 32.
 
-)) [4
-
-] [5]
+) [5]
 \openout2 = `Figures-RESUBMIT.aux'.
 
  (./Figures-RESUBMIT.tex
@@ -423,25 +439,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
+Underfull \hbox (badness 10000) in paragraph at lines 9--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--30
+Underfull \hbox (badness 10000) in paragraph at lines 22--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--41
+Underfull \hbox (badness 10000) in paragraph at lines 34--47
 
  []
 
 [6
 
 
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
+Underfull \hbox (badness 10000) in paragraph at lines 48--60
 
  []
 
@@ -452,513 +469,84 @@ File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
 ic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
-Overfull \hbox (26.17653pt too wide) in paragraph at lines 54--55
+Overfull \hbox (26.17653pt too wide) in paragraph at lines 67--68
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.00761pt on input line 57.
+LaTeX Warning: Float too large for page by 60.00761pt on input line 70.
 
 [9 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page i
 s rotated 90 degrees>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessme
+nt.pdf, id=43, 722.7pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-ass
+essment.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
+ssment.pdf>
+Overfull \hbox (98.44652pt too wide) in paragraph at lines 76--77
+ [] 
+ []
+
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phyl
-o.pdf, id=43, 433.62pt x 722.7pt>
+o.pdf, id=44, 433.62pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel
 -phylo.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
 phylo.pdf>
 
-LaTeX Warning: Float too large for page by 32.98598pt on input line 66.
+LaTeX Warning: Float too large for page by 32.98598pt on input line 86.
 
-[10 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
-phylo.pdf>]
+[10 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
+ssment.pdf>] [11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review
+/three-panel-phylo.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf, i
-d=51, 483.8075pt x 216.81pt>
+d=64, 483.8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.p
 df Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pd
-f> [11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
+f> [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
 .pdf>]
-</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-single.
-pdf, id=58, 578.16pt x 722.7pt>
-File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-si
-ngle.pdf Graphic file (type pdf)
-
-<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-sin
-gle.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt.
-pdf, id=59, 578.16pt x 722.7pt>
+pdf, id=71, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
 mgmt.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bym
-gmt.pdf>) [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/fr
-iedegg-single.pdf>] [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first
--review/friedegg-bymgmt.pdf>]
-\openout2 = `Table-S1.aux'.
-
- (./Table-S1.tex
-Overfull \hbox (58.77118pt too wide) in paragraph at lines 5--5
-[]|\OT1/cmr/m/n/12 (-20) bfromassessment| 
- []
-
-
-Overfull \hbox (58.77118pt too wide) in paragraph at lines 5--6
-[]|\OT1/cmr/m/n/12 (-20) ufromassessment| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/12 (+20) Bight red-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/it/12 (+20) Centroberyx
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-\OT1/cmr/m/n/12 (+20) East-ern half of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/m/n/12 (+20) West-ern half of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\OT1/cmr/m/n/12 (+20) Orange roughy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\OT1/cmr/m/it/12 (+20) Hoplostethus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\OT1/cmr/m/n/12 (+20) Orange roughy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\OT1/cmr/m/it/12 (+20) Hoplostethus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 8113) in paragraph at lines 12--12
-[]|\OT1/cmr/m/n/12 (+20) Jackass mor-wong
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]|\OT1/cmr/m/it/12 (+20) Nemadactylus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/n/12 (+20) Tiger flat-head
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/it/12 (+20) Neoplatycephalus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/12 (+20) grooved Tiger
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\OT1/cmr/m/it/12 (+20) Platycephalus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\OT1/cmr/m/n/12 (+20) Tasmanian gi-ant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\OT1/cmr/m/it/12 (+20) Pseudocarcinus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]|\OT1/cmr/m/n/12 (+20) common gem-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/12 (+20) Blue Ware-hou
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/12 (+20) East-ern half of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/12 (+20) Blue Ware-hou
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 (+20) West-ern half of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\OT1/cmr/m/n/12 (+20) School whit-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\OT1/cmr/m/it/12 (+20) Dissostichus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 3--26
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 26
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\OT1/cmr/m/n/12 (+20) Patagonian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\OT1/cmr/m/it/12 (+20) Macruronus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\OT1/cmr/m/n/12 (+20) Argentine hake
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\OT1/cmr/m/n/12 (+20) Argentine hake
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\OT1/cmr/m/n/12 (+20) Southern blue
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\OT1/cmr/m/n/12 (+20) whit-ing South-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\OT1/cmr/m/it/12 (+20) Micromesistius
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 30--30
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\OT1/cmr/m/n/12 (+20) Patagonian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\OT1/cmr/m/n/12 (+20) tooth-fish South
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\OT1/cmr/m/n/12 (+20) Prince Ed-ward
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\OT1/cmr/m/it/12 (+20) Dissostichus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 31--31
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\OT1/cmr/m/n/12 (+20) Anchovy South
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]|\OT1/cmr/m/it/12 (+20) Engraulis
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 (+20) Kingklip South
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 33--33
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\OT1/cmr/m/n/12 (+20) South African
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 (+20) abalone South
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 34--34
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 35--35
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 36--36
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 37--37
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 38--38
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 40--40
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\OT1/cmr/m/n/12 (+20) Deep-water cape
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 41--41
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[]|\OT1/cmr/m/n/12 (+20) Southern spiny
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-\OT1/cmr/m/n/12 (+20) lob-ster South
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 42--42
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\OT1/cmr/m/n/12 (+20) Sardine South
- []
-
-
-Overfull \hbox (3.14854pt too wide) in paragraph at lines 43--43
-[]|\OT1/cmr/m/n/12 (-20) DETMCM| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\OT1/cmr/m/n/12 (+20) Cape horse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-\OT1/cmr/m/n/12 (+20) mack-erel South
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\OT1/cmr/m/n/12 (+20) Herring Sco-tian
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 26--46
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-[14
+gmt.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt-
+10plots.pdf, id=72, 578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
+mgmt-10plots.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bym
+gmt-10plots.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots.
+pdf, id=73, 794.97pt x 496.85625pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
+lots.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
+ots.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correla
+tions.pdf, id=74, 433.62pt x 563.10374pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-co
+rrelations.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
+relations.pdf>) [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
+iew/friedegg-bymgmt.pdf>] [14 </home/srdbadmin/srdb/projects/fishandfisheries/R
+/first-review/friedegg-bymgmt-10plots.pdf>] [15 </home/srdbadmin/srdb/projects/
+fishandfisheries/R/first-review/friedegg-9plots.pdf>] [16 </home/srdbadmin/srdb
+/projects/fishandfisheries/R/first-review/Schaefer-correlations.pdf>]
+\openout2 = `Table-S2.aux'.
+
+
+(./Table-S2.tex) [17
 
 
 
@@ -966,2561 +554,1106 @@ Overfull \hbox (238.80467pt too wide) in alignment at lines 26--46
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
+\openout2 = `Table-S1-formatted.aux'.
+
+ (./Table-S1-formatted.tex
+Overfull \hbox (1.93544pt too wide) in alignment at lines 3--4
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 4--4
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 5--5
+[]|\OT1/cmr/m/n/6 B ra-tio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\OT1/cmr/m/n/6 from
+ []
+
+
+Overfull \hbox (9.27002pt too wide) in paragraph at lines 5--5
+\OT1/cmr/m/n/6 as-sess-ment| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\OT1/cmr/m/n/6 from
+ []
+
+
+Overfull \hbox (9.27002pt too wide) in paragraph at lines 5--5
+\OT1/cmr/m/n/6 as-sess-ment| 
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 4--5
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]|\OT1/cmr/m/n/6 Bight red-fish South-east
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/6 Orange roughy Cas-cade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/6 Orange roughy South-east
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/6 Jackass mor-wong South-east
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/6 Tiger flat-head South-east
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/6 Northern Aus-tralia grooved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\OT1/cmr/m/n/6 Tasmanian gi-ant crab
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/6 common gem-fish South-east
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/6 School whit-ing South-east
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 23--23
+[]|\OT1/cmr/m/n/6 Argentine an-choita North-ern
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/6 Argentine an-choita South-ern
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 5--26
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\OT1/cmr/m/n/6 Argentine hake North-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\OT1/cmr/m/n/6 Argentine hake South-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\OT1/cmr/m/n/6 Southern blue whit-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/6 Patagonian tooth-fish South
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\OT1/cmr/m/n/6 Africa Sub-antarc-tic Prince
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 34--34
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/6 Deep-water cape hake South
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 41--41
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/6 Cape horse mack-erel South
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\OT1/cmr/m/n/6 Herring NAFO 4R fall
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/6 Herring NAFO 4R spring
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 26--46
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\OT1/cmr/m/n/6 Herring NAFO 4T fall
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/6 Herring NAFO 4T spring
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 48--48
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 49--49
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
+[]|\OT1/cmr/m/n/6 Pacific her-ring Queen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/cmr/m/n/12 (+20) Prince Ru-pert
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
+Underfull \hbox (badness 3039) in paragraph at lines 50--50
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\OT1/cmr/m/n/12 (+20) Queen Char-lotte
+[]|\OT1/cmr/m/n/6 Pacific her-ring Straight of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
+Underfull \hbox (badness 3039) in paragraph at lines 51--51
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
+Underfull \hbox (badness 3039) in paragraph at lines 52--52
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\OT1/cmr/m/n/12 (+20) West Coast of
+Underfull \hbox (badness 4144) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/6 Pacific cod West Coast of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\OT1/cmr/m/it/12 (+20) Gadus
+Underfull \hbox (badness 4752) in paragraph at lines 56--56
+[]|\OT1/cmr/m/n/6 Atlantic cod NAFO 2J3KL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 60--60
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 55--55
-[]|\OT1/cmr/m/n/12 (+20) Pacific cod West
+Underfull \hbox (badness 3039) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\OT1/cmr/m/it/12 (+20) Gadus
+Underfull \hbox (badness 3039) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 61--61
-[]|\OT1/cmr/m/n/12 (+20) Rock sole Hecate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\OT1/cmr/m/it/12 (+20) Lepidopsetta
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\OT1/cmr/m/n/12 (+20) Haddock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\OT1/cmr/m/n/12 (+20) Haddock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/m/n/12 (+20) Pollock
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 46--66
+Overfull \hbox (1.93544pt too wide) in alignment at lines 46--66
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[]|\OT1/cmr/m/n/12 (+20) Yellowfin tuna
- []
+[18
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\OT1/cmr/m/n/12 (+20) Bigeye tuna
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
+] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\OT1/cmr/m/n/12 (+20) Skipjack tuna
+[]|\OT1/cmr/m/n/6 Skipjack tuna West-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\OT1/cmr/m/it/12 (+20) Katsuwonus
+Underfull \hbox (badness 3039) in paragraph at lines 78--78
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\OT1/cmr/m/n/12 (+20) Skipjack tuna
+Underfull \hbox (badness 3039) in paragraph at lines 80--80
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\OT1/cmr/m/it/12 (+20) Katsuwonus
+Underfull \hbox (badness 3039) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]|\OT1/cmr/m/n/12 (+20) Albacore tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]|\OT1/cmr/m/n/12 (+20) Yellowfin tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\OT1/cmr/m/n/12 (+20) Bigeye tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
-[]|\OT1/cmr/m/n/12 (+20) Bluefin tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
-[]|\OT1/cmr/m/n/12 (+20) Bluefin tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\OT1/cmr/m/n/12 (+20) Swordfish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\OT1/cmr/m/n/12 (+20) Mediter-ranean
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\OT1/cmr/m/n/12 (+20) Swordfish North
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/12 (+20) Swordfish South
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[]|\OT1/cmr/m/it/12 (+20) Ammodytes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
-[]|\OT1/cmr/m/n/12 (+20) Herring ICES
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 80--80
-[]|\OT1/cmr/m/n/12 (+20) Herring North-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\OT1/cmr/m/n/12 (+20) Herring ICES
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 66--86
+Overfull \hbox (1.93544pt too wide) in alignment at lines 66--86
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]|\OT1/cmr/m/n/12 (+20) Herring Ice-land
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\OT1/cmr/m/n/6 Herring Ice-land (Sum-mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-[]|\OT1/cmr/m/it/12 (+20) Engraulis
+Underfull \hbox (badness 3039) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]|\OT1/cmr/m/n/12 (+20) Atlantic cod
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/6 Fourspotted megrim ICES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]|\OT1/cmr/m/n/12 (+20) Atlantic cod
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]|\OT1/cmr/m/n/12 (+20) Atlantic cod
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
-[]|\OT1/cmr/m/n/12 (+20) Fourspotted
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
-\OT1/cmr/m/n/12 (+20) megrim ICES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
-[]|\OT1/cmr/m/it/12 (+20) Lepidorhombus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]|\OT1/cmr/m/n/12 (+20) Megrim ICES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]|\OT1/cmr/m/it/12 (+20) Lepidorhombus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\OT1/cmr/m/n/12 (+20) Capelin Bar-ents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\OT1/cmr/m/n/12 (+20) Haddock Faroe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 86--106
+Overfull \hbox (1.93544pt too wide) in alignment at lines 86--106
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
+[20]
+Underfull \hbox (badness 3039) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
+Underfull \hbox (badness 3039) in paragraph at lines 117--117
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 108--108
-[]|\OT1/cmr/m/n/12 (+20) Haddock West of
+Underfull \hbox (badness 3098) in paragraph at lines 125--125
+[]|\OT1/cmr/m/n/6 Pollock ICES IIIa, VI and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-[]|\OT1/cmr/m/n/12 (+20) Haddock Rock-all
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\OT1/cmr/m/n/12 (+20) Haddock ICES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\OT1/cmr/m/it/12 (+20) Merlangius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|\OT1/cmr/m/it/12 (+20) Merlangius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-[]|\OT1/cmr/m/n/12 (+20) Whiting ICES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-[]|\OT1/cmr/m/it/12 (+20) Merlangius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\OT1/cmr/m/n/12 (+20) Hake North-east
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\OT1/cmr/m/n/12 (+20) Hake North-east
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\OT1/cmr/m/it/12 (+20) Micromesistius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\OT1/cmr/m/n/12 (+20) European Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 124--124
-[]|\OT1/cmr/m/n/12 (+20) Pollock North-east
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]|\OT1/cmr/m/n/12 (+20) Pollock Faroe
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 106--126
+Overfull \hbox (1.93544pt too wide) in alignment at lines 106--126
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[20] [21]
-Underfull \hbox (badness 1365) in paragraph at lines 127--127
-[]|\OT1/cmr/m/n/12 (+20) Greenland hal-ibut
+[21]
+Underfull \hbox (badness 2894) in paragraph at lines 126--126
+[]|\OT1/cmr/m/n/6 Greenland hal-ibut North-east
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
+[]|\OT1/cmr/m/n/6 European pilchard ICES
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/6 Mackerel ICES North-east
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]|\OT1/cmr/m/n/12 (+20) Mackerel ICES
+[]|\OT1/cmr/m/n/6 Golden Red-fish North-east
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\OT1/cmr/m/n/12 (+20) Golden Red-fish
+Underfull \hbox (badness 3039) in paragraph at lines 129--129
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/cmr/m/n/12 (+20) sole West-ern
+Underfull \hbox (badness 1292) in paragraph at lines 132--132
+[]|\OT1/cmr/m/n/6 common Eu-ro-pean sole Irish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/cmr/m/n/6 common Eu-ro-pean sole
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[]|\OT1/cmr/m/it/12 (+20) Trisopterus
+[]|\OT1/cmr/m/n/6 Peruvian an-choveta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]|\OT1/cmr/m/n/12 (+20) Pacific hal-ibut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossus
+Underfull \hbox (badness 3039) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[]|\OT1/cmr/m/it/12 (+20) Clupeonella
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 145--145
-[]|\OT1/cmr/m/n/12 (+20) Black oreo West
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 145--145
-\OT1/cmr/m/n/12 (+20) end of Chatham
+[]|\OT1/cmr/m/n/6 Black oreo West end of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+[]|\OT1/cmr/m/n/6 Australian salmon New
  []
 
 
-Overfull \hbox (238.80467pt too wide) in alignment at lines 126--146
+Overfull \hbox (1.93544pt too wide) in alignment at lines 126--146
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 6927) in paragraph at lines 146--146
+[]|\OT1/cmr/m/n/6 New Zealand snap-per New
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\OT1/cmr/m/n/12 (+20) New Zealand
+Underfull \hbox (badness 1009) in paragraph at lines 156--156
+[]|\OT1/cmr/m/n/6 Orange roughy New Zealand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/cmr/m/n/12 (+20) snap-per New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\OT1/cmr/m/it/12 (+20) Chrysophrys
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]|\OT1/cmr/m/it/12 (+20) Genypterus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|\OT1/cmr/m/n/12 (+20) New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\OT1/cmr/m/n/12 (+20) abalone species
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-[]|\OT1/cmr/m/n/12 (+20) New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\OT1/cmr/m/n/12 (+20) abalone species
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|\OT1/cmr/m/n/12 (+20) New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\OT1/cmr/m/n/12 (+20) abalone species
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\OT1/cmr/m/n/12 (+20) New Zealand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\OT1/cmr/m/n/12 (+20) abalone species
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-[]|\OT1/cmr/m/it/12 (+20) Hoplostethus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 158--158
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 159--159
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 160--160
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 161--161
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 162--162
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 163--163
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 164--164
-[]|\OT1/cmr/m/n/12 (+20) Red rock lob-ster
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]|\OT1/cmr/m/it/12 (+20) Macruronus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 146--166
+Overfull \hbox (1.93544pt too wide) in alignment at lines 146--166
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\OT1/cmr/m/it/12 (+20) Macruronus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\OT1/cmr/m/n/12 (+20) Southern hake
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[]|\OT1/cmr/m/n/12 (+20) Southern hake
+[]|\OT1/cmr/m/n/6 Southern blue whit-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
+Underfull \hbox (badness 1102) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/6 Trevally New Zealand Ar-eas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[]|\OT1/cmr/m/n/12 (+20) Southern blue
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 169--169
-\OT1/cmr/m/n/12 (+20) whit-ing Camp-bell
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[]|\OT1/cmr/m/it/12 (+20) Micromesistius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|\OT1/cmr/m/n/12 (+20) Trevally New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|\OT1/cmr/m/it/12 (+20) Pseudocaranx
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]|\OT1/cmr/m/n/12 (+20) Smooth oreo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]|\OT1/cmr/m/it/12 (+20) Pseudocyttus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 172--172
-\OT1/cmr/m/n/12 (+20) end of Chatham
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]|\OT1/cmr/m/it/12 (+20) Pseudocyttus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\OT1/cmr/m/n/12 (+20) common gem-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-[]|\OT1/cmr/m/n/12 (+20) American Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossoides
+Underfull \hbox (badness 5696) in paragraph at lines 171--171
+[]|\OT1/cmr/m/n/6 Smooth oreo West end of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[]|\OT1/cmr/m/n/12 (+20) American Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossoides
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]|\OT1/cmr/m/n/12 (+20) Redfish species
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+[]|\OT1/cmr/m/n/6 Yellowtail Floun-der NAFO
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]|\OT1/cmr/m/n/12 (+20) Redfish species
+[]|\OT1/cmr/m/n/6 Greenland hal-ibut NAFO
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 181--181
-[]|\OT1/cmr/m/n/12 (+20) Greenland hal-ibut
+Underfull \hbox (badness 3039) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
+Underfull \hbox (badness 3039) in paragraph at lines 185--185
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
-[]|\OT1/cmr/m/n/12 (+20) Sablefish East-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
-\OT1/cmr/m/n/12 (+20) Bering Sea /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
-[]|\OT1/cmr/m/it/12 (+20) Anoplopoma
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]|\OT1/cmr/m/n/12 (+20) Sablefish Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]|\OT1/cmr/m/it/12 (+20) Anoplopoma
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]|\OT1/cmr/m/n/12 (+20) Ocean qua-hog
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[]|\OT1/cmr/m/n/12 (+20) Gray trig-ger-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 166--186
+Overfull \hbox (1.93544pt too wide) in alignment at lines 166--186
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|\OT1/cmr/m/n/12 (+20) Gulf men-haden
+[24]
+Underfull \hbox (badness 3039) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|\OT1/cmr/m/it/12 (+20) Brevoortia
+Underfull \hbox (badness 1708) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/6 Black sea bass Mid-Atlantic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\OT1/cmr/m/it/12 (+20) Brevoortia
+Underfull \hbox (badness 3039) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|\OT1/cmr/m/n/12 (+20) Blacknose shark
+Underfull \hbox (badness 3039) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|\OT1/cmr/m/it/12 (+20) Carcharhinus
+Underfull \hbox (badness 3039) in paragraph at lines 195--195
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\OT1/cmr/m/n/12 (+20) Finetooth shark
+Underfull \hbox (badness 3039) in paragraph at lines 200--200
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\OT1/cmr/m/it/12 (+20) Carcharhinus
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 Snowy grouper South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]|\OT1/cmr/m/n/12 (+20) Blacktip shark
+Underfull \hbox (badness 2173) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/6 Pacific cod Bering Sea and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]|\OT1/cmr/m/it/12 (+20) Carcharhinus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\OT1/cmr/m/it/12 (+20) Carcharhinus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|\OT1/cmr/m/n/12 (+20) Sandbar shark
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|\OT1/cmr/m/it/12 (+20) Carcharhinus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\OT1/cmr/m/n/12 (+20) Black sea bass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\OT1/cmr/m/it/12 (+20) Centropristis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\OT1/cmr/m/n/12 (+20) Atlantic her-ring
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-\OT1/cmr/m/n/12 (+20) North-west-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\OT1/cmr/m/n/12 (+20) Prince William
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
-[]|\OT1/cmr/m/n/12 (+20) Pacific her-ring
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 198--198
-[]|\OT1/cmr/m/n/12 (+20) Weakfish At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]|\OT1/cmr/m/n/12 (+20) Petrale sole
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\OT1/cmr/m/n/12 (+20) North-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]|\OT1/cmr/m/n/12 (+20) Petrale sole
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-\OT1/cmr/m/n/12 (+20) South-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]|\OT1/cmr/m/n/12 (+20) Snowy grouper
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 202--202
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]|\OT1/cmr/m/it/12 (+20) Epinephelus
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 203--203
-\OT1/cmr/m/n/12 (+20) Sea and Aleu-tian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-[]|\OT1/cmr/m/it/12 (+20) Gadus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]|\OT1/cmr/m/it/12 (+20) Gadus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\OT1/cmr/m/n/12 (+20) Atlantic cod
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 186--206
+Overfull \hbox (1.93544pt too wide) in alignment at lines 186--206
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\OT1/cmr/m/n/12 (+20) Witch Floun-der
+
+Underfull \hbox (badness 3039) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]|\OT1/cmr/m/it/12 (+20) Glyptocephalus
+Underfull \hbox (badness 3039) in paragraph at lines 209--209
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 208--208
-[]|\OT1/cmr/m/n/12 (+20) Rex sole Gulf of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]|\OT1/cmr/m/it/12 (+20) Glyptocephalus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\OT1/cmr/m/n/12 (+20) Kelp green-ling
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\OT1/cmr/m/it/12 (+20) Hexagrammos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]|\OT1/cmr/m/n/12 (+20) Flathead sole
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-\OT1/cmr/m/n/12 (+20) Bering Sea and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossoides
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossoides
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-[]|\OT1/cmr/m/n/12 (+20) American Plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossoides
+Underfull \hbox (badness 3039) in paragraph at lines 210--210
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/12 (+20) Atlantic Hal-ibut
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[]|\OT1/cmr/m/it/12 (+20) Hippoglossus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[]|\OT1/cmr/m/n/12 (+20) American lob-ster
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[]|\OT1/cmr/m/it/12 (+20) Homarus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+[]|\OT1/cmr/m/n/6 American lob-ster Georges
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 215--215
-[]|\OT1/cmr/m/n/12 (+20) American lob-ster
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
-[]|\OT1/cmr/m/it/12 (+20) Homarus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+[]|\OT1/cmr/m/n/6 American lob-ster South-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]|\OT1/cmr/m/n/12 (+20) American lob-ster
+[]|\OT1/cmr/m/n/6 Northern short-fin squid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-\OT1/cmr/m/n/12 (+20) South-ern New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]|\OT1/cmr/m/it/12 (+20) Homarus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 217--217
-[]|\OT1/cmr/m/n/12 (+20) Northern short-fin
+Underfull \hbox (badness 4752) in paragraph at lines 217--217
+[]|\OT1/cmr/m/n/6 Northern rock sole East-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+\OT1/cmr/m/n/6 Bering Sea and Aleu-tian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-\OT1/cmr/m/n/12 (+20) East-ern Bering
+Underfull \hbox (badness 3039) in paragraph at lines 217--217
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 218--218
-\OT1/cmr/m/n/12 (+20) Sea and Aleu-tian
+Underfull \hbox (badness 3039) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
-[]|\OT1/cmr/m/it/12 (+20) Lepidopsetta
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/6 Yellowtail floun-der Georges
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
-[]|\OT1/cmr/m/n/12 (+20) Yellowfin sole
+Underfull \hbox (badness 6575) in paragraph at lines 222--222
+[]|\OT1/cmr/m/n/6 Golden king crab Aleu-tian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
-\OT1/cmr/m/n/12 (+20) Bering Sea and
+Underfull \hbox (badness 6575) in paragraph at lines 223--223
+[]|\OT1/cmr/m/n/6 Golden king crab Aleu-tian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\OT1/cmr/m/n/12 (+20) South-ern New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
-\OT1/cmr/m/n/12 (+20) England-Mid
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 223--223
-[]|\OT1/cmr/m/n/12 (+20) Golden king crab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-\OT1/cmr/m/n/12 (+20) Aleu-tian Is-lands
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-[]|\OT1/cmr/m/it/12 (+20) Lithodes
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 224--224
-[]|\OT1/cmr/m/n/12 (+20) Golden king crab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\OT1/cmr/m/n/12 (+20) Aleu-tian Is-lands
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-[]|\OT1/cmr/m/it/12 (+20) Lithodes
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 225--225
-[]|\OT1/cmr/m/n/12 (+20) Monkfish Gulf of
+Underfull \hbox (badness 5490) in paragraph at lines 224--224
+[]|\OT1/cmr/m/n/6 Monkfish Gulf of Maine /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 225--225
-[]|\OT1/cmr/m/it/12 (+20) Lophius
+[]|\OT1/cmr/m/n/6 Monkfish South-ern Georges
  []
 
 
-Overfull \hbox (238.80467pt too wide) in alignment at lines 206--226
+Overfull \hbox (1.93544pt too wide) in alignment at lines 206--226
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-\OT1/cmr/m/n/12 (+20) Georges Bank /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-[]|\OT1/cmr/m/it/12 (+20) Lophius
- []
-
-
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/cmr/m/n/12 (+20) Tilefish
+[]|\OT1/cmr/m/n/6 Tilefish South-ern At-lantic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-\OT1/cmr/m/n/12 (+20) Mid-Atlantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/cmr/m/it/12 (+20) Lopholatilus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 228--228
-[]|\OT1/cmr/m/n/12 (+20) Tilefish South-ern
+[]|\OT1/cmr/m/n/6 Mutton snap-per South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
-[]|\OT1/cmr/m/it/12 (+20) Lopholatilus
+Underfull \hbox (badness 3439) in paragraph at lines 228--228
+\OT1/cmr/m/n/6 At-lantic coast and Gulf of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
-[]|\OT1/cmr/m/n/12 (+20) Mutton snap-per
+Underfull \hbox (badness 3039) in paragraph at lines 228--228
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 229--229
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
+Underfull \hbox (badness 3039) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-[]|\OT1/cmr/m/n/12 (+20) Red snap-per
+Underfull \hbox (badness 3039) in paragraph at lines 230--230
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\OT1/cmr/m/n/12 (+20) East-ern Gulf of
+Underfull \hbox (badness 3039) in paragraph at lines 231--231
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
-[]|\OT1/cmr/m/it/12 (+20) Lutjanus
+Underfull \hbox (badness 3039) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]|\OT1/cmr/m/n/12 (+20) Red snap-per
+Underfull \hbox (badness 3039) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 231--231
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
+Underfull \hbox (badness 3039) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
-[]|\OT1/cmr/m/it/12 (+20) Lutjanus
+Underfull \hbox (badness 4279) in paragraph at lines 243--243
+[]|\OT1/cmr/m/n/6 Yellowtail snap-per South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
-[]|\OT1/cmr/m/n/12 (+20) Red snap-per
+Underfull \hbox (badness 2277) in paragraph at lines 243--243
+\OT1/cmr/m/n/6 At-lantic Coast and Gulf of
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 232--232
-\OT1/cmr/m/n/12 (+20) West-ern Gulf of
+Underfull \hbox (badness 3039) in paragraph at lines 243--243
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
-[]|\OT1/cmr/m/it/12 (+20) Lutjanus
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
+[]|\OT1/cmr/m/n/6 Lingcod North-ern Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 234--234
-[]|\OT1/cmr/m/n/12 (+20) Haddock Georges
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
-[]|\OT1/cmr/m/it/12 (+20) Melanogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\OT1/cmr/m/n/12 (+20) Silver hake
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\OT1/cmr/m/n/12 (+20) South-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\OT1/cmr/m/n/12 (+20) Georges Bank
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-[]|\OT1/cmr/m/it/12 (+20) Merluccius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
-[]|\OT1/cmr/m/n/12 (+20) Atlantic croaker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
-[]|\OT1/cmr/m/it/12 (+20) Micropogonias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
-[]|\OT1/cmr/m/it/12 (+20) Microstomus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
-[]|\OT1/cmr/m/it/12 (+20) Microstomus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 241--241
-[]|\OT1/cmr/m/n/12 (+20) Striped bass Gulf
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 241--241
-\OT1/cmr/m/n/12 (+20) of Maine / Cape
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
-[]|\OT1/cmr/m/it/12 (+20) Mycteroperca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[]|\OT1/cmr/m/n/12 (+20) Gag South-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[]|\OT1/cmr/m/it/12 (+20) Mycteroperca
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 244--244
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 245--245
-[]|\OT1/cmr/m/n/12 (+20) Lingcod North-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 226--246
+Overfull \hbox (1.93544pt too wide) in alignment at lines 226--246
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[30] [31]
-Underfull \hbox (badness 4454) in paragraph at lines 246--246
-[]|\OT1/cmr/m/n/12 (+20) Lingcod South-ern
+[26]
+Underfull \hbox (badness 3039) in paragraph at lines 246--246
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 3039) in paragraph at lines 247--247
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]|\OT1/cmr/m/n/12 (+20) Northern shrimp
+Underfull \hbox (badness 3039) in paragraph at lines 248--248
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[]|\OT1/cmr/m/n/12 (+20) Summer floun-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[]|\OT1/cmr/m/it/12 (+20) Paralichthys
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]|\OT1/cmr/m/n/12 (+20) Red king crab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]|\OT1/cmr/m/it/12 (+20) Paralithodes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
-[]|\OT1/cmr/m/n/12 (+20) Red king crab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
-[]|\OT1/cmr/m/it/12 (+20) Paralithodes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 253--253
-\OT1/cmr/m/n/12 (+20) Gulf of Maine /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
-[]|\OT1/cmr/m/it/12 (+20) Peprilus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]|\OT1/cmr/m/it/12 (+20) Placopecten
+Underfull \hbox (badness 6608) in paragraph at lines 252--252
+[]|\OT1/cmr/m/n/6 Atlantic but-ter-fish Gulf of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]|\OT1/cmr/m/n/12 (+20) Sea scal-lop
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-\OT1/cmr/m/n/12 (+20) Mid-Atlantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]|\OT1/cmr/m/it/12 (+20) Placopecten
+[]|\OT1/cmr/m/n/6 Starry floun-der North-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 256--256
-[]|\OT1/cmr/m/n/12 (+20) Starry floun-der
+[]|\OT1/cmr/m/n/6 Starry floun-der South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
-\OT1/cmr/m/n/12 (+20) North-ern Pa-cific
+Underfull \hbox (badness 3039) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 3039) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\OT1/cmr/m/n/12 (+20) Starry floun-der
+Underfull \hbox (badness 3039) in paragraph at lines 260--260
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-\OT1/cmr/m/n/12 (+20) South-ern Pa-cific
+Underfull \hbox (badness 3039) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\OT1/cmr/m/n/12 (+20) Atka mack-erel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/cmr/m/n/12 (+20) Bering Sea and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\OT1/cmr/m/it/12 (+20) Pleurogrammus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-[]|\OT1/cmr/m/n/12 (+20) Alaska plaice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-\OT1/cmr/m/n/12 (+20) Bering Sea and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-[]|\OT1/cmr/m/it/12 (+20) Pleuronectes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\OT1/cmr/m/n/12 (+20) Bluefish At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\OT1/cmr/m/it/12 (+20) Pomatomus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]|\OT1/cmr/m/n/12 (+20) Winter Floun-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
-[]|\OT1/cmr/m/n/12 (+20) Winter Floun-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]|\OT1/cmr/m/n/12 (+20) Winter Floun-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\OT1/cmr/m/n/12 (+20) South-ern New
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-\OT1/cmr/m/n/12 (+20) England-Mid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-[]|\OT1/cmr/m/n/12 (+20) Longnose skate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 246--266
+Overfull \hbox (1.93544pt too wide) in alignment at lines 246--266
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|\OT1/cmr/m/n/12 (+20) Greenland tur-bot
+[27]
+Underfull \hbox (badness 7522) in paragraph at lines 266--266
+[]|\OT1/cmr/m/n/6 Arrowtooth floun-der Bering
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-\OT1/cmr/m/n/12 (+20) Bering Sea and
+Underfull \hbox (badness 3039) in paragraph at lines 266--266
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
+Underfull \hbox (badness 1360) in paragraph at lines 267--267
+[]|\OT1/cmr/m/n/6 Arrowtooth floun-der Gulf of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
-[]|\OT1/cmr/m/n/12 (+20) Arrowtooth
+Underfull \hbox (badness 3039) in paragraph at lines 267--267
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
-\OT1/cmr/m/n/12 (+20) floun-der Bering
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 267--267
-\OT1/cmr/m/n/12 (+20) Sea and Aleu-tian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-[]|\OT1/cmr/m/n/12 (+20) Arrowtooth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-\OT1/cmr/m/n/12 (+20) floun-der Gulf
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
+Underfull \hbox (badness 6316) in paragraph at lines 268--268
+[]|\OT1/cmr/m/n/6 Arrowtooth floun-der Pa-cific
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\OT1/cmr/m/n/12 (+20) Arrowtooth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-\OT1/cmr/m/n/12 (+20) floun-der Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\OT1/cmr/m/it/12 (+20) Reinhardtius
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+[]|\OT1/cmr/m/n/6 Atlantic sharp-nose shark
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[]|\OT1/cmr/m/it/12 (+20) Rhizoprionodon
+[]|\OT1/cmr/m/n/6 Vermilion snap-per Gulf of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 5954) in paragraph at lines 271--271
+[]|\OT1/cmr/m/n/6 Vermilion snap-per South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-[]|\OT1/cmr/m/it/12 (+20) Rhomboplites
+Underfull \hbox (badness 3039) in paragraph at lines 271--271
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 3039) in paragraph at lines 272--272
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 272--272
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\OT1/cmr/m/it/12 (+20) Rhomboplites
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[]|\OT1/cmr/m/n/12 (+20) Pacific sar-dine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/12 (+20) Pacific sar-dine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]|\OT1/cmr/m/n/12 (+20) Pacific chub
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-\OT1/cmr/m/n/12 (+20) mack-erel Pa-cific
+Underfull \hbox (badness 3039) in paragraph at lines 274--274
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 276--276
-[]|\OT1/cmr/m/it/12 (+20) Scomberomorus
+[]|\OT1/cmr/m/n/6 King mack-erel South-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[]|\OT1/cmr/m/n/12 (+20) King mack-erel
+[]|\OT1/cmr/m/n/6 Spanish mack-erel South-ern
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 277--277
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
-[]|\OT1/cmr/m/it/12 (+20) Scomberomorus
+Underfull \hbox (badness 3039) in paragraph at lines 277--277
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/cmr/m/n/12 (+20) Spanish mack-erel
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 278--278
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-[]|\OT1/cmr/m/it/12 (+20) Scomberomorus
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 279--279
-[]|\OT1/cmr/m/n/12 (+20) Atlantic mack-erel
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 279--279
-\OT1/cmr/m/n/12 (+20) Gulf of Maine /
+[]|\OT1/cmr/m/n/6 Atlantic mack-erel Gulf of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]|\OT1/cmr/m/n/12 (+20) Windowpane
- []
-
-
-Underfull \hbox (badness 2903) in paragraph at lines 280--280
-\OT1/cmr/m/n/12 (+20) Maine / Georges
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
-[]|\OT1/cmr/m/it/12 (+20) Scophthalmus
+[]|\OT1/cmr/m/n/6 Windowpane South-ern New
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]|\OT1/cmr/m/n/12 (+20) Windowpane
+[]|\OT1/cmr/m/n/6 California scor-pi-onfish
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\OT1/cmr/m/n/12 (+20) South-ern New
+Underfull \hbox (badness 3039) in paragraph at lines 281--281
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-\OT1/cmr/m/n/12 (+20) England-Mid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]|\OT1/cmr/m/it/12 (+20) Scophthalmus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[]|\OT1/cmr/m/n/12 (+20) California
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-\OT1/cmr/m/n/12 (+20) scor-pi-onfish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\OT1/cmr/m/it/12 (+20) Scorpaenichthys
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\OT1/cmr/m/it/12 (+20) Scorpaenichthys
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 3039) in paragraph at lines 284--284
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 285--285
-\OT1/cmr/m/n/12 (+20) Bering Sea and
+[]|\OT1/cmr/m/n/6 Rougheye rock-fish Gulf of
  []
 
 
-Overfull \hbox (238.80467pt too wide) in alignment at lines 266--286
+Underfull \hbox (badness 3039) in paragraph at lines 285--285
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 266--286
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-\OT1/cmr/m/n/12 (+20) East-ern Bering
+[28]
+Underfull \hbox (badness 1360) in paragraph at lines 286--286
+[]|\OT1/cmr/m/n/6 Pacific Ocean perch East-ern
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 287--287
-\OT1/cmr/m/n/12 (+20) Sea and Aleu-tian
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\OT1/cmr/m/n/6 Bering Sea and Aleu-tian
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 286--286
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 287--287
+[]|\OT1/cmr/m/n/6 Pacific ocean perch Gulf of
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 287--287
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 288--288
+[]|\OT1/cmr/m/n/6 Pacific ocean perch Pa-cific
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 288--288
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 289--289
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--290
-\OT1/cmr/m/n/12 (+20) Bering Sea and
+[]|\OT1/cmr/m/n/6 Gopher rock-fish South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/12 (+20) Gopher rock-fish
+Underfull \hbox (badness 3039) in paragraph at lines 292--292
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-\OT1/cmr/m/n/12 (+20) South-ern Pa-cific
+Underfull \hbox (badness 3039) in paragraph at lines 293--293
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 3792) in paragraph at lines 294--294
+[]|\OT1/cmr/m/n/6 Yellowtail rock-fish North-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\OT1/cmr/m/n/12 (+20) Darkblotched
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-\OT1/cmr/m/n/12 (+20) rock-fish Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/12 (+20) Widow rock-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-[]|\OT1/cmr/m/n/12 (+20) Acadian red-fish
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 294--294
-\OT1/cmr/m/n/12 (+20) Gulf of Maine /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
-\OT1/cmr/m/n/12 (+20) North-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 2426) in paragraph at lines 295--295
+[]|\OT1/cmr/m/n/6 Chilipepper South-ern Pa-cific
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--296
-[]|\OT1/cmr/m/n/12 (+20) Chilipepper
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
-\OT1/cmr/m/n/12 (+20) South-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 4779) in paragraph at lines 298--298
-[]|\OT1/cmr/m/n/12 (+20) Cowcod South-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]|\OT1/cmr/m/n/12 (+20) Black rock-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-\OT1/cmr/m/n/12 (+20) North-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\OT1/cmr/m/n/12 (+20) Black rock-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-\OT1/cmr/m/n/12 (+20) South-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[]|\OT1/cmr/m/n/12 (+20) Blackgill rock-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[]|\OT1/cmr/m/it/12 (+20) Sebastes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+[]|\OT1/cmr/m/n/6 Shortbelly rock-fish Pa-cific
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[]|\OT1/cmr/m/n/12 (+20) Blue rock-fish
+[]|\OT1/cmr/m/n/6 Bocaccio South-ern Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[]|\OT1/cmr/m/it/12 (+20) Sebastes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/12 (+20) Canary rock-fish
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 305--305
-[]|\OT1/cmr/m/n/12 (+20) Northern rock-fish
+Underfull \hbox (badness 3039) in paragraph at lines 304--304
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 305--305
-\OT1/cmr/m/n/12 (+20) Bering Sea and
+[]|\OT1/cmr/m/n/6 Northern rock-fish Gulf of
  []
 
 
-Overfull \hbox (238.80467pt too wide) in alignment at lines 286--306
+Underfull \hbox (badness 3039) in paragraph at lines 305--305
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 286--306
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[36] [37]
-Underfull \hbox (badness 5345) in paragraph at lines 306--306
-[]|\OT1/cmr/m/n/12 (+20) Northern rock-fish
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\OT1/cmr/m/n/6 Yelloweye rock-fish Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\OT1/cmr/m/it/12 (+20) Sebastes
+Underfull \hbox (badness 3039) in paragraph at lines 307--307
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 7030) in paragraph at lines 310--310
+[]|\OT1/cmr/m/n/6 Greater am-ber-jack Gulf of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]|\OT1/cmr/m/n/12 (+20) Shortspine
+Underfull \hbox (badness 4181) in paragraph at lines 311--311
+[]|\OT1/cmr/m/n/6 Greater am-ber-jack South-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]|\OT1/cmr/m/it/12 (+20) Sebastolobus
+Underfull \hbox (badness 3039) in paragraph at lines 311--311
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]|\OT1/cmr/m/n/12 (+20) Integrated
+Underfull \hbox (badness 4001) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/6 Atlantic sur-f-clam North-west
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/12 (+20) Longspine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/it/12 (+20) Sebastolobus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/12 (+20) Integrated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 312--312
-\OT1/cmr/m/n/12 (+20) South-ern At-lantic
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 313--313
-[]|\OT1/cmr/m/n/12 (+20) Bonnethead shark
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 314--314
-[]|\OT1/cmr/m/n/12 (+20) Atlantic sur-f-clam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--314
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 315--315
-[]|\OT1/cmr/m/n/12 (+20) Atlantic sur-f-clam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[]|\OT1/cmr/m/n/12 (+20) Spiny dog-fish
+Underfull \hbox (badness 3039) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\OT1/cmr/m/n/12 (+20) Scup At-lantic
+[]|\OT1/cmr/m/n/6 Walleye pol-lock Aleu-tian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]|\OT1/cmr/m/it/12 (+20) Stenotomus
+Underfull \hbox (badness 3039) in paragraph at lines 317--317
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]|\OT1/cmr/m/n/12 (+20) Walleye pol-lock
+Underfull \hbox (badness 3039) in paragraph at lines 318--318
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]|\OT1/cmr/m/it/12 (+20) Theragra
+Underfull \hbox (badness 3039) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\OT1/cmr/m/n/12 (+20) Walleye pol-lock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]|\OT1/cmr/m/it/12 (+20) Theragra
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]|\OT1/cmr/m/n/12 (+20) Walleye pol-lock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]|\OT1/cmr/m/it/12 (+20) Theragra
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 321--321
-\OT1/cmr/m/n/12 (+20) Bank / Gulf of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]|\OT1/cmr/m/n/12 (+20) Biomass
+Underfull \hbox (badness 1122) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/6 White hake Georges Bank /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\OT1/cmr/m/n/12 (+20) Walleye pol-lock
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 322--322
-\OT1/cmr/m/n/12 (+20) North-ern Sea of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\OT1/cmr/m/it/12 (+20) Theragra
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]|\OT1/cmr/m/n/12 (+20) Walleye pol-lock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]|\OT1/cmr/m/it/12 (+20) Theragra
+[]|\OT1/cmr/m/n/6 Walleye pol-lock West-ern
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\OT1/cmr/m/n/12 (+20) Chilean jack
+[]|\OT1/cmr/m/n/6 Shortfin mako Noth-west
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-\OT1/cmr/m/n/12 (+20) mack-erel Chilean
- []
-
-
-Overfull \hbox (13.0519pt too wide) in paragraph at lines 325--325
-[]|\OT1/cmr/m/n/12 (-20) UNKNOWN| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]|\OT1/cmr/m/n/12 (+20) Shortfin mako
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/12 (+20) Noth-west Pa-cific
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 306--326
+Overfull \hbox (1.93544pt too wide) in alignment at lines 306--326
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\OT1/cmr/m/n/12 (+20) American lob-ster
+[30]
+Underfull \hbox (badness 3039) in paragraph at lines 328--328
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\OT1/cmr/m/it/12 (+20) Homarus
+Underfull \hbox (badness 1540) in paragraph at lines 329--329
+[]|\OT1/cmr/m/n/6 Albacore tuna South Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\OT1/cmr/m/n/12 (+20) Winter floun-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\OT1/cmr/m/n/12 (+20) Tautog Rhode
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\OT1/cmr/m/n/12 (+20) Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]|\OT1/cmr/m/n/12 (+20) Skipjack tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-\OT1/cmr/m/n/12 (+20) Cen-tral West-ern
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]|\OT1/cmr/m/it/12 (+20) Katsuwonus
+Underfull \hbox (badness 3039) in paragraph at lines 329--329
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]|\OT1/cmr/m/n/12 (+20) Albacore tuna
+[]|\OT1/cmr/m/n/6 Yellowfin tuna Cen-tral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-\OT1/cmr/m/n/12 (+20) South Pa-cific
+Underfull \hbox (badness 3039) in paragraph at lines 330--330
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-[]|\OT1/cmr/m/n/12 (+20) Yellowfin tuna
+Underfull \hbox (badness 1112) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/6 Bigeye tuna West-ern Pa-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-\OT1/cmr/m/n/12 (+20) Cen-tral West-ern
+Underfull \hbox (badness 3039) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\OT1/cmr/m/n/12 (+20) Bigeye tuna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-\OT1/cmr/m/n/12 (+20) West-ern Pa-cific
- []
-
-
-Overfull \hbox (238.80467pt too wide) in alignment at lines 326--337
+Overfull \hbox (1.93544pt too wide) in alignment at lines 326--336
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[40] [41] [42]) [43] (./fandf-RESUBMIT2011-bundle.aux (./Tables-RESUBMIT.aux)
-(./Figures-RESUBMIT.aux) (./Table-S1.aux)) ) 
+[31] [32]) [33] (./fandf-RESUBMIT2011-bundle.aux (./Table1-formatted.aux)
+(./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4186 strings out of 495061
- 61229 string characters out of 1182621
- 187760 words of memory out of 3000000
- 7172 multiletter control sequences out of 15000+50000
- 12972 words of font info for 82 fonts, out of 3000000 for 9000
+ 4187 strings out of 495061
+ 62444 string characters out of 1182621
+ 200130 words of memory out of 3000000
+ 7191 multiletter control sequences out of 15000+50000
+ 12446 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,10n,35p,675b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on fandf-RESUBMIT2011-bundle.pdf (43 pages, 1331997 bytes).
+ 32i,10n,35p,685b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on fandf-RESUBMIT2011-bundle.pdf (33 pages, 3422135 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
+ 192 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10266 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10793 words of extra memory for PDF output out of 12000 (max. 10000000)
 

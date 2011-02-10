@@ -1,20 +1,37 @@
 \section*{Figures}
 \subsection*{Figure legends}
 
-\noindent Figure 1. Global map of Large Marine Ecosystems (LMEs) and
+\noindent Figure 1. Map of Large Marine Ecosystems (LMEs) and
 high seas areas (ovals) showing the number of stock assessments
 present in the database for each area. This map illustrates the limited
-coverage of available stock assessments.\\
+spatial coverage of available stock assessments.\\
 
-\noindent Figure 2. Comparison of the taxonomic diversity of marine
+\noindent Figure 2. Taxonomic coverage of assessed marine species present in the
+RAM Legacy database. The circle located near the middle of the circular
+dendrogram represents kingdom Animalia and each subsequent branching
+represents a different taxonomic group (Kingdom to Phylum to Class to
+Order to Family to Genus to Species). The width of each line is
+proportional to the square root of the number of assessments in the
+database. The outermost lines represent species and the number of
+lines is the number of assessments for each species. The names of
+multi-assessment species are not repeated on the outermost portion of
+the dendrogram but continue counter-clockwise from the first entry.
+Note that branch lengths are chosen for graphical purposes and do not
+convey phylogenetic distance.\\ 
+
+\noindent Figure 3. Comparison of the taxonomic diversity of marine
 species as provided by FishBase (top panel), the coverage of catch
-data as provided by the Sea Around Us Project (SAUP) database (middle
-panel) and the new RAM Legacy database (bottom panel). To facilitate the
-identification of the taxonomic groups that are not presented in the catch
-and assessment data, the FishBase branching pattern of the spoked dendrogram is
-maintained to generate the other two dendrograms.\\ 
+data as provided by the Sea Around Us database (middle panel) and the
+new RAM Legacy database (bottom panel). To facilitate the
+identification of the taxonomic groups that are not presented in the
+catch and assessment data, the FishBase branching pattern of the
+spoked dendrogram is maintained to generate the other two dendrograms.
+This figure only compares fish and elasmobranch species present in
+FishBase. Additonal species of molluscs and arthropods are present in
+both the Sea Around Us and RAM Legacy databases but are not presented here.
+\\
 
-\noindent Figure 3. Orca plots showing the temporal coverage of (A)
+\noindent Figure 4. Orca plots showing the temporal coverage of (A)
 catch/landings, (B) spawning stock biomass and (C) recruitment. The
 temporal coverage for individual assessments is represented by thin
 alternating black and grey horizontal lines in the main panels. Orca
@@ -28,22 +45,18 @@ reference to time period. Solid and long-dash vertical lines within
 the subfigures represent the median,
 2.5\% and 97.5\% quantiles, respectively.\\
 
-\noindent Figure 4. Current exploitation rate versus current biomass
-for 241 individual stocks. Exploitation is scaled relative to that
-which should allow maximum sustainable yield ($U_{msy}$); biomass is
-scaled relative to $B_{msy}$. Shades of grey indicate probability of
+\noindent Figure 5. Current exploitation rate versus current biomass
+for 213 individual stocks and for individual stocks grouped by
+management unit. Exploitation is scaled relative to that which should
+allow maximum sustainable yield ($U_{msy}$); biomass is scaled
+relative to $B_{msy}$. Shades of grey indicate probability of
 occurrence as revealed by a kernel density smooth function. Solid
 circles indicate $B_{msy}$ and $U_{msy}$ that were obtained directly
 from assessments; open circles indicate that they were estimated from
-surplus production models. This figure is an updated version of Fig 3B
-from \citet{Worm:etal:2009:science}.
+surplus production models. The panel labelled ``Atlantic'' includes
+ICCAT and NAFO. This figure is an updated version of Fig 3B from
+\citet{Worm:etal:2009:science}.
 \\
-
-\noindent Figure 5. Current exploitation rate versus biomass for
-individual stocks grouped by management unit. The panel labelled
-``Atlantic'' comprises ICCAT and NAFO. Plot details as in
-Figure 6.\\
-
 
 \newpage
 \subsection*{Figures}
@@ -57,6 +70,13 @@ Figure 6.\\
 \end{figure}
 \end{landscape}
 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=7.5in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessment.pdf} %taxonomic_coverage_byLME.pdf}
+\end{center}
+\caption{ }\label{fig:taxo:srdb}
+\end{figure}
 
 \begin{figure}
 \begin{center}
@@ -76,17 +96,39 @@ Figure 6.\\
 \end{figure}
 \end{landscape}
 
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-single.pdf}
+%\end{center}
+%\caption{ }\label{fig:friedegg}
+%\end{figure}
+
 \begin{figure}
 \begin{center}
-\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-single.pdf}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt.pdf}
 \end{center}
 \caption{ }\label{fig:friedegg}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt.pdf}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt-10plots.pdf}
 \end{center}
-\caption{ }\label{fig:friedeggmgmt}
+\caption{ }
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots.pdf}
+\end{center}
+\caption{ }
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correlations.pdf}
+\end{center}
+\caption{ }\label{fig:S1}
 \end{figure}
 

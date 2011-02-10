@@ -4,25 +4,6 @@
 Total number of proper stocks assessments: REF:SQL:TOTNUMASSESSMENT, from REF:SQL:TOTNUMASSESSFISH marine fish populations and REF:SQL:TOTNUMASSESSINVERT
 invertebrate populations.
 
-
-\subsection*{Global fisheries}
-
-\subsection*{Management bodies and geography}
-\noindent
-Number of assessments from NMFS: REF:SQL:TOTNUMASSESSNMFS.\\
-Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES.\\
-Number of assessments from MFish: REF:SQL:TOTNUMASSESSMFish.\\
-Number of assessments from DFO: REF:SQL:TOTNUMASSESSDFO.\\
-Number of assessments from AFMA: REF:SQL:TOTNUMASSESSAFMA.\\
-Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM.\\
-
-
-Assessments were available for REF:SQL:TOTNUMLMESPRIMARY LMEs, with the greatest number of
-assessed stocks coming from REF:SQL:NUMASSESSLME:1,
-REF:SQL:NUMASSESSLME:2, REF:SQL:NUMASSESSLME:3,
-REF:SQL:NUMASSESSLME:4, REF:SQL:NUMASSESSLME:5, REF:SQL:NUMASSESSLME:6
-and REF:SQL:NUMASSESSLME:7.
-
 \subsection*{Taxonomy}
 \noindent
 
@@ -36,6 +17,11 @@ Top 5 taxonomic orders: REF:SQL:NUMASSESSORDERS:1, REF:SQL:NUMASSESSORDERS:2, RE
 Number of assessments with catch timeseries: REF:SQL:NUMCATCHSERIES.\\
 Number of assessments with recruitment timeseries: REF:SQL:NUMRSERIES.\\
 Number of assessments with spawning stock biomass timeseries: REF:SQL:NUMSSBSERIES.\\
+
+Together these comprise time series of
+catch/landings for REF:SQL:NUMCATCHSERIES stocks (REF:SQL:PERCENTCATCHSERIES\%),
+SSB estimates for REF:SQL:NUMSSBSERIES stocks (REF:SQL:PERCENTSSBSERIES\%), and recruitment estimates for
+REF:SQL:NUMRSERIES stocks (REF:SQL:PERCENTRSERIES\%).
 
 The median lengths of catch/landings, SSB, and recruitment timeseries
 were REF:SQL:MEDCATCHLEN, REF:SQL:MEDSSBLEN, and REF:SQL:MEDRLEN
@@ -78,6 +64,16 @@ REF:SQL:NUMASSESSEXPLOITSCHAEFERREF of the exploitation reference
 points come from assessments and from surplus production model fits,
 respectively.
 
+To identify potential biases arising from using BRPs
+derived from surplus production models we computed a contingency table
+of status classification for stocks that have both assessment- and
+Schaefer-derived BRPs (Table S2). Surplus production models correctly
+classified ratios of current biomass to BRPs in
+REF:SQL:PERCENTCORRECTBCLASS\% of cases (for REF:SQL:NUMCORRECTBCLASS
+of REF:SQL:NUMBCLASS assessments) and REF:SQL:PERCENTCORRECTUCLASS\%
+of cases for exploitation BRPs (for REF:SQL:NUMCORRECTUCLASS of
+REF:SQL:NUMUCLASS assessments).
+
 Overall, REF:SQL:PERCENTASSESSMENTSBELOWBMSY\% of stocks are estimated
 to be below their biomass-related MSY BRP, that is $B_{curr}<B_{msy}$,
 and REF:SQL:PERCENTASSESSMENTSABOVEFMSY\% are estimated to be above
@@ -88,8 +84,65 @@ $B_{msy}$, REF:SQL:PERCENTASSESSBELOWBMSYANDBELOWFMSY\% have had their
 exploitation rate reduced below $U_{msy}$, suggesting potential for
 recovery (Figure~\ref{fig:friedegg}). The remaining
 REF:SQL:PERCENTASSESSBELOWBMSYANDABOVEFMSY\% of these stocks however,
-still have excessive exploitation rates (Figure~\ref{fig:friedegg}).
-On a positive note, REF:SQL:PERCENTASSESSMENTSABOVEBMSY\% of all stocks are
-estimated to be above $B_{msy}$, and
-REF:SQL:PERCENTASSESSABOVEBMSYANDBELOWFMSY\% of the stocks above
-$B_{msy}$ also have $U_{current}$ below $U_{msy}$.
+still have excessive exploitation rates
+(Figure~\ref{fig:friedegg}). On a positive note,
+REF:SQL:PERCENTASSESSMENTSABOVEBMSY\% of all stocks are estimated to
+be above $B_{msy}$, and REF:SQL:PERCENTASSESSABOVEBMSYANDBELOWFMSY\%
+of the stocks above $B_{msy}$ also have $U_{current}$ below $U_{msy}$.
+
+
+\subsection*{Global fisheries}
+
+\subsection*{Management bodies and geography}
+\noindent
+Number of assessments from NMFS: REF:SQL:TOTNUMASSESSNMFS (REF:SQL:NUMASSESSFRIEDTOTALNMFS with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYNMFS (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYNMFS \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYNMFS (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYNMFS \%) are below $U_{msy}$, ) \\
+Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES (REF:SQL:NUMASSESSFRIEDTOTALICES with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYICES (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYICES (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYICES \%) are below $U_{msy}$, ) \\
+Number of assessments from MFish: REF:SQL:TOTNUMASSESSMFish (REF:SQL:NUMASSESSFRIEDTOTALMFish with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYMFish (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYMFish \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYMFish (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYMFish \%) are below $U_{msy}$, ) \\
+Number of assessments from DFO: REF:SQL:TOTNUMASSESSDFO (REF:SQL:NUMASSESSFRIEDTOTALDFO with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYDFO (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDFO \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYDFO (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYDFO \%) are below $U_{msy}$, ) \\
+Number of assessments from AFMA: REF:SQL:TOTNUMASSESSAFMA (REF:SQL:NUMASSESSFRIEDTOTALAFMA with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYAFMA (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYAFMA \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYAFMA (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYAFMA \%) are below $U_{msy}$, ) \\
+Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM (REF:SQL:NUMASSESSFRIEDTOTALDETMCM with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYDETMCM (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDETMCM \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYDETMCM (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYDETMCM \%) are below $U_{msy}$, ) \\
+
+The status of exploited marine stocks, as estimated from biomass- and
+exploitaion-BRPs, varied widely depending on the management body
+(Figure~\ref{fig:friedeggmgmt}). Most European stocks (managed by
+ICES) have biomasses less than $B_{msy}$
+(REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%), and over half of these
+stocks (REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSYICES\%) still
+have exploitation rates exceeding $U_{msy}$. Canadian stocks (managed
+by DFO) also had low biomass (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDFO\%
+$< B_{msy}$), but all but one of these has had its exploitation rate
+reduced below $U_{msy}$. In contrast, about half
+(REF:SQL:PERCENTASSESSFRIEDABOVEBMSYNMFS\%) of U.S. stocks (managed by
+NMFS) are estimated to still be above $B_{msy}$, and of the
+REF:SQL:NUMASSESSFRIEDBELOWBMSYNMFS stocks that are below $B_{msy}$
+REF:SQL:PERCENTASSESSFRIEDBELBMSYANDBELOWFMSYNMFS\% have exploitation
+rates below $U_{msy}$ (Figure~\ref{fig:friedegg}). In the New
+Zealand and Australian waters, stocks managed by MFish and AFMA are
+above $B_{msy}$ in REF:SQL:PERCENTASSESSFRIEDABOVEBMSYMFish\% and
+REF:SQL:PERCENTASSESSFRIEDABOVEBMSYAFMA\% of cases, respectively. For
+the stocks grouped as ``Atlantic'' in Figure~\ref{fig:friedegg} we
+found that REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
+REF:SQL:NUMASSESSFRIEDTOTALICCAT ICCAT stocks and
+REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
+REF:SQL:NUMASSESSFRIEDTOTALICCAT of NAFO stocks were below $B_{msy}$ .
+
+%Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES.\\
+%Number of assessments from MFish: REF:SQL:TOTNUMASSESSMFish.\\
+%Number of assessments from DFO: REF:SQL:TOTNUMASSESSDFO.\\
+%Number of assessments from AFMA: REF:SQL:TOTNUMASSESSAFMA.\\
+%Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM.\\
+
+
+Assessments were available for REF:SQL:TOTNUMLMESPRIMARY LMEs, with the greatest number of
+assessed stocks coming from REF:SQL:NUMASSESSLME:1,
+REF:SQL:NUMASSESSLME:2, REF:SQL:NUMASSESSLME:3,
+REF:SQL:NUMASSESSLME:4, REF:SQL:NUMASSESSLME:5, REF:SQL:NUMASSESSLME:6
+and REF:SQL:NUMASSESSLME:7.
+
+The proportion of stocks below $B_{msy}$ and below $U_{mys}$ varies considerably by management body. 
+
+ICES has REF:SQL:NUMASSESSFRIEDTOTALICES assessments in Table 4,
+REF:SQL:NUMASSESSFRIEDBELOWBMSYICES
+(REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%) of which are below
+$B_{msy}$ and REF:SQL:NUMASSESSFRIEDBELOWFMSYICES are below
+$U_{msy}$.

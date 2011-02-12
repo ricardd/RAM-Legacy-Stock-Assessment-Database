@@ -1,4 +1,5 @@
 \contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
 \contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
-\contentsline {subsubsection}{IMARPE-PANCHPERUNC-1963-2004-RICARD}{3}{section*.4}
-\contentsline {subsubsection}{LME map}{5}{section*.5}
+\contentsline {subsubsection}{DFO-NFLD-COD2J3KL-1850-2005-RICARD}{3}{section*.4}
+\contentsline {subsubsection}{IMARPE-PANCHPERUNC-1963-2004-RICARD}{5}{section*.5}
+\contentsline {subsubsection}{LME map}{7}{section*.6}

@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-02-11 20:21:21 (srdbadmin)>
+# Last modified Time-stamp: <2011-02-11 22:14:12 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -464,3 +464,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-RSNAPWGM-200
 ## database day
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-ANCHOVYKILKACS-2007-editedDR.xls
 
+
+## cod 2J3KL
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-COD2J3KL-2006-editedDR.xls

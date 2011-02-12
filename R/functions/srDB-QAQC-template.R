@@ -1,11 +1,12 @@
 # template that Perl uses to run the plots for the QAQC
 # Coilín Minto
 # date: Thu Nov 27 14:47:59 AST 2008
-# Time-stamp: <2010-07-29 14:14:00 (srdbadmin)>
+# Time-stamp: <2011-02-11 23:46:53 (srdbadmin)>
 # Modifification history
 ## 2010-02-17: some of the units names in the views changed, amended code to reflect that (some plots were not showing a y axis label on the exploitation plots) - DR
 ## 2010-03-15: changed line 41 sum(x to sum(as.numeric(x) because I was getting an integer overflow for recruitment timeseries for assessment AFWG-CAPENOR-1965-2007-MINTO - DR
 ## 2010-03-25: modified code to plot SSB and TB when their units are not the same, the reference points were not plotted on the right axis, fixed this, see NWFSC-BLUEROCKCAL-1916-2007-BRANCH for an example- DR
+## 2011-02-11: I just noticed that the x axis for the timeseries plots do not necessarily share their "xlim", so if one timeseries, say CATCH, is longer than say F, they ended up being plotted on different scales. I changed to code so that "xlim" is set to a single value and used by all call to "plot".
 # load necessaries
 library("RODBC")
 # what assessment
@@ -206,32 +207,37 @@ if("f"%in%avail.series){
 year.lim.f<-range(ts.val.df$tsyear[!is.na(ts.val.df$f)], na.rm=TRUE)
 max.f<-max(ts.val.df$f[!is.na(ts.val.df$f)])}
 
+  
 ## plots
 # catch, cpue, f
 if("catch_landings"%in%avail.series & "cpue"%in%avail.series & "f"%in%avail.series ){
+## overall xlim
+year.lim <- range(c(year.lim.catch.landings, year.lim.cpue, year.lim.f))
   par(mar=c(3,3,3,5))
-  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.catch.landings, ylim=c(0,max.catch.landings)))
+  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.catch.landings)))
   mtext(side=1,text="Year", line=2, cex=1.1)
   mtext(side=2,text=paste("Total catch/ landings"," (",ts.units.df[,"catch_landings_unit"],")", sep=""), line=2, cex=1.1)
   par(new=TRUE)
-  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lty=2,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.cpue, ylim=c(0,max.cpue)))
+  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lty=2,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.cpue)))
 axis(side=4)
   axis(side=4)
   mtext(side=4,text="CPUE", line=1.8, cex=1.0)
   par(new=TRUE)
-  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.f, ylim=c(0,max.f), axes=FALSE))
+  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.f), axes=FALSE))
   axis(side=4, line=3)
   mtext(side=4,text="F", line=5, cex=1.0)
 legend("topright", legend=c("Total catch/\nlandings","CPUE", "F"), lty=c(1,2,4), lwd=c(2,2,2), bty="n", cex=1.2, horiz=FALSE)
 }
 # catch, cpue
 if("catch_landings"%in%avail.series & "cpue"%in%avail.series & !"f"%in%avail.series ){
+## overall xlim
+year.lim <- range(c(year.lim.catch.landings, year.lim.cpue))
   par(mar=c(3,3,3,4))
-  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.catch.landings, ylim=c(0,max.catch.landings)))
+  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.catch.landings)))
   mtext(side=1,text="Year", line=2, cex=1.1)
   mtext(side=2,text=paste("Total catch/ landings"," (",ts.units.df[,"catch_landings_unit"],")", sep=""), line=2, cex=1.1)
   par(new=TRUE)
-  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lty=2,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.cpue, ylim=c(0,max.cpue)))
+  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lty=2,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.cpue)))
 axis(side=4)
   axis(side=4)
   mtext(side=4,text="CPUE", line=1.8, cex=1.0)
@@ -239,12 +245,15 @@ axis(side=4)
 }
 # catch, f
 if("catch_landings"%in%avail.series & !"cpue"%in%avail.series & "f"%in%avail.series ){
+  ## overall xlim
+year.lim <- range(c(year.lim.catch.landings, year.lim.f))
+
   par(mar=c(3,3,3,4))
-  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.catch.landings, ylim=c(0,max.catch.landings)))
+  with(ts.val.df, plot(tsyear, catch_landings, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.catch.landings)))
   mtext(side=1,text="Year", line=2, cex=1.1)
   mtext(side=2,text=paste("Total catch/ landings"," (",ts.units.df[,"catch_landings_unit"],")", sep=""), line=2, cex=1.1)
   par(new=TRUE)
-  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.f, ylim=c(0,max.f), axes=FALSE))
+  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.f), axes=FALSE))
   axis(side=4)
   mtext(side=4,text="F", line=2.5, cex=1.0)
 legend("topright", legend=c("Total catch/\nlandings", "F"), lty=c(1,4), lwd=c(1.5,1.5), bty="n", cex=1.2, horiz=FALSE)
@@ -252,12 +261,15 @@ legend("topright", legend=c("Total catch/\nlandings", "F"), lty=c(1,4), lwd=c(1.
 # cpue, f
 
 if(!"catch_landings"%in%avail.series & "cpue"%in%avail.series & "f"%in%avail.series ){
+    ## overall xlim
+year.lim <- range(c(year.lim.cpue, year.lim.f))
+
   par(mar=c(3,3,3,4))
-  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.cpue, ylim=c(0,max.cpue)))
+  with(ts.val.df, plot(tsyear, cpue, xlab="", ylab="", type='l', lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.cpue)))
   mtext(side=1,text="Year", line=2, cex=1.1)
   mtext(side=2,text=paste("CPUE"," (",ts.units.df[,"cpue_unit"],")", sep=""), line=2, cex=1.1)
   par(new=TRUE)
-  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim.f, ylim=c(0,max.f), axes=FALSE))
+  with(ts.val.df, plot(tsyear, f, xlab="", ylab="", type='l', lty=4,lwd=1.5, cex.lab=1.2, bty="l", xlim=year.lim, ylim=c(0,max.f), axes=FALSE))
   axis(side=4)
   mtext(side=4,text="F", line=2.5, cex=1.0)
 legend("topright", legend=c("Total catch/\nlandings","CPUE", "F"), lty=c(1,2,4), lwd=c(2,2,2), bty="n", cex=1.2, horiz=FALSE)

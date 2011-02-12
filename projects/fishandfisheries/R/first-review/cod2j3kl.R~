@@ -1,0 +1,6 @@
+require(RODBC)
+chan <- odbcConnect(dsn="srdbcalo")
+qu <- paste("SELECT * FROM srdb.timeseries_values_view where assessid ='DFO-NFLD-COD2J3KL-1850-2005-RICARD' order by tsyear", sep="")
+my.ts <- sqlQuery(chan,qu)
+plot(f~tsyear,data=my.ts, type='b')
+lines(catch~tsyear,data=my.ts)

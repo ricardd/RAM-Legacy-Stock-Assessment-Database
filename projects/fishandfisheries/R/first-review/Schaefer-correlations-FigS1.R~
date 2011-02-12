@@ -1,5 +1,6 @@
 ##
 ##
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
 require(xtable)
 
 mtext.fun<-function(xstring,ystring,xline,yline){
@@ -140,8 +141,8 @@ mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.
 
 dev.off()
 
-print(b.table)
-print(f.table)
+#print(b.table)
+#print(f.table)
 
 numerator <- dim(b.for.comparison.table[(b.for.comparison.table$Bratio < 1 & b.for.comparison.table$BratioSP < 1) | (b.for.comparison.table$Bratio > 1 & b.for.comparison.table$BratioSP > 1),])[1]
   nn<-numerator
@@ -188,9 +189,9 @@ odbcClose(chan)
 
 # Table S2 showing the contingency table for B and U
 contingency.table <- rbind(f.table,b.table)
-my.caption <- c("Contingency tables of stock status classification for biomass and exploitation reference points obtained from assessments and those derived from surplus production models.")
+my.caption <- c("Contingency tables of stock status classification for biomass and exploitation reference points obtained from assessments and those derived from surplus production models. ")
 my.table.contingency <- xtable(contingency.table, caption=my.caption, label=c("tab:contingency"), digits=2, align="ccc")
-  print(my.table.contingency, type="latex", file="../tex/Table-S2.tex", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
+  print(my.table.contingency, type="latex", file="../../tex/first-review/Table-S2.tex", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
 
 
 save.image()

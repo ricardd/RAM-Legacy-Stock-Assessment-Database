@@ -8,6 +8,8 @@ category,methodshort,methodlong
 "VPA","B-ADAPT","The ADAPT approach with year effects in a catch multiplier"
 "VPA","SXSA","Seasonal XSA"
 "VPA","SPA-ADAPT","Sequential Population Analysis / ADAPT"
+"VPA","ISVPA","Instantaneous Separable VPA"
+"VPA","hybrid","Bayesian VPA hybrid"
 "Statistical catch at age model","GADGET","Globally Applicable area-Disaggregated General Ecosystem Toolbox - An ecosystem-based management tool used for assessment"
 "Statistical catch at age model","SCA","Statistical catch-at-age model"
 "Statistical catch at age model","TSA","State-space catch at age time series analysis"
@@ -43,3 +45,4 @@ category,methodshort,methodlong
 "Unknown","MSLM","Multi-stock length-based model"
 "Survey index","AIM","An Index Model (AIM); Fmsy proxy based on log-log regression of replacement ratio on relative F (catch/survey biomass index)"
 "Biomass dynamics model","SPASM","State-space age-stuctured production model"
+"Biomass dynamics model","CSM","Collie-Sissenwine model"

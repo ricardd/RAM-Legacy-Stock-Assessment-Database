@@ -351,5 +351,5 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "RROCKLOBSTERCRA8",660225,"Jasus edwardsii","Red rock lobster","New Zealand-MFish-CRA8","Red rock lobster New Zealand area CRA8",0,NULL
 "BLACKOREOWECR",625296,"Allocyttus niger","Black oreo","New Zealand-MFish-WECR","Black oreo West end of Chatham Rise",0,NULL
 "ATLMENHADEN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-Atlantic","Atlantic menhaden Atlantic",1,"MENATLAN"
-"ANCHOVYSILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS",0,NULL
+"ANCHOVYKILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS","Anchovy kilka Caspian Sea",0,NULL
 "SURFNWATL",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-NWATL","Atlantic surfclam Northwest Atlantic (northeastern USA)",0,NULL

@@ -35,6 +35,7 @@ category,methodshort,methodlong
 "Unknown","CapTool","Spreadsheet assessment model used for Capelin"
 "Integrated Analysis","SS1","Stock Synthesis v1.0 model"
 "Integrated Analysis","SS2","Stock Synthesis v2.0 model"
+"Integrated Analysis","SS3","Stock Synthesis v3.0 model"
 "Integrated Analysis","CASAL","CASAL"
 "Integrated Analysis","LBBM","Custom length-based Bayesian Model"
 "Unknown","Count","Count"

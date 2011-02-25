@@ -447,3 +447,6 @@ stockid,lme_number,stocktolmerelation
 "PANCHPERUNC",13,"primary"
 "ANCHOVYKILKACS",-95,"primary"
 "SURFNWATL",7,"primary"
+"SBT",-97,"primary"
+"SBT",-99,"secondary"
+"SBT",-98,"tertiary"

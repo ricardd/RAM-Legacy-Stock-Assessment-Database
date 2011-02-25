@@ -368,3 +368,11 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "WEAKFISHATLC",169241,"Cynoscion regalis","Weakfish","USA-NMFS-ATLC","Weakfish Atlantic Coast",0,NULL
 "RKCRABNS",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-NS","Red king crab Norton Sound",0,NULL
 "PANCHPERUNC",551340,"Engraulis ringens","Peruvian anchoveta","Peru-IMARPE-NC","Peruvian anchoveta North-Central Peru",1,"PANCHNCS"
+"BLACKOREOWECR",625296,"Allocyttus niger","Black oreo","New Zealand-MFish-WECR","Black oreo West end of Chatham Rise",0,NULL
+"ATLMENHADEN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-Atlantic","Atlantic menhaden Atlantic",1,"MENATLAN"
+"ANCHOVYKILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS","Anchovy kilka Caspian Sea",0,NULL
+"SURFNWATL",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-NWATL","Atlantic surfclam Northwest Atlantic (northeastern USA)",0,NULL
+"SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL
+"STMARLINSWPO",768127,"Kajikia audax","Striped marlin","multinational-SPC-WPO","Striped marlin Southwestern Pacific Ocean",0,NULL
+"SABLEFPCAN",167123,"Anoplopoma fimbria","Sablefish","Canada-DFO-PCOAST","Sablefish Pacific Coast of Canada",1,"SABLEFPCAN"
+"PTOOTHFISHMI",642807,"Dissostichus eleginoides","Patagonian toothfish","Australia-AFMA-MI","Patagonian toothfish Macquarie Island",0,NULL

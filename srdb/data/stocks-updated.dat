@@ -354,3 +354,5 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "ANCHOVYKILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS","Anchovy kilka Caspian Sea",0,NULL
 "SURFNWATL",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-NWATL","Atlantic surfclam Northwest Atlantic (northeastern USA)",0,NULL
 "SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL
+"STMARLINSWPO",768127,"Kajikia audax","Striped marlin","multinational-SPC-WPO","Striped marlin Southwestern Pacific Ocean",0,NULL
+"SABLEFPCAN",167123,"Anoplopoma fimbria","Sablefish","Canada-DFO-PCOAST","Sablefish Pacific Coast of Canada",1,"SABLEFPCAN"

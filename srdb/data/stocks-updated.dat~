@@ -353,3 +353,4 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "ATLMENHADEN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-Atlantic","Atlantic menhaden Atlantic",1,"MENATLAN"
 "ANCHOVYKILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS","Anchovy kilka Caspian Sea",0,NULL
 "SURFNWATL",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-NWATL","Atlantic surfclam Northwest Atlantic (northeastern USA)",0,NULL
+"SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL

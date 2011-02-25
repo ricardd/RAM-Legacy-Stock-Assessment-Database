@@ -367,3 +367,4 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "SFMAKONWPAC",159924,"Isurus oxyrinchus","Shortfin mako","multinational-UNKNOWN-NWPAC","Shortfin mako Nothwest Pacific Ocean",0,NULL
 "WEAKFISHATLC",169241,"Cynoscion regalis","Weakfish","USA-NMFS-ATLC","Weakfish Atlantic Coast",0,NULL
 "RKCRABNS",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-NS","Red king crab Norton Sound",0,NULL
+"PANCHPERUNC",551340,"Engraulis ringens","Peruvian anchoveta","Peru-IMARPE-NC","Peruvian anchoveta North-Central Peru",1,"PANCHNCS"

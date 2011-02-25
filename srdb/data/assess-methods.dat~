@@ -46,3 +46,4 @@ category,methodshort,methodlong
 "Survey index","AIM","An Index Model (AIM); Fmsy proxy based on log-log regression of replacement ratio on relative F (catch/survey biomass index)"
 "Biomass dynamics model","SPASM","State-space age-stuctured production model"
 "Biomass dynamics model","CSM","Collie-Sissenwine model"
+"Integrated Analysis","IA","Integrated Analysis"

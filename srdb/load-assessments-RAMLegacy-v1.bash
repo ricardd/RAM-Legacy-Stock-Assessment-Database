@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-02-17 20:11:48 (srdbadmin)>
+# Last modified Time-stamp: <2011-02-24 20:26:17 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -469,4 +469,12 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-ANCHOVYKILKAC
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-COD2J3KL-2006-editedDR.xls
 
 ## SBT
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-SBT-2010-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-SBT-2010v2-editedDR.xls
+
+## striped marlin
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-STMARLINSWPAC-2006-editedDR.xls
+
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SABLEPCOAST-editedDR.xls
+
+# Macquarie Island patagonian toothfish from Gavin Fay
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.xls

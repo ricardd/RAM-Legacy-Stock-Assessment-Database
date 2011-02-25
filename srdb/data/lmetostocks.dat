@@ -450,3 +450,6 @@ stockid,lme_number,stocktolmerelation
 "SBT",-97,"primary"
 "SBT",-99,"secondary"
 "SBT",-98,"tertiary"
+"STMARLINSWPO",-99,"primary"
+"SABLEFPCAN",2,"primary"
+"PTOOTHFISHMI",-96,"primary"

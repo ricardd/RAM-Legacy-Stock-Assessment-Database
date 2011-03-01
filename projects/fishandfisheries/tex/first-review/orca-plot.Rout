@@ -143,7 +143,7 @@ Loading required package: RODBC
 > ##plot.span.func(test.dat, xaxt=TRUE, yaxt=TRUE, my.legend="Catch/Landings")
 > catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
    5%   50%   95% 
-17.65 38.00 94.00 
+17.65 38.50 94.00 
 > legend(-20,50, legend="A", cex=1.7, bty="n")
 > ## ssb
 > ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
@@ -152,8 +152,8 @@ Loading required package: RODBC
 > legend(-20,50, legend="B", cex=1.7, bty="n")
 > ## recruits
 > rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
-   5%   50%   95% 
-16.65 33.00 94.00 
+  5%  50%  95% 
+16.7 33.0 94.0 
 > legend(-20,50, legend="C", cex=1.7, bty="n")
 > mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
 > mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
@@ -199,6 +199,6 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  1.012   0.040   1.297 
+  1.020   0.028   1.348 
 Warning message:
 closing unused RODBC handle 1 

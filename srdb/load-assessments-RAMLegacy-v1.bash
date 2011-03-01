@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-02-28 14:01:25 (srdbadmin)>
+# Last modified Time-stamp: <2011-03-01 13:58:14 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -48,7 +48,9 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-GHAL01A
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-WHAKE4VWX5-2005-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-AMPL23K-2003-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4TVn-2007-editedDR-QAQC.xls
+#perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4TVn-2007-editedDR-QAQC.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-COD4TVn-2007-editedDR.xls # update to the above entry
+
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD4VsW-2003-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR-QAQC.xls

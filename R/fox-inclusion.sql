@@ -1,5 +1,5 @@
 -- remove stocks from the srdb.spfits_schaefer table for those assessid deemed appropriate 
--- Last modified Time-stamp: <2011-02-07 11:15:51 (srdbadmin)>
+-- Last modified Time-stamp: <2011-03-01 11:16:14 (srdbadmin)>
 -- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits_schaefer contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
 
 
@@ -75,7 +75,7 @@ WHERE assessid in (
 'ICCAT-SWORDNATL-1978-2007-JENSEN',
 'ICCAT-SWORDSATL-1950-2005-JENSEN',
 'ICCAT-YFINATL-1970-2006-JENSEN',
-'IFOP-CHTRACCH-1975-2007-JENSEN',
+'SPRFMO-CHTRACCH-1950-2010-RICARD',
 'INIDEP-ARGHAKENARG-1985-2007-Parma',
 'INIDEP-ARGHAKESARG-1985-2008-Parma',
 'INIDEP-PATGRENADIERSARG-1983-2006-Parma',

@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-02-24 20:26:17 (srdbadmin)>
+# Last modified Time-stamp: <2011-02-28 14:01:25 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -364,7 +364,9 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BHEADSHARA
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.xls
 
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls
+#perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.xls ## update to the previous entry
+
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls

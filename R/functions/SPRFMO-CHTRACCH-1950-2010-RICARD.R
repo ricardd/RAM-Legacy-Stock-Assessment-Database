@@ -1,7 +1,7 @@
 # template that Perl uses to run the plots for the QAQC
 # Coilín Minto
 # date: Thu Nov 27 14:47:59 AST 2008
-# Time-stamp: <2011-02-11 23:46:53 (srdbadmin)>
+# Time-stamp: <2011-02-25 15:28:03 (srdbadmin)>
 # Modifification history
 ## 2010-02-17: some of the units names in the views changed, amended code to reflect that (some plots were not showing a y axis label on the exploitation plots) - DR
 ## 2010-03-15: changed line 41 sum(x to sum(as.numeric(x) because I was getting an integer overflow for recruitment timeseries for assessment AFWG-CAPENOR-1965-2007-MINTO - DR
@@ -10,7 +10,7 @@
 # load necessaries
 library("RODBC")
 # what assessment
-assessid<-"ASSESSID"
+assessid<-"SPRFMO-CHTRACCH-1950-2010-RICARD"
 #assessid<-"NEFSC-COD5Z-1960-2007-BAUM"
 # assessid<-"DFO-PAC-HERRCC-1951-2007-COLLIE"
 #assessid<-"IATTC-BIGEYEEPAC-1975-2007-JENSEN"

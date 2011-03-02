@@ -356,3 +356,4 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL
 "STMARLINSWPO",768127,"Kajikia audax","Striped marlin","multinational-SPC-WPO","Striped marlin Southwestern Pacific Ocean",0,NULL
 "SABLEFPCAN",167123,"Anoplopoma fimbria","Sablefish","Canada-DFO-PCOAST","Sablefish Pacific Coast of Canada",1,"SABLEFPCAN"
+"CUSK4X",164740,"Brosme brosme","Cusk","Canada-DFO-4X","Cusk NAFO 4X",0,NULL

@@ -1,7 +1,8 @@
 \contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
 \contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
-\contentsline {subsubsection}{DFO-NFLD-COD2J3KL-1850-2005-RICARD}{3}{section*.4}
-\contentsline {subsubsection}{DFO-SG-COD4TVn-1965-2009-RICARD}{5}{section*.5}
-\contentsline {subsubsection}{IMARPE-PANCHPERUNC-1963-2004-RICARD}{7}{section*.6}
-\contentsline {subsubsection}{SPRFMO-CHTRACCH-1950-2010-RICARD}{9}{section*.7}
-\contentsline {subsubsection}{LME map}{11}{section*.8}
+\contentsline {subsubsection}{DFO-MAR-CUSK4X-1970-2007-RICARD}{3}{section*.4}
+\contentsline {subsubsection}{DFO-NFLD-COD2J3KL-1850-2005-RICARD}{5}{section*.5}
+\contentsline {subsubsection}{DFO-SG-COD4TVn-1965-2009-RICARD}{7}{section*.6}
+\contentsline {subsubsection}{IMARPE-PANCHPERUNC-1963-2004-RICARD}{9}{section*.7}
+\contentsline {subsubsection}{SPRFMO-CHTRACCH-1950-2010-RICARD}{11}{section*.8}
+\contentsline {subsubsection}{LME map}{13}{section*.9}

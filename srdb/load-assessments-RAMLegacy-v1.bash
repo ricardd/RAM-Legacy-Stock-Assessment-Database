@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-03-01 13:58:14 (srdbadmin)>
+# Last modified Time-stamp: <2011-03-01 20:43:28 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -482,3 +482,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SABLEPCOAST-
 
 # Macquarie Island patagonian toothfish from Gavin Fay
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.xls
+
+# cusk 4X
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-CUSK-4X-2011.xls

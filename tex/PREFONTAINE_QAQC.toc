@@ -1,11 +1,11 @@
 \contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
 \contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
 \contentsline {subsubsection}{DFO-COD5Zjm-1978-2003-PREFONTAINE}{3}{section*.4}
-\contentsline {subsubsection}{DFO-HAD4X5Y-1960-2003-PREFONTAINE}{5}{section*.5}
-\contentsline {subsubsection}{DFO-HAD5Zejm-1968-2003-PREFONTAINE}{7}{section*.6}
-\contentsline {subsubsection}{DFO-HERR4VWX-1965-2006-PREFONTAINE}{9}{section*.7}
-\contentsline {subsubsection}{DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE}{11}{section*.8}
-\contentsline {subsubsection}{DFO-MAR-COD4VsW-1958-2002-PREFONTAINE}{13}{section*.9}
+\contentsline {subsubsection}{DFO-HAD5Zejm-1968-2003-PREFONTAINE}{5}{section*.5}
+\contentsline {subsubsection}{DFO-HERR4VWX-1965-2006-PREFONTAINE}{7}{section*.6}
+\contentsline {subsubsection}{DFO-MAR-BSKATCANATL-1970-1987-PREFONTAINE}{9}{section*.7}
+\contentsline {subsubsection}{DFO-MAR-COD4VsW-1958-2002-PREFONTAINE}{11}{section*.8}
+\contentsline {subsubsection}{DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE}{13}{section*.9}
 \contentsline {subsubsection}{DFO-MAR-WHAKE4VWX5-1964-2005-PREFONTAINE}{15}{section*.10}
 \contentsline {subsubsection}{DFO-NFLD-AMPL23K-1960-2004-PREFONTAINE}{17}{section*.11}
 \contentsline {subsubsection}{DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE}{19}{section*.12}

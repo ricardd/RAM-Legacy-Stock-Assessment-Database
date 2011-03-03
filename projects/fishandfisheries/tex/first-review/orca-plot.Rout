@@ -142,18 +142,18 @@ Loading required package: RODBC
 > ## catch
 > ##plot.span.func(test.dat, xaxt=TRUE, yaxt=TRUE, my.legend="Catch/Landings")
 > catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
-   5%   50%   95% 
-17.65 38.50 94.00 
+  5%  50%  95% 
+17.6 39.0 94.0 
 > legend(-20,50, legend="A", cex=1.7, bty="n")
 > ## ssb
 > ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
- 5% 50% 95% 
- 17  34  94 
+   5%   50%   95% 
+16.95 34.00 94.00 
 > legend(-20,50, legend="B", cex=1.7, bty="n")
 > ## recruits
 > rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
-  5%  50%  95% 
-16.7 33.0 94.0 
+   5%   50%   95% 
+16.65 33.50 94.00 
 > legend(-20,50, legend="C", cex=1.7, bty="n")
 > mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
 > mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
@@ -194,11 +194,11 @@ null device
 +             paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','",rec.50,"')",sep=""),
 +             sep=";")
 > sqlQuery(mychan,qu)
-[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTCATCHSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCATCHSERIES','95');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTSSBSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSSBSERIES','85');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTRSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTRSERIES','83');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN90','1967-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN90','1972-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN90','1971-2006');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN50','1983-2004');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN50','1985-2005');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','1984-2003')'"
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTCATCHSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCATCHSERIES','95');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTSSBSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSSBSERIES','85');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTRSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTRSERIES','83');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN90','1966-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN90','1972-2007');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN90','1971-2006');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN50','1983-2004');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN50','1985-2005');DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','1984-2003')'"
 > 
 > 
 > proc.time()
    user  system elapsed 
-  1.020   0.028   1.348 
+  0.992   0.060   1.332 
 Warning message:
 closing unused RODBC handle 1 

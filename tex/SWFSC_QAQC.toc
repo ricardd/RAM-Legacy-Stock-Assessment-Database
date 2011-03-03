@@ -1,0 +1,11 @@
+\contentsline {subsubsection}{QA/QC steps}{1}{section*.1}
+\contentsline {subsubsection}{QA/QC submission process}{1}{section*.2}
+\contentsline {subsubsection}{SWFSC-CALSCORPSCAL-1990-2005-STANTON}{3}{section*.4}
+\contentsline {subsubsection}{SWFSC-CMACKPCOAST-1929-2008-PINSKY}{5}{section*.5}
+\contentsline {subsubsection}{SWFSC-DSOLEPCOAST-1910-2005-STANTON}{7}{section*.6}
+\contentsline {subsubsection}{SWFSC-GOPHERSPCOAST-1965-2005-STANTON}{9}{section*.7}
+\contentsline {subsubsection}{SWFSC-SARDPCOAST-1981-2007-PINSKY}{11}{section*.8}
+\contentsline {subsubsection}{SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH}{13}{section*.9}
+\contentsline {subsubsection}{SWFSC-STFLOUNNPCOAST-1970-2005-STANTON}{15}{section*.10}
+\contentsline {subsubsection}{SWFSC-STFLOUNSPCOAST-1970-2005-STANTON}{17}{section*.11}
+\contentsline {subsubsection}{LME map}{19}{section*.12}

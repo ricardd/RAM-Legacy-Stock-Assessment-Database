@@ -1,5 +1,5 @@
 -- remove stocks from the srdb.spfits_schaefer table for those assessid deemed appropriate 
--- Last modified Time-stamp: <2011-03-01 10:44:03 (srdbadmin)>
+-- Last modified Time-stamp: <2011-03-02 12:24:02 (srdbadmin)>
 -- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits_schaefer contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
 -- Modification history: 
 -- 2011-02-04: I am shufflign the table names a bit, spfits_schaefer_all has all the fits, spfits_schaefer only those that are OKed manuall, and spfits is just a copy of spfits_schaefer
@@ -111,7 +111,7 @@ WHERE assessid in (
 'NIWA-AUSSALMONNZ-1975-2006-JENSEN',
 'NIWA-OROUGHYNZMEC-1981-2004-JENSEN',
 'NMFS-MENATLAN-1940-2005-STANTON',
-'NMFS-SARDNPAC-1981-2008-STANTON',
+'SWFSC-SARDPCOAST-1981-2007-PINSKY',
 'NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH',
 'NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH',
 'NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH',

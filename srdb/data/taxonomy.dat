@@ -255,7 +255,7 @@
 552965,Palinurus gilchristi,Animalia,Arthropoda,Malacostraca,Decapoda,Palinuridae,Palinurus,gilchristi,SSLOBSTER,Southern spiny lobster,NULL,NULL,NULL
 550662,Macruronus magellanicus,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Macruronus,magellanicus,PATGRENADIER,Patagonian grenadier,Merluza de cola,NULL,NULL
 -998,Redfish species,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,NULL,NULL,REDFISHSPP,Redfish species,NULL,NULL,NULL
-164797,Merluccius australis,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciinae,Merluccius,australis,SOUTHHAKE,Southern hake,NULL,NULL,NULL
+164797,Merluccius australis,Animalia,Chordata,Actinopterygii,Gadiformes,Merlucciidae,Merluccius,australis,SOUTHHAKE,Southern hake,NULL,NULL,NULL
 168641,Pseudocaranx dentex,Animalia,Chordata,Actinopterygii,Perciformes,Carangidae,Pseudocaranx,dentex,TREVALLY,Trevally,White trevally,NULL,NULL
 -997,Haliotis iris,Animalia,Mollusca,Gastropoda,Archaeogastropoda,Haliotididae,Haliotis,iris,BFOOTABALONE,Blackfoot abalone,NULL,NULL,NULL
 -996,Haliotis spp,Animalia,Mollusca,Gastropoda,Archaeogastropoda,Haliotididae,Haliotis,NULL,PAUA,Paua,New Zealand abalone species,NULL,NULL

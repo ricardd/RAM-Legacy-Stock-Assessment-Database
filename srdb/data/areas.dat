@@ -170,6 +170,7 @@ country, mgmt, areacode, areaname, alternateareaname
 "Australia","AFMA","NAUST","Northern Australia",""
 "Australia","AFMA","CASCADE","Cascade Plateau",""
 "Australia","AFMA","TAS","Tasmania",""
+"Australia","AFMA","MI","Macquarie Island",""
 "multinational","IATTC","NEPAC","Northeast Pacific",""
 "multinational","IATTC","EPAC","Eastern Pacific",""
 "New Zealand","MFish","WNZ","Western New Zealand",""

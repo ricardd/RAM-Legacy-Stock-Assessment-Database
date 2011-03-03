@@ -89,6 +89,7 @@ category,subcategory,bioshort,biolong,biounitsshort,biounitslong
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fpa","Precautionary approach fishing mortality","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fpa","Precautionary approach fishing mortality","1/T","per unit time"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fref","Reference fishing mortality","1/T","per unit time"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fref","Reference fishing mortality","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fcurrent","Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing","1/T","per unit time"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fcurrent","Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","ERcurrent","Best available point estimate of exploitation ratio used to determine the rate of fishing","ratio","ratio"

@@ -1,0 +1,56 @@
+recorder,stocklong,scientificname,years,assessorid,mgmt
+PREFONTAINE,Herring Scotian Shelf and Bay of Fundy,Clupea harengus,1965-2006,DFO,DFO
+PREFONTAINE,Atlantic cod NAFO 5Zjm,Gadus morhua,1978-2003,DFO,DFO
+PREFONTAINE,Haddock NAFO-5Zejm,Melanogrammus aeglefinus,1968-2003,DFO,DFO
+PREFONTAINE,Pollock NAFO-4VWX5Zc,Pollachius virens,1974-2007,DFO,DFO
+RICARD,Cusk NAFO 4X,Brosme brosme,1970-2007,DFO-MAR,DFO
+PREFONTAINE,Atlantic cod NAFO 4VsW,Gadus morhua,1958-2002,DFO-MAR,DFO
+PREFONTAINE,Haddock NAFO-4X5Y,Melanogrammus aeglefinus,1960-2003,DFO-MAR,DFO
+PREFONTAINE,White hake Scotian Shelf, Bay of Fundy and Georges Bank,Urophycis tenuis,1964-2005,DFO-MAR,DFO
+PREFONTAINE,Atlantic cod NAFO 2J3KL inshore,Gadus morhua,1959-2006,DFO-NFLD,DFO
+PREFONTAINE,Atlantic cod NAFO 3Ps,Gadus morhua,1959-2004,DFO-NFLD,DFO
+RICARD,Atlantic cod NAFO 2J3KL,Gadus morhua,1850-2005,DFO-NFLD,DFO
+PREFONTAINE,American Plaice NAFO-23K,Hippoglossoides platessoides,1960-2004,DFO-NFLD,DFO
+PREFONTAINE,American Plaice NAFO-3Ps,Hippoglossoides platessoides,1960-2005,DFO-NFLD,DFO
+PREFONTAINE,Monkfish Labrador Shelf - Grand Banks - St. Pierre Bank,Lophius americanus,1977-2000,DFO-NFLD,DFO
+PREFONTAINE,Redfish species NAFO 23K,Redfish species,1959-2001,DFO-NFLD,DFO
+STANTON,Sablefish Pacific Coast of Canada,Anoplopoma fimbria,1913-2004,DFO-PAC,DFO
+COLLIE,Pacific herring Central Coast,Clupea pallasii,1951-2007,DFO-PAC,DFO
+COLLIE,Pacific herring Prince Rupert District,Clupea pallasii,1951-2007,DFO-PAC,DFO
+COLLIE,Pacific herring Queen Charlotte Islands,Clupea pallasii,1951-2007,DFO-PAC,DFO
+COLLIE,Pacific herring Straight of Georgia,Clupea pallasii,1951-2007,DFO-PAC,DFO
+COLLIE,Pacific herring West Coast of Vancouver Island,Clupea pallasii,1951-2007,DFO-PAC,DFO
+COLLIE,Pacific cod Hecate Strait,Gadus macrocephalus,1956-2005,DFO-PAC,DFO
+COLLIE,Pacific cod West Coast of Vancouver Island,Gadus macrocephalus,1956-2002,DFO-PAC,DFO
+COLLIE,Rock sole Hecate Strait,Lepidopsetta bilineata,1945-2001,DFO-PAC,DFO
+COLLIE,English sole Hecate Strait,Parophrys vetulus,1944-2001,DFO-PAC,DFO
+PREFONTAINE,Herring NAFO 4R fall spawners,Clupea harengus,1971-2003,DFO-QUE,DFO
+PREFONTAINE,Herring NAFO 4R spring spawners,Clupea harengus,1963-2004,DFO-QUE,DFO
+PREFONTAINE,Atlantic cod NAFO 3Pn4RS,Gadus morhua,1964-2007,DFO-QUE,DFO
+PREFONTAINE,Redfish species NAFO 3Pn4RSTVn,Redfish species,1953-2000,DFO-QUE,DFO
+PREFONTAINE,Greenland halibut NAFO 4RST,Reinhardtius hippoglossoides,1970-2002,DFO-QUE,DFO
+ANDERSON,Snow crab Southern Gulf of St. Lawrence,Chionoecetes opilio,1984-2007,DFO-SG,DFO
+PREFONTAINE,Herring NAFO 4T fall spawners,Clupea harengus,1974-2007,DFO-SG,DFO
+PREFONTAINE,Herring NAFO 4T spring spawners,Clupea harengus,1974-2007,DFO-SG,DFO
+RICARD,Atlantic cod NAFO 4TVn,Gadus morhua,1965-2009,DFO-SG,DFO
+JENSEN,Skipjack tuna Eastern Atlantic,Katsuwonus pelamis,1950-2006,ICCAT,ICCAT
+JENSEN,Skipjack tuna Western Atlantic,Katsuwonus pelamis,1952-2006,ICCAT,ICCAT
+WORM,Albacore tuna North Atlantic,Thunnus alalunga,1929-2005,ICCAT,ICCAT
+JENSEN,Yellowfin tuna Atlantic,Thunnus albacares,1970-2006,ICCAT,ICCAT
+JENSEN,Bigeye tuna Atlantic,Thunnus obesus,1950-2005,ICCAT,ICCAT
+WORM,Bluefin tuna Eastern Atlantic,Thunnus thynnus,1969-2007,ICCAT,ICCAT
+WORM,Bluefin tuna Western Atlantic,Thunnus thynnus,1969-2007,ICCAT,ICCAT
+JENSEN,Swordfish Mediterranean Sea,Xiphias gladius,1968-2006,ICCAT,ICCAT
+JENSEN,Swordfish North Atlantic,Xiphias gladius,1978-2007,ICCAT,ICCAT
+JENSEN,Swordfish South Atlantic,Xiphias gladius,1970-2005,ICCAT,ICCAT
+BAUM,Atlantic cod NAFO 3M,Gadus morhua,1959-2008,NAFO-SC,NAFO
+BAUM,Atlantic cod NAFO 3NO,Gadus morhua,1953-2007,NAFO-SC,NAFO
+BAUM,American Plaice NAFO-3LNO,Hippoglossoides platessoides,1955-2007,NAFO-SC,NAFO
+BAUM,American Plaice NAFO-3M,Hippoglossoides platessoides,1960-2007,NAFO-SC,NAFO
+BAUM,Yellowtail Flounder NAFO 3LNO,Limanda ferruginea,1960-2009,NAFO-SC,NAFO
+BAUM,Redfish species NAFO 3LN,Redfish species,1959-2008,NAFO-SC,NAFO
+PREFONTAINE,Redfish species NAFO 1,Redfish species,1965-2004,NAFO-SC,NAFO
+PREFONTAINE,Redfish species NAFO 3M,Redfish species,1989-2006,NAFO-SC,NAFO
+PREFONTAINE,Greenland halibut NAFO 01ABCDEF,Reinhardtius hippoglossoides,1987-2006,NAFO-SC,NAFO
+PREFONTAINE,Greenland halibut NAFO 23KLMNO,Reinhardtius hippoglossoides,1960-2006,NAFO-SC,NAFO
+(54 rows)

@@ -1,0 +1,12 @@
+## R code to generate the plots requestesd by Jeff Hutchings for the final report of his Royal Society of Canada expert panel
+## Last modified Time-stamp: <2011-03-09 10:49:05 (srdbadmin)>
+##
+##
+## plots requested:
+
+## 1 - plots of SSB vs. time for stocks relevant to Canada
+
+## 2 - plots as per Fig. 2 of the 2010 CJFAS short communication but just for DFO, and breaking down the East Coast and the West Coast
+
+## 3 - beanplots of B/Bmsy for different management bodies (DFO, NMFS, ICES)
+

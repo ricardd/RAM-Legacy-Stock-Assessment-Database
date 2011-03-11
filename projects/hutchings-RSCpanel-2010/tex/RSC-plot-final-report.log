@@ -1,0 +1,1648 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  10 MAR 2011 14:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**RSC-plot-final-report.tex
+(./RSC-plot-final-report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count88
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count96
+\calc@Cskip=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@toc@title=\toks18
+\c@AM@survey=\count97
+\AM@templatesizebox=\box31
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+))
+(./RSC-plot-final-report.aux (./Table.aux))
+\openout1 = `RSC-plot-final-report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen108
+\scratchbox=\box32
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen109
+\MPnumerator=\count102
+\everyMPtoPDFconversion=\toks20
+) ABD: EveryShipout initializing macros
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<../R/RSC-report-plots.pdf, id=13, page=1, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 1>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 1>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 1>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 1>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 1> [2 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=22, page=2, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 2>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 2>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 2> [3 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=26, page=3, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 3>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 3>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 3> [4 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=30, page=4, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 4>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 4>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 4> [5 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=34, page=5, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 5>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 5>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 5> [6 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=38, page=6, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 6>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 6>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 6> [7 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=43, page=7, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 7>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 7>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 7> [8 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=47, page=8, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 8>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 8>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 8> [9 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=51, page=9, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 9>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 9>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 9> [10 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=55, page=10, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 10>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 10>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 10> [11 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=59, page=11, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 11>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 11>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 11> [12 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=63, page=12, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 12>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 12>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 12> [13 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=68, page=13, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 13>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 13>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 13> [14 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=72, page=14, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 14>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 14>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 14> [15 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=76, page=15, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 15>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 15>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 15> [16 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=80, page=16, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 16>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 16>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 16> [17 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=84, page=17, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 17>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 17>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 17> [18 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=88, page=18, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 18>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 18>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 18> [19 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=93, page=19, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 19>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 19>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 19> [20 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=97, page=20, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 20>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 20>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 20> [21 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=101, page=21, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 21>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 21>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 21> [22 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=105, page=22, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 22>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 22>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 22> [23 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=109, page=23, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 23>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 23>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 23> [24 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=113, page=24, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 24>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 24>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 24> [25 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=118, page=25, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 25>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 25>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 25> [26 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=122, page=26, 496.85625pt x 794.97pt>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 26>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 26>
+File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
+
+<use ../R/RSC-report-plots.pdf, page 26> [27 <../R/RSC-report-plots.pdf>]
+<../R/bean-brp-assessment.pdf, id=128, page=1, 794.97pt x 496.85625pt>
+File: ../R/bean-brp-assessment.pdf Graphic file (type pdf)
+
+<use ../R/bean-brp-assessment.pdf, page 1>
+File: ../R/bean-brp-assessment.pdf Graphic file (type pdf)
+
+<use ../R/bean-brp-assessment.pdf, page 1>
+File: ../R/bean-brp-assessment.pdf Graphic file (type pdf)
+
+<use ../R/bean-brp-assessment.pdf, page 1>
+File: ../R/bean-brp-assessment.pdf Graphic file (type pdf)
+
+<use ../R/bean-brp-assessment.pdf, page 1>
+File: ../R/bean-brp-assessment.pdf Graphic file (type pdf)
+
+<use ../R/bean-brp-assessment.pdf, page 1> [28 <../R/bean-brp-assessment.pdf>]
+[29]
+\openout2 = `Table.aux'.
+
+ (./Table.tex
+Underfull \hbox (badness 3229) in paragraph at lines 8--8
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 8--9
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/12 Haddock NAFO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/12 Melanogrammus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 9--10
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/12 Pollock NAFO-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 10--11
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 11--12
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/12 Haddock NAFO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\OT1/cmr/m/n/12 Melanogrammus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 13--14
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/12 White hake Sco-tian
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 16--16
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\OT1/cmr/m/n/12 American Plaice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\OT1/cmr/m/n/12 American Plaice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/12 Monkfish Labrador
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\OT1/cmr/m/n/12 Lophius amer-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\OT1/cmr/m/n/12 Anoplopoma fim-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\OT1/cmr/m/n/12 Pacific her-ring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\OT1/cmr/m/n/12 Straight of Geor-
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 27--27
+[]|\OT1/cmr/m/n/12 Pacific her-ring West
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\OT1/cmr/m/n/12 Pacific cod Hecate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\OT1/cmr/m/n/12 Gadus macro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/12 Pacific cod West
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 29--29
+\OT1/cmr/m/n/12 Coast of Van-cou-ver
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\OT1/cmr/m/n/12 Gadus macro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/12 Rock sole Hecate
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 31--31
+[]|\OT1/cmr/m/n/12 English sole Hecate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\OT1/cmr/m/n/12 Herring NAFO 4R
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 34--34
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/12 Greenland hal-ibut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/cmr/m/n/12 Reinhardtius hip-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/12 Snow crab South-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/12 Herring NAFO 4T
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\OT1/cmr/m/n/12 Katsuwonus
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/12 Skipjack tuna West-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/12 Katsuwonus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\OT1/cmr/m/n/12 Yellowfin tuna At-
+ []
+
+[30
+
+
+]
+Underfull \hbox (badness 1342) in paragraph at lines 48--48
+[]|\OT1/cmr/m/n/12 Swordfish North At-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 49--49
+[]|\OT1/cmr/m/n/12 Swordfish South At-
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 50--50
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 51--51
+[]|\OT1/cmr/m/n/12 Atlantic cod NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\OT1/cmr/m/n/12 American Plaice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\OT1/cmr/m/n/12 American Plaice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/12 Yellowtail Floun-der
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 54--55
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/cmr/m/n/12 Greenland hal-ibut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/cmr/m/n/12 Reinhardtius hip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/12 Greenland hal-ibut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/12 Reinhardtius hip-
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 62--62
+[]|\OT1/cmr/m/n/12 Pacific cod Gulf of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\OT1/cmr/m/n/12 Gadus macro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/12 Rex sole Gulf of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/12 Glyptocephalus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/12 Dover sole Gulf of
+ []
+
+[31] [32]
+Underfull \hbox (badness 7851) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/12 Arrowtooth floun-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/12 Reinhardtius sto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/12 Cabezon North-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/12 Scorpaenichthys
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/12 Cabezon South-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\OT1/cmr/m/n/12 Scorpaenichthys
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\OT1/cmr/m/n/12 Rougheye rock-fish
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 70--70
+[]|\OT1/cmr/m/n/12 Pacific ocean perch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]|\OT1/cmr/m/n/12 Northern rock-fish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\OT1/cmr/m/n/12 Theragra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/cmr/m/n/12 American lob-ster
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/cmr/m/n/12 Homarus amer-i-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 74--75
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\OT1/cmr/m/n/12 Homarus amer-i-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 75--76
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/12 American lob-ster
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 76--76
+\OT1/cmr/m/n/12 South-ern New Eng-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/12 Homarus amer-i-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 76--77
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 77--78
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 78--79
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/12 Thorny skate Gulf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/12 Bank-Southern New
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 79--80
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\OT1/cmr/m/n/12 Ocean qua-hog At-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 80--81
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/12 Centropristis stri-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 81--82
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\OT1/cmr/m/n/12 Red deepsea crab
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 82--82
+[]|\OT1/cmr/m/n/12 Chaceon quin-que-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 82--83
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/12 Atlantic her-ring
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 83--84
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\OT1/cmr/m/n/12 Weakfish At-lantic
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 84--85
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 85--85
+[]|\OT1/cmr/m/n/12 Barndoor skate Gulf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/cmr/m/n/12 Bank-Southern New
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 85--86
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+[33]
+Underfull \hbox (badness 6910) in paragraph at lines 86--87
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 87--88
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\OT1/cmr/m/n/12 Witch Floun-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\OT1/cmr/m/n/12 Glyptocephalus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 88--89
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/cmr/m/n/12 American Plaice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/cmr/m/n/12 Hippoglossoides
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 89--90
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\OT1/cmr/m/n/12 Atlantic Hal-ibut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\OT1/cmr/m/n/12 Hippoglossus hip-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 90--91
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/12 Northern short-fin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 squid North-west-ern
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 91--92
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/12 Little skate Gulf of
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 Maine / Cape Hat-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 92--93
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Rosette skate Mid-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 93--94
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 94--94
+\OT1/cmr/m/n/12 Maine / Cape Hat-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 94--95
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/12 Yellowtail floun-der
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 95--96
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\OT1/cmr/m/n/12 Yellowtail floun-der
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 96--97
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Yellowtail Floun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 der South-ern New
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 97--98
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/12 Monkfish Gulf of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/cmr/m/n/12 Maine / North-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/12 Lophius amer-i-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 98--99
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Monkfish South-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 Georges Bank /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Lophius amer-i-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 99--100
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/12 Tilefish Mid-Atlantic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/12 Lopholatilus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 100--101
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\OT1/cmr/m/n/12 Smooth skate Gulf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\OT1/cmr/m/n/12 Bank-Southern New
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 101--102
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]|\OT1/cmr/m/n/12 Melanogrammus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 102--103
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/12 Haddock Georges
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\OT1/cmr/m/n/12 Melanogrammus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 103--104
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 104--104
+[]|\OT1/cmr/m/n/12 Silver hake Gulf of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+\OT1/cmr/m/n/12 Maine / North-ern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\OT1/cmr/m/n/12 Merluccius bi-lin-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 104--105
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\OT1/cmr/m/n/12 Merluccius bi-lin-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 105--106
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+[34] [35]
+Underfull \hbox (badness 1635) in paragraph at lines 106--106
+\OT1/cmr/m/n/12 Maine / Cape Hat-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 106--107
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\OT1/cmr/m/n/12 Summer floun-der
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 107--108
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/12 Atlantic but-ter-fish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/12 Peprilus tri-a-can-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 108--109
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 109--109
+[]|\OT1/cmr/m/n/12 Sea scal-lop Georges
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 109--110
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/12 Sea scal-lop Mid-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 110--111
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 111--112
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/12 Bluefish At-lantic
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/12 Pomatomus salta-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 112--113
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/12 Winter Floun-der
+ []
+
+
+Overfull \hbox (0.581pt too wide) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/12 Pseudopleuronectes
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 113--114
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/12 Winter Floun-der
+ []
+
+
+Overfull \hbox (0.581pt too wide) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/12 Pseudopleuronectes
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 114--115
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\OT1/cmr/m/n/12 Winter Floun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\OT1/cmr/m/n/12 der South-ern New
+ []
+
+
+Overfull \hbox (0.581pt too wide) in paragraph at lines 115--115
+[]|\OT1/cmr/m/n/12 Pseudopleuronectes
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 115--116
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 116--117
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\OT1/cmr/m/n/12 Atlantic mack-erel
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 117--118
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 118--118
+\OT1/cmr/m/n/12 - Gulf of Maine /
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 118--119
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\OT1/cmr/m/n/12 Windowpane South-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 119--120
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 120--120
+\OT1/cmr/m/n/12 of Maine / Georges
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 120--121
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\OT1/cmr/m/n/12 Atlantic sur-f-clam
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 121--122
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 122--123
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/12 Stenotomus
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 123--124
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/12 White hake Georges
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 124--125
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 125--125
+[]|\OT1/cmr/m/n/12 Ocean pout North-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/m/n/12 west-ern At-lantic
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 125--126
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\OT1/cmr/m/n/12 Atlantic men-haden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\OT1/cmr/m/n/12 Brevoortia tyran-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 126--127
+[]|\OT1/cmr/m/n/12 Northeast U.S. Con-ti-nen-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/12 Anoplopoma fim-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\OT1/cmr/m/n/12 Hexagrammos
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 131--131
+[]|\OT1/cmr/m/n/12 Pacific hake Pa-cific
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 132--132
+[]|\OT1/cmr/m/n/12 English sole Pa-cific
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 134--134
+[]|\OT1/cmr/m/n/12 Arrowtooth floun-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\OT1/cmr/m/n/12 Reinhardtius sto-
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 135--135
+[]|\OT1/cmr/m/n/12 Pacific ocean perch
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/12 Widow rock-fish Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\OT1/cmr/m/n/12 Yellowtail rock-fish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+\OT1/cmr/m/n/12 North-ern Pa-cific
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 143--143
+[]|\OT1/cmr/m/n/12 Sebastes melanos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/12 Bocaccio South-ern
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/12 Sebastes pau-cispi-
+ []
+
+[38]
+Underfull \hbox (badness 2478) in paragraph at lines 146--146
+[]|\OT1/cmr/m/n/12 Canary rock-fish Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|\OT1/cmr/m/n/12 Sebastes ru-ber-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\OT1/cmr/m/n/12 Shortspine thorny-
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 148--148
+[]|\OT1/cmr/m/n/12 Sebastolobus alas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/12 Sebastolobus al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\OT1/cmr/m/n/12 Ophiodon elon-ga-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\OT1/cmr/m/n/12 Ophiodon elon-ga-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\OT1/cmr/m/n/12 Sandbar shark At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\OT1/cmr/m/n/12 Carcharhinus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\OT1/cmr/m/n/12 Dover sole Pa-cific
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 154--154
+[]|\OT1/cmr/m/n/12 Platichthys stel-la-
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 155--155
+[]|\OT1/cmr/m/n/12 Platichthys stel-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[]|\OT1/cmr/m/n/12 Gopher rock-fish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+\OT1/cmr/m/n/12 South-ern Pa-cific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/12 Shortbelly rock-fish
+ []
+
+[39] [40] [41]) [42] (./RSC-plot-final-report.aux (./Table.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2332 strings out of 495061
+ 33397 string characters out of 1182621
+ 110617 words of memory out of 3000000
+ 5491 multiletter control sequences out of 15000+50000
+ 5756 words of font info for 21 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 32i,16n,37p,232b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on RSC-plot-final-report.pdf (42 pages, 2091374 bytes).
+PDF statistics:
+ 201 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+

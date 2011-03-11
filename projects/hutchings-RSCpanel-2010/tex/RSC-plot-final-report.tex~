@@ -1,0 +1,30 @@
+\documentclass[a4paper,10pt,oneside]{book}
+
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{makeidx} 
+\usepackage{pdfpages} 
+
+\pagestyle{plain}
+\makeindex
+
+\author{Jeffrey Hutchings  \thanks{Dalhousie University, Halifax, NS, Canada} \and Daniel Ricard }
+
+\title{Stocks of Canadian interest (for the Royal Society of Canada - Expert Panel on Oceans Health and Biodiversity)}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Summary plots}
+%\section{Template plots with descriptions}
+
+\include{RSC-DFOstocks}
+
+\addcontentsline{toc}{chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } 
+\printindex
+
+\end{document}

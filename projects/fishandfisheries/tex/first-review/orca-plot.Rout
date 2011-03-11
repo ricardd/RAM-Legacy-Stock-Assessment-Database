@@ -199,6 +199,6 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.992   0.060   1.332 
+  1.004   0.040   1.344 
 Warning message:
 closing unused RODBC handle 1 

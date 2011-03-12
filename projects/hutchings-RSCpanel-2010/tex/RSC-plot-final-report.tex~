@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,oneside]{book}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage{url}
 \usepackage{natbib}
@@ -7,9 +7,8 @@
 \usepackage[latin1]{inputenc}
 \usepackage{makeidx} 
 \usepackage{pdfpages} 
+\usepackage{pdflscape}
 
-\pagestyle{plain}
-\makeindex
 
 \author{Jeffrey Hutchings  \thanks{Dalhousie University, Halifax, NS, Canada} \and Daniel Ricard }
 
@@ -17,14 +16,18 @@
 
 \begin{document}
 \maketitle
-\tableofcontents
 
-\chapter{Summary plots}
-%\section{Template plots with descriptions}
+\section{Summary plots}
 
-\include{RSC-DFOstocks}
+\includepdf[pagecommand={\thispagestyle{plain}}, pages={1-26}]{../R/RSC-report-plots.pdf}
 
-\addcontentsline{toc}{chapter}{Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . } 
-\printindex
+\includepdf[pagecommand={\thispagestyle{plain}}, pages={1}]{../R/bean-brp-3panel.pdf}
+
+
+\section{List of stocks}
+
+\begin{landscape}
+\include{Table}
+\end{landscape}
 
 \end{document}

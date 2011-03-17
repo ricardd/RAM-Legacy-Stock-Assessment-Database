@@ -1,13 +1,15 @@
 ## functions required by RSC-asper-CJFAS-fig2-functions.R
 ## DR, from original code by CM
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-03-11 14:37:10 (srdbadmin)>
-
+## last modified Time-stamp: <2011-03-16 23:15:51 (srdbadmin)>
+## Modification history:
+## 2011-03-16: this code must be run only for stocks of Canadian interest, so I am adding some code to only keep a subset of stocks identified for inclusion by Jeff Hutchings
 
 ##------------------
 ## Model fitting
 ##------------------
 ## function to return the mixed effects index
+
 
 get.mixed.index<-function(region, category, min.year=1970, brp=TRUE){
   ## returns year and estimated fixed effects index
@@ -150,19 +152,10 @@ plot.poly.base.func<-function(region, category, ylim, xlim=c(1970,2010), yaxt="n
   }
   legend.text<-if(region=="All" & category=="All"){"(a)"}else{
       if(region=="All" & category=="Both"){"(b)"}else{
-        if(region=="NWAtl"){"(c)"}else{
-          if(region=="NEAtl"){"(d)"}else{
-            if(region=="NorthMidAtl"){"(e)"}else{
-              if(region=="NEPac"){"(f)"}else{
-                if(region=="Aust-NZ"){"(g)"}else{
-                  if(region=="HighSeas"){"(h)"}
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+        if(region=="NEPac"){"(c)"}else{
+          if(region=="NWAtl"){"(d)"}else{
+            if(region=="HighSeas"){"(e)"}}}}}
+  
   par(font=2)
   ##legend("topleft", legend=legend.text, bty="n", cex=1.3, inset=-0.05, adj=c(1,0))
   legend("topleft", legend=legend.text, bty="n", cex=1.2, inset=0.05, adj=c(2,0))

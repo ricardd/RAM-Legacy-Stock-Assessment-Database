@@ -1,8 +1,8 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2011-03-11 15:15:39 (srdbadmin)>
+# last modifieds Time-stamp: <2011-03-16 11:57:56 (srdbadmin)>
 
 #
-rm(list=ls())
+#rm(list=ls())
 require(xtable)
 require(RODBC)
 source("./get_admb_results.R")

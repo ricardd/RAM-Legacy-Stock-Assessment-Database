@@ -1,6 +1,6 @@
 ## get the data for figure 2 of the main manuscript
 ## CM
-## Time-stamp: <2011-03-15 10:52:54 (srdbadmin)>
+## Time-stamp: <2011-03-11 15:26:16 (srdbadmin)>
 
 require(RODBC)
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)

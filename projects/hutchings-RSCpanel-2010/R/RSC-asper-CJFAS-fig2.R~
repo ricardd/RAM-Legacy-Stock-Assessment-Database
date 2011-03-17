@@ -1,35 +1,17 @@
-## CBD analysis, main figure 2
-## CM, DR
-## date: Thu Jan 14 15:34:45 AST 2010
-## Time-stamp: <2011-03-11 14:31:09 (srdbadmin)>
-## Notes: Dan, please place in the /R/first-review folder
+## plots for RSC expert panel report
+## from earlier work by CM, DR
+## started: 2011-03-11
+## last modified Time-stamp: <2011-03-11 15:17:40 (srdbadmin)>
 
 ## REQUIRED PACKAGES
 require(nlme); require(gregmisc)
 
 ## LOAD FUNCTIONS 
-source("./CJFAS-shortcomm-fig2-functions.R")
+source("./RSC-asper-CJFAS-fig2-functions.R")
 
 ## DATA
-## Currently reads in .csv files but these data should come directly from the database
-## Dan to include RODBC calls
-# DR: data frame is already defined and properly populated
-#ts.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies.csv", header=TRUE, stringsAsFactors=FALSE)
-#brp.ratio.dat<-read.csv("../../data/CJFAS-shortcomm-multispecies-BRPratios.csv", header=TRUE, stringsAsFactors=FALSE)
-
+source("./RSC-data-1010.R")
 ts.dat <- dat.1010
-brp.ratio.dat <- ts.ratios.dat
-
-## DR: I changed the SQL in CJFAS-shortcomm-data-1010.R to reflect the changes in taxonomic classification 
-## RE-CLASSIFY SOME TAXONOMIC CATEGORIES 
-#reclassify.dat<-read.xls(xls="../../data/stocks_for_taxocategory_class.xls", sheet=1, na.strings = "NA", stringsAsFactors=FALSE)
-
-#recls.dat<-reclassify.dat[reclassify.dat$alternative_category!="",]
-#for(i in 1:dim(recls.dat)[1]){
-#  ts.dat$taxocategory[ts.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
-#  brp.ratio.dat$taxocategory[brp.ratio.dat$assessid==recls.dat$assessid[i]]<-recls.dat$alternative_category[i]
-#}
-
 ## make sure required years are present
 min.year<-1978
 max.year<-2002

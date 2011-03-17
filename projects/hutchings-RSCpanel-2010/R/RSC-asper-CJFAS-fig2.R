@@ -1,17 +1,26 @@
 ## plots for RSC expert panel report
 ## from earlier work by CM, DR
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-03-11 15:17:40 (srdbadmin)>
+## last modified Time-stamp: <2011-03-16 22:51:06 (srdbadmin)>
 
 ## REQUIRED PACKAGES
 require(nlme); require(gregmisc)
+rm(list=ls(all=TRUE))
+
+source("RSCpanel-final-report.R")
 
 ## LOAD FUNCTIONS 
 source("./RSC-asper-CJFAS-fig2-functions.R")
 
 ## DATA
 source("./RSC-data-1010.R")
+source("./RSC-asper-CJFAS-fig2-prep.R")
+
 ts.dat <- dat.1010
+brp.ratio.dat <- ts.ratios.dat
+
+
+
 ## make sure required years are present
 min.year<-1978
 max.year<-2002
@@ -26,6 +35,10 @@ table(apply(ts.years.present.mat,2,function(x){sum(x)}))
 ts.years.present.index<-apply(ts.years.present.mat,2,function(x){sum(x)>1})
 ts.dat2<-subset(ts.dat, assessid %in% ts.assessid.vec[ts.years.present.index])
 
+## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
+ts.dat2<-merge(tt.dat,ts.dat2,by.x=c("aid"),by.y=c("assessid"))
+
+
 ## brp.ratio.dat
 brp.ratio.assessid.vec<-unique(brp.ratio.dat$assessid)
 ## find out if 1978 and 2002 available?
@@ -37,6 +50,9 @@ table(apply(brp.years.present.mat,2,function(x){sum(x)}))
 brp.years.present.index<-apply(brp.years.present.mat,2,function(x){sum(x)>1})
 ## fewer number of stocks
 brp.ratio.dat2<-subset(brp.ratio.dat, assessid %in% brp.ratio.assessid.vec[brp.years.present.index])
+## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
+brp.ratio.dat2<-merge(tt.dat,brp.ratio.dat2,by.x=c("aid"),by.y=c("assessid"))
+
 
 ## INDICES
 ## Note that 'orig' refers to original analysis
@@ -48,7 +64,7 @@ brp.ratio.dat2<-subset(brp.ratio.dat, assessid %in% brp.ratio.assessid.vec[brp.y
 ## get the log of the brp ratio data to go from lognormal to normal
 brp.ratio.dat2$lnratio<-log(brp.ratio.dat2$ratio)
 
-regions.vec<-c("NEAtl", "NWAtl", "NorthMidAtl", "Med", "SAfr", "NEPac", "Aust-NZ", "HighSeas")
+regions.vec<-c("NWAtl", "NEPac","HighSeas")
 #regions.vec<-c("NEAtl", "NWAtl", "NorthMidAtl", "SAfr", "NEPac", "Aust-NZ", "HighSeas")
 
 ## Pelagic by region
@@ -80,7 +96,6 @@ for(i in 1:length(regions.vec)){
   orig.demersal.mixed.list[[regions.vec[i]]]<-get.mixed.index(region=regions.vec[i], category="Demersal", min.year=1970, brp=FALSE)
 }
 
-
 ## All, Pelagic, Demersal over all regions
 all.category.vec<-c("All", "Pelagic", "Demersal")
 ## brp
@@ -103,9 +118,9 @@ for(i in 1:length(all.category.vec)){
 ## consider placing this code in the functions file and adding an argument for brp or not
 ## Dan to change filepath here for calo
 ## brp
-## Dan to change this directory
+ ## Dan to change this directory
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_brp_v2.png", width=5.5,height=7.5, res=100,units="in")
-pdf("CJFAS-shortcomm-fig2-BRPratio-1010.pdf")
+pdf("CJFAS-shortcomm-fig2-BRPratio-1010.pdf",title='CJFAS-fig2-BRPratio')
 
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4,2,2), las=1)
 ## All
@@ -117,7 +132,7 @@ plot.poly.base.func(region="All", category="Both", ylim=c(0,2.0), xlim=c(1970,20
 plot.poly.trend.func(region="All", category="Both", brp=TRUE, ylim=c(0,2))
 abline(h=1, lty=2)
 ## Region by category
-plot.regions.vec<-c("NWAtl", "NEAtl", "NorthMidAtl", "NEPac", "Aust-NZ", "HighSeas")
+plot.regions.vec<-c("NWAtl","NEPac","HighSeas")
 ylim.upr<-4
 for(i in 1:length(plot.regions.vec)){
   ## setup plotting region
@@ -148,7 +163,7 @@ dev.off()
 
 ## orig
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_orig_v1.png", width=5,height=7, res=600,units="in")
-pdf("CJFAS-shortcomm-fig2-orig-1010.pdf")
+pdf("CJFAS-shortcomm-fig2-orig-1010.pdf",title='CJFAS-fig2-orig')
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4.5,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
@@ -157,7 +172,7 @@ plot.poly.trend.func(region="All", category="All", brp=FALSE, ylim=c(-1.0,1.0))
 plot.poly.base.func(region="All", category="Both", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
 plot.poly.trend.func(region="All", category="Both", ylim=c(-1.0,1.0), brp=FALSE)
 ## Region by category
-plot.regions.vec<-c("NWAtl", "NEAtl", "NorthMidAtl", "NEPac", "HighSeas", "Aust-NZ")
+plot.regions.vec<-c("NWAtl", "NEPac", "HighSeas")
 for(i in 1:length(plot.regions.vec)){
   ## setup plotting region
   ## find out if i is odd (TRUE) or even (FALSE)

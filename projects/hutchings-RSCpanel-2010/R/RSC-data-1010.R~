@@ -1,11 +1,11 @@
 # revised R code to address the reviewers' comments for CJFAS CBD short communication
-# last modifieds Time-stamp: <2011-03-11 14:49:49 (srdbadmin)>
+# last modifieds Time-stamp: <2011-03-11 15:15:39 (srdbadmin)>
 
 #
 rm(list=ls())
 require(xtable)
 require(RODBC)
-source("../functions/get_admb_results.R")
+source("./get_admb_results.R")
 
 chan <- odbcConnect(dsn="srdbusercalo", case='postgresql',believeNRows=FALSE)
 
@@ -71,7 +71,7 @@ n <- length(a)
 oo <- order(dat.1010$geo, dat.1010$stockid) #oo <- order(dat.1010$scientificname, dat.1010$stockid)
 stocklist.1010 <- unique(data.frame(area=as.character(dat.1010$geo[oo]), stockid=as.character(dat.1010$stockid[oo]), areaname=as.character(dat.1010$areaname[oo]), commonname=as.character(dat.1010$commonname1[oo]), scientificname=as.character(dat.1010$scientificname[oo]), taxocategory=as.character(dat.1010$taxocategory[oo])))
 
-write.table(file="stocklist-CJFAS-shortcomm-1010.csv",stocklist.1010,sep=",", row.names=FALSE)
+write.table(file="RSC-stocklist-1010.csv",stocklist.1010,sep=",", row.names=FALSE)
 
 
 odbcClose(chan)

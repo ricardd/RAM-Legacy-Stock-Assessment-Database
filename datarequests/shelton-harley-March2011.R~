@@ -1,0 +1,29 @@
+## code to extract data for Shelton Harley
+## interested in sharks and rays
+## Daniel Ricard started 2011-03-18
+## Modification history:
+require(RODBC)
+
+chan<-odbcConnect(dsn='srdbcalo')
+
+
+qu <- paste("
+select * from srdb.timeseries_values_view where assessid in (select assessid from srdb.assessment where stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where classname  = 'Chondrichthyes')) and recorder !='MYERS')
+",sep="")
+
+my.ts.dat<-sqlQuery(chan,qu)
+
+qu <- paste("
+select * from srdb.timeseries_units_view where assessid in (select assessid from srdb.assessment where stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where classname  = 'Chondrichthyes')) and recorder !='MYERS')
+",sep="")
+
+my.units.dat<-sqlQuery(chan,qu)
+
+qu <- paste("
+select s.stockid, s.stocklong, t.scientificname, t.commonname1 from srdb.stock s, srdb.taxonomy t where t.tsn=s.tsn and classname='Chondrichthyes'
+",sep="")
+
+my.dets.dat <- 
+write.csv(my.dat, "Shelton-harley-March2011-request.csv")
+
+odbcClose(chan)

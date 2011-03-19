@@ -1,7 +1,7 @@
 ## plots for RSC expert panel report
 ## from earlier work by CM, DR
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-03-16 22:51:06 (srdbadmin)>
+## last modified Time-stamp: <2011-03-19 11:08:07 (srdbadmin)>
 
 ## REQUIRED PACKAGES
 require(nlme); require(gregmisc)
@@ -36,7 +36,7 @@ ts.years.present.index<-apply(ts.years.present.mat,2,function(x){sum(x)>1})
 ts.dat2<-subset(ts.dat, assessid %in% ts.assessid.vec[ts.years.present.index])
 
 ## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
-ts.dat2<-merge(tt.dat,ts.dat2,by.x=c("aid"),by.y=c("assessid"))
+ts.dat2<-merge(tt.dat,ts.dat2,,by="assessid")
 
 
 ## brp.ratio.dat
@@ -51,7 +51,7 @@ brp.years.present.index<-apply(brp.years.present.mat,2,function(x){sum(x)>1})
 ## fewer number of stocks
 brp.ratio.dat2<-subset(brp.ratio.dat, assessid %in% brp.ratio.assessid.vec[brp.years.present.index])
 ## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
-brp.ratio.dat2<-merge(tt.dat,brp.ratio.dat2,by.x=c("aid"),by.y=c("assessid"))
+brp.ratio.dat2<-merge(tt.dat,brp.ratio.dat2,by="assessid")
 
 
 ## INDICES
@@ -120,7 +120,7 @@ for(i in 1:length(all.category.vec)){
 ## brp
  ## Dan to change this directory
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_brp_v2.png", width=5.5,height=7.5, res=100,units="in")
-pdf("CJFAS-shortcomm-fig2-BRPratio-1010.pdf",title='CJFAS-fig2-BRPratio')
+pdf("RSC-asper-fig2-BRPratio-1010.pdf",title='RSC as per CJFAS fig2 BRPratio')
 
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4,2,2), las=1)
 ## All
@@ -163,7 +163,7 @@ dev.off()
 
 ## orig
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_orig_v1.png", width=5,height=7, res=600,units="in")
-pdf("CJFAS-shortcomm-fig2-orig-1010.pdf",title='CJFAS-fig2-orig')
+pdf("RSC-asper-fig2-orig-1010.pdf",title='RSC as per CJFAS fig2 orig')
 par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4.5,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)

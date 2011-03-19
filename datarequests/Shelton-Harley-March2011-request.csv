@@ -1,0 +1,706 @@
+"assessid","stockid","stocklong","scientificname","commonname1","tsyear","ssb","ssb_unit","r","r_unit","total","total_unit","f","f_unit","cpue","cpue_unit","catch_landings","catch_landings_unit"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1990,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,362,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1991,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,266,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1992,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,279,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1993,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,348,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1994,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,438,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1995,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,410,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1996,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,776,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1997,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,582,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1998,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,521,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",1999,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,625,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",2000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,483,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",2001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,535,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",2002,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,591,"MT"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Shortfin mako",2003,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,754,"MT"
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1963,NA,NA,NA,NA,NA,NA,NA,NA,2.6335,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1964,NA,NA,NA,NA,NA,NA,NA,NA,1.2117,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1965,NA,NA,NA,NA,NA,NA,NA,NA,1.8215,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1966,NA,NA,NA,NA,NA,NA,NA,NA,0.8111,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1967,NA,NA,NA,NA,NA,NA,NA,NA,0.4376,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,0.2847,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,0.0539,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,0.0662,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,0.1702,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,0.0956,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,0.0038,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,0.0166,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,0.0468,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,0.0088,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,0,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,0.01,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,0.004,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,0.0295,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,0.0139,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,0.0075,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,0.0049,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,0.0283,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,0.0313,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,0.0024,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,0.1405,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,0.0348,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,0.1113,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,0.0421,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,0.1049,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,0.089,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,0.2999,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,0.288,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,0.543,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,0.778,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,0.553,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,1.295,"kgpertow",NA,NA
+"NEFSC-BSKAT5YZSNE-1963-2005-SOSEBEE","BSKAT5YZSNE","Barndoor skate Gulf of Marine / Georges Bank-Southern New England","Dipturus laevis","Barndoor skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,1.036,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,0.237,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,0.302,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,0.768,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,0.156,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,0.419,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,0.685,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,0.171,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,0.213,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,0.141,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,0.178,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,0.306,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,0.545,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,0.32,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,0.335,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,0.273,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,0.402,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,0.922,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,0.345,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,0.495,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,0.938,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,0.331,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,0.43,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,0.614,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,1.121,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,1.0529,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,1.032,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,1.614,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,0.891,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,0.6611,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,0.709,"kgpertow",NA,NA
+"NEFSC-CSKATMATLC-1975-2005-SOSEBEE","CSKATMATLC","Clearnose skate Mid-Atlantic Coast","Raja eglanteria","Clearnose skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,0.524,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,2.763,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,5.073,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,1.886,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,3.83,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,3.039,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,2.128,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,1.034,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,1.793,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,1.313,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,1.399,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,1.367,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,0.641,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,1.233,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,1.217,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,3.31,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,4.269,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,3.245,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,6.13,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,2.457,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,3.611,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,5.024,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,5.843,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,4.906,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,4.629,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,5.14,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,6.786,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,2.822,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,2.627,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,6.145,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,1.901,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,4.659,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,8.197,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,5.6281,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,6.084,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,5.796,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,5.6539,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,4.7617,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,3.1336,"kgpertow",NA,NA
+"NEFSC-LSKAT5YCHATT-1968-2006-SOSEBEE","LSKAT5YCHATT","Little skate Gulf of Maine / Cape Hatteras","Leucoraja erinacea","Little skate",2006,NA,NA,NA,NA,NA,NA,NA,NA,3.2463,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1967,NA,NA,NA,NA,NA,NA,NA,NA,0.0195,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,0.0032,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,0.0019,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,0.009,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,0.0014,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,0.0165,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,0.0119,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,0.0123,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,0.0042,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,0.0243,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,0.0202,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,0.0073,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,0.0103,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,0.0895,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,0.0792,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,0.006,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,0.001,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,0.0294,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,0.0053,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,0.0026,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,0.0284,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,0.0212,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,0.0176,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,0.0227,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,0.0051,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,0.0346,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,0.0214,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,0.0728,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,0.0395,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,0.0433,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,0.013,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,0.0501,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,0.0673,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,0.033,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,0.121,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,0.052,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,0.0335,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,0.048,"kgpertow",NA,NA
+"NEFSC-RSKATMATLC-1967-2005-SOSEBEE","RSKATMATLC","Rosette skate Mid-Atlantic Coast","Leucoraja garmani","Rosette skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,0.065,"kgpertow",NA,NA
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1962,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1963,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1964,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1965,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1966,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1967,NA,"MT",NA,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1968,NA,"MT",1520,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1969,NA,"MT",660,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1970,NA,"MT",3190,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1971,NA,"MT",2760,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1972,NA,"MT",1550,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1973,NA,"MT",2580,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1974,NA,"MT",2660,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1975,NA,"MT",3970,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1976,NA,"MT",1200,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1977,NA,"MT",530,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1978,NA,"MT",1240,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1979,NA,"MT",1820,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1980,NA,"MT",840,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1981,NA,"MT",5060,"MT",NA,"MT",NA,"1/T",NA,NA,29684.11,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1982,NA,"MT",1170,"MT",NA,"MT",NA,"1/T",NA,NA,29588.99,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1983,NA,"MT",7030,"MT",NA,"MT",NA,"1/T",NA,NA,27734.58,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1984,NA,"MT",350,"MT",NA,"MT",NA,"1/T",NA,NA,26224.7,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1985,NA,"MT",9100,"MT",NA,"MT",NA,"1/T",NA,NA,23181.19,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1986,NA,"MT",1960,"MT",NA,"MT",NA,"1/T",NA,NA,20655.94,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1987,NA,"MT",7220,"MT",NA,"MT",NA,"1/T",NA,NA,19412.49,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1988,NA,"MT",1980,"MT",NA,"MT",NA,"1/T",NA,NA,20126.83,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1989,NA,"MT",2680,"MT",NA,"MT",NA,"1/T",NA,NA,21083.12,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1990,234230,"MT",1710,"MT",582270,"MT",0.088,"1/T",NA,NA,35558.1,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1991,269620,"MT",2410,"MT",664850,"MT",0.082,"1/T",NA,NA,26803.51,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1992,220000,"MT",1730,"MT",553730,"MT",0.177,"1/T",NA,NA,36063.57,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1993,186130,"MT",1210,"MT",544410,"MT",0.327,"1/T",NA,NA,33787.59,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1994,133260,"MT",9820,"MT",460930,"MT",0.465,"1/T",NA,NA,28595.41,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1995,120660,"MT",590,"MT",519920,"MT",0.418,"1/T",NA,NA,34255.01,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1996,114090,"MT",2120,"MT",520780,"MT",0.355,"1/T",NA,NA,33794.64,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1997,91460,"MT",100,"MT",489230,"MT",0.234,"1/T",NA,NA,23126.45,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1998,51820,"MT",130,"MT",406290,"MT",0.306,"1/T",NA,NA,25575.49,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",1999,52560,"MT",50,"MT",358190,"MT",0.289,"1/T",NA,NA,22377.9,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2000,61550,"MT",160,"MT",343600,"MT",0.152,"1/T",NA,NA,15209.39,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2001,64840,"MT",70,"MT",337690,"MT",0.109,"1/T",NA,NA,10439.14,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2002,58380,"MT",120,"MT",371200,"MT",0.165,"1/T",NA,NA,10757.48,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2003,53620,"MT",270,"MT",347180,"MT",0.168,"1/T",NA,NA,6707.68,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2004,47720,"MT",1560,"MT",338170,"MT",0.474,"1/T",NA,NA,9118.14,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2005,106180,"MT",690,"MT",453880,"MT",0.128,"1/T",NA,NA,7774.82,"MT"
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Spiny dogfish",2006,NA,"MT",280,"MT",NA,"MT",NA,"1/T",NA,NA,NA,"MT"
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1963,NA,NA,NA,NA,NA,NA,NA,NA,0.4979,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1964,NA,NA,NA,NA,NA,NA,NA,NA,0.3263,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1965,NA,NA,NA,NA,NA,NA,NA,NA,0.4753,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1966,NA,NA,NA,NA,NA,NA,NA,NA,0.323,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1967,NA,NA,NA,NA,NA,NA,NA,NA,0.152,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,0.385,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,0.29,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,0.232,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,0.157,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,0.332,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,0.311,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,0.123,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,0.076,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,0.039,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,0.376,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,0.45,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,0.182,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,0.343,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,0.119,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,0.039,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,0.146,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,0.199,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,0.21,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,0.209,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,0.095,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,0.284,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,0.128,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,0.194,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,0.167,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,0.126,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,0.227,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,0.099,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,0.189,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,0.176,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,0.232,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,0.028,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,0.07,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,0.154,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,0.287,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,0.1112,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,0.19,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,0.214,"kgpertow",NA,NA
+"NEFSC-SSKAT5YZSNE-1963-2005-SOSEBEE","SSKAT5YZSNE","Smooth skate Gulf of Marine / Georges Bank-Southern New England","Malacoraja senta","Smooth skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,0.131,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1963,NA,NA,NA,NA,NA,NA,NA,NA,5.371,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1964,NA,NA,NA,NA,NA,NA,NA,NA,4.403,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1965,NA,NA,NA,NA,NA,NA,NA,NA,4.474,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1966,NA,NA,NA,NA,NA,NA,NA,NA,7.971,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1967,NA,NA,NA,NA,NA,NA,NA,NA,2.712,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,4.421,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,5.715,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,7.347,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,5.357,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,4.119,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,4.564,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,3.038,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,2.474,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,1.72,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,3.221,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,4.291,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,3.612,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,4.601,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,3.339,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,0.646,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,2.409,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,2.887,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,2.877,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,1.629,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,0.944,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,1.488,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,1.883,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,1.704,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,1.632,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,0.962,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,1.658,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,1.509,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,0.783,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,0.814,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,0.849,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,0.648,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,0.479,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,0.832,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,0.332,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,0.436,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,0.742,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,0.71,"kgpertow",NA,NA
+"NEFSC-TSKAT5YZSNE-1963-2005-SOSEBEE","TSKAT5YZSNE","Thorny skate Gulf of Marine / Georges Bank-Southern New England","Amblyraja radiata","Thorny skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,0.224,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1967,NA,NA,NA,NA,NA,NA,NA,NA,2.159,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1968,NA,NA,NA,NA,NA,NA,NA,NA,1.865,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1969,NA,NA,NA,NA,NA,NA,NA,NA,1.315,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1970,NA,NA,NA,NA,NA,NA,NA,NA,2.996,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1971,NA,NA,NA,NA,NA,NA,NA,NA,1.078,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1972,NA,NA,NA,NA,NA,NA,NA,NA,2.958,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1973,NA,NA,NA,NA,NA,NA,NA,NA,4.686,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1974,NA,NA,NA,NA,NA,NA,NA,NA,2.097,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1975,NA,NA,NA,NA,NA,NA,NA,NA,1.315,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1976,NA,NA,NA,NA,NA,NA,NA,NA,2.655,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1977,NA,NA,NA,NA,NA,NA,NA,NA,4.095,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1978,NA,NA,NA,NA,NA,NA,NA,NA,4.989,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1979,NA,NA,NA,NA,NA,NA,NA,NA,5.121,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1980,NA,NA,NA,NA,NA,NA,NA,NA,6.233,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1981,NA,NA,NA,NA,NA,NA,NA,NA,5.668,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1982,NA,NA,NA,NA,NA,NA,NA,NA,8.306,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1983,NA,NA,NA,NA,NA,NA,NA,NA,12.852,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1984,NA,NA,NA,NA,NA,NA,NA,NA,13.323,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1985,NA,NA,NA,NA,NA,NA,NA,NA,9.182,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1986,NA,NA,NA,NA,NA,NA,NA,NA,15.8,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1987,NA,NA,NA,NA,NA,NA,NA,NA,11.063,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1988,NA,NA,NA,NA,NA,NA,NA,NA,7.564,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1989,NA,NA,NA,NA,NA,NA,NA,NA,5.081,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1990,NA,NA,NA,NA,NA,NA,NA,NA,7.145,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1991,NA,NA,NA,NA,NA,NA,NA,NA,4.724,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1992,NA,NA,NA,NA,NA,NA,NA,NA,3.582,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1993,NA,NA,NA,NA,NA,NA,NA,NA,1.905,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1994,NA,NA,NA,NA,NA,NA,NA,NA,2.12,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1995,NA,NA,NA,NA,NA,NA,NA,NA,1.985,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1996,NA,NA,NA,NA,NA,NA,NA,NA,2.276,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1997,NA,NA,NA,NA,NA,NA,NA,NA,2.455,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1998,NA,NA,NA,NA,NA,NA,NA,NA,3.753,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",1999,NA,NA,NA,NA,NA,NA,NA,NA,5.089,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2000,NA,NA,NA,NA,NA,NA,NA,NA,4.378,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2001,NA,NA,NA,NA,NA,NA,NA,NA,3.887,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2002,NA,NA,NA,NA,NA,NA,NA,NA,5.6,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2003,NA,NA,NA,NA,NA,NA,NA,NA,3.3865,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2004,NA,NA,NA,NA,NA,NA,NA,NA,4.031,"kgpertow",NA,NA
+"NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE","WSKAT5YCHATT","Winter skate Gulf of Maine / Cape Hatteras","Leucoraja ocellata","Winter skate",2005,NA,NA,NA,NA,NA,NA,NA,NA,2.615,"kgpertow",NA,NA
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1915,7034.32,"MT",15454,"E03",90955.2,"MT",0,"ratio",NA,NA,0,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1916,7034.32,"MT",15454.2,"E03",90955.2,"MT",4e-04,"ratio",NA,NA,19.621,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1917,7031.97,"MT",15452.3,"E03",90937.4,"MT",7e-04,"ratio",NA,NA,39.2421,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1918,7027.31,"MT",15448.5,"E03",90903.6,"MT",0.0011,"ratio",NA,NA,58.8631,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1919,7020.39,"MT",15442.8,"E03",90855.3,"MT",0.0014,"ratio",NA,NA,78.4841,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1920,7011.31,"MT",15435.2,"E03",90794.1,"MT",0.0018,"ratio",NA,NA,98.1052,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1921,7000.18,"MT",15426,"E03",90720.9,"MT",0.0021,"ratio",NA,NA,117.726,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1922,6987.1,"MT",15415.2,"E03",90636.9,"MT",0.0025,"ratio",NA,NA,137.347,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1923,6972.22,"MT",15402.8,"E03",90542.6,"MT",0.0028,"ratio",NA,NA,156.968,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1924,6955.69,"MT",15389,"E03",90438.8,"MT",0.0032,"ratio",NA,NA,176.589,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1925,6937.66,"MT",15373.9,"E03",90325.7,"MT",0.0036,"ratio",NA,NA,196.21,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1926,6918.28,"MT",15357.6,"E03",90203.7,"MT",0.0039,"ratio",NA,NA,215.831,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1927,6897.72,"MT",15340.3,"E03",90073.1,"MT",0.0043,"ratio",NA,NA,235.452,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1928,6876.1,"MT",15322,"E03",89933.9,"MT",0.0047,"ratio",NA,NA,255.073,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1929,6853.58,"MT",15302.9,"E03",89786.4,"MT",0.005,"ratio",NA,NA,274.694,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1930,6830.25,"MT",15283,"E03",89630.7,"MT",0.0054,"ratio",NA,NA,294.315,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1931,6806.21,"MT",15262.4,"E03",89467,"MT",0.0058,"ratio",NA,NA,313.937,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1932,6781.53,"MT",15241.2,"E03",89295.4,"MT",0.0062,"ratio",NA,NA,333.558,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1933,6756.25,"MT",15219.3,"E03",89116.1,"MT",0.0065,"ratio",NA,NA,353.179,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1934,6730.41,"MT",15196.9,"E03",88929.2,"MT",0.0069,"ratio",NA,NA,372.8,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1935,6704.01,"MT",15173.9,"E03",88735.2,"MT",0.0073,"ratio",NA,NA,392.421,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1936,6677.07,"MT",15150.3,"E03",88534,"MT",0.0077,"ratio",NA,NA,412.042,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1937,6649.57,"MT",15126,"E03",88326.2,"MT",0.0081,"ratio",NA,NA,431.663,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1938,6621.5,"MT",15101.2,"E03",88111.8,"MT",0.0085,"ratio",NA,NA,451.284,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1939,6592.85,"MT",15075.7,"E03",87891.1,"MT",0.0089,"ratio",NA,NA,470.905,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1940,6563.62,"MT",15049.5,"E03",87664.5,"MT",0.0093,"ratio",NA,NA,490.526,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1941,6533.8,"MT",15022.7,"E03",87432.1,"MT",0.0097,"ratio",NA,NA,510.147,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1942,6503.4,"MT",14995.2,"E03",87194.1,"MT",0.0101,"ratio",NA,NA,529.768,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1943,6472.42,"MT",14967,"E03",86950.9,"MT",0.0105,"ratio",NA,NA,549.389,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1944,6440.88,"MT",14938.1,"E03",86702.5,"MT",0.0109,"ratio",NA,NA,569.01,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1945,6408.81,"MT",14908.6,"E03",86449.2,"MT",0.0113,"ratio",NA,NA,588.631,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1946,6376.23,"MT",14878.4,"E03",86191.1,"MT",0.0117,"ratio",NA,NA,608.252,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1947,6343.15,"MT",14847.6,"E03",85928.3,"MT",0.0121,"ratio",NA,NA,627.873,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1948,6309.61,"MT",14816.1,"E03",85661,"MT",0.0126,"ratio",NA,NA,647.494,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1949,6275.63,"MT",14784,"E03",85389.2,"MT",0.013,"ratio",NA,NA,667.115,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1950,6241.24,"MT",14751.3,"E03",85113.1,"MT",0.0072,"ratio",NA,NA,367.576,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1951,6243.73,"MT",14753.7,"E03",85122.8,"MT",0.0052,"ratio",NA,NA,264.313,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1952,6259.48,"MT",14768.7,"E03",85211,"MT",0.0058,"ratio",NA,NA,298.892,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1953,6271.91,"MT",14780.5,"E03",85244.8,"MT",0.0178,"ratio",NA,NA,913.729,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1954,6212.85,"MT",14724.2,"E03",84702.8,"MT",0.0065,"ratio",NA,NA,333.471,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1955,6222.77,"MT",14733.7,"E03",84731.7,"MT",0.0186,"ratio",NA,NA,948.781,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1956,6160.93,"MT",14674.2,"E03",84187.3,"MT",0.0083,"ratio",NA,NA,422.049,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1957,6161.6,"MT",14674.8,"E03",84168.2,"MT",0.0072,"ratio",NA,NA,365.207,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1958,6169.04,"MT",14682,"E03",84193.6,"MT",0.0075,"ratio",NA,NA,379.891,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1959,6174.63,"MT",14687.4,"E03",84195.1,"MT",0.0102,"ratio",NA,NA,517.259,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1960,6163.91,"MT",14677,"E03",84063.4,"MT",0.0062,"ratio",NA,NA,315.945,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1961,6176.55,"MT",14689.2,"E03",84120.8,"MT",0.031,"ratio",NA,NA,1568.35,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1962,6042.2,"MT",14557.9,"E03",83026.5,"MT",0.0177,"ratio",NA,NA,878.676,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1963,5990.46,"MT",14506.3,"E03",82664.5,"MT",0.0201,"ratio",NA,NA,994.728,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1964,5926.68,"MT",14442.1,"E03",82225.7,"MT",0.0198,"ratio",NA,NA,972.465,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1965,5867.76,"MT",14382,"E03",81843,"MT",0.0114,"ratio",NA,NA,553.258,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1966,5860.02,"MT",14374.1,"E03",81868,"MT",0.014,"ratio",NA,NA,681.626,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1967,5839.8,"MT",14353.3,"E03",81758.7,"MT",0.0139,"ratio",NA,NA,677.362,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1968,5822.68,"MT",14335.6,"E03",81647,"MT",0.0245,"ratio",NA,NA,1191.78,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1969,5749.15,"MT",14259,"E03",81059.8,"MT",0.016,"ratio",NA,NA,771.625,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1970,5727.21,"MT",14235.9,"E03",80893.9,"MT",0.0089,"ratio",NA,NA,428.207,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1971,5747.33,"MT",14257,"E03",81036.5,"MT",0.0039,"ratio",NA,NA,186.63,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1972,5796.99,"MT",14308.9,"E03",81365.3,"MT",0.0059,"ratio",NA,NA,287.997,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1973,5836.05,"MT",14349.4,"E03",81551.1,"MT",0.006,"ratio",NA,NA,294.155,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1974,5874.65,"MT",14389.1,"E03",81697.5,"MT",0.0059,"ratio",NA,NA,287.524,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1975,5913.33,"MT",14428.5,"E03",81823.5,"MT",0.0066,"ratio",NA,NA,325.418,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1976,5945.94,"MT",14461.6,"E03",81895.4,"MT",0.0181,"ratio",NA,NA,891.939,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1977,5910.28,"MT",14425.4,"E03",81442.3,"MT",0.0183,"ratio",NA,NA,898.097,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1978,5871.31,"MT",14385.7,"E03",81031.1,"MT",0.0299,"ratio",NA,NA,1453.72,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1979,5765.55,"MT",14276.1,"E03",80160.1,"MT",0.0323,"ratio",NA,NA,1542.78,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1980,5648.75,"MT",14152.5,"E03",79301.1,"MT",0.0213,"ratio",NA,NA,998.517,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1981,5595.65,"MT",14095.3,"E03",79025.8,"MT",0.0688,"ratio",NA,NA,3212.68,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1982,5288.96,"MT",13752.4,"E03",76762.9,"MT",0.0485,"ratio",NA,NA,2165.5,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1983,5110.92,"MT",13543,"E03",75670,"MT",0.0384,"ratio",NA,NA,1676.59,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1984,4996.62,"MT",13404.3,"E03",75106.3,"MT",0.02,"ratio",NA,NA,862.636,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1985,4981.74,"MT",13386,"E03",75302.5,"MT",0.0286,"ratio",NA,NA,1242.94,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1986,4933.03,"MT",13325.7,"E03",75087.6,"MT",0.0236,"ratio",NA,NA,1026.14,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1987,4917.12,"MT",13305.8,"E03",75036.2,"MT",0.027,"ratio",NA,NA,1177.54,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1988,4893.19,"MT",13275.8,"E03",74792.9,"MT",0.0174,"ratio",NA,NA,759.738,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1989,4922.32,"MT",13312.3,"E03",74893.9,"MT",0.0191,"ratio",NA,NA,838.303,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1990,4948.77,"MT",13345.2,"E03",74858.2,"MT",0.015,"ratio",NA,NA,661.036,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1991,4998.32,"MT",13406.4,"E03",74938.8,"MT",0.0127,"ratio",NA,NA,563.925,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1992,5060.14,"MT",13481.8,"E03",75059.8,"MT",0.0075,"ratio",NA,NA,334.053,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1993,5146.59,"MT",13585.6,"E03",75348.4,"MT",0.0116,"ratio",NA,NA,523.062,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1994,5209.33,"MT",13659.7,"E03",75417.9,"MT",0.0163,"ratio",NA,NA,735.481,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1995,5243.06,"MT",13699.2,"E03",75279.6,"MT",0.0082,"ratio",NA,NA,367.39,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1996,5311.03,"MT",13777.8,"E03",75492.2,"MT",0.0326,"ratio",NA,NA,1474.01,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1997,5245,"MT",13701.4,"E03",74686.8,"MT",0.0605,"ratio",NA,NA,2685.46,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1998,5032.44,"MT",13448.1,"E03",72876.9,"MT",0.0285,"ratio",NA,NA,1220.16,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",1999,4981.99,"MT",13386.3,"E03",72598.9,"MT",0.0433,"ratio",NA,NA,1835.38,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2000,4858.02,"MT",13231.5,"E03",71801.8,"MT",0.0507,"ratio",NA,NA,2108.32,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2001,4703.24,"MT",13032.1,"E03",70843.6,"MT",0.033,"ratio",NA,NA,1342.35,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2002,4637.57,"MT",12945.4,"E03",70670.6,"MT",0.0121,"ratio",NA,NA,487.556,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2003,4670.75,"MT",12989.3,"E03",71271.5,"MT",0.0323,"ratio",NA,NA,1323.04,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2004,4617.13,"MT",12918.1,"E03",71027,"MT",0.0142,"ratio",NA,NA,581.513,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2005,4651.08,"MT",12963.3,"E03",71444.9,"MT",0.0232,"ratio",NA,NA,959.093,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2006,4650.07,"MT",12962,"E03",71439.3,"MT",0.0279,"ratio",NA,NA,1157.06,"MT"
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","Longnose skate",2007,4634.18,"MT",12940.9,"E03",71217.1,"MT",0.0216,"ratio",NA,NA,899.223,"MT"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1950,NA,NA,NA,NA,3990,"E03",0.085,"1/yr",NA,NA,110.474,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1951,NA,NA,NA,NA,3890,"E03",0.09,"1/yr",NA,NA,145.671,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1952,NA,NA,NA,NA,3820,"E03",0.096,"1/yr",NA,NA,148.429,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1953,NA,NA,NA,NA,3760,"E03",0.101,"1/yr",NA,NA,169.792,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1954,NA,NA,NA,NA,3710,"E03",0.106,"1/yr",NA,NA,175.912,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1955,NA,NA,NA,NA,3660,"E03",0.112,"1/yr",NA,NA,162.288,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1956,NA,NA,NA,NA,3610,"E03",0.117,"1/yr",NA,NA,150.368,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1957,NA,NA,NA,NA,3560,"E03",0.122,"1/yr",NA,NA,138.481,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1958,NA,NA,NA,NA,3510,"E03",0.127,"1/yr",NA,NA,138.743,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1959,NA,NA,NA,NA,3470,"E03",0.133,"1/yr",NA,NA,154.219,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1960,NA,NA,NA,NA,3420,"E03",0.138,"1/yr",NA,NA,155.792,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1961,NA,NA,NA,NA,3380,"E03",0.143,"1/yr",NA,NA,86.517,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1962,NA,NA,NA,NA,3340,"E03",0.149,"1/yr",NA,NA,109.215,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1963,NA,NA,NA,NA,3300,"E03",0.154,"1/yr",NA,NA,156.278,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1964,NA,NA,NA,NA,3260,"E03",0.159,"1/yr",NA,NA,142.416,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1965,NA,NA,NA,NA,3220,"E03",0.165,"1/yr",NA,NA,152.68,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1966,NA,NA,NA,NA,3190,"E03",0.17,"1/yr",NA,NA,145.75,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1967,NA,NA,NA,NA,3150,"E03",0.175,"1/yr",NA,NA,175.077,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1968,NA,NA,NA,NA,3110,"E03",0.181,"1/yr",NA,NA,162.319,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1969,NA,NA,NA,NA,3080,"E03",0.186,"1/yr",NA,NA,169.708,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1970,NA,NA,NA,NA,3040,"E03",0.191,"1/yr",NA,NA,181.566,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1971,NA,NA,NA,NA,3010,"E03",0.196,"1/yr",NA,NA,189.012,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1972,NA,NA,NA,NA,2970,"E03",0.202,"1/yr",NA,NA,281.683,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1973,NA,NA,NA,NA,2940,"E03",0.189,"1/yr",NA,NA,211.654,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1974,NA,NA,NA,NA,2920,"E03",0.259,"1/yr",NA,NA,278.437,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1975,NA,NA,NA,NA,2840,"E03",0.411,"1/yr",NA,NA,403.385,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1976,NA,NA,NA,NA,2680,"E03",0.189,"1/yr",NA,NA,195.087,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1977,NA,NA,NA,NA,2730,"E03",0.364,"1/yr",NA,NA,356.301,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1978,NA,NA,NA,NA,2610,"E03",0.1,"1/yr",NA,NA,105.073,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1979,NA,NA,NA,NA,2720,"E03",0.346,"1/yr",NA,NA,341.965,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1980,NA,NA,NA,NA,2580,"E03",0.276,"1/yr",NA,NA,868.767,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1981,NA,NA,NA,NA,2550,"E03",0.147,"1/yr",NA,NA,15.111,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1982,NA,NA,NA,NA,2620,"E03",0.213,"1/yr",NA,NA,220.369,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1983,NA,NA,NA,NA,2600,"E03",0.11,"1/yr",NA,NA,120.837,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1984,NA,NA,NA,NA,2670,"E03",0.112,"1/yr",NA,NA,127.035,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1985,NA,NA,NA,NA,2720,"E03",0.115,"1/yr",NA,NA,133.59,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1986,NA,NA,NA,NA,2760,"E03",0.41,"1/yr",NA,NA,385.941,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1987,NA,NA,NA,NA,2570,"E03",0.245,"1/yr",NA,NA,250.963,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1988,NA,NA,NA,NA,2580,"E03",0.22,"1/yr",NA,NA,240.525,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1989,NA,NA,NA,NA,2590,"E03",0.166,"1/yr",NA,NA,192.463,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1990,NA,NA,NA,NA,2630,"E03",0.341,"1/yr",NA,NA,362.228,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1991,NA,NA,NA,NA,2510,"E03",0.139,"1/yr",NA,NA,162.89,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1992,NA,NA,NA,NA,2590,"E03",0.199,"1/yr",NA,NA,230.415,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1993,NA,NA,NA,NA,2590,"E03",0.195,"1/yr",NA,NA,227.312,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1994,NA,NA,NA,NA,2590,"E03",0.182,"1/yr",NA,NA,214.708,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1995,NA,NA,NA,NA,2600,"E03",0.334,"1/yr",NA,NA,361.933,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1996,NA,NA,NA,NA,2500,"E03",0.557,"1/yr",NA,NA,520.695,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1997,NA,NA,NA,NA,2310,"E03",0.505,"1/yr",NA,NA,447.804,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1998,NA,NA,NA,NA,2220,"E03",0.21,"1/yr",NA,NA,197.545,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",1999,NA,NA,NA,NA,2310,"E03",0.334,"1/yr",NA,NA,320.631,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2000,NA,NA,NA,NA,2250,"E03",0.225,"1/yr",NA,NA,211.94,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2001,NA,NA,NA,NA,2270,"E03",0.374,"1/yr",NA,NA,342.877,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2002,NA,NA,NA,NA,2190,"E03",0.468,"1/yr",NA,NA,399.028,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2003,NA,NA,NA,NA,2090,"E03",0.313,"1/yr",NA,NA,270.829,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2004,NA,NA,NA,NA,2110,"E03",0.635,"1/yr",NA,NA,504.238,"E03"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Bonnethead shark",2005,NA,NA,NA,NA,1940,"E03",0.188,"1/yr",NA,NA,157.434,"E03"
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1950,NA,NA,NA,NA,1340,"E03",0.012,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1951,NA,NA,NA,NA,1330,"E03",0.013,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1952,NA,NA,NA,NA,1320,"E03",0.014,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1953,NA,NA,NA,NA,1310,"E03",0.015,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1954,NA,NA,NA,NA,1300,"E03",0.016,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1955,NA,NA,NA,NA,1300,"E03",0.017,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1956,NA,NA,NA,NA,1290,"E03",0.018,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1957,NA,NA,NA,NA,1280,"E03",0.019,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1958,NA,NA,NA,NA,1270,"E03",0.02,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1959,NA,NA,NA,NA,1260,"E03",0.021,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1960,NA,NA,NA,NA,1260,"E03",0.022,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1961,NA,NA,NA,NA,1250,"E03",0.023,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1962,NA,NA,NA,NA,1240,"E03",0.024,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1963,NA,NA,NA,NA,1230,"E03",0.025,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1964,NA,NA,NA,NA,1230,"E03",0.026,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1965,NA,NA,NA,NA,1220,"E03",0.027,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1966,NA,NA,NA,NA,1210,"E03",0.028,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1967,NA,NA,NA,NA,1200,"E03",0.029,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1968,NA,NA,NA,NA,1190,"E03",0.03,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1969,NA,NA,NA,NA,1190,"E03",0.031,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1970,NA,NA,NA,NA,1180,"E03",0.032,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1971,NA,NA,NA,NA,1170,"E03",0.033,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1972,NA,NA,NA,NA,1160,"E03",0.034,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1973,NA,NA,NA,NA,1160,"E03",0.031,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1974,NA,NA,NA,NA,1150,"E03",0.017,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1975,NA,NA,NA,NA,1150,"E03",0.04,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1976,NA,NA,NA,NA,1140,"E03",0.027,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1977,NA,NA,NA,NA,1140,"E03",0.044,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1978,NA,NA,NA,NA,1130,"E03",0.041,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1979,NA,NA,NA,NA,1120,"E03",0.026,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1980,NA,NA,NA,NA,1120,"E03",0.017,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1981,NA,NA,NA,NA,1130,"E03",0.019,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1982,NA,NA,NA,NA,1130,"E03",0.014,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1983,NA,NA,NA,NA,1140,"E03",0.031,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1984,NA,NA,NA,NA,1130,"E03",0.014,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1985,NA,NA,NA,NA,1140,"E03",0.02,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1986,NA,NA,NA,NA,1140,"E03",0.041,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1987,NA,NA,NA,NA,1130,"E03",0.041,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1988,NA,NA,NA,NA,1110,"E03",0.042,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1989,NA,NA,NA,NA,1100,"E03",0.062,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1990,NA,NA,NA,NA,1080,"E03",0.055,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1991,NA,NA,NA,NA,1070,"E03",0.09,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1992,NA,NA,NA,NA,1040,"E03",0.107,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1993,NA,NA,NA,NA,1010,"E03",0.067,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1994,NA,NA,NA,NA,992,"E03",0.116,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1995,NA,NA,NA,NA,947,"E03",0.157,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1996,NA,NA,NA,NA,889,"E03",0.154,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1997,NA,NA,NA,NA,839,"E03",0.279,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1998,NA,NA,NA,NA,746,"E03",0.176,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",1999,NA,NA,NA,NA,705,"E03",0.169,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2000,NA,NA,NA,NA,670,"E03",0.259,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2001,NA,NA,NA,NA,605,"E03",0.305,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2002,NA,NA,NA,NA,541,"E03",0.229,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2003,NA,NA,NA,NA,502,"E03",0.345,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2004,NA,NA,NA,NA,441,"E03",0.445,"1/yr",NA,NA,NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Blacknose shark",2005,NA,NA,NA,NA,372,"E03",0.245,"1/yr",NA,NA,NA,NA
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1981,NA,NA,NA,NA,50996.3,"E03",0.001,"1/yr",NA,NA,5,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1982,NA,NA,NA,NA,50992,"E03",0.004,"1/yr",NA,NA,28.6,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1983,NA,NA,NA,NA,50967.1,"E03",0.004,"1/yr",NA,NA,29.9,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1984,NA,NA,NA,NA,50943.7,"E03",0.002,"1/yr",NA,NA,16.9,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1985,NA,NA,NA,NA,50936.3,"E03",0.007,"1/yr",NA,NA,54,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1986,NA,NA,NA,NA,50895.8,"E03",0.002,"1/yr",NA,NA,17.8,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1987,NA,NA,NA,NA,50893.9,"E03",0.006,"1/yr",NA,NA,55.2,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1988,NA,NA,NA,NA,50855.6,"E03",0.003,"1/yr",NA,NA,23.7,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1989,NA,NA,NA,NA,50849.8,"E03",0.003,"1/yr",NA,NA,25.7,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1990,NA,NA,NA,NA,50841.7,"E03",0.001,"1/yr",NA,NA,12.1,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1991,NA,NA,NA,NA,50844.5,"E03",0.005,"1/yr",NA,NA,115.9,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1992,NA,NA,NA,NA,50745.9,"E03",0.003,"1/yr",NA,NA,116.8,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1993,NA,NA,NA,NA,50649.8,"E03",0.002,"1/yr",NA,NA,84.3,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1994,NA,NA,NA,NA,50587.1,"E03",0.002,"1/yr",NA,NA,97.2,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1995,NA,NA,NA,NA,50514.1,"E03",0.003,"1/yr",NA,NA,85.7,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1996,NA,NA,NA,NA,50453.4,"E03",0.004,"1/yr",NA,NA,69.8,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1997,NA,NA,NA,NA,50411.5,"E03",0.002,"1/yr",NA,NA,52.4,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1998,NA,NA,NA,NA,50389.1,"E03",0.003,"1/yr",NA,NA,53.9,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",1999,NA,NA,NA,NA,50365.1,"E03",0.001,"1/yr",NA,NA,15.7,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",2000,NA,NA,NA,NA,50380.3,"E03",0.001,"1/yr",NA,NA,16.4,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",2001,NA,NA,NA,NA,50392.9,"E03",0.002,"1/yr",NA,NA,24.6,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",2002,NA,NA,NA,NA,50396.1,"E03",0.001,"1/yr",NA,NA,25.9,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",2003,NA,NA,NA,NA,50398.2,"E03",0.004,"1/yr",NA,NA,48.4,"E03"
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Blacktip shark",2004,NA,NA,NA,NA,50378.5,"E03",0.001,"1/yr",NA,NA,17.7,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1981,NA,NA,NA,NA,23667.92,"E03",0.042,"1/yr",NA,NA,186.7,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1982,NA,NA,NA,NA,23500.27,"E03",0.033,"1/yr",NA,NA,149.8,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1983,NA,NA,NA,NA,23393.32,"E03",0.024,"1/yr",NA,NA,114.5,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1984,NA,NA,NA,NA,23331.75,"E03",0.035,"1/yr",NA,NA,160.4,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1985,NA,NA,NA,NA,23234.19,"E03",0.035,"1/yr",NA,NA,158.2,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1986,NA,NA,NA,NA,23150.15,"E03",0.066,"1/yr",NA,NA,312.1,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1987,NA,NA,NA,NA,22935.15,"E03",0.052,"1/yr",NA,NA,271.9,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1988,NA,NA,NA,NA,22783.72,"E03",0.073,"1/yr",NA,NA,397.9,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1989,NA,NA,NA,NA,22531.14,"E03",0.072,"1/yr",NA,NA,400.1,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1990,NA,NA,NA,NA,22304.54,"E03",0.066,"1/yr",NA,NA,330.7,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1991,NA,NA,NA,NA,22162.2,"E03",0.058,"1/yr",NA,NA,259.4,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1992,NA,NA,NA,NA,22090.32,"E03",0.067,"1/yr",NA,NA,297.2,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1993,NA,NA,NA,NA,21979.56,"E03",0.062,"1/yr",NA,NA,279.1,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1994,NA,NA,NA,NA,21887.04,"E03",0.054,"1/yr",NA,NA,286.4,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1995,NA,NA,NA,NA,21786.52,"E03",0.045,"1/yr",NA,NA,230.9,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1996,NA,NA,NA,NA,21737.27,"E03",0.048,"1/yr",NA,NA,224.5,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1997,NA,NA,NA,NA,21689.19,"E03",0.04,"1/yr",NA,NA,188.8,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1998,NA,NA,NA,NA,21670.44,"E03",0.04,"1/yr",NA,NA,198.7,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",1999,NA,NA,NA,NA,21636.06,"E03",0.025,"1/yr",NA,NA,136.3,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",2000,NA,NA,NA,NA,21655.03,"E03",0.035,"1/yr",NA,NA,165,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",2001,NA,NA,NA,NA,21638.4,"E03",0.026,"1/yr",NA,NA,129.1,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",2002,NA,NA,NA,NA,21652.72,"E03",0.025,"1/yr",NA,NA,119.4,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",2003,NA,NA,NA,NA,21670.38,"E03",0.023,"1/yr",NA,NA,136.5,"E03"
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Blacktip shark",2004,NA,NA,NA,NA,21667.37,"E03",0.024,"1/yr",NA,NA,126.3,"E03"
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1976,NA,NA,NA,NA,3715591,"E03",0.00037,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1977,NA,NA,NA,NA,3746419,"E03",0.00037,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1978,NA,NA,NA,NA,3782939,"E03",0.00036,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1979,NA,NA,NA,NA,3804648,"E03",0.00036,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1980,NA,NA,NA,NA,3853028,"E03",0.00036,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1981,NA,NA,NA,NA,3886461,"E03",0.00036,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1982,NA,NA,NA,NA,3947178,"E03",0.00035,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1983,NA,NA,NA,NA,3947929,"E03",2e-05,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1984,NA,NA,NA,NA,3973650,"E03",4e-04,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1985,NA,NA,NA,NA,4007561,"E03",9e-05,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1986,NA,NA,NA,NA,4029594,"E03",0.00294,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1987,NA,NA,NA,NA,4050990,"E03",0,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1988,NA,NA,NA,NA,4060077,"E03",0.0055,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1989,NA,NA,NA,NA,4067150,"E03",0,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1990,NA,NA,NA,NA,4086793,"E03",2e-05,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1991,NA,NA,NA,NA,4101931,"E03",2e-05,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1992,NA,NA,NA,NA,4125104,"E03",0.00047,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1993,NA,NA,NA,NA,4134643,"E03",0.00077,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1994,NA,NA,NA,NA,4149026,"E03",0.00075,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1995,NA,NA,NA,NA,4160614,"E03",0.00105,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1996,NA,NA,NA,NA,4165721,"E03",0.00246,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1997,NA,NA,NA,NA,4168160,"E03",0.00458,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1998,NA,NA,NA,NA,4162128,"E03",0.005,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",1999,NA,NA,NA,NA,4159672,"E03",0.00532,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2000,NA,NA,NA,NA,4158784,"E03",0.00411,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2001,NA,NA,NA,NA,4147655,"E03",0.00724,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2002,NA,NA,NA,NA,4144185,"E03",0.00379,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2003,NA,NA,NA,NA,4146744,"E03",0.00392,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2004,NA,NA,NA,NA,4152703,"E03",0.00364,"1/yr",NA,NA,NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Finetooth shark",2005,NA,NA,NA,NA,4157172,"E03",0.00257,"1/yr",NA,NA,NA,NA
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1975,NA,NA,NA,NA,3678.73,"E03",0.027,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1976,NA,NA,NA,NA,3653.99,"E03",0.059,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1977,NA,NA,NA,NA,3610.14,"E03",0.092,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1978,NA,NA,NA,NA,3551.58,"E03",0.125,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1979,NA,NA,NA,NA,3482.03,"E03",0.157,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1980,NA,NA,NA,NA,3404.38,"E03",0.19,"1/yr",NA,NA,NA,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1981,NA,NA,NA,NA,3321.05,"E03",0.223,"1/yr",NA,NA,146.5,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1982,NA,NA,NA,NA,3233.13,"E03",0.077,"1/yr",NA,NA,52.8,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1983,NA,NA,NA,NA,3233.95,"E03",0.576,"1/yr",NA,NA,436,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1984,NA,NA,NA,NA,2987.89,"E03",0.141,"1/yr",NA,NA,80,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1985,NA,NA,NA,NA,2992.17,"E03",0.16,"1/yr",NA,NA,97.8,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1986,NA,NA,NA,NA,2974.92,"E03",0.243,"1/yr",NA,NA,161.4,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1987,NA,NA,NA,NA,2897.08,"E03",0.092,"1/yr",NA,NA,114.3,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1988,NA,NA,NA,NA,2863.33,"E03",0.17,"1/yr",NA,NA,202.2,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1989,NA,NA,NA,NA,2736.32,"E03",0.121,"1/yr",NA,NA,198.3,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1990,NA,NA,NA,NA,2606.22,"E03",0.168,"1/yr",NA,NA,192.7,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1991,NA,NA,NA,NA,2475.77,"E03",0.121,"1/yr",NA,NA,143,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1992,NA,NA,NA,NA,2389.95,"E03",0.126,"1/yr",NA,NA,147.1,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1993,NA,NA,NA,NA,2293.94,"E03",0.098,"1/yr",NA,NA,108.3,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1994,NA,NA,NA,NA,2230.4,"E03",0.103,"1/yr",NA,NA,150.7,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1995,NA,NA,NA,NA,2117.11,"E03",0.112,"1/yr",NA,NA,121,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1996,NA,NA,NA,NA,2026.8,"E03",0.133,"1/yr",NA,NA,113.4,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1997,NA,NA,NA,NA,1940.7,"E03",0.134,"1/yr",NA,NA,92.1,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1998,NA,NA,NA,NA,1874.08,"E03",0.133,"1/yr",NA,NA,105.4,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",1999,NA,NA,NA,NA,1792.96,"E03",0.099,"1/yr",NA,NA,81.8,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",2000,NA,NA,NA,NA,1732.34,"E03",0.066,"1/yr",NA,NA,55.6,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",2001,NA,NA,NA,NA,1694.43,"E03",0.142,"1/yr",NA,NA,93.7,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",2002,NA,NA,NA,NA,1618.43,"E03",0.077,"1/yr",NA,NA,72,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",2003,NA,NA,NA,NA,1563.34,"E03",0.063,"1/yr",NA,NA,57.8,"E03"
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Sandbar shark",2004,NA,NA,NA,NA,1520.56,"E03",0.056,"1/yr",NA,NA,50.1,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1950,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,199.157,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1951,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,255.841,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1952,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,258.937,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1953,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,297.766,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1954,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,307.492,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1955,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,278.697,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1956,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,253.339,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1957,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,227.78,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1958,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,226.216,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1959,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,253.77,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1960,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,271.849,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1961,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,136.427,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1962,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,178.86,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1963,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,269.133,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1964,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,240.757,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1965,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,258.876,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1966,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,244.276,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1967,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,299.894,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1968,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,273.578,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1969,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,286.401,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1970,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,315.416,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1971,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,323.214,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1972,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,546.849,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1973,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,115.836,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1974,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,208.34,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1975,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,216.843,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1976,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,159.043,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1977,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,560.188,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1978,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,651.041,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1979,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,530.051,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1980,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,852.586,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1981,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1723.362,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1982,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,275.794,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1983,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,436.3,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1984,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,255.251,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1985,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,368.021,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1986,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,273.581,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1987,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,686.347,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1988,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,466.291,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1989,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,370.016,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1990,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,387.357,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1991,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,653.111,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1992,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1054.303,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1993,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,501.21,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1994,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,361.123,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1995,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,815.997,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1996,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,630.27,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1997,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,477.189,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1998,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,671.114,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",1999,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,461.385,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,714.126,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,515.474,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2002,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,810.488,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2003,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,457.368,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2004,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,339.586,"E03"
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Atlantic sharpnose shark",2005,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,534.202,"E03"

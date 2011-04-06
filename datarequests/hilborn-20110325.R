@@ -1,0 +1,6 @@
+require(RODBC)
+chan<- odbcConnect(dsn='srdbcalo')
+qu <- paste("select a.assessid, s.stocklong, a.daterecorded, a.dateloaded from srdb.assessment a, srdb.stock s where a.stockid =s.stockid and a.recorder != 'MYERS' order by daterecorded",sep="")
+my.dat<-sqlQuery(chan,qu)
+write.csv(my.dat,"hilborn-20110325.csv",row.names=FALSE)
+odbcClose(chan)

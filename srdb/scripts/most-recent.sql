@@ -1,6 +1,7 @@
 -- create a table with information about which assessment is the most recent, what it updates, whether it's a duplicate, etc.
 -- Daniel Ricard, started 2010-01-04
--- Last modified Time-stamp: <2010-01-08 14:40:30 (srdbadmin)>
+-- Last modified Time-stamp: <2011-04-06 10:36:40 (srdbadmin)>
+-- 2011-04-05: updates are starting to come in so I want to make sure that this table does a good job at capturing whether an entry is a true duplicate (same stock and same years, i.e. from the same assessment) or an update to an assessment (new years in the timeseries, maybe a different recorder)
 
 DROP TABLE srdb.mostrecent;
 
@@ -55,3 +56,5 @@ where bb.stockid=cc.stockid
 ) as gg
 where ff.assessid=gg.assessid
 );
+
+COMMENT ON TABLE srdb.mostrecent IS 'Table with information about which assessment is the most recent, what it updates, whether it is a duplicate, etc..';

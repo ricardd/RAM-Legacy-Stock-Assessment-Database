@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-03-02 20:33:12 (srdbadmin)>
+# Last modified Time-stamp: <2011-04-05 10:30:12 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -313,7 +313,8 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-SBELLYROCKPCO
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.xls
+#perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.xls # an update
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SRAKEROCKBSAI-2008-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-FLSOLEBSAI-2008-editedDR-QAQC.xls

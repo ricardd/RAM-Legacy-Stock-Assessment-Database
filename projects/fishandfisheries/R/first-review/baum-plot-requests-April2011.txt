@@ -1,0 +1,16 @@
+i)      distinguishing between results for marine fishes and invertebrates in Figure 5, and comparing these two broad taxonomic groups in the text;
+
+ii)     highlighting the status of the world’s largest fisheries in Figure 5, and discussing their status in the text;
+
+iii)    [JB1] comparing the status of stocks assessed by national management agencies relative to those assessed by regional fisheries management agencies, and discuss regional differences in the status of assessed stocks;
+
+iv)   presenting results for ICES stocks using the reference points from their assessments (i.e. Blim; new Figure XX), and comparing the outlook from this with that of the common (Bmsy) reference points used in Figure 5;
+
+v)    adding XX key new stocks to the database, including XX and XX, and presenting results for the new tuna and billfish stocks to Figure 5 (ie. new subplot XX) and in the text.
+
+
+Another way to split out the fried egg plots, which I think many readers will be interested in, is by trophic level (e.g. we could break trophic level into categories by every 0.5 e.g. 2-2.5, 2.5-3.0, 3.0-3.5 etc).
+
+
+fried egg plots by the 5 most sampled fish orders (or the most common fish families)
+i think there will also be much interest in this given the debate about status of cod vs. herring like fishes.

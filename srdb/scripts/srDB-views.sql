@@ -1,6 +1,6 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2010-12-02 20:35:04 (srdbadmin)>
+-- Time-stamp: <2011-04-06 10:31:28 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 
@@ -476,7 +476,9 @@ and
 ;
 
 
-CREATE OR REPLACE VIEW srdb.timeseries_units_view AS
+-- CREATE OR REPLACE VIEW srdb.timeseries_units_view AS
+DROP TABLE srdb.timeseries_units_view;
+CREATE TABLE srdb.timeseries_units_view AS
 select 
 	ts.assessid,
 	count(*),-- count of available timeseries for assessment
@@ -690,8 +692,9 @@ COMMENT ON TABLE srdb.timeseries_values_view IS 'This is a materialised view tha
 -- reference point values view 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CREATE OR REPLACE VIEW srdb.reference_point_values_view AS
-
+--CREATE OR REPLACE VIEW srdb.reference_point_values_view AS
+DROP TABLE srdb.reference_point_values_view;
+CREATE TABLE srdb.reference_point_values_view AS
 select assessid, common, area, points_available, bmsy, ssbmsy, blim, ssblim, ssbpa, ssbtarget, umsy, fmsy, flim from 
 
 (select 
@@ -742,13 +745,15 @@ order by
 	biopar.assessid) as aa
 ;
 
-COMMENT ON VIEW srdb.reference_point_values_view IS 'This is a view that organises the reference points into separate columns.';
-
+--COMMENT ON VIEW srdb.reference_point_values_view IS 'This is a view that organises the reference points into separate columns.';
+COMMENT ON TABLE srdb.reference_point_values_view IS 'This is a view that organises the reference points into separate columns. Contains only the most recent stocks as identified in srdb.mostrecent';
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- reference point units view 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CREATE OR REPLACE VIEW srdb.reference_point_units_view AS
+--CREATE OR REPLACE VIEW srdb.reference_point_units_view AS
+DROP TABLE srdb.reference_point_units_view;
+CREATE TABLE srdb.reference_point_units_view AS
 select assessid, common, area, points_available,  bmsy_unit,   ssbmsy_unit,   blim_unit,  ssblim_unit, ssbpa_unit, ssbtarget_unit, umsy_unit,  fmsy_unit,   flim_unit  from
 (select
 	biopar.assessid as "assessid", 

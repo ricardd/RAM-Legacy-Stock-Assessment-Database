@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  17 MAR 2011 00:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  22 MAR 2011 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,18 +140,18 @@ Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 (./RSC-plot-final-report.aux (./Table.aux))
 \openout1 = `RSC-plot-final-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -175,15 +175,49 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 18.
+(Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 19.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../R/bean-brp-3panel.pdf, id=13, page=1, 496.85625pt x 794.97pt>
+<../R/RSC-asper-fig2-orig-1010.pdf, id=13, page=1, 505.89pt x 505.89pt>
+File: ../R/RSC-asper-fig2-orig-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-orig-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-orig-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-orig-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-orig-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-orig-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-orig-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-orig-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-orig-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-orig-1010.pdf, page 1> [2 <../R/RSC-asper-fig2-orig-10
+10.pdf>]
+<../R/RSC-asper-fig2-BRPratio-1010.pdf, id=26, page=1, 505.89pt x 505.89pt>
+File: ../R/RSC-asper-fig2-BRPratio-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-BRPratio-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-BRPratio-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-BRPratio-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-BRPratio-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-BRPratio-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-BRPratio-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-BRPratio-1010.pdf, page 1>
+File: ../R/RSC-asper-fig2-BRPratio-1010.pdf Graphic file (type pdf)
+
+<use ../R/RSC-asper-fig2-BRPratio-1010.pdf, page 1> [3 <../R/RSC-asper-fig2-BRP
+ratio-1010.pdf>]
+<../R/bean-brp-3panel.pdf, id=39, page=1, 496.85625pt x 794.97pt>
 File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
 
 <use ../R/bean-brp-3panel.pdf, page 1>
@@ -196,8 +230,8 @@ File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
  <use ../R/bean-brp-3panel.pdf, page 1>
 File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
 
-<use ../R/bean-brp-3panel.pdf, page 1> [2 <../R/bean-brp-3panel.pdf>]
-<../R/RSC-report-plots.pdf, id=25, page=1, 496.85625pt x 794.97pt>
+<use ../R/bean-brp-3panel.pdf, page 1> [4 <../R/bean-brp-3panel.pdf>]
+<../R/RSC-report-plots.pdf, id=51, page=1, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 1>
@@ -212,8 +246,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 1>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 1> [3 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=34, page=2, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 1> [5 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=60, page=2, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 2>
@@ -222,8 +256,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 2>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 2> [4 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=38, page=3, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 2> [6 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=64, page=3, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 3>
@@ -232,8 +266,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 3>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 3> [5 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=42, page=4, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 3> [7 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=69, page=4, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 4>
@@ -242,8 +276,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 4>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 4> [6 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=46, page=5, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 4> [8 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=73, page=5, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 5>
@@ -252,8 +286,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 5>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 5> [7 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=51, page=6, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 5> [9 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=77, page=6, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 6>
@@ -262,8 +296,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 6>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 6> [8 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=55, page=7, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 6> [10 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=81, page=7, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 7>
@@ -272,8 +306,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 7>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 7> [9 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=59, page=8, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 7> [11 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=85, page=8, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 8>
@@ -282,8 +316,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 8>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 8> [10 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=63, page=9, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 8> [12 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=89, page=9, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 9>
@@ -292,8 +326,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 9>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 9> [11 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=67, page=10, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 9> [13 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=94, page=10, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 10>
@@ -302,8 +336,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 10>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 10> [12 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=71, page=11, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 10> [14 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=98, page=11, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 11>
@@ -312,8 +346,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 11>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 11> [13 <../R/RSC-report-plots.pdf>]
-[14]
+<use ../R/RSC-report-plots.pdf, page 11> [15 <../R/RSC-report-plots.pdf>]
+[16]
 \openout2 = `Table.aux'.
 
  (./Table.tex
@@ -530,7 +564,7 @@ Underfull \hbox (badness 3229) in paragraph at lines 45--45
 []|\OT1/cmr/m/n/12 Atlantic cod NAFO
  []
 
-[15
+[17
 
 
 ]
@@ -663,17 +697,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|\OT1/cmr/m/n/12 Ophiodon elon-ga-
  []
 
-[16] [17]
+[18] [19]
 Underfull \hbox (badness 5064) in paragraph at lines 66--66
 []|\OT1/cmr/m/n/12 Platichthys stel-la-
  []
 
-[18] [19]) [20] (./RSC-plot-final-report.aux (./Table.aux)) ) 
+[20] [21]) [22] (./RSC-plot-final-report.aux (./Table.aux)) ) 
 Here is how much of TeX's memory you used:
- 2287 strings out of 495061
- 31873 string characters out of 1182621
+ 2299 strings out of 495061
+ 32317 string characters out of 1182621
  108617 words of memory out of 3000000
- 5446 multiletter control sequences out of 15000+50000
+ 5454 multiletter control sequences out of 15000+50000
  5756 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,16n,37p,228b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -683,9 +717,9 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on RSC-plot-final-report.pdf (20 pages, 1340301 bytes).
+Output written on RSC-plot-final-report.pdf (22 pages, 1387545 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

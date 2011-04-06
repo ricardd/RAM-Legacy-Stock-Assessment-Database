@@ -1,7 +1,7 @@
 ## plots for RSC expert panel report
 ## from earlier work by CM, DR
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-03-19 11:08:07 (srdbadmin)>
+## last modified Time-stamp: <2011-03-22 16:40:11 (srdbadmin)>
 
 ## REQUIRED PACKAGES
 require(nlme); require(gregmisc)
@@ -20,7 +20,6 @@ ts.dat <- dat.1010
 brp.ratio.dat <- ts.ratios.dat
 
 
-
 ## make sure required years are present
 min.year<-1978
 max.year<-2002
@@ -35,6 +34,7 @@ table(apply(ts.years.present.mat,2,function(x){sum(x)}))
 ts.years.present.index<-apply(ts.years.present.mat,2,function(x){sum(x)>1})
 ts.dat2<-subset(ts.dat, assessid %in% ts.assessid.vec[ts.years.present.index])
 
+## CHANGED FROM CJFAS CODE HERE
 ## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
 ts.dat2<-merge(tt.dat,ts.dat2,,by="assessid")
 
@@ -50,7 +50,8 @@ table(apply(brp.years.present.mat,2,function(x){sum(x)}))
 brp.years.present.index<-apply(brp.years.present.mat,2,function(x){sum(x)>1})
 ## fewer number of stocks
 brp.ratio.dat2<-subset(brp.ratio.dat, assessid %in% brp.ratio.assessid.vec[brp.years.present.index])
-## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST
+
+## RESTRICT THE ASSESSMENTS TO THOSE OF CANADIAN INTEREST by merging with the data frame called "tt.dat"
 brp.ratio.dat2<-merge(tt.dat,brp.ratio.dat2,by="assessid")
 
 
@@ -64,6 +65,7 @@ brp.ratio.dat2<-merge(tt.dat,brp.ratio.dat2,by="assessid")
 ## get the log of the brp ratio data to go from lognormal to normal
 brp.ratio.dat2$lnratio<-log(brp.ratio.dat2$ratio)
 
+## CHANGED FROM CJFAS CODE HERE
 regions.vec<-c("NWAtl", "NEPac","HighSeas")
 #regions.vec<-c("NEAtl", "NWAtl", "NorthMidAtl", "SAfr", "NEPac", "Aust-NZ", "HighSeas")
 
@@ -122,7 +124,8 @@ for(i in 1:length(all.category.vec)){
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_brp_v2.png", width=5.5,height=7.5, res=100,units="in")
 pdf("RSC-asper-fig2-BRPratio-1010.pdf",title='RSC as per CJFAS fig2 BRPratio')
 
-par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4,2,2), las=1)
+## CHANGED FROM CJFAS CODE HERE
+par(mfrow=c(3,2), mar=c(0,0,0,0), oma=c(4,4,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(0,2.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=TRUE)
 plot.poly.trend.func(region="All", category="All", brp=TRUE, ylim=c(0,2))
@@ -132,13 +135,13 @@ plot.poly.base.func(region="All", category="Both", ylim=c(0,2.0), xlim=c(1970,20
 plot.poly.trend.func(region="All", category="Both", brp=TRUE, ylim=c(0,2))
 abline(h=1, lty=2)
 ## Region by category
-plot.regions.vec<-c("NWAtl","NEPac","HighSeas")
+plot.regions.vec<-c("NEPac","NWAtl","HighSeas")
 ylim.upr<-4
 for(i in 1:length(plot.regions.vec)){
   ## setup plotting region
   ## find out if i is odd (TRUE) or even (FALSE)
   index<-i/2-i-as.integer(i/2-i)!=0
-    if(i>4){
+    if(i>1){
       if(index){
         plot.poly.base.func(region=plot.regions.vec[i], category="Pelagic", ylim=c(0,ylim.upr), xlim=c(1970,2010), yaxt="s", xaxt="s", brp=TRUE)
       }else{
@@ -164,30 +167,39 @@ dev.off()
 ## orig
 #png("/Users/mintoc/docs/analyses/sr/baumhutchings/tex/DRAFT2/figures/CJFAS-shortcomm-fig2_orig_v1.png", width=5,height=7, res=600,units="in")
 pdf("RSC-asper-fig2-orig-1010.pdf",title='RSC as per CJFAS fig2 orig')
-par(mfrow=c(4,2), mar=c(0,0,0,0), oma=c(4,4.5,2,2), las=1)
+
+## CHANGED FROM CJFAS CODE HERE
+par(mfrow=c(3,2), mar=c(0,0,0,0), oma=c(4,4.5,2,2), las=1)
 ## All
 plot.poly.base.func(region="All", category="All", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
+abline(h=0, lty=2, col=gray(0.6), cex=0.7)
 plot.poly.trend.func(region="All", category="All", brp=FALSE, ylim=c(-1.0,1.0))
 ## All by category
 plot.poly.base.func(region="All", category="Both", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
+abline(h=0, lty=2, col=gray(0.6), cex=0.7)
 plot.poly.trend.func(region="All", category="Both", ylim=c(-1.0,1.0), brp=FALSE)
 ## Region by category
-plot.regions.vec<-c("NWAtl", "NEPac", "HighSeas")
+plot.regions.vec<-c("NEPac", "NWAtl", "HighSeas")
 for(i in 1:length(plot.regions.vec)){
+  print(i)
   ## setup plotting region
   ## find out if i is odd (TRUE) or even (FALSE)
   index<-i/2-i-as.integer(i/2-i)!=0
-    if(i>4){
+    if(i>1){
       if(index){
         plot.poly.base.func(region=plot.regions.vec[i], category="Pelagic", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="s", xaxt="s", brp=FALSE)
+        abline(h=0, lty=2, col=gray(0.6), cex=0.7)
       }else{
         plot.poly.base.func(region=plot.regions.vec[i], category="Pelagic", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
+        abline(h=0, lty=2, col=gray(0.6), cex=0.7)
         axis(side=1,at=seq(1980,2010, by=10), cex.axis=1.2)
       }}else{
         if(index){
         plot.poly.base.func(region=plot.regions.vec[i], category="Pelagic", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="s", xaxt="n", brp=FALSE)
+        abline(h=0, lty=2, col=gray(0.6), cex=0.7)
       }else{
         plot.poly.base.func(region=plot.regions.vec[i], category="Pelagic", ylim=c(-1.0,1.0), xlim=c(1970,2010), yaxt="n", xaxt="n", brp=FALSE)
+        abline(h=0, lty=2, col=gray(0.6), cex=0.7)
       }
       }
   ## plot the trends

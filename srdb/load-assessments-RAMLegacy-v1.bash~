@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-03-01 20:43:28 (srdbadmin)>
+# Last modified Time-stamp: <2011-03-02 20:33:12 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -79,7 +79,7 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Johnston-SAWestRockL
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Johnston-SAWestRockLobster-A8-2007-editedDR.xls  ## NOT QAQCed
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/DEDECKER-SA-Mparadoxus-2008-editedDR.xls  ## NOT QAQCed
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/DEDECKER-SA-Mcapensis-2008-editedOJ.xls  ## NOT QAQCed
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Johnston-SASouthRockLobster-2008-editedDR.xls  ## NOT QAQCed
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Johnston-SASouthRockLobster-2008-editedDR.xls 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Johnston-SAHorseMackerel-2007-editedDR.xls  ## NOT QAQCed
 
 ##
@@ -141,7 +141,6 @@ perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAIC7d-2007-edi
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAICIIIa-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-PLAICNS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-POLLNS-VI-IIIa-2007-editedDR-QAQC.xls
-perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SEELNS-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv3-BATCH.pl ../spreadsheets/MINTO-SEELNS-2007-editedDR-QAQC.xls
 
 # submissions from Simon Jennings
@@ -251,14 +250,14 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-WEAKFISHATLC
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.xls
 
 
-perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR.xls # DUPLICATE
+perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-AMPL3M-2008-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.xls
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL4RST-2003-editedDR.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-RED1-2005-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.xls
@@ -347,8 +346,6 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-REDFISHSPP3LN-2
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-MATLCROAK-2004-editedDR.xls
 
 ################################3
-# DUPLICATE ASSESSMENTS
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SARDNPAC-2008-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-SARDPCOAST-2007-editedDR.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-CMACKPCOAST-2008-editedDR.xls

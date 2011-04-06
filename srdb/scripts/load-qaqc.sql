@@ -4,7 +4,7 @@ DROP TABLE srdb.qaqc;
 
 CREATE TABLE srdb.qaqc (
 assessid VARCHAR(200) UNIQUE REFERENCES srdb.assessment,
-issueid INT UNIQUE, -- the issue number on the RAMlegacy spreadsheet submission
+issueid INT, -- UNIQUE, -- the issue number on the RAMlegacy spreadsheet submission
 datesent DATE, -- date that the QA/QC plots were sent to the recorder
 datereply DATE, -- date that the recorder sent a reply / replied on the RAMlegacy issue tracker 
 dateapproved DATE, -- date that the assessment was approved as being QA/QAed

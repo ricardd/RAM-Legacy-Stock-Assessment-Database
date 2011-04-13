@@ -1,5 +1,4 @@
 \documentclass[letterpaper,12pt]{article}
-
 \usepackage{url}
 \usepackage{natbib}
 \usepackage{longtable}
@@ -14,14 +13,20 @@
 
 \title{Stocks of Canadian interest (for the Royal Society of Canada - Expert Panel on Oceans Health and Biodiversity)}
 
+%%\pagestyle{empty}
+
 \begin{document}
 \maketitle
 
 \section{Summary plots}
 
-\includepdf[pagecommand={\thispagestyle{plain}}, pages={1}]{../R/bean-brp-3panel.pdf}
+\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/RSC-asper-fig2-orig-1010.pdf}
 
-\includepdf[pagecommand={\thispagestyle{plain}}, pages={1-26}]{../R/RSC-report-plots.pdf}
+\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/RSC-asper-fig2-BRPratio-1010.pdf}
+
+\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/bean-brp-3panel.pdf}
+
+\includepdf[pagecommand={\thispagestyle{plain}}, pages={1-11}]{../R/RSC-report-plots.pdf}
 
 
 

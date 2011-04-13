@@ -1,6 +1,6 @@
 -- create a table with information about which assessment is the most recent, what it updates, whether it's a duplicate, etc.
 -- Daniel Ricard, started 2010-01-04
--- Last modified Time-stamp: <2011-04-06 10:36:40 (srdbadmin)>
+-- Last modified Time-stamp: <2011-04-07 14:24:57 (srdbadmin)>
 -- 2011-04-05: updates are starting to come in so I want to make sure that this table does a good job at capturing whether an entry is a true duplicate (same stock and same years, i.e. from the same assessment) or an update to an assessment (new years in the timeseries, maybe a different recorder)
 
 DROP TABLE srdb.mostrecent;
@@ -26,12 +26,12 @@ FROM
 (
 select stockid, max(maxyear) as maxyrstock
 from
-(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid and v.catch_landings is not null group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) 
+(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) 
 as aa
 group by stockid
 order by stockid
 ) as bb,
-(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid and v.catch_landings is not null group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) as cc
+(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) as cc
 where bb.stockid=cc.stockid
 ) as dd
 where ismostrecent = 1
@@ -46,12 +46,12 @@ FROM
 (
 select stockid, max(maxyear) as maxyrstock
 from
-(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid and v.catch_landings is not null group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) 
+(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) 
 as aa
 group by stockid
 order by stockid
 ) as bb,
-(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid and v.catch_landings is not null group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) as cc
+(select a.stockid, a.assessid, a.recorder, min(v.tsyear) as minyear, max(v.tsyear) as maxyear, max(v.tsyear)-min(v.tsyear) as span from srdb.timeseries_values_view v, srdb.assessment a where a.assessid=v.assessid group by a.stockid, a.assessid, a.recorder order by a.stockid, minyear, span desc, maxyear) as cc
 where bb.stockid=cc.stockid
 ) as gg
 where ff.assessid=gg.assessid

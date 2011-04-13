@@ -1,13 +1,15 @@
 ## functions required by RSC-asper-CJFAS-fig2-functions.R
 ## DR, from original code by CM
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-03-11 14:37:10 (srdbadmin)>
-
-
+## last modified Time-stamp: <2011-04-07 09:51:53 (srdbadmin)>
+## Modification history:
+## 2011-03-16: this code must be run only for stocks of Canadian interest, so I am adding some code to only keep a subset of stocks identified for inclusion by Jeff Hutchings
+## 2011-04-07: Jeff also wants the same type of plots but with F/Fmsy and normalised F as well, modifying the function to handle this
 ##------------------
 ## Model fitting
 ##------------------
 ## function to return the mixed effects index
+
 
 get.mixed.index<-function(region, category, min.year=1970, brp=TRUE){
   ## returns year and estimated fixed effects index
@@ -53,8 +55,13 @@ get.mixed.index<-function(region, category, min.year=1970, brp=TRUE){
     t<-t[!is.na(t$ssb),]
   } 
   ##if(length(t[,1])<1){stop("No data in this region-category combination")}
-  if(length(t[,1])<1){return(c("No data in this region-category combination"))}else{
-  ##stocks<-unique(t$stockid)
+  ##
+  ## this improperly handles the situation and causes the code to break further down because the function doesn't return a data frame
+  ##
+#  if(length(t[,1])<1){return(c("No data in this region-category combination"))}else{
+  if(length(t[,1])<1){return(data.frame(n=0))}else{
+## 
+    ##stocks<-unique(t$stockid)
   assessids<-unique(t$assessid)
   ## SCALING
   ## mean on log scale values
@@ -144,28 +151,19 @@ plot.poly.base.func<-function(region, category, ylim, xlim=c(1970,2010), yaxt="n
     }
   }
   if(region=="All" & category=="All"){
-    legend("topright", legend=paste("N=", n, sep=""), col=c("#7570B3"), lty=c(1,1) ,lwd=1.5, bty="n")
+    legend("topright", legend=paste("all (N=", n, ")", sep=""), col=c("#7570B3"), lty=c(1,1) ,lwd=1.5, bty="n")
   }else{
-    legend("topright", legend=c(paste("N=", ifelse(is.numeric(pel.n), pel.n,0), sep=""), paste("N=", ifelse(is.numeric(dem.n), dem.n,0), sep="")), col=c("#D95F02","#1B9E77"), lty=c(1,1) ,lwd=1.5, bty="n")
+    legend("topright", legend=c(paste("pelagic (N=", ifelse(is.numeric(pel.n), pel.n,0),")", sep=""), paste("demersal (N=", ifelse(is.numeric(dem.n), dem.n,0),")", sep="")), col=c("#D95F02","#1B9E77"), lty=c(1,1) ,lwd=1.5, bty="n")
   }
-  legend.text<-if(region=="All" & category=="All"){"(a)"}else{
-      if(region=="All" & category=="Both"){"(b)"}else{
-        if(region=="NWAtl"){"(c)"}else{
-          if(region=="NEAtl"){"(d)"}else{
-            if(region=="NorthMidAtl"){"(e)"}else{
-              if(region=="NEPac"){"(f)"}else{
-                if(region=="Aust-NZ"){"(g)"}else{
-                  if(region=="HighSeas"){"(h)"}
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  legend.text<-if(region=="All" & category=="All"){"All"}else{
+      if(region=="All" & category=="Both"){"All"}else{
+        if(region=="NEPac"){"Pacific"}else{
+          if(region=="NWAtl"){"Atlantic"}else{
+            if(region=="HighSeas"){"High Seas"}}}}}
+  
   par(font=2)
   ##legend("topleft", legend=legend.text, bty="n", cex=1.3, inset=-0.05, adj=c(1,0))
-  legend("topleft", legend=legend.text, bty="n", cex=1.2, inset=0.05, adj=c(2,0))
+  legend("topleft", legend=legend.text, bty="n", cex=1.2, inset=0.05)#, adj=c(2,0))
   par(font=1)
 }
 
@@ -220,7 +218,7 @@ plot.poly.trend.func<-function(region, category, ylim,brp=TRUE){
               try(with(brp.demersal.mixed.list[[region]], lines(years,antilog.index,col="#1B9E77", lwd=1.2)), silent=TRUE)
             }
           }else{
-            if(unique(orig.demersal.mixed.list[[region]]$n)>1){
+            if(unique(orig.demersal.mixed.list[[region]]$n)>1){ ## THIS BONKS OUT WHEN THERE IS NO DATA
               try(with(orig.demersal.mixed.list[[region]], polygon(c(years,rev(years)),c(lwr,rev(upr)),col="#1B9E7740", border=NA)), silent=TRUE)
               try(with(orig.demersal.mixed.list[[region]], lines(years,index,col="#1B9E77", lwd=1.2)), silent=TRUE)
             }

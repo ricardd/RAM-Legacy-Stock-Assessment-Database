@@ -1,0 +1,11 @@
+## function to perform multi-stock trend analyses
+
+##function to return the mixed effects index
+get.mixed.index<-function(metric, region, category, min.year=1970, brp=TRUE){
+## argument specified
+# metric - biomass or exploitation
+# region - geographic
+# category - taxonomic
+# min.year
+# brp - logical, FALSE means scaled to the mean, TRUE means ratio relative to MSY value
+  

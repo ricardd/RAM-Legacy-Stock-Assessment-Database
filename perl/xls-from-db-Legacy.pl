@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 ## generate an Excel file that is filled in using the database contents
 ## - this serves the purpose of generating a file to be used for updating a stock
-## Last modified Time-stamp: <2011-04-05 13:30:03 (srdbadmin)>
+## Last modified Time-stamp: <2011-04-12 15:32:48 (srdbadmin)>
 use strict;
 use warnings;
 use DBI;
@@ -114,23 +114,54 @@ $sheet2->write(7, 1, ("Life-history"), $format);
 $sheet2->write(8, 1, (""), $format);
 
 $sheet3->write(1, 1, ("Timeseries"), $format);
-# bring back the timeseries
-my $tssql = qq{select * from srdb.timeseries where assessid like \'$assessid\'};
+$sheet3->write(2, 1, ("tsyear"));
+
+# bring back the timeseries, one at a time and write each column separately
+
+my $c = 2;
+## loop over timeseries
+my $tssql = qq{select distinct(tsid) from srdb.timeseries where assessid like \'$assessid\'};
 my $tshandle = $dbh -> prepare($tssql);
 $tshandle -> execute();
-
-my $i=3;
-my $j=2;
-while (my @tsrow = $tshandle->fetchrow_array) {  # retrieve one row
-# loop over columns
-my $r = scalar @tsrow;
-for(my $rr=$j;$rr<$j+$r;$rr++){
-$sheet3->write($i,$rr,@tsrow[$rr-$j]);
-}
-$i=$i+1;
-    }
+while (my $tsid = $tshandle->fetchrow_array) {
+print("\t $tsid \t");
+$sheet3->write(2,$c,$tsid);
+$c=$c+1;
+} ## end loop over timeseries
 
 $tshandle->finish();
+
+my $r = 3;
+## loop over available years
+my $yrsql = qq{select distinct(tsyear) from srdb.timeseries where assessid like \'$assessid\' order by tsyear};
+my $yrhandle = $dbh -> prepare($yrsql);
+$yrhandle -> execute();
+while (my $yr = $yrhandle->fetchrow_array) {
+# print("$yr \t");
+$sheet3->write($r,1,$yr);
+## loop over timeseries
+my $tssql = qq{select distinct(tsid) from srdb.timeseries where assessid like \'$assessid\'};
+my $tshandle = $dbh -> prepare($tssql);
+$tshandle -> execute();
+my $c = 2;
+while (my $tsid = $tshandle->fetchrow_array) {
+my $valsql = qq{select tsvalue from srdb.timeseries where assessid like \'$assessid\' and tsid = \'$tsid\' and tsyear = $yr};
+## (CASE WHEN tsvalue IS NULL THEN \'NULL\' ELSE to_char(tsvalue, \'9999.99\') END) as
+my $valhandle = $dbh -> prepare($valsql);
+$valhandle -> execute();
+print("$r\t$c\n");
+$sheet3->write($r,$c,$valhandle->fetchrow_array);
+$c=$c+1;
+$valhandle -> finish();
+}
+## end loop over timeseries
+
+# print("\n");
+$r=$r+1;
+ } ## end loop over years
+ $yrhandle->finish();
+
+
 
 
 #----------------

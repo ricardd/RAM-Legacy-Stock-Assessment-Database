@@ -1,5 +1,5 @@
 ## R code to generate the plots requestesd by Jeff Hutchings for the final report of his Royal Society of Canada expert panel
-## Last modified Time-stamp: <2011-03-11 22:41:44 (srdbadmin)>
+## Last modified Time-stamp: <2011-04-07 13:16:00 (srdbadmin)>
 ##
 ##
 ## plots requested:
@@ -28,17 +28,17 @@ require(xtable)
 
 ## stocks of interest
 ##  -F \"\t\"
-my.assessments <- strsplit(system("psql srdb -f ../SQL/Canada-stocks.sql -A -t", intern=TRUE, ignore.stdout=FALSE, ignore.stderr=TRUE, wait=FALSE),"[|]")
+my.assessments <- strsplit(system("psql srdb -f ../../SQL/Canada-stocks.sql -A -t", intern=TRUE, ignore.stdout=FALSE, ignore.stderr=TRUE, wait=FALSE),"[|]")
 
 # turn into a data frame
 tt.dat <- as.data.frame(matrix(unlist(my.assessments),ncol=length(my.assessments[[1]]),byrow=TRUE))
-names(tt.dat) <- c("aid","rec","stock","sciname","years","assessor","mgmt","LME")
+names(tt.dat) <- c("assessid","rec","stockid","stock","sciname","years","assessor","mgmt","LME")
 table.dat<-data.frame(stock=tt.dat$stock,species=tt.dat$sciname,mgmt=tt.dat$mgmt,years=tt.dat$years,LME=tt.dat$LME)
 
 ## write to a LaTeX table
 my.caption <- c("Stocks present in the RAM Legacy database that inhabit Canadian waters and are of national relevance.")
   my.table <- xtable(table.dat, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{6.5cm}p{4cm}p{3.5cm}ccp{5.5cm}")
-  print(my.table, type="latex", file="../tex//Table.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+#  print(my.table, type="latex", file="../tex//Table.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 
 ll <- dim(tt.dat)[1]
@@ -52,7 +52,7 @@ par(mfrow=c(3,2))
 
 for (i in 1:ll){
 par(mar=c(4,3,2,4),new=FALSE)
-my.aid <- tt.dat$aid[i]
+my.aid <- tt.dat$assessid[i]
 my.stock <- tt.dat$stock[i]
 print(paste(i, my.stock,sep="  "))
 qu <- paste("select * from srdb.timeseries_values_view where assessid='",my.aid,"'",sep="")
@@ -295,14 +295,19 @@ par(mfrow=c(3,1))
 
 par(mar=c(1,5,1,1),oma=c(1,1,1,1))
 
-beanplot(ratio~rankall,data=all.dat,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+#beanplot(count ~ spray, data = InsectSprays,side = "second",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what = c(0, 1, 1, 1),method = "jitter", axes = F);axis(1);axis(2)
+
+beanplot.panel1 <- beanplot(ratio~rankall,data=all.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#,side = "second"
+
+         # col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
 nn <- dim(all.dat)[1]
 text(1,9.5,paste("all BRPs"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)
 abline(v=c(2.5,4.5,6.5,8.5),lty=2,lwd=0.5,col=grey(0.5))
 
 
-beanplot(ratio~rankall,data=pepper.dat,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+beanplot.panel2 <- beanplot(ratio~rankall,data=pepper.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#,side = "second"
+#,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
 nn <- dim(pepper.dat)[1] - ll.a
 text(1,9.5,paste("BRPs from assessment"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)
@@ -311,7 +316,8 @@ abline(v=c(2.5,4.5,6.5,8.5),lty=2,lwd=0.5,col=grey(0.5))
 mtext(side=2,c("B/Bmsy"),line=4,las=3)
 
 par(mar=c(4,5,1,1),oma=c(1,1,1,1),new=TRUE)
-beanplot(ratio~rankall,data=salt.dat,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+beanplot.panel3 <- beanplot(ratio~rankall,data=salt.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#
+#,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
 nn <- dim(salt.dat)[1] - ll.sp
 text(1,9.5,paste("BRPs from Schaefer model"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)

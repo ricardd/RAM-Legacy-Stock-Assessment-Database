@@ -1,0 +1,10 @@
+"region","category","n","index.start","index.end","percent.decline"
+"All","All","40","1.38","0.66","52.25"
+"All","Pelagic","16","1.08","0.62","42.06"
+"All","Demersal","24","1.63","0.7","57.06"
+"NWAtl","Pelagic","5","1.42","0.67","52.64"
+"NWAtl","Demersal","11","1.78","0.56","68.4"
+"NEPac","Pelagic","6","0.7","0.55","22.6"
+"NEPac","Demersal","13","1.63","0.82","49.41"
+"HighSeas","Pelagic","5","1.89","0.75","60.37"
+"HighSeas","Demersal","0",NA,NA,NA

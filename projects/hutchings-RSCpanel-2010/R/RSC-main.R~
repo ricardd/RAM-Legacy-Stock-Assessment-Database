@@ -1,0 +1,10 @@
+## main script for Jeff Hutching's Royal Society of Canada panel
+## Daniel Ricard: started 2011-04-07
+## Last modified Time-stamp: <2011-04-07 12:07:39 (srdbadmin)>
+## Modification history:
+##
+require(RODBC)
+
+rm(list=ls(all=TRUE))
+
+source("RSC-data.R")

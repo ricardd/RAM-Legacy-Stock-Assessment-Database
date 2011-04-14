@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  12 APR 2011 13:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  14 APR 2011 13:52
 entering extended mode
  %&-line parsing enabled.
 **RSC-plot-final-report
@@ -230,7 +230,7 @@ rchive-20110407/RSC-asper-fig2-BRPratio-1010.pdf>]
 \openout2 = `orig-Perc.aux'.
 
  (./orig-Perc.tex
-Overfull \hbox (168.14432pt too wide) in alignment at lines 3--20
+Overfull \hbox (9.64432pt too wide) in alignment at lines 3--20
  [] [] [] [] [] [] 
  []
 
@@ -240,11 +240,12 @@ Underfull \vbox (badness 10000) detected at line 20
 
 ) [4
 
+
 ]
 \openout2 = `BRP-Perc.aux'.
 
  (./BRP-Perc.tex
-Overfull \hbox (168.14432pt too wide) in alignment at lines 3--20
+Overfull \hbox (9.64432pt too wide) in alignment at lines 3--20
  [] [] [] [] [] [] 
  []
 
@@ -255,7 +256,24 @@ Underfull \vbox (badness 10000) detected at line 20
 ) [5
 
 
-] <../R/bean-brp-3panel.pdf, id=45, page=1, 496.85625pt x 794.97pt>
+] <../R/total-catch.pdf, id=45, page=1, 496.85625pt x 794.97pt>
+File: ../R/total-catch.pdf Graphic file (type pdf)
+
+<use ../R/total-catch.pdf, page 1>
+File: ../R/total-catch.pdf Graphic file (type pdf)
+ <use ../R/total-catch.pdf, page 1>
+File: ../R/total-catch.pdf Graphic file (type pdf)
+
+<use ../R/total-catch.pdf, page 1>
+File: ../R/total-catch.pdf Graphic file (type pdf)
+ <use ../R/total-catch.pdf, page 1>
+File: ../R/total-catch.pdf Graphic file (type pdf)
+
+<use ../R/total-catch.pdf, page 1> [6
+
+
+ <../R/total-catch.pdf>]
+<../R/bean-brp-3panel.pdf, id=56, page=1, 496.85625pt x 794.97pt>
 File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
 
 <use ../R/bean-brp-3panel.pdf, page 1>
@@ -268,10 +286,8 @@ File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
  <use ../R/bean-brp-3panel.pdf, page 1>
 File: ../R/bean-brp-3panel.pdf Graphic file (type pdf)
 
-<use ../R/bean-brp-3panel.pdf, page 1> [6
-
- <../R/bean-brp-3panel.pdf>]
-<../R/RSC-report-plots.pdf, id=57, page=1, 496.85625pt x 794.97pt>
+<use ../R/bean-brp-3panel.pdf, page 1> [7 <../R/bean-brp-3panel.pdf>]
+<../R/RSC-report-plots.pdf, id=69, page=1, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 1>
@@ -286,8 +302,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 1>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 1> [7 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=67, page=2, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 1> [8 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=78, page=2, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 2>
@@ -296,8 +312,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 2>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 2> [8 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=71, page=3, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 2> [9 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=82, page=3, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 3>
@@ -306,8 +322,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 3>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 3> [9 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=75, page=4, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 3> [10 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=86, page=4, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 4>
@@ -316,8 +332,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 4>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 4> [10 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=79, page=5, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 4> [11 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=90, page=5, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 5>
@@ -326,8 +342,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 5>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 5> [11 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=83, page=6, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 5> [12 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=94, page=6, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 6>
@@ -336,8 +352,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 6>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 6> [12 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=87, page=7, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 6> [13 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=99, page=7, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 7>
@@ -346,8 +362,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 7>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 7> [13 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=92, page=8, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 7> [14 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=103, page=8, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 8>
@@ -356,8 +372,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 8>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 8> [14 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=96, page=9, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 8> [15 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=107, page=9, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 9>
@@ -366,8 +382,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 9>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 9> [15 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=100, page=10, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 9> [16 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=111, page=10, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 10>
@@ -376,8 +392,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 10>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 10> [16 <../R/RSC-report-plots.pdf>]
-<../R/RSC-report-plots.pdf, id=104, page=11, 496.85625pt x 794.97pt>
+<use ../R/RSC-report-plots.pdf, page 10> [17 <../R/RSC-report-plots.pdf>]
+<../R/RSC-report-plots.pdf, id=115, page=11, 496.85625pt x 794.97pt>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
 <use ../R/RSC-report-plots.pdf, page 11>
@@ -386,8 +402,8 @@ File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 <use ../R/RSC-report-plots.pdf, page 11>
 File: ../R/RSC-report-plots.pdf Graphic file (type pdf)
 
-<use ../R/RSC-report-plots.pdf, page 11> [17 <../R/RSC-report-plots.pdf>]
-[18]
+<use ../R/RSC-report-plots.pdf, page 11> [18 <../R/RSC-report-plots.pdf>]
+[19]
 \openout2 = `Table.aux'.
 
  (./Table.tex
@@ -604,7 +620,7 @@ Underfull \hbox (badness 3229) in paragraph at lines 45--45
 []|\OT1/cmr/m/n/12 Atlantic cod NAFO
  []
 
-[19
+[20
 
 
 ]
@@ -737,18 +753,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|\OT1/cmr/m/n/12 Ophiodon elon-ga-
  []
 
-[20] [21]
+[21] [22]
 Underfull \hbox (badness 5064) in paragraph at lines 66--66
 []|\OT1/cmr/m/n/12 Platichthys stel-la-
  []
 
-[22] [23]) [24] (./RSC-plot-final-report.aux (./orig-Perc.aux) (./BRP-Perc.aux)
+[23] [24]) [25] (./RSC-plot-final-report.aux (./orig-Perc.aux) (./BRP-Perc.aux)
 (./Table.aux)) ) 
 Here is how much of TeX's memory you used:
- 2320 strings out of 495061
- 32717 string characters out of 1182622
+ 2326 strings out of 495061
+ 32849 string characters out of 1182622
  109429 words of memory out of 3000000
- 5460 multiletter control sequences out of 15000+50000
+ 5464 multiletter control sequences out of 15000+50000
  5756 words of font info for 21 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,16n,37p,228b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -758,9 +774,9 @@ hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb>
-Output written on RSC-plot-final-report.pdf (24 pages, 1387214 bytes).
+Output written on RSC-plot-final-report.pdf (25 pages, 1422510 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

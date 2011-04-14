@@ -1,7 +1,7 @@
 ## functions required by RSC-asper-CJFAS-fig2-functions.R
 ## DR, from original code by CM
 ## started: 2011-03-11
-## last modified Time-stamp: <2011-04-07 09:51:53 (srdbadmin)>
+## last modified Time-stamp: <2011-04-14 12:12:10 (srdbadmin)>
 ## Modification history:
 ## 2011-03-16: this code must be run only for stocks of Canadian interest, so I am adding some code to only keep a subset of stocks identified for inclusion by Jeff Hutchings
 ## 2011-04-07: Jeff also wants the same type of plots but with F/Fmsy and normalised F as well, modifying the function to handle this
@@ -121,7 +121,12 @@ get.mixed.index<-function(region, category, min.year=1970, brp=TRUE){
 ##-------------------
 
 ## set up the plotting area for a region
-plot.poly.base.func<-function(region, category, ylim, xlim=c(1970,2010), yaxt="n", xaxt="n", brp=TRUE){
+plot.poly.base.func<-function(region, category, ylim, xlim=c(1970,2006), yaxt="n", xaxt="n", brp=TRUE){
+  ## if BRP is true, we want to plot the y axis on a log scale
+#  ifelse(brp,
+#         plot(NA, xlim=xlim, ylim=ylim, xlab="", ylab="", xaxt=xaxt, yaxt="n", cex.axis=1.2, log="y"),
+#         plot(NA, xlim=xlim, ylim=ylim, xlab="", ylab="", xaxt=xaxt, yaxt="n", cex.axis=1.2)
+#         )
   plot(NA, xlim=xlim, ylim=ylim, xlab="", ylab="", xaxt=xaxt, yaxt="n", cex.axis=1.2)
   if(yaxt=="s"){axis(side=2,at=pretty(ylim),cex.axis=1.2)}
   if(region=="All" & category=="All"){
@@ -281,7 +286,7 @@ extract.percentage.change<-function(region, category, n.years, brp=TRUE){
   if(!is.character(dat.df)){
     ## first and last 5 year indices
     start.index<-dat.df$antilog.index[dat.df$years%in%seq(1970,1970+n.years-1)]
-    end.index<-dat.df$antilog.index[dat.df$years%in%seq(2007,2007-n.years+1)]
+    end.index<-dat.df$antilog.index[dat.df$years%in%seq(2006,2006-n.years+1)]
     ##
     start.mean<-mean(start.index)
     end.mean<-mean(end.index)

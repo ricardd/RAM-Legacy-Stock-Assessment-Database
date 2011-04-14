@@ -20,9 +20,12 @@
 
 \section{Summary plots}
 
-\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/RSC-asper-fig2-orig-1010.pdf}
+\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/archive-20110407/RSC-asper-fig2-orig-1010.pdf}
 
-\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/RSC-asper-fig2-BRPratio-1010.pdf}
+\includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/archive-20110407/RSC-asper-fig2-BRPratio-1010.pdf}
+
+\include{orig-Perc}
+\include{BRP-Perc}
 
 \includepdf[pagecommand={\thispagestyle{empty}}, pages={1}]{../R/bean-brp-3panel.pdf}
 

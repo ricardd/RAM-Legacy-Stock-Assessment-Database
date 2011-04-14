@@ -2,8 +2,8 @@
 %Å‚Å„ÅœÅ”\r
 1 0 obj
 <<
-/CreationDate (D:20110412135922)
-/ModDate (D:20110412135922)
+/CreationDate (D:20110414121305)
+/ModDate (D:20110414121305)
 /Title (RSC as per CJFAS fig2 BRPratio)
 /Producer (R 2.12.1)
 /Creator (R)
@@ -43,50 +43,59 @@ Q q
 38.02 336.00 l
 S
 Q q 38.02 336.00 223.49 148.99 re W n
-Q q 38.02 336.00 223.49 148.99 re W n
-0.459 0.439 0.702 RG
-1.12 w
-[] 0 d
-1 J
-1 j
-10.00 M
-201.66 475.49 m 215.92 475.49 l S
-BT
-0.000 0.000 0.000 rg
-/F2 1 Tf 8.00 0.00 -0.00 8.00 223.04 472.62 Tm (all \(N=29\)) Tj
-ET
-BT
-/F3 1 Tf 10.00 0.00 -0.00 10.00 66.30 462.55 Tm (All) Tj
-ET
-0.90 w
-[] 0 d
-46.29 417.60 m
-52.04 421.39 l
-57.79 415.82 l
-63.54 418.37 l
-69.29 425.74 l
-75.03 425.01 l
-80.78 421.33 l
-86.53 423.16 l
-92.28 422.73 l
-98.03 418.59 l
-103.77 422.82 l
-109.52 428.43 l
-115.27 425.28 l
-121.02 421.84 l
-126.77 417.45 l
-132.52 418.52 l
-138.26 414.32 l
-144.01 409.64 l
-149.76 410.82 l
-155.51 410.72 l
-161.26 405.73 l
-167.00 398.42 l
-172.75 393.44 l
-178.50 386.93 l
-184.25 380.24 l
-190.00 376.62 l
-195.75 377.58 l
+Q
+endstream
+endobj
+7 0 obj
+184
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Kids [
+5 0 R
+]
+/Count 1
+/MediaBox [0 0 504 504]
+>>
+endobj
+4 0 obj
+<<
+/ProcSet [/PDF /Text]
+/Font <<>>
+/ExtGState << >>
+>>
+endobj
+8 0 obj
+<<
+/Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+/Differences [ 45/minus 96/quoteleft
+144/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /space]
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000021 00000 n 
+0000000177 00000 n 
+0000000562 00000 n 
+0000000645 00000 n 
+0000000226 00000 n 
+0000000306 00000 n 
+0000000543 00000 n 
+0000000716 00000 n 
+trailer
+<<
+/Size 9
+/Info 1 0 R
+/Root 2 0 R
+>>
+startxref
+973
+%%EOF
+ 377.58 l
 201.49 380.25 l
 207.24 380.40 l
 212.99 379.55 l

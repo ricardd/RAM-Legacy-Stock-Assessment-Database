@@ -7,13 +7,13 @@ my.assessments <- strsplit(system("psql srdb -f ../SQL/Canada-stocks.sql -A -t",
 
 # turn into a data frame
 tt.dat <- as.data.frame(matrix(unlist(my.assessments),ncol=length(my.assessments[[1]]),byrow=TRUE))
-names(tt.dat) <- c("assessid","rec","stockid","stock","sciname","years","assessor","mgmt","LME")
+names(tt.dat) <- c("assessid","rec","stockid","stock","comname","area","sciname","years","assessor","mgmt","LME")
 table.dat<-data.frame(stock=tt.dat$stock,species=tt.dat$sciname,mgmt=tt.dat$mgmt,years=tt.dat$years,LME=tt.dat$LME)
 
 ## write to a LaTeX table
 my.caption <- c("Stocks present in the RAM Legacy database that inhabit Canadian waters and are of national relevance.")
   my.table <- xtable(table.dat, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{6.5cm}p{4cm}p{3.5cm}ccp{5.5cm}")
-  print(my.table, type="latex", file="../tex//Table.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+  print(my.table, type="latex", file="../tex/Table.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 
 ll <- dim(tt.dat)[1]
@@ -26,9 +26,10 @@ par(mfrow=c(3,2))
 ## loop over assessments and plot SSB and catch/landings vs time for each
 
 for (i in 1:ll){
-par(mar=c(4,3,2,4),new=FALSE)
+par(mar=c(4,3,4,4),new=FALSE)
 my.aid <- tt.dat$assessid[i]
 my.stock <- tt.dat$stock[i]
+my.title <- paste(tt.dat$comname[i],"\n",tt.dat$area[i],sep="")
 print(paste(i, my.stock,sep="  "))
 qu <- paste("select * from srdb.timeseries_values_view where assessid='",my.aid,"'",sep="")
 my.ts <- sqlQuery(chan,qu,stringsAsFactors=FALSE)
@@ -51,7 +52,7 @@ if("ssb"%in%avail.series & "catch_landings"%in%avail.series & "total"%in%avail.s
     
   my.ylim<-c(range(na.omit(c(my.ts$ssb,my.ts$total)))[1],range(na.omit(c(my.ts$ssb,my.ts$total)))[2]*1.15)
 plot(ssb~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=2,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -76,7 +77,7 @@ if("ssb"%in%avail.series & !"catch_landings"%in%avail.series & !"total"%in%avail
   my.ylim<-c(range(na.omit(c(my.ts$ssb,my.ts$total)))[1],range(na.omit(c(my.ts$ssb,my.ts$total)))[2]*1.15)
 plot(ssb~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=2,pch=19,lty=1,ylim=my.ylim)
 lines(total~tsyear,data=my.ts, xlab="",ylab="",type='b',lwd=4,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -91,7 +92,7 @@ if("ssb"%in%avail.series & "catch_landings"%in%avail.series & !"total"%in%avail.
   my.ssb.ylab.l <- paste("SSB (",my.tsu$ssb_unit,")",sep="")
   my.ylim<-c(range(na.omit(my.ts$ssb))[1],range(na.omit(my.ts$ssb))[2]*1.15)
 plot(ssb~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=2,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -113,7 +114,7 @@ if(!"ssb"%in%avail.series & "catch_landings"%in%avail.series & "total"%in%avail.
     
   my.ylim<-c(range(na.omit(my.ts$total))[1],range(na.omit(my.ts$total))[2]*1.15)
 plot(total~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=4,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -135,7 +136,7 @@ if("ssb"%in%avail.series & !"catch_landings"%in%avail.series & !"total"%in%avail
   my.ssb.ylab.l <- paste("SSB (",my.tsu$ssb_unit,")",sep="")
   my.ylim<-c(range(na.omit(my.ts$ssb))[1],range(na.omit(my.ts$ssb))[2]*1.15)
 plot(ssb~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=2,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -150,7 +151,7 @@ if(!"ssb"%in%avail.series & !"catch_landings"%in%avail.series & "total"%in%avail
     my.tb.ylab.l <- paste("TB (",my.tsu$total_unit,")",sep="")
   my.ylim<-c(range(na.omit(my.ts$total))[1],range(na.omit(my.ts$total))[2]*1.15)
 plot(total~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=4,pch=19,lty=1,ylim=my.ylim)
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 axis(side=2)
 mtext(side=2,my.ssb.ylab,line=2)
@@ -162,7 +163,7 @@ legend('topright',c(my.tb.ylab.l),pch=c(19),lty=c(1),col=c('black'),lwd=c(4))
 if(!"ssb"%in%avail.series & "catch_landings"%in%avail.series & !"total"%in%avail.series)
   {  nn <- length(my.ts$tsyear)
 plot(rep(-1,nn)~tsyear,data=my.ts, xlab="Year",ylab="",axes=FALSE,type='b',lwd=2,pch=19,lty=1,ylim=c(0,0.1))
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 axis(side=1)
 #axis(side=2)
 #mtext(side=2,my.ssb.ylab,line=2)
@@ -180,7 +181,7 @@ legend('topright',c(my.c.ylab),pch=c(1),lty=c(2),col=c(grey(0.5)),lwd=c(2))
 if(!"ssb"%in%avail.series & !"catch_landings"%in%avail.series & !"total"%in%avail.series)
   {
   plot(1, type="n", axes=FALSE,xlab="", ylab="")
-title(my.stock,cex=0.75)
+title(my.title,cex=0.75)
 legend("center", legend="No SSB, TB or catch \n available", bty="n", cex=1.1)
 }
 

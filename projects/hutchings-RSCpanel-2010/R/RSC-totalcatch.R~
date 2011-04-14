@@ -1,0 +1,10 @@
+##
+##
+require(RODBC)
+require(beanplot)
+chan<-odbcConnect(dsn='srdbcalo')
+
+
+
+
+odbcClose(chan)

@@ -1,6 +1,5 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.26)  3 MAR 2011 12:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  29 APR 2011 15:12
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **fandf-RESUBMIT2011-bundle
 (./fandf-RESUBMIT2011-bundle.tex
@@ -435,7 +434,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
 LaTeX Warning: Float too large for page by 328.54753pt on input line 33.
 
-) [5]
+) [5] [6
+
+
+]
 \openout2 = `Figures-RESUBMIT.aux'.
 
  (./Figures-RESUBMIT.tex
@@ -458,17 +460,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--47
 
  []
 
-[6
-
-
+[7
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 48--60
 
  []
 
-[7] [8]
-</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=35, 84
+[8] [9]
+</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=38, 84
 5.1575pt x 597.23125pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
 ic file (type pdf)
@@ -481,10 +481,10 @@ Overfull \hbox (26.17653pt too wide) in paragraph at lines 67--68
 
 LaTeX Warning: Float too large for page by 60.00761pt on input line 70.
 
-[9 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page i
-s rotated 90 degrees>]
+[10 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
+is rotated 90 degrees>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessme
-nt.pdf, id=43, 722.7pt x 722.7pt>
+nt.pdf, id=46, 722.7pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-ass
 essment.pdf Graphic file (type pdf)
 
@@ -496,7 +496,7 @@ Overfull \hbox (98.44652pt too wide) in paragraph at lines 76--77
 
 
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phyl
-o.pdf, id=44, 433.62pt x 722.7pt>
+o.pdf, id=47, 433.62pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel
 -phylo.pdf Graphic file (type pdf)
 
@@ -505,67 +505,113 @@ phylo.pdf>
 
 LaTeX Warning: Float too large for page by 32.98598pt on input line 86.
 
-[10 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
-ssment.pdf>] [11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review
+[11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
+ssment.pdf>] [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review
 /three-panel-phylo.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf, i
-d=64, 483.8075pt x 216.81pt>
+d=67, 483.8075pt x 216.81pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.p
 df Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pd
-f> [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
+f> [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
 .pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt.
-pdf, id=71, 578.16pt x 722.7pt>
+pdf, id=75, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
 mgmt.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bym
 gmt.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bymgmt-
-10plots.pdf, id=72, 578.16pt x 722.7pt>
+10plots.pdf, id=76, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
 mgmt-10plots.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bym
-gmt-10plots.pdf> [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-re
-view/friedegg-bymgmt.pdf>] [14 </home/srdbadmin/srdb/projects/fishandfisheries/
-R/first-review/friedegg-bymgmt-10plots.pdf>]
+gmt-10plots.pdf> [14
+
+
+
+
+] [15 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-b
+ymgmt.pdf>] [16 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/
+friedegg-bymgmt-10plots.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots.
-pdf, id=88, 794.97pt x 496.85625pt>
+pdf, id=94, 794.97pt x 496.85625pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
 lots.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
 ots.pdf>
-Overfull \hbox (26.17653pt too wide) in paragraph at lines 123--124
+Overfull \hbox (26.17653pt too wide) in paragraph at lines 125--126
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 6.89612pt on input line 126.
+LaTeX Warning: Float too large for page by 6.89612pt on input line 128.
 
-[15 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
+[17 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
 ots.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxoc
+ategory.pdf, id=102, 722.7pt x 289.08pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
+taxocategory.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-byt
+axocategory.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pd
+f, id=103, 578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ta
+xo.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-tax
+o.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-top30fi
+sheries.pdf, id=104, 578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-to
+p30fisheries.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-top
+30fisheries.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pd
+f, id=105, 496.85625pt x 794.97pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MT
+Ls.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTL
+s.pdf>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SS
+Blim.pdf, id=106, 496.85625pt x 794.97pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-IC
+ES-SSBlim.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICE
+S-SSBlim.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correla
-tions.pdf, id=96, 433.62pt x 563.10374pt>
+tions.pdf, id=107, 433.62pt x 563.10374pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-co
 rrelations.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
-relations.pdf>) [16 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
-iew/Schaefer-correlations.pdf>]
+relations.pdf>) [18
+
+
+ </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxo
+category.pdf>] [19 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-revi
+ew/friedegg-taxo.pdf>] [20 </home/srdbadmin/srdb/projects/fishandfisheries/R/fi
+rst-review/friedegg-top30fisheries.pdf>] [21 </home/srdbadmin/srdb/projects/fis
+handfisheries/R/first-review/friedegg-MTLs.pdf>] [22 </home/srdbadmin/srdb/proj
+ects/fishandfisheries/R/first-review/friedegg-ICES-SSBlim.pdf>] [23 </home/srdb
+admin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correlations.pdf>]
+ [24
+
+]
 \openout2 = `Table-S2.aux'.
 
- (./Table-S2.tex) [17
+ (./Table-S2.tex) [25
 
-
-
-
-
-
-
+] [26
 
 ]
 \openout2 = `Table-S1-formatted.aux'.
@@ -840,11 +886,10 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 46--66
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[18
+[27
 
 
-
-] [19]
+] [28]
 Underfull \hbox (badness 3039) in paragraph at lines 66--66
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
@@ -879,7 +924,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 66--86
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[20]
+[29]
 Underfull \hbox (badness 3039) in paragraph at lines 86--86
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
@@ -929,7 +974,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 106--126
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[21]
+[30]
 Underfull \hbox (badness 3098) in paragraph at lines 131--131
 []|\OT1/cmr/m/n/6 Pollock ICES IIIa, VI and
  []
@@ -989,7 +1034,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 126--146
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[22]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\OT1/cmr/m/n/6 Peruvian an-choveta
  []
@@ -1024,7 +1069,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 146--166
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[23]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []|\OT1/cmr/m/n/6 Southern blue whit-ing
  []
@@ -1045,16 +1090,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--183
  []
 
 
-Overfull \hbox (1.93544pt too wide) in alignment at lines 166--186
- [] [] [] [] [] [] [] [] [] [] 
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 []|\OT1/cmr/m/n/6 Greenland hal-ibut NAFO
  []
 
 
+Overfull \hbox (1.93544pt too wide) in alignment at lines 166--186
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[33]
 Underfull \hbox (badness 3039) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
@@ -1174,7 +1219,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 206--226
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[25]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\OT1/cmr/m/n/6 Yellowtail floun-der Georges
  []
@@ -1249,7 +1294,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 226--246
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[26]
+[35]
 Underfull \hbox (badness 3039) in paragraph at lines 246--246
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
@@ -1324,7 +1369,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 246--266
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[27]
+[36]
 Underfull \hbox (badness 3039) in paragraph at lines 266--266
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
@@ -1414,7 +1459,7 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 266--286
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[28]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []|\OT1/cmr/m/n/6 California scor-pi-onfish
  []
@@ -1514,19 +1559,9 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 286--306
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[29]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\OT1/cmr/m/n/6 Bocaccio South-ern Pa-cific
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 309--309
-[]|\OT1/cmr/m/n/6 Statistical catch at age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/6 Northern rock-fish Gulf of
  []
 
 
@@ -1536,42 +1571,47 @@ Underfull \hbox (badness 3039) in paragraph at lines 310--310
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\OT1/cmr/m/n/6 Northern rock-fish Gulf of
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 311--311
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []|\OT1/cmr/m/n/6 Yelloweye rock-fish Pa-cific
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 312--312
+Underfull \hbox (badness 3039) in paragraph at lines 313--313
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 315--315
+Underfull \hbox (badness 7030) in paragraph at lines 316--316
 []|\OT1/cmr/m/n/6 Greater am-ber-jack Gulf of
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 316--316
+Underfull \hbox (badness 4181) in paragraph at lines 317--317
 []|\OT1/cmr/m/n/6 Greater am-ber-jack South-ern
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 316--316
+Underfull \hbox (badness 3039) in paragraph at lines 317--317
 []|\OT1/cmr/m/n/6 Statistical catch at age
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 320--320
-[]|\OT1/cmr/m/n/6 Statistical catch at age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]|\OT1/cmr/m/n/6 Walleye pol-lock Aleu-tian
  []
 
 
 Underfull \hbox (badness 3039) in paragraph at lines 321--321
 []|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]|\OT1/cmr/m/n/6 Walleye pol-lock Aleu-tian
  []
 
 
@@ -1585,7 +1625,12 @@ Underfull \hbox (badness 3039) in paragraph at lines 323--323
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 324--324
+Underfull \hbox (badness 3039) in paragraph at lines 324--324
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 325--325
 []|\OT1/cmr/m/n/6 White hake Georges Bank /
  []
 
@@ -1594,24 +1639,19 @@ Overfull \hbox (1.93544pt too wide) in alignment at lines 306--326
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
 []|\OT1/cmr/m/n/6 Walleye pol-lock West-ern
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\OT1/cmr/m/n/6 Shortfin mako Noth-west
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 332--332
+Underfull \hbox (badness 2884) in paragraph at lines 333--333
 []|\OT1/cmr/m/n/6 Striped mar-lin South-west-ern
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 332--332
-[]|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
@@ -1620,18 +1660,13 @@ Underfull \hbox (badness 3039) in paragraph at lines 333--333
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 334--334
-[]|\OT1/cmr/m/n/6 Albacore tuna South Pa-cific
- []
-
-
 Underfull \hbox (badness 3039) in paragraph at lines 334--334
 []|\OT1/cmr/m/n/6 Statistical catch at age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
-[]|\OT1/cmr/m/n/6 Yellowfin tuna Cen-tral
+Underfull \hbox (badness 1540) in paragraph at lines 335--335
+[]|\OT1/cmr/m/n/6 Albacore tuna South Pa-cific
  []
 
 
@@ -1640,8 +1675,8 @@ Underfull \hbox (badness 3039) in paragraph at lines 335--335
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 336--336
-[]|\OT1/cmr/m/n/6 Bigeye tuna West-ern Pa-cific
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+[]|\OT1/cmr/m/n/6 Yellowfin tuna Cen-tral
  []
 
 
@@ -1650,17 +1685,27 @@ Underfull \hbox (badness 3039) in paragraph at lines 336--336
  []
 
 
-Overfull \hbox (1.93544pt too wide) in alignment at lines 326--341
+Underfull \hbox (badness 1112) in paragraph at lines 337--337
+[]|\OT1/cmr/m/n/6 Bigeye tuna West-ern Pa-cific
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 337--337
+[]|\OT1/cmr/m/n/6 Statistical catch at age
+ []
+
+
+Overfull \hbox (1.93544pt too wide) in alignment at lines 326--342
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[31] [32]) [33] (./fandf-RESUBMIT2011-bundle.aux (./Table1-formatted.aux)
+[40] [41]) [42] (./fandf-RESUBMIT2011-bundle.aux (./Table1-formatted.aux)
 (./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux)) ) 
 Here is how much of TeX's memory you used:
- 4186 strings out of 495061
- 62426 string characters out of 1182621
- 199130 words of memory out of 3000000
- 7190 multiletter control sequences out of 15000+50000
+ 4216 strings out of 495061
+ 64376 string characters out of 1182622
+ 199183 words of memory out of 3000000
+ 7215 multiletter control sequences out of 15000+50000
  12446 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,35p,685b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1674,9 +1719,9 @@ cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmti7.pfb>
-Output written on fandf-RESUBMIT2011-bundle.pdf (33 pages, 3407460 bytes).
+Output written on fandf-RESUBMIT2011-bundle.pdf (42 pages, 5416592 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10793 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 10818 words of extra memory for PDF output out of 12000 (max. 10000000)
 

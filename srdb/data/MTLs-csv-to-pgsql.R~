@@ -1,0 +1,5 @@
+require(RODBC)
+my.tl <- read.csv("BRANCH-Assessment-TLs-v4.csv")
+chan <- odbcConnect(dsn="srdbcalo")
+
+odbcClose(chan)

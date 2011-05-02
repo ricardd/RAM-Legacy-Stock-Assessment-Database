@@ -192,7 +192,7 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "BUTTERGOMCHATT",172567,"Peprilus triacanthus","Atlantic butterfish","USA-NMFS-GOMCHATT","Atlantic butterfish Gulf of Maine / Cape Hatteras",1,"BUTTER56"
 "SCUPNWATLC",169182,"Stenotomus chrysops","Scup","USA-NMFS-NWATLC","Scup Atlantic Coast",1,"SCUP"
 "WINFLOUNGB",172905,"Pseudopleuronectes americanus","Winter flounder","USA-NMFS-GB","Winter flounder Georges Bank",0,NULL
-"HERRNWATLC",161722,"Clupea harengus","Herring","USA-NMFS-NWATLC","Atlantic herring Northwestern Atlantic Coast",0,NULL
+"HERRNWATLC",161722,"Clupea harengus","Herring","USA-NMFS-NWATLC","Herring Northwestern Atlantic Coast",0,NULL
 "RSNAPEGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-EGM","Red snapper Eastern Gulf of Mexico",0,NULL
 "RSNAPWGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-WGM","Red snapper Western Gulf of Mexico",0,NULL
 "BRNROCKSHRIMPSATLC",96028,"Sicyonia brevirostris","Brown rock shrimp","USA-NMFS-SATLC","Brown rock shrimp Southern Atlantic Coast",0,NULL
@@ -318,9 +318,9 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "CTRACSA",168598,"Trachurus capensis","Cape horse mackerel","South Africa-DETMCM-SASC","Cape horse mackerel South Africa South coast",1,"SAHMACK"
 "PATGRENADIERSARG",550662,"Macruronus magellanicus","Patagonian grenadier","Argentina-INIDEP-ARG-S","Patagonian grenadier Southern Argentina",0,NULL
 "BSKATCANATL",564139,"Dipturus laevis","Barndoor skate","Canada-DFO-ATL","Barndoor skate Canadian Atlantic Ocean",0,NULL
-"REDFISHSPP1",-998,"Redfish species","Redfish species","multinational-NAFO-1","Redfish species NAFO 1",0,NULL
-"REDFISHSPP3M",-998,"Redfish species","Redfish species","multinational-NAFO-3M","Redfish species NAFO 3M",0,NULL
-"REDFISHSPP3LN",-998,"Redfish species","Redfish species","multinational-NAFO-3LN","Redfish species NAFO 3LN",0,NULL
+"REDFISHSPP1",166705,"Redfish spp","Redfish species","multinational-NAFO-1","Redfish species NAFO 1",0,NULL
+"REDFISHSPP3M",166705,"Redfish spp","Redfish species","multinational-NAFO-3M","Redfish species NAFO 3M",0,NULL
+"REDFISHSPP3LN",166705,"Redfish spp","Redfish species","multinational-NAFO-3LN","Redfish species NAFO 3LN",0,NULL
 "OROUGHYNZMEC",166139,"Hoplostethus atlanticus","Orange roughy","New Zealand-MFish-NZMEC","Orange roughy New Zealand Mid East Coast",0,NULL
 "BIGEYEIO",172428,"Thunnus obesus","Bigeye tuna","multinational-IOTC-IO","Bigeye tuna Indian Ocean",0,NULL
 "ATLCROAKMATLC",169283,"Micropogonias undulatus","Atlantic croaker","USA-NMFS-MATLC","Atlantic croaker Mid-Atlantic Coast",0,NULL

@@ -1,6 +1,164 @@
+## orca plots for resubmission of Fish and Fisheries manuscript 2011
 ##
-##
+##-----------------------------------------------------------------------------
+## plot the count of assessments for a given data type by year in the database
+## DR, CM
+## date: Tue Dec  1 14:26:02 AST 2009
+## Time-stamp: <2011-02-02 20:39:33 (srdbadmin)>
+##-----------------------------------------------------------------------------
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
 
-pdf("orca_plot.pdf")
+
+require(RODBC)
+## open a channel to the database
+mychan<-odbcConnect(dsn="srdbcalo") # note how the DSN is used here
+
+## catch
+catch.span.qu<-paste("select v.assessid, min(tsyear) as minyear, max(tsyear) as maxyear, max(tsyear)-min(tsyear) as span from srdb.newtimeseries_values_view v, srdb.assessment a where a.assess=1 and a.assessid=v.assessid and catch_landings is not null group by v.assessid order by minyear, span desc, maxyear;")
+catch.span.dat<-sqlQuery(mychan, catch.span.qu)
+
+## ssb
+ssb.span.qu<-paste("select v.assessid, min(tsyear) as minyear, max(tsyear) as maxyear, max(tsyear)-min(tsyear) as span from srdb.newtimeseries_values_view v, srdb.assessment a where a.assess=1 and a.assessid=v.assessid and ssb is not null group by v.assessid order by minyear, span desc, maxyear;")
+ssb.span.dat<-sqlQuery(mychan, ssb.span.qu)
+
+## recruits
+r.span.qu<-paste("select v.assessid, min(tsyear) as minyear, max(tsyear) as maxyear, max(tsyear)-min(tsyear) as span from srdb.newtimeseries_values_view v, srdb.assessment a where a.assess=1 and a.assessid=v.assessid and r is not null group by v.assessid order by minyear, span desc, maxyear;")
+r.span.dat<-sqlQuery(mychan, r.span.qu)
+
+qu <- paste("select a.assessid, t.scientificname, s.stocklong from srdb.assessment a, srdb.stock s, srdb.taxonomy t where a.stockid=s.stockid and s.tsn=t.tsn and a.recorder != 'MYERS' and a.assess=1")
+sci.names <- sqlQuery(mychan, qu)
+
+qu <- paste("select a.assessid, min(ts.tsyear) || '-' || max(ts.tsyear) as timespan from srdb.assessment a, srdb.timeseries ts where a.assessid = ts.assessid group by a.assessid")
+timespan <- sqlQuery(mychan, qu)
+
+### write to a Latex table for Table S1 of manuscript
+#temp1 <- merge(catch.span.dat, ssb.span.dat, "assessid")
+#temp2 <- merge(temp1, r.span.dat, "assessid")
+#temp3 <- merge(temp2, sci.names, "assessid")
+#temp4 <- merge(temp3, timespan)
+
+#my.table.data <- data.frame(stock=temp4$stocklong, scientificname=temp4$scientificname, timespan=temp4$timespan, nyrscatch=temp4$span.x, nyrsssb=temp4$span.y, nyrsr=temp4$span)
+
+#write.table(my.table.data, "orca.dat")
+
+#my.table.S1 <- xtable(my.table.data, caption = c("Summary of the assessments used in this analysis and the timespan of their different results."),align="p{6cm}p{3cm}ccccc",label="tab:orca")
+
+#print(my.table.S1, type="latex", file="../tex/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", floating.environment="sidewaystable")
+
+plot.xlim<-range(c(catch.span.dat$minyear,ssb.span.dat$minyear,r.span.dat$minyear,catch.span.dat$maxyear,ssb.span.dat$maxyear,r.span.dat$maxyear ))
+ylim.upper <- max(c(dim(catch.span.dat)[1],dim(ssb.span.dat)[1],dim(r.span.dat)[1]))
+plot.ylim<-c(0,ylim.upper)
+
+##line.col.binary<-rep(c("black"), 400)
+line.col.binary<-rep(c("black","darkgrey"), 400)
+##line.col.binary<-seq(1,400)
+
+plot.span.func<-function(data, xaxt, yaxt, my.legend, hist.lab){
+  plot(1, type="n", xlim=plot.xlim, ylim=plot.ylim, axes=FALSE, xlab="", ylab="", bty="n", cex=0.5)
+  if(xaxt){axis(side=1, cex.axis=1.4, lwd=0.5)}
+  if(yaxt){axis(side=2, cex.axis=1.4, lwd=0.5)}
+  box(lwd=0.5)
+  sapply(seq(1,length(data[,1])), function(i){
+  lines(c(data$minyear[i], data$maxyear[i]),c(i,i), lwd=(308/(96*2.5))/3, col=line.col.binary[i])
+  })
+  legend("topleft", legend=my.legend, cex=1.7, bty="n")
+  ## counts per year, for percentiles
+  years<-seq(min(data$minyear), 2011)
+  count.per.year<-sapply(seq(1, length(years)), function(x){
+  dat<-data[data$minyear<=years[x] & data$maxyear>=years[x],]
+  return(length(dat[,1]))
+  })
+  ##percent.per.year<-count.per.year/dim(data)[1]
+  percent.per.year<-count.per.year/max(count.per.year)
+  ## linearly interpolate
+  percent.interp<-approx(years,percent.per.year, xout=seq(min(years), max(years), length=10000))
+  lwr.year.index<-percent.interp$x<percent.interp$x[which.max(percent.interp$y)]
+  lwr.years<-percent.interp$x[lwr.year.index]
+  lwr.percent.dat<-percent.interp$y[lwr.year.index]
+  lwr.90.percent<-lwr.years[which.min(abs(lwr.percent.dat-0.9))]
+  lwr.50.percent<-lwr.years[which.min(abs(lwr.percent.dat-0.5))]  
+  upr.year.index<-percent.interp$x>=percent.interp$x[which.max(percent.interp$y)]
+  upr.years<-percent.interp$x[upr.year.index]
+  upr.percent.dat<-percent.interp$y[upr.year.index]
+  upr.90.percent<-upr.years[which.min(abs(upr.percent.dat-0.9))]
+  upr.50.percent<-upr.years[which.min(abs(upr.percent.dat-0.5))]
+  polygon(c(lwr.50.percent, lwr.50.percent, upr.50.percent, upr.50.percent), c(-6,-3,-3,-6), border=NA, col="darkgrey")  
+  polygon(c(lwr.90.percent, lwr.90.percent, upr.90.percent, upr.90.percent), c(-6,-3,-3,-6), border=NA, col=1)
+  ##lines(c(lwr.90.percent, lwr.90.percent), c(-20,0), lwd=1.2)
+  ##lines(c(upr.90.percent, upr.90.percent), c(-20,0), lwd=1.2)
+  ##lines(c(lwr.50.percent, lwr.50.percent), c(-20,0), lwd=1.2, col="darkgrey")
+  ##lines(c(upr.50.percent, upr.50.percent), c(-20,0), lwd=1.2, col="darkgrey")  
+  ##----------------------------------
+  hist(data$span, breaks=30, col="darkgrey", border=NA, ylim=c(0,45), main="",axes=FALSE)
+  axis(side=4, lwd=0.5);axis(side=1, at=seq(10,120, by=20), lwd=0.5)
+  abline(v=quantile(data$span, p=c(0.05,0.5,0.95)), lty=c(5,1,5), lwd=0.5)
+  print(quantile(data$span, p=c(0.05,0.5,0.95)))
+  if(hist.lab){
+    mtext(side=1,text="Span (years)", line=2)
+    mtext(side=4,text="Frequency", line=2)
+  }
+  box(lwd=0.5)
+
+  return(c(lwr.50.percent,lwr.90.percent,upr.90.percent,upr.50.percent))
+}
+
+
+layout.mat<-matrix(c(
+                     rep(c(2,2,1,1,4,4,3,3,6,6,5,5),2),
+                     rep(c(rep(1,4),rep(3,4),rep(5,4)),4)
+                     ), nrow=6,byrow=TRUE)
+
+pdf("./orca-plot.pdf", height=3, width=6.7, pointsize=1)
+#png("./orca_plot_v2.png", height=400, width=800)
+##bitmap("./orca_plot.png", width=8,height=5, type="png256", res=1000,units="in", pointsize=12)
+##postscript("./orca_plot.eps", height=5, width=8, pointsize=1)
+layout(layout.mat)
+par(mar=c(0,0,0,0), oma=c(5,5,2,2))
+## catch
+##plot.span.func(test.dat, xaxt=TRUE, yaxt=TRUE, my.legend="Catch/Landings")
+catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
+legend(-20,50, legend="A", cex=1.7, bty="n")
+## ssb
+ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
+legend(-20,50, legend="B", cex=1.7, bty="n")
+## recruits
+rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
+legend(-20,50, legend="C", cex=1.7, bty="n")
+mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
+mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
 dev.off()
+
+catch.q <- round(catch.quartiles,0)
+ssb.q <- round(ssb.quartiles,0)
+rec.q <- round(rec.quartiles,0)
+
+catch.90 <- paste(catch.q[1], catch.q[4], sep="-")
+catch.50 <- paste(catch.q[2], catch.q[3], sep="-")
+ssb.90 <- paste(ssb.q[1], ssb.q[4], sep="-")
+ssb.50 <- paste(ssb.q[2], ssb.q[3], sep="-")
+rec.90 <- paste(rec.q[1], rec.q[4], sep="-")
+rec.50 <- paste(rec.q[2], rec.q[3], sep="-")
+
+tot.num.assessment <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:TOTNUMASSESSMENT'")
+num.assessment.catch <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMCATCHSERIES'")
+percent.catch <- round(num.assessment.catch / tot.num.assessment * 100,0)
+num.assessment.ssb <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMSSBSERIES'")
+percent.ssb <- round(num.assessment.ssb / tot.num.assessment * 100, 0)
+num.assessment.r <- sqlQuery(mychan, "select value from fishfisheries.results where flag = 'REF:SQL:NUMRSERIES'")
+percent.r <- round(num.assessment.r / tot.num.assessment * 100, 0)
+
+## send this to fishfisheries.results
+
+qu <- paste(
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTCATCHSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCATCHSERIES','",percent.catch,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTSSBSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSSBSERIES','",percent.ssb,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:PERCENTRSERIES'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTRSERIES','",percent.r,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN90','",catch.90,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN90','",ssb.90,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN90'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN90','",rec.90,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:CATCHTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:CATCHTIMESPAN50','",catch.50,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:SSBTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:SSBTIMESPAN50','",ssb.50,"')",sep=""),
+            paste("DELETE FROM fishfisheries.results WHERE flag = 'REF:SQL:RTIMESPAN50'; INSERT INTO fishfisheries.results VALUES ('REF:SQL:RTIMESPAN50','",rec.50,"')",sep=""),
+            sep=";")
+sqlQuery(mychan,qu)
 

@@ -1,0 +1,4 @@
+
+chan <- odbcConnect(dsn='srdbcalo')
+
+odbcClose(chan)

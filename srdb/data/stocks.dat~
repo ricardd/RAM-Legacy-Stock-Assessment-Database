@@ -192,7 +192,7 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "BUTTERGOMCHATT",172567,"Peprilus triacanthus","Atlantic butterfish","USA-NMFS-GOMCHATT","Atlantic butterfish Gulf of Maine / Cape Hatteras",1,"BUTTER56"
 "SCUPNWATLC",169182,"Stenotomus chrysops","Scup","USA-NMFS-NWATLC","Scup Atlantic Coast",1,"SCUP"
 "WINFLOUNGB",172905,"Pseudopleuronectes americanus","Winter flounder","USA-NMFS-GB","Winter flounder Georges Bank",0,NULL
-"HERRNWATLC",161722,"Clupea harengus","Herring","USA-NMFS-NWATLC","Atlantic herring Northwestern Atlantic Coast",0,NULL
+"HERRNWATLC",161722,"Clupea harengus","Herring","USA-NMFS-NWATLC","Herring Northwestern Atlantic Coast",0,NULL
 "RSNAPEGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-EGM","Red snapper Eastern Gulf of Mexico",0,NULL
 "RSNAPWGM",168853,"Lutjanus campechanus","Red snapper","USA-NMFS-WGM","Red snapper Western Gulf of Mexico",0,NULL
 "BRNROCKSHRIMPSATLC",96028,"Sicyonia brevirostris","Brown rock shrimp","USA-NMFS-SATLC","Brown rock shrimp Southern Atlantic Coast",0,NULL
@@ -368,3 +368,11 @@ stockid,tsn,scientificname,commonname,areaid,stocklong,inMYERSDB,MYERSstockid
 "WEAKFISHATLC",169241,"Cynoscion regalis","Weakfish","USA-NMFS-ATLC","Weakfish Atlantic Coast",0,NULL
 "RKCRABNS",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-NS","Red king crab Norton Sound",0,NULL
 "PANCHPERUNC",551340,"Engraulis ringens","Peruvian anchoveta","Peru-IMARPE-NC","Peruvian anchoveta North-Central Peru",1,"PANCHNCS"
+"BLACKOREOWECR",625296,"Allocyttus niger","Black oreo","New Zealand-MFish-WECR","Black oreo West end of Chatham Rise",0,NULL
+"ATLMENHADEN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-Atlantic","Atlantic menhaden Atlantic",1,"MENATLAN"
+"ANCHOVYKILKACS",551220,"Clupeonella engrauliformis","Anchovy kilka","Iran-Iran-CS","Anchovy kilka Caspian Sea",0,NULL
+"SURFNWATL",80944,"Spisula solidissima","Atlantic surfclam","USA-NMFS-NWATL","Atlantic surfclam Northwest Atlantic (northeastern USA)",0,NULL
+"SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL
+"STMARLINSWPO",768127,"Kajikia audax","Striped marlin","multinational-SPC-WPO","Striped marlin Southwestern Pacific Ocean",0,NULL
+"SABLEFPCAN",167123,"Anoplopoma fimbria","Sablefish","Canada-DFO-PCOAST","Sablefish Pacific Coast of Canada",1,"SABLEFPCAN"
+"PTOOTHFISHMI",642807,"Dissostichus eleginoides","Patagonian toothfish","Australia-AFMA-MI","Patagonian toothfish Macquarie Island",0,NULL

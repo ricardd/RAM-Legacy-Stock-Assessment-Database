@@ -1,0 +1,12 @@
+
+
+ssb.qu.pepper <- paste("select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, log(v.tsvalue/cast(a.biovalue as numeric)) as logratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like '%Blim%'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ('ICES')) and recorder != 'MYERS') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like '%Blim%'",sep="")
+
+ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
+
+
+  f.pepper.qu <- paste("
+  select a.assessid, a.maxyr, a.biovalue as u, v.tsvalue as fmsy, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio, 'yes' as utype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like \'Flim%\')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit, ") and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like \'Flim%\')
+  ", sep="")
+f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
+

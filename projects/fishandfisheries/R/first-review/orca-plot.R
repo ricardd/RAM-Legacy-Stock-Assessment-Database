@@ -4,7 +4,7 @@
 ## plot the count of assessments for a given data type by year in the database
 ## DR, CM
 ## date: Tue Dec  1 14:26:02 AST 2009
-## Time-stamp: <2011-02-02 20:39:33 (srdbadmin)>
+## Time-stamp: <2011-04-29 11:07:17 (srdbadmin)>
 ##-----------------------------------------------------------------------------
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
 
@@ -162,3 +162,4 @@ qu <- paste(
             sep=";")
 sqlQuery(mychan,qu)
 
+odbcClose(mychan)

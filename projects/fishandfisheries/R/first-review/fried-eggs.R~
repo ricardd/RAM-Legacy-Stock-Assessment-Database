@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-02-09 21:27:06 (srdbadmin)>
+## Last modified: Time-stamp: <2011-02-11 10:10:25 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -271,7 +271,7 @@ crosshair.for.table.withref <- data.frame(mgmt=crosshair.for.table.temp$mgmt, st
   crosshair.for.table <- crosshair.for.table[order(crosshair.for.table$mgmt,crosshair.for.table$scientificname),]
 
 
-  crosshair.for.table.withref$scientificname <- paste("\\textit{",crosshair.for.table.withref$scientificname,"}",sep="")
+   crosshair.for.table.withref$scientificname <- paste("\\textit{",crosshair.for.table.withref$scientificname,"}",sep="")
   crosshair.for.table.withref <- crosshair.for.table.withref[order(crosshair.for.table.withref$mgmt,crosshair.for.table.withref$scientificname),]
 
 
@@ -286,12 +286,17 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
   my.table.S2.withref <- xtable(crosshair.for.table.withref, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}c")
 
+## Table S1
   print(my.table.S2, type="latex", file="../../tex/first-review/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
-  print(my.table.S2, type="html", file="../../tex/first-review/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
-
+## Table S1 with BibTex \ref
   print(my.table.S2.withref, type="latex", file="../../tex/first-review/Table-S1-withref.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
+## html table to use in Word
+  crosshair.for.table.withref$scientificname <- paste(crosshair.for.table.withref$scientificname,sep="")
+  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
+ print(my.table.S2, type="html", file="../../tex/first-review/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+ 
   crosshair.dat$ratio.x[crosshair.dat$ratio.x>2] <- 2
   crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2
 

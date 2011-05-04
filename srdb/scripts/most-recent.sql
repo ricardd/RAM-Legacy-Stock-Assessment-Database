@@ -1,8 +1,8 @@
 -- create a table with information about which assessment is the most recent, what it updates, whether it's a duplicate, etc.
 -- Daniel Ricard, started 2010-01-04
--- Last modified Time-stamp: <2011-04-07 14:24:57 (srdbadmin)>
+-- Last modified Time-stamp: <2011-05-03 11:42:42 (srdbadmin)>
 -- 2011-04-05: updates are starting to come in so I want to make sure that this table does a good job at capturing whether an entry is a true duplicate (same stock and same years, i.e. from the same assessment) or an update to an assessment (new years in the timeseries, maybe a different recorder)
-
+-- 2011-05-03: adding some code so that the "mostrecent" field of srdb.assessment is filled in using srdb.mostrecent
 DROP TABLE srdb.mostrecent;
 
 CREATE TABLE srdb.mostrecent
@@ -58,3 +58,13 @@ where ff.assessid=gg.assessid
 );
 
 COMMENT ON TABLE srdb.mostrecent IS 'Table with information about which assessment is the most recent, what it updates, whether it is a duplicate, etc..';
+
+UPDATE srdb.assessment
+SET mostrecent='yes'
+WHERE assessid in (select assessid from srdb.mostrecent where ismostrecent=1)
+;
+
+UPDATE srdb.assessment
+SET mostrecent='no'
+WHERE assessid in (select assessid from srdb.mostrecent where ismostrecent=0)
+;

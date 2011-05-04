@@ -1,1 +1,24 @@
 \section*{Abstract}
+
+Assessments were assembled for REF:SQL:TOTNUMASSESSMENT stocks
+(REF:SQL:TOTNUMASSESSFISH fish species representing
+REF:SQL:TOTNUMFISHFAMILIES families, and REF:SQL:TOTNUMASSESSINVERT
+invertebrate species representing REF:SQL:TOTNUMINVERTFAMILIES
+families). Assessments were obtained from REF:SQL:TOTNUMMGMT national
+and international management institutions. Stocks
+present in the database come from REF:SQL:TOTNUMLMESPRIMARY Large
+Marine Ecosystems. Assessed marine fish stocks
+comprise a relatively small proportion of harvested taxa
+(REF:SQL:SRDBPERCENTSPPSAUP\%), and an even smaller proportion of
+marine fish biodiversity (REF:SQL:SRDBPERCENTSPPFISHBASE\%). Reference
+points were available or could be calculated for about
+REF:SQL:PERCENTASSESSFRIEDEGG\% of these stocks. The available data
+provide new insight into the status of exploited populations,
+REF:SQL:PERCENTASSESSMENTSBELOWBMSY\% of stocks with reference points
+were estimated to be below $B_{msy}$, and
+REF:SQL:PERCENTASSESSMENTSABOVEFMSY\% had exploitation levels
+estimated to be above $U_{msy}$. Temporal coverage of assessments is
+recent with 90\% of catch time-series ranging REF:SQL:CATCHTIMESPAN90
+and 90\% of biomass time-series ranging REF:SQL:SSBTIMESPAN90.
+
+

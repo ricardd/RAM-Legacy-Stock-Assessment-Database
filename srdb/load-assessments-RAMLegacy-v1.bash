@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-04-05 10:30:12 (srdbadmin)>
+# Last modified Time-stamp: <2011-05-03 13:57:03 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -341,6 +341,7 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-NROCKGA-20
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-DUSROCKGA-2008-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-WPOLLAI-2008-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-POPERCHGA-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STACHURA-POPERCHGA-2010-editedDR.xls # update to the previous assessment
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MELNYCHUK-REYEROCKGA-2008-editedDR.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-REDFISHSPP3LN-2008-editedDR.xls

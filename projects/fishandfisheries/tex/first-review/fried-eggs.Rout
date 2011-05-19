@@ -1,6 +1,6 @@
 
-R version 2.12.1 (2010-12-16)
-Copyright (C) 2010 The R Foundation for Statistical Computing
+R version 2.13.0 (2011-04-13)
+Copyright (C) 2011 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
 Platform: i486-pc-linux-gnu (32-bit)
 
@@ -248,7 +248,7 @@ null device
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALAFMA'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALAFMA''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSCALAFMA',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -258,7 +258,7 @@ character(0)
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALMFISH'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALMFISH''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSCALMFISH',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -268,7 +268,7 @@ character(0)
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALNMFS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTSCALNMFS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTSCALNMFS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -278,7 +278,7 @@ character(0)
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPAICES'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPAICES''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTVPAICES',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -288,7 +288,7 @@ character(0)
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPACFP'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPACFP''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTVPACFP',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -298,7 +298,7 @@ character(0)
 > nn<-round(numerator/denominator * 100, 0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPADFO'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTVPADFO''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTVPADFO',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -310,4 +310,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  9.496   0.076  16.479 
+  9.096   0.068  15.966 

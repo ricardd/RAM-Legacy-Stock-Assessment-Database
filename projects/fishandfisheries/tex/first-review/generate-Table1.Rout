@@ -1,6 +1,6 @@
 
-R version 2.12.1 (2010-12-16)
-Copyright (C) 2010 The R Foundation for Statistical Computing
+R version 2.13.0 (2011-04-13)
+Copyright (C) 2011 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
 Platform: i486-pc-linux-gnu (32-bit)
 
@@ -70,4 +70,4 @@ Loading required package: xtable
 > 
 > proc.time()
    user  system elapsed 
-  0.576   0.016   0.621 
+  0.552   0.036   0.604 

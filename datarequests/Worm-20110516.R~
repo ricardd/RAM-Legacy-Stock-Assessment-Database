@@ -1,0 +1,6 @@
+##
+##
+
+SELECT * FROM srdb.timeseries_values_view
+WHERE stockid in
+(SELECT stockid from srdb.lmetostocks where lme_number in () and stocktolmerelation = 'primary')

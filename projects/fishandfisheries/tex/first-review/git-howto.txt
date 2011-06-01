@@ -1,0 +1,61 @@
+************
+* check the status of the repository
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git status
+# On branch master
+nothing to commit (working directory clean)
+
+************
+* create a new file and check status again
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ touch projects/fishandfisheries/tex/first-review/git-howto.txt
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       projects/fishandfisheries/tex/first-review/git-howto.txt
+nothing added to commit but untracked files present (use "git add" to track)
+
+************
+* add file to repositry and check status
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git add projects/fishandfisheries/tex/first-review/git-howto.txt
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       new file:   projects/fishandfisheries/tex/first-review/git-howto.txt
+#
+
+************
+* commit changes to the repository, will require the addition of a message describing the changes done, see git documentation for best practices
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git commit -a
+[master f6f5782] an example commit
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 projects/fishandfisheries/tex/first-review/git-howto.txt
+
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ 
+
+************
+* now modify this new file and check status again
+srdbadmin@calopteryx:~/srdb$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   projects/fishandfisheries/tex/first-review/git-howto.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	projects/fishandfisheries/tex/first-review/git-howto.txt~
+no changes added to commit (use "git add" and/or "git commit -a")
+
+************
+* add the ~ file and update repository to capture the changes
+
+srdbadmin@calopteryx:~/srdb$ git add projects/fishandfisheries/tex/first-review/git-howto.txt~

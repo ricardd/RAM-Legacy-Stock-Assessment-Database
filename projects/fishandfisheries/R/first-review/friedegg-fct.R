@@ -206,8 +206,10 @@ SELECT
 a.assessid,
 s.stocklong,
 t.scientificname,
+t.ordername,
 ts.timespan,
 m.mgmt,
+m.country,
 am.category,
 r.risentry
 FROM
@@ -229,10 +231,10 @@ r.risfield='ID' AND
 a.assessorid = aa.assessorid AND 
 m.mgmt = aa.mgmt AND
 a.recorder != 'MYERS' AND
-a.assess=1
+a.assess=1 and mostrecent='yes'
 GROUP BY 
 r.risentry, 
-a.assessid, s.stocklong, t.scientificname, ts.timespan, 
+a.assessid, s.stocklong, t.scientificname, t.ordername, ts.timespan, 
 m.country,
 m.managementauthority,
 m.mgmt, am.category
@@ -242,13 +244,20 @@ t.scientificname
 ",sep="")
 mgmt.dat <- sqlQuery(chan, qu)
 
-    crosshair.for.table.temp <- merge(crosshair.for.table.tt, mgmt.dat, "assessid", all.y=TRUE)
+qu <- "select mytlscientificname as scientificname, mytltl as tl from srdb.fishbasemtl"
+mtl.dat <- sqlQuery(chan, qu)
+
+    crosshair.for.table.temp <- merge(merge(crosshair.for.table.tt, mgmt.dat, "assessid", all.y=TRUE), mtl.dat, by.x="scientificname.y", by.y="scientificname", all.x=TRUE)
   crosshair.for.table.temp$ref <- paste("\\cite{", crosshair.for.table.temp$risentry, "}",sep="")
   
 ##  write.table(crosshair.for.table.temp, "crosshair-table.dat")
 #  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype, ref=crosshair.for.table.temp$ref)
 
- crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype) # , ref=crosshair.for.table.temp$ref)
+# crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype) # , ref=crosshair.for.table.temp$ref)
+ crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, country=crosshair.for.table.temp$country, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, ordername=crosshair.for.table.temp$ordername, TL=crosshair.for.table.temp$tl, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=ifelse(crosshair.for.table.temp$btype=="yes",round(crosshair.for.table.temp$ratio.x,2), paste(round(crosshair.for.table.temp$ratio.x,2),"*")), Uratio=ifelse(crosshair.for.table.temp$utype=="yes",round(crosshair.for.table.temp$ratio.y,2), paste(round(crosshair.for.table.temp$ratio.y,2),"*")))
+
+# crosshair.for.table.temp$ratio.x
+# crosshair.for.table.temp$ratio.y
 
 crosshair.for.table.withref <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype, ref=crosshair.for.table.temp$ref)
 
@@ -268,8 +277,8 @@ crosshair.for.table.withref <- data.frame(mgmt=crosshair.for.table.temp$mgmt, st
 
 my.caption <- c("Summary of population-dynamics model based assessments in the RAM Legacy database, including the management body (acronyms from Table 1), assessment method, timespan of their longest time series data, estimated ratios of current biomass to the biomass at MSY and current harvest rate to the harvest rate that results in MSY. Estimated ratios were preferentially obtained directly from the assessment document or derived from surplus production models. When both SSBmsy and Bmsy reference points were available, SSB was chosen preferentially.")
 
-  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
-  my.table.S2.withref <- xtable(crosshair.for.table.withref, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}c")
+  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{1.5cm}p{1.5cm}p{1.5cm}p{3cm}p{3cm}p{2.5cm}p{0.9cm}p{1.4cm}p{0.9cm}p{0.9cm}p{0.9cm}p{1cm}")
+  my.table.S2.withref <- xtable(crosshair.for.table.withref, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}ccc")
 
 ## Table S1
   print(my.table.S2, type="latex", file="../../tex/first-review/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
@@ -279,7 +288,7 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
 
 ## html table to use in Word
   crosshair.for.table.withref$scientificname <- paste(crosshair.for.table.withref$scientificname,sep="")
-  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}cp{0.9cm}")
+  my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{1.8cm}p{1.3cm}p{3.5cm}p{3.5cm}p{2.5cm}p{0.9cm}p{1.0cm}cp{0.9cm}cp{0.9cm}c")
  print(my.table.S2, type="html", file="../../tex/first-review/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
  
   crosshair.dat$ratio.x[crosshair.dat$ratio.x>2] <- 2

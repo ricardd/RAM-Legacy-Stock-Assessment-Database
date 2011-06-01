@@ -1,3 +1,6 @@
+library(RODBC)
+library(KernSmooth)
+
 # define as a function
 fried.egg.fct <- function(grouping.type, grouping.criterion, sql.label, xlabel, ylabel, legendlabel, plot.true) {
 gtype <- grouping.type

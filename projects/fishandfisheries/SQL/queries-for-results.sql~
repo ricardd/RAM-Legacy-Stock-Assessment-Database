@@ -203,3 +203,4 @@ DROP SEQUENCE temp3_seq;
 
  
 
+GRANT SELECT ON fishfisheries.results TO srdbuser ;

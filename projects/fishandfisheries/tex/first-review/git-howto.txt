@@ -59,3 +59,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
 * add the ~ file and update repository to capture the changes
 
 srdbadmin@calopteryx:~/srdb$ git add projects/fishandfisheries/tex/first-review/git-howto.txt~
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git commit -a
+[master b31ad1d] created a mini howto for git
+ 2 files changed, 61 insertions(+), 0 deletions(-)
+ copy projects/fishandfisheries/tex/first-review/{git-howto.txt => git-howto.txt~} (100%)
+srdbadmin@calopteryx:/newhome/home/srdbadmin/srdb$ git status
+# On branch master
+nothing to commit (working directory clean)
+
+

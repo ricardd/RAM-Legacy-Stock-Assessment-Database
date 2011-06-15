@@ -2,14 +2,18 @@
 # script to generate a single Excel file with each table from srdb as a separate worksheet
 # Daniel Ricard
 # Started: 2011-06-13 from initial script for Rainer Froese's F&F request
-# Time-stamp: <2011-06-13 20:11:58 (srdbadmin)>
+# Time-stamp: <2011-06-15 15:45:43 (srdbadmin)>
 # Modification history:
+# 2011-06-15: adding an argument to the script call, to assign a name to the resulting spreadsheet file
+## example USAGE: ./generate-single-spreadsheet-fromDB.pl RAM-Legacy-spreadsheet-snapshot-20110615
 
 use strict;
 use warnings;
 use DBI;
 use Spreadsheet::WriteExcel;
 use POSIX qw(strftime);
+
+my $argument = $ARGV[0];
 
 sub autofit_columns {
 
@@ -78,9 +82,11 @@ my $dbh = DBI->connect("dbi:Pg:dbname=srdb;host=localhost;port=5432;" ,
 
 
 # create spreadsheet file
-my $workbook = Spreadsheet::WriteExcel->new("HILBORN-RAMLegacy-June2011.xls");
+my $xlsfilename = $argument . ".xls";
 
-# Add 4 worksheets
+my $workbook = Spreadsheet::WriteExcel->new($xlsfilename);
+
+
 $workbook->compatibility_mode();
 $workbook->set_properties(
 title    => 'This is a single spreadsheet containing the table contents from the RAM Legacy database.',
@@ -94,6 +100,7 @@ $sheet0->write(0, 0, "Single spreadsheet of the RAM Legacy database.");
 $sheet0->write(1, 0, "Created on:" . $datetime);
 #$sheet0->write(1, 1, $datetime);
 
+$sheet0->insert_image('C5','../doc/srdb-erd-2011.png');
 
 ## AREA
 my $sheet1 = $workbook->add_worksheet("area");
@@ -576,6 +583,35 @@ $rowcounter = $rowcounter + 1;
 
 # Run the autofit after you have finished writing strings to the workbook.
 autofit_columns($sheet18);
+
+
+## explicit view
+
+my $sheet19 = $workbook->add_worksheet("tsrelative_explicit_view");
+$sql = qq{SELECT * from srdb.tsrelative_explicit_view where assessid in (SELECT assessid from srdb.assessment where recorder !='MYERS' and assess=1)};
+$handle = $dbh -> prepare($sql);
+$handle -> execute();
+$nn = $handle->{NUM_OF_FIELDS};
+
+## for autofit
+$sheet19->add_write_handler(qr[\w], \&store_string_widths);
+
+## write header
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet19->write(1, $c, $handle->{NAME_uc}->[$c-1], $format);
+  }
+
+$rowcounter = 2;
+while (my @row = $handle->fetchrow_array) {  # retrieve one row
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet19->write($rowcounter, $c, $row[$c-1]);
+  }
+$rowcounter = $rowcounter + 1;
+    }
+
+# Run the autofit after you have finished writing strings to the workbook.
+autofit_columns($sheet19);
+
 
 
 #----------------

@@ -22,7 +22,7 @@ Type 'q()' to quit R.
 
 > ## fit surplus production model to srdb data and stored the results into a new table
 > ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-> ## Last modified Time-stamp: <2011-02-04 20:56:40 (srdbadmin)>
+> ## Last modified Time-stamp: <2011-06-15 14:29:01 (srdbadmin)>
 > ## Modification history:
 > ## 2011-01-17: slight modifications to properly removed "bad fits", based on Olaf's visual inspection of stocks
 > ## 2011-02-04: final touch ups to Fish and Fisheries paper and I am playing with this code a bit to see the effects on changing the parameter bounds a bit, as suggested by one of the reviewers
@@ -87,7 +87,8 @@ The following object(s) are masked from 'package:stats':
 +   cat("# Number of obs \n",dim(temp.dat)[1], "\n",file = my.dat.path, append=FALSE)
 + ## upper and lower bounds on K
 + #  cat("# Bound on K -10000  \n", "-10000.", "\n",file = my.dat.path, append=TRUE)
-+   cat("# Bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
++   cat("# Lower bound on K - 0 \n", 0, "\n",file = my.dat.path, append=TRUE)
++   cat("# Upper bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
 + #  cat("# Bound on K - ln(X*max(biomass)) \n", log(5*max.b), "\n",file = my.dat.path, append=TRUE)
 + #  cat("# Bound on K - ln(X*max(biomass)) \n", 25, "\n",file = my.dat.path, append=TRUE)
 +   cat("# observed X values \t observed Y values \n", file = my.dat.path, append=TRUE)
@@ -179,22 +180,14 @@ The following object(s) are masked from 'package:stats':
 [1] 6
 [1] AFSC-CABEZNCAL-1916-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 8.26758 maxb = 1.07
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 7
 [1] AFSC-CABEZSCAL-1932-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 6.81329 maxb = 0.49
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 8
 [1] AFSC-DSOLEGA-1978-2010-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 9
 [1] AFSC-DUSROCKGA-1973-2008-MELNYCHUK
@@ -323,138 +316,74 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 40
 [1] CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 12.0926 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 41
 [1] CCSBT-SC-SBT-1931-2009-Parma
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 14.8334 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 42
 [1] CSERG-ANCHOVYKILKACS-1991-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 43
 [1] CSIRO-BIGHTREDSE-1958-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 11.8545 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 44
 [1] CSIRO-DEEPFLATHEADSE-1978-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.4034 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 45
 [1] CSIRO-GEMFISHSE-1966-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 11.2559 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 46
 [1] CSIRO-MORWONGSE-1913-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 11.0208 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 47
 [1] CSIRO-NZLINGESE-1968-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.2632 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 48
 [1] CSIRO-NZLINGWSE-1968-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.4549 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 49
 [1] CSIRO-OROUGHYCASCADE-1987-2006-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 12.114 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 50
 [1] CSIRO-OROUGHYSE-1978-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 12.8788 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 51
 [1] CSIRO-PTOOTHFISHMI-1975-2010-FAY
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 9.8759 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 52
 [1] CSIRO-SILVERFISHSE-1978-2006-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.8344 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 53
 [1] CSIRO-SWHITSE-1945-2007-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.2443 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 54
 [1] CSIRO-TIGERFLATSE-1913-2006-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 11.5286 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 55
 [1] CSIRO-WAREHOUESE-1984-2006-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.4228 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 56
 [1] CSIRO-WAREHOUWSE-1984-2006-FULTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 9.3719 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 57
 [1] DFO-COD5Zjm-1978-2003-PREFONTAINE
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 58
 [1] DFO-HAD5Zejm-1968-2003-PREFONTAINE
@@ -639,10 +568,12 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 103
 [1] MARAM-CRLOBSTERSA7-1910-2008-Johnston
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-[1] 1
+ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
+[1] 0
 [1] 104
 [1] MARAM-CRLOBSTERSA8-1910-2008-Johnston
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
+rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 105
 [1] MARAM-CTRACSA-1950-2007-Johnston
@@ -651,26 +582,18 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 106
 [1] MARAM-DEEPCHAKESA-1917-2008-DEDECKER
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 15.1078 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 107
 [1] MARAM-KINGKLIPSA-1932-2008-DEDECKER
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 108
 [1] MARAM-PTOOTHFISHPEI-1960-2008-DEDECKER
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 11.4369 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 109
 [1] MARAM-SAABALONESA-1951-2008-PLAGANYI
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 110
 [1] MARAM-SARDSA-1984-2006-deMoor
@@ -791,54 +714,34 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 139
 [1] NIWA-OROUGHYNZMEC-1981-2004-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 13.236 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 140
 [1] NMFS-MENATLAN-1940-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 141
 [1] NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 12.1861 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 142
 [1] NWFSC-BGROCKPCOAST-1950-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 143
 [1] NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 10.1831 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 144
 [1] NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.98 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 145
 [1] NWFSC-BLUEROCKCAL-1916-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.1829 maxb = 0.4
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 146
 [1] NWFSC-BOCACCSPCOAST-1951-2006-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 147
 [1] NWFSC-CHILISPCOAST-1892-2007-BRANCH
@@ -847,46 +750,30 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 148
 [1] NWFSC-COWCODSCAL-1900-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 9.26731 maxb = 0.01
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 149
 [1] NWFSC-CROCKPCOAST-1916-2009-Stachura
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 150
 [1] NWFSC-DKROCKPCOAST-1928-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 11.1426 maxb = 1
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 151
 [1] NWFSC-ESOLEPCOAST-1876-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 11.8886 maxb = 1
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 152
 [1] NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 153
 [1] NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 12.1113 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 154
 [1] NWFSC-LSTHORNHPCOAST-1962-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 155
 [1] NWFSC-PHAKEPCOAST-1966-2008-BRANCH
@@ -899,50 +786,30 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 157
 [1] NWFSC-PSOLENPCOAST-1910-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 10.8264 maxb = 1
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 158
 [1] NWFSC-PSOLESPCOAST-1874-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.9654 maxb = 1
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 159
 [1] NWFSC-SABLEFPCOAST-1900-2007-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 13.7417 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 160
 [1] NWFSC-SSTHORNHPCOAST-1901-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 161
 [1] NWFSC-WROCKPCOAST-1955-2006-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 13.2023 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 162
 [1] NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 9.55849 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 163
 [1] NWFSC-YTROCKNPCOAST-1967-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 164
 [1] NWWG-CAPEICE-1977-2007-MINTO
@@ -955,12 +822,10 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 166
 [1] NWWG-CODICE-1952-2006-MINTO
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 167
 [1] NWWG-HADFAPL-1955-2006-MINTO
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 168
 [1] NWWG-HADICE-1977-2007-MINTO
@@ -981,12 +846,10 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 172
 [1] NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 173
 [1] NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 174
 [1] NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS
@@ -1035,46 +898,26 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 185
 [1] NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 12.8338 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 186
 [1] NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 13.4289 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 187
 [1] NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 10.4244 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 188
 [1] NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 9.86777 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 189
 [1] NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 12.2482 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 190
 [1] NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 191
 [1] NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN
@@ -1087,26 +930,18 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 193
 [1] NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 7.80463 maxb = 5.591
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 194
 [1] NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 195
 [1] NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 8.26949 maxb = 6.717
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 196
 [1] NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 197
 [1] RIDEM-LOBSTERRI-1959-2007-COLLIE
@@ -1159,22 +994,14 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 209
 [1] SEFSC-TILESATLC-1961-2002-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 9.60227 maxb = 1.43
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 210
 [1] SEFSC-VSNAPSATLC-1946-2008-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
-Error allocating init_bounded_number 
- minb = 9.89091 maxb = 0.0879978
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 211
 [1] SFI-WPOLLNSO-1985-1994-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 212
 [1] SPC-ALBASPAC-1959-2006-JENSEN
@@ -1203,14 +1030,10 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 218
 [1] SWFSC-DSOLEPCOAST-1910-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 13.9914 maxb = 0
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 219
 [1] SWFSC-GOPHERSPCOAST-1965-2005-STANTON
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 220
 [1] SWFSC-SARDPCOAST-1981-2007-PINSKY
@@ -1231,14 +1054,10 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 224
 [1] TAFI-TASGIANTCRABTAS-1990-2007-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-Error allocating init_bounded_number 
- minb = 8.29343 maxb = 0.2
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 225
 [1] VNIRO-WPOLLWBS-1994-2004-JENSEN
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 226
 [1] WGBFAS-CODBA2224-1969-2007-JENNINGS
@@ -1255,12 +1074,10 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] 229
 [1] WGBFAS-HERR2532-1973-2006-JENNINGS
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-ls: cannot access /home/srdbadmin/srdb/ADMB/schaefer.std: No such file or directory
-[1] 0
+[1] 1
 [1] 230
 [1] WGBFAS-HERR30-1972-2007-JENNINGS
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
-rm: cannot remove `schaefer.std': No such file or directory
 [1] 1
 [1] 231
 [1] WGBFAS-HERR31-1979-2006-JENNINGS
@@ -1382,7 +1199,8 @@ rm: cannot remove `schaefer.std': No such file or directory
 [1] WGSSDS-WHITVIIek-1982-2007-JENNINGS
 260 Levels: AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK ...
 [1] 1
-There were 48 warnings (use warnings() to see them)
+Warning message:
+running command 'ls /home/srdbadmin/srdb/ADMB/schaefer.std' had status 2 
 > 
 > dev.off()
 null device 
@@ -2024,4 +1842,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
- 32.501   4.560  36.858 
+ 34.989   4.980  43.467 

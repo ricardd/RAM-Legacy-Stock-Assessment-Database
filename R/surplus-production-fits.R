@@ -1,6 +1,6 @@
 ## fit surplus production model to srdb data and stored the results into a new table
 ## Daniel Ricard started 2010-03-12 from earlier work from Olaf and Coilin
-## Last modified Time-stamp: <2011-02-04 20:56:40 (srdbadmin)>
+## Last modified Time-stamp: <2011-06-15 14:29:01 (srdbadmin)>
 ## Modification history:
 ## 2011-01-17: slight modifications to properly removed "bad fits", based on Olaf's visual inspection of stocks
 ## 2011-02-04: final touch ups to Fish and Fisheries paper and I am playing with this code a bit to see the effects on changing the parameter bounds a bit, as suggested by one of the reviewers
@@ -40,7 +40,8 @@ max.b <- max(na.omit(temp.dat$b))
   cat("# Number of obs \n",dim(temp.dat)[1], "\n",file = my.dat.path, append=FALSE)
 ## upper and lower bounds on K
 #  cat("# Bound on K -10000  \n", "-10000.", "\n",file = my.dat.path, append=TRUE)
-  cat("# Bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
+  cat("# Lower bound on K - 0 \n", 0, "\n",file = my.dat.path, append=TRUE)
+  cat("# Upper bound on K - ln(X*max(biomass)) \n", log(2*max.b), "\n",file = my.dat.path, append=TRUE)
 #  cat("# Bound on K - ln(X*max(biomass)) \n", log(5*max.b), "\n",file = my.dat.path, append=TRUE)
 #  cat("# Bound on K - ln(X*max(biomass)) \n", 25, "\n",file = my.dat.path, append=TRUE)
   cat("# observed X values \t observed Y values \n", file = my.dat.path, append=TRUE)

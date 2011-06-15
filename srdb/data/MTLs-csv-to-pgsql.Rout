@@ -1,0 +1,38 @@
+
+R version 2.13.0 (2011-04-13)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> require(RODBC)
+Loading required package: RODBC
+> my.tl <- read.csv("BRANCH-Assessment-TLs-v4.csv", header=TRUE)
+> chan <- odbcConnect(dsn="srdbcalo")
+> tt <- data.frame(my.tl$scientificname, my.tl$TL, my.tl$Lmax, my.tl$DemersalPelagic)
+> sqlSave(chan, tt, tablename = "srdb.fishbasemtl", rownames=FALSE, safer=FALSE)
+> 
+> ## link scientificname to srdb.taxonomy
+> qu <- paste("ALTER TABLE srdb.fishbasemtl add constraint scifk FOREIGN KEY (mytlscientificname) REFERENCES srdb.taxonomy (scientificname) MATCH FULL",sep="")
+> sqlQuery(chan,qu)
+[1] "No Data"
+> odbcClose(chan)
+> 
+> proc.time()
+   user  system elapsed 
+  0.432   0.044   1.873 

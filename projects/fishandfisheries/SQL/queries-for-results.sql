@@ -1,8 +1,9 @@
 --
 -- usage: psql srdb -f queries-for-results.sql 1> queries-for-results.log
-
---CREATE SCHEMA fishfisheries;
---GRANT USAGE ON SCHEMA fishfisheries to srdbuser;
+DROP TABLE fishfisheries.results;
+DROP SCHEMA fishfisheries;
+CREATE SCHEMA fishfisheries;
+GRANT USAGE ON SCHEMA fishfisheries to srdbuser;
 
 -- some function definitions
 -- Median
@@ -25,7 +26,7 @@ FINALFUNC=array_median
 );
 
 
-DROP TABLE fishfisheries.results;
+-- DROP TABLE fishfisheries.results;
 
 -- temporary sequence created for lme flag generation
 CREATE TEMP sequence temp_seq;

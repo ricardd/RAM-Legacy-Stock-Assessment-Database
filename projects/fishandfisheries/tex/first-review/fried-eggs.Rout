@@ -18,15 +18,13 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > ## orca plots for resubmission of Fish and Fisheries manuscript 2011
 > ## fried-egg-plots.R
 > ## produce fried egg plots for Fish and Fisheries manuscript
 > ## Daniel Ricard, started 2010-03-25
-> ## Last modified: Time-stamp: <2011-05-26 11:23:18 (srdbadmin)>
+> ## Last modified: Time-stamp: <2011-05-31 13:07:50 (srdbadmin)>
 > ## Modification history:
 > ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 > ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -199,7 +197,7 @@ null device
 > # DFO
 > fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","Canada","TRUE")
 > # NMFS
-> fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","US","TRUE")
+> fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","U.S.","TRUE")
 > # ICES
 > fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","Europe","TRUE")
 > # Pacific
@@ -310,4 +308,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  9.180   0.096  16.336 
+  9.260   0.132  25.140 

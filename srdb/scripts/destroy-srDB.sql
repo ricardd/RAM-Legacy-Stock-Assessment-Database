@@ -3,9 +3,9 @@
 -- drop tables defined in "create-srDB.sql"
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified Time-stamp: <2009-03-11 21:03:51 (ricardd)>
+-- Last modified Time-stamp: <2011-06-10 10:39:25 (srdbadmin)>
 -- Modification history:
--- 
+-- 2011-06-10: touch ups associated with server upgrade and moving to production
 
 DROP TABLE srdb.qaqc;
 DROP TABLE srdb.lmetostocks;
@@ -29,5 +29,5 @@ DROP TABLE srdb.area CASCADE;
 DROP TABLE srdb.taxonomy CASCADE;
 DROP TABLE srdb.management CASCADE;
 DROP TABLE srdb.recorder CASCADE;
-DROP SCHEMA srdbrecovery;
+--DROP SCHEMA srdbrecovery;
 DROP SCHEMA srdb CASCADE;

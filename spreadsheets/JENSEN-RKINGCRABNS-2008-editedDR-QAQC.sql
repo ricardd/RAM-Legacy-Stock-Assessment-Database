@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'AFSC', 'RKCRABNS', 'JENSEN', '2009-04-13', '2010-12-02 20:31:11', '1976-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKINGCRABNS-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'AFSC', 'RKCRABNS', 'JENSEN', '2009-04-13', '2011-06-14 14:17:08', '1976-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKINGCRABNS-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'ID', 'CRABSAFE2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'VL', '2008 BSAI Crab SAFE') ; 
@@ -9,8 +9,8 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'CY', 'Anchorage, AK') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'PB', 'North Pacific Fishery Management Council') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABNS-1976-2008-JENSEN', 'ZZID', 'AFSC-RKCRABNS-1976-2008-JENSEN') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSB-SEX-sex','2', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSBmsy-MT','1617.96', 'proxy', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSB-SEX-sex','2', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSBmsy-MT','1617.96', 'NULL', 'proxy') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSB-MT',1976, 5055.60) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSB-MT',1977, 5291.83) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABNS-1976-2008-JENSEN','SSB-MT',1978, 4747.02) ; 

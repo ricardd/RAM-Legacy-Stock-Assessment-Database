@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-FLSOLEGA-1978-2010-Stachura', 'AFSC', 'FLSOLEGA', 'Stachura', '2011-03-29', '2011-05-19 14:01:33', '1978-2010', 'http://www.afsc.noaa.gov/REFM/docs/2010/GOAflathead.pdf', 'William Stockhausen, william.stockhausen@noaa.gov', '', '', 1, 1, 'AD-CAM', '2010 assessment is just an update of the 2009 assessment: AFSC-FLSOLEGA-2009.pdf', '../spreadsheets/STACHURA-FLSOLEGA-2010-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-FLSOLEGA-1978-2010-Stachura', 'AFSC', 'FLSOLEGA', 'Stachura', '2011-03-29', '2011-06-14 14:17:44', '1978-2010', 'http://www.afsc.noaa.gov/REFM/docs/2010/GOAflathead.pdf', 'William Stockhausen, william.stockhausen@noaa.gov', '', '', 1, 1, 'AD-CAM', '2010 assessment is just an update of the 2009 assessment: AFSC-FLSOLEGA-2009.pdf', '../spreadsheets/STACHURA-FLSOLEGA-2010-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-FLSOLEGA-1978-2010-Stachura', 'ID', 'AFSC-FLSOLEGA-2010.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-FLSOLEGA-1978-2010-Stachura', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-FLSOLEGA-1978-2010-Stachura', 'A1', 'Stockhausen, W.T.') ; 

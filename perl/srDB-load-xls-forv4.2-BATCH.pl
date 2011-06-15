@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-05-03 13:42:25 (srdbadmin)>
+# Last modified: Time-stamp: <2011-06-09 22:18:04 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -21,7 +21,8 @@ use DBI;
 #my $dbh = DBI->connect('dbi:Pg:dbname=gfsDB;host=localhost;port=5433','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
 #my $dbh = DBI->connect('dbi:Pg:dbname=srDB;host=localhost;port=5432','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
 #my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5432','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
-my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5435','srdbadmin','srd6adm1n!')|| die "Database connection not made: $DBI::errstr";
+#my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5435','srdbadmin','srd6adm1n!')|| die "Database connection not made: $DBI::errstr";
+my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5432','srdbadmin','srd6adm1n!')|| die "Database connection not made: $DBI::errstr";
 
 my $oExcel = new Spreadsheet::ParseExcel;
 

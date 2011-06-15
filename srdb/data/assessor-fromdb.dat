@@ -48,6 +48,7 @@
 "IOTC","IOTC","Multinational","Indian Ocean Tuna Commission"
 "ASMFC","NMFS","USA","Atlantic States Marine Fisheries Commission"
 "IFOP","SPRFMO","multinational","Instituto de Fomento Pesquero - Chilean Fisheries Development Institute"
+"SPRFMO","SPRFMO","multinational","South Pacific Regional Fisheries Management Organization"
 "PFMC","NMFS","USA","Pacific Fishery Management Council"
 "ADFG","NMFS","USA","Alaska Department of Fish and Game"
 "SFI","RFFA","Russia","Sea Fisheries Institute Poland"
@@ -55,3 +56,5 @@
 "CCAMLR","CCAMLR","Multinational","Commission for the Conservation of Antarctic Marine Living Resources"
 "IMARM","UNKNOWN","Taiwan","Institute of Marine Affairs and Resource Management - National Taiwan Ocean University, 2 Pei-Ning Road, Keelung 20224, Taiwan"
 "IMARPE","IMARPE","Peru","Instituto del Mar del Peru"
+"CSERG","Iran","Iran","Caspian Sea Ecology Research Center"
+"CCSBT-SC","CCSBT","Multinational","CCSBT Scientific Committee"

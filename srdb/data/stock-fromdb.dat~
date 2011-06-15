@@ -336,7 +336,7 @@
 "NZLINGLIN5-6",165000,"Genypterus blacodes","Ling","New Zealand-MFish-LIN5-6","New Zealand ling New Zealand Areas LIN 5 and 6",0,NA
 "NZLINGLIN72",165000,"Genypterus blacodes","Ling","New Zealand-MFish-LIN72","New Zealand ling New Zealand Area LIN 72",0,NA
 "NZLINGLIN7WC",165000,"Genypterus blacodes","Ling","New Zealand-MFish-LIN7WC-WCSI","New Zealand ling New Zealand Area LIN 7WC - WCSI",0,NA
-"MENATLAN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-Atlantic","Atlantic menhaden Atlantic",1,"MENATLAN"
+"MENATLAN",161732,"Brevoortia tyrannus","Atlantic menhaden","USA-NMFS-ATL","Atlantic menhaden Atlantic",1,"MENATLAN"
 "GEMFISHSE",550883,"Rexea solandri","common gemfish","Australia-AFMA-SE","common gemfish Southeast Australia",0,NA
 "SILVERFISHSE",172534,"Seriolella punctata","Silverfish","Australia-AFMA-SE","Silverfish Southeast Australia",0,NA
 "TIGERFLATSE",644187,"Neoplatycephalus richardsoni","Tiger flathead","Australia-AFMA-SE","Tiger flathead Southeast Australia",0,NA
@@ -416,3 +416,8 @@
 "RKCRABNS",97935,"Paralithodes camtschaticus","Red king crab","USA-NMFS-NS","Red king crab Norton Sound",0,NA
 "HERR31",161722,"Clupea harengus","Herring","multinational-ICES-31","Herring ICES 31",0,"NA"
 "PANCHPERUNC",551340,"Engraulis ringens","Peruvian anchoveta","Peru-IMARPE-NC","Peruvian anchoveta North-Central Peru",1,"PANCHNCS"
+"SBT",172431,"Thunnus maccoyii","Southern bluefin tuna","multinational-CCSBT-SO","Southern bluefin tuna Southern Oceans",0,NULL
+"STMARLINSWPO",768127,"Kajikia audax","Striped marlin","multinational-SPC-WPO","Striped marlin Southwestern Pacific Ocean",0,NULL
+"SABLEFPCAN",167123,"Anoplopoma fimbria","Sablefish","Canada-DFO-PCOAST","Sablefish Pacific Coast of Canada",1,"SABLEFPCAN"
+"CUSK4X",164740,"Brosme brosme","Cusk","Canada-DFO-4X","Cusk NAFO 4X",0,NULL
+"PTOOTHFISHMI",642807,"Dissostichus eleginoides","Patagonian toothfish","Australia-AFMA-MI","Patagonian toothfish Macquarie Island",0,NULL

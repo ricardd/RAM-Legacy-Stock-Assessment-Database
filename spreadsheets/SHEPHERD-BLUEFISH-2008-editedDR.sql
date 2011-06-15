@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD', 'NEFSC', 'BLUEFISHATLC', 'SHEPHERD', '2009-04-30', '2011-03-02 19:29:11', '1981-2007', 'http://www.asmfc.org', 'Gary Shepherd  gary.shepherd@noaa.gov', '', '', 1, 1, 'ASAP', '', '../spreadsheets/SHEPHERD-BLUEFISH-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD', 'NEFSC', 'BLUEFISHATLC', 'SHEPHERD', '2009-04-30', '2011-06-14 14:18:06', '1981-2007', 'http://www.asmfc.org', 'Gary Shepherd  gary.shepherd@noaa.gov', '', '', 1, 1, 'ASAP', '', '../spreadsheets/SHEPHERD-BLUEFISH-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD', 'ID', 'final-2005-SAW-41-assessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD', 'A1', 'Northeast Fisheries Science Center') ; 

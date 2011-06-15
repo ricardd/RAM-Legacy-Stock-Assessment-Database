@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'NWFSC', 'YTROCKNPCOAST', 'STANTON', '2009-05-19', '2010-12-02 20:31:45', '1967-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS1', 'no comments', '../spreadsheets/STANTON-YellowTailWC-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'NWFSC', 'YTROCKNPCOAST', 'STANTON', '2009-05-19', '2011-06-14 14:17:48', '1967-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS1', 'no comments', '../spreadsheets/STANTON-YellowTailWC-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'ID', '2005_SAFE_yellowtail') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'A1', 'Wallace, John') ; 
@@ -16,8 +16,8 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','TB-TYPE-0-1','1', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','LW-a-kg/cm','0.0214', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','LW-b-dimensionless','2.92', '', '') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','M-1/yr','0.11', 'for males of all ages and females age 4 -6, then linear increase to max mortality', '') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','NATMORT-1/yr','0.11', 'for males of all ages and females age 4 -6, then linear increase to max mortality', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','M-1/yr','0.11', '', 'for males of all ages and females age 4 -6, then linear increase to max mortality') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','NATMORT-1/yr','0.11', '', 'for males of all ages and females age 4 -6, then linear increase to max mortality') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','SSBmsy-MT','12407', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','MSY-MT','4680', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON','SSB0-MT','31016', '', '') ; 

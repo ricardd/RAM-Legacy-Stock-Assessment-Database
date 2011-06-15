@@ -6,11 +6,9 @@
 ./destroy-srDB.bash
 ./create-srDB.bash
 ./load-srDB.bash
-./load-assessments-srDB.bash
+./load-assessments-RAMLegacy-v1.bash
 
 psql srdb -f ../perl/RAM-orig.sql 2> ../perl/RAM-orig-SQL.log
-
-psql -d srdb -f './scripts/load-qaqc.sql'
 
 ./post-load-srDB.bash
 ./summaries.bash > summary.txt

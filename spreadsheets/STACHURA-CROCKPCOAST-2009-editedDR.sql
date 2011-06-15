@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'NWFSC', 'CROCKPCOAST', 'Stachura', '2011-03-15', '2011-04-05 13:19:53', '1916-2009', 'http://www.pcouncil.org/wp-content/uploads/2009_canary_updated_assessment_SAFE_version.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', 'Stock Synthesis v3.03a', '../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'NWFSC', 'CROCKPCOAST', 'Stachura', '2011-03-15', '2011-06-14 14:17:31', '1916-2009', 'http://www.pcouncil.org/wp-content/uploads/2009_canary_updated_assessment_SAFE_version.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', 'Stock Synthesis v3.03a', '../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'ID', 'NWFSC-CROCKPCOAST-2009.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'A1', 'Stewart, Ian J.') ; 

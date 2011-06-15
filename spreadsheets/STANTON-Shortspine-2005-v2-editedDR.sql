@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'NWFSC', 'SSTHORNHPCOAST', 'STANTON', '2009-05-18', '2010-12-02 20:31:47', '1901-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Shortspine-2005-v2-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'NWFSC', 'SSTHORNHPCOAST', 'STANTON', '2009-05-18', '2011-06-14 14:17:50', '1901-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Shortspine-2005-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'ID', '2005-SST-assessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'A1', 'Hamel, Owen') ; 
@@ -16,8 +16,8 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','TB-AGE-yr','2+', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','TB-TYPE-0-1','1', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','VB-k-cm/T','0.018', '', '') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','VB-t0-yr','2.5', 'females only, males = 3.0', '') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','Linf-cm','89', 'females only, males = 80.1cm', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','VB-t0-yr','2.5', '', 'females only, males = 3.0') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','Linf-cm','89', '', 'females only, males = 80.1cm') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','M-1/yr','0.05', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','Fmsy-1/yr','0.0238', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON','NATMORT-1/yr','0.05', '', '') ; 

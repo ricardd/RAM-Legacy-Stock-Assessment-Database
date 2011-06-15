@@ -2,13 +2,14 @@
 # script to output a quality assured, quality controlled pdf for all loaded assessments from either a given recorder (-r RECRODERNAME) or a management unit (-m MGMTUNITNAME)
 # Cóilín Minto and Daniel Ricard
 # Date started: 2009-06-03. from earlier work using only the recorder name as an argument 
-# Time-stamp: <2011-02-28 15:18:11 (srdbadmin)>
+# Time-stamp: <2011-06-13 22:52:52 (srdbadmin)>
 # Modification history:
 # 2009-06-05: to also allow for the generation of a QAQC document for each assessor (e.g. NEFSC for Mike Fogarty), I'm addins an additional argument option "-a"
 # 2009-06-10: adding an ORDER BY statement to the SQL so that the resulting document is more readable
 # 2009-10-22: had to reinstall the "Latex::Table" package from cpan (sudo cpan LaTeX::Table) and "File::chdir", also changed paths to reflect new path using subversion
 # 2010-05-27: system upgrade, LaTeX::Table reinstalled again
 # 2010-08-03: modified the SQL for the "-r" flag so that invoking -r % will regenerate the QAQC plots for all the avaialble stocks
+# 2011-06-13: addedanew flag "-all" to generate a single file with all the QAQC documents
 use strict;
 use warnings;
 use DBI;
@@ -23,6 +24,7 @@ my $argument = $ARGV[1];
 my $alistsql;
 
 switch($ARGV[0]) {
+case "-all" {$alistsql = qq{select assessid from srdb.assessment aa where aa.recorder != \'MYERS\' order by assessid};}
 case "-a" {$alistsql = qq{select assessid from srdb.assessment aa, srdb.stock s, srdb.area a where aa.recorder != \'MYERS\' and s.areaid=a.areaid and s.stockid=aa.stockid and assessid like \'$argument%\' order by assessid};}
 case "-r" {$alistsql = qq{select distinct assessid from srdb.assessment where recorder like \'$argument\' and recorder != \'MYERS\' order by assessid};}
 case "-m" {$alistsql = qq{select assessid from srdb.assessment aa, srdb.stock s, srdb.area a where aa.recorder != \'MYERS\' and s.areaid=a.areaid and s.stockid=aa.stockid and a.areatype = \'$argument\' order by assessid};}

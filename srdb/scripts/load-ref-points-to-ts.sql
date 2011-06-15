@@ -1,7 +1,8 @@
 -- load data that links reference points to timeseries 
 
-BEGIN;
 DROP TABLE srdb.brptots;
+
+BEGIN;
 
 CREATE TABLE srdb.brptots (
 assessid VARCHAR(200) REFERENCES srdb.assessment,

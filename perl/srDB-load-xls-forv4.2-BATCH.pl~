@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-01-17 15:33:22 (srdbadmin)>
+# Last modified: Time-stamp: <2011-05-03 13:42:25 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -12,6 +12,7 @@
 # 2008-12-02: adding code to correctly handle the date format coming from Excel, needs the "use DateTime::Format::Excel" package. had to be installed from CPAN
 # 2009-03-13: some spreadsheet's biometrics start at row 6, some at row 7, modifying code to handle both, values were not being translated to SQL INSERT statements
 # 2009-09-29: again, had to reinstall the "DateTime::Format::Excel" package from cpan (sudo cpan DateTime::Format::Excel)
+# 2011-05-03: edits to capture the addition of a "mostrecent" column in srdb.assessment
 use strict;
 use Spreadsheet::ParseExcel;
 #use DateTime::Format::Excel;
@@ -42,8 +43,9 @@ open SQLFILE, ">$sqlfile" or die $!;
 print SQLFILE "BEGIN;\n";
 
 # variables for table srdb.assessement
-my ($assessid, $assessorid, $stockid, $recorder, $daterecorded, $dateloaded, $assessyear, $assesssource, $contacts, $notes, $pdffile, $assess, $refpoints, $assessmethod, $assesscomments, $formatteddaterecorded, $xlsfilename );
+my ($assessid, $assessorid, $stockid, $recorder, $daterecorded, $dateloaded, $assessyear, $assesssource, $contacts, $notes, $pdffile, $assess, $refpoints, $assessmethod, $assesscomments, $formatteddaterecorded, $xlsfilename, $mostrecent );
 $xlsfilename = $ARGV[0];
+$mostrecent="999";
 
 my($iR, $iC, $oWkS, $oWkC, $excel);
 
@@ -100,7 +102,7 @@ $assessid = $assessorid . "-" . $stockid . "-" . $assessyear . "-" . $recorder;
 $dateloaded = strftime "%Y-%m-%d %H:%M:%S", localtime;
 
 #my $sqlassessment = qq{ INSERT INTO srdb.assessment VALUES(\'$assessid\', \'$assessorid\', \'$stockid\', \'$recorder\', \'$daterecorded\', \'$dateloaded\', \'$assessyear\', \'$assesssource\', \'$contacts\', \'$notes\', \'$pdffile\', $assess, $refpoints, \'$assessmethod\', \'$assesscomments\') };
-my $sqlassessment = qq{ INSERT INTO srdb.assessment VALUES(\'$assessid\', \'$assessorid\', \'$stockid\', \'$recorder\', \'$formatteddaterecorded\', \'$dateloaded\', \'$assessyear\', \'$assesssource\', \'$contacts\', \'$notes\', \'$pdffile\', $assess, $refpoints, \'$assessmethod\', \'$assesscomments\', \'$xlsfilename\') };
+my $sqlassessment = qq{ INSERT INTO srdb.assessment VALUES(\'$assessid\', \'$assessorid\', \'$stockid\', \'$recorder\', \'$formatteddaterecorded\', \'$dateloaded\', \'$assessyear\', \'$assesssource\', \'$contacts\', \'$notes\', \'$pdffile\', $assess, $refpoints, \'$assessmethod\', \'$assesscomments\', \'$xlsfilename\', \'$mostrecent\') };
 # print "$sqlassessment\n";
 
 print SQLFILE "$sqlassessment; \n";

@@ -88,6 +88,8 @@
 "TOTAL BIOMASS","TB","Total biomass (or total exploitable biomass). Denoted on biometrics page","relative","relative","TB-relative"
 "TOTAL BIOMASS","TN","Total abundance. Use TN if TB is not available","E03","Thousands","TN-E03"
 "TOTAL BIOMASS","TN","Total abundance. Use TN if TB is not available","E06","Millions","TN-E06"
+"TOTAL BIOMASS","TN-1","Total abundance. Use only when there is more than 1 'final' model.","E03","Thousands","TN-1-E03"
+"TOTAL BIOMASS","TN-2","Total abundance. Use only when there is more than 1 'final' model.","E03","Thousands","TN-2-E03"
 "TOTAL BIOMASS","TN","Total abundance","relative","relative","TN-relative"
 "TOTAL BIOMASS","TB-1","Total biomass. Use only when there is more than 1 'final' model.","MT","Metric tons","TB-1-MT"
 "TOTAL BIOMASS","TB-2","Total biomass. Use only when there is more than 1 'final' model.","MT","Metric tons","TB-2-MT"

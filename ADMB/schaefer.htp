@@ -3,6 +3,7 @@
 
 class model_data : public ad_comm{
   data_int nobs;
+  data_number minB;
   data_number maxB;
   data_matrix data;
   dvector landings;

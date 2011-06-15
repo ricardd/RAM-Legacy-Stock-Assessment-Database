@@ -88,6 +88,7 @@
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fpa","Precautionary approach fishing mortality","1/yr","per year","Fpa-1/yr"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fpa","Precautionary approach fishing mortality","1/T","per unit time","Fpa-1/T"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fref","Reference fishing mortality","1/T","per unit time","Fref-1/T"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fref","Reference fishing mortality","1/yr","per year","Fref-1/yr"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fcurrent","Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing","1/T","per unit time","Fcurrent-1/T"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fcurrent","Best available point estimate of fishing mortality rate or total catch used to determine the rate of fishing","1/yr","per year","Fcurrent-1/yr"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Frebuild","Fishing mortality that allows stock to rebuild","1/T","per unit time","Frebuild-1/T"
@@ -171,3 +172,4 @@
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBlim","lowest observed spawning stock biomass in previous assessments","E03eggs","thousands of eggs","SSBlim-E03eggs"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","FemaleGonadMT","Female Gonad Weight in metric tons","SSBmsy-FemaleGonadMT"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBlim","lowest observed spawning stock biomass in previous assessments","FemaleGonadMT","Female Gonad Weight in metric tons","SSBlim-FemaleGonadMT"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","K","Carrying capacity","MT","Metric tons","K-MT"

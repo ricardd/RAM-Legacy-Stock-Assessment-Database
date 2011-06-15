@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-NROCKBSAI-1974-2009-STANTON', 'AFSC', 'NROCKBSAI', 'STANTON', '2009-04-07', '2010-12-02 20:31:33', '1974-2009', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-NROCKBSAI-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-NROCKBSAI-1974-2009-STANTON', 'AFSC', 'NROCKBSAI', 'STANTON', '2009-04-07', '2011-06-14 14:17:34', '1974-2009', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-NROCKBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKBSAI-1974-2009-STANTON', 'ID', '2008_SAFE_BSAInorthern') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKBSAI-1974-2009-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NROCKBSAI-1974-2009-STANTON', 'A1', 'Spencer, P.D.') ; 
@@ -21,8 +21,8 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','LW-a-kg/cm','1.25E-005', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','LW-b-dimensionless','3.05', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','M-1/yr','0.041', '', '') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','Fmsy-1/yr','0.0511', 'corresponds to F_35', '') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','SSBmsy-MT','48399', 'corresponds to B_35', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','Fmsy-1/yr','0.0511', '', 'corresponds to F_35') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','SSBmsy-MT','48399', '', 'corresponds to B_35') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','SSB-MT',1974, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','SSB-MT',1975, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-NROCKBSAI-1974-2009-STANTON','SSB-MT',1976, NULL) ; 

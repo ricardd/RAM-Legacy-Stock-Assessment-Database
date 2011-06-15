@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON', 'AFSC', 'ARFLOUNDBSAI', 'STANTON', '2009-04-03', '2010-12-02 20:31:34', '1970-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'Thomas Wilderbuer', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/STANTON-ARFLOUNDBSAI-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON', 'AFSC', 'ARFLOUNDBSAI', 'STANTON', '2009-04-03', '2011-06-14 14:17:34', '1970-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'Thomas Wilderbuer', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/STANTON-ARFLOUNDBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON', 'ID', 'AFSC-ARFLOUNDBSAI-2007-Arrowtooth flounder BSAI.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON', 'A1', 'Wilderbuer TK') ; 
@@ -24,7 +24,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','LW-b-dimless','3.1028', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','VB-k-cm/yr','0.16', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','VB-t0-yr','-0.81', '', '') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','SSBmsy-MT','292200.00', 'based on B_35%', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','SSBmsy-MT','292200.00', '', 'based on B_35%') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','Flim-1/yr','0.29', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','Fpa-1/yr','0.235', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-ARFLOUNDBSAI-1970-2008-STANTON','Linf-cm','85.0', '', '') ; 

@@ -10,6 +10,7 @@
 model_data::model_data(int argc,char * argv[]) : ad_comm(argc,argv)
 {
   nobs.allocate("nobs");
+  minB.allocate("minB");
   maxB.allocate("maxB");
   data.allocate(1,nobs,1,2,"data");
   landings.allocate(1,nobs);
@@ -21,7 +22,7 @@ model_parameters::model_parameters(int sz,int argc,char * argv[]) :
  model_data(argc,argv) , function_minimizer(sz)
 {
   initializationfunction();
-  lnK.allocate(-10000.,maxB,"lnK");
+  lnK.allocate(minB,maxB,"lnK");
   lnMSY.allocate("lnMSY");
   n.allocate(0.1,30.,-2,"n");
   f.allocate("f");

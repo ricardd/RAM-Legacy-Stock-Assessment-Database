@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-SRAKEROCKBSAI-1977-2008-STANTON', 'AFSC', 'SRAKEROCKBSAI', 'STANTON', '2009-04-01', '2010-12-02 20:31:31', '1977-2008', 'http://www.afsc.noaa.gov/REFM/docs/2006/BSAIsrre.pdf', 'Paul Spencer', 'Assessed together with rougheye rockfish until 2004', '', 1, 1, 'AD-CAM', 'Assesed as a population complex with other rockfish, notably rougheye rockfish until 2004', '../spreadsheets/STANTON-SRAKEROCKBSAI-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-SRAKEROCKBSAI-1977-2008-STANTON', 'AFSC', 'SRAKEROCKBSAI', 'STANTON', '2009-04-01', '2011-06-14 14:17:31', '1977-2008', 'http://www.afsc.noaa.gov/REFM/docs/2006/BSAIsrre.pdf', 'Paul Spencer', 'Assessed together with rougheye rockfish until 2004', '', 1, 1, 'AD-CAM', 'Assesed as a population complex with other rockfish, notably rougheye rockfish until 2004', '../spreadsheets/STANTON-SRAKEROCKBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SRAKEROCKBSAI-1977-2008-STANTON', 'ID', '2008_SAFE_BSAIshortraker.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SRAKEROCKBSAI-1977-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SRAKEROCKBSAI-1977-2008-STANTON', 'A1', 'Spencer PD') ; 

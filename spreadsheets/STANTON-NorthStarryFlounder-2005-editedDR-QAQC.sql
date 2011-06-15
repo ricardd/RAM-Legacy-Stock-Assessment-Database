@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-STFLOUNNPCOAST-1970-2005-STANTON', 'SWFSC', 'STFLOUNNPCOAST', 'STANTON', '2009-04-07', '2011-03-02 10:18:53', '1970-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'NORTH part of PCOAST only. Separate assessment for South', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-NorthStarryFlounder-2005-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-STFLOUNNPCOAST-1970-2005-STANTON', 'SWFSC', 'STFLOUNNPCOAST', 'STANTON', '2009-04-07', '2011-06-14 14:17:36', '1970-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'NORTH part of PCOAST only. Separate assessment for South', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-NorthStarryFlounder-2005-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-STFLOUNNPCOAST-1970-2005-STANTON', 'ID', '2005-SAFE-WCstarryflounder.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-STFLOUNNPCOAST-1970-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-STFLOUNNPCOAST-1970-2005-STANTON', 'A1', 'Ralston, Stephen') ; 

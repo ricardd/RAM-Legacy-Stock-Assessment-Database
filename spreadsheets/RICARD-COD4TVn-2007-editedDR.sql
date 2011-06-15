@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-SG-COD4TVn-1965-2009-RICARD', 'DFO-SG', 'COD4TVn', 'RICARD', '2011-03-01', '2011-03-01 14:26:23', '1965-2009', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'update from an earlier entry', '', 1, 1, 'ADAPT', 'Two different models were used to assess the NAFO 4TVn cod stock; these models took into account different mortalities which can both be found as a time series.', '../spreadsheets/RICARD-COD4TVn-2007-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-SG-COD4TVn-1965-2009-RICARD', 'DFO-SG', 'COD4TVn', 'RICARD', '2011-03-01', '2011-06-14 14:16:12', '1965-2009', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'update from an earlier entry', '', 1, 1, 'ADAPT', 'Two different models were used to assess the NAFO 4TVn cod stock; these models took into account different mortalities which can both be found as a time series.', '../spreadsheets/RICARD-COD4TVn-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-COD4TVn-1965-2009-RICARD', 'ID', 'Swain2009-Assessment-of-Southern-Gulf-Cod.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-COD4TVn-1965-2009-RICARD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-COD4TVn-1965-2009-RICARD', 'A1', 'Swain, D.P.') ; 

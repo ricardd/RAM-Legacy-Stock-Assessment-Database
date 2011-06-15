@@ -1,7 +1,7 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'AFSC', 'POPERCHGA', 'MELNYCHUK', '2009-04-17', '2010-12-02 20:31:38', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOAnorthern.pdf', 'Dana Hanselman, Dana.Hanselman@noaa.gov', 'Estimates of total biomass, SSB, and rec were presented in 2007 assessment only for years 1977 onwards (or 1975 for rec year class). Estimates for 1961-1976 obtained from Dana Hanselman, pers. comm. 
+ INSERT INTO srdb.assessment VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'AFSC', 'POPERCHGA', 'MELNYCHUK', '2009-04-17', '2011-06-14 14:17:40', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOAnorthern.pdf', 'Dana Hanselman, Dana.Hanselman@noaa.gov', 'Estimates of total biomass, SSB, and rec were presented in 2007 assessment only for years 1977 onwards (or 1975 for rec year class). Estimates for 1961-1976 obtained from Dana Hanselman, pers. comm. 
 F was only presented in a figure in 2007 assessment, values obtained from Dana Hanselman, pers. comm.
-There were discrepancies between the catch time series from Dana Hanselman (pers. comm.) and the one presented in the 2007 SAFE report for years 1977-1990. Dana had not been able to track down the reason for the discrepancy as of the time of this spreadsheet submission. The series from Dana is used as the primary one since those went into the model on which biomass, etc. estimates were based. The catch time series from the report is added as an extra series.', '', 1, 1, 'AD-CAM', '2008 assessment was only an update. full assessment conducted in 2007. filename: AFSC-POPERCHGA-2007-Pacific ocean perch GA.pdf', '../spreadsheets/MELNYCHUK-POPERCHGA-2008-editedDR.xls') ; 
+There were discrepancies between the catch time series from Dana Hanselman (pers. comm.) and the one presented in the 2007 SAFE report for years 1977-1990. Dana had not been able to track down the reason for the discrepancy as of the time of this spreadsheet submission. The series from Dana is used as the primary one since those went into the model on which biomass, etc. estimates were based. The catch time series from the report is added as an extra series.', '', 1, 1, 'AD-CAM', '2008 assessment was only an update. full assessment conducted in 2007. filename: AFSC-POPERCHGA-2007-Pacific ocean perch GA.pdf', '../spreadsheets/MELNYCHUK-POPERCHGA-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'ID', 'AFSC-POPERCHGA-2008-Pacific ocean perch GA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'A1', 'Hanselman, D.') ; 
@@ -12,30 +12,30 @@ There were discrepancies between the catch time series from Dana Hanselman (pers
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'PB', 'North Pacific Fishery Management Council ') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'CY', 'Anchorage, AK') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK', 'ZZID', 'AFSC-POPERCHGA-1959-2008-MELNYCHUK') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-AGE-yr','10.5', '50% maturity of females in GOA', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-SEX-sex','1', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','REC-AGE-yr','2', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','TB-AGE-yr','2+', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','TB-TYPE-0-1','0', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','VB-k-cm/T','0.19', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','VB-t0-yr','0.47', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Winf-g','984', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','A50-yr','10.5', 'for GOA females; or, 10 for sexes combined', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','MAT-SEX-sex','1', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-AGE-yr','10.5', 'NULL', '50% maturity of females in GOA') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-SEX-sex','1', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','REC-AGE-yr','2', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','TB-AGE-yr','2+', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','TB-TYPE-0-1','0', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','VB-k-cm/T','0.19', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','VB-t0-yr','0.47', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Winf-g','984', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','A50-yr','10.5', 'NULL', 'for GOA females; or, 10 for sexes combined') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','MAT-SEX-sex','1', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','MAT-REF-doctype','Hanselman, D.H., T.J. Quinn II, C. Lunsford, J. Heifetz and D.M. Clausen. 2003. Applications in 
-adaptive cluster sampling of Gulf of Alaska rockfish. Fish.  Bull.  101(3): 501-512. ', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Fecundity-N','10000-300000', 'range of fecundities; Leaman, B. M. 1991. Reproductive styles and life history variables relative to exploitation and 
-management of Sebastes stocks. Environmental Biology of Fishes 30: 253-271. ', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Linf-cm','41.4', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','LW-a-kg/cm','4.00E-07', 'units not given explicitly, but probably 0.0004 g/cm', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','LW-b-dimensionless','2.45', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','M-1/yr','0.06', 'estimated; used a prior of -.05 with CV of 10%', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','MAX-AGE-yr','84', 'max for GOA', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Fmsy-1/yr','0.073', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','NATMORT-1/yr','0.06', 'estimated; used a prior of -.05 with CV of 10%', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','F40%-1/T','0.061', '', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSBmsy-MT','78045', 'SSB35%; this is a proxy for SSBmsy for tier 3 stocks', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSBF40%-MT','89195', 'SSB35%; this is a proxy for SSBmsy for tier 3 stocks', 'NULL') ; 
+adaptive cluster sampling of Gulf of Alaska rockfish. Fish.  Bull.  101(3): 501-512. ', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Fecundity-N','10000-300000', 'NULL', 'range of fecundities; Leaman, B. M. 1991. Reproductive styles and life history variables relative to exploitation and 
+management of Sebastes stocks. Environmental Biology of Fishes 30: 253-271. ') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Linf-cm','41.4', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','LW-a-kg/cm','4.00E-07', 'NULL', 'units not given explicitly, but probably 0.0004 g/cm') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','LW-b-dimensionless','2.45', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','M-1/yr','0.06', 'NULL', 'estimated; used a prior of -.05 with CV of 10%') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','MAX-AGE-yr','84', 'NULL', 'max for GOA') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','Fmsy-1/yr','0.073', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','NATMORT-1/yr','0.06', 'NULL', 'estimated; used a prior of -.05 with CV of 10%') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','F40%-1/T','0.061', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSBmsy-MT','78045', 'NULL', 'SSB35%; this is a proxy for SSBmsy for tier 3 stocks') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSBF40%-MT','89195', 'NULL', 'SSB35%; this is a proxy for SSBmsy for tier 3 stocks') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-MT',1959, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-MT',1960, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-POPERCHGA-1959-2008-MELNYCHUK','SSB-MT',1961, 167390) ; 

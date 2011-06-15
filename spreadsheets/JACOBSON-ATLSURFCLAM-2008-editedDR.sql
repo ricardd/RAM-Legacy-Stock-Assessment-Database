@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SURFMATLC-1965-2008-JACOBSON', 'NEFSC', 'SURFMATLC', 'JACOBSON', '2009-04-22', '2011-02-11 20:21:05', '1965-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 1, 1, 'Delay difference', 'KLAMZ model used in DMV, NNJ, and entire stock, but index assessment used for SNE, LI, GBK', '../spreadsheets/JACOBSON-ATLSURFCLAM-2008-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SURFMATLC-1965-2008-JACOBSON', 'NEFSC', 'SURFMATLC', 'JACOBSON', '2009-04-22', '2011-06-14 14:18:10', '1965-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 1, 1, 'Delay difference', 'KLAMZ model used in DMV, NNJ, and entire stock, but index assessment used for SNE, LI, GBK', '../spreadsheets/JACOBSON-ATLSURFCLAM-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SURFMATLC-1965-2008-JACOBSON', 'ID', 'Surfclam2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SURFMATLC-1965-2008-JACOBSON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SURFMATLC-1965-2008-JACOBSON', 'A1', 'Northeast Fisheries Science Center') ; 

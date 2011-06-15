@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'AFSC', 'RKCRABBB', 'JENSEN', '2009-04-13', '2010-12-02 20:31:09', '1960-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKCRABBB-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'AFSC', 'RKCRABBB', 'JENSEN', '2009-04-13', '2011-06-14 14:17:06', '1960-2008', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'LBA', '', '../spreadsheets/JENSEN-RKCRABBB-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'ID', 'CRABSAFE2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'VL', '2008 BSAI Crab SAFE') ; 
@@ -9,8 +9,8 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'CY', 'Anchorage, AK') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'PB', 'North Pacific Fishery Management Council') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-RKCRABBB-1960-2008-JENSEN', 'ZZID', 'AFSC-RKCRABBB-1960-2008-JENSEN') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','Umsy-ratio','0.33', 'based on F35%', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSBmsy-MT','34070', '', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','Umsy-ratio','0.33', 'NULL', 'based on F35%') ; 
+ INSERT INTO srdb.bioparams VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSBmsy-MT','34070', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSB-MT',1960, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSB-MT',1961, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('AFSC-RKCRABBB-1960-2008-JENSEN','SSB-MT',1962, NULL) ; 

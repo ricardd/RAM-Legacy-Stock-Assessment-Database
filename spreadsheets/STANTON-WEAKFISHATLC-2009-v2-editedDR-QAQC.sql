@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'NEFSC', 'WEAKFISHATLC', 'STANTON', '2010-04-11', '2010-12-02 20:31:12', '1981-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0910/', '', '', '', 1, 1, 'ADAPT', 'Assessment category classified as VPA', '../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'NEFSC', 'WEAKFISHATLC', 'STANTON', '2010-04-11', '2011-06-14 14:17:09', '1981-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0910/', '', '', '', 1, 1, 'ADAPT', 'Assessment category classified as VPA', '../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'ID', 'NEFSC-Weakfish-2009') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'A1', 'Anonymous') ; 
@@ -13,7 +13,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','TB-TYPE-0-1','0', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','TB-AGE-yr','1+', '', '') ; 
  INSERT INTO srdb.bioparams VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','M-1/yr','0.25', '', '') ; 
- INSERT INTO srdb.bioparams VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','SSBmsy-MT','10179', 'SSB20%', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','SSBmsy-MT','10179', '', 'SSB20%') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','TC-MT',1981, 20417) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','TC-MT',1982, 13534) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON','TC-MT',1983, 13927) ; 

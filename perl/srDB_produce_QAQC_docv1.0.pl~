@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for all loaded assessments from either a given recorder (-r RECRODERNAME) or a management unit (-m MGMTUNITNAME)
 # Cóilín Minto and Daniel Ricard
 # Date started: 2009-06-03. from earlier work using only the recorder name as an argument 
-# Time-stamp: <2010-08-03 10:14:34 (srdbadmin)>
+# Time-stamp: <2011-02-28 15:18:11 (srdbadmin)>
 # Modification history:
 # 2009-06-05: to also allow for the generation of a QAQC document for each assessor (e.g. NEFSC for Mike Fogarty), I'm addins an additional argument option "-a"
 # 2009-06-10: adding an ORDER BY statement to the SQL so that the resulting document is more readable
@@ -17,7 +17,7 @@ use File::chdir;
 use File::Basename;
 use Switch;
 
-die "Need to supply an assessor ID\n" if @ARGV <1;
+die "Need to supply an argument\n" if @ARGV <1;
 
 my $argument = $ARGV[1];
 my $alistsql;

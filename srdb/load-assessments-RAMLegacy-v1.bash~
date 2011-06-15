@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-05-03 13:57:03 (srdbadmin)>
+# Last modified Time-stamp: <2011-05-19 13:50:26 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -353,7 +353,9 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-SARDPCOAST-20
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PINSKY-CMACKPCOAST-2008-editedDR.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-SCORPWC-2005-editedDR.xls
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-FLSOLEGA-2007-editedOJ.xls
+#perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-FLSOLEGA-2007-editedOJ.xls # updated by Megan Stachura
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STACHURA-FLSOLEGA-2010-editedDR.xls 
+
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-DSOLEGA-2007-editedOJ.xls
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-SBARSHARATL-2006-editedDR.xls

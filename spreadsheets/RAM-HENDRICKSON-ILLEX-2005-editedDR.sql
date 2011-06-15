@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON', 'NEFSC', 'ILLEXNWATLC', 'HENDRICKSON', '2009-04-20', '2010-12-02 20:31:55', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 0, 'AAPM', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/RAM-HENDRICKSON-ILLEX-2005-editedDR.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON', 'NEFSC', 'ILLEXNWATLC', 'HENDRICKSON', '2009-04-20', '2011-06-14 14:18:00', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 0, 'AAPM', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/RAM-HENDRICKSON-ILLEX-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON', 'ID', 'scr06-46.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON', 'A1', 'Hendrickson and Showell') ; 

@@ -2,7 +2,7 @@
 # script to generate a single Excel file with each table from srdb as a separate worksheet
 # Daniel Ricard
 # Started: 2011-06-13 from initial script for Rainer Froese's F&F request
-# Time-stamp: <2011-06-15 15:45:43 (srdbadmin)>
+# Time-stamp: <2011-06-15 20:18:28 (srdbadmin)>
 # Modification history:
 # 2011-06-15: adding an argument to the script call, to assign a name to the resulting spreadsheet file
 ## example USAGE: ./generate-single-spreadsheet-fromDB.pl RAM-Legacy-spreadsheet-snapshot-20110615
@@ -98,9 +98,11 @@ my $sheet0 = $workbook->add_worksheet("README");
 
 $sheet0->write(0, 0, "Single spreadsheet of the RAM Legacy database.");
 $sheet0->write(1, 0, "Created on:" . $datetime);
+$sheet0->write(2, 0, "Please report any errors to Daniel Ricard (ricardd\@matshat.dal.ca)");
+
 #$sheet0->write(1, 1, $datetime);
 
-$sheet0->insert_image('C5','../doc/srdb-erd-2011.png');
+$sheet0->insert_image('E5','../doc/srdb-erd-2011.png');
 
 ## AREA
 my $sheet1 = $workbook->add_worksheet("area");

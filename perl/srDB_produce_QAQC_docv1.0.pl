@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for all loaded assessments from either a given recorder (-r RECRODERNAME) or a management unit (-m MGMTUNITNAME)
 # Cóilín Minto and Daniel Ricard
 # Date started: 2009-06-03. from earlier work using only the recorder name as an argument 
-# Time-stamp: <2011-06-13 22:52:52 (srdbadmin)>
+# Time-stamp: <2011-06-15 23:30:29 (srdbadmin)>
 # Modification history:
 # 2009-06-05: to also allow for the generation of a QAQC document for each assessor (e.g. NEFSC for Mike Fogarty), I'm addins an additional argument option "-a"
 # 2009-06-10: adding an ORDER BY statement to the SQL so that the resulting document is more readable
@@ -100,7 +100,14 @@ if($assessnum > 1){$plural='s'}else{$plural=''}
 #------------------------------------------
 # create an assessment-specific tex file
 #my $temptex="/home/srdbadmin/SQLpg/srDB/tex/templates/QAQC_instructions_to_recorders_template.tex";
-my $temptex="/home/srdbadmin/srdb/tex/templates/QAQC_instructions_to_recorders_template.tex";
+my $temptex;
+switch($ARGV[0]) {
+case "-all" {$temptex="/home/srdbadmin/srdb/tex/templates/all_QAQC_template.tex";}
+case "-a" {$temptex="/home/srdbadmin/srdb/tex/templates/QAQC_instructions_to_recorders_template.tex";}
+case "-r" {$temptex="/home/srdbadmin/srdb/tex/templates/QAQC_instructions_to_recorders_template.tex";}
+case "-m" {$temptex="/home/srdbadmin/srdb/tex/templates/QAQC_instructions_to_recorders_template.tex";}
+}
+
 #my $outtex="/home/srdbadmin/SQLpg/srDB/tex/" . $assessorid . "_QAQC.tex";
 #my $outtex="/home/srdbadmin/SQLpg/srDB/tex/" . $argument . "_QAQC.tex";
 my $outtex="/home/srdbadmin/srdb/tex/" . $argument . "_QAQC.tex";

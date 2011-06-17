@@ -104,7 +104,7 @@ Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM (REF:SQL:NUMASSESS
 
 The status of exploited marine stocks, as estimated from biomass- and
 exploitaion-BRPs, varied widely depending on the management body
-(Figure~\ref{fig:friedeggmgmt}). Most European stocks (managed by
+(Figure~\ref{fig:friedegg}). Most European stocks (managed by
 ICES) have biomasses less than $B_{msy}$
 (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%), and over half of these
 stocks (REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSYICES\%) still

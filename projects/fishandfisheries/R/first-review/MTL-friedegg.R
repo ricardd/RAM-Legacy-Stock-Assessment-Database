@@ -32,7 +32,7 @@ fried.egg.fct("stock",my.ss,"3MTL4","FALSE","TRUE","3.0<=MTL<4.0","TRUE")
 ## stocks with MTL over 4.0
 ss.mtl <- subset(my.mtl, MTLgroup=="MTL>=4.0")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""), sep=",")), ")", sep="")
-fried.egg.fct("stock",my.ss,"MTL4","FALSE","TRUE","MTL>=4.0","TRUE")
+fried.egg.fct("stock",my.ss,"MTL4plus","FALSE","TRUE","MTL>=4.0","TRUE")
 
 dev.off()
 

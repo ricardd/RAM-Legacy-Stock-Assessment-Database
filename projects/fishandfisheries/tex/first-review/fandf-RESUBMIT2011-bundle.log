@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  31 MAY 2011 11:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  16 JUN 2011 23:28
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT2011-bundle
@@ -376,7 +376,7 @@ $ \OT1/cmr/m/n/12 (-20) and be-low $\OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 (-20)
  varies con-sid-er-ably by man-age-ment
  []
 
-) (./fandf-RESUBMIT2011-bundle.bbl) [4]
+[4]) (./fandf-RESUBMIT2011-bundle.bbl) [5]
 \openout2 = `Table1-formatted.aux'.
 
  (./Table1-formatted.tex
@@ -457,111 +457,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
 LaTeX Warning: Float too large for page by 328.54753pt on input line 33.
 
-) [5]
+) [6]
 \openout2 = `Figures-RESUBMIT.aux'.
 
  (./Figures-RESUBMIT.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--25
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--39
+Underfull \hbox (badness 10000) in paragraph at lines 23--39
 
  []
 
-[6
+[7
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 40--52
+Underfull \hbox (badness 10000) in paragraph at lines 41--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[7] [8]
-</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=35, 84
+[8] [9]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf, i
+d=38, 483.8075pt x 216.81pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.p
+df Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pd
+f> [10 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
+.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=47, 84
 5.1575pt x 597.23125pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
 ic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
-Overfull \hbox (26.17653pt too wide) in paragraph at lines 65--66
+Overfull \hbox (26.17653pt too wide) in paragraph at lines 75--76
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 60.00761pt on input line 68.
+LaTeX Warning: Float too large for page by 60.00761pt on input line 78.
 
-[9 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page i
-s rotated 90 degrees>]
+[11 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page 
+is rotated 90 degrees>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phyl
-o.pdf, id=43, 433.62pt x 722.7pt>
+o.pdf, id=55, 433.62pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel
 -phylo.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
 phylo.pdf>
 
-LaTeX Warning: Float too large for page by 32.98598pt on input line 77.
+LaTeX Warning: Float too large for page by 32.98598pt on input line 87.
 
-[10 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
+[12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
 phylo.pdf>]
-</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf, i
-d=53, 483.8075pt x 216.81pt>
-File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.p
-df Graphic file (type pdf)
-
-<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pd
-f> [11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot
-.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots.
-pdf, id=62, 794.97pt x 496.85625pt>
+pdf, id=65, 794.97pt x 496.85625pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
 lots.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
 ots.pdf>
-Overfull \hbox (26.17653pt too wide) in paragraph at lines 116--117
+Overfull \hbox (26.17653pt too wide) in paragraph at lines 118--119
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 6.89612pt on input line 119.
+LaTeX Warning: Float too large for page by 6.89612pt on input line 121.
 
-[12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
+[13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
 ots.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pd
-f, id=72, 578.16pt x 722.7pt>
+f, id=76, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ta
 xo.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-tax
 o.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pd
-f, id=73, 794.97pt x 429.605pt>
+f, id=77, 794.97pt x 429.605pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MT
 Ls.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTL
-s.pdf>) [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/frie
-degg-taxo.pdf>] [14 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
-iew/friedegg-MTLs.pdf>] [15
+s.pdf>) [14 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/frie
+degg-taxo.pdf>] [15 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
+iew/friedegg-MTLs.pdf>] [16
 
 
 
@@ -572,7 +572,7 @@ iew/friedegg-MTLs.pdf>] [15
 ]
 \openout2 = `Table-S2.aux'.
 
- (./Table-S2.tex) [16
+ (./Table-S2.tex) [17
 
 ]
 \openout2 = `Table-S1-formatted.aux'.
@@ -1162,7 +1162,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 26--46
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[17
+[18
 
 
 
@@ -1356,7 +1356,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 46--66
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []|\OT1/cmr/m/n/6 Statistical
  []
@@ -1666,7 +1666,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 66--86
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[19]
+[20]
 Overfull \hbox (1.25366pt too wide) in paragraph at lines 86--86
 []|\OT1/cmr/m/n/6 Multinational| 
  []
@@ -1921,7 +1921,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 86--106
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[20]
+[21]
 Overfull \hbox (1.25366pt too wide) in paragraph at lines 106--106
 []|\OT1/cmr/m/n/6 Multinational| 
  []
@@ -2181,7 +2181,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 106--126
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[21]
+[22]
 Overfull \hbox (1.25366pt too wide) in paragraph at lines 126--126
 []|\OT1/cmr/m/n/6 Multinational| 
  []
@@ -2476,7 +2476,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 126--146
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\OT1/cmr/m/n/6 Peruvian an-choveta
  []
@@ -2766,7 +2766,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 146--166
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[23]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\OT1/cmr/m/n/6 Red rock lob-ster New
  []
@@ -3056,7 +3056,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 166--186
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[24] [25]
+[25] [26]
 Overfull \hbox (1.25366pt too wide) in paragraph at lines 186--186
 []|\OT1/cmr/m/n/6 Multinational| 
  []
@@ -3366,7 +3366,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 186--206
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[26]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\OT1/cmr/m/n/6 Red grouper Gulf of
  []
@@ -3616,7 +3616,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 206--226
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[27]
+[28]
 Underfull \hbox (badness 1087) in paragraph at lines 226--226
 []|\OT1/cmr/m/n/6 Yellowtail floun-der Cape
  []
@@ -3881,7 +3881,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 226--246
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[28] [29]
+[29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\OT1/cmr/m/n/6 Statistical
  []
@@ -4161,7 +4161,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 246--266
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[30]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 266--266
 []|\OT1/cmr/m/n/6 Statistical
  []
@@ -4456,7 +4456,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 266--286
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[31]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
 []|\OT1/cmr/m/n/6 California scor-pi-onfish
  []
@@ -4741,7 +4741,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 286--306
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[32] [33]
+[33] [34]
 Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []|\OT1/cmr/m/n/6 Integrated
  []
@@ -5011,7 +5011,7 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 306--326
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[34]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []|\OT1/cmr/m/n/6 Biomass
  []
@@ -5231,67 +5231,79 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 326--341
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
-[35] [36] [37]) [38]
-Underfull \hbox (badness 10000) in paragraph at lines 54--66
+[36] [37] [38]) [39]
+Underfull \hbox (badness 10000) in paragraph at lines 57--69
 
  []
 
 
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessme
-nt.pdf, id=171, 722.7pt x 722.7pt>
+nt.pdf, id=174, 722.7pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-ass
 essment.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
 ssment.pdf>
-Overfull \hbox (98.44652pt too wide) in paragraph at lines 69--70
+Overfull \hbox (98.44652pt too wide) in paragraph at lines 72--73
  [] 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxoc
-ategory.pdf, id=172, 722.7pt x 289.08pt>
+ategory.pdf, id=175, 722.7pt x 289.08pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
 taxocategory.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-byt
 axocategory.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SS
-Blim.pdf, id=173, 496.85625pt x 794.97pt>
+Blim.pdf, id=176, 496.85625pt x 794.97pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-IC
 ES-SSBlim.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICE
 S-SSBlim.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correla
-tions.pdf, id=174, 433.62pt x 563.10374pt>
+tions.pdf, id=177, 433.62pt x 563.10374pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-co
 rrelations.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
-relations.pdf> [39
+relations.pdf> [40
 
 
-] [40 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-as
-sessment.pdf>] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-revi
-ew/friedegg-bytaxocategory.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfish
-eries/R/first-review/friedegg-ICES-SSBlim.pdf>] [43 </home/srdbadmin/srdb/proje
+] [41 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-as
+sessment.pdf>] [42 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-revi
+ew/friedegg-bytaxocategory.pdf>] [43 </home/srdbadmin/srdb/projects/fishandfish
+eries/R/first-review/friedegg-ICES-SSBlim.pdf>] [44 </home/srdbadmin/srdb/proje
 cts/fishandfisheries/R/first-review/Schaefer-correlations.pdf>] (./fandf-RESUBM
 IT2011-bundle.aux (./Table1-formatted.aux)
 (./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4211 strings out of 495061
- 63282 string characters out of 1182622
+ 4215 strings out of 495061
+ 63312 string characters out of 1182622
  219178 words of memory out of 3000000
  7203 multiletter control sequences out of 15000+50000
- 12689 words of font info for 75 fonts, out of 3000000 for 9000
+ 12787 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,35p,686b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
@@ -5303,9 +5315,9 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
 usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on fandf-RESUBMIT2011-bundle.pdf (43 pages, 3464006 bytes).
+Output written on fandf-RESUBMIT2011-bundle.pdf (44 pages, 3484567 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
+ 256 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  10803 words of extra memory for PDF output out of 12000 (max. 10000000)
 

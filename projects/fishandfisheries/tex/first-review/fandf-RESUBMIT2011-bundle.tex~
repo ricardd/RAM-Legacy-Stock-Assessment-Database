@@ -1,4 +1,4 @@
-%% Last modified: Time-stamp: <2011-04-21 20:34:29 (srdbadmin)>
+%% Last modified: Time-stamp: <2011-05-26 10:05:57 (srdbadmin)>
 \documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
 \usepackage{amssymb}
 \usepackage{pdflscape}
@@ -30,20 +30,93 @@
 
 \section*{Tables}
 
-First output Table 1 as generated from the database contents.
+%First output Table 1 as generated from the database contents.
 \begin{tiny}
 \include{Table1-formatted}
 \end{tiny}
 
-Next output the different figures.
+%Next output the different figures.
 \include{Figures-RESUBMIT}
-Supplementary Table S2
+
+\begin{appendix}
+Contents for Supplementary Materials
+
+%Supplementary Table S2
 \include{Table-S2}
-Supplementary Table S1
+
+%Supplementary Table S1
 \begin{landscape}
 \begin{tiny}
 \include{Table-S1-formatted}
 \end{tiny}
 \end{landscape}
+
+\noindent Figure. Taxonomic coverage of assessed marine species present in the
+RAM Legacy database. The circle located near the middle of the circular
+dendrogram represents kingdom Animalia and each subsequent branching
+represents a different taxonomic group (Kingdom to Phylum to Class to
+Order to Family to Genus to Species). The width of each line is
+proportional to the square root of the number of assessments in the
+database. The outermost lines represent species and the number of
+lines is the number of assessments for each species. The names of
+multi-assessment species are not repeated on the outermost portion of
+the dendrogram but continue counter-clockwise from the first entry.
+Note that branch lengths are chosen for graphical purposes and do not
+convey phylogenetic distance.\\ 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=7.5in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessment.pdf} %taxonomic_coverage_byLME.pdf}
+\end{center}
+\caption{ }\label{fig:taxo:srdb}
+\end{figure}
+
+%By taxonomy, inverts and fish, demersal and pelagics  (Figure~\ref{fig:group}).
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxocategory.pdf}
+\end{center}
+\caption{Invertebrates, demersal fish and pelagic fish.}
+\label{fig:group}
+\end{figure}
+
+%Fried egg plot for ICES using SSBlim reference points instead of SSBmsy  (Figure~\ref{fig:icesblim}).
+\begin{figure}
+\begin{center}
+\includegraphics[height=20cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SSBlim.pdf}
+\end{center}
+\caption{ ICES SSBlim.}
+\label{fig:icesblim}
+\end{figure}
+
+%Comparison of assessment-derived and Schaefer-derived ratios (Figure~\ref{fig:corr}).
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correlations.pdf}
+\end{center}
+\caption{ }\label{fig:corr}
+\end{figure}
+
+
+%By LME (Figure~\ref{fig:lme}).
+%\begin{figure}
+%\begin{center}
+%\includegraphics[height=20cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-LMEs.pdf}
+%\end{center}
+%\caption{By Large Marine Ecosystem (LME).}
+%\label{fig:lme}
+%\end{figure}
+
+
+%By the top 30 fisheries as per Table 2  (Figure~\ref{fig:top30}).
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-top30fisheries.pdf}
+%\end{center}
+%\caption{ Top 30 fisheries.}
+%\label{fig:top30}
+%\end{figure}
+
+\end{appendix}
 \end{document}
 

@@ -193,6 +193,7 @@ my.caption <- c("Contingency tables of stock status classification for biomass a
 my.table.contingency <- xtable(contingency.table, caption=my.caption, label=c("tab:contingency"), digits=2, align="ccc")
   print(my.table.contingency, type="latex", file="../../tex/first-review/Table-S2.tex", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
 
+  print(my.table.contingency, type="html", file="../../tex/first-review/Table-S2.html", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
 
 save.image()
 

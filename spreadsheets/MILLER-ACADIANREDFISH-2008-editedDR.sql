@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'NEFSC', 'ACADREDGOMGB', 'MILLER', '2009-04-16', '2011-06-14 14:18:07', '1913-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'ASAP', 'Variance of Discard estimates and small total removal estimates allowed some implausibly high fishing mortality estimates in recent years', '../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'NEFSC', 'ACADREDGOMGB', 'MILLER', '2009-04-16', '2011-06-17 20:59:49', '1913-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'ASAP', 'Variance of Discard estimates and small total removal estimates allowed some implausibly high fishing mortality estimates in recent years', '../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'ID', 'AcadianRedfish2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'A1', 'Northeast Fisheries Science Center') ; 
@@ -17,7 +17,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','M-1/yr','0.05', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','Winf-g','1050', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','F40%-1/T','0.0377', '2008', 'F50% MSP-based fishing mortality') ; 
- INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','SSBmsy-MT','27100', '2008', 'SSB50% MSP-based fishing mortality') ; 
+ INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','SSBmsy-MT','271000', '2008', 'SSB50% MSP-based fishing mortality') ; 
  INSERT INTO srdb.bioparams VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','MSY-MT','10139', '2008', 'yield based on 50% MSP') ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','SSB-MT',1913, 642256) ; 
  INSERT INTO srdb.timeseries VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER','SSB-MT',1914, 642246) ; 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  16 JUN 2011 23:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  17 JUN 2011 15:04
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT2011-bundle
@@ -335,35 +335,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
-
-LaTeX Warning: Reference `fig:friedegg' on page 2 undefined on input line 60.
-
 [2]
-
-LaTeX Warning: Reference `fig:friedegg' on page 3 undefined on input line 81.
-
-
-LaTeX Warning: Reference `fig:friedegg' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Reference `fig:friedegg' on page 3 undefined on input line 88.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 97--104
 
  []
 
 [3]
-
-LaTeX Warning: Reference `fig:friedegg' on page 4 undefined on input line 107.
-
-
-LaTeX Warning: Reference `fig:friedegg' on page 4 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig:friedegg' on page 4 undefined on input line 123.
-
-
 Overfull \hbox (10.58415pt too wide) in paragraph at lines 105--128
 []\OT1/cmr/m/n/12 (-20) The sta-tus of ex-ploited ma-rine stocks, as es-ti-mate
 d from biomass- and exploitaion-BRPs,
@@ -530,22 +507,19 @@ LaTeX Warning: Float too large for page by 32.98598pt on input line 87.
 
 [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
 phylo.pdf>]
-</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots.
-pdf, id=65, 794.97pt x 496.85625pt>
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots-
+fandf.pdf, id=65, 794.97pt x 496.85625pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
-lots.pdf Graphic file (type pdf)
+lots-fandf.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
-ots.pdf>
-Overfull \hbox (26.17653pt too wide) in paragraph at lines 118--119
+ots-fandf.pdf>
+Overfull \hbox (26.17653pt too wide) in paragraph at lines 127--128
  [] 
  []
 
-
-LaTeX Warning: Float too large for page by 6.89612pt on input line 121.
-
 [13 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
-ots.pdf>]
+ots-fandf.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pd
 f, id=76, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ta
@@ -5293,29 +5267,26 @@ ew/friedegg-bytaxocategory.pdf>] [43 </home/srdbadmin/srdb/projects/fishandfish
 eries/R/first-review/friedegg-ICES-SSBlim.pdf>] [44 </home/srdbadmin/srdb/proje
 cts/fishandfisheries/R/first-review/Schaefer-correlations.pdf>] (./fandf-RESUBM
 IT2011-bundle.aux (./Table1-formatted.aux)
-(./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./Figures-RESUBMIT.aux) (./Table-S2.aux) (./Table-S1-formatted.aux)) ) 
 Here is how much of TeX's memory you used:
- 4215 strings out of 495061
- 63312 string characters out of 1182622
- 219178 words of memory out of 3000000
+ 4209 strings out of 495061
+ 63296 string characters out of 1182622
+ 219185 words of memory out of 3000000
  7203 multiletter control sequences out of 15000+50000
- 12787 words of font info for 77 fonts, out of 3000000 for 9000
+ 12640 words of font info for 74 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,35p,686b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on fandf-RESUBMIT2011-bundle.pdf (44 pages, 3484567 bytes).
+</usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmti7.pfb>
+Output written on fandf-RESUBMIT2011-bundle.pdf (44 pages, 3483532 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

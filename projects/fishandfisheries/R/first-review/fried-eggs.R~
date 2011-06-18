@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-04-29 15:05:35 (srdbadmin)>
+## Last modified: Time-stamp: <2011-05-31 13:07:50 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -156,11 +156,11 @@ multipanel <- "TRUE"
 
 par(mfrow=c(3,3))
 # DFO
-fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","DFO","TRUE")
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","Canada","TRUE")
 # NMFS
-fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","NMFS","TRUE")
+fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","U.S.","TRUE")
 # ICES
-fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","ICES","TRUE")
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","Europe","TRUE")
 # Pacific
 fried.egg.fct("mgmt",c("('IATTC','SPC','IPHC','RFFA','SPRFMO','WCPFC','WPFMC')"),"PAC","FALSE","TRUE","Pacific","TRUE")
 mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
@@ -171,9 +171,9 @@ fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","FALSE","FALSE","Atlantic","TRU
 # other
 fried.egg.fct("mgmt",c("('CCAMLR','CFP','IMARPE','DETMCM','IOTC','Iran')"),"other","TRUE","TRUE","other","TRUE")
 # AFMA
-fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","AFMA","TRUE")
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","Australia","TRUE")
 # MFish
-fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","MFish","TRUE")
+fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","New Zealand","TRUE")
 
 
 ## calls to get results in the fishfisheries.results table

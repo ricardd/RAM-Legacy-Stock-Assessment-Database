@@ -1,0 +1,59 @@
+ID        @ PINKKOD1
+SP        @ Pink salmon 
+LATIN     @ Oncorhynchus gorbuscha 
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Kodiak Archipelago, Alaska
+SOURCE    @ Donnelly, R.F. 1983. Factors Affecting the Abundance of Kodiak Archipelago Pink Salmon ({\it Oncorhynchus gorbuscha}, Walbaum). Ph.D. thesis. University of Washington, Seattle, WA. 157 p. Table 2.1,  updated with info from D.E. Rogers, Fisheries Research inst, Univ of Washington , compiled from Alaska Fish and Game Reports
+COMMENTS  @ raw data in /home/myers/psalmon
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Thousands of Fish
+UNITREC   @ Thousands of Fish
+AGERECDAT @ 2
+UNITLAND  @ Thousands of Fish
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 57 20
+LONGITUDE @ -153 20
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ 1
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 2
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

@@ -1,0 +1,59 @@
+ID        @ SHADBLACK
+SP        @ Black Sea shad
+LATIN     @ Alosa kessleri 
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Black Sea
+SOURCE    @ Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 33-38 
+COMMENTS  @ natural mortality is assumed to vary with age, for ages 1 to 7 m = 0.35 0.35 0.35 0.35 0.70 2.70, this is the Danube population
+FAGE      @ 3-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes 
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 30
+LONGITUDE @ 27 00
+MONTHSPA  @ . 
+NATMORT   @ 0.7
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.2382968
+SPAWNLOC  @ Freshwater, in rivers
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

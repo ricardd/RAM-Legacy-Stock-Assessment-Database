@@ -1,0 +1,59 @@
+ID        @ CHNKKETA
+SP        @ Chinook salmon
+LATIN     @ Oncorhynchus tshawytscha 
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Keta River, Alaska-B.C.
+SOURCE    @ McPherson, S.A., and J.K. Carlile. 1997. Spawner-recruit analysis of Behm Canal chinook salmon stocks.  ADF&G Regional Information Report 1J97-06. (907-465-4270).
+COMMENTS  @  2011625 sq meters rearing habibtat The Keta River is a clearwater river (not glacially influenced). The  chinook salmon stock is a "spring" stock.  Mature fish migrate through terminal marine waters in Southeast Alaska in May through early July.  These fish enter the lower  River in June and July. Chinook salmon are counted 2-4 times per season by foot and by.  The highest single-day count, summed across all index areas in the river, is used as the escapement index for that year
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Numbers
+UNITREC   @ Numbers
+AGERECDAT @ 5 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 55 20
+LONGITUDE @ -130 20
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.0
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ MACKBLACK
+SP        @ Mackerel
+LATIN     @ Scomber scombrus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ Black Sea
+SOURCE    @ Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 111-123.
+COMMENTS  @ .
+FAGE      @ 1-4
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ .
+LATITUDE  @ 40 30 
+LONGITUDE @ 28 00 
+MONTHSPA  @ 04 
+NATMORT   @ 1.17
+F01       @ .
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Sea of Marmara
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ HADIS
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Irish Sea
+SOURCE    @ Anon. 2001. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 2001/ACFM2 .
+COMMENTS  @ . 
+FAGE      @ 2-4
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 54 00
+LONGITUDE @ -5 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.20 
+F01       @ 0.185
+FMAX      @ 0.398
+FMED      @  .
+KGPRECF0  @ 6.1
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

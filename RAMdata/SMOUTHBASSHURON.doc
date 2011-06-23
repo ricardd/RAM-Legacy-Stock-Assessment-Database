@@ -1,0 +1,59 @@
+ID        @ SMOUTHBASSHURON
+SP        @ Smallmouth bass
+LATIN     @ Micropterus dolomieui
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Baie du Dore, Lake Huron, 
+SOURCE    @ D. A. Wismer. 1980. The impact of thermal effluents on smallmouth bass reproductive success at Baie du Dore, Lake Huron. Master thesis, University of Toronto, Toronto, Ontario ; G. V. Hurley. 1975. The reproductive success and early growth of smallmouth bass, Micropterus Dolomni lacepede, at Baie du Dore, Lake Huron, Ontario. Master thesis, University of Toronto, Toronto, Ontario 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Numbers
+AGERECDAT @ 3
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 21
+LONGITUDE @ -81 34
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

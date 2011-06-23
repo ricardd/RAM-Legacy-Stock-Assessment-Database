@@ -1,0 +1,59 @@
+ID        @ CHUBRSTO
+SP        @ Chub
+LATIN     @ Leuciscus cephalus
+FAMILY    @ Cyprinidae
+CFAMILY   @ Minnows
+ORDER     @ Cypriniformes
+STOCK     @ River Stour, Dorset
+SOURCE    @ Mann, R. H. K. 1976. Observations on the age, growth, reproduction and food of the chub {\it Squalius cephalus} (L.) in the River Stour, Dorset. J. Fish Biol. (1976) 8: 265-288.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electro fishing
+UNITSSB   @ .
+UNITREC   @ Indices of year class strength
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 55
+LONGITUDE @ -2 15
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

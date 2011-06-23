@@ -1,0 +1,59 @@
+ID        @ RED4VWX
+SP        @ Redfish
+LATIN     @ Sebastes mentela and fasciatus 
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ NAFO 4VWX
+SOURCE    @ Zwanenburg, K., and P. C. F. Hurley. 1987. Redfish ({\it Sebastes} spp.) in management unit 4VWX: an assessment of present stock status. CAFSAC Res. Doc. 87/35: 34 p.; CAFSAC Advisory Document 90/5.
+COMMENTS  @ RV(1+2)
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ . 
+UNITREC   @ . 
+AGERECDAT @ . 
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 44 10
+LONGITUDE @ -59 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Ovoviviparous 
+FEEDTYPE  @ Pelagic, bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

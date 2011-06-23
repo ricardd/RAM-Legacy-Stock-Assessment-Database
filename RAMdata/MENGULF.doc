@@ -1,0 +1,59 @@
+ID        @ MENGULF
+SP        @ Gulf Menhaden
+LATIN     @ Brevoortia patronus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Gulf of Mexico
+SOURCE    @ Vaughan, D. S. 1987. Stock Assessment of the Gulf Menhaden, {\it Brevoortia patronus}, Fishery. NOAA Technical Report NMFS 58. and NOAA Tech. Report NMFS 125, Feb. 1996. 
+COMMENTS  @ FBAR is weighted mean of F's for ages 0-8 (weighted by catch in numbers) (M = 1.1).
+FAGE      @ 0-8
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 1
+UNITLAND  @ Thousands tonnes
+EGGDIAM   @ 1.61 
+LHATCH    @ 3 
+LMETA     @ 30 
+DELTAL    @ 27 
+DELTAN    @ 16.8 
+LATITUDE  @ 28 00
+LONGITUDE @ -90 00
+MONTHSPA  @ 12-1 
+NATMORT   @ 1.1 
+F01       @ 0.7 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.02691043
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Vaughan, D.S. 1987.  Stock Assessment of the Gulf Menhaden, {\em Brevoortia patronus}, Fishery.  NOAA Tec. Rep NMFS 58. 
+LINFIN    @ 254.3 
+k         @ 0.354 
+to        @ -1.054 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ Vaughan, D.S. 1987.  Stock Assessment of the Gulf Menhaden, {\em Brevoortia patronus}, Fishery.  NOAA Tec. Rep NMFS 58. 
+aLTWTPAR  @ -12.657 
+bLTWTPAR  @ 3.358 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

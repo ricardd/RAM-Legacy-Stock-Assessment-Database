@@ -1,0 +1,59 @@
+ID        @ MACK2-6
+SP        @ Mackerel
+LATIN     @ Scomber scombrus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ NAFO 2 to 6
+SOURCE    @ Anon. 2000. Report of the  Northeast Regional Stock Assessment Workshop (30th SAW). Northeast Fisheries Science Center Ref. Doc. 00-03.
+COMMENTS  @ SPA, 1 year olds in (000 000's), F is the median
+FAGE      @ 5-9
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Tens of millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.2 
+LHATCH    @ 3.5 
+LMETA     @ 30 
+DELTAL    @ 26.5 
+DELTAN    @ 22.1 
+LATITUDE  @ 48 00
+LONGITUDE @ -59 00
+MONTHSPA  @ 6-7 
+NATMORT   @ 0.2 
+F01       @ 0.27
+FMAX      @ 0.96
+FMED      @ 0.25
+KGPRECF0  @ 1.96
+SPAWNLOC  @ Shelf- coastal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic 70-200m 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ 32 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

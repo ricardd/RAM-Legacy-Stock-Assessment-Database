@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-05-31 13:07:50 (srdbadmin)>
+## Last modified: Time-stamp: <2011-06-17 14:55:16 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -33,12 +33,18 @@ dev.off()
 pdf("friedegg-taxo.pdf", width=8, height=10)
     par(mar=c(2,2,1,1), oma=c(2,2,0,0))
 par(mfrow=c(3,2))
-fried.egg.fct("taxo"," ordername = 'Gadiformes'","Gadiformes","FALSE","TRUE","Gadiformes","TRUE")
-fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","Perciformes","TRUE")
-fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","FALSE","TRUE","Pleuronectiformes","TRUE")
-fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","TRUE","TRUE","Scorpaeniformes","TRUE")
-fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","Clupeiformes","TRUE")
-fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","Decapoda","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Gadiformes'","Gadiformes","FALSE","TRUE","Gadiformes","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","Perciformes","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","FALSE","TRUE","Pleuronectiformes","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","TRUE","TRUE","Scorpaeniformes","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","Clupeiformes","TRUE")
+#fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","Decapoda","TRUE")
+fried.egg.fct("taxo"," ordername = 'Gadiformes'","Gadiformes","FALSE","TRUE","a)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","b)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","FALSE","TRUE","c)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","TRUE","TRUE","d)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","e)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","f)","TRUE")
 dev.off()
 
 ## now use some logic to assign each species to a taxonomic group, either Invertebrate, Pelagic, Demersal or Sharks/Rays
@@ -179,6 +185,47 @@ fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","New Zealand","TRUE"
 ## calls to get results in the fishfisheries.results table
 fried.egg.fct("mgmt",c("('NAFO')"),"NAFO","TRUE","TRUE","Atlantic","FALSE")
 fried.egg.fct("mgmt",c("('ICCAT')"),"ICCAT","TRUE","TRUE","Atlantic","FALSE")
+
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+
+dev.off()
+
+pdf("friedegg-9plots-fandf.pdf", width=11, height=11/1.6)
+multipanel <- "TRUE"
+  if(multipanel){
+    par(mar=c(2,2,1,1), oma=c(2,2,0,0))
+}else{par(mar=c(5.1, 5.1, 4.1, 2.1))}
+
+par(mfrow=c(3,3))
+#all
+fried.egg.fct("mgmt",c("('AFMA', 'CCAMLR','CCSBT', 'CFP', 'DETMCM', 'DFO', 'GFCMED', 'IATTC', 'ICCAT', 'ICES', 'IMARPE', 'IOTC', 'IPHC', 'Iran', 'MFish', 'NAFO', 'NMFS', 'RFFA', 'SPC', 'SPRFMO', 'TRAC', 'UNKNOWN', 'US State', 'WCPFC', 'WPFMC')"),"ALLMGMT","FALSE","TRUE","a)","TRUE")
+
+# NMFS
+fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","b)","TRUE")
+
+# MFish
+fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","c)","TRUE")
+
+# ICES
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","d)","TRUE")
+
+# DFO
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","e)","TRUE")
+
+# AFMA
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","f)","TRUE")
+
+
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+
+# Atlantic
+fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","FALSE","FALSE","g)","TRUE") # 'TRAC',
+
+# Pacific
+fried.egg.fct("mgmt",c("('IATTC','SPC','IPHC','RFFA','SPRFMO','WCPFC','WPFMC')"),"PAC","FALSE","TRUE","h)","TRUE")
+
+# other
+fried.egg.fct("mgmt",c("('CCAMLR','CFP','IMARPE','DETMCM','IOTC','Iran')"),"other","TRUE","TRUE","i)","TRUE")
 
 mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
 

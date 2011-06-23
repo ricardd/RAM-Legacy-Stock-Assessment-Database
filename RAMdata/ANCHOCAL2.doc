@@ -1,0 +1,59 @@
+ID        @ ANCHOCAL2
+SP        @ Northern anchovy
+LATIN     @ Engraulis mordax
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ California
+SOURCE    @ Baumgartner, T.R., A. Soutar, and V. Ferriera-Bartrina.  1992.  Reconstruction of the history of Pacific sardine and northern anchovy populations over the past two millennia from sediments of the Santa Barbara Basin, California.  Calif. Coop. Oceanic. Fish. Invest. Rep. 33: 24-40.
+COMMENTS  @ 10 year averages from fossil scale data.
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ scales per 1000 cm^2
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.23-1.55 x 0.6-0.8
+LHATCH    @ 2.5-3.0 SL
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 15
+LONGITUDE @ -120 03
+MONTHSPA  @ 4-8 
+NATMORT   @ 0.6 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.015
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 21 cm 
+k         @ 0.45 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

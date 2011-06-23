@@ -1,0 +1,59 @@
+ID        @ SCUP
+SP        @ Scup
+LATIN     @ Stenotomus chrysops
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ Cape Cod - Cape Hatteras USA
+SOURCE    @ Northeast Fisheries Science Center. 1995. Report of the 19th Regional Stock Assessment Workshop (19th SAW), The Plenary.  NEFSC Reference Document 95-09/SAW 19. pp 96-107
+COMMENTS  @ .
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ . 
+LATITUDE  @ 39 00
+LONGITUDE @ -74 30
+MONTHSPA  @ 5-8 
+NATMORT   @ 0.20 
+F01       @ 0.14
+FMAX      @ 0.23 
+FMED      @ . 
+KGPRECF0  @ 2.5439
+SPAWNLOC  @ Coastal waters
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

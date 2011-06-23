@@ -1,0 +1,59 @@
+ID        @ WEAKFISH
+SP        @ Weakfish
+LATIN     @ Cynoscion guatucupa
+FAMILY    @ Sciaenidae
+CFAMILY   @ Drums 
+ORDER     @ Perciformes
+STOCK     @ East Coast, USA
+SOURCE    @ 30th Northeast Regional Stock Assessment Workshop, NMFS, Woods Hole, NEFSC Ref. Doc, 00-03
+COMMENTS  @ .
+FAGE      @ 4-5
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands 
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 00
+LONGITUDE @ -76 00
+MONTHSPA  @ 4 
+NATMORT   @ 0.15 
+F01       @ 0.18 
+FMAX      @ 0.27 
+FMED      @ . 
+KGPRECF0  @ 4.36
+SPAWNLOC  @ Marine 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

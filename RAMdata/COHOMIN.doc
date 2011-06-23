@@ -1,0 +1,59 @@
+ID        @ COHOMIN
+SP        @ Coho salmon
+LATIN     @ Oncorhynchus kisutch
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Minter Creek, Washington
+SOURCE    @ Salo, E. O. and W. H. Bayliff. Artificial and natural production of silver salmon, {\it Oncorhynchus kisutch}, at Minter Creek, Washington. State of Washington, Dept. of Fisheries, REs. Bull. 4.
+COMMENTS  @ 16.56 kilometre river length; Females to smolts, experiment
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Females
+UNITREC   @ Smolts
+AGERECDAT @ 1 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 47 22
+LONGITUDE @ -122 41
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

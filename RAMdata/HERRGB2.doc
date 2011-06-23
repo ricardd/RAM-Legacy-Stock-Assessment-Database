@@ -1,0 +1,59 @@
+ID        @ HERRGB2
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Georges Bank
+SOURCE    @ Anthony, V. C., and G. T. Waring. 1980. Estimates of herring spawning stock biomass and egg production for the Georges Bank-Gulf of Maine region. NAFO SCR Doc. 80/IX/135(Corrigendum): 1 p.
+COMMENTS  @ SPA, 1 year olds in (000 000)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes 
+UNITREC   @ Millions 
+AGERECDAT @ 1 
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 41 30
+LONGITUDE @ -67 30
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.91
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

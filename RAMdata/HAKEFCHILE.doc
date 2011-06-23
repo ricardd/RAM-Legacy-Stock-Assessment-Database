@@ -1,0 +1,59 @@
+ID        @ HAKEFCHILE
+SP        @ Peruvian hake
+LATIN     @ Merluccius gayi
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Chile- Northern zone
+SOURCE    @ Ignacio, Paya C. 1992. Captura Total Permisible del Recurso Merluza Commun-1992, Instituto de Fomento Pequero-Chile(IFOP).
+COMMENTS  @ Called Common hake in old doc file, Only females included
+FAGE      @ 3+
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -21 00
+LONGITUDE @ -70 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ 0.056 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

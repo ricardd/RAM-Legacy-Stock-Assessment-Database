@@ -1,0 +1,59 @@
+ID        @ HERRIspr
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Iceland (Spring spawners)
+SOURCE    @ Jakobssen. ICES Rapports et Troces-Vervaux des Reunious 177: 23-42 p.
+COMMENTS  @ SPA
+FAGE      @ 3-12
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 63 00
+LONGITUDE @ -21 00
+MONTHSPA  @ . 
+NATMORT   @ 0.1 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 2.88
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

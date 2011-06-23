@@ -1,0 +1,59 @@
+ID        @ SOCKTAHL1
+SP        @ Sockeye salmon
+LATIN     @ Oncorhynchus nerka
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Tahltan Lake, B.C.
+SOURCE    @ Review of the Spawning Escapement Target for Tahltan Lake Sockeye Salmon, C.C. Wood et al., PSARC Working paper S93-1, Table 3.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Numbers of fish
+UNITREC   @ Thousands of fry
+AGERECDAT @ .
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ -132 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

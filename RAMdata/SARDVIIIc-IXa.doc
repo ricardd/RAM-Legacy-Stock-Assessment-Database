@@ -1,0 +1,59 @@
+ID        @ SARDVIIIc-IXa
+SP        @ Spanish sardine
+LATIN     @ Sardina pilchardus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ West Iberian (ICES VIIIc-IXa)
+SOURCE    @ Anon. 2002. Working Group on the Assessment of the Stocks of Sardine, Horse Mackerel and Anchovy. ICES Doc. C.M.2002/ACFM:06
+COMMENTS  @ .
+FAGE      @ 2-5
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.3-1.9 
+LHATCH    @ 3.3-4.0 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ -10 00
+MONTHSPA  @ 9-4 
+NATMORT   @ 0.33 
+F01       @ 0.28
+FMAX      @ 2.265 
+FMED      @ 0.49 
+KGPRECF0  @ 0.116
+SPAWNLOC  @ Shelf, coastal 20-25m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic, coastal 100-10m 
+SOURCEMAT @ . 
+LENMAT    @ 14-15 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

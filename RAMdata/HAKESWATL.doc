@@ -1,0 +1,59 @@
+ID        @ HAKESWATL
+SP        @ Hake
+LATIN     @ Merluccius hubbsi
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Southwest Atlantic Ocean 
+SOURCE    @ Bezzi, S., G. Canete, M. Perez, M. Renzi, and H. Lassen. 1994. Report of the INIDEP working group on assessment of hake ({\it Merluccius hubbsi}) north of 48 S (Southwest Atlantic Ocean).  INIDEP Documento Cientifico 3.
+COMMENTS  @ Figure 8, page 16 and table 8, page 17
+FAGE      @ 3-5
+METHOD    @ SPA
+UNITSSB   @ Million Tonnes
+UNITREC   @ Billions
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -40 00
+LONGITUDE @ -57 00
+MONTHSPA  @ . 
+NATMORT   @ 0.3
+F01       @ .
+FMAX      @ .
+FMED      @ . 
+KGPRECF0  @ 5.937658
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ .
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

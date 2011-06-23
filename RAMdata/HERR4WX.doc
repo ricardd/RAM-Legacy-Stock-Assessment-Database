@@ -1,0 +1,59 @@
+ID        @ HERR4WX
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ NAFO 4WX
+SOURCE    @ Stephensen, R. L., M. J. Power, and T. D. Iles. 1975. Assessment of the 1986 4WX herring fishery. CAFSAC 87/75: 39 p.; update by Stephensen.; Anon. 1990. Advice on the management of herring stocks on the Atlantic coast of Canada for 1991. CAFSAC Adv. doc. 90/4: 27 p.
+COMMENTS  @ SPA, 1 year olds in (000's), SSB biomass of age 5+
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1 
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 42 00
+LONGITUDE @ -63 20
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

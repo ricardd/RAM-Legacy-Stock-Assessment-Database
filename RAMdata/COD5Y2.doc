@@ -1,0 +1,59 @@
+ID        @ COD5Y2
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 5Y
+SOURCE    @ Anon. 1991. Report of the Twelfth Northeast Assessment Workshop (12th SAW). Northeast Fisheries Science Center Ref. Doc. 91-03.
+COMMENTS  @ RV
+FAGE      @ 5-8
+METHOD    @ SPA
+UNITSSB   @ Kg per tow 
+UNITREC   @ Numbers per tow
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 43 30
+LONGITUDE @ -68 30
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.16 
+FMAX      @ 0.27
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

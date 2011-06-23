@@ -1,0 +1,59 @@
+ID        @ PANDALESS
+SP        @ Northern shrimp
+LATIN     @ Pandalus borealis
+FAMILY    @ Pandalidae
+CFAMILY   @ Pandalid shrimps
+ORDER     @ Decapoda
+STOCK     @ Eastern Scotian Shelf 
+SOURCE    @ Koeller, P., M. Covey and M. King. 1997. The Scotian Shelf Shrimp (Pandalus borealis) fishery in 1997. DFO Atlantic Fisheries Research Document 97/125.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ kg/hr
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 30
+LONGITUDE @ -60 20
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

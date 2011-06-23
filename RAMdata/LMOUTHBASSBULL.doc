@@ -1,0 +1,59 @@
+ID        @ LMOUTHBASSBULL
+SP        @ Largemouth bass
+LATIN     @ Micropterus salmoide
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Bull Shoals Reservoir, Arkansas
+SOURCE    @ W. E. Keith. 1975. Management by water level manipulation. pp 489-496. In Black Bass Biology and Management.  R. H. Stroud and H. Clepper, ed. Sport fishing Institute, Washington, D. C. 
+COMMENTS  @ Young-of-the-year
+FAGE      @ .
+METHOD    @ Rotenone poisoning
+UNITSSB   @ .
+UNITREC   @ Number per acre
+AGERECDAT @ 0.5
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 36 22
+LONGITUDE @ -92 34
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

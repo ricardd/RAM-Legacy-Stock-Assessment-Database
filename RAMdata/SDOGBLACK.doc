@@ -1,0 +1,59 @@
+ID        @ SDOGBLACK
+SP        @ Spiny dogfish
+LATIN     @ Squalus acanthias
+FAMILY    @ Squalidae
+CFAMILY   @ Dogfish sharks
+ORDER     @ Squaliformes
+STOCK     @ Black Sea
+SOURCE    @ Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 16-22
+COMMENTS  @ age-specific mortality between ages 4 and 19 is  m_c(0.24,0.20,0.14,0.12,0.10,0.09,0.07,0.05,0.09,0.04,0.04,0.04,0.04,0.04,0.04,0.04)
+FAGE      @ 14-19
+METHOD    @ SPA
+UNITSSB   @ Millions
+UNITREC   @ Millions
+AGERECDAT @ 4
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 30
+LONGITUDE @ 35 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ . 
+SPAWNLOC  @ . 
+EGGTYPE   @ .
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ .
+AGEMAT    @ 13
+AGEMATM   @ 10 
+AGEMATF   @ 13 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

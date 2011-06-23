@@ -1,0 +1,59 @@
+ID        @ ABALSAUS
+SP        @ Abalone
+LATIN     @ Haliotis laevigata
+FAMILY    @ Haliotidae
+CFAMILY   @ Abalones
+ORDER     @ Archaeogastropoda
+STOCK     @ South Australia
+SOURCE    @ S.A Shepherd, and L.D. Brown.  1993.  What is an abalone stock: implications for the role of refugia in conservation.  Can. J. Fish. Aquat. Sci., Vol.50:2001-2009
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Counts by scuba divers
+UNITSSB   @ Number per hundred metre square
+UNITREC   @ Index
+AGERECDAT @ 3
+UNITLAND  @ .  
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -34 30
+LONGITUDE @ 135 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

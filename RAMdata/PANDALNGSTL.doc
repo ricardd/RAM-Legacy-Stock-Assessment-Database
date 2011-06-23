@@ -1,0 +1,59 @@
+ID        @ PANDALNGSTL
+SP        @ Northern shrimp
+LATIN     @ Pandalus borealis
+FAMILY    @ Pandalidae
+CFAMILY   @ Pandalid shrimps
+ORDER     @ Decapoda
+STOCK     @ Northern Gulf of St. Lawrence
+SOURCE    @ Louise Savard. 1997. Shrimp of the Estuary and the Gulf of St. Lawrence. DFO, Atlantic Fisheries, Stock Status Report c4-06, May 1997.
+COMMENTS  @ Data were taken from the DFO website and were averaged for the Sept-Iles, Anticosti, Esquiman and Estuary regions. 
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Kg/hr
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 49 00
+LONGITUDE @ -61 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

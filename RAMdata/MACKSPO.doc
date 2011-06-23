@@ -1,0 +1,59 @@
+ID        @ MACKSPO
+SP        @ S. pacific horse mackerel
+LATIN     @ Trachurus symetricus
+FAMILY    @ Carangidae
+CFAMILY   @ Jacks, Amberjacks, Pompanos
+ORDER     @ Perciformes
+STOCK     @ South Pacific Ocean
+SOURCE    @ H. Arancibia et al. 1995. the fishery of horse mackerel ({\em Trachurus symmetricus murphyi}) in the South Pacific Ocean, with notes on the fishery off central southern Chile.  Sci. Mar, 59(3-4):589-596 
+COMMENTS  @ Recruitment was read from Figure 8 and was lagged by 1 year
+FAGE      @ 5-10
+METHOD    @ SPA 
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Billions
+AGERECDAT @ 1
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -30 00
+LONGITUDE @ -90 00
+MONTHSPA  @ .
+NATMORT   @ 0.4
+F01       @ 0.51 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ H. Arancibia et al. 1995. the fishery of horse mackerel ({\em Trachurus symmetricus murphyi}) in the South Pacific Ocean, with notes on the fishery off central southern Chile.  Sci. Mar, 59(3-4):589-596 
+LINFIN    @ 74.24 cm
+k         @ 0.1109
+to        @ -.8113
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

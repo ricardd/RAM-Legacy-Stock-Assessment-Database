@@ -1,0 +1,59 @@
+ID        @ HAKEJAB
+SP        @ Hake
+LATIN     @ Merluccius merluccius
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Jabuka Pit, Adriatic Sea
+SOURCE    @ Alegria-Hern\'{a}ndez, V., and S. Juki\.{c}. 1988. Stock-recruitment relationship for the hake ({\it Merluccius merluccius}) from the Open Middle Adriatic-Jabuka Pit. FAO Fish. Rep. 394: 137-141.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Tons
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ 15 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

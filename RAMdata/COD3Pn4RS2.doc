@@ -1,0 +1,60 @@
+ID        @ COD3Pn4RS2
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 3Pn4RS
+SOURCE    @ Fr\'{e}chet, A., Pers. Com. Feb. 1998, Fr\'{e}chet, A. 1988. Evaluation du stock de morue de la subdivision 3Pn et des divisions 4R et 4S de l'OPANO. CAFSAC Res. Doc. 88/24: 66 p.; update by Frechet, A. and P. Schwab. 1990.; Anon. 1989. Advice on the management of groundfish stocks in 1990. CAFSAC Advisory Document 89/12: 82 p.; Pers. Comm. with A. Frechet.  Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMAX).
+
+COMMENTS  @ Tunning assumes uses Needler and sentianal surveys.
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 49 00
+LONGITUDE @ -60 00
+MONTHSPA  @ . 
+NATMORT   @ 0.20 
+F01       @ 0.23
+FMAX      @ 1.10 
+FMED      @ 0.4 
+KGPRECF0  @ 8.77
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

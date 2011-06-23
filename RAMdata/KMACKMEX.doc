@@ -1,0 +1,59 @@
+ID        @ KMACKMEX
+SP        @ King mackerel
+LATIN     @ Scomberomorus cavalla
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ W. Gulf of Mexico
+SOURCE    @ Chavez, E.A. and F. Arreguin-Sanchez. 1995. Optimizing yields of the king mackerel({\it Scomberomorus cavalla}) fishery in the western and southern Gulf of Mexico.  Sci. Mar. 59(3-4):629-636. 
+COMMENTS  @ NOT RELIABLE BECAUSE THERE IS ONLY YEAR OF AGING DONE!!!!
+FAGE      @ 2-15
+METHOD    @ SPA
+UNITSSB   @ Thousands
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 21 00
+LONGITUDE @ -94 00
+MONTHSPA  @ .
+NATMORT   @ 0.1658
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Chavez, E.A. and F. Arreguin-Sanchez. 1995. Optimizing yields of the king mackerel({\it Scomberomorus cavalla}) fishery in the western and southern Gulf of Mexico.  Sci. Mar. 59(3-4):629-636. 
+LINFIN    @ 115 cm 
+k         @ 0.1658
+to        @ 0.256
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

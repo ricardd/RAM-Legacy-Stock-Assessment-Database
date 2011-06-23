@@ -1,0 +1,59 @@
+ID        @ REDGV-XIV
+SP        @ Golden redfish
+LATIN     @ Sebastes marinus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ ICES V and XIV
+SOURCE    @ Anon. 1990. Report of the North-Western Working Group. ICES Doc. C.M. 1990/Assess: 20. 
+COMMENTS  @ .
+FAGE      @ 14-21
+METHOD    @ SPA and RV
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 68 00
+LONGITUDE @ -27 00
+MONTHSPA  @ Parturition 4-5 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Ovoviviparous 
+FEEDTYPE  @ Pelagic, or bathypelagic 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ 40.5 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

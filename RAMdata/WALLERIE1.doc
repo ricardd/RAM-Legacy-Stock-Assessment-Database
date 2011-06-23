@@ -1,0 +1,59 @@
+ID        @ WALLERIE1
+SP        @ Walleye
+LATIN     @ Stizostedion vitreum
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Lake Erie, Michigan
+SOURCE    @  Modeling the Western Lake Erie Walleye Population: A Feasibility Study, by B.J. Shuter, J.F. Koonce, and H.A. Regier.  Technical Report No.32, Great Lakes Fishery Commission.  April 1979
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ number per trap-net lift
+UNITREC   @ number per trap-net lift
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 41 55
+LONGITUDE @ -83 10
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

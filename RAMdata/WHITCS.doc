@@ -1,0 +1,59 @@
+ID        @ WHITCS
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Celtic Sea
+SOURCE    @ Anon. 1993. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. ICES Doc. C.M. 1993/Assess: 3., updated 2001
+COMMENTS  @ VPA O-group recruits
+FAGE      @ 2-5
+METHOD    @ SPA 
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @  
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 51 00
+LONGITUDE @ -5 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.18 
+FMAX      @ 0.25 
+FMED      @ 1.40 
+KGPRECF0  @ 1.83
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

@@ -18,8 +18,6 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review")
@@ -44,7 +42,7 @@ Loading required package: xtable
 + a.assessorid = aa.assessorid AND
 + m.mgmt = aa.mgmt AND
 + a.recorder != 'MYERS' AND
-+ a.assess=1
++ a.assess=1 AND a.mostrecent = 'yes'
 + GROUP BY 
 + m.country,
 + m.managementauthority,
@@ -70,4 +68,4 @@ Loading required package: xtable
 > 
 > proc.time()
    user  system elapsed 
-  0.552   0.040   0.612 
+  0.560   0.028   0.605 

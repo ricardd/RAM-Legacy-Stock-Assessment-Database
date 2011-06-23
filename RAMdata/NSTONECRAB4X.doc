@@ -1,0 +1,59 @@
+ID        @ NSTONECRAB4X
+SP        @ Northern Stone Crab
+LATIN     @ Lithodes maja
+FAMILY    @ Lithodidae
+CFAMILY   @ Spiny crabs
+ORDER     @ Decapoda
+STOCK     @ NAFO 4X
+SOURCE    @ Estimated directly from US groundfish surveys
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Kg per tow
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 42 50
+LONGITUDE @ -65 30 
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ .
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

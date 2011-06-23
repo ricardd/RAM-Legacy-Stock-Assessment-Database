@@ -1,0 +1,59 @@
+ID        @ WHITIS
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Irish Sea
+SOURCE    @ Anon. 1991. Report of the Irish Sea and Bristol Channel Working Group. ICES Doc. C.M. 1991/Assess: 1.; Anon. 1981. Report of the Irish Sea and Bristol Channel Working Group. ICES Doc. C.M. 1981/G: 10.; Anon. 1993. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 1993/Assess: 20.
+COMMENTS  @ VPA 0-group recruits, REC from 1986 to 1992 uses weighted ave. prediction.
+FAGE      @ 2-5
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @  
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 54 00
+LONGITUDE @ -5 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.18 
+FMAX      @ . 
+FMED      @ 0.69 
+KGPRECF0  @ 1.86
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

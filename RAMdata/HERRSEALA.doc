@@ -1,0 +1,59 @@
+ID        @ HERRSEALA
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ S.E. Alaska
+SOURCE    @ Pers. Comm. with Westerheim. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousands Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 56 00
+LONGITUDE @ -136 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .169
+SPAWNLOC  @ Nearshore, Coastal bays 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Nearshore, shelf, pelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

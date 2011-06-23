@@ -1,0 +1,59 @@
+ID        @ ASALWARMSMO
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Western Arm Brook, Canada
+SOURCE    @ Chaput, G., C. Mullins, and E. M. P. Chadwick. 1992. Stock-recruit relationship for Atlantic salmon from Western Arm Brook, Newfoundland. CAFSAC Res. Doc. 92/123: 13 p.
+COMMENTS  @ data from table 1, page 6.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Number of Adult
+UNITREC   @ Number of Smolt
+AGERECDAT @ approx. 4
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 51 00
+LONGITUDE @ -57 05
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

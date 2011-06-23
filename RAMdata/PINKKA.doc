@@ -1,0 +1,59 @@
+ID        @ PINKKA
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Kodiak Area, Alaska
+SOURCE    @ International North Pacific Fisheries Commission. 1974. Information on recent changes in the salmon fisheries of Alaska and the condition of the stocks. INPFC Bull. 29: 37 p.; International North Pacific Fisheries Commission. 1974. Comments on INPFC Document 1350 (Japan, 1970). INPFC Bull. 29: 170 p.
+COMMENTS  @ Data from table 9, page 61 and appendix no. 29, page 178.
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Thousands of fish
+UNITREC   @ Thousands of fish
+AGERECDAT @ 2 
+UNITLAND  @ Millions of fish
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 57 20
+LONGITUDE @ -153 20
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

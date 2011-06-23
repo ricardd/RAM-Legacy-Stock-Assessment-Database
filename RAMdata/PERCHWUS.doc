@@ -1,0 +1,59 @@
+ID        @ PERCHWUS
+SP        @ Pacific ocean perch
+LATIN     @ Sebastes alutus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ US West Coast
+SOURCE    @ Ianelli, J.N., D.H. Ito, and M. Wilkins. 1995. Status and future prospects for the Pacific ocean perch resource in waters off Washington and Oregon as assessed in 1995. In: Status of the Pacific coast groundfish fishery through 1992 and recommended acceptable biological catches for 1996. Unpubl. rep. Pac. Fish. Manage. Council, Portland, OR. 
+COMMENTS  @ . 
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Trillion of eggs 
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 45 30 
+LONGITUDE @ -125 00
+MONTHSPA  @ . 
+NATMORT   @ 0.05 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 322908.
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

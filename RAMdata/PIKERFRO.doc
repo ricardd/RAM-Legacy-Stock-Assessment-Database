@@ -1,0 +1,59 @@
+ID        @ PIKERFRO
+SP        @ Pike
+LATIN     @ Esox lucius
+FAMILY    @ Esocidae
+CFAMILY   @ Pikes
+ORDER     @ Salmoniformes
+STOCK     @ River Frome, Dorset, England
+SOURCE    @ Mills, C. A., and R. H. K. Mann. 1985. Environmentally-induced fluctuations in year-class strength and their implications for management. J. Fish. Biol. 27(Supplement A): 209-226.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electro fishing
+UNITSSB   @ .
+UNITREC   @ Relative year-class strength
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 42
+LONGITUDE @ -2 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

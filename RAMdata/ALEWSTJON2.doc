@@ -1,0 +1,59 @@
+ID        @ ALEWSTJON2
+SP        @ Anadromous alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Saint John River
+SOURCE    @ Crecco, V.A., and M. Gibson. 1990. Stock assessment of river herring from selected Atlantic coast rivers. Special Report No. 19 of the Atlantic States Marine Fisheries Commission.  
+COMMENTS  @ return to Mactaquac Dam on the Saint John River
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands of lbs.
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 55
+LONGITUDE @ -66 52
+MONTHSPA  @ . 
+NATMORT   @ 1.0
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.33
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

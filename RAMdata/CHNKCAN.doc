@@ -1,0 +1,59 @@
+ID        @ CHNKCAN
+SP        @ Chinook salmon
+LATIN     @ Oncorhynchus tshawytscha 
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Wild Canadian Coastwide
+SOURCE    @ Healey, M. C. 1982. Catch, escapement and stock-recruitment for British Columbia chinook salmon since 1951. Can. Tech. Rep. Fish. Aquat. Sci. 1107. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Thousands of fish
+UNITREC   @ Thousands
+AGERECDAT @ 4 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 52 30
+LONGITUDE @ -130 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.0
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ CODNEAR3
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North East Arctic
+SOURCE    @ J. G. Pope (pers com) 
+COMMENTS  @ This model does not contain predation mortaltiy, KGperrec would mak be larger if more ages (past age 20) was considered.
+FAGE      @ 5-10
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 68 00
+LONGITUDE @ 15 00
+MONTHSPA  @ 3-4 
+NATMORT   @ 0.20 
+F01       @ 0.15 
+FMAX      @ 0.25 
+FMED      @ 0.46 
+KGPRECF0  @ 6.03
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Sundby, S. & Sunnana, K. ICES C.M. 1990/G:50 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3-4 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

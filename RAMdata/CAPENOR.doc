@@ -1,0 +1,59 @@
+ID        @ CAPENOR
+SP        @ Capelin
+LATIN     @ Mallotus villosus
+FAMILY    @ Osmeridae
+CFAMILY   @ Smelts
+ORDER     @ Salmoniformes
+STOCK     @ Barents Sea
+SOURCE    @ Report of the Atlanto-Scandian Herring and Capelin Working Group. ICES Doc. C.M. 1995/Assess: 9.  Anon. 1994. Report of the Atlanto-Scandian Herring and Capelin Working Group. ICES Doc. C.M. 1994/Assess: 8. 
+COMMENTS  @ All estimates are from acoustic surveys.
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 71 00
+LONGITUDE @ 35 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.0063
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

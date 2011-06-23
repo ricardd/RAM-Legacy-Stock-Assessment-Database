@@ -1,0 +1,59 @@
+ID        @ SOCKCHL2 
+SP        @ Sockeye salmon 
+LATIN     @ Oncorhynchus nerka 
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Chilko River, B.C. 
+SOURCE    @ Roos, J.F. 1985. Restoring the Fraser River. A History of the International Pacific Salmon Fisheries Commission (Appendix K). Updated from Pers. Comm. with A. J. Cass, DFO, Pacific Biological Station, Nanaimo, B.C.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Millions of Smolt 
+UNITREC   @ Fish 
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 52 06
+LONGITUDE @ -123 27
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 4
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

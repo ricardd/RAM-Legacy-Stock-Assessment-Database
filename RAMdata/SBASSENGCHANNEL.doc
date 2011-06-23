@@ -1,0 +1,59 @@
+ID        @ SBASSENGCHANNEL
+SP        @ Sea bass
+LATIN     @ Dicentrarchus labrax
+FAMILY    @ Moronidae
+CFAMILY   @ Temperate basses
+ORDER     @ Perciformes
+STOCK     @ English Channel
+SOURCE    @ Pawson, M. G. 1992. Climatic influences on the spawning success, growth, and recruitment of bass ({\em Dicentrarchus labrax} L.) in British waters. ICES mar. Sci Symp. 195: 388-392.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ Index
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 50
+LONGITUDE @ -1 20
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

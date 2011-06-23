@@ -1,0 +1,59 @@
+ID        @ SMOUTHBASSCOURTOIS
+SP        @ Smallmouth bass
+LATIN     @ Micropterus dolomieui
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Courtois Creek, Missouri 
+SOURCE    @ J. L. Funk and W. L. Pflieger. 1975. Management by water level manipulation. pp 224-269. In Black Bass Biology and Management.  R. H. Stroud and H. Clepper, ed. Sport fishing Institute, Washington, D. C. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Number per acre
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 37 52
+LONGITUDE @ -91 03
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

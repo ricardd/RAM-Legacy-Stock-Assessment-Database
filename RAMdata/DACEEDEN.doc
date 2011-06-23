@@ -1,0 +1,59 @@
+ID        @ DACEEDEN
+SP        @ Dace
+LATIN     @ Leuciscus leuciscus
+FAMILY    @ Cyprinidae
+CFAMILY   @ Minnows
+ORDER     @ Cypriniformes
+STOCK     @ River Eden, southeast England
+SOURCE    @ Hickley, P., and R. G. Bailey. 1982. Observations on the growth and production of chub {\it Leuciscus cephalus} and dace {\it Leuciscus leuciscus} in a small lowland river in southeast England. Freshwater Biology (1982) 12: 167-178.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electro fishing
+UNITSSB   @ .
+UNITREC   @ Relative year-class strength
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 51 11
+LONGITUDE @ 0 10
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

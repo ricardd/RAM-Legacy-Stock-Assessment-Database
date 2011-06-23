@@ -18,8 +18,6 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > ## orca plots for resubmission of Fish and Fisheries manuscript 2011
@@ -28,7 +26,7 @@ Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.re
 > ## plot the count of assessments for a given data type by year in the database
 > ## DR, CM
 > ## date: Tue Dec  1 14:26:02 AST 2009
-> ## Time-stamp: <2011-04-29 11:07:17 (srdbadmin)>
+> ## Time-stamp: <2011-06-17 14:10:26 (srdbadmin)>
 > ##-----------------------------------------------------------------------------
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
 > 
@@ -144,17 +142,20 @@ Loading required package: RODBC
 > catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
   5%  50%  95% 
 17.6 39.0 94.0 
-> legend(-20,50, legend="A", cex=1.7, bty="n")
+> #legend(-20,50, legend="A", cex=1.7, bty="n")
+> legend(-20,50, legend="a)", cex=1.7, bty="n")
 > ## ssb
 > ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
    5%   50%   95% 
 16.95 34.00 94.00 
-> legend(-20,50, legend="B", cex=1.7, bty="n")
+> #legend(-20,50, legend="B", cex=1.7, bty="n")
+> legend(-20,50, legend="b)", cex=1.7, bty="n")
 > ## recruits
 > rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
    5%   50%   95% 
 16.65 33.50 94.00 
-> legend(-20,50, legend="C", cex=1.7, bty="n")
+> #legend(-20,50, legend="C", cex=1.7, bty="n")
+> legend(-20,50, legend="c)", cex=1.7, bty="n")
 > mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
 > mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
 > dev.off()
@@ -200,4 +201,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  1.008   0.052   1.338 
+  1.036   0.052   1.522 

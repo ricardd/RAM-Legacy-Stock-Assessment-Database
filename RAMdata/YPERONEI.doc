@@ -1,0 +1,59 @@
+ID        @ YPERONEI
+SP        @ Yellow perch
+LATIN     @ Perca flavescens
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Oneida Lake, New York
+SOURCE    @ E.L. Mills, J.L. Forney, K.J. Wagner. 1986. Fish Predation and Its Cascading Effect on the Oneida Lake Food Chain. In  W.C. Kerfoot and A. Sih (ed), Predation Direct and Indirect Impacts on Aquatic Communities, pp. 118:131 . Hanover: University Press of New England/ 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Seine
+UNITSSB   @ Number of eggs (millions) per hectare
+UNITREC   @ Number of fish per hectare
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 13
+LONGITUDE @ -76 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

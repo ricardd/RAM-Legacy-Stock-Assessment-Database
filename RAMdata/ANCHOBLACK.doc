@@ -1,0 +1,59 @@
+ID        @ ANCHOBLACK
+SP        @ Anchovy
+LATIN     @ Engraulis encrasicolus
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Black Sea
+SOURCE    @ Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 39-52
+COMMENTS  @ .
+FAGE      @ 1-4
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ 35 00
+MONTHSPA  @ . 
+NATMORT   @ 0.82 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.017
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ YELL5Z
+SP        @ Yellowtail flounder
+LATIN     @ Pleuronectes ferrugineus
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ NAFO 5Z
+SOURCE    @ Woods Hole Ref. Doc. 91-03 and 24th Northeast Regional Stock Assessment, Woods Hole, NMFS, assessment by Paul Rago.
+COMMENTS  @ . 
+FAGE      @ 3-7
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ .9 
+LHATCH    @ 2.8 
+LMETA     @ 14 
+DELTAL    @ 11.2 
+DELTAN    @ 12.4 
+LATITUDE  @ 41 00
+LONGITUDE @ -67 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.25 
+FMAX      @ 0.63
+FMED      @ . 
+KGPRECF0  @ 2.153
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

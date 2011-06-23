@@ -1,0 +1,59 @@
+ID        @ ASALUME0
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Rive Ume/Vindela, Sweeden 
+SOURCE    @ Anon. 2001, Baltic salmon and trout assessment working group. ICES CM 2001/ACFM 14
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electrofishing 
+UNITSSB   @ Eggs 
+UNITREC   @ Number 0+ parr per 100 m^2
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 64 00
+LONGITUDE @ 19 59 
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

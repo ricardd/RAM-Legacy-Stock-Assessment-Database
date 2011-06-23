@@ -1,0 +1,59 @@
+ID        @ SAPILCHN
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ South Africa
+SOURCE    @ Pamela Mace
+COMMENTS  @  
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ 1.55 
+LHATCH    @ 4 
+LMETA     @ 45 
+DELTAL    @ 41 
+DELTAN    @ 26.5 
+LATITUDE  @ -25 00
+LONGITUDE @ 12 00
+MONTHSPA  @ 9-2 
+NATMORT   @ 0.5 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Coastal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic, coastal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

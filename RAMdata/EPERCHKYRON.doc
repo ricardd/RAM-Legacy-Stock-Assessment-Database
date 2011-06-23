@@ -1,0 +1,59 @@
+ID        @ EPERCHKYRON
+SP        @ Eurasian perch
+LATIN     @ Perca fluviatilis
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ River Kyronjoki
+SOURCE    @ J. Kjellman, R. Hudd, L. Urho. 1996. Monitoring 0+perch (Perca fluviatilis) abundance in respect to time and habitat. Ann. Zool. Fennici, 33:363-370 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Research seine
+UNITSSB   @ .
+UNITREC   @ Mean number per hauls
+AGERECDAT @ 0.5
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 63 14
+LONGITUDE @ 21 20
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -18,8 +18,6 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
-  there is no package called 'Revobase'
 [Previously saved workspace restored]
 
 > ##
@@ -48,17 +46,23 @@ Copyright M. P. Wand 1997-2009
 > ## stocks with MTL between 2.0 and 3.0
 > ss.mtl <- subset(my.mtl, MTLgroup=="2.0<=MTL<3.0")$stockid
 > my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""), sep=",")), ")", sep="")
-> fried.egg.fct("stock",my.ss,"2MTL3","FALSE","TRUE","2.0<=MTL<3.0","TRUE")
+> #fried.egg.fct("stock",my.ss,"2MTL3","FALSE","TRUE","2.0<=MTL<3.0","TRUE")
+> fried.egg.fct("stock",my.ss,"2MTL3","FALSE","TRUE","a)","TRUE")
+character(0)
 > 
 > ## stocks with MTL between 3.0 and 4.0
 > ss.mtl <- subset(my.mtl, MTLgroup=="3.0<=MTL<4.0")$stockid
 > my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""), sep=",")), ")", sep="")
-> fried.egg.fct("stock",my.ss,"3MTL4","FALSE","TRUE","3.0<=MTL<4.0","TRUE")
+> #fried.egg.fct("stock",my.ss,"3MTL4","FALSE","TRUE","3.0<=MTL<4.0","TRUE")
+> fried.egg.fct("stock",my.ss,"3MTL4","FALSE","TRUE","b)","TRUE")
+character(0)
 > 
 > ## stocks with MTL over 4.0
 > ss.mtl <- subset(my.mtl, MTLgroup=="MTL>=4.0")$stockid
 > my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""), sep=",")), ")", sep="")
-> fried.egg.fct("stock",my.ss,"MTL4","FALSE","TRUE","MTL>=4.0","TRUE")
+> #fried.egg.fct("stock",my.ss,"MTL4plus","FALSE","TRUE","MTL>=4.0","TRUE")
+> fried.egg.fct("stock",my.ss,"MTL4plus","FALSE","TRUE","c)","TRUE")
+character(0)
 > 
 > dev.off()
 null device 
@@ -68,4 +72,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.748   0.044   1.337 
+  0.748   0.056   1.534 

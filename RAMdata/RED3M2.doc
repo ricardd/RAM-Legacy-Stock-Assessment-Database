@@ -1,0 +1,60 @@
+ID        @ RED3M2
+SP        @ Redfish
+LATIN     @ Sebastes mentela and fasciatus 
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ NAFO 3M
+SOURCE    @ Avial de Melo, A, R. Alpoim and F. Saborido-Rey. 1999.A nassessment of redfish in NAFO Div. 3M beaked  Redfish (Sebastes mentela and fasciatus) data. NAFO SCR Doc. 99/52: 54 p.
+COMMENTS  @ .
+FAGE      @ 6-16
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 4
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 44 00
+LONGITUDE @ -44 15
+MONTHSPA  @ .
+NATMORT   @ 0.1
+F01       @ 0.11
+FMAX      @ 0.38 
+FMED      @ .
+KGPRECF0  @ 1.8  
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 16
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .
+

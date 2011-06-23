@@ -1,0 +1,59 @@
+ID        @ CAPEICE
+SP        @ Capelin
+LATIN     @ Mallotus villosus
+FAMILY    @ Osmeridae
+CFAMILY   @ Smelts
+ORDER     @ Salmoniformes
+STOCK     @ Iceland
+SOURCE    @ Pers. Comm. with H. Vilhjalmsson, Institute of Marine Research, Iceland.
+COMMENTS  @ there is also a file with the 0 group index
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 63 00
+LONGITUDE @ -18 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

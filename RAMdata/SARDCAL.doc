@@ -1,0 +1,59 @@
+ID        @ SARDCAL
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ California
+SOURCE    @ MacCall, A.D. 1979. Population Estimates for the Waning years of the Pacific Sardine Fishery. CalCOFI Rep. 20.,Smith, P.E. 1990. Monitoring Interannual Changes in Spawning Area of Pacific Sardine(Sardinops Sagax). CALCOFl Report Vol.31
+COMMENTS  @ Called Pacific sardine (Sardinops caerulea) in old doc file.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 2
+UNITLAND  @ Short tons
+EGGDIAM   @ 1.34-2.05
+LHATCH    @ 3.5-3.75
+LMETA     @ 35
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 36 45
+LONGITUDE @ -122 30
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.4 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.41
+SPAWNLOC  @ Near surface in coastal offshore waters. 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic 0-80m 
+SOURCEMAT @ Hart, J.L. (1973), Matarese, A.C. et al. 1989. Labaratory Guide to early life history stages of Northeast Pacific Fish.  NOAA TECH. MEMO. 89:650 pp.  
+LENMAT    @ 21.5 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 29 
+k         @ 0.45 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ GHALNEAR
+SP        @ Greenland halibut
+LATIN     @ Reinhardtius hippoglossoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounder
+ORDER     @ Pleuronectiformes
+STOCK     @ North East Arctic
+SOURCE    @ Anon. 1995. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1995/Assess:3. Anon. 1994. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1994/Assess: 2., updated in 2001 and 2005
+COMMENTS  @ VPA, 3 year olds in thousands; kgrpref0 calculated using data from ICES doc. C.M. 1994/Assess:2 with function kgprecf0 located in /home/luscombe/data/sr/functions, used 6 extra ages.
+FAGE      @ 6-10
+METHOD    @ SPA 
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 3.4 
+LHATCH    @ 6.5 
+LMETA     @ 24 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 70 00
+LONGITUDE @ 14 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15 
+F01       @ 0.13 
+FMAX      @ 0.26 
+FMED      @ 0.12 
+KGPRECF0  @ 10.46091
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Bathypelagic 90-1600m
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 9
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

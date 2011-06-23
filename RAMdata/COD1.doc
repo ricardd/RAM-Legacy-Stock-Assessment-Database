@@ -1,0 +1,59 @@
+ID        @ COD1
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ West Greenland (NAFO 1)
+SOURCE    @ Horsted Sv. Aa., J. Messtorff, and A. Schumacher. 1960. Status of subarea 1 cod and estimates of stock and yield for 1983-85. NAFO SCR Doc. 83/VI/60(Revised): 43 p.; Hanson, H., and E. Buch. 1986. Prediction of year-class strength of Atlantic cod off west Greenland. NAFO Sci. Coun. Studies 10: 7-11.; Anon. 1990. Report of the Working Group on Cod Stocks off East Greenland. ICES Doc. C.M. 1990/Assess: 12.; LAND 1954-1965: Garrod, D. J. 1969. Emperical assessments of catch/effort relationships in North Atlantic cod stocks. ICNAF Res. Bull. Num. 6.; LAND 1966-1967: Messtorff. 1968. Summary of research and status of fisheries in subares 1, 1967. ICES 1996 CM/Assess:15
+COMMENTS  @ m is assumed to be .3 after age 5 to account for migration to iceland.
+FAGE      @ 5-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 63 00
+LONGITUDE @ -52 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.184 
+FMAX      @ 0.35 
+FMED      @ . 
+KGPRECF0  @ 18.3
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

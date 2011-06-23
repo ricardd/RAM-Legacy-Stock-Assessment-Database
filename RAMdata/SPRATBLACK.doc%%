@@ -1,0 +1,59 @@
+ID        @ SPRATBLACK
+SP        @ Sprat
+LATIN     @ Sprattus sprattus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Black Sea
+SOURCE    @ Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 53-72 
+COMMENTS  @ .
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 0
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 00
+LONGITUDE @ 31 00
+MONTHSPA  @ . 
+NATMORT   @ 0.64
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.0052
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

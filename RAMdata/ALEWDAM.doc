@@ -1,0 +1,59 @@
+ID        @ ALEWDAM
+SP        @ Anadromous alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Damariscotta Lake, Maine
+SOURCE    @ Walton, C. J. 1987. Parent-progeny relationship for established population of anadromous alewives in a Maine lake. Am. Fish. Soc. Symp. 1: 451-454.
+COMMENTS  @ SP: Anadromous alewives. REC is juvenile emigrants.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Billions of eggs
+UNITREC   @ Thousands of fish
+AGERECDAT @ 0.3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 10
+LONGITUDE @ -69 27
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

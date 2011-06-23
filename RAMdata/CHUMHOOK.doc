@@ -1,0 +1,59 @@
+ID        @ CHUMHOOK
+SP        @ Chum salmon
+LATIN     @ Oncorhynchus keta
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Hooknose Creek, B.C.
+SOURCE    @ Parker, R. R. 1962. A Concept of the Dynamics of Pink Salmon Populations. {\it In} N. J. Wilimovsky [ed.] Symposium on Pink Salmon.
+COMMENTS  @ age rec data is actually abound 6 months after eggs laids, but in the next calendar year. 
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands of eggs
+UNITREC   @ Hundreds of fry
+AGERECDAT @ 1  
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 52 07
+LONGITUDE @ -127 50
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

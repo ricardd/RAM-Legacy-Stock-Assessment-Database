@@ -1,0 +1,59 @@
+ID        @ WOLFGREEN
+SP        @ Atlantic wolffish
+LATIN     @ Anarhichas  lupus
+FAMILY    @ Anarhichadidae 
+CFAMILY   @ Wolffishes 
+ORDER     @ Perciformes
+STOCK     @ West Greenland
+SOURCE    @ Stransky, C. 2001. Assessment of Other Finfish in NAFO Subarea 1 Serial No. N438 5 NAFO SCR Doc. 01/17
+COMMENTS  @ RV data, 
+FAGE      @ . 
+METHOD    @ RV
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 61 30
+LONGITUDE @ -50 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ .
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, demersal 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ .
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

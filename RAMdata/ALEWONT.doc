@@ -1,0 +1,59 @@
+ID        @ ALEWONT
+SP        @ Freshwater alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Lake Ontario
+SOURCE    @ O'Gorman, R., R. A. Bergstedt, and T. H. Eckert. 1987. Prey fish dynamics and salmonine predator growth in Lake Ontario, 1978-84. Can. J. Fish. Aquat. Sci. 44(suppl. 2): 390-403.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Millions
+UNITREC   @ Millions
+AGERECDAT @ 1 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 30
+LONGITUDE @ -78 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ e 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ CROCKCOL
+SP        @ Canary rockfish
+LATIN     @ Sebastes pinniger
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ W. U.S.(Columbia region)
+SOURCE    @ Golden, J. T., and C. Wood. 1990. Status of Canary Rockfish in the INPFC Vancouver, Columbia and Eureka Regions and Recommended ABC for 1991. Pacific Fisheries Management Council (1990).
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Stock Synthesis
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ N/A 
+LHATCH    @ 3.6-4.0 
+LMETA     @ 12.8-18.4 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 00
+LONGITUDE @ -126 00
+MONTHSPA  @ . 
+NATMORT   @ 0.06 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Parturition-Shelf 
+EGGTYPE   @ Ovoviviparous, pelagic larvae
+FEEDTYPE  @ Epi- & mesobenthal 0-425m 
+SOURCEMAT @ Wyllie Echeverria, T. 1987. Thirty Four Species of California Rockfishes: Maturity and Seasonality of Reproduction. Fish. Bull. 85(2) 
+LENMAT    @ . 
+LENMATM   @ 40 
+LENMATF   @ 44 
+AGEMAT    @ 7 
+AGEMATM   @ 7 
+AGEMATF   @ 9 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Golden, J.E. & Wood, C. (1990) 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ 53.230 
+kM        @ 0.193 
+toM       @ -0.995 
+LINFINF   @ 57.530 
+kF        @ 0.165 
+toF       @ -0.827 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

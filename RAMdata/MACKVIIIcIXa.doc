@@ -1,0 +1,59 @@
+ID        @ MACKVIIIcIXa
+SP        @ Horse mackerel
+LATIN     @ Trachurus trachurus
+FAMILY    @ Carangidae
+CFAMILY   @ Jacks, Amberjacks, Pompanos
+ORDER     @ Perciformes
+STOCK     @ Southern ICES 
+SOURCE    @ Anon. 1996. Working Group on the Assessment of the Stocks of Sardine, Horse Mackerel and Anchovy. ICES Doc. C.M. 1996/Assess: 7.
+COMMENTS  @ .
+FAGE      @ 7-11
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ -11 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15
+F01       @ 0.09 
+FMAX      @ 0.19 
+FMED      @ 0.26 
+KGPRECF0  @ 0.84546
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ .
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ TIGPEXM
+SP        @ Tiger prawn
+LATIN     @ Penaeus esculentus
+FAMILY    @ Penaeidea
+CFAMILY   @ Penaeid shrimp
+ORDER     @ Decapoda
+STOCK     @ Exmouth Gulf, Western Australia
+SOURCE    @ Caputi, N. 1993. Aspects of spawner-recruit relationships, with particular reference to crustacean stocks: a review. Aust. J. Mar. Freshwater Res. 44: 589-607.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Spawning stock index
+UNITREC   @ Recruitment index
+AGERECDAT @ .
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -22 00
+LONGITUDE @ 114 15
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

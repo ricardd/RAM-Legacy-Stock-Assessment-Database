@@ -1,0 +1,59 @@
+ID        @ PHAKEVANCON
+SP        @ Pacific hake
+LATIN     @ Merluccius productus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ W. US. + Canada
+SOURCE    @ Dorn, M. W.and M. W. Saunders.  1997.  Status of the coastal Pacific whiting stock in US and Canada in 1997.  In Pacific Fishery Management Council, Appendix: Status of the Pacific Coast groundfish fishery through 1997 and recommended acceptable biological catches in 1998.  84p (Document prepared for the Council and its advisory entities.)  Pacific Fishery Management Council, 2130 SW Fifth Avenue, Suite 224, Portland, OR 97201.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Stock Synthesis
+UNITSSB   @ Million Tonnes
+UNITREC   @ Billions 
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes 
+EGGDIAM   @ 1.07-1.18 
+LHATCH    @ 5-11 
+LMETA     @ 30-35 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 33 00   
+LONGITUDE @ -119 00  
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.237 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.79
+SPAWNLOC  @ Slope 
+EGGTYPE   @ Oviparous, pelagic  
+FEEDTYPE  @ Epi-, and mesopelagic 
+SOURCEMAT @ Smith, P. E. 1995. Development of the population biology of the Pacific hake. California cooperative oceanic fisheries investigations reports.  36: 144-152 
+LENMAT    @ . 
+LENMATM   @ 28 
+LENMATF   @ 34-40 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ 3-4 
+LENREC    @ 3-6 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Dark, T.A. 1975. Age and growth of Pacific hake, {\em Merluccius productus}, Fish. Bull. U.S. , 73 : 336-355.
+LINFIN    @ 60.85 
+k         @ 0.30 
+to        @ 0.03 
+LINFINM   @ 56.29 
+kM        @ 0.30 
+toM       @ 0.20 
+LINFINF   @ 61.23 
+kF        @ 0.30 
+toF       @ 0.01 
+SOURCEab  @ Dark, T.A. 1975. Age and growth of Pacific hake, {\em Merluccius productus}, Fish. Bull. U.S. , 73 : 336-355. & Francis, R.C. (1983) 
+aLTWTPAR  @ 0.00001815 
+bLTWTPAR  @ 2.73343 
+aLTWTPARM @ 0.00003468 
+bLTWTPARM @ 2.55618 
+aLTWTPARF @ 0.0002044 
+bLTWTPARF @ 2.69509 

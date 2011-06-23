@@ -1,0 +1,59 @@
+ID        @ NPOUTNS
+SP        @ Norway pout
+LATIN     @ Trisopterus esmarkii
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North Sea
+SOURCE    @ Anon. 1990. Report of Industrial Fisheries Working Group. ICES Doc. C.M. 1990/Assess: 13.; Anon. 1991. Report of Industrial Fisheries Working Group. ICES Doc. C.M. 1991/Assess: 14.; ICES CM 1996/ Assess:6, updated 2002
+COMMENTS  @ RV (1)
+FAGE      @ 1-2
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 0
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.12 
+LHATCH    @ 3.3 
+LMETA     @ 24 
+DELTAL    @ 20.7 
+DELTAN    @ 18.5 
+LATITUDE  @ 55 00
+LONGITUDE @ 4 00
+MONTHSPA  @ 3-4 
+NATMORT   @ 1.6 
+F01       @ . 
+FMAX      @ . 
+FMED      @ 0.66
+KGPRECF0  @ 0.00492
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Cooper, A. 1983. Gadoid Populations of Western Scottish Sea Lochs and their exchanges with West Coast Stocks. 
+LENMAT    @ . 
+LENMATM   @ 16.2 
+LENMATF   @ 16.6 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Bailey, R.S. & Kunzlik, P.A., 1984. Variation in Growth and Mortality Rates of Norway Pout  Trisopterus esmarkii(Nilsson).  ICES CM 1984/ G:70  
+LINFIN    @ 21.29 
+k         @ 0.65 
+to        @ -0.63 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

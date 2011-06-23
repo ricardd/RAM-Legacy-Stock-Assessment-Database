@@ -1,0 +1,59 @@
+ID        @ BMONK
+SP        @ Black anglerfish
+LATIN     @ Lophius budegassa
+FAMILY    @ Lophiidae
+CFAMILY   @ Anglerfishes
+ORDER     @ Lophiiformes
+STOCK     @ ICES VIIb-k and VIIIa,b.
+SOURCE    @ Anon. 1997. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. Part 3 of 4. ICES Doc. C.M.1997/Assess: 5., updated 2001
+COMMENTS  @ .
+FAGE      @ 4-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 12
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 49 00
+LONGITUDE @ -10 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15 
+F01       @ 0.0845 
+FMAX      @ 0.137 
+FMED      @ . 
+KGPRECF0  @ 10.3
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 9 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

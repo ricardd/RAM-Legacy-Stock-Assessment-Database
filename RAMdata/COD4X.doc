@@ -1,0 +1,59 @@
+ID        @ COD4X
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4X
+SOURCE    @ Campana, S. and J. Hamel. 1991. Status of the 1991 4X cod fishery. CAFSAC Res. Doc. 92/46: 42 p.; Gavaris, S., D. Clark, and P. Perley. 1994. Assessment of Cod in Division 4X. DFO Atlantic Fisheries Res. Doc. 94/(number not given): 27 p.
+COMMENTS  @ SPA, 1 year olds in (000's), SSB is the sum of the population biomass for males and females that are mature, where maturity is given on page 6 of CAFSAC Res. Doc. 88/26. 
+FAGE      @ 6-12
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 43 00
+LONGITUDE @ -65 30
+MONTHSPA  @ . 
+NATMORT   @ 0.20 
+F01       @ 0.14
+FMAX      @ 0.27 
+FMED      @ 0.48
+KGPRECF0  @ 12.14
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

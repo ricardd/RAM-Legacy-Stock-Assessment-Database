@@ -1,0 +1,59 @@
+ID        @ STROKEOADU
+SP        @ Steelhead trout
+LATIN     @ Oncorhynchus mykiss
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Keogh River, B.C.
+SOURCE    @ Ward, B. R., and P. A. Slaney. 1988. Life history and smolt-to-adult survival of Keogh River steelhead trout ({\it Salmo gairdneri}) and the relationship to smolt size. Can. J. Fish. Aquat. Sci. 45: 1110-1122.
+COMMENTS  @ NOTE: The scientific name of the rainbow trout (steelhead trout) has been changed from Salmo gairdneri to Oncorhynchus mykiss, reflecting recent research results.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Number of Smolts
+UNITREC   @ Number of Adults
+AGERECDAT @ 4
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 36 
+LONGITUDE @ -127 24
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

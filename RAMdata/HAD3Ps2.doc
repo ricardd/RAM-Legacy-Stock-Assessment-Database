@@ -1,0 +1,59 @@
+ID        @ HAD3Ps2
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 3Ps2 (Second part of HAD3Ps)
+SOURCE    @ Bishop, C. A., J. W. Baird, and H. F. Hicks. 1987. Biomass and abundance of haddock in NAFO division 3NO and subdivision 3Ps from research vessel surveys along with estimates of commercial catch and effort. CAFSAC Res. Doc. 87/48: 22 p.
+COMMENTS  @ RV(1+2) index*1000
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 45 10
+LONGITUDE @ -56 40
+MONTHSPA  @ 1-7 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

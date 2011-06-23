@@ -1,0 +1,59 @@
+ID        @ POLLICE
+SP        @ Pollock or saithe
+LATIN     @ Pollachius virens
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Iceland
+SOURCE    @ Marine Research Institute, Iceland. Mon Jun 20/1988.; Anon. 1990. Report of the  North-Western Working Group. ICES C.M. 1990/Assess: 20.; Anon. 1991. ICES C.M. 1991/Assess: 21.; State of marine stocks and environmental conditions in Icelandic waters 1995 Fishing prospects 1996. Hafranns\'{o}knastofnun Fj\"{o}lrit NR. 46., updated 2001 
+COMMENTS  @ SPA, 3 year olds in actual numbers
+FAGE      @ 4-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.12 
+LHATCH    @ 4 
+LMETA     @ 25 
+DELTAL    @ 21 
+DELTAN    @ 18.8 
+LATITUDE  @ 63 00
+LONGITUDE @ -21 00
+MONTHSPA  @ 1-4 
+NATMORT   @ 0.20 
+F01       @ 0.16 
+FMAX      @ 0.36 
+FMED      @ 0.24 
+KGPRECF0  @ 22.37
+SPAWNLOC  @ Shelf 100-200m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

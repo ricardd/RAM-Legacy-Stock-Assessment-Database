@@ -1,0 +1,59 @@
+ID        @ COD2J3KL
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 2J3KL
+SOURCE    @ Baird, J. W., C. A. Bishop, W. B. Brodie,  and E. F. Murphy. 1992.  An assessment of the cod stock in NAFO divisions 2J3KL. NAFO SCR Doc. 92/18: 69 p.; Bishop C. A., E. F. Murphy, M. B. Davis, J. W. Baird, and G. A. Rose. 1993.  An assessment of the cod stock in NAFO divisions 2J+3KL. NAFO SCR Doc. 93/86: 51 p.; Bishop, C. A., J. Anderson, E. Dalley, M. B. Davis, E. F. Murphy, G. A. Rose, D. E. Stansbury, C. Taggart, and G. Winters. 1994. An assessment of the cod stock in NAFO divisions 2J+3KL. NAFO SCR Doc. 94/40: 50 p.
+COMMENTS  @ SPA, 3 year olds in (000's), SSB is 7+ biomass 
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 50 00
+LONGITUDE @ -52 00
+MONTHSPA  @ 4-6 
+NATMORT   @ 0.20 
+F01       @ 0.246 
+FMAX      @ 0.518 
+FMED      @ 0.38
+KGPRECF0  @ 11.94
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Campana, S. et al. ICES C.M. 1990/G:50 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

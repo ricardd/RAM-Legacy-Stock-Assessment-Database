@@ -1,0 +1,59 @@
+ID        @ HERRGM
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Gulf of Maine
+SOURCE    @ Pers. Comm. with M. Fogarty.; Anon. 1990. Report of the Eleventh NEFC Stock Assessment Workshop Fall1990. NEFC Ref. Doc 90-09.,Anon. 1989. Report of the Fall 1989 NEFC Stock Assessment Workshop (Ninth SAW). NEFC Ref. Doc. 89-09.
+COMMENTS  @ SPA, Stock size estimates (millions),derived from VPA (M=0.20)
+FAGE      @ 2+
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 43 00
+LONGITUDE @ -69 00
+MONTHSPA  @ . 
+NATMORT   @ 0.20 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.68
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

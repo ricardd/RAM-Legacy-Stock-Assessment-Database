@@ -1,0 +1,59 @@
+ID        @ CODNEAR
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North East Arctic
+SOURCE    @ Anon. 1976. Report of the North East Arctic Fisheries Working Group. ICES Doc. C.M. 1976/F: 10.; Anon. 1988. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1988/Assess: 5.; Anon. 1990. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1990/Assess: 4; Anon. 1991. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1991/Assess: 3; Anon. 1993. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1993/Assess: 1, Ref.: G; Anon. 1979. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1979/G: 20; Anon. 1965. Arctic Fisheries Working Group. ICES C.M. 1965. Gadoid Fish Committee. No. 3; Anon. 1996. Arctic Fisheries Working Group. ICES C.M. 1996/Assess:4. 
+COMMENTS  @ VPA, 3 year olds in (000's)
+FAGE      @ 5-10
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 68 00
+LONGITUDE @ 15 00
+MONTHSPA  @ 3-4 
+NATMORT   @ 0.20 
+F01       @ 0.15 
+FMAX      @ 0.25 
+FMED      @ 0.46 
+KGPRECF0  @ 19.00
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Sundby, S. & Sunnana, K. ICES C.M. 1990/G:50 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3-4 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

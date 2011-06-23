@@ -1,0 +1,59 @@
+ID        @ HADFAPL
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Faroe Plateau
+SOURCE    @ Anon. 2001. Report of the North-Western Working Group. ICES Doc. C.M. 2001/ACFM 20
+COMMENTS  @ SPA, 1 year olds in actual numbers
+FAGE      @ 3-7 
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 62 00
+LONGITUDE @ -8 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.20 
+F01       @ 0.1724
+FMAX      @ .42 
+FMED      @ .27
+KGPRECF0  @ 8.2 
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

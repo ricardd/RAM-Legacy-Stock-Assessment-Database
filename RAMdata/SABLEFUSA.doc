@@ -1,0 +1,59 @@
+ID        @ SABLEFUSA
+SP        @ Sablefish
+LATIN     @ Anoplopoma fimbria
+FAMILY    @ Anoplopomatidae
+CFAMILY   @ Sablefishes
+ORDER     @ Scorpaeniformes
+STOCK     @ West Coast USA
+SOURCE    @ Crone, P. R. et al. Status of the Sablefish Resource off the U.S. Pacific Coast in 1997. preliminary document
+COMMENTS  @ Female spawning biomass (>5-yr old fish at the beginning of the year in mt)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes of females
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ 2.05-2.10 
+LHATCH    @ 6 SL 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 46 00
+LONGITUDE @ -124 35
+MONTHSPA  @ 1-2 
+NATMORT   @ 0.07
+F01       @ 0.205 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 11.15
+SPAWNLOC  @ Slope 
+EGGTYPE   @ Oviparous 
+FEEDTYPE  @ Epi-, meso-, and bathybenthal, 0-2740m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ.  Fish. Aquat. Sci. 108 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @  
+AGEMAT    @ 5 
+AGEMATM   @ 5 
+AGEMATF   @ 5 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108. 
+LINFIN    @ 74  
+k         @ 0.27 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ 66.2
+kF        @ 0.246
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

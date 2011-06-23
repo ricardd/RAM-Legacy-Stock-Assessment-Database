@@ -1,0 +1,59 @@
+ID        @ BTROSCMTMICHA3
+SP        @ Freshwater brook trout
+LATIN     @ Salvelinus fontinalis
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Montmorency County, Michigan
+SOURCE    @ McFadden, J.T, G.R. Alexander and D.S. Shetter. 1967. Numerical Changes and Population Regulation in Brook Trout. J. Fish. Res. Bd. Canada. 24(7).
+COMMENTS  @ from table 3, page 1430
+FAGE      @ .
+METHOD    @ electrofishing
+UNITSSB   @ Number of eggs
+UNITREC   @ Numbers
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 50
+LONGITUDE @ -84 15
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

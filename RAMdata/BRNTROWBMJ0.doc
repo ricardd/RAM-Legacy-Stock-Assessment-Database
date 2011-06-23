@@ -1,0 +1,59 @@
+ID        @ BRNTROWBMJ0
+SP        @ Brown Trout 
+LATIN     @ Salmo trutta
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Wilfin Beck, May/June
+SOURCE    @ Elliott, J.M. 1994. Quantitative Ecology and the Brown Trout. Oxford University Press. 
+COMMENTS  @ taken from fig 6.2, page 139.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ eggs per 60 m^2
+UNITREC   @ fish per 60 m^2
+AGERECDAT @ 0+
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 54 25
+LONGITUDE @ -2 25
+MONTHSPA  @ 11 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

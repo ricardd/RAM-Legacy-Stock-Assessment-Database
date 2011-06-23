@@ -1,0 +1,59 @@
+ID        @ YPERERIEW
+SP        @ Yellow perch
+LATIN     @ Perca flavescens
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Western Erie Lake
+SOURCE    @ Ontario Ministry of Natural Resources, Fish and Wildlife Branch, 1997. Lake Erie fisheries report 1996.  Lake Erie Committee Meeting, Great Lakes Fishery Commission, Ann Arbor, Michigan. pp 26.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ Number per hour
+AGERECDAT @ 0.5
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 42 00
+LONGITUDE @ -82 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

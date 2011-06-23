@@ -1,0 +1,59 @@
+ID        @ ASALTOB
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Tobique River, Canada
+SOURCE    @ Watt, W. D., and G. H. Penney. 1980. Juvenile salmon survival in the Saint John River System. Can. Tech. Rep. Fish. Aquat. Sci. 936: 13 p.
+COMMENTS  @ REC includes actual returns of adults to Mactaquac Dam plus estimates of fish taken by poachers and various fisheries.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands of eggs
+UNITREC   @ Number of Adults
+AGERECDAT @ 4
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 46 48
+LONGITUDE @ -69 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

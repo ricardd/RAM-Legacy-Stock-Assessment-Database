@@ -1,0 +1,59 @@
+ID        @ PANDALNSEA
+SP        @ Northern shrimp
+LATIN     @ Pandalus borealis
+FAMILY    @ Pandalidae
+CFAMILY   @ Pandalid shrimps
+ORDER     @ Decapoda
+STOCK     @ Skagerrak
+SOURCE    @ International Council for the Exploration of the Sea.  1996.  Report by correspondence of the {\em (Pandalus)} assessment working group. ICES CM Assess:17, pages 19
+COMMENTS  @ .
+FAGE      @ 1-3
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 57 40
+LONGITUDE @ 7 20
+MONTHSPA  @ . 
+NATMORT   @ 0.75 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

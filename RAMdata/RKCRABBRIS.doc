@@ -1,0 +1,59 @@
+ID        @ RKCRABBRIS
+SP        @ Red King Crab
+LATIN     @ Paralithodes camtschatica
+FAMILY    @ Lithodidae
+CFAMILY   @ Spiny crabs
+ORDER     @ Decapoda
+STOCK     @ Bristol Bay, Alaska
+SOURCE    @ Zheng J, M.C. Murphy and G.H. Kruse. 1995.  A length-based population-model and stock-recruitment  relationships for red king crab, {\em Paralithodes camtschaticus}, in Bristol Bay, Alaska Can. J. Fish. Aquat. Sci. 52: 1229-1246 .
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Length based SPA
+UNITSSB   @ Tonnes 
+UNITREC   @ Thousands
+AGERECDAT @ 7
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ -159 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ PCODEBS  
+SP        @ Pacific cod
+LATIN     @ Gadus macrocephalus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Eastern Bering Sea
+SOURCE    @ Thompson, G. G., and R. G. Bakkala. The Plan Team for the Groundfish Fisheries of the Bering Sea and Aleutian Islands, Stock Assessment And Fishery Evaluation Report For the Groundfish Resources of the Bering Sea/Aleutian Islands Region as Projected for 1992, November 1991., updated 2001 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ 3.6 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ -160 00
+MONTHSPA  @ . 
+NATMORT   @ 0.29 
+F01       @ 0.145
+FMAX      @ 0.233
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Epi-, meso-, and bathybenthal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

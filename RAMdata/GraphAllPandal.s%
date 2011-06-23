@@ -1,0 +1,8 @@
+GraphAllPandal<-function(srname=sro.name, data=shrimp.lst){
+ps()
+par(mfrow=c(3,3))
+for(i in 1:length(data$CATCH)){
+	tsplot(data$CATCH[[i]])
+}
+return(invisible())
+}

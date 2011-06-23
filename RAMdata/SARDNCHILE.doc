@@ -1,0 +1,60 @@
+ID        @ SARDNCHILE
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Chile- Northern zone
+SOURCE    @  Zuleta, A. & Serra, J. 1983. The Management of Chilean Pelagic Fisheries with Emphasis on the Spanish Sardine (Sardinops sagax musica) PAPERS-PRESENTED-AT-THE-EXPERT-CONSULTATION-ON-THE-REGULATION-OF-FISHING-EFFORT-FISHING-MORTALITY,-ROME,-17-26-JANUARY-1983.-A-PREPARATORY-MEETING-FOR-THE-FAO-WORLD-CONFERENCE-ON-FISHERIES-MANAGEMENT-AND-DEVELOPMENT.FAO,-Rome-Italy
+       1985. no. 289 (3) pp. 457-470; Baria, P.M. & Serra, R.B. (1990) 
+COMMENTS  @ SPA, 3 year olds in (000 000 000); Called Spanish sardine in old doc file.
+FAGE      @ 3-9
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes  
+EGGDIAM   @ NA
+LHATCH    @ NA
+LMETA     @ NA
+DELTAL    @ NA
+DELTAN    @ NA
+LATITUDE  @ -21 00
+LONGITUDE @ -70 30
+MONTHSPA  @ 8-10 & 2
+NATMORT   @ 0.4
+F01       @ .
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf - coastal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic, coastal 
+SOURCEMAT @  Zuleta, A. & Serra, J. 1982. The Management of Chilean Pelagic Fisheries with Emphasis on the Spanish Sardine (Sardinops sagax musica). 
+LENMAT    @ 24 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Claudio Salazar Z. et al. 1984. Evaluacion del Recurso Sardina Espanola (Sardinops sagax musica) de la Zona Norte de Chile, pro Analisis de Poblacion Virtual.  Invest. Pesq. 31:3-16.
+LINFIN    @ 40.0 
+k         @ 0.20495 
+to        @ -091581 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ CODBA2532
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Baltic Areas 25-32
+SOURCE    @ Anon. 2003. Report of the Working Group on the Assessment of Demersal Stocks in the Baltic. ICES Doc. C.M. 
+COMMENTS  @ VPA, 2 year olds in (000's), updated with 1997 assessment
+FAGE      @ 4-7
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 56 00
+LONGITUDE @ 19 00
+MONTHSPA  @ 2-5 
+NATMORT   @ 0.20 
+F01       @ 0.165 
+FMAX      @ 0.30 
+FMED      @ 0.92 
+KGPRECF0  @ 9.0 
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Larson, P.O. ICES C.M. 1990/G:50
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Bagge, O. (1981) 
+LINFIN    @ 105.0 
+k         @ 0.15 
+to        @ 0.50 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

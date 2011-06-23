@@ -1,0 +1,59 @@
+ID        @ BDUCK
+SP        @ Bombay duck
+LATIN     @ Harpodon nehereus
+FAMILY    @ Synodontidae
+CFAMILY   @ Lizardfishes
+ORDER     @ Aulopiformes
+STOCK     @ Northwest coast of India
+SOURCE    @ Fernandez, I and M. Devaraj. 1996. Dynamics of the Bombay duck ({\em Harpodon nehereus}) stock along the northwest coast of India. Indian J. Fish. 43: 1-11. 
+COMMENTS  @ .
+FAGE      @ 0-4
+METHOD    @ CPUE
+UNITSSB   @ Millions
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 19 30
+LONGITUDE @ 72 30
+MONTHSPA  @ . 
+NATMORT   @ 1.1 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1.0 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 27 cm 
+k         @ 1.1 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

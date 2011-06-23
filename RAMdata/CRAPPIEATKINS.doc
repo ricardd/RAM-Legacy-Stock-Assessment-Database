@@ -1,0 +1,59 @@
+ID        @ CRAPPIEATKINS
+SP        @ Crappie
+LATIN     @ Promoxis annularis and nigromaculatus
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Atkins Reservoir, Arkansas
+SOURCE    @ Allen, M.S.; Miranda, L.E. 1998 An age-structured model for erratic crappie fisheries. Ecol. Model. 107: 289-303.
+COMMENTS  @ Combination ot 2 species
+FAGE      @ .
+METHOD    @ Rotenone poisoning
+UNITSSB   @ Number per hectare
+UNITREC   @ Number per hectare
+AGERECDAT @ 0.5
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 33 35
+LONGITUDE @ -92 20
+MONTHSPA  @ . 
+NATMORT   @ 0.356 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 2.27
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-16 21:32:45 (srdbadmin)>
+## last modified Time-stamp: <2011-06-22 11:27:04 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -72,6 +72,8 @@ f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
 #
 crosshair.dat <- merge(crosshair.b.dat, crosshair.u.dat, "assessid")  
 
+
+  
   ## REF:SQL:NUMASSESSFRIEDEGG
   nn <- dim(crosshair.dat)[1]
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDEGG'",sep="" )
@@ -80,7 +82,7 @@ insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESS
 sqlQuery(chan,insert.qu)
 
     ## REF:SQL:PERCENTASSESSFRIEDEGG
-  tot.n <- sqlQuery(chan,"SELECT COUNT(*) from srdb.assessment where assess=1 and recorder !='MYERS'")
+  tot.n <- sqlQuery(chan,"SELECT COUNT(*) from srdb.assessment where assess=1 and recorder !='MYERS' and mostrecent='yes'")
   nn <- dim(crosshair.dat)[1] / tot.n * 100
   nn <- round(nn,0)
 delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTASSESSFRIEDEGG'",sep="" )
@@ -684,6 +686,21 @@ delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMAS
 sqlQuery(chan,delete.qu)
 insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDfor",sql.label,"',",nn,")",sep="" )
 sqlQuery(chan,insert.qu)
+
+## total number of stocks with SSBmsy pepper for this grouping
+  nn <- dim(subset(crosshair.dat,btype=="yes"))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDPEPPERfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDPEPPERfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+## total number of stocks with SSBmsy salt for this grouping
+  nn <- dim(subset(crosshair.dat,btype=="no"))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDSALTfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDSALTfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
 
 ## now give the number for the four quadrants of the fried egg
 ## quadrant 1, top-left, below Bmsy and above Umsy

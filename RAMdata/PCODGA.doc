@@ -1,0 +1,59 @@
+ID        @ PCODGA
+SP        @ Pacific cod
+LATIN     @ Gadus macrocephalus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Gulf of Alaska
+SOURCE    @ Thompson, G. G., H. H. Zebger and M. W. Dorn. 2001.  Assessment o the Pacific Cod stock in the Gulf of Alaska. Alaska Fisheries Science Center.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ 3.6 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 57 30
+LONGITUDE @ -145 30
+MONTHSPA  @ . 
+NATMORT   @ 0.37
+F01       @ 0.145
+FMAX      @ 0.233
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Epi-, meso-, and bathybenthal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ ALEWSTJON
+SP        @ Anadromous alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Saint John River
+SOURCE    @ Jessop, B. M. 1990. Stock-recruitment relationships of alewives and blueback herring returning to the Mactaquac Dam, Saint John River, New Brunswick. North American Journal of Fisheries Management 10: 19-32.
+COMMENTS  @ return to Mactaquac Dam on the Saint John River
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 55
+LONGITUDE @ -66 52
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

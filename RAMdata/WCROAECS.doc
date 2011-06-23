@@ -1,0 +1,59 @@
+ID        @ WCROAECS
+SP        @ White croaker
+LATIN     @ Argyrosomus argentatus
+FAMILY    @ Scianidae
+CFAMILY   @ Croakers
+ORDER     @ Perciformes
+STOCK     @ East China Sea
+SOURCE    @ Shojima, E.  and H. Otaki.  Stock Assessment of the East China Sea Population of White Croaker, {\em Argyrosomus argentatus}.  Bulletin of the Seikai Regional Fisheries Research Laboratory 60:11:29
+COMMENTS  @ Data was read of tables 2, 3 and 12
+FAGE      @ 3-8
+METHOD    @ SPA
+UNITSSB   @ Ten Thousands (Weighted by maturity and fecundity)
+UNITREC   @ Ten Thousands
+AGERECDAT @ 1
+UNITLAND  @ Ten Thousands
+EGGDIAM   @ . 
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 41 00
+LONGITUDE @ 122 00
+MONTHSPA  @ . 
+NATMORT   @ 0.29 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.0
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

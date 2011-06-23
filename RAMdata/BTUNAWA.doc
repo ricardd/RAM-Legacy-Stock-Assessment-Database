@@ -1,0 +1,59 @@
+ID        @ BTUNAWA
+SP        @ Atlantic bluefin tuna
+LATIN     @ Thunnus thynnus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ West Atlantic
+SOURCE    @ 1994 SCRS data emailed from V. Restrepo & S. Turner
+COMMENTS  @ .
+FAGE      @ 8-10+
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Numbers
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 20 00
+LONGITUDE @ -74 00
+MONTHSPA  @ . 
+NATMORT   @ 0.14 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 940.702
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

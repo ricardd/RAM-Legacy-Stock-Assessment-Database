@@ -1,0 +1,59 @@
+ID        @ HERRGFIN
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Gulf of Finland
+SOURCE    @ Anon. 1988. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1988/Assess: 18.; Anon. 1990. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1990/Assess: 18.
+COMMENTS  @ SPA, 0 year olds in (000 000's)F ages 2-5
+FAGE      @ 2-5
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 61 00
+LONGITUDE @ 25 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.18 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.20
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

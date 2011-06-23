@@ -1,0 +1,59 @@
+ID        @ PSEUDOCSGEORGIA
+SP        @ Pseudochaenichthys
+LATIN     @ Pseudochaenichthys georgianus
+FAMILY    @ Channichthyidae 
+CFAMILY   @ Ice fishes 
+ORDER     @ Perciformes
+STOCK     @ South Georgia, Antarctic Ocean
+SOURCE    @ Koch, K.H. 1992. Antarctic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ Fig 77
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 4.7
+LHATCH    @ 14.5
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -54 00
+LONGITUDE @ -36 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ .
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

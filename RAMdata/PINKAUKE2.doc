@@ -1,0 +1,59 @@
+ID        @ PINKAUKE2
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Auke Creek, Alaska 
+SOURCE    @ Taylor SG and J Lum Carney 1996. Annual Report Auke Creek Weir 1995, Operations and Fish Counts. Unpubl. Rept., 20p. NMFS, Auke Bay Laboratory, 11305 Glacier Highway, Juneau, AK 99801-8626. 
+COMMENTS  @ this is survival from fish to fry, estimates are complete counts at a counting fence.
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Fish 
+UNITREC   @ Fry
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 58 22
+LONGITUDE @ -134 38
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ . 
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 2
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

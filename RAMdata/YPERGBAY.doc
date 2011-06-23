@@ -1,0 +1,59 @@
+ID        @ YPERGBAY
+SP        @ Yellow perch
+LATIN     @ Perca flavescens
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Green Bay, Lake Michigan
+SOURCE    @  Walters, C., and A. Punt. 1994. Placing odds on sustainable catch virtual population analysis and survey data. Can. J. Fish. Aquat. Aci. 51:946-958.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ Thousands/hour
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 00
+LONGITUDE @ -87 10
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

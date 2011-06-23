@@ -1,0 +1,59 @@
+ID        @ HAKEPERU
+SP        @ Peruvian hake
+LATIN     @ Merluccius gayi
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Peru
+SOURCE    @ Int. Symp. Long Term Changes Mar. Fish Pop. Vigo 1986: 235 p.
+COMMENTS  @ SPA, 2 year olds in (000 000), (M=0.3, F=1.0). LATIN was "Merluccius gayi peruanus" in old doc file.
+FAGE      @ 3-7
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ -12 00
+LONGITUDE @ -78 00
+MONTHSPA  @ . 
+NATMORT   @ 0.3 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ Int.Symp. Long Term Changes Mar. Fish Pop., Vigo 1986, pg 235. 
+aLTWTPAR  @ 2.05780 
+bLTWTPAR  @ 0.00525 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

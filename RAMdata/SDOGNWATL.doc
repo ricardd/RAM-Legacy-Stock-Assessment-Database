@@ -1,0 +1,59 @@
+ID        @ SDOGNWATL
+SP        @ Spiny dogfish
+LATIN     @ Squalus acanthias
+FAMILY    @ Squalidae
+CFAMILY   @ Dogfish sharks
+ORDER     @ Squaliformes
+STOCK     @ Northwest Atlantic
+SOURCE    @ Silva, H. M. 1993. The causes of variability in the stock-recruitment relationship of spiny dogfish, {\it Squalus acanthias}, in the NW Atlantic. ICES Doc. C.M. 1993/G: 52.
+COMMENTS  @ SSB is the smooth biomass indices.
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Mean kg per tow
+UNITREC   @ Mean numbers per tow
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ 45 
+LHATCH    @ 280
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 42 00
+LONGITUDE @ -66 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ ovoviviparous 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ 60 
+LENMATF   @ 80
+AGEMAT    @ 13
+AGEMATM   @ 6 
+AGEMATF   @ 12 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

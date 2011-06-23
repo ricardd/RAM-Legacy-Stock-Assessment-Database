@@ -1,0 +1,59 @@
+ID        @ COD3Ps
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 3Ps
+SOURCE    @ Anon. 1988. Provisional report of Scientific Council, June 1988 Meeting. NAFO SCS Doc. 88/20: 117 p.; Anon. Cod in subdivision 3Ps. CAFSAC Adv. Doc. 90/8: 8 p.; Bishop, C. A., J. W. Baird, and E. F. Murphy. 1991. An assessment of the cod stock in NAFO subdivision 3Ps. CAFSAC Res. Doc. 91/36: 56 p.; Davis, M. B., and P. Lundrigan. 1994. A description of the stock structure in Placentia Bay, NAFO subdivision 3Ps. DFO Atlantic Fisheries Res. Doc. 94. Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMED & FMAX).
+COMMENTS  @ SPA, 3 year olds in (000's)
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 46 00
+LONGITUDE @ -55 30
+MONTHSPA  @ 5-6 
+NATMORT   @ 0.20 
+F01       @ 0.27 
+FMAX      @ 0.34 
+FMED      @ 0.53
+KGPRECF0  @ 16.52
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ NAFO SCR Doc. 84/1X/122
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

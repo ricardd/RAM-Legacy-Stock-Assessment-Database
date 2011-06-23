@@ -1,0 +1,59 @@
+ID        @ HADVIa
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VIa
+SOURCE    @ Anon. 1993. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 1993/Assess: 20.
+COMMENTS  @ SPA, 0 year olds in (000's)
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 57 00
+LONGITUDE @ -8 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.20 
+F01       @ 0.17 
+FMAX      @ 0.25 
+FMED      @ 0.33 
+KGPRECF0  @ 2.03
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

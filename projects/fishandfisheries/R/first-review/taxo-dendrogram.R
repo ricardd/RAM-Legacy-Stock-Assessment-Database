@@ -2,7 +2,7 @@
 ##
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2011-06-17 14:12:03 (srdbadmin)>
+## Last modified Time-stamp: <2011-06-21 11:27:22 (mintoc)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -174,9 +174,13 @@ taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock w
 taxo.dat<-sqlQuery(chan, taxo.qu)
 taxo.dat<-taxo.dat[order(taxo.dat$scientificname),]
 
+## note inclusion of redfish genus here
+taxo.dat$genus[taxo.dat$myersname=="REDFISHSPP"]<-"Sebastes"
+
 taxo.phylo<-as.phylo(~phylum/classname/ordername/family/genus/scientificname, data=taxo.dat)
 ## take a look at the contents using taxo.phylo[]
 ## edge width/length inclusion
+##taxo.2.phylo<-my.as.phylo.formula(~phylum/classname/ordername/family/genus/scientificname, data=taxo.dat)
 taxo.2.phylo<-my.as.phylo.formula(~phylum/classname/ordername/family/genus/scientificname, data=taxo.dat)
 ##taxo.phylo$root.edge<-taxo.2.phylo$root.edge
 
@@ -371,4 +375,3 @@ plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = T
 #legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
 legend("topleft", legend="c)", bty="n", cex=1.2)
 dev.off()
-

@@ -1,0 +1,59 @@
+ID        @ AYUBIWA
+SP        @ Ayu
+LATIN     @ Plecoglossus altivelis
+FAMILY    @ Plecoglossidae
+CFAMILY   @ Ayu
+ORDER     @ Salmoniformes
+STOCK     @ Lake Biwa, Japan
+SOURCE    @ Suzuki, N., and T. Kitahara. 1996. Relation of recruitment to the number of caught juveniles in the ayu population of Lake Biwa.  Fisheries Science 62(1): 15-20.
+COMMENTS  @ .
+FAGE      @ 0.42-1
+METHOD    @ SPA
+UNITSSB   @ Hundreds of millions
+UNITREC   @ Hundreds of millions
+AGERECDAT @ 0.42
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 35 00
+LONGITUDE @ 136 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.45
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

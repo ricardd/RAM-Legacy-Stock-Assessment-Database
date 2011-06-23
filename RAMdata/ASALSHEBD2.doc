@@ -1,0 +1,59 @@
+ID        @ ASALSHEBD2
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Shelligan Burn, Section D, Scotland
+SOURCE    @ Gardiner, R., and P. Shackley. 1991. Stock and recruitment and inversely density-dependent growth of salmon, {\it Salmo salar} L., in a Scottish stream. J. Fish. Bio. (1991) 38: 691-696. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Numbers of fry per m^2
+UNITREC   @ Numbers of 2 year olds per m^2
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 56 30
+LONGITUDE @ -3 45
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

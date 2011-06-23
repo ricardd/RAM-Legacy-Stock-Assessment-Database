@@ -1,0 +1,59 @@
+ID        @ YSBREAMSE1
+SP        @ Yellow sea bream
+LATIN     @ Taius tumifrons
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ South East China Sea
+SOURCE    @ Saishu, K. 1973. Reproduction Curve of the Yellow Sea Bream in the East China Sea. Bulletin of the Seikai Regional Fisheries Research Laboratory 43:1-22.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Numbers
+UNITREC   @ Numbers
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 27 00
+LONGITUDE @ 124 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ ATKAALI
+SP        @ Atka mackerel
+LATIN     @ Pleurogrammus monopterygius
+FAMILY    @ Hexagrammidae
+CFAMILY   @ Greenlings
+ORDER     @ Scorpaeniformes
+STOCK     @ Eastern Bering Sea and Aleutian Islands
+SOURCE    @ S. A. Lowe and L. W. Fritz.  1997. Atka Mackerel in Stock assessment and fishery evaluation report for the groundfish resources of the Bering Sea/Aleutian Islands regions. North Pacific Fishery Management Council.  pp 406-461 
+COMMENTS  @ .
+FAGE      @ 5-7
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ .
+LATITUDE  @ 52 00
+LONGITUDE @ 176 00
+MONTHSPA  @ 06-10 
+NATMORT   @ 0.3
+F01       @ .
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.71
+SPAWNLOC  @ Shallow coastal waters
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 41.4 
+k         @ 0.439
+to        @ -0.13
+LINFINM   @ .
+kM        @ .
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

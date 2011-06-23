@@ -1,0 +1,59 @@
+ID        @ SEELNNS
+SP        @ Sandeel
+LATIN     @ Ammodytes marinus
+FAMILY    @ Ammodytidae
+CFAMILY   @ Sandeels or sandlances
+ORDER     @ Perciformes
+STOCK     @ Northern North Sea
+SOURCE    @ Anon. 1990. Report of Industrial Fisheries Working Group. ICES Doc. C.M. 1990/Assess: 13.; Anon. 1991. Report of Industrial Fisheries Working Group. ICES Doc. C.M. 1991/Assess: 14.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 0.92
+LHATCH    @ 3.6
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ 4 00
+MONTHSPA  @ . 
+NATMORT   @ 0.40 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Warburton, K. 1982. Sandeels - the elusive species.  Scott. Fish. Bull. 47:22-27 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ 7-9cm 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Reay P.J. FAO Fisheries Synopsis No.82 (1970)
+LINFIN    @ 21.8 
+k         @ 0.89 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

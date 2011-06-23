@@ -1,0 +1,44 @@
+ID        @ COHOSKY
+SP        @ Coho salmon
+LATIN     @ Oncorhynchus kisutch
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ South Fork Skykomish River, Washington
+SOURCE    @ Lestelle, L. M. Rowse, C. Weller. " Evaluation of Natural Stock Improvement Measures for Hood canal Coho Salmon". PNPTC Technical report  TR 93-1. December, 1993. and pers. com. from D. S. Seiler.
+COMMENTS  @ 92.40 kilometer river length
+FAGE      @ .
+METHOD    @ Mark recapture
+UNITSSB   @ Females
+UNITREC   @ Smolts
+AGERECDAT @ 1 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 47 49
+LONGITUDE @ -122 02
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 

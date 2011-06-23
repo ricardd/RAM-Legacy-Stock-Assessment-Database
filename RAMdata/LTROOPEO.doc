@@ -1,0 +1,59 @@
+ID        @ LTROOPEO
+SP        @ Lake trout
+LATIN     @ Salvelinus namaycush
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes  
+STOCK     @ Lake Opeongo, Ontario
+SOURCE    @ Shuter, B.J.; Matuszek, J.E.; Regier, H.A. 1987. Optimal use of creel survey data in assessing population behaviour: Lake Opeongo Lake trout ({\em Salvelinus namaycush}) and smallmouth bass ({\em Micropterus dolomieui}) 1936-83. Can. J. Fish. Aquat. Sci.  44: Suppl. 2. 229-238.
+COMMENTS  @ Very reliable data
+FAGE      @ 8-12
+METHOD    @ SPA 
+UNITSSB   @ Eggs
+UNITREC   @ Numbers 
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 42
+LONGITUDE @ -78 22
+MONTHSPA  @ . 
+NATMORT   @ 0.11
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 8322
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ Shuter, B.J.; Matuszek, J.E.; Regier, H.A. 1987. Optimal use of creel survey data in assessing population behaviour: Lake Opeongo Lake trout (Salvelinus namaycush ) and smallmouth bass (Micropterus dolomieui) 1936-83. Can. J. Fish. Aquat. Sci.  44: Suppl. 2.
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 9
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

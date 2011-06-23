@@ -1,0 +1,59 @@
+ID        @ PINKLSE3 
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Lakelse River, B.C. 
+SOURCE    @ Walker, C.E. 1970. Report of the 1970 Northeast Pacific Pink Salmon Workshop. Can. Dept. of Fish. and For. 1970 Pink Salmon Workshop.  
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ MR / Count
+UNITSSB   @ Thousands 
+UNITREC   @ Thousands 
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 54 26
+LONGITUDE @ -128 47
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ 1 
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 2
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

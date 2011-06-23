@@ -1,0 +1,59 @@
+ID        @ ANCHOBAYB2
+SP        @ Anchovy
+LATIN     @ Engraulis encrasicolus
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Bay of Biscay
+SOURCE    @ Anon. 2002. Working Group on the Assessment of the Stocks of Mackerel,  Horse Mackerel, Sardine, Anchovy. ICES Doc. C.M. 2002/ACFM : 6.
+COMMENTS  @ .
+FAGE      @ 1-3
+METHOD    @ Separable VPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 30
+LONGITUDE @ -3 00
+MONTHSPA  @ 4-7 
+NATMORT   @ 1.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.0087
+SPAWNLOC  @ Continental shelf, coastal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi- & mesopelagic 0- 300m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

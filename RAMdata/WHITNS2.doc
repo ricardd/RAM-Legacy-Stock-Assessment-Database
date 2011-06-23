@@ -1,0 +1,57 @@
+ID        @ WHITNS2
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North Sea
+SOURCE    @ Pope, J.G. and C. T. Macer. 1996. An evalua;tion of the stock structure of North Sea cod, haddock, and whiting since 1920, together with a consideration of the impacts of fisheries and predation effects on their biomass and recruitment. ICES J. of Mar. Sci. 53: 1157-1169.
+COMMENTS  @ SPA, 0 year olds in actual numbers
+FAGE      @ 2-6
+METHOD    @ SPA 
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 55 00
+LONGITUDE @ 4 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.25 
+FMAX      @ . 
+FMED      @ 0.75 
+KGPRECF0  @ 0.017
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPARF @ .
+aLTWTPARM @ . 
+bLTWTPARM @ .

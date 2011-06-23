@@ -1,0 +1,59 @@
+ID        @ CAPENF1
+SP        @ Capelin
+LATIN     @ Mallotus villosus
+FAMILY    @ Osmeridae
+CFAMILY   @ Smelts
+ORDER     @ Salmoniformes
+STOCK     @ Northern Newfoundland
+SOURCE    @ Capelin in SA2 + Div. 3KL. 1997. DFO Res. Doc. 97/29
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Index
+UNITREC   @ Index
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 49 15
+LONGITUDE @ -51 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

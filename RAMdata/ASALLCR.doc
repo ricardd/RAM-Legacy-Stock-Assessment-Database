@@ -1,0 +1,59 @@
+ID        @ ASALLCR
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Little Codroy River, Canada
+SOURCE    @ Chadwick, E. M. P. 1982. Stock-recruitment relationship for Atlantic salmon ({\it Salmo salar}) in Newfoundland rivers. Can. J. Fish. Aquat. Sci. 39: 1496-1501.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands of eggs
+UNITREC   @ Number of Smolts
+AGERECDAT @ 2.5
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 47 35
+LONGITUDE @ -59 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

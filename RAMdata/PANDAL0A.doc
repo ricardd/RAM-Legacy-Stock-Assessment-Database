@@ -1,0 +1,59 @@
+ID        @ PANDAL0A
+SP        @ Northern shrimp
+LATIN     @ Pandalus borealis
+FAMILY    @ Pandalidae
+CFAMILY   @ Pandalid shrimps
+ORDER     @ Decapoda
+STOCK     @ Baffin Bay (Div. 0A + subarea 1) 
+SOURCE    @ D. G. Parsons and P. J. Veitch. 1997. The Canadian Fishery for Northern Shrimp (Pandalus borealis) in NAFO Division 0A and Subarea 1, 1979-1997.  DFO Res. Doc. 97/100 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ kg/hr
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 68 00
+LONGITUDE @ -59 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

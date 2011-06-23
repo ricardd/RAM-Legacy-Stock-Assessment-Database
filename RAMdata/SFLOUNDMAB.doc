@@ -1,0 +1,59 @@
+ID        @ SFLOUNDMAB 
+SP        @ Summer flounder
+LATIN     @ Paralichthys dentatus
+FAMILY    @ Bothidae
+CFAMILY   @ Lefteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Middle Atlantic Bight
+SOURCE    @ Anon. 1990. Report of the Eleventh NEFC Stock Assessment Workshop, Fall 1990. NEFC Reference Document 90-09.; Anon. 1992. NEFC Reference Document 92-02.
+COMMENTS  @ F summed through 5
+FAGE      @ 0-5
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 0.88-1.10 
+LHATCH    @ 2.41-2.82 
+LMETA     @ 15 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 38 00
+LONGITUDE @ -73 00
+MONTHSPA  @ 9-2 
+NATMORT   @ 0.2 
+F01       @  
+FMAX      @ 0.23 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf, offshore 20-48m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Morse, W.W. 1981. Reproduction of the summer flounder, Paralichthys dentatus (L.). J.Fish. Biol. 19:189-203 
+LENMAT    @ . 
+LENMATM   @ 24-27 
+LENMATF   @ 30-33 
+AGEMAT    @ . 
+AGEMATM   @ 2 
+AGEMATF   @ 2 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

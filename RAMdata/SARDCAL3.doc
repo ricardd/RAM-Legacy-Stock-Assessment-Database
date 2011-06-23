@@ -1,0 +1,59 @@
+ID        @ SARDCAL3
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ California
+SOURCE    @ Smith, P. E. 1978. Biologicval effects of ocean variability: time and space scales of biological response. Rapp. P.V. Reun. Cons. Int. Explor. Mer. 173: 117-127. recaculated from Soutar, A., and J.D. Issacs.  1974.  Abundance of pelagic fish during the 19th and 20th centuries as recorded in anaerobic sediment off the Californias.  Fish. Bull. U.S. 72:  257-273.
+COMMENTS  @ 5 year averages from fossil scale data. SSB is in standing stock, not spawners
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ Thousand tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.34-2.05
+LHATCH    @ 3.5-3.75
+LMETA     @ 35
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 15
+LONGITUDE @ -120 03
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.4 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Near surface in coastal offshore waters. 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic 0-80m 
+SOURCEMAT @ Hart, J.L. (1973), Matarese, A.C. et al. 1989. Labaratory Guide to early life history stages of Northeast Pacific Fish.  NOAA TECH. MEMO. 89:650 pp.  
+LENMAT    @ 21.5 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 29 
+k         @ 0.45 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

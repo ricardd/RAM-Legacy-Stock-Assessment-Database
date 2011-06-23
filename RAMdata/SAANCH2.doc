@@ -1,0 +1,59 @@
+ID        @ SAANCH2
+SP        @ S.A. Anchovy
+LATIN     @ Engraulis capensis
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ South Africa
+SOURCE    @ Hampton, I. 1996. ICES Journal of Marine Science 53: 494-500.
+COMMENTS  @ from table 1 and 2. 
+FAGE      @ .
+METHOD    @ Acoustics
+UNITSSB   @ Million tonnes
+UNITREC   @ Million tonnes
+AGERECDAT @ 0.5
+UNITLAND  @ .
+EGGDIAM   @ 1.05
+LHATCH    @ 3.5 
+LMETA     @ 25 
+DELTAL    @ 21.5 
+DELTAN    @ 20.5 
+LATITUDE  @ -35 00
+LONGITUDE @ 20 00
+MONTHSPA  @ . 
+NATMORT   @ 0.8 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

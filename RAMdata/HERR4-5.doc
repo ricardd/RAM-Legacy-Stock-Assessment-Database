@@ -1,0 +1,59 @@
+ID        @ HERR4-5
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ NAFO 4-5 
+SOURCE    @ Anon. 1991. Stock Assessment Review Committee Consensus Summary of Assessments. Thirteenth Northeast Regional Stock Assessment Workshop. Dec. 1991.
+COMMENTS  @ SPA, Stock size estimates (millions), derived from VPA (M=0.20)
+FAGE      @ 5+
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes 
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 1.26
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 44 10
+LONGITUDE @ -60 30
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.24 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.60
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

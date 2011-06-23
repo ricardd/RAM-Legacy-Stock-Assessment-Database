@@ -1,0 +1,59 @@
+ID        @ PHAKEGCAL
+SP        @ Pacific hake
+LATIN     @ Merluccius productus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Gulf of California
+SOURCE    @ Holmgren-Urba, D., and T.R. Baumgartner.  1993.  A 250-year history of pelagic fish abundances from the anaerobic sediments of the Central Gulf of ÉCalifornia.  CalCOFI Rep. 34:  60-68.
+COMMENTS  @ 10 year averages from fossil scale data.
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ scales per 1000 cm^2
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 27 54
+LONGITUDE @ -111 31
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Slope 
+EGGTYPE   @ Oviparous, pelagic  
+FEEDTYPE  @ Epi-, and mesopelagic 
+SOURCEMAT @ Smith, P. E. 1995. Development of the population biology of the Pacific hake. California cooperative oceanic fisheries investigations reports.  36: 144-152 
+LENMAT    @ . 
+LENMATM   @ 28 
+LENMATF   @ 34-40 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ 3-4 
+LENREC    @ 3-6 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Dark, T.A. 1975. Age and growth of Pacific hake, {\em Merluccius productus}, Fish. Bull. U.S. , 73 : 336-355.
+LINFIN    @ 60.85 
+k         @ 0.30 
+to        @ 0.03 
+LINFINM   @ 56.29 
+kM        @ 0.30 
+toM       @ 0.20 
+LINFINF   @ 61.23 
+kF        @ 0.30 
+toF       @ 0.01 
+SOURCEab  @ Dark, T.A. 1975. Age and growth of Pacific hake, {\em Merluccius productus}, Fish. Bull. U.S. , 73 : 336-355. & Francis, R.C. (1983) 
+aLTWTPAR  @ 0.00001815 
+bLTWTPAR  @ 2.73343 
+aLTWTPARM @ 0.00003468 
+bLTWTPARM @ 2.55618 
+aLTWTPARF @ 0.0002044 
+bLTWTPARF @ 2.69509 

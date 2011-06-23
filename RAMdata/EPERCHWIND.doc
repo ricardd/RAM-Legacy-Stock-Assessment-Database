@@ -1,0 +1,59 @@
+ID        @ EPERCHWIND
+SP        @ Eurasian perch
+LATIN     @ Perca fluviatilis
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Windermere
+SOURCE    @ Craig, J. F., C. Kipling, E. D. Le Cren, and J. McCormack. 1979. Estimates of the numbers, boimass and year-class strengths of perch ({it Perca fluviatilis} L.) in Windermere from 1967 to 1977 and some comparisons with earlier years. Journal of Animal Ecology (1979) 48: 315-325.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Research traps
+UNITSSB   @ .
+UNITREC   @ Year-class strength
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 54 20
+LONGITUDE @ -2 53
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

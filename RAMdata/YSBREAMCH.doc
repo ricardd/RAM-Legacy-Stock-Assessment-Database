@@ -1,0 +1,59 @@
+ID        @ YSBREAMCH
+SP        @ Yellow sea bream
+LATIN     @ Taius tumifrons
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ East China Sea
+SOURCE    @ Shindo, S. 1960. Studies on the stock of yellow sea bream in the East China Sea. Seikai Regional Fisheries Res. Laboratory 20.
+COMMENTS  @ This looks to be a very good study
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Index of Eggs
+UNITREC   @ Index
+AGERECDAT @ 2 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 30 00
+LONGITUDE @ 125 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ POLL4VWX5
+SP        @ Pollock or saithe
+LATIN     @ Pollachius virens
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4VWX5
+SOURCE    @ Annand, M. C., D. Beanlands, and J. McMillian. 1988. Assessment of divisions 4VWX and Subarea 5 pollock ({\it Pollachius virens}). CAFSAC Res. Doc. 88/71: 65 p.  Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for F01, FMED, & FMAX).
+COMMENTS  @ SPA, 2 year olds in (000's),F is the mean
+FAGE      @ fully recruited fish
+METHOD    @ SPA
+UNITSSB   @ Thousands tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ 1.12 
+LHATCH    @ 4 
+LMETA     @ 25 
+DELTAL    @ 21 
+DELTAN    @ 18.8 
+LATITUDE  @ 43 00
+LONGITUDE @ -62 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.22 
+FMAX      @ 0.61
+FMED      @ 0.55
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 100-200m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

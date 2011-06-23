@@ -1,0 +1,59 @@
+ID        @ SAHMACK
+SP        @ Cape horse mackerel
+LATIN     @ Trachurus capensis
+FAMILY    @ Carangidae
+CFAMILY   @ Jacks, Amberjacks, Pompanos
+ORDER     @ Perciformes
+STOCK     @ South Africa 1.3-1.5
+SOURCE    @ Bergh, M. O., D. S. Butterworth, and P. A. Andrew. 1986. Int. Commn. SE. Atl. Fish. Coll. Scient. Pap. 13: 77-90 p.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Billions
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ -34 30
+LONGITUDE @ 17 30
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @  Bergh, M. O., D. S. Butterworth, and P. A. Andrew, Int. Commn. SE. Atl. Fish. , Coll. Scient. Pap. 13:77-90, 1986
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 3
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

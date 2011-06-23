@@ -1,0 +1,59 @@
+ID        @ SPRAT22-32
+SP        @ Sprat
+LATIN     @ Sprattus sprattus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Baltic Areas 22-32
+SOURCE    @ Anon. 1991. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1991/Assess: 18., updated 2001
+COMMENTS  @ .
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ 20 00
+MONTHSPA  @ . 
+NATMORT   @ 0.28 
+F01       @ 0.48 
+FMAX      @ .  
+FMED      @ 0.36 
+KGPRECF0  @ 0.025
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

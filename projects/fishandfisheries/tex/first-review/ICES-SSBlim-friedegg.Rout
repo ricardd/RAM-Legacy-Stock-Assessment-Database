@@ -1,7 +1,8 @@
 
-R version 2.9.1 (2009-06-26)
-Copyright (C) 2009 The R Foundation for Statistical Computing
+R version 2.13.0 (2011-04-13)
+Copyright (C) 2011 The R Foundation for Statistical Computing
 ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -20,7 +21,7 @@ Type 'q()' to quit R.
 [Previously saved workspace restored]
 
 > ## produce a fried egg for ICES' stocks using SSBlim and Flim reference points
-> ## DR last modified Time-stamp: <2011-04-29 14:53:24 (srdbadmin)>
+> ## DR last modified Time-stamp: <2011-06-22 23:36:32 (srdbadmin)>
 > ## Modification history:
 > ## 2011-04-29: LOG in SQL is base 10 log, use LN instead for natural log
 > setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
@@ -59,7 +60,8 @@ Copyright M. P. Wand 1997-2009
 > 
 > ##
 > pdf("friedegg-ICES-SSBlim.pdf", width=11/1.6, height=11)
-> par(mar=c(4,4,1,1),oma=c(4,4,1,1),mfrow=c(2,1))
+> #par(mar=c(4,4,1,1),oma=c(4,4,1,1),mfrow=c(2,1))
+> par(mar=c(4,4,1,1),oma=c(4,4,1,1))
 > 
 > ## normal fried egg
 >   crosshair.dat$ratio.x[crosshair.dat$ratio.x>2] <- 2
@@ -81,18 +83,18 @@ Copyright M. P. Wand 1997-2009
 > 
 > # xlim=exp(c(0.2,6)), ylim=c(-1,1),
 > ## also include log ratios
->   image(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat, col=palettetable.egg(length(kernel.dens.log$x1)), xlab = "", ylab = "", cex.lab=1.3, axes=FALSE)
-> contour(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
-> abline(h=0, lty=2, lwd=1.2); abline(v=0, lty=2, lwd=1.2)
-> points(crosshair.dat[,6], crosshair.dat[,12], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
+> #  image(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat, col=palettetable.egg(length(kernel.dens.log$x1)), xlab = "", ylab = "", cex.lab=1.3, axes=FALSE)
+> #contour(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
+> #abline(h=0, lty=2, lwd=1.2); abline(v=0, lty=2, lwd=1.2)
+> #points(crosshair.dat[,6], crosshair.dat[,12], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
 > 
-> axis(side=1, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
-> axis(side=2, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
+> #axis(side=1, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
+> #axis(side=2, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
 > 
-> mtext(expression(SSB[curr]/SSB[lim]), side=1, line=1, outer=TRUE, cex=1)
-> mtext(expression(F[curr]/F[lim]), side=2, line=1, outer=TRUE, cex=1)
->   my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
-> legend("topright",my.label)
+> #mtext(expression(SSB[curr]/SSB[lim]), side=1, line=1, outer=TRUE, cex=1)
+> #mtext(expression(F[curr]/F[lim]), side=2, line=1, outer=TRUE, cex=1)
+> #  my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
+> #legend("topright",my.label)
 > 
 > dev.off()
 null device 
@@ -101,4 +103,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.520   0.032   0.647 
+  0.588   0.028   0.786 

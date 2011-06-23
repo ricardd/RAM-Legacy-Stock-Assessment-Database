@@ -1,0 +1,59 @@
+ID        @ LMOUTHBASSKERR
+SP        @ Largemouth bass
+LATIN     @ Micropterus salmoide
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Kerr Reservoir, Virginia
+SOURCE    @ Duval, M. C. 1991. Factors affecting the apparent differential success of a largemouth bass size regulation at two Virginia reservoirs. Warmwater Fisheries Symp. 1, Scottsdale, AZ (USA), 4 8 Jun 1991, SCOTTSDALE, ARIZONA. Ed. Cooper,J.L.; Hamre, R.H. Rocky Mountain Forest and Range Experiment Stn., Fort Collins, CO USA WASHINGTON, DC USA USDA FOREST SERV. pages 291-295. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electro fishing
+UNITSSB   @ .
+UNITREC   @ Number per hour
+AGERECDAT @ 0.5
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 36 35
+LONGITUDE @ -78 19
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

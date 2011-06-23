@@ -1,0 +1,59 @@
+ID        @ SARDSJAP
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Sea of Japan
+SOURCE    @ Hiyama, Y. , H. Nishida and T. Goto. 1995. Interannual Fluctuations in Recruitment and Growth of the Sardine, {\em Sardinops melanostictus}, in the Sea of Japan and Adjacent Waters.  Res. Popul. Ecol. 37(2): 177-183.
+COMMENTS  @ Fishing mortality is for 3 to 6+ year olds,  SSB and REC read off Fig.3.  The source had a different latin name for the stock - Sardinops melanostictus.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Ten thousand tonnes
+UNITREC   @ Thousand millions
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 40 00
+LONGITUDE @ 135 00
+MONTHSPA  @ 12-4 
+NATMORT   @ 0.57
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Coastal, nearshore 
+EGGTYPE   @ Oviparous, pelagic
+FEEDTYPE  @ Pelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Tokio Wada, 1988. Population Dynamics on Japanese Sardine, SARDINOPS MELANOSTICTUS Caught by the Domestic Purse  Seine Fishery in the Waters off the Coast of Southeastern  Hokkaido.  Bulletin of the Hokkaido Reg. Fish. Res. Lab. 52. 
+LINFIN    @ 218.6 
+k         @ 0.263 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ Tokio Wada, 1988. Population Dynamics on Japanese Sardine, SARDINOPS MELANOSTICTUS Caught by the Domestic Purse  Seine Fishery in the Waters off the Coast of Southeastern  Hokkaido.  Bulletin of the Hokkaido Reg. Fish. Res. Lab. 52. 
+aLTWTPAR  @ 0.526 
+bLTWTPAR  @ 3.615 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

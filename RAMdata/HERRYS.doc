@@ -1,0 +1,59 @@
+ID        @ HERRYS
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Yellow Sea or Huanghai Sea
+SOURCE    @ Qisheng, T. 1987. Acta Oceanologica Sininca 6(1).
+COMMENTS  @ .
+FAGE      @ 2-4
+METHOD    @ SPA
+UNITSSB   @ Millions of fish
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ .  
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 35 00
+LONGITUDE @ 124 00
+MONTHSPA  @ . 
+NATMORT   @ 0.11 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Nearshore, coastal bays 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Nearshore shelf pelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Chang Cheng Ye, 1983. The Herring ({\em Clupea harengus pallasi}) and its Fisheries in the Yellow Sea.  page 85-94.
+LINFIN    @ 308 
+k         @ 0.59 
+to        @ o.54 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

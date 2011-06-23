@@ -1,0 +1,59 @@
+ID        @ PANCHNCS2
+SP        @ Peruvian anchoveta
+LATIN     @ Engraulis ringens
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Peru
+SOURCE    @ Cury, P., and C. Roy. 1989. Optimal environmental window and pelagic  fish recruitment success in upwelling areas. Can. J. Fish. Aquat. Sci. 46: 670-680.
+COMMENTS  @  SPA, recruitment of 3 mon. olds in  (000 000 000's), stock  in (000 000 t)
+FAGE      @ .
+METHOD    @ SPA 
+UNITSSB   @ . 
+UNITREC   @ Billions
+AGERECDAT @ . 
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ -12 00
+LONGITUDE @ -77 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

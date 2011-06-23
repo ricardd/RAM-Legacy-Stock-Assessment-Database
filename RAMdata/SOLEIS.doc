@@ -1,0 +1,59 @@
+ID        @ SOLEIS
+SP        @ Sole
+LATIN     @ Solea vulgaris
+FAMILY    @ Soleidae
+CFAMILY   @ Soles
+ORDER     @ Pleuronectiformes
+STOCK     @ Irish Sea
+SOURCE    @ Anon. 2001. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 2001/ACFM: 2.
+COMMENTS  @ . 
+FAGE      @ 4-7
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.15 
+LHATCH    @ 3.1 
+LMETA     @ 10 
+DELTAL    @ 6.9 
+DELTAN    @ 6 
+LATITUDE  @ 54 00
+LONGITUDE @ -5 00
+MONTHSPA  @ 3-6 
+NATMORT   @ 0.10 
+F01       @ 0.11 
+FMAX      @ 0.33 
+FMED      @ 0.31 
+KGPRECF0  @ 3.5 
+SPAWNLOC  @ Shelf 46-55m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

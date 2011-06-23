@@ -1,0 +1,59 @@
+ID        @ REDDRUMFLATL
+SP        @ Red drum 
+LATIN     @ Sciaenops ocellatus 
+FAMILY    @ Sciaenidae
+CFAMILY   @ Drums 
+ORDER     @ Perciformes
+STOCK     @ Florida Atlantic Coast, USA
+SOURCE    @ Murphy, M. D. 2001. A stock assessment of red drum, Sciaenops ocellatus, in Florida: status of the stocks through 2000, Florida Fish and Wildlife Conservation Commission, Florida Marine Research Institute, St. Petersburg, Florida 33701-5095, 28 September 2001
+COMMENTS  @ .
+FAGE      @ . 
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Thousands 
+AGERECDAT @ 0.5
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 28 20
+LONGITUDE @ -80 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ . 
+SPAWNLOC  @ Estuary 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ MACKHBLACK
+SP        @ Mediterranean horse mackerel
+LATIN     @ Trachurus mediterraneus
+FAMILY    @ Carangidae
+CFAMILY   @ Jacks, Amberjacks, Pompanos
+ORDER     @ Perciformes
+STOCK     @ Black Sea
+SOURCE    @  Prodanov, K.; Mikhailov,K.; Daskalov, G.; Maxim, C.; Cashchin, A.; Shlyakhov, V.; Ozdamar, E.  Environmental management of fish resources in the Black Sea and their rational exploitation.  Studies and Reviews. General Fisheries Council for the Mediterranean.  No.68. Rome, FAO. 1997. pp 73-81
+COMMENTS  @ .
+FAGE      @ 3-5
+METHOD    @ SPA
+UNITSSB   @ Thousands tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ 35 00
+MONTHSPA  @ . 
+NATMORT   @ 0.45 
+F01       @  
+FMAX      @  
+FMED      @ . 
+KGPRECF0  @ 0.026
+SPAWNLOC  @ . 
+EGGTYPE   @ .
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 19.25 
+k         @ 0.34806
+to        @ -0.59142
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

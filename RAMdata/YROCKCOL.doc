@@ -1,0 +1,59 @@
+ID        @ YROCKCOL
+SP        @ Yellowtail rockfish
+LATIN     @ Sebastes flavidus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfish
+ORDER     @ Scorpaeniformes
+STOCK     @ Columbia
+SOURCE    @ Tagart, J. V. 1988. Pacific Fishery Management Council (U.S.)
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Millions
+AGERECDAT @ 7
+UNITLAND  @ Tonnes
+EGGDIAM   @ N/A 
+LHATCH    @ 4.5 
+LMETA     @ 23-27 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 46 15
+LONGITUDE @ -124 05
+MONTHSPA  @ Partruition 2 
+NATMORT   @ 0.11 
+F01       @ 0.19 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Ovoviviparous, pelagic larvae 
+FEEDTYPE  @ Epi- & mesopelagic 0-549m 
+SOURCEMAT @ Wyllie Echeverria, T. 1987. Thirty Four Species of California Rockfishes: Maturity and Seasonality of Reproduction. Fish. Bull. 85(2)
+LENMAT    @ . 
+LENMATM   @ 35 
+LENMATF   @ 36 
+AGEMAT    @ 7 
+AGEMATM   @ 6 
+AGEMATF   @ 7 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Tagart, J. V. 1988. Pacific Fishery Management Council (U.S.) 
+LINFIN    @ 47.884 
+k         @ 0.245 
+to        @ -3.935 
+LINFINM   @ 47.250 
+kM        @ 0.200 
+toM       @ -5.487 
+LINFINF   @ 52.225
+kF        @ 0.199  
+toF       @ -4.074  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

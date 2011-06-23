@@ -34,24 +34,25 @@ function (x, data = parent.frame(), ...)
           }
         t <- character(length(levels))
         for (l in 1:length(levels)) {
+                ##print(levels[l])
             x <- f.rec(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
            if (length(x) == 1) 
               t[l] <- x
                ##t[l] <- paste(x,":", 1, sep="")
             else{
-              n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
+              n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, engine="R", perl=TRUE))) ## ammended CM, Dec 6th 2009, June 2011 added engine arg
               t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
             }
           }
         return(t)
       }    
     string <- paste("(", paste(f.rec(taxo.data), collapse = ","), ")",":",dim(taxo.data)[1],";", sep = "")
-     ## ammended CM, Dec 6th 2009, Feb 2nd 2011, changed backref to 0
-    string2<-gsubfn(pattern="(?<=[\\,,\\(])[0-9]+", replacement=function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, x=string, backref=0, perl=TRUE)
+     ## ammended CM, Dec 6th 2009, Feb 2nd 2011, changed backref to 0, June 2011 added engine arg
+    string2<-gsubfn(pattern="(?<=[\\,,\\(])[0-9]+", replacement=function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, x=string, backref=0, engine="R",perl=TRUE)
     phy <- read.tree(text = string2)
     phy$tip.label <- leaves.names[as.numeric(phy$tip.label)]
-    phy.names.df<-data.frame(number=as.numeric(phy$tip.label), name.phy.1=leaves.names[as.numeric(phy$tip.label)])
-    phy.names.df<-phy.names.df[order(phy.names.df$number),]
+    ##phy.names.df<-data.frame(number=as.numeric(phy$tip.label), name.phy.1=leaves.names[as.numeric(phy$tip.label)])
+    ##phy.names.df<-phy.names.df[order(phy.names.df$number),]
     return(phy)
   }
 

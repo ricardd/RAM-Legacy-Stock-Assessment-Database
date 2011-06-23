@@ -1,0 +1,59 @@
+ID        @ SOCKPJOH 
+SP        @ Sockeye salmon
+LATIN     @ Oncorhynchus nerka
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Port John Lake, B.C. 
+SOURCE    @ Foerster, R.E. 1968. The Sockeye Salmon, Oncorhynchus nerka. Fish. Res. Board of Can. Bulletin 162. Table 83 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Millions of Eggs
+UNITREC   @ Smolts
+AGERECDAT @ 4
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 52 07
+LONGITUDE @ -127 50
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ . 
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 4
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

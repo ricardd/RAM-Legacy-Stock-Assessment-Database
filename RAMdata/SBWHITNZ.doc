@@ -1,0 +1,57 @@
+ID        @ SBWHITNZ
+SP	  @ Southern blue whiting
+LATIN	  @ Micromesistius australis
+FAMILY	  @ Gadidae
+CFAMILY	  @ Cods
+ORDER	  @ Gadiformes
+STOCK	  @ Campbell Island, NZ
+SOURCE    @ Hanchet, S.M. & Haist V. 1994: Southern blue whiting ({\em Micromesistius australis}) fishery assessment for the 1994-95 fishing year. N.Z. Fisheries Assessment Research Document 94/22 41p. Annala, J.H. & Sullivan, K.J. (Comps) 1996: Report from the Fishery Assessment Plenary, April-May 1996: stock assessments and yield estimates. 308 p. (Unpublished report held in NIWA library, Wellington). 
+COMMENTS  @ Enquiries to Dr S.M. Hanchet, NIWA, P.O. Box 14 901, Wellington, New Zealand. (Email: s.hanchet"at"niwa.cri.nz).
+FAGE	  @ 2-11
+METHOD	  @ SPA
+UNITSSB	  @ Tonnes
+UNITREC	  @ Millions
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM	  @ 1.2 - 1.7
+LHATCH	  @ 
+LMETA	  @ 
+DELTAL	  @ 
+DELTAN	  @ 
+LATITUDE  @ -51 30
+LONGITUDE @ 170 00
+MONTHSPA  @ 10
+NATMORT	  @ 0.2
+F01	  @ 0.36
+FMAX	  @ 0.77
+FMED	  @ 
+KGPRECF0  @ 
+SPAWNLOC  @ 
+SOURCEMAT @ 
+LENMAT	  @ 
+LENMATM	  @ 33 - 40
+LENMATF	  @ 35 - 42
+AGEMAT	  @ 3.5
+AGEMATM	  @ 
+AGEMATF	  @ 
+LENREC	  @ 
+AGEREC	  @ 2 
+AGERECM	  @ 
+AGERECF	  @ 
+SOURCEGRO @ 
+LINFIN	  @ 
+k	  @ 
+t0	  @ 
+LINFINM	  @ 47.6 cm
+kM	  @ 0.35
+t0M	  @ -0.93
+LINFINF	  @ 51.5
+kF	  @ 0.32
+t0F	  @ -1.03
+SOURCEab  @ Parameters convert length in cm to wt in g.
+aLTWTPAR  @ 
+bLTWTPAR  @ 
+aLTWTPARM @ 0.00515
+bLTWTPARM @ 3.092
+aLTWTPARF @ 0.00407
+bLTWTPARF @ 3.152

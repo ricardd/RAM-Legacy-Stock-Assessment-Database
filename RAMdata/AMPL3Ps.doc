@@ -1,0 +1,59 @@
+ID        @ AMPL3Ps
+SP        @ American plaice
+LATIN     @ Hippoglossoides platessoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ NAFO 3Ps
+SOURCE    @ Brodie. 1991. CAFSAC Res. Doc. 91/72.
+COMMENTS  @ SPA, 6 year olds in (000's)
+FAGE      @ 9-15
+METHOD    @ SPA
+UNITSSB   @ . 
+UNITREC   @ Thousands
+AGERECDAT @ 6
+UNITLAND  @ Tonnes
+EGGDIAM   @ 2.15 
+LHATCH    @ 5 
+LMETA     @ 25 
+DELTAL    @ 20 
+DELTAN    @ 9.3 
+LATITUDE  @ 46 00
+LONGITUDE @ -55 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ 0.24 
+FMAX      @ 0.525
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ . 
+LENMATM   @ 22-23 
+LENMATF   @ < 30 
+AGEMAT    @ . 
+AGEMATM   @ 4-5 
+AGEMATF   @ < 8 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

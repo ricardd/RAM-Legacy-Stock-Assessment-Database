@@ -1,0 +1,59 @@
+ID        @ COD5Z
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 5Z
+SOURCE    @ Anon. 1997. Stock assessment review committee consensus summary of assessments. 24th Northeast Regional Stock Assessment Workshop. June 1997. Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMED).
+COMMENTS  @ VPA, Millions age 3
+FAGE      @ 4-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 41 00
+LONGITUDE @ -67 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.16 
+FMAX      @ 0.30 
+FMED      @ 0.36
+KGPRECF0  @ 27.13
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 1 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

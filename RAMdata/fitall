@@ -1,0 +1,9 @@
+unalias *
+alias stat 'scom \!*;@ res=$status;if ($res == 33 || $res == 99) exit($res)'
+while ( 1 )
+  rm .Data/.Audit
+  stat 'fitallmodels(fit.index)'
+  stat 'fit.index <- fit.index + 1;cat("Iter","ation ",fit.index,"\n",sep="")'
+  stat 'if (fit.index>max.fit.index) q(99)'
+end
+

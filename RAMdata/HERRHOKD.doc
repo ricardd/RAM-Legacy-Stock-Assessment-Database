@@ -1,0 +1,59 @@
+ID        @ HERRHOKD
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Hokkaido
+SOURCE    @ Yang, R. , Hiyama, Y. and y. Nose.  1964.  On the Parent-Progeny Relationship, Considering the Variation of Geographical Distributions of Hokkaido Herring ({\em Clumea pallasii C. et V.}).  Bulletin of the Japanese Society of Scientific Fisheries 30:239-247.
+COMMENTS  @ This data is contained in HHERRHOK, it is the 4th time period.
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Thousand Kilograms
+UNITREC   @ Thousand Kilograms
+AGERECDAT @ .
+UNITLAND  @ .  
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 30
+LONGITUDE @ 141 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

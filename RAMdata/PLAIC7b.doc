@@ -1,0 +1,59 @@
+ID        @ PLAIC7b
+SP        @ Plaice
+LATIN     @ Pleuronectes platessa
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ W. of Ireland, ICES VIIb,c
+SOURCE    @ Anon. 1993. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. ICES Doc. C.M. 1993/Assess: 3., updated by 2001 assessment
+COMMENTS  @ VPA, 
+FAGE      @ 3-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.92 
+LHATCH    @ 6.5 
+LMETA     @ 14 
+DELTAL    @ 11.3 
+DELTAN    @ 5.9 
+LATITUDE  @ 51 30
+LONGITUDE @ -4 00
+MONTHSPA  @ 12-3 
+NATMORT   @ 0.12 
+F01       @ 0.11 
+FMAX      @ 0.20 
+FMED      @ .395
+KGPRECF0  @ 5.00 
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

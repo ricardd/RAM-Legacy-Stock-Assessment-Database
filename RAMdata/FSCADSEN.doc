@@ -1,0 +1,59 @@
+ID        @ FSCADSEN
+SP        @ False scad
+LATIN     @ Decapterus rhonchus
+FAMILY    @ Carangidae
+CFAMILY   @ Jacks, Amberjacks, Pompanos
+ORDER     @ Perciformes
+STOCK     @ N.W. Africa (CECAF 34.1.3-34.3.1)
+SOURCE    @ Maxim, C. 1995.  Horse mackerel and false scad stock assessment and catch projections, CECAF Divisions 34.1.3 and 34.3.1.  Sci. Mar. 59(3-4):611-627. 
+COMMENTS  @ The paper states that the calculation of Fishing mortalities was difficult and the results should be taken with some reservation
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Millions
+AGERECDAT @ 0+
+UNITLAND  @ Thousands tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 18 00
+LONGITUDE @ -18 00
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Maxim, C. 1995.  Horse mackerel and false scad stock assessment and catch projections, CECAF Divisions 34.1.3 and 34.3.1.  Sci. Mar. 59(3-4):611-627. 
+LINFIN    @ 55.69 cm 
+k         @ 0.136
+to        @ -1.295
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ Maxim, C. 1995.  Horse mackerel and false scad stock assessment and catch projections, CECAF Divisions 34.1.3 and 34.3.1.  Sci. Mar. 59(3-4):611-627. 
+aLTWTPAR  @ 0.035 
+bLTWTPAR  @ 2.7313
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

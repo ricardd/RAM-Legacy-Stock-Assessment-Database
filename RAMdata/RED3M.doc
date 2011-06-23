@@ -1,0 +1,59 @@
+ID        @ RED3M
+SP        @ Redfish
+LATIN     @ Sebastes mentela and fasciatus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ NAFO 3M
+SOURCE    @ Gasuikov, P. S., and R. S. Dorovskikh. 1991. Redfish stock size in division 3M in 1990 and estimated TAC for 1992. NAFO SCR Doc. 91/77: 19 p.
+COMMENTS  @ .
+FAGE      @ 6-17
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Thousands
+AGERECDAT @ 5
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 44 00
+LONGITUDE @ -44 15
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ .
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

@@ -1,0 +1,59 @@
+ID        @ CODGREEN  
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Greenland offshore component
+SOURCE    @ Report of the North-Western Working Group. ICES Doc. C.M.1997/Assess: 13.
+COMMENTS  @ pp. 258
+FAGE      @ 5-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 59 00
+LONGITUDE @ -44 00
+MONTHSPA  @ . 
+NATMORT   @ 0.3 
+F01       @ .
+FMAX      @ .
+FMED      @ . 
+KGPRECF0  @ 5.9
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ .
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

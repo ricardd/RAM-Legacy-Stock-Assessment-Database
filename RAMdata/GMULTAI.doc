@@ -1,0 +1,59 @@
+ID        @ GMULTAI
+SP        @ Grey mullet
+LATIN     @ Mugil cephalus
+FAMILY    @ Mugilidae
+CFAMILY   @ Mullets
+ORDER     @ Perciformes
+STOCK     @ Taiwan
+SOURCE    @ Szu-Yu Hwang et al. 1990. Stock Assesment of Grey Mullet {\it Mugil cephalus} in Taiwan by Cohort Analysis. Nippon Suisan Gakkaishi 56(12).
+COMMENTS  @  SPA, The Estimated Stock of Female Grey Mullet (F=0.99, M=0.33)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousands of Females
+UNITREC   @ Numbers of Females
+AGERECDAT @ 3
+UNITLAND  @ Numbers
+EGGDIAM   @ 0.97 
+LHATCH    @ 24-25 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 22 45
+LONGITUDE @ 120 00
+MONTHSPA  @ 10-2 
+NATMORT   @ 0.33 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf- near surface 
+EGGTYPE   @ Oviparous, demersal 
+FEEDTYPE  @ . 
+SOURCEMAT @ Rivas, L.R. 1980. synopsis of knowledge on the taxonomy, biology, distribution and fishery of the Gulf of Mexico mullets(Pisces: Mugilidae). In Flandorfer, M. and Skuplen, L. [eds], Proceedings of the a Workshop for Potential Fishery Resources of the Northern Gulf of Mexico. pp 34-53 
+LENMAT    @ 200-355 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ 185 
+AGEREC    @ 2-3 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Rivas, L.R. 1980. synopsis of knowledge on the taxonomy, biology, distribution and fishery of the Gulf of Mexico mullets(Pisces: Mugilidae). In Flandorfer, M. and Skuplen, L. [eds], Proceedings of the a Workshop for Potential Fishery Resources of the Northern Gulf of Mexico. pp 34-53
+LINFIN    @ 510 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

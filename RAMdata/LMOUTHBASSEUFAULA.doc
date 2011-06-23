@@ -1,0 +1,59 @@
+ID        @ LMOUTHBASSEUFAULA
+SP        @ Largemouth bass
+LATIN     @ Micropterus salmoide
+FAMILY    @ Centrarchidae
+CFAMILY   @ Sunfishes
+ORDER     @ Perciformes
+STOCK     @ Lake Eufaula, Oklahoma
+SOURCE    @ Wright, G.L. 1991. Results of a water level management plan on largemouth bass recruitment in Lake Eufaula, Oklahoma. Warmwater Fisheries Symp. 1, Scottsdale, AZ (USA), 4 8 Jun 1991, SCOTTSDALE, ARIZONA. Ed. Cooper,J.L.; Hamre, R.H. Rocky Mountain Forest and Range Experiment Stn., Fort Collins, CO USA WASHINGTON, DC USA USDA FOREST SERV. pages 126-130. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Electro fishing
+UNITSSB   @ .
+UNITREC   @ Number per hour
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 35 18
+LONGITUDE @ -95 21
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,55 @@
+ID        @ WHITNS
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North Sea
+SOURCE    @ Holden, M. J. Long Term Changes in Landings of Fish from the North Sea with particular reference to the periods 1930-38 and 1960-69. Symposium on the Changes in North Sea Fish Stocks and their causes. No. 15.; Anon. 1981. Report of the North Sea Roundfish Working Group. ICES Doc. C.M. 1981/G: 8.; ICES Doc. C.M. 1988; Anon. 1991. Report of the Roundfish Working Group. ICES Doc. C.M. 1991/Assess: 4.; Anon. 1992. Report of the North Sea Roundfish Working Group. ICES Doc. C.M. 1992/Assess: 4.; Anon. 1993. Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak. ICES Doc. C.M. 1993/Assess: 5., updated with 2002 assessment
+COMMENTS  @ SPA, 0 year olds in actual numbers
+FAGE      @ 2-6
+METHOD    @ SPA 
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 55 00
+LONGITUDE @ 4 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.48
+FMAX      @ 1.0 
+FMED      @ 0.55 
+KGPRECF0  @ 0.30
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPARF @ .

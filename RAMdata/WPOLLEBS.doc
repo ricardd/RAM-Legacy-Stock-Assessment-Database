@@ -1,0 +1,59 @@
+ID        @ WPOLLEBS
+SP        @ Walleye pollock
+LATIN     @ Theragra chalcogramma
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ E. Bering Sea
+SOURCE    @ Mito, K., T. Sasali, and T. Yoshimura. 1990. The Plan Team for the Groundfish Fisheries of the Bering Sea and Aleutian Islands, Stock Assessment and Fishery Evaluation Report for the Groundfish Resources of the Bering Sea/Aleutian Islands Region as projected for 1992, November 1991.
+COMMENTS  @ SSB and Rec taken off graph
+FAGE      @ 2-9
+METHOD    @ SPA
+UNITSSB   @ Million tonnes
+UNITREC   @ Billions 
+AGERECDAT @ 3
+UNITLAND  @ Million tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 59 00
+LONGITUDE @ -165 00
+MONTHSPA  @ . 
+NATMORT   @ 0.30 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.72
+SPAWNLOC  @ Shelf
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso- & bathypelagic 0-975m. 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Alverson, D.L., & Carney, M.J. .1975. A graphic review of the growth and decay of population cohorts. J. Cons. Int. Explor. Mer. 36(2): 133-143. 
+LINFIN    @ . 
+k         @ 0.274 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

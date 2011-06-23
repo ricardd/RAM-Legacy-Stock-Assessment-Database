@@ -1,0 +1,59 @@
+ID        @ RSNAPGULFM
+SP        @ Red Snapper
+LATIN     @ Lutjanus campechanus
+FAMILY    @ Lutjanidae
+CFAMILY   @ Snappers
+ORDER     @ Perciformes
+STOCK     @ U.S. Gulf of Mexico
+SOURCE    @ Goodyear, C.P. 1995. Red snapper in U.S. waters of the Gulf of Mexico. NOAA Contribution: MIA-95/96-05.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITSSB   @ Thousand billion eggs
+UNITREC   @ Millions
+AGERECDAT @ 1 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 28 00
+LONGITUDE @ -90 42
+MONTHSPA  @ 4-9 
+NATMORT   @ 0.15 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 26230000
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8  
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

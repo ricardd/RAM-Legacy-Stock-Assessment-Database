@@ -1,0 +1,59 @@
+ID        @ SARDGCAL
+SP        @ Sardine
+LATIN     @ Sardinops sagax
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Gulf of California
+SOURCE    @ M.A. CisnerOs-Mata, M. O. Nevarez-Martinez, M.G. Hamann. 1995. The Rise and Fall of the Pacific Sardine , {\em Sardinops Sagax Caeruleus} Girard, In the Gulf of California, Mexico. CalCOFI. Rep., Vol. 36 : 136-142.
+COMMENTS  @ SSB is age 1-6
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Numbers
+UNITREC   @ Numbers
+AGERECDAT @ 0
+UNITLAND  @ Metric tons
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 29 00
+LONGITUDE @ -112 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Near surface in coastal offshore waters. 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelagic  
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ .
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

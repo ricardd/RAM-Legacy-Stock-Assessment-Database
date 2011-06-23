@@ -1,0 +1,59 @@
+ID        @ ARGEN4VWX
+SP        @ Atlantic argentine
+LATIN     @ Argentina silus
+FAMILY    @ Argentinidae
+CFAMILY   @ Argentines
+ORDER     @ Salmoniformes
+STOCK     @ NAFO 4VWX
+SOURCE    @ Dale, C. E., and R. G. Halliday. 1987. Stock status of Atlantic argentine in div. 4VWX. CAFSAC Res. Doc. 87/19: 11 p.; update by Halliday; Anon. 1990. Advice on the management of groundfish stocks. CAFSAC Res. Doc. 90/5.
+COMMENTS  @ RV(2), index * 1000
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Thousand tonnes 
+EGGDIAM   @ 3.0-3.5 
+LHATCH    @ 6.0-9.0 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 44 10
+LONGITUDE @ -59 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Emery, A.R. & McCraken, F.D. 1966. Biology of the Atlantic argentine (Argentina silus Ascanius) on the Scotian Shelf. J. Fish. Res. Bd. Canada, 23: 1145-1160.
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

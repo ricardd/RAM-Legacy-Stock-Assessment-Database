@@ -1,0 +1,59 @@
+ID        @ PSAURYCAL
+SP        @ Pacific Saury
+LATIN     @ Cololabis saira
+FAMILY    @ Scophthalmidae
+CFAMILY   @ Sauries
+ORDER     @ Atheriniformes
+STOCK     @ California
+SOURCE    @ Smith, P. E. 1978. Biologicval effects of ocean variability: time and space scales of biological response. Rapp. P.V. Reun. Cons. Int. Explor. Mer. 173: 117-127. recaculated from Soutar, A., and J.D. Issacs.  1974.  Abundance of pelagic fish during the 19th and 20th centuries as recorded in anaerobic sediment off the Californias.  Fish. Bull. U.S. 72:  257-273.
+COMMENTS  @ 5 year averages from fossil scale data. SSB is in standing stock, not spawners
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ Thousand tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 15
+LONGITUDE @ -120 03
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

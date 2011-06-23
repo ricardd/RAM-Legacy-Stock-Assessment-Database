@@ -1,0 +1,59 @@
+ID        @ STRIPEDBASSUSA
+SP        @ Striped bass
+LATIN     @ Morone saxatilis
+FAMILY    @ Moronidae
+CFAMILY   @ Temperate basses
+ORDER     @ Perciformes
+STOCK     @ East Coast, USA
+SOURCE    @ 26th Northeast Regional Stock Assessment Workshop, NMFS, Woods Hole
+COMMENTS  @ .
+FAGE      @ 5-13
+METHOD    @ SPA
+UNITSSB   @ Tonnes of females
+UNITREC   @ Thousands 
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 35 00
+LONGITUDE @ -75 00
+MONTHSPA  @ 4 
+NATMORT   @ 0.15 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 12.97
+SPAWNLOC  @ Freshwater 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

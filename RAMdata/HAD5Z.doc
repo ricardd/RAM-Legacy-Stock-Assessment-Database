@@ -1,0 +1,59 @@
+ID        @ HAD5Z
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 5Z
+SOURCE    @ Groslein, M., and P. Hememuth. 1970. Spawning Stock and other factors related to recruitment of Haddock on Georges Bank. ICES Doc. C.M. 1970.; Symposium of Stock and Recruitment NO 32.; Data from 63-85: Gavaris. 1987. CAFSAC Res. Doc. 87/101.; Data from 59-81: Woods Hole Ref. Doc. 83-23.; Gavaris. 1988. CAFSAC Res. Doc. 88/64.; SAnon. 1997. Stock assessment review committee consensus summary of assessments. 24th Northeast Regional Stock Assessment Workshop. June 1997. ;  Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMED).
+COMMENTS  @ SPA, 1 year olds in (000 000's),landings are U.S. only and gutted weight
+FAGE      @ 4+
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Million pounds
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 41 00
+LONGITUDE @ -67 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.2 
+F01       @ 0.24
+FMAX      @ 1.485
+FMED      @ 0.16 
+KGPRECF0  @ 9.67
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ TREVALLY
+SP        @ False trevally
+LATIN     @ Lactarius lactarius 
+FAMILY    @ Lactariidae
+CFAMILY   @ False trevallies
+ORDER     @ Perciformes
+STOCK     @ Gulf of Thailand
+SOURCE    @ Pauly, D., and G. I. Murphy. 1980. Theory and management of tropical fisheries. ICLARM. Manila.
+COMMENTS  @ indirect YPR used to calculate recruitment. Data on page 58.
+FAGE      @ 0+
+METHOD    @ CPUE
+UNITSSB   @ Thousands tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 11 00
+LONGITUDE @ 101 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 19.28366
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ SOLENS
+SP        @ Sole
+LATIN     @ Solea vulgaris
+FAMILY    @ Soleidae
+CFAMILY   @ Soles
+ORDER     @ Pleuronectiformes
+STOCK     @ North Sea
+SOURCE    @ ICES Symposium on the Changes in the North Sea Stocks and their causes. No. 30.; Anon. 1982. Report of the North Sea Flatfish Working Group ICES Doc. C.M. 1982/Assess: 3.; Anon. 1988. ICES Doc. C.M. 1988.; Anon. 1991. ICES Doc. C.M. 1991/Assess: 5.; Anon. 1992. Report of the North Sea Flatfish Working Group. ICES Doc. C.M. 1992/Assess: 6.; Anon. 1993. Working Group on the Assessment of Demersal Stocks in the North Sea and Skagerrak. ICES Doc. C.M. 1993/Assess: 5., updated with 2002 assessment
+COMMENTS  @ VPA, 
+FAGE      @ 2-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.15 
+LHATCH    @ 3.1 
+LMETA     @ 10 
+DELTAL    @ 6.9 
+DELTAN    @ 6 
+LATITUDE  @ 55 00
+LONGITUDE @ 4 00
+MONTHSPA  @ 3-5 
+NATMORT   @ 0.10 
+F01       @ 0.08
+FMAX      @ 0.33 
+FMED      @ 0 29
+KGPRECF0  @ 3.5 
+SPAWNLOC  @ Offshore banks and shallow inshore waters 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

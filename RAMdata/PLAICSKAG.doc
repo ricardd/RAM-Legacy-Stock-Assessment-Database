@@ -1,0 +1,59 @@
+ID        @ PLAICSKAG
+SP        @ Plaice
+LATIN     @ Pleuronectes platessa
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Skagerrak
+SOURCE    @ Anon. 1990. Report of the Division IIIa Demersal Stocks Working Group. ICES Doc. C.M. 1990/Assess: 10.; Anon. 1991. Report of the Division IIIa Demersal Stocks Working Group. ICES Doc. C.M. 1991/Assess: 9.
+COMMENTS  @ .
+FAGE      @ 3-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.92 
+LHATCH    @ 2.7 
+LMETA     @ 14 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ 10 00
+MONTHSPA  @ . 
+NATMORT   @ 0.10 
+F01       @ 0.10 
+FMAX      @ 0.18 
+FMED      @ . 
+KGPRECF0  @ 3.12
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

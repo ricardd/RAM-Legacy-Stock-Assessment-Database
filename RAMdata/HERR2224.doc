@@ -1,0 +1,59 @@
+ID        @ HERR2224
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Baltic areas 22 and 24 
+SOURCE    @ Anon. 1988. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1988/Assess: 18.; Anon. 1990. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1990/Assess: 18.; Anon. 1991. Report of the Working Group on Assessment of Pelagic Stocks in the Baltic. ICES Doc. C.M. 1991/Assess: 18.
+COMMENTS  @ SPA, 0 year olds in (000 000's)
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.26
+LHATCH    @ 7
+LMETA     @ 30
+DELTAL    @ 23
+DELTAN    @ 18
+LATITUDE  @ 55 00
+LONGITUDE @ 12 00
+MONTHSPA  @ . 
+NATMORT   @ 0.30 
+F01       @ 0.18 
+FMAX      @ 0.35 
+FMED      @ . 
+KGPRECF0  @ 0.38
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

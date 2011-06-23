@@ -1,0 +1,59 @@
+ID        @ PINKAKPW
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Prince William Sound, Alaska
+SOURCE    @ International North Pacific Fisheries Commission. 1974. Information on recent changes in the salmon fisheries of Alaska and the condition of the stocks. INPFC Bull. 29: 37 p.
+COMMENTS  @ Data from table 5, page 52. In 1959 the missing value for LAND is due to the fact that there were less than 500 fish.
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Millions of fish
+UNITREC   @ Millions of fish
+AGERECDAT @ 2 
+UNITLAND  @ millions of fish
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 60 45
+LONGITUDE @ -147 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

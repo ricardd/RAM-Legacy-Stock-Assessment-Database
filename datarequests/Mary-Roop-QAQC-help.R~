@@ -1,0 +1,8 @@
+##
+##
+require(RODBC)
+chan <- odbcConnect(dsn='srdbusercalo')
+
+mary.list <- sqlQuery(chan,"select a.assessid, s.stockid, s.stocklong, q.issueurl, q.notes from srdb.qaqc q, srdb.stock s, srdb.assessment a where a.mostrecent = 'yes' and a.stockid=s.stockid and a.assessid = q.assessid order by q.issueid")
+
+write.csv(mary.list, "Mary-list-20110621.csv", row.names=FALSE)

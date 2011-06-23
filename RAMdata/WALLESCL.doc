@@ -1,0 +1,59 @@
+ID        @ WALLESCL
+SP        @ Walleye
+LATIN     @ Stizostedion vitreum
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Escanaba Lake, Wisconsin
+SOURCE    @ Serns, S. D. 1982. Influence of various factors on density and growth of age-0 walleyes in Escanaba Lake, Wisconsin, 1958-1980. Transactions of the American Fisheries Society 111: 299-306.
+COMMENTS  @ SSB uses age 4 and 7., a zero estimate of recruitment in year 60 was replaced with a 1
+FAGE      @ .
+METHOD    @ MR
+UNITSSB   @ Number of fish per hectare
+UNITREC   @ Number of fish per hectare
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 46 04
+LONGITUDE @ -89 35
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

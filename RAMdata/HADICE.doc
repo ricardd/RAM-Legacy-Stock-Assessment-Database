@@ -1,0 +1,59 @@
+ID        @ HADICE
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Iceland
+SOURCE    @ Marine Research Institute, Iceland. Mon Jun 20/1988 from Einar Jonsson.; State of marine stocks and environmental conditions in Icelandic waters 1989 Fishing prospects 1990,August 1990. Hafranns\'{o}knastofnun Fj\"{o}lrit NR. 19.; updated with 1992 assessment.
+COMMENTS  @ SPA, 2 year olds in actual numbers, F is a median
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Numbers
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 63 00
+LONGITUDE @ -21 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 10.86
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

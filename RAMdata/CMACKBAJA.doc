@@ -1,0 +1,58 @@
+ID        @ CMACKBAJA
+SP        @ Chub mackerel
+LATIN     @ Scomber japonicus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ Soledad Basin, Baja California
+SOURCE    @ Soutar, A., and J.D. Issacs.  1974.  Abundance of pelagic fish during the 19th and 20th centuries as recorded in anaerobic sediment off the Californias.  Fish. Bull. U.S. 72:  257-273.
+COMMENTS  @ 5 year averages from fossil scale data.
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ scales per 1000 cm^2
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 0.9-1.3 
+LHATCH    @ 3 
+LMETA     @ 15 SL 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 25 15
+LONGITUDE @ -112 60
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+EGGTYPE   @ Oviparous 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108. 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108. 
+LINFIN    @ 41 
+k         @ 0.22 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

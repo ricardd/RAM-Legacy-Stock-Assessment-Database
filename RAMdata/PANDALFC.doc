@@ -1,0 +1,59 @@
+ID        @ PANDALFC
+SP        @ Northern shrimp
+LATIN     @ Pandalus borealis
+FAMILY    @ Pandalidae
+CFAMILY   @ Pandalid shrimps
+ORDER     @ Decapoda
+STOCK     @ Flemish Cap
+SOURCE    @ J. L. del Rio. 1997. Northern Shrimp (Pandalus borealis) on Flemish Cap in July-August 1997. NAFO SCR Doc. 97/88 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 47 30
+LONGITUDE @ -45 40
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ .
+to        @ .
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

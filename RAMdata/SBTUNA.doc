@@ -1,0 +1,59 @@
+ID        @ SBTUNA
+SP        @ Southern bluefin tuna
+LATIN     @ Thunnus maccoyii
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ Southern Pacific
+SOURCE    @ Polacheck, T., and K. Sainsbury. 1993.  Age Structure Assessments with Multiple and Conflicting Information: A case study based on Southern Bluefin Tuna, Working Paper Prepared for the Australian Society for Fish Biology Workshop on "Population Dynamics for Fisheries Management".
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -15 00
+LONGITUDE @ 100 00 
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

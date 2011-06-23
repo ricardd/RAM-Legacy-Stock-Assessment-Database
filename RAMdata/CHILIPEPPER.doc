@@ -1,0 +1,59 @@
+ID        @ CHILIPEPPER
+SP        @ Chilipepper rockfish
+LATIN     @ Sebastes goodei
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ West U.S.A.
+SOURCE    @ S. Ralston, D. Perason and J. Reynolds. Status of the Chilipepper rockfish stock in 1998. Pacific Fishy Management Council. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Length Based Stock Synthesis
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ N/A 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 38 10
+LONGITUDE @ -123 30
+MONTHSPA  @ Parturition Nov. - Mar.
+NATMORT   @ 0.223 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.29982
+SPAWNLOC  @ Parturition-shelf 
+EGGTYPE   @ Ovoviparous, pelagic larvae
+FEEDTYPE  @ Epi- & mesobenthal 0-375m 
+SOURCEMAT @ Wyllie Echeverria, T. 1987. Thirty Four Species of California Rockfishes: Maturity and Seasonality of Reproduction. Fish. Bull. 85(2) 
+LENMAT    @ . 
+LENMATM   @ 28.83 cm fork length 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ 4 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @  Ralston, D. Perason and J. Reynolds. Status of the Chilipepper rockfish stock in 1998. Pacific Fishy Management Council.  
+LINFIN    @ . 
+k         @ .
+to        @ . 
+LINFINM   @ . 
+kM        @ 0.20 
+toM       @ . 
+LINFINF   @ . 
+kF        @ 0.280 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

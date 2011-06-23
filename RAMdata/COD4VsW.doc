@@ -1,0 +1,59 @@
+ID        @ COD4VsW
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4VsW
+SOURCE    @ Fanning, L. P., and W. J. MacEachern. 1991. Assessment of 4VsW cod in 1990. CAFSAC Res. Doc. 91/44: 42 p.; pers. comm. B. Mohn, Bedford Institute of Oceanography, Department of  Fisheries and Oceans, Dartmouth , NS.; Mohn, R., and W. J. MacEachern. 1994. Assessment of 4VsW cod in 1993. DFO Atlantic Fisheries Res. Doc. 94/(number not given): 39 p.
+COMMENTS  @ 6+ biomass used for SSB
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 44 00
+LONGITUDE @ -59 00
+MONTHSPA  @ . 
+NATMORT   @ 0.20 
+F01       @ 0.14 
+FMAX      @ 0.42
+FMED      @ 0.91
+KGPRECF0  @ 9.83
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6 
+AGEMATM   @ 6 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

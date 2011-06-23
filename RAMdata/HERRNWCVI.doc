@@ -1,0 +1,59 @@
+ID        @ HERRNWCVI
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ North West Coast Vancouver Island
+SOURCE    @ AGEMAT, NATMORT and KGPRECF0: Haist, V., and J. F. Schweigert. 1991. Stock assessment for British Columbia herring in 1991 and forcasts of the potential catch in 1992. PSARC Working Paper H91-1: 70 p.; Haist, V. Can. Man. Rep. Fish. Aquat. Sci. 2119.; Pers. Comm. with V. Haist.
+COMMENTS  @ SPA, estimates in (000 000)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 49 30
+LONGITUDE @ -126 45
+MONTHSPA  @ . 
+NATMORT   @ 0.712 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.16
+SPAWNLOC  @ Nearshore, Coastal bays 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Nearshore, shelf, pelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

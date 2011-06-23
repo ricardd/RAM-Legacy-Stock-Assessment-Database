@@ -1,0 +1,59 @@
+ID        @ RPORGYNC
+SP        @ Red porgy
+LATIN     @ Pagrus pagrus
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ Atlantic Ocean off North Carolina
+SOURCE    @ Vaughan, D.S., G.R. Huntsman, C.S. Manooch, III, F.C. Rohde, and G.F. Ulrich. 1992.  Bulletin of Marine Science, Vol. 50:1-20. Huntsman, G.R. D. S. Vaughan and J. Potts. 1994. Trends in population status of the red porgy ({\it Pagrus pagrus}) in the Atlantic ocean off North Carolina and South Carolina, USA, 1972-1992. Beaufort Lab. Southeast Fisheries Science Center, NMFS,  101 Pivers Island Rd, Beauford, NC, USA 2816-9722
+COMMENTS  @ .
+FAGE      @ 2-10
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes females
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ . 
+LATITUDE  @ 35 00
+LONGITUDE @ -75 00
+MONTHSPA  @ . 
+NATMORT   @ 0.28 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.5979445
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

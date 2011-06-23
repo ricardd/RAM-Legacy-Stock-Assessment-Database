@@ -1,0 +1,59 @@
+ID        @ PLAICIIIa
+SP        @ Plaice
+LATIN     @ Pleuronectes platessa
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ ICES IIIa
+SOURCE    @ Anon. 1993. Working Group on the Assessment of Demersial Stocks in the North Sea and Skagerrak. ICES Doc. C.M.1993/Assess: 5. updated 2002 
+COMMENTS  @ VPA, 1 year olds in actual numbers
+FAGE      @ 4-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ 10 00
+MONTHSPA  @ . 
+NATMORT   @ 0.10 
+F01       @ . 
+FMAX      @ 0.2 
+FMED      @ 0.87 
+KGPRECF0  @ 5.4 
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

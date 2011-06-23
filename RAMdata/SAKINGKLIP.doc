@@ -1,0 +1,59 @@
+ID        @ SAKINGKLIP
+SP        @ Kingklip
+LATIN     @ Genypterus capensis
+FAMILY    @ Ophidiidae
+CFAMILY   @ Cusk-eels
+ORDER     @ Ophidiiformes
+STOCK     @ South Africa 1.3-1.4
+SOURCE    @  Int. Commn. SE. Atl. Fish., Coll. Scient. Pap. 1983(Part 1): 81-90 p.
+COMMENTS  @ SPA, 2 year olds in (000 000), (M=0.3)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ NA
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ -20 00
+LONGITUDE @ 11 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

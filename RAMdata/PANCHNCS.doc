@@ -1,0 +1,59 @@
+ID        @ PANCHNCS
+SP        @ Peruvian anchoveta
+LATIN     @ Engraulis ringens
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Northern/Central Stock Peru
+SOURCE    @  Pauly, D., and I. Tsukayama. 1980. On the Seasonal Growth, Monthly Recruitment and Monthly Biomass of Peruvian Anchoveta ({\it Engraulis ringens}) From 1961 to 1979. FAO Fisheries Report 291(30):988-1004.; Tsukayama, I., and M. L. D. Palomares. 1987.; Pauly, D., and M. Soriano. 1987. 
+COMMENTS  @ Recruitment of 4 cm fish used
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes 
+UNITREC   @ Billions
+AGERECDAT @ 0.5 
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -9 00
+LONGITUDE @ -79 00
+MONTHSPA  @ 1-3 
+NATMORT   @ 1.2 
+F01       @ . 
+FMAX      @ 0.5 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Pelgic 
+SOURCEMAT @  Pauly, D., and I. Tsukayama. 1980. On the Seasonal Growth, Monthly Recruitment and Monthly Biomass of Peruvian Anchoveta ({\em Engraulis ringens}) From 1961 to 1979. FAO Fisheries Report 291(30):988-1004. 
+LENMAT    @ 11 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ 4 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @  Pauly, D., and I. Tsukayama. 1980. On the Seasonal Growth, Monthly Recruitment and Monthly Biomass of Peruvian Anchoveta ({\em Engraulis ringens}) From 1961 to 1979. FAO Fisheries Report 291(30):988-1004.
+LINFIN    @ 20.65
+k         @ 1.26 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @  Pauly, D., and I. Tsukayama. 1980. On the Seasonal Growth, Monthly Recruitment and Monthly Biomass of Peruvian Anchoveta ({\em Engraulis ringens}) From 1961 to 1979. FAO Fisheries Report 291(30):988-1004. 
+aLTWTPAR  @ 0.0065 
+bLTWTPAR  @ 3.00 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ ASALBUS1
+SP        @ Atlantic salmon
+LATIN     @ Salmo salar
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ River Bush, Northern Ireland
+SOURCE    @ Crozier, W.W. and G.J.A. Kennedy. 1995. The relationship between a summer fry (0+) abundance index, derived from semi-quantitative electrofishing, and egg deposition of Atlantic salmon, in the River Bush, Northern Ireland. Journal of Fish Biology 47:1055-1062.   Data tables provided by W.W. Crozier, Agriculture and Food Science Centre, Belfast. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count / electrofishing
+UNITSSB   @ Millions of eggs
+UNITREC   @ Index of fry
+AGERECDAT @ 0+
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 55 08
+LONGITUDE @ -6 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

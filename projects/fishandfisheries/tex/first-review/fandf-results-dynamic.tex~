@@ -146,3 +146,25 @@ REF:SQL:NUMASSESSFRIEDBELOWBMSYICES
 (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%) of which are below
 $B_{msy}$ and REF:SQL:NUMASSESSFRIEDBELOWFMSYICES are below
 $U_{msy}$.
+
+\subsection*{Stock status by taxonomic orders}
+
+Of the REF:SQL:NUMASSESSFRIEDforGadiformes stocks for Gadiformes, REF:SQL:belowBMSYANDABOVEUMSYforGadiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforGadiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforGadiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforGadiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforPerciformes stocks for Perciformes, REF:SQL:belowBMSYANDABOVEUMSYforPerciformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforPerciformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforPerciformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforPerciformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforPleuronectiformes stocks for Pleuronectiformes, REF:SQL:belowBMSYANDABOVEUMSYforPleuronectiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforPleuronectiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforPleuronectiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforPleuronectiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforScorpaeniformes stocks for Scorpaeniformes, REF:SQL:belowBMSYANDABOVEUMSYforScorpaeniformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforScorpaeniformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforScorpaeniformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforScorpaeniformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforClupeiformes stocks for Clupeiformes, REF:SQL:belowBMSYANDABOVEUMSYforClupeiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforClupeiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforClupeiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforClupeiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforDecapoda stocks for Decapoda, REF:SQL:belowBMSYANDABOVEUMSYforDecapoda are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforDecapoda are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforDecapoda are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforDecapoda are below $B_{msy}$ and below $U_{msy}$.
+
+
+\subsection*{Stock status by Mean Trophic Level}
+Of the REF:SQL:NUMASSESSFRIEDfor2MTL3 stocks of MTL between 2 and 3 , REF:SQL:belowBMSYANDABOVEUMSYfor2MTL3 are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYfor2MTL3 are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYfor2MTL3 are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYfor2MTL3 are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDfor3MTL4 stocks of MTL between 3 and 4 , REF:SQL:belowBMSYANDABOVEUMSYfor3MTL4 are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYfor3MTL4 are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYfor3MTL4 are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYfor3MTL4 are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforMTL4plus stocks of MTL above 4 , REF:SQL:belowBMSYANDABOVEUMSYforMTL4plus are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforMTL4plus are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforMTL4plus are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforMTL4plus are below $B_{msy}$ and below $U_{msy}$.

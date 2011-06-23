@@ -1,0 +1,59 @@
+ID        @ SHAKEMAB
+SP        @ Silver hake
+LATIN     @ Merluccius bilinearis
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Mid Atlantic Bight
+SOURCE    @ Almeida. 1987. Woods Hole Ref. Doc. 87-03.; Anon. 1990. Report of the Eleventh NEFC Stock Assessment Workshop, Fall 1990. NEFC Ref. Doc. 90-09.
+COMMENTS  @ SPA, 1 year olds in (000 000's),F is unweighted average
+FAGE      @ 3+
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 0.91 
+LHATCH    @ 3 
+LMETA     @ 20 
+DELTAL    @ 17 
+DELTAN    @ 18.7 
+LATITUDE  @ 38 00
+LONGITUDE @ -73 00
+MONTHSPA  @ . 
+NATMORT   @ .40 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.45
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

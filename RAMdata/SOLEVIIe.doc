@@ -1,0 +1,59 @@
+ID        @ SOLEVIIe
+SP        @ Sole
+LATIN     @ Solea vulgaris
+FAMILY    @ Soleidae
+CFAMILY   @ Soles
+ORDER     @ Pleuronectiformes
+STOCK     @ ICES VIIe
+SOURCE    @ Anon. 1993. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. ICES Doc. C.M. 1993/Assess: 3., updated 2001
+COMMENTS  @ VPA, 1 year olds in (000's)
+FAGE      @ 3-7
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.15 
+LHATCH    @ 3.1 
+LMETA     @ 10 
+DELTAL    @ 6.9 
+DELTAN    @ 6 
+LATITUDE  @ 49 30
+LONGITUDE @ -3 00
+MONTHSPA  @ 3-5 
+NATMORT   @ 0.10 
+F01       @ 0.13 
+FMAX      @ 0.29 
+FMED      @ 0.24 
+KGPRECF0  @ 2.81
+SPAWNLOC  @ Offshore banks and shallow inshore waters 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ ALEWDAMR
+SP        @ Anadromous alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Damariscotta River
+SOURCE    @ Crecco, V.A., and M. Gibson. 1990. Stock assessment of river herring from selected Atlantic coast rivers. Special Report No. 19 of the Atlantic States Marine Fisheries Commission.  
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Thousands of lbs.
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 03
+LONGITUDE @ -69 31
+MONTHSPA  @ . 
+NATMORT   @ 1.0
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .33
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

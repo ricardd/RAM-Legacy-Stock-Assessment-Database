@@ -1,0 +1,59 @@
+ID        @ MEG8c9a
+SP        @ Megrim
+LATIN     @ Lepidorhombus whiffiagonis
+FAMILY    @ Scophthalmidae
+CFAMILY   @ Left-eyed flatfishes
+ORDER     @ Pleuronectiformes
+STOCK     @ ICES VIIIc and IXa
+SOURCE    @ Anon. 2002. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. ICES Doc. C.M. 2002/ACFM 05 
+COMMENTS  @ .
+FAGE      @ 2-4
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0 
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ -10 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2
+F01       @ 0.1019 
+FMAX      @ 0.23 
+FMED      @ 0.43 
+KGPRECF0  @ 0.78 
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1.5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

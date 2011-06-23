@@ -1,0 +1,59 @@
+ID        @ LWHFSHTB
+SP        @ Lake Whitefish
+LATIN     @ Coregonus clupeaformis
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Thunder Bay, Lake Superior
+SOURCE    @ Petzold, M. 1995.  An historical analysis of the Lake Whitefish fisheries of Thunder Bay (Zone 1) and Whitefish Bay (Zone 34), Lake Superior.  Ontario Min. of Nat. Res. unpubl. manuscript.
+COMMENTS  @ This is Zone 1 in Lake Superior, F is Fmax(Age at Fmax varies)
+FAGE      @ 6-12
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 5 
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 48 30
+LONGITUDE @ -89 00
+MONTHSPA  @ . 
+NATMORT   @ 0.3 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

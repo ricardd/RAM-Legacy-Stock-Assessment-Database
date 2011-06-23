@@ -1,0 +1,59 @@
+ID        @ STRIPEDBASSCHOPTANK
+SP        @ Striped bass
+LATIN     @ Morone saxatilis
+FAMILY    @ Moronidae
+CFAMILY   @ Temperate basses
+ORDER     @ Perciformes
+STOCK     @ Choptank River, Chesapeake Bay
+SOURCE    @ Maryland DNR, compiled by Karin Limburg, see also transactions of American Fisheries Society 119:757-778.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Research beach seine
+UNITSSB   @ .
+UNITREC   @ Catch per haul
+AGERECDAT @ 0.3
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 38 38
+LONGITUDE @ -76 11
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Freshwater 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ .
+toM       @ . 
+LINFINF   @ .
+kF        @ .  
+toF       @ .  
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

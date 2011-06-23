@@ -1,0 +1,59 @@
+ID        @ SOCKSMIN
+SP        @ Sockeye salmon
+LATIN     @ Oncorhynchus nerka
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Smith Inlet, B.C.
+SOURCE    @ Stock Status and 1996 forecast of Smith Inlet Sockeye SAlmon, D.T. Rutherford and C.C. Wood, PSARC Working Paper S95-8, Draft Version.
+COMMENTS  @ Data from table 1 and 2.  Recruitment found using findrec program in /mstorage/bridson/s
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Thousands of fish
+UNITREC   @ Thousands of fish
+AGERECDAT @ .
+UNITLAND  @ Thousands of fish 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 51 19
+LONGITUDE @ -127 25
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

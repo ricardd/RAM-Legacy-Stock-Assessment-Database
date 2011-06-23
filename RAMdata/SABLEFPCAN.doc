@@ -1,0 +1,59 @@
+ID        @ SABLEFPCAN
+SP        @ Sablefish
+LATIN     @ Anoplopoma fimbria
+FAMILY    @ Anoplopomatidae
+CFAMILY   @ Sablefishes
+ORDER     @ Scorpaeniformes
+STOCK     @ W. Canada
+SOURCE    @ Saunders, M. W., and G. A. McFarlane. 1990. {\it In} Canadian Technical Report of Fisheries and Aquatic Science. No 1732.; Saunders, M. W., and G. A. McFarlane. 1990. {\it In} Canadian Technical Report of Fisheries and Aquatic Science. No 1778.
+COMMENTS  @ F is the mean
+FAGE      @ 5-35
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Thousands
+AGERECDAT @ 5
+UNITLAND  @ Tonnes
+EGGDIAM   @ 2.05-2.10 
+LHATCH    @ 6 SL 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 51 30
+LONGITUDE @ -130 00
+MONTHSPA  @ 1-2 
+NATMORT   @ 0.1
+F01       @ 0.205 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Slope 
+EGGTYPE   @ Oviparous 
+FEEDTYPE  @ Epi-, meso-, and bathybenthal, 0-2740m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ 58-62cm 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108. 
+LINFIN    @ 74  
+k         @ 0.27 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

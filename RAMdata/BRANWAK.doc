@@ -1,0 +1,59 @@
+ID        @ BRANWAK
+SP        @ Branquillo
+LATIN     @ Branchiostegus japonicus
+FAMILY    @ Branchiostegidae
+CFAMILY   @ Tilefishes
+ORDER     @ Perciformes
+STOCK     @ Wakasa Bay
+SOURCE    @ T. Kitahara 1974. On the Sweeping Trammel Net Fishery along the Coast in the San'in District - Yearly Variation in the Population Size of Branquillos in Wakasa Bay.  Bulletin of the Japanese Society of Scientific fisheries. 40(2): 141-152.
+COMMENTS  @ SR
+FAGE      @ .
+METHOD    @ Leslie
+UNITSSB   @ Index of Eggs
+UNITREC   @ Index
+AGERECDAT @ 2
+UNITLAND  @ Tons
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 35 20
+LONGITUDE @ 135 30
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

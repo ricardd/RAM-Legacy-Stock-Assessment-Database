@@ -1,0 +1,59 @@
+ID        @ RSOLEBC
+SP        @ Rock sole
+LATIN     @ Lepidopsetta bilineata
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye Flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Hecate Strait, B.C.
+SOURCE    @ Can. Spec. Publ. Fish. Aquat. Sci. 108.
+COMMENTS  @ SPA, Data on Rock Sole in Northern Hecate Strait, B.C.
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ CPUE Index
+UNITREC   @ CPUE Index
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.15 
+LHATCH    @ 3.1 
+LMETA     @ 10 
+DELTAL    @ 6.9 
+DELTAN    @ 6 
+LATITUDE  @ 52 00
+LONGITUDE @ -130 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

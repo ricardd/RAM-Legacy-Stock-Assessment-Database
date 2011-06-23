@@ -1,0 +1,59 @@
+ID        @ WHAKE4T
+SP        @ White hake
+LATIN     @ Urophycis tenuis
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4T 
+SOURCE    @ Clay, D. 1987. Assessment of Gulf white hake from NAFO division 4T in 1987. CAFSAC Res. Doc. 87/81.; Clay, D., and T. Hurlbut. 1990. White hake ({\it Urophycis tenuis}) from the southern Gulf of St. Lawrence: a review of the fishery in 1989. CAFSAC Res. Doc. 90/74.; Anon. 1090. Advice on the management of groundfish stocks. CAFSAC Adv. Doc. 90/5.
+COMMENTS  @ SPA, 3 year olds in (000's) 
+FAGE      @ 7+
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 47 00
+LONGITUDE @ -63 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

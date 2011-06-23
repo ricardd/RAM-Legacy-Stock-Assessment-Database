@@ -1,0 +1,59 @@
+ID        @ PINKUTK2
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Utka River, Kamchatka
+SOURCE    @ Gorshkov, S.A., G.V. Gorshkova, and M.V. Dobrynina 1989. Comparative Assessment of the Main Ractors Limiting the Population Strength of Pink Salmon. J. Ichthyology 29:80-90, Table 3 
+COMMENTS  @ Refer to files PINKUTK1 for spawn to fry and PINKUTK3 for return to spawn
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Millions of Fry
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 53 10
+LONGITUDE @ 156 04
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

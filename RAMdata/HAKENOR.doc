@@ -1,0 +1,59 @@
+ID        @ HAKENOR
+SP        @ Hake
+LATIN     @ Merluccius merluccius
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VIIIa,b, d, VIIb-k
+SOURCE    @  Anon. 2000. Report of the Working Group on the Assessment of Southern Shelf Demersal Stocks. ICES Doc. C.M. 2000/ACFM:4., updated 2001
+COMMENTS  @ .
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0 
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 54 00
+LONGITUDE @ -12 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.11
+FMAX      @ 0.16
+FMED      @ 0.25 
+KGPRECF0  @ 3.998
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ MACKNEICES  
+SP        @ Mackerel
+LATIN     @ Scomber scombrus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ North East ICES 
+SOURCE    @ Anon. 2002. Report of the Mackerel, Horse Mackerel, Sardine, and Anchovey Working Group. ICES Doc. C.M. 2002/ACFM  
+COMMENTS  @ VPA
+FAGE      @ 4-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.2 
+LHATCH    @ 3.5 
+LMETA     @ 30 
+DELTAL    @ 26.5 
+DELTAN    @ 22.1 
+LATITUDE  @ 55 00
+LONGITUDE @ -10 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15 
+F01       @ 0.186
+FMAX      @ 0.7119 
+FMED      @ 0.3545
+KGPRECF0  @ 1.9481
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ Pelagic 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ .
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

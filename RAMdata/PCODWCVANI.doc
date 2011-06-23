@@ -1,0 +1,59 @@
+ID        @ PCODWCVANI
+SP        @ Pacific cod
+LATIN     @ Gadus macrocephalus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ West Vancouver Island
+SOURCE    @ Foucher, R. P., and A. V. Tyler. 1991. {\it In} Canadian Technical Report of Fisheries and Aquatic Sciences. No. 1778.
+COMMENTS  @ VPA age classes 2-7 year olds in (000's)
+FAGE      @ 2-7
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes 
+EGGDIAM   @ 1.0-1.2 
+LHATCH    @ 3.0-4.0 
+LMETA     @ 25 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 49 15
+LONGITUDE @ -127 00
+MONTHSPA  @ 1-7 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf-slope 
+EGGTYPE   @ Oviparous, demersal, adhesive 
+FEEDTYPE  @ Epi-, meso-, and bathybenthal 
+SOURCEMAT @ . 
+LENMAT    @ 48-49 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 108 
+k         @ 0.20 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,58 @@
+ID        @ REDDEEPGREEN
+SP        @ Deepwater redfish
+LATIN     @ Sebastes mentella
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ West Greenland 
+SOURCE    @ Stransky, C. 2001. Assessment of Demersal Redfish in NAFO Subarea 1 Serial No. N4385 NAFO SCR Doc. 01/17
+COMMENTS  @ . 
+FAGE      @ . 
+METHOD    @ RV
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 5 
+UNITLAND  @ .
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 40
+LONGITUDE @ -43 40
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ OvoviviParous 
+FEEDTYPE  @ Pelagic, bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

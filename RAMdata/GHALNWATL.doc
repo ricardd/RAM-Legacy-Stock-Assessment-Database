@@ -1,0 +1,59 @@
+ID        @ GHALNWATL
+SP        @ Greenland halibut
+LATIN     @ Reinhardtius hippoglossoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Northwest Atlantic
+SOURCE    @ Serebryakov, V. P., and A. K. Chumakov. 1992. Spawning stock, population fecundity and year-class strength of Greenland halibut ({\it Reinhardtius hippoglossoides}) in the Northwest Atlantic, 1969-88. J. Northw. Atl. Fish. Sci. 14: 107-113.
+COMMENTS  @ Mean weight at age data used to calculate KGPRECF0 taken from NAFO SCR Doc. 90/52.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 5
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 65 00
+LONGITUDE @ -55 00
+MONTHSPA  @ . 
+NATMORT   @ 0.1
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 23.319
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 14
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

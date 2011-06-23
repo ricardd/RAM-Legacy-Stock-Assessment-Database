@@ -1,0 +1,59 @@
+ID        @ YFINEPAC
+SP        @ Yellowfin tuna
+LATIN     @ Thunnus albacares
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ Eastern Pacific Ocean
+SOURCE    @ Anon. 1993. Annual Report of the Inter-American Tropical Tuna Commission. 1992.
+COMMENTS  @ SSB is for large fish. natural mortality increases with age in the assessment.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousands of tons
+UNITREC   @ Thousands of fish
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 10 00
+LONGITUDE @ -110 00
+MONTHSPA  @ . 
+NATMORT   @ 0.8
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 8.5
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

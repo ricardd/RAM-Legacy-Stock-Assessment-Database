@@ -1,0 +1,59 @@
+ID        @ PERCHGA
+SP        @ Pacific ocean perch
+LATIN     @ Sebastes alutus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ Gulf of Alaska
+SOURCE    @ Heifetz, J., J.N. Ianelli,  and D.M. Clausen. 1995. Slope rockfish. In: Stock assessment and fishery evaluation report for the 1996 Gulf of Alaska groundfish, Appendix IV. North Pacific Fishery Management Council, P.O. Box 103136, Anchorage, AK 99510.  
+COMMENTS  @ . 
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes of Females
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 58 00
+LONGITUDE @ -145 00
+MONTHSPA  @ . 
+NATMORT   @ 0.05 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 3.49867
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 2 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

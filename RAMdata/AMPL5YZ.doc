@@ -1,0 +1,59 @@
+ID        @ AMPL5YZ
+SP        @ American plaice
+LATIN     @ Hippoglossoides platessoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ NAFO 5YZ
+SOURCE    @ Anon. 1992. Report of the Fourteenth Northeast Regional Stock Assessment Workshop (14{\it th} SAW). Northeast Fisheries Science Center Reference Document 92-07.
+COMMENTS  @ SPA, 6 year olds in (000's)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ 2.15 
+LHATCH    @ 5 
+LMETA     @ 25 
+DELTAL    @ 20 
+DELTAN    @ 9.3 
+LATITUDE  @ 41 10
+LONGITUDE @ -68 40
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ 0.17 
+FMAX      @ 0.28 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ O'Brien et al. 1992. Maturation of nineteen species of finfish off the northeast coast of the United States, 1985-1990. 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

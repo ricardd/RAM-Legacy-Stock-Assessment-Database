@@ -1,0 +1,59 @@
+ID        @ HADNS2
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North Sea
+SOURCE    @ Pope, J.G. and C. T. Macer. 1996. An evaluation of the stock structure of North Sea cod, haddock, and whiting since 1920, together with a consideration of the impacts of fisheries and predation effects on their biomass and recruitment. ICES J. of Mar. Sci. 53: 1157-1169.
+COMMENTS  @ VPA, 0 year olds in (000's)
+FAGE      @ .
+METHOD    @ SPA and CPUE
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ .
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 55 00
+LONGITUDE @ 4 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.20 
+F01       @ 0.21 
+FMAX      @ 0.26 
+FMED      @ 0.63 
+KGPRECF0  @ 0.070
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal, 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

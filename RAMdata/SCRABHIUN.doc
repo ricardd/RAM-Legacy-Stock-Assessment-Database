@@ -1,0 +1,59 @@
+ID        @ SCRABHIUN
+SP        @ Swimming crab
+LATIN     @ Portunus trituberculatus
+FAMILY    @ Lithodidae
+CFAMILY   @ Spiny crabs
+ORDER     @ Decapoda
+STOCK     @ Hiuchi Nada, Seto Island Sea
+SOURCE    @ Shiota, Kohji. 1993. Relationship between Annual Catch Fluctuations and Reproduction in the Swimming Crab in Hiuchi Nada, the Seto Inland Sea.  Nippon Suisan Gakkaishi 59(10), 1709-1715
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Tonnes 
+UNITREC   @ Tonnes
+AGERECDAT @ 5
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 20
+LONGITUDE @ 133 20
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

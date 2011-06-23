@@ -1,0 +1,59 @@
+ID        @ PHALCANUS
+SP        @ Pacific halibut
+LATIN     @ Hippoglossus stenolepis
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ North Pacific
+SOURCE    @ Anon. 1989. International Pacific Halibut Commission. Annual Report 1989.; Myhre, Gordon, Peltonen, Stpierre, Skud, and Walden. International Pacific halibut Commission. Technical Report No. 14.; Pers. Comm. with Pat Sullivan.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 8
+UNITLAND  @ Million pounds
+EGGDIAM   @ 3.0-3.5 
+LHATCH    @ 7.8-7.5 
+LMETA     @ 14.7-24.1 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 00
+LONGITUDE @ -135 00
+MONTHSPA  @ 11-1 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 62.13
+SPAWNLOC  @ Slope 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso- & bathybenthal 6-1110m 
+SOURCEMAT @ Matarese, A.C. et al. 1989. Labaratory Guide to early life history stages of Northeast Pacific Fish.  NOAA TECH. MEMO. 89:650 pp.  
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ 5-20 
+AGEMATF   @ 7-20 
+LENREC    @ . 
+AGEREC    @ 5-7 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 184 
+k         @ 0.14 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

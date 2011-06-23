@@ -1,0 +1,59 @@
+ID        @ CAPENORLAR
+SP        @ Capelin
+LATIN     @ Mallotus villosus
+FAMILY    @ Osmeridae
+CFAMILY   @ Smelts
+ORDER     @ Salmoniformes
+STOCK     @ Barents Sea
+SOURCE    @ Report of the Northern Pelagic Blue Whiting Fisheries Working Group. ICES Doc. C.M. 1997/Assess: 14.   
+COMMENTS  @ pp 95-101. Larval abundance estimate
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands of billions
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 71 00
+LONGITUDE @ 35 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.0063
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ BLOLMICH
+SP        @ Bloater
+LATIN     @ Coregonus hoyi
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Lake Michigan
+SOURCE    @ Brown, E. H. Jr., R. L. Argyle, N. R. Payne, and M. E. Holey. 1987. Yield and dynamics of destablized chub ({\it Coregonus} spp.) populations in Lake Michigan and Huron, 1950-84. Can. J. Fish. Aquat. Sci. 44(Suppl. 2): 371-383.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Millions of eggs
+UNITREC   @ Thousands of fish
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 1.95
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 00
+LONGITUDE @ -87 00
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

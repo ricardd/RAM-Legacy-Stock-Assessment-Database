@@ -1,0 +1,59 @@
+ID        @ PINKBC8 
+SP        @ Pink salmon 
+LATIN     @ Oncorhynchus gorbuscha 
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Lower Skeena, B.C. 
+SOURCE    @ Henderson, M.A. and A.T. Charles. 1984. Reconstruction of British Columbia pink salmon stocks ({\em Oncorhynchus gorbuscha\/}): 1970-1982. Part I: Queen Charlotte Islands, North Coast and Central Coast. Can. MS Rep. Fish. Aquat. Sci. 1785: page 52 
+COMMENTS  @ .
+FAGE      @ 2
+METHOD    @ SR
+UNITSSB   @ Fish
+UNITREC   @ Fish
+AGERECDAT @ 2
+UNITLAND  @ Fish
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 54 20
+LONGITUDE @ -129 25
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ 1
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 2
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

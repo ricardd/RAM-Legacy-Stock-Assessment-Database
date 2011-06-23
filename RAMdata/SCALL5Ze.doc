@@ -1,0 +1,59 @@
+ID        @ SCALL5Ze
+SP        @ Sea scallop
+LATIN     @ Placopecten magellanicus
+FAMILY    @ Pectinidae
+CFAMILY   @ Scallops
+ORDER     @ Prionodesmacea
+STOCK     @ NAFO 5Ze
+SOURCE    @ Mohn, R. K., G. Robert, and D. L. Roddick. 1987. Georges Bank scallop stock assessment. CAFSAC Res. Doc. 87/9: 23 p.
+COMMENTS  @ SPA, 3 year olds in (000 000's)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 40 40
+LONGITUDE @ -67 50
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

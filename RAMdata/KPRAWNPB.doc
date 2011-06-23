@@ -1,0 +1,59 @@
+ID        @ KPRAWNPB
+SP        @ Korai prawn
+LATIN     @ Penaeus orientalis
+FAMILY    @ Penaeidea
+CFAMILY   @ Penaeid shrimp
+ORDER     @ Decapoda
+STOCK     @ Po-hai Bay
+SOURCE    @ Shojima, E. and H. Otaki. 1982.  Stock Assessment of the Korai Prawn, {\em Penaeus orientalis}. Bulletin of the Seikai Regional Fisheries Research Laboratory.  58:23-51
+COMMENTS  @ winters in Yellow sea.  All data is for females.  Natural Mortality is on  a monthly basis
+FAGE      @ .5-1
+METHOD    @ SPA
+UNITSSB   @ Tens of Thousands
+UNITREC   @ Tens of Thousands
+AGERECDAT @ .5
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 39 00
+LONGITUDE @ 124 00
+MONTHSPA  @ . 
+NATMORT   @ 3.456
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

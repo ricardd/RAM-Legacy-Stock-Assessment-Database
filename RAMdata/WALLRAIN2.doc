@@ -1,0 +1,59 @@
+ID        @ WALLRAIN2
+SP        @ Walleye
+LATIN     @ Stizostedion vitreum
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Rainy Lake, Minnesota
+SOURCE    @ Chevalier, J.R., 1977.  Changes in walleye ({\em Stizostedion vitreum vitrem}) poopulation in Rainy Lake and factors in abundance, 1924-1975.  J. Fish. Res. Board Can. 34:1696-1702.
+COMMENTS  @ Recruitment and Stock read from fig 7.
+FAGE      @ .
+METHOD    @ CPUE 
+UNITSSB   @ index
+UNITREC   @ index
+AGERECDAT @ 5
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 48 42
+LONGITUDE @ -93 10
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

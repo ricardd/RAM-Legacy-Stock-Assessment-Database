@@ -1,0 +1,59 @@
+ID        @ ANCHOYELLOW
+SP        @ Japanese anchovy
+LATIN     @ Engraulisi japonicus 
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Yellow Sea 
+SOURCE    @ ZHAO,  J. HAMRE, F. LI, X. JIN AND Q. TANG, 2003, Recruitment, sustainable yield and possible ecological consequences of the sharp decline of the anchovy (Engraulis japonicus) stock in the Yellow Sea in the 1990s Fish. Oceanogr. 12: 495-501 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Acoustic survey 
+UNITSSB   @ Million tonnes
+UNITREC   @ Billions 
+AGERECDAT @ 1
+UNITLAND  @ Million tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 36 00
+LONGITUDE @ -124 00
+MONTHSPA  @ 4-7
+NATMORT   @ 0.685
+F01       @ .
+FMAX      @ 0.5 
+FMED      @ .
+KGPRECF0  @ 0.0191 
+SPAWNLOC  @ Continental shelf, coastal
+EGGTYPE   @ Oviparous, pelagic
+FEEDTYPE  @ Epi- & mesopelagic 0- 300m
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 1
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

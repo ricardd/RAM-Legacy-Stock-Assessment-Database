@@ -1,0 +1,280 @@
+Stock-Recruitment (S-R) Database
+================================
+
+For more information, contact
+
+  Ransom.Myers@Dal.Ca
+
+
+SCCS Control
+============
+
+The files in this directory have been put under SCCS control.
+
+Identification Codes (IDs)
+==========================
+
+Associated with each stock in the database is a standard alphanumeric ID.
+For example, the ID for American Plaice in NAFO divisions 3LNO is AMPL3LNO.
+ 
+
+Naming Conventions for Stock ID's
+=================================
+
+The ID's used to represent the datasets were chosen as systematically
+as possible.  Choosing ID's involves a trade-off between information
+and length, i.e. we would like short but meaningful ID's.
+The convention used in forming ID's is
+
+       <Species Abbreviation><Region Abbreviation>
+
+For example, the ID for the Iceland Capelin dataset is represented
+by joining CAPE (short for Capelin) and ICE (short for iceland), giving
+
+       CAPEICE
+
+Unfortunately, various inconsistencies do exist, mostly due to: 
+
+   - confusion regarding similar species, 
+   - recent taxonomic changes, and
+   - revised ID's.
+ 
+The following is a list, in alphabetical order, of the species abbreviations
+currently in use, give or take a few.  Some of these are not ideal (for
+example, some are too long!) and should eventually be revised. 
+Some are marked with question marks and/or asterisks to indicate
+inconsistent usage or confusion.
+  
+  ASAL       : Atlantic salmon
+  ALEW       : Alewife
+  AMPL       : American plaice
+  ANCHO      : Anchovy
+  ARGEN      : Atlantic argentine
+  AYU        : Ayu 
+  BLO        : Bloater
+  BOCA       : Bocaccio
+  BREAM      : Bream
+  BTRO       : Brook trout
+  BUTTER     : Butterfish
+  BWHIT      : Blue whiting
+  CAPE       : Capelin
+  CHNK       : Chinook salmon
+  CHUB       : Chub
+  CHUM       : Chum salmon
+  CMACK      : Chub mackerel
+  COD        : Cod
+  COHO       : Coho salmon
+  DACE       : Dace
+  DSOLE      : Dover sole
+  EPERCH     : Eurasian perch
+  ESOLE      : English sole
+  GHAL       : Greenland halibut 
+  GMULT      : Grey mullet
+  GSHI       : Golden shiner
+  GUDG       : Gudgeon
+  HAD        : Haddock
+  HAKE       : Hake
+  HERR       : Herring
+  LIZ        : Lizardfish
+  MACK       : Mackerel
+  MEG        : Megrim
+  MEN        : Menhaden
+  MONK       : Monkfish
+  NPOUT      : Norway pout
+  PAHEAD     : Pacific armourhead
+  PANCH      : Peruvian anchovy / anchoveta ?
+  PCOD       : Pacific cod  
+  PPERCH     : Pikeperch
+  PERCH      : Pacific ocean perch
+  PHAKE      : Pacific hake
+  PHAL       : Pacific halibut
+  PIKE       : Pike
+  PINK       : Pink salmon
+  PLAIC      : Plaice
+  PMACK      : Pacific mackerel       
+  POLL       : Pollock or saithe
+  PSOL       : Petrale sole
+  RED        : Redfish
+  RHAKE      : Red hake
+  RKCRAB     : Red King Crab
+  ROAC       : Roach
+  RSOLE      : Rock sole
+  SAANCH     : S.A. Anchovy 
+  SABLE      : Sablefish
+  SAHAKE     : South african hake
+  SAHERR     : Round herring ??
+  SAKINGKLIP : Kingklip ************?
+  SAPILCH    : Southern african pilchard
+  SARD       : Sardine
+  SAUG       : Sauger
+  SBREAM     : Yellow sea bream 
+  SCALL      : Sea scallop
+  SDOG       : Spiny dogfish
+  SEEL       : Sandeel
+  SFLOUND    : Summer flounder
+  SHAKE      : Silver hake
+  SNAPPCB    : Caribbean red snapper
+  SNAPPS     : Silk snapper
+  SOCK       : Sockeye salmon
+  SOLE       : Sole
+  SPRAT      : Sprat
+  STRO       : Steelhead trout
+  TIGP       : Tiger prawn
+  TREVALLY   : False trevally
+  WHAKE      : White hake
+  WHIT       : Whiting
+  WHFSH      : Whitefish
+  WPOLL      : Walleye pollock
+  WROCK      : Widow rockfish
+  YELL       : Yellowtail flounder
+  YPER       : Yellow perch 
+  YROCK      : Yellowtail rockfish
+  YSOLE      : Yellowfin sole
+  
+
+Storage of Information for Each Stock
+=====================================
+
+A stock (say it has ID STOCKID) is represented by two files:
+
+         STOCKID.doc      and       STOCKID.dat
+
+The .doc file contains fields of information describing the stock, etc.
+The .dat file contains time series for the stock (including, among other
+things, spawning stock and recruitment).
+
+SPECIAL NOTE FOR DOS MACHINES: DOS filenames are limited to 8 characters
+for the main part of the filename optionally followed by a dot (.) and 
+a 3 character extension.  Most of the ID's (and hence the filenames) in
+this database fall within this limitation, however several do not.
+This may prove somewhat confusing because in converting the filenames for
+use on DOS machines, long filenames are truncated.  However the ID
+field in the .doc file (see below) will be correct.
+
+Format of .doc Files
+====================
+
+The fields used are the following:
+ 
+ID        : Alphanumeric identifier for this stock
+SP        : Common species name 
+LATIN     : Scientific name for species 
+            Note: there should be a one-to-one relationship between SP
+            and LATIN.
+FAMILY    : Family (latin)
+CFAMILY   : Common family name
+            Note: there should be a one-to-one relationship between FAMILY
+            and CFAMILY.
+ORDER     : Order
+STOCK     : Stock descriptor 
+SOURCE    : Source of data
+COMMENTS  : Comments
+FAGE      : Ages used to compute the Fishing mortality.
+METHOD    : Method of estimating recruitment and stock (e.g. VPA, RV, cpue).
+UNITSSB   : Units of spawning stock biomass data
+UNITREC   : Units of recruitment data
+AGERECDAT : Age of recruitment
+UNITLAND  : Units of landings data
+EGGDIAM   : Diameter of eggs
+LHATCH    : Length at hatch
+LMETA     : Length at metamorphosis
+DELTAL    : Change in length during larval phase
+DELTAN    : Change in length during larval phase relative to egg diameter
+LATITUDE  : Latitude of spawning expressed as two numbers separated by a space.
+            The first number is degrees (positive means North, negative means
+            South).  The second number is minutes.
+LONGITUDE : Longitude of spawning expressed as two numbers separated by a space.
+            The first number is degrees (positive means East, negative means
+            West).  The second number is minutes.
+MONTHSPA  : Month spawning
+NATMORT   : Natural mortality
+F01       : Fishing mortality corresponding to the point at which the 
+            marginal yield per recruit from an additional unit of effort 
+            is 0.1 the marginal yield per recruit at very low levels of
+            fishing (and hence a point beyond which there is little reward
+            in increasing fishing).
+FMAX      : Fishing mortality corresponding to maximum yield per recruit.
+FMED      : Fishing mortality corresponding to median yield per recruit.
+KGPRECF0  : "Kilograms per recruit when fishing mortality = 0."
+            This is something of a misnomer.  In fact it is specifies
+            spawners (in either kg or numbers, depending on whether
+            the UNITSSB field specifies weight or numbers) per 
+            recruit (generally in numbers but possibly in kg, depending on
+            whether the UNITREC field specifies numbers or weight).       
+SPAWNLOC  : Spawning location (e.g. shelf, slope, estuary)
+SOURCEMAT : Source of maturity data.
+LENMAT    : Length at maturity (males and females combined).
+LENMATM   : Length at maturity for males.
+LENMATF   : Length at maturity for females.
+AGEMAT    : Age at maturity (males and females combined).
+AGEMATM   : Age at maturity for males.
+AGEMATF   : Age at maturity for females.
+LENREC    : Length at recruitment. 
+AGEREC    : Age at recruitment (males and females combined).
+AGERECM   : Age at recruitment for males.
+AGERECF   : Age at recruitment for females.
+SOURCEGRO : Source of growth data.
+LINFIN    : L_infinity parameter in the von Bertalanffy equation
+            (males & females combined).
+k         : k parameter in the von Bertalanffy equation
+            (males & females combined).
+to        : to parameter in the von Bertalanffy equation
+            (males & females combined).
+LINFINM   : L_infinity parameter for males.
+kM        : k parameter for males.
+toM       : to parameter for males.
+LINFINF   : L_infinity parameter for females.
+kF        : k parameter for females.
+toF       : to parameter for females.
+SOURCEab  : Source of a,b data. 
+aLTWTPAR  : a, length wt. parameter (males & females combined).
+bLTWTPAR  : b, length wt. parameter (males & females combined).
+aLTWTPARM : a, length wt. parameter for males.
+bLTWTPARM : b, length wt. parameter for males.
+aLTWTPARF : a, length wt. parameter for females.
+bLTWTPARF : b, length wt. parameter for females.
+
+
+Each line of the file consists of the name of a field (as above) followed
+by a separator character (@) and then the contents of the field. 
+The fields are always listed in the standard order (as above).
+A dot (.) denotes a missing value.  Some of the fields listed are not
+currently in use.
+
+
+A Note on Common and Scientific Names
+-------------------------------------
+
+As noted above, there should be a one-to-one relationship between
+
+         SP and LATIN
+
+and also between
+
+         FAMILY and CFAMILY.
+
+One reason scientific names exist is that common names often vary 
+from place to place.  We have arbitrarily adopted "standard" common names
+which should always correspond exactly (i.e. in a one-to-one way) with
+the scientific names.
+         
+
+Format of .dat Files
+====================
+ 
+Each file contains five columns of data:
+
+       YEARorYEARCLASS   SSB   REC   LAND   FRPL
+ 
+YEARorYEARCLASS refers to the year for SSB, LAND, and FRPL.  
+It refers to the yearclass for REC.
+All four digits are used (e.g. 1984 rather than 84).
+ 
+SSB is the spawning stock biomass in that year.
+REC is the recruitment for that yearclass.  
+LAND is the landings for that year.
+FRPL is the fishing mortality for that year.
+
+Note that a dot (.) denotes a missing value, as in the .doc files.
+
+

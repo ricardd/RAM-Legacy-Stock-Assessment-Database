@@ -1,0 +1,59 @@
+ID        @ COD4TVn
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4TVn
+SOURCE    @ Chouinard, G. A. and A. Frechet. 1994. Fluctuations in the cod stocks of the Gulf of St. Lawrence. ICES mar. Sci. Symp. 198:121-139;Sinclair, A. F., G. Chouinard, D. Swain, R. Hebert, G. Nielsen, M. Hanson, L. Currie and T. Hurlbutl  1994.  Assessment of the Fishery for Southern Gulf of St. Lawrence cod: May, 1994.  DFO Atlantic Fisheries Research Document 94/77,116 p.; Maguire, J. J. 1983. Assessment of cod in NAFO Division 4T and subdivision 4Vn (Jan.-Apr.) for 1983. CAFSAC Res. Doc. 83/51. 38 p.; Sinclair, A. et al. 1994. Assessment of the fishery for Southern Gulf of St.Lawrence Cod: May, 1994.
+COMMENTS  @ SSB is 5+ at beginning of the year
+FAGE      @ 7-14
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 1.4
+LHATCH    @ 3
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 47 30
+LONGITUDE @ -63 30
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.14 
+FMAX      @ .
+FMED      @ 0.24 
+KGPRECF0  @ 8.21
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ CAFSAC Res.Doc. 90/46 
+aLTWTPAR  @ 0.00812589 
+bLTWTPAR  @ 3.01788342 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

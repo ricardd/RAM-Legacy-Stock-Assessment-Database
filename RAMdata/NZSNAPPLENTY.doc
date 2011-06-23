@@ -1,0 +1,59 @@
+ID        @ NZSNAPPLENTY
+SP        @ New Zealand snapper
+LATIN     @ Pagrus auratus
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ Hauraki Gulf/Bay of Plenty 
+SOURCE    @ Annala, J.H. & Sullivan, K.J. (Comps) 1996: Report from the Fishery Assessment Plenary, April-May 1996: stock assessments and yield estimates. 308 p. (Unpublished report held in NIWA library, Wellington).  Enquiries to Mr D.J. Gilbert, NIWA, P.O. Box 14 901, Wellington, New Zealand. (Email: d.gilbert" at "niwa.cri.nz).
+COMMENTS  @ Recruitment was estimated from trawl survey indices and scaled by a mean recruitment estimated in a stock reduction analysis model; stock biomass = spawning stock biomass was estimated in the same model which was fitted to two tag recapture estimates. Total landings are the recorded commercial catch plus a guessed proportion not reported plus a guessed recreational catch. Estimates of the recreational catch exist for only two recent years. Fishing mortality corresponds to total landings.
+FAGE      @ 3-50
+METHOD    @ RV 
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 0.85 - 0.97
+LHATCH    @ 2
+LMETA     @ 10
+DELTAL    @ 8
+DELTAN    @ 8
+LATITUDE  @ -36 00
+LONGITUDE @ 175
+MONTHSPA  @ Oct - Feb
+NATMORT   @ 0.06
+F01       @ 0.057
+FMAX      @ 0.096
+FMED      @ .
+KGPRECF0  @ 26.574
+SPAWNLOC  @ .
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ 23 - 28 cm
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 4.5
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ 25 cm
+AGEREC    @ 4.5
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ Gilbert, D.J. & Sullivan, K.J. 1994. Snapper stock assessment for the 1992-93 fishing year. N.Z. Fisheries Assessment Research Document 94/3: 37 p.
+LINFIN    @ 58.8 cm
+k         @ 0.102
+t0        @ -1.11
+LINFINM   @ .
+kM        @ .
+t0M       @ .
+LINFINF   @ .
+kF        @ .
+t0F       @ .
+SOURCEab  @ Paul, L.J. 1976. A study on age growth and population structure of the snapper, Chrysophrys auratus in Hauraki Gulf. N.Z. Fish. Res. Bull. Min. Agric. Fish., N.Z. 13: 63p. Parameters given convert fork length in cm to to weight in g. 
+aLTWTPAR  @ 0.04467
+bLTWTPAR  @ 2.793
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

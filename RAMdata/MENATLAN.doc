@@ -1,0 +1,59 @@
+ID        @ MENATLAN
+SP        @ Atlantic Menhaden
+LATIN     @ Brevoortia tyrannus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ U.S. Atlantic
+SOURCE    @ Vaughan, D. S. 1990. Assessment of the status of the Atlantic menhaden stock with reference to internal waters processing.   NOAA Technical Report NMFS-SPEC 262.; updated by Pers. Comm. with Vaughan, D. S. 
+COMMENTS  @ SPA, 1 year olds in (000 000's), F is mean weighted by catch
+FAGE      @ 0-8
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes of females
+UNITREC   @ Billions
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.61 
+LHATCH    @ 3 
+LMETA     @ 30 
+DELTAL    @ 27 
+DELTAN    @ 16.8 
+LATITUDE  @ 35 00
+LONGITUDE @ -75 00
+MONTHSPA  @ . 
+NATMORT   @ 0.45 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.17
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

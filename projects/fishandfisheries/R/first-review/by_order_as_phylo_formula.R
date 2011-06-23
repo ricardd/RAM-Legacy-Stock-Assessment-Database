@@ -65,20 +65,20 @@ function (x, data) # = parent.frame(), ...)
         }
         t <- character(length(levels))
         for (l in 1:length(levels)) {
-            x <- f.rec(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)])
+            x <- f.rec(subtaxo[subtaxo[, u] == levels[l], ][1:(u - 1)]) 
             if (length(x) == 1){
               ## backref changed by Coilin Feb 2nd 2011
               x1<-gsubfn("[0-9]+", function(x){
                 paste(strapply(x, "[0-9]+")[[1]], ":", order.names.df$count[phy.names.df$number%in%x], sep="")
-                                   }, x, backref=0, perl=TRUE)
+                                   }, x, backref=0, perl=TRUE, engine="R")
               t[l] <- x1
                ##t[l] <- paste(x,":", 1, sep="")
             }else{
               ##count.elements<-order.names.df$count[phy.names.df$number%in%as.numeric(unlist(strapply(x, "[0-9]+", backref=1, perl=TRUE)))] ## ammended CM, Dec 23rd 2009, backref changed by Coilin Feb 2011              
               x1<-gsubfn("[0-9]+", function(x){
                 paste(strapply(x, "[0-9]+")[[1]], ":", order.names.df$count[phy.names.df$number%in%x], sep="")
-                                   }, x, backref=0, perl=TRUE)
-              total.count.x<-sum(as.numeric(unlist(strapply(unlist(strapply(x1,":[0-9]+", perl=TRUE)),"[0-9]+"))))
+                                   }, x, backref=0, perl=TRUE, engine="R")
+              total.count.x<-sum(as.numeric(unlist(strapply(unlist(strapply(x1,":[0-9]+", perl=TRUE, engine="R")),"[0-9]+"))))
               t[l] <- paste("(", paste(x1, collapse = ","),")",":",total.count.x, sep = "") ## ammended CM, Dec 6th 2009
               ##t[l] <- paste("(", paste(x1, collapse = ","),")", sep = "") ## ammended CM, Dec 6th 2009
               ##n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
@@ -90,7 +90,7 @@ function (x, data) # = parent.frame(), ...)
     string <- paste("(", paste(f.rec.2(taxo.data), collapse = ","), ")",":",sum(data$Family.length),";", sep = "")
      ## ammended CM, Dec 23rd 2009, feb 2011
     ##string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=1, perl=TRUE)
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE)
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE, engine="R")
     phy <- read.tree(text = string)
     phy$tip.label <- leaves.names[as.numeric(phy$tip.label)]
     ## CM 15/05/2010

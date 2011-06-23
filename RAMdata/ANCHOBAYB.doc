@@ -1,0 +1,59 @@
+ID        @ ANCHOBAYB
+SP        @ Anchovy
+LATIN     @ Engraulis encrasicolus
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Bay of Biscay
+SOURCE    @ Santiago, J., and A. Sanz. 1989. Egg production of the Bay of Biscay anchovy in 1987 and 1988, and spaning stock size estimates. ICES Doc. C.M. 1989/H: 25, Ref. L.; Uriarte, A., and A. Adtudillo. 1987. The anchovy in the Bay of Biscay : new data and analysis of the fishery 1974-1987. ICES Doc. C.M. 1987/H: 20.; Anon. 1991. Working Group on the Assessment of the Stocks of Sardine, Horse Mackerel, Anchovy. ICES Doc. C.M. 1991/Assess: 22.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SHOT method
+UNITSSB   @ Tonnes
+UNITREC   @ Actual numbers
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 30
+LONGITUDE @ -3 00
+MONTHSPA  @ 4-7 
+NATMORT   @ 0.8 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Continental shelf, coastal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi- & mesopelagic 0- 300m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

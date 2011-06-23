@@ -1,0 +1,59 @@
+ID        @ CODVIa
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VIa
+SOURCE    @ Anon. 2001. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 2001/Assess: 8.
+COMMENTS  @ VPA, 1 year olds in (000's), REC from 1990 to 1992 uses weighted ave. prediction.
+FAGE      @ 2-5
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 58 30
+LONGITUDE @ -6 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.16 
+FMAX      @ 0.27 
+FMED      @ 0.62 
+KGPRECF0  @ 24.5
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ WHFSHLCNS
+SP        @ Whitefish
+LATIN     @ Coregonus lavaretus
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Lake Constance, Europe
+SOURCE    @ Eckmann, R., U. Gaedke, and H. J. Wetzlar. 1988. Effects of climatic and density-dependent factors on year-class strength of {\it Coregonus lavaretus} in Lake Constance. Can. J. Fish. Aquat. Sci. 45: 1088-1093.
+COMMENTS  @ SSB is number of larvae
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Millions of larvae
+UNITREC   @ Thousands
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 47 35
+LONGITUDE @ 9 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

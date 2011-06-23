@@ -1,0 +1,59 @@
+ID        @ REDICE
+SP        @ Golden redfish
+LATIN     @ Sebastes marinus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ Iceland
+SOURCE    @ Marine Research Institute, Iceland, Mon Jun 20/1988 and August 1990. Hafranns\'{o}knastofnun Fj\"{o}lrit NR. 19.; Hafranns\'{o}knastofnun Fj\"{o}lrit NR. 21.
+COMMENTS  @ SPA, 11 year olds in actual numbers, F is the median, The landings also contain Sebastes mentella
+FAGE      @ 20-28
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Numbers
+AGERECDAT @ 11
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 63 00
+LONGITUDE @ -21 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ OvoviviParous 
+FEEDTYPE  @ Pelagic, bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

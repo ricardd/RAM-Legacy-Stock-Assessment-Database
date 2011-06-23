@@ -1,0 +1,59 @@
+ID        @ NZSNAPAREA8
+SP        @ New Zealand snapper
+LATIN     @ Pagrus auratus
+FAMILY    @ Sparidae
+CFAMILY   @ Porgies
+ORDER     @ Perciformes
+STOCK     @ New Zeeland, SNA 8
+SOURCE    @ Annala, J.H. & Sullivan, K.J. (Comps) 1996: Report from the Fishery Assessment Plenary, April-May 1996: stock assessments and yield estimates. 308 p. (Unpublished report held in NIWA library, Welington). Enquiries: N.M. Davies, NIWA,P.O. Box 1043, Whangarei, New Zealand. Email: n.davies"at"niwa.cri.nz
+COMMENTS  @ Recruitment was estimated from catch at age data fitted within a stock reduction analysis model; stock biomass = spawning stock biomass  was estimated within the same model which was also fitted to one tag-recapture  estimate and catch per unit effort data. Total landings are the recorded commercial catch plus a guessed recreational catch. Estimates of the recreational catch exist for only two recent years. Fishing mortality corresponds to the total landings.
+FAGE      @ 3-50
+METHOD    @ CPUE and mark-recapture
+UNITSSB   @ Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 0.85 - 0.97
+LHATCH    @ 2 
+LMETA     @ 10 
+DELTAL    @ 8 
+DELTAN    @ 8
+LATITUDE  @ -37 00
+LONGITUDE @ 173 30
+MONTHSPA  @ Oct - Feb
+NATMORT   @ 0.06
+F01       @ 0.058
+FMAX      @ 0.101
+FMED      @ .
+KGPRECF0  @ 50.956
+SPAWNLOC  @ .
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ 23 - 28 cm
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 4
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ 25 cm
+AGEREC    @ 3 - 5
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ Gilbert, D.J. & Sullivan, K.J. 1994. Snapper stock assessment for the 1992-93 fishing year. N.Z. Fisheries Assessment Research Document 94/3: 37 p.
+LINFIN    @ 66.7 cm
+k         @ 0.160
+t0        @ -0.11
+LINFINM   @ .
+kM        @ .
+t0M       @ .
+LINFINF   @ .
+kF        @ .
+t0F       @ .
+SOURCEab  @  Paul, L.J. 1976. A study on age growth and population structure of the snapper, Chrysophrys auratus in Hauraki Gulf. N.Z. Fish. Res. Bull. Min. Agric. Fish., N.Z. 13: 63 p. Parameters given convert fork length in cm to to weight in g. 
+aLTWTPAR  @ 0.04467
+bLTWTPAR  @ 2.793
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

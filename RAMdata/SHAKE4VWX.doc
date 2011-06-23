@@ -1,0 +1,59 @@
+ID        @ SHAKE4VWX
+SP        @ Silver hake
+LATIN     @ Merluccius bilinearis
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4VWX
+SOURCE    @ Fanning, L. P., D. E. Waldron, and C. Bourbonnais. 1987. Scotian shelf silver hake population size in 1986. NAFO SCR Doc. 87/56: 24 p.; Waldron, D. E., M. A. Showell, and Glen Harrison. 1991. Status of the Scotian shelf silver hake (whiting) population in 1990. NAFO SCR Doc. 91/42: 34 p.; NAFO SCR Doc. 92/50.
+COMMENTS  @ SPA, 1 year olds in (000's), Rec age is for 76 on
+FAGE      @ 2-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Thousands Tonnes
+EGGDIAM   @ .91 
+LHATCH    @ 3 
+LMETA     @ 20 
+DELTAL    @ 17 
+DELTAN    @ 18.7 
+LATITUDE  @ 44 10
+LONGITUDE @ -59 00
+MONTHSPA  @ . 
+NATMORT   @ 0.40 
+F01       @ 0.72 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.38
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

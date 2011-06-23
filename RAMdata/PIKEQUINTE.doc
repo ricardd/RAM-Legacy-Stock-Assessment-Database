@@ -1,0 +1,59 @@
+ID        @ PIKEQUINTE
+SP        @ Pike
+LATIN     @ Esox lucius
+FAMILY    @ Esocidae
+CFAMILY   @ Pikes
+ORDER     @ Salmoniformes
+STOCK     @ Bay of Quinte, Ontario
+SOURCE    @ Casselman, J., Age, growth and environmental requirements of pike.  Pike biology and exploitation.  John F. Craig.  Chapman & Hall.  London. pp 69-101
+COMMENTS  @ from Fig. 4.8, exp transform used
+FAGE      @ .
+METHOD    @ Research gillnets
+UNITSSB   @ .
+UNITREC   @ index
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 
+LONGITUDE @ 
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ . 
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

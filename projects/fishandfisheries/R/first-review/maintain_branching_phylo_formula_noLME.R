@@ -44,7 +44,8 @@ function (x, data1,data2, ...)
               t[l] <- x
                ##t[l] <- paste(x,":", 1, sep="")
             else{
-              n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))) ## ammended CM, Dec 6th 2009
+              ##n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE, engine="R"))) ## ammended CM, Dec 6th 2009
+              n.elements<-length(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=0, perl=TRUE, engine="R")))
               t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
             }
         }
@@ -52,7 +53,7 @@ function (x, data1,data2, ...)
       }
     string <- paste("(", paste(f.rec.1(taxo.data1), collapse = ","), ")",":",dim(taxo.data1)[1],";", sep = "")
     ## ammended by Coilin Feb 2011
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE)
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE, engine="R")
     phy <- read.tree(text = string2)
     ##-----------------------
     ## subset phylogeny
@@ -86,7 +87,8 @@ function (x, data1,data2, ...)
                ##t[l] <- paste(x,":", 1, sep="")
             else{
               ## Here's the lookup
-              n.elements<-sum(phy.names.df[phy.names.df$number%in%as.numeric(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE))),"appear.phy.2"]) ## ammended CM & DR, Dec 16th 2009
+              ##n.elements<-sum(phy.names.df[phy.names.df$number%in%as.numeric(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=1, perl=TRUE, engine="R"))),"appear.phy.2"]) ## ammended CM & DR, Dec 16th 2009
+              n.elements<-sum(phy.names.df[phy.names.df$number%in%as.numeric(unlist(strapply(x, "(?<![:0-9])[0-9]+", backref=0, perl=TRUE, engine="R"))),"appear.phy.2"])
               t[l] <- paste("(", paste(x, collapse = ","),")",":",n.elements, sep = "") ## ammended CM, Dec 6th 2009
             }
         }
@@ -94,16 +96,16 @@ function (x, data1,data2, ...)
       }
     string <- paste("(", paste(f.rec.2(taxo.data1), collapse = ","), ")",":",sum(phy.names.df$appear.phy.2),";", sep = "")
     ## ammended by Coilin, Feb 2011
-    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE)
+    string2<-gsubfn("(?<=[\\,,\\(])[0-9]+", function(x){paste(strapply(x, "[0-9]+")[[1]], ":1", sep="")}, string, backref=0, perl=TRUE, engine="R")
 
     ## replace the 1's with 0's, ammended CM & DR, Dec 16th 2009, Coilin Feb 2011
     string3<-gsubfn("[0-9]+:1", function(x){
-      string<-strapply(x, "[0-9]+(?=:)",perl=TRUE, backref=0)[[1]]
+      string<-strapply(x, "[0-9]+(?=:)",perl=TRUE, backref=0, engine="R")[[1]]
       ##string<-strapply(x, "[0-9]+",perl=TRUE)[[1]] 
       if(phy.names.df$appear.phy.2[phy.names.df$number==as.numeric(string)]){
         paste(string, ":1", sep="")}else{
           paste(string, ":0", sep="")}},
-                    string2, backref=0, perl=TRUE)
+                    string2, backref=0, perl=TRUE, engine="R")
 
     
     phy2 <- read.tree(text = string3)

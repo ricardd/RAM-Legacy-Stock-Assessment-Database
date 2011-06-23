@@ -1,0 +1,59 @@
+ID        @ COD3NO
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 3NO
+SOURCE    @ Anom. 1988. Provisional report of scientific council, June 1988 meeting. NAFO SCS Doc. 88/20: 117 p.; Anon. 1990. Report of the ICES Study Group on cod stock fluctuations. ICES Doc. C.M. 1990/G: 50.; Baird, J. W., C. A. Bishop, and E. F. Murphy. 1991. An assessment of the cod stock in NAFO div. 3NO. NAFO SCR Doc 91/83: 33 p.; Paz, J., and M. G. Larra\~{n}eta. 1990. Year-class variations of American plaice and yellowtail flounder in div. 3LNO and the abundance of other commercial fish. NAFO SCR Doc. 90/114: 10 p.; Baird, J. W., C. A. Bishop, and E. F. Murphy. 1992. An assessment of the cod stock in NAFO div. 3NO. NAFO SCR Doc. 92/75: 28 p.; Davis, M. B., C. A. Bishop, D. E. Stansbury, and E. F. Murphy. 1994. Update of the assessment of the cod stock in div. 3NO. NAFO SC Working Paper 94/10: 13.
+COMMENTS  @ VPA, 3 year olds in (000's)
+FAGE      @ 7-9
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ 44 30
+LONGITUDE @ -51 30
+MONTHSPA  @ 5-6 
+NATMORT   @ 0.20 
+F01       @ 0.25 
+FMAX      @ 0.40 
+FMED      @ . 
+KGPRECF0  @ 21.79
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Campana, S. et al. ICES C.M. 1990/G:50. 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ LEPIOBBANK
+SP        @ Lepidonotothen
+LATIN     @ Lepidonotothen squamifrons
+FAMILY    @ Nototheniidae 
+CFAMILY   @ Antarctic cods
+ORDER     @ Perciformes
+STOCK     @ Ob Bank, Antarctic Ocean
+SOURCE    @ Koch, K.H. 1992. Antarctic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ Fig. 87a
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -52 30
+LONGITUDE @ 41 40
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ .
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

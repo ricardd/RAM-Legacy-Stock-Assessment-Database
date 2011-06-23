@@ -1,0 +1,59 @@
+ID        @ GHALEBS
+SP        @ Greenland halibut
+LATIN     @ Reinhardtius hippoglossoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounder
+ORDER     @ Pleuronectiformes
+STOCK     @ E. Bering Sea and Aleutian Islands
+SOURCE    @ Ianelli, J. N..  T. K.  Wilderbuer and T. M. Staple. 1997. Stock assessment of Greenland turbot. North Pacific Management Council, November 1997.
+COMMENTS  @ 
+FAGE      @ .
+METHOD    @ Stock Synthesis
+UNITSSB   @ Tonnes of Females
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 3.4 
+LHATCH    @ 6.5 
+LMETA     @ 24 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 56 00
+LONGITUDE @ -168 00
+MONTHSPA  @ . 
+NATMORT   @ 0.18 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Bathypelagic 90-1600m
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

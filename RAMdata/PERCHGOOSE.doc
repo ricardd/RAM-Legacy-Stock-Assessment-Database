@@ -1,0 +1,57 @@
+ID        @ PERCHGOOSE
+SP        @ Pacific ocean perch
+LATIN     @ Sebastes alutus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ Goose Island Gully, B.C.
+SOURCE    @  Richards, L. J. and N. Olsen. 1996. Slope rockfish stock assessment for the west coast of Canada in 1996 and recommended yields for 1997. Can. Tech. Rep. Fish. Aquat. Sci. No. 2134: 91p.
+COMMENTS  @ .
+FAGE      @ 8-20
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousand tonnes
+AGERECDAT @ 7
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 51 17
+LONGITUDE @ -129 00
+MONTHSPA  @ 2-4
+NATMORT   @ 0.05
+F01       @ .
+FMAX      @ .
+FMED      @ 0.045
+KGPRECF0  @ 16.29
+SPAWNLOC  @ Slope
+SOURCEMAT @ Richards, L. J. and N. Olsen. 1996. Slope rockfish stock assessment for the west coast of Canada in 1996 and recommended yields for 1997. Can. Tech. Rep. Fish. Aquat. Sci. No. 2134: 91p.
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 9 
+AGEMATM   @ 9 
+AGEMATF   @ 9 
+LENREC    @ .
+AGEREC    @ 7
+AGERECM   @ 7
+AGERECF   @ 7
+SOURCEGRO @ Richards, L. J. and N. Olsen. 1996. Slope rockfish stock assessment for the west coast of Canada in 1996 and recommended yields for 1997. Can. Tech. Rep. Fish. Aquat. Sci. No. 2134: 91p.
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ Richards, L. J. and N. Olsen. 1996. Slope rockfish stock assessment for the west coast of Canada in 1996 and recommended yields for 1997. Can. Tech. Rep. Fish. Aquat. Sci. No. 2134: 91p.y
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ 1.49103E-5
+bLTWTPARM @ 2.99892
+aLTWTPARF @ 4.97617E-6
+bLTWTPARF @ 3.18058   

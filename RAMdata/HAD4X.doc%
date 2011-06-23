@@ -1,0 +1,59 @@
+ID        @ HAD4X
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4X
+SOURCE    @ O'Boyle, R. N., J. Simon, and K. Frank. 1988. An evaluation of the population dynamics of 4X haddock during 1962-88 with yield projected to 1989.  CAFSAC Res. Doc. 88/72: 59 p.; O'Boyle, R. N., K. Frank, and J. Simon. 1989. An evaluation of the population dynamics of 4X haddock during 1962-88 with yield projected to 1990. CAFSAC Res. Doc. 89/58: 59 p.; Hurley, P. C. F., K. T. Frank, and J. Simon. 1991. Assessment of 4X haddock in 1990. CAFSAC Res. Doc. 91/67: 48 p.  Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMED).
+COMMENTS  @ SPA, 1 year olds in (000's),landings before 70 taken from graph
+FAGE      @ 5-6
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 43 00
+LONGITUDE @ -65 30
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.20 
+F01       @ 0.26 
+FMAX      @ 0.87 
+FMED      @ 0.55
+KGPRECF0  @ 6.65
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 27-366m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

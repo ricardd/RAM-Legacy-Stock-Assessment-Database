@@ -1,0 +1,59 @@
+ID        @ GHALNAFO23
+SP        @ Greenland halibut
+LATIN     @ Reinhardtius hippoglossoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Northwest Atlantiac, NAFO 2 and 3LMNOM
+SOURCE    @ Jean-Claude Mahe and W.R. Bowering 2001 An Assessment of Stock Stat us of the Greenland Halibut Resource in NAFO Subarea 2 and Divisions 3KLMNO based on Extended Survivors Analysis Serial No. N4459 NAFO SCR Doc. 01/80
+COMMENTS  @ . 
+FAGE      @ 5-10 
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 65 00
+LONGITUDE @ -55 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 3.3
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 10
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

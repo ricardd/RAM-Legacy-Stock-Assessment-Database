@@ -1,0 +1,59 @@
+ID        @ GHALV_XIV
+SP        @ Greenland halibut
+LATIN     @ Reinhardtius hippoglossoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ ICES V and XIV
+SOURCE    @ Anon. 1987. Report of the North-Western Working Group. ICES Doc. C.M. 1987/Assess: 2.; Anon. 1990. Report of the North-Western Working Group. ICES Doc. C.M. 1990/Assess: 20.; Anon. 1991. Report of the North-Western Working Group. ICES Doc. C.M. 1991/Assess: 21.; Anon. 1992. Report of the North-Western Working Group. ICES Doc. C.M. 1992/Assess: 14.;Anon. 1994. Report of the Notth-western working group. ICES Doc. C.M. 1994/Assess:19. ICES CM 2000/ACFM:15
+COMMENTS  @ VPA, 5 year olds in actual numbers; kgprecf0 calculated using data from ICES C.M. 1994/Assess:19, with the function kgprecf0 located in /home/luscombe/data/sr/functions, 6 extra years were used.
+FAGE      @ 8-12
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 5
+UNITLAND  @ Tonnes
+EGGDIAM   @ 3.4 
+LHATCH    @ 6.5 
+LMETA     @ 24 
+DELTAL    @ 17.5 
+DELTAN    @ 5.1 
+LATITUDE  @ 65 00
+LONGITUDE @ -27 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15 
+F01       @ 0.15 
+FMAX      @ 0.40 
+FMED      @ . 
+KGPRECF0  @ 13.05833
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Bathypelagic 90-1600m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 10.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

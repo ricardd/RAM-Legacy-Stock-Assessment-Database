@@ -1,0 +1,59 @@
+ID        @ PINKCBC
+SP        @ Pink salmon
+LATIN     @ Oncorhynchus gorbuscha
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Central B.C. (Areas 6-8)
+SOURCE    @ Neave, F. 1953. Principles Affecting the Size of Pink and Chum Salmon Populations in British Columbia. J. Fish. Res. Bd. Can. 9(9).
+COMMENTS  @ We have detected errors in the table for the years 1948 and 1949.  The 1949 value has been corrected, but the problem with the 1948 value could not be determined.
+FAGE      @ 2
+METHOD    @ SR
+UNITSSB   @ Numbers of fish
+UNITREC   @ Numbers
+AGERECDAT @ 2 
+UNITLAND  @ Numbers of fish
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 52 00
+LONGITUDE @ -128 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

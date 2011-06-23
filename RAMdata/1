@@ -1,0 +1,59 @@
+ID        @ COD3M3
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Flemish Cap (NAFO Div. 3M)
+SOURCE    @ S. Cervino and A. V\'{a}zquez. 2000. An assessment of the cod stock in NAFO division 3M. NAFO SCR Doc. 00/40, updated 2001 
+COMMENTS  @ .
+FAGE      @ 3-5
+METHOD    @ SPA
+UNITSSB   @ Thousands
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes 
+EGGDIAM   @ 1.4 
+LHATCH    @ 3
+LMETA     @ 24 
+DELTAL    @ 21
+DELTAN    @ 14.7
+LATITUDE  @ 47 00
+LONGITUDE @ -45 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 4.1 
+SPAWNLOC  @ Shelf
+EGGTYPE   @ Oviparous, pelagic
+FEEDTYPE  @ Demersal
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ AMPL4V
+SP        @ American plaice
+LATIN     @ Hippoglossoides platessoides
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ NAFO 4V
+SOURCE    @ Neilson, J. D., and P. Perley. 1986. A review of the status of the 4VWX flatfish stocks. CAFSAC Res. Doc. 86/48: 31 p.; Nielson, J. D., and P. Perley. 1988. An update on the status of 4VWX flatfish stocks. CAFSAC Res. Doc. 88/57: 33 p.
+COMMENTS  @ RV(3+4) index * 1000
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ 2.15 
+LHATCH    @ 5 
+LMETA     @ 25 
+DELTAL    @ 20 
+DELTAN    @ 9.3 
+LATITUDE  @ 43 25
+LONGITUDE @ -57 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ . 
+LENMATM   @ 22-23 
+LENMATF   @ < 30 
+AGEMAT    @ . 
+AGEMATM   @ 4-5 
+AGEMATF   @ < 8 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

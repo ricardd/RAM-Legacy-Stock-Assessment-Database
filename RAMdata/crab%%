@@ -1,0 +1,13 @@
+@proceedings {MR97f:62001,
+    TITLE = {Bayesian statistics. 5},
+BOOKTITLE = {Proceedings of the 5th Valencia International Meeting held in
+             Alicante, June 5--9, 1994},
+   EDITOR = {Bernardo, J. M. and Berger, J. O. and Dawid, A. P. and Smith,
+             A. F. M.},
+   SERIES = {Oxford Science Publications},
+PUBLISHER = {The Clarendon Press Oxford University Press},
+  ADDRESS = {New York},
+     YEAR = {1996},
+    PAGES = {xii+813},
+     ISBN = {0-19-852356-4},
+}

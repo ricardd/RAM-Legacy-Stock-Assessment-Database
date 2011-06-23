@@ -1,0 +1,59 @@
+ID        @ HAKESCCHILE
+SP        @ Peruvian hake
+LATIN     @ Merluccius gayi
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Chile - South Central zone
+SOURCE    @ Evaluacion del Stock de Merluza Comun({\it Merluccius gayi})de la zona Centro-Sur de Chile, Estimacion de la Captura Total Permisible Ano 1992 y Sugerencias de Menejo,Instituto de Investigacion Pesquera, Abril de 1991.
+COMMENTS  @ Called Common hake in old doc file.
+FAGE      @ 5+ 
+METHOD    @ SPA 
+UNITSSB   @ Thousands of Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 2
+UNITLAND  @ Thousands
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -38 00
+LONGITUDE @ -74 00
+MONTHSPA  @ . 
+NATMORT   @ 0.43 
+F01       @ 0.42 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Mario Aguayo H. & Hugo Robotham V. 1986. Dinema Poblacional de Merluza Comun (Merlucius gayi gayi). Invest. Pesq. 31:17-45
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ 55.7 
+kM        @ 0.30464 
+toM       @ -0.22750 
+LINFINF   @ 73.4 
+kF        @ 0.17184 
+toF       @ 0.71238 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

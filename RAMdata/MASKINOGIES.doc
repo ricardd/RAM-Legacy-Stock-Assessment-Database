@@ -1,0 +1,59 @@
+ID        @ MASKINOGIES
+SP        @ Maskinonge
+LATIN     @ Esox masquinongy
+FAMILY    @ Esocidae
+CFAMILY   @ Pikes
+ORDER     @ Salmoniformes
+STOCK     @ Nogies Creek Sanctuary, Ontario
+SOURCE    @ B. S. Muir. 1961. Estimates of mortalities and population size for the Nogies Creek maskinonge (Esox masquinongy Mitchill). PhD. Thesis, University of Toronto Toronto, Ontario
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ numbers
+AGERECDAT @ 4
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 30
+LONGITUDE @ -78 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ . 
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

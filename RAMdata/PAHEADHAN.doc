@@ -1,0 +1,59 @@
+ID        @ PAHEADHAN
+SP        @ Pelagic armourhead
+LATIN     @ Pseudopentaceros wheeleri
+FAMILY    @ Pentacerotidae
+CFAMILY   @ Armorheads
+ORDER     @ Perciformes
+STOCK     @ Southeast Hancock Seamount, Hawaii
+SOURCE    @ D.A. Somerton, & B.S. Kikkawa. 1992. Population dynamics of pelagic armourhead Pseudopentaceros wheeleri on Southeast Hancock Seamount. Fishery Bulletin. 90:756-769.
+COMMENTS  @ I took out the KGPERREC because of a pers. com with D. Sommerton, it is not a separate stock. 
+FAGE      @ .
+METHOD    @ Leslie
+UNITSSB   @ Tonnes
+UNITREC   @ Tonnes
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 29 48 
+LONGITUDE @ 179 03 
+MONTHSPA  @ . 
+NATMORT   @ 0.54
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

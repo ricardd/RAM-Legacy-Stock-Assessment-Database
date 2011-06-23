@@ -1,0 +1,59 @@
+ID        @ LWHFSHHUR
+SP        @ Lake Whitefish
+LATIN     @ Coregonus clupeaformis
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Lake Huron
+SOURCE    @ Henderson, B. A., J. J. Collins, and J. A. Reckahn. 1983. Dynamics of an exploited population of lake whitefish ({\it Coregonus clupeaformis}) in Lake Huron. Can. J. Fish. Aquat. Sci. 40: 1556-1567.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Research nets
+UNITSSB   @ Numbers of eggs
+UNITREC   @ Relative year-class strength
+AGERECDAT @ 1 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 45 00
+LONGITUDE @ -82 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

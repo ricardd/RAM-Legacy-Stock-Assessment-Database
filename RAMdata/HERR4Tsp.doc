@@ -1,0 +1,59 @@
+ID        @ HERR4Tsp
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ NAFO 4T (Spring spawners)
+SOURCE    @ Cleary, L. 1983. An assessment of the southern Gulf of St. Lawrence herring stock complex. CAFSAC Res Doc 83/69: 40 p.; Chadwick E. M. P., and D. K. Cairns. 1988. Assessment of Atlantic herring in NAFO division 4T, 1987. CAFSAC Res. Doc. 88/38: 54 p.
+COMMENTS  @ SPA, 2 year olds in (000's)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ . 
+UNITREC   @ . 
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 47 00
+LONGITUDE @ -63 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

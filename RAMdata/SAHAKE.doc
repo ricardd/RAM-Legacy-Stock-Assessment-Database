@@ -1,0 +1,59 @@
+ID        @ SAHAKE 
+SP        @ S.A. Hake
+LATIN     @ Merluccius capensis
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ South Africa 1.6
+SOURCE    @ Leslie, R. W. 1985. Int. Commn. SE. Atl. Fish. Coll. Scient. Pap. 12: 107-118 p.
+COMMENTS  @ SPA
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ NA
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ -30 00
+LONGITUDE @ 15 00
+MONTHSPA  @ . 
+NATMORT   @ 0.3 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 2.29
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

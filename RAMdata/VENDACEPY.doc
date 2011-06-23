@@ -1,0 +1,59 @@
+ID        @ VENDACEPY
+SP        @ Vendace
+LATIN     @ Coregonus albula
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Lake Pyhajarvi, Finland
+SOURCE    @ Helminen, H. H. and J. Sarvala  1994. Population regulation of vendace (\emph{Coregonus albula}) in Lake Pyh\"aj\"arvi, southwest Finland. J. of Fish. Biology 45: 387-400. 
+COMMENTS  @ . 
+FAGE      @ .
+METHOD    @ Depletion
+UNITSSB   @ Billions eggs
+UNITREC   @ Millions
+AGERECDAT @ 0 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ 9.5 mm 
+LMETA     @ 20 mm 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 61 01
+LONGITUDE @ 22 15
+MONTHSPA  @ 10-11 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Bottom 
+EGGTYPE   @ Demersal 
+FEEDTYPE  @ Pelagic 
+SOURCEMAT @ . 
+LENMAT    @ 21 cm 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ 14.5 cm 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ ANCHOBAJA
+SP        @ Northern anchovy
+LATIN     @ Engraulis mordax
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Soledad Basin, Baja California
+SOURCE    @ Soutar, A., and J.D. Issacs.  1974.  Abundance of pelagic fish during the 19th and 20th centuries as recorded in anaerobic sediment off the Californias.  Fish. Bull. U.S. 72:  257-273.
+COMMENTS  @ 5 year averages from fossil scale data. 
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ scales per 1000 cm^2
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.23-1.55 x 0.6-0.8
+LHATCH    @ 2.5-3.0 SL
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 25 15
+LONGITUDE @ -112 60
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .  
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ HERR25-2932GOR2
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Baltic areas 25-29, 32 plus Gulf of Riga
+SOURCE    @ Anon. 2001. Baltic Fisheries Assessment Group. ICES 2001/ACFM:18 
+COMMENTS  @ .
+FAGE      @ 3-8
+METHOD    @ .
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.26
+LHATCH    @ 7
+LMETA     @ 30
+DELTAL    @ 23
+DELTAN    @ 18
+LATITUDE  @ 55 00
+LONGITUDE @ 12 00    
+MONTHSPA  @ . 
+NATMORT   @ 0.214 
+F01       @ 0.27 
+FMAX      @ 1.55 
+FMED      @ 0.2 
+KGPRECF0  @ 0.1 
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

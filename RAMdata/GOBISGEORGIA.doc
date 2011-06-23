@@ -1,0 +1,59 @@
+ID        @ GOBISGEORGIA
+SP        @ Gobionotothen gibberifrons
+LATIN     @ Gobionotothen gibberifrons
+FAMILY    @ Nototheiniidae 
+CFAMILY   @ Antarctic cods
+ORDER     @ Perciformes
+STOCK     @ South Georgia, Antarctic Ocean
+SOURCE    @ Koch, K.H. 1992. Antarctic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ Fig. 76
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ ,
+AGERECDAT @ ,
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 2.6
+LHATCH    @ 8.4
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -54 00
+LONGITUDE @ -36 00
+MONTHSPA  @ . 
+NATMORT   @ 0.8
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ .
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

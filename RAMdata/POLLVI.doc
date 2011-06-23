@@ -1,0 +1,59 @@
+ID        @ POLLVI
+SP        @ Pollock or saithe
+LATIN     @ Pollachius virens
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VI
+SOURCE    @ Anon. 1991. Report of the North Sea Roundfish Working Group. ICES Doc. C.M. 1988/Assess: 21.; Anon. 1991. Report or the Roundfish Working Group. ICES Doc. C.M. 1991/Assess: 4.
+COMMENTS  @ SPA, 1 year olds in actual numbers
+FAGE      @ 3-6
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.12 
+LHATCH    @ 4 
+LMETA     @ 25 
+DELTAL    @ 21 
+DELTAN    @ 18.8 
+LATITUDE  @ 54 00
+LONGITUDE @ -12 00
+MONTHSPA  @ 1-4 
+NATMORT   @ 0.20 
+F01       @ 0.18 
+FMAX      @ . 
+FMED      @ 0.29 
+KGPRECF0  @ 8.13
+SPAWNLOC  @ Shelf 100-200m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

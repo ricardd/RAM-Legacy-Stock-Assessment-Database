@@ -1,0 +1,59 @@
+ID        @ RED3NO
+SP        @ Redfish
+LATIN     @ Sebastes mentela and fasciatus 
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ NAFO 3NO
+SOURCE    @ Atkinson, D. B., and D. Power. 1986. The stock complex of redfish in NAFO divisions 3KLNOPs. NAFO SCR Doc. 86/38: 18 p.
+COMMENTS  @ RV(1+2)
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ . 
+UNITREC   @ . 
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 43 00
+LONGITUDE @ -50 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Ovoviviparous 
+FEEDTYPE  @ Pelagic or bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ PERCHALI
+SP        @ Pacific ocean perch
+LATIN     @ Sebastes alutus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ Aleutian Is.
+SOURCE    @ Ito, D.H., and J.N. Ianelli. 1995. Pacific Ocean Perch In: Stock assessment and fishhery evaluation report for the 1996 Bering Sea and Aleution Islands Region groundfish fishery. Chapter 9. North Pacific Fishery Management Council, P.O. Box 103136, Anchorage, AK 99510., updated with Spencer, P. Ito, D. H. and J. N. Ianelli. 2001. Pacific Ocean Perch. Alaskan Science Center.
+COMMENTS  @ .
+FAGE      @ 12-21 
+METHOD    @ SPA
+UNITSSB   @ Tonnes of Females
+UNITREC   @ Thousands
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 52 00
+LONGITUDE @ -176 00
+MONTHSPA  @ . 
+NATMORT   @ 0.05 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 3.094705
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

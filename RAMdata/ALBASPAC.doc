@@ -1,0 +1,59 @@
+ID        @ ALBASPAC
+SP        @ Albacore tuna
+LATIN     @ Thunnus alalunga
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ South Pacific Ocean
+SOURCE    @ Tenth standing committee on tuna and billfish, 16-18 June 1997, Nadi, Fiji. Status of tuna stocks in the western and central Pacific ocean. Working paper 3. South Pacific Commission.
+COMMENTS  @ SSB is for large fish.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Index
+UNITREC   @ Index
+AGERECDAT @ 3
+UNITLAND  @ Thousand tonnes 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -17 00
+LONGITUDE @ -150 00
+MONTHSPA  @ Summer months 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Subtropical waters of the north and south Pacific 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ 80cm 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

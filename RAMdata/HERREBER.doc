@@ -1,0 +1,58 @@
+ID        @ HERREBER
+SP        @ Herring
+LATIN     @ Clupea harengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Eastern Bering Sea
+SOURCE    @ Pers. Comm. with Westerheim.; Wespestad, V. G. 1982. Cohort analysis of catch data on Pacific Herring in the Easter Bering Sea, 1959-1981. NOAA 1982.
+COMMENTS  @ F is a median 
+FAGE      @ 6-10
+METHOD    @ SPA
+UNITSSB   @ Thousands Tonnes  
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ 1.26 
+LHATCH    @ 7 
+LMETA     @ 30 
+DELTAL    @ 23 
+DELTAN    @ 18 
+LATITUDE  @ 58 00
+LONGITUDE @ -160 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ .
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .512
+SPAWNLOC  @ Nearshore, Coastal bays 
+EGGTYPE   @ Oviparous, demersal, adhesive FEEDTYPE   Nearshore, shelf, pelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ .
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ .
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .  

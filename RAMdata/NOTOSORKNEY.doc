@@ -1,0 +1,59 @@
+ID        @ NOTOSORKNEY
+SP        @ Notothenia rossii
+LATIN     @ Notothenia rossii
+FAMILY    @ Nototheiniidae 
+CFAMILY   @ Antarctic cods
+ORDER     @ Perciformes
+STOCK     @ South Orkney Islands, Antarctic Ocean
+SOURCE    @ Koch, K.H. 1992. Antarctic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ Fig. 82
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 5.0
+LHATCH    @ 12.0
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -60 30
+LONGITUDE @ -47 30
+MONTHSPA  @ . 
+NATMORT   @ 0.29
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 80.3 
+k         @ 0.2
+to        @ 0.296 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

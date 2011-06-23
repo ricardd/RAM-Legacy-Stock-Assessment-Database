@@ -1,0 +1,59 @@
+ID        @ GSHIGEO
+SP        @ Golden shiner
+LATIN     @ Notemigonus crysoleucas
+FAMILY    @ Cyprinidae
+CFAMILY   @ Minnows
+ORDER     @ Cypriniformes
+STOCK     @ Lake St. George, Ontario
+SOURCE    @ Johannes, M. R. S., D. J. McQueen, T. J. Stewart, and J. R. Post. 1989. Golden shiner({\it Notemigonus crysoleucas}) population abundance: correlations with food and preditors. Can. J. Fish. Aquat. Sci. 46: 810-817.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ MR/beach seine
+UNITSSB   @ Numbers
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 57
+LONGITUDE @ -70 25
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

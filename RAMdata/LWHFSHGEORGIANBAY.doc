@@ -1,0 +1,59 @@
+ID        @ LWHFSHGEORGIANBAY
+SP        @ Lake Whitefish
+LATIN     @ Coregonus clupeaformis
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ South Georgian Bay, Lake Huron
+SOURCE    @ Cucin, D. and H. A. Regier.  1965. Dynamics and exploitation of lake whitefish in southern Georgian Bay. J. Fish. Res. Bd. Canada, 23: 221-274. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ MR
+UNITSSB   @ .
+UNITREC   @ Numbers of fish
+AGERECDAT @ 3 
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 45
+LONGITUDE @ -80 14
+MONTHSPA  @ . 
+NATMORT   @ 0.41 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

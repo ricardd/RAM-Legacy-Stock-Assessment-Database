@@ -1,0 +1,59 @@
+ID        @ PIKEWOOD
+SP        @ Pike
+LATIN     @ Esox lucius
+FAMILY    @ Esocidae
+CFAMILY   @ Pikes
+ORDER     @ Salmoniformes
+STOCK     @ Lake of the Woods, Minnesota
+SOURCE    @ Heinrich, T. 1995. Completion Report; 1994; Lake of the Woods. Minnesota Dept. of Natural Resources. Report F-29-R(P)-14
+COMMENTS  @ recruitment average ages from 1-5
+FAGE      @ .
+METHOD    @ Research gillnets
+UNITSSB   @ .
+UNITREC   @ index
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 49 15
+LONGITUDE @ -94 45
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ . 
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

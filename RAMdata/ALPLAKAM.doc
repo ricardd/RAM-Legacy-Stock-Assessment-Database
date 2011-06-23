@@ -1,0 +1,59 @@
+ID        @ ALPLAKAM
+SP        @ Alaska plaice
+LATIN     @ Pleuronectes auadrituberculatus
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ West Kamchatka Shelf
+SOURCE    @ Dyakov, Yu. P. 1995. Reprocution of some flounder species from the West Kamchatka Shelf. page 17-33. In Proceeding fo the Intnational Symposium on  North Pacific Flatfish. Alaska Sea Grant College Program. AK-SG-95-04. 
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Million eggs
+UNITREC   @ Millions
+AGERECDAT @ 4
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 55 00
+LONGITUDE @ 155 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso-, & bathybenthal 10-600m
+SOURCEMAT @ .  
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ .
+AGEMATF   @  
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

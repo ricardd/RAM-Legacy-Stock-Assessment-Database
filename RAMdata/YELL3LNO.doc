@@ -1,0 +1,59 @@
+ID        @ YELL3LNO
+SP        @ Yellowtail flounder
+LATIN     @ Pleuronectes ferrugineus
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ NAFO 3LNO
+SOURCE    @ Brodie, W. B. 1986. An assessment of yellowtail flounder in NAFO div. 3LNO. NAFO SRC Doc. 86/40: 20 p.; Brodie, W. B., S. J. Walsh, and W. R. Bowering. 1990. Yellowtail flounder in NAFO div. 3LNO - an assessment of stock status. NAFO SCR Doc. 90/86: 24 p.; Paz, J., and M. G. Larra\~{n}eta, Year-class variations of American plaice and yellowtail flounder in div. 3LNO and the abundance of other commersial fish. NAFO SCR Doc. 90/114: 10 p.  
+COMMENTS  @ SPA, 5 year olds in (000's)
+FAGE      @ 5-10
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 4
+UNITLAND  @ Tonnes
+EGGDIAM   @ .9 
+LHATCH    @ 2.8 
+LMETA     @ 14 
+DELTAL    @ 11.2 
+DELTAN    @ 12.4 
+LATITUDE  @ 44 30
+LONGITUDE @ -51 30
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

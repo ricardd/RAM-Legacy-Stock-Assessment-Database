@@ -1,0 +1,59 @@
+ID        @ SOCKKVC2
+SP        @ Sockeye salmon 
+LATIN     @ Oncorhynchus nerka 
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Kvichak River, Alaska
+SOURCE    @ Eggers, D. M., and D. E. Rogers. 1987. The cycle of runs of sockeye salmon ({\it Oncorhynchus nerka}) to the Kvichak River, Bristol Bay, Alaska: cyclic dominance or depensatory fishing?, p.343-366.  {\it In} H. D. Smith, L. Margolis, and C. C. Wood [ed.] Sockeye salmon (Oncorhynchus nerka) population biology and future management. Can. Spec. Publ. Fish. Aquat. Sci. 96.,  Updated with information from Alaskan department of Fisheries and Game
+COMMENTS  @ From Table 2. Raw data in /mstorage/bridson/data/sockeyeoct26/sockeye_alaska_smolt.dat
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Numbers of Fish
+UNITREC   @ Numbers of Smolts
+AGERECDAT @ 3
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 58 52
+LONGITUDE @ -157 03
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 5
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

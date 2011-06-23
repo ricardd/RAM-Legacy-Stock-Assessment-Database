@@ -1,0 +1,59 @@
+ID        @ LTROLSUP
+SP        @ Lake trout
+LATIN     @ Salvelinus namaycush
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes  
+STOCK     @ Gull Island, Lake Superior
+SOURCE    @ Schram, S.T. Selgeby, J.H.,  Bronte, C.R. And Swanson B.L. 1995. Population recovery and natural recruitment of lake  trout at gull-island shoal, lake-superior, 1964-1992. Journal of Great Lakes Research. 21 supp.1 :  225-232.          
+COMMENTS  @ Reliable data, I have exp( ) the data in the files. 
+FAGE      @ .
+METHOD    @ Research gillnets and RV 
+UNITSSB   @ Females per 1000 m gillnet lift
+UNITREC   @ Numbers per ha
+AGERECDAT @ 1
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 46 57
+LONGITUDE @ -90 24
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8
+AGEMATM   @ . 
+AGEMATF   @ 8 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

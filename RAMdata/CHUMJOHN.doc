@@ -1,0 +1,59 @@
+ID        @ CHUMJOHN
+SP        @ Chum salmon
+LATIN     @ Oncorhynchus keta
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Johnstone Strait
+SOURCE    @ Gould, A. P., W. H. Luedke, M. K. Farwell, and L. Hop Wo. 1991.  Review and analysis of the 1987 chum salmon season in the Johnstone Strait to Fraser River Study Area.  Can. Man. Rep. Fish. Aquat. Sci. 2107: 87 p.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SR
+UNITSSB   @ Thousands fish
+UNITREC   @ Thousands
+AGERECDAT @ 4 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 50
+LONGITUDE @ -126 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

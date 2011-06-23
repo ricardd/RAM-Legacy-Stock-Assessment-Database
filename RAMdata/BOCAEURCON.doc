@@ -1,0 +1,59 @@
+ID        @ BOCAEURCON
+SP        @ Bocaccio
+LATIN     @ Sebastes paucispinis
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ W. U.S.
+SOURCE    @ Bence, J.R., and J. E. Hightower. Status of Bocaccio in the Conception / Monteray / Eureka INPFC Areas in 1990. Pacific Fishery Management Council (U.S.).
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ 4-5 
+LMETA     @ 15 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 36 45
+LONGITUDE @ -122 30
+MONTHSPA  @ Parturition- 1-2 
+NATMORT   @ 0.150 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Ovoviviparous, pelagic larvae 
+FEEDTYPE  @ Mesobenthal 0-475m 
+SOURCEMAT @ Wyllie Echeverria, T. 1987. Thirty Four Species of California Rockfishes: Maturity and Seasonality of Reproduction. Fish. Bull. 85(2)
+LENMAT    @ . 
+LENMATM   @ 42 
+LENMATF   @ 48 
+AGEMAT    @ 4 
+AGEMATM   @ 3 
+AGEMATF   @ 4 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Westerheim, S.J & Harling, W.R. (1975), & Bence, J.R., and J. E. Hightower. Status of Bocaccio in the Conception / Monteray / Eureka INPFC Areas in 1990. Pacific Fishery Management Council (U.S.). 
+LINFIN    @ . 
+k         @ 0.100 
+to        @ . 
+LINFINM   @ 63.848 
+kM        @ 0.233 
+toM       @ . 
+LINFINF   @ 76.361 
+kF        @ 0.17 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

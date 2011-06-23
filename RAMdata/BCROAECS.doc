@@ -1,0 +1,59 @@
+ID        @ BCROAECS
+SP        @ Black croaker
+LATIN     @ Argyrosomus nibe
+FAMILY    @ Scianidae
+CFAMILY   @ Croakers
+ORDER     @ Perciformes
+STOCK     @ East China Sea
+SOURCE    @ Saishu, K. 1968. Reproductive curve of the stock of {\it Argyrosomus nibe}, Kuroguchi, in the East China Sea. Jap. J. Ecol. 18: 32-39.
+COMMENTS  @ Table 1 and 2. 
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Index
+UNITREC   @ Index
+AGERECDAT @ 1
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 29 00
+LONGITUDE @ 123 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

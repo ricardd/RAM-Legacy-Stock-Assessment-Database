@@ -1,0 +1,59 @@
+ID        @ GOLDANCH
+SP        @ Gold-spotted grenadier anchovy
+LATIN     @ Coilia dussumieri
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ Northwest coast of India
+SOURCE    @ Fernandez, I and M. Devaraj. Indian J. Fish. 43: 27-38. 
+COMMENTS  @ .
+FAGE      @ 0
+METHOD    @ SPA and CPUE
+UNITSSB   @ Millions
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Millions
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 20 00
+LONGITUDE @ 72 30
+MONTHSPA  @ . 
+NATMORT   @ 2.08 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 0.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 27 cm 
+k         @ 1.1 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ SOCKBAB2 
+SP        @ Sockeye salmon
+LATIN     @ Oncorhynchus nerka 
+FAMILY    @ Salmonidae 
+CFAMILY   @ Salmons 
+ORDER     @ Salmoniformes 
+STOCK     @ Babine Lake, B.C. 
+SOURCE    @ McDonald, J., and J.M. Hume. 1984. Babine Lake sockeye salmon (Oncorhynchus nerka) enhancement program: testing some major assumptions. Can. J. Fish. Aquat. Sci. 41:70-92. Table 1, updated with Table 3 in MacDonald, P.D.M., H.D. Smith, and L. Jantz. 1987. The utility of Babine smolt enumerations in management of Babine and other Skeena River sockeye salmon (Oncorhynchus nerka) stocks, p. 280-295. In: H.D. Smith, L. Margolis, and C.C. Wood (eds.). Sockeye salmon (Oncorhynchus nerka) population biology and future management. Can. Spec. Publ. Fish. Aquat. Sci. 96  
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ MR / Count
+UNITSSB   @ Millions of Fry
+UNITREC   @ Millions of Smolt
+AGERECDAT @ 4
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ .
+DELTAN    @ .
+LATITUDE  @ 54 40
+LONGITUDE @ -126 00
+MONTHSPA  @ .
+NATMORT   @ .
+F01       @ .
+FMAX      @ .
+FMED      @ .
+KGPRECF0  @ . 
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ .
+SOURCEMAT @ .
+LENMAT    @ .
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 4
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ .
+AGEREC    @ .
+AGERECM   @ .
+AGERECF   @ .
+SOURCEGRO @ .
+LINFIN    @ .
+k         @ .
+to        @ .
+LINFINM   @ .
+kM        @ .
+toM       @ .
+LINFINF   @ .
+kF        @ .
+toF       @ .
+SOURCEab  @ .
+aLTWTPAR  @ .
+bLTWTPAR  @ .
+aLTWTPARM @ .
+bLTWTPARM @ .
+aLTWTPARF @ .
+bLTWTPARF @ .

@@ -18,7 +18,7 @@ WHERE
 a.assessorid = aa.assessorid AND
 m.mgmt = aa.mgmt AND
 a.recorder != 'MYERS' AND
-a.assess=1
+a.assess=1 AND a.mostrecent = 'yes'
 GROUP BY 
 m.country,
 m.managementauthority,

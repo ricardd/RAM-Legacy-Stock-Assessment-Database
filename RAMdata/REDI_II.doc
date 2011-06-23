@@ -1,0 +1,59 @@
+ID        @ REDI_II
+SP        @ Deepwater Redfish
+LATIN     @ Sebastes mentella
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ North East Arctic
+SOURCE    @  Anon. 1995. Report of the Arctic Fisheries Working Group. ICES Doc. C.M. 1995/Assess:3. 
+COMMENTS  @ SPA, RV
+FAGE      @ 10-15
+METHOD    @ SPA and RV
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 6
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 70 00
+LONGITUDE @ 14 00
+MONTHSPA  @ . 
+NATMORT   @ 0.10 
+F01       @ 0.06 
+FMAX      @ 0.76 
+FMED      @ 0.076 
+KGPRECF0  @ 3.3
+SPAWNLOC  @ . 
+EGGTYPE   @ Ovoviviparous 
+FEEDTYPE  @ Pelagic, bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

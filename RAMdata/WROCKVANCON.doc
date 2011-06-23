@@ -1,0 +1,59 @@
+ID        @ WROCKVANCON
+SP        @ Widow rockfish
+LATIN     @ Sebastes entomelas
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ W. U.S. + Canada
+SOURCE    @ Hightower, J. E., and W. H. Lenarz. 1990.
+COMMENTS  @ .
+FAGE      @ 8
+METHOD    @ Stock Synthesis
+UNITSSB   @ 10^12 oocytes
+UNITREC   @ Millions
+AGERECDAT @ 5
+UNITLAND  @ Tonnes
+EGGDIAM   @ N/A 
+LHATCH    @ 4.5-5.0 
+LMETA     @ 21.7-30.6 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 29 30
+LONGITUDE @ -119 00
+MONTHSPA  @ Parturition  1-2
+NATMORT   @ 0.15 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Parturition-shelf 
+EGGTYPE   @ Ovoviparous, pelagic larvae
+FEEDTYPE  @ Epi- & mesobenthal 0-375m 
+SOURCEMAT @ Wyllie Echeverria, T. 1987. Thirty Four Species of California Rockfishes: Maturity and Seasonality of Reproduction. Fish. Bull. 85(2) 
+LENMAT    @ . 
+LENMATM   @ 36 
+LENMATF   @ 37 
+AGEMAT    @ 5 
+AGEMATM   @ 5 
+AGEMATF   @ 5 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Westerheim, S.J. & Harling, W.R. (1975) 
+LINFIN    @ . 
+k         @ 0.140 
+to        @ . 
+LINFINM   @ . 
+kM        @ 0.150 
+toM       @ . 
+LINFINF   @ . 
+kF        @ 0.130 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

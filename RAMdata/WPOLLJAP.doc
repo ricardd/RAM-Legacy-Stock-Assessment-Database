@@ -1,0 +1,59 @@
+ID        @ WPOLLJAP
+SP        @ Walleye pollock
+LATIN     @ Theragra chalcogramma
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Japan-Pacific coast of Hokkaido 
+SOURCE    @ Wakabayashi, K., K. Watanabe, and Y. Watanabe. 1990. Int. North Pac. Fish. Com. Bull. No. 50.
+COMMENTS  @ SPA, 3 year olds in (000 000),Spawning stock biomass is Catchable stock size
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ Millions
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 00
+LONGITUDE @ 147 00
+MONTHSPA  @ . 
+NATMORT   @ 0.32 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso-, and bathypelagic 0-975m 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Nishimura, A. & Yamada, J. 1988. Geographical differences in early growth of walleye pollock {\em Theregra chalcogramma}, estimated by back-calculation of olith daily growth increments.  Marine Biology 97:459-465 
+LINFIN    @ 91.0 
+k         @ 0.030 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

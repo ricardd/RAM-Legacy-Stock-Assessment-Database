@@ -7,10 +7,11 @@ invertebrate populations.
 \subsection*{Taxonomy}
 \noindent
 
-Number of species in FishBase: REF:SQL:NUMSPPFISHBASE\\
-Number of species in SAUP: REF:SQL:SAUPNUMSPP\\
+Number of species in FishBase: REF:SQL:NUMSPPFISHBASE (from REF:SQL:NUMORDERSFISHBASE orders) \\
+Number of species in SAUP: REF:SQL:SAUPNUMSPP (from REF:SQL:SAUPNUMORDERS orders)\\
 Number of species in RAM Legacy: REF:SQL:TOTNUMASSESSBYSPECIES (from REF:SQL:TOTNUMASSESSBYFAMILY families and REF:SQL:TOTNUMASSESSBYORDERS orders) \\
-Top 5 taxonomic orders: REF:SQL:NUMASSESSORDERS:1, REF:SQL:NUMASSESSORDERS:2, REF:SQL:NUMASSESSORDERS:3, REF:SQL:NUMASSESSORDERS:4, REF:SQL:NUMASSESSORDERS:5 \\
+RAM Legacy contains REF:SQL:SRDBPERCENTSPPSAUP\% of SAUP and REF:SQL:SRDBPERCENTSPPFISHBASE\% of FishBase species\\
+Top 5 taxonomic orders in RAM Legacy: REF:SQL:NUMASSESSORDERS:1, REF:SQL:NUMASSESSORDERS:2, REF:SQL:NUMASSESSORDERS:3, REF:SQL:NUMASSESSORDERS:4, REF:SQL:NUMASSESSORDERS:5 \\
 
 \subsection*{Timespan}
 \noindent
@@ -55,6 +56,14 @@ assessments, respectively.
 
 \subsection*{Stock status}
 \noindent
+
+MSY-related reference points were avaialble for
+REF:SQL:NUMASSESSBIOASSESSREF stocks
+(REF:SQL:NUMASSESSFRIEDPEPPERforinverts invertebrates) and estimated
+for REF:SQL:NUMASSESSBIOSCHAEFERREF additional stocks
+(REF:SQL:NUMASSESSFRIEDSALTforinverts invertebrates), for a total of
+REF:SQL:NUMASSESSFRIEDEGG stocks.
+
 Of the
 REF:SQL:NUMASSESSFRIEDEGG stocks presented in
 Figure~\ref{fig:friedegg}, REF:SQL:NUMASSESSBIOASSESSREF and

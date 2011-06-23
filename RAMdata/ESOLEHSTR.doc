@@ -1,0 +1,59 @@
+ID        @ ESOLEHSTR
+SP        @ English sole
+LATIN     @ Parophrys vetulus
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Hecate Strait
+SOURCE    @ Fargo, F. 1990. {\it In} Canadian Technical Report on Fisheries and Aquatic Sciences No. 1732.; Fargo, F. 1991. {\it In} Canadian Technical Report on Fisheries and Aquatic Sciences No. 1778.
+COMMENTS  @ F is a median
+FAGE      @ 8-12
+METHOD    @ SPA
+UNITSSB   @ .
+UNITREC   @ Actual numbers
+AGERECDAT @ 3
+UNITLAND  @ Tonnes
+EGGDIAM   @ 0.80-1.05 
+LHATCH    @ 2.3-2.8 
+LMETA     @ 17.5 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 53 00
+LONGITUDE @ -131 00
+MONTHSPA  @ 1-4 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf, demersal 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso- & bathybenthal 0-550m 
+SOURCEMAT @ Matarese, A.C. et al. 1989. Labaratory Guide to early life history stages of Northeast Pacific Fish.  NOAA TECH. MEMO. 89:650 pp.  
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ 2 
+AGEMATF   @ 3-4 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

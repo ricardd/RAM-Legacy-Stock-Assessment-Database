@@ -1,0 +1,59 @@
+ID        @ MACKWS
+SP        @ Mackerel
+LATIN     @ Scomber scombrus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ Western ICES 
+SOURCE    @ Anon. 1975. Report of the Mackerel Working Group. ICES Doc. C.M. 1975/H: 3.; Anon. 1990. Report of the Mackerel Working Group. ICES Doc. C.M. 1990/Assess: 19.; Anon. 1991. Mackerel Working Group. ICES Doc. C.M. 1991/Assess: 19.
+COMMENTS  @ VPA
+FAGE      @ 4-8
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.2 
+LHATCH    @ 3.5 
+LMETA     @ 30 
+DELTAL    @ 26.5 
+DELTAN    @ 22.1 
+LATITUDE  @ 49 00
+LONGITUDE @ -7 00
+MONTHSPA  @ . 
+NATMORT   @ 0.15 
+F01       @ 0.20 
+FMAX      @ . 
+FMED      @ 0.18 
+KGPRECF0  @ 1.87
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ Pelagic 
+SOURCEMAT @ Scott, W. B. and  M. G. Scott. 1988. Atlantic fishes of Canada. Can. Bull. Fish. Aquat. Sci. 219.
+LENMAT    @ 3	0-34 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 1
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

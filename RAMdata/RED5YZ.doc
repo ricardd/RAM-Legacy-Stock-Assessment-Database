@@ -1,0 +1,59 @@
+ID        @ RED5YZ
+SP        @ Redfish
+LATIN     @ Sebastes mentela and fasciatus 
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ NAFO 5YZ
+SOURCE    @ Woods Hole Ref. Doc. 86-09.; Journal of Northwest Atlantic Fishery Science 2: 13 p.
+COMMENTS  @ SPA, 1 year olds in (000's).
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ . 
+UNITREC   @ . 
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 41 10
+LONGITUDE @ -68 40
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Ovoviviparous 
+FEEDTYPE  @ Pelagic, bathypelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

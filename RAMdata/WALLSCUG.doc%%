@@ -1,0 +1,59 @@
+ID        @ WALLSCUG
+SP        @ Walleye
+LATIN     @ Stizostedion vitreum
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Scugog Lake 
+SOURCE    @ R. S. Kushneriuk, N. P. Lester and R. M. Korver.  1996.  A Compendium of Life History Characteristics of Walleye in Ontario Waters.  Percid Community Synthesis, December 1996.  Ontario Ministery of Natural Resources, Fish and Wildlife Branch
+COMMENTS  @ . 
+FAGE      @ .
+METHOD    @ Research trapnet and angling
+UNITSSB   @ Index
+UNITREC   @ Index
+AGERECDAT @ 2
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 44 10
+LONGITUDE @ -78 51
+MONTHSPA  @ . 
+NATMORT   @ 0.5
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

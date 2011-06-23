@@ -1,0 +1,59 @@
+ID        @ HAD4TVW
+SP        @ Haddock
+LATIN     @ Melanogrammus aeglefinus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 4TVW
+SOURCE    @ Zwanenburg, K., and P. Fanning. 1988. Assessment of haddock in 4TVW -- population status and catch projections for 1989. CAFSAC Res. Doc. 88/76: 34 p.; Zwaneburg, K., and P. Comeau. 1991. Haddock on the Eastern Scotian Shelf 1991. CAFSAC Res. Doc. 91/47: 43 p.  Maguire, J.J. & P.M. Mace. 1993 in Risk Evaluation... Can. Spec. Pupl. Fish. Aquat. Sci. 120 page 325 (for FMED & FMAX).
+COMMENTS  @ SPA, 1 year olds in (000's)
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.43 
+LHATCH    @ 4 
+LMETA     @ 28 
+DELTAL    @ 24 
+DELTAN    @ 16.4 
+LATITUDE  @ 44 10
+LONGITUDE @ -59 00
+MONTHSPA  @ 1-7 
+NATMORT   @ 0.2 
+F01       @ 0.23 
+FMAX      @ 0.44 
+FMED      @ 0.48 
+KGPRECF0  @ 8.13
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4.5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

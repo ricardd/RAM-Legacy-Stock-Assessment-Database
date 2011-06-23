@@ -1,0 +1,59 @@
+ID        @ WPOLLGA
+SP        @ Walleye pollock
+LATIN     @ Theragra chalcogramma
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Gulf of Alaska, Alaska
+SOURCE    @ Megrey, B. A., A. B. Hollowed, and R. D. Methot. 1990. Stock Assessment And Fishery Evaluation Report For The 1992 Gulf of Alaska Groundfish Fishery, Gulf of Alaska Groundfish Plan Team, Nov 1991.  Updated with info from Anne Hollowed et al, NMFS, Seattle,WA.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ Stock Synthesis
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 2
+UNITLAND  @ Thousand tonnes 
+EGGDIAM   @ 1.35-1.45 
+LHATCH    @ 3-4 
+LMETA     @ 30-40 SL 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 58 00
+LONGITUDE @ -145 00
+MONTHSPA  @ 2-8 
+NATMORT   @ 0.3 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.24
+SPAWNLOC  @ Shelf  
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, meso- and batyhpelagic 0-975m 
+SOURCEMAT @ Matarese, A.C. et al. 1989. Labaratory Guide to early life history stages of Northeast Pacific Fish.  NOAA TECH. MEMO. 89:650 pp.  
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 3-4 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Pauly, D. 1980. On the interrelationships between natural mortality, growth parameters and mean environmental temperature in 175 fish stocks. Journal du  Conseil International pour L\'Exploration de la Mer {\bf 39}: 175-193) 
+LINFIN    @ 58 
+k         @ 0.274 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

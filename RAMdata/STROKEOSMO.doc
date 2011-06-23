@@ -1,0 +1,59 @@
+ID        @ STROKEOSMO
+SP        @ Steelhead trout
+LATIN     @ Oncorhynchus mykiss
+FAMILY    @ Salmonidae
+CFAMILY   @ Trouts
+ORDER     @ Salmoniformes
+STOCK     @ Keogh River, B.C.
+SOURCE    @ Ward, B.R., and P.A. Slaney. 1993. Egg-to-smolt survival and fry-to-smolt density dependence of Keogh River steelhead trout, p. 209-217. {\it In} R.J. Gibson and R.E. Cutting [ed.] Production of juvenile Atlantic salmon, {\it Salmo salar}, in natural waters. Can. Spec. Publ. Fish. Aquat. Sci. 118.
+COMMENTS  @ data from table 1, page 212. NOTE: The scientific name of the rainbow trout (steelhead trout) has been changed from Salmo gairdneri to Oncorhynchus mykiss, reflecting recent research results.
+FAGE      @ .
+METHOD    @ MR/Count
+UNITSSB   @ Number of Eggs
+UNITREC   @ Number of Smolts
+AGERECDAT @ approx. 4
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 36
+LONGITUDE @ -127 24
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ .
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

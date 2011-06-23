@@ -1,0 +1,59 @@
+ID        @ CHUMTILL
+SP        @ Chum salmon
+LATIN     @ Oncorhynchus keta
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ Tillamook Bay, Oregon
+SOURCE    @ Nickelson, T.E. et al. Status of anadromous salmonids in Oregon coastal basins. 1992. Research asnd Development Section, Oregon Department of Fish and Wildlife, Corvallis, Oregon.
+COMMENTS  @ . 
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Number of Spawners
+UNITREC   @ Number of Recruits
+AGERECDAT @ ages 3 to 5  
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ .
+LONGITUDE @ .
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

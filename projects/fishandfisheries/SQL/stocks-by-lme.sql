@@ -1,5 +1,5 @@
 -- query to produce postGIS/shapefile/KML showing number of stocks per LME
--- Last modified Time-stamp: <2010-04-28 10:55:39 (srdbadmin)>
+-- Last modified Time-stamp: <2011-06-22 10:49:41 (srdbadmin)>
 DROP TABLE stocksbylme;
 CREATE TABLE stocksbylme
 AS (
@@ -19,7 +19,7 @@ ls.stocktolmerelation = 'primary' AND
 ls.lme_number = lr.lme_number AND
 ls.stockid = aa.stockid AND
 aa.assess=1 AND
-aa.recorder != 'MYERS'
+aa.recorder != 'MYERS' AND mostrecent= 'yes'
 GROUP BY 
 lr.lme_number,
 lr.lme_name,

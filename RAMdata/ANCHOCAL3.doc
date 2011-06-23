@@ -1,0 +1,59 @@
+ID        @ ANCHOCAL3
+SP        @ Northern anchovy
+LATIN     @ Engraulis mordax
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ California
+SOURCE    @ Smith, P. E. 1978. Biologicval effects of ocean variability: time and space scales of biological response. Rapp. P.V. Reun. Cons. Int. Explor. Mer. 173: 117-127. recaculated from Soutar, A., and J.D. Issacs.  1974.  Abundance of pelagic fish during the 19th and 20th centuries as recorded in anaerobic sediment off the Californias.  Fish. Bull. U.S. 72:  257-273.
+COMMENTS  @ 5 year averages from fossil scale data. SSB is in standing stock, not spawners
+FAGE      @ .
+METHOD    @ fossil scales
+UNITSSB   @ Thousand tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ .
+EGGDIAM   @ 1.23-1.55 x 0.6-0.8
+LHATCH    @ 2.5-3.0 SL
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 15
+LONGITUDE @ -120 03
+MONTHSPA  @ 4-8 
+NATMORT   @ 0.6 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.015
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 21 cm 
+k         @ 0.45 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

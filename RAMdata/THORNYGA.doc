@@ -1,0 +1,59 @@
+ID        @ THORNYGA
+SP        @ Shortspine thornyhead
+LATIN     @ Sebastolobus alaskanus
+FAMILY    @ Scorpaenidae
+CFAMILY   @ Scorpionfishes
+ORDER     @ Scorpaeniformes
+STOCK     @ Gulf of Alaska
+SOURCE    @ J. N. Ianelli, D. H. Ito and M. Martin.  Thornyheads {\em (Sebastolobus)} sp. Stock assessment and fishery evaluation report for the groundfish resources of the Gulf of Alaska.  1997.  North Pacific Fishery Management Council.  pp 327-358
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 5
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 00 
+LONGITUDE @ -140 00
+MONTHSPA  @ .
+NATMORT   @ 0.07
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ .
+EGGTYPE   @ .
+FEEDTYPE  @ . 
+SOURCEMAT @ .
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ 22 
+AGEMAT    @ 11 
+AGEMATM   @ .
+AGEMATF   @ 11 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ .
+LINFIN    @ . 
+k         @ 0.022 
+to        @ . 
+LINFINM   @ .
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ NOTOSGORGIA
+SP        @ Notothenia rossii
+LATIN     @ Notothenia rossii
+FAMILY    @ Nototheiniidae 
+CFAMILY   @ Antarctic cods
+ORDER     @ Perciformes
+STOCK     @ South Georgia
+SOURCE    @ Koch, K.H. 1992. Antartic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITREC   @ Millions
+AGERECD   @ 2
+UNITSSB   @ Thousand Tonnes
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -54 00
+LONGITUDE @ -36 00
+MONTHSPA  @ . 
+NATMORT   @ 0.29
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

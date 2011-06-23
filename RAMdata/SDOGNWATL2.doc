@@ -1,0 +1,59 @@
+ID        @ SDOGNWATL2 
+SP        @ Spiny dogfish
+LATIN     @ Squalus acanthias
+FAMILY    @ Squalidae
+CFAMILY   @ Dogfish sharks
+ORDER     @ Squaliformes
+STOCK     @ Northwest Atlantic
+SOURCE    @ 26th Northeast Regional Stock Assessment Workshop, NMFS, Woods Hole
+COMMENTS  @ .
+FAGE      @ 3+
+METHOD    @ RV
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Thousand tonnes
+AGERECDAT @ 1
+UNITLAND  @ Tonnes 
+EGGDIAM   @ 45 
+LHATCH    @ 280
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 42 00
+LONGITUDE @ -66 00
+MONTHSPA  @ . 
+NATMORT   @ 0.092
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ ovoviviparous 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ 60 
+LENMATF   @ 80
+AGEMAT    @ 13
+AGEMATM   @ 6 
+AGEMATF   @ 12 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

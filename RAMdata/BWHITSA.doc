@@ -1,0 +1,68 @@
+ID        @ BWHITSA
+SP        @ Blue whiting
+LATIN     @ Micromesistius poutassou
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ Southern ICES
+SOURCE    @ Anon. 1991. Report of the Blue Whiting Assesment Working Group. ICES Doc. C.M. 1991/Assess: 2.; Anon. 1992. Report of the Blue Whiting Assesment Working Group. ICES Doc. C.M. 1992/Assess: 3.
+COMMENTS  @ SPA, 0 year olds in (000 000's)
+FAGE      @ 1-4
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 0
+UNITLAND  @ Thousand tonnes
+EGGDIAM   @ 1.19 
+LHATCH    @ 2.0-2.2 
+LMETA     @ 24 
+DELTAL    @ 20.8 
+DELTAN    @ 17.5 
+LATITUDE  @ 44 00
+LONGITUDE @ -9 00
+MONTHSPA  @ 3-5 
+NATMORT   @ 0.20 
+F01       @ 0.15 
+FMAX      @ 0.86 
+FMED      @ 0.65 
+KGPRECF0  @ 0.38
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous 
+FEEDTYPE  @ Mesopelagic 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 
+
+
+
+
+
+
+
+
+

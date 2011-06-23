@@ -1,0 +1,59 @@
+ID        @ PIKEWINS
+SP        @ Pike
+LATIN     @ Esox lucius
+FAMILY    @ Esocidae
+CFAMILY   @ Pikes
+ORDER     @ Salmoniformes
+STOCK     @ South Basin, Windermere Lake
+SOURCE    @ Kipling, C. 1983.  Changes in the Population of Pike ({\it Esox Lucius}) in Windermere from 1944 to 1981. Journal of Animal Ecology 52: 989-999 p.
+COMMENTS  @ Note that the biomass data are quite discrete which explains why some of the points line up in the stock-recruitment plot.
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Kilograms of females
+UNITREC   @ Numbers
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 54 12
+LONGITUDE @ -3 00
+MONTHSPA  @ . 
+NATMORT   @ 0.35 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 5.17
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ 2.0 
+LENMATM   @ .
+LENMATF   @ .
+AGEMAT    @ 2 
+AGEMATM   @ .
+AGEMATF   @ .
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

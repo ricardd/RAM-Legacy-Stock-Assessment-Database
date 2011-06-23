@@ -1,0 +1,59 @@
+ID        @ CHNKKING
+SP        @ Chinook salmon
+LATIN     @ Oncorhynchus tshawytscha 
+FAMILY    @ Salmonidae
+CFAMILY   @ Salmons
+ORDER     @ Salmoniformes
+STOCK     @ King Salmon River, Alaska
+SOURCE    @  McPherson, S.A. and J.H. Clark.  In Prep.  Biological escapement goal for King Salmon River chinook salmon.   Alaska Department of Fish and Game, Division of Sport Fish, Fishery Manuscript Report, Anchorage. (907-465-4270).
+COMMENTS  @ 1327672 sq. meters rearing habitat. The King Salmon River is a relatively small clearwater system on Admiralty Island in Southeast Alaska that drains an area of about 100 km2 . The King Salmon River chinook salmon stock is a "spring" stock.  Mature fish migrate through terminal marine waters in Southeast Alaska in May and June.  Maturing adults enter the river primarily in July. Chinook salmon were counted through a weir located near tidewater from 1983-1992 and counted all large chinook (3 to 5-ocean-age) and jacks (2-ocean age-no 1-ocean-age jacks have been observed for this stock, but may be present in some years).
+FAGE      @ .
+METHOD    @ Count
+UNITSSB   @ Numbers
+UNITREC   @ Numbers
+AGERECDAT @ 5 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 57 37
+LONGITUDE @ -134 09
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1.0
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

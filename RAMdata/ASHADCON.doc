@@ -1,0 +1,59 @@
+ID        @ ASHADCON
+SP        @ Anadromous american shad
+LATIN     @ Alosa sapidissima
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Connecticut River
+SOURCE    @ Savoy, T. J., and V. A. Crecco. 1988. The timing and significance of density-dependent and density-independent mortality of American shad, {\it Alosa sapidissima}. Fish. Bull. 86: 467-482.
+COMMENTS  @ replacement value calculated under assumption of no turbine mortality or catch at sea. The last assumption will cause the slope at the origin to be underestimated. We also ignore growth in the calculation KGPRECF0.
+FAGE      @ .
+METHOD    @ MR/Count
+UNITSSB   @ Thousands
+UNITREC   @ Thousands
+AGERECDAT @ 4
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 55
+LONGITUDE @ -72 15
+MONTHSPA  @ . 
+NATMORT   @ 0.33
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 3.55745
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4.5
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ COD3MVPA
+SP        @ Cod
+LATIN     @ Gadus morhua
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ NAFO 3M
+SOURCE    @ Data for years 56-65: Anderson. 1982. NAFO SCR Doc. 82/62.; Data for years 67-84: Wells, and Baird. 1985. NAFO SCR Doc. 85/65.; Dardenas, and Melo. 1991. NAFO SCR Doc. 91/67.
+COMMENTS  @ 56-65:SPA, 67-84:SPA, RV(2+3)
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITSSB   @ . 
+UNITREC   @ . 
+AGERECDAT @ . 
+UNITLAND  @ . 
+EGGDIAM   @ 1.4 
+LHATCH    @ 3 
+LMETA     @ 24 
+DELTAL    @ 21 
+DELTAN    @ 14.7 
+LATITUDE  @ . 
+LONGITUDE @ . 
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ 0.5 
+KGPRECF0  @ .
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Kuzin, S.A. Stock Assessments, age-length composiotn and maturity stages of the Flemish cap cod. NAFO SCR Doc. 90/23. 
+LENMAT    @ 51 
+LENMATM   @ 50 
+LENMATF   @ 52 
+AGEMAT    @ 5 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ Kuzin, S.A. Stock Assessments, age-length composiotn and maturity stages of the Flemish cap cod. NAFO SCR Doc. 90/23. 
+aLTWTPAR  @ .00599 
+bLTWTPAR  @ 3.099
+aLTWTPARM @ .00689 
+bLTWTPARM @ 3.0672 
+aLTWTPARF @ 0.00582 
+bLTWTPARF @ 3.10665

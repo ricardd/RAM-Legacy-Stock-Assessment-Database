@@ -1,0 +1,59 @@
+ID        @ SNOOKFLGULF
+SP        @ Common snook
+LATIN     @ Centropomus undecimalis
+FAMILY    @ Centropomidae
+CFAMILY   @ Snooks
+ORDER     @ Perciformes
+STOCK     @ Gulf Coast of Florida
+SOURCE    @ Muller, Robert G.  Michael D. Murphy, and Frank S. Kennedy, Jr., 2001 THE 2001 STOCK ASSESSMENT UPDATE OF COMMON SNOOK, {\it Centropomus undecimalis} Fish and Wildlife Conservation Commission, Florida Marine Research Institute 100 Eighth Avenue Southeast, St. Petersburg, Florida 33701-5095, USA
+COMMENTS  @ .
+FAGE      @ 6-10 
+METHOD    @ VPA 
+UNITSSB   @ Million pounds 
+UNITREC   @ Thousands 
+AGERECDAT @ 2.0 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 26 30
+LONGITUDE @ -82 00
+MONTHSPA  @ . 
+NATMORT   @ 0.25 
+F01       @ . 
+FMAX      @ 2.5 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 7.0 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

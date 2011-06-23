@@ -1,0 +1,59 @@
+ID        @ BIGEYEATLANTIC
+SP        @ Bigeye Tuna
+LATIN     @ Thunnus obesus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ West Atlantic
+SOURCE    @ INTERNATIONAL COMMISSION FOR THE CONSERVATION OF ATLANTIC TUNA, 1996 assessment
+COMMENTS  @ batch spawning in which spawning takes place almost every day 
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -20 00
+LONGITUDE @ -40 00
+MONTHSPA  @ . 
+NATMORT   @ 0.4 
+F01       @ 0.25 
+FMAX      @ 0.36 
+FMED      @ . 
+KGPRECF0  @ 15.5
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ 100 cm 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 4 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

@@ -1,0 +1,59 @@
+ID        @ POLLNEAR
+SP        @ Pollock or saithe
+LATIN     @ Pollachius virens
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ North East Arctic
+SOURCE    @ Anon. 2005. Report of the Arctic Fisheries Working Group. ICES Doc.  C.M. 2005/AFWG 2005
+COMMENTS  @ . 
+FAGE      @ 4-7
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.12 
+LHATCH    @ 4 
+LMETA     @ 25 
+DELTAL    @ 21 
+DELTAN    @ 18.8 
+LATITUDE  @ 70 00
+LONGITUDE @ 14 00
+MONTHSPA  @ 1-4 
+NATMORT   @ 0.20 
+F01       @ 0.16 
+FMAX      @ 0.28 
+FMED      @ 0.34 
+KGPRECF0  @ 11.14
+SPAWNLOC  @ Shelf 100-200m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 6 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

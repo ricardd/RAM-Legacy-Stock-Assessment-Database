@@ -1,0 +1,59 @@
+ID        @ PPERCHTJE
+SP        @ Pikeperch
+LATIN     @ Stizostedion lucioperca
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Lake Tjeukemeer, the Netherlands
+SOURCE    @ Mooij, W.M., W.L.T. Van Denses, and E.H.R.R. Lammens. 1996. Formation of year-class strength in the bream population in the shallow eutrophic Lake Tjeukemeer. J. Fish Biol. 48:30-39.
+COMMENTS  @ 0's have been replaced by 1's
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ Numbers per Tow
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 52 50 
+LONGITUDE @ 5 47 
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

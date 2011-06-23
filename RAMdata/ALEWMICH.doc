@@ -1,0 +1,59 @@
+ID        @ ALEWMICH
+SP        @ Freshwater alewife
+LATIN     @ Alosa pseudoharengus
+FAMILY    @ Clupeidae
+CFAMILY   @ Herrings
+ORDER     @ Clupeiformes
+STOCK     @ Lake Michigan
+SOURCE    @ Chuck Madenjian  (in press) 
+COMMENTS  @ These values are from a paper in press.  
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ Thousands of tons 
+UNITREC   @ Thousands of tons 
+AGERECDAT @ 3 
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 43 50
+LONGITUDE @ -87 20 
+MONTHSPA  @ . 
+{N}ATMORT   @ .27
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 7.747 
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

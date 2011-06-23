@@ -1,0 +1,59 @@
+ID        @ CHAMPSORKNEY
+SP        @ Champsocephalus gunnari
+LATIN     @ Champsocephalus gunnari
+FAMILY    @ Channichthyidae 
+CFAMILY   @ Ice fishes 
+ORDER     @ Perciformes
+STOCK     @ South Orkney Islands, Antarctic Ocean
+SOURCE    @ Koch, K.H. 1992. Antarctic fish and fisheries. Cambridege Univ. Press.359 pages.
+COMMENTS  @ Fig 80
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousand Tonnes
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Thousand Tonnes
+EGGDIAM   @ 4.0
+LHATCH    @ 12.0
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -60 30
+LONGITUDE @ -47 30
+MONTHSPA  @ . 
+NATMORT   @ 0.5
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ 50.1 
+k         @ 0.136
+to        @ -0.09 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

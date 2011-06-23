@@ -1,0 +1,59 @@
+ID        @ SBTUNA2
+SP        @ Southern bluefin tuna
+LATIN     @ Thunnus maccoyii
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ Southern Pacific
+SOURCE    @ Ray Hilborn and Jim Ianelli, pers com. 
+COMMENTS  @ KGPRECF0 carried out to 40 years. 
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -15 00
+LONGITUDE @ 100 00 
+MONTHSPA  @ . 
+NATMORT   @ 0.08 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 180.
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

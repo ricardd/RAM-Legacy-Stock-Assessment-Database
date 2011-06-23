@@ -1,0 +1,59 @@
+ID        @ WHITVIId
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Cosfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VIId
+SOURCE    @ Anon. 1991. Report of the Roundfish Working Group. ICES Doc. C.M. 1991/Assess: 4.; Anon. 1992. Report of the Roundfish Working Group. ICES Doc. C.M. 1992/Assess: 4.
+COMMENTS  @ VPA, 1 year olds in millions
+FAGE      @ 2-4
+METHOD    @ SPA
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 00
+LONGITUDE @ -0 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.34 
+FMAX      @ 1.00 
+FMED      @ 0.73 
+KGPRECF0  @ 1.39
+SPAWNLOC  @ Shelf 50-150m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Bathy-, Mesobenthal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

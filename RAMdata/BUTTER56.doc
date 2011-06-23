@@ -1,0 +1,59 @@
+ID        @ BUTTER56
+SP        @ Butterfish
+LATIN     @ Peprilus triacanthus
+FAMILY    @ Stromateidae
+CFAMILY   @ Butterfishes
+ORDER     @ Perciformes
+STOCK     @ NAFO 5 and 6 
+SOURCE    @ Woods Hole Ref. Doc. 86-09.; Woods Hole Ref. Doc. 91-03.
+COMMENTS  @ RV(0+1)
+FAGE      @ .
+METHOD    @ RV
+UNITSSB   @ .
+UNITREC   @ .
+AGERECDAT @ .
+UNITLAND  @ Tonnes
+EGGDIAM   @ 0.68-0.82 
+LHATCH    @ 1.68-1.75 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 39 00
+LONGITUDE @ -70 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous 
+FEEDTYPE  @ Pelagic 
+SOURCEMAT @ Bigelow, H.B. & Schroeder, W.C. 1953.  fishes of the Gulf of  Maine. U.S. Fish Wild. Serv. Fish. Bull. 74. Vol 53:577p
+LENMAT    @ 16 SL 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,59 @@
+ID        @ WHITVIa
+SP        @ Whiting
+LATIN     @ Merlangius merlangus
+FAMILY    @ Gadidae
+CFAMILY   @ Codfishes
+ORDER     @ Gadiformes
+STOCK     @ ICES VIa
+SOURCE    @ Anon. 1993. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 1993/Assess: 20.
+COMMENTS  @ SPA, 1 year olds in (000's)
+FAGE      @ 2-4
+METHOD    @ SPA 
+UNITSSB   @ Thousand tonnes
+UNITREC   @ Millions
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ NA 
+LHATCH    @ NA 
+LMETA     @ NA 
+DELTAL    @ NA 
+DELTAN    @ NA 
+LATITUDE  @ 57 00
+LONGITUDE @ -8 00
+MONTHSPA  @ 1-6 
+NATMORT   @ 0.20 
+F01       @ 0.19 
+FMAX      @ 0.28 
+FMED      @ 0.67 
+KGPRECF0  @ 1.79
+SPAWNLOC  @ Shelf 50-150m 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Bathy-, mesobenthal 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

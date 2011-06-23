@@ -1,0 +1,59 @@
+ID        @ PLAICIS
+SP        @ Plaice
+LATIN     @ Pleuronectes platessa
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Irish Sea
+SOURCE    @ Anon. 2001. Report of the Working Group on the Assessment of Northern Shelf Demersal stocks. ICES Doc. C.M. 2001/Assess: 2.
+COMMENTS  @ . 
+FAGE      @ 3-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 1
+UNITLAND  @ Tonnes
+EGGDIAM   @ 1.92 
+LHATCH    @ 2.7 
+LMETA     @ 14 
+DELTAL    @ 11.3 
+DELTAN    @ 5.9 
+LATITUDE  @ 54 00
+LONGITUDE @ -5 00
+MONTHSPA  @ . 
+NATMORT   @ 0.12 
+F01       @ 0.0857
+FMAX      @ 0.21 
+FMED      @ 0.72 
+KGPRECF0  @ 3.5 
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

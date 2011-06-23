@@ -1,0 +1,59 @@
+ID        @ PSOLEBC
+SP        @ Petrale sole
+LATIN     @ Eopsetta jordani
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounder
+ORDER     @ Pleuronectiformes
+STOCK     @ Southern B.C., Canada
+SOURCE    @ Ketchen, K. S., and C. R. Forrester. 1966. Population dynamics of the petrale sole, {\it Eopsetta jordani}, in watersoff western Canada. Fish. Res. Board of Can. Bulletin 153.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ CPUE
+UNITSSB   @ Pounds per hour
+UNITREC   @ Number per 100 hr. trawling
+AGERECDAT @ 4
+UNITLAND  @ .
+EGGDIAM   @ .
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 50 00
+LONGITUDE @ -127 00
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ .
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 8 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ .  
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ .
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

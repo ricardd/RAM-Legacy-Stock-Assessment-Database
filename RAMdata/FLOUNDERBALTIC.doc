@@ -1,0 +1,59 @@
+ID        @ FLOUNDERBALTIC
+SP        @ Flounder
+LATIN     @ Platichthys flesus
+FAMILY    @ Pleuronectidae
+CFAMILY   @ Righteye flounders
+ORDER     @ Pleuronectiformes
+STOCK     @ Baltic Areas 24 and 25
+SOURCE    @ Muller, M. and C.C. Friess. 1996. An assessment of the flounder ({\em Platichthys flesus}) stock in ICES sub-division 24 and 25. ICES C.M.  1996/J:20  , updated 2001
+COMMENTS  @ SPA 
+FAGE      @ 4-6
+METHOD    @ SPA
+UNITSSB   @ Tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 2
+UNITLAND  @ Tonnes
+EGGDIAM   @ .
+LHATCH    @ . 
+LMETA     @ .  
+DELTAL    @ .  
+DELTAN    @ . 
+LATITUDE  @ 57 00
+LONGITUDE @ 20 00
+MONTHSPA  @ . 
+NATMORT   @ 0.2 
+F01       @ 0.23 
+FMAX      @ 1.0 
+FMED      @ 0.5 
+KGPRECF0  @ 1.2
+SPAWNLOC  @ Shelf 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Demersal 
+SOURCEMAT @ Muller, M. and C.C. Friess. 1996. An assessment of the flounder ({\em Platichthys flesus}) stock in ICES sub-division 24 and 25. ICES C.M.  1996/J:20  
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

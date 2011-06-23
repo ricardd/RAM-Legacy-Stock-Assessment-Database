@@ -1,0 +1,59 @@
+ID        @ BIGEYEEPACIFIC
+SP        @ Bigeye Tuna
+LATIN     @ Thunnus obesus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels and Tunas
+ORDER     @ Perciformes
+STOCK     @ East Pacific
+SOURCE    @ ASSESSMENT STUDIES OF BIGEYE TUNA IN THE EASTERN PACIFIC OCEAN. INTER-AMERICAN TROPICAL COMMISSION. Background paper 5.  58th meeting of the IATTC.  1997
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA
+UNITSSB   @ Thousands tonnes
+UNITREC   @ Thousands
+AGERECDAT @ 0
+UNITLAND  @ Number of fish
+EGGDIAM   @ .
+LHATCH    @ .
+LMETA     @ .
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ -10 00
+LONGITUDE @ -125 00
+MONTHSPA  @ . 
+NATMORT   @ 0.6 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 22
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ .

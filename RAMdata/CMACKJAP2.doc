@@ -1,0 +1,59 @@
+ID        @ CMACKJAP2
+SP        @ Chub mackerel
+LATIN     @ Scomber japonicus
+FAMILY    @ Scombridae
+CFAMILY   @ Mackerels
+ORDER     @ Perciformes
+STOCK     @ Pacific Coast of Japan
+SOURCE    @ Watanabe, T.  1972.  The Recent Trend in the Stock Size of the Pacific Population of the Common Mackerel off Honshu, Japan, as Viewed from Egg Abundance.
+COMMENTS  @ in paper called Common mackerel, scomber japonicus Houttuyn, Recruitment is in cumulative egg production.
+FAGE      @ .
+METHOD    @ Egg survey
+UNITSSB   @ Trillions of eggs
+UNITREC   @ Trillions of eggs
+AGERECDAT @ 2
+UNITLAND  @ .
+EGGDIAM   @ . 
+LHATCH    @ .
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 00
+LONGITUDE @ 139 30
+MONTHSPA  @ . 
+NATMORT   @ . 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 1
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ . 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ 2 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

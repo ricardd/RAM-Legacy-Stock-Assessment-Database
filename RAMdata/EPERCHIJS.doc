@@ -1,0 +1,59 @@
+ID        @ EPERCHIJS
+SP        @ Eurasian perch
+LATIN     @ Perca fluviatilis
+FAMILY    @ Percidae
+CFAMILY   @ Perches
+ORDER     @ Perciformes
+STOCK     @ Lake Ijssel, the Netherlands
+SOURCE    @ Buijse, A. D., W. L. T. van Densen, and L. A. Schaap. 1992. Year-class strength of eurasian perch ({\it Perca fluviatilis}) and pikeperch ({\it Stizostedion lucioperca}) in relation to stock size, water temperature and wind in Lake Ijssel, the Netherlands, 1966-1989. {\it In} A. D. Buijse. 1992. Dynamics and exploitation of unstable percid populations. Wageningen : Landbouwununiversiteit.
+COMMENTS  @ .
+FAGE      @ .
+METHOD    @ SPA and RV
+UNITSSB   @ kg/ha
+UNITREC   @ numbers per 10 min trawl
+AGERECDAT @ 0
+UNITLAND  @ . 
+EGGDIAM   @ . 
+LHATCH    @ . 
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 52 23
+LONGITUDE @ 6 07
+MONTHSPA  @ . 
+NATMORT   @ .
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ .
+SPAWNLOC  @ . 
+EGGTYPE   @ . 
+FEEDTYPE  @ . 
+SOURCEMAT @ . 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 3
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ . 
+LINFIN    @ . 
+k         @ . 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

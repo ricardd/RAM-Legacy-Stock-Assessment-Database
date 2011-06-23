@@ -1,0 +1,59 @@
+ID        @ ANCHOCAL
+SP        @ Northern anchovy
+LATIN     @ Engraulis mordax
+FAMILY    @ Engraulidae
+CFAMILY   @ Anchovies
+ORDER     @ Clupeiformes
+STOCK     @ California
+SOURCE    @ Lo, N. C. H., and R. D. Methot. 1989. CALCOFI Rep. 30.; Lo, N. C. H., and R. D. Methot. 1990. CalCOFI Rep. 31.; MacCall, A. D. 1980. Rap. P. -v. Reun. Cons. int. Explor. Mer. 177:292-306.
+COMMENTS  @ Rec as of July 1st of indicated year,SSB units are for 64-88
+FAGE      @ .
+METHOD    @ Stock Synthesis
+UNITSSB   @ Thousand tonnes
+UNITREC   @ 50 billions
+AGERECDAT @ 0
+UNITLAND  @ Short tons
+EGGDIAM   @ 1.23-1.55 x 0.6-0.8
+LHATCH    @ 2.5-3.0 SL
+LMETA     @ . 
+DELTAL    @ . 
+DELTAN    @ . 
+LATITUDE  @ 34 00
+LONGITUDE @ -121 00
+MONTHSPA  @ 4-8 
+NATMORT   @ 0.6 
+F01       @ . 
+FMAX      @ . 
+FMED      @ . 
+KGPRECF0  @ 0.015
+SPAWNLOC  @ . 
+EGGTYPE   @ Oviparous, pelagic 
+FEEDTYPE  @ Epi-, and mesopelagic 0-300m 
+SOURCEMAT @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LENMAT    @ . 
+LENMATM   @ . 
+LENMATF   @ . 
+AGEMAT    @ 2 
+AGEMATM   @ . 
+AGEMATF   @ . 
+LENREC    @ . 
+AGEREC    @ . 
+AGERECM   @ . 
+AGERECF   @ . 
+SOURCEGRO @ Ware, D.M. & McFarlane, G.A. 1989. Fisheries production domains in the Northeast Pacific Ocean, p. 359-379.  In  R.J. Beamish and G.A. McFarlane [ed.], Effects of ocean variability on recruitment and an evaluation of parameters used in stock assessment models.  Can. Spec. Publ. Fish. Aquat. Sci. 108 
+LINFIN    @ 21 cm 
+k         @ 0.45 
+to        @ . 
+LINFINM   @ . 
+kM        @ . 
+toM       @ . 
+LINFINF   @ . 
+kF        @ . 
+toF       @ . 
+SOURCEab  @ . 
+aLTWTPAR  @ . 
+bLTWTPAR  @ . 
+aLTWTPARM @ . 
+bLTWTPARM @ . 
+aLTWTPARF @ . 
+bLTWTPARF @ . 

@@ -1,0 +1,231 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  24 JUN 2011 00:34
+entering extended mode
+ %&-line parsing enabled.
+**fandf-RESUBMIT-JUNE2011-figures
+(./fandf-RESUBMIT-JUNE2011-figures.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(./fandf-RESUBMIT-JUNE2011-figures.aux)
+\openout1 = `fandf-RESUBMIT-JUNE2011-figures.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\everyMPtoPDFconversion=\toks16
+)
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+[2]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf, i
+d=11, 483.8075pt x 216.81pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.p
+df Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pd
+f>
+Overfull \hbox (29.65999pt too wide) in paragraph at lines 41--42
+ [] 
+ []
+
+[3 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf
+>]
+</home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, id=20, 84
+5.1575pt x 597.23125pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf Graph
+ic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf>
+Overfull \hbox (29.65999pt too wide) in paragraph at lines 50--51
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 59.39658pt on input line 53.
+
+[4 </home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf, page i
+s rotated 90 degrees>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phyl
+o.pdf, id=28, 433.62pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel
+-phylo.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
+phylo.pdf>
+
+LaTeX Warning: Float too large for page by 105.62831pt on input line 62.
+
+[5 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-p
+hylo.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots-
+fandf.pdf, id=38, 794.97pt x 496.85625pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
+lots-fandf.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
+ots-fandf.pdf>
+Overfull \hbox (101.93pt too wide) in paragraph at lines 68--69
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 57.36346pt on input line 71.
+
+[6 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plo
+ts-fandf.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pd
+f, id=48, 578.16pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ta
+xo.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-tax
+o.pdf>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 77--78
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 25.82169pt on input line 81.
+
+[7 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo
+.pdf>]
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pd
+f, id=59, 794.97pt x 429.605pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MT
+Ls.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTL
+s.pdf>
+Overfull \hbox (20.55511pt too wide) in paragraph at lines 88--89
+ [] 
+ []
+
+[8 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs
+.pdf>] (./fandf-RESUBMIT-JUNE2011-figures.aux) ) 
+Here is how much of TeX's memory you used:
+ 993 strings out of 495061
+ 14741 string characters out of 1182622
+ 63464 words of memory out of 3000000
+ 4199 multiletter control sequences out of 15000+50000
+ 6376 words of font info for 23 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 32i,5n,21p,895b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr12.pfb>
+Output written on fandf-RESUBMIT-JUNE2011-figures.pdf (8 pages, 2614067 bytes).
+
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

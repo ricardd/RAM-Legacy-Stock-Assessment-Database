@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'AFWG', 'CAPENOR', 'MINTO', '2008-04-08', '2011-06-14 14:16:30', '1965-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'CapTool', 'Full details of the model used are in The methodology is described in “Stock assessment methodology for the
+ INSERT INTO srdb.assessment VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'AFWG', 'CAPENOR', 'MINTO', '2008-04-08', '2011-06-24 12:22:25', '1965-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'CapTool', 'Full details of the model used are in The methodology is described in “Stock assessment methodology for the
 Barents Sea capelin”, WD # 8 to AFWG 2006.', '../spreadsheets/MINTO-CAPENOR-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CAPENOR-1965-2007-MINTO', 'TY', 'RPRT') ; 

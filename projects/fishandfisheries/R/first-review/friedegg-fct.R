@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-22 11:27:04 (srdbadmin)>
+## last modified Time-stamp: <2011-06-23 20:42:11 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -21,7 +21,8 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ", sep="")
   tb.salt <- sqlQuery(chan,tb.salt.qu, stringsAsFactors=FALSE)
 
-## assessment-derived MSY reference points (i.e. pepper)
+
+  ## assessment-derived MSY reference points (i.e. pepper)
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
@@ -48,7 +49,9 @@ select tsv.assessid, a.maxyr, (tsv.catch_landings/tsv.total) as u, sp.fmsy, (tsv
 ", sep="")
   f.salt <- sqlQuery(chan,f.salt.qu, stringsAsFactors=FALSE)
 
-## assessment-derived MSY reference points (i.e. pepper)  
+  
+
+  ## assessment-derived MSY reference points (i.e. pepper)  
 #    salt.merged <- merge(tb.salt, f.salt, "assessid")
 #nn <- dim(salt.merged)[1]
 #  salt <- data.frame(assessid = salt.merged$assessid, currentyr = salt.merged$maxyr.x, b.ratio = salt.merged$ratio.x, u.ratio = salt.merged$ratio.y, type = rep("salt",nn), fromassessment = rep("no",nn))
@@ -286,6 +289,8 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
 
   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{1.5cm}p{1.5cm}p{1.5cm}p{3cm}p{3cm}p{2.5cm}p{0.9cm}p{1.4cm}p{0.9cm}p{0.9cm}p{0.9cm}p{1cm}")
   my.table.S2.withref <- xtable(crosshair.for.table.withref, caption=my.caption, label=c("tab:crosshair"), digits=2, align="cp{1.8cm}p{3.5cm}p{3.5cm}p{3cm}cccp{0.9cm}ccc")
+
+
 
 ## Table S1
   print(my.table.S2, type="latex", file="../../tex/first-review/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)

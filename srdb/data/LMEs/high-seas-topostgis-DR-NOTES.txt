@@ -1,4 +1,4 @@
-Last-modified Time-stamp: <2011-01-14 14:46:19 (srdbadmin)>
+Last-modified Time-stamp: <2011-06-23 22:42:37 (srdbadmin)>
 
 "HighSeas.shp" is shapefile from Olaf defining the polygons for the high seas regions
 
@@ -95,3 +95,8 @@ INSERT INTO lmes (SELECT * FROM caspianformatted);
 
 ## HACK JOB, a box
 INSERT INTO lmes VALUES (-95, -95, -999, -999, -999, -999, -95, 'Caspian Sea',-999, NULL, -999, -999, geomfromtext('MULTIPOLYGON(((51 37, 52 37, 52 45, 51 45, 51 37)))',4326 ));
+
+## another HACK JOB, a rough polygon to satisfy the F&F paper map
+## http://www.birdtheme.org/useful/googletool.html
+INSERT INTO lmes VALUES (-95, -95, -999, -999, -999, -999, -95, 'Caspian Sea',-999, NULL, -999, -999, geomfromtext('MULTIPOLYGON(((46.757813 44.865213, 49.570313 46.703709, 51.855469 46.82412, 53.085938 46.583028, 52.910156 45.853291, 51.679688 45.361409, 50.800781 44.74049, 50.449219 44.364704, 52.03125 42.837306, 52.734375 42.059081, 53.085938 39.801784, 53.964844 38.023862, 54.140625 37.188329, 52.03125 36.484907, 49.921875 37.188329, 49.21875 37.746394, 48.867188 39.123242, 49.746094 40.473695, 47.8125 42.708274, 46.757813 44.865213)))',4326 ));
+

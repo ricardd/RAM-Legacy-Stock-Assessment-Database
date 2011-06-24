@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-POPERCHPCOAST-1953-2007-BRANCH', 'NWFSC', 'POPERCHPCOAST', 'BRANCH', '2008-11-24', '2011-06-14 14:17:26', '1953-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/POP2007AssessmentFinal.pdf', '', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-POPERCHPCOAST-1953-2007-BRANCH', 'NWFSC', 'POPERCHPCOAST', 'BRANCH', '2008-11-24', '2011-06-24 12:22:55', '1953-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/POP2007AssessmentFinal.pdf', '', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-POPERCHPCOAST-1953-2007-BRANCH', 'ID', 'NWFSC-POPERCHPCOAST-2007-Pacific ocean perch.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-POPERCHPCOAST-1953-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-POPERCHPCOAST-1953-2007-BRANCH', 'A1', 'Hamel OS') ; 

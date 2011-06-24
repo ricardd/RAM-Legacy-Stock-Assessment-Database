@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-RSNAPEGM-1872-2003-STANTON', 'SEFSC', 'RSNAPEGM', 'STANTON', '2010-05-10', '2011-06-14 14:18:10', '1872-2003', '', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-RSNAPEGM-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-RSNAPEGM-1872-2003-STANTON', 'SEFSC', 'RSNAPEGM', 'STANTON', '2010-05-10', '2011-06-24 12:23:19', '1872-2003', '', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-RSNAPEGM-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPEGM-1872-2003-STANTON', 'ID', 'RedSnapper-SEDAR-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPEGM-1872-2003-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPEGM-1872-2003-STANTON', 'A1', 'SEDAR') ; 

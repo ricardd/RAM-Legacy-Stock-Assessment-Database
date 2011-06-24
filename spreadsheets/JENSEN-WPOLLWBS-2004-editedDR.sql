@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('VNIRO-WPOLLWBS-1994-2004-JENSEN', 'VNIRO', 'WPOLLWBS', 'JENSEN', '2009-11-11', '2011-06-14 14:17:51', '1994-2004', 'report received via email from Ray Hilborn', 'Ray Hilborn', 'stock area unclear - title refers to Navarin Walleye Pollock, but catch is higher than SAUP catch for pollock in WBS', '', 1, 0, 'ISVPA', '', '../spreadsheets/JENSEN-WPOLLWBS-2004-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('VNIRO-WPOLLWBS-1994-2004-JENSEN', 'VNIRO', 'WPOLLWBS', 'JENSEN', '2009-11-11', '2011-06-24 12:23:09', '1994-2004', 'report received via email from Ray Hilborn', 'Ray Hilborn', 'stock area unclear - title refers to Navarin Walleye Pollock, but catch is higher than SAUP catch for pollock in WBS', '', 1, 0, 'ISVPA', '', '../spreadsheets/JENSEN-WPOLLWBS-2004-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('VNIRO-WPOLLWBS-1994-2004-JENSEN', 'ID', 'WPOLLWBS-2004-JENSEN.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('VNIRO-WPOLLWBS-1994-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('VNIRO-WPOLLWBS-1994-2004-JENSEN', 'A1', 'Vasilyev, D.A.') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-CTRACSA-1950-2007-Johnston', 'MARAM', 'CTRACSA', 'Johnston', '2009-02-12', '2011-06-14 14:16:22', '1950-2007', 'Assessment conducted personally', 'Susan Johnston, susan.holloway@uct.ac.za', '', '', 1, 0, 'ASPM', 'age-structured production model', '../spreadsheets/Johnston-SAHorseMackerel-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-CTRACSA-1950-2007-Johnston', 'MARAM', 'CTRACSA', 'Johnston', '2009-02-12', '2011-06-24 12:22:21', '1950-2007', 'Assessment conducted personally', 'Susan Johnston, susan.holloway@uct.ac.za', '', '', 1, 0, 'ASPM', 'age-structured production model', '../spreadsheets/Johnston-SAHorseMackerel-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-CTRACSA-1950-2007-Johnston', 'ID', 'Johnston-SAHorseMackerel-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-CTRACSA-1950-2007-Johnston', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-CTRACSA-1950-2007-Johnston', 'A1', 'Johnston, S.J.') ; 

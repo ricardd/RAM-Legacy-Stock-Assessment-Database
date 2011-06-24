@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-CODGOM-1893-2008-BAUM', 'NEFSC', 'CODGOM', 'BAUM', '2008-11-04', '2011-06-14 14:17:56', '1893-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock (Gulf of Maine cod) covers NAFO area 5Y.', '', 1, 1, 'ADAPT', '', '../spreadsheets/BAUM-CODGOM-2008-rkmayo-edits-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-CODGOM-1893-2008-BAUM', 'NEFSC', 'CODGOM', 'BAUM', '2008-11-04', '2011-06-24 12:23:12', '1893-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock (Gulf of Maine cod) covers NAFO area 5Y.', '', 1, 1, 'ADAPT', '', '../spreadsheets/BAUM-CODGOM-2008-rkmayo-edits-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGOM-1893-2008-BAUM', 'ID', 'NMFS-GOM-Gadusmorhua-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGOM-1893-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGOM-1893-2008-BAUM', 'A1', 'Northeast Fisheries Science Center') ; 

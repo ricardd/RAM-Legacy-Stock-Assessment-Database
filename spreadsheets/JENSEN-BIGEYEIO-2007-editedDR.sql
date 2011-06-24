@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IOTC-BIGEYEIO-1957-2006-JENSEN', 'IOTC', 'BIGEYEIO', 'JENSEN', '2009-04-08', '2011-06-14 14:16:27', '1957-2006', 'http://www.iotc.org/files/proceedings/2007/sc/IOTC-2007-SC-R%5BE%5D.pdf', '', 'SSB and F timeseries taken from figures', '', 1, 0, 'ASPM', '', '../spreadsheets/JENSEN-BIGEYEIO-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IOTC-BIGEYEIO-1957-2006-JENSEN', 'IOTC', 'BIGEYEIO', 'JENSEN', '2009-04-08', '2011-06-24 12:22:24', '1957-2006', 'http://www.iotc.org/files/proceedings/2007/sc/IOTC-2007-SC-R%5BE%5D.pdf', '', 'SSB and F timeseries taken from figures', '', 1, 0, 'ASPM', '', '../spreadsheets/JENSEN-BIGEYEIO-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IOTC-BIGEYEIO-1957-2006-JENSEN', 'ID', 'JENSEN-BIGEYEIO-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IOTC-BIGEYEIO-1957-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IOTC-BIGEYEIO-1957-2006-JENSEN', 'T1', 'Report of the tenth session of the scientific committee') ; 

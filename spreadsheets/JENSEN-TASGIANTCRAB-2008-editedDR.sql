@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('TAFI-TASGIANTCRABTAS-1990-2007-JENSEN', 'TAFI', 'TASGIANTCRABTAS', 'JENSEN', '2008-11-29', '2011-06-14 14:16:03', '1990-2007', 'http://www.tafi.org.au/publications/GC_2006-07_Assessment_report_FINALcover.pdf', 'Phillipe Ziegler (Philippe.Ziegler@utas.edu.au), Malcolm Haddon (Malcolm.Haddon@utas.edu.au)', '', '', 1, 0, 'SBM', 'years represent the end year of a fishing season', '../spreadsheets/JENSEN-TASGIANTCRAB-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('TAFI-TASGIANTCRABTAS-1990-2007-JENSEN', 'TAFI', 'TASGIANTCRABTAS', 'JENSEN', '2008-11-29', '2011-06-24 12:22:11', '1990-2007', 'http://www.tafi.org.au/publications/GC_2006-07_Assessment_report_FINALcover.pdf', 'Phillipe Ziegler (Philippe.Ziegler@utas.edu.au), Malcolm Haddon (Malcolm.Haddon@utas.edu.au)', '', '', 1, 0, 'SBM', 'years represent the end year of a fishing season', '../spreadsheets/JENSEN-TASGIANTCRAB-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('TAFI-TASGIANTCRABTAS-1990-2007-JENSEN', 'ID', 'JENSEN_TASGIANTCRAB_2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('TAFI-TASGIANTCRABTAS-1990-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('TAFI-TASGIANTCRABTAS-1990-2007-JENSEN', 'A1', 'Phillippe Ziegler') ; 

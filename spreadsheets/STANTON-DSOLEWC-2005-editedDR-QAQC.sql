@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-DSOLEPCOAST-1910-2005-STANTON', 'SWFSC', 'DSOLEPCOAST', 'STANTON', '2009-05-18', '2011-06-14 14:17:35', '1910-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-DSOLEWC-2005-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-DSOLEPCOAST-1910-2005-STANTON', 'SWFSC', 'DSOLEPCOAST', 'STANTON', '2009-05-18', '2011-06-24 12:23:00', '1910-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-DSOLEWC-2005-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-DSOLEPCOAST-1910-2005-STANTON', 'ID', '2005-SAFE-WCdover.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-DSOLEPCOAST-1910-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-DSOLEPCOAST-1910-2005-STANTON', 'A1', 'Sampson, David') ; 

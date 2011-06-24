@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS', 'NZMFishHOKIWG', 'HOKIWNZ', 'FRANCIS', '2008-09-18', '2011-06-14 14:16:50', '1972-2007', 'Chris Francis', '', '', '', 1, 1, 'CASAL', 'Time series are point estimates (not Bayesian) for W stock from model 4.4', '../spreadsheets/FRANCIS-HOK1W-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS', 'NZMFishHOKIWG', 'HOKIWNZ', 'FRANCIS', '2008-09-18', '2011-06-24 12:22:36', '1972-2007', 'Chris Francis', '', '', '', 1, 1, 'CASAL', 'Time series are point estimates (not Bayesian) for W stock from model 4.4', '../spreadsheets/FRANCIS-HOK1W-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS', 'ID', 'FAR0804hok07.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS', 'A1', 'Francis, R.I.C.C.') ; 

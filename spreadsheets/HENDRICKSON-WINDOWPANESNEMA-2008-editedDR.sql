@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON', 'NEFSC', 'WINDOWSNEMATL', 'HENDRICKSON', '2009-04-20', '2011-06-14 14:18:02', '1975-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'SURBA', 'used NMFS SA Toolbox method called "AIM"; An Index-based Method', '../spreadsheets/HENDRICKSON-WINDOWPANESNEMA-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON', 'NEFSC', 'WINDOWSNEMATL', 'HENDRICKSON', '2009-04-20', '2011-06-24 12:23:14', '1975-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'SURBA', 'used NMFS SA Toolbox method called "AIM"; An Index-based Method', '../spreadsheets/HENDRICKSON-WINDOWPANESNEMA-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON', 'ID', 'garm3q.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON', 'A1', 'Northeast Fisheries Science Center') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-OPOUTNWATLC-1962-2008-WIGLEY', 'NEFSC', 'OPOUTNWATLC', 'WIGLEY', '2008-12-11', '2011-06-14 14:17:58', '1962-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 0, 1, 'Survey indices', 'landings and survey indices', '../spreadsheets/WIGLEY-POUT-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-OPOUTNWATLC-1962-2008-WIGLEY', 'NEFSC', 'OPOUTNWATLC', 'WIGLEY', '2008-12-11', '2011-06-24 12:23:12', '1962-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 0, 1, 'Survey indices', 'landings and survey indices', '../spreadsheets/WIGLEY-POUT-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-OPOUTNWATLC-1962-2008-WIGLEY', 'ID', '') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-OPOUTNWATLC-1962-2008-WIGLEY', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-OPOUTNWATLC-1962-2008-WIGLEY', 'A1', 'Northeast Fisheries Science Center') ; 

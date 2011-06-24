@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-05-03 13:42:08 (srdbadmin)>
+# Last modified: Time-stamp: <2011-06-10 11:26:47 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -8,6 +8,7 @@
 # 2008-11-27: adding code to INSERT reference document data into appropriate tables
 # 2008-12-02: adding code to correctly handle the date format coming from Excel, needs the "use DateTime::Format::Excel" package. had to be installed from CPAN
 # 2011-05-03: edits to capture the addition of a "mostrecent" column in srdb.assessment
+# 2011-06-10: this script still stored "YEAR" as a separate timeseries, I fixed that
 use strict;
 use Spreadsheet::ParseExcel;
 #use DateTime::Format::Excel;
@@ -44,7 +45,7 @@ $mostrecent="999";
 my($iR, $iC, $oWkS, $oWkC, $excel);
 
 
-# first, obtain minimum and maximum YEAR in the time-series, to assing "assessyear"
+# first, obtain minimum and maximum YEAR in the time-series, to assign "assessyear"
 my $iSheet=2;
 $oWkS = $oBook->{Worksheet}[$iSheet];
 #print ("$oWkS->{MinRow} \t $oWkS->{MaxRow}\n");
@@ -162,7 +163,7 @@ $iSheet=2;
 #print(" $oWkS->{MinCol} \n");
 #print(" $oWkS->{MaxCol} \n");
 
-for($iC = $oWkS->{MinCol}+2;
+for($iC = $oWkS->{MinCol}+3;
       defined $oWkS->{MaxCol} && $iC <= $oWkS->{MaxCol} ;
       $iC++)
   {

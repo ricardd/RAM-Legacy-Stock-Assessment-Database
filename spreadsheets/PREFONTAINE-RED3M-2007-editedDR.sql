@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE', 'NAFO-SC', 'REDFISHSPP3M', 'PREFONTAINE', '2008-07-28', '2011-06-14 14:17:13', '1989-2006', 'URL', 'contact details ', 'this is a test entry only', '', 1, 0, 'XSA', 'no comments', '../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE', 'NAFO-SC', 'REDFISHSPP3M', 'PREFONTAINE', '2008-07-28', '2011-06-24 12:22:48', '1989-2006', 'URL', 'contact details ', 'this is a test entry only', '', 1, 0, 'XSA', 'no comments', '../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE', 'ID', 'NAFO-RED3M-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3M-1989-2006-PREFONTAINE', 'A1', 'Àvila de Melo, A. M.') ; 

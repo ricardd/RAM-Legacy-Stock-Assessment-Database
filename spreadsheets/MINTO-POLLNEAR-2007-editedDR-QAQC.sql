@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-POLLNEAR-1957-2006-MINTO', 'AFWG', 'POLLNEAR', 'MINTO', '2008-04-07', '2011-06-14 14:16:32', '1957-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-POLLNEAR-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFWG-POLLNEAR-1957-2006-MINTO', 'AFWG', 'POLLNEAR', 'MINTO', '2008-04-07', '2011-06-24 12:22:26', '1957-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-AFWG-2007.pdf', 1, 1, 'XSA', 'NULL', '../spreadsheets/MINTO-POLLNEAR-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-POLLNEAR-1957-2006-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-POLLNEAR-1957-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-POLLNEAR-1957-2006-MINTO', 'A1', 'Anonymous') ; 

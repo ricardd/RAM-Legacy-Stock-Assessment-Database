@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2010-12-02 18:39:13 (srdbadmin)>
+# Last modified: Time-stamp: <2011-06-24 12:17:40 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -32,7 +32,7 @@ my $oBook = $oExcel->Parse($ARGV[0]);
 #die "The spreadsheet does not have 3 worksheets" unless $oBook->{SheetCount} == 3;
 die "The spreadsheet does not have 4 worksheets" unless $oBook->{SheetCount} == 4;
 
-print("BEGIN\nProcessing the following Excel file: $ARGV[0] \n\n");
+#print("BEGIN\nProcessing the following Excel file: $ARGV[0] \n\n");
 
 # open a new SQL file that will contain all INSERT statements
 my $sqlfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".sql";
@@ -179,7 +179,7 @@ print SQLFILE "$sqlbiometrics; \n";
 #my $sth = $dbh->prepare( $sqlbiometrics );
 #$sth->execute();
 #  }
-print "Biometrics loaded successfully.\n";
+#print "Biometrics loaded successfully.\n";
 
 # timeseries sheet
 # variables for time-series
@@ -219,7 +219,7 @@ for($iC = $oWkS->{MinCol}+2;
       } # end loop across rows
   }
 
-print "Time-series loaded successfully.\n";
+#print "Time-series loaded successfully.\n";
 
 #$assessyear 
 
@@ -238,12 +238,13 @@ $dbh->disconnect();
 
 
 
-print "\nDatetime stamp for database input: $dateloaded \n $ARGV[0] \nEND\n\n\n\n";
+#print "\nDatetime stamp for database input: $dateloaded \n $ARGV[0] \nEND\n\n\n\n";
 
 print SQLFILE "COMMIT;";
 close SQLFILE;
+print "$sqlfile\n";
 
 # send the batch file to postgresql 
 #my @sqlcall =`psql srDB -f $sqlfile 2> $sqllogfile`;
-my @sqlcall =`psql srdb -f $sqlfile 2> $sqllogfile`;
+#my @sqlcall =`psql srdb -f $sqlfile 2> $sqllogfile`;
 #my @sqlcall =`/usr/lib/postgresql/8.4/bin/psql srdb -p 5435 -f $sqlfile 2> $sqllogfile`;

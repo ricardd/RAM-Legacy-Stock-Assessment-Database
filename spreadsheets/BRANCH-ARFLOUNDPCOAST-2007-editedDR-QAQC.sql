@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH', 'NWFSC', 'ARFLOUNDPCOAST', 'BRANCH', '2008-11-19', '2011-06-14 14:17:23', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ArrowtoothAssess_Aug22.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH', 'NWFSC', 'ARFLOUNDPCOAST', 'BRANCH', '2008-11-19', '2011-06-24 12:22:54', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ArrowtoothAssess_Aug22.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH', 'ID', 'NWFSC-ARFLOUNDPCOAST-2007-Arrowtooth flounder.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH', 'A1', 'Kaplan, I.C.') ; 

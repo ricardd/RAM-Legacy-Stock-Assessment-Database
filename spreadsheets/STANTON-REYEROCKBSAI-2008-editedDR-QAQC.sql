@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-REYEROCKBSAI-1974-2009-STANTON', 'AFSC', 'REYEROCKBSAI', 'STANTON', '2009-03-31', '2011-06-14 14:17:32', '1974-2009', 'http://www.afsc.noaa.gov/REFM/docs/2008/BSAIrougheye.pdf', 'Paul Spencer', 'Assessed together with blackspotted rockfish (Sebastes melanostictus)', '', 1, 1, 'AD-CAM', 'Rougheye was split into two species but assessed as one. Other spp: Sebastes melanostictus', '../spreadsheets/STANTON-REYEROCKBSAI-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-REYEROCKBSAI-1974-2009-STANTON', 'AFSC', 'REYEROCKBSAI', 'STANTON', '2009-03-31', '2011-06-24 12:22:59', '1974-2009', 'http://www.afsc.noaa.gov/REFM/docs/2008/BSAIrougheye.pdf', 'Paul Spencer', 'Assessed together with blackspotted rockfish (Sebastes melanostictus)', '', 1, 1, 'AD-CAM', 'Rougheye was split into two species but assessed as one. Other spp: Sebastes melanostictus', '../spreadsheets/STANTON-REYEROCKBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REYEROCKBSAI-1974-2009-STANTON', 'ID', '2008 SAFE BSAIrougheye.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REYEROCKBSAI-1974-2009-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REYEROCKBSAI-1974-2009-STANTON', 'A1', 'Spencer PD') ; 

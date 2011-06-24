@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2010-07-15 23:36:20 (srdbadmin)>
+# Last modified: Time-stamp: <2010-12-02 18:39:13 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -19,7 +19,7 @@ use POSIX qw(strftime);
 use DBI;
 #my $dbh = DBI->connect('dbi:Pg:dbname=gfsDB;host=localhost;port=5433','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
 #my $dbh = DBI->connect('dbi:Pg:dbname=srDB;host=localhost;port=5432','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
-my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5432','ricardd','ricardd')|| die "Database connection not made: $DBI::errstr";
+my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5432','srdbadmin','srd6adm1n!')|| die "Database connection not made: $DBI::errstr";
 
 my $oExcel = new Spreadsheet::ParseExcel;
 
@@ -246,3 +246,4 @@ close SQLFILE;
 # send the batch file to postgresql 
 #my @sqlcall =`psql srDB -f $sqlfile 2> $sqllogfile`;
 my @sqlcall =`psql srdb -f $sqlfile 2> $sqllogfile`;
+#my @sqlcall =`/usr/lib/postgresql/8.4/bin/psql srdb -p 5435 -f $sqlfile 2> $sqllogfile`;

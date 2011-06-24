@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'DFO-NFLD', 'AMPL3Ps', 'PREFONTAINE', '2008-07-04', '2011-06-14 14:17:14', '1960-2005', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'this is a test entry only', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'DFO-NFLD', 'AMPL3Ps', 'PREFONTAINE', '2008-07-04', '2011-06-24 12:22:49', '1960-2005', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'this is a test entry only', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'ID', 'NAFO-AMPL3Ps-2005') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'A1', 'Morgan, M.J.') ; 

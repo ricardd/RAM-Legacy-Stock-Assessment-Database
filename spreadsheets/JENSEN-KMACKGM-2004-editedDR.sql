@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-KMACKGM-1992-2001-JENSEN', 'SEFSC', 'KMACKGM', 'JENSEN', '2008-11-23', '2011-06-14 14:17:19', '1992-2001', 'http://www.sefsc.noaa.gov/sedar/download/S5_SAR1_complete.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'VPA', 'years of time series data refer to the start year, i.e. 1992 is 1992-1993', '../spreadsheets/JENSEN-KMACKGM-2004-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-KMACKGM-1992-2001-JENSEN', 'SEFSC', 'KMACKGM', 'JENSEN', '2008-11-23', '2011-06-24 12:22:52', '1992-2001', 'http://www.sefsc.noaa.gov/sedar/download/S5_SAR1_complete.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'VPA', 'years of time series data refer to the start year, i.e. 1992 is 1992-1993', '../spreadsheets/JENSEN-KMACKGM-2004-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKGM-1992-2001-JENSEN', 'ID', 'JENSEN_KMACKGMSATLC_2004') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKGM-1992-2001-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-KMACKGM-1992-2001-JENSEN', 'A1', 'NULL') ; 

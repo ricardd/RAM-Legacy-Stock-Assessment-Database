@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-06-17 14:55:16 (srdbadmin)>
+## Last modified: Time-stamp: <2011-06-23 14:44:22 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -40,11 +40,11 @@ par(mfrow=c(3,2))
 #fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","Clupeiformes","TRUE")
 #fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","Decapoda","TRUE")
 fried.egg.fct("taxo"," ordername = 'Gadiformes'","Gadiformes","FALSE","TRUE","a)","TRUE")
-fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","b)","TRUE")
-fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","FALSE","TRUE","c)","TRUE")
-fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","TRUE","TRUE","d)","TRUE")
-fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","e)","TRUE")
-fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","f)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","TRUE","TRUE","b)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","TRUE","TRUE","c)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","d)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","FALSE","TRUE","e)","TRUE")
+fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","FALSE","FALSE","f)","TRUE")
 dev.off()
 
 ## now use some logic to assign each species to a taxonomic group, either Invertebrate, Pelagic, Demersal or Sharks/Rays
@@ -206,14 +206,14 @@ fried.egg.fct("mgmt",c("('NMFS','US State')"),"NMFS","FALSE","FALSE","b)","TRUE"
 # MFish
 fried.egg.fct("mgmt",c("('MFish')"),"MFish","FALSE","FALSE","c)","TRUE")
 
+# AFMA
+fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","d)","TRUE")
+
 # ICES
-fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","d)","TRUE")
+fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","e)","TRUE")
 
 # DFO
-fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","e)","TRUE")
-
-# AFMA
-fried.egg.fct("mgmt",c("('AFMA')"),"AFMA","FALSE","TRUE","f)","TRUE")
+fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","f)","TRUE")
 
 
 mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)

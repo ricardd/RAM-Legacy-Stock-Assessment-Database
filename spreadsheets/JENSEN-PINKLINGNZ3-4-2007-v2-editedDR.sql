@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN', 'NZMFishMIDDEPTHSWG', 'NZLINGLIN3-4', 'JENSEN', '2009-03-09', '2011-06-14 14:16:55', '1972-2007', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'M = 0.18 - base model', '', 1, 1, 'CASAL', '', '../spreadsheets/JENSEN-PINKLINGNZ3-4-2007-v2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN', 'NZMFishMIDDEPTHSWG', 'NZLINGLIN3-4', 'JENSEN', '2009-03-09', '2011-06-24 12:22:38', '1972-2007', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'M = 0.18 - base model', '', 1, 1, 'CASAL', '', '../spreadsheets/JENSEN-PINKLINGNZ3-4-2007-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN', 'ID', 'CORDUEperscomm') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN', 'A1', 'Cordue, PatrickL.') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN', 'T1', 'Personal communication') ; 

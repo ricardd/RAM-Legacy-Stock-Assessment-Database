@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ICCAT', 'SWORDNATL', 'JENSEN', '2009-04-10', '2011-06-14 14:16:26', '1978-2007', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'same pdf as SWORDSATL - stock and recruitment timeseries from base case VPA', '../spreadsheets/JENSEN-SWORDNATL-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ICCAT', 'SWORDNATL', 'JENSEN', '2009-04-10', '2011-06-24 12:22:23', '1978-2007', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_swo.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'same pdf as SWORDSATL - stock and recruitment timeseries from base case VPA', '../spreadsheets/JENSEN-SWORDNATL-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'ID', 'JENSEN-SWORDSATL-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDNATL-1978-2007-JENSEN', 'T1', 'Report of the 2006 {A}tlantic swordfish stock assessment session') ; 

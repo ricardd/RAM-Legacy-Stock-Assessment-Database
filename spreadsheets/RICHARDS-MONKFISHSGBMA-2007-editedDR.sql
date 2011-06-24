@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-MONKSGBMATL-1964-2006-RICHARDS', 'NEFSC', 'MONKSGBMATL', 'RICHARDS', '2009-05-01', '2011-06-14 14:18:02', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0721/', '', 'Data limited species, assessment considered highly uncertain', '', 1, 1, 'SBM', 'NFT SCALE (statistical catch-at-length) model used, significant data limitations and new model are reasons for caution', '../spreadsheets/RICHARDS-MONKFISHSGBMA-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-MONKSGBMATL-1964-2006-RICHARDS', 'NEFSC', 'MONKSGBMATL', 'RICHARDS', '2009-05-01', '2011-06-24 12:23:15', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0721/', '', 'Data limited species, assessment considered highly uncertain', '', 1, 1, 'SBM', 'NFT SCALE (statistical catch-at-length) model used, significant data limitations and new model are reasons for caution', '../spreadsheets/RICHARDS-MONKFISHSGBMA-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKSGBMATL-1964-2006-RICHARDS', 'ID', 'Monkfish2007NEFSCAssessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKSGBMATL-1964-2006-RICHARDS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKSGBMATL-1964-2006-RICHARDS', 'A1', 'Northeast Fisheries Science Center') ; 

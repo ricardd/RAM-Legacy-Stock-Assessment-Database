@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'NEFSC', 'WEAKFISHATLC', 'STANTON', '2010-04-11', '2011-06-14 14:17:09', '1981-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0910/', '', '', '', 1, 1, 'ADAPT', 'Assessment category classified as VPA', '../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'NEFSC', 'WEAKFISHATLC', 'STANTON', '2010-04-11', '2011-06-24 12:22:46', '1981-2008', 'http://www.nefsc.noaa.gov/publications/crd/crd0910/', '', '', '', 1, 1, 'ADAPT', 'Assessment category classified as VPA', '../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'ID', 'NEFSC-Weakfish-2009') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WEAKFISHATLC-1981-2008-STANTON', 'A1', 'Anonymous') ; 

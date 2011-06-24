@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-POLL5YZ-1963-2007-MAYO', 'NEFSC', 'POLL5YZ', 'MAYO', '2009-04-20', '2011-06-14 14:18:04', '1963-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2018 deadline.', '', 1, 1, 'AIM', 'no comments', '../spreadsheets/MAYO-POLLOCK-5YZ-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-POLL5YZ-1963-2007-MAYO', 'NEFSC', 'POLL5YZ', 'MAYO', '2009-04-20', '2011-06-24 12:23:15', '1963-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2018 deadline.', '', 1, 1, 'AIM', 'no comments', '../spreadsheets/MAYO-POLLOCK-5YZ-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-POLL5YZ-1963-2007-MAYO', 'ID', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-POLL5YZ-1963-2007-MAYO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-POLL5YZ-1963-2007-MAYO', 'A1', 'Northeast Fisheries Science Center') ; 

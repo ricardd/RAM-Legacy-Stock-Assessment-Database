@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON', 'NWFSC', 'KELPGREENLINGORECOAST', 'STANTON', '2009-05-22', '2011-06-14 14:17:53', '1979-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'Jason Cope copejasonm@gmail.com', 'Assessment for Oregon  Coast only', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-KelpGreenling-2005-Cope2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON', 'NWFSC', 'KELPGREENLINGORECOAST', 'STANTON', '2009-05-22', '2011-06-24 12:23:10', '1979-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'Jason Cope copejasonm@gmail.com', 'Assessment for Oregon  Coast only', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-KelpGreenling-2005-Cope2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON', 'ID', 'KelpGreenling_2005') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON', 'A1', 'Cope, Jason') ; 

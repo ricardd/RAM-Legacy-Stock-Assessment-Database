@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK', 'AFSC', 'SABLEFEBSAIGA', 'MELNYCHUK', '2009-04-14', '2011-06-14 14:16:59', '1956-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIsablefish.pdf', 'Dana Hanselman', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-SABLEFEBSAIGA-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK', 'AFSC', 'SABLEFEBSAIGA', 'MELNYCHUK', '2009-04-14', '2011-06-24 12:22:41', '1956-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIsablefish.pdf', 'Dana Hanselman', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-SABLEFEBSAIGA-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK', 'ID', 'AFSC-SABLEFEBSAIGA-2008-Sablefish-EBS-AI-GA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK', 'A1', 'Hanselman, D.') ; 

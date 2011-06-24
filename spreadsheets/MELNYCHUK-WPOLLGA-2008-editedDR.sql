@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-WPOLLGA-1964-2008-MELNYCHUK', 'AFSC', 'WPOLLGA', 'MELNYCHUK', '2009-04-16', '2011-06-14 14:17:38', '1964-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOApollock.pdf', 'Martin Dorn', 'catches from 1986-1990 were adjusted for discards; catches from 1997-2007 include dicards; unsure about 1991-1996', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-WPOLLGA-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-WPOLLGA-1964-2008-MELNYCHUK', 'AFSC', 'WPOLLGA', 'MELNYCHUK', '2009-04-16', '2011-06-24 12:23:02', '1964-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOApollock.pdf', 'Martin Dorn', 'catches from 1986-1990 were adjusted for discards; catches from 1997-2007 include dicards; unsure about 1991-1996', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-WPOLLGA-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLGA-1964-2008-MELNYCHUK', 'ID', 'AFSC-WPOLLGA-2008-Walleye pollock GA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLGA-1964-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLGA-1964-2008-MELNYCHUK', 'A1', 'Dorn, Martin') ; 

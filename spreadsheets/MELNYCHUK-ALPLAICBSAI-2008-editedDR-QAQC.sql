@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK', 'AFSC', 'ALPLAICBSAI', 'MELNYCHUK', '2009-04-14', '2011-06-14 14:17:38', '1972-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIplaice.pdf', 'Thomas Wilderbuer, Tom.Wilderbuer@noaa.gov', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/MELNYCHUK-ALPLAICBSAI-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK', 'AFSC', 'ALPLAICBSAI', 'MELNYCHUK', '2009-04-14', '2011-06-24 12:23:02', '1972-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIplaice.pdf', 'Thomas Wilderbuer, Tom.Wilderbuer@noaa.gov', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/MELNYCHUK-ALPLAICBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK', 'ID', 'AFSC-ALPLAICBSAI-2008-Alaska plaice BSAI.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK', 'A1', 'Wilderbuer WT') ; 

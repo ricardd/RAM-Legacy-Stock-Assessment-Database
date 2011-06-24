@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN', 'SEFSC', 'MUTSNAPSATLCGM', 'JENSEN', '2008-11-25', '2011-06-14 14:17:15', '1981-2006', 'http://www.sefsc.noaa.gov/sedar/download/S15%20SAR%203%20Final.pdf?id=DOCUMENT', '', '', '', 1, 1, 'SCA', 'not in Fogarty files', '../spreadsheets/JENSEN-MUTSNAPSATLCGM-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN', 'SEFSC', 'MUTSNAPSATLCGM', 'JENSEN', '2008-11-25', '2011-06-24 12:22:49', '1981-2006', 'http://www.sefsc.noaa.gov/sedar/download/S15%20SAR%203%20Final.pdf?id=DOCUMENT', '', '', '', 1, 1, 'SCA', 'not in Fogarty files', '../spreadsheets/JENSEN-MUTSNAPSATLCGM-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN', 'ID', 'JENSEN_MUTSNAPSATLCGM_2008') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN', 'Y1', '2008') ; 

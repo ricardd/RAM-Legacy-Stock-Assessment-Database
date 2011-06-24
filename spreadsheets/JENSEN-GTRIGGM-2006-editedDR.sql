@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-GTRIGGM-1981-2004-JENSEN', 'SEFSC', 'GTRIGGM', 'JENSEN', '2008-11-21', '2011-06-14 14:17:00', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/download/SEDAR9_SAR1%20Gray%20Triggerfish.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPM', 'State-space Age-structured Surplus Production Model', '../spreadsheets/JENSEN-GTRIGGM-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-GTRIGGM-1981-2004-JENSEN', 'SEFSC', 'GTRIGGM', 'JENSEN', '2008-11-21', '2011-06-24 12:22:41', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/download/SEDAR9_SAR1%20Gray%20Triggerfish.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPM', 'State-space Age-structured Surplus Production Model', '../spreadsheets/JENSEN-GTRIGGM-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GTRIGGM-1981-2004-JENSEN', 'ID', 'JENSEN_GTRIGGM_2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GTRIGGM-1981-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GTRIGGM-1981-2004-JENSEN', 'A1', 'Anonymous') ; 

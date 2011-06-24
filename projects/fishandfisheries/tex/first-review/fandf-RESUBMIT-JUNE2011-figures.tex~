@@ -1,0 +1,68 @@
+%% Last modified: Time-stamp: <2011-06-23 11:53:21 (srdbadmin)>
+%% a single pdf with all the figures for the Fish and Fisheries June 24 2011 resubmission
+\documentclass[letterpaper,12pt]{article}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=8in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/orca-plot.pdf}
+\end{center}
+\caption{ }\label{fig:orca}
+\end{figure}
+\end{landscape}
+
+\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=8in]{/home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.pdf}
+\end{center}
+\caption{ }\label{fig:lmes}
+\end{figure}
+\end{landscape}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[height=8.5in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-phylo.pdf} % fishbase_saup_two_panel_phylo.pdf}
+\end{center}
+\caption{ }\label{fig:taxo:threepanel}
+\end{figure}
+
+
+\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=9in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots-fandf.pdf}
+\end{center}
+\caption{ }\label{fig:friedegg}
+\end{figure}
+\end{landscape}
+
+%For the top 6 taxonomic orders (Figure~\ref{fig:taxo}).
+\begin{figure}
+\begin{center}
+\includegraphics[width=15cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pdf}
+\end{center}
+\caption{ }
+\label{fig:taxo}
+\end{figure}
+
+%By trophic level (Figure~\ref{fig:mtl}).
+
+\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=20cm]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pdf}
+\end{center}
+\caption{ }
+\label{fig:mtl}
+\end{figure}
+\end{landscape}
+
+\end{document}

@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-06-10 23:31:51 (srdbadmin)>
+# Last modified Time-stamp: <2011-06-17 21:00:30 (srdbadmin)>
 # Modification history:
 # 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls
@@ -435,7 +435,7 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SHEPHERD-BLUEFISH-20
 
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/NITSCHKE-TILEFISH-2005-editedDR.xls
 
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR.xls
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR-QAQC.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-SPINYDOGFISH-2006-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-BARNDOORSKATE-2007-editedDR.xls
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/SOSBEE-CLEARNOSESKATE-2007-editedDR.xls

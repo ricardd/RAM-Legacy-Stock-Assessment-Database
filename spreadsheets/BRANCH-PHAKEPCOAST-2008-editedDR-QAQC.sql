@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-PHAKEPCOAST-1966-2008-BRANCH', 'NWFSC', 'PHAKEPCOAST', 'BRANCH', '2008-11-24', '2011-06-14 14:17:29', '1966-2008', 'http://www.pcouncil.org/groundfish/gfsafe1008/pacific_hake_assessment_2008_FINAL.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-PHAKEPCOAST-1966-2008-BRANCH', 'NWFSC', 'PHAKEPCOAST', 'BRANCH', '2008-11-24', '2011-06-24 12:22:57', '1966-2008', 'http://www.pcouncil.org/groundfish/gfsafe1008/pacific_hake_assessment_2008_FINAL.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PHAKEPCOAST-1966-2008-BRANCH', 'ID', 'NWFSC-PHAKEPCOAST-2008-Pacific-Hake-US-Canada.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PHAKEPCOAST-1966-2008-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PHAKEPCOAST-1966-2008-BRANCH', 'A1', 'Helser, Thomas E.') ; 

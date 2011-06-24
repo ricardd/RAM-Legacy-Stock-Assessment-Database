@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-YTSNAPSATLCGM-1962-2001-STANTON', 'SEFSC', 'YTSNAPSATLCGM', 'STANTON', '2009-06-01', '2011-06-14 14:17:46', '1962-2001', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-YTSNAPSATLCGM-1962-2001-STANTON', 'SEFSC', 'YTSNAPSATLCGM', 'STANTON', '2009-06-01', '2011-06-24 12:23:06', '1962-2001', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-YTSNAPSATLCGM-1962-2001-STANTON', 'ID', '2003_SEDAR_Yellowtailsnapper') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-YTSNAPSATLCGM-1962-2001-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-YTSNAPSATLCGM-1962-2001-STANTON', 'A1', 'Muller, R') ; 

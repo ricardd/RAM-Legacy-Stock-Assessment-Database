@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN', 'NZMFishINSHOREWG', 'NZSNAPNZ8', 'JENSEN', '2009-03-24', '2011-06-14 14:16:51', '1931-2005', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', '', '', 1, 1, 'CASAL', 'total biomass measured at time of spawning (beginning of year) - same as ssb', '../spreadsheets/JENSEN-SQUIREFISHNZ8-2005-v2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN', 'NZMFishINSHOREWG', 'NZSNAPNZ8', 'JENSEN', '2009-03-24', '2011-06-24 12:22:36', '1931-2005', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', '', '', 1, 1, 'CASAL', 'total biomass measured at time of spawning (beginning of year) - same as ssb', '../spreadsheets/JENSEN-SQUIREFISHNZ8-2005-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN', 'ID', 'CORDUEperscomm') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN', 'A1', 'Cordue, PatrickL.') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN', 'T1', 'Personal communication') ; 

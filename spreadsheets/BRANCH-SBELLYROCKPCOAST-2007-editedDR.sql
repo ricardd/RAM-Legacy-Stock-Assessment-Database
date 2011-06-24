@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH', 'SWFSC', 'SBELLYROCKPCOAST', 'BRANCH', '2008-11-24', '2011-06-14 14:17:28', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe1008/shortbellyTM2007.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH', 'SWFSC', 'SBELLYROCKPCOAST', 'BRANCH', '2008-11-24', '2011-06-24 12:22:57', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe1008/shortbellyTM2007.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH', 'ID', 'SWFSC-SBELLYROCKPCOAST-2007-Shortbelly rockfish.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH', 'A1', 'Field JC') ; 

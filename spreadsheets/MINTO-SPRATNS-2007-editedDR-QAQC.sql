@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'HAWG', 'SPRATNS', 'MINTO', '2008-04-15', '2011-06-14 14:16:32', '1995-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-HAWG-2007.pdf', 1, 0, 'CSA', 'Assessment results are relative and not absolute. TN in time series refers to the relative number of mature individuals.', '../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'HAWG', 'SPRATNS', 'MINTO', '2008-04-15', '2011-06-24 12:22:26', '1995-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-HAWG-2007.pdf', 1, 0, 'CSA', 'Assessment results are relative and not absolute. TN in time series refers to the relative number of mature individuals.', '../spreadsheets/MINTO-SPRATNS-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-SPRATNS-1995-2007-MINTO', 'A1', 'Anonymous') ; 

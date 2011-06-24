@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ASMFC-ATLCROAKMATLC-1973-2002-STANTON', 'ASMFC', 'ATLCROAKMATLC', 'STANTON', '2009-08-13', '2011-06-14 14:17:42', '1973-2002', 'http://www.asmfc.org/', 'contact details ', '', '', 1, 1, 'ASPM', 'no comments', '../spreadsheets/STANTON-MATLCROAK-2004-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ASMFC-ATLCROAKMATLC-1973-2002-STANTON', 'ASMFC', 'ATLCROAKMATLC', 'STANTON', '2009-08-13', '2011-06-24 12:23:04', '1973-2002', 'http://www.asmfc.org/', 'contact details ', '', '', 1, 1, 'ASPM', 'no comments', '../spreadsheets/STANTON-MATLCROAK-2004-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-ATLCROAKMATLC-1973-2002-STANTON', 'ID', '2004_ASMFC_AtlCroak') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-ATLCROAKMATLC-1973-2002-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-ATLCROAKMATLC-1973-2002-STANTON', 'T1', 'Atlantic Croaker 2003 Stock Assessment Report  ') ; 

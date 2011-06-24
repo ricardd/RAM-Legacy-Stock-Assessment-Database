@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-HERRNIRS-1960-2006-JENNINGS', 'HAWG', 'HERRNIRS', 'JENNINGS', '2008-11-26', '2011-06-14 14:16:47', '1960-2006', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 1, 'ICA', 'Assessment not considered reliable by ACFM', '../spreadsheets/JENNINGS-ICES-HERIRLN-1961-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-HERRNIRS-1960-2006-JENNINGS', 'HAWG', 'HERRNIRS', 'JENNINGS', '2008-11-26', '2011-06-24 12:22:34', '1960-2006', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 1, 'ICA', 'Assessment not considered reliable by ACFM', '../spreadsheets/JENNINGS-ICES-HERIRLN-1961-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNIRS-1960-2006-JENNINGS', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNIRS-1960-2006-JENNINGS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNIRS-1960-2006-JENNINGS', 'A1', 'Anonymous') ; 

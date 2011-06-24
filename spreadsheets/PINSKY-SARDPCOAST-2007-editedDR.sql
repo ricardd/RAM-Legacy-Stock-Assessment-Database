@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-SARDPCOAST-1981-2007-PINSKY', 'SWFSC', 'SARDPCOAST', 'PINSKY', '2009-03-27', '2011-06-14 14:17:42', '1981-2007', 'http://swfsc.noaa.gov/publications/TM/SWFSC/NOAA-TM-NMFS-SWFSC-413.PDF', '', '', '', 1, 1, 'SS2', 'previously used ASAP model', '../spreadsheets/PINSKY-SARDPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-SARDPCOAST-1981-2007-PINSKY', 'SWFSC', 'SARDPCOAST', 'PINSKY', '2009-03-27', '2011-06-24 12:23:04', '1981-2007', 'http://swfsc.noaa.gov/publications/TM/SWFSC/NOAA-TM-NMFS-SWFSC-413.PDF', '', '', '', 1, 1, 'SS2', 'previously used ASAP model', '../spreadsheets/PINSKY-SARDPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SARDPCOAST-1981-2007-PINSKY', 'ID', 'NOAA-TM-NMFS-SWFSC-413.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SARDPCOAST-1981-2007-PINSKY', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-SARDPCOAST-1981-2007-PINSKY', 'A1', 'Hill, Kevin T.') ; 

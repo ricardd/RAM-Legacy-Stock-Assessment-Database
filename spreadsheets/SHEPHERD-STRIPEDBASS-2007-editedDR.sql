@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD', 'NEFSC', 'STRIPEDBASSGOMCHATT', 'SHEPHERD', '2009-04-29', '2011-06-14 14:18:06', '1982-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0803/', 'Gary Shepherd gary.shepherd@noaa.gov', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/SHEPHERD-STRIPEDBASS-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD', 'NEFSC', 'STRIPEDBASSGOMCHATT', 'SHEPHERD', '2009-04-29', '2011-06-24 12:23:16', '1982-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0803/', 'Gary Shepherd gary.shepherd@noaa.gov', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/SHEPHERD-STRIPEDBASS-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD', 'ID', '07AssessmentReport.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD', 'A1', 'Northeast Fisheries Science Center') ; 

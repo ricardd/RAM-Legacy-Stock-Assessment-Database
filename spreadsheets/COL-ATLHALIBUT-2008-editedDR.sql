@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-ATHAL5YZ-1800-2007-COL', 'NEFSC', 'ATHAL5YZ', 'COL', '2009-04-15', '2011-06-14 14:17:54', '1800-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/COL-ATLHALIBUT-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-ATHAL5YZ-1800-2007-COL', 'NEFSC', 'ATHAL5YZ', 'COL', '2009-04-15', '2011-06-24 12:23:10', '1800-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/COL-ATLHALIBUT-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ATHAL5YZ-1800-2007-COL', 'ID', 'AtlanticHalibut5YZ2008.pdf ') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ATHAL5YZ-1800-2007-COL', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ATHAL5YZ-1800-2007-COL', 'A1', 'Northeast Fisheries Science Center') ; 

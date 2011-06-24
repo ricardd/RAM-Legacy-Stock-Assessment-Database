@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-YELLSNEMATL-1935-2008-BAUM', 'NEFSC', 'YELLSNEMATL', 'BAUM', '2008-11-04', '2011-06-14 14:17:59', '1935-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'VPA', 'Age 6+ formulation accepted as final model', '../spreadsheets/LEGAULT-BAUM-YELLSNEMATL-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-YELLSNEMATL-1935-2008-BAUM', 'NEFSC', 'YELLSNEMATL', 'BAUM', '2008-11-04', '2011-06-24 12:23:13', '1935-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'VPA', 'Age 6+ formulation accepted as final model', '../spreadsheets/LEGAULT-BAUM-YELLSNEMATL-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLSNEMATL-1935-2008-BAUM', 'ID', 'NMFS-SNEMATL-Limandaferruginea-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLSNEMATL-1935-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLSNEMATL-1935-2008-BAUM', 'A1', 'Northeast Fisheries Science Center') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-SPANMACKSATLC-1950-2008-JENSEN', 'SEFSC', 'SPANMACKSATLC', 'JENSEN', '2008-11-25', '2011-06-14 14:17:17', '1950-2008', 'http://www.sefsc.noaa.gov/sedar/download/S17%20SM%20SAR%201.pdf?id=DOCUMENT', '', '', '', 1, 1, 'SCA', 'very new assessment - differs from info in Fogarty files', '../spreadsheets/JENSEN-SPANMACKSATLC-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-SPANMACKSATLC-1950-2008-JENSEN', 'SEFSC', 'SPANMACKSATLC', 'JENSEN', '2008-11-25', '2011-06-24 12:22:50', '1950-2008', 'http://www.sefsc.noaa.gov/sedar/download/S17%20SM%20SAR%201.pdf?id=DOCUMENT', '', '', '', 1, 1, 'SCA', 'very new assessment - differs from info in Fogarty files', '../spreadsheets/JENSEN-SPANMACKSATLC-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SPANMACKSATLC-1950-2008-JENSEN', 'ID', 'JENSEN_SPANMACKSATLC_2008') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SPANMACKSATLC-1950-2008-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SPANMACKSATLC-1950-2008-JENSEN', 'Y1', '2008') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'SEFSC', 'SNOWGROUPSATLC', 'STANTON', '2009-05-29', '2011-06-14 14:17:04', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-SNOWGROUPSATLC-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'SEFSC', 'SNOWGROUPSATLC', 'STANTON', '2009-05-29', '2011-06-24 12:22:43', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-SNOWGROUPSATLC-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'ID', 'ref2004-SEDAR-deepwatersnappergrouper.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-SNOWGROUPSATLC-1961-2002-STANTON', 'A1', 'Anonymous') ; 

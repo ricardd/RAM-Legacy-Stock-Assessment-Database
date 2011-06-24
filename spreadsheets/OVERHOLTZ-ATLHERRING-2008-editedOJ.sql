@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ', 'NEFSC', 'HERRNWATLC', 'OVERHOLTZ', '2009-04-29', '2011-06-14 14:18:05', '1960-2005', 'http://www.mar.dfo-mpo.gc.ca/science/TRAC/TSRs%5CTSR_2006_01_E.pdf', '', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/OVERHOLTZ-ATLHERRING-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ', 'NEFSC', 'HERRNWATLC', 'OVERHOLTZ', '2009-04-29', '2011-06-24 12:23:16', '1960-2005', 'http://www.mar.dfo-mpo.gc.ca/science/TRAC/TSRs%5CTSR_2006_01_E.pdf', '', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/OVERHOLTZ-ATLHERRING-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ', 'ID', 'Herring2006.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ', 'A1', 'Anonymous') ; 

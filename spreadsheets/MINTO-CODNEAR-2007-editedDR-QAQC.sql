@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'AFWG', 'CODNEAR', 'MINTO', '2008-02-15', '2011-06-14 14:16:29', '1943-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', '', 'Coilin first entry', 'ICES-AFWG-2007.pdf', 1, 1, 'VPA', 'Two time series are provided (NOR=1 and RUS=2) for Norwegian and Russian methods of estimating unreported catches since 2002. The results are very similar.', '../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'AFWG', 'CODNEAR', 'MINTO', '2008-02-15', '2011-06-24 12:22:25', '1943-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', '', 'Coilin first entry', 'ICES-AFWG-2007.pdf', 1, 1, 'VPA', 'Two time series are provided (NOR=1 and RUS=2) for Norwegian and Russian methods of estimating unreported catches since 2002. The results are very similar.', '../spreadsheets/MINTO-CODNEAR-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'ID', 'ICES-AFWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFWG-CODNEAR-1943-2006-MINTO', 'A1', 'Anonymous') ; 

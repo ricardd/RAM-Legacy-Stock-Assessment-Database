@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-PSOLENPCOAST-1910-2005-STANTON', 'NWFSC', 'PSOLENPCOAST', 'STANTON', '2009-05-20', '2011-06-14 14:17:04', '1910-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'NORTH part of PCOAST only. Separate assessment for South part', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-NorthPetraleSole-2004-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-PSOLENPCOAST-1910-2005-STANTON', 'NWFSC', 'PSOLENPCOAST', 'STANTON', '2009-05-20', '2011-06-24 12:22:43', '1910-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'NORTH part of PCOAST only. Separate assessment for South part', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-NorthPetraleSole-2004-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PSOLENPCOAST-1910-2005-STANTON', 'ID', 'ref2004-SAFE-WCpetralesole') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PSOLENPCOAST-1910-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-PSOLENPCOAST-1910-2005-STANTON', 'A1', 'Lai, Han-Lin') ; 

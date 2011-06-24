@@ -26,7 +26,7 @@ firstname VARCHAR(50),lastname VARCHAR(50),email VARCHAR(50),institution VARCHAR
 "Lisa","Hendrickson","","","","","NEFSC scientist, submitted on RAMlegacy","HENDRICKSON"
 "William","Overholtz","","","","","NEFSC scientist, submitted on RAMlegacy","OVERHOLTZ"
 "Paul","Nitschke","","","","","NEFSC scientist, submitted on RAMlegacy","NITSCHKE"
-"Lauren","Col","","","","","NEFSC scientist, submitted on RAMlegacy","COL"
+"Laurel","Col","","","","","NEFSC scientist, submitted on RAMlegacy","COL"
 "Anne","Richards","","","","","NEFSC scientist, submitted on RAMlegacy","RICHARDS"
 "Michelle","De Decker","Michelle.DeDecker@uct.ac.za","","","","working wih Doug Butterworth, assesments from this recorder were submitted by Trevor Branch","DEDECKER"
 "Katherine","Sosebee","","","","","NEFSC scientist, submitted on RAMlegacy","SOSEBEE"

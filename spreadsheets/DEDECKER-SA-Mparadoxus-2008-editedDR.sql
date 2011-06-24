@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-DEEPCHAKESA-1917-2008-DEDECKER', 'MARAM', 'DEEPCHAKESA', 'DEDECKER', '2009-02-13', '2011-06-14 14:16:21', '1917-2008', 'received from contact', 'Rebecca Rademeyer, Rebecca.Rademeyer@gmail.com ', 'M capensis and M paradoxus both known as Cape hake', '', 1, 0, 'ASPM', '', '../spreadsheets/DEDECKER-SA-Mparadoxus-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-DEEPCHAKESA-1917-2008-DEDECKER', 'MARAM', 'DEEPCHAKESA', 'DEDECKER', '2009-02-13', '2011-06-24 12:22:21', '1917-2008', 'received from contact', 'Rebecca Rademeyer, Rebecca.Rademeyer@gmail.com ', 'M capensis and M paradoxus both known as Cape hake', '', 1, 0, 'ASPM', '', '../spreadsheets/DEDECKER-SA-Mparadoxus-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-DEEPCHAKESA-1917-2008-DEDECKER', 'ID', 'SA-Mparadoxus-2008-IWS-DEC08-H-5.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-DEEPCHAKESA-1917-2008-DEDECKER', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-DEEPCHAKESA-1917-2008-DEDECKER', 'A1', 'Rademeyer, R.A.') ; 

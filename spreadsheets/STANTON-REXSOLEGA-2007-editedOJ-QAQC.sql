@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-REXSOLEGA-1979-2008-STANTON', 'AFSC', 'REXSOLEGA', 'STANTON', '2009-04-20', '2011-06-14 14:17:06', '1979-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-REXSOLEGA-2007-editedOJ-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-REXSOLEGA-1979-2008-STANTON', 'AFSC', 'REXSOLEGA', 'STANTON', '2009-04-20', '2011-06-24 12:22:44', '1979-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-REXSOLEGA-2007-editedOJ-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REXSOLEGA-1979-2008-STANTON', 'ID', 'ref2008-SAFE-GOArex') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REXSOLEGA-1979-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-REXSOLEGA-1979-2008-STANTON', 'A1', 'Stockhausen, W.T.') ; 

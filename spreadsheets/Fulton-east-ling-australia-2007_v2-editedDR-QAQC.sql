@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-NZLINGESE-1968-2007-FULTON', 'CSIRO', 'NZLINGESE', 'FULTON', '2008-04-30', '2011-06-14 14:15:58', '1968-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used v2.00c of SS2', '../spreadsheets/Fulton-east-ling-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-NZLINGESE-1968-2007-FULTON', 'CSIRO', 'NZLINGESE', 'FULTON', '2008-04-30', '2011-06-24 12:22:09', '1968-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used v2.00c of SS2', '../spreadsheets/Fulton-east-ling-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-NZLINGESE-1968-2007-FULTON', 'ID', 'NZLINGSE') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-NZLINGESE-1968-2007-FULTON', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-NZLINGESE-1968-2007-FULTON', 'A1', 'Taylor, Bruce') ; 

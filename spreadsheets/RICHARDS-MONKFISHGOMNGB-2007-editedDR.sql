@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-MONKGOMNGB-1964-2006-RICHARDS', 'NEFSC', 'MONKGOMNGB', 'RICHARDS', '2009-04-22', '2011-06-14 14:18:03', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0721/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/RICHARDS-MONKFISHGOMNGB-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-MONKGOMNGB-1964-2006-RICHARDS', 'NEFSC', 'MONKGOMNGB', 'RICHARDS', '2009-04-22', '2011-06-24 12:23:15', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0721/', '', 'Stock under rebuilding program with 2056 deadline.', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/RICHARDS-MONKFISHGOMNGB-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKGOMNGB-1964-2006-RICHARDS', 'ID', 'crd0721.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKGOMNGB-1964-2006-RICHARDS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MONKGOMNGB-1964-2006-RICHARDS', 'A1', 'Northeast Fisheries Science Center') ; 

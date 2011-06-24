@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-PLAICIIIa-1976-2006-MINTO', 'WGNSSK', 'PLAICIIIa', 'MINTO', '2008-04-13', '2011-06-14 14:16:39', '1976-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Blim and Flim cannot be accurately defined for this stock. Final run is without discards, as the runs with discards included was very similar.', '../spreadsheets/MINTO-PLAICIIIa-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-PLAICIIIa-1976-2006-MINTO', 'WGNSSK', 'PLAICIIIa', 'MINTO', '2008-04-13', '2011-06-24 12:22:30', '1976-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Blim and Flim cannot be accurately defined for this stock. Final run is without discards, as the runs with discards included was very similar.', '../spreadsheets/MINTO-PLAICIIIa-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICIIIa-1976-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICIIIa-1976-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICIIIa-1976-2006-MINTO', 'A1', 'Anonymous') ; 

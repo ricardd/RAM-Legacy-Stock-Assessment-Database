@@ -4,7 +4,7 @@
 ## plot the count of assessments for a given data type by year in the database
 ## DR, CM
 ## date: Tue Dec  1 14:26:02 AST 2009
-## Time-stamp: <2011-06-17 14:10:26 (srdbadmin)>
+## Time-stamp: <2011-06-25 20:14:39 (srdbadmin)>
 ##-----------------------------------------------------------------------------
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
 
@@ -118,15 +118,15 @@ par(mar=c(0,0,0,0), oma=c(5,5,2,2))
 ##plot.span.func(test.dat, xaxt=TRUE, yaxt=TRUE, my.legend="Catch/Landings")
 catch.quartiles <- plot.span.func(catch.span.dat, xaxt=TRUE, yaxt=TRUE, my.legend="", hist.lab=TRUE)
 #legend(-20,50, legend="A", cex=1.7, bty="n")
-legend(-20,50, legend="a)", cex=1.7, bty="n")
+legend(-20,50, legend="a", cex=1.7, bty="n")
 ## ssb
 ssb.quartiles <- plot.span.func(ssb.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
 #legend(-20,50, legend="B", cex=1.7, bty="n")
-legend(-20,50, legend="b)", cex=1.7, bty="n")
+legend(-20,50, legend="b", cex=1.7, bty="n")
 ## recruits
 rec.quartiles <- plot.span.func(r.span.dat, xaxt=TRUE, yaxt=FALSE, my.legend="", hist.lab=FALSE)
 #legend(-20,50, legend="C", cex=1.7, bty="n")
-legend(-20,50, legend="c)", cex=1.7, bty="n")
+legend(-20,50, legend="c", cex=1.7, bty="n")
 mtext(side=1, line=2.75, text="Year", cex=1.2, outer=TRUE)
 mtext(side=2, line=2.75, text="Assessment count", outer=TRUE, cex=1.2)
 dev.off()

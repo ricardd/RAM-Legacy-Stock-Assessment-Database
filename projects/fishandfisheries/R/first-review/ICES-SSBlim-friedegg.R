@@ -1,5 +1,5 @@
 ## produce a fried egg for ICES' stocks using SSBlim and Flim reference points
-## DR last modified Time-stamp: <2011-06-22 23:36:32 (srdbadmin)>
+## DR last modified Time-stamp: <2011-06-25 23:05:36 (srdbadmin)>
 ## Modification history:
 ## 2011-04-29: LOG in SQL is base 10 log, use LN instead for natural log
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
@@ -71,6 +71,45 @@ legend("topright",my.label)
 #mtext(expression(F[curr]/F[lim]), side=2, line=1, outer=TRUE, cex=1)
 #  my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
 #legend("topright",my.label)
+
+
+sql.label <- "ICESBlim"
+## write some summary statistics for the grouping to the fishfisheries.results table
+## total number of stocks for this grouping
+  nn <- dim(crosshair.dat)[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+
+## now give the number for the four quadrants of the fried egg
+## quadrant 1, top-left, below Bmsy and above Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y>=1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+## quadrant 2, top-right, above Bmsy and above Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y>=1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+## quadrant 3, bottom-right, above Bmsy and below Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y<1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+## quadrant 4, bottom-left, below Bmsy and below Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y<1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
 
 dev.off()
 odbcClose(chan)

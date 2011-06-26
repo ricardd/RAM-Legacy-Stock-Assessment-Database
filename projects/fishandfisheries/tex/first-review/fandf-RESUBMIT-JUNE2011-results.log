@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  24 JUN 2011 00:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  25 JUN 2011 23:05
 entering extended mode
  %&-line parsing enabled.
-**fandf-RESUBMIT-JUNE2011-results.tex
+**fandf-RESUBMIT-JUNE2011-results
 (./fandf-RESUBMIT-JUNE2011-results.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -341,18 +341,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 105--112
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 [3]
-Overfull \hbox (10.58415pt too wide) in paragraph at lines 113--135
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
+
+ []
+
+
+Overfull \hbox (10.58415pt too wide) in paragraph at lines 117--139
 []\OT1/cmr/m/n/12 (-20) The sta-tus of ex-ploited ma-rine stocks, as es-ti-mate
 d from biomass- and exploitaion-BRPs,
  []
 
 [4]
-Overfull \hbox (11.74124pt too wide) in paragraph at lines 149--150
+Overfull \hbox (11.74124pt too wide) in paragraph at lines 153--154
 []\OT1/cmr/m/n/12 (-20) The pro-por-tion of stocks be-low $\OML/cmm/m/it/12 B[]
 $ \OT1/cmr/m/n/12 (-20) and be-low $\OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 (-20)
  varies con-sid-er-ably by man-age-ment
@@ -441,13 +451,13 @@ LaTeX Warning: Float too large for page by 328.54753pt on input line 33.
 
 ) [7] (./fandf-RESUBMIT-JUNE2011-results.aux (./Table1-formatted.aux)) ) 
 Here is how much of TeX's memory you used:
- 4199 strings out of 495061
- 60117 string characters out of 1182622
+ 4197 strings out of 495061
+ 60101 string characters out of 1182622
  153053 words of memory out of 3000000
  7237 multiletter control sequences out of 15000+50000
- 11986 words of font info for 68 fonts, out of 3000000 for 9000
+ 11937 words of font info for 67 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,10n,35p,479b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,10n,35p,475b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/s
 hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fon
@@ -456,7 +466,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on fandf-RESUBMIT-JUNE2011-results.pdf (7 pages, 118783 bytes).
+Output written on fandf-RESUBMIT-JUNE2011-results.pdf (7 pages, 119107 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

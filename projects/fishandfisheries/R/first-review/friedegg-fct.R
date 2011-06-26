@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-23 20:42:11 (srdbadmin)>
+## last modified Time-stamp: <2011-06-25 20:27:26 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -314,6 +314,7 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
 #  if(xlabel) {my.xlab <- expression(SSB[curr]/SSB[MSY])} else {my.xlab <- ""}
   if(xlabel) {my.xlab <- expression(B[curr]/B[MSY])} else {my.xlab <- ""}
   if(ylabel) {my.ylab <- expression(U[curr]/U[MSY])} else {my.ylab <- ""}
+# ifelse(xlabel,axes=FALSE,axes=TRUE)
 
   image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = my.xlab, ylab = my.ylab, xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
@@ -461,7 +462,7 @@ palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC12
   crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2
 
 if (plot.true == "TRUE"){
-  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
+  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3, axes=FALSE)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
 points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
@@ -547,7 +548,7 @@ palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC12
   crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2
 
 if (plot.true == "TRUE"){
-  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
+  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3, axes=FALSE)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
 points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
@@ -670,7 +671,7 @@ palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC12
   crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2
 
 if (plot.true == "TRUE"){
-  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
+  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3, axes=FALSE)
 contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
 abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
 points(crosshair.dat[,5], crosshair.dat[,10], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")

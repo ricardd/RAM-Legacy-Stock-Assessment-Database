@@ -88,15 +88,43 @@ par(mar=c(1,5,1,1),oma=c(1,1,1,1))
 
 beanplot.panel1 <- beanplot(ratio~rankall,data=all.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#,side = "second"
 
-         # col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+## rank.all and mgmt.rank are already available, but still need the value of mean(log(ratio)) for each mgmt
+n.by.mgmt <- as.data.frame(table(all.dat$mgmt))
+names(n.by.mgmt) <- c("mgmt","nn")
+my.temp <- merge(n.by.mgmt, mgmt.rank, by="mgmt")
+mgmt.mean <- data.frame(mgmt=unique(all.dat$mgmt), mean=tapply(log(all.dat$ratio), all.dat$mgmt, mean))
+mgmt.mean.o <- merge(my.temp, mgmt.mean, by = "mgmt")
+oo <- order(mgmt.mean.o$norderall)
+mgmt.mean.oo <- mgmt.mean.o[oo,]
+
+for (i in 1:dim(mgmt.mean.oo)[1]){
+xx <- mgmt.mean.oo$norderall[i]+0.3
+text(xx,exp(mgmt.mean.oo$mean[i])*1.15,paste("n=",mgmt.mean.oo$nn[i]),cex=0.6)
+}
+
 nn <- dim(all.dat)[1]
 text(1,9.5,paste("all BRPs"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)
 abline(v=c(2.5,4.5,6.5,8.5),lty=2,lwd=0.5,col=grey(0.5))
 
 
-beanplot.panel2 <- beanplot(ratio~rankall,data=pepper.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#,side = "second"
-#,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+beanplot.panel2 <- beanplot(ratio~rankall,data=pepper.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")
+
+## rank.all and mgmt.rank are already available, but still need the value of mean(log(ratio)) for each mgmt
+n.by.mgmt <- as.data.frame(table(pepper.dat$mgmt))
+names(n.by.mgmt) <- c("mgmt","nn")
+my.temp <- merge(n.by.mgmt, mgmt.rank, by="mgmt")
+my.tt <- tapply(log(pepper.dat$ratio), pepper.dat$mgmt, mean)
+mgmt.mean <- data.frame(mgmt=names(my.tt), mean=my.tt)
+mgmt.mean.o <- merge(my.temp, mgmt.mean, by = "mgmt")
+oo <- order(mgmt.mean.o$norderall)
+mgmt.mean.oo <- mgmt.mean.o[oo,]
+
+for (i in 1:dim(mgmt.mean.oo)[1]){
+xx <- mgmt.mean.oo$norderall[i]+0.3
+text(xx,exp(mgmt.mean.oo$mean[i])*1.15,paste("n=",mgmt.mean.oo$nn[i]),cex=0.6)
+}
+
 nn <- dim(pepper.dat)[1] - ll.a
 text(1,9.5,paste("BRPs from assessment"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)
@@ -106,7 +134,22 @@ mtext(side=2,c("B/Bmsy"),line=4,las=3)
 
 par(mar=c(4,5,1,1),oma=c(1,1,1,1),new=TRUE)
 beanplot.panel3 <- beanplot(ratio~rankall,data=salt.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#
-#,horizontal=FALSE,xlab="",col = c(gray(0.7),"white","black",gray(0.1)), show.names=FALSE,beanlines='mean',what=c(0,1,1,1),ylim=my.ylim,log='y',kernel="rectangular")
+
+## rank.all and mgmt.rank are already available, but still need the value of mean(log(ratio)) for each mgmt
+n.by.mgmt <- as.data.frame(table(salt.dat$mgmt))
+names(n.by.mgmt) <- c("mgmt","nn")
+my.temp <- merge(n.by.mgmt, mgmt.rank, by="mgmt")
+my.tt <- tapply(log(salt.dat$ratio), salt.dat$mgmt, mean)
+mgmt.mean <- data.frame(mgmt=names(my.tt), mean=my.tt)
+mgmt.mean.o <- merge(my.temp, mgmt.mean, by = "mgmt")
+oo <- order(mgmt.mean.o$norderall)
+mgmt.mean.oo <- mgmt.mean.o[oo,]
+
+for (i in 1:dim(mgmt.mean.oo)[1]){
+xx <- mgmt.mean.oo$norderall[i]+0.3
+text(xx,exp(mgmt.mean.oo$mean[i])*1.15,paste("n=",mgmt.mean.oo$nn[i]),cex=0.6)
+}
+
 nn <- dim(salt.dat)[1] - ll.sp
 text(1,9.5,paste("BRPs from Schaefer model"," (n=",nn,")",sep=""),adj=c(0,0))
 abline(h=1,col=grey(0.5),lty=1,lwd=0.75)

@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-25 20:27:26 (srdbadmin)>
+## last modified Time-stamp: <2011-06-27 12:07:08 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -264,7 +264,7 @@ mtl.dat <- sqlQuery(chan, qu)
 #  crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype, ref=crosshair.for.table.temp$ref)
 
 # crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=crosshair.for.table.temp$ratio.x, bfromassessment=crosshair.for.table.temp$btype, Uratio=crosshair.for.table.temp$ratio.y, ufromassessment=crosshair.for.table.temp$utype) # , ref=crosshair.for.table.temp$ref)
- crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, country=crosshair.for.table.temp$country, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, ordername=crosshair.for.table.temp$ordername, TL=crosshair.for.table.temp$tl, assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=ifelse(crosshair.for.table.temp$btype=="yes",round(crosshair.for.table.temp$ratio.x,2), paste(round(crosshair.for.table.temp$ratio.x,2),"*")), Uratio=ifelse(crosshair.for.table.temp$utype=="yes",round(crosshair.for.table.temp$ratio.y,2), paste(round(crosshair.for.table.temp$ratio.y,2),"*")))
+ crosshair.for.table <- data.frame(mgmt=crosshair.for.table.temp$mgmt, country=crosshair.for.table.temp$country, stock=crosshair.for.table.temp$stocklong.y ,scientificname=crosshair.for.table.temp$scientificname.y, ordername=crosshair.for.table.temp$ordername, TL=ifelse(crosshair.for.table.temp$ratio.x,crosshair.for.table.temp$tl,""), assessmethod=crosshair.for.table.temp$category, timespan=crosshair.for.table.temp$timespan.y, currentyear=crosshair.for.table.temp$maxyr.x, Bratio=ifelse(crosshair.for.table.temp$btype=="yes",round(crosshair.for.table.temp$ratio.x,2), paste(round(crosshair.for.table.temp$ratio.x,2),"*")), Uratio=ifelse(crosshair.for.table.temp$utype=="yes",round(crosshair.for.table.temp$ratio.y,2), paste(round(crosshair.for.table.temp$ratio.y,2),"*")))
 
 # crosshair.for.table.temp$ratio.x
 # crosshair.for.table.temp$ratio.y

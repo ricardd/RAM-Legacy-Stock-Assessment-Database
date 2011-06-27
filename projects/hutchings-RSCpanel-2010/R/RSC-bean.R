@@ -79,6 +79,56 @@ pepper.dat <- rbind(pepper.dat,missing.a)
 
 my.ylim <- c(0.01,11)
 
+## on the first panel, i.e. all assessments
+pdf("bean-brp-all.pdf",width=11, height=11/1.6,title="Beanplots for RSC expert panel report")
+par(mar=c(5,5,1,1),oma=c(1,1,1,1))
+
+
+beanplot.panel1 <- beanplot(ratio~rankall,data=all.dat,horizontal=FALSE,xlab="",col = list(c("#ffffff", "#00000080", "#00000080", "#5f5f5f")), border = list("#767676"), innerborder = "#767676", beanlinewd = 1.7, what=c(0,1,1,1),kernel='rectangular',ylim=my.ylim,log='y',show.names=FALSE,bw=0.4,beanlines='mean',side = "second")#,side = "second"
+
+## rank.all and mgmt.rank are already available, but still need the value of mean(log(ratio)) for each mgmt
+n.by.mgmt <- as.data.frame(table(all.dat$mgmt))
+names(n.by.mgmt) <- c("mgmt","nn")
+my.temp <- merge(n.by.mgmt, mgmt.rank, by="mgmt")
+mgmt.mean <- data.frame(mgmt=unique(all.dat$mgmt), mean=tapply(log(all.dat$ratio), all.dat$mgmt, mean))
+mgmt.mean.o <- merge(my.temp, mgmt.mean, by = "mgmt")
+oo <- order(mgmt.mean.o$norderall)
+mgmt.mean.oo <- mgmt.mean.o[oo,]
+
+for (i in 1:dim(mgmt.mean.oo)[1]){
+xx <- mgmt.mean.oo$norderall[i]+0.3
+text(xx,exp(mgmt.mean.oo$mean[i])*1.15,paste("n=",mgmt.mean.oo$nn[i]),cex=0.6)
+}
+
+nn <- dim(all.dat)[1]
+text(1,9.5,paste("all BRPs"," (n=",nn,")",sep=""),adj=c(0,0))
+abline(h=1,col=grey(0.5),lty=1,lwd=0.75)
+abline(v=c(2.5,4.5,6.5,8.5),lty=2,lwd=0.5,col=grey(0.5))
+
+par(las=3)
+mtext(mgmt.rank[1,1], side=1, outer = FALSE, line=1,at=1, cex=0.5)
+mtext(mgmt.rank[2,1], side=1, outer = FALSE, line=1,at=2, cex=0.5)
+mtext(mgmt.rank[3,1], side=1, outer = FALSE, line=1,at=3, cex=0.5)
+mtext(mgmt.rank[4,1], side=1, outer = FALSE, line=1,at=4, cex=0.5)
+mtext(mgmt.rank[5,1], side=1, outer = FALSE, line=1,at=5, cex=0.5)
+mtext(mgmt.rank[6,1], side=1, outer = FALSE, line=1,at=6, cex=0.5)
+mtext(mgmt.rank[7,1], side=1, outer = FALSE, line=1,at=7, cex=0.5)
+mtext(mgmt.rank[8,1], side=1, outer = FALSE, line=1,at=8, cex=0.5)
+mtext(mgmt.rank[9,1], side=1, outer = FALSE, line=1,at=9, cex=0.5)
+mtext(mgmt.rank[10,1], side=1, outer = FALSE, line=1,at=10, cex=0.5)
+mtext(mgmt.rank[11,1], side=1, outer = FALSE, line=1,at=11, cex=0.5)
+mtext(mgmt.rank[12,1], side=1, outer = FALSE, line=1,at=12, cex=0.5)
+mtext(mgmt.rank[13,1], side=1, outer = FALSE, line=1,at=13, cex=0.5)
+mtext(mgmt.rank[14,1], side=1, outer = FALSE, line=1,at=14, cex=0.5)
+mtext(mgmt.rank[15,1], side=1, outer = FALSE, line=1,at=15, cex=0.5)
+
+par(las=1)
+mtext(side=1,c("Management body"),line=4)
+
+mtext(side=2,c("B/Bmsy"),line=4,las=3)
+
+dev.off()
+
 pdf("bean-brp-3panel.pdf",width=11/1.6, height=11,title="Beanplots for RSC expert panel report")
 par(mfrow=c(3,1))
 

@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-06-25 20:52:31 (srdbadmin)>
+## Last modified: Time-stamp: <2011-06-27 12:21:46 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -64,17 +64,18 @@ par(mfrow=c(1,3))
 ## demersals
 ss.dem <- subset(taxo.cat,taxocategory=="Demersals")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.dem),"'",sep=""), sep=",")), ")", sep="")
-fried.egg.fct("stock",my.ss,"dem","FALSE","TRUE","Demersals","TRUE")
+fried.egg.fct("stock",my.ss,"dem","TRUE","TRUE","Demersals","TRUE")
 
 ## pelagics
 ss.pel <- subset(taxo.cat,taxocategory=="Pelagics")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.pel),"'",sep=""), sep=",")), ")", sep="")   
-fried.egg.fct("stock",my.ss,"pel","FALSE","TRUE","Pelagics","TRUE")
+fried.egg.fct("stock",my.ss,"pel","TRUE","FALSE","Pelagics","TRUE")
 
 ## inverts
 ss.inv <- subset(taxo.cat,taxocategory=="Invertebrates")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.inv),"'",sep=""), sep=",")), ")", sep="")
-fried.egg.fct("stock",my.ss,"inverts","FALSE","TRUE","Invertebrates","TRUE")
+fried.egg.fct("stock",my.ss,"inverts","TRUE","FALSE","Invertebrates","TRUE")
+axis(side=4,labels=TRUE)
 
 dev.off()
 

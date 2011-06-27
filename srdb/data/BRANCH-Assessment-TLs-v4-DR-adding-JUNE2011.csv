@@ -1,0 +1,138 @@
+ScientificName,CommonName,scientificname,commonname1,family,TL,seTL,Lmax,DemersalPelagic,Comment
+Allocyttus niger,Black oreo,Allocyttus niger,Black oreo,Oreosomatidae,3.38,0.5,47,bathypelagic,"Pablico, 29 March 2010"
+Anoplopoma fimbria,Sablefish,Anoplopoma fimbria,Sablefish,Anoplopomatidae,3.83,0.61,120,bathydemersal,"Pablico, 29 March 2010"
+Arripis trutta,Eastern Australian salmon,Arripis trutta,Australian salmon,Arripidae,4.07,0.69,89,pelagic-neritic,"Pablico, 29 March 2010"
+Brevoortia patronus,Gulf menhaden,Brevoortia patronus,Gulf menhaden,Clupeidae,2.19,0.07,42.70000076,pelagic-neritic,"Pablico, 29 March 2010"
+Brevoortia tyrannus,Atlantic menhaden,Brevoortia tyrannus,Atlantic menhaden,Clupeidae,2.25,0,50,pelagic-neritic,"Pablico, 29 March 2010"
+Centroberyx gerrardi,Bight redfish,Centroberyx gerrardi,Bight redfish,Berycidae,4.08,0.65,66,demersal,FishBase.org
+Centropristis striata,Black sea bass,Centropristis striata,Black sea bass,Serranidae,3.98,0.63,66,reef-associated,"Pablico, 29 March 2010"
+Chionoecetes bairdi,Tanner crab,Chionoecetes bairdi,Tanner crab,Oregoniidae,2.3,0,14,invertebrate,FishBase.org
+Pagrus auratus,Squirefish,Chrysophrys auratus,New Zealand snapper,Sparidae,3.32,0.47,130,reef-associated,"Pablico, 29 March 2010"
+Clupea harengus,Herring,Clupea harengus,Herring,Clupeidae,3.23,0.39,54.90000153,benthopelagic,"Pablico, 29 March 2010"
+Clupea pallasii,Pacific herring,Clupea pallasii,Pacific herring,Clupeidae,3.15,0.36,46,pelagic-neritic,"Pablico, 29 March 2010"
+Dissostichus eleginoides,Patagonian toothfish,Dissostichus eleginoides,Patagonian toothfish,Nototheniidae,3.96,0.68,215,pelagic-oceanic,"Pablico, 29 March 2010"
+Engraulis encrasicolus,Anchovy,Engraulis encrasicolus,Anchovy,Engraulidae,3.11,0.45,24.39999962,pelagic-neritic,"Pablico, 29 March 2010"
+Eopsetta jordani,Petrale sole,Eopsetta jordani,Petrale sole,Pleuronectidae,4.05,0.65,70,demersal,"Pablico, 29 March 2010"
+Gadus macrocephalus,Pacific cod,Gadus macrocephalus,Pacific cod,Gadidae,4.01,0.69,119,demersal,"Pablico, 29 March 2010"
+Gadus morhua,Atlantic cod,Gadus morhua,Atlantic cod,Gadidae,4.42,0.76,200,benthopelagic,"Pablico, 29 March 2010"
+Genypterus blacodes,New Zealand ling,Genypterus blacodes,New Zealand ling,Ophidiidae,4.34,0.77,244,bathydemersal,"Pablico, 29 March 2010"
+Genypterus capensis,Kingklip,Genypterus capensis,Kingklip,Ophidiidae,4.44,0.61,180,bathydemersal,FishBase.org
+Haliotis iris,Blackfoot abalone,Haliotis iris,Blackfoot abalone,Haliotididae,2,0,30,invertebrate,FishBase.org
+Haliotis midae,South African abalone,Haliotis midae,South African abalone,Haliotididae,2,0,20,invertebrate,"Pablico, 29 March 2010"
+Hippoglossoides elassodon,Flathead sole,Hippoglossoides elassodon,Flathead sole,Pleuronectidae,3.64,0.56,52,demersal,"Pablico, 29 March 2010"
+Hippoglossoides platessoides,American plaice,Hippoglossoides platessoides,American plaice,Pleuronectidae,3.65,0.24,82.6,demersal,"Pablico, 29 March 2010"
+Hippoglossus hippoglossus,Atlantic Halibut,Hippoglossus hippoglossus,Atlantic Halibut,Pleuronectidae,4.53,0.79,267,demersal,"Pablico, 29 March 2010"
+Homarus americanus,American lobster,Homarus americanus,American lobster,Nephropidae,3.7,0.39,64,invertebrate,"Pablico, 29 March 2010"
+Jasus edwardsii,Red rock lobster,Jasus edwardsii,Red rock lobster,Palinuridae,2.6,0.33,46,invertebrate,"Pablico, 29 March 2010"
+Jasus lalandii,South African west coast rock lobster,Jasus lalandii,South African west coast rock lobster,Palinuridae,2.6,0.33,46,invertebrate,"Pablico, 29 March 2010"
+Katsuwonus pelamis,Skipjack tuna,Katsuwonus pelamis,Skipjack tuna,Scombridae,4.35,0.76,110,pelagic-oceanic,"Pablico, 29 March 2010"
+Lepidopsetta polyxystra,Northern rock sole,Lepidopsetta polyxystra,Northern rock sole,Pleuronectidae,3.21,0.43,60,demersal,FishBase.org
+Limanda aspera,Yellowfin sole,Limanda aspera,Yellowfin sole,Pleuronectidae,3.24,0.36,49,demersal,"Pablico, 29 March 2010"
+Limanda ferruginea,Yellowtail flounder,Limanda ferruginea,Yellowtail flounder,Pleuronectidae,3.22,0.39,64,demersal,"Pablico, 29 March 2010"
+Lopholatilus chamaeleonticeps,Tilefish,Lopholatilus chamaeleonticeps,Tilefish,Malacanthidae,3.45,0.39,125,demersal,"Pablico, 29 March 2010"
+Lutjanus campechanus,Red snapper,Lutjanus campechanus,Red snapper,Lutjanidae,4.01,0.59,100,reef-associated,"Pablico, 29 March 2010"
+Macruronus novaezelandiae,Hoki,Macruronus novaezelandiae,Hoki,Merlucciidae,4.47,0.79,130,benthopelagic,"Pablico, 29 March 2010"
+Mallotus villosus,Capelin,Mallotus villosus,Capelin,Osmeridae,3.15,0.34,25.20000076,pelagic-oceanic,"Pablico, 29 March 2010"
+Melanogrammus aeglefinus,Haddock,Melanogrammus aeglefinus,Haddock,Gadidae,4.09,0.69,112,demersal,"Pablico, 29 March 2010"
+Merluccius australis,Southern hake,Merluccius australis,Southern hake,Merlucciinae,4.45,0.79,189.1000061,benthopelagic,"Pablico, 29 March 2010"
+Merluccius capensis,Shallow-water cape hake,Merluccius capensis,Shallow-water cape hake,Merlucciidae,4.45,0.78,140,bathydemersal,"Pablico, 29 March 2010"
+Merluccius paradoxus,Deep-water cape hake,Merluccius paradoxus,Deep-water cape hake,Merlucciidae,4.66,0.61,115,bathydemersal,"Pablico, 29 March 2010"
+Merluccius productus,Pacific hake,Merluccius productus,Pacific hake,Merlucciidae,4.35,0.77,91,pelagic-oceanic,"Pablico, 29 March 2010"
+Microstomus pacificus,Dover sole,Microstomus pacificus,Dover sole,Pleuronectidae,3.27,0.37,76,demersal,"Pablico, 29 March 2010"
+Mycteroperca microlepis,Gag,Mycteroperca microlepis,Gag,Serranidae,3.65,0.6,145,reef-associated,"Pablico, 29 March 2010"
+Nemadactylus macropterus,Hawaiian morwong,Nemadactylus macropterus,Hawaiian morwong,Cheilodactylidae,3.41,0.42,70,demersal,"Pablico, 29 March 2010"
+Platycephalus richardsoni,Tiger flathead,Neoplatycephalus richardsoni,Tiger flathead,Platycephalidae,3.87,0.62,65,demersal,FishBase.org
+Ophiodon elongatus,Lingcod,Ophiodon elongatus,Lingcod,Hexagrammidae,4.32,0.72,152,demersal,"Pablico, 29 March 2010"
+Pagrus pagrus,Common seabream,Pagrus pagrus,Common seabream,Sparidae,3.65,0.61,91,benthopelagic,"Pablico, 29 March 2010"
+Palinurus gilchristi,Southern spiny lobster,Palinurus gilchristi,Southern spiny lobster,Palinuridae,2.6,0.33,50,invertebrate,"Pablico, 29 March 2010"
+Paralithodes camtschaticus,Red king crab,Paralithodes camtschaticus,Red king crab,Lithodidae,2.82,0.3,28,invertebrate,"Pablico, 29 March 2010"
+Parophrys vetulus,English sole,Parophrys vetulus,English sole,Pleuronectidae,3.45,0.44,57,demersal,"Pablico, 29 March 2010"
+Penaeus esculentus,Brown tiger prawn,Penaeus esculentus,Brown tiger shrimp,Penaeidae,2.7,0.3,14.5,invertebrate,FishBase.org
+Placopecten magellanicus,Deep sea scallop,Placopecten magellanicus,Sea scallop,Pectinidae,2,0.29,20,invertebrate,"Pablico, 29 March 2010"
+Platichthys stellatus,Starry flounder,Platichthys stellatus,Starry flounder,Pleuronectidae,3.32,0.38,91,demersal,"Pablico, 29 March 2010"
+Pleurogrammus monopterygius,Atka mackerel,Pleurogrammus monopterygius,Atka mackerel,Hexagrammidae,3.33,0.38,56.5,demersal,"Pablico, 29 March 2010"
+Pleuronectes platessa,European plaice,Pleuronectes platessa,European Plaice,Pleuronectidae,3.26,0.39,122,demersal,"Pablico, 29 March 2010"
+Pleuronectes quadrituberculatus,Alaska plaice,Pleuronectes quadrituberculatus,Alaska plaice,Pleuronectidae,3.1,0.3,62,demersal,"Pablico, 29 March 2010"
+Pollachius virens,Pollock,Pollachius virens,Pollock,Gadidae,4.38,0.77,130,demersal,"Pablico, 29 March 2010"
+Pseudocaranx dentex,Trevally,Pseudocaranx dentex,Trevally,Carangidae,3.24,0.5,122,reef-associated,"Pablico, 29 March 2010"
+Pseudocyttus maculatus,Smooth oreo,Pseudocyttus maculatus,Smooth oreo,Oreosomatidae,3.61,0.57,68,bathydemersal,"Pablico, 29 March 2010"
+Pseudopleuronectes americanus,Winter flounder,Pseudopleuronectes americanus,Winter flounder,Pleuronectidae,2.83,0.36,64,demersal,"Pablico, 29 March 2010"
+Raja rhina,Longnose skate,Raja rhina,Longnose skate,Rajidae,3.76,0.58,140,bathydemersal,FishBase.org
+Sebastes spp,Sebastes spp,Sebastes spp,Sebastes spp,Scorpaenidae,4.04,0.68,44,pelagic,FishBase.org
+Reinhardtius hippoglossoides,Greenland halibut,Reinhardtius hippoglossoides,Greenland halibut,Pleuronectidae,4.48,0.79,120,benthopelagic,"Pablico, 29 March 2010"
+Atheresthes stomias,Arrowtooth flounder,Reinhardtius stomias,Arrowtooth flounder,Pleuronectidae,4.26,0.75,84,demersal,"Pablico, 29 March 2010"
+Rexea solandri,common gemfish,Rexea solandri,common gemfish,Gempylidae,4.25,0.66,134.1999969,benthopelagic,"Pablico, 29 March 2010"
+Rhomboplites aurorubens,Vermilion snapper,Rhomboplites aurorubens,Vermilion snapper,Lutjanidae,4.33,0.34,60,demersal,"Pablico, 29 March 2010"
+Scomber japonicus,Chub mackerel,Scomber japonicus,Chub mackerel,Scombridae,3.09,0.43,64,pelagic-neritic,"Pablico, 29 March 2010"
+Scomber scombrus,Mackerel,Scomber scombrus,Mackerel,Scombridae,3.18,0.36,66.59999847,pelagic-neritic,"Pablico, 29 March 2010"
+Scomberomorus maculatus,Spanish mackerel,Scomberomorus maculatus,Spanish mackerel,Scombridae,4.5,0.74,91,pelagic-neritic,"Pablico, 29 March 2010"
+Scophthalmus aquosus,Windowpane,Scophthalmus aquosus,Windowpane,Scophthalmidae,3.55,0.52,45.7,demersal,"Pablico, 29 March 2010"
+Sebastes aleutianus,Rougheye rockfish,Sebastes aleutianus,Rougheye rockfish,Sebastidae,3.65,0.59,97,bathydemersal,FishBase.org
+Sebastes alutus,Pacific ocean perch,Sebastes alutus,Pacific ocean perch,Sebastidae,3.5,0.55,53,bathydemersal,"Pablico, 29 March 2010"
+Sebastes carnatus,Gopher rockfish,Sebastes carnatus,Gopher rockfish,Sebastidae,3.62,0.52,39,demersal,FishBase.org
+Sebastes crameri,Darkblotched rockfish,Sebastes crameri,Darkblotched rockfish,Sebastidae,3.69,0.52,58,demersal,FishBase.org
+Sebastes entomelas,Widow rockfish,Sebastes entomelas,Widow rockfish,Sebastidae,3.68,0.56,60,pelagic-neritic,"Pablico, 29 March 2010"
+Sebastes fasciatus,Acadian redfish,Sebastes fasciatus,Acadian redfish,Sebastidae,3.16,0.34,30,demersal,FishBase.org
+Sebastes flavidus,Yellowtail rockfish,Sebastes flavidus,Yellowtail rockfish,Sebastidae,4.11,0.7,66,reef-associated,"Pablico, 29 March 2010"
+Sebastes goodei,Chilipepper rockfish,Sebastes goodei,Chilipepper rockfish,Sebastidae,3.58,0.5,56,demersal,"Pablico, 29 March 2010"
+Sebastes jordani,Shortbelly rockfish,Sebastes jordani,Shortbelly rockfish,Sebastidae,3.2,0.35,32,demersal,FishBase.org
+Sebastes levis,Cowcod,Sebastes levis,Cowcod,Sebastidae,3.69,0.7,100,bathydemersal,FishBase.org
+Sebastes melanops,Black rockfish,Sebastes melanops,Black rockfish,Sebastidae,4.2,0.78,63,reef-associated,"Pablico, 29 March 2010"
+Sebastes melanostomus,Blackgill rockfish,Sebastes melanostomus,Blackgill rockfish,Sebastidae,3.69,0.52,61,bathydemersal,FishBase.org
+Sebastes mystinus,Blue rockfish,Sebastes mystinus,Blue rockfish,Sebastidae,2.81,0.34,61,reef-associated,FishBase.org
+Sebastes paucispinis,Bocaccio,Sebastes paucispinis,Bocaccio,Sebastidae,3.51,0.46,91,reef-associated,"Pablico, 29 March 2010"
+Sebastes pinniger,Canary rockfish,Sebastes pinniger,Canary rockfish,Sebastidae,3.8,0.61,76,reef-associated,"Pablico, 29 March 2010"
+Sebastes polyspinis,Northern rockfish,Sebastes polyspinis,Northern rockfish,Sebastidae,3.57,0.62,41,demersal,FishBase.org
+Sebastes ruberrimus,Yelloweye rockfish,Sebastes ruberrimus,Yelloweye rockfish,Sebastidae,4.43,0.7,104,reef-associated,FishBase.org
+Sebastes variabilis,Dusky rockfish,Sebastes variabilis,Dusky rockfish,Sebastidae,3.69,0.62,43.1,demersal,FishBase.org
+Sebastolobus altivelis,Longspine thornyhead,Sebastolobus altivelis,Longspine thornyhead,Sebastidae,3.61,0.54,39,bathydemersal,FishBase.org
+Seriola dumerili,Greater amberjack,Seriola dumerili,Greater amberjack,Carangidae,4.5,0.8,190,reef-associated,"Pablico, 29 March 2010"
+Sillago flindersi,School whiting,Sillago flindersi,School whiting,Sillaginidae,3.34,0.49,32,demersal,FishBase.org
+Solea solea,Common European sole,Solea vulgaris,common European sole,Soleidae,3.17,0.38,85.40000153,demersal,"Pablico, 29 March 2010"
+Sprattus sprattus,Sprat,Sprattus sprattus,Sprat,Clupeidae,3,0.02,16,pelagic-neritic,"Pablico, 29 March 2010"
+Tautoga onitis,Tautog,Tautoga onitis,Tautog,Labridae,3.33,0.47,91,reef-associated,"Pablico, 29 March 2010"
+Theragra chalcogramma,Walleye pollock,Theragra chalcogramma,Walleye pollock,Gadidae,3.45,0.49,91,benthopelagic,"Pablico, 29 March 2010"
+Thunnus alalunga,Albacore tuna,Thunnus alalunga,Albacore tuna,Scombridae,4.31,0.73,155.3999939,pelagic-oceanic,"Pablico, 29 March 2010"
+Thunnus albacares,Yellowfin tuna,Thunnus albacares,Yellowfin tuna,Scombridae,4.34,0.71,239,pelagic-oceanic,"Pablico, 29 March 2010"
+Thunnus obesus,Bigeye tuna,Thunnus obesus,Bigeye tuna,Scombridae,4.5,0.8,250,pelagic-oceanic,"Pablico, 29 March 2010"
+Thunnus thynnus,Atlantic bluefin tuna,Thunnus thynnus,Atlantic bluefin tuna,Scombridae,4.43,0.78,458,pelagic-oceanic,"Pablico, 29 March 2010"
+Trachurus capensis,Cape horse mackerel,Trachurus capensis,Cape horse mackerel,Carangidae,3.47,0.5,66.59999847,pelagic-neritic,"Pablico, 29 March 2010"
+Trachurus murphyi,Chilean jack mackerel,Trachurus murphyi,Chilean jack mackerel,Carangidae,3.49,0.48,70,pelagic-oceanic,"Pablico, 29 March 2010"
+Urophycis tenuis,White hake,Urophycis tenuis,White hake,Gadidae,4.2,0.72,135,demersal,"Pablico, 29 March 2010"
+Xiphias gladius,Swordfish,Xiphias gladius,Swordfish,Xiphiidae,4.49,0.57,455,pelagic-oceanic,"Pablico, 29 March 2010"
+Paralithodes platypus,Blue king crab,Paralithodes platypus,Blue king crab,Lithodidae,2.82,0.3,16.5,invertebrate,"Pablico, 29 March 2010"
+Scorpaenichthys marmoratus,Cabezon,Scorpaenichthys marmoratus,Cabezon,Cottidae,3.51,0.46,99,demersal,"Pablico, 29 March 2010"
+Glyptocephalus zachirus,Rex sole,Glyptocephalus zachirus,Rex sole,Pleuronectidae,3.24,0.38,60,demersal,"Pablico, 29 March 2010"
+Chionoecetes opilio,Snow crab,Chionoecetes opilio,Snow crab,Oregoniidae,2.3,0.14,15,invertebrate,"Pablico, 29 March 2010"
+Sebastes borealis,Shortraker rockfish,Sebastes borealis,Shortraker rockfish,Sebastidae,3.87,0.5,108,bathydemersal,FishBase.org
+Micropogonias undulatus,Atlantic croaker,Micropogonias undulatus,Atlantic croaker,Sciaenidae,3.31,0.43,55,demersal,"Pablico, 29 March 2010"
+Platycephalus conatus,Deepwater flathead,Platycephalus conatus,Deepwater flathead,Platycephalidae,4.2,0.68,70,demersal,FishBase.org
+Hoplostethus atlanticus,Orange roughy,Hoplostethus atlanticus,Orange roughy,Hoplostethidae,3.98,0.66,75,bathypelagic,"Pablico, 29 March 2010"
+Seriolella punctata,Silver warehou,Seriolella punctata,Silverfish,Centrolophidae,3.4,0.45,66,benthopelagic,"Pablico, 29 March 2010"
+Lepidopsetta bilineata,Rock sole,Lepidopsetta bilineata,Rock sole,Pleuronectidae,3.21,0.43,58,demersal,"Pablico, 29 March 2010"
+Pomatomus saltatrix,Bluefish,Pomatomus saltatrix,Bluefish,Pomatomidae,4.5,0.55,130,pelagic-oceanic,"Pablico, 29 March 2010"
+Peprilus triacanthus,American butterfish,Peprilus triacanthus,Atlantic butterfish,Stromateidae,3.97,0.34,30,benthopelagic,"Pablico, 29 March 2010"
+Lophius americanus,American angler,Lophius americanus,Monkfish,Lophiidae,4.49,0.77,120,demersal,"Pablico, 29 March 2010"
+Arctica islandica,Ocean quahog,Arctica islandica,Ocean quahog,Arcticidae,2,0,10,invertebrate,"Pablico, 29 March 2010"
+Paralichthys dentatus,Summer flounder,Paralichthys dentatus,Summer flounder,Paralichthyidae,4.49,0.6,94,demersal,"Pablico, 29 March 2010"
+Spisula solidissima,Atlantic surfclam,Spisula solidissima,Atlantic surfclam,Mactridae,2,0,20,invertebrate,"Pablico, 29 March 2010"
+Sardinops sagax,South American pilchard,Sardinops sagax,Sardine,Clupeidae,2.43,0.12,39.5,pelagic-neritic,"Pablico, 29 March 2010"
+Hexagrammos decagrammus,Kelp greenling,Hexagrammos decagrammus,Kelp greenling,Hexagrammidae,3.59,0.55,61,demersal,FishBase.org
+Sebastolobus alascanus,Shortspine thornyhead,Sebastolobus alascanus,Shortspine thornyhead,Sebastidae,3.61,0.58,80,bathydemersal,"Pablico, 29 March 2010"
+Micromesistius australis,Southern blue whiting,Micromesistius australis,Southern blue whiting,Gadidae,3.79,0.62,90,benthopelagic,"Pablico, 29 March 2010"
+Lutjanus analis,Mutton snapper,Lutjanus analis,Mutton snapper,Lutjanidae,3.86,0.64,94,reef-associated,"Pablico, 29 March 2010"
+Epinephelus niveatus,Snowy grouper,Epinephelus niveatus,Snowy grouper,Serranidae,4.04,0.58,122,demersal,"Pablico, 29 March 2010"
+Merluccius merluccius,European hake,Merluccius merluccius,Hake,Merlucciidae,4.42,0.78,140,demersal,"Pablico, 29 March 2010"
+Sardina pilchardus,European pilchard,Sardina pilchardus,European pilchard,Clupeidae,3.1,0.3,27.5,pelagic-neritic,"Pablico, 29 March 2010"
+Micromesistius poutassou,Blue whiting,Micromesistius poutassou,Blue whiting,Gadidae,4.01,0.68,50,bathypelagic,"Pablico, 29 March 2010"
+Merlangius merlangus,Whiting,Merlangius merlangus,Whiting,Gadidae,4.29,0.74,70,benthopelagic,"Pablico, 29 March 2010"
+Brosme brosme,Cusk,Brosme brosme,Cusk,Gadidae,4.0,0.42,120,demersal,"Ricard, manual entry from FishBase website June 2011"
+Lepidorhombus whiffiagonis,Megrim,Lepidorhombus whiffiagonis,Megrim,Pleuronectidae,4.24,0.75,60,bathydemersal,"Ricard, manual entry from FishBase website June 2011"
+Trisopterus esmarkii,Norway Pout,Trisopterus esmarkii,Norway Pout,Gadidae,3.24,0.41,35,benthopelagic,"Ricard, manual entry from FishBase website June 2011"
+Seriolella brama,Blue warehou,Seriolella brama,Blue warehou,Centrolophidae,3.3,0.43,76,benthopelagic,"Ricard, manual entry from FishBase website June 2011"
+Engraulis anchoita,Argentine anchovy,Engraulis anchoita,Argentina anchovy,Engraulidae,2.51,0.0,17,pelagic-neritic,"Ricard, manual entry from FishBase website June 2011"
+Macruronus magellanicus,Patagonian grenadier,Macruronus magellanicus,Patagonian grenadier,Merlucciidae,3.93,0.6,115,benthopelagic,"Ricard, manual entry from FishBase website June 2011"
+Merluccius hubbsi,Argentine hake,Merluccius hubbsi,Argentine hake,Merlucciinae,4.23,0.67,95,benthopelagic,"Ricard, manual entry from FishBase website June 2011"
+Epinephelus morio,Red grouper,Epinephelus morio,Red grouper,Serranidae,3.49,0.61,125,reef-associated,"Ricard, manual entry from FishBase website June 2011"
+Ocyurus chrysurus,Yellowtail snapper,Ocyurus chrysurus,Yellowtail snapper,Lutjanidae,3.99,0.67,86.3,reef-associated,"Ricard, manual entry from FishBase website June 2011"
+Kajikia audax,Striped marlin,Kajikia audax,Striped marlin,Istiophoridae,4.58,0.76,420,pelagic-oceanic,"Ricard, manual entry from FishBase website June 2011, appears as Tetrapturus audax on fishbase"

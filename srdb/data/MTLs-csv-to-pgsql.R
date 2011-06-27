@@ -1,5 +1,7 @@
 require(RODBC)
-my.tl <- read.csv("BRANCH-Assessment-TLs-v4.csv", header=TRUE)
+
+my.tl <- read.csv("BRANCH-Assessment-TLs-v4-DR-adding-JUNE2011.csv", header=TRUE)
+
 chan <- odbcConnect(dsn="srdbcalo")
 tt <- data.frame(my.tl$scientificname, my.tl$TL, my.tl$Lmax, my.tl$DemersalPelagic)
 sqlSave(chan, tt, tablename = "srdb.fishbasemtl", rownames=FALSE, safer=FALSE)

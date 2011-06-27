@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  22 JUN 2011 22:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  27 JUN 2011 12:09
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT2011-bundle
@@ -342,18 +342,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 [3]
-Overfull \hbox (10.58415pt too wide) in paragraph at lines 114--137
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
+
+ []
+
+
+Overfull \hbox (10.58415pt too wide) in paragraph at lines 117--139
 []\OT1/cmr/m/n/12 (-20) The sta-tus of ex-ploited ma-rine stocks, as es-ti-mate
 d from biomass- and exploitaion-BRPs,
  []
 
 [4]
-Overfull \hbox (11.74124pt too wide) in paragraph at lines 151--152
+Overfull \hbox (11.74124pt too wide) in paragraph at lines 153--154
 []\OT1/cmr/m/n/12 (-20) The pro-por-tion of stocks be-low $\OML/cmm/m/it/12 B[]
 $ \OT1/cmr/m/n/12 (-20) and be-low $\OML/cmm/m/it/12 U[]$ \OT1/cmr/m/n/12 (-20)
  varies con-sid-er-ably by man-age-ment
@@ -488,7 +498,7 @@ LaTeX Warning: Float too large for page by 32.98598pt on input line 87.
 [11 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-
 phylo.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9plots-
-fandf.pdf, id=62, 794.97pt x 496.85625pt>
+fandf.pdf, id=62, 794.97pt x 440.64626pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9p
 lots-fandf.pdf Graphic file (type pdf)
 
@@ -497,9 +507,6 @@ ots-fandf.pdf>
 Overfull \hbox (26.17653pt too wide) in paragraph at lines 93--94
  [] 
  []
-
-
-LaTeX Warning: Float too large for page by 6.89612pt on input line 96.
 
 [12 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-9pl
 ots-fandf.pdf>]
@@ -511,7 +518,7 @@ xo.pdf Graphic file (type pdf)
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-tax
 o.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pd
-f, id=73, 794.97pt x 429.605pt>
+f, id=73, 794.97pt x 397.485pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MT
 Ls.pdf Graphic file (type pdf)
 
@@ -521,11 +528,11 @@ degg-taxo.pdf>] [14 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
 iew/friedegg-MTLs.pdf>] (./fandf-RESUBMIT2011-bundle.aux
 (./Table1-formatted.aux) (./Figures-RESUBMIT.aux)) ) 
 Here is how much of TeX's memory you used:
- 4249 strings out of 495061
- 62572 string characters out of 1182622
+ 4247 strings out of 495061
+ 62556 string characters out of 1182622
  153491 words of memory out of 3000000
  7269 multiletter control sequences out of 15000+50000
- 11986 words of font info for 68 fonts, out of 3000000 for 9000
+ 11937 words of font info for 67 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,35p,469b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/f
@@ -536,7 +543,7 @@ onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on fandf-RESUBMIT2011-bundle.pdf (14 pages, 2694044 bytes).
+Output written on fandf-RESUBMIT2011-bundle.pdf (14 pages, 2555309 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

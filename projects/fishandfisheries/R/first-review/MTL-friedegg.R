@@ -16,8 +16,8 @@ my.mtl$MTLgroup <- ifelse(my.mtl$mytltl>=4,"MTL>=4.0",ifelse(my.mtl$mytltl>=3,"3
 
 
 # plots
-pdf("friedegg-MTLs.pdf", width=11, height=11/1.85)
-par(mar=c(4,4,1,2),oma=c(4,4,1,2),mfrow=c(1,3))
+pdf("friedegg-MTLs.pdf", width=11, height=11/2)
+par(mar=c(4,3,3,2),oma=c(4,3,3,2),mfrow=c(1,3))
 
 ## stocks with MTL between 2.0 and 3.0
 ss.mtl <- subset(my.mtl, MTLgroup=="2.0<=MTL<3.0")$stockid
@@ -42,7 +42,7 @@ my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""
 #fried.egg.fct("stock",my.ss,"MTL4plus","FALSE","TRUE","MTL>=4.0","TRUE")
 fried.egg.fct("stock",my.ss,"MTL4plus","TRUE","FALSE","c)","TRUE")
 axis(side=4,labels=TRUE)
-mtext(expression(U[curr]/U[MSY]), side=4, line=1, outer=TRUE, cex=0.75)
+##mtext(expression(U[curr]/U[MSY]), side=4, line=1, outer=TRUE, cex=0.75)
 
 dev.off()
 

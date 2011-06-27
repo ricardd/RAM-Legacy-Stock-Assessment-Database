@@ -1,5 +1,5 @@
 ## produce a fried egg for ICES' stocks using SSBlim and Flim reference points
-## DR last modified Time-stamp: <2011-06-25 23:05:36 (srdbadmin)>
+## DR last modified Time-stamp: <2011-06-27 12:20:06 (srdbadmin)>
 ## Modification history:
 ## 2011-04-29: LOG in SQL is base 10 log, use LN instead for natural log
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
@@ -35,7 +35,7 @@ kernel.dens.log <- bkde2D(crosshair.dat[,c(6,12)], bandwidth=c(bmsy.bw.log,umsy.
 palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
 
 ##
-pdf("friedegg-ICES-SSBlim.pdf", width=11/1.6, height=11)
+pdf("friedegg-ICES-SSBlim.pdf", width=11, height=11)
 #par(mar=c(4,4,1,1),oma=c(4,4,1,1),mfrow=c(2,1))
 par(mar=c(4,4,1,1),oma=c(4,4,1,1))
 

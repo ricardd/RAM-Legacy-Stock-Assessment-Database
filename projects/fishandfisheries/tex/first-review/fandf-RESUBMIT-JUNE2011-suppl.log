@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  27 JUN 2011 12:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  28 JUN 2011 12:37
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT-JUNE2011-suppl
@@ -183,6 +183,10 @@ LaTeX Warning: Unused global option(s):
     [review,authoryear].
 
 (./fandf-RESUBMIT-JUNE2011-suppl.aux (./Table-S1-formatted.aux) (./Table-S2.aux
+) (./Table-S2-kbound5maxb.aux
+
+LaTeX Warning: Label `tab:contingency' multiply defined.
+
 ))
 \openout1 = `fandf-RESUBMIT-JUNE2011-suppl.aux'.
 
@@ -4957,88 +4961,98 @@ Overfull \hbox (5.66881pt too wide) in alignment at lines 326--341
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+\openout2 = `Table-S2-kbound5maxb.aux'.
+
+ (./Table-S2-kbound5maxb.tex) [17
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--56
+Underfull \hbox (badness 10000) in paragraph at lines 45--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-</home/srdbadmin/srdb/doc/srdb-erd-2011.png, id=58, 1379.1525pt x 1208.515pt>
+</home/srdbadmin/srdb/doc/srdb-erd-2011.png, id=61, 1379.1525pt x 1208.515pt>
 File: /home/srdbadmin/srdb/doc/srdb-erd-2011.png Graphic file (type png)
 
 <use /home/srdbadmin/srdb/doc/srdb-erd-2011.png>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correla
-tions.pdf, id=60, 433.62pt x 563.10374pt>
+tions-Kbounds-comparison.pdf, id=63, 433.62pt x 563.10374pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-co
-rrelations.pdf Graphic file (type pdf)
+rrelations-Kbounds-comparison.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
-relations.pdf>
+relations-Kbounds-comparison.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessme
-nt.pdf, id=61, 722.7pt x 722.7pt>
+nt.pdf, id=64, 722.7pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-ass
 essment.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
 ssment.pdf>
-Overfull \hbox (26.17651pt too wide) in paragraph at lines 82--83
+Overfull \hbox (26.17651pt too wide) in paragraph at lines 83--84
  [] 
  []
 
 
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SS
-Blim.pdf, id=62, 794.97pt x 794.97pt>
+Blim.pdf, id=65, 794.97pt x 794.97pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-IC
 ES-SSBlim.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICE
 S-SSBlim.pdf>
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxoc
-ategory.pdf, id=63, 722.7pt x 289.08pt>
+ategory.pdf, id=66, 722.7pt x 289.08pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-by
 taxocategory.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-byt
-axocategory.pdf> [17
+axocategory.pdf> [18
 
-] [18 </home/srdbadmin/srdb/doc/srdb-erd-2011.png>]
-[19 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
-relations.pdf>] [20 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-rev
-iew/srdb-by-assessment.pdf>] [21 </home/srdbadmin/srdb/projects/fishandfisherie
-s/R/first-review/friedegg-ICES-SSBlim.pdf>] [22 </home/srdbadmin/srdb/projects/
-fishandfisheries/R/first-review/friedegg-bytaxocategory.pdf>]
-(./fandf-RESUBMIT-JUNE2011-suppl.aux (./Table-S1-formatted.aux) (./Table-S2.aux
-)) ) 
+] [19 </home/srdbadmin/srdb/doc/srdb-erd-2011.png>]
+[20 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
+relations-Kbounds-comparison.pdf>] [21 </home/srdbadmin/srdb/projects/fishandfi
+sheries/R/first-review/srdb-by-assessment.pdf>] [22 </home/srdbadmin/srdb/proje
+cts/fishandfisheries/R/first-review/friedegg-ICES-SSBlim.pdf>] [23 </home/srdba
+dmin/srdb/projects/fishandfisheries/R/first-review/friedegg-bytaxocategory.pdf>
+] (./fandf-RESUBMIT-JUNE2011-suppl.aux (./Table-S1-formatted.aux)
+(./Table-S2.aux) (./Table-S2-kbound5maxb.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3641 strings out of 495061
- 55910 string characters out of 1182622
- 215488 words of memory out of 3000000
- 6733 multiletter control sequences out of 15000+50000
+ 3649 strings out of 495061
+ 56198 string characters out of 1182622
+ 215841 words of memory out of 3000000
+ 6734 multiletter control sequences out of 15000+50000
  12632 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,9n,35p,689b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmti7.pfb>
-Output written on fandf-RESUBMIT-JUNE2011-suppl.pdf (22 pages, 911894 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmti7.pfb>
+Output written on fandf-RESUBMIT-JUNE2011-suppl.pdf (23 pages, 913797 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  9754 words of extra memory for PDF output out of 10000 (max. 10000000)
 

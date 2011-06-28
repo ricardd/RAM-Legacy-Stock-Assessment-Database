@@ -1,5 +1,5 @@
 ## comparison of reference points from assessments to those from Schaefer fits
-## last modified Time-stamp: <2011-06-16 23:00:06 (srdbadmin)>
+## last modified Time-stamp: <2011-06-17 15:13:38 (srdbadmin)>
 ## Modification history:
 ## 2011-06-16: editing code to evaluate the changes of setting upper bound on K parameter to 2*max(TB) and 5*max(TB)
 
@@ -81,6 +81,7 @@ pdf("Schaefer-correlations.pdf", width=6,height=6*1.3,title="")
 #par(mfrow=c(2,1), mar=c(4,4,1,1), oma=c(1,1,1,1))
 par(mfrow=c(2,2), mar=c(4,4,1,1), oma=c(1,1,1,1))
 
+nn <-dim(salt.and.pepper)[1]
 my.range<- c(0.001,range(c(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y))[2]*1.02)
 plot(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range)
 abline(c(0,1),lwd=0.7)

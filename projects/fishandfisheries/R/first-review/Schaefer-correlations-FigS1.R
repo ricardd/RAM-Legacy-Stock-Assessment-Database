@@ -1,5 +1,5 @@
 ## comparison of reference points from assessments to those from Schaefer fits
-## last modified Time-stamp: <2011-06-17 15:13:38 (srdbadmin)>
+## last modified Time-stamp: <2011-06-28 13:01:20 (srdbadmin)>
 ## Modification history:
 ## 2011-06-16: editing code to evaluate the changes of setting upper bound on K parameter to 2*max(TB) and 5*max(TB)
 
@@ -54,10 +54,17 @@ salt.kbound5maxb.and.pepper <-  merge(pepper,salt.kbound5maxb,"assessid")
 
 # data frame to compute the contingency table of classification
 b.for.comparison.table <- data.frame(assessid=salt.and.pepper$assessid, Bratio=salt.and.pepper$bratiocurrent.x, BratioSP=salt.and.pepper$bratiocurrent.y)
-b.for.comparison.table$BratioCLASS <- ifelse(b.for.comparison.table$Bratio<1,"B/Bmsy < 1","B/Bmsy > 1")
-b.for.comparison.table$BratioSPCLASS <- ifelse(b.for.comparison.table$BratioSP<1,"SP B/Bmsy < 1","SP B/Bmsy > 1")
+b.for.comparison.table$BratioCLASS <- ifelse(b.for.comparison.table$Bratio<1,"B/Bmsy < 1","B/Bmsy >= 1")
+b.for.comparison.table$BratioSPCLASS <- ifelse(b.for.comparison.table$BratioSP<1,"SP B/Bmsy < 1","SP B/Bmsy >= 1")
 
 b.table <- table(b.for.comparison.table$BratioCLASS, b.for.comparison.table$BratioSPCLASS)
+
+##
+b.for.comparison.table.kbound5maxb <- data.frame(assessid=salt.kbound5maxb.and.pepper$assessid, Bratio=salt.kbound5maxb.and.pepper$bratiocurrent.x, BratioSP=salt.kbound5maxb.and.pepper$bratiocurrent.y)
+b.for.comparison.table.kbound5maxb$BratioCLASS <- ifelse(b.for.comparison.table.kbound5maxb$Bratio<1,"B/Bmsy < 1","B/Bmsy >= 1")
+b.for.comparison.table.kbound5maxb$BratioSPCLASS <- ifelse(b.for.comparison.table.kbound5maxb$BratioSP<1,"SP B/Bmsy < 1","SP B/Bmsy >= 1")
+
+b.table.kbound5maxb <- table(b.for.comparison.table.kbound5maxb$BratioCLASS, b.for.comparison.table.kbound5maxb$BratioSPCLASS)
 
 
 corr.current <- cor(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y)
@@ -77,22 +84,44 @@ sqlQuery(chan,insert.qu)
 
 
 
-pdf("Schaefer-correlations.pdf", width=6,height=6*1.3,title="")
+#pdf("Schaefer-correlations.pdf", width=6,height=6*1.3,title="")
+pdf("Schaefer-correlations-Kbounds-comparison.pdf", width=6,height=6*1.3,title="")
+
 #par(mfrow=c(2,1), mar=c(4,4,1,1), oma=c(1,1,1,1))
-par(mfrow=c(2,2), mar=c(4,4,1,1), oma=c(1,1,1,1))
+par(mfrow=c(2,2), mar=c(4,4,3,1), oma=c(2,2,2,1))
 
 nn <-dim(salt.and.pepper)[1]
 my.range<- c(0.001,range(c(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y))[2]*1.02)
 plot(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range)
-abline(c(0,1),lwd=0.7)
-mtext.fun(xstring="assessment B/Bmsy",ystring="Schaefer-derived B/Bmsy",xline=2.5,yline=2.5)
-title("K upper bound 2*max(TB)")
+abline(c(0,1),lwd=0.7, lty=2)
+abline(h=1,lwd=0.7, lty=2)
+abline(v=1,lwd=0.7, lty=2)
+#mtext.fun(xstring="assessment B/Bmsy",ystring="Schaefer-derived B/Bmsy",xline=2.5,yline=2.5)
+#yy <- paste("assessment ","B[curr]/B[MSY]")
+#yy <- expression(B[curr]/B[MSY])
+my.cor <- cor(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y)
+text(4,6,paste("r=",round(my.cor,2)))
+yy <- bquote(paste("assessment ", B[curr]/B[MSY]))
+
+mtext(yy, side=2, line=3, outer=FALSE, cex=0.75)
+
+mtext("K upper bound 2*max(TB)",side=3, cex=0.8, line=2)
 
 my.range<- c(0.001,range(c(salt.kbound5maxb.and.pepper$bratiocurrent.x, salt.kbound5maxb.and.pepper$bratiocurrent.y))[2]*1.02)
 plot(salt.kbound5maxb.and.pepper$bratiocurrent.x, salt.kbound5maxb.and.pepper$bratiocurrent.y, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range)
-abline(c(0,1),lwd=0.7)
-mtext.fun(xstring="assessment B/Bmsy",ystring="Schaefer-derived B/Bmsy",xline=2.5,yline=2.5)
-title("K upper bound 5*max(TB)")
+abline(c(0,1),lwd=0.7, lty=2)
+abline(h=1,lwd=0.7, lty=2)
+abline(v=1,lwd=0.7, lty=2)
+
+my.cor <- cor(salt.kbound5maxb.and.pepper$bratiocurrent.x, salt.kbound5maxb.and.pepper$bratiocurrent.y)
+text(4,6,paste("r=",round(my.cor,2)))
+
+#mtext.fun(xstring="assessment B/Bmsy",ystring="Schaefer-derived B/Bmsy",xline=2.5,yline=2.5)
+##yy <- eval(
+#YY <- expression(B[curr]/B[MSY])
+yy <- bquote(paste("Schaefer-derived ", B[curr]/B[MSY]))
+mtext(yy, side=1, line=3, at=-2, outer=FALSE, cex=0.75)
+mtext("K upper bound 5*max(TB)",side=3, cex=0.8, line=2)
 
 #my.range<- range(c(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y))
 #plot(salt.and.pepper$bratiocurrent.x, salt.and.pepper$bratiocurrent.y, xlab="log assessment B/Bmsy", ylab="log Schaefer-derived B/Bmsy", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range, log="xy")
@@ -146,10 +175,17 @@ assessid.to.exclude <- sqlQuery(chan, qu)
 
 
 f.for.comparison.table <- data.frame(assessid=salt.and.pepper$assessid, Uratio=salt.and.pepper$fratiocurrent.x, UratioSP=salt.and.pepper$fratiocurrent.y)
-f.for.comparison.table$UratioCLASS <- ifelse(f.for.comparison.table$Uratio<1,"U/Umsy < 1","U/Umsy > 1")
-f.for.comparison.table$UratioSPCLASS <- ifelse(f.for.comparison.table$UratioSP<1,"SP U/Umsy < 1","SP U/Umsy > 1")
+f.for.comparison.table$UratioCLASS <- ifelse(f.for.comparison.table$Uratio<1,"U/Umsy < 1","U/Umsy >= 1")
+f.for.comparison.table$UratioSPCLASS <- ifelse(f.for.comparison.table$UratioSP<1,"SP U/Umsy < 1","SP U/Umsy >= 1")
 
 f.table <- table(f.for.comparison.table$UratioCLASS, f.for.comparison.table$UratioSPCLASS)
+
+##
+f.for.comparison.table.kbound5maxb <- data.frame(assessid=salt.kbound5maxb.and.pepper$assessid, Uratio=salt.kbound5maxb.and.pepper$fratiocurrent.x, UratioSP=salt.kbound5maxb.and.pepper$fratiocurrent.y)
+f.for.comparison.table.kbound5maxb$UratioCLASS <- ifelse(f.for.comparison.table.kbound5maxb$Uratio<1,"U/Umsy < 1","U/Umsy >= 1")
+f.for.comparison.table.kbound5maxb$UratioSPCLASS <- ifelse(f.for.comparison.table.kbound5maxb$UratioSP<1,"SP U/Umsy < 1","SP U/Umsy >= 1")
+
+f.table.kbound5maxb <- table(f.for.comparison.table.kbound5maxb$UratioCLASS, f.for.comparison.table.kbound5maxb$UratioSPCLASS)
 
 
 corr.current <- cor(salt.and.pepper$fratiocurrent.x, salt.and.pepper$fratiocurrent.y)
@@ -168,15 +204,32 @@ sqlQuery(chan,insert.qu)
 
 my.range<- c(0.001,range(c(salt.and.pepper$fratiocurrent.x, salt.and.pepper$fratiocurrent.y))[2]*1.02)
 plot(salt.and.pepper$fratiocurrent.x, salt.and.pepper$fratiocurrent.y, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range)
-abline(c(0,1),lwd=0.7)
-mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.5,yline=2.5)
+abline(c(0,1),lwd=0.7, lty=2)
+abline(h=1,lwd=0.7, lty=2)
+abline(v=1,lwd=0.7, lty=2)
+
+my.cor <- cor(salt.and.pepper$fratiocurrent.x, salt.and.pepper$fratiocurrent.y)
+text(6,8,paste("r=",round(my.cor,2)))
+
+yy <- bquote(paste("assessment ", U[curr]/U[MSY]))
+mtext(yy, side=2, line=3, outer=FALSE, cex=0.75)
+#mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.5,yline=2.5)
 
 my.range<- c(0.001,range(c(salt.kbound5maxb.and.pepper$fratiocurrent.x, salt.kbound5maxb.and.pepper$fratiocurrent.y))[2]*1.02)
 plot(salt.kbound5maxb.and.pepper$fratiocurrent.x, salt.kbound5maxb.and.pepper$fratiocurrent.y, xlab="", ylab="", pch=1, cex=0.6, col=grey(0.5), xlim=my.range,ylim=my.range)
-abline(c(0,1),lwd=0.7)
-mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.5,yline=2.5)
+abline(c(0,1),lwd=0.7, lty=2)
+abline(h=1,lwd=0.7, lty=2)
+abline(v=1,lwd=0.7, lty=2)
+
+my.cor <- cor(salt.kbound5maxb.and.pepper$fratiocurrent.x, salt.kbound5maxb.and.pepper$fratiocurrent.y)
+text(6,8,paste("r=",round(my.cor,2)))
+#mtext.fun(xstring="assessment U/Umsy",ystring="Schaefer-derived U/Umsy",xline=2.5,yline=2.5)
+#yy <- expression(U[curr]/U[MSY])
+yy <- bquote(paste("Schaefer-derived ", U[curr]/U[MSY]))
+mtext(yy, side=1, line=3, at=-2, outer=FALSE, cex=0.75)
 
 dev.off()
+
 
 #print(b.table)
 #print(f.table)
@@ -232,6 +285,16 @@ my.table.contingency <- xtable(contingency.table, caption=my.caption, label=c("t
 
   print(my.table.contingency, type="html", file="../../tex/first-review/Table-S2.html", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
 
+
+# Table S2 showing the contingency table for B and U
+# with K upper bound at 5*max(TB)
+contingency.table.kbound5maxb <- rbind(f.table.kbound5maxb,b.table.kbound5maxb)
+my.caption <- c("Contingency tables of stock status classification for biomass and exploitation reference points obtained from assessments and those derived from surplus production models. Upper bound for the Schaefer parameter set to 5*max(TB)")
+my.table.contingency.kbound5maxb <- xtable(contingency.table.kbound5maxb, caption=my.caption, label=c("tab:contingency"), digits=2, align="ccc")
+  print(my.table.contingency.kbound5maxb, type="latex", file="../../tex/first-review/Table-S2-kbound5maxb.tex", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
+
+  print(my.table.contingency.kbound5maxb, type="html", file="../../tex/first-review/Table-S2-kbound5maxb.html", include.rownames=TRUE, floating=TRUE, caption.placement="bottom") #, sanitize.text.function=I)
+
 save.image()
 
 
@@ -241,6 +304,3 @@ save.image()
 # srdb.spfits_schaefer_kbound5maxtb
 
 
-pdf("Schaefer-correlations-Kbounds-comparison.pdf", width=6,height=6*1.3,title="")
-par(mfrow=c(2,2))
-dev.off()

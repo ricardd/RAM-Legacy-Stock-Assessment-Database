@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-06-27 12:21:46 (srdbadmin)>
+## Last modified: Time-stamp: <2011-06-27 19:42:04 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -195,7 +195,7 @@ mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
 dev.off()
 
 #pdf("friedegg-9plots-fandf.pdf", width=11, height=11/1.6)
-pdf("friedegg-8plots-fandf.pdf", width=11, height=14)
+pdf("friedegg-8plots-fandf.pdf", width=11, height=16)
 multipanel <- "TRUE"
   if(multipanel){
     par(mar=c(2,2,1,1), oma=c(2,2,0,0))

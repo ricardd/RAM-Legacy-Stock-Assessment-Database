@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  25 JUN 2011 20:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  28 JUN 2011 14:55
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT-JUNE2011-figures
@@ -163,26 +163,24 @@ phylo.pdf>
 
 LaTeX Warning: Float too large for page by 105.62831pt on input line 62.
 
-[5 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-p
-hylo.pdf>]
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-8plots-
-fandf.pdf, id=38, 794.97pt x 611.28375pt>
+fandf.pdf, id=29, 794.97pt x 1156.32pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-8p
 lots-fandf.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-8pl
 ots-fandf.pdf>
-Overfull \hbox (29.65999pt too wide) in paragraph at lines 68--69
+Overfull \hbox (7.48499pt too wide) in paragraph at lines 68--69
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 95.41579pt on input line 71.
+LaTeX Warning: Float too large for page by 70.50954pt on input line 71.
 
-[6 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-8plo
-ts-fandf.pdf>]
+
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo.pd
-f, id=48, 578.16pt x 722.7pt>
+f, id=30, 578.16pt x 722.7pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ta
 xo.pdf Graphic file (type pdf)
 
@@ -195,16 +193,18 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 77--78
 
 LaTeX Warning: Float too large for page by 25.82169pt on input line 81.
 
-[7 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-taxo
-.pdf>]
+[5 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/three-panel-p
+hylo.pdf>] [6 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/fr
+iedegg-8plots-fandf.pdf>] [7 </home/srdbadmin/srdb/projects/fishandfisheries/R/
+first-review/friedegg-taxo.pdf>]
 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTLs.pd
-f, id=59, 794.97pt x 429.605pt>
+f, id=59, 794.97pt x 397.485pt>
 File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MT
 Ls.pdf Graphic file (type pdf)
 
 <use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-MTL
 s.pdf>
-Overfull \hbox (20.55511pt too wide) in paragraph at lines 88--89
+Overfull \hbox (77.46062pt too wide) in paragraph at lines 88--89
  [] 
  []
 
@@ -222,7 +222,7 @@ Here is how much of TeX's memory you used:
 /type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
 ic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmr12.pfb>
-Output written on fandf-RESUBMIT-JUNE2011-figures.pdf (8 pages, 2471168 bytes).
+Output written on fandf-RESUBMIT-JUNE2011-figures.pdf (8 pages, 2482093 bytes).
 
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)

@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-27 12:07:08 (srdbadmin)>
+## last modified Time-stamp: <2011-06-27 15:45:28 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history

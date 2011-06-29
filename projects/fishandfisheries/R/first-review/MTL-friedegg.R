@@ -25,7 +25,7 @@ my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""
 #fried.egg.fct("stock",my.ss,"2MTL3","FALSE","TRUE","2.0<=MTL<3.0","TRUE")
 fried.egg.fct("stock",my.ss,"2MTL3","TRUE","TRUE","a)","TRUE")
 
-mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=1)
 
 ## stocks with MTL between 3.0 and 4.0
 ss.mtl <- subset(my.mtl, MTLgroup=="3.0<=MTL<4.0")$stockid
@@ -34,7 +34,7 @@ my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.mtl),"'",sep=""
 fried.egg.fct("stock",my.ss,"3MTL4","TRUE","FALSE","b)","TRUE")
 
 
-mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=1)
 
 ## stocks with MTL over 4.0
 ss.mtl <- subset(my.mtl, MTLgroup=="MTL>=4.0")$stockid

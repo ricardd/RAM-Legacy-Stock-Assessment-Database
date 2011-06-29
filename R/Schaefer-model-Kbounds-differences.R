@@ -1,7 +1,7 @@
 ## a script to generate Schaefer fits to stocks in srdb under 2 different upper bounds for the K parameter
 ## started 2011-06-16 from earlier work in /home/srdbadmin/srdb/R/surplus-production.R
 ## -> this code is to address a referee's request for the Fish and Fisheries paper
-## last modified Time-stamp: <2011-06-23 21:27:47 (srdbadmin)>
+## last modified Time-stamp: <2011-06-29 09:56:30 (srdbadmin)>
 ##
 ## changing the bounds of the K parameter is done in the schaefer.dat file used by ADMB
 
@@ -259,8 +259,18 @@ f.ratio.changed <- subset(f.salt.merged, round(ratio.x,3) != round(ratio.y,3))
 f.ratio.changed$diff2to5 <- round(f.ratio.changed$ratio.y,3) - round(f.ratio.changed$ratio.x,3) 
 
 ##
-cbind(tb.ratio.changed$assessid, tb.ratio.changed$diff2to5, round(tb.ratio.changed$ratio.x,3), round(tb.ratio.changed$ratio.y,3))
-cbind(f.ratio.changed$assessid, round(f.ratio.changed$diff2to5,4), round(f.ratio.changed$ratio.x,3), round(f.ratio.changed$ratio.y,3))
+#cbind(tb.ratio.changed$assessid, tb.ratio.changed$diff2to5, round(tb.ratio.changed$ratio.x,3), round(tb.ratio.changed$ratio.y,3))
+tb.ratio.df <- data.frame(assessid=tb.ratio.changed$assessid, diff2to5=tb.ratio.changed$diff2to5, ratioKbound2=round(tb.ratio.changed$ratio.x,3), ratioKbound5=round(tb.ratio.changed$ratio.y,3))
+tb.ratio.df$changedclass <- ifelse((tb.ratio.df$ratioKbound2 < 1 & tb.ratio.df$ratioKbound5>=1) | (tb.ratio.df$ratioKbound2 >= 1 & tb.ratio.df$ratioKbound5<1),"yes","no")
+
+f.ratio.df <- data.frame(assessid=f.ratio.changed$assessid, diff2to5=f.ratio.changed$diff2to5, ratioKbound2=round(f.ratio.changed$ratio.x,3), ratioKbound5=round(f.ratio.changed$ratio.y,3))
+f.ratio.df$changedclass <- ifelse((f.ratio.df$ratioKbound2 < 1 & f.ratio.df$ratioKbound5>=1) | (f.ratio.df$ratioKbound2 >= 1 & f.ratio.df$ratioKbound5<1),"yes","no")
+
+
+subset(f.ratio.df,changedclass == "yes")
+subset(tb.ratio.df,changedclass == "yes")
+
+#cbind(f.ratio.changed$assessid, round(f.ratio.changed$diff2to5,4), round(f.ratio.changed$ratio.x,3), round(f.ratio.changed$ratio.y,3))
 
 dim(tb.ratio.changed)
 dim(f.ratio.changed)

@@ -2,7 +2,7 @@
 ## fried-egg-plots.R
 ## produce fried egg plots for Fish and Fisheries manuscript
 ## Daniel Ricard, started 2010-03-25
-## Last modified: Time-stamp: <2011-06-27 19:42:04 (srdbadmin)>
+## Last modified: Time-stamp: <2011-06-29 11:11:54 (srdbadmin)>
 ## Modification history:
 ## 2010-07-14: Olaf and I just realised that some mismatch between the Science paper and the ratios computed here come from the fact that I was using both ratios from either the SP or from the assessment, whereas in the Science paper assessment Bmsy were used when available, even if there was no Fmsy in the assessment -> I HAVE TO FIX THIS, BOTH HERE AND FOR MALIN PINSKY DATA REQUEST
 ## 2011-01-12: the pch used for plotting the salt and pepper was backwards, i.e. salt appeared as pepper and vice-versa, I fixed that, ICES should be all salt, same for DFO.
@@ -42,11 +42,11 @@ par(mfrow=c(3,2))
 fried.egg.fct("taxo"," ordername = 'Gadiformes'","Gadiformes","FALSE","TRUE","a","TRUE")
 fried.egg.fct("taxo"," ordername = 'Decapoda'","Decapoda","FALSE","FALSE","b","TRUE")
 fried.egg.fct("taxo"," ordername = 'Scorpaeniformes'","Scorpaeniformes","FALSE","TRUE","c","TRUE")
-mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=1)
 fried.egg.fct("taxo"," ordername = 'Perciformes'","Perciformes","FALSE","FALSE","d","TRUE")
 fried.egg.fct("taxo"," ordername = 'Pleuronectiformes'","Pleuronectiformes","TRUE","TRUE","e","TRUE")
 fried.egg.fct("taxo"," ordername = 'Clupeiformes'","Clupeiformes","TRUE","FALSE","f","TRUE")
-mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=1)
 
 dev.off()
 
@@ -65,11 +65,13 @@ par(mfrow=c(1,3))
 ss.dem <- subset(taxo.cat,taxocategory=="Demersals")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.dem),"'",sep=""), sep=",")), ")", sep="")
 fried.egg.fct("stock",my.ss,"dem","TRUE","TRUE","Demersals","TRUE")
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=1)
 
 ## pelagics
 ss.pel <- subset(taxo.cat,taxocategory=="Pelagics")$stockid
 my.ss <- paste("(", capture.output(cat(paste("'",as.character(ss.pel),"'",sep=""), sep=",")), ")", sep="")   
 fried.egg.fct("stock",my.ss,"pel","TRUE","FALSE","Pelagics","TRUE")
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=1)
 
 ## inverts
 ss.inv <- subset(taxo.cat,taxocategory=="Invertebrates")$stockid
@@ -221,8 +223,7 @@ fried.egg.fct("mgmt",c("('ICES')"),"ICES","FALSE","TRUE","e","TRUE")
 # DFO
 fried.egg.fct("mgmt",c("('DFO')"),"DFO","FALSE","FALSE","f","TRUE")
 
-
-mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=0.75)
+mtext(expression(U[curr]/U[MSY]), side=2, line=1, outer=TRUE, cex=1.2)
 
 # Atlantic
 fried.egg.fct("mgmt",c("('NAFO','ICCAT')"),"ATL","TRUE","TRUE","g","TRUE") # 'TRAC',
@@ -233,7 +234,7 @@ fried.egg.fct("mgmt",c("('IATTC','SPC','IPHC','RFFA','SPRFMO','WCPFC','WPFMC')")
 # other
 #fried.egg.fct("mgmt",c("('CCAMLR','CFP','IMARPE','DETMCM','IOTC','Iran')"),"other","TRUE","TRUE","i)","TRUE")
 
-mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=0.75)
+mtext(expression(B[curr]/B[MSY]), side=1, line=1, outer=TRUE, cex=1.2)
 
 dev.off()
 

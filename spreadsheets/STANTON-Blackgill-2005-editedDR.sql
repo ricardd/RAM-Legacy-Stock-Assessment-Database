@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'NWFSC', 'BGROCKPCOAST', 'STANTON', '2009-05-19', '2011-06-24 12:23:08', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Blackgill-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'NWFSC', 'BGROCKPCOAST', 'STANTON', '2009-05-19', '2011-06-29 13:52:23', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Blackgill-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'ID', '2005-SAFE-Wcblackgill.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'A1', 'Hesler, Thomas') ; 
@@ -16,7 +16,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','SSBmsy-MT','3799', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','MSY-MT','223', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','Umsy-ratio','0.029', 'NULL', '') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','SSB0-MT','9.503', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','SSB0-MT','9503', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','B0-MT','21558', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','SSB-MT',1950, 9503) ; 
  INSERT INTO srdb.timeseries VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON','SSB-MT',1951, 9503) ; 

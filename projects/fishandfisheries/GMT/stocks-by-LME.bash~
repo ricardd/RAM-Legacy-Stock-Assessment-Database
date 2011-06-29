@@ -1,6 +1,8 @@
 #!/bin/bash
 rm /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 
+psql srdb -f /home/srdbadmin/srdb/projects/fishandfisheries/SQL/stocks-by-lme.sql
+
 # 1 to 4 assessments
 #psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext(the_geom), 'MULTIPOLYGON(('),'))') FROM stocksbylme where numassessments <=4 " | sed 's/),(/\n>/g' | sed 's/\,/\n/g' | psxy -Rg -JN13/10i -G250 -W -m -N -K >> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps
 psql srdb -t -A -F " " -c "SELECT '>' || lme_number || E'\n', RTRIM(LTRIM(astext(the_geom), 'MULTIPOLYGON(('),'))') FROM stocksbylme where numassessments <=4 " | sed 's/),(/\n>/g' | sed 's/\,/\n/g' | psxy -Rg -JN4/10i -G65/152/175 -W -m -N -K -Y2c>> /home/srdbadmin/srdb/projects/fishandfisheries/GMT/stocks-byLME.ps

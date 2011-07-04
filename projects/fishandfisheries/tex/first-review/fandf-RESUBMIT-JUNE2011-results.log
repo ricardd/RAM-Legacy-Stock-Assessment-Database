@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  27 JUN 2011 21:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  29 JUN 2011 21:35
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT-JUNE2011-results
@@ -451,11 +451,11 @@ LaTeX Warning: Float too large for page by 328.54753pt on input line 33.
 
 ) [7] (./fandf-RESUBMIT-JUNE2011-results.aux (./Table1-formatted.aux)) ) 
 Here is how much of TeX's memory you used:
- 4195 strings out of 495061
- 60087 string characters out of 1182622
+ 4199 strings out of 495061
+ 60117 string characters out of 1182622
  153053 words of memory out of 3000000
  7237 multiletter control sequences out of 15000+50000
- 11888 words of font info for 66 fonts, out of 3000000 for 9000
+ 11986 words of font info for 68 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,10n,35p,475b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/s
@@ -466,7 +466,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on fandf-RESUBMIT-JUNE2011-results.pdf (7 pages, 119854 bytes).
+Output written on fandf-RESUBMIT-JUNE2011-results.pdf (7 pages, 120736 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

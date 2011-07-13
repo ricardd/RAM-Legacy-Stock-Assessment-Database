@@ -1,0 +1,194 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  13 JUL 2011 11:30
+entering extended mode
+ %&-line parsing enabled.
+**fandf-RESUBMIT-JULY2011-supporting-figures
+(./fandf-RESUBMIT-JULY2011-supporting-figures.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count88
+)
+(./fandf-RESUBMIT-JULY2011-supporting-figures.aux)
+\openout1 = `fandf-RESUBMIT-JULY2011-supporting-figures.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen111
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen112
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks16
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ </home/srdbadmin/srdb/doc/srdb-ERD.pdf, id=1, 597.50786pt x 845.04686pt>
+File: /home/srdbadmin/srdb/doc/srdb-ERD.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/doc/srdb-ERD.pdf>
+Overfull \hbox (7.48499pt too wide) in paragraph at lines 17--18
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 64.85542pt on input line 20.
+
+
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correla
+tions-Kbounds-comparison.pdf, id=3, 433.62pt x 563.10374pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-co
+rrelations-Kbounds-comparison.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-cor
+relations-Kbounds-comparison.pdf>
+Overfull \hbox (7.48499pt too wide) in paragraph at lines 24--25
+ [] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 26.
+
+LaTeX Warning: Float too large for page by 18.9058pt on input line 27.
+
+
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessme
+nt.pdf, id=4, 722.7pt x 722.7pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-ass
+essment.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-asse
+ssment.pdf>
+Overfull \hbox (7.48499pt too wide) in paragraph at lines 32--33
+ [] 
+ []
+
+
+</home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SS
+Blim.pdf, id=5, 794.97pt x 794.97pt>
+File: /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-IC
+ES-SSBlim.pdf Graphic file (type pdf)
+
+<use /home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICE
+S-SSBlim.pdf>
+Overfull \hbox (7.48499pt too wide) in paragraph at lines 41--42
+ [] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/srdbadmin/srdb/d
+oc/srdb-ERD.pdf>] [3 </home/srdbadmin/srdb/projects/fishandfisheries/R/first-re
+view/Schaefer-correlations-Kbounds-comparison.pdf>] [4 </home/srdbadmin/srdb/pr
+ojects/fishandfisheries/R/first-review/srdb-by-assessment.pdf>] [5 </home/srdba
+dmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SSBlim.pdf>] (
+./fandf-RESUBMIT-JULY2011-supporting-figures.aux) ) 
+Here is how much of TeX's memory you used:
+ 1918 strings out of 495061
+ 30837 string characters out of 1182622
+ 91213 words of memory out of 3000000
+ 5119 multiletter control sequences out of 15000+50000
+ 7283 words of font info for 26 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 36i,5n,38p,317b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10
+.pfb>
+Output written on fandf-RESUBMIT-JULY2011-supporting-figures.pdf (5 pages, 3057
+51 bytes).
+PDF statistics:
+ 77 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,61 @@
+%% Last modified: Time-stamp: <2011-07-13 11:05:16 (srdbadmin)>
+%% a single pdf with all the figures for the Fish and Fisheries June 24 2011 resubmission
+\documentclass[letterpaper,12pt]{article}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage[font=small,labelsep=none]{caption}
+
+\pagestyle{empty}
+
+\begin{document}
+\renewcommand{\figurename}{Figure S}
+
+\section*{Supporting Figures}
+\noindent Figure S1. 
+\\
+
+\noindent Figure S2. 
+\\
+
+\noindent Figure S3. 
+\\
+
+\noindent Figure S4.  
+\\
+
+\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=8in]{/home/srdbadmin/srdb/doc/srdb-ERD.pdf}
+\end{center}
+\caption{ }
+\end{figure}
+\end{landscape}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=8in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/Schaefer-correlations-Kbounds-comparison.pdf}
+\end{center}
+\caption{ }
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[height=8.5in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/srdb-by-assessment.pdf} 
+\end{center}
+\caption{ }
+\end{figure}
+
+
+%\begin{landscape}
+\begin{figure}
+\begin{center}
+\includegraphics[width=5.5in]{/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/friedegg-ICES-SSBlim.pdf}
+\end{center}
+\caption{ }
+\end{figure}
+%\end{landscape}
+
+
+\end{document}

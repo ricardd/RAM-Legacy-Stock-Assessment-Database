@@ -1,5 +1,5 @@
 ## produce a fried egg for ICES' stocks using SSBlim and Flim reference points
-## DR last modified Time-stamp: <2011-06-27 12:20:06 (srdbadmin)>
+## DR last modified Time-stamp: <2011-07-13 11:30:18 (srdbadmin)>
 ## Modification history:
 ## 2011-04-29: LOG in SQL is base 10 log, use LN instead for natural log
 setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/first-review/")
@@ -51,8 +51,8 @@ axis(side=1, labels=TRUE)
 axis(side=2, labels=TRUE)
 
   n.assessid <- dim(crosshair.dat)[1]
-mtext(expression(SSB[curr]/SSB[lim]), side=1, line=1, outer=TRUE, cex=1)
-mtext(expression(F[curr]/F[lim]), side=2, line=1, outer=TRUE, cex=1)
+mtext(expression(B/B[lim]), side=1, line=1, outer=TRUE, cex=1)
+mtext(expression(F/F[lim]), side=2, line=1, outer=TRUE, cex=1)
 
   my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
 legend("topright",my.label)

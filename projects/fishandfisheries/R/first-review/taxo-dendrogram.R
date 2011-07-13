@@ -2,7 +2,7 @@
 ##
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2011-06-25 20:17:27 (srdbadmin)>
+## Last modified Time-stamp: <2011-07-12 22:44:32 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -207,10 +207,10 @@ text(0.68,-0.09, labels="Arthropoda", srt=351, cex=my.cex, font=2)
 text(0.6,-0.34, labels="Mollusca", srt=330, cex=my.cex, font=2)
 text(0.45,-0.41, labels="Chondrichtyes", srt=325, cex=my.cex)
 text(0.35,0.41, labels="Perciformes", srt=40, cex=my.cex)
-text(-0.09,0.5, labels="Scorpaeniformes", srt=80, cex=my.cex)
-text(-0.5,0.35, labels="Clupeiformes", srt=320, cex=my.cex)
-text(-0.47,-0.15, labels="Pleuronectiformes", srt=33, cex=my.cex)
-text(0.1,-0.45, labels="Gadiformes", srt=295, cex=my.cex)
+text(-0.13,0.5, labels="Scorpaeniformes", srt=83, cex=my.cex)
+text(-0.5,0.30, labels="Clupeiformes", srt=320, cex=my.cex)
+text(-0.40,-0.23, labels="Gadiformes", srt=44, cex=my.cex)
+text(0.08,-0.45, labels="Pleuronectiformes", srt=295, cex=my.cex)
 text(0.20,0.1, labels="Animalia", srt=0, cex=1, font=2)
 Arrows(0.08,0.1,0.015,0.04, open=FALSE, size=0.5)
 #text(-0.38,0.35, labels="Actinopterygii", srt=0, cex=my.cex)

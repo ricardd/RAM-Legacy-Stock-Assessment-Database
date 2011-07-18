@@ -1,0 +1,7 @@
+require(RODBC)
+chan <- odbcConnect(dsn="srdbcalo")
+qu <- paste("
+select assessid, xlsfilename, pdffile from srdb.assessment where stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where family in ('Scombridae', 'Xiphiidae', 'Istiophoridae'))) and mostrecent='yes' and assessid not like '%MACK%' order by assessid
+", sep="")
+
+branch.tunas <- sqlQuery(chan,qu)

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IMARM-SFMAKONWPAC-1990-2003-FAUCONNET', 'IMARM', 'SFMAKONWPAC', 'FAUCONNET', '2009-06-11', '2011-06-24 12:23:06', '1990-2003', 'received from Julia Baum', 'Jui-Han Chang (Jui-Han_Chang@umit.maine.edu) and Kwang-Ming Liu (kmliu@mail.ntou.edu.tw)', 'full report in Chinese, but details provided by authors', '', 1, 1, 'VPA', 'VPA, spawning per recruit analysis and yield per recruit analysis', '../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IMARM-SFMAKONWPAC-1990-2003-FAUCONNET', 'IMARM', 'SFMAKONWPAC', 'FAUCONNET', '2009-06-11', '2011-07-25 12:39:54', '1990-2003', 'received from Julia Baum', 'Jui-Han Chang (Jui-Han_Chang@umit.maine.edu) and Kwang-Ming Liu (kmliu@mail.ntou.edu.tw)', 'full report in Chinese, but details provided by authors', '', 1, 1, 'VPA', 'VPA, spawning per recruit analysis and yield per recruit analysis', '../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARM-SFMAKONWPAC-1990-2003-FAUCONNET', 'ID', 'Chang-Liu-2009-Shortfin-mako-NWPAC.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARM-SFMAKONWPAC-1990-2003-FAUCONNET', 'TY', 'JOUR') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARM-SFMAKONWPAC-1990-2003-FAUCONNET', 'A1', 'Chang, Jui-Han') ; 

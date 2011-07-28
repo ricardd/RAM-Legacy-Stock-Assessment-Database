@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-BTSHRIMPNAUST-1970-2006-FULTON', 'CSIRO', 'BTSHRIMPNAUST', 'FULTON', '2008-04-30', '2011-06-24 12:22:11', '1970-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'Delay difference', '', '../spreadsheets/Fulton-brown_tiger_prawn-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-BTSHRIMPNAUST-1970-2006-FULTON', 'CSIRO', 'BTSHRIMPNAUST', 'FULTON', '2008-04-30', '2011-07-25 12:38:58', '1970-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'Delay difference', '', '../spreadsheets/Fulton-brown_tiger_prawn-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-BTSHRIMPNAUST-1970-2006-FULTON', 'ID', 'NORTHPRAWNS') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-BTSHRIMPNAUST-1970-2006-FULTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-BTSHRIMPNAUST-1970-2006-FULTON', 'A1', 'Dichmont, Cathy') ; 

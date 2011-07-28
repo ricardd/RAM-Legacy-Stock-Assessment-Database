@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-COD3M-1959-2008-BAUM', 'NAFO-SC', 'COD3M', 'BAUM', '2009-05-28', '2011-06-24 12:23:09', '1959-2008', 'http://www.nafo.int/publications/frames/science.html', '', 'Moratorium since 1999, with increasing SSB trend', '', 1, 1, 'hybrid', 'A Bayesian VPA to incorporate fact that in most recent years don''t have catch at age (b/c stock under moratorium)', '../spreadsheets/BAUM-COD3M-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-COD3M-1959-2008-BAUM', 'NAFO-SC', 'COD3M', 'BAUM', '2009-05-28', '2011-07-25 12:39:57', '1959-2008', 'http://www.nafo.int/publications/frames/science.html', '', 'Moratorium since 1999, with increasing SSB trend', '', 1, 1, 'hybrid', 'A Bayesian VPA to incorporate fact that in most recent years don''t have catch at age (b/c stock under moratorium)', '../spreadsheets/BAUM-COD3M-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3M-1959-2008-BAUM', 'ID', 'NAFO-3M-COD-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3M-1959-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3M-1959-2008-BAUM', 'A1', 'Fernandez, C.') ; 

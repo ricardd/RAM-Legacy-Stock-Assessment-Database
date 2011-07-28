@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-GEMFISHSE-1966-2007-FULTON', 'CSIRO', 'GEMFISHSE', 'FULTON', '2008-04-30', '2011-06-24 12:22:11', '1966-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used v2.00c of SS2', '../spreadsheets/Fulton-east-gemfish-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-GEMFISHSE-1966-2007-FULTON', 'CSIRO', 'GEMFISHSE', 'FULTON', '2008-04-30', '2011-07-25 12:38:59', '1966-2007', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used v2.00c of SS2', '../spreadsheets/Fulton-east-gemfish-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GEMFISHSE-1966-2007-FULTON', 'ID', 'GEMFISHSE') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GEMFISHSE-1966-2007-FULTON', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GEMFISHSE-1966-2007-FULTON', 'A1', 'Little, Richard L.') ; 

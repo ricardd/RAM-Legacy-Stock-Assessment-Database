@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON', 'NEFSC', 'WINFLOUN5Z', 'HENDRICKSON', '2009-04-20', '2011-06-24 12:23:13', '1982-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf', '', 'Stock under rebuilding program with 2018 deadline.', '', 1, 1, 'ADAPT', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/HENDRICKSON-WINTERFLGB-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON', 'NEFSC', 'WINFLOUN5Z', 'HENDRICKSON', '2009-04-20', '2011-07-25 12:40:02', '1982-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf', '', 'Stock under rebuilding program with 2018 deadline.', '', 1, 1, 'ADAPT', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/HENDRICKSON-WINTERFLGB-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON', 'ID', 'garm3k.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON', 'A1', 'Lisa Hendrickson') ; 

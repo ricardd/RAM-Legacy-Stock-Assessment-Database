@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'NAFO-SC', 'GHAL23KLMNO', 'PREFONTAINE', '2008-07-02', '2011-06-24 12:22:47', '1960-2006', 'http://www.nafo.int/publications/frames/science.html', 'contact details ', 'this is a test entry only', '', 1, 1, 'XSA', 'no comments', '../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'NAFO-SC', 'GHAL23KLMNO', 'PREFONTAINE', '2008-07-02', '2011-07-25 12:39:35', '1960-2006', 'http://www.nafo.int/publications/frames/science.html', 'contact details ', 'this is a test entry only', '', 1, 1, 'XSA', 'no comments', '../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'ID', 'NAFO-GHAL23KLMNO-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'A1', 'Healey, B.P.') ; 
- INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'A1', 'Mahé, J.-C.') ; 
+ INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'A1', 'MahÃ©, J.-C.') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'T1', 'An Assessment of Greenland Halibut (Reinhardtius hippoglossoides) in NAFO Subarea 2 and Divisions 3KLMNO') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'VL', ' 07/53') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'Y1', '2007') ; 

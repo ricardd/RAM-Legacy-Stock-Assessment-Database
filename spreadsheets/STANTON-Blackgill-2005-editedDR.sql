@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'NWFSC', 'BGROCKPCOAST', 'STANTON', '2009-05-19', '2011-06-29 13:52:23', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Blackgill-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'NWFSC', 'BGROCKPCOAST', 'STANTON', '2009-05-19', '2011-07-25 12:39:56', '1950-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Blackgill-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'ID', '2005-SAFE-Wcblackgill.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BGROCKPCOAST-1950-2005-STANTON', 'A1', 'Hesler, Thomas') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-CODGB-1960-2008-BAUM', 'NEFSC', 'CODGB', 'BAUM', '2008-10-24', '2011-06-24 12:23:13', '1960-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock (Georges Bank cod) covers NAFO areas 5Z and subarea 6.', '', 1, 1, 'ADAPT', 'Split model chosen as final assessment model by GARM review panel. Fully recruited F was 4 in previous assessments, is now 5.', '../spreadsheets/BAUM-CODGB-2008-lob-edits-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-CODGB-1960-2008-BAUM', 'NEFSC', 'CODGB', 'BAUM', '2008-10-24', '2011-07-25 12:40:01', '1960-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock (Georges Bank cod) covers NAFO areas 5Z and subarea 6.', '', 1, 1, 'ADAPT', 'Split model chosen as final assessment model by GARM review panel. Fully recruited F was 4 in previous assessments, is now 5.', '../spreadsheets/BAUM-CODGB-2008-lob-edits-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGB-1960-2008-BAUM', 'ID', 'NMFS-GB-Gadusmorhua-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGB-1960-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-CODGB-1960-2008-BAUM', 'A1', 'Northeast Fisheries Science Center') ; 

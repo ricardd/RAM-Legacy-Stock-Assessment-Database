@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BLUEROCKCAL-1916-2007-BRANCH', 'NWFSC', 'BLUEROCKCAL', 'BRANCH', '2008-11-21', '2011-06-24 12:22:54', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/KeySAFE_BlueRF_Jan08.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BLUEROCKCAL-1916-2007-BRANCH', 'NWFSC', 'BLUEROCKCAL', 'BRANCH', '2008-11-21', '2011-07-25 12:39:42', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/KeySAFE_BlueRF_Jan08.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLUEROCKCAL-1916-2007-BRANCH', 'ID', 'NWFSC-BLUEROCKCAL-2007-Blue rockfish CA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLUEROCKCAL-1916-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLUEROCKCAL-1916-2007-BRANCH', 'A1', 'Key, M') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-GKINGCRABAIES-1990-2007-JENSEN', 'AFSC', 'GKINGCRABAIES', 'JENSEN', '2009-04-13', '2011-06-24 12:22:45', '1990-2007', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'AD-CAL', '', '../spreadsheets/JENSEN-GKINGCRABAIES-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-GKINGCRABAIES-1990-2007-JENSEN', 'AFSC', 'GKINGCRABAIES', 'JENSEN', '2009-04-13', '2011-07-25 12:39:32', '1990-2007', 'http://www.fakr.noaa.gov/npfmc/membership/plan_teams/CPT/CRABSAFE2008.pdf', '', '', '', 1, 1, 'AD-CAL', '', '../spreadsheets/JENSEN-GKINGCRABAIES-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GKINGCRABAIES-1990-2007-JENSEN', 'ID', 'CRABSAFE2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GKINGCRABAIES-1990-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GKINGCRABAIES-1990-2007-JENSEN', 'VL', '2008 BSAI Crab SAFE') ; 

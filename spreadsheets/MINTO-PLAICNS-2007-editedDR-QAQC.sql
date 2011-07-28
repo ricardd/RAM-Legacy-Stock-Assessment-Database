@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-PLAICNS-1956-2006-MINTO', 'WGNSSK', 'PLAICNS', 'MINTO', '2008-04-13', '2011-06-24 12:22:30', '1956-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Estimates of discards are provided in the assessment. Fbar and fbar hc refer to the average fishing mortality and the amount of that that is landed for human consumption', '../spreadsheets/MINTO-PLAICNS-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-PLAICNS-1956-2006-MINTO', 'WGNSSK', 'PLAICNS', 'MINTO', '2008-04-13', '2011-07-25 12:39:17', '1956-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'Estimates of discards are provided in the assessment. Fbar and fbar hc refer to the average fishing mortality and the amount of that that is landed for human consumption', '../spreadsheets/MINTO-PLAICNS-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICNS-1956-2006-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICNS-1956-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-PLAICNS-1956-2006-MINTO', 'A1', 'Anonymous') ; 

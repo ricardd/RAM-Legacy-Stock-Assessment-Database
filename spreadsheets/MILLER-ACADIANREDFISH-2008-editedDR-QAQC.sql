@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'NEFSC', 'ACADREDGOMGB', 'MILLER', '2009-04-16', '2011-06-24 12:23:17', '1913-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'ASAP', 'Variance of Discard estimates and small total removal estimates allowed some implausibly high fishing mortality estimates in recent years', '../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'NEFSC', 'ACADREDGOMGB', 'MILLER', '2009-04-16', '2011-07-25 12:40:05', '1913-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'ASAP', 'Variance of Discard estimates and small total removal estimates allowed some implausibly high fishing mortality estimates in recent years', '../spreadsheets/MILLER-ACADIANREDFISH-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'ID', 'AcadianRedfish2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-ACADREDGOMGB-1913-2007-MILLER', 'A1', 'Northeast Fisheries Science Center') ; 

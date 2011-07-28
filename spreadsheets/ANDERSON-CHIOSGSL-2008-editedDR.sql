@@ -1,11 +1,11 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'DFO-SG', 'SNOWCRABSGSL', 'ANDERSON', '2009-05-06', '2011-06-24 12:23:09', '1984-2007', 'http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/ResDocs-DocRech/2008/2008_040_e.htm', 'contact details ', 'Fishing area now encompasses areas 12, 19, E, and F, however, I have included only area 12 as Ram had done. Area 12 is by far the largest and the others have been introduced more recently. Aggregating would mask spatial expansion of the fishing until 1995.', '', 0, 0, 'RV', 'Area 12 only.', '../spreadsheets/ANDERSON-CHIOSGSL-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'DFO-SG', 'SNOWCRABSGSL', 'ANDERSON', '2009-05-06', '2011-07-25 12:39:58', '1984-2007', 'http://www.dfo-mpo.gc.ca/CSAS/Csas/Publications/ResDocs-DocRech/2008/2008_040_e.htm', 'contact details ', 'Fishing area now encompasses areas 12, 19, E, and F, however, I have included only area 12 as Ram had done. Area 12 is by far the largest and the others have been introduced more recently. Aggregating would mask spatial expansion of the fishing until 1995.', '', 0, 0, 'RV', 'Area 12 only.', '../spreadsheets/ANDERSON-CHIOSGSL-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'ID', '2008_040_b.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'HÈbert, M') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'H√©bert, M') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'Wade, E') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'DeGr‚ce, P') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'BÈlanger, P') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'DeGr√¢ce, P') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'B√©langer, P') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'A1', 'Moriyasu, M') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'T1', 'The 2007 assessment of snow crab, Chionoecetes opilio, stocks in the southern Gulf of St. Lawrence (Areas 12, 19, E and F)') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-SG-SNOWCRABSGSL-1984-2007-ANDERSON', 'VL', '40') ; 

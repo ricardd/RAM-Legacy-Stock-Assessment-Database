@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN', 'SEFSC', 'RSNAPSATLC', 'JENSEN', '2008-11-22', '2011-06-24 12:22:52', '1945-2006', 'http://www.sefsc.noaa.gov/sedar/download/S15%20SAR%201%20Finalfixed.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'SCA', '', '../spreadsheets/JENSEN-RSNAPSATLC-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN', 'SEFSC', 'RSNAPSATLC', 'JENSEN', '2008-11-22', '2011-07-26 13:18:10', '1945-2006', 'http://www.sefsc.noaa.gov/sedar/download/S15%20SAR%201%20Finalfixed.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'SCA', '', '../spreadsheets/JENSEN-RSNAPSATLC-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN', 'ID', 'JENSEN_RSNAPSATLC_2008') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN', 'A1', 'NULL') ; 
@@ -16,9 +16,9 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','M-1/yr','0.078', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','Blim-FemaleGonadMT','7275', 'NULL', '(1-M)*SSB40%spr (using M = 0.078)') ; 
  INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','Flim-1/yr','0.841', 'NULL', 'MSY') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','Fmsy-1/T','0.07', 'NULL', 'proxy - F40%SPR') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','Fmsy-1/yr','0.112', 'NULL', 'proxy - F40%SPR') ; 
  INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','MSY-MT','1049.61', 'NULL', '') ; 
- INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','SSBmsy-MT','7.89E+03', 'NULL', 'SSB at F40%spr') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','SSBmsy-MT','5184', 'NULL', 'SSB at F40%spr') ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','SSB-MT',1945, 13256.2) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','SSB-MT',1946, 13177.6) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-RSNAPSATLC-1945-2006-JENSEN','SSB-MT',1947, 13123.6) ; 

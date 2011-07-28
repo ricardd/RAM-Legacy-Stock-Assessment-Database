@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-WROCKPCOAST-1955-2006-BRANCH', 'NWFSC', 'WROCKPCOAST', 'BRANCH', '2008-11-23', '2011-06-24 12:22:56', '1955-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/WidowStockAssessment_Update_2007_Final_Oct_2007.pdf', '', '', '', 1, 1, 'AD-CAM', 'Purpose built code for this assessment', '../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-WROCKPCOAST-1955-2006-BRANCH', 'NWFSC', 'WROCKPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:44', '1955-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/WidowStockAssessment_Update_2007_Final_Oct_2007.pdf', '', '', '', 1, 1, 'AD-CAM', 'Purpose built code for this assessment', '../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-WROCKPCOAST-1955-2006-BRANCH', 'ID', 'NWFSC-WROCKPCOAST-2007-widow.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-WROCKPCOAST-1955-2006-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-WROCKPCOAST-1955-2006-BRANCH', 'A1', 'He X') ; 

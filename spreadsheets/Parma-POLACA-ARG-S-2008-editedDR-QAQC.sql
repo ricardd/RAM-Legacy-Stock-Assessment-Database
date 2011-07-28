@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'INIDEP', 'SBWHITARGS', 'Parma', '2008-12-30', '2011-06-24 12:22:13', '1985-2007', 'URL', 'Analia Giussi- agiussi@inidep.edu.ar', '', '', 1, 1, 'VPA', 'no comments', '../spreadsheets/Parma-POLACA-ARG-S-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'INIDEP', 'SBWHITARGS', 'Parma', '2008-12-30', '2011-07-25 12:39:00', '1985-2007', 'URL', 'Analia Giussi- agiussi@inidep.edu.ar', '', '', 1, 1, 'VPA', 'no comments', '../spreadsheets/Parma-POLACA-ARG-S-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'ID', 'Giussi-polaca-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('INIDEP-SBWHITARGS-1985-2007-Parma', 'A1', 'Giussi, Analia') ; 

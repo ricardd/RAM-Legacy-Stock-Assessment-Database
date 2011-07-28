@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'DFO-NFLD', 'COD3Ps', 'PREFONTAINE', '2008-05-27', '2011-06-24 12:22:16', '1959-2004', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'John Brattey, bratteyj@dfo-mpo.gc.ca ', 'There are four separate time series for everything but the total landings, each represents a different model. 1 is the QLSPA 2004 - Run B, 2 is the XSA 2004 - Run C, 3 is the ADAPT 2004 - Run D and 4 is the ADAPT 2004 - Run E. Additional information was provided by John Brattey. ', '', 1, 1, 'B-ADAPT', 'There are four separate time series for everything but the total landings, each represents a different model. 1 is the QLSPA 2004 - Run B, 2 is the XSA 2004 - Run C, 3 is the ADAPT 2004 - Run D and 4 is the ADAPT 2004 - Run E. Additional information was provided by John Brattey. ', '../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'DFO-NFLD', 'COD3Ps', 'PREFONTAINE', '2008-05-27', '2011-07-25 12:39:04', '1959-2004', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'John Brattey, bratteyj@dfo-mpo.gc.ca ', 'There are four separate time series for everything but the total landings, each represents a different model. 1 is the QLSPA 2004 - Run B, 2 is the XSA 2004 - Run C, 3 is the ADAPT 2004 - Run D and 4 is the ADAPT 2004 - Run E. Additional information was provided by John Brattey. ', '', 1, 1, 'B-ADAPT', 'There are four separate time series for everything but the total landings, each represents a different model. 1 is the QLSPA 2004 - Run B, 2 is the XSA 2004 - Run C, 3 is the ADAPT 2004 - Run D and 4 is the ADAPT 2004 - Run E. Additional information was provided by John Brattey. ', '../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'ID', 'DFO-COD3Ps-2004') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'Brattey, J.') ; 
@@ -8,7 +8,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'Lilly, G.R.') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'Murphy, E.F.') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'Shelton, P.F.') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'Mahé, J.-C.') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'A1', 'MahÃ©, J.-C.') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'T1', 'Assessment of the cod (Gadus morhua) stock in NAFO Subdivision 3Ps in October 2004.') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'VL', 'Research document 2004/083') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE', 'Y1', '2004') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ', 'NEFSC', 'MACKGOMCHATT', 'OVERHOLTZ', '2009-04-29', '2011-06-24 12:23:14', '1960-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0609/', '', '', '', 1, 1, 'VPA', '', '../spreadsheets/OVERHOLTZ-ATLMACKEREL-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ', 'NEFSC', 'MACKGOMCHATT', 'OVERHOLTZ', '2009-04-29', '2011-07-25 12:40:02', '1960-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0609/', '', '', '', 1, 1, 'VPA', '', '../spreadsheets/OVERHOLTZ-ATLMACKEREL-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ', 'ID', 'AtlanticMackerel2005.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ', 'A1', 'Northeast Fisheries Science Center') ; 

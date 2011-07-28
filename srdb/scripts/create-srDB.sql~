@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2011-01-17 15:27:37 (srdbadmin)>
+-- Last modified: Time-stamp: <2011-05-03 11:05:12 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -202,7 +202,8 @@ assess INT,
 refpoints INT,
 assessmethod VARCHAR(200) REFERENCES srdb.assessmethod,
 assesscomments VARCHAR(1000),
-xlsfilename VARCHAR(100)
+xlsfilename VARCHAR(100),
+mostrecent VARCHAR(3)
 );
 
 COMMENT ON TABLE srdb.assessment IS 'Assesment-level details, defines ASSESSID.';

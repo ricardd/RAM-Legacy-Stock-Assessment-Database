@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'DFO-PAC', 'SABLEFPCAN', 'STANTON', '2010-05-06', '2011-06-24 12:23:20', '1913-2004', 'DFO  http://www.pac.dfo-mpo.gc.ca/sci/sa-mfpd/sablefish/Sable_QuotaCatch.htm', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SABLEPCOAST-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'DFO-PAC', 'SABLEFPCAN', 'STANTON', '2010-05-06', '2011-07-27 15:11:32', '1913-2004', 'DFO  http://www.pac.dfo-mpo.gc.ca/sci/sa-mfpd/sablefish/Sable_QuotaCatch.htm', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SABLEPCOAST-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'ID', 'BC-Sablefish.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'A1', 'Haist, V') ; 
@@ -11,7 +11,8 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'ZZID', 'DFO-PAC-SABLEFPCAN-1913-2004-STANTON') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSB-SEX-sex','1', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','Fmsy-1/yr','0.047', 'NULL', '') ; 
- INSERT INTO srdb.bioparams VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSBmsy-MT','150534', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSBmsy-MT','55022', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSB0-MT','150534', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSB-MT',1913, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSB-MT',1914, NULL) ; 
  INSERT INTO srdb.timeseries VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON','SSB-MT',1915, NULL) ; 

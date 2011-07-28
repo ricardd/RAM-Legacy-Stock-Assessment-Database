@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SDOGATLC-1962-2006-SOSEBEE', 'NEFSC', 'SDOGATLC', 'SOSEBEE', '2009-04-21', '2011-06-24 12:23:17', '1962-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0625/', '', '', '', 1, 1, 'Unknown', '', '../spreadsheets/SOSBEE-SPINYDOGFISH-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SDOGATLC-1962-2006-SOSEBEE', 'NEFSC', 'SDOGATLC', 'SOSEBEE', '2009-04-21', '2011-07-25 12:40:05', '1962-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0625/', '', '', '', 1, 1, 'Unknown', '', '../spreadsheets/SOSBEE-SPINYDOGFISH-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SDOGATLC-1962-2006-SOSEBEE', 'ID', 'spinydogfish2006.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SDOGATLC-1962-2006-SOSEBEE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SDOGATLC-1962-2006-SOSEBEE', 'A1', 'Northeast Fisheries Science Center') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-GAGGM-1963-2004-JENSEN', 'SEFSC', 'GAGGM', 'JENSEN', '2008-11-19', '2011-06-24 12:22:50', '1963-2004', 'http://www.sefsc.noaa.gov/sedar/download/Gag-revised-analyses-Sept-2007-1.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'Unknown', 'There are no established SFA benchmarks for GAG', '../spreadsheets/JENSEN-GAGGM-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-GAGGM-1963-2004-JENSEN', 'SEFSC', 'GAGGM', 'JENSEN', '2008-11-19', '2011-07-25 12:39:38', '1963-2004', 'http://www.sefsc.noaa.gov/sedar/download/Gag-revised-analyses-Sept-2007-1.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'Unknown', 'There are no established SFA benchmarks for GAG', '../spreadsheets/JENSEN-GAGGM-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGGM-1963-2004-JENSEN', 'ID', 'JENSEN_GAGGM_2007') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGGM-1963-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGGM-1963-2004-JENSEN', 'Y1', '2007') ; 

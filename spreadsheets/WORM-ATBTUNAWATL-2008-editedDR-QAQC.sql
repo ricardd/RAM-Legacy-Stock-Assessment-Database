@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAWATL', 'WORM', '2008-11-14', '2011-06-24 12:22:23', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', '', 'Data derived directly from 2008 ICCAT assessment document, Reference Points based on low recruitment scenario (hockey stick)', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ICCAT', 'ATBTUNAWATL', 'WORM', '2008-11-14', '2011-07-25 12:39:11', '1969-2007', 'http://www.iccat.int/Documents/Meetings/Docs/2008_BFT_STOCK_ASSESS_REP.pdf', '', 'Data derived directly from 2008 ICCAT assessment document, Reference Points based on low recruitment scenario (hockey stick)', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ATBTUNAWATL-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'ID', 'ref2008-BFT-STOCK-ASSESS-REP') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ATBTUNAWATL-1969-2007-WORM', 'A1', 'Anonymous') ; 

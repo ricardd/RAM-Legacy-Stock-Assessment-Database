@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'NAFO-SC', 'REDFISHSPP3LN', 'BAUM', '2009-05-28', '2011-06-24 12:23:03', '1959-2008', 'http://www.nafo.int/fisheries/frames/fishery.html', 'contact details ', '', '', 1, 1, 'ASPIC', 'ASPICPower2008 chosen as final model', '../spreadsheets/BAUM-REDFISHSPP3LN-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'NAFO-SC', 'REDFISHSPP3LN', 'BAUM', '2009-05-28', '2011-07-25 12:39:51', '1959-2008', 'http://www.nafo.int/fisheries/frames/fishery.html', 'contact details ', '', '', 1, 1, 'ASPIC', 'ASPICPower2008 chosen as final model', '../spreadsheets/BAUM-REDFISHSPP3LN-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'ID', 'NAFO-3LN-Redfishspp-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'A1', 'Àvila de Melo, A. M.') ; 
+ INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'A1', 'Ã€vila de Melo, A. M.') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'A1', 'Duarte, R.') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'A1', 'Power,  D.') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM', 'A1', 'Alpoim, R.') ; 

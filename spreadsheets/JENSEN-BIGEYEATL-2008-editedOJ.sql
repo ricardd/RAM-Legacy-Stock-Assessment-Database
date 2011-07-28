@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-BIGEYEATL-1950-2005-JENSEN', 'ICCAT', 'BIGEYEATL', 'JENSEN', '2009-04-10', '2011-06-24 12:22:22', '1950-2005', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_bet.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'spawning stock and recruitment data from VPA', '../spreadsheets/JENSEN-BIGEYEATL-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-BIGEYEATL-1950-2005-JENSEN', 'ICCAT', 'BIGEYEATL', 'JENSEN', '2009-04-10', '2011-07-25 12:39:09', '1950-2005', 'data received from contact.  Report online at: http://www.iccat.int/Documents/SCRS/DetRep/DET_bet.pdf', 'John Walter - NMFS', '', '', 1, 1, 'ASPIC', 'spawning stock and recruitment data from VPA', '../spreadsheets/JENSEN-BIGEYEATL-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-BIGEYEATL-1950-2005-JENSEN', 'ID', 'JENSEN-BIGEYEATL-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-BIGEYEATL-1950-2005-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-BIGEYEATL-1950-2005-JENSEN', 'T1', 'Report of the 2007 {ICCAT} bigeye tuna stock assessment session') ; 

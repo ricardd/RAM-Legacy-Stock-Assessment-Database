@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-SABLEFPCOAST-1900-2007-BRANCH', 'NWFSC', 'SABLEFPCOAST', 'BRANCH', '2008-11-23', '2011-06-24 12:22:41', '1900-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/Sable07v3_0.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-SABLEFPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-SABLEFPCOAST-1900-2007-BRANCH', 'NWFSC', 'SABLEFPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:29', '1900-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/Sable07v3_0.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-SABLEFPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SABLEFPCOAST-1900-2007-BRANCH', 'ID', 'NWFSC-SABLEFPCOAST-2007-Sablefish.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SABLEFPCOAST-1900-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SABLEFPCOAST-1900-2007-BRANCH', 'A1', 'Schirripa, M.J.') ; 

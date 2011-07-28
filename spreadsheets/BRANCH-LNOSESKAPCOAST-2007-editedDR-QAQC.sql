@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH', 'NWFSC', 'LNOSESKAPCOAST', 'BRANCH', '2008-11-23', '2011-06-24 12:22:55', '1915-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/LongnoseSkate_2007_FINAL.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH', 'NWFSC', 'LNOSESKAPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:43', '1915-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/LongnoseSkate_2007_FINAL.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH', 'ID', 'NWFSC-LNOSESKAPCOAST-2008-Longnose skate.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH', 'A1', 'Gertseva VV') ; 

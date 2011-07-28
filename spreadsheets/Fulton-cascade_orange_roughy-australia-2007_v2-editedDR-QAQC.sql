@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-OROUGHYCASCADE-1987-2006-FULTON', 'CSIRO', 'OROUGHYCASCADE', 'FULTON', '2008-04-30', '2011-06-24 12:22:10', '1987-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used 2007_1.00 of SS2', '../spreadsheets/Fulton-cascade_orange_roughy-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-OROUGHYCASCADE-1987-2006-FULTON', 'CSIRO', 'OROUGHYCASCADE', 'FULTON', '2008-04-30', '2011-07-25 12:38:57', '1987-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'SS2', 'Used 2007_1.00 of SS2', '../spreadsheets/Fulton-cascade_orange_roughy-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-OROUGHYCASCADE-1987-2006-FULTON', 'ID', 'CSIRO-Cascade-Plateau-Stock-Assessment-2006.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-OROUGHYCASCADE-1987-2006-FULTON', 'TY', 'CHAP') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-OROUGHYCASCADE-1987-2006-FULTON', 'A1', 'Wayte, Sally') ; 

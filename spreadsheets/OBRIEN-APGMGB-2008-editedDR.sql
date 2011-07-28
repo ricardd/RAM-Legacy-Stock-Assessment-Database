@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-AMPL5YZ-1960-2008-OBRIEN', 'NEFSC', 'AMPL5YZ', 'OBRIEN', '2008-12-12', '2011-06-24 12:23:12', '1960-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/garm3h.pdf', '', 'This stock (American plaice ) covers NAFO areas 5Y and 5Ze.', '', 1, 1, 'ADAPT', 'Base model with rho adjustment was chosen as final assessment model by GARM review panel. Fully recruited F was 5 in previous assessments, is now 6.', '../spreadsheets/OBRIEN-APGMGB-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-AMPL5YZ-1960-2008-OBRIEN', 'NEFSC', 'AMPL5YZ', 'OBRIEN', '2008-12-12', '2011-07-25 12:40:00', '1960-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/garm3h.pdf', '', 'This stock (American plaice ) covers NAFO areas 5Y and 5Ze.', '', 1, 1, 'ADAPT', 'Base model with rho adjustment was chosen as final assessment model by GARM review panel. Fully recruited F was 5 in previous assessments, is now 6.', '../spreadsheets/OBRIEN-APGMGB-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-AMPL5YZ-1960-2008-OBRIEN', 'ID', ' ') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-AMPL5YZ-1960-2008-OBRIEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-AMPL5YZ-1960-2008-OBRIEN', 'A1', 'Northeast Fisheries Science Center') ; 

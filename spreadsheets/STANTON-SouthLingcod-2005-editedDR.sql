@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('PFMC-LINGCODSPCOAST-1956-2005-STANTON', 'PFMC', 'LINGCODSPCOAST', 'STANTON', '2009-05-20', '2011-06-24 12:23:07', '1956-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'SOUTH part of PCOAST only. Separate assessment for North ', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SouthLingcod-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('PFMC-LINGCODSPCOAST-1956-2005-STANTON', 'PFMC', 'LINGCODSPCOAST', 'STANTON', '2009-05-20', '2011-07-25 12:39:56', '1956-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'SOUTH part of PCOAST only. Separate assessment for North ', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SouthLingcod-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('PFMC-LINGCODSPCOAST-1956-2005-STANTON', 'ID', '2005_SAFE_Wclingcod') ; 
  INSERT INTO srdb.referencedoc VALUES('PFMC-LINGCODSPCOAST-1956-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('PFMC-LINGCODSPCOAST-1956-2005-STANTON', 'A1', 'Jagielo, Thomas') ; 

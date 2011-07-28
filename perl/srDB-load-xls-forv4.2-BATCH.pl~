@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-06-09 22:18:04 (srdbadmin)>
+# Last modified: Time-stamp: <2011-06-24 12:02:09 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -13,6 +13,7 @@
 # 2009-03-13: some spreadsheet's biometrics start at row 6, some at row 7, modifying code to handle both, values were not being translated to SQL INSERT statements
 # 2009-09-29: again, had to reinstall the "DateTime::Format::Excel" package from cpan (sudo cpan DateTime::Format::Excel)
 # 2011-05-03: edits to capture the addition of a "mostrecent" column in srdb.assessment
+# 2011-06-24: commenting out the call to psql and adding code so that the script returns the assessid that is created, so that we can assemble a bash script at the other end with appropriate psql calls 
 use strict;
 use Spreadsheet::ParseExcel;
 #use DateTime::Format::Excel;
@@ -35,7 +36,7 @@ my $oBook = $oExcel->Parse($ARGV[0]);
 #die "The spreadsheet does not have 3 worksheets" unless $oBook->{SheetCount} == 3;
 #die "The spreadsheet does not have 4 worksheets" unless $oBook->{SheetCount} == 4;
 
-print("BEGIN\nProcessing the following Excel file: $ARGV[0] \n\n");
+#print("BEGIN\nProcessing the following Excel file: $ARGV[0] \n\n");
 
 # open a new SQL file that will contain all INSERT statements
 my $sqlfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".sql";
@@ -78,7 +79,7 @@ $daterecorded = $oWkS->{Cells}[18][3]->Value;
 
 #print("$daterecorded \n");
 #$excel = DateTime::Format::Excel->new();
-print($daterecorded);
+#print($daterecorded);
 #$formatteddaterecorded = $excel->parse_datetime( $daterecorded )->ymd;
 $formatteddaterecorded = $daterecorded;
 
@@ -148,7 +149,7 @@ my ($sqlbiometrics, $biounique, $bioid, $bioyr, $biounits, $biovalue, $bionotes)
 my ($startrow, $endrow);
 
 if(defined $oWkS->{Cells}[5][0]) {
-print("cell 5 0 defined");
+#print("cell 5 0 defined");
 $startrow = $oWkS->{MinRow}+6;
 $endrow = $oWkS->{MaxRow};
 }
@@ -157,10 +158,10 @@ $startrow = $oWkS->{MinRow}+5;
 $endrow = $oWkS->{MaxRow};
 }
 
-print("$startrow \t $endrow  \n");
+#print("$startrow \t $endrow  \n");
 
-print(" $oWkS->{MinRow} \n");
-print(" $oWkS->{MaxRow} \n");
+#print(" $oWkS->{MinRow} \n");
+#print(" $oWkS->{MaxRow} \n");
 #print(" $oWkS->{MinCol} \n");
 #print(" $oWkS->{MaxCol} \n");
 
@@ -174,7 +175,7 @@ if($oWkS->{Cells}[$iR][6]) {$bionotes = $oWkS->{Cells}[$iR][6]->Value;}; # else 
 $bioyr = $oWkS->{Cells}[$iR][7]->Value;
 $biounique = $bioid . "-" . $biounits;
 
-print("$iR $bioid $biounits $biovalue $bioyr \n");
+#print("$iR $bioid $biounits $biovalue $bioyr \n");
 #$sqlbiometrics = qq{ INSERT INTO srdb.bioparams VALUES(\'$assessid\',\'$biounique\',\'$biovalue\', \'$bionotes\', \'$bioyr\') };
 $sqlbiometrics = qq{ INSERT INTO srdb.bioparams VALUES(\'$assessid\',\'$biounique\',\'$biovalue\', \'$bioyr\', \'$bionotes\') };
 print SQLFILE "$sqlbiometrics; \n";
@@ -268,12 +269,13 @@ $dbh->disconnect();
 
 
 
-print "\nDatetime stamp for database input: $dateloaded \n $ARGV[0] \nEND\n\n\n\n";
+#print "\nDatetime stamp for database input: $dateloaded \n $ARGV[0] \nEND\n\n\n\n";
+print "$sqlfile\n";
 
 print SQLFILE "COMMIT;";
 close SQLFILE;
 
 # send the batch file to postgresql 
 #my @sqlcall =`psql srDB -f $sqlfile 2> $sqllogfile`;
-my @sqlcall =`psql srdb -f $sqlfile 2> $sqllogfile`;
+#my @sqlcall =`psql srdb -f $sqlfile 2> $sqllogfile`;
 #my @sqlcall =`/usr/lib/postgresql/8.4/bin/psql srdb -p 5435 -f $sqlfile 2> $sqllogfile`;

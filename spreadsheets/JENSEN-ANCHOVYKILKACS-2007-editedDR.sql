@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSERG-ANCHOVYKILKACS-1991-2007-JENSEN', 'CSERG', 'ANCHOVYKILKACS', 'JENSEN', '01/14/2011', '2011-06-24 12:23:19', '1991-2007', 'received from contact', 'fazlihasan@gmail.com', 'applies to Iranian waters of the Caspian Sea - may not be the entire stock', '', 1, 1, 'AAPM', 'Biomass estimated from unknown method in Fazli 2007. MSY estimated using Schaefer model', '../spreadsheets/JENSEN-ANCHOVYKILKACS-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSERG-ANCHOVYKILKACS-1991-2007-JENSEN', 'CSERG', 'ANCHOVYKILKACS', 'JENSEN', '01/14/2011', '2011-07-25 12:40:07', '1991-2007', 'received from contact', 'fazlihasan@gmail.com', 'applies to Iranian waters of the Caspian Sea - may not be the entire stock', '', 1, 1, 'AAPM', 'Biomass estimated from unknown method in Fazli 2007. MSY estimated using Schaefer model', '../spreadsheets/JENSEN-ANCHOVYKILKACS-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSERG-ANCHOVYKILKACS-1991-2007-JENSEN', 'ID', 'JENSEN-ANCHOVYKILKACS-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('CSERG-ANCHOVYKILKACS-1991-2007-JENSEN', 'A1', 'Hasan Fazli') ; 
  INSERT INTO srdb.referencedoc VALUES('CSERG-ANCHOVYKILKACS-1991-2007-JENSEN', 'A1', 'Chang Ik Zhang') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WITFLOUN5Y-1982-2008-WIGLEY', 'NEFSC', 'WITFLOUN5Y', 'WIGLEY', '2008-12-10', '2011-06-24 12:23:13', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'VPA', 'NFT toolbox ver 2.7.7', '../spreadsheets/WIGLEY-WITCH-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WITFLOUN5Y-1982-2008-WIGLEY', 'NEFSC', 'WITFLOUN5Y', 'WIGLEY', '2008-12-10', '2011-07-25 12:40:01', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', '', '', 1, 1, 'VPA', 'NFT toolbox ver 2.7.7', '../spreadsheets/WIGLEY-WITCH-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WITFLOUN5Y-1982-2008-WIGLEY', 'ID', 'crd0815') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WITFLOUN5Y-1982-2008-WIGLEY', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WITFLOUN5Y-1982-2008-WIGLEY', 'A1', 'Northeast Fisheries Science Center') ; 

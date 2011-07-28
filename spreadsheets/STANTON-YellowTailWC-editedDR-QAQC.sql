@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'NWFSC', 'YTROCKNPCOAST', 'STANTON', '2009-05-19', '2011-06-24 12:23:07', '1967-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS1', 'no comments', '../spreadsheets/STANTON-YellowTailWC-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'NWFSC', 'YTROCKNPCOAST', 'STANTON', '2009-05-19', '2011-07-25 12:39:55', '1967-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS1', 'no comments', '../spreadsheets/STANTON-YellowTailWC-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'ID', '2005_SAFE_yellowtail') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YTROCKNPCOAST-1967-2005-STANTON', 'A1', 'Wallace, John') ; 

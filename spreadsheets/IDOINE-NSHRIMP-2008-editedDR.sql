@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE', 'ASMFC', 'PANDALGOM', 'IDOINE', '2009-04-22', '2011-06-24 12:23:06', '1960-2009', 'http://www.asmfc.org/', 'Margeret Hunter Maine DMR Margret.Hunter@maine.gov', 'Annual Assessment', '', 1, 1, 'CSA', 'CSA using dedicated  annual shrimp survey (State-Federal) and NEFSC bottom trawl indices with landings for years 1982 - 2008. ASPIC used for comparison and covers a period from 1968 - 2008', '../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE', 'ASMFC', 'PANDALGOM', 'IDOINE', '2009-04-22', '2011-07-27 16:18:14', '1960-2009', 'http://www.asmfc.org/', 'Margeret Hunter Maine DMR Margret.Hunter@maine.gov', 'Annual Assessment', '', 1, 1, 'CSA', 'CSA using dedicated  annual shrimp survey (State-Federal) and NEFSC bottom trawl indices with landings for years 1982 - 2008. ASPIC used for comparison and covers a period from 1968 - 2008', '../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE', 'ID', '2008ShrimpAssessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE', 'A1', 'Atlantic States Marine Fisheries Commission') ; 
@@ -24,8 +24,8 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','MAX-WGT-g','23', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','VB-k-cm/T','-0.36', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','VB-t0-yr','0', '2008', '') ; 
- INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Blim-MT','1.54', '2008', '') ; 
- INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Bpa-MT','9', '2008', '') ; 
+ INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Blim-E03MT','1.54', '2008', '') ; 
+ INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Bpa-E03MT','9', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','F0.1-1/yr','0.46', '2008', '') ; 
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Flim-1/T','0.6', '2008', 'Fthreshold') ; 
  INSERT INTO srdb.bioparams VALUES('ASMFC-PANDALGOM-1960-2009-IDOINE','Fmsy-1/yr','0.77', '2008', '') ; 

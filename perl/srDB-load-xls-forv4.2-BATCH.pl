@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-06-24 12:02:09 (srdbadmin)>
+# Last modified: Time-stamp: <2011-07-25 11:54:13 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -41,7 +41,8 @@ my $oBook = $oExcel->Parse($ARGV[0]);
 # open a new SQL file that will contain all INSERT statements
 my $sqlfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".sql";
 my $sqllogfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".log";
-open SQLFILE, ">$sqlfile" or die $!;
+#open SQLFILE, ">$sqlfile" or die $!;
+open SQLFILE, ">:utf8", $sqlfile or die $!;
 print SQLFILE "BEGIN;\n";
 
 # variables for table srdb.assessement
@@ -270,7 +271,7 @@ $dbh->disconnect();
 
 
 #print "\nDatetime stamp for database input: $dateloaded \n $ARGV[0] \nEND\n\n\n\n";
-print "$sqlfile\n";
+print "$sqlfile 2> $sqllogfile \n";
 
 print SQLFILE "COMMIT;";
 close SQLFILE;

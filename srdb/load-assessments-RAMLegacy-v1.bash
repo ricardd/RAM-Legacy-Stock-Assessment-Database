@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-06-24 12:21:59 (srdbadmin)>
+# Last modified Time-stamp: <2011-07-27 21:09:52 (srdbadmin)>
 # Modification history:
 # 2011-06-24:  modifying this a bit so that the calls to the database to load the data are written as a separate bash script, instead of calling psql from within the perl script that generates the sql equivalent of the spreadsheet contents
 
@@ -10,9 +10,11 @@
 rm RAM-Legacy-v1-sql.bash
 touch RAM-Legacy-v1-sql.bash
 
+echo "#!/bin/bash" >> RAM-Legacy-v1-sql.bash
+
+
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls >> RAM-Legacy-v1-sql.bash
-
 
 # assessments are here in the order they appear in F&F manuscript Table S1, ie. by management body
 # AFMA stocks
@@ -400,7 +402,7 @@ echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ATLMENHADEN-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-ATLMENHADEN-editedDR-QAQCfinal.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/COLLIE-HERRPWS-2006-editedOJ.xls >> RAM-Legacy-v1-sql.bash
@@ -460,13 +462,13 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-COD2J3KL
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR-QAQCjb.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-GHAL4RST-2003-editedDR.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedRP.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-RED1-2005-editedDR.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
@@ -478,7 +480,7 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-RED3Pn4R
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BAUM-YELL3LNO-2008-editedDR.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.xls >> RAM-Legacy-v1-sql.bash
 
@@ -527,7 +529,7 @@ echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4-BATCH.pl ../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC-summarybiomass.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
@@ -537,9 +539,9 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BLACKROCKSPCO
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC-summarybiomass.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC-summarybiomass.xls >> RAM-Legacy-v1-sql.bash
 
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
@@ -551,14 +553,14 @@ echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR-summarybiomass-SSBcorrected.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR-summarybiomass.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.xls >> RAM-Legacy-v1-sql.bash
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
@@ -655,7 +657,7 @@ echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.xls >> RAM-Legacy-v1-sql.bash ## update to the previous entry
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.xls >> RAM-Legacy-v1-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR-final.xls >> RAM-Legacy-v1-sql.bash
 
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls >> RAM-Legacy-v1-sql.bash
@@ -841,3 +843,5 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAY-PTOOTHFISHMACCA-
 # cusk 4X
 echo -n "psql srdb -f " >> RAM-Legacy-v1-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-CUSK-4X-2011.xls >> RAM-Legacy-v1-sql.bash
+
+chmod +x RAM-Legacy-v1-sql.bash

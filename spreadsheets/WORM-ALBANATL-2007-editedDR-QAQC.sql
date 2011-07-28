@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-ALBANATL-1929-2005-WORM', 'ICCAT', 'ALBANATL', 'WORM', '2008-11-14', '2011-06-24 12:22:23', '1929-2005', 'http://www.iccat.int/Documents/Meetings/Docs/2007_ALB%20STOCK%20ASSESS%20REP_AUG_07.pdf', 'Michael Fogarty <mfogarty@mercury.wh.whoi.edu>', 'Data taken from assessment for North Atlantic Stock, as provided by NMFS / Mike Fogarty', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ALBANATL-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-ALBANATL-1929-2005-WORM', 'ICCAT', 'ALBANATL', 'WORM', '2008-11-14', '2011-07-25 12:39:10', '1929-2005', 'http://www.iccat.int/Documents/Meetings/Docs/2007_ALB%20STOCK%20ASSESS%20REP_AUG_07.pdf', 'Michael Fogarty <mfogarty@mercury.wh.whoi.edu>', 'Data taken from assessment for North Atlantic Stock, as provided by NMFS / Mike Fogarty', '', 1, 1, 'VPA', 'VPA', '../spreadsheets/WORM-ALBANATL-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ALBANATL-1929-2005-WORM', 'ID', 'ref2007-ALB-STOCK-ASSESS-REP') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ALBANATL-1929-2005-WORM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-ALBANATL-1929-2005-WORM', 'A1', '{Anonymous}') ; 

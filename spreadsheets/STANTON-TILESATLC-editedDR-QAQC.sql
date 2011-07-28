@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'SEFSC', 'TILESATLC', 'STANTON', '2009-05-29', '2011-06-24 12:23:08', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-TILESATLC-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'SEFSC', 'TILESATLC', 'STANTON', '2009-05-29', '2011-07-25 12:39:56', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-TILESATLC-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'ID', '2004-SEDAR-deepwatersnappergrouper.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'A1', 'SEDAR 4 Stock Assessment Panel') ; 
- INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'T1', 'Assessment of Tilefish, Lopholatilus chamaeleonticeps, in the South Atlantic Fishery Management Council Management Area ') ; 
+ INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'T1', 'AssessmentÂ ofÂ Tilefish,Â LopholatilusÂ chamaeleonticeps,Â inÂ theÂ SouthÂ AtlanticÂ FisheryÂ ManagementÂ CouncilÂ ManagementÂ AreaÂ ') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'VL', 'III. B') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'Y1', '2004') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'ZZID', 'SEFSC-TILESATLC-1961-2002-STANTON') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-RSOLEHSTR-1945-2001-COLLIE', 'DFO-PAC', 'RSOLEHSTR', 'COLLIE', '2008-04-21', '2011-06-24 12:22:52', '1945-2001', 'received from Contact', 'Jeff Fargo, Pacific Biological Station <Jeff.Fargo@dfo-mpo.gc.ca>', 'this is a test entry only', 'Flat99.pdf', 1, 1, 'TSA', 'no comments', '../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-RSOLEHSTR-1945-2001-COLLIE', 'DFO-PAC', 'RSOLEHSTR', 'COLLIE', '2008-04-21', '2011-07-25 12:39:40', '1945-2001', 'received from Contact', 'Jeff Fargo, Pacific Biological Station <Jeff.Fargo@dfo-mpo.gc.ca>', 'this is a test entry only', 'Flat99.pdf', 1, 1, 'TSA', 'no comments', '../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-RSOLEHSTR-1945-2001-COLLIE', 'ID', 'Flat99.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-RSOLEHSTR-1945-2001-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-RSOLEHSTR-1945-2001-COLLIE', 'A1', 'Fargo, Jeff') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'NWFSC', 'CHILISPCOAST', 'BRANCH', '2008-11-21', '2011-06-24 12:22:57', '1892-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ChilipepperDec17_2007_DBS.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'NWFSC', 'CHILISPCOAST', 'BRANCH', '2008-11-21', '2011-07-25 12:39:45', '1892-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ChilipepperDec17_2007_DBS.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'ID', 'NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'A1', 'Field JG') ; 

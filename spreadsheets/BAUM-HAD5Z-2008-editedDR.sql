@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-HADGB-1930-2008-BAUM', 'NEFSC', 'HADGB', 'BAUM', '2008-10-30', '2011-06-24 12:23:11', '1930-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock is known as Georges Bank haddock.', '', 1, 1, 'NFT-ADAPT', '', '../spreadsheets/BAUM-HAD5Z-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-HADGB-1930-2008-BAUM', 'NEFSC', 'HADGB', 'BAUM', '2008-10-30', '2011-07-25 12:39:59', '1930-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'This stock is known as Georges Bank haddock.', '', 1, 1, 'NFT-ADAPT', '', '../spreadsheets/BAUM-HAD5Z-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HADGB-1930-2008-BAUM', 'ID', 'NMFS-5Z-Melanogrammusaeglefinus-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HADGB-1930-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-HADGB-1930-2008-BAUM', 'A1', 'Northeast Fisheries Science Center') ; 

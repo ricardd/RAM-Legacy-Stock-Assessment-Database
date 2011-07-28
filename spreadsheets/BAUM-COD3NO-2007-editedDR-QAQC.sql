@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-COD3NO-1953-2007-BAUM', 'NAFO-SC', 'COD3NO', 'BAUM', '2008-04-07', '2011-06-24 12:22:47', '1953-2007', 'http://www.nafo.int/publications/frames/science.html', 'Joanne Morgan', 'Moratorium since 1994, but bycatch impeding recovery', 'NAFO-3NO-COD-2007.pdf', 1, 1, 'SPA', 'Blim only', '../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-COD3NO-1953-2007-BAUM', 'NAFO-SC', 'COD3NO', 'BAUM', '2008-04-07', '2011-07-25 12:39:35', '1953-2007', 'http://www.nafo.int/publications/frames/science.html', 'Joanne Morgan', 'Moratorium since 1994, but bycatch impeding recovery', 'NAFO-3NO-COD-2007.pdf', 1, 1, 'SPA', 'Blim only', '../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3NO-1953-2007-BAUM', 'ID', 'NAFO-3NO-COD-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3NO-1953-2007-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-COD3NO-1953-2007-BAUM', 'A1', 'Morgan, M.J.') ; 

@@ -1,8 +1,8 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'NAFO-SC', 'GHAL01ABCDEF', 'PREFONTAINE', '2008-02-13', '2011-06-24 12:22:15', '1987-2006', 'http://www.nafo.int/publications/frames/general.html', 'contact details ', 'There are two columns for total catch in timseries; the catches were divided by subdivision; TC-1 are the catches for subdivision 0 while TC-2 are for subdivision1. CPUE is the standardized least squares mean of CPUE for trawlers in areas 0B and 1CD, a GML procedure was used.', '', 0, 1, 'Survey indices', '', '../spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'NAFO-SC', 'GHAL01ABCDEF', 'PREFONTAINE', '2008-02-13', '2011-07-25 12:39:02', '1987-2006', 'http://www.nafo.int/publications/frames/general.html', 'contact details ', 'There are two columns for total catch in timseries; the catches were divided by subdivision; TC-1 are the catches for subdivision 0 while TC-2 are for subdivision1. CPUE is the standardized least squares mean of CPUE for trawlers in areas 0B and 1CD, a GML procedure was used.', '', 0, 1, 'Survey indices', '', '../spreadsheets/PREFONTAINE-GHAL01ABCDEF-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'ID', 'NAFO-GHAL01ABCDEF-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'TY', 'RPRT') ; 
- INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'A1', 'Jørgensen, O.A.') ; 
+ INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'A1', 'JÃ¸rgensen, O.A.') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'T1', 'Assessment of the Greenland Halibut Stock Component in NAFO Subarea 0 + Division 1A Offshore + Divisions 1B-1F') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'VL', ' 07/44') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL01ABCDEF-1987-2006-PREFONTAINE', 'Y1', '2007') ; 

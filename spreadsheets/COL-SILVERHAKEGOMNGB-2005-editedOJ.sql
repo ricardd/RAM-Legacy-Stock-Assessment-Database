@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SHAKEGOMNGB-1955-2005-COL', 'NEFSC', 'SHAKEGOMNGB', 'COL', '2009-04-24', '2011-06-24 12:23:15', '1955-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0609/', '', '', '', 1, 1, 'RV', 'NEFSC fall survey index and exploitation index used to determine stock status', '../spreadsheets/COL-SILVERHAKEGOMNGB-2005-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SHAKEGOMNGB-1955-2005-COL', 'NEFSC', 'SHAKEGOMNGB', 'COL', '2009-04-24', '2011-07-25 12:40:03', '1955-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0609/', '', '', '', 1, 1, 'RV', 'NEFSC fall survey index and exploitation index used to determine stock status', '../spreadsheets/COL-SILVERHAKEGOMNGB-2005-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SHAKEGOMNGB-1955-2005-COL', 'ID', 'SilverHake-2005-NEFSC-Assessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SHAKEGOMNGB-1955-2005-COL', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SHAKEGOMNGB-1955-2005-COL', 'A1', 'Northeast Fisheries Science Center') ; 

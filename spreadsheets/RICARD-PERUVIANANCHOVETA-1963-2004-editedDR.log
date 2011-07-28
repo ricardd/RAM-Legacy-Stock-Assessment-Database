@@ -1,111 +1,12 @@
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:2: ERROR:  duplicate key value violates unique constraint "assessment_pkey"
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:3: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:4: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:5: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:6: ERROR:  current transaction is aborted, commands ignored until end of transaction block
 psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:7: WARNING:  nonstandard use of \\ in a string literal
 LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'A1', '\\~{N}iqu...
                                                              ^
 HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:7: ERROR:  current transaction is aborted, commands ignored until end of transaction block
 psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:8: WARNING:  nonstandard use of \\ in a string literal
 LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'A1', 'Escribano...
                                                              ^
 HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:8: ERROR:  current transaction is aborted, commands ignored until end of transaction block
 psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:9: WARNING:  nonstandard use of \\ in a string literal
 LINE 1: ...LUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'T1', 'Climatic ...
                                                              ^
 HINT:  Use the escape string syntax for backslashes, e.g., E'\\'.
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:9: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:10: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:11: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:12: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:13: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:14: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:15: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:16: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:17: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:18: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:19: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:20: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:21: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:22: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:23: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:24: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:25: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:26: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:27: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:28: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:29: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:30: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:31: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:32: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:33: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:34: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:35: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:36: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:37: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:38: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:39: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:40: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:41: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:42: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:43: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:44: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:45: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:46: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:47: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:48: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:49: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:50: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:51: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:52: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:53: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:54: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:55: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:56: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:57: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:58: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:59: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:60: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:61: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:62: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:63: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:64: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:65: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:66: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:67: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:68: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:69: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:70: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:71: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:72: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:73: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:74: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:75: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:76: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:77: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:78: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:79: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:80: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:81: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:82: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:83: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:84: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:85: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:86: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:87: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:88: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:89: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:90: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:91: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:92: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:93: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:94: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:95: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:96: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:97: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:98: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:99: ERROR:  current transaction is aborted, commands ignored until end of transaction block
-psql:../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.sql:100: ERROR:  current transaction is aborted, commands ignored until end of transaction block

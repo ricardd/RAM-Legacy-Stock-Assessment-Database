@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN', 'CCAMLR', 'ATOOTHFISHRS', 'JENSEN', '2009-04-07', '2011-06-24 12:22:12', '1995-2007', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'Model run: 2007 reference', '', 1, 0, 'CASAL', 'Model run: 2007 reference', '../spreadsheets/JENSEN-TOOTHFISHRS-2007-v2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN', 'CCAMLR', 'ATOOTHFISHRS', 'JENSEN', '2009-04-07', '2011-07-25 12:39:00', '1995-2007', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'Model run: 2007 reference', '', 1, 0, 'CASAL', 'Model run: 2007 reference', '../spreadsheets/JENSEN-TOOTHFISHRS-2007-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN', 'ID', 'ATOOTHFISHRS') ; 
  INSERT INTO srdb.referencedoc VALUES('CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN', 'TI', 'Assessment models for Antarctic toothfish (Dissostichus mawsoni) in the Ross Sea including data from the 2006/07 season') ; 
  INSERT INTO srdb.referencedoc VALUES('CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN', 'A1', 'Dunn, A.') ; 

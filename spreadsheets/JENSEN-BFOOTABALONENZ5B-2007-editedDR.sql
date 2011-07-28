@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN', 'NZMFishSHELLFISHWG', 'PAUAPAU5B', 'JENSEN', '2009-03-11', '2011-06-24 12:22:40', '1963-2007', 'received from contact', 'Paul Breen - p.breen@niwa.co.nz', '', '', 1, 0, 'LBBM', 'recruitment timeseries available, but age at recruitment is undetermined (size-based approach)', '../spreadsheets/JENSEN-BFOOTABALONENZ5B-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN', 'NZMFishSHELLFISHWG', 'PAUAPAU5B', 'JENSEN', '2009-03-11', '2011-07-25 12:39:27', '1963-2007', 'received from contact', 'Paul Breen - p.breen@niwa.co.nz', '', '', 1, 0, 'LBBM', 'recruitment timeseries available, but age at recruitment is undetermined (size-based approach)', '../spreadsheets/JENSEN-BFOOTABALONENZ5B-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN', 'ID', 'ref08-05-FAR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN', 'A1', 'Breen, Paul A.') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN', 'A1', 'Smith, Adam N. H.') ; 

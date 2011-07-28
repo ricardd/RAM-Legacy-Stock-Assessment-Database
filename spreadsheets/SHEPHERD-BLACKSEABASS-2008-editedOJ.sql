@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-BSBASSMATLC-1968-2007-SHEPHERD', 'NEFSC', 'BSBASSMATLC', 'SHEPHERD', '2009-04-29', '2011-06-24 12:23:16', '1968-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', 'Gary Shepherd  gary.shepherd@noaa.gov', '', '', 1, 1, 'SCALE', 'Statistical catch at length model. Considered a data poor stock.', '../spreadsheets/SHEPHERD-BLACKSEABASS-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-BSBASSMATLC-1968-2007-SHEPHERD', 'NEFSC', 'BSBASSMATLC', 'SHEPHERD', '2009-04-29', '2011-07-25 12:40:04', '1968-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', 'Gary Shepherd  gary.shepherd@noaa.gov', '', '', 1, 1, 'SCALE', 'Statistical catch at length model. Considered a data poor stock.', '../spreadsheets/SHEPHERD-BLACKSEABASS-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BSBASSMATLC-1968-2007-SHEPHERD', 'ID', 'DataPoorReviewPanelReportFinal-1-20-09.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BSBASSMATLC-1968-2007-SHEPHERD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BSBASSMATLC-1968-2007-SHEPHERD', 'A1', ',{Northeast Data Poor Working Group}') ; 

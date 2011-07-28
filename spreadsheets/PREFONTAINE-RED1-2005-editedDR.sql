@@ -1,9 +1,9 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'NAFO-SC', 'REDFISHSPP1', 'PREFONTAINE', '2008-07-29', '2011-06-24 12:22:48', '1965-2004', 'URL', 'contact details ', 'Catches for 2004 are provisional. Knife-edge maturity is set at 35cm.', '', 0, 0, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-RED1-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'NAFO-SC', 'REDFISHSPP1', 'PREFONTAINE', '2008-07-29', '2011-07-25 12:39:36', '1965-2004', 'URL', 'contact details ', 'Catches for 2004 are provisional. Knife-edge maturity is set at 35cm.', '', 0, 0, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-RED1-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'ID', 'NAFO-RED1-2005') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'A1', 'Siegstad, Helle') ; 
- INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'A1', 'Rätz, Hans-Joachim') ; 
+ INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'A1', 'RÃ¤tz, Hans-Joachim') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'A1', 'Stransky, Christoph') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'T1', 'Assessment of Demersal Redfish in NAFO Subarea 1') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-REDFISHSPP1-1965-2004-PREFONTAINE', 'VL', ' 05/40') ; 

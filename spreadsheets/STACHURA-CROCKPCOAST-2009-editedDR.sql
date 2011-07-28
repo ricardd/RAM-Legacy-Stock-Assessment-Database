@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'NWFSC', 'CROCKPCOAST', 'Stachura', '2011-03-15', '2011-06-24 12:22:58', '1916-2009', 'http://www.pcouncil.org/wp-content/uploads/2009_canary_updated_assessment_SAFE_version.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', 'Stock Synthesis v3.03a', '../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'NWFSC', 'CROCKPCOAST', 'Stachura', '2011-03-15', '2011-07-26 15:12:28', '1916-2009', 'http://www.pcouncil.org/wp-content/uploads/2009_canary_updated_assessment_SAFE_version.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', 'Stock Synthesis v3.03a', '../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'ID', 'NWFSC-CROCKPCOAST-2009.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura', 'A1', 'Stewart, Ian J.') ; 
@@ -28,6 +28,8 @@ increase for older females (age 14+) is treated as an estimated parameter') ;
  INSERT INTO srdb.bioparams VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSBmsy-MT','9928', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','MSY-MT','937', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','BH-h-dimensionless','0.511', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSB0-MT','25993', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSBtarget-MT','10397', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSB-MT',1916, 25993) ; 
  INSERT INTO srdb.timeseries VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSB-MT',1917, 25978) ; 
  INSERT INTO srdb.timeseries VALUES('NWFSC-CROCKPCOAST-1916-2009-Stachura','SSB-MT',1918, 25956) ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-VSNAPGM-1981-2004-JENSEN', 'SEFSC', 'VSNAPGM', 'JENSEN', '2008-11-19', '2011-06-24 12:22:50', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/download/S9SAR3%20VS%20full%202.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPM', 'catch, recruitment, and F time series are from assessment, not Fogarty spreadsheet', '../spreadsheets/JENSEN-VSNAPGM-2006-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-VSNAPGM-1981-2004-JENSEN', 'SEFSC', 'VSNAPGM', 'JENSEN', '2008-11-19', '2011-07-25 12:39:38', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/download/S9SAR3%20VS%20full%202.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPM', 'catch, recruitment, and F time series are from assessment, not Fogarty spreadsheet', '../spreadsheets/JENSEN-VSNAPGM-2006-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-VSNAPGM-1981-2004-JENSEN', 'ID', 'JENSEN_VSNAPGM_2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-VSNAPGM-1981-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-VSNAPGM-1981-2004-JENSEN', 'A1', 'NULL') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SCUPNWATLC-1960-2007-TERCEIRO', 'NEFSC', 'SCUPNWATLC', 'TERCEIRO', '2009-04-29', '2011-06-24 12:23:14', '1960-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0902/', '', 'Stock rebuilt', '', 1, 1, 'ASAP', 'Substantial upgrade from previous survey index approach', '../spreadsheets/TERCEIRO-SCUP-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SCUPNWATLC-1960-2007-TERCEIRO', 'NEFSC', 'SCUPNWATLC', 'TERCEIRO', '2009-04-29', '2011-07-25 12:40:03', '1960-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0902/', '', 'Stock rebuilt', '', 1, 1, 'ASAP', 'Substantial upgrade from previous survey index approach', '../spreadsheets/TERCEIRO-SCUP-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCUPNWATLC-1960-2007-TERCEIRO', 'ID', 'crd0902.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCUPNWATLC-1960-2007-TERCEIRO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCUPNWATLC-1960-2007-TERCEIRO', 'A1', 'Northeast Fisheries Science Center') ; 

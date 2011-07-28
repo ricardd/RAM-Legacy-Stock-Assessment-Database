@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE', 'DFO-NFLD', 'REDFISHSPP23K', 'PREFONTAINE', '2008-08-19', '2011-06-24 12:22:48', '1959-2001', 'URL', 'contact details ', 'this is a test entry only', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-RED23K-2001-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE', 'DFO-NFLD', 'REDFISHSPP23K', 'PREFONTAINE', '2008-08-19', '2011-07-25 12:39:36', '1959-2001', 'URL', 'contact details ', 'this is a test entry only', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-RED23K-2001-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE', 'ID', 'NAFO-RED23K-2001') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-REDFISHSPP23K-1959-2001-PREFONTAINE', 'A1', 'Power, D.') ; 

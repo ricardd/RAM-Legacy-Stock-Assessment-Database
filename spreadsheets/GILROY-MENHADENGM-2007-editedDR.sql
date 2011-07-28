@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'SEFSC', 'MENATGM', 'GILROY', '2009-02-16', '2011-06-24 12:22:41', '1964-2004', 'Received from contact', 'Doug Vaughan - Doug.Vaughan@noaa.gov', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/GILROY-MENHADENGM-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'SEFSC', 'MENATGM', 'GILROY', '2009-02-16', '2011-07-27 13:42:20', '1964-2004', 'Received from contact', 'Doug Vaughan - Doug.Vaughan@noaa.gov', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/GILROY-MENHADENGM-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'ID', 'GILROY-MENHADENGM-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'A1', 'Vaughan, Douglas') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'A1', 'Shertzer, Kyle') ; 
@@ -12,6 +12,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('SEFSC-MENATGM-1964-2004-GILROY','Flim-1/yr','1.46', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('SEFSC-MENATGM-1964-2004-GILROY','Fcurrent-1/T','1.094', 'NULL', 'per year') ; 
  INSERT INTO srdb.bioparams VALUES('SEFSC-MENATGM-1964-2004-GILROY','F0.1-1/yr','3.12', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('SEFSC-MENATGM-1964-2004-GILROY','TB-AGE-yr','2+', 'NULL', '') ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-MENATGM-1964-2004-GILROY','SSB-E09eggs',1964, 31796.80) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-MENATGM-1964-2004-GILROY','SSB-E09eggs',1965, 20954.10) ; 
  INSERT INTO srdb.timeseries VALUES('SEFSC-MENATGM-1964-2004-GILROY','SSB-E09eggs',1966, 13388.70) ; 

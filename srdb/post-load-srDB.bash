@@ -1,7 +1,7 @@
 #!/bin/bash
 # bash script to perform post-load tasks in the stock-recruitment database
 # 
-# Last modified Time-stamp: <2011-06-13 22:15:15 (srdbadmin)>
+# Last modified Time-stamp: <2011-07-25 12:13:46 (srdbadmin)>
 
 # a quick and dirty way to generate a summary log files of error to identify assessments that did not load
 # grep ERROR ../spreadsheets/*.log | grep key > load-errors-summary.log
@@ -32,17 +32,6 @@ psql srdb -f './scripts/load-fishbase-saup-codes.sql'
 psql srdb -f './scripts/srDB-views.sql'
 
 psql srdb -f './scripts/most-recent.sql'
-
-# stocks for Science 2009 manuscript
-#psql -d srdb -f './scripts/Science-2009-stocks.sql'
-
-
-# views for time-series truncation project
-# psql -d srdb -f './scripts/tstruncation-views.sql'
-
-# BRP to timeseries
-# psql -d srdb -f './scripts/load-ref-points-to-ts.sql'
-
 
 # GRANT USAGE to schema
 psql -d srdb -c 'GRANT USAGE ON SCHEMA srdb TO srdbuser;'

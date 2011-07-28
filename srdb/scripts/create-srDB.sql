@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2011-05-03 11:05:12 (srdbadmin)>
+-- Last modified: Time-stamp: <2011-07-25 12:12:32 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -23,6 +23,8 @@
 
 -- create a separate schema for this database
 CREATE SCHEMA srdb;
+
+--GRANT USAGE ON SCHEMA srdb TO srdbuser;
 
 -- create a separate schema for the recovery work 
 -- CREATE SCHEMA srdbrecovery;

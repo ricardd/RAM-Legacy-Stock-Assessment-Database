@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the srDB
-# Last modified: Time-stamp: <2011-06-24 12:13:34 (srdbadmin)>
+# Last modified: Time-stamp: <2011-07-25 12:02:50 (srdbadmin)>
 # Daniel Ricard
 # 2008-02-12: modifications to accomodate Excel template v2
 # 2008-02-19: modifications to accomodate Excel template v3
@@ -33,7 +33,8 @@ die "The spreadsheet does not have 3 worksheets" unless $oBook->{SheetCount} == 
 # open a new SQL file that will contain all INSERT statements
 my $sqlfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".sql";
 my $sqllogfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xls")) . ".log";
-open SQLFILE, ">$sqlfile" or die $!;
+#open SQLFILE, ">$sqlfile" or die $!;
+open SQLFILE, ">:utf8", $sqlfile or die $!;
 print SQLFILE "BEGIN;\n";
 
 # variables for table srdb.assessement
@@ -211,7 +212,8 @@ $dbh->disconnect();
 print SQLFILE "COMMIT;";
 close SQLFILE;
 
-print "$sqlfile\n";
+print "$sqlfile 2> $sqllogfile \n";
+#print "$sqlfile\n";
 
 # send the batch file to postgresql 
 #my @sqlcall =`psql srDB -f $sqlfile 2> $sqllogfile`;

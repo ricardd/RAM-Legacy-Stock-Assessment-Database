@@ -1,6 +1,6 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'DFO-QUE', 'REDFISHSPP3Pn4RSTVn', 'PREFONTAINE', '2008-07-25', '2011-06-24 12:22:48', '1953-2000', 'URL', 'Brigitte Bernier, Brigitte.Bernier@dfo-mpo.gc.ca', 'CPUE data in the time series was provided by Brigitte Bernier, it is the standardized catch rate in tons per hour for trawlers using a bottom trawl between october and may. CPUE-1 is for vessels larger than 100 feet and CPUE-2 is for vessels less than 65 feet.', '', 0, 1, 'Survey indices', 'no comments', '../spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.xls', '999') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'ID', 'NAFO-RED3Pn4RSTVn') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'DFO-QUE', 'REDFISHSPP3Pn4RSTVn', 'PREFONTAINE', '2008-07-25', '2011-07-27 20:28:51', '1953-2000', 'URL', 'Brigitte Bernier, Brigitte.Bernier@dfo-mpo.gc.ca', 'CPUE data in the time series was provided by Brigitte Bernier, it is the standardized catch rate in tons per hour for trawlers using a bottom trawl between october and may. CPUE-1 is for vessels larger than 100 feet and CPUE-2 is for vessels less than 65 feet.', '', 0, 1, 'Survey indices', 'no comments', '../spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.xls', '999') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'ID', 'NAFO-RED3Pn4RSTVn-2001') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'A1', 'Morin, B.') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'A1', 'Bernier, B.') ; 
@@ -11,7 +11,7 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'VL', '2001/001') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'Y1', '2001') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'PB', 'DFO') ; 
- INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'CY', 'Mont-Joli, Québec, Canada') ; 
+ INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'CY', 'Mont-Joli, QuÃ©bec, Canada') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE', 'ZZID', 'DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE','Habitat-Habitat','DEMERSAL MARINE', '2001', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('DFO-QUE-REDFISHSPP3Pn4RSTVn-1953-2000-PREFONTAINE','MORATOR-yr-yr','1995-PRESENT', '2008', 'DFO. 2008. Advice on the stock definition of redfish (Sebastes fasciatus and S. mentella) in

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-CABEZNCAL-1916-2005-STANTON', 'AFSC', 'CABEZNCAL', 'STANTON', '2009-05-19', '2011-06-24 12:23:10', '1916-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'Jason Cope, copejasonm@gmail.com', 'NORTH part of CAL only. Separate assessment for South of Point Conception', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Northcabezon-Cope2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-CABEZNCAL-1916-2005-STANTON', 'AFSC', 'CABEZNCAL', 'STANTON', '2009-05-19', '2011-07-25 12:39:58', '1916-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'Jason Cope, copejasonm@gmail.com', 'NORTH part of CAL only. Separate assessment for South of Point Conception', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Northcabezon-Cope2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-CABEZNCAL-1916-2005-STANTON', 'ID', '2005-SAFE-WCcabezon') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-CABEZNCAL-1916-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-CABEZNCAL-1916-2005-STANTON', 'A1', 'Cope, Jason') ; 

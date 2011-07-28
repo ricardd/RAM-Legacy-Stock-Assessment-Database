@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-DKROCKPCOAST-1928-2007-BRANCH', 'NWFSC', 'DKROCKPCOAST', 'BRANCH', '2008-11-23', '2011-06-24 12:22:53', '1928-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/Darkblotched_2007_Final.pdf', 'Owen Hamel, Owen.Hamel@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-DKROCKPCOAST-1928-2007-BRANCH', 'NWFSC', 'DKROCKPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:41', '1928-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/Darkblotched_2007_Final.pdf', 'Owen Hamel, Owen.Hamel@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-DKROCKPCOAST-1928-2007-BRANCH', 'ID', 'NWFSC-DKROCKPCOAST-2008-Darkblotched rockfish.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-DKROCKPCOAST-1928-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-DKROCKPCOAST-1928-2007-BRANCH', 'A1', 'Hamel OS') ; 

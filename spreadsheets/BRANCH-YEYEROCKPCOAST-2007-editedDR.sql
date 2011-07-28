@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH', 'NWFSC', 'YEYEROCKPCOAST', 'BRANCH', '2008-11-23', '2011-06-24 12:22:56', '1923-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/Yelloweye_Update_2007_Final_Updated.pdf', 'John Wallace, john.wallace@noaa.gov', 'Assessment updated since posted online most of new data direct from John Wallace', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH', 'NWFSC', 'YEYEROCKPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:44', '1923-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/Yelloweye_Update_2007_Final_Updated.pdf', 'John Wallace, john.wallace@noaa.gov', 'Assessment updated since posted online most of new data direct from John Wallace', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH', 'ID', 'NWFSC-YEYEROCKPCOAST-2007-yelloweye.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH', 'A1', 'Wallace GR') ; 

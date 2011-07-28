@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-MAR-CUSK4X-1970-2007-RICARD', 'DFO-MAR', 'CUSK4X', 'RICARD', '2011-03-01', '2011-06-24 12:23:20', '1970-2007', 'URL', 'tdavies@matshat.dal.ca', 'from CJFAS paper', '', 1, 1, 'BSPM', 'timeseries obtained from Trevor Davies', '../spreadsheets/RICARD-CUSK-4X-2011.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-MAR-CUSK4X-1970-2007-RICARD', 'DFO-MAR', 'CUSK4X', 'RICARD', '2011-03-01', '2011-07-25 12:40:09', '1970-2007', 'URL', 'tdavies@matshat.dal.ca', 'from CJFAS paper', '', 1, 1, 'BSPM', 'timeseries obtained from Trevor Davies', '../spreadsheets/RICARD-CUSK-4X-2011.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-CUSK4X-1970-2007-RICARD', 'ID', 'Davies-Jonsen-CJFAS-2011.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-CUSK4X-1970-2007-RICARD', 'TY', 'JOUR') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-CUSK4X-1970-2007-RICARD', 'T1', 'Identifying nonproportionality of fishery-independent survey data to estimate population trends and assess recovery potential for cusk (Brosme brosme)') ; 

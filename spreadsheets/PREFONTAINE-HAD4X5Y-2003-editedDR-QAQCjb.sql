@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE', 'DFO-MAR', 'HAD4X5Y', 'PREFONTAINE', '2008-06-03', '2011-06-24 12:22:47', '1960-2003', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'The model in this assessment used ages 2-10. The 2003 landings are provisional as they only include landings up to september 19th 2003.', '', 1, 1, 'SPA-ADAPT', 'no comments', '../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE', 'DFO-MAR', 'HAD4X5Y', 'PREFONTAINE', '2008-06-03', '2011-07-25 12:39:35', '1960-2003', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'The model in this assessment used ages 2-10. The 2003 landings are provisional as they only include landings up to september 19th 2003.', '', 1, 1, 'SPA-ADAPT', 'no comments', '../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE', 'ID', 'NAFO-HAD4X5Y-2003') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE', 'A1', 'Hurley, P.C.F.') ; 

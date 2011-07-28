@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-YFINATL-1970-2006-JENSEN', 'ICCAT', 'YFINATL', 'JENSEN', '2009-04-10', '2011-06-24 12:22:23', '1970-2006', 'data received from contact.  Report online at: http://www.iccat.int/Documents/Meetings/Docs/2008_TROP_REP_EN.pdf', 'John Walter - NMFS', '', '', 1, 1, 'VPA', 'timeseries and ref points are avg of runs 5 & 10 - which were used to provide mgmt advice', '../spreadsheets/JENSEN-YFINATL-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-YFINATL-1970-2006-JENSEN', 'ICCAT', 'YFINATL', 'JENSEN', '2009-04-10', '2011-07-25 12:39:10', '1970-2006', 'data received from contact.  Report online at: http://www.iccat.int/Documents/Meetings/Docs/2008_TROP_REP_EN.pdf', 'John Walter - NMFS', '', '', 1, 1, 'VPA', 'timeseries and ref points are avg of runs 5 & 10 - which were used to provide mgmt advice', '../spreadsheets/JENSEN-YFINATL-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-YFINATL-1970-2006-JENSEN', 'ID', 'JENSEN-YFINATL-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-YFINATL-1970-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-YFINATL-1970-2006-JENSEN', 'T1', 'Report of the 2008 {ICCAT} yellowfin and skipjack stock assessments meeting') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH', 'NWFSC', 'BLACKROCKSPCOAST', 'BRANCH', '2008-11-19', '2011-06-24 12:22:54', '1915-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/BLCK_S_07_FullDoc.pdf', 'David Sampson david.sampson@oregonstate.edu', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH', 'NWFSC', 'BLACKROCKSPCOAST', 'BRANCH', '2008-11-19', '2011-07-25 12:39:42', '1915-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/BLCK_S_07_FullDoc.pdf', 'David Sampson david.sampson@oregonstate.edu', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH', 'ID', 'NWFSC-BLACKROCKSPCOAST-2007-Black rockfish OR CA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH', 'A1', 'Sampson, D.B.') ; 

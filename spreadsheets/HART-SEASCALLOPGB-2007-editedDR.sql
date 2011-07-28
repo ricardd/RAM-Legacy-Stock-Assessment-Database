@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-SCALLGB-1964-2006-HART', 'NEFSC', 'SCALLGB', 'HART', '2009-04-22', '2011-06-24 12:23:07', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0716/', '', '', '', 1, 1, 'AD-CAL', 'CASA model', '../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-SCALLGB-1964-2006-HART', 'NEFSC', 'SCALLGB', 'HART', '2009-04-22', '2011-07-25 12:39:55', '1964-2006', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0716/', '', '', '', 1, 1, 'AD-CAL', 'CASA model', '../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'ID', 'SeaScallop2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-SCALLGB-1964-2006-HART', 'A1', 'Northeast Fisheries Science Center') ; 

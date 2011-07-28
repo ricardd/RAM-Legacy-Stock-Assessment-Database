@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'IMARPE', 'PANCHPERUNC', 'RICARD', '2010-07-21', '2011-06-24 12:22:09', '1963-2004', 'URL', 'contact details ', '', '', 1, 0, 'VPA', 'no comments', '../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'IMARPE', 'PANCHPERUNC', 'RICARD', '2010-07-21', '2011-07-25 12:38:56', '1963-2004', 'URL', 'contact details ', '', '', 1, 0, 'VPA', 'no comments', '../spreadsheets/RICARD-PERUVIANANCHOVETA-1963-2004-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'ID', 'Cahuin_etal_2009') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'TY', 'JOUR') ; 
  INSERT INTO srdb.referencedoc VALUES('IMARPE-PANCHPERUNC-1963-2004-RICARD', 'A1', 'Cahuin, Sandra M.') ; 

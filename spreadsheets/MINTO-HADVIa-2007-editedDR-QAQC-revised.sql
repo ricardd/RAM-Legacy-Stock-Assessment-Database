@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSDS-HADVIa-1977-2006-MINTO', 'WGNSDS', 'HADVIa', 'MINTO', '2008-04-14', '2011-06-24 12:22:29', '1977-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSDS-2007.pdf', 1, 1, 'TSA', 'Commercial catch data were not used for the period 1995-2006 because of misreporting of the catches. Standard errors of estimates are also presented. Flim is not defined for this population.', '../spreadsheets/MINTO-HADVIa-2007-editedDR-QAQC-revised.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSDS-HADVIa-1977-2006-MINTO', 'WGNSDS', 'HADVIa', 'MINTO', '2008-04-14', '2011-07-25 12:39:16', '1977-2006', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSDS-2007.pdf', 1, 1, 'TSA', 'Commercial catch data were not used for the period 1995-2006 because of misreporting of the catches. Standard errors of estimates are also presented. Flim is not defined for this population.', '../spreadsheets/MINTO-HADVIa-2007-editedDR-QAQC-revised.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-HADVIa-1977-2006-MINTO', 'ID', 'ICES-WGNSDS-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-HADVIa-1977-2006-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSDS-HADVIa-1977-2006-MINTO', 'A1', 'Anon') ; 

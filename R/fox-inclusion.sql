@@ -1,5 +1,5 @@
 -- remove stocks from the srdb.spfits_schaefer table for those assessid deemed appropriate 
--- Last modified Time-stamp: <2011-03-01 11:16:14 (srdbadmin)>
+-- Last modified Time-stamp: <2011-08-02 15:09:47 (srdbadmin)>
 -- once the R code in surplus-production-fits.R is executed, the contents of table srdb.spfits_schaefer contains fitted parameter values for all the stocks for which a Schaefer model could be applied (i.e. had total catch and total biomass timeseries)
 
 
@@ -59,7 +59,7 @@ WHERE assessid in (
 'DFO-PAC-PCODHS-1956-2005-COLLIE',
 'DFO-PAC-PCODWCVANI-1956-2002-COLLIE',
 'DFO-PAC-RSOLEHSTR-1945-2001-COLLIE',
-'DFO-POLL4VWX5Zc-1974-2007-PREFONTAINE',
+'DFO-POLL4X5YZ-1980-2006-PREFONTAINE',
 'DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE',
 'DFO-SG-COD4TVn-1965-2007-PREFONTAINE',
 'HAWG-HERRNIRS-1960-2006-JENNINGS',

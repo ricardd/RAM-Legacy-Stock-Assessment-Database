@@ -3,7 +3,7 @@
 # Lower bound on K - 0 
  0 
 # Upper bound on K - ln(X*max(biomass)) 
- 12.94124 
+ 12.02495 
 # observed X values 	 observed Y values 
 11200 22680
 11800 22867

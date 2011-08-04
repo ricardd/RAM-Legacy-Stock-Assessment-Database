@@ -1,0 +1,115 @@
+## produce a fried egg for ICES' stocks using SSBlim and Flim reference points
+## DR last modified Time-stamp: <2011-08-04 12:36:04 (srdbadmin)>
+## Modification history:
+## 2011-04-29: LOG in SQL is base 10 log, use LN instead for natural log
+setwd("/home/srdbadmin/srdb/projects/fishandfisheries/R/PROOFS-final/")
+library(RODBC)
+library(KernSmooth)
+chan <- odbcConnect(dsn='srdbcalo')
+
+ssb.pepper.qu <- paste("select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, ln(v.tsvalue/cast(a.biovalue as numeric)) as logratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like '%Blim%'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ('ICES')) and recorder != 'MYERS') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like '%Blim%'",sep="")
+
+ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
+
+
+  f.pepper.qu <- paste("
+  select a.assessid, a.maxyr, a.biovalue as u, v.tsvalue as fmsy, (case when v.tsvalue=0 then 0 else v.tsvalue/cast(a.biovalue as numeric) end) as ratio, (case when v.tsvalue=0 then 0 else ln(v.tsvalue/cast(a.biovalue as numeric)) end) as logratio, 'yes' as utype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where (bioid like 'Flim%')  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt in ('ICES')) and recorder != 'MYERS') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and (v.bioid like 'Flim%')
+  ", sep="")
+f.pepper <- sqlQuery(chan, f.pepper.qu, stringsAsFactors=FALSE)
+
+crosshair.dat <- merge(ssb.pepper, f.pepper, "assessid")
+
+
+## now generate the kernel and plot
+d<-2 # the bandwidth dimension
+bmsy.bw<-sqrt(var(crosshair.dat$ratio.x))*(4/((d+2)*length(crosshair.dat$ratio.x)))^(1/(d+4))
+umsy.bw<-sqrt(var(crosshair.dat$ratio.y))*(4/((d+2)*length(crosshair.dat$ratio.y)))^(1/(d+4))
+
+d<-log(2) # the bandwidth dimension
+bmsy.bw.log<-sqrt(var(crosshair.dat$logratio.x))*(4/((d+2)*length(crosshair.dat$logratio.x)))^(1/(d+4))
+umsy.bw.log<-sqrt(var(crosshair.dat$logratio.y))*(4/((d+2)*length(crosshair.dat$logratio.y)))^(1/(d+4))
+
+kernel.dens <- bkde2D(crosshair.dat[,c(5,11)], bandwidth=c(bmsy.bw,umsy.bw), range.x=list(c(0,2.01),c(0,2.01)))  
+kernel.dens.log <- bkde2D(crosshair.dat[,c(6,12)], bandwidth=c(bmsy.bw.log,umsy.bw.log), range.x=list(c(-1.38,1.76),c(-1.38,1.76)))  
+
+palettetable.egg<-colorRampPalette(c("#BFEFFF","white","white", "yellow","#FFC125"))
+
+##
+pdf("friedegg-ICES-SSBlim.pdf", width=11, height=11)
+#par(mar=c(4,4,1,1),oma=c(4,4,1,1),mfrow=c(2,1))
+par(mar=c(4,4,1,1),oma=c(4,4,1,1))
+
+## normal fried egg
+  crosshair.dat$ratio.x[crosshair.dat$ratio.x>2] <- 2
+  crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2
+  image(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat, col=palettetable.egg(length(kernel.dens$x1)), xlab = "", ylab = "", xlim=c(-0.05,2.05), ylim=c(-0.05,2.05), cex.lab=1.3)
+contour(kernel.dens$x1, kernel.dens$x2, kernel.dens$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
+abline(h=1, lty=2, lwd=1.2); abline(v=1, lty=2, lwd=1.2)
+points(crosshair.dat[,5], crosshair.dat[,11], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
+
+axis(side=1, labels=TRUE)
+axis(side=2, labels=TRUE)
+
+  n.assessid <- dim(crosshair.dat)[1]
+mtext(expression(B/B[lim]), side=1, line=1, outer=TRUE, cex=1)
+mtext(expression(F/F[lim]), side=2, line=1, outer=TRUE, cex=1)
+
+  my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
+legend("topright",my.label)
+
+# xlim=exp(c(0.2,6)), ylim=c(-1,1),
+## also include log ratios
+#  image(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat, col=palettetable.egg(length(kernel.dens.log$x1)), xlab = "", ylab = "", cex.lab=1.3, axes=FALSE)
+#contour(kernel.dens.log$x1, kernel.dens.log$x2, kernel.dens.log$fhat,drawlabels=FALSE,nlevels=3,add=TRUE,col=grey(0.4),lwd=0.7)
+#abline(h=0, lty=2, lwd=1.2); abline(v=0, lty=2, lwd=1.2)
+#points(crosshair.dat[,6], crosshair.dat[,12], col=1, cex=.7, pch=ifelse((crosshair.dat$btype=="no" | crosshair.dat$utype=="no"),21,19), bg="white")
+
+#axis(side=1, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
+#axis(side=2, at=log(c(0.25, 0.5, 1, 2, 5)), labels=c(0.25, 0.5, 1, 2, 5))
+
+#mtext(expression(SSB[curr]/SSB[lim]), side=1, line=1, outer=TRUE, cex=1)
+#mtext(expression(F[curr]/F[lim]), side=2, line=1, outer=TRUE, cex=1)
+#  my.label <- paste("ICES", " (n=", n.assessid, ")", sep="")
+#legend("topright",my.label)
+
+
+sql.label <- "ICESBlim"
+## write some summary statistics for the grouping to the fishfisheries.results table
+## total number of stocks for this grouping
+  nn <- dim(crosshair.dat)[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+
+## now give the number for the four quadrants of the fried egg
+## quadrant 1, top-left, below Bmsy and above Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y>=1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+## quadrant 2, top-right, above Bmsy and above Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y>=1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+## quadrant 3, bottom-right, above Bmsy and below Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y<1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+## quadrant 4, bottom-left, below Bmsy and below Umsy
+  nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y<1.0 ))[1]
+delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
+sqlQuery(chan,delete.qu)
+insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
+sqlQuery(chan,insert.qu)
+
+dev.off()
+odbcClose(chan)

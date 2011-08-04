@@ -1,0 +1,40 @@
+%% Last modified: Time-stamp: <2011-08-04 12:22:16 (srdbadmin)>
+\documentclass[letterpaper,review,authoryear,12pt]{article}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{comment}
+\usepackage{color}
+\usepackage[left=3cm,top=3cm,right=3cm,bottom=3cm,nohead]{geometry}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
+\usepackage{microtype} %% no ligature, to facilitate conversion to Word
+\DisableLigatures{encoding = *, family = * }
+\usepackage{appendix}
+
+\title{Tables for Supporting Information of the accepted Fish and Fisheries paper August 2011}
+\date{\today}
+
+\begin{document}
+\renewcommand{\figurename}{Fig. S}
+\renewcommand{\tablename}{Table S}
+
+\maketitle
+\section{Supplementary tables}
+
+%Supplementary Table S1
+\begin{landscape}
+\begin{tiny}
+\include{Table-S1-formatted}
+\end{tiny}
+\end{landscape}
+
+%Supplementary Table S2
+\include{Table-S2}
+\include{Table-S2-kbound5maxb}
+
+
+\end{document}

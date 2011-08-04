@@ -1,0 +1,40 @@
+%% Last modified: Time-stamp: <2011-08-04 11:47:13 (srdbadmin)>
+\documentclass[letterpaper,review,authoryear,12pt]{myelsarticle}
+\usepackage{amssymb}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{comment}
+\usepackage{color}
+\usepackage[left=3cm,top=3cm,right=3cm,bottom=3cm,nohead]{geometry}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage[none]{hyphenat}  %% no hyphenation, to facilitate conversion to Word
+\usepackage{microtype} %% no ligature, to facilitate conversion to Word
+\DisableLigatures{encoding = *, family = * }
+\usepackage{appendix}
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Database contents for the Abstract, Results and Tables of the accepted Fish and Fisheries paper August 2011}
+\date{\today}
+\end{frontmatter}
+
+\input{abstract-dynamic}
+\input{results-dynamic}
+
+%\section*{References}
+%\bibliographystyle{fishandfisheriesBST}
+%\bibliography{./fishfisheries}
+
+\section*{Tables}
+
+%First output Table 1 as generated from the database contents.
+\begin{small}
+\include{Table1-formatted}
+\end{small}
+
+\end{document}
+

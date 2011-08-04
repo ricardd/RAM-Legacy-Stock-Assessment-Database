@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  28 JUN 2011 12:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.6.9)  3 AUG 2011 14:08
 entering extended mode
  %&-line parsing enabled.
 **fandf-RESUBMIT-JUNE2011-suppl
@@ -381,18 +381,18 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 9--9
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 10--10
-[]|\OT1/cmr/m/n/6 Orange roughy Cas-cade
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
 []|\OT1/cmr/m/n/6 Integrated
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 10--10
-[]|\OT1/cmr/m/n/6 1987-2006| 
+[]|\OT1/cmr/m/n/6 1978-2007| 
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/6 Orange roughy Cas-cade
  []
 
 
@@ -402,7 +402,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 11--11
-[]|\OT1/cmr/m/n/6 1978-2007| 
+[]|\OT1/cmr/m/n/6 1987-2006| 
  []
 
 
@@ -517,7 +517,7 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 18--18
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\OT1/cmr/m/n/6 Blue Ware-hou East-ern
+[]|\OT1/cmr/m/n/6 Blue Ware-hou West-ern
  []
 
 
@@ -532,7 +532,7 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 19--19
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/6 Blue Ware-hou West-ern
+[]|\OT1/cmr/m/n/6 Blue Ware-hou East-ern
  []
 
 
@@ -927,7 +927,7 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 50--50
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 51--51
-[]|\OT1/cmr/m/n/6 1965-2006| 
+[]|\OT1/cmr/m/n/6 1964-2006| 
  []
 
 
@@ -947,7 +947,7 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 52--52
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\OT1/cmr/m/n/6 Pacific her-ring Queen
+[]|\OT1/cmr/m/n/6 Pacific her-ring Cen-tral
  []
 
 
@@ -962,17 +962,17 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 53--53
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\OT1/cmr/m/n/6 Pacific her-ring Cen-tral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []|\OT1/cmr/m/n/6 Statistical
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 54--54
 []|\OT1/cmr/m/n/6 1951-2007| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\OT1/cmr/m/n/6 Pacific her-ring Queen
  []
 
 
@@ -1047,22 +1047,22 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 62--62
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 63--63
-[]|\OT1/cmr/m/n/6 1959-2006| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\OT1/cmr/m/n/6 Atlantic cod NAFO
+[]|\OT1/cmr/m/n/6 1850-2005| 
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 64--64
-[]|\OT1/cmr/m/n/6 1964-2007| 
+[]|\OT1/cmr/m/n/6 1959-2006| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/6 Atlantic cod NAFO
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 65--65
-[]|\OT1/cmr/m/n/6 1850-2005| 
+[]|\OT1/cmr/m/n/6 1964-2007| 
  []
 
 
@@ -1085,12 +1085,12 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 66--66
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 67--67
-[]|\OT1/cmr/m/n/6 1968-2003| 
+[]|\OT1/cmr/m/n/6 1960-2003| 
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 68--68
-[]|\OT1/cmr/m/n/6 1960-2003| 
+[]|\OT1/cmr/m/n/6 1968-2003| 
  []
 
 
@@ -1105,7 +1105,7 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 69--69
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 70--70
-[]|\OT1/cmr/m/n/6 1974-2007| 
+[]|\OT1/cmr/m/n/6 1980-2006| 
  []
 
 
@@ -1369,8 +1369,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 85--85
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\OT1/cmr/m/n/6 Statistical
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 85--85
-[]|\OT1/cmr/m/n/6 1972-2007| 
+[]|\OT1/cmr/m/n/6 1957-2006| 
  []
 
 
@@ -1385,7 +1390,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 86--86
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 86--86
-[]|\OT1/cmr/m/n/6 1973-2006| 
+[]|\OT1/cmr/m/n/6 1972-2007| 
  []
 
 
@@ -1394,13 +1399,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 87--87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]|\OT1/cmr/m/n/6 Statistical
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 87--87
-[]|\OT1/cmr/m/n/6 1991-2006| 
+[]|\OT1/cmr/m/n/6 1973-2006| 
  []
 
 
@@ -1409,8 +1409,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 88--88
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\OT1/cmr/m/n/6 Statistical
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 88--88
-[]|\OT1/cmr/m/n/6 1983-2007| 
+[]|\OT1/cmr/m/n/6 1991-2006| 
  []
 
 
@@ -1419,13 +1424,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 89--89
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-[]|\OT1/cmr/m/n/6 Statistical
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 89--89
-[]|\OT1/cmr/m/n/6 1960-2007| 
+[]|\OT1/cmr/m/n/6 1979-2006| 
  []
 
 
@@ -1434,13 +1434,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 90--90
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\OT1/cmr/m/n/6 Statistical
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 90--90
-[]|\OT1/cmr/m/n/6 1957-2006| 
+[]|\OT1/cmr/m/n/6 1983-2007| 
  []
 
 
@@ -1449,8 +1444,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 91--91
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/6 Statistical
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 91--91
-[]|\OT1/cmr/m/n/6 1979-2006| 
+[]|\OT1/cmr/m/n/6 1960-2007| 
  []
 
 
@@ -1529,8 +1529,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 97--97
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/6 Atlantic cod coastal
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 97--97
-[]|\OT1/cmr/m/n/6 1970-2006| 
+[]|\OT1/cmr/m/n/6 1982-2006| 
  []
 
 
@@ -1540,12 +1545,17 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 98--98
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--98
-[]|\OT1/cmr/m/n/6 Atlantic cod coastal
+[]|\OT1/cmr/m/n/6 Atlantic cod West of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\OT1/cmr/m/n/6 Statistical
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 98--98
-[]|\OT1/cmr/m/n/6 1982-2006| 
+[]|\OT1/cmr/m/n/6 1977-2006| 
  []
 
 
@@ -1554,18 +1564,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 99--99
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\OT1/cmr/m/n/6 Atlantic cod West of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\OT1/cmr/m/n/6 Statistical
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 99--99
-[]|\OT1/cmr/m/n/6 1977-2006| 
+[]|\OT1/cmr/m/n/6 1970-2006| 
  []
 
 
@@ -1575,7 +1575,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 100--100
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 100--100
-[]|\OT1/cmr/m/n/6 1962-2007| 
+[]|\OT1/cmr/m/n/6 1968-2006| 
  []
 
 
@@ -1585,7 +1585,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 101--101
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 101--101
-[]|\OT1/cmr/m/n/6 1968-2006| 
+[]|\OT1/cmr/m/n/6 1969-2007| 
  []
 
 
@@ -1595,7 +1595,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 102--102
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 102--102
-[]|\OT1/cmr/m/n/6 1969-2007| 
+[]|\OT1/cmr/m/n/6 1962-2007| 
  []
 
 
@@ -1695,7 +1695,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 110--110
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 110--110
-[]|\OT1/cmr/m/n/6 1955-2006| 
+[]|\OT1/cmr/m/n/6 1947-2006| 
  []
 
 
@@ -1704,13 +1704,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 111--111
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]|\OT1/cmr/m/n/6 Survey
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 111--111
-[]|\OT1/cmr/m/n/6 1972-2006| 
+[]|\OT1/cmr/m/n/6 1955-2006| 
  []
 
 
@@ -1719,8 +1714,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 112--112
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/6 Survey
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 112--112
-[]|\OT1/cmr/m/n/6 1947-2006| 
+[]|\OT1/cmr/m/n/6 1972-2006| 
  []
 
 
@@ -1729,13 +1729,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 113--113
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 113--113
-[]|\OT1/cmr/m/n/6 Haddock ICES IIIa and
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/6 Statistical
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 113--113
-[]|\OT1/cmr/m/n/6 1963-2006| 
+[]|\OT1/cmr/m/n/6 1977-2006| 
  []
 
 
@@ -1744,8 +1744,13 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 114--114
  []
 
 
+Underfull \hbox (badness 2088) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/6 Haddock ICES IIIa and
+ []
+
+
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 114--114
-[]|\OT1/cmr/m/n/6 1977-2007| 
+[]|\OT1/cmr/m/n/6 1963-2006| 
  []
 
 
@@ -1755,7 +1760,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 115--115
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 115--115
-[]|\OT1/cmr/m/n/6 1990-2007| 
+[]|\OT1/cmr/m/n/6 1977-2007| 
  []
 
 
@@ -1764,13 +1769,8 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 116--116
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\OT1/cmr/m/n/6 Statistical
- []
-
-
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 116--116
-[]|\OT1/cmr/m/n/6 1977-2006| 
+[]|\OT1/cmr/m/n/6 1990-2007| 
  []
 
 
@@ -2355,7 +2355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 156--156
-[]|\OT1/cmr/m/n/6 1980-2006| 
+[]|\OT1/cmr/m/n/6 1972-2007| 
  []
 
 
@@ -2370,7 +2370,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--157
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 157--157
-[]|\OT1/cmr/m/n/6 1972-2007| 
+[]|\OT1/cmr/m/n/6 1980-2006| 
  []
 
 
@@ -2750,22 +2750,12 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 184--184
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]|\OT1/cmr/m/n/6 Redfish species NAFO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]|\OT1/cmr/m/n/6 Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-\OT1/cmr/m/n/6 dy-nam-ics
+[]|\OT1/cmr/m/it/6 Reinhardtius
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 184--184
-[]|\OT1/cmr/m/n/6 1959-2008| 
+[]|\OT1/cmr/m/n/6 1960-2006| 
  []
 
 
@@ -2775,7 +2765,7 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 185--185
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 185--185
-[]|\OT1/cmr/m/n/6 1989-2006| 
+[]|\OT1/cmr/m/n/6 1985-2006| 
  []
 
 
@@ -2790,12 +2780,22 @@ Overfull \hbox (1.25366pt too wide) in paragraph at lines 186--186
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|\OT1/cmr/m/it/6 Reinhardtius
+[]|\OT1/cmr/m/n/6 Redfish species NAFO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/6 Biomass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\OT1/cmr/m/n/6 dy-nam-ics
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 186--186
-[]|\OT1/cmr/m/n/6 1960-2006| 
+[]|\OT1/cmr/m/n/6 1959-2008| 
  []
 
 
@@ -3565,12 +3565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--243
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[]|\OT1/cmr/m/n/6 Biomass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-\OT1/cmr/m/n/6 dy-nam-ics
+[]|\OT1/cmr/m/n/6 Statistical
  []
 
 
@@ -3636,11 +3631,6 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 248--248
 
 Underfull \hbox (badness 10000) in paragraph at lines 249--249
 []|\OT1/cmr/m/n/6 Yellowtail snap-per
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 249--249
-\OT1/cmr/m/n/6 South-ern At-lantic Coast
  []
 
 
@@ -4255,22 +4245,12 @@ Overfull \hbox (6.22554pt too wide) in paragraph at lines 290--290
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/6 Pacific Ocean perch
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 291--291
-\OT1/cmr/m/n/6 East-ern Bering Sea and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []|\OT1/cmr/m/n/6 Statistical
  []
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/6 1974-2009| 
+[]|\OT1/cmr/m/n/6 1953-2007| 
  []
 
 
@@ -4280,7 +4260,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--292
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 292--292
-[]|\OT1/cmr/m/n/6 1953-2007| 
+[]|\OT1/cmr/m/n/6 1959-2010| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]|\OT1/cmr/m/n/6 Pacific Ocean perch
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 293--293
+\OT1/cmr/m/n/6 East-ern Bering Sea and
  []
 
 
@@ -4290,7 +4280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--293
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/6 1959-2010| 
+[]|\OT1/cmr/m/n/6 1974-2009| 
  []
 
 
@@ -4865,7 +4855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--332
 
 
 Overfull \hbox (6.22554pt too wide) in paragraph at lines 332--332
-[]|\OT1/cmr/m/n/6 1950-2004| 
+[]|\OT1/cmr/m/n/6 1950-2003| 
  []
 
 
@@ -5039,7 +5029,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3649 strings out of 495061
  56198 string characters out of 1182622
- 215841 words of memory out of 3000000
+ 214841 words of memory out of 3000000
  6734 multiletter control sequences out of 15000+50000
  12632 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -5050,7 +5040,7 @@ xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti7.pfb>
-Output written on fandf-RESUBMIT-JUNE2011-suppl.pdf (23 pages, 913797 bytes).
+Output written on fandf-RESUBMIT-JUNE2011-suppl.pdf (23 pages, 914463 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

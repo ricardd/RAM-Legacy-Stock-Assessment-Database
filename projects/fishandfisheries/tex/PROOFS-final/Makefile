@@ -1,6 +1,8 @@
 # makefile for Fish and Fisheries manuscript
-# last modified Time-stamp: <2011-08-04 12:41:57 (srdbadmin)>
+# last modified Time-stamp: <2011-08-04 12:50:16 (srdbadmin)>
 # this is after the paper was accepted, I am just generating a document to compare the numbers in teh database to those that appear in the proof
+
+all: fandf-ACCEPTED-AUG2011-results.pdf fandf-ACCEPTED-AUG2011-figures.pdf fandf-ACCEPTED-AUG2011-supporting-tables.pdf fandf-ACCEPTED-AUG2011-supporting-figures.pdf
 
 ## PDF with results
 fandf-ACCEPTED-AUG2011-results.pdf: fandf-ACCEPTED-AUG2011-results.tex abstract-dynamic.tex results-dynamic.tex Table1-formatted.tex

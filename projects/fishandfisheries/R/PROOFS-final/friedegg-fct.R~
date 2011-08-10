@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-06-27 15:45:28 (srdbadmin)>
+## last modified Time-stamp: <2011-08-04 10:57:00 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -293,15 +293,15 @@ my.caption <- c("Summary of population-dynamics model based assessments in the R
 
 
 ## Table S1
-  print(my.table.S2, type="latex", file="../../tex/first-review/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+  print(my.table.S2, type="latex", file="../../tex/PROOFS-final/Table-S1.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 ## Table S1 with BibTex \ref
-  print(my.table.S2.withref, type="latex", file="../../tex/first-review/Table-S1-withref.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+  print(my.table.S2.withref, type="latex", file="../../tex/PROOFS-final/Table-S1-withref.tex", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
 
 ## html table to use in Word
   crosshair.for.table.withref$scientificname <- paste(crosshair.for.table.withref$scientificname,sep="")
   my.table.S2 <- xtable(crosshair.for.table, caption=my.caption, label=c("tab:crosshair"), digits=2, align="p{1.8cm}p{1.3cm}p{3.5cm}p{3.5cm}p{2.5cm}p{0.9cm}p{1.0cm}cp{0.9cm}cp{0.9cm}c")
- print(my.table.S2, type="html", file="../../tex/first-review/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
+ print(my.table.S2, type="html", file="../../tex/PROOFS-final/Table-S1.html", include.rownames=FALSE, floating=FALSE, tabular.environment="longtable", caption.placement="bottom", sanitize.text.function=I)
  
   crosshair.dat$ratio.x[crosshair.dat$ratio.x>2] <- 2
   crosshair.dat$ratio.y[crosshair.dat$ratio.y>2] <- 2

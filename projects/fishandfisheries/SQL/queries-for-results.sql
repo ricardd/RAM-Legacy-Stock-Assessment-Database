@@ -60,6 +60,12 @@ aa.stockid=bb.stockid and
 bb.tsn=tt.tsn
 )
 UNION
+(select CAST(flag as varchar(100)), CAST(value as VARCHAR(10)) from (select 'REF:SQL:TOTNUMASSESSBYFISHSPECIES' as flag, count(*) as value from (select distinct ss.tsn from srdb.assessment aa, srdb.stock ss, srdb.taxonomy tt where ss.tsn=tt.tsn and tt.classname IN ('Chondrichthyes','Myxini','Actinopterygii') and aa.recorder != 'MYERS' and aa.assess=1 and mostrecent='yes' and aa.stockid=ss.stockid) as a) as b
+)
+UNION
+(select CAST(flag as varchar(100)), CAST(value as VARCHAR(10)) from (select 'REF:SQL:TOTNUMASSESSBYINVERTSPECIES' as flag, count(*) as value from (select distinct ss.tsn from srdb.assessment aa, srdb.stock ss, srdb.taxonomy tt where ss.tsn=tt.tsn and tt.classname NOT IN ('Chondrichthyes','Myxini','Actinopterygii') and aa.recorder != 'MYERS' and aa.assess=1 and mostrecent='yes' and aa.stockid=ss.stockid) as a) as b
+)
+UNION
 (select 'REF:SQL:TOTNUMFISHFAMILIES' as flag, CAST(count(distinct tt.family) as varchar(10)) as value
 from 
 srdb.assessment aa,

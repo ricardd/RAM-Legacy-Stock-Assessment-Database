@@ -38,7 +38,7 @@
 "196","DETMCM","Southern spiny lobster South Africa South coast","\textit{Palinurus gilchristi}","Statistical catch at age model","1973-2008",2008,0.514511537930082,"no",1.50488022159011,"no","\cite{Johnston-SASouthRockLobster-2008.pdf}"
 "246","DETMCM","Sardine South Africa","\textit{Sardinops sagax}","Statistical catch at age model","1984-2006",2006,0.752727373106407,"no",0.554929063783784,"no","\cite{deMoorSASardineAssessment-Sep07.pdf}"
 "325","DETMCM","Cape horse mackerel South Africa South coast","\textit{Trachurus capensis}","Biomass dynamics model","1950-2007",2007,1.47493502535493,"no",0.760576592973883,"no","\cite{Johnston-SAHorseMackerel-2007.pdf}"
-"4","DFO","Sablefish Pacific Coast of Canada","\textit{Anoplopoma fimbria}","Integrated Analysis","1913-2004",2004,0.465322961724401,"yes",3.86107353964866,"yes","\cite{BC-Sablefish.pdf}"
+"4","DFO","Sablefish Pacific Coast of Canada","\textit{Anoplopoma fimbria}","Integrated Analysis","1913-2004",NA,NA,NA,NA,NA,"\cite{BC-Sablefish.pdf}"
 "11","DFO","Cusk NAFO 4X","\textit{Brosme brosme}","Biomass dynamics model","1970-2007",NA,NA,NA,NA,NA,"\cite{Davies-Jonsen-CJFAS-2011.pdf}"
 "21","DFO","Herring NAFO 4T spring spawners","\textit{Clupea harengus}","VPA","1974-2007",NA,NA,NA,NA,NA,"\cite{NAFO-HERR4TFA-2007.pdf}"
 "29","DFO","Herring NAFO 4R spring spawners","\textit{Clupea harengus}","VPA","1963-2004",NA,NA,NA,NA,NA,"\cite{NAFO-HERR4RSP-2004.pdf}"

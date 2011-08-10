@@ -121,7 +121,7 @@ UNION
 )
 UNION
 (
- select CAST(flag as varchar(100)), CAST(value as VARCHAR(10)) from (select 'REF:SQL:TOTNUMLMESPRIMARY' as flag, count(distinct lme_number) as value from (select distinct lme_number from srdb.lmetostocks where stocktolmerelation = 'primary' and stockid in (select stockid from srdb.assessment where assess=1 and recorder !='MYERS' and mostrecent='yes')) as a) as b
+ select CAST(flag as varchar(100)), CAST(value as VARCHAR(10)) from (select 'REF:SQL:TOTNUMLMESPRIMARY' as flag, count(distinct lme_number) as value from (select distinct lme_number from srdb.lmetostocks where lme_number >0 and stocktolmerelation = 'primary' and stockid in (select stockid from srdb.assessment where assess=1 and recorder !='MYERS' and mostrecent='yes')) as a) as b
 )
 UNION
 (

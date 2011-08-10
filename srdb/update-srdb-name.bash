@@ -1,6 +1,6 @@
 #!/bin/bash
 # bash script to update the database after adding new assessment(s)
-# Time-stamp: <2011-07-26 11:01:07 (srdbadmin)>
+# Time-stamp: <2011-08-05 12:12:55 (srdbadmin)>
 
 psql $1 -f ./scripts/massage-timeseries.sql
 psql $1 -f ./scripts/massage-biometrics.sql
@@ -25,4 +25,4 @@ psql $1 -f ./scripts/views-keep-most-recent.sql
 psql $1 -t -f ./scripts/grants.sql | psql $1
 
 #touch /home/srdbadmin/srdb/projects/fishandfisheries/tex/lastDBupdate-timestamp.txt
-touch /home/srdbadmin/srdb/projects/fishandfisheries/tex/first-review/lastDBupdate-timestamp.txt
+touch /home/srdbadmin/srdb/projects/fishandfisheries/tex/PROOFS-final/lastDB-update.txt

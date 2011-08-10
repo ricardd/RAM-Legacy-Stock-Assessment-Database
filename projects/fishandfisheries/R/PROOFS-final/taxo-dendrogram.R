@@ -2,7 +2,7 @@
 ##
 ## spoked wheel dendrogram for Fish and Fisheries manuscript
 ## Started: 2010-02-16 DR from earlier work in this directory
-## Last modified Time-stamp: <2011-08-04 10:56:23 (srdbadmin)>
+## Last modified Time-stamp: <2011-08-05 14:21:51 (srdbadmin)>
 ## Modification history:
 ## 2010-04-08: we decided on not using LMEs for weighting the dendrograms, modifying the code to reflect that (DR)
 ## 2010-05-27: system upgrade broke R and I had to revert to an earlier version for this code to work
@@ -169,7 +169,7 @@ dev.off()
 ##system("xpdf ./SAUP-byorder.pdf")
 ### srdb
 ## one entry per assessment
-taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock where stockid in (select stockid from srdb.assessment where assessid not like '%MYERS%' and assess=1)) as bb where aa.tsn=bb.tsn")
+taxo.qu<-paste("select * from srdb.taxonomy as aa, (select tsn from srdb.stock where stockid in (select stockid from srdb.assessment where assessid not like '%MYERS%' and assess=1 and mostrecent='yes')) as bb where aa.tsn=bb.tsn")
 
 taxo.dat<-sqlQuery(chan, taxo.qu)
 taxo.dat<-taxo.dat[order(taxo.dat$scientificname),]
@@ -222,7 +222,7 @@ dev.off()
 
 ## taxo.qu<-paste("select t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, foo.lme_number, count(*)  as numlme from srdb.stock s, srdb.taxonomy t, (select stockid, lme_number from srdb.lmetostocks where stocktolmerelation = 'primary' and stockid in (select distinct stockid from srdb.assessment where recorder != 'MYERS')) as foo where foo.stockid=s.stockid and s.tsn=t.tsn group by t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, lme_number order by t.tsn, lme_number")
 ## order-level
-taxo.qu<-paste("select t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, a.assessid from srdb.assessment a, srdb.stock s, srdb.taxonomy t  where a.assess=1 AND a.recorder != \'MYERS\' AND a.stockid=s.stockid and s.tsn=t.tsn order by t.tsn")
+taxo.qu<-paste("select t.tsn, t.kingdom, t.phylum, t.classname, t.ordername, t.family, t.genus, t.species, t.scientificname, a.assessid from srdb.assessment a, srdb.stock s, srdb.taxonomy t  where a.assess=1 AND a.recorder != \'MYERS\' AND a.stockid=s.stockid and s.tsn=t.tsn and t.phylum = \'Chordata\' order by t.tsn")
 srdb.dat <- sqlQuery(chan,taxo.qu)
 
 srdb.dat <- srdb.dat[order(srdb.dat$scientificname),]
@@ -366,16 +366,16 @@ par(mfrow=c(3,1), mar=c(0,0,0,0))
 plot(fishbase.phylo, type="r", edge.width=fishbase.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.6, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5))
 #legend("topleft", legend="FishBase", bty="n", cex=1.2)
 #legend("topleft", legend="a)", bty="n", cex=1.2)
-legend("topleft", legend="a", bty="n", cex=1.2)
+legend("topleft", legend="(a)", bty="n", cex=1.2)
 
 ## SAUP
 plot(saup.phylo, type="r", edge.width=saup.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(saup.phylo$sqrt.edge.length>0,1,0))
 #legend("topleft", legend="Sea Around Us", bty="n", cex=1.2)
 #legend("topleft", legend="b)", bty="n", cex=1.2)
-legend("topleft", legend="b", bty="n", cex=1.2)
+legend("topleft", legend="(b)", bty="n", cex=1.2)
 ## srdb
 plot(srdb.phylo, type="r", edge.width=srdb.phylo$sqrt.edge.length, no.margin = TRUE, cex=0.65, root.edge=TRUE, show.tip.label=TRUE, use.edge.length = FALSE, edge.col=grey(0.5), edge.lty=ifelse(srdb.phylo$sqrt.edge.length>0,1,0))
 #legend("topleft", legend="RAM Legacy", bty="n", cex=1.2)
 #legend("topleft", legend="c)", bty="n", cex=1.2)
-legend("topleft", legend="c", bty="n", cex=1.2)
+legend("topleft", legend="(c)", bty="n", cex=1.2)
 dev.off()

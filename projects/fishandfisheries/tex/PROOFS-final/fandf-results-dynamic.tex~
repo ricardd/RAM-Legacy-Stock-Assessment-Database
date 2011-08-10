@@ -1,0 +1,188 @@
+\section*{Results}
+\subsection*{Summary}
+\noindent
+Total number of proper stocks assessments: REF:SQL:TOTNUMASSESSMENT, from REF:SQL:TOTNUMASSESSFISH marine fish populations and REF:SQL:TOTNUMASSESSINVERT
+invertebrate populations.
+
+\subsection*{Taxonomy}
+\noindent
+
+Number of species in FishBase: REF:SQL:NUMSPPFISHBASE (from REF:SQL:NUMORDERSFISHBASE orders) \\
+Number of species in SAUP: REF:SQL:SAUPNUMSPP (from REF:SQL:SAUPNUMORDERS orders)\\
+Number of species in RAM Legacy: REF:SQL:TOTNUMASSESSBYSPECIES (from REF:SQL:TOTNUMASSESSBYFAMILY families and REF:SQL:TOTNUMASSESSBYORDERS orders) \\
+RAM Legacy contains REF:SQL:SRDBPERCENTSPPSAUP\% of SAUP and REF:SQL:SRDBPERCENTSPPFISHBASE\% of FishBase species\\
+Top 5 taxonomic orders in RAM Legacy: REF:SQL:NUMASSESSORDERS:1, REF:SQL:NUMASSESSORDERS:2, REF:SQL:NUMASSESSORDERS:3, REF:SQL:NUMASSESSORDERS:4, REF:SQL:NUMASSESSORDERS:5 \\
+
+\subsection*{Timespan}
+\noindent
+Number of assessments with catch timeseries: REF:SQL:NUMCATCHSERIES.\\
+Number of assessments with recruitment timeseries: REF:SQL:NUMRSERIES.\\
+Number of assessments with spawning stock biomass timeseries: REF:SQL:NUMSSBSERIES.\\
+
+Together these comprise time series of
+catch/landings for REF:SQL:NUMCATCHSERIES stocks (REF:SQL:PERCENTCATCHSERIES\%),
+SSB estimates for REF:SQL:NUMSSBSERIES stocks (REF:SQL:PERCENTSSBSERIES\%), and recruitment estimates for
+REF:SQL:NUMRSERIES stocks (REF:SQL:PERCENTRSERIES\%).
+
+The median lengths of catch/landings, SSB, and recruitment timeseries
+were REF:SQL:MEDCATCHLEN, REF:SQL:MEDSSBLEN, and REF:SQL:MEDRLEN
+years, respectively.  The time period covered by 90\% of assessments
+is: catch/landings (REF:SQL:CATCHTIMESPAN90), SSB
+(REF:SQL:SSBTIMESPAN90), recruitment (REF:SQL:RTIMESPAN90), while that
+covered by 50\% of assessments is: catch/landings
+(REF:SQL:CATCHTIMESPAN50), SSB (REF:SQL:SSBTIMESPAN50), recruitment
+(REF:SQL:RTIMESPAN50)
+ 
+\subsection*{Assessment methodologies and reference points}
+\noindent
+The three most common assessment methods were
+REF:SQL:NUMASSESSMETHOD:1, REF:SQL:NUMASSESSMETHOD:2 and
+REF:SQL:NUMASSESSMETHOD:3. Regionally, Virtual Population Analysis
+(VPA) is still the most common assessment model for European stocks
+(REF:SQL:PERCENTVPAICES\% of REF:SQL:TOTNUMASSESSICES assessments),
+Canada (REF:SQL:PERCENTVPADFO\% of REF:SQL:TOTNUMASSESSDFO
+assessments) and Argentina (REF:SQL:PERCENTVPACFP\% of
+REF:SQL:TOTNUMASSESSCFP assessments), whereas statistical catch-at-age
+and -length models are more common for the United States
+(REF:SQL:PERCENTSCALNMFS\% of REF:SQL:TOTNUMASSESSNMFS assessments),
+Australia (REF:SQL:PERCENTSCALAFMA\% of REF:SQL:TOTNUMASSESSAFMA
+assessments) and New Zealand (REF:SQL:PERCENTSCALMFISH\% of
+REF:SQL:TOTNUMASSESSMFish assessments).
+
+Biomass- or exploitation-based reference points were available for
+REF:SQL:NUMASSESSBIOREF (REF:SQL:PERCENTASSESSBIOREF\%) and
+REF:SQL:NUMASSESSEXPLOITREF (REF:SQL:PERCENTASSESSEXPLOITREF\%)
+assessments, respectively.
+
+\subsection*{Stock status}
+\noindent
+
+MSY-related reference points were avaialble for
+REF:SQL:NUMASSESSBIOASSESSREF stocks
+(REF:SQL:NUMASSESSFRIEDPEPPERforinverts invertebrates) and estimated
+for REF:SQL:NUMASSESSBIOSCHAEFERREF additional stocks
+(REF:SQL:NUMASSESSFRIEDSALTforinverts invertebrates), for a total of
+REF:SQL:NUMASSESSFRIEDEGG stocks.
+
+Of the
+REF:SQL:NUMASSESSFRIEDEGG stocks presented in
+the fried egg, REF:SQL:NUMASSESSBIOASSESSREF and
+REF:SQL:NUMASSESSBIOSCHAEFERREF of the biomass reference points and
+REF:SQL:NUMASSESSEXPLOITASSESSREF and
+REF:SQL:NUMASSESSEXPLOITSCHAEFERREF of the exploitation reference
+points come from assessments and from surplus production model fits,
+respectively.
+
+To identify potential biases arising from using BRPs
+derived from surplus production models we computed a contingency table
+of status classification for stocks that have both assessment- and
+Schaefer-derived BRPs (Table S2). Surplus production models correctly
+classified ratios of current biomass to BRPs in
+REF:SQL:PERCENTCORRECTBCLASS\% of cases (for REF:SQL:NUMCORRECTBCLASS
+of REF:SQL:NUMBCLASS assessments) and REF:SQL:PERCENTCORRECTUCLASS\%
+of cases for exploitation BRPs (for REF:SQL:NUMCORRECTUCLASS of
+REF:SQL:NUMUCLASS assessments).
+
+Overall, REF:SQL:PERCENTASSESSMENTSBELOWBMSY\% of stocks are estimated
+to be below their biomass-related MSY BRP, that is $B_{curr}<B_{msy}$,
+and REF:SQL:PERCENTASSESSMENTSABOVEFMSY\% are estimated to be above
+their exploitation-related MSY BRP, $U_{curr}>U_{msy}$
+(n=REF:SQL:NUMASSESSFRIEDEGG stocks total.
+Of the stocks for which biomass is currently estimated to be below
+$B_{msy}$, REF:SQL:PERCENTASSESSBELOWBMSYANDBELOWFMSY\% have had their
+exploitation rate reduced below $U_{msy}$, suggesting potential for
+recovery. The remaining
+REF:SQL:PERCENTASSESSBELOWBMSYANDABOVEFMSY\% of these stocks however,
+still have excessive exploitation rates. On a positive note,
+REF:SQL:PERCENTASSESSMENTSABOVEBMSY\% of all stocks are estimated to
+be above $B_{msy}$, and REF:SQL:PERCENTASSESSABOVEBMSYANDBELOWFMSY\%
+of the stocks above $B_{msy}$ also have $U_{current}$ below $U_{msy}$.
+
+
+\subsection*{Global fisheries}
+
+\subsection*{Management bodies and geography}
+\noindent
+Number of assessments from NMFS: REF:SQL:TOTNUMASSESSNMFS (REF:SQL:NUMASSESSFRIEDTOTALNMFS with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYNMFS (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYNMFS \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYNMFS (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYNMFS \%) are below $U_{msy}$, ) \\
+
+Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES (REF:SQL:NUMASSESSFRIEDTOTALICES with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYICES (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYICES (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYICES \%) are below $U_{msy}$, ) \\
+
+Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES (REF:SQL:NUMASSESSFRIEDforICESBlim with Blim and Flim reference points, REF:SQL:belowBMSYANDABOVEUMSYforICESBlim are below $B_{lim}$ and above $F_{lim}$, REF:SQL:aboveBMSYANDABOVEUMSYforICESBlim are above $B_{lim}$ and above $F_{lim}$, REF:SQL:aboveBMSYANDBELOWUMSYforICESBlim are above $B_{lim}$ and below $F_{lim}$ and REF:SQL:belowBMSYANDBELOWUMSYforICESBlim are below $B_{msy}$ and below $F_{lim}$.
+
+Number of assessments from MFish: REF:SQL:TOTNUMASSESSMFish (REF:SQL:NUMASSESSFRIEDTOTALMFish with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYMFish (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYMFish \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYMFish (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYMFish \%) are below $U_{msy}$, ) \\
+Number of assessments from DFO: REF:SQL:TOTNUMASSESSDFO (REF:SQL:NUMASSESSFRIEDTOTALDFO with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYDFO (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDFO \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYDFO (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYDFO \%) are below $U_{msy}$, ) \\
+Number of assessments from AFMA: REF:SQL:TOTNUMASSESSAFMA (REF:SQL:NUMASSESSFRIEDTOTALAFMA with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYAFMA (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYAFMA \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYAFMA (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYAFMA \%) are below $U_{msy}$, ) \\
+Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM (REF:SQL:NUMASSESSFRIEDTOTALDETMCM with reference points, REF:SQL:NUMASSESSFRIEDBELOWBMSYDETMCM (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDETMCM \%) are below $B_{msy}$, REF:SQL:NUMASSESSFRIEDBELOWFMSYDETMCM (REF:SQL:PERCENTASSESSFRIEDBELOWFMSYDETMCM \%) are below $U_{msy}$, ) \\
+
+The status of exploited marine stocks, as estimated from biomass- and
+exploitaion-BRPs, varied widely depending on the management body. Most European stocks (managed by
+ICES) have biomasses less than $B_{msy}$
+(REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%), and over half of these
+stocks (REF:SQL:PERCENTASSESSFRIEDBELBMSYANDABOVEFMSYICES\%) still
+have exploitation rates exceeding $U_{msy}$. Canadian stocks (managed
+by DFO) also had low biomass (REF:SQL:PERCENTASSESSFRIEDBELOWBMSYDFO\%
+$< B_{msy}$), but all but one of these has had its exploitation rate
+reduced below $U_{msy}$. In contrast, about half
+(REF:SQL:PERCENTASSESSFRIEDABOVEBMSYNMFS\%) of U.S. stocks (managed by
+NMFS) are estimated to still be above $B_{msy}$, and of the
+REF:SQL:NUMASSESSFRIEDBELOWBMSYNMFS stocks that are below $B_{msy}$
+REF:SQL:PERCENTASSESSFRIEDBELBMSYANDBELOWFMSYNMFS\% have exploitation
+rates below $U_{msy}$. In the New
+Zealand and Australian waters, stocks managed by MFish and AFMA are
+above $B_{msy}$ in REF:SQL:PERCENTASSESSFRIEDABOVEBMSYMFish\% and
+REF:SQL:PERCENTASSESSFRIEDABOVEBMSYAFMA\% of cases, respectively. For
+the stocks grouped as ``Atlantic'' in the fried eggs we
+found that REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
+REF:SQL:NUMASSESSFRIEDTOTALICCAT ICCAT stocks and
+REF:SQL:NUMASSESSFRIEDBELOWBMSYICCAT of the
+REF:SQL:NUMASSESSFRIEDTOTALICCAT of NAFO stocks were below $B_{msy}$ .
+
+%Number of assessments from ICES: REF:SQL:TOTNUMASSESSICES.\\
+%Number of assessments from MFish: REF:SQL:TOTNUMASSESSMFish.\\
+%Number of assessments from DFO: REF:SQL:TOTNUMASSESSDFO.\\
+%Number of assessments from AFMA: REF:SQL:TOTNUMASSESSAFMA.\\
+%Number of assessments from DETMCM: REF:SQL:TOTNUMASSESSDETMCM.\\
+
+
+Assessments were available for REF:SQL:TOTNUMLMESPRIMARY LMEs, with the greatest number of
+assessed stocks coming from REF:SQL:NUMASSESSLME:1,
+REF:SQL:NUMASSESSLME:2, REF:SQL:NUMASSESSLME:3,
+REF:SQL:NUMASSESSLME:4, REF:SQL:NUMASSESSLME:5, REF:SQL:NUMASSESSLME:6
+and REF:SQL:NUMASSESSLME:7.
+
+The proportion of stocks below $B_{msy}$ and below $U_{mys}$ varies considerably by management body. 
+
+ICES has REF:SQL:NUMASSESSFRIEDTOTALICES assessments in Table 4,
+REF:SQL:NUMASSESSFRIEDBELOWBMSYICES
+(REF:SQL:PERCENTASSESSFRIEDBELOWBMSYICES\%) of which are below
+$B_{msy}$ and REF:SQL:NUMASSESSFRIEDBELOWFMSYICES are below
+$U_{msy}$.
+
+\subsection*{Stock status by taxonomic orders}
+
+Of the REF:SQL:NUMASSESSFRIEDforGadiformes stocks for Gadiformes, REF:SQL:belowBMSYANDABOVEUMSYforGadiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforGadiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforGadiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforGadiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforPerciformes stocks for Perciformes, REF:SQL:belowBMSYANDABOVEUMSYforPerciformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforPerciformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforPerciformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforPerciformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforPleuronectiformes stocks for Pleuronectiformes, REF:SQL:belowBMSYANDABOVEUMSYforPleuronectiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforPleuronectiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforPleuronectiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforPleuronectiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforScorpaeniformes stocks for Scorpaeniformes, REF:SQL:belowBMSYANDABOVEUMSYforScorpaeniformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforScorpaeniformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforScorpaeniformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforScorpaeniformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforClupeiformes stocks for Clupeiformes, REF:SQL:belowBMSYANDABOVEUMSYforClupeiformes are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforClupeiformes are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforClupeiformes are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforClupeiformes are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforDecapoda stocks for Decapoda, REF:SQL:belowBMSYANDABOVEUMSYforDecapoda are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforDecapoda are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforDecapoda are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforDecapoda are below $B_{msy}$ and below $U_{msy}$.
+
+
+\subsection*{Stock status by Mean Trophic Level}
+Of the REF:SQL:NUMASSESSFRIEDfor2MTL3 stocks of MTL between 2 and 3 , REF:SQL:belowBMSYANDABOVEUMSYfor2MTL3 are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYfor2MTL3 are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYfor2MTL3 are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYfor2MTL3 are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDfor3MTL4 stocks of MTL between 3 and 4 , REF:SQL:belowBMSYANDABOVEUMSYfor3MTL4 are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYfor3MTL4 are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYfor3MTL4 are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYfor3MTL4 are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforMTL4plus stocks of MTL above 4 , REF:SQL:belowBMSYANDABOVEUMSYforMTL4plus are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforMTL4plus are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforMTL4plus are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforMTL4plus are below $B_{msy}$ and below $U_{msy}$.
+
+\subsection*{Stock status by Functional Grouping}
+Of the REF:SQL:NUMASSESSFRIEDfordem demersal stocks, REF:SQL:belowBMSYANDABOVEUMSYfordem are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYfordem are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYfordem are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYfordem are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforpel pelagic stocks, REF:SQL:belowBMSYANDABOVEUMSYforpel are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforpel are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforpel are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforpel are below $B_{msy}$ and below $U_{msy}$.
+
+Of the REF:SQL:NUMASSESSFRIEDforinverts invertebrates stocks, REF:SQL:belowBMSYANDABOVEUMSYforinverts are below $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDABOVEUMSYforinverts are above $B_{msy}$ and above $U_{msy}$, REF:SQL:aboveBMSYANDBELOWUMSYforinverts are above $B_{msy}$ and below $U_{msy}$ and REF:SQL:belowBMSYANDBELOWUMSYforinverts are below $B_{msy}$ and below $U_{msy}$.

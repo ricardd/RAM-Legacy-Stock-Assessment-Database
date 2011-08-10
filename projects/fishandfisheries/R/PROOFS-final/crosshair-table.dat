@@ -1,332 +1,332 @@
-"mgmt" "country" "stock" "scientificname" "ordername" "TL" "assessmethod" "timespan" "currentyear" "Bratio" "Uratio"
-"17" "AFMA" "Australia" "Bight redfish Southeast Australia" "\textit{Centroberyx gerrardi}" "Beryciformes" NA "Integrated Analysis" "1958-2007" NA NA NA
-"46" "AFMA" "Australia" "Patagonian toothfish Macquarie Island" "\textit{Dissostichus eleginoides}" "Perciformes" 3.96 "Integrated Analysis" "1975-2010" 2010 "2.3" "0.19"
-"87" "AFMA" "Australia" "New Zealand ling Western half of Southeast Australia" "\textit{Genypterus blacodes}" "Ophidiiformes" NA "Integrated Analysis" "1968-2007" NA NA NA
-"89" "AFMA" "Australia" "New Zealand ling Eastern half of Southeast Australia" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1968-2007" 2007 "0.59" "2.2 *"
-"111" "AFMA" "Australia" "Orange roughy Southeast Australia" "\textit{Hoplostethus atlanticus}" "Beryciformes" 3.98 "Integrated Analysis" "1978-2007" 2007 "0.52" "0.29 *"
-"112" "AFMA" "Australia" "Orange roughy Cascade Plateau" "\textit{Hoplostethus atlanticus}" "Beryciformes" NA "Integrated Analysis" "1987-2006" NA NA NA
-"190" "AFMA" "Australia" "Jackass morwong Southeast Australia" "\textit{Nemadactylus macropterus}" "Perciformes" 3.41 "Integrated Analysis" "1913-2007" 2007 "0.31" "1.8 *"
-"191" "AFMA" "Australia" "Tiger flathead Southeast Australia" "\textit{Neoplatycephalus richardsoni}" "Scorpaeniformes" 3.87 "Integrated Analysis" "1913-2006" 2006 "1.99" "1.03 *"
-"203" "AFMA" "Australia" "Northern Australia brown tiger shrimp" "\textit{Penaeus esculentus}" "Decapoda" NA "Biomass dynamics model" "1970-2006" NA NA NA
-"204" "AFMA" "Australia" "Northern Australia grooved Tiger Prawn" "\textit{Penaeus esculentus}" "Decapoda" NA "Biomass dynamics model" "1970-2006" NA NA NA
-"210" "AFMA" "Australia" "Deepwater flathead Southeast Australia" "\textit{Platycephalus conatus}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1978-2007" 2007 "1.51" "0.61 *"
-"226" "AFMA" "Australia" "Tasmanian giant crab Tasmania" "\textit{Pseudocarcinus gigas}" "Decapoda" NA "Unknown" "1990-2007" NA NA NA
-"240" "AFMA" "Australia" "common gemfish Southeast Australia" "\textit{Rexea solandri}" "Perciformes" 4.25 "Integrated Analysis" "1966-2007" 2007 "0.25" "0.39 *"
-"290" "AFMA" "Australia" "Blue Warehou Western half of Southeast Australia" "\textit{Seriolella brama}" "Perciformes" 3.3 "Integrated Analysis" "1984-2006" 2006 "0.41" "2.04 *"
-"291" "AFMA" "Australia" "Blue Warehou Eastern half of Southeast Australia" "\textit{Seriolella brama}" "Perciformes" 3.3 "Integrated Analysis" "1984-2006" 2006 "0.49" "0.84 *"
-"292" "AFMA" "Australia" "Silverfish Southeast Australia" "\textit{Seriolella punctata}" "Perciformes" 3.4 "Integrated Analysis" "1978-2006" 2006 "1.03" "0.79 *"
-"293" "AFMA" "Australia" "School whiting Southeast Australia" "\textit{Sillago flindersi}" "Perciformes" 3.34 "Integrated Analysis" "1945-2007" 2007 "0.66" "0.82 *"
-"48" "CCAMLR" "Multinational" "Antarctic toothfish Ross Sea" "\textit{Dissostichus mawsoni}" "Perciformes" NA "Integrated Analysis" "1995-2007" NA NA NA
-"318" "CCSBT" "Multinational" "Southern bluefin tuna Southern Oceans" "\textit{Thunnus maccoyii}" "Perciformes" NA "Integrated Analysis" "1931-2009" NA NA NA
-"49" "CFP" "Argentina" "Argentine anchoita Southern Argentina" "\textit{Engraulis anchoita}" "Clupeiformes" 2.51 "Biomass dynamics model" "1992-2007" 2007 "3.13" "0.04"
-"50" "CFP" "Argentina" "Argentine anchoita Northern Argentina" "\textit{Engraulis anchoita}" "Clupeiformes" 2.51 "VPA" "1989-2007" 2007 "1.37" "0.17"
-"150" "CFP" "Argentina" "Patagonian grenadier Southern Argentina" "\textit{Macruronus magellanicus}" "Gadiformes" 3.93 "VPA" "1983-2006" 2006 "1.82" "0.6"
-"175" "CFP" "Argentina" "Argentine hake Southern Argentina" "\textit{Merluccius hubbsi}" "Gadiformes" 4.23 "VPA" "1985-2008" 2008 "0.34" "1.49"
-"176" "CFP" "Argentina" "Argentine hake Northern Argentina" "\textit{Merluccius hubbsi}" "Gadiformes" 4.23 "VPA" "1985-2007" 2007 "0.16" "1.26"
-"181" "CFP" "Argentina" " Southern blue whiting Southern Argentina" "\textit{Micromesistius australis}" "Gadiformes" NA "VPA" "1985-2007" NA NA NA
-"47" "DETMCM" "South Africa" "Patagonian toothfish South Africa Subantarctic Prince Edward Islands" "\textit{Dissostichus eleginoides}" "Perciformes" NA "Biomass dynamics model" "1960-2008" NA NA NA
-"52" "DETMCM" "South Africa" "Anchovy South Africa" "\textit{Engraulis encrasicolus}" "Clupeiformes" 3.11 "Statistical catch at age model" "1984-2006" 2006 "0.97 *" "0.36 *"
-"90" "DETMCM" "South Africa" "Kingklip South Africa" "\textit{Genypterus capensis}" "Ophidiiformes" 4.44 "Biomass dynamics model" "1932-2008" 2008 "1.2" "0.55 *"
-"97" "DETMCM" "South Africa" "South African abalone South Africa" "\textit{Haliotis midae}" "Archaeogastropoda" NA "Statistical catch at age model" "1951-2008" NA NA NA
-"122" "DETMCM" "South Africa" "South African west coast rock lobster South Africa Area 7" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
-"123" "DETMCM" "South Africa" "South African west coast rock lobster South Africa Areas 3-4" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
-"124" "DETMCM" "South Africa" "South African west coast rock lobster South Africa Areas 5-6" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
-"125" "DETMCM" "South Africa" "South African west coast rock lobster South Africa Area 8" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
-"126" "DETMCM" "South Africa" "South African west coast rock lobster South Africa Areas 1-2" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
-"174" "DETMCM" "South Africa" "Shallow-water cape hake South Africa" "\textit{Merluccius capensis}" "Gadiformes" 4.45 "Biomass dynamics model" "1917-2008" 2008 "2.3" "0.4 *"
-"179" "DETMCM" "South Africa" "Deep-water cape hake South Africa" "\textit{Merluccius paradoxus}" "Gadiformes" NA "Biomass dynamics model" "1917-2008" NA NA NA
-"196" "DETMCM" "South Africa" "Southern spiny lobster South Africa South coast" "\textit{Palinurus gilchristi}" "Decapoda" 2.6 "Statistical catch at age model" "1973-2008" 2008 "0.51 *" "1.5 *"
-"246" "DETMCM" "South Africa" "Sardine South Africa" "\textit{Sardinops sagax}" "Clupeiformes" 2.43 "Statistical catch at age model" "1984-2006" 2006 "0.75 *" "0.55 *"
-"325" "DETMCM" "South Africa" "Cape horse mackerel South Africa South coast" "\textit{Trachurus capensis}" "Perciformes" 3.47 "Biomass dynamics model" "1950-2007" 2007 "1.47 *" "0.76 *"
-"4" "DFO" "Canada" "Sablefish Pacific Coast of Canada" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" 3.83 "Integrated Analysis" "1913-2004" 2004 "0.47" "3.86"
-"11" "DFO" "Canada" "Cusk NAFO 4X" "\textit{Brosme brosme}" "Gadiformes" NA "Biomass dynamics model" "1970-2007" NA NA NA
-"21" "DFO" "Canada" "Herring NAFO 4T spring spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1974-2007" NA NA NA
-"29" "DFO" "Canada" "Herring NAFO 4R spring spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1963-2004" NA NA NA
-"32" "DFO" "Canada" "Herring NAFO 4T fall spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1974-2007" NA NA NA
-"33" "DFO" "Canada" "Herring NAFO 4R fall spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1971-2003" NA NA NA
-"36" "DFO" "Canada" "Herring Scotian Shelf and Bay of Fundy" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1964-2006" NA NA NA
-"37" "DFO" "Canada" "Pacific herring Prince Rupert District" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.16 *" "0.32 *"
-"40" "DFO" "Canada" "Pacific herring Central Coast" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.3 *" "0.11 *"
-"41" "DFO" "Canada" "Pacific herring Straight of Georgia" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.91 *" "0.4 *"
-"42" "DFO" "Canada" "Pacific herring Queen Charlotte Islands" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.2 *" "0 *"
-"43" "DFO" "Canada" "Pacific herring West Coast of Vancouver Island" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.03 *" "0 *"
-"59" "DFO" "Canada" "Pacific cod West Coast of Vancouver Island" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Biomass dynamics model" "1956-2002" 2001 "0.28 *" "0.61 *"
-"61" "DFO" "Canada" "Pacific cod Hecate Strait" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Biomass dynamics model" "1956-2005" 2004 "0.37 *" "0.25 *"
-"63" "DFO" "Canada" "Atlantic cod NAFO 4VsW" "\textit{Gadus morhua}" "Gadiformes" NA "Unknown" "1958-2002" NA NA NA
-"66" "DFO" "Canada" "Atlantic cod NAFO 4TVn" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1965-2009" NA NA NA
-"67" "DFO" "Canada" "Atlantic cod NAFO 3Ps" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1959-2004" 2004 "0.49 *" "0.41 *"
-"71" "DFO" "Canada" "Atlantic cod NAFO 5Zjm" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1978-2003" 2002 "0.34 *" "0.45 *"
-"77" "DFO" "Canada" "Atlantic cod NAFO 2J3KL" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1850-2005" NA NA NA
-"78" "DFO" "Canada" "Atlantic cod NAFO 2J3KL inshore" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1959-2006" NA NA NA
-"81" "DFO" "Canada" "Atlantic cod NAFO 3Pn4RS" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1964-2007" 2006 "0.09 *" "0.79 *"
-"131" "DFO" "Canada" "Rock sole Hecate Strait" "\textit{Lepidopsetta bilineata}" "Pleuronectiformes" 3.21 "Statistical catch at age model" "1945-2001" 2001 "1.03 *" "0.45 *"
-"156" "DFO" "Canada" "Haddock NAFO-4X5Y" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1960-2003" NA NA NA
-"158" "DFO" "Canada" "Haddock NAFO-5Zejm" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1968-2003" NA NA NA
-"201" "DFO" "Canada" "English sole Hecate Strait" "\textit{Parophrys vetulus}" "Pleuronectiformes" 3.45 "Statistical catch at age model" "1944-2001" 2001 "1.24 *" "0.37 *"
-"220" "DFO" "Canada" "Pollock NAFO-4X5YZ" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1980-2006" 2006 "0.56 *" "0.31 *"
-"317" "IATTC" "Multinational" "Yellowfin tuna Eastern Pacific" "\textit{Thunnus albacares}" "Perciformes" NA "Statistical catch at age model" "1975-2007" NA NA NA
-"322" "IATTC" "Multinational" "Bigeye tuna Eastern Pacific" "\textit{Thunnus obesus}" "Perciformes" NA "Integrated Analysis" "1975-2007" NA NA NA
-"129" "ICCAT" "Multinational" "Skipjack tuna Western Atlantic" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Biomass dynamics model" "1952-2006" 2006 "1.72 *" "0.32"
-"130" "ICCAT" "Multinational" "Skipjack tuna Eastern Atlantic" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Biomass dynamics model" "1950-2006" 2006 "1.71 *" "0.27"
-"314" "ICCAT" "Multinational" "Albacore tuna North Atlantic" "\textit{Thunnus alalunga}" "Perciformes" 4.31 "VPA" "1929-2005" 2005 "0.81" "1.49"
-"316" "ICCAT" "Multinational" "Yellowfin tuna Atlantic" "\textit{Thunnus albacares}" "Perciformes" 4.34 "VPA" "1970-2006" 2006 "1.07" "0.81"
-"320" "ICCAT" "Multinational" "Bigeye tuna Atlantic" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Biomass dynamics model" "1950-2005" 2005 "0.9 *" "0.87"
-"323" "ICCAT" "Multinational" "Bluefin tuna Eastern Atlantic" "\textit{Thunnus thynnus}" "Perciformes" 4.43 "VPA" "1969-2007" 2007 "0.34" "9.38"
-"324" "ICCAT" "Multinational" "Bluefin tuna Western Atlantic" "\textit{Thunnus thynnus}" "Perciformes" 4.43 "VPA" "1969-2007" 2007 "0.57" "1.33"
-"329" "ICCAT" "Multinational" "Swordfish South Atlantic" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1970-2005" 2005 "1.54" "0.49"
-"330" "ICCAT" "Multinational" "Swordfish Mediterranean Sea" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1968-2006" 2006 "0.94" "1.27"
-"331" "ICCAT" "Multinational" "Swordfish North Atlantic" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1978-2007" 2005 "0.99" "0.88"
-"2" "ICES" "Multinational" "Sandeel North Sea" "\textit{Ammodytes marinus}" "Perciformes" NA "VPA" "1983-2007" 2007 "0.92 *" "0.24 *"
-"22" "ICES" "Multinational" "Herring Northern Irish Sea" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2006" 2006 "0.72 *" "0.34 *"
-"23" "ICES" "Multinational" "Herring ICES VIa" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1957-2006" 2006 "0.18 *" "1.59 *"
-"24" "ICES" "Multinational" "Herring ICES 30" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1972-2007" 2006 "1.19 *" "1.1 *"
-"25" "ICES" "Multinational" "Herring ICES 25-32" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1973-2006" 2006 "0.69 *" "0.79 *"
-"26" "ICES" "Multinational" "Herring ICES 22-24-IIIa" "\textit{Clupea harengus}" "Clupeiformes" NA "Statistical catch at age model" "1991-2006" NA NA NA
-"27" "ICES" "Multinational" "Herring ICES 31" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1979-2006" 2006 "0.29 *" "1.6 *"
-"28" "ICES" "Multinational" "Herring Iceland (Summer spawners)" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1983-2007" 2006 "1 *" "0.79 *"
-"30" "ICES" "Multinational" "Herring North Sea" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2007" 2006 "0.65 *" "1.32 *"
-"34" "ICES" "Multinational" "Herring ICES 28" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1976-2007" 2006 "1.21 *" "0.87 *"
-"35" "ICES" "Multinational" "Herring ICES VIa-VIIb-VIIc" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1969-2000" 2000 "0.5 *" "1.04 *"
-"51" "ICES" "Multinational" "Anchovy ICES VIII" "\textit{Engraulis encrasicolus}" "Clupeiformes" NA "Biomass dynamics model" "1986-2007" NA NA NA
-"62" "ICES" "Multinational" "Atlantic cod Baltic Areas 25-32" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1964-2007" 2006 "0.16 *" "1.46 *"
-"65" "ICES" "Multinational" "Atlantic cod Northeast Arctic" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1943-2006" 2006 "0.56 *" "1.42 *"
-"69" "ICES" "Multinational" "Atlantic cod coastal Norway" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1982-2006" 2006 "0.27 *" "2.17 *"
-"70" "ICES" "Multinational" "Atlantic cod West of Scotland" "\textit{Gadus morhua}" "Gadiformes" 4.42 "Statistical catch at age model" "1977-2006" 2006 "0.12 *" "0.42 *"
-"72" "ICES" "Multinational" "Atlantic cod Kattegat" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1970-2006" 2006 "0.19 *" "0.31 *"
-"73" "ICES" "Multinational" "Atlantic cod Irish Sea" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1968-2006" 2006 "0.15 *" "0.56 *"
-"74" "ICES" "Multinational" "Atlantic cod Baltic Areas 22 and 24" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1969-2007" 2006 "0.36 *" "1.43 *"
-"76" "ICES" "Multinational" "Atlantic cod North Sea" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1962-2007" 2006 "0.19 *" "0.8 *"
-"80" "ICES" "Multinational" "Atlantic cod Iceland" "\textit{Gadus morhua}" "Gadiformes" 4.42 "Statistical catch at age model" "1952-2006" 2006 "0.46 *" "1.17 *"
-"82" "ICES" "Multinational" "Atlantic cod Faroe Plateau" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1959-2006" 2006 "0.26 *" "1.52 *"
-"133" "ICES" "Multinational" "Fourspotted megrim ICES VIIIc-IXa" "\textit{Lepidorhombus boscii}" "Pleuronectiformes" NA "VPA" "1986-2006" 2006 "0.7 *" "1.01 *"
-"134" "ICES" "Multinational" "Megrim ICES VIIIc-IXa" "\textit{Lepidorhombus whiffiagonis}" "Pleuronectiformes" 4.24 "VPA" "1985-2007" 2006 "0.43 *" "1.07 *"
-"153" "ICES" "Multinational" "Capelin Barents Sea" "\textit{Mallotus villosus}" "Osmeriformes" 3.15 "Unknown" "1965-2007" 2006 "0.17 *" "0 *"
-"154" "ICES" "Multinational" "Capelin Iceland" "\textit{Mallotus villosus}" "Osmeriformes" 3.15 "Survey index" "1977-2007" 2006 "0.49 *" "0.85 *"
-"155" "ICES" "Multinational" "Haddock ICES VIIb-k" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1993-2006" NA NA NA
-"159" "ICES" "Multinational" "Haddock Northeast Arctic" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1947-2006" 2006 "1.1 *" "1.06 *"
-"160" "ICES" "Multinational" "Haddock Faroe Plateau" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1955-2006" 2006 "0.85 *" "1.07 *"
-"161" "ICES" "Multinational" "Haddock Irish Sea" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "Survey index" "1972-2006" NA NA NA
-"162" "ICES" "Multinational" "Haddock West of Scotland" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "Statistical catch at age model" "1977-2006" 2006 "0.58 *" "0.73 *"
-"164" "ICES" "Multinational" "Haddock ICES IIIa and North Sea" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1963-2006" 2006 "0.62 *" "0.25 *"
-"165" "ICES" "Multinational" "Haddock Iceland" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1977-2007" 2007 "0.98 *" "1.23 *"
-"166" "ICES" "Multinational" "Haddock Rockall Bank" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1990-2007" NA NA NA
-"167" "ICES" "Multinational" "Whiting ICES VIa" "\textit{Merlangius merlangus}" "Gadiformes" NA "Survey index" "1984-2007" NA NA NA
-"168" "ICES" "Multinational" "Whiting ICES IIIa, VIId and North Sea" "\textit{Merlangius merlangus}" "Gadiformes" 4.29 "VPA" "1979-2006" 2006 "0.33 *" "1.04 *"
-"169" "ICES" "Multinational" "Whiting ICES VIIe-k" "\textit{Merlangius merlangus}" "Gadiformes" 4.29 "VPA" "1982-2007" 2006 "0.44 *" "1.25 *"
-"177" "ICES" "Multinational" "Hake Northeast Atlantic North" "\textit{Merluccius merluccius}" "Gadiformes" 4.42 "VPA" "1977-2007" 2006 "1.04 *" "0.74 *"
-"178" "ICES" "Multinational" "Hake Northeast Atlantic South" "\textit{Merluccius merluccius}" "Gadiformes" NA "VPA" "1982-2007" NA NA NA
-"183" "ICES" "Multinational" "Whiting Northeast Atlantic" "\textit{Micromesistius poutassou}" "Gadiformes" 4.01 "Integrated Analysis" "1980-2007" 2006 "0.67 *" "1.66 *"
-"212" "ICES" "Multinational" "European Plaice North Sea" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1956-2006" NA NA NA
-"213" "ICES" "Multinational" "European Plaice ICES VIId" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1979-2006" NA NA NA
-"214" "ICES" "Multinational" "European Plaice ICES IIIa" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1976-2006" NA NA NA
-"215" "ICES" "Multinational" "European Plaice Irish Sea" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "Statistical catch at age model" "1962-2006" 2006 "1.07 *" "0.23 *"
-"216" "ICES" "Multinational" "European Plaice ICES VIIf-g" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "VPA" "1976-2006" 2006 "0.65 *" "0.41 *"
-"217" "ICES" "Multinational" "European Plaice ICES VIIe" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "VPA" "1975-2006" 2006 "0.51 *" "1.39 *"
-"221" "ICES" "Multinational" "Pollock ICES IIIa, VI and North Sea" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1964-2006" 2006 "0.57 *" "0.97 *"
-"222" "ICES" "Multinational" "Pollock Northeast Arctic" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1957-2006" 2006 "1.7 *" "0.6 *"
-"223" "ICES" "Multinational" "Pollock Faroe Plateau" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1958-2006" 2006 "0.99 *" "1.52 *"
-"236" "ICES" "Multinational" "Greenland halibut Northeast Arctic" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "VPA" "1959-2007" 2006 "0.36 *" "1.2 *"
-"245" "ICES" "Multinational" "European pilchard ICES VIIIc-IXa" "\textit{Sardina pilchardus}" "Clupeiformes" NA "Statistical catch at age model" "1978-2007" NA NA NA
-"253" "ICES" "Multinational" "Mackerel ICES Northeast Atlantic" "\textit{Scomber scombrus}" "Perciformes" 3.18 "Statistical catch at age model" "1972-2007" 2006 "0.98 *" "0.73 *"
-"277" "ICES" "Multinational" "Golden Redfish Northeast Arctic" "\textit{Sebastes norvegicus}" "Scorpaeniformes" NA "Statistical catch at age model" "1986-2006" NA NA NA
-"294" "ICES" "Multinational" "common European sole Irish Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1968-2006" 2006 "0.36 *" "1.16 *"
-"295" "ICES" "Multinational" "common European sole ICES Kattegat and Skagerrak" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1982-2007" 2006 "1.25 *" "0.54 *"
-"296" "ICES" "Multinational" "common European sole ICES VIId" "\textit{Solea vulgaris}" "Pleuronectiformes" NA "VPA" "1981-2006" NA NA NA
-"297" "ICES" "Multinational" "common European sole Western English Channel" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1968-2006" 2006 "0.51 *" "1.74 *"
-"298" "ICES" "Multinational" "common European sole Bay of Biscay" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1982-2006" 2006 "0.76 *" "1 *"
-"299" "ICES" "Multinational" "common European sole Celtic Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1970-2006" 2006 "0.9 *" "0.95 *"
-"300" "ICES" "Multinational" "common European sole North Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" NA "VPA" "1956-2006" NA NA NA
-"303" "ICES" "Multinational" "Sprat ICES Baltic Areas 22-32" "\textit{Sprattus sprattus}" "Clupeiformes" 3 "VPA" "1973-2007" 2006 "1.13 *" "1.27 *"
-"304" "ICES" "Multinational" "Sprat North Sea" "\textit{Sprattus sprattus}" "Clupeiformes" NA "Statistical catch at age model" "1995-2007" NA NA NA
-"327" "ICES" "Multinational" "Norway pout North Sea" "\textit{Trisopterus esmarkii}" "Gadiformes" 3.24 "VPA" "1983-2007" 2006 "0.9 *" "0.33 *"
-"53" "IMARPE" "Peru" "Peruvian anchoveta North-Central Peru" "\textit{Engraulis ringens}" "Clupeiformes" NA "VPA" "1963-2004" NA NA NA
-"319" "IOTC" "Multinational" "Bigeye tuna Indian Ocean" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Biomass dynamics model" "1957-2006" 2004 "1.23" "0.97"
-"105" "IPHC" "Multinational" "Pacific halibut North Pacific" "\textit{Hippoglossus stenolepis}" "Pleuronectiformes" NA "Statistical catch at age model" "1988-2009" NA NA NA
-"44" "Iran" "Iran" "Anchovy kilka Caspian Sea" "\textit{Clupeonella engrauliformis}" "Clupeiformes" NA "Biomass dynamics model" "1991-2007" NA NA NA
-"1" "MFish" "New Zealand" "Black oreo West end of Chatham Rise" "\textit{Allocyttus niger}" "Zeiformes" 3.38 "Integrated Analysis" "1973-2007" 2007 "0.99" "0.82"
-"7" "MFish" "New Zealand" "Australian salmon New Zealand" "\textit{Arripis trutta}" "Perciformes" 4.07 "Integrated Analysis" "1975-2006" 2006 "1.64" "0.33"
-"20" "MFish" "New Zealand" "New Zealand snapper New Zealand Area 8" "\textit{Chrysophrys auratus}" "Perciformes" 3.32 "Integrated Analysis" "1931-2005" 2005 "0.35" "2.5"
-"83" "MFish" "New Zealand" "New Zealand ling New Zealand Area LIN 7WC - WCSI" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2008" 2008 "2.21" "0.13"
-"84" "MFish" "New Zealand" "New Zealand ling New Zealand Area LIN 72" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "2.49" "0.32"
-"85" "MFish" "New Zealand" "New Zealand ling New Zealand Areas LIN 3 and 4" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "3.07" "0.09"
-"86" "MFish" "New Zealand" "New Zealand ling New Zealand Areas LIN 5 and 6" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "3.96" "0.1"
-"88" "MFish" "New Zealand" "New Zealand ling New Zealand Area LIN 6b" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1980-2006" 2006 "2.19" "0.11"
-"93" "MFish" "New Zealand" "New Zealand abalone species New Zealand Area PAU 5D" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2006" 2006 "0.44 *" "2.1 *"
-"94" "MFish" "New Zealand" "New Zealand abalone species New Zealand Area PAU 5A" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2006" 2006 "0.72 *" "2.83 *"
-"95" "MFish" "New Zealand" "New Zealand abalone species New Zealand Area PAU 7" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2008" 2008 "0.87 *" "0.94 *"
-"96" "MFish" "New Zealand" "New Zealand abalone species New Zealand Area PAU 5B" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1963-2007" 2007 "1.02 *" "0.59 *"
-"110" "MFish" "New Zealand" "Orange roughy New Zealand Mid East Coast" "\textit{Hoplostethus atlanticus}" "Beryciformes" 3.98 "Integrated Analysis" "1981-2004" 2004 "1.2" "0.35"
-"115" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA7" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1976-2005" 2005 "0.73 *" "0.43 *"
-"116" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA3" "\textit{Jasus edwardsii}" "Decapoda" NA "Unknown" "1945-2007" NA NA NA
-"117" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA2" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2001" 2001 "0.53 *" "2.12 *"
-"118" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA8" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1976-2005" 2005 "0.69 *" "0.49 *"
-"119" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA5" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2002" 2002 "0.59 *" "1.68 *"
-"120" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA1" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2001" 2001 "1.14 *" "0.88 *"
-"121" "MFish" "New Zealand" "Red rock lobster New Zealand area CRA4" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2005" 2005 "0.67 *" "1.33 *"
-"151" "MFish" "New Zealand" "Hoki Western New Zealand" "\textit{Macruronus novaezelandiae}" "Gadiformes" 4.47 "Integrated Analysis" "1972-2007" 2007 "0.51 *" "0.57 *"
-"152" "MFish" "New Zealand" "Hoki Eastern New Zealand" "\textit{Macruronus novaezelandiae}" "Gadiformes" 4.47 "Integrated Analysis" "1972-2007" 2007 "1.11 *" "0.33 *"
-"170" "MFish" "New Zealand" "Southern hake Chatham Rise" "\textit{Merluccius australis}" "Gadiformes" 4.45 "Integrated Analysis" "1975-2006" 2006 "1.77" "0.12"
-"171" "MFish" "New Zealand" "Southern hake Sub-Antarctic" "\textit{Merluccius australis}" "Gadiformes" 4.45 "Integrated Analysis" "1975-2007" 2007 "2.91" "0.11"
-"182" "MFish" "New Zealand" "Southern blue whiting Campbell Island Rise" "\textit{Micromesistius australis}" "Gadiformes" 3.79 "Integrated Analysis" "1979-2006" 2006 "1.15" "0.92"
-"225" "MFish" "New Zealand" "Trevally New Zealand Areas TRE 7" "\textit{Pseudocaranx dentex}" "Perciformes" 3.24 "Integrated Analysis" "1944-2005" 2005 "1.44" "0.83"
-"227" "MFish" "New Zealand" "Smooth oreo Chatham Rise" "\textit{Pseudocyttus maculatus}" "Zeiformes" 3.61 "Integrated Analysis" "1979-2006" 2006 "2.25" "0.38"
-"228" "MFish" "New Zealand" "Smooth oreo West end of Chatham Rise" "\textit{Pseudocyttus maculatus}" "Zeiformes" 3.61 "Integrated Analysis" "1973-2004" 2004 "1.25" "0.53"
-"241" "MFish" "New Zealand" "common gemfish New Zealand" "\textit{Rexea solandri}" "Perciformes" 4.25 "Integrated Analysis" "1952-2007" 2006 "1.64" "0.43"
-"64" "NAFO" "Multinational" "Atlantic cod NAFO 3NO" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1953-2007" 2006 "0.02 *" "0.27 *"
-"75" "NAFO" "Multinational" "Atlantic cod NAFO 3M" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1959-2008" NA NA NA
-"102" "NAFO" "Multinational" "American Plaice NAFO-3LNO" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" 3.65 "VPA" "1955-2007" 2006 "0.08 *" "0.77 *"
-"103" "NAFO" "Multinational" "American Plaice NAFO-3M" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" NA "VPA" "1960-2007" NA NA NA
-"139" "NAFO" "Multinational" "Yellowtail Flounder NAFO 3LNO" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "Biomass dynamics model" "1960-2009" 2007 "1.62 *" "0.15 *"
-"234" "NAFO" "Multinational" "Greenland halibut NAFO 23KLMNO" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "VPA" "1960-2006" 2006 "0.39 *" "1.73 *"
-"283" "NAFO" "Multinational" "Redfish species NAFO 3M" "\textit{Sebastes spp}" "Scorpaeniformes" NA "VPA" "1985-2006" NA NA NA
-"284" "NAFO" "Multinational" "Redfish species NAFO 3LN" "\textit{Sebastes spp}" "Scorpaeniformes" 4.04 "Biomass dynamics model" "1959-2008" 2008 "1.88" "0.04"
-"3" "NMFS" "USA" "Sablefish Pacific Coast" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" NA "Integrated Analysis" "1900-2007" NA NA NA
-"5" "NMFS" "USA" "Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" 3.83 "Statistical catch at age model" "1956-2008" 2008 "1.05" "0.66"
-"6" "NMFS" "USA" "Ocean quahog Atlantic Coast" "\textit{Arctica islandica}" "Veneroida" NA "Biomass dynamics model" "1978-2008" NA NA NA
-"8" "NMFS" "USA" "Gray triggerfish Gulf of Mexico" "\textit{Balistes capriscus}" "Tetraodontiformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
-"9" "NMFS" "USA" "Gulf menhaden Gulf of Mexico" "\textit{Brevoortia patronus}" "Clupeiformes" 2.19 "Statistical catch at age model" "1964-2004" 2004 "1.08 *" "0.48 *"
-"10" "NMFS" "USA" "Atlantic menhaden Atlantic" "\textit{Brevoortia tyrannus}" "Clupeiformes" 2.25 "Statistical catch at age model" "1940-2005" 2005 "0.47 *" "0.97 *"
-"12" "NMFS" "USA" "Blacknose shark Atlantic" "\textit{Carcharhinus acronotus}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
-"13" "NMFS" "USA" "Finetooth shark Atlantic" "\textit{Carcharhinus isodon}" "Carcharhiniformes" NA "Biomass dynamics model" "1976-2005" NA NA NA
-"14" "NMFS" "USA" "Blacktip shark Gulf of Mexico" "\textit{Carcharhinus limbatus}" "Carcharhiniformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
-"15" "NMFS" "USA" "Blacktip shark Atlantic" "\textit{Carcharhinus limbatus}" "Carcharhiniformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
-"16" "NMFS" "USA" "Sandbar shark Atlantic" "\textit{Carcharhinus plumbeus}" "Carcharhiniformes" NA "Biomass dynamics model" "1975-2004" NA NA NA
-"18" "NMFS" "USA" "Black sea bass Mid-Atlantic Coast" "\textit{Centropristis striata}" "Perciformes" 3.98 "Statistical catch at age model" "1968-2007" 2007 "0.92" "0.67 *"
-"19" "NMFS" "USA" "Snow crab Bering Sea" "\textit{Chionoecetes opilio}" "Decapoda" 2.3 "Biomass dynamics model" "1979-2008" 2008 "0.55" "1.49 *"
-"31" "NMFS" "USA" "Atlantic herring Northwestern Atlantic Coast" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2005" 2005 "1.66" "0.34"
-"38" "NMFS" "USA" "Pacific herring Prince William Sound" "\textit{Clupea pallasii}" "Clupeiformes" NA "Statistical catch at age model" "1980-2006" NA NA NA
-"39" "NMFS" "USA" "Pacific herring Sitka" "\textit{Clupea pallasii}" "Clupeiformes" NA "Statistical catch at age model" "1978-2007" NA NA NA
-"45" "NMFS" "USA" "Weakfish Atlantic Coast" "\textit{Cynoscion regalis}" "Perciformes" NA "VPA" "1981-2008" NA NA NA
-"54" "NMFS" "USA" "Petrale sole Southern Pacific Coast" "\textit{Eopsetta jordani}" "Pleuronectiformes" 4.05 "Integrated Analysis" "1874-2005" 2005 "1.13" "0.61 *"
-"55" "NMFS" "USA" "Petrale sole Northern Pacific Coast" "\textit{Eopsetta jordani}" "Pleuronectiformes" 4.05 "Integrated Analysis" "1910-2005" 2005 "1.87" "1.26 *"
-"56" "NMFS" "USA" "Red grouper Gulf of Mexico" "\textit{Epinephelus morio}" "Perciformes" 3.49 "Statistical catch at age model" "1986-2005" 2005 "1.27" "0.73"
-"57" "NMFS" "USA" "Snowy grouper Southern Atlantic coast" "\textit{Epinephelus niveatus}" "Perciformes" 4.04 "Statistical catch at age model" "1961-2002" 2002 "0.19" "3.08"
-"58" "NMFS" "USA" "Pacific cod Gulf of Alaska" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Integrated Analysis" "1964-2008" 2008 "0.91" "0.84 *"
-"60" "NMFS" "USA" "Pacific cod Bering Sea and Aleutian Islands" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Integrated Analysis" "1964-2008" 2008 "1" "0.93 *"
-"68" "NMFS" "USA" "Atlantic cod Georges Bank" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1960-2008" 2007 "0.12" "0.72 *"
-"79" "NMFS" "USA" "Atlantic cod Gulf of Maine" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1893-2008" 2007 "1.46 *" "2.4"
-"91" "NMFS" "USA" "Witch Flounder NAFO-5Y" "\textit{Glyptocephalus cynoglossus}" "Pleuronectiformes" NA "VPA" "1982-2008" 2007 "0.3" "1.45"
-"92" "NMFS" "USA" "Rex sole Gulf of Alaska" "\textit{Glyptocephalus zachirus}" "Pleuronectiformes" NA "Statistical catch at age model" "1979-2008" NA NA NA
-"98" "NMFS" "USA" "Kelp greenling Oregon Coast" "\textit{Hexagrammos decagrammus}" "Scorpaeniformes" NA "Integrated Analysis" "1979-2005" NA NA NA
-"99" "NMFS" "USA" "Flathead sole Gulf of Alaska" "\textit{Hippoglossoides elassodon}" "Pleuronectiformes" NA "Statistical catch at age model" "1978-2010" NA NA NA
-"100" "NMFS" "USA" "Flathead sole Bering Sea and Aleutian Islands" "\textit{Hippoglossoides elassodon}" "Pleuronectiformes" 3.64 "Statistical catch at age model" "1977-2008" 2008 "1.83" "0.18 *"
-"101" "NMFS" "USA" "American Plaice NAFO-5YZ" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" 3.65 "VPA" "1960-2008" 2007 "0.7" "0.3 *"
-"104" "NMFS" "USA" "Atlantic Halibut NAFO-5YZ" "\textit{Hippoglossus hippoglossus}" "Pleuronectiformes" NA "Unknown" "1800-2007" NA NA NA
-"106" "NMFS" "USA" "American lobster Georges Bank" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
-"108" "NMFS" "USA" "American lobster Gulf of Maine" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
-"109" "NMFS" "USA" "American lobster Southern New England" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
-"113" "NMFS" "USA" "Northern shortfin squid Northwestern Atlantic Coast" "\textit{Illex illecebrosus}" "Teuthida" NA "Biomass dynamics model" "1967-2005" NA NA NA
-"132" "NMFS" "USA" "Northern rock sole Eastern Bering Sea and Aleutian Islands" "\textit{Lepidopsetta polyxystra}" "Pleuronectiformes" 3.21 "Statistical catch at age model" "1971-2008" 2007 "3.02" "0.21"
-"135" "NMFS" "USA" "Yellowfin sole Bering Sea and Aleutian Islands" "\textit{Limanda aspera}" "Pleuronectiformes" 3.24 "Statistical catch at age model" "1959-2008" 2008 "1.94" "0.62"
-"136" "NMFS" "USA" "Yellowtail Flounder Southern New England-Mid Atlantic" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.13" "1.61"
-"137" "NMFS" "USA" "Yellowtail flounder Georges Bank" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.22" "1.14"
-"138" "NMFS" "USA" "Yellowtail flounder Cape Cod / Gulf of Maine" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.25" "1.73"
-"140" "NMFS" "USA" "Golden king crab Aleutian Islands Eastern segment" "\textit{Lithodes aequispinus}" "Decapoda" NA "Statistical catch at length model" "1990-2007" NA NA NA
-"141" "NMFS" "USA" "Golden king crab Aleutian Islands Western segment" "\textit{Lithodes aequispinus}" "Decapoda" NA "Statistical catch at length model" "1989-2007" NA NA NA
-"142" "NMFS" "USA" "Monkfish Southern Georges Bank / Mid-Atlantic" "\textit{Lophius americanus}" "Lophiiformes" 4.49 "Unknown" "1964-2006" 2006 "1.72 *" "0.3 *"
-"143" "NMFS" "USA" "Monkfish Gulf of Maine / Northern Georges Bank" "\textit{Lophius americanus}" "Lophiiformes" 4.49 "Unknown" "1964-2006" 2006 "1.73 *" "0.38 *"
-"144" "NMFS" "USA" "Tilefish Southern Atlantic coast" "\textit{Lopholatilus chamaeleonticeps}" "Perciformes" 3.45 "Statistical catch at age model" "1961-2002" 2002 "0.9" "1.55"
-"145" "NMFS" "USA" "Tilefish Mid-Atlantic Coast" "\textit{Lopholatilus chamaeleonticeps}" "Perciformes" 3.45 "Biomass dynamics model" "1973-2008" 2005 "0.72 *" "0.61 *"
-"146" "NMFS" "USA" "Mutton snapper Southern Atlantic coast and Gulf of Mexico" "\textit{Lutjanus analis}" "Perciformes" NA "Statistical catch at age model" "1981-2006" NA NA NA
-"147" "NMFS" "USA" "Red snapper Southern Atlantic coast" "\textit{Lutjanus campechanus}" "Perciformes" 4.01 "Statistical catch at age model" "1945-2006" 2006 "0.04" "7.51"
-"148" "NMFS" "USA" "Red snapper Eastern Gulf of Mexico" "\textit{Lutjanus campechanus}" "Perciformes" NA "Statistical catch at age model" "1872-2003" NA NA NA
-"149" "NMFS" "USA" "Red snapper Western Gulf of Mexico" "\textit{Lutjanus campechanus}" "Perciformes" NA "Statistical catch at age model" "1880-2003" NA NA NA
-"157" "NMFS" "USA" "Haddock NAFO-5Y" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1956-2008" 2007 "0.99" "1.21 *"
-"163" "NMFS" "USA" "Haddock Georges Bank" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1930-2008" NA NA NA
-"172" "NMFS" "USA" "Silver hake Gulf of Maine / Northern Georges Bank" "\textit{Merluccius bilinearis}" "Gadiformes" NA "Survey index" "1955-2005" NA NA NA
-"173" "NMFS" "USA" "Silver hake Southern Georges Bank / Mid-Atlantic" "\textit{Merluccius bilinearis}" "Gadiformes" NA "Survey index" "1955-2005" NA NA NA
-"180" "NMFS" "USA" "Pacific hake Pacific Coast" "\textit{Merluccius productus}" "Gadiformes" 4.35 "Integrated Analysis" "1966-2008" 2008 "1.61" "0.73"
-"184" "NMFS" "USA" "Atlantic croaker Mid-Atlantic Coast" "\textit{Micropogonias undulatus}" "Perciformes" 3.31 "Statistical catch at age model" "1973-2002" 2002 "1.42" "0.27"
-"185" "NMFS" "USA" "Dover sole Pacific Coast" "\textit{Microstomus pacificus}" "Pleuronectiformes" 3.27 "Integrated Analysis" "1910-2005" 2005 "1.61" "0.45 *"
-"186" "NMFS" "USA" "Dover sole Gulf of Alaska" "\textit{Microstomus pacificus}" "Pleuronectiformes" NA "Statistical catch at age model" "1978-2010" NA NA NA
-"187" "NMFS" "USA" "Striped bass Gulf of Maine / Cape Hatteras" "\textit{Morone saxatilis}" "Perciformes" NA "Statistical catch at age model" "1982-2006" NA NA NA
-"188" "NMFS" "USA" "Gag Gulf of Mexico" "\textit{Mycteroperca microlepis}" "Perciformes" 3.65 "Unknown" "1963-2004" 2004 "1" "2.44"
-"189" "NMFS" "USA" "Gag Southern Atlantic coast" "\textit{Mycteroperca microlepis}" "Perciformes" 3.65 "Statistical catch at age model" "1962-2005" 2005 "0.94" "1.31"
-"192" "NMFS" "USA" "Yellowtail snapper Southern Atlantic Coast" "\textit{Ocyurus chrysurus}" "Perciformes" 3.99 "Statistical catch at age model" "1962-2001" 2001 "1.14" "0.61"
-"193" "NMFS" "USA" "Lingcod Southern Pacific Coast" "\textit{Ophiodon elongatus}" "Scorpaeniformes" NA "Integrated Analysis" "1956-2005" NA NA NA
-"194" "NMFS" "USA" "Lingcod Northern Pacific Coast" "\textit{Ophiodon elongatus}" "Scorpaeniformes" NA "Integrated Analysis" "1956-2005" NA NA NA
-"195" "NMFS" "USA" "Red porgy Southern Atlantic coast" "\textit{Pagrus pagrus}" "Perciformes" 3.65 "Statistical catch at age model" "1972-2004" 2004 "0.61" "0.39"
-"197" "NMFS" "USA" "Northern shrimp Gulf of Maine" "\textit{Pandalus borealis}" "Decapoda" NA "Statistical catch at age model" "1960-2009" 2008 "1.58 *" "0.56 *"
-"198" "NMFS" "USA" "Summer flounder Mid-Atlantic Coast" "\textit{Paralichthys dentatus}" "Pleuronectiformes" NA "Statistical catch at age model" "1940-2007" NA NA NA
-"199" "NMFS" "USA" "Red king crab Bristol Bay" "\textit{Paralithodes camtschaticus}" "Decapoda" 2.82 "Statistical catch at length model" "1960-2008" 2008 "1.27" "1.05"
-"200" "NMFS" "USA" "Red king crab Norton Sound" "\textit{Paralithodes camtschaticus}" "Decapoda" NA "Statistical catch at length model" "1976-2008" NA NA NA
-"202" "NMFS" "USA" "English sole Pacific Coast" "\textit{Parophrys vetulus}" "Pleuronectiformes" 3.45 "Integrated Analysis" "1876-2007" 2007 "6.42" "0.14 *"
-"205" "NMFS" "USA" "Atlantic butterfish Gulf of Maine / Cape Hatteras" "\textit{Peprilus triacanthus}" "Perciformes" NA "Unknown" "1965-2005" NA NA NA
-"206" "NMFS" "USA" "Sea scallop Georges Bank" "\textit{Placopecten magellanicus}" "Ostreoida" 2 "Statistical catch at length model" "1964-2006" 2006 "1.59 *" "0.78 *"
-"207" "NMFS" "USA" "Sea scallop Mid-Atlantic Coast" "\textit{Placopecten magellanicus}" "Ostreoida" 2 "Statistical catch at length model" "1964-2006" 2006 "1 *" "0.36 *"
-"208" "NMFS" "USA" "Starry flounder Southern Pacific Coast" "\textit{Platichthys stellatus}" "Pleuronectiformes" 3.32 "Integrated Analysis" "1970-2005" 2005 "1.55" "0.12 *"
-"209" "NMFS" "USA" "Starry flounder Northern Pacific Coast" "\textit{Platichthys stellatus}" "Pleuronectiformes" 3.32 "Integrated Analysis" "1970-2005" 2005 "1.1" "0.33 *"
-"211" "NMFS" "USA" "Atka mackerel Bering Sea and Aleutian Islands" "\textit{Pleurogrammus monopterygius}" "Scorpaeniformes" 3.33 "Statistical catch at age model" "1976-2009" 2009 "1.55" "0.55 *"
-"218" "NMFS" "USA" "Alaska plaice Bering Sea and Aleutian Islands" "\textit{Pleuronectes quadrituberculatus}" "Pleuronectiformes" 3.1 "Statistical catch at age model" "1972-2008" 2008 "2.46" "0.07"
-"219" "NMFS" "USA" "Pollock NAFO-5YZ" "\textit{Pollachius virens}" "Gadiformes" NA "Survey index" "1963-2007" NA NA NA
-"224" "NMFS" "USA" "Bluefish Atlantic Coast" "\textit{Pomatomus saltatrix}" "Perciformes" 4.5 "Statistical catch at age model" "1981-2007" 2007 "0.81 *" "0.79"
-"229" "NMFS" "USA" "Winter Flounder Southern New England-Mid Atlantic" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "VPA" "1940-2007" 2007 "0.09" "1.1 *"
-"231" "NMFS" "USA" "Winter Flounder NAFO-5Y" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" NA "Unknown" "1982-2008" NA NA NA
-"232" "NMFS" "USA" "Winter Flounder NAFO-5Z" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "VPA" "1982-2007" 2006 "0.28" "0.25 *"
-"233" "NMFS" "USA" "Longnose skate Pacific Coast" "\textit{Raja rhina}" "Rajiformes" 3.76 "Integrated Analysis" "1915-2007" 2007 "1.76" "0.4 *"
-"235" "NMFS" "USA" "Greenland turbot Bering Sea and Aleutian Islands" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "Statistical catch at age model" "1960-2009" 2009 "1.48" "0.05"
-"237" "NMFS" "USA" "Arrowtooth flounder Pacific Coast" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Integrated Analysis" "1916-2007" 2007 "3.81" "0.21"
-"238" "NMFS" "USA" "Arrowtooth flounder Bering Sea and Aleutian Islands" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Statistical catch at age model" "1970-2008" 2008 "2.7" "0.31 *"
-"239" "NMFS" "USA" "Arrowtooth flounder Gulf of Alaska" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Statistical catch at age model" "1958-2010" 2010 "3.02" "0.28 *"
-"242" "NMFS" "USA" "Atlantic sharpnose shark Atlantic" "\textit{Rhizoprionodon terraenovae}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
-"243" "NMFS" "USA" "Vermilion snapper Southern Atlantic coast" "\textit{Rhomboplites aurorubens}" "Perciformes" 4.33 "Statistical catch at age model" "1946-2008" 2007 "0.86" "1.27"
-"244" "NMFS" "USA" "Vermilion snapper Gulf of Mexico" "\textit{Rhomboplites aurorubens}" "Perciformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
-"247" "NMFS" "USA" "Pacific sardine Pacific Coast" "\textit{Sardinops sagax}" "Clupeiformes" 2.43 "Integrated Analysis" "1981-2007" 2006 "1.36 *" "0.41 *"
-"248" "NMFS" "USA" "Pacific chub mackerel Pacific Coast" "\textit{Scomber japonicus}" "Perciformes" NA "Statistical catch at age model" "1929-2008" NA NA NA
-"249" "NMFS" "USA" "King mackerel Gulf of Mexico" "\textit{Scomberomorus cavalla}" "Perciformes" NA "VPA" "1992-2001" NA NA NA
-"250" "NMFS" "USA" "King mackerel Southern Atlantic Coast" "\textit{Scomberomorus cavalla}" "Perciformes" NA "VPA" "1981-2001" NA NA NA
-"251" "NMFS" "USA" "Spanish mackerel Southern Atlantic Coast" "\textit{Scomberomorus maculatus}" "Perciformes" 4.5 "Statistical catch at age model" "1950-2008" 2007 "0.38" "0.91"
-"252" "NMFS" "USA" "Atlantic mackerel Gulf of Maine / Cape Hatteras" "\textit{Scomber scombrus}" "Perciformes" NA "VPA" "1960-2005" NA NA NA
-"254" "NMFS" "USA" "Windowpane Southern New England-Mid Atlantic" "\textit{Scophthalmus aquosus}" "Pleuronectiformes" NA "Survey index" "1975-2007" NA NA NA
-"255" "NMFS" "USA" "Windowpane flounder - Gulf of Maine / Georges Bank" "\textit{Scophthalmus aquosus}" "Pleuronectiformes" NA "Survey index" "1975-2007" NA NA NA
-"256" "NMFS" "USA" "California scorpionfish Southern California" "\textit{Scorpaena guttata}" "Scorpaeniformes" NA "Statistical catch at age model" "1990-2005" NA NA NA
-"257" "NMFS" "USA" "Cabezon Northern California" "\textit{Scorpaenichthys marmoratus}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1916-2005" 2005 "1.04" "0.99 *"
-"258" "NMFS" "USA" "Cabezon Southern California" "\textit{Scorpaenichthys marmoratus}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1932-2005" 2005 "0.74" "0.53 *"
-"259" "NMFS" "USA" "Rougheye rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes aleutianus}" "Scorpaeniformes" NA "Statistical catch at age model" "1974-2009" NA NA NA
-"260" "NMFS" "USA" "Rougheye rockfish Gulf of Alaska" "\textit{Sebastes aleutianus}" "Scorpaeniformes" NA "Statistical catch at age model" "1974-2007" NA NA NA
-"261" "NMFS" "USA" "Pacific ocean perch Pacific Coast" "\textit{Sebastes alutus}" "Scorpaeniformes" 3.5 "Statistical catch at age model" "1953-2007" 2007 "0.69" "0"
-"262" "NMFS" "USA" "Pacific ocean perch Gulf of Alaska" "\textit{Sebastes alutus}" "Scorpaeniformes" NA "Statistical catch at age model" "1959-2010" NA NA NA
-"263" "NMFS" "USA" "Pacific Ocean perch Eastern Bering Sea and Aleutian Islands" "\textit{Sebastes alutus}" "Scorpaeniformes" 3.5 "Statistical catch at age model" "1974-2009" 2009 "1.23" "0.26 *"
-"264" "NMFS" "USA" "Shortraker rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes borealis}" "Scorpaeniformes" NA "Statistical catch at age model" "1977-2008" NA NA NA
-"265" "NMFS" "USA" "Gopher rockfish Southern Pacific Coast" "\textit{Sebastes carnatus}" "Scorpaeniformes" NA "Integrated Analysis" "1965-2005" NA NA NA
-"266" "NMFS" "USA" "Darkblotched rockfish Pacific Coast" "\textit{Sebastes crameri}" "Scorpaeniformes" 3.69 "Integrated Analysis" "1928-2007" 2007 "0.73" "0.31"
-"267" "NMFS" "USA" "Widow rockfish Pacific Coast" "\textit{Sebastes entomelas}" "Scorpaeniformes" 3.68 "Statistical catch at age model" "1955-2006" 2006 "0.91 *" "0.06"
-"268" "NMFS" "USA" "Acadian redfish Gulf of Maine / Georges Bank" "\textit{Sebastes fasciatus}" "Scorpaeniformes" NA "Statistical catch at age model" "1913-2007" NA NA NA
-"269" "NMFS" "USA" "Yellowtail rockfish Northern Pacific Coast" "\textit{Sebastes flavidus}" "Scorpaeniformes" 4.11 "Integrated Analysis" "1967-2005" 2005 "1.36" "0.51 *"
-"270" "NMFS" "USA" "Chilipepper Southern Pacific Coast" "\textit{Sebastes goodei}" "Scorpaeniformes" 3.58 "Integrated Analysis" "1892-2007" 2006 "1.43 *" "0.04"
-"271" "NMFS" "USA" "Shortbelly rockfish Pacific Coast" "\textit{Sebastes jordani}" "Scorpaeniformes" NA "Integrated Analysis" "1950-2005" NA NA NA
-"272" "NMFS" "USA" "Cowcod Southern California" "\textit{Sebastes levis}" "Scorpaeniformes" 3.69 "Integrated Analysis" "1900-2007" 2007 "0.09" "0.07"
-"273" "NMFS" "USA" "Black rockfish Southern Pacific Coast" "\textit{Sebastes melanops}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1915-2007" 2007 "2.23" "0.33"
-"274" "NMFS" "USA" "Black rockfish Northern Pacific Coast" "\textit{Sebastes melanops}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1914-2006" 2006 "1.37 *" "0.47"
-"275" "NMFS" "USA" "Blackgill rockfish  Pacific Coast" "\textit{Sebastes melanostomus}" "Scorpaeniformes" NA "Integrated Analysis" "1950-2005" NA NA NA
-"276" "NMFS" "USA" "Blue rockfish California" "\textit{Sebastes mystinus}" "Scorpaeniformes" 2.81 "Integrated Analysis" "1916-2007" 2007 "0.75" "1.19"
-"278" "NMFS" "USA" "Bocaccio Southern Pacific Coast" "\textit{Sebastes paucispinis}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1951-2006" 2006 "0.32" "0.1"
-"279" "NMFS" "USA" "Canary rockfish Pacific Coast" "\textit{Sebastes pinniger}" "Scorpaeniformes" 3.8 "Integrated Analysis" "1916-2009" 2009 "0.62" "0.03"
-"280" "NMFS" "USA" "Northern rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes polyspinis}" "Scorpaeniformes" 3.57 "Statistical catch at age model" "1974-2009" 2009 "1.41" "0.13 *"
-"281" "NMFS" "USA" "Northern rockfish Gulf of Alaska" "\textit{Sebastes polyspinis}" "Scorpaeniformes" 3.57 "Statistical catch at age model" "1959-2008" 2008 "1.5" "0.66"
-"282" "NMFS" "USA" "Yelloweye rockfish Pacific Coast" "\textit{Sebastes ruberrimus}" "Scorpaeniformes" 4.43 "Integrated Analysis" "1923-2006" 2006 "0.41" "0.65"
-"285" "NMFS" "USA" "Dusky rockfish Gulf of Alaska" "\textit{Sebastes variabilis}" "Scorpaeniformes" 3.69 "Statistical catch at age model" "1973-2008" 2007 "1.54" "0.54"
-"286" "NMFS" "USA" "Shortspine thornyhead Pacific Coast" "\textit{Sebastolobus alascanus}" "Scorpaeniformes" NA "Integrated Analysis" "1901-2005" NA NA NA
-"287" "NMFS" "USA" "Longspine thornyhead Pacific Coast" "\textit{Sebastolobus altivelis}" "Scorpaeniformes" 3.61 "Integrated Analysis" "1962-2005" 2005 "2.65" "0.23"
-"288" "NMFS" "USA" "Greater amberjack Southern Atlantic coast" "\textit{Seriola dumerili}" "Perciformes" NA "Statistical catch at age model" "1946-2006" NA NA NA
-"289" "NMFS" "USA" "Greater amberjack Gulf of Mexico" "\textit{Seriola dumerili}" "Perciformes" NA "Biomass dynamics model" "1986-2004" NA NA NA
-"301" "NMFS" "USA" "Bonnethead shark Atlantic" "\textit{Sphyrna tiburo}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
-"302" "NMFS" "USA" "Atlantic surfclam Mid-Atlantic Coast" "\textit{Spisula solidissima}" "Veneroida" NA "Biomass dynamics model" "1965-2008" NA NA NA
-"305" "NMFS" "USA" "Spiny dogfish Atlantic Coast" "\textit{Squalus acanthias}" "Squaliformes" NA "Unknown" "1962-2006" NA NA NA
-"306" "NMFS" "USA" "Scup Atlantic Coast" "\textit{Stenotomus chrysops}" "Perciformes" NA "Statistical catch at age model" "1960-2007" NA NA NA
-"309" "NMFS" "USA" "Walleye pollock Gulf of Alaska" "\textit{Theragra chalcogramma}" "Gadiformes" NA "Statistical catch at age model" "1964-2008" NA NA NA
-"310" "NMFS" "USA" "Walleye pollock Eastern Bering Sea" "\textit{Theragra chalcogramma}" "Gadiformes" 3.45 "Statistical catch at age model" "1963-2008" 2008 "0.66" "0.85 *"
-"311" "NMFS" "USA" "Walleye pollock Aleutian Islands" "\textit{Theragra chalcogramma}" "Gadiformes" 3.45 "Statistical catch at age model" "1976-2008" 2008 "0.86" "0.02"
-"328" "NMFS" "USA" "White hake Georges Bank / Gulf of Maine" "\textit{Urophycis tenuis}" "Gadiformes" 4.2 "Biomass dynamics model" "1963-2007" 2007 "0.35" "0.8"
-"308" "RFFA" "Russia" "Walleye pollock Northern Sea of Okhotsk" "\textit{Theragra chalcogramma}" "Gadiformes" NA "Biomass dynamics model" "1985-1994" NA NA NA
-"312" "RFFA" "Russia" "Walleye pollock Western Bering Sea" "\textit{Theragra chalcogramma}" "Gadiformes" NA "VPA" "1994-2004" NA NA NA
-"326" "SPRFMO" "Multinational" "Chilean jack mackerel Chilean EEZ and offshore" "\textit{Trachurus murphyi}" "Perciformes" 3.49 "Integrated Analysis" "1950-2010" 2010 "0.09 *" "3.66 *"
-"114" "UNKNOWN" "Multinational" "Shortfin mako Nothwest Pacific Ocean" "\textit{Isurus oxyrinchus}" "Lamniformes" NA "VPA" "1990-2003" NA NA NA
-"107" "US State" "USA" "American lobster Rhode Island" "\textit{Homarus americanus}" "Decapoda" 3.7 "Biomass dynamics model" "1959-2007" 2006 "0.53 *" "0.67 *"
-"230" "US State" "USA" "Winter flounder Rhode Island" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "Biomass dynamics model" "1959-2007" 2006 "0.25 *" "2.02"
-"307" "US State" "USA" "Tautog Rhode Island" "\textit{Tautoga onitis}" "Perciformes" 3.33 "Biomass dynamics model" "1959-2007" 2006 "0.84 *" "0.59 *"
-"127" "WCPFC" "Multinational" "Striped marlin Southwestern Pacific Ocean" "\textit{Kajikia audax}" "Perciformes" 4.58 "Statistical catch at age model" "1950-2003" 2003 "0.75" "1.11"
-"128" "WCPFC" "Multinational" "Skipjack tuna Central Western Pacific" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Statistical catch at age model" "1972-2006" 2006 "4.38" "0.3"
-"313" "WCPFC" "Multinational" "Albacore tuna South Pacific Ocean" "\textit{Thunnus alalunga}" "Perciformes" 4.31 "Statistical catch at age model" "1959-2006" 2006 "2.46" "0.9"
-"315" "WCPFC" "Multinational" "Yellowfin tuna Central Western Pacific" "\textit{Thunnus albacares}" "Perciformes" 4.34 "Statistical catch at age model" "1952-2005" 2005 "1.22" "0.8"
-"321" "WCPFC" "Multinational" "Bigeye tuna Western Pacific Ocean" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Statistical catch at age model" "1952-2006" 2006 "1.06" "1.38"
+"mgmt" "country" "lme" "stock" "scientificname" "ordername" "TL" "assessmethod" "timespan" "currentyear" "Bratio" "Uratio"
+"17" "AFMA" "Australia" "Southwest Australian Shelf" "Bight redfish Southeast Australia" "\textit{Centroberyx gerrardi}" "Beryciformes" NA "Integrated Analysis" "1958-2007" NA NA NA
+"46" "AFMA" "Australia" "Subantarctic High Seas" "Patagonian toothfish Macquarie Island" "\textit{Dissostichus eleginoides}" "Perciformes" 3.96 "Integrated Analysis" "1975-2010" 2010 "2.3" "0.19"
+"87" "AFMA" "Australia" "Southwest Australian Shelf" "New Zealand ling Western half of Southeast Australia" "\textit{Genypterus blacodes}" "Ophidiiformes" NA "Integrated Analysis" "1968-2007" NA NA NA
+"89" "AFMA" "Australia" "Southeast Australian Shelf" "New Zealand ling Eastern half of Southeast Australia" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1968-2007" 2007 "0.59" "2.2 *"
+"111" "AFMA" "Australia" "Southeast Australian Shelf" "Orange roughy Southeast Australia" "\textit{Hoplostethus atlanticus}" "Beryciformes" 3.98 "Integrated Analysis" "1978-2007" 2007 "0.52" "0.29 *"
+"112" "AFMA" "Australia" "Southeast Australian Shelf" "Orange roughy Cascade Plateau" "\textit{Hoplostethus atlanticus}" "Beryciformes" NA "Integrated Analysis" "1987-2006" NA NA NA
+"190" "AFMA" "Australia" "Southeast Australian Shelf" "Jackass morwong Southeast Australia" "\textit{Nemadactylus macropterus}" "Perciformes" 3.41 "Integrated Analysis" "1913-2007" 2007 "0.31" "1.8 *"
+"191" "AFMA" "Australia" "Southeast Australian Shelf" "Tiger flathead Southeast Australia" "\textit{Neoplatycephalus richardsoni}" "Scorpaeniformes" 3.87 "Integrated Analysis" "1913-2006" 2006 "1.99" "1.03 *"
+"203" "AFMA" "Australia" "North Australian Shelf" "Northern Australia brown tiger shrimp" "\textit{Penaeus esculentus}" "Decapoda" NA "Biomass dynamics model" "1970-2006" NA NA NA
+"204" "AFMA" "Australia" "North Australian Shelf" "Northern Australia grooved Tiger Prawn" "\textit{Penaeus esculentus}" "Decapoda" NA "Biomass dynamics model" "1970-2006" NA NA NA
+"210" "AFMA" "Australia" "Southwest Australian Shelf" "Deepwater flathead Southeast Australia" "\textit{Platycephalus conatus}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1978-2007" 2007 "1.51" "0.61 *"
+"226" "AFMA" "Australia" "Southeast Australian Shelf" "Tasmanian giant crab Tasmania" "\textit{Pseudocarcinus gigas}" "Decapoda" NA "Unknown" "1990-2007" NA NA NA
+"240" "AFMA" "Australia" "Southeast Australian Shelf" "common gemfish Southeast Australia" "\textit{Rexea solandri}" "Perciformes" 4.25 "Integrated Analysis" "1966-2007" 2007 "0.25" "0.39 *"
+"290" "AFMA" "Australia" "Southwest Australian Shelf" "Blue Warehou Western half of Southeast Australia" "\textit{Seriolella brama}" "Perciformes" 3.3 "Integrated Analysis" "1984-2006" 2006 "0.41" "2.04 *"
+"291" "AFMA" "Australia" "Southeast Australian Shelf" "Blue Warehou Eastern half of Southeast Australia" "\textit{Seriolella brama}" "Perciformes" 3.3 "Integrated Analysis" "1984-2006" 2006 "0.49" "0.84 *"
+"292" "AFMA" "Australia" "Southeast Australian Shelf" "Silverfish Southeast Australia" "\textit{Seriolella punctata}" "Perciformes" 3.4 "Integrated Analysis" "1978-2006" 2006 "1.03" "0.79 *"
+"293" "AFMA" "Australia" "Southeast Australian Shelf" "School whiting Southeast Australia" "\textit{Sillago flindersi}" "Perciformes" 3.34 "Integrated Analysis" "1945-2007" 2007 "0.66" "0.82 *"
+"48" "CCAMLR" "Multinational" "Subantarctic High Seas" "Antarctic toothfish Ross Sea" "\textit{Dissostichus mawsoni}" "Perciformes" NA "Integrated Analysis" "1995-2007" NA NA NA
+"318" "CCSBT" "Multinational" "Indian High Seas" "Southern bluefin tuna Southern Oceans" "\textit{Thunnus maccoyii}" "Perciformes" NA "Integrated Analysis" "1931-2009" NA NA NA
+"49" "CFP" "Argentina" "Patagonian Shelf" "Argentine anchoita Southern Argentina" "\textit{Engraulis anchoita}" "Clupeiformes" 2.51 "Biomass dynamics model" "1992-2007" 2007 "3.13" "0.04"
+"50" "CFP" "Argentina" "Patagonian Shelf" "Argentine anchoita Northern Argentina" "\textit{Engraulis anchoita}" "Clupeiformes" 2.51 "VPA" "1989-2007" 2007 "1.37" "0.17"
+"150" "CFP" "Argentina" "Patagonian Shelf" "Patagonian grenadier Southern Argentina" "\textit{Macruronus magellanicus}" "Gadiformes" 3.93 "VPA" "1983-2006" 2006 "1.82" "0.6"
+"175" "CFP" "Argentina" "Patagonian Shelf" "Argentine hake Southern Argentina" "\textit{Merluccius hubbsi}" "Gadiformes" 4.23 "VPA" "1985-2008" 2008 "0.34" "1.49"
+"176" "CFP" "Argentina" "Patagonian Shelf" "Argentine hake Northern Argentina" "\textit{Merluccius hubbsi}" "Gadiformes" 4.23 "VPA" "1985-2007" 2007 "0.16" "1.26"
+"181" "CFP" "Argentina" "Patagonian Shelf" " Southern blue whiting Southern Argentina" "\textit{Micromesistius australis}" "Gadiformes" NA "VPA" "1985-2007" NA NA NA
+"47" "DETMCM" "South Africa" "Subantarctic High Seas" "Patagonian toothfish South Africa Subantarctic Prince Edward Islands" "\textit{Dissostichus eleginoides}" "Perciformes" NA "Biomass dynamics model" "1960-2008" NA NA NA
+"52" "DETMCM" "South Africa" "Benguela Current" "Anchovy South Africa" "\textit{Engraulis encrasicolus}" "Clupeiformes" 3.11 "Statistical catch at age model" "1984-2006" 2006 "0.97 *" "0.36 *"
+"90" "DETMCM" "South Africa" "Benguela Current" "Kingklip South Africa" "\textit{Genypterus capensis}" "Ophidiiformes" 4.44 "Biomass dynamics model" "1932-2008" 2008 "1.2" "0.55 *"
+"97" "DETMCM" "South Africa" "Benguela Current" "South African abalone South Africa" "\textit{Haliotis midae}" "Archaeogastropoda" NA "Statistical catch at age model" "1951-2008" NA NA NA
+"122" "DETMCM" "South Africa" "Benguela Current" "South African west coast rock lobster South Africa Area 7" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
+"123" "DETMCM" "South Africa" "Benguela Current" "South African west coast rock lobster South Africa Areas 3-4" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
+"124" "DETMCM" "South Africa" "Benguela Current" "South African west coast rock lobster South Africa Areas 5-6" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
+"125" "DETMCM" "South Africa" "Benguela Current" "South African west coast rock lobster South Africa Area 8" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
+"126" "DETMCM" "South Africa" "Benguela Current" "South African west coast rock lobster South Africa Areas 1-2" "\textit{Jasus lalandii}" "Decapoda" NA "Statistical catch at age model" "1910-2008" NA NA NA
+"174" "DETMCM" "South Africa" "Benguela Current" "Shallow-water cape hake South Africa" "\textit{Merluccius capensis}" "Gadiformes" 4.45 "Biomass dynamics model" "1917-2008" 2008 "2.3" "0.4 *"
+"179" "DETMCM" "South Africa" "Benguela Current" "Deep-water cape hake South Africa" "\textit{Merluccius paradoxus}" "Gadiformes" NA "Biomass dynamics model" "1917-2008" NA NA NA
+"196" "DETMCM" "South Africa" "Agulhas Current" "Southern spiny lobster South Africa South coast" "\textit{Palinurus gilchristi}" "Decapoda" 2.6 "Statistical catch at age model" "1973-2008" 2008 "0.51 *" "1.5 *"
+"246" "DETMCM" "South Africa" "Benguela Current" "Sardine South Africa" "\textit{Sardinops sagax}" "Clupeiformes" 2.43 "Statistical catch at age model" "1984-2006" 2006 "0.75 *" "0.55 *"
+"325" "DETMCM" "South Africa" "Agulhas Current" "Cape horse mackerel South Africa South coast" "\textit{Trachurus capensis}" "Perciformes" 3.47 "Biomass dynamics model" "1950-2007" 2007 "1.47 *" "0.76 *"
+"4" "DFO" "Canada" "Gulf of Alaska" "Sablefish Pacific Coast of Canada" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" NA "Integrated Analysis" "1913-2004" NA NA NA
+"11" "DFO" "Canada" "Northeast U.S. Continental Shelf" "Cusk NAFO 4X" "\textit{Brosme brosme}" "Gadiformes" NA "Biomass dynamics model" "1970-2007" NA NA NA
+"21" "DFO" "Canada" "Scotian Shelf" "Herring NAFO 4T spring spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1974-2007" NA NA NA
+"29" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Herring NAFO 4R spring spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1963-2004" NA NA NA
+"32" "DFO" "Canada" "Scotian Shelf" "Herring NAFO 4T fall spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1974-2007" NA NA NA
+"33" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Herring NAFO 4R fall spawners" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1971-2003" NA NA NA
+"36" "DFO" "Canada" "Scotian Shelf" "Herring Scotian Shelf and Bay of Fundy" "\textit{Clupea harengus}" "Clupeiformes" NA "VPA" "1964-2006" NA NA NA
+"37" "DFO" "Canada" "Gulf of Alaska" "Pacific herring Prince Rupert District" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.16 *" "0.32 *"
+"40" "DFO" "Canada" "Gulf of Alaska" "Pacific herring Central Coast" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.3 *" "0.11 *"
+"41" "DFO" "Canada" "Gulf of Alaska" "Pacific herring Straight of Georgia" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.91 *" "0.4 *"
+"42" "DFO" "Canada" "Gulf of Alaska" "Pacific herring Queen Charlotte Islands" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.2 *" "0 *"
+"43" "DFO" "Canada" "Gulf of Alaska" "Pacific herring West Coast of Vancouver Island" "\textit{Clupea pallasii}" "Clupeiformes" 3.15 "Statistical catch at age model" "1951-2007" 2007 "0.03 *" "0 *"
+"59" "DFO" "Canada" "Gulf of Alaska" "Pacific cod West Coast of Vancouver Island" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Biomass dynamics model" "1956-2002" 2001 "0.28 *" "0.61 *"
+"61" "DFO" "Canada" "Gulf of Alaska" "Pacific cod Hecate Strait" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Biomass dynamics model" "1956-2005" 2004 "0.37 *" "0.25 *"
+"63" "DFO" "Canada" "Scotian Shelf" "Atlantic cod NAFO 4VsW" "\textit{Gadus morhua}" "Gadiformes" NA "Unknown" "1958-2002" NA NA NA
+"66" "DFO" "Canada" "Scotian Shelf" "Atlantic cod NAFO 4TVn" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1965-2009" NA NA NA
+"67" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 3Ps" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1959-2004" 2004 "0.49 *" "0.41 *"
+"71" "DFO" "Canada" "Northeast U.S. Continental Shelf" "Atlantic cod NAFO 5Zjm" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1978-2003" 2002 "0.34 *" "0.45 *"
+"77" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 2J3KL" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1850-2005" NA NA NA
+"78" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 2J3KL inshore" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1959-2006" NA NA NA
+"81" "DFO" "Canada" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 3Pn4RS" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1964-2007" 2006 "0.09 *" "0.79 *"
+"131" "DFO" "Canada" "Gulf of Alaska" "Rock sole Hecate Strait" "\textit{Lepidopsetta bilineata}" "Pleuronectiformes" 3.21 "Statistical catch at age model" "1945-2001" 2001 "1.03 *" "0.45 *"
+"156" "DFO" "Canada" "Northeast U.S. Continental Shelf" "Haddock NAFO-4X5Y" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1960-2003" NA NA NA
+"158" "DFO" "Canada" "Northeast U.S. Continental Shelf" "Haddock NAFO-5Zejm" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1968-2003" NA NA NA
+"201" "DFO" "Canada" "Gulf of Alaska" "English sole Hecate Strait" "\textit{Parophrys vetulus}" "Pleuronectiformes" 3.45 "Statistical catch at age model" "1944-2001" 2001 "1.24 *" "0.37 *"
+"220" "DFO" "Canada" "Northeast U.S. Continental Shelf" "Pollock NAFO-4X5YZ" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1980-2006" 2006 "0.56 *" "0.31 *"
+"317" "IATTC" "Multinational" "Pacific High Seas" "Yellowfin tuna Eastern Pacific" "\textit{Thunnus albacares}" "Perciformes" NA "Statistical catch at age model" "1975-2007" NA NA NA
+"322" "IATTC" "Multinational" "Pacific High Seas" "Bigeye tuna Eastern Pacific" "\textit{Thunnus obesus}" "Perciformes" NA "Integrated Analysis" "1975-2007" NA NA NA
+"129" "ICCAT" "Multinational" "Atlantic High Seas" "Skipjack tuna Western Atlantic" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Biomass dynamics model" "1952-2006" 2006 "1.72 *" "0.32"
+"130" "ICCAT" "Multinational" "Atlantic High Seas" "Skipjack tuna Eastern Atlantic" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Biomass dynamics model" "1950-2006" 2006 "1.71 *" "0.27"
+"314" "ICCAT" "Multinational" "Atlantic High Seas" "Albacore tuna North Atlantic" "\textit{Thunnus alalunga}" "Perciformes" 4.31 "VPA" "1929-2005" 2005 "0.81" "1.49"
+"316" "ICCAT" "Multinational" "Atlantic High Seas" "Yellowfin tuna Atlantic" "\textit{Thunnus albacares}" "Perciformes" 4.34 "VPA" "1970-2006" 2006 "1.07" "0.81"
+"320" "ICCAT" "Multinational" "Atlantic High Seas" "Bigeye tuna Atlantic" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Biomass dynamics model" "1950-2005" 2005 "0.9 *" "0.87"
+"323" "ICCAT" "Multinational" "Atlantic High Seas" "Bluefin tuna Eastern Atlantic" "\textit{Thunnus thynnus}" "Perciformes" 4.43 "VPA" "1969-2007" 2007 "0.34" "9.38"
+"324" "ICCAT" "Multinational" "Atlantic High Seas" "Bluefin tuna Western Atlantic" "\textit{Thunnus thynnus}" "Perciformes" 4.43 "VPA" "1969-2007" 2007 "0.57" "1.33"
+"329" "ICCAT" "Multinational" "Atlantic High Seas" "Swordfish South Atlantic" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1970-2005" 2005 "1.54" "0.49"
+"330" "ICCAT" "Multinational" "Mediterranean Sea" "Swordfish Mediterranean Sea" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1968-2006" 2006 "0.94" "1.27"
+"331" "ICCAT" "Multinational" "Atlantic High Seas" "Swordfish North Atlantic" "\textit{Xiphias gladius}" "Perciformes" 4.49 "Biomass dynamics model" "1978-2007" 2005 "0.99" "0.88"
+"2" "ICES" "Multinational" "North Sea" "Sandeel North Sea" "\textit{Ammodytes marinus}" "Perciformes" NA "VPA" "1983-2007" 2007 "0.92 *" "0.24 *"
+"22" "ICES" "Multinational" "Celtic-Biscay Shelf" "Herring Northern Irish Sea" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2006" 2006 "0.72 *" "0.34 *"
+"23" "ICES" "Multinational" "Celtic-Biscay Shelf" "Herring ICES VIa" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1957-2006" 2006 "0.18 *" "1.59 *"
+"24" "ICES" "Multinational" "Baltic Sea" "Herring ICES 30" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1972-2007" 2006 "1.19 *" "1.1 *"
+"25" "ICES" "Multinational" "Baltic Sea" "Herring ICES 25-32" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1973-2006" 2006 "0.69 *" "0.79 *"
+"26" "ICES" "Multinational" "North Sea" "Herring ICES 22-24-IIIa" "\textit{Clupea harengus}" "Clupeiformes" NA "Statistical catch at age model" "1991-2006" NA NA NA
+"27" "ICES" "Multinational" "Baltic Sea" "Herring ICES 31" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1979-2006" 2006 "0.29 *" "1.6 *"
+"28" "ICES" "Multinational" "Iceland Shelf" "Herring Iceland (Summer spawners)" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1983-2007" 2006 "1 *" "0.79 *"
+"30" "ICES" "Multinational" "North Sea" "Herring North Sea" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2007" 2006 "0.65 *" "1.32 *"
+"34" "ICES" "Multinational" "Baltic Sea" "Herring ICES 28" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1976-2007" 2006 "1.21 *" "0.87 *"
+"35" "ICES" "Multinational" "Celtic-Biscay Shelf" "Herring ICES VIa-VIIb-VIIc" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "VPA" "1969-2000" 2000 "0.5 *" "1.04 *"
+"51" "ICES" "Multinational" "Celtic-Biscay Shelf" "Anchovy ICES VIII" "\textit{Engraulis encrasicolus}" "Clupeiformes" NA "Biomass dynamics model" "1986-2007" NA NA NA
+"62" "ICES" "Multinational" "Baltic Sea" "Atlantic cod Baltic Areas 25-32" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1964-2007" 2006 "0.16 *" "1.46 *"
+"65" "ICES" "Multinational" "Barents Sea" "Atlantic cod Northeast Arctic" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1943-2006" 2006 "0.56 *" "1.42 *"
+"69" "ICES" "Multinational" "Norwegian Sea" "Atlantic cod coastal Norway" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1982-2006" 2006 "0.27 *" "2.17 *"
+"70" "ICES" "Multinational" "Celtic-Biscay Shelf" "Atlantic cod West of Scotland" "\textit{Gadus morhua}" "Gadiformes" 4.42 "Statistical catch at age model" "1977-2006" 2006 "0.12 *" "0.42 *"
+"72" "ICES" "Multinational" "North Sea" "Atlantic cod Kattegat" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1970-2006" 2006 "0.19 *" "0.31 *"
+"73" "ICES" "Multinational" "Celtic-Biscay Shelf" "Atlantic cod Irish Sea" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1968-2006" 2006 "0.15 *" "0.56 *"
+"74" "ICES" "Multinational" "Baltic Sea" "Atlantic cod Baltic Areas 22 and 24" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1969-2007" 2006 "0.36 *" "1.43 *"
+"76" "ICES" "Multinational" "North Sea" "Atlantic cod North Sea" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1962-2007" 2006 "0.19 *" "0.8 *"
+"80" "ICES" "Multinational" "Iceland Shelf" "Atlantic cod Iceland" "\textit{Gadus morhua}" "Gadiformes" 4.42 "Statistical catch at age model" "1952-2006" 2006 "0.46 *" "1.17 *"
+"82" "ICES" "Multinational" "Faroe Plateau" "Atlantic cod Faroe Plateau" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1959-2006" 2006 "0.26 *" "1.52 *"
+"133" "ICES" "Multinational" "Iberian Coastal" "Fourspotted megrim ICES VIIIc-IXa" "\textit{Lepidorhombus boscii}" "Pleuronectiformes" NA "VPA" "1986-2006" 2006 "0.7 *" "1.01 *"
+"134" "ICES" "Multinational" "Iberian Coastal" "Megrim ICES VIIIc-IXa" "\textit{Lepidorhombus whiffiagonis}" "Pleuronectiformes" 4.24 "VPA" "1985-2007" 2006 "0.43 *" "1.07 *"
+"153" "ICES" "Multinational" "Barents Sea" "Capelin Barents Sea" "\textit{Mallotus villosus}" "Osmeriformes" 3.15 "Unknown" "1965-2007" 2006 "0.17 *" "0 *"
+"154" "ICES" "Multinational" "Iceland Shelf" "Capelin Iceland" "\textit{Mallotus villosus}" "Osmeriformes" 3.15 "Survey index" "1977-2007" 2006 "0.49 *" "0.85 *"
+"155" "ICES" "Multinational" "Celtic-Biscay Shelf" "Haddock ICES VIIb-k" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1993-2006" NA NA NA
+"159" "ICES" "Multinational" "Barents Sea" "Haddock Northeast Arctic" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1947-2006" 2006 "1.1 *" "1.06 *"
+"160" "ICES" "Multinational" "Faroe Plateau" "Haddock Faroe Plateau" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1955-2006" 2006 "0.85 *" "1.07 *"
+"161" "ICES" "Multinational" "Celtic-Biscay Shelf" "Haddock Irish Sea" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "Survey index" "1972-2006" NA NA NA
+"162" "ICES" "Multinational" "Celtic-Biscay Shelf" "Haddock West of Scotland" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "Statistical catch at age model" "1977-2006" 2006 "0.58 *" "0.73 *"
+"164" "ICES" "Multinational" "North Sea" "Haddock ICES IIIa and North Sea" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1963-2006" 2006 "0.62 *" "0.25 *"
+"165" "ICES" "Multinational" "Iceland Shelf" "Haddock Iceland" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1977-2007" 2007 "0.98 *" "1.23 *"
+"166" "ICES" "Multinational" "Celtic-Biscay Shelf" "Haddock Rockall Bank" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1990-2007" NA NA NA
+"167" "ICES" "Multinational" "Celtic-Biscay Shelf" "Whiting ICES VIa" "\textit{Merlangius merlangus}" "Gadiformes" NA "Survey index" "1984-2007" NA NA NA
+"168" "ICES" "Multinational" "North Sea" "Whiting ICES IIIa, VIId and North Sea" "\textit{Merlangius merlangus}" "Gadiformes" 4.29 "VPA" "1979-2006" 2006 "0.33 *" "1.04 *"
+"169" "ICES" "Multinational" "Celtic-Biscay Shelf" "Whiting ICES VIIe-k" "\textit{Merlangius merlangus}" "Gadiformes" 4.29 "VPA" "1982-2007" 2006 "0.44 *" "1.25 *"
+"177" "ICES" "Multinational" "Celtic-Biscay Shelf" "Hake Northeast Atlantic North" "\textit{Merluccius merluccius}" "Gadiformes" 4.42 "VPA" "1977-2007" 2006 "1.04 *" "0.74 *"
+"178" "ICES" "Multinational" "Iberian Coastal" "Hake Northeast Atlantic South" "\textit{Merluccius merluccius}" "Gadiformes" NA "VPA" "1982-2007" NA NA NA
+"183" "ICES" "Multinational" "Celtic-Biscay Shelf" "Whiting Northeast Atlantic" "\textit{Micromesistius poutassou}" "Gadiformes" 4.01 "Integrated Analysis" "1980-2007" 2006 "0.67 *" "1.66 *"
+"212" "ICES" "Multinational" "North Sea" "European Plaice North Sea" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1956-2006" NA NA NA
+"213" "ICES" "Multinational" "Celtic-Biscay Shelf" "European Plaice ICES VIId" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1979-2006" NA NA NA
+"214" "ICES" "Multinational" "North Sea" "European Plaice ICES IIIa" "\textit{Pleuronectes platessa}" "Pleuronectiformes" NA "VPA" "1976-2006" NA NA NA
+"215" "ICES" "Multinational" "Celtic-Biscay Shelf" "European Plaice Irish Sea" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "Statistical catch at age model" "1962-2006" 2006 "1.07 *" "0.23 *"
+"216" "ICES" "Multinational" "Celtic-Biscay Shelf" "European Plaice ICES VIIf-g" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "VPA" "1976-2006" 2006 "0.65 *" "0.41 *"
+"217" "ICES" "Multinational" "Celtic-Biscay Shelf" "European Plaice ICES VIIe" "\textit{Pleuronectes platessa}" "Pleuronectiformes" 3.26 "VPA" "1975-2006" 2006 "0.51 *" "1.39 *"
+"221" "ICES" "Multinational" "North Sea" "Pollock ICES IIIa, VI and North Sea" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1964-2006" 2006 "0.57 *" "0.97 *"
+"222" "ICES" "Multinational" "Barents Sea" "Pollock Northeast Arctic" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1957-2006" 2006 "1.7 *" "0.6 *"
+"223" "ICES" "Multinational" "Faroe Plateau" "Pollock Faroe Plateau" "\textit{Pollachius virens}" "Gadiformes" 4.38 "VPA" "1958-2006" 2006 "0.99 *" "1.52 *"
+"236" "ICES" "Multinational" "Barents Sea" "Greenland halibut Northeast Arctic" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "VPA" "1959-2007" 2006 "0.36 *" "1.2 *"
+"245" "ICES" "Multinational" "Iberian Coastal" "European pilchard ICES VIIIc-IXa" "\textit{Sardina pilchardus}" "Clupeiformes" NA "Statistical catch at age model" "1978-2007" NA NA NA
+"253" "ICES" "Multinational" "Celtic-Biscay Shelf" "Mackerel ICES Northeast Atlantic" "\textit{Scomber scombrus}" "Perciformes" 3.18 "Statistical catch at age model" "1972-2007" 2006 "0.98 *" "0.73 *"
+"277" "ICES" "Multinational" "Barents Sea" "Golden Redfish Northeast Arctic" "\textit{Sebastes norvegicus}" "Scorpaeniformes" NA "Statistical catch at age model" "1986-2006" NA NA NA
+"294" "ICES" "Multinational" "Celtic-Biscay Shelf" "common European sole Irish Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1968-2006" 2006 "0.36 *" "1.16 *"
+"295" "ICES" "Multinational" "North Sea" "common European sole ICES Kattegat and Skagerrak" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1982-2007" 2006 "1.25 *" "0.54 *"
+"296" "ICES" "Multinational" "Celtic-Biscay Shelf" "common European sole ICES VIId" "\textit{Solea vulgaris}" "Pleuronectiformes" NA "VPA" "1981-2006" NA NA NA
+"297" "ICES" "Multinational" "Celtic-Biscay Shelf" "common European sole Western English Channel" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1968-2006" 2006 "0.51 *" "1.74 *"
+"298" "ICES" "Multinational" "Celtic-Biscay Shelf" "common European sole Bay of Biscay" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1982-2006" 2006 "0.76 *" "1 *"
+"299" "ICES" "Multinational" "Celtic-Biscay Shelf" "common European sole Celtic Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" 3.17 "VPA" "1970-2006" 2006 "0.9 *" "0.95 *"
+"300" "ICES" "Multinational" "North Sea" "common European sole North Sea" "\textit{Solea vulgaris}" "Pleuronectiformes" NA "VPA" "1956-2006" NA NA NA
+"303" "ICES" "Multinational" "Baltic Sea" "Sprat ICES Baltic Areas 22-32" "\textit{Sprattus sprattus}" "Clupeiformes" 3 "VPA" "1973-2007" 2006 "1.13 *" "1.27 *"
+"304" "ICES" "Multinational" "North Sea" "Sprat North Sea" "\textit{Sprattus sprattus}" "Clupeiformes" NA "Statistical catch at age model" "1995-2007" NA NA NA
+"327" "ICES" "Multinational" "North Sea" "Norway pout North Sea" "\textit{Trisopterus esmarkii}" "Gadiformes" 3.24 "VPA" "1983-2007" 2006 "0.9 *" "0.33 *"
+"53" "IMARPE" "Peru" "Humboldt Current" "Peruvian anchoveta North-Central Peru" "\textit{Engraulis ringens}" "Clupeiformes" NA "VPA" "1963-2004" NA NA NA
+"319" "IOTC" "Multinational" "Indian High Seas" "Bigeye tuna Indian Ocean" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Biomass dynamics model" "1957-2006" 2004 "1.23" "0.97"
+"105" "IPHC" "Multinational" "Gulf of Alaska" "Pacific halibut North Pacific" "\textit{Hippoglossus stenolepis}" "Pleuronectiformes" NA "Statistical catch at age model" "1988-2009" NA NA NA
+"44" "Iran" "Iran" "Caspian Sea" "Anchovy kilka Caspian Sea" "\textit{Clupeonella engrauliformis}" "Clupeiformes" NA "Biomass dynamics model" "1991-2007" NA NA NA
+"1" "MFish" "New Zealand" "New Zealand Shelf" "Black oreo West end of Chatham Rise" "\textit{Allocyttus niger}" "Zeiformes" 3.38 "Integrated Analysis" "1973-2007" 2007 "0.99" "0.82"
+"7" "MFish" "New Zealand" "New Zealand Shelf" "Australian salmon New Zealand" "\textit{Arripis trutta}" "Perciformes" 4.07 "Integrated Analysis" "1975-2006" 2006 "1.64" "0.33"
+"20" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand snapper New Zealand Area 8" "\textit{Chrysophrys auratus}" "Perciformes" 3.32 "Integrated Analysis" "1931-2005" 2005 "0.35" "2.5"
+"83" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand ling New Zealand Area LIN 7WC - WCSI" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2008" 2008 "2.21" "0.13"
+"84" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand ling New Zealand Area LIN 72" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "2.49" "0.32"
+"85" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand ling New Zealand Areas LIN 3 and 4" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "3.07" "0.09"
+"86" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand ling New Zealand Areas LIN 5 and 6" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1972-2007" 2007 "3.96" "0.1"
+"88" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand ling New Zealand Area LIN 6b" "\textit{Genypterus blacodes}" "Ophidiiformes" 4.34 "Integrated Analysis" "1980-2006" 2006 "2.19" "0.11"
+"93" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand abalone species New Zealand Area PAU 5D" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2006" 2006 "0.44 *" "2.1 *"
+"94" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand abalone species New Zealand Area PAU 5A" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2006" 2006 "0.72 *" "2.83 *"
+"95" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand abalone species New Zealand Area PAU 7" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1964-2008" 2008 "0.87 *" "0.94 *"
+"96" "MFish" "New Zealand" "New Zealand Shelf" "New Zealand abalone species New Zealand Area PAU 5B" "\textit{Haliotis iris}" "Archaeogastropoda" 2 "Integrated Analysis" "1963-2007" 2007 "1.02 *" "0.59 *"
+"110" "MFish" "New Zealand" "New Zealand Shelf" "Orange roughy New Zealand Mid East Coast" "\textit{Hoplostethus atlanticus}" "Beryciformes" 3.98 "Integrated Analysis" "1981-2004" 2004 "1.2" "0.35"
+"115" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA7" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1976-2005" 2005 "0.73 *" "0.43 *"
+"116" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA3" "\textit{Jasus edwardsii}" "Decapoda" NA "Unknown" "1945-2007" NA NA NA
+"117" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA2" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2001" 2001 "0.53 *" "2.12 *"
+"118" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA8" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1976-2005" 2005 "0.69 *" "0.49 *"
+"119" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA5" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2002" 2002 "0.59 *" "1.68 *"
+"120" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA1" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2001" 2001 "1.14 *" "0.88 *"
+"121" "MFish" "New Zealand" "New Zealand Shelf" "Red rock lobster New Zealand area CRA4" "\textit{Jasus edwardsii}" "Decapoda" 2.6 "Unknown" "1945-2005" 2005 "0.67 *" "1.33 *"
+"151" "MFish" "New Zealand" "New Zealand Shelf" "Hoki Western New Zealand" "\textit{Macruronus novaezelandiae}" "Gadiformes" 4.47 "Integrated Analysis" "1972-2007" 2007 "0.51 *" "0.57 *"
+"152" "MFish" "New Zealand" "New Zealand Shelf" "Hoki Eastern New Zealand" "\textit{Macruronus novaezelandiae}" "Gadiformes" 4.47 "Integrated Analysis" "1972-2007" 2007 "1.11 *" "0.33 *"
+"170" "MFish" "New Zealand" "New Zealand Shelf" "Southern hake Chatham Rise" "\textit{Merluccius australis}" "Gadiformes" 4.45 "Integrated Analysis" "1975-2006" 2006 "1.77" "0.12"
+"171" "MFish" "New Zealand" "New Zealand Shelf" "Southern hake Sub-Antarctic" "\textit{Merluccius australis}" "Gadiformes" 4.45 "Integrated Analysis" "1975-2007" 2007 "2.91" "0.11"
+"182" "MFish" "New Zealand" "New Zealand Shelf" "Southern blue whiting Campbell Island Rise" "\textit{Micromesistius australis}" "Gadiformes" 3.79 "Integrated Analysis" "1979-2006" 2006 "1.15" "0.92"
+"225" "MFish" "New Zealand" "New Zealand Shelf" "Trevally New Zealand Areas TRE 7" "\textit{Pseudocaranx dentex}" "Perciformes" 3.24 "Integrated Analysis" "1944-2005" 2005 "1.44" "0.83"
+"227" "MFish" "New Zealand" "New Zealand Shelf" "Smooth oreo Chatham Rise" "\textit{Pseudocyttus maculatus}" "Zeiformes" 3.61 "Integrated Analysis" "1979-2006" 2006 "2.25" "0.38"
+"228" "MFish" "New Zealand" "New Zealand Shelf" "Smooth oreo West end of Chatham Rise" "\textit{Pseudocyttus maculatus}" "Zeiformes" 3.61 "Integrated Analysis" "1973-2004" 2004 "1.25" "0.53"
+"241" "MFish" "New Zealand" "New Zealand Shelf" "common gemfish New Zealand" "\textit{Rexea solandri}" "Perciformes" 4.25 "Integrated Analysis" "1952-2007" 2006 "1.64" "0.43"
+"64" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 3NO" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1953-2007" 2006 "0.02 *" "0.27 *"
+"75" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "Atlantic cod NAFO 3M" "\textit{Gadus morhua}" "Gadiformes" NA "VPA" "1959-2008" NA NA NA
+"102" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "American Plaice NAFO-3LNO" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" 3.65 "VPA" "1955-2007" 2006 "0.08 *" "0.77 *"
+"103" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "American Plaice NAFO-3M" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" NA "VPA" "1960-2007" NA NA NA
+"139" "NAFO" "Multinational" "Northeast U.S. Continental Shelf" "Yellowtail Flounder NAFO 3LNO" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "Biomass dynamics model" "1960-2009" 2007 "1.62 *" "0.15 *"
+"234" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "Greenland halibut NAFO 23KLMNO" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "VPA" "1960-2006" 2006 "0.39 *" "1.73 *"
+"283" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "Redfish species NAFO 3M" "\textit{Sebastes spp}" "Scorpaeniformes" NA "VPA" "1985-2006" NA NA NA
+"284" "NAFO" "Multinational" "Newfoundland-Labrador Shelf" "Redfish species NAFO 3LN" "\textit{Sebastes spp}" "Scorpaeniformes" 4.04 "Biomass dynamics model" "1959-2008" 2008 "1.88" "0.04"
+"3" "NMFS" "USA" "California Current" "Sablefish Pacific Coast" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" NA "Integrated Analysis" "1900-2007" NA NA NA
+"5" "NMFS" "USA" "East Bering Sea" "Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska" "\textit{Anoplopoma fimbria}" "Scorpaeniformes" 3.83 "Statistical catch at age model" "1956-2008" 2008 "1.05" "0.66"
+"6" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Ocean quahog Atlantic Coast" "\textit{Arctica islandica}" "Veneroida" NA "Biomass dynamics model" "1978-2008" NA NA NA
+"8" "NMFS" "USA" "Gulf of Mexico" "Gray triggerfish Gulf of Mexico" "\textit{Balistes capriscus}" "Tetraodontiformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
+"9" "NMFS" "USA" "Gulf of Mexico" "Gulf menhaden Gulf of Mexico" "\textit{Brevoortia patronus}" "Clupeiformes" 2.19 "Statistical catch at age model" "1964-2004" 2004 "1.08 *" "0.48 *"
+"10" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic menhaden Atlantic" "\textit{Brevoortia tyrannus}" "Clupeiformes" 2.25 "Statistical catch at age model" "1940-2005" 2005 "0.47 *" "0.97 *"
+"12" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Blacknose shark Atlantic" "\textit{Carcharhinus acronotus}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
+"13" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Finetooth shark Atlantic" "\textit{Carcharhinus isodon}" "Carcharhiniformes" NA "Biomass dynamics model" "1976-2005" NA NA NA
+"14" "NMFS" "USA" "Gulf of Mexico" "Blacktip shark Gulf of Mexico" "\textit{Carcharhinus limbatus}" "Carcharhiniformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
+"15" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Blacktip shark Atlantic" "\textit{Carcharhinus limbatus}" "Carcharhiniformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
+"16" "NMFS" "USA" "Scotian Shelf" "Sandbar shark Atlantic" "\textit{Carcharhinus plumbeus}" "Carcharhiniformes" NA "Biomass dynamics model" "1975-2004" NA NA NA
+"18" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Black sea bass Mid-Atlantic Coast" "\textit{Centropristis striata}" "Perciformes" 3.98 "Statistical catch at age model" "1968-2007" 2007 "0.92" "0.67 *"
+"19" "NMFS" "USA" "East Bering Sea" "Snow crab Bering Sea" "\textit{Chionoecetes opilio}" "Decapoda" 2.3 "Biomass dynamics model" "1979-2008" 2008 "0.55" "1.49 *"
+"31" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic herring Northwestern Atlantic Coast" "\textit{Clupea harengus}" "Clupeiformes" 3.23 "Statistical catch at age model" "1960-2005" 2005 "1.66" "0.34"
+"38" "NMFS" "USA" "Gulf of Alaska" "Pacific herring Prince William Sound" "\textit{Clupea pallasii}" "Clupeiformes" NA "Statistical catch at age model" "1980-2006" NA NA NA
+"39" "NMFS" "USA" "Gulf of Alaska" "Pacific herring Sitka" "\textit{Clupea pallasii}" "Clupeiformes" NA "Statistical catch at age model" "1978-2007" NA NA NA
+"45" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Weakfish Atlantic Coast" "\textit{Cynoscion regalis}" "Perciformes" NA "VPA" "1981-2008" NA NA NA
+"54" "NMFS" "USA" "California Current" "Petrale sole Southern Pacific Coast" "\textit{Eopsetta jordani}" "Pleuronectiformes" 4.05 "Integrated Analysis" "1874-2005" 2005 "1.13" "0.61 *"
+"55" "NMFS" "USA" "California Current" "Petrale sole Northern Pacific Coast" "\textit{Eopsetta jordani}" "Pleuronectiformes" 4.05 "Integrated Analysis" "1910-2005" 2005 "1.87" "1.26 *"
+"56" "NMFS" "USA" "Gulf of Mexico" "Red grouper Gulf of Mexico" "\textit{Epinephelus morio}" "Perciformes" 3.49 "Statistical catch at age model" "1986-2005" 2005 "1.27" "0.73"
+"57" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Snowy grouper Southern Atlantic coast" "\textit{Epinephelus niveatus}" "Perciformes" 4.04 "Statistical catch at age model" "1961-2002" 2002 "0.19" "3.08"
+"58" "NMFS" "USA" "Gulf of Alaska" "Pacific cod Gulf of Alaska" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Integrated Analysis" "1964-2008" 2008 "0.91" "0.84 *"
+"60" "NMFS" "USA" "East Bering Sea" "Pacific cod Bering Sea and Aleutian Islands" "\textit{Gadus macrocephalus}" "Gadiformes" 4.01 "Integrated Analysis" "1964-2008" 2008 "1" "0.93 *"
+"68" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic cod Georges Bank" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1960-2008" 2007 "0.12" "0.72 *"
+"79" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic cod Gulf of Maine" "\textit{Gadus morhua}" "Gadiformes" 4.42 "VPA" "1893-2008" 2007 "1.46 *" "2.4"
+"91" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Witch Flounder NAFO-5Y" "\textit{Glyptocephalus cynoglossus}" "Pleuronectiformes" NA "VPA" "1982-2008" 2007 "0.3" "1.45"
+"92" "NMFS" "USA" "Gulf of Alaska" "Rex sole Gulf of Alaska" "\textit{Glyptocephalus zachirus}" "Pleuronectiformes" NA "Statistical catch at age model" "1979-2008" NA NA NA
+"98" "NMFS" "USA" "California Current" "Kelp greenling Oregon Coast" "\textit{Hexagrammos decagrammus}" "Scorpaeniformes" NA "Integrated Analysis" "1979-2005" NA NA NA
+"99" "NMFS" "USA" "Gulf of Alaska" "Flathead sole Gulf of Alaska" "\textit{Hippoglossoides elassodon}" "Pleuronectiformes" NA "Statistical catch at age model" "1978-2010" NA NA NA
+"100" "NMFS" "USA" "East Bering Sea" "Flathead sole Bering Sea and Aleutian Islands" "\textit{Hippoglossoides elassodon}" "Pleuronectiformes" 3.64 "Statistical catch at age model" "1977-2008" 2008 "1.83" "0.18 *"
+"101" "NMFS" "USA" "Northeast U.S. Continental Shelf" "American Plaice NAFO-5YZ" "\textit{Hippoglossoides platessoides}" "Pleuronectiformes" 3.65 "VPA" "1960-2008" 2007 "0.7" "0.3 *"
+"104" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic Halibut NAFO-5YZ" "\textit{Hippoglossus hippoglossus}" "Pleuronectiformes" NA "Unknown" "1800-2007" NA NA NA
+"106" "NMFS" "USA" "Northeast U.S. Continental Shelf" "American lobster Georges Bank" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
+"108" "NMFS" "USA" "Northeast U.S. Continental Shelf" "American lobster Gulf of Maine" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
+"109" "NMFS" "USA" "Northeast U.S. Continental Shelf" "American lobster Southern New England" "\textit{Homarus americanus}" "Decapoda" NA "Biomass dynamics model" "1981-2007" NA NA NA
+"113" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Northern shortfin squid Northwestern Atlantic Coast" "\textit{Illex illecebrosus}" "Teuthida" NA "Biomass dynamics model" "1967-2005" NA NA NA
+"132" "NMFS" "USA" "East Bering Sea" "Northern rock sole Eastern Bering Sea and Aleutian Islands" "\textit{Lepidopsetta polyxystra}" "Pleuronectiformes" 3.21 "Statistical catch at age model" "1971-2008" 2007 "3.02" "0.21"
+"135" "NMFS" "USA" "East Bering Sea" "Yellowfin sole Bering Sea and Aleutian Islands" "\textit{Limanda aspera}" "Pleuronectiformes" 3.24 "Statistical catch at age model" "1959-2008" 2008 "1.94" "0.62"
+"136" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Yellowtail Flounder Southern New England-Mid Atlantic" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.13" "1.61"
+"137" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Yellowtail flounder Georges Bank" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.22" "1.14"
+"138" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Yellowtail flounder Cape Cod / Gulf of Maine" "\textit{Limanda ferruginea}" "Pleuronectiformes" 3.22 "VPA" "1935-2008" 2007 "0.25" "1.73"
+"140" "NMFS" "USA" "East Bering Sea" "Golden king crab Aleutian Islands Eastern segment" "\textit{Lithodes aequispinus}" "Decapoda" NA "Statistical catch at length model" "1990-2007" NA NA NA
+"141" "NMFS" "USA" "East Bering Sea" "Golden king crab Aleutian Islands Western segment" "\textit{Lithodes aequispinus}" "Decapoda" NA "Statistical catch at length model" "1989-2007" NA NA NA
+"142" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Monkfish Southern Georges Bank / Mid-Atlantic" "\textit{Lophius americanus}" "Lophiiformes" 4.49 "Unknown" "1964-2006" 2006 "1.72 *" "0.3 *"
+"143" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Monkfish Gulf of Maine / Northern Georges Bank" "\textit{Lophius americanus}" "Lophiiformes" 4.49 "Unknown" "1964-2006" 2006 "1.73 *" "0.38 *"
+"144" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Tilefish Southern Atlantic coast" "\textit{Lopholatilus chamaeleonticeps}" "Perciformes" 3.45 "Statistical catch at age model" "1961-2002" 2002 "0.9" "1.55"
+"145" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Tilefish Mid-Atlantic Coast" "\textit{Lopholatilus chamaeleonticeps}" "Perciformes" 3.45 "Biomass dynamics model" "1973-2008" 2005 "0.72 *" "0.61 *"
+"146" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Mutton snapper Southern Atlantic coast and Gulf of Mexico" "\textit{Lutjanus analis}" "Perciformes" NA "Statistical catch at age model" "1981-2006" NA NA NA
+"147" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Red snapper Southern Atlantic coast" "\textit{Lutjanus campechanus}" "Perciformes" 4.01 "Statistical catch at age model" "1945-2006" 2006 "0.04" "7.51"
+"148" "NMFS" "USA" "Gulf of Mexico" "Red snapper Eastern Gulf of Mexico" "\textit{Lutjanus campechanus}" "Perciformes" NA "Statistical catch at age model" "1872-2003" NA NA NA
+"149" "NMFS" "USA" "Gulf of Mexico" "Red snapper Western Gulf of Mexico" "\textit{Lutjanus campechanus}" "Perciformes" NA "Statistical catch at age model" "1880-2003" NA NA NA
+"157" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Haddock NAFO-5Y" "\textit{Melanogrammus aeglefinus}" "Gadiformes" 4.09 "VPA" "1956-2008" 2007 "0.99" "1.21 *"
+"163" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Haddock Georges Bank" "\textit{Melanogrammus aeglefinus}" "Gadiformes" NA "VPA" "1930-2008" NA NA NA
+"172" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Silver hake Gulf of Maine / Northern Georges Bank" "\textit{Merluccius bilinearis}" "Gadiformes" NA "Survey index" "1955-2005" NA NA NA
+"173" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Silver hake Southern Georges Bank / Mid-Atlantic" "\textit{Merluccius bilinearis}" "Gadiformes" NA "Survey index" "1955-2005" NA NA NA
+"180" "NMFS" "USA" "California Current" "Pacific hake Pacific Coast" "\textit{Merluccius productus}" "Gadiformes" 4.35 "Integrated Analysis" "1966-2008" 2008 "1.61" "0.73"
+"184" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic croaker Mid-Atlantic Coast" "\textit{Micropogonias undulatus}" "Perciformes" 3.31 "Statistical catch at age model" "1973-2002" 2002 "1.42" "0.27"
+"185" "NMFS" "USA" "California Current" "Dover sole Pacific Coast" "\textit{Microstomus pacificus}" "Pleuronectiformes" 3.27 "Integrated Analysis" "1910-2005" 2005 "1.61" "0.45 *"
+"186" "NMFS" "USA" "Gulf of Alaska" "Dover sole Gulf of Alaska" "\textit{Microstomus pacificus}" "Pleuronectiformes" NA "Statistical catch at age model" "1978-2010" NA NA NA
+"187" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Striped bass Gulf of Maine / Cape Hatteras" "\textit{Morone saxatilis}" "Perciformes" NA "Statistical catch at age model" "1982-2006" NA NA NA
+"188" "NMFS" "USA" "Gulf of Mexico" "Gag Gulf of Mexico" "\textit{Mycteroperca microlepis}" "Perciformes" 3.65 "Unknown" "1963-2004" 2004 "1" "2.44"
+"189" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Gag Southern Atlantic coast" "\textit{Mycteroperca microlepis}" "Perciformes" 3.65 "Statistical catch at age model" "1962-2005" 2005 "0.94" "1.31"
+"192" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Yellowtail snapper Southern Atlantic Coast" "\textit{Ocyurus chrysurus}" "Perciformes" 3.99 "Statistical catch at age model" "1962-2001" 2001 "1.14" "0.61"
+"193" "NMFS" "USA" "California Current" "Lingcod Southern Pacific Coast" "\textit{Ophiodon elongatus}" "Scorpaeniformes" NA "Integrated Analysis" "1956-2005" NA NA NA
+"194" "NMFS" "USA" "California Current" "Lingcod Northern Pacific Coast" "\textit{Ophiodon elongatus}" "Scorpaeniformes" NA "Integrated Analysis" "1956-2005" NA NA NA
+"195" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Red porgy Southern Atlantic coast" "\textit{Pagrus pagrus}" "Perciformes" 3.65 "Statistical catch at age model" "1972-2004" 2004 "0.61" "0.39"
+"197" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Northern shrimp Gulf of Maine" "\textit{Pandalus borealis}" "Decapoda" NA "Statistical catch at age model" "1960-2009" 2008 "1.58 *" "0.56 *"
+"198" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Summer flounder Mid-Atlantic Coast" "\textit{Paralichthys dentatus}" "Pleuronectiformes" NA "Statistical catch at age model" "1940-2007" NA NA NA
+"199" "NMFS" "USA" "East Bering Sea" "Red king crab Bristol Bay" "\textit{Paralithodes camtschaticus}" "Decapoda" 2.82 "Statistical catch at length model" "1960-2008" 2008 "1.27" "1.05"
+"200" "NMFS" "USA" "East Bering Sea" "Red king crab Norton Sound" "\textit{Paralithodes camtschaticus}" "Decapoda" NA "Statistical catch at length model" "1976-2008" NA NA NA
+"202" "NMFS" "USA" "California Current" "English sole Pacific Coast" "\textit{Parophrys vetulus}" "Pleuronectiformes" 3.45 "Integrated Analysis" "1876-2007" 2007 "6.42" "0.14 *"
+"205" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic butterfish Gulf of Maine / Cape Hatteras" "\textit{Peprilus triacanthus}" "Perciformes" NA "Unknown" "1965-2005" NA NA NA
+"206" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Sea scallop Georges Bank" "\textit{Placopecten magellanicus}" "Ostreoida" 2 "Statistical catch at length model" "1964-2006" 2006 "1.59 *" "0.78 *"
+"207" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Sea scallop Mid-Atlantic Coast" "\textit{Placopecten magellanicus}" "Ostreoida" 2 "Statistical catch at length model" "1964-2006" 2006 "1 *" "0.36 *"
+"208" "NMFS" "USA" "California Current" "Starry flounder Southern Pacific Coast" "\textit{Platichthys stellatus}" "Pleuronectiformes" 3.32 "Integrated Analysis" "1970-2005" 2005 "1.55" "0.12 *"
+"209" "NMFS" "USA" "California Current" "Starry flounder Northern Pacific Coast" "\textit{Platichthys stellatus}" "Pleuronectiformes" 3.32 "Integrated Analysis" "1970-2005" 2005 "1.1" "0.33 *"
+"211" "NMFS" "USA" "East Bering Sea" "Atka mackerel Bering Sea and Aleutian Islands" "\textit{Pleurogrammus monopterygius}" "Scorpaeniformes" 3.33 "Statistical catch at age model" "1976-2009" 2009 "1.55" "0.55 *"
+"218" "NMFS" "USA" "East Bering Sea" "Alaska plaice Bering Sea and Aleutian Islands" "\textit{Pleuronectes quadrituberculatus}" "Pleuronectiformes" 3.1 "Statistical catch at age model" "1972-2008" 2008 "2.46" "0.07"
+"219" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Pollock NAFO-5YZ" "\textit{Pollachius virens}" "Gadiformes" NA "Survey index" "1963-2007" NA NA NA
+"224" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Bluefish Atlantic Coast" "\textit{Pomatomus saltatrix}" "Perciformes" 4.5 "Statistical catch at age model" "1981-2007" 2007 "0.81 *" "0.79"
+"229" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Winter Flounder Southern New England-Mid Atlantic" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "VPA" "1940-2007" 2007 "0.09" "1.1 *"
+"231" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Winter Flounder NAFO-5Y" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" NA "Unknown" "1982-2008" NA NA NA
+"232" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Winter Flounder NAFO-5Z" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "VPA" "1982-2007" 2006 "0.28" "0.25 *"
+"233" "NMFS" "USA" "California Current" "Longnose skate Pacific Coast" "\textit{Raja rhina}" "Rajiformes" 3.76 "Integrated Analysis" "1915-2007" 2007 "1.76" "0.4 *"
+"235" "NMFS" "USA" "East Bering Sea" "Greenland turbot Bering Sea and Aleutian Islands" "\textit{Reinhardtius hippoglossoides}" "Pleuronectiformes" 4.48 "Statistical catch at age model" "1960-2009" 2009 "1.48" "0.05"
+"237" "NMFS" "USA" "California Current" "Arrowtooth flounder Pacific Coast" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Integrated Analysis" "1916-2007" 2007 "3.81" "0.21"
+"238" "NMFS" "USA" "East Bering Sea" "Arrowtooth flounder Bering Sea and Aleutian Islands" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Statistical catch at age model" "1970-2008" 2008 "2.7" "0.31 *"
+"239" "NMFS" "USA" "Gulf of Alaska" "Arrowtooth flounder Gulf of Alaska" "\textit{Reinhardtius stomias}" "Pleuronectiformes" 4.26 "Statistical catch at age model" "1958-2010" 2010 "3.02" "0.28 *"
+"242" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Atlantic sharpnose shark Atlantic" "\textit{Rhizoprionodon terraenovae}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
+"243" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Vermilion snapper Southern Atlantic coast" "\textit{Rhomboplites aurorubens}" "Perciformes" 4.33 "Statistical catch at age model" "1946-2008" 2007 "0.86" "1.27"
+"244" "NMFS" "USA" "Gulf of Mexico" "Vermilion snapper Gulf of Mexico" "\textit{Rhomboplites aurorubens}" "Perciformes" NA "Biomass dynamics model" "1981-2004" NA NA NA
+"247" "NMFS" "USA" "California Current" "Pacific sardine Pacific Coast" "\textit{Sardinops sagax}" "Clupeiformes" 2.43 "Integrated Analysis" "1981-2007" 2006 "1.36 *" "0.41 *"
+"248" "NMFS" "USA" "California Current" "Pacific chub mackerel Pacific Coast" "\textit{Scomber japonicus}" "Perciformes" NA "Statistical catch at age model" "1929-2008" NA NA NA
+"249" "NMFS" "USA" "Gulf of Mexico" "King mackerel Gulf of Mexico" "\textit{Scomberomorus cavalla}" "Perciformes" NA "VPA" "1992-2001" NA NA NA
+"250" "NMFS" "USA" "Southeast U.S. Continental Shelf" "King mackerel Southern Atlantic Coast" "\textit{Scomberomorus cavalla}" "Perciformes" NA "VPA" "1981-2001" NA NA NA
+"251" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Spanish mackerel Southern Atlantic Coast" "\textit{Scomberomorus maculatus}" "Perciformes" 4.5 "Statistical catch at age model" "1950-2008" 2007 "0.38" "0.91"
+"252" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic mackerel Gulf of Maine / Cape Hatteras" "\textit{Scomber scombrus}" "Perciformes" NA "VPA" "1960-2005" NA NA NA
+"254" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Windowpane Southern New England-Mid Atlantic" "\textit{Scophthalmus aquosus}" "Pleuronectiformes" NA "Survey index" "1975-2007" NA NA NA
+"255" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Windowpane flounder - Gulf of Maine / Georges Bank" "\textit{Scophthalmus aquosus}" "Pleuronectiformes" NA "Survey index" "1975-2007" NA NA NA
+"256" "NMFS" "USA" "California Current" "California scorpionfish Southern California" "\textit{Scorpaena guttata}" "Scorpaeniformes" NA "Statistical catch at age model" "1990-2005" NA NA NA
+"257" "NMFS" "USA" "California Current" "Cabezon Northern California" "\textit{Scorpaenichthys marmoratus}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1916-2005" 2005 "1.04" "0.99 *"
+"258" "NMFS" "USA" "California Current" "Cabezon Southern California" "\textit{Scorpaenichthys marmoratus}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1932-2005" 2005 "0.74" "0.53 *"
+"259" "NMFS" "USA" "East Bering Sea" "Rougheye rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes aleutianus}" "Scorpaeniformes" NA "Statistical catch at age model" "1974-2009" NA NA NA
+"260" "NMFS" "USA" "Gulf of Alaska" "Rougheye rockfish Gulf of Alaska" "\textit{Sebastes aleutianus}" "Scorpaeniformes" NA "Statistical catch at age model" "1974-2007" NA NA NA
+"261" "NMFS" "USA" "California Current" "Pacific ocean perch Pacific Coast" "\textit{Sebastes alutus}" "Scorpaeniformes" 3.5 "Statistical catch at age model" "1953-2007" 2007 "0.69" "0"
+"262" "NMFS" "USA" "Gulf of Alaska" "Pacific ocean perch Gulf of Alaska" "\textit{Sebastes alutus}" "Scorpaeniformes" NA "Statistical catch at age model" "1959-2010" NA NA NA
+"263" "NMFS" "USA" "East Bering Sea" "Pacific Ocean perch Eastern Bering Sea and Aleutian Islands" "\textit{Sebastes alutus}" "Scorpaeniformes" 3.5 "Statistical catch at age model" "1974-2009" 2009 "1.23" "0.26 *"
+"264" "NMFS" "USA" "East Bering Sea" "Shortraker rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes borealis}" "Scorpaeniformes" NA "Statistical catch at age model" "1977-2008" NA NA NA
+"265" "NMFS" "USA" "California Current" "Gopher rockfish Southern Pacific Coast" "\textit{Sebastes carnatus}" "Scorpaeniformes" NA "Integrated Analysis" "1965-2005" NA NA NA
+"266" "NMFS" "USA" "California Current" "Darkblotched rockfish Pacific Coast" "\textit{Sebastes crameri}" "Scorpaeniformes" 3.69 "Integrated Analysis" "1928-2007" 2007 "0.73" "0.31"
+"267" "NMFS" "USA" "California Current" "Widow rockfish Pacific Coast" "\textit{Sebastes entomelas}" "Scorpaeniformes" 3.68 "Statistical catch at age model" "1955-2006" 2006 "0.91 *" "0.06"
+"268" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Acadian redfish Gulf of Maine / Georges Bank" "\textit{Sebastes fasciatus}" "Scorpaeniformes" NA "Statistical catch at age model" "1913-2007" NA NA NA
+"269" "NMFS" "USA" "California Current" "Yellowtail rockfish Northern Pacific Coast" "\textit{Sebastes flavidus}" "Scorpaeniformes" 4.11 "Integrated Analysis" "1967-2005" 2005 "1.36" "0.51 *"
+"270" "NMFS" "USA" "California Current" "Chilipepper Southern Pacific Coast" "\textit{Sebastes goodei}" "Scorpaeniformes" 3.58 "Integrated Analysis" "1892-2007" 2006 "1.43 *" "0.04"
+"271" "NMFS" "USA" "California Current" "Shortbelly rockfish Pacific Coast" "\textit{Sebastes jordani}" "Scorpaeniformes" NA "Integrated Analysis" "1950-2005" NA NA NA
+"272" "NMFS" "USA" "California Current" "Cowcod Southern California" "\textit{Sebastes levis}" "Scorpaeniformes" 3.69 "Integrated Analysis" "1900-2007" 2007 "0.09" "0.07"
+"273" "NMFS" "USA" "California Current" "Black rockfish Southern Pacific Coast" "\textit{Sebastes melanops}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1915-2007" 2007 "2.23" "0.33"
+"274" "NMFS" "USA" "California Current" "Black rockfish Northern Pacific Coast" "\textit{Sebastes melanops}" "Scorpaeniformes" 4.2 "Integrated Analysis" "1914-2006" 2006 "1.37 *" "0.47"
+"275" "NMFS" "USA" "California Current" "Blackgill rockfish  Pacific Coast" "\textit{Sebastes melanostomus}" "Scorpaeniformes" NA "Integrated Analysis" "1950-2005" NA NA NA
+"276" "NMFS" "USA" "California Current" "Blue rockfish California" "\textit{Sebastes mystinus}" "Scorpaeniformes" 2.81 "Integrated Analysis" "1916-2007" 2007 "0.75" "1.19"
+"278" "NMFS" "USA" "California Current" "Bocaccio Southern Pacific Coast" "\textit{Sebastes paucispinis}" "Scorpaeniformes" 3.51 "Integrated Analysis" "1951-2006" 2006 "0.32" "0.1"
+"279" "NMFS" "USA" "California Current" "Canary rockfish Pacific Coast" "\textit{Sebastes pinniger}" "Scorpaeniformes" 3.8 "Integrated Analysis" "1916-2009" 2009 "0.62" "0.03"
+"280" "NMFS" "USA" "East Bering Sea" "Northern rockfish Bering Sea and Aleutian Islands" "\textit{Sebastes polyspinis}" "Scorpaeniformes" 3.57 "Statistical catch at age model" "1974-2009" 2009 "1.41" "0.13 *"
+"281" "NMFS" "USA" "Gulf of Alaska" "Northern rockfish Gulf of Alaska" "\textit{Sebastes polyspinis}" "Scorpaeniformes" 3.57 "Statistical catch at age model" "1959-2008" 2008 "1.5" "0.66"
+"282" "NMFS" "USA" "California Current" "Yelloweye rockfish Pacific Coast" "\textit{Sebastes ruberrimus}" "Scorpaeniformes" 4.43 "Integrated Analysis" "1923-2006" 2006 "0.41" "0.65"
+"285" "NMFS" "USA" "Gulf of Alaska" "Dusky rockfish Gulf of Alaska" "\textit{Sebastes variabilis}" "Scorpaeniformes" 3.69 "Statistical catch at age model" "1973-2008" 2007 "1.54" "0.54"
+"286" "NMFS" "USA" "California Current" "Shortspine thornyhead Pacific Coast" "\textit{Sebastolobus alascanus}" "Scorpaeniformes" NA "Integrated Analysis" "1901-2005" NA NA NA
+"287" "NMFS" "USA" "California Current" "Longspine thornyhead Pacific Coast" "\textit{Sebastolobus altivelis}" "Scorpaeniformes" 3.61 "Integrated Analysis" "1962-2005" 2005 "2.65" "0.23"
+"288" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Greater amberjack Southern Atlantic coast" "\textit{Seriola dumerili}" "Perciformes" NA "Statistical catch at age model" "1946-2006" NA NA NA
+"289" "NMFS" "USA" "Gulf of Mexico" "Greater amberjack Gulf of Mexico" "\textit{Seriola dumerili}" "Perciformes" NA "Biomass dynamics model" "1986-2004" NA NA NA
+"301" "NMFS" "USA" "Southeast U.S. Continental Shelf" "Bonnethead shark Atlantic" "\textit{Sphyrna tiburo}" "Carcharhiniformes" NA "Biomass dynamics model" "1950-2005" NA NA NA
+"302" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Atlantic surfclam Mid-Atlantic Coast" "\textit{Spisula solidissima}" "Veneroida" NA "Biomass dynamics model" "1965-2008" NA NA NA
+"305" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Spiny dogfish Atlantic Coast" "\textit{Squalus acanthias}" "Squaliformes" NA "Unknown" "1962-2006" NA NA NA
+"306" "NMFS" "USA" "Northeast U.S. Continental Shelf" "Scup Atlantic Coast" "\textit{Stenotomus chrysops}" "Perciformes" NA "Statistical catch at age model" "1960-2007" NA NA NA
+"309" "NMFS" "USA" "Gulf of Alaska" "Walleye pollock Gulf of Alaska" "\textit{Theragra chalcogramma}" "Gadiformes" NA "Statistical catch at age model" "1964-2008" NA NA NA
+"310" "NMFS" "USA" "East Bering Sea" "Walleye pollock Eastern Bering Sea" "\textit{Theragra chalcogramma}" "Gadiformes" 3.45 "Statistical catch at age model" "1963-2008" 2008 "0.66" "0.85 *"
+"311" "NMFS" "USA" "East Bering Sea" "Walleye pollock Aleutian Islands" "\textit{Theragra chalcogramma}" "Gadiformes" 3.45 "Statistical catch at age model" "1976-2008" 2008 "0.86" "0.02"
+"328" "NMFS" "USA" "Northeast U.S. Continental Shelf" "White hake Georges Bank / Gulf of Maine" "\textit{Urophycis tenuis}" "Gadiformes" 4.2 "Biomass dynamics model" "1963-2007" 2007 "0.35" "0.8"
+"308" "RFFA" "Russia" "Sea of Okhotsk" "Walleye pollock Northern Sea of Okhotsk" "\textit{Theragra chalcogramma}" "Gadiformes" NA "Biomass dynamics model" "1985-1994" NA NA NA
+"312" "RFFA" "Russia" "West Bering Sea" "Walleye pollock Western Bering Sea" "\textit{Theragra chalcogramma}" "Gadiformes" NA "VPA" "1994-2004" NA NA NA
+"326" "SPRFMO" "Multinational" "Humboldt Current" "Chilean jack mackerel Chilean EEZ and offshore" "\textit{Trachurus murphyi}" "Perciformes" 3.49 "Integrated Analysis" "1950-2010" 2010 "0.09 *" "3.66 *"
+"114" "UNKNOWN" "Multinational" "Pacific High Seas" "Shortfin mako Nothwest Pacific Ocean" "\textit{Isurus oxyrinchus}" "Lamniformes" NA "VPA" "1990-2003" NA NA NA
+"107" "US State" "USA" "Northeast U.S. Continental Shelf" "American lobster Rhode Island" "\textit{Homarus americanus}" "Decapoda" 3.7 "Biomass dynamics model" "1959-2007" 2006 "0.53 *" "0.67 *"
+"230" "US State" "USA" "Northeast U.S. Continental Shelf" "Winter flounder Rhode Island" "\textit{Pseudopleuronectes americanus}" "Pleuronectiformes" 2.83 "Biomass dynamics model" "1959-2007" 2006 "0.25 *" "2.02"
+"307" "US State" "USA" "Northeast U.S. Continental Shelf" "Tautog Rhode Island" "\textit{Tautoga onitis}" "Perciformes" 3.33 "Biomass dynamics model" "1959-2007" 2006 "0.84 *" "0.59 *"
+"127" "WCPFC" "Multinational" "Pacific High Seas" "Striped marlin Southwestern Pacific Ocean" "\textit{Kajikia audax}" "Perciformes" 4.58 "Statistical catch at age model" "1950-2003" 2003 "0.75" "1.11"
+"128" "WCPFC" "Multinational" "Pacific High Seas" "Skipjack tuna Central Western Pacific" "\textit{Katsuwonus pelamis}" "Perciformes" 4.35 "Statistical catch at age model" "1972-2006" 2006 "4.38" "0.3"
+"313" "WCPFC" "Multinational" "Pacific High Seas" "Albacore tuna South Pacific Ocean" "\textit{Thunnus alalunga}" "Perciformes" 4.31 "Statistical catch at age model" "1959-2006" 2006 "2.46" "0.9"
+"315" "WCPFC" "Multinational" "Pacific High Seas" "Yellowfin tuna Central Western Pacific" "\textit{Thunnus albacares}" "Perciformes" 4.34 "Statistical catch at age model" "1952-2005" 2005 "1.22" "0.8"
+"321" "WCPFC" "Multinational" "Pacific High Seas" "Bigeye tuna Western Pacific Ocean" "\textit{Thunnus obesus}" "Perciformes" 4.5 "Statistical catch at age model" "1952-2006" 2006 "1.06" "1.38"

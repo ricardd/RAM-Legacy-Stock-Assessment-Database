@@ -93,7 +93,7 @@ Loading required package: RODBC
 > nn <- length(salt.and.pepper$bratiocurrent.x)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRBBMSY'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRBBMSY''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMFORCORRBBMSY',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -103,7 +103,7 @@ character(0)
 > nn <- round(nn,2)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRBBMSY'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRBBMSY''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRBBMSY',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -218,7 +218,7 @@ character(0)
 > nn <- length(salt.and.pepper$fratiocurrent.x)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRFFMSY'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMFORCORRFFMSY''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMFORCORRFFMSY',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -227,7 +227,7 @@ character(0)
 > nn <- round(nn,2)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRFFMSY'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRFFMSY''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRFFMSY',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -270,7 +270,7 @@ null device
 >   nn<-numerator
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTBCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTBCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMCORRECTBCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -279,7 +279,7 @@ character(0)
 > nn <- denominator
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMBCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMBCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMBCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -287,7 +287,7 @@ character(0)
 > nn <- round(100*numerator/denominator,0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTBCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTBCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRECTBCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -296,7 +296,7 @@ character(0)
 >   nn<-numerator
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTUCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMCORRECTUCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMCORRECTUCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -305,7 +305,7 @@ character(0)
 > nn <- denominator
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMUCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMUCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMUCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -313,7 +313,7 @@ character(0)
 > nn <- round(100*numerator/denominator,0)
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTUCLASS'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:PERCENTCORRECTUCLASS''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:PERCENTCORRECTUCLASS',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -351,4 +351,4 @@ character(0)
 > 
 > proc.time()
    user  system elapsed 
-  0.720   0.064   1.390 
+  0.744   0.028   1.237 

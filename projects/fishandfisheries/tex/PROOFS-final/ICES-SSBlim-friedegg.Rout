@@ -101,7 +101,7 @@ Copyright M. P. Wand 1997-2009
 >   nn <- dim(crosshair.dat)[1]
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDfor",sql.label,"'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:NUMASSESSFRIEDforICESBlim''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:NUMASSESSFRIEDfor",sql.label,"',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -112,7 +112,7 @@ character(0)
 >   nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y>=1.0 ))[1]
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDABOVEUMSYforICESBlim''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -120,7 +120,7 @@ character(0)
 >   nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y>=1.0 ))[1]
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDABOVEUMSYforICESBlim''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDABOVEUMSYfor",sql.label,"',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -129,7 +129,7 @@ character(0)
 >   nn <- dim(subset(crosshair.dat, ratio.x>=1.0 & ratio.y<1.0 ))[1]
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:aboveBMSYANDBELOWUMSYforICESBlim''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:aboveBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -138,7 +138,7 @@ character(0)
 >   nn <- dim(subset(crosshair.dat, ratio.x<1.0 & ratio.y<1.0 ))[1]
 > delete.qu <- paste("DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"'",sep="" )
 > sqlQuery(chan,delete.qu)
-character(0)
+[1] "[RODBC] ERROR: Could not SQLExecDirect 'DELETE FROM fishfisheries.results WHERE flag= 'REF:SQL:belowBMSYANDBELOWUMSYforICESBlim''"
 > insert.qu <- paste("INSERT INTO fishfisheries.results VALUES ('REF:SQL:belowBMSYANDBELOWUMSYfor",sql.label,"',",nn,")",sep="" )
 > sqlQuery(chan,insert.qu)
 character(0)
@@ -150,4 +150,4 @@ null device
 > 
 > proc.time()
    user  system elapsed 
-  0.544   0.052   0.836 
+  0.560   0.036   0.759 

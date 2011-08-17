@@ -1,6 +1,6 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'CSIRO', 'GTPRAWNNAUST', 'FULTON', '2008-04-30', '2011-07-25 12:38:58', '1970-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'Delay difference', '', '../spreadsheets/Fulton-grooved_tiger_prawn-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
- INSERT INTO srdb.referencedoc VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'ID', 'NORTHPRAWNS') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'CSIRO', 'GTPRAWNNAUST', 'FULTON', '2008-04-30', '2011-08-11 10:53:04', '1970-2006', 'Received from CSIRO assessment team', 'Beth.Fulton@csiro.au', 'Based on fisheries data only', '', 1, 1, 'Delay difference', '', '../spreadsheets/Fulton-grooved_tiger_prawn-australia-2007_v2-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.referencedoc VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'ID', 'tiger_prawn_stocks2006.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'A1', 'Dichmont, Cathy') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-GTPRAWNNAUST-1970-2006-FULTON', 'T1', 'Assessment of Tiger Prawns') ; 

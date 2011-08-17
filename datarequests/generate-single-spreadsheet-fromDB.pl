@@ -2,7 +2,7 @@
 # script to generate a single Excel file with each table from srdb as a separate worksheet
 # Daniel Ricard
 # Started: 2011-06-13 from initial script for Rainer Froese's F&F request
-# Time-stamp: <2011-06-15 20:18:28 (srdbadmin)>
+# Time-stamp: <2011-08-16 11:50:52 (srdbadmin)>
 # Modification history:
 # 2011-06-15: adding an argument to the script call, to assign a name to the resulting spreadsheet file
 ## example USAGE: ./generate-single-spreadsheet-fromDB.pl RAM-Legacy-spreadsheet-snapshot-20110615
@@ -102,7 +102,8 @@ $sheet0->write(2, 0, "Please report any errors to Daniel Ricard (ricardd\@matsha
 
 #$sheet0->write(1, 1, $datetime);
 
-$sheet0->insert_image('E5','../doc/srdb-erd-2011.png');
+#$sheet0->insert_image('E5','../doc/srdb-erd-2011.png');
+$sheet0->insert_image('E5','../doc/RAM-Legacy-erd-2011-PRODUCTION.png');
 
 ## AREA
 my $sheet1 = $workbook->add_worksheet("area");
@@ -381,6 +382,9 @@ $rowcounter = $rowcounter + 1;
 # Run the autofit after you have finished writing strings to the workbook.
 autofit_columns($sheet10);
 
+
+## NOTE THAT THE PERL MODULE WRITES AN EXCEL FILE WITH A LIMITED NUMBER OF ROWS, workaround is to write to a csv file and add it in Excel 2010
+#  psql srdb -c 'select * from srdb.timeseries' -A -F "," > timeseries-20110815.csv
 ## TIMESERIES
 my $sheet11 = $workbook->add_worksheet("timeseries");
 $sql = qq{SELECT * from srdb.timeseries where assessid in (SELECT assessid from srdb.assessment where recorder !='MYERS' and assess=1) };
@@ -614,6 +618,59 @@ $rowcounter = $rowcounter + 1;
 # Run the autofit after you have finished writing strings to the workbook.
 autofit_columns($sheet19);
 
+
+## LMErefs
+my $sheet20 = $workbook->add_worksheet("lmerefs");
+$sql = qq{SELECT * from srdb.lmerefs};
+$handle = $dbh -> prepare($sql);
+$handle -> execute();
+$nn = $handle->{NUM_OF_FIELDS};
+
+## for autofit
+$sheet20->add_write_handler(qr[\w], \&store_string_widths);
+
+## write header
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet20->write(1, $c, $handle->{NAME_uc}->[$c-1], $format);
+  }
+
+$rowcounter = 2;
+while (my @row = $handle->fetchrow_array) {  # retrieve one row
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet20->write($rowcounter, $c, $row[$c-1]);
+  }
+$rowcounter = $rowcounter + 1;
+    }
+
+# Run the autofit after you have finished writing strings to the workbook.
+autofit_columns($sheet20);
+
+
+## lmetostock
+my $sheet21 = $workbook->add_worksheet("lmetostocks");
+$sql = qq{SELECT * from srdb.lmetostocks};
+$handle = $dbh -> prepare($sql);
+$handle -> execute();
+$nn = $handle->{NUM_OF_FIELDS};
+
+## for autofit
+$sheet21->add_write_handler(qr[\w], \&store_string_widths);
+
+## write header
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet21->write(1, $c, $handle->{NAME_uc}->[$c-1], $format);
+  }
+
+$rowcounter = 2;
+while (my @row = $handle->fetchrow_array) {  # retrieve one row
+  for(my $c = 1; $c<=$nn; $c++) {
+$sheet21->write($rowcounter, $c, $row[$c-1]);
+  }
+$rowcounter = $rowcounter + 1;
+    }
+
+# Run the autofit after you have finished writing strings to the workbook.
+autofit_columns($sheet21);
 
 
 #----------------

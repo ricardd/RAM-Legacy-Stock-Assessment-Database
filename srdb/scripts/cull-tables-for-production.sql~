@@ -1,0 +1,30 @@
+--
+-- Last modified Time-stamp: <2011-08-12 10:32:48 (srdbadmin)>
+
+-- remove surplus production fits
+DROP TABLE;
+
+ srdb   | spfits                           | table | srdbadmin
+ srdb   | spfits_fox                       | table | srdbadmin
+ srdb   | spfits_fox_all                   | table | srdbadmin
+ srdb   | spfits_fox_summary               | table | srdbadmin
+ srdb   | spfits_schaefer                  | table | srdbadmin
+ srdb   | spfits_schaefer_all              | table | srdbadmin
+ srdb   | spfits_schaefer_kbound2maxtb     | table | srdbadmin
+ srdb   | spfits_schaefer_kbound2maxtb_all | table | srdbadmin
+ srdb   | spfits_schaefer_kbound5maxtb     | table | srdbadmin
+ srdb   | spfits_schaefer_kbound5maxtb_all | table | srdbadmin
+ srdb   | spfits_schaefer_summary          | table | srdbadmin
+
+-- remove fishfisheries schema and its tables
+
+-- remove the MTL table
+ srdb   | fishbasemtl                      | table | srdbadmin
+
+-- remove the QAQC table
+ srdb   | qaqc                             | table | srdbadmin
+
+-- remove other unwanted
+ srdb   | newtimeseries_values_view        | table | srdbadmin
+
+-- the database now only contains the tables that appear in the Entity-Relationship Diagram in the Supporting Information of the 2011 Fish and Fisheries manuscript

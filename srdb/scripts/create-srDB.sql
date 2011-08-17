@@ -5,7 +5,7 @@
 --
 -- Daniel Ricard
 -- Started: 2007-12-19
--- Last modified: Time-stamp: <2011-07-25 12:12:32 (srdbadmin)>
+-- Last modified: Time-stamp: <2011-08-12 11:30:38 (srdbadmin)>
 --
 -- Modification history:
 -- 2007-12-20: finalising the table definitions
@@ -19,7 +19,7 @@
 -- 2009-03-10: adding table for recorders
 -- 2010-08-31: adding comments on the tables and views, I haven't used this script for a long time since there is rarely a need to rebuild the database from scratch now
 
--- COMMENT ON DATABASE srdb IS 'RAM Legacy assessment database.';
+-- COMMENT ON DATABASE srdb IS 'RAM Legacy Stock Assessment Database.';
 
 -- create a separate schema for this database
 CREATE SCHEMA srdb;
@@ -29,7 +29,7 @@ CREATE SCHEMA srdb;
 -- create a separate schema for the recovery work 
 -- CREATE SCHEMA srdbrecovery;
 
-COMMENT ON SCHEMA srdb IS 'This schema handles all tables and views for the RAM Legacy assessment database.';
+COMMENT ON SCHEMA srdb IS 'This schema handles all tables and views for the RAM Legacy Stock Assessment Database.';
 
 -- table for the different management authorities
 CREATE TABLE srdb.management (

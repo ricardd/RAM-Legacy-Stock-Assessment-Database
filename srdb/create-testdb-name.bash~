@@ -1,0 +1,3 @@
+#!/bin/bash
+## use the database supplied as an argument to create a test version of it, which means copying it and removing the tables not necessary for the production version
+# Last modified Time-stamp: <2011-08-12 10:42:17 (srdbadmin)>

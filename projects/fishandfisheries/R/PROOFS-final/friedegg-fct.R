@@ -1,8 +1,9 @@
-## last modified Time-stamp: <2011-08-09 23:53:23 (srdbadmin)>
+## last modified Time-stamp: <2011-08-19 10:55:40 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
 ## 2011-06-16: adding code to write to the fishfisheries.results table, to have some number of stocks below Bmsy, etc. for the taxonomic fried eggs
+## 2011-08019: Sean Anderson spotted an error in the assignment of "denominator" and "numerator" in the SQL queries. Note that this had no impact on the plots since they all use "ratio". I am fixing this nonetheless becuase it is wrong. The denominator is the reference point, the numerator is the current year biomass.
 library(RODBC)
 library(KernSmooth)
 
@@ -26,7 +27,7 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
-select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
 ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 
@@ -323,7 +324,7 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
-select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit, ") and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+select a.assessid, a.maxyr, a.biovalue as denominator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where assessorid in (select assessorid from srdb.assessor where mgmt IN ",gcrit, ") and recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
 ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 
@@ -475,7 +476,7 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
-select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where", gcrit, ")) AND recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+select a.assessid, a.maxyr, a.biovalue as denominator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where stockid in (select stockid from srdb.stock where tsn in (select tsn from srdb.taxonomy where", gcrit, ")) AND recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
 ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 
@@ -598,7 +599,7 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
-select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as denominator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where stockid in ",gcrit, " AND recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+select a.assessid, a.maxyr, a.biovalue as denominator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where stockid in ",gcrit, " AND recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
 ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 

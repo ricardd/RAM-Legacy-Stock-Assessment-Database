@@ -1,10 +1,11 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2011-04-06 10:31:28 (srdbadmin)>
+-- Time-stamp: <2011-06-27 10:47:38 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 
 -- 2010-03-23: <ricardd> rewrote the reference points views, old definitions were moved to "srDB-views-old.sql"
+-- 2011-06-27: removing the phase plane views
 SET SEARCH_PATH to public, srdb;
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- time series values view 
@@ -828,71 +829,74 @@ cpue is null and
 catch_landings is null
 ;
 
-drop table srdb.newtimeseries_ssbrelative_view;
-create table srdb.newtimeseries_ssbrelative_view as
-(
-SELECT 
-tsv.assessid,
-tsv.tsyear,
-tsv.ssb,
-rpv.ssbmsy,
-tsv.ssb/CAST(rpv.ssbmsy as NUMERIC) as ssbrelativetossbmsy
-FROM
-srdb.newtimeseries_values_view tsv,
-srdb.timeseries_units_view tsu,
-srdb.reference_point_units_view rpu,
-srdb.reference_point_values_view rpv
-WHERE
-tsv.assessid = rpv.assessid AND
-tsu.assessid = tsv.assessid AND
-rpu.assessid = rpv.assessid AND
-tsu.ssb_unit = rpu.ssbmsy_unit AND
-tsv.ssb is not NULL
-ORDER BY
-tsv.assessid,
-tsv.tsyear
-)
-;
 
-drop table srdb.newtimeseries_frelative_view;
-create table srdb.newtimeseries_frelative_view as
-(
-SELECT 
-tsv.assessid,
-tsv.tsyear,
-tsv.f,
-rpv.fmsy,
-tsv.f/CAST(rpv.fmsy as NUMERIC) as frelativetofmsy
-FROM
-srdb.newtimeseries_values_view tsv,
-srdb.timeseries_units_view tsu,
-srdb.reference_point_units_view rpu,
-srdb.reference_point_values_view rpv
-WHERE
-tsv.assessid = rpv.assessid AND
-tsu.assessid = tsv.assessid AND
-rpu.assessid = rpv.assessid AND
-tsu.f_unit = rpu.fmsy_unit AND
-tsv.f is not NULL
-ORDER BY
-tsv.assessid,
-tsv.tsyear
-)
-;
+-- 2011-06-27: removing these tables from the database, will affect the preliminary code for phase-plane analyses, which should be updated to use srdb.tsrelative_explicit_view, defined below
+--
+--drop table srdb.newtimeseries_ssbrelative_view;
+--create table srdb.newtimeseries_ssbrelative_view as
+--(
+--SELECT 
+--tsv.assessid,
+--tsv.tsyear,
+--tsv.ssb,
+--rpv.ssbmsy,
+--tsv.ssb/CAST(rpv.ssbmsy as NUMERIC) as ssbrelativetossbmsy
+--FROM
+--srdb.newtimeseries_values_view tsv,
+--srdb.timeseries_units_view tsu,
+--srdb.reference_point_units_view rpu,
+--srdb.reference_point_values_view rpv
+--WHERE
+--tsv.assessid = rpv.assessid AND
+--tsu.assessid = tsv.assessid AND
+--rpu.assessid = rpv.assessid AND
+--tsu.ssb_unit = rpu.ssbmsy_unit AND
+--tsv.ssb is not NULL
+--ORDER BY
+--tsv.assessid,
+--tsv.tsyear
+--)
+--;
 
-DROP TABLE srdb.phaseplane;
-CREATE TABLE srdb.phaseplane
-AS
-(
-SELECT s.assessid, s.tsyear, s.ssbrelativetossbmsy, f.frelativetofmsy
-FROM
-srdb.newtimeseries_ssbrelative_view s,
-srdb.newtimeseries_frelative_view f
-where 
-s.assessid = f.assessid AND
-s.tsyear = f.tsyear
-)
-;
+--drop table srdb.newtimeseries_frelative_view;
+--create table srdb.newtimeseries_frelative_view as
+--(
+--SELECT 
+--tsv.assessid,
+--tsv.tsyear,
+--tsv.f,
+--rpv.fmsy,
+--tsv.f/CAST(rpv.fmsy as NUMERIC) as frelativetofmsy
+--FROM
+--srdb.newtimeseries_values_view tsv,
+--srdb.timeseries_units_view tsu,
+--srdb.reference_point_units_view rpu,
+--srdb.reference_point_values_view rpv
+--WHERE
+--tsv.assessid = rpv.assessid AND
+--tsu.assessid = tsv.assessid AND
+--rpu.assessid = rpv.assessid AND
+--tsu.f_unit = rpu.fmsy_unit AND
+--tsv.f is not NULL
+--ORDER BY
+--tsv.assessid,
+--tsv.tsyear
+--)
+--;
+
+--DROP TABLE srdb.phaseplane;
+--CREATE TABLE srdb.phaseplane
+--AS
+--(
+--SELECT s.assessid, s.tsyear, s.ssbrelativetossbmsy, f.frelativetofmsy
+--FROM
+--srdb.newtimeseries_ssbrelative_view s,
+--srdb.newtimeseries_frelative_view f
+--where 
+--s.assessid = f.assessid AND
+--s.tsyear = f.tsyear
+--)
+--;
 
 
 -- 2010-03-11: do the same but only using the stocks for which there is explicit linking between the reference point and the timeseries

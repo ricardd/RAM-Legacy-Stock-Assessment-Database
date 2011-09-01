@@ -1,4 +1,4 @@
-## last modified Time-stamp: <2011-08-19 10:55:40 (srdbadmin)>
+## last modified Time-stamp: <2011-08-22 13:59:56 (srdbadmin)>
 ## main routine to produce fried eggs
 ##
 ## Modification history
@@ -27,7 +27,7 @@ select tsv.assessid, a.maxyr, tsv.total as numerator, sp.bmsy as denominator, ts
 ## maximum year for which there is both SSB/TB and F
   
   ssb.pepper.qu <- paste("
-select a.assessid, a.maxyr, a.biovalue as numerator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
+select a.assessid, a.maxyr, a.biovalue as denominator, v.tsvalue as numerator, v.tsvalue/cast(a.biovalue as numeric) as ratio, 'yes' as btype  from (select assessid, max(tsyear) as maxyr, biovalue from srdb.tsrelative_explicit_view where bioid like \'%Bmsy%\'  and assessid in (select assessid from srdb.assessment where recorder != \'MYERS\') group by assessid, biovalue) as a, srdb.tsrelative_explicit_view v where a.assessid = v.assessid and v.tsyear=a.maxyr and v.biovalue=a.biovalue and v.bioid like \'%Bmsy%\';
 ", sep="")
 ssb.pepper <- sqlQuery(chan,ssb.pepper.qu, stringsAsFactors=FALSE)
 

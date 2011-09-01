@@ -79,6 +79,7 @@ category,subcategory,bioshort,biolong,biounitsshort,biounitslong
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","F0.1","the fishing mortality rate at which the increase in yield per recruit in weight for an increase in a unit of effort is only 10 percent of the yield per recruit produced by the first unit of effort on the unexploited stock","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","F0.1","the fishing mortality rate at which the increase in yield per recruit in weight for an increase in a unit of effort is only 10 percent of the yield per recruit produced by the first unit of effort on the unexploited stock","1/T","per unit time"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fext","the rate of fishing mortality where equilibrium biomass=0","1/yr","per year"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fext","the rate of fishing mortality where equilibrium biomass=0","1/T","per unit time"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Flim","the fishing mortality threshold, above which fishing has typically lead to stock decline","1/yr","per year"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Flim","the fishing mortality threshold, above which fishing has typically lead to stock decline","1/T","per unit time"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","Fmax","the rate of fishing mortality for a given exploitation pattern rate of growth and natural mortality, that results in the maximum level of yield per recruit","1/yr","per year"

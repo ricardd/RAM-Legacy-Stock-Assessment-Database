@@ -1,0 +1,47 @@
+**AUGUST 19 2011**
+Sean Anderson, working with the data for his stock status classification paper noted some cases where the biomass ratio reported in the FaF paper was TB/TBmsy, not SSB/SSBmsy as it should. These stocks had both TBmsy and SSBmsy defined and the code for the fried eggs mistakenly chose the TB/TBmsy ratio.The following 2 assessments were affected by this:
+
+SEFSC-TILESATLC-1961-2002-STANTON (B/Bmsy ratio changed from 0.9 to 0.94)
+
+SPC-STMARLINSWPO-1950-2003-JENSEN (B/Bmsy ratio changed from 0.75 to 0.7)
+
+ 
+Another mistake was found with NWFSC-DKROCKPCOAST-1928-2007-BRANCH, where the units for SSBmsy (E03eggs) were not included in the definition of the view srdb.reference_point_values_view, this was changed and that assessid now appears in the view.
+**
+
+**AUGUST 28 2011**
+(Daniel Ricard, while working on Ph.D. prelim): I noticed that the B/Bmsy reported for NWFSC-WROCKPCOAST-1955-2006-BRANCH is from the Schaefer fits, whereas there is a SSBmsy defined. The units between the SSBmsy reference point and the SSB time series did not match because of units normalisation in the timeseries. I fixed this. The ratio changed from 0.91 to 0.88.
+
+See http://www.marinebiodiversity.ca/RAMlegacy/ramlegacy-bug-reporting/62
+**
+
+***AUGUST 30 2011**
+Sean Anderson identified a few more stocks whose reference points were not in srdb.brptots and in the srdb.tsrelative_explicit_view:
+
+DFO-PAC-PCODHS-1956-2005-COLLIE: B ratio changed from 0.37 to 1.2 and F ratio changed from 0.25 to 0.22
+
+DFO-PAC-PCODWCVANI-1956-2002-COLLIE: B ratio changed from 0.28 to 1.04 and F ratio changed from 0.61 to 0.47
+
+NAFO-SC-YELL3LNO-1960-2009-BAUM: B ratio changed from 1.62 to 1.64 and F ratio changed from 0.15 to 0.48
+
+NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD: B ratio changed from 0.81 to 1.05
+
+NEFSC-CODGOM-1893-2008-BAUM: B ratio changed from 1.46 to 0.63
+
+NEFSC-MONKGOMNGB-1964-2006-RICHARDS: B ratio changed from 1.73 to 2.42 and F ratio changed from 0.38 to 1.23
+
+ICCAT-SKJEATL-1950-2006-JENSEN: B ratio stayed at 1.71
+
+ICCAT-SKJWATL-1952-2006-JENSEN: B ratio changed from 1.72 to 1.67
+
+ICCAT-BIGEYEATL-1950-2005-JENSEN: B ratio stayed at 0.9
+
+NWFSC-CHILISPCOAST-1892-2007-BRANCH: B ratio changed from 1.43 to 1.96
+
+RIDEM-WINFLOUNDRI-1959-2007-COLLIE: B ratio changed from 0.25 to 0.23
+
+RIDEM-LOBSTERRI-1959-2007-COLLIE: B ratio changed from 0.53 to 0.61 and F ratio changed from 0.67 to 0.64
+
+RIDEM-TAUTOGRI-1959-2007-COLLIE: B ratio changed from 0.84 to 0.79 and F ratio changed from 0.59 to 0.62
+
+******************************************************

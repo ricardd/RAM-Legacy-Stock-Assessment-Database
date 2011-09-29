@@ -1,6 +1,6 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2011-06-27 10:47:38 (srdbadmin)>
+-- Time-stamp: <2011-08-30 15:20:05 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 
@@ -707,7 +707,7 @@ select assessid, common, area, points_available, bmsy, ssbmsy, blim, ssblim, ssb
 	max(CASE WHEN upper(subcategory) = 'REFERENCE POINTS ETC.' AND (biounique = 'Bmsy-MT') THEN biovalue ELSE NULL END)
 	as "bmsy",
 --~~~~~~~~~~~~~~SSBmsy~~~~~~~~~~~~~~~~~~~~~~~~~
-	max(CASE WHEN upper(subcategory) = 'REFERENCE POINTS ETC.' AND (biounique in ('SSBmsy-MT','SSBmsy-E03egss','SSBmsy-E06larvae')) THEN biovalue ELSE NULL END)
+	max(CASE WHEN upper(subcategory) = 'REFERENCE POINTS ETC.' AND (biounique in ('SSBmsy-MT','SSBmsy-E03eggs','SSBmsy-E06larvae','SSBmsy-FemaleGonadMT')) THEN biovalue ELSE NULL END)
 	as "ssbmsy",
 --~~~~~~~~~~~~~~Blim~~~~~~~~~~~~~~~~~~~~~~~~~
 	max(CASE WHEN subcategory = 'REFERENCE POINTS ETC.' AND (biounique = 'Blim-MT') THEN biovalue ELSE NULL END)
@@ -763,7 +763,7 @@ select assessid, common, area, points_available,  bmsy_unit,   ssbmsy_unit,   bl
 	count(*) as "points_available",
 	min(CASE WHEN subcategory = 'REFERENCE POINTS ETC.' AND (biounique = 'Bmsy-MT') THEN biounitsshort ELSE NULL END)
 	as "bmsy_unit",
-	min(CASE WHEN subcategory = 'REFERENCE POINTS ETC.' AND (biounique in ('SSBmsy-MT','SSBmsy-E03egss','SSBmsy-E06larvae')) THEN biounitsshort ELSE NULL END)
+	min(CASE WHEN subcategory = 'REFERENCE POINTS ETC.' AND (biounique in ('SSBmsy-MT','SSBmsy-E03eggs','SSBmsy-E06larvae','SSBmsy-FemaleGonadMT')) THEN biounitsshort ELSE NULL END)
 	as "ssbmsy_unit",
 	min(CASE WHEN subcategory = 'REFERENCE POINTS ETC.' AND (biounique = 'Blim-MT') THEN biounitsshort ELSE NULL END)
 	as "blim_unit",

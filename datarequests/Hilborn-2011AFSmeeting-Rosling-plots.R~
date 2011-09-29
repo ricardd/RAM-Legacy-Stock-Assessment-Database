@@ -1,6 +1,6 @@
 ## generating a few data files for Ray Hilborn
 ## - these data are to be used for the Rosling charts that Ray wants to present at the AFS meeting
-## Last modified Time-stamp: <2011-09-02 12:01:45 (srdbadmin)>
+## Last modified Time-stamp: <2011-09-02 14:00:03 (srdbadmin)>
 
 setwd("/home/srdbadmin/srdb/datarequests")
 
@@ -46,6 +46,15 @@ all.merged <- merge(biomass.merged, exploitation.merged,c("assessid", "tsyear"))
 # keep only the necessary columns, make a neat data frame
 all.df <- data.frame(assessid=all.merged$assessid, stockid=all.merged$stockid.x, tsyear=all.merged$tsyear, bvalue=all.merged$tsvalue.x, bmsyvalue=all.merged$biovalue.x, bratio=all.merged$tstobrpratio.x, btype=all.merged$type.x, uvalue=all.merged$tsvalue.y, umsyvalue=all.merged$biovalue.y, uratio=all.merged$tstobrpratio.y, utype=all.merged$type.y)
 
+## bring in the available catch data
+qu.cat <- paste("
+select a.assessid, tsv.tsyear, tsv.catch_landings, tsu.catch_landings_unit from srdb.assessment a, srdb.timeseries_values_view tsv, srdb.timeseries_units_view tsu where a.assessid=tsv.assessid and tsv.assessid=tsu.assessid and a.mostrecent='yes' and a.assess=1 and tsv.catch_landings is not null
+",sep="")
+
+my.cat <- sqlQuery(chan,qu.cat)
+
+ray.df <- merge(all.df, my.cat, c("assessid","tsyear"), all.x=TRUE)
+
 ## bring in the stock details
 qu.det <- paste("
 select a.assessid, s.stockid, s.stocklong, t.scientificname, lr.lme_name from srdb.assessment a, srdb.stock s, srdb.taxonomy t, srdb.lmerefs lr, srdb.lmetostocks ls where a.stockid=s.stockid and s.tsn = t.tsn and s.stockid = ls.stockid and lr.lme_number=ls.lme_number and ls.stocktolmerelation ='primary' and a.mostrecent='yes' and a.assess=1
@@ -54,6 +63,6 @@ select a.assessid, s.stockid, s.stocklong, t.scientificname, lr.lme_name from sr
 my.det <- sqlQuery(chan,qu.det)
 
 write.csv(my.det, "Hilborn-2011AFS-stockdetails.csv", row.names=FALSE)
-write.csv(all.df, "Hilborn-2011AFS-timeseries.csv", row.names=FALSE)
+write.csv(ray.df, "Hilborn-2011AFS-timeseries.csv", row.names=FALSE)
 
 odbcClose(chan)

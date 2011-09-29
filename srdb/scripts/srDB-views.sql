@@ -1,6 +1,6 @@
 -- views for stock-recruitment database
 -- original code by Coilin Minto
--- Time-stamp: <2011-08-30 15:20:05 (srdbadmin)>
+-- Time-stamp: <2011-09-02 21:47:03 (srdbadmin)>
 -- Modification history:
 -- 2009-03-18: <ricardd> on Olaf's request, creating a new view that doesn't contain RAM's original data
 -- 2010-02-12: <ricardd> adding a new view of timeseries relative to reference points 

@@ -1,332 +1,333 @@
-"assessid","stockid","stocklong","scientificname","lme_name"
-"DFO-NFLD-COD2J3KL-1850-2005-RICARD","COD2J3KL","Atlantic cod NAFO 2J3KL","Gadus morhua","Newfoundland-Labrador Shelf"
-"DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE","COD2J3KLIS","Atlantic cod NAFO 2J3KL inshore","Gadus morhua","Newfoundland-Labrador Shelf"
-"NAFO-SC-COD3M-1959-2008-BAUM","COD3M","Atlantic cod NAFO 3M","Gadus morhua","Newfoundland-Labrador Shelf"
-"NAFO-SC-COD3NO-1953-2007-BAUM","COD3NO","Atlantic cod NAFO 3NO","Gadus morhua","Newfoundland-Labrador Shelf"
-"DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE","COD3Ps","Atlantic cod NAFO 3Ps","Gadus morhua","Newfoundland-Labrador Shelf"
-"DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE","COD3Pn4RS","Atlantic cod NAFO 3Pn4RS","Gadus morhua","Newfoundland-Labrador Shelf"
-"DFO-MAR-COD4VsW-1958-2002-PREFONTAINE","COD4VsW","Atlantic cod NAFO 4VsW","Gadus morhua","Scotian Shelf"
-"DFO-SG-COD4TVn-1965-2009-RICARD","COD4TVn","Atlantic cod NAFO 4TVn","Gadus morhua","Scotian Shelf"
-"DFO-COD5Zjm-1978-2003-PREFONTAINE","COD5Zjm","Atlantic cod NAFO 5Zjm","Gadus morhua","Northeast U.S. Continental Shelf"
-"AFWG-CODNEAR-1943-2006-MINTO","CODNEAR","Atlantic cod Northeast Arctic","Gadus morhua","Barents Sea"
-"WGBFAS-CODBA2224-1969-2007-JENNINGS","CODBA2224","Atlantic cod Baltic Areas 22 and 24","Gadus morhua","Baltic Sea"
-"WGBFAS-CODBA2532-1964-2007-JENNINGS","CODBA2532","Atlantic cod Baltic Areas 25-32","Gadus morhua","Baltic Sea"
-"WGNSDS-CODVIa-1977-2006-MINTO","CODVIa","Atlantic cod West of Scotland","Gadus morhua","Celtic-Biscay Shelf"
-"WGNSDS-CODIS-1968-2006-MINTO","CODIS","Atlantic cod Irish Sea","Gadus morhua","Celtic-Biscay Shelf"
-"NWWG-CODICE-1952-2006-MINTO","CODICE","Atlantic cod Iceland","Gadus morhua","Iceland Shelf"
-"WGNSSK-CODNS-1962-2007-MINTO","CODNS","Atlantic cod North Sea","Gadus morhua","North Sea"
-"WGBFAS-CODKAT-1970-2006-MINTO","CODKAT","Atlantic cod Kattegat","Gadus morhua","North Sea"
-"AFSC-PCODGA-1964-2008-MELNYCHUK","PCODGA","Pacific cod Gulf of Alaska","Gadus macrocephalus","Gulf of Alaska"
-"DFO-PAC-PCODHS-1956-2005-COLLIE","PCODHS","Pacific cod Hecate Strait","Gadus macrocephalus","Gulf of Alaska"
-"DFO-PAC-PCODWCVANI-1956-2002-COLLIE","PCODWCVANI","Pacific cod West Coast of Vancouver Island","Gadus macrocephalus","Gulf of Alaska"
-"AFSC-REXSOLEGA-1979-2008-STANTON","REXSOLEGA","Rex sole Gulf of Alaska","Glyptocephalus zachirus","Gulf of Alaska"
-"AFSC-ARFLOUNDGA-1958-2010-STANTON","ARFLOUNDGA","Arrowtooth flounder Gulf of Alaska","Reinhardtius stomias","Gulf of Alaska"
-"AFSC-FLSOLEGA-1978-2010-Stachura","FLSOLEGA","Flathead sole Gulf of Alaska","Hippoglossoides elassodon","Gulf of Alaska"
-"AFSC-NRSOLEEBSAI-1971-2008-STANTON","NRSOLEEBSAI","Northern rock sole Eastern Bering Sea and Aleutian Islands","Lepidopsetta polyxystra","East Bering Sea"
-"AFSC-PERCHEBSAI-1974-2009-STANTON","PERCHEBSAI","Pacific Ocean perch Eastern Bering Sea and Aleutian Islands","Sebastes alutus","East Bering Sea"
-"AFSC-NROCKGA-1959-2008-MELNYCHUK","NROCKGA","Northern rockfish Gulf of Alaska","Sebastes polyspinis","Gulf of Alaska"
-"AFSC-REYEROCKGA-1974-2007-MELNYCHUK","REYEROCKGA","Rougheye rockfish Gulf of Alaska","Sebastes aleutianus","Gulf of Alaska"
-"NEFSC-AMPL5YZ-1960-2008-OBRIEN","AMPL5YZ","American Plaice NAFO-5YZ","Hippoglossoides platessoides","Northeast U.S. Continental Shelf"
-"NAFO-SC-AMPL3LNO-1955-2007-BAUM","AMPL3LNO","American Plaice NAFO-3LNO","Hippoglossoides platessoides","Newfoundland-Labrador Shelf"
-"NAFO-SC-AMPL3M-1960-2007-BAUM","AMPL3M","American Plaice NAFO-3M","Hippoglossoides platessoides","Newfoundland-Labrador Shelf"
-"DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE","HAD4X5Y","Haddock NAFO-4X5Y","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf"
-"NEFSC-HAD5Y-1956-2008-BAUM","HAD5Y","Haddock NAFO-5Y","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf"
-"DFO-HAD5Zejm-1968-2003-PREFONTAINE","HAD5Zejm","Haddock NAFO-5Zejm","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf"
-"NWWG-HADICE-1977-2007-MINTO","HADICE","Haddock Iceland","Melanogrammus aeglefinus","Iceland Shelf"
-"NAFO-SC-YELL3LNO-1960-2009-BAUM","YELL3LNO","Yellowtail Flounder NAFO 3LNO","Limanda ferruginea","Northeast U.S. Continental Shelf"
-"NEFSC-YELLSNEMATL-1935-2008-BAUM","YELLSNEMATL","Yellowtail Flounder Southern New England-Mid Atlantic","Limanda ferruginea","Northeast U.S. Continental Shelf"
-"NEFSC-POLL5YZ-1963-2007-MAYO","POLL5YZ","Pollock NAFO-5YZ","Pollachius virens","Northeast U.S. Continental Shelf"
-"NEFSC-WITFLOUN5Y-1982-2008-WIGLEY","WITFLOUN5Y","Witch Flounder NAFO-5Y","Glyptocephalus cynoglossus","Northeast U.S. Continental Shelf"
-"NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE","WINFLOUND5Y","Winter Flounder NAFO-5Y","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf"
-"NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO","WINFLOUNSNEMATL","Winter Flounder Southern New England-Mid Atlantic","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf"
-"NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON","WINFLOUN5Z","Winter Flounder NAFO-5Z","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf"
-"NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON","WINDOWSNEMATL","Windowpane Southern New England-Mid Atlantic","Scophthalmus aquosus","Northeast U.S. Continental Shelf"
-"NEFSC-ATHAL5YZ-1800-2007-COL","ATHAL5YZ","Atlantic Halibut NAFO-5YZ","Hippoglossus hippoglossus","Northeast U.S. Continental Shelf"
-"AFWG-CAPENOR-1965-2007-MINTO","CAPENOR","Capelin Barents Sea","Mallotus villosus","Barents Sea"
-"NWWG-CAPEICE-1977-2007-MINTO","CAPEICE","Capelin Iceland","Mallotus villosus","Iceland Shelf"
-"NWWG-CODFAPL-1959-2006-MINTO","CODFAPL","Atlantic cod Faroe Plateau","Gadus morhua","Faroe Plateau"
-"AFWG-CODCOASTNOR-1982-2006-MINTO","CODCOASTNOR","Atlantic cod coastal Norway","Gadus morhua","Norwegian Sea"
-"AFWG-GHALNEAR-1959-2007-JENNINGS","GHALNEAR","Greenland halibut Northeast Arctic","Reinhardtius hippoglossoides","Barents Sea"
-"AFWG-POLLNEAR-1957-2006-MINTO","POLLNEAR","Pollock Northeast Arctic","Pollachius virens","Barents Sea"
-"NWWG-POLLFAPL-1958-2006-MINTO","POLLFAPL","Pollock Faroe Plateau","Pollachius virens","Faroe Plateau"
-"AFWG-HADNEAR-1947-2006-MINTO","HADNEAR","Haddock Northeast Arctic","Melanogrammus aeglefinus","Barents Sea"
-"NWWG-HADFAPL-1955-2006-MINTO","HADFAPL","Haddock Faroe Plateau","Melanogrammus aeglefinus","Faroe Plateau"
-"WGNSSK-HADNS-IIIa-1963-2006-MINTO","HADNS-IIIa","Haddock ICES IIIa and North Sea","Melanogrammus aeglefinus","North Sea"
-"WGNSDS-HADVIa-1977-2006-MINTO","HADVIa","Haddock West of Scotland","Melanogrammus aeglefinus","Celtic-Biscay Shelf"
-"WGSSDS-HADVIIb-k-1993-2006-JENNINGS","HADVIIb-k","Haddock ICES VIIb-k","Melanogrammus aeglefinus","Celtic-Biscay Shelf"
-"WGNSSK-HADROCK-1990-2007-JENNINGS","HADROCK","Haddock Rockall Bank","Melanogrammus aeglefinus","Celtic-Biscay Shelf"
-"WGNSDS-HADIS-1972-2006-MINTO","HADIS","Haddock Irish Sea","Melanogrammus aeglefinus","Celtic-Biscay Shelf"
-"AFWG-GOLDREDNEAR-1986-2006-MINTO","GOLDREDNEAR","Golden Redfish Northeast Arctic","Sebastes norvegicus","Barents Sea"
-"RIDEM-LOBSTERRI-1959-2007-COLLIE","LOBSTERRI","American lobster Rhode Island","Homarus americanus","Northeast U.S. Continental Shelf"
-"RIDEM-TAUTOGRI-1959-2007-COLLIE","TAUTOGRI","Tautog Rhode Island","Tautoga onitis","Northeast U.S. Continental Shelf"
-"RIDEM-WINFLOUNDRI-1959-2007-COLLIE","WINFLOUNDRI","Winter flounder Rhode Island","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf"
-"WGNSSK-SEELNS-1983-2007-MINTO","SEELNS","Sandeel North Sea","Ammodytes marinus","North Sea"
-"WGNSSK-NPOUTNS-1983-2007-MINTO","NPOUTNS","Norway pout North Sea","Trisopterus esmarkii","North Sea"
-"WGBFAS-HERRIsum-1983-2007-JENNINGS","HERRIsum","Herring Iceland (Summer spawners)","Clupea harengus","Iceland Shelf"
-"HAWG-HERRNS-1960-2007-MINTO","HERRNS","Herring North Sea","Clupea harengus","North Sea"
-"HAWG-HERRVIa-1957-2006-MINTO","HERRVIa","Herring ICES VIa","Clupea harengus","Celtic-Biscay Shelf"
-"HAWG-HERRVIaVIIbc-1969-2000-MINTO","HERRVIaVIIbc","Herring ICES VIa-VIIb-VIIc","Clupea harengus","Celtic-Biscay Shelf"
-"HAWG-HERR2224IIIa-1991-2006-MINTO","HERR2224IIIa","Herring ICES 22-24-IIIa","Clupea harengus","North Sea"
-"WGBFAS-HERR2532-1973-2006-JENNINGS","HERR2532","Herring ICES 25-32","Clupea harengus","Baltic Sea"
-"WGBFAS-HERR30-1972-2007-JENNINGS","HERR30","Herring ICES 30","Clupea harengus","Baltic Sea"
-"WGBFAS-HERRRIGA-1976-2007-JENNINGS","HERRRIGA","Herring ICES 28","Clupea harengus","Baltic Sea"
-"HAWG-HERRNIRS-1960-2006-JENNINGS","HERRNIRS","Herring Northern Irish Sea","Clupea harengus","Celtic-Biscay Shelf"
-"WGNSSK-PLAIC7d-1979-2006-MINTO","PLAIC7d","European Plaice ICES VIId","Pleuronectes platessa","Celtic-Biscay Shelf"
-"WGNSSK-PLAICIIIa-1976-2006-MINTO","PLAICIIIa","European Plaice ICES IIIa","Pleuronectes platessa","North Sea"
-"WGNSSK-PLAICNS-1956-2006-MINTO","PLAICNS","European Plaice North Sea","Pleuronectes platessa","North Sea"
-"WGNSDS-PLAICIS-1962-2006-MINTO","PLAICIS","European Plaice Irish Sea","Pleuronectes platessa","Celtic-Biscay Shelf"
-"WGSSDS-PLAICECHW-1975-2006-JENNINGS","PLAICECHW","European Plaice ICES VIIe","Pleuronectes platessa","Celtic-Biscay Shelf"
-"WGNSSK-SOLENS-1956-2006-MINTO","SOLENS","common European sole North Sea","Solea vulgaris","North Sea"
-"WGNSSK-SOLEVIId-1981-2006-MINTO","SOLEVIId","common European sole ICES VIId","Solea vulgaris","Celtic-Biscay Shelf"
-"WGNSDS-SOLEIS-1968-2006-MINTO","SOLEIS","common European sole Irish Sea","Solea vulgaris","Celtic-Biscay Shelf"
-"WGBFAS-SOLEIIIa-1982-2007-JENNINGS","SOLEIIIa","common European sole ICES Kattegat and Skagerrak","Solea vulgaris","North Sea"
-"WGSSDS-SOLEVIIe-1968-2006-JENNINGS","SOLEVIIe","common European sole Western English Channel","Solea vulgaris","Celtic-Biscay Shelf"
-"WGSSDS-SOLECS-1970-2006-JENNINGS","SOLECS","common European sole Celtic Sea","Solea vulgaris","Celtic-Biscay Shelf"
-"WGHMM-SOLEVIII-1982-2006-JENNINGS","SOLEVIII","common European sole Bay of Biscay","Solea vulgaris","Celtic-Biscay Shelf"
-"WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO","WHITNS-VIId-IIIa","Whiting ICES IIIa, VIId and North Sea","Merlangius merlangus","North Sea"
-"WGNSDS-WHITVIa-1984-2007-MINTO","WHITVIa","Whiting ICES VIa","Merlangius merlangus","Celtic-Biscay Shelf"
-"WGSSDS-WHITVIIek-1982-2007-JENNINGS","WHITVIIek","Whiting ICES VIIe-k","Merlangius merlangus","Celtic-Biscay Shelf"
-"HAWG-SPRATNS-1995-2007-MINTO","SPRATNS","Sprat North Sea","Sprattus sprattus","North Sea"
-"WGBFAS-SPRAT22-32-1973-2007-JENNINGS","SPRAT22-32","Sprat ICES Baltic Areas 22-32","Sprattus sprattus","Baltic Sea"
-"SPC-ALBASPAC-1959-2006-JENSEN","ALBASPAC","Albacore tuna South Pacific Ocean","Thunnus alalunga","Pacific High Seas"
-"NWFSC-CROCKPCOAST-1916-2009-Stachura","CROCKPCOAST","Canary rockfish Pacific Coast","Sebastes pinniger","California Current"
-"NWFSC-ESOLEPCOAST-1876-2007-BRANCH","ESOLEPCOAST","English sole Pacific Coast","Parophrys vetulus","California Current"
-"NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH","ARFLOUNDPCOAST","Arrowtooth flounder Pacific Coast","Reinhardtius stomias","California Current"
-"NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH","BLACKROCKNPCOAST","Black rockfish Northern Pacific Coast","Sebastes melanops","California Current"
-"NWFSC-BLUEROCKCAL-1916-2007-BRANCH","BLUEROCKCAL","Blue rockfish California","Sebastes mystinus","California Current"
-"NWFSC-CHILISPCOAST-1892-2007-BRANCH","CHILISPCOAST","Chilipepper Southern Pacific Coast","Sebastes goodei","California Current"
-"NWFSC-COWCODSCAL-1900-2007-BRANCH","COWCODSCAL","Cowcod Southern California","Sebastes levis","California Current"
-"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","California Current"
-"NWFSC-SABLEFPCOAST-1900-2007-BRANCH","SABLEFPCOAST","Sablefish Pacific Coast","Anoplopoma fimbria","California Current"
-"NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH","YEYEROCKPCOAST","Yelloweye rockfish Pacific Coast","Sebastes ruberrimus","California Current"
-"NWFSC-DKROCKPCOAST-1928-2007-BRANCH","DKROCKPCOAST","Darkblotched rockfish Pacific Coast","Sebastes crameri","California Current"
-"NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH","BLACKROCKSPCOAST","Black rockfish Southern Pacific Coast","Sebastes melanops","California Current"
-"NWFSC-BOCACCSPCOAST-1951-2006-BRANCH","BOCACCSPCOAST","Bocaccio Southern Pacific Coast","Sebastes paucispinis","California Current"
-"NWFSC-WROCKPCOAST-1955-2006-BRANCH","WROCKPCOAST","Widow rockfish Pacific Coast","Sebastes entomelas","California Current"
-"NWFSC-POPERCHPCOAST-1953-2007-BRANCH","POPERCHPCOAST","Pacific ocean perch Pacific Coast","Sebastes alutus","California Current"
-"SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH","SBELLYROCKPCOAST","Shortbelly rockfish Pacific Coast","Sebastes jordani","California Current"
-"NWFSC-PHAKEPCOAST-1966-2008-BRANCH","PHAKEPCOAST","Pacific hake Pacific Coast","Merluccius productus","California Current"
-"NEFSC-CODGB-1960-2008-BAUM","CODGB","Atlantic cod Georges Bank","Gadus morhua","Northeast U.S. Continental Shelf"
-"NEFSC-HADGB-1930-2008-BAUM","HADGB","Haddock Georges Bank","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf"
-"NEFSC-YELLGB-1935-2008-BAUM","YELLGB","Yellowtail flounder Georges Bank","Limanda ferruginea","Northeast U.S. Continental Shelf"
-"NEFSC-YELLCCODGOM-1935-2008-LEGAULT","YELLCCODGOM","Yellowtail flounder Cape Cod / Gulf of Maine","Limanda ferruginea","Northeast U.S. Continental Shelf"
-"NEFSC-CODGOM-1893-2008-BAUM","CODGOM","Atlantic cod Gulf of Maine","Gadus morhua","Northeast U.S. Continental Shelf"
-"NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE","WHAKEGBGOM","White hake Georges Bank / Gulf of Maine","Urophycis tenuis","Northeast U.S. Continental Shelf"
-"NEFSC-ACADREDGOMGB-1913-2007-MILLER","ACADREDGOMGB","Acadian redfish Gulf of Maine / Georges Bank","Sebastes fasciatus","Northeast U.S. Continental Shelf"
-"NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON","WINDOWGOMGB","Windowpane flounder - Gulf of Maine / Georges Bank","Scophthalmus aquosus","Northeast U.S. Continental Shelf"
-"NEFSC-SFLOUNMATLC-1940-2007-BAUM","SFLOUNMATLC","Summer flounder Mid-Atlantic Coast","Paralichthys dentatus","Northeast U.S. Continental Shelf"
-"NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD","STRIPEDBASSGOMCHATT","Striped bass Gulf of Maine / Cape Hatteras","Morone saxatilis","Northeast U.S. Continental Shelf"
-"NEFSC-QUAHATLC-1978-2008-CHUTE","QUAHATLC","Ocean quahog Atlantic Coast","Arctica islandica","Northeast U.S. Continental Shelf"
-"NEFSC-SURFMATLC-1965-2008-JACOBSON","SURFMATLC","Atlantic surfclam Mid-Atlantic Coast","Spisula solidissima","Northeast U.S. Continental Shelf"
-"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Northeast U.S. Continental Shelf"
-"NEFSC-BSBASSMATLC-1968-2007-SHEPHERD","BSBASSMATLC","Black sea bass Mid-Atlantic Coast","Centropristis striata","Northeast U.S. Continental Shelf"
-"NEFSC-SHAKEGOMNGB-1955-2005-COL","SHAKEGOMNGB","Silver hake Gulf of Maine / Northern Georges Bank","Merluccius bilinearis","Northeast U.S. Continental Shelf"
-"NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ","MACKGOMCHATT","Atlantic mackerel Gulf of Maine / Cape Hatteras","Scomber scombrus","Northeast U.S. Continental Shelf"
-"NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON","ILLEXNWATLC","Northern shortfin squid Northwestern Atlantic Coast","Illex illecebrosus","Northeast U.S. Continental Shelf"
-"NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD","BLUEFISHATLC","Bluefish Atlantic Coast","Pomatomus saltatrix","Northeast U.S. Continental Shelf"
-"NEFSC-TILEMATLC-1973-2008-NITSCHKE","TILEMATLC","Tilefish Mid-Atlantic Coast","Lopholatilus chamaeleonticeps","Northeast U.S. Continental Shelf"
-"NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ","BUTTERGOMCHATT","Atlantic butterfish Gulf of Maine / Cape Hatteras","Peprilus triacanthus","Northeast U.S. Continental Shelf"
-"NEFSC-SCUPNWATLC-1960-2007-TERCEIRO","SCUPNWATLC","Scup Atlantic Coast","Stenotomus chrysops","Northeast U.S. Continental Shelf"
-"NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ","HERRNWATLC","Atlantic herring Northwestern Atlantic Coast","Clupea harengus","Northeast U.S. Continental Shelf"
-"SEFSC-RSNAPEGM-1872-2003-STANTON","RSNAPEGM","Red snapper Eastern Gulf of Mexico","Lutjanus campechanus","Gulf of Mexico"
-"SEFSC-RSNAPWGM-1880-2003-STANTON","RSNAPWGM","Red snapper Western Gulf of Mexico","Lutjanus campechanus","Gulf of Mexico"
-"AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK","SABLEFEBSAIGA","Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska","Anoplopoma fimbria","East Bering Sea"
-"AFSC-PCODBSAI-1964-2008-MELNYCHUK","PCODBSAI","Pacific cod Bering Sea and Aleutian Islands","Gadus macrocephalus","East Bering Sea"
-"AFSC-YSOLEBSAI-1959-2008-MELNYCHUK","YSOLEBSAI","Yellowfin sole Bering Sea and Aleutian Islands","Limanda aspera","East Bering Sea"
-"AFSC-ARFLOUNDBSAI-1970-2008-STANTON","ARFLOUNDBSAI","Arrowtooth flounder Bering Sea and Aleutian Islands","Reinhardtius stomias","East Bering Sea"
-"AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK","ALPLAICBSAI","Alaska plaice Bering Sea and Aleutian Islands","Pleuronectes quadrituberculatus","East Bering Sea"
-"AFSC-NROCKBSAI-1974-2009-STANTON","NROCKBSAI","Northern rockfish Bering Sea and Aleutian Islands","Sebastes polyspinis","East Bering Sea"
-"AFSC-REYEROCKBSAI-1974-2009-STANTON","REYEROCKBSAI","Rougheye rockfish Bering Sea and Aleutian Islands","Sebastes aleutianus","East Bering Sea"
-"AFSC-ATKABSAI-1976-2009-STANTON","ATKABSAI","Atka mackerel Bering Sea and Aleutian Islands","Pleurogrammus monopterygius","East Bering Sea"
-"AFSC-FLSOLEBSAI-1977-2008-STANTON","FLSOLEBSAI","Flathead sole Bering Sea and Aleutian Islands","Hippoglossoides elassodon","East Bering Sea"
-"AFSC-WPOLLAI-1976-2008-MELNYCHUK","WPOLLAI","Walleye pollock Aleutian Islands","Theragra chalcogramma","East Bering Sea"
-"AFSC-WPOLLEBS-1963-2008-MELNYCHUK","WPOLLEBS","Walleye pollock Eastern Bering Sea","Theragra chalcogramma","East Bering Sea"
-"AFSC-GHALBSAI-1960-2009-STANTON","GHALBSAI","Greenland turbot Bering Sea and Aleutian Islands","Reinhardtius hippoglossoides","East Bering Sea"
-"AFSC-RKCRABBB-1960-2008-JENSEN","RKCRABBB","Red king crab Bristol Bay","Paralithodes camtschaticus","East Bering Sea"
-"AFSC-SNOWCRABBS-1979-2008-JENSEN","SNOWCRABBS","Snow crab Bering Sea","Chionoecetes opilio","East Bering Sea"
-"AFSC-POPERCHGA-1959-2010-Stachura","POPERCHGA","Pacific ocean perch Gulf of Alaska","Sebastes alutus","Gulf of Alaska"
-"AFSC-DSOLEGA-1978-2010-STANTON","DSOLEGA","Dover sole Gulf of Alaska","Microstomus pacificus","Gulf of Alaska"
-"AFSC-WPOLLGA-1964-2008-MELNYCHUK","WPOLLGA","Walleye pollock Gulf of Alaska","Theragra chalcogramma","Gulf of Alaska"
-"SEFSC-SPANMACKSATLC-1950-2008-JENSEN","SPANMACKSATLC","Spanish mackerel Southern Atlantic Coast","Scomberomorus maculatus","Southeast U.S. Continental Shelf"
-"SEFSC-KMACKSATLC-1981-2001-JENSEN","KMACKSATLC","King mackerel Southern Atlantic Coast","Scomberomorus cavalla","Southeast U.S. Continental Shelf"
-"SEFSC-KMACKGM-1992-2001-JENSEN","KMACKGM","King mackerel Gulf of Mexico","Scomberomorus cavalla","Gulf of Mexico"
-"SEFSC-GAGGM-1963-2004-JENSEN","GAGGM","Gag Gulf of Mexico","Mycteroperca microlepis","Gulf of Mexico"
-"SEFSC-GTRIGGM-1981-2004-JENSEN","GTRIGGM","Gray triggerfish Gulf of Mexico","Balistes capriscus","Gulf of Mexico"
-"SEFSC-VSNAPGM-1981-2004-JENSEN","VSNAPGM","Vermilion snapper Gulf of Mexico","Rhomboplites aurorubens","Gulf of Mexico"
-"SEFSC-GRAMBERGM-1986-2004-JENSEN","GRAMBERGM","Greater amberjack Gulf of Mexico","Seriola dumerili","Gulf of Mexico"
-"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Southeast U.S. Continental Shelf"
-"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Southeast U.S. Continental Shelf"
-"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Southeast U.S. Continental Shelf"
-"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Southeast U.S. Continental Shelf"
-"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Scotian Shelf"
-"SEFSC-RPORGYSATLC-1972-2004-JENSEN","RPORGYSATLC","Red porgy Southern Atlantic coast","Pagrus pagrus","Southeast U.S. Continental Shelf"
-"SEFSC-VSNAPSATLC-1946-2008-STANTON","VSNAPSATLC","Vermilion snapper Southern Atlantic coast","Rhomboplites aurorubens","Southeast U.S. Continental Shelf"
-"SEFSC-SNOWGROUPSATLC-1961-2002-STANTON","SNOWGROUPSATLC","Snowy grouper Southern Atlantic coast","Epinephelus niveatus","Southeast U.S. Continental Shelf"
-"SEFSC-TILESATLC-1961-2002-STANTON","TILESATLC","Tilefish Southern Atlantic coast","Lopholatilus chamaeleonticeps","Southeast U.S. Continental Shelf"
-"SEFSC-GAGSATLC-1962-2005-JENSEN","GAGSATLC","Gag Southern Atlantic coast","Mycteroperca microlepis","Southeast U.S. Continental Shelf"
-"SEFSC-RSNAPSATLC-1945-2006-JENSEN","RSNAPSATLC","Red snapper Southern Atlantic coast","Lutjanus campechanus","Southeast U.S. Continental Shelf"
-"SEFSC-GRAMBERSATLC-1946-2006-JENSEN","GRAMBERSATLC","Greater amberjack Southern Atlantic coast","Seriola dumerili","Southeast U.S. Continental Shelf"
-"ICCAT-YFINATL-1970-2006-JENSEN","YFINATL","Yellowfin tuna Atlantic","Thunnus albacares","Atlantic High Seas"
-"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Southeast U.S. Continental Shelf"
-"ICCAT-BIGEYEATL-1950-2005-JENSEN","BIGEYEATL","Bigeye tuna Atlantic","Thunnus obesus","Atlantic High Seas"
-"IATTC-BIGEYEEPAC-1975-2007-JENSEN","BIGEYEEPAC","Bigeye tuna Eastern Pacific","Thunnus obesus","Pacific High Seas"
-"SPC-BIGEYEWPO-1952-2006-JENSEN","BIGEYEWPO","Bigeye tuna Western Pacific Ocean","Thunnus obesus","Pacific High Seas"
-"SWFSC-CMACKPCOAST-1929-2008-PINSKY","CMACKPCOAST","Pacific chub mackerel Pacific Coast","Scomber japonicus","California Current"
-"ICCAT-SWORDMED-1968-2006-JENSEN","SWORDMED","Swordfish Mediterranean Sea","Xiphias gladius","Mediterranean Sea"
-"SWFSC-SARDPCOAST-1981-2007-PINSKY","SARDPCOAST","Pacific sardine Pacific Coast","Sardinops sagax","California Current"
-"AFSC-SRAKEROCKBSAI-1977-2008-STANTON","SRAKEROCKBSAI","Shortraker rockfish Bering Sea and Aleutian Islands","Sebastes borealis","East Bering Sea"
-"SPC-YFINCWPAC-1952-2005-JENSEN","YFINCWPAC","Yellowfin tuna Central Western Pacific","Thunnus albacares","Pacific High Seas"
-"IATTC-YFINEPAC-1975-2007-JENSEN","YFINEPAC","Yellowfin tuna Eastern Pacific","Thunnus albacares","Pacific High Seas"
-"DFO-PAC-HERRWCVANI-1951-2007-COLLIE","HERRWCVANI","Pacific herring West Coast of Vancouver Island","Clupea pallasii","Gulf of Alaska"
-"DFO-PAC-HERRQCI-1951-2007-COLLIE","HERRQCI","Pacific herring Queen Charlotte Islands","Clupea pallasii","Gulf of Alaska"
-"DFO-PAC-HERRCC-1951-2007-COLLIE","HERRCC","Pacific herring Central Coast","Clupea pallasii","Gulf of Alaska"
-"DFO-PAC-HERRSOG-1951-2007-COLLIE","HERRSOG","Pacific herring Straight of Georgia","Clupea pallasii","Gulf of Alaska"
-"DFO-HERR4VWX-1964-2006-PREFONTAINE","HERR4VWX","Herring Scotian Shelf and Bay of Fundy","Clupea harengus","Scotian Shelf"
-"DFO-QUE-HERR4RFA-1971-2003-PREFONTAINE","HERR4RFA","Herring NAFO 4R fall spawners","Clupea harengus","Newfoundland-Labrador Shelf"
-"DFO-QUE-HERR4RSP-1963-2004-PREFONTAINE","HERR4RSP","Herring NAFO 4R spring spawners","Clupea harengus","Newfoundland-Labrador Shelf"
-"DFO-SG-HERR4TFA-1974-2007-PREFONTAINE","HERR4TFA","Herring NAFO 4T fall spawners","Clupea harengus","Scotian Shelf"
-"DFO-SG-HERR4TSP-1974-2007-PREFONTAINE","HERR4TSP","Herring NAFO 4T spring spawners","Clupea harengus","Scotian Shelf"
-"NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE","GHAL23KLMNO","Greenland halibut NAFO 23KLMNO","Reinhardtius hippoglossoides","Newfoundland-Labrador Shelf"
-"NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS","HOKIENZ","Hoki Eastern New Zealand","Macruronus novaezelandiae","New Zealand Shelf"
-"NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS","HOKIWNZ","Hoki Western New Zealand","Macruronus novaezelandiae","New Zealand Shelf"
-"SPC-SKJCWPAC-1972-2006-JENSEN","SKJCWPAC","Skipjack tuna Central Western Pacific","Katsuwonus pelamis","Pacific High Seas"
-"WGHMM-HAKESOTH-1982-2007-JENNINGS","HAKESOTH","Hake Northeast Atlantic South","Merluccius merluccius","Iberian Coastal"
-"WGMHSA-ANCHOBAYB-1986-2007-JENNINGS","ANCHOBAYB","Anchovy ICES VIII","Engraulis encrasicolus","Celtic-Biscay Shelf"
-"WGMHSA-MACKNEICES-1972-2007-JENNINGS","MACKNEICES","Mackerel ICES Northeast Atlantic","Scomber scombrus","Celtic-Biscay Shelf"
-"WGHMM-FMEG8c9a-1986-2006-JENNINGS","FMEG8c9a","Fourspotted megrim ICES VIIIc-IXa","Lepidorhombus boscii","Iberian Coastal"
-"WGHMM-MEG8c9a-1985-2007-JENNINGS","MEG8c9a","Megrim ICES VIIIc-IXa","Lepidorhombus whiffiagonis","Iberian Coastal"
-"WGMHSA-SARDPVIIIc-IXa-1978-2007-JENNINGS","SARDPVIIIc-IXa","European pilchard ICES VIIIc-IXa","Sardina pilchardus","Iberian Coastal"
-"WGNPBW-BWHITNEA-1980-2007-JENNINGS","BWHITNEA","Whiting Northeast Atlantic","Micromesistius poutassou","Celtic-Biscay Shelf"
-"INIDEP-ARGHAKESARG-1985-2008-Parma","ARGHAKESARG","Argentine hake Southern Argentina","Merluccius hubbsi","Patagonian Shelf"
-"INIDEP-ARGHAKENARG-1985-2007-Parma","ARGHAKENARG","Argentine hake Northern Argentina","Merluccius hubbsi","Patagonian Shelf"
-"INIDEP-ARGANCHONARG-1989-2007-Parma","ARGANCHONARG","Argentine anchoita Northern Argentina","Engraulis anchoita","Patagonian Shelf"
-"INIDEP-ARGANCHOSARG-1992-2007-Parma","ARGANCHOSARG","Argentine anchoita Southern Argentina","Engraulis anchoita","Patagonian Shelf"
-"TAFI-TASGIANTCRABTAS-1990-2007-JENSEN","TASGIANTCRABTAS","Tasmanian giant crab Tasmania","Pseudocarcinus gigas","Southeast Australian Shelf"
-"DFO-PAC-RSOLEHSTR-1945-2001-COLLIE","RSOLEHSTR","Rock sole Hecate Strait","Lepidopsetta bilineata","Gulf of Alaska"
-"SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN","MUTSNAPSATLCGM","Mutton snapper Southern Atlantic coast and Gulf of Mexico","Lutjanus analis","Southeast U.S. Continental Shelf"
-"SEFSC-MENATGM-1964-2004-GILROY","MENATGM","Gulf menhaden Gulf of Mexico","Brevoortia patronus","Gulf of Mexico"
-"DFO-PAC-ESOLEHS-1944-2001-COLLIE","ESOLEHS","English sole Hecate Strait","Parophrys vetulus","Gulf of Alaska"
-"INIDEP-SBWHITARGS-1985-2007-Parma","SBWHITARGS"," Southern blue whiting Southern Argentina","Micromesistius australis","Patagonian Shelf"
-"MARAM-ANCHOSA-1984-2006-deMoor","ANCHOSA","Anchovy South Africa","Engraulis encrasicolus","Benguela Current"
-"MARAM-SARDSA-1984-2006-deMoor","SARDSA","Sardine South Africa","Sardinops sagax","Benguela Current"
-"MARAM-SSLOBSTERSASC-1973-2008-Johnston","SSLOBSTERSASC","Southern spiny lobster South Africa South coast","Palinurus gilchristi","Agulhas Current"
-"MARAM-CTRACSA-1950-2007-Johnston","CTRACSA","Cape horse mackerel South Africa South coast","Trachurus capensis","Agulhas Current"
-"INIDEP-PATGRENADIERSARG-1983-2006-Parma","PATGRENADIERSARG","Patagonian grenadier Southern Argentina","Macruronus magellanicus","Patagonian Shelf"
-"DFO-POLL4X5YZ-1980-2006-PREFONTAINE","POLL4X5YZ","Pollock NAFO-4X5YZ","Pollachius virens","Northeast U.S. Continental Shelf"
-"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Gulf of Mexico"
-"IPHC-PHALNPAC-1988-2009-Parma","PHALNPAC","Pacific halibut North Pacific","Hippoglossus stenolepis","Gulf of Alaska"
-"NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN","SOUTHHAKECR","Southern hake Chatham Rise","Merluccius australis","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN","SOUTHHAKESA","Southern hake Sub-Antarctic","Merluccius australis","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN","SBWHITACIR","Southern blue whiting Campbell Island Rise","Micromesistius australis","New Zealand Shelf"
-"WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO","POLLNS-VI-IIIa","Pollock ICES IIIa, VI and North Sea","Pollachius virens","North Sea"
-"ICCAT-ATBTUNAEATL-1969-2007-WORM","ATBTUNAEATL","Bluefin tuna Eastern Atlantic","Thunnus thynnus","Atlantic High Seas"
-"NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN","NZSNAPNZ8","New Zealand snapper New Zealand Area 8","Chrysophrys auratus","New Zealand Shelf"
-"MARAM-CRLOBSTERSA12-1910-2008-Johnston","CRLOBSTERSA12","South African west coast rock lobster South Africa Areas 1-2","Jasus lalandii","Benguela Current"
-"MARAM-CRLOBSTERSA34-1910-2008-Johnston","CRLOBSTERSA34","South African west coast rock lobster South Africa Areas 3-4","Jasus lalandii","Benguela Current"
-"MARAM-CRLOBSTERSA56-1910-2008-Johnston","CRLOBSTERSA56","South African west coast rock lobster South Africa Areas 5-6","Jasus lalandii","Benguela Current"
-"MARAM-CRLOBSTERSA7-1910-2008-Johnston","CRLOBSTERSA7","South African west coast rock lobster South Africa Area 7","Jasus lalandii","Benguela Current"
-"MARAM-CRLOBSTERSA8-1910-2008-Johnston","CRLOBSTERSA8","South African west coast rock lobster South Africa Area 8","Jasus lalandii","Benguela Current"
-"ICCAT-ALBANATL-1929-2005-WORM","ALBANATL","Albacore tuna North Atlantic","Thunnus alalunga","Atlantic High Seas"
-"DFO-PAC-HERRPRD-1951-2007-COLLIE","HERRPRD","Pacific herring Prince Rupert District","Clupea pallasii","Gulf of Alaska"
-"AFSC-DUSROCKGA-1973-2008-MELNYCHUK","DUSROCKGA","Dusky rockfish Gulf of Alaska","Sebastes variabilis","Gulf of Alaska"
-"AFSC-GKINGCRABAIES-1990-2007-JENSEN","GKINGCRABAIES","Golden king crab Aleutian Islands Eastern segment","Lithodes aequispinus","East Bering Sea"
-"AFSC-GKINGCRABAIWS-1989-2007-JENSEN","GKINGCRABAIWS","Golden king crab Aleutian Islands Western segment","Lithodes aequispinus","East Bering Sea"
-"WGHMM-HAKENRTN-1977-2007-JENNINGS","HAKENRTN","Hake Northeast Atlantic North","Merluccius merluccius","Celtic-Biscay Shelf"
-"WGSSDS-PLAICCELT-1976-2006-JENNINGS","PLAICCELT","European Plaice ICES VIIf-g","Pleuronectes platessa","Celtic-Biscay Shelf"
-"NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN","GEMFISHNZ","common gemfish New Zealand","Rexea solandri","New Zealand Shelf"
-"ICCAT-ATBTUNAWATL-1969-2007-WORM","ATBTUNAWATL","Bluefin tuna Western Atlantic","Thunnus thynnus","Atlantic High Seas"
-"NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN","SMOOTHOREOWECR","Smooth oreo West end of Chatham Rise","Pseudocyttus maculatus","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN","RROCKLOBSTERCRA1","Red rock lobster New Zealand area CRA1","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN","RROCKLOBSTERCRA2","Red rock lobster New Zealand area CRA2","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN","RROCKLOBSTERCRA3","Red rock lobster New Zealand area CRA3","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN","RROCKLOBSTERCRA4","Red rock lobster New Zealand area CRA4","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN","RROCKLOBSTERCRA5","Red rock lobster New Zealand area CRA5","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN","RROCKLOBSTERCRA7","Red rock lobster New Zealand area CRA7","Jasus edwardsii","New Zealand Shelf"
-"NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN","RROCKLOBSTERCRA8","Red rock lobster New Zealand area CRA8","Jasus edwardsii","New Zealand Shelf"
-"NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN","BLACKOREOWECR","Black oreo West end of Chatham Rise","Allocyttus niger","New Zealand Shelf"
-"NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN","TREVALLYTRE7","Trevally New Zealand Areas TRE 7","Pseudocaranx dentex","New Zealand Shelf"
-"NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN","PAUAPAU5A","New Zealand abalone species New Zealand Area PAU 5A","Haliotis iris","New Zealand Shelf"
-"NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN","PAUAPAU5B","New Zealand abalone species New Zealand Area PAU 5B","Haliotis iris","New Zealand Shelf"
-"NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN","PAUAPAU5D","New Zealand abalone species New Zealand Area PAU 5D","Haliotis iris","New Zealand Shelf"
-"NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN","PAUAPAU7","New Zealand abalone species New Zealand Area PAU 7","Haliotis iris","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN","NZLINGLIN3-4","New Zealand ling New Zealand Areas LIN 3 and 4","Genypterus blacodes","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN","NZLINGLIN6b","New Zealand ling New Zealand Area LIN 6b","Genypterus blacodes","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN","NZLINGLIN5-6","New Zealand ling New Zealand Areas LIN 5 and 6","Genypterus blacodes","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN","NZLINGLIN72","New Zealand ling New Zealand Area LIN 72","Genypterus blacodes","New Zealand Shelf"
-"NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN","NZLINGLIN7WC","New Zealand ling New Zealand Area LIN 7WC - WCSI","Genypterus blacodes","New Zealand Shelf"
-"NMFS-MENATLAN-1940-2005-STANTON","MENATLAN","Atlantic menhaden Atlantic","Brevoortia tyrannus","Northeast U.S. Continental Shelf"
-"CSIRO-GEMFISHSE-1966-2007-FULTON","GEMFISHSE","common gemfish Southeast Australia","Rexea solandri","Southeast Australian Shelf"
-"CSIRO-SILVERFISHSE-1978-2006-FULTON","SILVERFISHSE","Silverfish Southeast Australia","Seriolella punctata","Southeast Australian Shelf"
-"CSIRO-TIGERFLATSE-1913-2006-FULTON","TIGERFLATSE","Tiger flathead Southeast Australia","Neoplatycephalus richardsoni","Southeast Australian Shelf"
-"CSIRO-SWHITSE-1945-2007-FULTON","SWHITSE","School whiting Southeast Australia","Sillago flindersi","Southeast Australian Shelf"
-"CSIRO-BTSHRIMPNAUST-1970-2006-FULTON","BTSHRIMPNAUST","Northern Australia brown tiger shrimp","Penaeus esculentus","North Australian Shelf"
-"CSIRO-GTPRAWNNAUST-1970-2006-FULTON","GTPRAWNNAUST","Northern Australia grooved Tiger Prawn","Penaeus esculentus","North Australian Shelf"
-"CSIRO-OROUGHYCASCADE-1987-2006-FULTON","OROUGHYCASCADE","Orange roughy Cascade Plateau","Hoplostethus atlanticus","Southeast Australian Shelf"
-"CSIRO-OROUGHYSE-1978-2007-FULTON","OROUGHYSE","Orange roughy Southeast Australia","Hoplostethus atlanticus","Southeast Australian Shelf"
-"CSIRO-DEEPFLATHEADSE-1978-2007-FULTON","DEEPFLATHEADSE","Deepwater flathead Southeast Australia","Platycephalus conatus","Southwest Australian Shelf"
-"CSIRO-BIGHTREDSE-1958-2007-FULTON","BIGHTREDSE","Bight redfish Southeast Australia","Centroberyx gerrardi","Southwest Australian Shelf"
-"CSIRO-MORWONGSE-1913-2007-FULTON","MORWONGSE","Jackass morwong Southeast Australia","Nemadactylus macropterus","Southeast Australian Shelf"
-"ICCAT-SWORDNATL-1978-2007-JENSEN","SWORDNATL","Swordfish North Atlantic","Xiphias gladius","Atlantic High Seas"
-"NEFSC-MONKGOMNGB-1964-2006-RICHARDS","MONKGOMNGB","Monkfish Gulf of Maine / Northern Georges Bank","Lophius americanus","Northeast U.S. Continental Shelf"
-"ICCAT-SWORDSATL-1970-2005-JENSEN","SWORDSATL","Swordfish South Atlantic","Xiphias gladius","Atlantic High Seas"
-"NIWA-OROUGHYNZMEC-1981-2004-JENSEN","OROUGHYNZMEC","Orange roughy New Zealand Mid East Coast","Hoplostethus atlanticus","New Zealand Shelf"
-"IOTC-BIGEYEIO-1957-2006-JENSEN","BIGEYEIO","Bigeye tuna Indian Ocean","Thunnus obesus","Indian High Seas"
-"NEFSC-MONKSGBMATL-1964-2006-RICHARDS","MONKSGBMATL","Monkfish Southern Georges Bank / Mid-Atlantic","Lophius americanus","Northeast U.S. Continental Shelf"
-"MARAM-DEEPCHAKESA-1917-2008-DEDECKER","DEEPCHAKESA","Deep-water cape hake South Africa","Merluccius paradoxus","Benguela Current"
-"ASMFC-ATLCROAKMATLC-1973-2002-STANTON","ATLCROAKMATLC","Atlantic croaker Mid-Atlantic Coast","Micropogonias undulatus","Northeast U.S. Continental Shelf"
-"SWFSC-CALSCORPSCAL-1990-2005-STANTON","CALSCORPSCAL","California scorpionfish Southern California","Scorpaena guttata","California Current"
-"ADFG-HERRPWS-1980-2006-COLLIE","HERRPWS","Pacific herring Prince William Sound","Clupea pallasii","Gulf of Alaska"
-"ADFG-HERRSITKA-1978-2007-COLLIE","HERRSITKA","Pacific herring Sitka","Clupea pallasii","Gulf of Alaska"
-"MARAM-PTOOTHFISHPEI-1960-2008-DEDECKER","PTOOTHFISHPEI","Patagonian toothfish South Africa Subantarctic Prince Edward Islands","Dissostichus eleginoides","Subantarctic High Seas"
-"NEFSC-SHAKESGBMATL-1955-2005-COL","SHAKESGBMATL","Silver hake Southern Georges Bank / Mid-Atlantic","Merluccius bilinearis","Northeast U.S. Continental Shelf"
-"MARAM-KINGKLIPSA-1932-2008-DEDECKER","KINGKLIPSA","Kingklip South Africa","Genypterus capensis","Benguela Current"
-"MARAM-CHAKESA-1917-2008-DEDECKER","CHAKESA","Shallow-water cape hake South Africa","Merluccius capensis","Benguela Current"
-"ICCAT-SKJEATL-1950-2006-JENSEN","SKJEATL","Skipjack tuna Eastern Atlantic","Katsuwonus pelamis","Atlantic High Seas"
-"ICCAT-SKJWATL-1952-2006-JENSEN","SKJWATL","Skipjack tuna Western Atlantic","Katsuwonus pelamis","Atlantic High Seas"
-"SWFSC-DSOLEPCOAST-1910-2005-STANTON","DSOLEPCOAST","Dover sole Pacific Coast","Microstomus pacificus","California Current"
-"SPRFMO-CHTRACCH-1950-2010-RICARD","CHTRACCH","Chilean jack mackerel Chilean EEZ and offshore","Trachurus murphyi","Humboldt Current"
-"SEFSC-YTSNAPSATLC-1962-2001-STANTON","YTSNAPSATLC","Yellowtail snapper Southern Atlantic Coast","Ocyurus chrysurus","Southeast U.S. Continental Shelf"
-"ASMFC-PANDALGOM-1960-2009-IDOINE","PANDALGOM","Northern shrimp Gulf of Maine","Pandalus borealis","Northeast U.S. Continental Shelf"
-"NWFSC-YTROCKNPCOAST-1967-2005-STANTON","YTROCKNPCOAST","Yellowtail rockfish Northern Pacific Coast","Sebastes flavidus","California Current"
-"NEFSC-SCALLMATLC-1964-2006-HART","SCALLMATLC","Sea scallop Mid-Atlantic Coast","Placopecten magellanicus","Northeast U.S. Continental Shelf"
-"NEFSC-SCALLGB-1964-2006-HART","SCALLGB","Sea scallop Georges Bank","Placopecten magellanicus","Northeast U.S. Continental Shelf"
-"PFMC-LINGCODNPCOAST-1956-2005-STANTON","LINGCODNPCOAST","Lingcod Northern Pacific Coast","Ophiodon elongatus","California Current"
-"PFMC-LINGCODSPCOAST-1956-2005-STANTON","LINGCODSPCOAST","Lingcod Southern Pacific Coast","Ophiodon elongatus","California Current"
-"NWFSC-BGROCKPCOAST-1950-2005-STANTON","BGROCKPCOAST","Blackgill rockfish  Pacific Coast","Sebastes melanostomus","California Current"
-"SWFSC-GOPHERSPCOAST-1965-2005-STANTON","GOPHERSPCOAST","Gopher rockfish Southern Pacific Coast","Sebastes carnatus","California Current"
-"NWFSC-PSOLESPCOAST-1874-2005-STANTON","PSOLESPCOAST","Petrale sole Southern Pacific Coast","Eopsetta jordani","California Current"
-"NWFSC-PSOLENPCOAST-1910-2005-STANTON","PSOLENPCOAST","Petrale sole Northern Pacific Coast","Eopsetta jordani","California Current"
-"SWFSC-STFLOUNSPCOAST-1970-2005-STANTON","STFLOUNSPCOAST","Starry flounder Southern Pacific Coast","Platichthys stellatus","California Current"
-"SWFSC-STFLOUNNPCOAST-1970-2005-STANTON","STFLOUNNPCOAST","Starry flounder Northern Pacific Coast","Platichthys stellatus","California Current"
-"NWFSC-SSTHORNHPCOAST-1901-2005-STANTON","SSTHORNHPCOAST","Shortspine thornyhead Pacific Coast","Sebastolobus alascanus","California Current"
-"NWFSC-LSTHORNHPCOAST-1962-2005-STANTON","LSTHORNHPCOAST","Longspine thornyhead Pacific Coast","Sebastolobus altivelis","California Current"
-"SFI-WPOLLNSO-1985-1994-JENSEN","WPOLLNSO","Walleye pollock Northern Sea of Okhotsk","Theragra chalcogramma","Sea of Okhotsk"
-"VNIRO-WPOLLWBS-1994-2004-JENSEN","WPOLLWBS","Walleye pollock Western Bering Sea","Theragra chalcogramma","West Bering Sea"
-"ASMFC-LOBSTERGB-1981-2007-STANTON","LOBSTERGB","American lobster Georges Bank","Homarus americanus","Northeast U.S. Continental Shelf"
-"ASMFC-LOBSTERGOM-1981-2007-STANTON","LOBSTERGOM","American lobster Gulf of Maine","Homarus americanus","Northeast U.S. Continental Shelf"
-"ASMFC-LOBSTERSNE-1981-2007-STANTON","LOBSTERSNE","American lobster Southern New England","Homarus americanus","Northeast U.S. Continental Shelf"
-"MARAM-SAABALONESA-1951-2008-PLAGANYI","SAABALONESA","South African abalone South Africa","Haliotis midae","Benguela Current"
-"NIWA-AUSSALMONNZ-1975-2006-JENSEN","AUSSALMONNZ","Australian salmon New Zealand","Arripis trutta","New Zealand Shelf"
-"SEFSC-RGROUPGM-1986-2005-JENSEN","RGROUPGM","Red grouper Gulf of Mexico","Epinephelus morio","Gulf of Mexico"
-"CSIRO-NZLINGESE-1968-2007-FULTON","NZLINGESE","New Zealand ling Eastern half of Southeast Australia","Genypterus blacodes","Southeast Australian Shelf"
-"CSIRO-NZLINGWSE-1968-2007-FULTON","NZLINGWSE","New Zealand ling Western half of Southeast Australia","Genypterus blacodes","Southwest Australian Shelf"
-"CSIRO-WAREHOUESE-1984-2006-FULTON","WAREHOUESE","Blue Warehou Eastern half of Southeast Australia","Seriolella brama","Southeast Australian Shelf"
-"CSIRO-WAREHOUWSE-1984-2006-FULTON","WAREHOUWSE","Blue Warehou Western half of Southeast Australia","Seriolella brama","Southwest Australian Shelf"
-"NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON","KELPGREENLINGORECOAST","Kelp greenling Oregon Coast","Hexagrammos decagrammus","California Current"
-"AFSC-CABEZNCAL-1916-2005-STANTON","CABEZNCAL","Cabezon Northern California","Scorpaenichthys marmoratus","California Current"
-"AFSC-CABEZSCAL-1932-2005-STANTON","CABEZSCAL","Cabezon Southern California","Scorpaenichthys marmoratus","California Current"
-"CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN","ATOOTHFISHRS","Antarctic toothfish Ross Sea","Dissostichus mawsoni","Subantarctic High Seas"
-"NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN","SMOOTHOREOCR","Smooth oreo Chatham Rise","Pseudocyttus maculatus","New Zealand Shelf"
-"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Pacific High Seas"
-"NEFSC-WEAKFISHATLC-1981-2008-STANTON","WEAKFISHATLC","Weakfish Atlantic Coast","Cynoscion regalis","Northeast U.S. Continental Shelf"
-"AFSC-RKCRABNS-1976-2008-JENSEN","RKCRABNS","Red king crab Norton Sound","Paralithodes camtschaticus","East Bering Sea"
-"WGBFAS-HERR31-1979-2006-JENNINGS","HERR31","Herring ICES 31","Clupea harengus","Baltic Sea"
-"IMARPE-PANCHPERUNC-1963-2004-RICARD","PANCHPERUNC","Peruvian anchoveta North-Central Peru","Engraulis ringens","Humboldt Current"
-"CCSBT-SC-SBT-1931-2009-Parma","SBT","Southern bluefin tuna Southern Oceans","Thunnus maccoyii","Indian High Seas"
-"SPC-STMARLINSWPO-1950-2003-JENSEN","STMARLINSWPO","Striped marlin Southwestern Pacific Ocean","Kajikia audax","Pacific High Seas"
-"DFO-PAC-SABLEFPCAN-1913-2004-STANTON","SABLEFPCAN","Sablefish Pacific Coast of Canada","Anoplopoma fimbria","Gulf of Alaska"
-"DFO-MAR-CUSK4X-1970-2007-RICARD","CUSK4X","Cusk NAFO 4X","Brosme brosme","Northeast U.S. Continental Shelf"
-"CSIRO-PTOOTHFISHMI-1975-2010-FAY","PTOOTHFISHMI","Patagonian toothfish Macquarie Island","Dissostichus eleginoides","Subantarctic High Seas"
-"CSERG-ANCHOVYKILKACS-1991-2007-JENSEN","ANCHOVYKILKACS","Anchovy kilka Caspian Sea","Clupeonella engrauliformis","Caspian Sea"
-"NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM","REDFISHSPP3LN","Redfish species NAFO 3LN","Sebastes spp","Newfoundland-Labrador Shelf"
-"NAFO-SC-REDFISHSPP3M-1985-2006-PREFONTAINE","REDFISHSPP3M","Redfish species NAFO 3M","Sebastes spp","Newfoundland-Labrador Shelf"
+"assessid","stockid","stocklong","scientificname","lme_name","bioid","biovalue","type.x","msy","type.y"
+"ADFG-HERRPWS-1980-2006-COLLIE","HERRPWS","Pacific herring Prince William Sound","Clupea pallasii","Gulf of Alaska",NA,NA,NA,NA,NA
+"ADFG-HERRSITKA-1978-2007-COLLIE","HERRSITKA","Pacific herring Sitka","Clupea pallasii","Gulf of Alaska",NA,NA,NA,NA,NA
+"AFSC-ALPLAICBSAI-1972-2008-MELNYCHUK","ALPLAICBSAI","Alaska plaice Bering Sea and Aleutian Islands","Pleuronectes quadrituberculatus","East Bering Sea",NA,NA,NA,43131.1175282231,"Schaefer"
+"AFSC-ARFLOUNDBSAI-1970-2008-STANTON","ARFLOUNDBSAI","Arrowtooth flounder Bering Sea and Aleutian Islands","Reinhardtius stomias","East Bering Sea",NA,NA,NA,48194.4910529775,"Schaefer"
+"AFSC-ARFLOUNDGA-1958-2010-STANTON","ARFLOUNDGA","Arrowtooth flounder Gulf of Alaska","Reinhardtius stomias","Gulf of Alaska",NA,NA,NA,68118.21972228,"Schaefer"
+"AFSC-ATKABSAI-1976-2009-STANTON","ATKABSAI","Atka mackerel Bering Sea and Aleutian Islands","Pleurogrammus monopterygius","East Bering Sea",NA,NA,NA,71253.5555968883,"Schaefer"
+"AFSC-CABEZNCAL-1916-2005-STANTON","CABEZNCAL","Cabezon Northern California","Scorpaenichthys marmoratus","California Current","MSY-MT","119","assessment",82.7314648963603,"Schaefer"
+"AFSC-CABEZSCAL-1932-2005-STANTON","CABEZSCAL","Cabezon Southern California","Scorpaenichthys marmoratus","California Current","MSY-MT","26","assessment",29.8773300345894,"Schaefer"
+"AFSC-DSOLEGA-1978-2010-STANTON","DSOLEGA","Dover sole Gulf of Alaska","Microstomus pacificus","Gulf of Alaska",NA,NA,NA,NA,NA
+"AFSC-DUSROCKGA-1973-2008-MELNYCHUK","DUSROCKGA","Dusky rockfish Gulf of Alaska","Sebastes variabilis","Gulf of Alaska",NA,NA,NA,4255.63812335817,"Schaefer"
+"AFSC-FLSOLEBSAI-1977-2008-STANTON","FLSOLEBSAI","Flathead sole Bering Sea and Aleutian Islands","Hippoglossoides elassodon","East Bering Sea","MSY-MT","121790","assessment",71467.6372255608,"Schaefer"
+"AFSC-FLSOLEGA-1978-2010-Stachura","FLSOLEGA","Flathead sole Gulf of Alaska","Hippoglossoides elassodon","Gulf of Alaska",NA,NA,NA,NA,NA
+"AFSC-GHALBSAI-1960-2009-STANTON","GHALBSAI","Greenland turbot Bering Sea and Aleutian Islands","Reinhardtius hippoglossoides","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-GKINGCRABAIES-1990-2007-JENSEN","GKINGCRABAIES","Golden king crab Aleutian Islands Eastern segment","Lithodes aequispinus","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-GKINGCRABAIWS-1989-2007-JENSEN","GKINGCRABAIWS","Golden king crab Aleutian Islands Western segment","Lithodes aequispinus","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-NROCKBSAI-1974-2009-STANTON","NROCKBSAI","Northern rockfish Bering Sea and Aleutian Islands","Sebastes polyspinis","East Bering Sea",NA,NA,NA,6159.18658549972,"Schaefer"
+"AFSC-NROCKGA-1959-2008-MELNYCHUK","NROCKGA","Northern rockfish Gulf of Alaska","Sebastes polyspinis","Gulf of Alaska",NA,NA,NA,3639.85818606654,"Schaefer"
+"AFSC-NRSOLEEBSAI-1971-2008-STANTON","NRSOLEEBSAI","Northern rock sole Eastern Bering Sea and Aleutian Islands","Lepidopsetta polyxystra","East Bering Sea","MSY-MT","300500.00","assessment",163407.1143608,"Schaefer"
+"AFSC-PCODBSAI-1964-2008-MELNYCHUK","PCODBSAI","Pacific cod Bering Sea and Aleutian Islands","Gadus macrocephalus","East Bering Sea",NA,NA,NA,210659.844450708,"Schaefer"
+"AFSC-PCODGA-1964-2008-MELNYCHUK","PCODGA","Pacific cod Gulf of Alaska","Gadus macrocephalus","Gulf of Alaska",NA,NA,NA,56897.1197883883,"Schaefer"
+"AFSC-PERCHEBSAI-1974-2009-STANTON","PERCHEBSAI","Pacific Ocean perch Eastern Bering Sea and Aleutian Islands","Sebastes alutus","East Bering Sea",NA,NA,NA,28767.4552177362,"Schaefer"
+"AFSC-POPERCHGA-1959-2010-Stachura","POPERCHGA","Pacific ocean perch Gulf of Alaska","Sebastes alutus","Gulf of Alaska","MSY-MT","20243","assessment",NA,NA
+"AFSC-REXSOLEGA-1979-2008-STANTON","REXSOLEGA","Rex sole Gulf of Alaska","Glyptocephalus zachirus","Gulf of Alaska",NA,NA,NA,NA,NA
+"AFSC-REYEROCKBSAI-1974-2009-STANTON","REYEROCKBSAI","Rougheye rockfish Bering Sea and Aleutian Islands","Sebastes aleutianus","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-REYEROCKGA-1974-2007-MELNYCHUK","REYEROCKGA","Rougheye rockfish Gulf of Alaska","Sebastes aleutianus","Gulf of Alaska",NA,NA,NA,NA,NA
+"AFSC-RKCRABBB-1960-2008-JENSEN","RKCRABBB","Red king crab Bristol Bay","Paralithodes camtschaticus","East Bering Sea",NA,NA,NA,11323.0981219873,"Schaefer"
+"AFSC-RKCRABNS-1976-2008-JENSEN","RKCRABNS","Red king crab Norton Sound","Paralithodes camtschaticus","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-SABLEFEBSAIGA-1956-2008-MELNYCHUK","SABLEFEBSAIGA","Sablefish Eastern Bering Sea / Aleutian Islands / Gulf of Alaska","Anoplopoma fimbria","East Bering Sea","MSY-MT","19000","assessment",21207.2842851534,"Schaefer"
+"AFSC-SNOWCRABBS-1979-2008-JENSEN","SNOWCRABBS","Snow crab Bering Sea","Chionoecetes opilio","East Bering Sea",NA,NA,NA,67440.4321113326,"Schaefer"
+"AFSC-SRAKEROCKBSAI-1977-2008-STANTON","SRAKEROCKBSAI","Shortraker rockfish Bering Sea and Aleutian Islands","Sebastes borealis","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-WPOLLAI-1976-2008-MELNYCHUK","WPOLLAI","Walleye pollock Aleutian Islands","Theragra chalcogramma","East Bering Sea",NA,NA,NA,NA,NA
+"AFSC-WPOLLEBS-1963-2008-MELNYCHUK","WPOLLEBS","Walleye pollock Eastern Bering Sea","Theragra chalcogramma","East Bering Sea","MSY-MT","977000","assessment",1728907.04339239,"Schaefer"
+"AFSC-WPOLLGA-1964-2008-MELNYCHUK","WPOLLGA","Walleye pollock Gulf of Alaska","Theragra chalcogramma","Gulf of Alaska","MSY-MT","169000","assessment",NA,NA
+"AFSC-YSOLEBSAI-1959-2008-MELNYCHUK","YSOLEBSAI","Yellowfin sole Bering Sea and Aleutian Islands","Limanda aspera","East Bering Sea",NA,NA,NA,NA,NA
+"AFWG-CAPENOR-1965-2007-MINTO","CAPENOR","Capelin Barents Sea","Mallotus villosus","Barents Sea",NA,NA,NA,1114593.14064166,"Schaefer"
+"AFWG-CODCOASTNOR-1982-2006-MINTO","CODCOASTNOR","Atlantic cod coastal Norway","Gadus morhua","Norwegian Sea",NA,NA,NA,43958.4434691256,"Schaefer"
+"AFWG-CODNEAR-1943-2006-MINTO","CODNEAR","Atlantic cod Northeast Arctic","Gadus morhua","Barents Sea",NA,NA,NA,745641.350367803,"Schaefer"
+"AFWG-GHALNEAR-1959-2007-JENNINGS","GHALNEAR","Greenland halibut Northeast Arctic","Reinhardtius hippoglossoides","Barents Sea",NA,NA,NA,41606.0138706801,"Schaefer"
+"AFWG-GOLDREDNEAR-1986-2006-MINTO","GOLDREDNEAR","Golden Redfish Northeast Arctic","Sebastes norvegicus","Barents Sea",NA,NA,NA,NA,NA
+"AFWG-HADNEAR-1947-2006-MINTO","HADNEAR","Haddock Northeast Arctic","Melanogrammus aeglefinus","Barents Sea",NA,NA,NA,147266.625240553,"Schaefer"
+"AFWG-POLLNEAR-1957-2006-MINTO","POLLNEAR","Pollock Northeast Arctic","Pollachius virens","Barents Sea",NA,NA,NA,210028.811939397,"Schaefer"
+"ASMFC-ATLCROAKMATLC-1973-2002-STANTON","ATLCROAKMATLC","Atlantic croaker Mid-Atlantic Coast","Micropogonias undulatus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"ASMFC-LOBSTERGB-1981-2007-STANTON","LOBSTERGB","American lobster Georges Bank","Homarus americanus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"ASMFC-LOBSTERGOM-1981-2007-STANTON","LOBSTERGOM","American lobster Gulf of Maine","Homarus americanus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"ASMFC-LOBSTERSNE-1981-2007-STANTON","LOBSTERSNE","American lobster Southern New England","Homarus americanus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"ASMFC-PANDALGOM-1960-2009-IDOINE","PANDALGOM","Northern shrimp Gulf of Maine","Pandalus borealis","Northeast U.S. Continental Shelf",NA,NA,NA,5407.81279059549,"Schaefer"
+"CCAMLR-ATOOTHFISHRS-1995-2007-JENSEN","ATOOTHFISHRS","Antarctic toothfish Ross Sea","Dissostichus mawsoni","Subantarctic High Seas","MSY-MT","3105.3982","assessment",NA,NA
+"CCSBT-SC-SBT-1931-2009-Parma","SBT","Southern bluefin tuna Southern Oceans","Thunnus maccoyii","Indian High Seas",NA,NA,NA,NA,NA
+"CSERG-ANCHOVYKILKACS-1991-2007-JENSEN","ANCHOVYKILKACS","Anchovy kilka Caspian Sea","Clupeonella engrauliformis","Caspian Sea","MSY-MT","44652","assessment",NA,NA
+"CSIRO-BIGHTREDSE-1958-2007-FULTON","BIGHTREDSE","Bight redfish Southeast Australia","Centroberyx gerrardi","Southwest Australian Shelf",NA,NA,NA,NA,NA
+"CSIRO-BTSHRIMPNAUST-1970-2006-FULTON","BTSHRIMPNAUST","Northern Australia brown tiger shrimp","Penaeus esculentus","North Australian Shelf",NA,NA,NA,NA,NA
+"CSIRO-DEEPFLATHEADSE-1978-2007-FULTON","DEEPFLATHEADSE","Deepwater flathead Southeast Australia","Platycephalus conatus","Southwest Australian Shelf",NA,NA,NA,1286.78224824693,"Schaefer"
+"CSIRO-GEMFISHSE-1966-2007-FULTON","GEMFISHSE","common gemfish Southeast Australia","Rexea solandri","Southeast Australian Shelf",NA,NA,NA,2651.02066120831,"Schaefer"
+"CSIRO-GTPRAWNNAUST-1970-2006-FULTON","GTPRAWNNAUST","Northern Australia grooved Tiger Prawn","Penaeus esculentus","North Australian Shelf",NA,NA,NA,NA,NA
+"CSIRO-MORWONGSE-1913-2007-FULTON","MORWONGSE","Jackass morwong Southeast Australia","Nemadactylus macropterus","Southeast Australian Shelf",NA,NA,NA,866.619490654764,"Schaefer"
+"CSIRO-NZLINGESE-1968-2007-FULTON","NZLINGESE","New Zealand ling Eastern half of Southeast Australia","Genypterus blacodes","Southeast Australian Shelf",NA,NA,NA,560.651780118779,"Schaefer"
+"CSIRO-NZLINGWSE-1968-2007-FULTON","NZLINGWSE","New Zealand ling Western half of Southeast Australia","Genypterus blacodes","Southwest Australian Shelf",NA,NA,NA,NA,NA
+"CSIRO-OROUGHYCASCADE-1987-2006-FULTON","OROUGHYCASCADE","Orange roughy Cascade Plateau","Hoplostethus atlanticus","Southeast Australian Shelf",NA,NA,NA,NA,NA
+"CSIRO-OROUGHYSE-1978-2007-FULTON","OROUGHYSE","Orange roughy Southeast Australia","Hoplostethus atlanticus","Southeast Australian Shelf",NA,NA,NA,2964.90419815239,"Schaefer"
+"CSIRO-PTOOTHFISHMI-1975-2010-FAY","PTOOTHFISHMI","Patagonian toothfish Macquarie Island","Dissostichus eleginoides","Subantarctic High Seas","MSY-MT","184.369","assessment",NA,NA
+"CSIRO-SILVERFISHSE-1978-2006-FULTON","SILVERFISHSE","Silverfish Southeast Australia","Seriolella punctata","Southeast Australian Shelf",NA,NA,NA,2832.17430133151,"Schaefer"
+"CSIRO-SWHITSE-1945-2007-FULTON","SWHITSE","School whiting Southeast Australia","Sillago flindersi","Southeast Australian Shelf",NA,NA,NA,1692.39506015239,"Schaefer"
+"CSIRO-TIGERFLATSE-1913-2006-FULTON","TIGERFLATSE","Tiger flathead Southeast Australia","Neoplatycephalus richardsoni","Southeast Australian Shelf",NA,NA,NA,2873.25266566218,"Schaefer"
+"CSIRO-WAREHOUESE-1984-2006-FULTON","WAREHOUESE","Blue Warehou Eastern half of Southeast Australia","Seriolella brama","Southeast Australian Shelf",NA,NA,NA,1194.16204401559,"Schaefer"
+"CSIRO-WAREHOUWSE-1984-2006-FULTON","WAREHOUWSE","Blue Warehou Western half of Southeast Australia","Seriolella brama","Southwest Australian Shelf",NA,NA,NA,471.53814491524,"Schaefer"
+"DFO-COD5Zjm-1978-2003-PREFONTAINE","COD5Zjm","Atlantic cod NAFO 5Zjm","Gadus morhua","Northeast U.S. Continental Shelf",NA,NA,NA,8879.49531078479,"Schaefer"
+"DFO-HAD5Zejm-1968-2003-PREFONTAINE","HAD5Zejm","Haddock NAFO-5Zejm","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"DFO-HERR4VWX-1964-2006-PREFONTAINE","HERR4VWX","Herring Scotian Shelf and Bay of Fundy","Clupea harengus","Scotian Shelf",NA,NA,NA,NA,NA
+"DFO-MAR-COD4VsW-1958-2002-PREFONTAINE","COD4VsW","Atlantic cod NAFO 4VsW","Gadus morhua","Scotian Shelf",NA,NA,NA,NA,NA
+"DFO-MAR-CUSK4X-1970-2007-RICARD","CUSK4X","Cusk NAFO 4X","Brosme brosme","Northeast U.S. Continental Shelf","MSY-MT","1482.925","assessment",NA,NA
+"DFO-MAR-HAD4X5Y-1960-2003-PREFONTAINE","HAD4X5Y","Haddock NAFO-4X5Y","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"DFO-NFLD-COD2J3KL-1850-2005-RICARD","COD2J3KL","Atlantic cod NAFO 2J3KL","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"DFO-NFLD-COD2J3KLIS-1959-2006-PREFONTAINE","COD2J3KLIS","Atlantic cod NAFO 2J3KL inshore","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"DFO-NFLD-COD3Ps-1959-2004-PREFONTAINE","COD3Ps","Atlantic cod NAFO 3Ps","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,40014.6133448802,"Schaefer"
+"DFO-PAC-ESOLEHS-1944-2001-COLLIE","ESOLEHS","English sole Hecate Strait","Parophrys vetulus","Gulf of Alaska",NA,NA,NA,913.880665481918,"Schaefer"
+"DFO-PAC-HERRCC-1951-2007-COLLIE","HERRCC","Pacific herring Central Coast","Clupea pallasii","Gulf of Alaska",NA,NA,NA,11828.8885412316,"Schaefer"
+"DFO-PAC-HERRPRD-1951-2007-COLLIE","HERRPRD","Pacific herring Prince Rupert District","Clupea pallasii","Gulf of Alaska",NA,NA,NA,18229.564897519,"Schaefer"
+"DFO-PAC-HERRQCI-1951-2007-COLLIE","HERRQCI","Pacific herring Queen Charlotte Islands","Clupea pallasii","Gulf of Alaska",NA,NA,NA,9518.57089076007,"Schaefer"
+"DFO-PAC-HERRSOG-1951-2007-COLLIE","HERRSOG","Pacific herring Straight of Georgia","Clupea pallasii","Gulf of Alaska",NA,NA,NA,26688.8191965032,"Schaefer"
+"DFO-PAC-HERRWCVANI-1951-2007-COLLIE","HERRWCVANI","Pacific herring West Coast of Vancouver Island","Clupea pallasii","Gulf of Alaska",NA,NA,NA,15203.7897284747,"Schaefer"
+"DFO-PAC-PCODHS-1956-2005-COLLIE","PCODHS","Pacific cod Hecate Strait","Gadus macrocephalus","Gulf of Alaska",NA,NA,NA,4335.96729315728,"Schaefer"
+"DFO-PAC-PCODWCVANI-1956-2002-COLLIE","PCODWCVANI","Pacific cod West Coast of Vancouver Island","Gadus macrocephalus","Gulf of Alaska",NA,NA,NA,1959.60852474018,"Schaefer"
+"DFO-PAC-RSOLEHSTR-1945-2001-COLLIE","RSOLEHSTR","Rock sole Hecate Strait","Lepidopsetta bilineata","Gulf of Alaska",NA,NA,NA,1254.6350343628,"Schaefer"
+"DFO-PAC-SABLEFPCAN-1913-2004-STANTON","SABLEFPCAN","Sablefish Pacific Coast of Canada","Anoplopoma fimbria","Gulf of Alaska",NA,NA,NA,NA,NA
+"DFO-POLL4X5YZ-1980-2006-PREFONTAINE","POLL4X5YZ","Pollock NAFO-4X5YZ","Pollachius virens","Northeast U.S. Continental Shelf",NA,NA,NA,14607.640606211,"Schaefer"
+"DFO-QUE-COD3Pn4RS-1964-2007-PREFONTAINE","COD3Pn4RS","Atlantic cod NAFO 3Pn4RS","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,77885.8833174313,"Schaefer"
+"DFO-QUE-HERR4RFA-1971-2003-PREFONTAINE","HERR4RFA","Herring NAFO 4R fall spawners","Clupea harengus","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"DFO-QUE-HERR4RSP-1963-2004-PREFONTAINE","HERR4RSP","Herring NAFO 4R spring spawners","Clupea harengus","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"DFO-SG-COD4TVn-1965-2009-RICARD","COD4TVn","Atlantic cod NAFO 4TVn","Gadus morhua","Scotian Shelf",NA,NA,NA,NA,NA
+"DFO-SG-HERR4TFA-1974-2007-PREFONTAINE","HERR4TFA","Herring NAFO 4T fall spawners","Clupea harengus","Scotian Shelf",NA,NA,NA,NA,NA
+"DFO-SG-HERR4TSP-1974-2007-PREFONTAINE","HERR4TSP","Herring NAFO 4T spring spawners","Clupea harengus","Scotian Shelf",NA,NA,NA,NA,NA
+"HAWG-HERR2224IIIa-1991-2006-MINTO","HERR2224IIIa","Herring ICES 22-24-IIIa","Clupea harengus","North Sea",NA,NA,NA,NA,NA
+"HAWG-HERRNIRS-1960-2006-JENNINGS","HERRNIRS","Herring Northern Irish Sea","Clupea harengus","Celtic-Biscay Shelf",NA,NA,NA,18160.4240018098,"Schaefer"
+"HAWG-HERRNS-1960-2007-MINTO","HERRNS","Herring North Sea","Clupea harengus","North Sea",NA,NA,NA,597793.108103974,"Schaefer"
+"HAWG-HERRVIa-1957-2006-MINTO","HERRVIa","Herring ICES VIa","Clupea harengus","Celtic-Biscay Shelf",NA,NA,NA,95894.1252623679,"Schaefer"
+"HAWG-HERRVIaVIIbc-1969-2000-MINTO","HERRVIaVIIbc","Herring ICES VIa-VIIb-VIIc","Clupea harengus","Celtic-Biscay Shelf",NA,NA,NA,38445.6179135245,"Schaefer"
+"HAWG-SPRATNS-1995-2007-MINTO","SPRATNS","Sprat North Sea","Sprattus sprattus","North Sea",NA,NA,NA,NA,NA
+"IATTC-BIGEYEEPAC-1975-2007-JENSEN","BIGEYEEPAC","Bigeye tuna Eastern Pacific","Thunnus obesus","Pacific High Seas","MSY-MT","92758.00","assessment",NA,NA
+"IATTC-YFINEPAC-1975-2007-JENSEN","YFINEPAC","Yellowfin tuna Eastern Pacific","Thunnus albacares","Pacific High Seas","MSY-MT","289140.00","assessment",NA,NA
+"ICCAT-ALBANATL-1929-2005-WORM","ALBANATL","Albacore tuna North Atlantic","Thunnus alalunga","Atlantic High Seas","MSY-MT","30230","assessment",39183.0682472209,"Schaefer"
+"ICCAT-ATBTUNAEATL-1969-2007-WORM","ATBTUNAEATL","Bluefin tuna Eastern Atlantic","Thunnus thynnus","Atlantic High Seas","MSY-MT","49313.8","assessment",44222.9869668033,"Schaefer"
+"ICCAT-ATBTUNAWATL-1969-2007-WORM","ATBTUNAWATL","Bluefin tuna Western Atlantic","Thunnus thynnus","Atlantic High Seas","MSY-MT","2851.9","assessment",NA,NA
+"ICCAT-BIGEYEATL-1950-2005-JENSEN","BIGEYEATL","Bigeye tuna Atlantic","Thunnus obesus","Atlantic High Seas","MSY-MT","90820","assessment",92041.9748176838,"Schaefer"
+"ICCAT-SKJEATL-1950-2006-JENSEN","SKJEATL","Skipjack tuna Eastern Atlantic","Katsuwonus pelamis","Atlantic High Seas","MSY-MT","225796","assessment",254740.332144558,"Schaefer"
+"ICCAT-SKJWATL-1952-2006-JENSEN","SKJWATL","Skipjack tuna Western Atlantic","Katsuwonus pelamis","Atlantic High Seas","MSY-MT","57815","assessment",56897.1197883883,"Schaefer"
+"ICCAT-SWORDMED-1968-2006-JENSEN","SWORDMED","Swordfish Mediterranean Sea","Xiphias gladius","Mediterranean Sea","MSY-MT","12140","assessment",12237.9859994608,"Schaefer"
+"ICCAT-SWORDNATL-1978-2007-JENSEN","SWORDNATL","Swordfish North Atlantic","Xiphias gladius","Atlantic High Seas","MSY-MT","14879","assessment",15179.483115385,"Schaefer"
+"ICCAT-SWORDSATL-1970-2005-JENSEN","SWORDSATL","Swordfish South Atlantic","Xiphias gladius","Atlantic High Seas","MSY-MT","16640","assessment",NA,NA
+"ICCAT-YFINATL-1970-2006-JENSEN","YFINATL","Yellowfin tuna Atlantic","Thunnus albacares","Atlantic High Seas","MSY-MT","129800","assessment",138413.380859072,"Schaefer"
+"IMARM-SFMAKONWPAC-1990-2003-FAUCONNET","SFMAKONWPAC","Shortfin mako Nothwest Pacific Ocean","Isurus oxyrinchus","Pacific High Seas",NA,NA,NA,NA,NA
+"IMARPE-PANCHPERUNC-1963-2004-RICARD","PANCHPERUNC","Peruvian anchoveta North-Central Peru","Engraulis ringens","Humboldt Current",NA,NA,NA,NA,NA
+"INIDEP-ARGANCHONARG-1989-2007-Parma","ARGANCHONARG","Argentine anchoita Northern Argentina","Engraulis anchoita","Patagonian Shelf","MSY-MT","424027.80","assessment",NA,NA
+"INIDEP-ARGANCHOSARG-1992-2007-Parma","ARGANCHOSARG","Argentine anchoita Southern Argentina","Engraulis anchoita","Patagonian Shelf","MSY-MT","289825.38","assessment",NA,NA
+"INIDEP-ARGHAKENARG-1985-2007-Parma","ARGHAKENARG","Argentine hake Northern Argentina","Merluccius hubbsi","Patagonian Shelf","MSY-MT","169416","assessment",142486.138460782,"Schaefer"
+"INIDEP-ARGHAKESARG-1985-2008-Parma","ARGHAKESARG","Argentine hake Southern Argentina","Merluccius hubbsi","Patagonian Shelf","MSY-MT","277675.26","assessment",348711.426157354,"Schaefer"
+"INIDEP-PATGRENADIERSARG-1983-2006-Parma","PATGRENADIERSARG","Patagonian grenadier Southern Argentina","Macruronus magellanicus","Patagonian Shelf","MSY-MT","132131.00","assessment",120813.099720696,"Schaefer"
+"INIDEP-SBWHITARGS-1985-2007-Parma","SBWHITARGS"," Southern blue whiting Southern Argentina","Micromesistius australis","Patagonian Shelf",NA,NA,NA,NA,NA
+"IOTC-BIGEYEIO-1957-2006-JENSEN","BIGEYEIO","Bigeye tuna Indian Ocean","Thunnus obesus","Indian High Seas","MSY-MT","111200","assessment",NA,NA
+"IPHC-PHALNPAC-1988-2009-Parma","PHALNPAC","Pacific halibut North Pacific","Hippoglossus stenolepis","Gulf of Alaska",NA,NA,NA,NA,NA
+"MARAM-ANCHOSA-1984-2006-deMoor","ANCHOSA","Anchovy South Africa","Engraulis encrasicolus","Benguela Current",NA,NA,NA,387317.480985244,"Schaefer"
+"MARAM-CHAKESA-1917-2008-DEDECKER","CHAKESA","Shallow-water cape hake South Africa","Merluccius capensis","Benguela Current","MSY-MT","86000","assessment",50412.7803355358,"Schaefer"
+"MARAM-CRLOBSTERSA12-1910-2008-Johnston","CRLOBSTERSA12","South African west coast rock lobster South Africa Areas 1-2","Jasus lalandii","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-CRLOBSTERSA34-1910-2008-Johnston","CRLOBSTERSA34","South African west coast rock lobster South Africa Areas 3-4","Jasus lalandii","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-CRLOBSTERSA56-1910-2008-Johnston","CRLOBSTERSA56","South African west coast rock lobster South Africa Areas 5-6","Jasus lalandii","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-CRLOBSTERSA7-1910-2008-Johnston","CRLOBSTERSA7","South African west coast rock lobster South Africa Area 7","Jasus lalandii","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-CRLOBSTERSA8-1910-2008-Johnston","CRLOBSTERSA8","South African west coast rock lobster South Africa Area 8","Jasus lalandii","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-CTRACSA-1950-2007-Johnston","CTRACSA","Cape horse mackerel South Africa South coast","Trachurus capensis","Agulhas Current",NA,NA,NA,43695.4824801602,"Schaefer"
+"MARAM-DEEPCHAKESA-1917-2008-DEDECKER","DEEPCHAKESA","Deep-water cape hake South Africa","Merluccius paradoxus","Benguela Current","MSY-MT","113500","assessment",NA,NA
+"MARAM-KINGKLIPSA-1932-2008-DEDECKER","KINGKLIPSA","Kingklip South Africa","Genypterus capensis","Benguela Current","MSY-MT","66882","assessment",3851.81598311535,"Schaefer"
+"MARAM-PTOOTHFISHPEI-1960-2008-DEDECKER","PTOOTHFISHPEI","Patagonian toothfish South Africa Subantarctic Prince Edward Islands","Dissostichus eleginoides","Subantarctic High Seas","MSY-MT","2366","assessment",NA,NA
+"MARAM-SAABALONESA-1951-2008-PLAGANYI","SAABALONESA","South African abalone South Africa","Haliotis midae","Benguela Current",NA,NA,NA,NA,NA
+"MARAM-SARDSA-1984-2006-deMoor","SARDSA","Sardine South Africa","Sardinops sagax","Benguela Current",NA,NA,NA,519696.361594838,"Schaefer"
+"MARAM-SSLOBSTERSASC-1973-2008-Johnston","SSLOBSTERSASC","Southern spiny lobster South Africa South coast","Palinurus gilchristi","Agulhas Current",NA,NA,NA,468.811139634746,"Schaefer"
+"NAFO-SC-AMPL3LNO-1955-2007-BAUM","AMPL3LNO","American Plaice NAFO-3LNO","Hippoglossoides platessoides","Newfoundland-Labrador Shelf",NA,NA,NA,47145.7902558381,"Schaefer"
+"NAFO-SC-AMPL3M-1960-2007-BAUM","AMPL3M","American Plaice NAFO-3M","Hippoglossoides platessoides","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"NAFO-SC-COD3M-1959-2008-BAUM","COD3M","Atlantic cod NAFO 3M","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"NAFO-SC-COD3NO-1953-2007-BAUM","COD3NO","Atlantic cod NAFO 3NO","Gadus morhua","Newfoundland-Labrador Shelf",NA,NA,NA,100307.926626013,"Schaefer"
+"NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE","GHAL23KLMNO","Greenland halibut NAFO 23KLMNO","Reinhardtius hippoglossoides","Newfoundland-Labrador Shelf",NA,NA,NA,35242.2173687916,"Schaefer"
+"NAFO-SC-REDFISHSPP3LN-1959-2008-BAUM","REDFISHSPP3LN","Redfish species NAFO 3LN","Sebastes spp","Newfoundland-Labrador Shelf","MSY-MT","24440","assessment",24538.5345575366,"Schaefer"
+"NAFO-SC-REDFISHSPP3M-1985-2006-PREFONTAINE","REDFISHSPP3M","Redfish species NAFO 3M","Sebastes spp","Newfoundland-Labrador Shelf",NA,NA,NA,NA,NA
+"NAFO-SC-YELL3LNO-1960-2009-BAUM","YELL3LNO","Yellowtail Flounder NAFO 3LNO","Limanda ferruginea","Northeast U.S. Continental Shelf","MSY-MT","18820","assessment",18777.2254081067,"Schaefer"
+"NEFSC-ACADREDGOMGB-1913-2007-MILLER","ACADREDGOMGB","Acadian redfish Gulf of Maine / Georges Bank","Sebastes fasciatus","Northeast U.S. Continental Shelf","MSY-MT","10139","assessment",NA,NA
+"NEFSC-AMPL5YZ-1960-2008-OBRIEN","AMPL5YZ","American Plaice NAFO-5YZ","Hippoglossoides platessoides","Northeast U.S. Continental Shelf","MSY-MT","4059","assessment",7458.42839431349,"Schaefer"
+"NEFSC-ATHAL5YZ-1800-2007-COL","ATHAL5YZ","Atlantic Halibut NAFO-5YZ","Hippoglossus hippoglossus","Northeast U.S. Continental Shelf","MSY-MT","3500","assessment",NA,NA
+"NEFSC-BLUEFISHATLC-1981-2007-SHEPHERD","BLUEFISHATLC","Bluefish Atlantic Coast","Pomatomus saltatrix","Northeast U.S. Continental Shelf","MSY-MT","15565","assessment",15413.5149854979,"Schaefer"
+"NEFSC-BSBASSMATLC-1968-2007-SHEPHERD","BSBASSMATLC","Black sea bass Mid-Atlantic Coast","Centropristis striata","Northeast U.S. Continental Shelf","MSY-MT","3903","assessment",3468.9249074747,"Schaefer"
+"NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ","BUTTERGOMCHATT","Atlantic butterfish Gulf of Maine / Cape Hatteras","Peprilus triacanthus","Northeast U.S. Continental Shelf","MSY-MT","12.175","assessment",NA,NA
+"NEFSC-CODGB-1960-2008-BAUM","CODGB","Atlantic cod Georges Bank","Gadus morhua","Northeast U.S. Continental Shelf","MSY-MT","31159","assessment",36497.534888921,"Schaefer"
+"NEFSC-CODGOM-1893-2008-BAUM","CODGOM","Atlantic cod Gulf of Maine","Gadus morhua","Northeast U.S. Continental Shelf","MSY-MT","16600","assessment",9423.85952792668,"Schaefer"
+"NEFSC-HAD5Y-1956-2008-BAUM","HAD5Y","Haddock NAFO-5Y","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf","MSY-MT","1360","assessment",3160.54575832725,"Schaefer"
+"NEFSC-HADGB-1930-2008-BAUM","HADGB","Haddock Georges Bank","Melanogrammus aeglefinus","Northeast U.S. Continental Shelf","MSY-MT","32746","assessment",NA,NA
+"NEFSC-HERRNWATLC-1960-2005-OVERHOLTZ","HERRNWATLC","Atlantic herring Northwestern Atlantic Coast","Clupea harengus","Northeast U.S. Continental Shelf","MSY-MT","194000","assessment",NA,NA
+"NEFSC-ILLEXNWATLC-1967-2005-HENDRICKSON","ILLEXNWATLC","Northern shortfin squid Northwestern Atlantic Coast","Illex illecebrosus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-MACKGOMCHATT-1960-2005-OVERHOLTZ","MACKGOMCHATT","Atlantic mackerel Gulf of Maine / Cape Hatteras","Scomber scombrus","Northeast U.S. Continental Shelf","MSY-MT","89000","assessment",NA,NA
+"NEFSC-MONKGOMNGB-1964-2006-RICHARDS","MONKGOMNGB","Monkfish Gulf of Maine / Northern Georges Bank","Lophius americanus","Northeast U.S. Continental Shelf","MSY-MT","3500","assessment",11035.8020673939,"Schaefer"
+"NEFSC-MONKSGBMATL-1964-2006-RICHARDS","MONKSGBMATL","Monkfish Southern Georges Bank / Mid-Atlantic","Lophius americanus","Northeast U.S. Continental Shelf",NA,NA,NA,18623.8817280831,"Schaefer"
+"NEFSC-POLL5YZ-1963-2007-MAYO","POLL5YZ","Pollock NAFO-5YZ","Pollachius virens","Northeast U.S. Continental Shelf","MSY-MT","11320","assessment",NA,NA
+"NEFSC-QUAHATLC-1978-2008-CHUTE","QUAHATLC","Ocean quahog Atlantic Coast","Arctica islandica","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-SCALLGB-1964-2006-HART","SCALLGB","Sea scallop Georges Bank","Placopecten magellanicus","Northeast U.S. Continental Shelf",NA,NA,NA,13910.5107161732,"Schaefer"
+"NEFSC-SCALLMATLC-1964-2006-HART","SCALLMATLC","Sea scallop Mid-Atlantic Coast","Placopecten magellanicus","Northeast U.S. Continental Shelf",NA,NA,NA,24735.6301652523,"Schaefer"
+"NEFSC-SCUPNWATLC-1960-2007-TERCEIRO","SCUPNWATLC","Scup Atlantic Coast","Stenotomus chrysops","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-SDOGATLC-1962-2006-SOSEBEE","SDOGATLC","Spiny dogfish Atlantic Coast","Squalus acanthias","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-SFLOUNMATLC-1940-2007-BAUM","SFLOUNMATLC","Summer flounder Mid-Atlantic Coast","Paralichthys dentatus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-SHAKEGOMNGB-1955-2005-COL","SHAKEGOMNGB","Silver hake Gulf of Maine / Northern Georges Bank","Merluccius bilinearis","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-SHAKESGBMATL-1955-2005-COL","SHAKESGBMATL","Silver hake Southern Georges Bank / Mid-Atlantic","Merluccius bilinearis","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-STRIPEDBASSGOMCHATT-1982-2006-SHEPHERD","STRIPEDBASSGOMCHATT","Striped bass Gulf of Maine / Cape Hatteras","Morone saxatilis","Northeast U.S. Continental Shelf","MSY-MT","17823","assessment",NA,NA
+"NEFSC-SURFMATLC-1965-2008-JACOBSON","SURFMATLC","Atlantic surfclam Mid-Atlantic Coast","Spisula solidissima","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-TILEMATLC-1973-2008-NITSCHKE","TILEMATLC","Tilefish Mid-Atlantic Coast","Lopholatilus chamaeleonticeps","Northeast U.S. Continental Shelf",NA,NA,NA,1997.79629588635,"Schaefer"
+"NEFSC-WEAKFISHATLC-1981-2008-STANTON","WEAKFISHATLC","Weakfish Atlantic Coast","Cynoscion regalis","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-WHAKEGBGOM-1963-2007-SOSEBEE","WHAKEGBGOM","White hake Georges Bank / Gulf of Maine","Urophycis tenuis","Northeast U.S. Continental Shelf","MSY-MT","5800","assessment",7057.17423241795,"Schaefer"
+"NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON","WINDOWGOMGB","Windowpane flounder - Gulf of Maine / Georges Bank","Scophthalmus aquosus","Northeast U.S. Continental Shelf","MSY-MT","700","assessment",NA,NA
+"NEFSC-WINDOWSNEMATL-1975-2007-HENDRICKSON","WINDOWSNEMATL","Windowpane Southern New England-Mid Atlantic","Scophthalmus aquosus","Northeast U.S. Continental Shelf","MSY-MT","500","assessment",NA,NA
+"NEFSC-WINFLOUN5Z-1982-2007-HENDRICKSON","WINFLOUN5Z","Winter Flounder NAFO-5Z","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf","MSY-MT","3500","assessment",2789.72973235628,"Schaefer"
+"NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE","WINFLOUND5Y","Winter Flounder NAFO-5Y","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf",NA,NA,NA,NA,NA
+"NEFSC-WINFLOUNSNEMATL-1940-2007-TERCEIRO","WINFLOUNSNEMATL","Winter Flounder Southern New England-Mid Atlantic","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf","MSY-MT","9742","assessment",10076.8903801646,"Schaefer"
+"NEFSC-WITFLOUN5Y-1982-2008-WIGLEY","WITFLOUN5Y","Witch Flounder NAFO-5Y","Glyptocephalus cynoglossus","Northeast U.S. Continental Shelf","MSY-MT","2352","assessment",NA,NA
+"NEFSC-YELLCCODGOM-1935-2008-LEGAULT","YELLCCODGOM","Yellowtail flounder Cape Cod / Gulf of Maine","Limanda ferruginea","Northeast U.S. Continental Shelf","MSY-MT","1720","assessment",NA,NA
+"NEFSC-YELLGB-1935-2008-BAUM","YELLGB","Yellowtail flounder Georges Bank","Limanda ferruginea","Northeast U.S. Continental Shelf","MSY-MT","9400","assessment",10018.6135820434,"Schaefer"
+"NEFSC-YELLSNEMATL-1935-2008-BAUM","YELLSNEMATL","Yellowtail Flounder Southern New England-Mid Atlantic","Limanda ferruginea","Northeast U.S. Continental Shelf","MSY-MT","6100","assessment",NA,NA
+"NIWA-AUSSALMONNZ-1975-2006-JENSEN","AUSSALMONNZ","Australian salmon New Zealand","Arripis trutta","New Zealand Shelf","MSY-MT","3371.82","assessment",2795.87389386698,"Schaefer"
+"NIWA-OROUGHYNZMEC-1981-2004-JENSEN","OROUGHYNZMEC","Orange roughy New Zealand Mid East Coast","Hoplostethus atlanticus","New Zealand Shelf","MSY-MT","2598.07907","assessment",4950.77792608624,"Schaefer"
+"NMFS-MENATLAN-1940-2005-STANTON","MENATLAN","Atlantic menhaden Atlantic","Brevoortia tyrannus","Northeast U.S. Continental Shelf",NA,NA,NA,410446.142700797,"Schaefer"
+"NWFSC-ARFLOUNDPCOAST-1916-2007-BRANCH","ARFLOUNDPCOAST","Arrowtooth flounder Pacific Coast","Reinhardtius stomias","California Current","MSY-MT","5844","assessment",4509.76353563904,"Schaefer"
+"NWFSC-BGROCKPCOAST-1950-2005-STANTON","BGROCKPCOAST","Blackgill rockfish  Pacific Coast","Sebastes melanostomus","California Current","MSY-MT","223","assessment",NA,NA
+"NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH","BLACKROCKNPCOAST","Black rockfish Northern Pacific Coast","Sebastes melanops","California Current","MSY-MT","700","assessment",413.765753131371,"Schaefer"
+"NWFSC-BLACKROCKSPCOAST-1915-2007-BRANCH","BLACKROCKSPCOAST","Black rockfish Southern Pacific Coast","Sebastes melanops","California Current","MSY-MT","1064.6","assessment",912.693392511429,"Schaefer"
+"NWFSC-BLUEROCKCAL-1916-2007-BRANCH","BLUEROCKCAL","Blue rockfish California","Sebastes mystinus","California Current","MSY-MT","275","assessment",NA,NA
+"NWFSC-BOCACCSPCOAST-1951-2006-BRANCH","BOCACCSPCOAST","Bocaccio Southern Pacific Coast","Sebastes paucispinis","California Current","MSY-MT","1974","assessment",3769.50887472615,"Schaefer"
+"NWFSC-CHILISPCOAST-1892-2007-BRANCH","CHILISPCOAST","Chilipepper Southern Pacific Coast","Sebastes goodei","California Current","MSY-MT","2164","assessment",2170.47214237637,"Schaefer"
+"NWFSC-COWCODSCAL-1900-2007-BRANCH","COWCODSCAL","Cowcod Southern California","Sebastes levis","California Current",NA,NA,NA,NA,NA
+"NWFSC-CROCKPCOAST-1916-2009-Stachura","CROCKPCOAST","Canary rockfish Pacific Coast","Sebastes pinniger","California Current","MSY-MT","937","assessment",NA,NA
+"NWFSC-DKROCKPCOAST-1928-2007-BRANCH","DKROCKPCOAST","Darkblotched rockfish Pacific Coast","Sebastes crameri","California Current","MSY-MT","644","assessment",524.371288895123,"Schaefer"
+"NWFSC-ESOLEPCOAST-1876-2007-BRANCH","ESOLEPCOAST","English sole Pacific Coast","Parophrys vetulus","California Current","MSY-MT","4252","assessment",3833.37156840496,"Schaefer"
+"NWFSC-KELPGREENLINGORECOAST-1979-2005-STANTON","KELPGREENLINGORECOAST","Kelp greenling Oregon Coast","Hexagrammos decagrammus","California Current","MSY-MT","82","assessment",NA,NA
+"NWFSC-LNOSESKAPCOAST-1915-2007-BRANCH","LNOSESKAPCOAST","Longnose skate Pacific Coast","Raja rhina","California Current","MSY-MT","1268","assessment",1460.59621823981,"Schaefer"
+"NWFSC-LSTHORNHPCOAST-1962-2005-STANTON","LSTHORNHPCOAST","Longspine thornyhead Pacific Coast","Sebastolobus altivelis","California Current","MSY-MT","3687","assessment",NA,NA
+"NWFSC-PHAKEPCOAST-1966-2008-BRANCH","PHAKEPCOAST","Pacific hake Pacific Coast","Merluccius productus","California Current","MSY-MT","476750","assessment",392385.478850071,"Schaefer"
+"NWFSC-POPERCHPCOAST-1953-2007-BRANCH","POPERCHPCOAST","Pacific ocean perch Pacific Coast","Sebastes alutus","California Current","MSY-MT","1411","assessment",2732.84918102017,"Schaefer"
+"NWFSC-PSOLENPCOAST-1910-2005-STANTON","PSOLENPCOAST","Petrale sole Northern Pacific Coast","Eopsetta jordani","California Current","MSY-MT","1760","assessment",1521.72524532491,"Schaefer"
+"NWFSC-PSOLESPCOAST-1874-2005-STANTON","PSOLESPCOAST","Petrale sole Southern Pacific Coast","Eopsetta jordani","California Current","MSY-MT","1404","assessment",1334.48402767249,"Schaefer"
+"NWFSC-SABLEFPCOAST-1900-2007-BRANCH","SABLEFPCOAST","Sablefish Pacific Coast","Anoplopoma fimbria","California Current","MSY-MT","6303","assessment",NA,NA
+"NWFSC-SSTHORNHPCOAST-1901-2005-STANTON","SSTHORNHPCOAST","Shortspine thornyhead Pacific Coast","Sebastolobus alascanus","California Current","MSY-MT","1720","assessment",NA,NA
+"NWFSC-WROCKPCOAST-1955-2006-BRANCH","WROCKPCOAST","Widow rockfish Pacific Coast","Sebastes entomelas","California Current",NA,NA,NA,4533.2753838497,"Schaefer"
+"NWFSC-YEYEROCKPCOAST-1923-2006-BRANCH","YEYEROCKPCOAST","Yelloweye rockfish Pacific Coast","Sebastes ruberrimus","California Current","MSY-MT","51.4","assessment",112.224350817512,"Schaefer"
+"NWFSC-YTROCKNPCOAST-1967-2005-STANTON","YTROCKNPCOAST","Yellowtail rockfish Northern Pacific Coast","Sebastes flavidus","California Current","MSY-MT","4680","assessment",4273.12205723631,"Schaefer"
+"NWWG-CAPEICE-1977-2007-MINTO","CAPEICE","Capelin Iceland","Mallotus villosus","Iceland Shelf",NA,NA,NA,910728.401937508,"Schaefer"
+"NWWG-CODFAPL-1959-2006-MINTO","CODFAPL","Atlantic cod Faroe Plateau","Gadus morhua","Faroe Plateau",NA,NA,NA,26795.7882688084,"Schaefer"
+"NWWG-CODICE-1952-2006-MINTO","CODICE","Atlantic cod Iceland","Gadus morhua","Iceland Shelf",NA,NA,NA,366957.01689482,"Schaefer"
+"NWWG-HADFAPL-1955-2006-MINTO","HADFAPL","Haddock Faroe Plateau","Melanogrammus aeglefinus","Faroe Plateau",NA,NA,NA,18469.9432382072,"Schaefer"
+"NWWG-HADICE-1977-2007-MINTO","HADICE","Haddock Iceland","Melanogrammus aeglefinus","Iceland Shelf",NA,NA,NA,87029.2893347584,"Schaefer"
+"NWWG-POLLFAPL-1958-2006-MINTO","POLLFAPL","Pollock Faroe Plateau","Pollachius virens","Faroe Plateau",NA,NA,NA,41522.8849995196,"Schaefer"
+"NZMFishDEEPWATER-BLACKOREOWECR-1973-2007-JENSEN","BLACKOREOWECR","Black oreo West end of Chatham Rise","Allocyttus niger","New Zealand Shelf","MSY-MT","1947","assessment",NA,NA
+"NZMFishDEEPWATER-SMOOTHOREOCR-1979-2006-JENSEN","SMOOTHOREOCR","Smooth oreo Chatham Rise","Pseudocyttus maculatus","New Zealand Shelf","MSY-MT","5132.855","assessment",4652.68615715161,"Schaefer"
+"NZMFishDEEPWATER-SMOOTHOREOWECR-1973-2004-JENSEN","SMOOTHOREOWECR","Smooth oreo West end of Chatham Rise","Pseudocyttus maculatus","New Zealand Shelf","MSY-MT","2218.0808","assessment",2467.59679869704,"Schaefer"
+"NZMFishHOKIWG-HOKIENZ-1972-2007-FRANCIS","HOKIENZ","Hoki Eastern New Zealand","Macruronus novaezelandiae","New Zealand Shelf",NA,NA,NA,132853.194923097,"Schaefer"
+"NZMFishHOKIWG-HOKIWNZ-1972-2007-FRANCIS","HOKIWNZ","Hoki Western New Zealand","Macruronus novaezelandiae","New Zealand Shelf",NA,NA,NA,200787.015326461,"Schaefer"
+"NZMFishINSHOREWG-NZSNAPNZ8-1931-2005-JENSEN","NZSNAPNZ8","New Zealand snapper New Zealand Area 8","Chrysophrys auratus","New Zealand Shelf","MSY-MT","2284.7076","assessment",2119.00093602968,"Schaefer"
+"NZMFishINSHOREWG-TREVALLYTRE7-1944-2005-JENSEN","TREVALLYTRE7","Trevally New Zealand Areas TRE 7","Pseudocaranx dentex","New Zealand Shelf","MSY-MT","2170.41121","assessment",1829.68664695206,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN","RROCKLOBSTERCRA1","Red rock lobster New Zealand area CRA1","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,257.752545835853,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA2-1945-2001-JENSEN","RROCKLOBSTERCRA2","Red rock lobster New Zealand area CRA2","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,396.271665485145,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN","RROCKLOBSTERCRA3","Red rock lobster New Zealand area CRA3","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,NA,NA
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN","RROCKLOBSTERCRA4","Red rock lobster New Zealand area CRA4","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,723.861445172334,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA5-1945-2002-JENSEN","RROCKLOBSTERCRA5","Red rock lobster New Zealand area CRA5","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,507.552421917418,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA7-1976-2005-JENSEN","RROCKLOBSTERCRA7","Red rock lobster New Zealand area CRA7","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,321.725919047469,"Schaefer"
+"NZMFishLOBSTERWG-RROCKLOBSTERCRA8-1976-2005-JENSEN","RROCKLOBSTERCRA8","Red rock lobster New Zealand area CRA8","Jasus edwardsii","New Zealand Shelf",NA,NA,NA,1869.82477079354,"Schaefer"
+"NZMFishMIDDEPTHSWG-GEMFISHNZ-1952-2007-JENSEN","GEMFISHNZ","common gemfish New Zealand","Rexea solandri","New Zealand Shelf","MSY-MT","1432.04273333333","assessment",NA,NA
+"NZMFishMIDDEPTHSWG-NZLINGLIN3-4-1972-2007-JENSEN","NZLINGLIN3-4","New Zealand ling New Zealand Areas LIN 3 and 4","Genypterus blacodes","New Zealand Shelf","MSY-MT","9755.2085","assessment",7765.91837750427,"Schaefer"
+"NZMFishMIDDEPTHSWG-NZLINGLIN5-6-1972-2007-JENSEN","NZLINGLIN5-6","New Zealand ling New Zealand Areas LIN 5 and 6","Genypterus blacodes","New Zealand Shelf","MSY-MT","20497.974","assessment",12670.0978974748,"Schaefer"
+"NZMFishMIDDEPTHSWG-NZLINGLIN6b-1980-2006-JENSEN","NZLINGLIN6b","New Zealand ling New Zealand Area LIN 6b","Genypterus blacodes","New Zealand Shelf","MSY-MT","893.8449","assessment",406.913242772882,"Schaefer"
+"NZMFishMIDDEPTHSWG-NZLINGLIN72-1972-2007-JENSEN","NZLINGLIN72","New Zealand ling New Zealand Area LIN 72","Genypterus blacodes","New Zealand Shelf","MSY-MT","515.8919688","assessment",395.875591889463,"Schaefer"
+"NZMFishMIDDEPTHSWG-NZLINGLIN7WC-1972-2008-JENSEN","NZLINGLIN7WC","New Zealand ling New Zealand Area LIN 7WC - WCSI","Genypterus blacodes","New Zealand Shelf","MSY-MT","6062.29056","assessment",3857.59804255046,"Schaefer"
+"NZMFishMIDDEPTHSWG-SBWHITACIR-1979-2006-JENSEN","SBWHITACIR","Southern blue whiting Campbell Island Rise","Micromesistius australis","New Zealand Shelf","MSY-MT","19276.2356","assessment",17699.6474449652,"Schaefer"
+"NZMFishMIDDEPTHSWG-SOUTHHAKECR-1975-2006-JENSEN","SOUTHHAKECR","Southern hake Chatham Rise","Merluccius australis","New Zealand Shelf","MSY-MT","3042.60651","assessment",NA,NA
+"NZMFishMIDDEPTHSWG-SOUTHHAKESA-1975-2007-JENSEN","SOUTHHAKESA","Southern hake Sub-Antarctic","Merluccius australis","New Zealand Shelf","MSY-MT","5810.2831","assessment",NA,NA
+"NZMFishSHELLFISHWG-PAUAPAU5A-1964-2006-JENSEN","PAUAPAU5A","New Zealand abalone species New Zealand Area PAU 5A","Haliotis iris","New Zealand Shelf",NA,NA,NA,76.9303140696091,"Schaefer"
+"NZMFishSHELLFISHWG-PAUAPAU5B-1963-2007-JENSEN","PAUAPAU5B","New Zealand abalone species New Zealand Area PAU 5B","Haliotis iris","New Zealand Shelf",NA,NA,NA,184.030223081834,"Schaefer"
+"NZMFishSHELLFISHWG-PAUAPAU5D-1964-2006-JENSEN","PAUAPAU5D","New Zealand abalone species New Zealand Area PAU 5D","Haliotis iris","New Zealand Shelf",NA,NA,NA,119.342797112489,"Schaefer"
+"NZMFishSHELLFISHWG-PAUAPAU7-1964-2008-JENSEN","PAUAPAU7","New Zealand abalone species New Zealand Area PAU 7","Haliotis iris","New Zealand Shelf",NA,NA,NA,245.157288884317,"Schaefer"
+"PFMC-LINGCODNPCOAST-1956-2005-STANTON","LINGCODNPCOAST","Lingcod Northern Pacific Coast","Ophiodon elongatus","California Current",NA,NA,NA,NA,NA
+"PFMC-LINGCODSPCOAST-1956-2005-STANTON","LINGCODSPCOAST","Lingcod Southern Pacific Coast","Ophiodon elongatus","California Current",NA,NA,NA,NA,NA
+"RIDEM-LOBSTERRI-1959-2007-COLLIE","LOBSTERRI","American lobster Rhode Island","Homarus americanus","Northeast U.S. Continental Shelf",NA,NA,NA,1848.62980922835,"Schaefer"
+"RIDEM-TAUTOGRI-1959-2007-COLLIE","TAUTOGRI","Tautog Rhode Island","Tautoga onitis","Northeast U.S. Continental Shelf","MSY-MT","369.56","assessment",411.290591522889,"Schaefer"
+"RIDEM-WINFLOUNDRI-1959-2007-COLLIE","WINFLOUNDRI","Winter flounder Rhode Island","Pseudopleuronectes americanus","Northeast U.S. Continental Shelf",NA,NA,NA,1263.82738135854,"Schaefer"
+"SEFSC-BHEADSHARATL-1950-2005-FAUCONNET","BHEADSHARATL","Bonnethead shark Atlantic","Sphyrna tiburo","Southeast U.S. Continental Shelf","MSY-MT","568871","assessment",NA,NA
+"SEFSC-BNOSESHARATL-1950-2005-FAUCONNET","BNOSESHARATL","Blacknose shark Atlantic","Carcharhinus acronotus","Southeast U.S. Continental Shelf","MSY-MT","89.415","assessment",NA,NA
+"SEFSC-BTIPSHARATL-1981-2004-FAUCONNET","BTIPSHARATL","Blacktip shark Atlantic","Carcharhinus limbatus","Southeast U.S. Continental Shelf","MSY-MT","1.49E+04","assessment",NA,NA
+"SEFSC-BTIPSHARGM-1981-2004-FAUCONNET","BTIPSHARGM","Blacktip shark Gulf of Mexico","Carcharhinus limbatus","Gulf of Mexico","MSY-MT","2.42E+04","assessment",NA,NA
+"SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET","FTOOTHSHARATL","Finetooth shark Atlantic","Carcharhinus isodon","Southeast U.S. Continental Shelf","MSY-E00","96000","assessment",NA,NA
+"SEFSC-GAGGM-1963-2004-JENSEN","GAGGM","Gag Gulf of Mexico","Mycteroperca microlepis","Gulf of Mexico","MSY-MT","2241.65","assessment",2015.05143477917,"Schaefer"
+"SEFSC-GAGSATLC-1962-2005-JENSEN","GAGSATLC","Gag Southern Atlantic coast","Mycteroperca microlepis","Southeast U.S. Continental Shelf","MSY-MT","562","assessment",NA,NA
+"SEFSC-GRAMBERGM-1986-2004-JENSEN","GRAMBERGM","Greater amberjack Gulf of Mexico","Seriola dumerili","Gulf of Mexico","MSY-MT","2285.650088","assessment",NA,NA
+"SEFSC-GRAMBERSATLC-1946-2006-JENSEN","GRAMBERSATLC","Greater amberjack Southern Atlantic coast","Seriola dumerili","Southeast U.S. Continental Shelf","MSY-MT","909.45","assessment",NA,NA
+"SEFSC-GTRIGGM-1981-2004-JENSEN","GTRIGGM","Gray triggerfish Gulf of Mexico","Balistes capriscus","Gulf of Mexico","MSY-MT","743","assessment",NA,NA
+"SEFSC-KMACKGM-1992-2001-JENSEN","KMACKGM","King mackerel Gulf of Mexico","Scomberomorus cavalla","Gulf of Mexico","MSY-MT","5178.659864","assessment",NA,NA
+"SEFSC-KMACKSATLC-1981-2001-JENSEN","KMACKSATLC","King mackerel Southern Atlantic Coast","Scomberomorus cavalla","Southeast U.S. Continental Shelf","MSY-MT","2576.40","assessment",NA,NA
+"SEFSC-MENATGM-1964-2004-GILROY","MENATGM","Gulf menhaden Gulf of Mexico","Brevoortia patronus","Gulf of Mexico",NA,NA,NA,907092.764452244,"Schaefer"
+"SEFSC-MUTSNAPSATLCGM-1981-2006-JENSEN","MUTSNAPSATLCGM","Mutton snapper Southern Atlantic coast and Gulf of Mexico","Lutjanus analis","Southeast U.S. Continental Shelf","MSY-MT","688","assessment",NA,NA
+"SEFSC-RGROUPGM-1986-2005-JENSEN","RGROUPGM","Red grouper Gulf of Mexico","Epinephelus morio","Gulf of Mexico","MSY-MT","3501.73024","assessment",NA,NA
+"SEFSC-RPORGYSATLC-1972-2004-JENSEN","RPORGYSATLC","Red porgy Southern Atlantic coast","Pagrus pagrus","Southeast U.S. Continental Shelf","MSY-MT","283.81","assessment",NA,NA
+"SEFSC-RSNAPEGM-1872-2003-STANTON","RSNAPEGM","Red snapper Eastern Gulf of Mexico","Lutjanus campechanus","Gulf of Mexico","MSY-MT","18656.4456137168","assessment",NA,NA
+"SEFSC-RSNAPSATLC-1945-2006-JENSEN","RSNAPSATLC","Red snapper Southern Atlantic coast","Lutjanus campechanus","Southeast U.S. Continental Shelf","MSY-MT","1049.61","assessment",NA,NA
+"SEFSC-RSNAPWGM-1880-2003-STANTON","RSNAPWGM","Red snapper Western Gulf of Mexico","Lutjanus campechanus","Gulf of Mexico","MSY-MT","18656.4456137168","assessment",NA,NA
+"SEFSC-SBARSHARATL-1975-2004-FAUCONNET","SBARSHARATL","Sandbar shark Atlantic","Carcharhinus plumbeus","Scotian Shelf","MSY-MT","403","assessment",NA,NA
+"SEFSC-SNOSESHARATL-1950-2005-FAUCONNET","SNOSESHARATL","Atlantic sharpnose shark Atlantic","Rhizoprionodon terraenovae","Southeast U.S. Continental Shelf","MSY-MT","1.27E+06","assessment",NA,NA
+"SEFSC-SNOWGROUPSATLC-1961-2002-STANTON","SNOWGROUPSATLC","Snowy grouper Southern Atlantic coast","Epinephelus niveatus","Southeast U.S. Continental Shelf","MSY-MT","142","assessment",NA,NA
+"SEFSC-SPANMACKSATLC-1950-2008-JENSEN","SPANMACKSATLC","Spanish mackerel Southern Atlantic Coast","Scomberomorus maculatus","Southeast U.S. Continental Shelf","MSY-MT","5941.60","assessment",6401.57927099359,"Schaefer"
+"SEFSC-TILESATLC-1961-2002-STANTON","TILESATLC","Tilefish Southern Atlantic coast","Lopholatilus chamaeleonticeps","Southeast U.S. Continental Shelf","MSY-MT","152.6","assessment",262.854329893937,"Schaefer"
+"SEFSC-VSNAPGM-1981-2004-JENSEN","VSNAPGM","Vermilion snapper Gulf of Mexico","Rhomboplites aurorubens","Gulf of Mexico","MSY-MT","3374.72","assessment",NA,NA
+"SEFSC-VSNAPSATLC-1946-2008-STANTON","VSNAPSATLC","Vermilion snapper Southern Atlantic coast","Rhomboplites aurorubens","Southeast U.S. Continental Shelf","MSY-MT","755.239045631861","assessment",NA,NA
+"SEFSC-YTSNAPSATLC-1962-2001-STANTON","YTSNAPSATLC","Yellowtail snapper Southern Atlantic Coast","Ocyurus chrysurus","Southeast U.S. Continental Shelf","MSY-MT","1366","assessment",NA,NA
+"SFI-WPOLLNSO-1985-1994-JENSEN","WPOLLNSO","Walleye pollock Northern Sea of Okhotsk","Theragra chalcogramma","Sea of Okhotsk","MSY-MT","2067000","assessment",NA,NA
+"SPC-ALBASPAC-1959-2006-JENSEN","ALBASPAC","Albacore tuna South Pacific Ocean","Thunnus alalunga","Pacific High Seas","MSY-MT","63,830","assessment",NA,NA
+"SPC-BIGEYEWPO-1952-2006-JENSEN","BIGEYEWPO","Bigeye tuna Western Pacific Ocean","Thunnus obesus","Pacific High Seas","MSY-MT","64,600","assessment",NA,NA
+"SPC-SKJCWPAC-1972-2006-JENSEN","SKJCWPAC","Skipjack tuna Central Western Pacific","Katsuwonus pelamis","Pacific High Seas","MSY-MT","1,279,600","assessment",NA,NA
+"SPC-STMARLINSWPO-1950-2003-JENSEN","STMARLINSWPO","Striped marlin Southwestern Pacific Ocean","Kajikia audax","Pacific High Seas","MSY-MT","2465","assessment",NA,NA
+"SPC-YFINCWPAC-1952-2005-JENSEN","YFINCWPAC","Yellowfin tuna Central Western Pacific","Thunnus albacares","Pacific High Seas","MSY-MT","400,000","assessment",NA,NA
+"SPRFMO-CHTRACCH-1950-2010-RICARD","CHTRACCH","Chilean jack mackerel Chilean EEZ and offshore","Trachurus murphyi","Humboldt Current",NA,NA,NA,2352525.52372443,"Schaefer"
+"SWFSC-CALSCORPSCAL-1990-2005-STANTON","CALSCORPSCAL","California scorpionfish Southern California","Scorpaena guttata","California Current","MSY-MT","127","assessment",NA,NA
+"SWFSC-CMACKPCOAST-1929-2008-PINSKY","CMACKPCOAST","Pacific chub mackerel Pacific Coast","Scomber japonicus","California Current","MSY-MT","23048.2","assessment",NA,NA
+"SWFSC-CMACKPCOAST-1929-2008-PINSKY","CMACKPCOAST","Pacific chub mackerel Pacific Coast","Scomber japonicus","California Current","MSY-MT","51772","assessment",NA,NA
+"SWFSC-DSOLEPCOAST-1910-2005-STANTON","DSOLEPCOAST","Dover sole Pacific Coast","Microstomus pacificus","California Current","MSY-MT","16505","assessment",11830.0714892321,"Schaefer"
+"SWFSC-GOPHERSPCOAST-1965-2005-STANTON","GOPHERSPCOAST","Gopher rockfish Southern Pacific Coast","Sebastes carnatus","California Current","MSY-MT","101","assessment",NA,NA
+"SWFSC-SARDPCOAST-1981-2007-PINSKY","SARDPCOAST","Pacific sardine Pacific Coast","Sardinops sagax","California Current",NA,NA,NA,266732.083227237,"Schaefer"
+"SWFSC-SBELLYROCKPCOAST-1950-2005-BRANCH","SBELLYROCKPCOAST","Shortbelly rockfish Pacific Coast","Sebastes jordani","California Current",NA,NA,NA,NA,NA
+"SWFSC-STFLOUNNPCOAST-1970-2005-STANTON","STFLOUNNPCOAST","Starry flounder Northern Pacific Coast","Platichthys stellatus","California Current","MSY-MT","818","assessment",463.728847026276,"Schaefer"
+"SWFSC-STFLOUNSPCOAST-1970-2005-STANTON","STFLOUNSPCOAST","Starry flounder Southern Pacific Coast","Platichthys stellatus","California Current","MSY-MT","396","assessment",330.101439615735,"Schaefer"
+"TAFI-TASGIANTCRABTAS-1990-2007-JENSEN","TASGIANTCRABTAS","Tasmanian giant crab Tasmania","Pseudocarcinus gigas","Southeast Australian Shelf",NA,NA,NA,NA,NA
+"VNIRO-WPOLLWBS-1994-2004-JENSEN","WPOLLWBS","Walleye pollock Western Bering Sea","Theragra chalcogramma","West Bering Sea",NA,NA,NA,NA,NA
+"WGBFAS-CODBA2224-1969-2007-JENNINGS","CODBA2224","Atlantic cod Baltic Areas 22 and 24","Gadus morhua","Baltic Sea",NA,NA,NA,43695.4824801602,"Schaefer"
+"WGBFAS-CODBA2532-1964-2007-JENNINGS","CODBA2532","Atlantic cod Baltic Areas 25-32","Gadus morhua","Baltic Sea",NA,NA,NA,273211.090320455,"Schaefer"
+"WGBFAS-CODKAT-1970-2006-MINTO","CODKAT","Atlantic cod Kattegat","Gadus morhua","North Sea",NA,NA,NA,14841.7583960231,"Schaefer"
+"WGBFAS-HERR2532-1973-2006-JENNINGS","HERR2532","Herring ICES 25-32","Clupea harengus","Baltic Sea",NA,NA,NA,204433.905145213,"Schaefer"
+"WGBFAS-HERR30-1972-2007-JENNINGS","HERR30","Herring ICES 30","Clupea harengus","Baltic Sea",NA,NA,NA,52260.7034726959,"Schaefer"
+"WGBFAS-HERR31-1979-2006-JENNINGS","HERR31","Herring ICES 31","Clupea harengus","Baltic Sea",NA,NA,NA,6451.06169422552,"Schaefer"
+"WGBFAS-HERRIsum-1983-2007-JENNINGS","HERRIsum","Herring Iceland (Summer spawners)","Clupea harengus","Iceland Shelf",NA,NA,NA,164554.976993438,"Schaefer"
+"WGBFAS-HERRRIGA-1976-2007-JENNINGS","HERRRIGA","Herring ICES 28","Clupea harengus","Baltic Sea",NA,NA,NA,29584.3267977066,"Schaefer"
+"WGBFAS-SOLEIIIa-1982-2007-JENNINGS","SOLEIIIa","common European sole ICES Kattegat and Skagerrak","Solea vulgaris","North Sea",NA,NA,NA,1090.83637772694,"Schaefer"
+"WGBFAS-SPRAT22-32-1973-2007-JENNINGS","SPRAT22-32","Sprat ICES Baltic Areas 22-32","Sprattus sprattus","Baltic Sea",NA,NA,NA,246224.746132823,"Schaefer"
+"WGHMM-FMEG8c9a-1986-2006-JENNINGS","FMEG8c9a","Fourspotted megrim ICES VIIIc-IXa","Lepidorhombus boscii","Iberian Coastal",NA,NA,NA,1534.2546928649,"Schaefer"
+"WGHMM-HAKENRTN-1977-2007-JENNINGS","HAKENRTN","Hake Northeast Atlantic North","Merluccius merluccius","Celtic-Biscay Shelf",NA,NA,NA,54502.3991073054,"Schaefer"
+"WGHMM-HAKESOTH-1982-2007-JENNINGS","HAKESOTH","Hake Northeast Atlantic South","Merluccius merluccius","Iberian Coastal",NA,NA,NA,NA,NA
+"WGHMM-MEG8c9a-1985-2007-JENNINGS","MEG8c9a","Megrim ICES VIIIc-IXa","Lepidorhombus whiffiagonis","Iberian Coastal",NA,NA,NA,459.29835050429,"Schaefer"
+"WGHMM-SOLEVIII-1982-2006-JENNINGS","SOLEVIII","common European sole Bay of Biscay","Solea vulgaris","Celtic-Biscay Shelf",NA,NA,NA,5899.36501779867,"Schaefer"
+"WGMHSA-ANCHOBAYB-1986-2007-JENNINGS","ANCHOBAYB","Anchovy ICES VIII","Engraulis encrasicolus","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGMHSA-MACKNEICES-1972-2007-JENNINGS","MACKNEICES","Mackerel ICES Northeast Atlantic","Scomber scombrus","Celtic-Biscay Shelf",NA,NA,NA,660663.558102563,"Schaefer"
+"WGMHSA-SARDPVIIIc-IXa-1978-2007-JENNINGS","SARDPVIIIc-IXa","European pilchard ICES VIIIc-IXa","Sardina pilchardus","Iberian Coastal",NA,NA,NA,NA,NA
+"WGNPBW-BWHITNEA-1980-2007-JENNINGS","BWHITNEA","Whiting Northeast Atlantic","Micromesistius poutassou","Celtic-Biscay Shelf",NA,NA,NA,1765597.99794375,"Schaefer"
+"WGNSDS-CODIS-1968-2006-MINTO","CODIS","Atlantic cod Irish Sea","Gadus morhua","Celtic-Biscay Shelf",NA,NA,NA,9924.87985308997,"Schaefer"
+"WGNSDS-CODVIa-1977-2006-MINTO","CODVIa","Atlantic cod West of Scotland","Gadus morhua","Celtic-Biscay Shelf",NA,NA,NA,18661.166764147,"Schaefer"
+"WGNSDS-HADIS-1972-2006-MINTO","HADIS","Haddock Irish Sea","Melanogrammus aeglefinus","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGNSDS-HADVIa-1977-2006-MINTO","HADVIa","Haddock West of Scotland","Melanogrammus aeglefinus","Celtic-Biscay Shelf",NA,NA,NA,25796.6521277624,"Schaefer"
+"WGNSDS-PLAICIS-1962-2006-MINTO","PLAICIS","European Plaice Irish Sea","Pleuronectes platessa","Celtic-Biscay Shelf",NA,NA,NA,3811.58350543566,"Schaefer"
+"WGNSDS-SOLEIS-1968-2006-MINTO","SOLEIS","common European sole Irish Sea","Solea vulgaris","Celtic-Biscay Shelf",NA,NA,NA,1343.05211408039,"Schaefer"
+"WGNSDS-WHITVIa-1984-2007-MINTO","WHITVIa","Whiting ICES VIa","Merlangius merlangus","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGNSSK-CODNS-1962-2007-MINTO","CODNS","Atlantic cod North Sea","Gadus morhua","North Sea",NA,NA,NA,292435.672970676,"Schaefer"
+"WGNSSK-HADNS-IIIa-1963-2006-MINTO","HADNS-IIIa","Haddock ICES IIIa and North Sea","Melanogrammus aeglefinus","North Sea",NA,NA,NA,348711.426157354,"Schaefer"
+"WGNSSK-HADROCK-1990-2007-JENNINGS","HADROCK","Haddock Rockall Bank","Melanogrammus aeglefinus","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGNSSK-NPOUTNS-1983-2007-MINTO","NPOUTNS","Norway pout North Sea","Trisopterus esmarkii","North Sea",NA,NA,NA,157471.536455756,"Schaefer"
+"WGNSSK-PLAIC7d-1979-2006-MINTO","PLAIC7d","European Plaice ICES VIId","Pleuronectes platessa","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGNSSK-PLAICIIIa-1976-2006-MINTO","PLAICIIIa","European Plaice ICES IIIa","Pleuronectes platessa","North Sea",NA,NA,NA,NA,NA
+"WGNSSK-PLAICNS-1956-2006-MINTO","PLAICNS","European Plaice North Sea","Pleuronectes platessa","North Sea",NA,NA,NA,NA,NA
+"WGNSSK-POLLNS-VI-IIIa-1964-2006-MINTO","POLLNS-VI-IIIa","Pollock ICES IIIa, VI and North Sea","Pollachius virens","North Sea",NA,NA,NA,226160.454046628,"Schaefer"
+"WGNSSK-SEELNS-1983-2007-MINTO","SEELNS","Sandeel North Sea","Ammodytes marinus","North Sea",NA,NA,NA,947895.933099575,"Schaefer"
+"WGNSSK-SOLENS-1956-2006-MINTO","SOLENS","common European sole North Sea","Solea vulgaris","North Sea",NA,NA,NA,NA,NA
+"WGNSSK-SOLEVIId-1981-2006-MINTO","SOLEVIId","common European sole ICES VIId","Solea vulgaris","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGNSSK-WHITNS-VIId-IIIa-1979-2006-MINTO","WHITNS-VIId-IIIa","Whiting ICES IIIa, VIId and North Sea","Merlangius merlangus","North Sea",NA,NA,NA,95225.2103192328,"Schaefer"
+"WGSSDS-HADVIIb-k-1993-2006-JENNINGS","HADVIIb-k","Haddock ICES VIIb-k","Melanogrammus aeglefinus","Celtic-Biscay Shelf",NA,NA,NA,NA,NA
+"WGSSDS-PLAICCELT-1976-2006-JENNINGS","PLAICCELT","European Plaice ICES VIIf-g","Pleuronectes platessa","Celtic-Biscay Shelf",NA,NA,NA,1509.14719689808,"Schaefer"
+"WGSSDS-PLAICECHW-1975-2006-JENNINGS","PLAICECHW","European Plaice ICES VIIe","Pleuronectes platessa","Celtic-Biscay Shelf",NA,NA,NA,1769.40745794951,"Schaefer"
+"WGSSDS-SOLECS-1970-2006-JENNINGS","SOLECS","common European sole Celtic Sea","Solea vulgaris","Celtic-Biscay Shelf",NA,NA,NA,1103.89487457737,"Schaefer"
+"WGSSDS-SOLEVIIe-1968-2006-JENNINGS","SOLEVIIe","common European sole Western English Channel","Solea vulgaris","Celtic-Biscay Shelf",NA,NA,NA,1076.96265335011,"Schaefer"
+"WGSSDS-WHITVIIek-1982-2007-JENNINGS","WHITVIIek","Whiting ICES VIIe-k","Merlangius merlangus","Celtic-Biscay Shelf",NA,NA,NA,17176.5438083498,"Schaefer"

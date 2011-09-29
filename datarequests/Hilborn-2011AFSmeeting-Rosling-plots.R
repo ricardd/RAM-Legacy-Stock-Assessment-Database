@@ -1,6 +1,6 @@
 ## generating a few data files for Ray Hilborn
 ## - these data are to be used for the Rosling charts that Ray wants to present at the AFS meeting
-## Last modified Time-stamp: <2011-09-02 14:00:03 (srdbadmin)>
+## Last modified Time-stamp: <2011-09-06 11:29:50 (srdbadmin)>
 
 setwd("/home/srdbadmin/srdb/datarequests")
 
@@ -44,7 +44,7 @@ exploitation.merged <- exploitation.merged[order(exploitation.merged$assessid, e
 all.merged <- merge(biomass.merged, exploitation.merged,c("assessid", "tsyear"))
 
 # keep only the necessary columns, make a neat data frame
-all.df <- data.frame(assessid=all.merged$assessid, stockid=all.merged$stockid.x, tsyear=all.merged$tsyear, bvalue=all.merged$tsvalue.x, bmsyvalue=all.merged$biovalue.x, bratio=all.merged$tstobrpratio.x, btype=all.merged$type.x, uvalue=all.merged$tsvalue.y, umsyvalue=all.merged$biovalue.y, uratio=all.merged$tstobrpratio.y, utype=all.merged$type.y)
+all.df <- data.frame(assessid=all.merged$assessid, stockid=all.merged$stockid.x, tsyear=all.merged$tsyear, bunits=all.merged$tsid.x, bvalue=all.merged$tsvalue.x, bmsyunits=all.merged$bioid.x, bmsyvalue=all.merged$biovalue.x, bratio=all.merged$tstobrpratio.x, btype=all.merged$type.x, uunits=all.merged$tsid.y, uvalue=all.merged$tsvalue.y, umsyunits=all.merged$bioid.y, umsyvalue=all.merged$biovalue.y, uratio=all.merged$tstobrpratio.y, utype=all.merged$type.y)
 
 ## bring in the available catch data
 qu.cat <- paste("
@@ -62,7 +62,27 @@ select a.assessid, s.stockid, s.stocklong, t.scientificname, lr.lme_name from sr
 
 my.det <- sqlQuery(chan,qu.det)
 
-write.csv(my.det, "Hilborn-2011AFS-stockdetails.csv", row.names=FALSE)
+## bring in MSY values
+qu.msy <- paste("
+SELECT assessid, bioid, biovalue from srdb.bioparams where bioid like 'MSY%'
+",sep="")
+my.msy <- sqlQuery(chan,qu.msy)
+my.msy$type <- "assessment"
+
+qu.msy.sp <- paste("
+SELECT assessid, msy from srdb.spfits
+",sep="")
+my.msy.sp <- sqlQuery(chan,qu.msy.sp)
+my.msy.sp$type <- "Schaefer"
+
+ray.det <- merge(merge(my.det,my.msy,by="assessid",all.x=TRUE),my.msy.sp,by="assessid",all.x=TRUE)
+
+write.csv(ray.det, "Hilborn-2011AFS-stockdetails.csv", row.names=FALSE)
 write.csv(ray.df, "Hilborn-2011AFS-timeseries.csv", row.names=FALSE)
 
 odbcClose(chan)
+
+## see if the ratios of (catch/biomass)/umsy are the same as those reported
+ray.df$uratiosame <- abs(((ray.df$catch_landings/ray.df$bvalue)/ray.df$umsyvalue) - ray.df$uratio) <=0.001
+table(ray.df$uratiosame,ray.df$utype, ray.df$btype)
+

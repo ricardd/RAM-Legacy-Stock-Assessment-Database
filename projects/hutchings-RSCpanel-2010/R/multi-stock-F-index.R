@@ -1,7 +1,7 @@
 ## for Jeff's RSC report, a multi-stock F-based index
 ##
 ## Daniel Ricard, started 2011-09-22
-## Last modified Time-stamp: <2011-10-04 15:58:17 (srdbadmin)>
+## Last modified Time-stamp: <2011-11-02 09:42:05 (srdbadmin)>
 require(RODBC)
 require(nlme)
 
@@ -50,7 +50,8 @@ f.msy.canada <- merge(f.msy.both, tt.dat, by="assessid")
 f.msy.canada <- merge(f.msy.canada, all.classification, by.x="stockid.x", by.y="stockid")
 
 in.dat <- f.msy.canada
-  xl <- range(in.dat$tsyear)
+#  xl <- range(in.dat$tsyear)
+  xl <- c(1960,2005)
 yl <- c(log(0.005),log(5))
 
 
@@ -68,6 +69,11 @@ mtext("Year", side=1, line=1, outer=TRUE, cex=1)
 
 ## I have to remove values of zero for the ratios otherwise the log won't work
 mixed.fit <- lme(log(tstobrpratio)~-1+as.factor(tsyear), data=subset(f.msy.canada,tstobrpratio!=0), random=~1|stockid.x, correlation=corCAR1(form=~tsyear), na.action=na.omit)
+
+## write to csv for Jeff
+multif.df.csv <- data.frame(year=my.yy, fratio=exp(fixed.effects(mixed.fit)), nstocks=table(in.dat$tsyear))
+write.csv(multif.df.csv, "Hutchings-multiF-numbers.csv")
+
 
     ## plot fixed effects shaded area for 95% confidence
   upr <- fixed.effects(mixed.fit) + 1.96*sqrt(diag(summary(mixed.fit)$varFix))
@@ -87,13 +93,15 @@ for (i in 1:aa) {
 t.dat <- subset(in.dat, assessid == my.aa[i])
   tt.dat <- t.dat[order(t.dat$tsyear),]
   
-lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
-points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
 }
 
-plot.label <- "all stocks of Canadian interest"
+ plot.label <- "all stocks of Canadian interest"
   legend('bottomleft', paste(plot.label," (n=",aa,")",sep=""))
-legend(xl[1],log(3), c("Pelagics", "Demersal"), col=c("blue","red"),pch=c(19,19), lty=c(1,1))
+#legend(xl[1],log(3), c("Pelagics", "Demersal"), col=c("blue","red"),pch=c(19,19), lty=c(1,1))
 
 
 abline(h=log(1), lt=2, lwd=0.6)
@@ -116,6 +124,7 @@ mtext("Year", side=1, line=1, outer=TRUE, cex=1)
 ## I have to remove values of zero for the ratios otherwise the log won't work
 mixed.fit <- lme(log(tstobrpratio)~-1+as.factor(tsyear), data=subset(in.dat,tstobrpratio!=0), random=~1|stockid.x, correlation=corCAR1(form=~tsyear), na.action=na.omit)
 
+
     ## plot fixed effects shaded area for 95% confidence
   upr <- fixed.effects(mixed.fit) + 1.96*sqrt(diag(summary(mixed.fit)$varFix))
   lwr <- fixed.effects(mixed.fit) - 1.96*sqrt(diag(summary(mixed.fit)$varFix))
@@ -134,8 +143,10 @@ for (i in 1:aa) {
 t.dat <- subset(in.dat, assessid == my.aa[i])
   tt.dat <- t.dat[order(t.dat$tsyear),]
   
-lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
-points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
 }
 
 plot.label <- "Atlantic"
@@ -180,8 +191,10 @@ for (i in 1:aa) {
 t.dat <- subset(in.dat, assessid == my.aa[i])
   tt.dat <- t.dat[order(t.dat$tsyear),]
   
-lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
-points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+#points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=ifelse(tt.dat$taxocategory=='Pelagic','blue','red'), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+lines(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), lwd=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
+points(tt.dat$tsyear,log(tt.dat$tstobrpratio), col=grey(0.5), cex=ifelse(tt.dat$taxocategory=='Pelagic',0.1,0.05))
 }
 
 plot.label <- "Pacific"
@@ -199,3 +212,5 @@ abline(h=log(0.01), lt=2, lwd=0.3)
 dev.off()
 
 odbcClose(chan)
+
+

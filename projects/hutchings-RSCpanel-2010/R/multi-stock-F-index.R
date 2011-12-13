@@ -1,7 +1,7 @@
 ## for Jeff's RSC report, a multi-stock F-based index
 ##
 ## Daniel Ricard, started 2011-09-22
-## Last modified Time-stamp: <2011-11-02 09:42:05 (srdbadmin)>
+## Last modified Time-stamp: <2011-12-13 15:04:34 (srdbadmin)>
 require(RODBC)
 require(nlme)
 
@@ -71,6 +71,8 @@ mtext("Year", side=1, line=1, outer=TRUE, cex=1)
 mixed.fit <- lme(log(tstobrpratio)~-1+as.factor(tsyear), data=subset(f.msy.canada,tstobrpratio!=0), random=~1|stockid.x, correlation=corCAR1(form=~tsyear), na.action=na.omit)
 
 ## write to csv for Jeff
+  my.yy <- sort(unique(in.dat$tsyear))
+
 multif.df.csv <- data.frame(year=my.yy, fratio=exp(fixed.effects(mixed.fit)), nstocks=table(in.dat$tsyear))
 write.csv(multif.df.csv, "Hutchings-multiF-numbers.csv")
 
@@ -135,6 +137,10 @@ mixed.fit <- lme(log(tstobrpratio)~-1+as.factor(tsyear), data=subset(in.dat,tsto
   my.yy <- sort(unique(in.dat$tsyear))
   lines(my.yy, fixed.effects(mixed.fit), col='black', lty=1, lwd=2)
 
+## write to csv for Jeff
+multif.df.atlantic.csv <- data.frame(ocean=rep("Atlantic",length(my.yy)), year=my.yy, fratio=exp(fixed.effects(mixed.fit)), nstocks=table(in.dat$tsyear))
+write.csv(multif.df.atlantic.csv, "Hutchings-multiF-numbers-Atlantic.csv")
+
   
 my.aa <- unique(in.dat$assessid)
 aa <- length(my.aa)
@@ -182,6 +188,10 @@ mixed.fit <- lme(log(tstobrpratio)~-1+as.factor(tsyear), data=subset(in.dat,tsto
 
   my.yy <- sort(unique(in.dat$tsyear))
   lines(my.yy, fixed.effects(mixed.fit), col='black', lty=1, lwd=2)
+
+## write to csv for Jeff
+multif.df.pacific.csv <- data.frame(ocean=rep("Pacific",length(my.yy)), year=my.yy, fratio=exp(fixed.effects(mixed.fit)), nstocks=table(in.dat$tsyear))
+write.csv(multif.df.pacific.csv, "Hutchings-multiF-numbers-Pacific.csv")
 
   
 my.aa <- unique(in.dat$assessid)

@@ -1,0 +1,36 @@
+#!/usr/bin/perl -w
+# script to input a single spreadsheet file in the RAM Legacy Stock Assessment Database
+# Last modified: Time-stamp: <2012-05-08 14:08:24 (srdbadmin)>
+# Daniel Ricard
+# 2012-05-08: this Perl script is to accomodate the newest spreadsheet template developed by Trevor Branch and his team at UW
+
+use strict;
+use Spreadsheet::ParseExcel;
+#use DateTime::Format::Excel;
+use POSIX qw(strftime);
+use DBI;
+my $dbh = DBI->connect('dbi:Pg:dbname=srdb;host=localhost;port=5432','srdbadmin','srd6adm1n!')|| die "Database connection not made: $DBI::errstr";
+
+my $oExcel = new Spreadsheet::ParseExcel;
+
+die "You must provide a filename to $0 to be parsed as an Excel file" unless @ARGV;
+
+my $oBook = $oExcel->Parse($ARGV[0]);
+
+# open a new SQL file that will contain all INSERT statements
+my $sqlfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xlsx")) . ".sql";
+my $sqllogfile = substr ($ARGV[0], 0, rindex($ARGV[0], ".xlsx")) . ".log";
+
+#open SQLFILE, ">$sqlfile" or die $!;
+open SQLFILE, ">:utf8", $sqlfile or die $!;
+print SQLFILE "BEGIN;\n";
+
+# variables for table srdb.assessement
+my ($assessid, $assessorid, $stockid, $recorder, $daterecorded, $dateloaded, $assessyear, $assesssource, $contacts, $notes, $pdffile, $assess, $refpoints, $assessmethod, $assesscomments, $formatteddaterecorded, $xlsfilename, $mostrecent );
+$xlsfilename = $ARGV[0];
+$mostrecent="999";
+
+my($iR, $iC, $oWkS, $oWkC, $excel);
+
+
+print SQLFILE "COMMIT;";

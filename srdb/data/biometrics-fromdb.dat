@@ -175,3 +175,5 @@
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBmsy","Spawning Stock Biomass at MSY","FemaleGonadMT","Female Gonad Weight in metric tons","SSBmsy-FemaleGonadMT"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSBlim","lowest observed spawning stock biomass in previous assessments","FemaleGonadMT","Female Gonad Weight in metric tons","SSBlim-FemaleGonadMT"
 "OTHER BIOMETRICS","REFERENCE POINTS ETC.","K","Carrying capacity","MT","Metric tons","K-MT"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSF40%","Spawning stock fecundity when spawning fecundity per recruit is reduced to 40% of the level obtained with no fishing","E00","numbers","SSF40%-E00"
+"OTHER BIOMETRICS","REFERENCE POINTS ETC.","SSF0","Unfished Spawning Stock Fecundity","E00","Individuals","SSF0-E00"

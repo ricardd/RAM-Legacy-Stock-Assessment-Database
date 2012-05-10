@@ -374,3 +374,4 @@ psql srdbdev -f ../spreadsheets/JENSEN-STMARLINSWPAC-2006-editedDR.sql 2> ../spr
 psql srdbdev -f ../spreadsheets/STANTON-SABLEPCOAST-editedDR.sql 2> ../spreadsheets/STANTON-SABLEPCOAST-editedDR.log 
 psql srdbdev -f ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.sql 2> ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.log 
 psql srdbdev -f ../spreadsheets/RICARD-CUSK-4X-2011.sql 2> ../spreadsheets/RICARD-CUSK-4X-2011.log 
+psql srdbdev -f ../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.sql 2> ../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.log 

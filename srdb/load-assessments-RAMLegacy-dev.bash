@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2011-08-02 10:41:23 (srdbadmin)>
+# Last modified Time-stamp: <2012-06-06 14:54:31 (srdbadmin)>
 # Modification history:
 # 2011-06-24:  modifying this a bit so that the calls to the database to load the data are written as a separate bash script, instead of calling psql from within the perl script that generates the sql equivalent of the spreadsheet contents
 
@@ -843,5 +843,9 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAY-PTOOTHFISHMACCA-
 # cusk 4X
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-CUSK-4X-2011.xls >> RAM-Legacy-dev-sql.bash
+
+# updated assessment for cowcod southern california
+#perl ../perl/ ../spreadsheets/ >> RAM-Legacy-dev-sql.bash
+
 
 chmod +x RAM-Legacy-dev-sql.bash

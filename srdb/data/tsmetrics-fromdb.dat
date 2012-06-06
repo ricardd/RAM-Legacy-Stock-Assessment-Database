@@ -150,3 +150,4 @@
 "TOTAL BIOMASS","STB1+","Summary total biomass age 1+","MT","Metric tons","STB1+-MT"
 "TOTAL BIOMASS","STB2+","Summary total biomass age 2+","MT","Metric tons","STB2+-MT"
 "TOTAL BIOMASS","STB3+","Summary total biomass age 3+","MT","Metric tons","STB3+-MT"
+"SPAWNING STOCK BIOMASS or CPUE","SSBdivSSBmsy","Spawning Stock Biomass divided by SSBmsy","dimensionless","dimensionless","-dimensionless"

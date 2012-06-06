@@ -147,3 +147,6 @@
 "FISHING MORTALITY","F-female","Fishing mortality for females.","1/yr","per year","F-female-1/yr"
 "TOTAL BIOMASS","STB","Summary total biomass.","MT","Metric tons","STB-MT"
 "SPAWNING STOCK BIOMASS or CPUE","SSB","Spawning Stock Biomass","E06MT","Millions of metric tons","SSB-E06MT"
+"TOTAL BIOMASS","STB1+","Summary total biomass age 1+","MT","Metric tons","STB1+-MT"
+"TOTAL BIOMASS","STB2+","Summary total biomass age 2+","MT","Metric tons","STB2+-MT"
+"TOTAL BIOMASS","STB3+","Summary total biomass age 3+","MT","Metric tons","STB3+-MT"

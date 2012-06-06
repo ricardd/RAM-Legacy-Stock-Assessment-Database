@@ -2,7 +2,7 @@
 # script to output a quality assured, quality controlled pdf for a loaded assessment
 # Cóilín Minto
 # date: Fri Nov 21 13:17:09 AST 2008
-# Time-stamp: <2011-01-05 13:51:55 (srdbadmin)>
+# Time-stamp: <2012-06-06 11:38:31 (srdbadmin)>
 # Modification history:
 # 2009-03-26: adding issue URL to the QA/QC report, this also required modifications to "srDB-QAQC-template.tex" (ricardd)
 # 2009-04-21: adding a timestamp to show when the document was created this also required modifications to "srDB-QAQC-template.tex" (ricardd)
@@ -23,7 +23,8 @@ die "Need to supply an assessment ID\n" if @ARGV <1;
 my $assessid=$ARGV[0];
 print "Processing assessment: $assessid \n";
 # open a connection to the database
-my $dbh = DBI->connect("dbi:Pg:dbname=srdb;host=localhost;port=5432;" ,
+#my $dbh = DBI->connect("dbi:Pg:dbname=srdb;host=localhost;port=5432;" ,
+my $dbh = DBI->connect("dbi:Pg:dbname=srdbdev;host=localhost;port=5432;" ,
                       "srdbuser", "srd6us3r!")
 		      || die "Database connection not made: $DBI::errstr";
 

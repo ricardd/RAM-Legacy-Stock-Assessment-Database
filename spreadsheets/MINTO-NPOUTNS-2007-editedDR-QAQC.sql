@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGNSSK-NPOUTNS-1983-2007-MINTO', 'WGNSSK', 'NPOUTNS', 'MINTO', '2008-04-13', '2011-07-25 12:39:17', '1983-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'No fishing mortality reference points are provided', '../spreadsheets/MINTO-NPOUTNS-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGNSSK-NPOUTNS-1983-2007-MINTO', 'WGNSSK', 'NPOUTNS', 'MINTO', '2008-04-13', '2012-06-07 11:35:52', '1983-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-WGNSSK-2007.pdf', 1, 1, 'XSA', 'No fishing mortality reference points are provided', '../spreadsheets/MINTO-NPOUTNS-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-NPOUTNS-1983-2007-MINTO', 'ID', 'ICES-WGNSSK-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-NPOUTNS-1983-2007-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGNSSK-NPOUTNS-1983-2007-MINTO', 'A1', 'Anonymous') ; 

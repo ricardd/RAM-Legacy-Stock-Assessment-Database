@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IPHC-PHALNPAC-1988-2009-Parma', 'IPHC', 'PHALNPAC', 'Parma', '2009-03-12', '2011-07-25 12:39:37', '1988-2009', 'http://www.iphc.washington.edu/halcom/research/sa/sa.html', 'Steven Hare (hare@iphc.washington.edu)', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IPHC-PHALNPAC-1988-2009-Parma', 'IPHC', 'PHALNPAC', 'Parma', '2009-03-12', '2012-06-07 11:36:35', '1988-2009', 'http://www.iphc.washington.edu/halcom/research/sa/sa.html', 'Steven Hare (hare@iphc.washington.edu)', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IPHC-PHALNPAC-1988-2009-Parma', 'ID', 'hare-clark08.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IPHC-PHALNPAC-1988-2009-Parma', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IPHC-PHALNPAC-1988-2009-Parma', 'A1', 'Hare, Steven') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IATTC-BIGEYEEPAC-1975-2007-JENSEN', 'IATTC', 'BIGEYEEPAC', 'JENSEN', '2008-11-30', '2011-07-25 12:39:09', '1975-2007', 'http://www.iattc.org/PDFFiles2/SAR8-BET-ENG.pdf', '', '', '', 1, 1, 'SS2', 'Stock synthesis 2', '../spreadsheets/JENSEN-BETEPAC-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IATTC-BIGEYEEPAC-1975-2007-JENSEN', 'IATTC', 'BIGEYEEPAC', 'JENSEN', '2008-11-30', '2012-06-07 11:35:37', '1975-2007', 'http://www.iattc.org/PDFFiles2/SAR8-BET-ENG.pdf', '', '', '', 1, 1, 'SS2', 'Stock synthesis 2', '../spreadsheets/JENSEN-BETEPAC-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-BIGEYEEPAC-1975-2007-JENSEN', 'ID', 'JENSEN_BETEPAC_2008') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-BIGEYEEPAC-1975-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-BIGEYEEPAC-1975-2007-JENSEN', 'A1', 'Aires-da-Silva, Alexandre') ; 

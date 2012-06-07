@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'DFO-PAC', 'PCODHS', 'COLLIE', '2008-04-08', '2011-08-30 14:18:26', '1956-2005', 'http://www.pac.dfo-mpo.gc.ca/sci/psarc/ResDocs/groundfish05_e.htm', 'A.F. Sinclair, DFO Science Branch, Pacific Biological Station, Nanaimo, BC V9T 6N7', 'this is a test entry only', 'RES2005_026_Cod.pdf', 1, 1, 'Delay difference', '"Estimate M,h" version of model used', '../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'DFO-PAC', 'PCODHS', 'COLLIE', '2008-04-08', '2012-06-07 11:35:29', '1956-2005', 'http://www.pac.dfo-mpo.gc.ca/sci/psarc/ResDocs/groundfish05_e.htm', 'A.F. Sinclair, DFO Science Branch, Pacific Biological Station, Nanaimo, BC V9T 6N7', 'this is a test entry only', 'RES2005_026_Cod.pdf', 1, 1, 'Delay difference', '"Estimate M,h" version of model used', '../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'ID', 'RES2005_026_Cod.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-PCODHS-1956-2005-COLLIE', 'A1', 'Sinclair, A.F.') ; 

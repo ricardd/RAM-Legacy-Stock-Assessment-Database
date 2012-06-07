@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGBFAS-HERRIsum-1983-2007-JENNINGS', 'WGBFAS', 'HERRIsum', 'JENNINGS', '2008-11-25', '2011-07-25 12:39:20', '1983-2007', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 0, 'NFT-ADAPT', 'Assessment not considered reliable by ACFM', '../spreadsheets/JENNINGS-ICES-HERVASU-1986-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGBFAS-HERRIsum-1983-2007-JENNINGS', 'WGBFAS', 'HERRIsum', 'JENNINGS', '2008-11-25', '2012-06-07 11:35:59', '1983-2007', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 0, 'NFT-ADAPT', 'Assessment not considered reliable by ACFM', '../spreadsheets/JENNINGS-ICES-HERVASU-1986-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-HERRIsum-1983-2007-JENNINGS', 'ID', 'ICES-NWWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-HERRIsum-1983-2007-JENNINGS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGBFAS-HERRIsum-1983-2007-JENNINGS', 'A1', 'Anon') ; 

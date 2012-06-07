@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BOCACCSPCOAST-1951-2006-BRANCH', 'NWFSC', 'BOCACCSPCOAST', 'BRANCH', '2008-11-23', '2011-07-25 12:39:44', '1951-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/bocaccio2007final.pdf', 'Alec MacCall, Alec.Maccall@noaa.gov', 'STATc model is the base case model here', '', 1, 1, 'SS1', '', '../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BOCACCSPCOAST-1951-2006-BRANCH', 'NWFSC', 'BOCACCSPCOAST', 'BRANCH', '2008-11-23', '2012-06-07 11:36:49', '1951-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/bocaccio2007final.pdf', 'Alec MacCall, Alec.Maccall@noaa.gov', 'STATc model is the base case model here', '', 1, 1, 'SS1', '', '../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BOCACCSPCOAST-1951-2006-BRANCH', 'ID', 'NWFSC-BOCACCSPCOAST-2007 Bocaccio.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BOCACCSPCOAST-1951-2006-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BOCACCSPCOAST-1951-2006-BRANCH', 'A1', 'MacCall AD') ; 

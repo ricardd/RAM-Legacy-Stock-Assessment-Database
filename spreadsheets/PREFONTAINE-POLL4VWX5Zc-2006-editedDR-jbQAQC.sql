@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-POLL4X5YZ-1980-2006-PREFONTAINE', 'DFO', 'POLL4X5YZ', 'PREFONTAINE', '2008-05-29', '2011-08-02 10:41:29', '1980-2006', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'Final model is the Modified-Base Assessment. Data for 2006 is incomplete and represents a partial year, from January 1st to August 31st.', '', 1, 1, 'ADAPT', 'no comments', '../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR-jbQAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-POLL4X5YZ-1980-2006-PREFONTAINE', 'DFO', 'POLL4X5YZ', 'PREFONTAINE', '2008-05-29', '2012-06-07 11:36:35', '1980-2006', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'Final model is the Modified-Base Assessment. Data for 2006 is incomplete and represents a partial year, from January 1st to August 31st.', '', 1, 1, 'ADAPT', 'no comments', '../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR-jbQAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-POLL4X5YZ-1980-2006-PREFONTAINE', 'ID', 'NAFO-POLL4VWX5Zc-2006') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-POLL4X5YZ-1980-2006-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-POLL4X5YZ-1980-2006-PREFONTAINE', 'A1', 'Stone, Heath') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-KINGKLIPSA-1932-2008-DEDECKER', 'MARAM', 'KINGKLIPSA', 'DEDECKER', '2009-03-29', '2011-07-25 12:39:06', '1932-2008', 'received from contact', 'Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'ASPM', '', '../spreadsheets/Branch-SA-Kingklip-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-KINGKLIPSA-1932-2008-DEDECKER', 'MARAM', 'KINGKLIPSA', 'DEDECKER', '2009-03-29', '2012-06-07 11:35:31', '1932-2008', 'received from contact', 'Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'ASPM', '', '../spreadsheets/Branch-SA-Kingklip-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-KINGKLIPSA-1932-2008-DEDECKER', 'ID', 'Branch-SA-Kingklip-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-KINGKLIPSA-1932-2008-DEDECKER', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-KINGKLIPSA-1932-2008-DEDECKER', 'A1', 'Brandao, A.') ; 

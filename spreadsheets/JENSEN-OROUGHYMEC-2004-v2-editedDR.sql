@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NIWA-OROUGHYNZMEC-1981-2004-JENSEN', 'NIWA', 'OROUGHYNZMEC', 'JENSEN', '2009-03-24', '2011-07-25 12:39:28', '1981-2004', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'average of nocpue and beta1 model runs', '', 1, 1, 'CASAL', 'average of nocpue and beta1 model runs', '../spreadsheets/JENSEN-OROUGHYMEC-2004-v2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NIWA-OROUGHYNZMEC-1981-2004-JENSEN', 'NIWA', 'OROUGHYNZMEC', 'JENSEN', '2009-03-24', '2012-06-07 11:36:17', '1981-2004', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'average of nocpue and beta1 model runs', '', 1, 1, 'CASAL', 'average of nocpue and beta1 model runs', '../spreadsheets/JENSEN-OROUGHYMEC-2004-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-OROUGHYNZMEC-1981-2004-JENSEN', 'ID', 'CORDUEperscomm') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-OROUGHYNZMEC-1981-2004-JENSEN', 'A1', 'Cordue, PatrickL.') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-OROUGHYNZMEC-1981-2004-JENSEN', 'T1', 'Personal communication') ; 

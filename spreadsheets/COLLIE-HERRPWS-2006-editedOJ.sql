@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ADFG-HERRPWS-1980-2006-COLLIE', 'ADFG', 'HERRPWS', 'COLLIE', '2008-12-08', '2011-07-25 12:39:30', '1980-2006', 'received from Contact', 'Peter-John Frederick Hulson, p.hulson@uaf.edu', 'The data are from ADF&G; Pete did the assessment as part of his M.S.', '', 1, 0, 'AD-CAM', 'Model/data from Hulson et al 2008', '../spreadsheets/COLLIE-HERRPWS-2006-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ADFG-HERRPWS-1980-2006-COLLIE', 'ADFG', 'HERRPWS', 'COLLIE', '2008-12-08', '2012-06-07 11:36:22', '1980-2006', 'received from Contact', 'Peter-John Frederick Hulson, p.hulson@uaf.edu', 'The data are from ADF&G; Pete did the assessment as part of his M.S.', '', 1, 0, 'AD-CAM', 'Model/data from Hulson et al 2008', '../spreadsheets/COLLIE-HERRPWS-2006-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ADFG-HERRPWS-1980-2006-COLLIE', 'ID', 'Hulson-etal-2008-ICESJM.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ADFG-HERRPWS-1980-2006-COLLIE', 'TY', 'JOUR') ; 
  INSERT INTO srdb.referencedoc VALUES('ADFG-HERRPWS-1980-2006-COLLIE', 'A1', 'Hulson, Peter-John F.') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'SEFSC', 'MENATGM', 'GILROY', '2009-02-16', '2011-07-27 13:42:20', '1964-2004', 'Received from contact', 'Doug Vaughan - Doug.Vaughan@noaa.gov', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/GILROY-MENHADENGM-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'SEFSC', 'MENATGM', 'GILROY', '2009-02-16', '2012-06-07 11:36:19', '1964-2004', 'Received from contact', 'Doug Vaughan - Doug.Vaughan@noaa.gov', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/GILROY-MENHADENGM-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'ID', 'GILROY-MENHADENGM-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'A1', 'Vaughan, Douglas') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-MENATGM-1964-2004-GILROY', 'A1', 'Shertzer, Kyle') ; 

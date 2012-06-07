@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('CSIRO-PTOOTHFISHMI-1975-2010-FAY', 'CSIRO', 'PTOOTHFISHMI', 'FAY', '2011-01-18', '2011-07-25 12:40:08', '1975-2010', 'http://www.afma.gov.au/wp-content/uploads/2010/06/mit_stockassess_2010.pdf', 'Gavin Fay - gavin.fay@csiro.au', '', '', 1, 1, 'SS3', 'point estimates from Aurora Trough base-case 2010', '../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('CSIRO-PTOOTHFISHMI-1975-2010-FAY', 'CSIRO', 'PTOOTHFISHMI', 'FAY', '2011-01-18', '2012-06-07 11:37:37', '1975-2010', 'http://www.afma.gov.au/wp-content/uploads/2010/06/mit_stockassess_2010.pdf', 'Gavin Fay - gavin.fay@csiro.au', '', '', 1, 1, 'SS3', 'point estimates from Aurora Trough base-case 2010', '../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-PTOOTHFISHMI-1975-2010-FAY', 'ID', 'FAY_PTOOTHFISHMACCA_2010.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-PTOOTHFISHMI-1975-2010-FAY', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('CSIRO-PTOOTHFISHMI-1975-2010-FAY', 'A1', 'Fay, G.') ; 

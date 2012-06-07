@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-AMPL3M-1960-2007-BAUM', 'NAFO-SC', 'AMPL3M', 'BAUM', '2009-05-28', '2011-07-25 12:39:34', '1960-2007', 'http://www.nafo.int/publications/frames/science.html', '', 'SSB-1 and R-1 are both taken from the EU surveys (Table 14) while SSB-2, R-2, F and total biomass are all taken from the XSA (Table 17). The SSB was calculated using 50% of the age 5 fish and the age 6+ fish.', '', 1, 1, 'XSA', 'no comments', '../spreadsheets/BAUM-AMPL3M-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-AMPL3M-1960-2007-BAUM', 'NAFO-SC', 'AMPL3M', 'BAUM', '2009-05-28', '2012-06-07 11:36:29', '1960-2007', 'http://www.nafo.int/publications/frames/science.html', '', 'SSB-1 and R-1 are both taken from the EU surveys (Table 14) while SSB-2, R-2, F and total biomass are all taken from the XSA (Table 17). The SSB was calculated using 50% of the age 5 fish and the age 6+ fish.', '', 1, 1, 'XSA', 'no comments', '../spreadsheets/BAUM-AMPL3M-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3M-1960-2007-BAUM', 'ID', 'NAFO-AMPL3M-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3M-1960-2007-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-AMPL3M-1960-2007-BAUM', 'A1', 'Alpoim, R.') ; 

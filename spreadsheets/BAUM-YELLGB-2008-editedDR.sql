@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-YELLGB-1935-2008-BAUM', 'NEFSC', 'YELLGB', 'BAUM', '2008-11-04', '2011-07-25 12:39:59', '1935-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2014 deadline. Georges Bank yellowtail flounder is a transboundary stock (TRAC) U.S./Canada', '', 1, 1, 'VPA', '_Major Change_ model chosen as final model', '../spreadsheets/BAUM-YELLGB-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-YELLGB-1935-2008-BAUM', 'NEFSC', 'YELLGB', 'BAUM', '2008-11-04', '2012-06-07 11:37:19', '1935-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'Stock under rebuilding program with 2014 deadline. Georges Bank yellowtail flounder is a transboundary stock (TRAC) U.S./Canada', '', 1, 1, 'VPA', '_Major Change_ model chosen as final model', '../spreadsheets/BAUM-YELLGB-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLGB-1935-2008-BAUM', 'ID', 'NMFS-GB-Limandaferruginea-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLGB-1935-2008-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-YELLGB-1935-2008-BAUM', 'A1', 'Northeast Fisheries Science Center') ; 

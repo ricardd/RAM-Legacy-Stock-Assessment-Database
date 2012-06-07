@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-PCODBSAI-1964-2008-MELNYCHUK', 'AFSC', 'PCODBSAI', 'MELNYCHUK', '2009-04-14', '2011-07-25 12:39:31', '1964-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIpcod.pdf', 'Grant Thompson, Grant.Thompson@noaa.gov', 'catches from 1977-1980 may not include discards; include discards after 1980', '', 1, 1, 'SS2', '', '../spreadsheets/MELNYCHUK-PCODBSAI-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-PCODBSAI-1964-2008-MELNYCHUK', 'AFSC', 'PCODBSAI', 'MELNYCHUK', '2009-04-14', '2012-06-07 11:36:24', '1964-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIpcod.pdf', 'Grant Thompson, Grant.Thompson@noaa.gov', 'catches from 1977-1980 may not include discards; include discards after 1980', '', 1, 1, 'SS2', '', '../spreadsheets/MELNYCHUK-PCODBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-PCODBSAI-1964-2008-MELNYCHUK', 'ID', 'AFSC-PCODBSAI-2008-Pacific-cod-BSAI.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-PCODBSAI-1964-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-PCODBSAI-1964-2008-MELNYCHUK', 'A1', 'Thompson, G.') ; 

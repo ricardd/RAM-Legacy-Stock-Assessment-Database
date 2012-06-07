@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SPRFMO-CHTRACCH-1950-2010-RICARD', 'SPRFMO', 'CHTRACCH', 'RICARD', '2011-02-28', '2011-07-25 12:39:54', '1950-2010', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'Original entry was from Olaf, current model output received from Andrew Penney.', '', 1, 0, 'JJM', '', '../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SPRFMO-CHTRACCH-1950-2010-RICARD', 'SPRFMO', 'CHTRACCH', 'RICARD', '2011-02-28', '2012-06-07 11:37:09', '1950-2010', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'Original entry was from Olaf, current model output received from Andrew Penney.', '', 1, 0, 'JJM', '', '../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SPRFMO-CHTRACCH-1950-2010-RICARD', 'ID', '9th-SWG-Report-Final-Adopted-28Oct2010.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SPRFMO-CHTRACCH-1950-2010-RICARD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SPRFMO-CHTRACCH-1950-2010-RICARD', 'A1', 'South Pacific Regional Fisheries Management Organisation') ; 

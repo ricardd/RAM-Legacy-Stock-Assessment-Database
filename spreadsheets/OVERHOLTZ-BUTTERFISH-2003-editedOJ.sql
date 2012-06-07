@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ', 'NEFSC', 'BUTTERGOMCHATT', 'OVERHOLTZ', '2009-04-17', '2011-07-25 12:40:04', '1965-2005', 'http://www.nefsc.noaa.gov/publications/crd/crd0404/index.htm', '', '', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/OVERHOLTZ-BUTTERFISH-2003-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ', 'NEFSC', 'BUTTERGOMCHATT', 'OVERHOLTZ', '2009-04-17', '2012-06-07 11:37:29', '1965-2005', 'http://www.nefsc.noaa.gov/publications/crd/crd0404/index.htm', '', '', '', 1, 1, 'Unknown', 'Replacement Yield Model (simple production model), assumed linear increase in catch from 10 to 6000 mt during years 1800 to 1892', '../spreadsheets/OVERHOLTZ-BUTTERFISH-2003-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ', 'ID', 'butterfish-assessment-2004.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-BUTTERGOMCHATT-1965-2005-OVERHOLTZ', 'A1', 'Northeast Fisheries Science Center') ; 

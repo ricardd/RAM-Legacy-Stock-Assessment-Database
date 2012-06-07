@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-SKJWATL-1952-2006-JENSEN', 'ICCAT', 'SKJWATL', 'JENSEN', '2009-04-11', '2011-07-25 12:39:10', '1952-2006', 'data received from contact.  Report online at: http://www.iccat.int/Documents/Meetings/Docs/2008_TROP_REP_EN.pdf', 'John Walter - NMFS', '', '', 1, 1, 'BSPM', '', '../spreadsheets/JENSEN-SKJWATL-2008-editedOJ.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-SKJWATL-1952-2006-JENSEN', 'ICCAT', 'SKJWATL', 'JENSEN', '2009-04-11', '2012-06-07 11:35:38', '1952-2006', 'data received from contact.  Report online at: http://www.iccat.int/Documents/Meetings/Docs/2008_TROP_REP_EN.pdf', 'John Walter - NMFS', '', '', 1, 1, 'BSPM', '', '../spreadsheets/JENSEN-SKJWATL-2008-editedOJ.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SKJWATL-1952-2006-JENSEN', 'ID', 'JENSEN-YFINATL-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SKJWATL-1952-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SKJWATL-1952-2006-JENSEN', 'T1', 'Report of the 2008 {ICCAT} yellowfin and skipjack stock assessments meeting') ; 

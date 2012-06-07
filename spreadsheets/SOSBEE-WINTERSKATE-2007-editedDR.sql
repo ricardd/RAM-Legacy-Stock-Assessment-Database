@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'NEFSC', 'WSKAT5YCHATT', 'SOSEBEE', '2009-04-21', '2011-07-25 12:40:07', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-WINTERSKATE-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'NEFSC', 'WSKAT5YCHATT', 'SOSEBEE', '2009-04-21', '2012-06-07 11:37:33', '1967-2005', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0710/', '', '', '', 0, 0, 'Survey indices', '', '../spreadsheets/SOSBEE-WINTERSKATE-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'ID', 'skates2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WSKAT5YCHATT-1967-2005-SOSEBEE', 'A1', 'Northeast Fisheries Science Center') ; 

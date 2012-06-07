@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SFI-WPOLLNSO-1985-1994-JENSEN', 'SFI', 'WPOLLNSO', 'JENSEN', '2009-11-10', '2011-07-25 12:39:57', '1985-1994', 'peer-reviewed journal', '', '', '', 1, 1, 'AAPM', 'Fox model also available', '../spreadsheets/JENSEN-WPOLLNSO-1997-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SFI-WPOLLNSO-1985-1994-JENSEN', 'SFI', 'WPOLLNSO', 'JENSEN', '2009-11-10', '2012-06-07 11:37:14', '1985-1994', 'peer-reviewed journal', '', '', '', 1, 1, 'AAPM', 'Fox model also available', '../spreadsheets/JENSEN-WPOLLNSO-1997-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SFI-WPOLLNSO-1985-1994-JENSEN', 'ID', 'WPOLLNSO-1997-JENSEN.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SFI-WPOLLNSO-1985-1994-JENSEN', 'TY', 'JOUR') ; 
  INSERT INTO srdb.referencedoc VALUES('SFI-WPOLLNSO-1985-1994-JENSEN', 'A1', 'Janusz, J.') ; 

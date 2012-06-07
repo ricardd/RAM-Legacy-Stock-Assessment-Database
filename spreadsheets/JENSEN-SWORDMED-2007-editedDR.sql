@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ICCAT-SWORDMED-1968-2006-JENSEN', 'ICCAT', 'SWORDMED', 'JENSEN', '2008-11-17', '2011-07-25 12:39:11', '1968-2006', 'URL', 'John Walter - John.F.Walter@noaa.gov', '', '', 1, 1, 'ASPIC', 'no comments', '../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ICCAT-SWORDMED-1968-2006-JENSEN', 'ICCAT', 'SWORDMED', 'JENSEN', '2008-11-17', '2012-06-07 11:35:41', '1968-2006', 'URL', 'John Walter - John.F.Walter@noaa.gov', '', '', 1, 1, 'ASPIC', 'no comments', '../spreadsheets/JENSEN-SWORDMED-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDMED-1968-2006-JENSEN', 'ID', 'ICCAT-Mediterranean-Xiphiasgladius-2007.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDMED-1968-2006-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ICCAT-SWORDMED-1968-2006-JENSEN', 'T1', '2007 Mediterranean swordfish stock assessment session') ; 

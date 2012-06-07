@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-ARFLOUNDGA-1958-2010-STANTON', 'AFSC', 'ARFLOUNDGA', 'STANTON', '2009-04-21', '2011-07-25 12:39:48', '1958-2010', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-ARFLOUNDGA-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-ARFLOUNDGA-1958-2010-STANTON', 'AFSC', 'ARFLOUNDGA', 'STANTON', '2009-04-21', '2012-06-07 11:36:58', '1958-2010', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-ARFLOUNDGA-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDGA-1958-2010-STANTON', 'ID', '2008_SAFE_GOAatf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDGA-1958-2010-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-ARFLOUNDGA-1958-2010-STANTON', 'A1', 'Turnock, B.J.') ; 

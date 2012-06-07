@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE', 'RIDEM', 'TAUTOGRI', 'COLLIE', '2008-04-12', '2011-07-25 12:39:41', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management, <mark.gibson@dem.ri.gov>', 'data are preliminary until stock-assessment document is received', '', 1, 1, 'AAPM', 'fit to multiple abundance indices and tagging data', '../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE', 'RIDEM', 'TAUTOGRI', 'COLLIE', '2008-04-12', '2012-06-07 11:36:43', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management, <mark.gibson@dem.ri.gov>', 'data are preliminary until stock-assessment document is received', '', 1, 1, 'AAPM', 'fit to multiple abundance indices and tagging data', '../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE', 'ID', 'NULL') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE', 'A1', 'Gibson, Mark') ; 
@@ -9,8 +9,8 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','MAX-LEN-cm','90', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Habitat-Habitat','demersal marine', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','MSY-MT','369.56', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Fmsy-1/yr','0.292', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Fext-1/yr','0.584', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Fmsy-1/T','0.292', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Fext-1/T','0.584', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','Bmsy-MT','1562', 'NULL') ; 
  INSERT INTO srdb.timeseries VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','YEAR-yr',1959, 1959) ; 
  INSERT INTO srdb.timeseries VALUES('RIDEM-TAUTOGRI-1959-2007-COLLIE','YEAR-yr',1960, 1960) ; 

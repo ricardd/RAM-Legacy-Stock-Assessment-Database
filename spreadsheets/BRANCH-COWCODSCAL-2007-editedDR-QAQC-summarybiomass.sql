@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-COWCODSCAL-1900-2007-BRANCH', 'NWFSC', 'COWCODSCAL', 'BRANCH', '2008-11-21', '2011-07-26 10:24:51', '1900-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/certified_cowcod_Dec_2007.pdf', 'Edward Dick, Edward.Dick@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC-summarybiomass.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-COWCODSCAL-1900-2007-BRANCH', 'NWFSC', 'COWCODSCAL', 'BRANCH', '2008-11-21', '2012-06-07 11:36:47', '1900-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/certified_cowcod_Dec_2007.pdf', 'Edward Dick, Edward.Dick@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC-summarybiomass.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-COWCODSCAL-1900-2007-BRANCH', 'ID', 'NWFSC-COWCODSCAL-2007-Cowcod CA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-COWCODSCAL-1900-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-COWCODSCAL-1900-2007-BRANCH', 'A1', 'Dick EJ') ; 

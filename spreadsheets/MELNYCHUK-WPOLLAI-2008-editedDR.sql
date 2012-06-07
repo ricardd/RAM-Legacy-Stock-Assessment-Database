@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-WPOLLAI-1976-2008-MELNYCHUK', 'AFSC', 'WPOLLAI', 'MELNYCHUK', '2009-04-16', '2011-07-25 12:39:51', '1976-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/AIpollock.pdf', 'Steve Barbeaux', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-WPOLLAI-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-WPOLLAI-1976-2008-MELNYCHUK', 'AFSC', 'WPOLLAI', 'MELNYCHUK', '2009-04-16', '2012-06-07 11:37:02', '1976-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/AIpollock.pdf', 'Steve Barbeaux', '', '', 1, 1, 'AD-CAM', '', '../spreadsheets/MELNYCHUK-WPOLLAI-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLAI-1976-2008-MELNYCHUK', 'ID', 'AFSC-WPOLLAI-2008-Walleye pollock AI.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLAI-1976-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-WPOLLAI-1976-2008-MELNYCHUK', 'A1', 'Barbeaux, S.') ; 

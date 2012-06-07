@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-COD2J3KL-1850-2005-RICARD', 'DFO-NFLD', 'COD2J3KL', 'RICARD', '2011-02-11', '2011-07-25 12:40:08', '1850-2005', 'URL', 'contact details ', 'actually from fishsource right now', '', 1, 1, 'ADAPT', 'no comments', '../spreadsheets/RICARD-COD2J3KL-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-COD2J3KL-1850-2005-RICARD', 'DFO-NFLD', 'COD2J3KL', 'RICARD', '2011-02-11', '2012-06-07 11:37:35', '1850-2005', 'URL', 'contact details ', 'actually from fishsource right now', '', 1, 1, 'ADAPT', 'no comments', '../spreadsheets/RICARD-COD2J3KL-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD2J3KL-1850-2005-RICARD', 'ID', 'DFO-COD2J3KL-2006') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD2J3KL-1850-2005-RICARD', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-COD2J3KL-1850-2005-RICARD', 'T1', '2J3KL cod') ; 

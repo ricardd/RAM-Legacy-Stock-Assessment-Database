@@ -39,19 +39,12 @@ psql srdbdev -f ../spreadsheets/PREFONTAINE-COD3Ps-2004-editedDR-QAQC.sql 2> ../
 psql srdbdev -f ../spreadsheets/PREFONTAINE-COD4VsW-2003-editedDR-QAQC.sql 2> ../spreadsheets/PREFONTAINE-COD4VsW-2003-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR-QAQC.sql 2> ../spreadsheets/PREFONTAINE-COD5Zjm-2003-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/COLLIE-HERRQCI-2007-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-HERRQCI-2007-editedDR-QAQC.log 
-../spreadsheets/COLLIE-HERRQCI-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.log 
-../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-HERRPRD-2007-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-HERRPRD-2007-editedDR-QAQC.log 
-../spreadsheets/COLLIE-HERRPRD-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-HERRSOG-2007-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-HERRSOG-2007-editedDR-QAQC.log 
-../spreadsheets/COLLIE-HERRSOG-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-HERRWCVI-2007-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-HERRWCVI-2007-editedDR-QAQC.log 
-../spreadsheets/COLLIE-HERRWCVI-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.log 
-../spreadsheets/COLLIE-PCODHS-2005-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR-QAQC.log 
-../spreadsheets/COLLIE-PCODWCVANI-2002-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/Branch-SA-PToothfish-2007-editedOJ.sql 2> ../spreadsheets/Branch-SA-PToothfish-2007-editedOJ.log 
 psql srdbdev -f ../spreadsheets/Branch-SA-Kingklip-2008-editedOJ.sql 2> ../spreadsheets/Branch-SA-Kingklip-2008-editedOJ.log 
 psql srdbdev -f ../spreadsheets/deMoor-SAAnchovy-2007-editedDR.sql 2> ../spreadsheets/deMoor-SAAnchovy-2007-editedDR.log 
@@ -182,7 +175,7 @@ psql srdbdev -f ../spreadsheets/FAUCONNET-BNOSESHARATL-2007-editedDR.sql 2> ../s
 psql srdbdev -f ../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.sql 2> ../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/FAUCONNET-BTIPSHARATL-2006-editedDR.sql 2> ../spreadsheets/FAUCONNET-BTIPSHARATL-2006-editedDR.log 
 psql srdbdev -f ../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.sql 2> ../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.log 
-psql srdbdev -f ../spreadsheets/STANTON-ATLMENHADEN-editedDR.sql 2> ../spreadsheets/STANTON-ATLMENHADEN-editedDR.log 
+psql srdbdev -f ../spreadsheets/STANTON-ATLMENHADEN-editedDR-QAQCfinal.sql 2> ../spreadsheets/STANTON-ATLMENHADEN-editedDR-QAQCfinal.log 
 psql srdbdev -f ../spreadsheets/COLLIE-HERRPWS-2006-editedOJ.sql 2> ../spreadsheets/COLLIE-HERRPWS-2006-editedOJ.log 
 psql srdbdev -f ../spreadsheets/COLLIE-HERRSIT-2007-editedOJ.sql 2> ../spreadsheets/COLLIE-HERRSIT-2007-editedOJ.log 
 psql srdbdev -f ../spreadsheets/STANTON-SouthPetraleSole-2004-editedDR.sql 2> ../spreadsheets/STANTON-SouthPetraleSole-2004-editedDR.log 
@@ -203,23 +196,21 @@ psql srdbdev -f ../spreadsheets/JENSEN-SNOWCRABBS-2008-editedDR-QAQC.sql 2> ../s
 psql srdbdev -f ../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.sql 2> ../spreadsheets/STANTON-WEAKFISHATLC-2009-v2-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.sql 2> ../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR-QAQC.sql 2> ../spreadsheets/BAUM-AMPL3LNO-2007-editedDR-QAQC.log 
-../spreadsheets/BAUM-AMPL3LNO-2007-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/BAUM-AMPL3M-2008-editedDR.sql 2> ../spreadsheets/BAUM-AMPL3M-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.sql 2> ../spreadsheets/PREFONTAINE-BARNSK-2002-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.sql 2> ../spreadsheets/PREFONTAINE-COD2J3KLIS-2006-editedDR.log 
 psql srdbdev -f ../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.sql 2> ../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.log 
-../spreadsheets/BAUM-COD3NO-2007-editedDR-QAQC.sql
-psql srdbdev -f ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.sql 2> ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR.log 
+psql srdbdev -f ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR-QAQCjb.sql 2> ../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR-QAQCjb.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-GHAL4RST-2003-editedDR.sql 2> ../spreadsheets/PREFONTAINE-GHAL4RST-2003-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.sql 2> ../spreadsheets/PREFONTAINE-HAD4X5Y-2003-editedDR-QAQCjb.log 
-psql srdbdev -f ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.sql 2> ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedDR.log 
+psql srdbdev -f ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedRP.sql 2> ../spreadsheets/PREFONTAINE-HERR4VWX-2006-editedRP.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-RED1-2005-editedDR.sql 2> ../spreadsheets/PREFONTAINE-RED1-2005-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.sql 2> ../spreadsheets/PREFONTAINE-RED3M-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-RED23K-2001-editedDR.sql 2> ../spreadsheets/PREFONTAINE-RED23K-2001-editedDR.log 
 psql srdbdev -f ../spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.sql 2> ../spreadsheets/PREFONTAINE-RED3Pn4RSTVn-2001-editedDR.log 
 psql srdbdev -f ../spreadsheets/BAUM-YELL3LNO-2008-editedDR.sql 2> ../spreadsheets/BAUM-YELL3LNO-2008-editedDR.log 
-psql srdbdev -f ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.sql 2> ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedDR.log 
-psql srdbdev -f ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.sql 2> ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR.log 
+psql srdbdev -f ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.sql 2> ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.log 
+psql srdbdev -f ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR-jbQAQC.sql 2> ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR-jbQAQC.log 
 psql srdbdev -f ../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.sql 2> ../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/JENSEN-MUTSNAPSATLCGM-2008-editedDR.sql 2> ../spreadsheets/JENSEN-MUTSNAPSATLCGM-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/JENSEN-GAGSATLC-2006-editedDR-QAQC.sql 2> ../spreadsheets/JENSEN-GAGSATLC-2006-editedDR-QAQC.log 
@@ -236,29 +227,24 @@ psql srdbdev -f ../spreadsheets/JENSEN-KMACKGM-2004-editedDR.sql 2> ../spreadshe
 psql srdbdev -f ../spreadsheets/JENSEN-GRAMBERSATLC-2008-editedDR.sql 2> ../spreadsheets/JENSEN-GRAMBERSATLC-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/JENSEN-RSNAPSATLC-2008-editedDR.sql 2> ../spreadsheets/JENSEN-RSNAPSATLC-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.log 
-../spreadsheets/COLLIE-RSOLEHSTR-2001-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.log 
-../spreadsheets/COLLIE-ESOLEHSTR-2001-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.log 
-../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.log 
-../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.sql
 psql srdbdev -f ../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.sql 2> ../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.log 
-../spreadsheets/COLLIE-TORIDEM-2008-editedDR-QAQC.sql
-psql srdbdev -f ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC.log 
+psql srdbdev -f ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC-summarybiomass.sql 2> ../spreadsheets/BRANCH-DKROCKPCOAST-2007-editedDR-QAQC-summarybiomass.log 
 psql srdbdev -f ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-ARFLOUNDPCOAST-2007-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR-QAQC-revised.sql 2> ../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR-QAQC-revised.log 
 psql srdbdev -f ../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-BLACKROCKSPCOAST-2007-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-BLUEROCKCAL-2007-editedDR-QAQC.log 
-psql srdbdev -f ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC.log 
-psql srdbdev -f ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC.log 
+psql srdbdev -f ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC-summarybiomass.sql 2> ../spreadsheets/BRANCH-COWCODSCAL-2007-editedDR-QAQC-summarybiomass.log 
+psql srdbdev -f ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC-summarybiomass.sql 2> ../spreadsheets/BRANCH-LNOSESKAPCOAST-2007-editedDR-QAQC-summarybiomass.log 
 psql srdbdev -f ../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-POPERCHPCOAST-2007-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-BOCACCSPCOAST-2007-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.sql 2> ../spreadsheets/BRANCH-WROCKPCOAST-2007-editedDR.log 
-psql srdbdev -f ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.sql 2> ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR.log 
+psql srdbdev -f ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR-summarybiomass-SSBcorrected.sql 2> ../spreadsheets/BRANCH-YEYEROCKPCOAST-2007-editedDR-summarybiomass-SSBcorrected.log 
 psql srdbdev -f ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.sql 2> ../spreadsheets/BRANCH-SBELLYROCKPCOAST-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-PHAKEPCOAST-2008-editedDR-QAQC.log 
-psql srdbdev -f ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.sql 2> ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR.log 
+psql srdbdev -f ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR-summarybiomass.sql 2> ../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR-summarybiomass.log 
 psql srdbdev -f ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.sql 2> ../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.log 
 psql srdbdev -f ../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.sql 2> ../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.sql 2> ../spreadsheets/STACHURA-CROCKPCOAST-2009-editedDR.log 
@@ -301,8 +287,7 @@ psql srdbdev -f ../spreadsheets/FAUCONNET-BHEADSHARATL-2007-editedDR.sql 2> ../s
 psql srdbdev -f ../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.sql 2> ../spreadsheets/FAUCONNET-SFINMAKNWPAC-2009-editedDR.log 
 psql srdbdev -f ../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.sql 2> ../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.sql 2> ../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.log 
-psql srdbdev -f ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.sql 2> ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR.log 
-psql srdbdev -f ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.sql 2> ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.log 
+psql srdbdev -f psql srdbdev -f ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.sql 2> ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.log 
 psql srdbdev -f ../spreadsheets/HART-SEASCALLOPMA-2007-editedDR.sql 2> ../spreadsheets/HART-SEASCALLOPMA-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.sql 2> ../spreadsheets/HART-SEASCALLOPGB-2007-editedDR.log 
 psql srdbdev -f ../spreadsheets/CHUTE-DEEPSEAREDCRAB-2008-editedDR.sql 2> ../spreadsheets/CHUTE-DEEPSEAREDCRAB-2008-editedDR.log 
@@ -375,3 +360,5 @@ psql srdbdev -f ../spreadsheets/STANTON-SABLEPCOAST-editedDR.sql 2> ../spreadshe
 psql srdbdev -f ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.sql 2> ../spreadsheets/FAY-PTOOTHFISHMACCA-2010-editedDR.log 
 psql srdbdev -f ../spreadsheets/RICARD-CUSK-4X-2011.sql 2> ../spreadsheets/RICARD-CUSK-4X-2011.log 
 psql srdbdev -f ../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.sql 2> ../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.log 
+psql srdbdev -f ../spreadsheets/STACHURA-COWCODSCAL-2009-editedDR.sql 2> ../spreadsheets/STACHURA-COWCODSCAL-2009-editedDR.log 
+psql srdbdev -f ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR-final.sql 2> ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR-final.log 

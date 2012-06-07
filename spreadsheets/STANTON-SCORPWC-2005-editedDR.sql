@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-CALSCORPSCAL-1990-2005-STANTON', 'SWFSC', 'CALSCORPSCAL', 'STANTON', '2009-08-07', '2011-07-25 12:39:52', '1990-2005', 'http://www.dfg.ca.gov/marine/scorpionfish/index.asp', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-SCORPWC-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-CALSCORPSCAL-1990-2005-STANTON', 'SWFSC', 'CALSCORPSCAL', 'STANTON', '2009-08-07', '2012-06-07 11:37:05', '1990-2005', 'http://www.dfg.ca.gov/marine/scorpionfish/index.asp', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-SCORPWC-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CALSCORPSCAL-1990-2005-STANTON', 'ID', 'Scorpionfish_assessment_report_2005') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CALSCORPSCAL-1990-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CALSCORPSCAL-1990-2005-STANTON', 'A1', 'Maunder, Mark') ; 

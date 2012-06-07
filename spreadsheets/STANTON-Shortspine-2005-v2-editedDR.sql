@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'NWFSC', 'SSTHORNHPCOAST', 'STANTON', '2009-05-18', '2011-07-25 12:39:56', '1901-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Shortspine-2005-v2-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'NWFSC', 'SSTHORNHPCOAST', 'STANTON', '2009-05-18', '2012-06-07 11:37:13', '1901-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-Shortspine-2005-v2-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'ID', '2005-SST-assessment.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-SSTHORNHPCOAST-1901-2005-STANTON', 'A1', 'Hamel, Owen') ; 

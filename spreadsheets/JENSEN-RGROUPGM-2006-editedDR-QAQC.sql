@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-RGROUPGM-1986-2005-JENSEN', 'SEFSC', 'RGROUPGM', 'JENSEN', '2008-11-22', '2011-07-25 12:39:34', '1986-2005', 'http://www.sefsc.noaa.gov/sedar/download/S12SAR1%20Gulf%20Red%20Grouper%20Completev2.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASAP', '', '../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-RGROUPGM-1986-2005-JENSEN', 'SEFSC', 'RGROUPGM', 'JENSEN', '2008-11-22', '2012-06-07 11:36:28', '1986-2005', 'http://www.sefsc.noaa.gov/sedar/download/S12SAR1%20Gulf%20Red%20Grouper%20Completev2.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASAP', '', '../spreadsheets/JENSEN-RGROUPGM-2006-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RGROUPGM-1986-2005-JENSEN', 'ID', 'JENSEN-RGROUPGM-2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RGROUPGM-1986-2005-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RGROUPGM-1986-2005-JENSEN', 'A1', 'Anonymous') ; 

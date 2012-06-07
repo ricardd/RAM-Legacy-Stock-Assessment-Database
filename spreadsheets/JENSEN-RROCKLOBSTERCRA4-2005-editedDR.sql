@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA4', 'JENSEN', '2009-04-07', '2011-07-29 14:32:31', '1945-2005', 'received from contact', 'Pall Starr - paul@starrfish.net', '', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA4-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA4', 'JENSEN', '2009-04-07', '2012-06-07 11:36:10', '1945-2005', 'received from contact', 'Pall Starr - paul@starrfish.net', '', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA4-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN', 'ID', '06_17_FAR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA4-1945-2005-JENSEN', 'T1', 'The 2005 stock assessment of red rock lobsters (Jasus edwardsii) in CRA 4') ; 

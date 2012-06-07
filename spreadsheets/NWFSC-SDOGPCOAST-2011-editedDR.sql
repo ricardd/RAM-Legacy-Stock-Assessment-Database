@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-SDOGPCOAST-1916-2011-Stachura', 'NWFSC', 'SDOGPCOAST', 'Stachura', '2011-12-22', '2012-06-06 14:11:41', '1916-2011', 'obtained from assessment author, not yet publicly available on PFMC website', 'Vladlena Gertseva, vladlena.gertseva@noaa.gov', 'This is the first assessment for this stock', 'NWFSC-SDOGPCOAST-2011.pdf', 1, 1, 'SS3', '', '../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-SDOGPCOAST-1916-2011-Stachura', 'NWFSC', 'SDOGPCOAST', 'Stachura', '2011-12-22', '2012-06-07 11:37:38', '1916-2011', 'obtained from assessment author, not yet publicly available on PFMC website', 'Vladlena Gertseva, vladlena.gertseva@noaa.gov', 'This is the first assessment for this stock', 'NWFSC-SDOGPCOAST-2011.pdf', 1, 1, 'SS3', '', '../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.xls', '999') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SDOGPCOAST-1916-2011-Stachura','MSY-MT','848', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SDOGPCOAST-1916-2011-Stachura','Fmsy-1/yr','0.01', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-SDOGPCOAST-1916-2011-Stachura','SSFmsy-E00','33229000', 'NULL', 'spawning output not SSB') ; 

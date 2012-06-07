@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON', 'NEFSC', 'WINDOWGOMGB', 'HENDRICKSON', '2009-04-20', '2011-07-25 12:40:02', '1975-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf', '', '', '', 1, 1, 'SURBA', 'used NMFS SA Toolbox method called "AIM"; An Index-based Method', '../spreadsheets/HENDRICKSON-WINDOWPANEGOMGB-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON', 'NEFSC', 'WINDOWGOMGB', 'HENDRICKSON', '2009-04-20', '2012-06-07 11:37:25', '1975-2007', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf', '', '', '', 1, 1, 'SURBA', 'used NMFS SA Toolbox method called "AIM"; An Index-based Method', '../spreadsheets/HENDRICKSON-WINDOWPANEGOMGB-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON', 'ID', 'garm3p.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINDOWGOMGB-1975-2007-HENDRICKSON', 'A1', 'Northeast Fisheries Science Center') ; 

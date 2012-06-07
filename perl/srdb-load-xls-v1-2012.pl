@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # script to input a single spreadsheet file in the RAM Legacy Stock Assessment Database
-# Last modified: Time-stamp: <2012-05-10 11:57:13 (srdbadmin)>
+# Last modified: Time-stamp: <2012-06-07 11:00:58 (srdbadmin)>
 # Daniel Ricard
 # 2012-05-08: this Perl script is to accomodate the newest spreadsheet template developed by Trevor Branch and his team at UW
 # 2012-05-10: I think that this is working fine now, the spreadsheet template is only missing entries for "assess", "refpoints", and also "year" for the biometrics
@@ -157,3 +157,5 @@ for($iC = $oWkS->{MinCol}+2;
   } # end loop across columns
 
 print SQLFILE "COMMIT;";
+
+print "$sqlfile 2> $sqllogfile \n";

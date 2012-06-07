@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'NAFO-SC', 'GHAL23KLMNO', 'PREFONTAINE', '2008-07-02', '2011-07-27 13:52:36', '1960-2006', 'http://www.nafo.int/publications/frames/science.html', '', '', '', 1, 1, 'XSA', '15 year rebuilding plan implemented in 2004', '../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR-QAQCjb.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'NAFO-SC', 'GHAL23KLMNO', 'PREFONTAINE', '2008-07-02', '2012-06-07 11:36:31', '1960-2006', 'http://www.nafo.int/publications/frames/science.html', '', '', '', 1, 1, 'XSA', '15 year rebuilding plan implemented in 2004', '../spreadsheets/PREFONTAINE-GHAL23KLMNO-2007-editedDR-QAQCjb.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'ID', 'NAFO-GHAL23KLMNO-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-GHAL23KLMNO-1960-2006-PREFONTAINE', 'A1', 'Healey, B.P.') ; 

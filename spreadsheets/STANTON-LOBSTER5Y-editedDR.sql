@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('ASMFC-LOBSTERGOM-1981-2007-STANTON', 'ASMFC', 'LOBSTERGOM', 'STANTON', '2009-08-12', '2011-07-25 12:39:57', '1981-2007', 'http://www.asmfc.org/', 'contact details ', '', '', 1, 1, 'CSM', 'no comments', '../spreadsheets/STANTON-LOBSTER5Y-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('ASMFC-LOBSTERGOM-1981-2007-STANTON', 'ASMFC', 'LOBSTERGOM', 'STANTON', '2009-08-12', '2012-06-07 11:37:15', '1981-2007', 'http://www.asmfc.org/', 'contact details ', '', '', 1, 1, 'CSM', 'no comments', '../spreadsheets/STANTON-LOBSTER5Y-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-LOBSTERGOM-1981-2007-STANTON', 'ID', '2009-ASMFC-Am-Lob.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-LOBSTERGOM-1981-2007-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('ASMFC-LOBSTERGOM-1981-2007-STANTON', 'A1', 'McKown, Kim') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA1', 'JENSEN', '2009-04-07', '2011-07-29 14:14:33', '1945-2001', 'received from contact', 'Pall Starr - paul@starrfish.net', 'fpcs.fish.govt.nz/science/documents//2003%20FARs/03_41_FAR.pdf', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA1-2001-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA1', 'JENSEN', '2009-04-07', '2012-06-07 11:36:09', '1945-2001', 'received from contact', 'Pall Starr - paul@starrfish.net', 'fpcs.fish.govt.nz/science/documents//2003%20FARs/03_41_FAR.pdf', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA1-2001-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN', 'ID', '03_41_FAR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA1-1945-2001-JENSEN', 'T1', 'Assessment of red rock lobsters (Jasus edwardsii) in CRA 1 and CRA 2 in 2002') ; 

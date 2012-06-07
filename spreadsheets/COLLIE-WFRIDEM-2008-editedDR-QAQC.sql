@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('RIDEM-WINFLOUNDRI-1959-2007-COLLIE', 'RIDEM', 'WINFLOUNDRI', 'COLLIE', '2008-04-12', '2011-07-25 12:39:41', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management', 'data preliminary pending receipt of stock-assessment document', '', 1, 1, 'AAPM', 'fit to multiple abundance indices', '../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('RIDEM-WINFLOUNDRI-1959-2007-COLLIE', 'RIDEM', 'WINFLOUNDRI', 'COLLIE', '2008-04-12', '2012-06-07 11:36:43', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management', 'data preliminary pending receipt of stock-assessment document', '', 1, 1, 'AAPM', 'fit to multiple abundance indices', '../spreadsheets/COLLIE-WFRIDEM-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-WINFLOUNDRI-1959-2007-COLLIE', 'ID', 'NULL') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-WINFLOUNDRI-1959-2007-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-WINFLOUNDRI-1959-2007-COLLIE', 'A1', 'Gibson, Mark, Rhode Island Department of Environmental Management, <mark.gibson@dem.ri.gov>') ; 

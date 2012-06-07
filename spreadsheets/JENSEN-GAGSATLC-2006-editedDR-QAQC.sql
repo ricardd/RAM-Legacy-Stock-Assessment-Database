@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-GAGSATLC-1962-2005-JENSEN', 'SEFSC', 'GAGSATLC', 'JENSEN', '2008-11-19', '2011-07-25 12:39:37', '1962-2005', 'http://www.sefsc.noaa.gov/sedar/download/S10_SAR1_SA_Gag_updated_ALL.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'AD-CAM', 'SEDAR 10: Atlantic gag (base run with constant catchability - see Tables 24 and 34)', '../spreadsheets/JENSEN-GAGSATLC-2006-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-GAGSATLC-1962-2005-JENSEN', 'SEFSC', 'GAGSATLC', 'JENSEN', '2008-11-19', '2012-06-07 11:36:36', '1962-2005', 'http://www.sefsc.noaa.gov/sedar/download/S10_SAR1_SA_Gag_updated_ALL.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'AD-CAM', 'SEDAR 10: Atlantic gag (base run with constant catchability - see Tables 24 and 34)', '../spreadsheets/JENSEN-GAGSATLC-2006-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGSATLC-1962-2005-JENSEN', 'ID', 'JENSEN_GAGSATLC_2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGSATLC-1962-2005-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GAGSATLC-1962-2005-JENSEN', 'A1', 'NULL') ; 

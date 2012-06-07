@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWWG-HADICE-1977-2007-MINTO', 'NWWG', 'HADICE', 'MINTO', '2008-04-10', '2011-07-25 12:39:12', '1977-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', 'Assessment modelling framework is different from previous year when a statistical catch-at-age was used. ', '../spreadsheets/MINTO-HADICE-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWWG-HADICE-1977-2007-MINTO', 'NWWG', 'HADICE', 'MINTO', '2008-04-10', '2012-06-07 11:35:42', '1977-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'NULL', 'ICES-NWWG-2007.pdf', 1, 1, 'VPA', 'Assessment modelling framework is different from previous year when a statistical catch-at-age was used. ', '../spreadsheets/MINTO-HADICE-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADICE-1977-2007-MINTO', 'ID', 'ICES-NWWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADICE-1977-2007-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWWG-HADICE-1977-2007-MINTO', 'A1', 'Anonymous') ; 

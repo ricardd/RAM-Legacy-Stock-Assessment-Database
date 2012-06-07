@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE', 'NEFSC', 'WINFLOUND5Y', 'NITSCHKE', '2009-04-22', '2011-07-25 12:40:02', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'no rebuilding program.', '', 1, 1, 'Unknown', 'VPA and SCALE models not accepted, TL are only commercial landings', '../spreadsheets/NITSCHKE-WINTERFLGOM-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE', 'NEFSC', 'WINFLOUND5Y', 'NITSCHKE', '2009-04-22', '2012-06-07 11:37:24', '1982-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/', '', 'no rebuilding program.', '', 1, 1, 'Unknown', 'VPA and SCALE models not accepted, TL are only commercial landings', '../spreadsheets/NITSCHKE-WINTERFLGOM-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE', 'ID', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0815/crd0815.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-WINFLOUND5Y-1982-2008-NITSCHKE', 'A1', 'Northeast Fisheries Science Center') ; 

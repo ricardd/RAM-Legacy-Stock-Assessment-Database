@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'MARAM', 'SAABALONESA', 'PLAGANYI', '2009-03-13', '2011-07-25 12:39:07', '1951-2008', 'Assessment conducted personally', 'Eva Plaganyi ; Eva.Plaganyi-lloyd@csiro.au; Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'SCA', 'Simultaneously fits 5 zones', '../spreadsheets/Plaganyi-SA-abalone-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'MARAM', 'SAABALONESA', 'PLAGANYI', '2009-03-13', '2012-06-07 11:35:32', '1951-2008', 'Assessment conducted personally', 'Eva Plaganyi ; Eva.Plaganyi-lloyd@csiro.au; Anabela Brandao Anabela.Brandao@uct.ac.za', '', '', 1, 0, 'SCA', 'Simultaneously fits 5 zones', '../spreadsheets/Plaganyi-SA-abalone-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'ID', 'Plaganyi-SA-abalone-2008NOVSWG-AB21.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-SAABALONESA-1951-2008-PLAGANYI', 'A1', 'Plaganyi, E.E.') ; 

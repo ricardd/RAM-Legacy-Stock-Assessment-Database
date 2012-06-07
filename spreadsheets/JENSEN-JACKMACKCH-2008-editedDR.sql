@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'IFOP', 'CHTRACCH', 'JENSEN', '2009-11-07', '2011-07-25 12:39:54', '1975-2007', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'time series data were extracted from figures', '', 1, 0, 'Unknown', '', '../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'IFOP', 'CHTRACCH', 'JENSEN', '2009-11-07', '2012-06-07 11:37:09', '1975-2007', 'http://www.southpacificrfmo.org/chilean-jack-mackerel-workshop-Meeting-Documents/', '', 'time series data were extracted from figures', '', 1, 0, 'Unknown', '', '../spreadsheets/JENSEN-JACKMACKCH-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'ID', 'JENSEN-JACKMACKCH-2008.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IFOP-CHTRACCH-1975-2007-JENSEN', 'A1', 'Canales, Cristian') ; 

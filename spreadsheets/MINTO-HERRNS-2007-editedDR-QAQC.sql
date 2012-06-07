@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('HAWG-HERRNS-1960-2007-MINTO', 'HAWG', 'HERRNS', 'MINTO', '2008-04-15', '2011-07-25 12:39:14', '1960-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers autumn-spawner herring in ICES sub-area IV,divisions VIId & IIIa', 'ICES-HAWG-2007.pdf', 1, 1, 'ICA', 'NULL', '../spreadsheets/MINTO-HERRNS-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('HAWG-HERRNS-1960-2007-MINTO', 'HAWG', 'HERRNS', 'MINTO', '2008-04-15', '2012-06-07 11:35:47', '1960-2007', 'http://www.ices.dk/products/CMdocs/CM-2007/CM2007.pdf', 'NULL', 'Assessment covers autumn-spawner herring in ICES sub-area IV,divisions VIId & IIIa', 'ICES-HAWG-2007.pdf', 1, 1, 'ICA', 'NULL', '../spreadsheets/MINTO-HERRNS-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNS-1960-2007-MINTO', 'ID', 'ICES-HAWG-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNS-1960-2007-MINTO', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('HAWG-HERRNS-1960-2007-MINTO', 'A1', 'Anonymous') ; 

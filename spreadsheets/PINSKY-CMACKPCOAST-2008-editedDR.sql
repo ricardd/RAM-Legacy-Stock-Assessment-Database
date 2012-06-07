@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-CMACKPCOAST-1929-2008-PINSKY', 'SWFSC', 'CMACKPCOAST', 'PINSKY', '2009-03-27', '2011-07-25 12:39:52', '1929-2008', 'http://www.pcouncil.org/cps/cpssafe/0608safe/PFMC_2008_CPS_SAFE_App2_PMackerel.pdf', '', '', '', 1, 1, 'ASAP', 'SS2 method also tried, but not used', '../spreadsheets/PINSKY-CMACKPCOAST-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-CMACKPCOAST-1929-2008-PINSKY', 'SWFSC', 'CMACKPCOAST', 'PINSKY', '2009-03-27', '2012-06-07 11:37:05', '1929-2008', 'http://www.pcouncil.org/cps/cpssafe/0608safe/PFMC_2008_CPS_SAFE_App2_PMackerel.pdf', '', '', '', 1, 1, 'ASAP', 'SS2 method also tried, but not used', '../spreadsheets/PINSKY-CMACKPCOAST-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CMACKPCOAST-1929-2008-PINSKY', 'ID', 'PFMC_2008_CPS_SAFE_App2_PMackerel.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CMACKPCOAST-1929-2008-PINSKY', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-CMACKPCOAST-1929-2008-PINSKY', 'A1', 'Dorval,Emmanis') ; 

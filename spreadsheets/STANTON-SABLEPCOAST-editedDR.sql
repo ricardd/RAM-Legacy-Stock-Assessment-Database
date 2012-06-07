@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'DFO-PAC', 'SABLEFPCAN', 'STANTON', '2010-05-06', '2011-08-09 13:16:28', '1913-2004', 'DFO  http://www.pac.dfo-mpo.gc.ca/sci/sa-mfpd/sablefish/Sable_QuotaCatch.htm', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SABLEPCOAST-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'DFO-PAC', 'SABLEFPCAN', 'STANTON', '2010-05-06', '2012-06-07 11:37:36', '1913-2004', 'DFO  http://www.pac.dfo-mpo.gc.ca/sci/sa-mfpd/sablefish/Sable_QuotaCatch.htm', 'contact details ', '', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-SABLEPCOAST-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'ID', 'BC-Sablefish.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-SABLEFPCAN-1913-2004-STANTON', 'A1', 'Haist, V') ; 

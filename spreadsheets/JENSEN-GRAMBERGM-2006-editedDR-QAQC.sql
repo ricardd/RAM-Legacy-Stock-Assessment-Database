@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-GRAMBERGM-1986-2004-JENSEN', 'SEFSC', 'GRAMBERGM', 'JENSEN', '2008-11-19', '2011-07-25 12:39:38', '1986-2004', 'http://www.sefsc.noaa.gov/sedar/download/SEDAR9_SAR2%20GOM%20GreaterAmberjack.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPIC', '', '../spreadsheets/JENSEN-GRAMBERGM-2006-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-GRAMBERGM-1986-2004-JENSEN', 'SEFSC', 'GRAMBERGM', 'JENSEN', '2008-11-19', '2012-06-07 11:36:37', '1986-2004', 'http://www.sefsc.noaa.gov/sedar/download/SEDAR9_SAR2%20GOM%20GreaterAmberjack.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'ASPIC', '', '../spreadsheets/JENSEN-GRAMBERGM-2006-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GRAMBERGM-1986-2004-JENSEN', 'ID', 'JENSEN_GRAMBERGM_2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GRAMBERGM-1986-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-GRAMBERGM-1986-2004-JENSEN', 'A1', 'NULL') ; 

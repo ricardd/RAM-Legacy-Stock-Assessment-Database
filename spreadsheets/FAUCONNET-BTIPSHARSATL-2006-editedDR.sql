@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-BTIPSHARGM-1981-2004-FAUCONNET', 'SEFSC', 'BTIPSHARGM', 'FAUCONNET', '2009-05-04', '2011-07-25 12:39:30', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/', '', '', '', 1, 1, 'SPASM', '', '../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-BTIPSHARGM-1981-2004-FAUCONNET', 'SEFSC', 'BTIPSHARGM', 'FAUCONNET', '2009-05-04', '2012-06-07 11:36:21', '1981-2004', 'http://www.sefsc.noaa.gov/sedar/', '', '', '', 1, 1, 'SPASM', '', '../spreadsheets/FAUCONNET-BTIPSHARSATL-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-BTIPSHARGM-1981-2004-FAUCONNET', 'ID', 'LargeCoastalAtl2006-SEFSC') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-BTIPSHARGM-1981-2004-FAUCONNET', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-BTIPSHARGM-1981-2004-FAUCONNET', 'A1', 'Carlson, John') ; 

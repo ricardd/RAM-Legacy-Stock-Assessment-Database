@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE', 'DFO-NFLD', 'MONK2J3KLNOPs', 'PREFONTAINE', '2008-06-26', '2011-07-25 12:39:02', '1977-2000', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'this is a test entry only', '', 0, 0, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE', 'DFO-NFLD', 'MONK2J3KLNOPs', 'PREFONTAINE', '2008-06-26', '2012-06-07 11:35:24', '1977-2000', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'this is a test entry only', '', 0, 0, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-MONK2J3KLNOPs-2001-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE', 'ID', 'NAFO-MONK2J3KLNOPs-2001') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-MONK2J3KLNOPs-1977-2000-PREFONTAINE', 'A1', 'Kulka, D.W.') ; 

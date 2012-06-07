@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NEFSC-TILEMATLC-1973-2008-NITSCHKE', 'NEFSC', 'TILEMATLC', 'NITSCHKE', '2009-04-22', '2011-07-25 12:40:05', '1973-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0514/', '', 'Stock under rebuilding program with 2011 deadline.', '', 1, 1, 'ASPIC', '', '../spreadsheets/NITSCHKE-TILEFISH-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NEFSC-TILEMATLC-1973-2008-NITSCHKE', 'NEFSC', 'TILEMATLC', 'NITSCHKE', '2009-04-22', '2012-06-07 11:37:30', '1973-2008', 'http://www.nefsc.noaa.gov/nefsc/publications/crd/crd0514/', '', 'Stock under rebuilding program with 2011 deadline.', '', 1, 1, 'ASPIC', '', '../spreadsheets/NITSCHKE-TILEFISH-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-TILEMATLC-1973-2008-NITSCHKE', 'ID', 'Tilefish2005.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-TILEMATLC-1973-2008-NITSCHKE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NEFSC-TILEMATLC-1973-2008-NITSCHKE', 'A1', 'Northeast Fisheries Science Center') ; 

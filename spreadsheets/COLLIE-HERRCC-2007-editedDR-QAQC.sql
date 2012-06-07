@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-PAC-HERRCC-1951-2007-COLLIE', 'DFO-PAC', 'HERRCC', 'COLLIE', '2008-07-30', '2011-07-25 12:39:04', '1951-2007', 'received from contact', 'Jake Schweigert, Pacific Biological Station', 'this is a test entry only', 'RES2007_002_e.pdf', 1, 0, 'AD-CAM', 'The assessment method is called HCAM', '../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-PAC-HERRCC-1951-2007-COLLIE', 'DFO-PAC', 'HERRCC', 'COLLIE', '2008-07-30', '2012-06-07 11:35:27', '1951-2007', 'received from contact', 'Jake Schweigert, Pacific Biological Station', 'this is a test entry only', 'RES2007_002_e.pdf', 1, 0, 'AD-CAM', 'The assessment method is called HCAM', '../spreadsheets/COLLIE-HERRCC-2007-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-HERRCC-1951-2007-COLLIE', 'ID', 'RES2007_002_e.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-HERRCC-1951-2007-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-PAC-HERRCC-1951-2007-COLLIE', 'A1', 'Schweigert, Jake') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2007-BRANCH', 'NWFSC', 'CROCKPCOAST', 'BRANCH', '2008-11-10', '2011-07-25 12:39:46', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/2007_canary_SAFE.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', 'NULL', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-CROCKPCOAST-1916-2007-BRANCH', 'NWFSC', 'CROCKPCOAST', 'BRANCH', '2008-11-10', '2012-06-07 11:36:53', '1916-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/2007_canary_SAFE.pdf', 'Ian Stewart, NWFSC, NOAA, Ian.Stewart@noaa.gov', '', 'NULL', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CROCKPCOAST-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2007-BRANCH', 'ID', 'NWFSC-CROCKPCOAST-2007-Canary.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CROCKPCOAST-1916-2007-BRANCH', 'A1', 'Stewart, Ian J.') ; 

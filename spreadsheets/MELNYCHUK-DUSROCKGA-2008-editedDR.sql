@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-DUSROCKGA-1973-2008-MELNYCHUK', 'AFSC', 'DUSROCKGA', 'MELNYCHUK', '2009-04-21', '2011-07-25 12:39:50', '1973-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOApelshelf.pdf', 'Chris Lunsford', 'authors believe catches from 1985-1987 are underestimated', '', 1, 1, 'AD-CAM', '2008 assessment was only an update. full assessment conducted in 2007. filename: AFSC-DUSROCKGA-2007-Dusky rockfish GA.pdf', '../spreadsheets/MELNYCHUK-DUSROCKGA-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-DUSROCKGA-1973-2008-MELNYCHUK', 'AFSC', 'DUSROCKGA', 'MELNYCHUK', '2009-04-21', '2012-06-07 11:37:02', '1973-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/GOApelshelf.pdf', 'Chris Lunsford', 'authors believe catches from 1985-1987 are underestimated', '', 1, 1, 'AD-CAM', '2008 assessment was only an update. full assessment conducted in 2007. filename: AFSC-DUSROCKGA-2007-Dusky rockfish GA.pdf', '../spreadsheets/MELNYCHUK-DUSROCKGA-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-DUSROCKGA-1973-2008-MELNYCHUK', 'ID', 'AFSC-DUSROCKGA-2008-Dusky rockfish GA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-DUSROCKGA-1973-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-DUSROCKGA-1973-2008-MELNYCHUK', 'A1', 'Lunsford, C.R.') ; 

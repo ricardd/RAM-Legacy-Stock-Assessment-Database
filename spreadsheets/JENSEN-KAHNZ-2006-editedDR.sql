@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NIWA-AUSSALMONNZ-1975-2006-JENSEN', 'NIWA', 'AUSSALMONNZ', 'JENSEN', '2009-03-11', '2011-07-25 12:39:26', '1975-2006', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'average of four model runs - no best or base model available, total biomass is from the middle of the fishing year, SSB is mid-spawn', '', 1, 1, 'CASAL', '', '../spreadsheets/JENSEN-KAHNZ-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NIWA-AUSSALMONNZ-1975-2006-JENSEN', 'NIWA', 'AUSSALMONNZ', 'JENSEN', '2009-03-11', '2012-06-07 11:36:12', '1975-2006', 'received from contact', 'Patrick Cordue - patrick.cordue@isl-solutions.co.nz', 'average of four model runs - no best or base model available, total biomass is from the middle of the fishing year, SSB is mid-spawn', '', 1, 1, 'CASAL', '', '../spreadsheets/JENSEN-KAHNZ-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-AUSSALMONNZ-1975-2006-JENSEN', 'ID', 'CORDUEperscomm') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-AUSSALMONNZ-1975-2006-JENSEN', 'A1', 'Cordue, PatrickL.') ; 
  INSERT INTO srdb.referencedoc VALUES('NIWA-AUSSALMONNZ-1975-2006-JENSEN', 'T1', 'Personal communication') ; 

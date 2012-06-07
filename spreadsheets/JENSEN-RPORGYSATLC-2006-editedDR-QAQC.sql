@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-RPORGYSATLC-1972-2004-JENSEN', 'SEFSC', 'RPORGYSATLC', 'JENSEN', '2008-11-25', '2011-07-25 12:39:39', '1972-2004', 'http://www.sefsc.noaa.gov/sedar/download/rp-aw-25May06.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'SCA', '', '../spreadsheets/JENSEN-RPORGYSATLC-2006-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-RPORGYSATLC-1972-2004-JENSEN', 'SEFSC', 'RPORGYSATLC', 'JENSEN', '2008-11-25', '2012-06-07 11:36:39', '1972-2004', 'http://www.sefsc.noaa.gov/sedar/download/rp-aw-25May06.pdf?id=DOCUMENT', '', 'from Fogarty database', '', 1, 1, 'SCA', '', '../spreadsheets/JENSEN-RPORGYSATLC-2006-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RPORGYSATLC-1972-2004-JENSEN', 'ID', 'JENSEN_RPORGYSATLC_2006') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RPORGYSATLC-1972-2004-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-RPORGYSATLC-1972-2004-JENSEN', 'Y1', '2006') ; 

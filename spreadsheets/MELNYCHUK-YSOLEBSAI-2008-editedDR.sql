@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-YSOLEBSAI-1959-2008-MELNYCHUK', 'AFSC', 'YSOLEBSAI', 'MELNYCHUK', '2009-04-14', '2011-07-25 12:39:50', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIyfin.pdf', 'Thomas Wilderbuer, Tom.Wilderbuer@noaa.gov', 'catches from years 1987-2008 include discards', '', 1, 1, 'AD-CAM', 'F estimated from years 1978-2008 (after the 1977 regime shift)', '../spreadsheets/MELNYCHUK-YSOLEBSAI-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-YSOLEBSAI-1959-2008-MELNYCHUK', 'AFSC', 'YSOLEBSAI', 'MELNYCHUK', '2009-04-14', '2012-06-07 11:37:01', '1959-2008', 'http://www.afsc.noaa.gov/refm/docs/2008/BSAIyfin.pdf', 'Thomas Wilderbuer, Tom.Wilderbuer@noaa.gov', 'catches from years 1987-2008 include discards', '', 1, 1, 'AD-CAM', 'F estimated from years 1978-2008 (after the 1977 regime shift)', '../spreadsheets/MELNYCHUK-YSOLEBSAI-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-YSOLEBSAI-1959-2008-MELNYCHUK', 'ID', 'AFSC-YSOLEBSAI-2008-Yellowfin sole BSAI.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-YSOLEBSAI-1959-2008-MELNYCHUK', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-YSOLEBSAI-1959-2008-MELNYCHUK', 'A1', 'Wilderbuer T') ; 

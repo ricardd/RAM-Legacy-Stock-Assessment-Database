@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'DFO-NFLD', 'AMPL3Ps', 'PREFONTAINE', '2008-07-04', '2011-07-27 21:10:47', '1960-2005', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'For the recruitment time series the data from 1983 to 1995 are Campelen equivalents due to changes in fishing gear.', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'DFO-NFLD', 'AMPL3Ps', 'PREFONTAINE', '2008-07-04', '2012-06-07 11:36:34', '1960-2005', 'http://www.dfo-mpo.gc.ca/csas/csas/Publications/Pub_Index_e.htm', 'contact details ', 'For the recruitment time series the data from 1983 to 1995 are Campelen equivalents due to changes in fishing gear.', '', 0, 1, 'Unknown', 'no comments', '../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'ID', 'RES2005_069_e.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('DFO-NFLD-AMPL3Ps-1960-2005-PREFONTAINE', 'A1', 'Morgan, M.J.') ; 

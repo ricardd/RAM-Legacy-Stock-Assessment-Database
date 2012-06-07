@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'NWFSC', 'CHILISPCOAST', 'BRANCH', '2008-11-21', '2011-07-26 15:07:19', '1892-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ChilipepperDec17_2007_DBS.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR-summarybiomass.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'NWFSC', 'CHILISPCOAST', 'BRANCH', '2008-11-21', '2012-06-07 11:36:52', '1892-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/ChilipepperDec17_2007_DBS.pdf', 'John Field, John.Field@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-CHILISPCOAST-2007-editedDR-summarybiomass.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'ID', 'NWFSC-CHILISPCOAST-2007-Chilipepper CA OR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH', 'A1', 'Field JG') ; 
@@ -21,7 +21,7 @@ BEGIN;
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','M-1/yr','0.16', 'NULL', 'for females; for males 0.202') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','BH-h-dimensionless','0.57', 'NULL', 'point estimate from meta-analysis') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','Blim-MT','8666', 'NULL', 'min in this assessment') ; 
- INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','Bmsy-MT','12126', 'NULL', '') ; 
+ INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','SSBmsy-MT','12126', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','Fmsy-1/yr','0.112', 'NULL', '') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','SSB0-MT','33390', 'NULL', '(new)') ; 
  INSERT INTO srdb.bioparams VALUES('NWFSC-CHILISPCOAST-1892-2007-BRANCH','R0-E03','34490', 'NULL', '(new)') ; 

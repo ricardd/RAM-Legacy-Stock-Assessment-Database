@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-ESOLEPCOAST-1876-2007-BRANCH', 'NWFSC', 'ESOLEPCOAST', 'BRANCH', '2008-11-18', '2011-07-25 12:39:45', '1876-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/2007_English_sole_update_council.pdf', 'Ian Stewart Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-ESOLEPCOAST-1876-2007-BRANCH', 'NWFSC', 'ESOLEPCOAST', 'BRANCH', '2008-11-18', '2012-06-07 11:36:52', '1876-2007', 'http://www.pcouncil.org/groundfish/gfsafe1008/2007_English_sole_update_council.pdf', 'Ian Stewart Ian.Stewart@noaa.gov', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-ESOLEPCOAST-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ESOLEPCOAST-1876-2007-BRANCH', 'ID', 'NWFSC-ESOLEPCOAST-2007-EnglishSole.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ESOLEPCOAST-1876-2007-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-ESOLEPCOAST-1876-2007-BRANCH', 'A1', 'Stewart, Ian J.') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('IATTC-YFINEPAC-1975-2007-JENSEN', 'IATTC', 'YFINEPAC', 'JENSEN', '2008-04-21', '2011-07-25 12:39:09', '1975-2007', 'http://www.iattc.org/PDFFiles2/SAR8-YFT-ENG.pdf', 'NULL', 'Olaf Jensen - first spreadsheet', '', 1, 1, 'A-SCALA', 'no comments', '../spreadsheets/JENSEN-YFINEPAC-2006-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('IATTC-YFINEPAC-1975-2007-JENSEN', 'IATTC', 'YFINEPAC', 'JENSEN', '2008-04-21', '2012-06-07 11:35:36', '1975-2007', 'http://www.iattc.org/PDFFiles2/SAR8-YFT-ENG.pdf', 'NULL', 'Olaf Jensen - first spreadsheet', '', 1, 1, 'A-SCALA', 'no comments', '../spreadsheets/JENSEN-YFINEPAC-2006-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-YFINEPAC-1975-2007-JENSEN', 'ID', 'SAR8-YFT-ENG.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-YFINEPAC-1975-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('IATTC-YFINEPAC-1975-2007-JENSEN', 'A1', 'Maunder, Mark') ; 

@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'RIDEM', 'LOBSTERRI', 'COLLIE', '2008-04-12', '2011-07-25 12:39:40', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management <mark.gibson@dem.ri.gov>', 'data preliminary until stock-assessment document received', '', 1, 1, 'AAPM', 'fit to multiple abundance indices and tagging data', '../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.xls') ; 
+ INSERT INTO srdb.assessment VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'RIDEM', 'LOBSTERRI', 'COLLIE', '2008-04-12', '2012-06-07 11:36:42', '1959-2007', 'received from Contact', 'Mark Gibson, Rhode Island Department of Environmental Management <mark.gibson@dem.ri.gov>', 'data preliminary until stock-assessment document received', '', 1, 1, 'AAPM', 'fit to multiple abundance indices and tagging data', '../spreadsheets/COLLIE-LOBRIDEM-2008-editedDR-QAQC.xls') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'ID', 'NULL') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'A1', 'Gibson, Mark') ; 
@@ -8,8 +8,8 @@ BEGIN;
  INSERT INTO srdb.referencedoc VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE', 'PB', 'RIDEM') ; 
  INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','MAX-LEN-cm','80', 'NULL') ; 
  INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','Bmsy-MT','5662', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','Fmsy-1/yr','0.442', 'NULL') ; 
- INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','Fext-1/yr','0.884', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','Fmsy-1/T','0.442', 'NULL') ; 
+ INSERT INTO srdb.bioparams VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','Fext-1/T','0.884', 'NULL') ; 
  INSERT INTO srdb.timeseries VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','YEAR-yr',1959, 1959) ; 
  INSERT INTO srdb.timeseries VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','YEAR-yr',1960, 1960) ; 
  INSERT INTO srdb.timeseries VALUES('RIDEM-LOBSTERRI-1959-2007-COLLIE','YEAR-yr',1961, 1961) ; 

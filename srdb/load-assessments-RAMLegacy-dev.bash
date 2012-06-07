@@ -1,6 +1,6 @@
 #!/bin/bash
 # load spreadsheets that have passed QA/QC and have been processed for the Fish and Fisheries manuscript, started JUNE 2010
-# Last modified Time-stamp: <2012-06-06 14:54:31 (srdbadmin)>
+# Last modified Time-stamp: <2012-06-07 15:22:50 (srdbadmin)>
 # Modification history:
 # 2011-06-24:  modifying this a bit so that the calls to the database to load the data are written as a separate bash script, instead of calling psql from within the perl script that generates the sql equivalent of the spreadsheet contents
 
@@ -483,7 +483,6 @@ echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl  ../spreadsheets/PREFONTAINE-AMPL3Ps-2005-editedRP.xls >> RAM-Legacy-dev-sql.bash
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/PREFONTAINE-POLL4VWX5Zc-2006-editedDR-jbQAQC.xls >> RAM-Legacy-dev-sql.bash
-
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/Parma-PHALCANUS-NPacific-editedDR-QAQC.xls >> RAM-Legacy-dev-sql.bash
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
@@ -657,7 +656,7 @@ echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-JACKMACKCH-2010-editedDR.xls >> RAM-Legacy-dev-sql.bash ## update to the previous entry
 
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
-perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR-finalXS.xls >> RAM-Legacy-dev-sql.bash
+perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/STANTON-YTSNAPSATLC-2003-editedDR-final.xls >> RAM-Legacy-dev-sql.bash
 
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/IDOINE-NSHRIMP-2008-editedDR.xls >> RAM-Legacy-dev-sql.bash
@@ -844,7 +843,13 @@ perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/FAY-PTOOTHFISHMACCA-
 echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
 perl ../perl/srDB-load-xls-forv4.2-BATCH.pl ../spreadsheets/RICARD-CUSK-4X-2011.xls >> RAM-Legacy-dev-sql.bash
 
+# Spiny dogfish Pacific Coast
+echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
+perl ../perl/srdb-load-xls-v1-2012.pl ../spreadsheets/NWFSC-SDOGPCOAST-2011-editedDR.xls >> RAM-Legacy-dev-sql.bash
+
 # updated assessment for cowcod southern california
+echo -n "psql srdbdev -f " >> RAM-Legacy-dev-sql.bash
+perl ../perl/srdb-load-xls-v1-2012.pl ../spreadsheets/STACHURA-COWCODSCAL-2009-editedDR.xls  >> RAM-Legacy-dev-sql.bash
 #perl ../perl/ ../spreadsheets/ >> RAM-Legacy-dev-sql.bash
 
 

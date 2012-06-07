@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('MARAM-ANCHOSA-1984-2006-deMoor', 'MARAM', 'ANCHOSA', 'deMoor', '2009-01-16', '2011-07-25 12:39:06', '1984-2006', 'Assessment conducted personally', 'Carryn de Moor, c.l.demoor@telkomsa.net', '', '', 1, 1, 'SCA', '', '../spreadsheets/deMoor-SAAnchovy-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('MARAM-ANCHOSA-1984-2006-deMoor', 'MARAM', 'ANCHOSA', 'deMoor', '2009-01-16', '2012-06-07 11:35:31', '1984-2006', 'Assessment conducted personally', 'Carryn de Moor, c.l.demoor@telkomsa.net', '', '', 1, 1, 'SCA', '', '../spreadsheets/deMoor-SAAnchovy-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-ANCHOSA-1984-2006-deMoor', 'ID', 'ANCHOSA') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-ANCHOSA-1984-2006-deMoor', 'TY', 'PCOMM') ; 
  INSERT INTO srdb.referencedoc VALUES('MARAM-ANCHOSA-1984-2006-deMoor', 'A1', 'deMoor, Carryn L.') ; 

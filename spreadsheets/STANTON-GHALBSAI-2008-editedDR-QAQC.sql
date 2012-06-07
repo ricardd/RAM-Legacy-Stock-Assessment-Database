@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-GHALBSAI-1960-2009-STANTON', 'AFSC', 'GHALBSAI', 'STANTON', '2009-04-07', '2011-07-25 12:39:47', '1960-2009', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-GHALBSAI-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-GHALBSAI-1960-2009-STANTON', 'AFSC', 'GHALBSAI', 'STANTON', '2009-04-07', '2012-06-07 11:36:56', '1960-2009', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-GHALBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GHALBSAI-1960-2009-STANTON', 'ID', '2008_SAFE_BSAIturbot.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GHALBSAI-1960-2009-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-GHALBSAI-1960-2009-STANTON', 'A1', 'Ianelli, JN') ; 

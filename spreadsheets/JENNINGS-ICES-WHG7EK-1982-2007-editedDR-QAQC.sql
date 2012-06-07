@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('WGSSDS-WHITVIIek-1982-2007-JENNINGS', 'WGSSDS', 'WHITVIIek', 'JENNINGS', '2008-11-27', '2011-07-25 12:39:23', '1982-2007', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 1, 'XSA', 'NULL', '../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('WGSSDS-WHITVIIek-1982-2007-JENNINGS', 'WGSSDS', 'WHITVIIek', 'JENNINGS', '2008-11-27', '2012-06-07 11:36:05', '1982-2007', 'http://www.ices.dk', 'NULL', 'NULL', '', 1, 1, 'XSA', 'NULL', '../spreadsheets/JENNINGS-ICES-WHG7EK-1982-2007-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('WGSSDS-WHITVIIek-1982-2007-JENNINGS', 'ID', 'ICES-WGSSDS-2007') ; 
  INSERT INTO srdb.referencedoc VALUES('WGSSDS-WHITVIIek-1982-2007-JENNINGS', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('WGSSDS-WHITVIIek-1982-2007-JENNINGS', 'A1', 'Anonymous') ; 

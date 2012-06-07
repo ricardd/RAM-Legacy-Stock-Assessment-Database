@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'SEFSC', 'FTOOTHSHARATL', 'FAUCONNET', '2009-05-07', '2011-07-25 12:39:30', '1976-2005', 'http://www.sefsc.noaa.gov/sedar/', '', '', '', 1, 1, 'BBM', 'Bayesian Surplus Production Model', '../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'SEFSC', 'FTOOTHSHARATL', 'FAUCONNET', '2009-05-07', '2012-06-07 11:36:20', '1976-2005', 'http://www.sefsc.noaa.gov/sedar/', '', '', '', 1, 1, 'BBM', 'Bayesian Surplus Production Model', '../spreadsheets/FAUCONNET-FTOOTHSHARATL-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'ID', 'SmallcoastalAtl2007-SEFSC.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-FTOOTHSHARATL-1976-2005-FAUCONNET', 'A1', 'Brooks, Liz') ; 

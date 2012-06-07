@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NAFO-SC-YELL3LNO-1960-2009-BAUM', 'NAFO-SC', 'YELL3LNO', 'BAUM', '2009-05-28', '2011-08-30 14:49:56', '1960-2009', 'http://www.nafo.int/fisheries/frames/fishery.html', '', '', '', 1, 1, 'ASPIC', '', '../spreadsheets/BAUM-YELL3LNO-2008-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NAFO-SC-YELL3LNO-1960-2009-BAUM', 'NAFO-SC', 'YELL3LNO', 'BAUM', '2009-05-28', '2012-06-07 11:36:34', '1960-2009', 'http://www.nafo.int/fisheries/frames/fishery.html', '', '', '', 1, 1, 'ASPIC', '', '../spreadsheets/BAUM-YELL3LNO-2008-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-YELL3LNO-1960-2009-BAUM', 'ID', 'NAFO-YELL3LNO-2008') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-YELL3LNO-1960-2009-BAUM', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NAFO-SC-YELL3LNO-1960-2009-BAUM', 'A1', 'Parsons, D.M.') ; 

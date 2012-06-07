@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH', 'NWFSC', 'BLACKROCKNPCOAST', 'BRANCH', '2008-11-20', '2011-07-25 12:39:42', '1914-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/N_BlackRF_07_FullDoc_INCOMPLETE.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR-QAQC-revised.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH', 'NWFSC', 'BLACKROCKNPCOAST', 'BRANCH', '2008-11-20', '2012-06-07 11:36:45', '1914-2006', 'http://www.pcouncil.org/groundfish/gfsafe1008/N_BlackRF_07_FullDoc_INCOMPLETE.pdf', '', '', '', 1, 1, 'SS2', '', '../spreadsheets/BRANCH-BLACKROCKNPCOAST-2007-editedDR-QAQC-revised.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH', 'ID', 'NWFSC-BLACKROCKNPCOAST-2007-Black rockfish NOR WA.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-BLACKROCKNPCOAST-1914-2006-BRANCH', 'A1', 'Wallace F.R.') ; 

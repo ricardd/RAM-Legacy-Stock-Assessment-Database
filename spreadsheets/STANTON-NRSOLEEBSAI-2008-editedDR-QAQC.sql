@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('AFSC-NRSOLEEBSAI-1971-2008-STANTON', 'AFSC', 'NRSOLEEBSAI', 'STANTON', '2009-04-06', '2011-07-25 12:39:47', '1971-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-NRSOLEEBSAI-2008-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('AFSC-NRSOLEEBSAI-1971-2008-STANTON', 'AFSC', 'NRSOLEEBSAI', 'STANTON', '2009-04-06', '2012-06-07 11:36:55', '1971-2008', 'http://www.afsc.noaa.gov/refm/Stocks/assessments.htm', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-NRSOLEEBSAI-2008-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NRSOLEEBSAI-1971-2008-STANTON', 'ID', '2008_SAFE_BSAIrocksole.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NRSOLEEBSAI-1971-2008-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('AFSC-NRSOLEEBSAI-1971-2008-STANTON', 'A1', 'Wliderbuer, TK') ; 

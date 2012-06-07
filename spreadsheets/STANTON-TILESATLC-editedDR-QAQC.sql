@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'SEFSC', 'TILESATLC', 'STANTON', '2009-05-29', '2011-07-25 12:39:56', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-TILESATLC-editedDR-QAQC.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'SEFSC', 'TILESATLC', 'STANTON', '2009-05-29', '2012-06-07 11:37:13', '1961-2002', 'http://www.sefsc.noaa.gov/sedar/', 'contact details ', '', '', 1, 1, 'SCA', 'no comments', '../spreadsheets/STANTON-TILESATLC-editedDR-QAQC.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'ID', '2004-SEDAR-deepwatersnappergrouper.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SEFSC-TILESATLC-1961-2002-STANTON', 'A1', 'SEDAR 4 Stock Assessment Panel') ; 

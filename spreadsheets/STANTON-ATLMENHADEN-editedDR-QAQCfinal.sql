@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NMFS-MENATLAN-1940-2005-STANTON', 'NMFS', 'MENATLAN', 'STANTON', '2009-06-10', '2011-07-27 15:47:54', '1940-2005', 'http://www.asmfc.org/speciesDocuments/menhaden/reports/stockAssessments/2006StockAssessmentReport.pdf', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-ATLMENHADEN-editedDR-QAQCfinal.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NMFS-MENATLAN-1940-2005-STANTON', 'NMFS', 'MENATLAN', 'STANTON', '2009-06-10', '2012-06-07 11:36:21', '1940-2005', 'http://www.asmfc.org/speciesDocuments/menhaden/reports/stockAssessments/2006StockAssessmentReport.pdf', 'contact details ', '', '', 1, 1, 'AD-CAM', 'no comments', '../spreadsheets/STANTON-ATLMENHADEN-editedDR-QAQCfinal.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NMFS-MENATLAN-1940-2005-STANTON', 'ID', 'Atl.Menhaden-ASMFC-2006') ; 
  INSERT INTO srdb.referencedoc VALUES('NMFS-MENATLAN-1940-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NMFS-MENATLAN-1940-2005-STANTON', 'A1', 'NA') ; 

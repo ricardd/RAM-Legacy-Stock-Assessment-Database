@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('SWFSC-GOPHERSPCOAST-1965-2005-STANTON', 'SWFSC', 'GOPHERSPCOAST', 'STANTON', '2009-05-20', '2011-07-25 12:39:49', '1965-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'North of Point conception only', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-WCgopher-2005-editedDR-QAQC-longtimeseries.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('SWFSC-GOPHERSPCOAST-1965-2005-STANTON', 'SWFSC', 'GOPHERSPCOAST', 'STANTON', '2009-05-20', '2012-06-07 11:36:58', '1965-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'North of Point conception only', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-WCgopher-2005-editedDR-QAQC-longtimeseries.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-GOPHERSPCOAST-1965-2005-STANTON', 'ID', '2005-SAFE-Wcgopher.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-GOPHERSPCOAST-1965-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('SWFSC-GOPHERSPCOAST-1965-2005-STANTON', 'A1', 'Key, Meisha') ; 

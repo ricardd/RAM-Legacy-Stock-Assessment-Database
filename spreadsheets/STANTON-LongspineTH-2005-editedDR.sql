@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NWFSC-LSTHORNHPCOAST-1962-2005-STANTON', 'NWFSC', 'LSTHORNHPCOAST', 'STANTON', '2009-05-22', '2011-07-25 12:39:56', '1962-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'SOUTH part of CAL only. Separate assessment for North of Point Conception', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-LongspineTH-2005-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NWFSC-LSTHORNHPCOAST-1962-2005-STANTON', 'NWFSC', 'LSTHORNHPCOAST', 'STANTON', '2009-05-22', '2012-06-07 11:37:14', '1962-2005', 'http://www.pcouncil.org/groundfish/gfsafe0406/gfsafe0406.html', 'contact details ', 'SOUTH part of CAL only. Separate assessment for North of Point Conception', '', 1, 1, 'SS2', 'no comments', '../spreadsheets/STANTON-LongspineTH-2005-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LSTHORNHPCOAST-1962-2005-STANTON', 'ID', '2005-SAFE-Longspine.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LSTHORNHPCOAST-1962-2005-STANTON', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NWFSC-LSTHORNHPCOAST-1962-2005-STANTON', 'A1', 'Fay, Gavin') ; 

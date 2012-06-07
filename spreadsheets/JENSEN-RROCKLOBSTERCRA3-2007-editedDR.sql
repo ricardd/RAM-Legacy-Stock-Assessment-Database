@@ -1,5 +1,5 @@
 BEGIN;
- INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA3', 'JENSEN', '2009-04-07', '2011-07-29 14:24:15', '1945-2007', 'received from contact', 'Pall Starr - paul@starrfish.net', 'http://fs.fish.govt.nz/Page.aspx?pk=113&dk=21897', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA3-2007-editedDR.xls', '999') ; 
+ INSERT INTO srdb.assessment VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN', 'NZMFishLOBSTERWG', 'RROCKLOBSTERCRA3', 'JENSEN', '2009-04-07', '2012-06-07 11:36:09', '1945-2007', 'received from contact', 'Pall Starr - paul@starrfish.net', 'http://fs.fish.govt.nz/Page.aspx?pk=113&dk=21897', '', 1, 0, 'MSLM', '', '../spreadsheets/JENSEN-RROCKLOBSTERCRA3-2007-editedDR.xls', '999') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN', 'ID', '09_23_FAR.pdf') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN', 'TY', 'RPRT') ; 
  INSERT INTO srdb.referencedoc VALUES('NZMFishLOBSTERWG-RROCKLOBSTERCRA3-1945-2007-JENSEN', 'T1', 'The 2008 stock assessment of rock lobsters (Jasus edwardsii) in CRA3 ') ; 
